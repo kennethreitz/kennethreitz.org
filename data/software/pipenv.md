@@ -1,4 +1,4 @@
-# Pipenv
+# pipenv
 
 [Pipenv](https://pipenv.pypa.io/) is a tool for managing Python dependencies. It is a wrapper around pip and virtualenv.
 
