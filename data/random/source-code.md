@@ -332,6 +332,6 @@ if __name__ == "__main__":
 
 ## Notes
 
-- There are hacks in places, and I'm not proud of them, but it works for now. I'll clean it up later.
+- There are hacks in places (mostly around photo hosting), and I'm not proud of them, but it works for now. I intend to clean it up later.
 - Claude 3.5 Sonnet wrote most of the code for this, with my direction.
 - The biggest challenge with hosting this site is the [11,000 images](/photos) it contains.
