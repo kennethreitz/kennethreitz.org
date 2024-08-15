@@ -17,8 +17,5 @@ FROM python:3.12.4-slim-bookworm
 WORKDIR /app
 COPY --from=builder /app/.venv .venv/
 
-# Install fortune.
-RUN apt-get update && apt-get install -y fortunes
-
 COPY . .
 CMD ["/app/.venv/bin/fastapi", "run", "tuftedoc.py"]
