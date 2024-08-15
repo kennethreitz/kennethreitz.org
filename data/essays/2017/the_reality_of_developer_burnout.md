@@ -1,13 +1,13 @@
 # The Reality of Developer Burnout
 
-    ![b6e22-image-asset.jpeg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666458106-WF5MS80XRAZB43D9JLTF/ac3d5-b6e22-image-asset.jpeg)     Burnout is, unfortunately, a very real phenomenon in software development — especially when creating and maintaining open source projects with large numbers of users. I've experienced it, and I wanted to share my personal experience with the subject. 
+![b6e22-image-asset.jpeg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666458106-WF5MS80XRAZB43D9JLTF/ac3d5-b6e22-image-asset.jpeg)     Burnout is, unfortunately, a very real phenomenon in software development — especially when creating and maintaining open source projects with large numbers of users. I've experienced it, and I wanted to share my personal experience with the subject. 
 
  It happens to everyone that writes code all day long — the sudden feeling of "I'd rather do anything else than this right now" — even though writing software is one of your favorite activities in the world. 
 
- 
+
 > You suddenly realize that you've been eating ice cream for three meals every day for years on end. You're tired of it; you don't want to see ice cream any more. People who eat ice cream occasionally won't understand this; how could you possibly want less ice cream?!
 
- 
+
 > — Gary Bernhardt
 
  I have some personal experience with software development burnout, and some tips for recognizing it, avoiding it, and simply dealing with it.
@@ -18,10 +18,10 @@
 
  This is what I wanted, right?
 
- 
+
 > Burnout is sneaky. It doesn’t usually announce itself. It slowly grinds at you until these feelings become the new normal, and at that point it’s not easy to dig yourself out of the hole.
 
- 
+
 > — Zach Holman
 
  ## The 410 GONE Situation
@@ -61,5 +61,3 @@
  I don't code recreationally as much as I'd like to, but am starting to once again. I don't feel like I'm missing out on anything, but my evenings are not 100% filled with code anymore, as they once were.
 
  Open source is all about collaboration. If you're finding yourself burned out, maybe you need to find new ways to collaborate with others in helping you do what you do best. You'll find that there are others who are in a position to help you do what you do best by doing what they do best too. 
-
-  
