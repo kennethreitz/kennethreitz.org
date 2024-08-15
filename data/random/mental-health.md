@@ -1,17 +1,29 @@
-# Mental Health
+# Mental Health Sucks
 
-I have been [fairly public](/essays/2016/mentalhealtherror_an_exception_occurred)
-about my mental health struggles in the past. I have been diagnosed with a number
-of things, primarily *Bipolar I* and *Schizoaffective Disorder*.
+I have been [fairly transparent](/essays/2016/mentalhealtherror_an_exception_occurred)
+about my mental health struggles over the years. I have been diagnosed with a number
+of things, primarily *Bipolar I* and *Schizoaffective Disorder*. A lot of people
+in my life are also bipolar, so I have a lot of experience with it.
 
-I have been hospitalized an unfortunate number of times, and have been on a number of medications.
+First off, if this is your first time reading about mental health, I want to say that
+it's okay to not be okay. It's okay to be struggling. It's okay to be in pain. It's okay.
 
-## Helpful Things (for myself):
+Secondly, I want to say that I am not a doctor, and I am not qualified to give medical advice. I am just a person who has been through a lot of stuff, and I want to share my experiences with you.
+
+## My Story:
+
+I have been hospitalized an unfortunate number of times, and have been on a number of medications. My struggles started
+in 2015, and I have been on a journey ever since.
+
+### What Works for Me
 
 Here are some things that have helped me:
 
 - **Avoid Stress**:
-  - I try to avoid stress as much as possible. Unfortunately, this is not always possible.
+  - I try to avoid stress as much as possible.
+  - Unfortunately, this is not always realistic.
+  - CBT (Cognitive Behavioral Therapy) has been helpful for me in this regard.
+  - When nothing else is working—believe it or not—**splashing cold water on your face** can help reset your nervous system. It triggers what is known as a "Diver's Reflex".
 - **Sleep:**
   - I try to get enough sleep, every night. This is crucial for me.
   - Bipolar disorder is very easily triggered by lack of sleep.
@@ -20,6 +32,7 @@ Here are some things that have helped me:
   - If you're unaware, this is good general life advice, too.
 - **Support Network:**
   - I have a good support network of friends and family that know about my condition and how to help me.
+  - Maintaining these relationships, and the complexities that come with them, is a full-time job.
 - **Medication:**
   - It took me a long time to find the right medication. I had to try a lot of different things, sometimes multiple times.
   - [Abilify](https://www.abilify.com) is my saving grace, these days. I take it once a month as an injectable.
