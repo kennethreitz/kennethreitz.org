@@ -10,6 +10,7 @@ from contextlib import asynccontextmanager
 from datetime import datetime
 from typing import List, Optional, Tuple
 
+import background
 import boto3
 import mistune
 from fastapi import FastAPI, HTTPException, Request
@@ -19,6 +20,7 @@ from fastapi.templating import Jinja2Templates
 from PIL import Image
 from PIL.ExifTags import TAGS
 from pydantic import BaseModel, Field
+
 
 # Set up logging
 logging.basicConfig(
@@ -91,6 +93,7 @@ class Breadcrumb(BaseModel):
 
 
 # Helper functions
+@background.task
 def download_and_extract_s3_zips():
     s3 = boto3.client("s3")
 
