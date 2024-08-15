@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ title }} — kennethreitz.org</title>
+        <style>
+            .title-breadcrumbs {
+                font-size: 1.4rem;
+                margin-bottom: 1em;
+            }
+            .title-breadcrumbs a {
+                text-decoration: none;
+                color: #111;
+            }
+            .title-breadcrumbs .separator {
+                margin: 0 0.5em;
+                color: #aaa;
+            }
+            .image-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-bottom: 2rem;
+            }
+            .image-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .image-item a {
+                display: block;
+                width: 100%;
+                height: 200px;
+                overflow: hidden;
+                border-radius: 4px;
+                transition: transform 0.3s ease;
+            }
+            .image-item a:hover {
+                transform: scale(1.05);
+            }
+            .image-item img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .image-item p {
+                margin-top: 0.5rem;
+                text-align: center;
+                font-size: 0.9rem;
+            }
+            .exif-data {
+                font-size: 0.8rem;
+                color: #666;
+                text-align: left;
+                margin-top: 0.5rem;
+            }
+            .exif-data p {
+                margin: 0;
+                line-height: 1.2;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    </head>
+    <body>
+        <article>
+            <h1 class="title-breadcrumbs">
+                <a href="/">kennethreitz.org</a>
+                {% for crumb in breadcrumbs %}
+                <span class="separator">/</span>
+                <a href="{{ crumb.url }}">{{ crumb.title or crumb.name }}</a>
+                {% endfor %}
+            </h1>
+            {% if files %}
+                {% set image_files = files | selectattr("is_image", "equalto", true) | list %}
+                {% set non_image_files = files | selectattr("is_image", "equalto", false) | list %}
+
+                {% if image_files %}
+                <div class="image-grid">
+                    {% for file in image_files %}
+                    <div class="image-item">
+                        <a href="{{ file.url }}" data-fancybox="gallery" data-caption="{{ file.title or file.name }}">
+                            <img src="{{ file.url }}" alt="{{ file.title or file.name }}" loading="lazy">
+                        </a>
+
+                        {% if file.exif_data %}
+                            <div class="exif-data">
+                                {% for key, value in file.exif_data.items() %}
+                                    {% if value and value != "Unknown" %}
+                                        <p>{{ key }}: {{ value }}</p>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                {% if non_image_files %}
+                <ul>
+                    {% for file in non_image_files %}
+                    <li>
+                        {% if file.is_dir %}<strong>{% endif %}
+                        <a href="{{ file.url }}">{{ file.title or file.name }}</a>
+                        {% if file.is_dir %}</strong>{% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            {% endif %} {% if content %}
+            <section>{{ content | safe }}</section>
+            {% endif %}
+        </article>
+
+        <script type="text/javascript">
+            var _gauges = _gauges || [];
+            (function() {
+                var t   = document.createElement('script');
+                t.type  = 'text/javascript';
+                t.async = true;
+                t.id    = 'gauges-tracker';
+                t.setAttribute('data-site-id', '65529a9abd1a3b3101979d52');
+                t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+                t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(t, s);
+            })();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script>
+            Fancybox.bind("[data-fancybox]", {
+                // Your custom options
+            });
+        </script>
+    </body>
+</html>

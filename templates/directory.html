@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}{% if is_root %}Home{% else %}Directory: {{ path }}{% endif %}{% endblock %}
+
+{% block nav %}
+<nav class="breadcrumbs">
+    {% if is_root %}
+        <strong>/</strong>
+    {% else %}
+        <a href="/">.</a>
+        {% if breadcrumbs %}
+            {% for crumb in breadcrumbs %}
+                / <a href="{{ crumb.get_url() }}">{{ crumb.path.name }}</a>
+            {% endfor %}
+        {% endif %}
+        / {{ path.name }}
+    {% endif %}
+</nav>
+<ul>
+    {% for child in children %}
+        <li><a href="{{ child.get_url() }}"><strong>{{ child.path.name }}</strong></a></li>
+    {% endfor %}
+    {% for post in posts %}
+        <li><a href="{{ post.slug }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+{% block content %}
+
+{% if index %}
+    <hr />
+    <h1>{{ index.title }}</h1>
+
+    {{ index.render() | safe }}
+
+{% endif %}
+{% endblock %}

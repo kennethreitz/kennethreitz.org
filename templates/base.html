@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}kennethreitz.org — {% endblock %}</title>
+    <link rel="stylesheet" href="/static/tufte.css">
+</head>
+<body>
+    <header>
+        <h2><a href="/">kennethreitz.org</a></h2>
+        {% block nav %}{% endblock %}
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

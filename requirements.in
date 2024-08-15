@@ -1,0 +1,11 @@
+openai
+pydantic
+fastapi[standard]
+uvicorn
+mistune
+pyyaml
+pydantic
+fastapi
+pygments
+boto3
+pillow

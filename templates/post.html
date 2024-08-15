@@ -1,0 +1,15 @@
+{% extends "base.html" %} {% block title %}{{ title }}{% endblock %}
+
+{% block nav %}
+<nav class="breadcrumbs">
+    {% for crumb in breadcrumbs %}
+        / <a href="/{{ crumb.path.name }}">{{ crumb.path.name }}</a>
+    {% endfor %}
+    / {{ path.name }}
+</nav>
+{% endblock %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+{{ content | safe }}
+{% endblock %}
