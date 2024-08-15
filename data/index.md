@@ -1,7 +1,7 @@
 This website is a work–in–progress; it is a place where I share my thoughts, ideas, and projects with the world.
 Thanks for stopping by!
 
-I am a [software engineer](/projects), [writer](/essays), and [speaker](/talks), and I am passionate about technology, open source, and education.
+I am a [software engineer](/software), [writer](/essays), and [speaker](/talks), and I am passionate about technology, open source, and education.
 Previously, I was very interested in [photography](/photos) and [music](/albums) as well.
 
 Previously,
