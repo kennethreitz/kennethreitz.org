@@ -1,6 +1,6 @@
 # Understanding Ableton Push
 
-    ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666528644-BOZYFZX5APSX9DQ8712F/fc9ca-img.jpg)         ![fd25d-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666449460-BWDUQ2T0HVY62IB3EYJW/80ccb-fd25d-img.jpg)       ![Push and Cans_8935067194_o](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666462700-YSVN9CGVU229GWWDVZ73/06b5d-50b70-push-and-cans_8935067194_o.jpg)   Since I was a young child, I’ve loved music. I became a percussionist early on and dedicated over a decade of my life to my beloved drum kit. Today, I own a growing number of synths and keyboards, but my musical mind continues to gravitate around the concepts of rhythm and geometry. I find myself constrained and occasionally frustrated by the layout of a standard keyboard.
+ ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666528644-BOZYFZX5APSX9DQ8712F/fc9ca-img.jpg)      ![fd25d-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666449460-BWDUQ2T0HVY62IB3EYJW/80ccb-fd25d-img.jpg)    ![Push and Cans_8935067194_o](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666462700-YSVN9CGVU229GWWDVZ73/06b5d-50b70-push-and-cans_8935067194_o.jpg)   Since I was a young child, I’ve loved music. I became a percussionist early on and dedicated over a decade of my life to my beloved drum kit. Today, I own a growing number of synths and keyboards, but my musical mind continues to gravitate around the concepts of rhythm and geometry. I find myself constrained and occasionally frustrated by the layout of a standard keyboard.
 
  I eventually explored the Chapman Stick and its novel Matched Reciprocal Tuning. This tuning allows you to discover music geometrically. Play the same shape with both hands and the chords will be inverse of one another. From there, you can explore by simply moving up, down, left, right, diagonally, etc. It’s incredible.
 
@@ -47,5 +47,3 @@
  * [Hands\-on Review of the Ableton Push](http://www.sam-mallery.com/2013/05/hands-on-review-of-the-ableton-push/) \- [What Does it Mean to Be an Electronic Instrument?](http://createdigitalmusic.com/2013/03/what-does-it-mean-to-be-an-electronic-instrument/) \- [Playing Notes and Chords with Push](http://www.youtube.com/watch?v=CS2r13xX-nk)
 
  Order one. [Order one now](http://www.amazon.com/gp/product/B00AZ98TVS/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00AZ98TVS&linkCode=as2&tag=bookforkind-20).
-
-  

@@ -1,12 +1,12 @@
 # Leica 28mm Summaron-M f/5.6 Lens Review
 
-    ![LEICA - Summaron-M 28mm f/5.6 Lens](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666492713-ME2XS491GU1HKYW6K0OT/822fe-19adb-35143736_10156274590300132_3695287821645381632_n.jpg)![35143736_10156274590300132_3695287821645381632_n.jpg]()    
+![LEICA - Summaron-M 28mm f/5.6 Lens](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666492713-ME2XS491GU1HKYW6K0OT/822fe-19adb-35143736_10156274590300132_3695287821645381632_n.jpg)![35143736_10156274590300132_3695287821645381632_n.jpg]()
 
     LEICA
 
      **Summaron\-M 28mm f/5\.6 Lens**
 
-     [Buy Now](https://www.amazon.com/LeicaSummaron-M-28mm-f-5-6-Lens/dp/B06WWQJ4W1/ref=sr_1_1?ie=UTF8&qid=1529491863&sr=8-1&keywords=summaron-m)    
+     [Buy Now](https://www.amazon.com/LeicaSummaron-M-28mm-f-5-6-Lens/dp/B06WWQJ4W1/ref=sr_1_1?ie=UTF8&qid=1529491863&sr=8-1&keywords=summaron-m)
 
   **This little lens is absolute magic.**
 
@@ -14,11 +14,11 @@
 
  *This is the ultimate street photography lens.*
 
- \[vimeo 275075352 w\=640 h\=360]   ![Selfie (taken indoors) with the new limited Leica 28mm Summaron-M f/5.6.](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666461219-5602851WT4PRZ6BBMZHS/0501e-c931f-l1001557.jpg)![Selfie (taken indoors) with the new limited Leica 28mm Summaron-M f/5.6.]() 
+ \[vimeo 275075352 w\=640 h\=360]![Selfie (taken indoors) with the new limited Leica 28mm Summaron-M f/5.6.](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666461219-5602851WT4PRZ6BBMZHS/0501e-c931f-l1001557.jpg)![Selfie (taken indoors) with the new limited Leica 28mm Summaron-M f/5.6.]()
 
   Selfie (taken indoors) with the new limited Leica 28mm Summaron\-M f/5\.6\.
 
-  
+
 
    ## The Perfect Street Photography Lens
 
@@ -41,14 +41,8 @@
 
  *I highly recommend this lens for street photographers.*
 
- 
+
 
 ---
 
  ## [Learn more about the](https://amzn.to/2ytBm5q) [**Summaron\-M 28** on Amazon](https://amzn.to/2ytBm5q)[.](https://amzn.to/2ytBm5q)
-
- 
-
-
-
- 

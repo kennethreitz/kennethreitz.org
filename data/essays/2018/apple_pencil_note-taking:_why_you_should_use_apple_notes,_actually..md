@@ -43,7 +43,7 @@
 
  So, if you dismissed Apple Notes because you didn't see a bunch of settings, think again.
 
-  
+
 
  * **Excellent organizational abilities**. Apple Note's folder (and sub\-folder) structure allows you to build a very complex (if needed) heirarchy for storing your notes. The only application that has a comparable organizational system is OneNote.
 * **(Perfect) Syncing**. Instantaneous real\-time syncing of all notes to all devices. First\-class client available on all Apple devices. Can't complain there, in any way.
@@ -54,7 +54,7 @@
 * **The marker tool is not a marker, it's a highlighter.** It renders its strokes *beneath*any ink that has been laid down, and is clearly not a marker after all, but a highlighter.
 * **Color constraints**. Apple Notes, in the default "Handwritten Note" mode, gives you an option of five (5\) colors. There are no other colors. You cannot change them. This is excellent — let me tell you why. The color selection is as follows: black, blue, green, yellow, and red. The red is not the tone of red I typically invoke, and this bothered me at first, until I took a closer look at it's relation to the other available colors. It's a shade of red that both opposes the shade of blue and green available, as well as compliments the yellow shade. These colors were very carefully thought out and designed, and I'm very impressed — even the order in which they are presented in the UI is clearly carefully thought out. Let me show you what I mean:.
 
-   ![Pasted Graphic 21.png](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666509837-3FF96IKUSULXYP8MG34Z/be984-4803e-pastedgraphic21.png)![Pasted Graphic 21.png]()   These are not five random tones. These are tools for thought exploration that interweave and interact with each–other, in subtle ways. Apple Notes is a seriously well–engineered application for inking, and the best one available today
+![Pasted Graphic 21.png](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666509837-3FF96IKUSULXYP8MG34Z/be984-4803e-pastedgraphic21.png)![Pasted Graphic 21.png]()   These are not five random tones. These are tools for thought exploration that interweave and interact with each–other, in subtle ways. Apple Notes is a seriously well–engineered application for inking, and the best one available today
 
  ## **The Downsides**
 
@@ -69,7 +69,7 @@
 
  Thanks for your time, and I hope you enjoyed this deep overview of inking technologies, and the shocking conclusion that Apple Notes is superior to any app in the App Store. 
 
- 
+
 
 ---
 
@@ -77,12 +77,4 @@
 
  P.S. Here are my (sloppy to you, organized to me) notes for creating this blog post, if you're interested. Note the use of the pencil to embellish and augment the pen ink. Also the occasional use of those opposing/complimentary color tones.
 
-   ![page1image1797120.png](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666463695-4FISBXZZ87RZAVMW9K13/11427-abc00-page1image1797120.png)![page1image1797120.png]()    
-
-  
-
-  
-
-  
-
-  
+![page1image1797120.png](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666463695-4FISBXZZ87RZAVMW9K13/11427-abc00-page1image1797120.png)![page1image1797120.png]()

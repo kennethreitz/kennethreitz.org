@@ -1,6 +1,6 @@
 # Understanding Empathy, Narcissism, and Mental Illness
 
-    ![076C7D2B-B828-4945-A17A-50C79849C377.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666470310-X9HR817ZQTD8D0WZA7J4/253aa-e6dc4-076c7d2b-b828-4945-a17a-50c79849c377.jpg)![076C7D2B-B828-4945-A17A-50C79849C377.JPG]()   I have [written previously](http://www.kennethreitz.org/essays/purging-the-unexpected-negative-a-narcissistic-partner) about my experience with a traumatic relationship with a narcissist. I am currently in a very good place regarding this relationship—all loose ends tied and closed, good relations present, no communication. No other relationship I've had in life, so far, has taught me directly quite as much about human experience—so, now that I've healed from the relationship, I can say that I am thankful for it.
+ ![076C7D2B-B828-4945-A17A-50C79849C377.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666470310-X9HR817ZQTD8D0WZA7J4/253aa-e6dc4-076c7d2b-b828-4945-a17a-50c79849c377.jpg)![076C7D2B-B828-4945-A17A-50C79849C377.JPG]()   I have [written previously](http://www.kennethreitz.org/essays/purging-the-unexpected-negative-a-narcissistic-partner) about my experience with a traumatic relationship with a narcissist. I am currently in a very good place regarding this relationship—all loose ends tied and closed, good relations present, no communication. No other relationship I've had in life, so far, has taught me directly quite as much about human experience—so, now that I've healed from the relationship, I can say that I am thankful for it.
 
  ## Lack of Empathy
 
@@ -25,5 +25,3 @@
 
  * [Purging the Negative: a Narcissistic Partner](http://www.kennethreitz.org/essays/purging-the-unexpected-negative-a-narcissistic-partner)
 * [MentalHealthError: an exception occurred.](http://www.kennethreitz.org/essays/mentalhealtherror-an-exception-occurred)
-
-  

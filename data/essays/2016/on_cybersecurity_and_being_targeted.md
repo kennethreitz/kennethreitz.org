@@ -1,6 +1,6 @@
 # On Cybersecurity and Being Targeted
 
-    ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666485721-LW2FU5FXYFNYGV55O5SE/6079b-e0fbe-image-asset.jpeg)![]()   Last month, I was the subject of a targeted cyber attack. Someone went through substantial lengths to attempt to gain access to my GitHub account, but were thankfully unsuccessful because two\-factor authentication was enabled. 
+ ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666485721-LW2FU5FXYFNYGV55O5SE/6079b-e0fbe-image-asset.jpeg)![]()   Last month, I was the subject of a targeted cyber attack. Someone went through substantial lengths to attempt to gain access to my GitHub account, but were thankfully unsuccessful because two\-factor authentication was enabled. 
 
  Account security is something that I’ve always considered myself to be rather pragmatic about — I use randomly generated passwords for extremely important accounts and services, like GitHub, especially if they are likely to be subject to systematic intrusion attempts. 
 
@@ -44,5 +44,3 @@
 
  * Knowing people is very useful.
 * Turn on two\-factor authentication. **Right now**.
-
-  

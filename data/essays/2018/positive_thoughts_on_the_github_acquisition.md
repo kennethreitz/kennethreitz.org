@@ -1,6 +1,6 @@
 # ​Positive Thoughts on the GitHub Acquisition
 
-    ![05EB4CE5-8100-4DFC-96DE-0E56F8F4923D.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666529911-H2K4LYHY9S8VUZYPIUGD/feb42-20197-05eb4ce5-8100-4dfc-96de-0e56f8f4923d.jpg)![05EB4CE5-8100-4DFC-96DE-0E56F8F4923D.JPG]()   I met (and became friends with) the GitHub crew when they were merely 8 employees, hacking away on their newly popular product. I’ve followed the team/product extremely closely over the years, with keen interest, and maintain relationships with some of the founders.
+ ![05EB4CE5-8100-4DFC-96DE-0E56F8F4923D.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666529911-H2K4LYHY9S8VUZYPIUGD/feb42-20197-05eb4ce5-8100-4dfc-96de-0e56f8f4923d.jpg)![05EB4CE5-8100-4DFC-96DE-0E56F8F4923D.JPG]()   I met (and became friends with) the GitHub crew when they were merely 8 employees, hacking away on their newly popular product. I’ve followed the team/product extremely closely over the years, with keen interest, and maintain relationships with some of the founders.
 
  I’m also one of the top users on GitHub (depending on how you measure) — so I feel as though my opinion on this acquisition is worth sharing to the community.
 
@@ -20,7 +20,7 @@
 
  ## Git Community Implications
 
- Because of the number of community members upset about the acquisition, a number of people are looking to host their code/projects elsewhere. 
+ Because of the number of community members upset about the acquisition, a number of people are looking to host their code/projects elsewhere.
 
  I think this is actually very healthy for the git ecosystem. Git is a bit over\-saturated with GitHub usage — it’s a completely decentralized system, and people should be encouraged to run their own infrastructure for it, instead of “just use GitHub”.
 
@@ -30,8 +30,6 @@
 
  Anyone looking at [GitLab](https://about.gitlab.com) as a replacement — I heavily recommend looking into running a Phabricator instance instead. It’s utterly fantastic software — Facebook uses it to manage their entire engineering workforce.
 
- I personally run a [Phabricator](https://www.phacility.com/phabricator/) instance over at [code.kennethreitz.org](https://code.kennethreitz.org/) that mirrors all of my important repositories. In addition, I use it for higher\-level project management. 
+ I personally run a [Phabricator](https://www.phacility.com/phabricator/) instance over at [code.kennethreitz.org](https://code.kennethreitz.org/) that mirrors all of my important repositories. In addition, I use it for higher\-level project management.
 
- ***So — in closing — have no fear \& check out Phabricator.*** 
-
-  
+ ***So — in closing — have no fear \& check out Phabricator.***

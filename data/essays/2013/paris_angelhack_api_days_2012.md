@@ -1,6 +1,6 @@
 # Paris, AngelHack, API Days 2012
 
-    ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666484841-DR8IKQXGXAFG9BW5HFOE/5e66e-img.jpg)         ![102ec-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666449010-SVGEJ9KYR72P8SDR6IHG/de8f5-102ec-img.jpg)       ![8241038176_f35609da67_c](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666461705-TIUUE9NK0OMUMCYLU0BM/050c4-eb9dd-8241038176_f35609da67_c.jpg)   I just returned from a lovely trip to Paris, France. I was there for a Heroku\-sponsored hackathon: AngelHack:Paris.
+ ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666484841-DR8IKQXGXAFG9BW5HFOE/5e66e-img.jpg)      ![102ec-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666449010-SVGEJ9KYR72P8SDR6IHG/de8f5-102ec-img.jpg)    ![8241038176_f35609da67_c](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666461705-TIUUE9NK0OMUMCYLU0BM/050c4-eb9dd-8241038176_f35609da67_c.jpg)   I just returned from a lovely trip to Paris, France. I was there for a Heroku\-sponsored hackathon: AngelHack:Paris.
 
  ## Getting There
 
@@ -78,7 +78,7 @@
 
  ![image](http://farm9.staticflickr.com/8498/8255083478_737485d791_c.jpg) Due to some complicated circumstances, I had the opportunity to give an impromptu keynote. Despite only eight hours of advance notice, it went fairly well. I did make a few [comical mistakes](https://twitter.com/steveklabnik/statuses/275552778070413312), however:
 
- 
+
 > My name is Kenneth Reitz, and I work for a subsidiary of Heroku named Salesforce. Err, I mean..."
 
  Lots of suits. Lots of sales. Lots of hackers. Lots of buzzwords. Lots of enterprise.
@@ -100,53 +100,3 @@
  Regardless, it was a fairly uneventful flight. I got a good photo of two strangers cuddling while watching a film on a MacBook:
 
  ![image](http://farm9.staticflickr.com/8341/8255097162_7afe7763ea_c.jpg) Funny how technology brings us together.
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 

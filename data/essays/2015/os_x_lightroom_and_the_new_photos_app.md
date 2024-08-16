@@ -28,11 +28,11 @@
 
  Once the fully rendered JPEGs are available, I import these files into Photos App, where each Album has a nice home based on the type of photos it contains. 
 
-   ![Screen Shot 2015-04-17 at 3.34.46 PM.jpg](http://static1.squarespace.com/static/665498111876725f7613f1e6/t/6680065e1022a0098af05aaf/1719666270667/9e46f-20e5b-screenshot2015-04-17at3.34.46pm.jpg.46pm.jpg.46pm.jpg.46pm.jpg?format=original)![Screen Shot 2015-04-17 at 3.34.46 PM.jpg]()    
+![Screen Shot 2015-04-17 at 3.34.46 PM.jpg](http://static1.squarespace.com/static/665498111876725f7613f1e6/t/6680065e1022a0098af05aaf/1719666270667/9e46f-20e5b-screenshot2015-04-17at3.34.46pm.jpg.46pm.jpg.46pm.jpg.46pm.jpg?format=original)![Screen Shot 2015-04-17 at 3.34.46 PM.jpg]()
 
  ### Step 3: Publish!
 
-  
+
 
  Right from Photos app, publish your beautiful photographic moments to Facebook, Flickr, etc.
 
@@ -41,5 +41,3 @@
  Photos App is a very capable photo editor as well as a catolouge. However, the nature of this non\-destructive editing (much like Lightroom) gives me an odd feeling of ephemerality in my conanical photo acrive, which is unideal. 
 
  I personally prefer to use Photos App as a “photo album” with completely rendered finalized JPEGs. However, if you find that the built\-in editing capabilities fit well into your workflow, I highly recommend doing so! The color conversions and tools made available are first\-class, especially for a consumer app. Simplicity is key to all workflows.
-
-  

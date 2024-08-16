@@ -1,6 +1,6 @@
 # Buying Your First "Real" Camera
 
-    ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666463242-KXFEMCLBMI39GRMKN95K/0ffda-img.jpg)         ![a4dff-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666450906-S98CP22X7YS0512JSPE7/58c9c-a4dff-img.jpg)       ![IMG_0193_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666472502-0KII8KG0Y8J5WZZEVKQW/2a9de-01b0b-img_0193_2.jpg)   A friend of mine approached me recently, looking for camera advice. She has been experimenting with photography and is interested in investing in getting her first "real" camera, but didn't know where to start. I've made recommendations like this on numerous occasions, so I thought it would be useful to document my thoughts and findings here. Most people, when they get to this stage, run out to Best Buy, talk to the guy there, and walk away with a Canon T3i with a kit zoom lens. I just hope that you don't without considering other options first. I wish I hadn't.
+ ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666463242-KXFEMCLBMI39GRMKN95K/0ffda-img.jpg)      ![a4dff-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666450906-S98CP22X7YS0512JSPE7/58c9c-a4dff-img.jpg)    ![IMG_0193_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666472502-0KII8KG0Y8J5WZZEVKQW/2a9de-01b0b-img_0193_2.jpg)   A friend of mine approached me recently, looking for camera advice. She has been experimenting with photography and is interested in investing in getting her first "real" camera, but didn't know where to start. I've made recommendations like this on numerous occasions, so I thought it would be useful to document my thoughts and findings here. Most people, when they get to this stage, run out to Best Buy, talk to the guy there, and walk away with a Canon T3i with a kit zoom lens. I just hope that you don't without considering other options first. I wish I hadn't.
 
  ## What is your goal?
 
@@ -75,5 +75,3 @@
  #### References
 
  * [Kenneth Reitz's 500px](http://500px.com/kennethreitz) \- [Fujifilm X100](http://www.amazon.com/gp/product/B0043RS864/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0043RS864&linkCode=as2&tag=bookforkind-20) on Amazon \- [Sony RX100](http://www.amazon.com/gp/product/B00889ST2G/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00889ST2G&linkCode=as2&tag=bookforkind-20) on Amazon \- [Olympus OM\-D](http://www.amazon.com/gp/product/B00CHJO49A/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00CHJO49A&linkCode=as2&tag=bookforkind-20) on Amazon
-
-  

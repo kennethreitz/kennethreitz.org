@@ -1,6 +1,6 @@
 # Growing Open Source Seeds
 
-    ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521848-GM6AL9IP5T7VKA5UB2I1/e7fcb-img.jpg)         ![327a7-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666450559-S9M77EY5UXSBE5TVLOJD/7f6f3-327a7-img.jpg)       ![Image 2013.07.13 8-09-28 PM](http://static1.squarespace.com/static/665498111876725f7613f1e6/t/6680065e1022a0098af05aa8/1719666270410/c284a-f5085-image-2013.07.13-8-09-28-pm.jpeg.13-8-09-28-pm.jpeg.13-8-09-28-pm.jpeg.13-8-09-28-pm.jpeg?format=original)   ## The Facebook Story
+ ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521848-GM6AL9IP5T7VKA5UB2I1/e7fcb-img.jpg)      ![327a7-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666450559-S9M77EY5UXSBE5TVLOJD/7f6f3-327a7-img.jpg)    ![Image 2013.07.13 8-09-28 PM](http://static1.squarespace.com/static/665498111876725f7613f1e6/t/6680065e1022a0098af05aa8/1719666270410/c284a-f5085-image-2013.07.13-8-09-28-pm.jpeg.13-8-09-28-pm.jpeg.13-8-09-28-pm.jpeg.13-8-09-28-pm.jpeg?format=original)   ## The Facebook Story
 
  The Facebook Python SDK Years ago, Facebook created a Python library for interfacing with their API. The project had a large number of users (after all, Facebook is pretty popular), but was very rarely updated. One day, the library stopped working completely. Dozens of people trying to build apps and tools on Facebook opened up issues trying to help them resolve the problem. Nothing.
 
@@ -21,7 +21,7 @@
 * Interviews with journalists are live\-streamed on YouTube.
 * All formal discussions with other organizations are publicly documented and discussed with the community.
 
- 
+
 > I’m not building Gittip, I’m building the community that’s building Gittip —@whit537
 
  Gittip is an extreme example of a Shared Investment Project. Many large open source projects are run this way — Python, Django, Firefox, jQuery, etc.
@@ -64,14 +64,14 @@
 
  Luckily, this can be avoided:
 
- 
+
 > Open source provides a unique opportunity for the trifecta of purpose, mastery and autonomy. By recognizing the power of these factors, we can keep ourselves motivated and continue to increase our impact. — @geemus
 
  A big part of this is doing less. Meet @lukasaoz‎ and @sigmavirus24, my evil minions. They make my life awesome. When a new issue or pull request comes in to the Requests repository, these gentlemen triage it. This saves me an immense amount of time. Instead of having the constant burden of having hundreds of pending issues and dozens of pending pull requests on Requests, I periodically check the repository and find a nice stack of PRs that have already been reviewed and updated, ready for merging or further comment.
 
  It’s been great learning from each other.
 
- 
+
 > As I fork another of his projects, it occurs to me that I don’t program in the Python ecosystem: I program in the @kennethreitz ecosystem. — @Lukasaoz
 
  I try to do the same for Flask, Gunicorn, and Werkzeug as well (although I don’t contribute nearly as much as I should).
@@ -82,7 +82,7 @@
 
  People are going to ask for features (sometimes crazy ones). They will argue with you and complain that your design doesn’t fit their specific corner\-case and is therefore totally worthless.
 
- 
+
 > Simplicity is always better than functionality.— @hintgens
 
  Cater your project to the masses, and you will slowly watch your project transform into something complex, heavy, and difficult to maintain. The best pull requests are the ones that remove lines of code.
@@ -90,5 +90,3 @@
  The easiest way to accomplish this is to document the project’s goals and intensions. When someone sends a crazy pull request, kindly thank them for their contribution, point them to the guidelines in the documentation, and encourage them to send another pull request.
 
  Open source makes the world a better place. Don’t make it complicated.
-
-  

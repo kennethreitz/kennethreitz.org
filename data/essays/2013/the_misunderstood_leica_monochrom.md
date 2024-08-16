@@ -1,6 +1,6 @@
 # The Misunderstood Leica Monochrom
 
-    ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666469848-VPGMZWK1NYPB8RQRM3BY/24205-img.jpg)         ![ff6d3-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666453105-1CATA9UJ2LL770H9LZY0/5b456-ff6d3-img.jpg)       ![1048327_10151706383320132_1618854113_o](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666464014-OMCT9621VMU6HIZZ6ZOQ/140f3-075b4-1048327_10151706383320132_1618854113_o.jpg)   My camera of choice is the [**Leica M Monochrom**](http://www.amazon.com/gp/product/B0082ES6HA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0082ES6HA&linkCode=as2&tag=bookforkind-20). This digital black\-and\-white rangefinder camera is my most prized possession and the source of a great deal of inspiration. My beloved camera, unfortunately, has a tendency to polarize people. Instead of being perceived purely as a quality instrument of art and expression, it is often criticized for being an useless object of excess.
+ ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666469848-VPGMZWK1NYPB8RQRM3BY/24205-img.jpg)      ![ff6d3-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666453105-1CATA9UJ2LL770H9LZY0/5b456-ff6d3-img.jpg)    ![1048327_10151706383320132_1618854113_o](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666464014-OMCT9621VMU6HIZZ6ZOQ/140f3-075b4-1048327_10151706383320132_1618854113_o.jpg)   My camera of choice is the [**Leica M Monochrom**](http://www.amazon.com/gp/product/B0082ES6HA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0082ES6HA&linkCode=as2&tag=bookforkind-20). This digital black\-and\-white rangefinder camera is my most prized possession and the source of a great deal of inspiration. My beloved camera, unfortunately, has a tendency to polarize people. Instead of being perceived purely as a quality instrument of art and expression, it is often criticized for being an useless object of excess.
 
  Common objections include:
 
@@ -54,25 +54,25 @@
 
  Here are some real\-world images I captured with the Monochrom over the past few months.
 
-   [![IMG_0193_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521683-XQL3FQKLAYBXIGGMY1OQ/e732c-0408c-img_0193_2.jpg)![IMG_0193_2]()](http://500px.com/photo/37684704)  
+   [![IMG_0193_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521683-XQL3FQKLAYBXIGGMY1OQ/e732c-0408c-img_0193_2.jpg)![IMG_0193_2]()](http://500px.com/photo/37684704)
 
- IMG\_0193\_2 
+ IMG\_0193\_2
 
-     [![L1018407](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666515298-YCG7NF2VRBHSRQI685K4/cf4aa-d77c8-l1018407.jpg)![L1018407]()](http://500px.com/photo/40224696)  
+     [![L1018407](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666515298-YCG7NF2VRBHSRQI685K4/cf4aa-d77c8-l1018407.jpg)![L1018407]()](http://500px.com/photo/40224696)
 
- L1018407 
+ L1018407
 
-     [![IMG_0187_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666471218-EABC0PUL5JV69SMO4TTZ/2767a-2c51d-img_0187_2.jpg)![IMG_0187_2]()](http://500px.com/photo/36478426)  
+     [![IMG_0187_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666471218-EABC0PUL5JV69SMO4TTZ/2767a-2c51d-img_0187_2.jpg)![IMG_0187_2]()](http://500px.com/photo/36478426)
 
- IMG\_0187\_2 
+ IMG\_0187\_2
 
-     [![L1018400](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666503301-DT6M9BCPPGPT85IP6K5M/a74af-ea9b3-l10184001.jpg)![L1018400]()](http://500px.com/photo/39957788)  
+     [![L1018400](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666503301-DT6M9BCPPGPT85IP6K5M/a74af-ea9b3-l10184001.jpg)![L1018400]()](http://500px.com/photo/39957788)
 
- L1018400 
+ L1018400
 
-     [![IMG_0179_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666523710-3H4TZDC3I26KCF7TW7MX/e94ed-f6e48-img_0179_2.jpg)![IMG_0179_2]()](http://500px.com/photo/36478422)  
+     [![IMG_0179_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666523710-3H4TZDC3I26KCF7TW7MX/e94ed-f6e48-img_0179_2.jpg)![IMG_0179_2]()](http://500px.com/photo/36478422)
 
- IMG\_0179\_2 
+ IMG\_0179\_2
 
    ## In Conclusion
 
@@ -89,5 +89,3 @@
  This camera is a testament to engineering, craftsmanship, and above all, beauty.
 
  It's truly an inspiration.
-
-  
