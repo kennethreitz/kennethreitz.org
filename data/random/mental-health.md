@@ -47,7 +47,6 @@ well as [cannabis](/software/websites/strainsdb). I also find that exercise is h
 
 I have found a number of resources to be helpful in my journey. Here are a few:
 
-- `811`: In America, you can call `811` to get help if you're thinking about harming yourself.
 - [To Write Love on Her Arms](https://twloha.com/) - A non-profit movement dedicated to presenting hope and finding help for people struggling with depression, addiction, self-injury, *&c.*
 - [The Trevor Project](https://www.thetrevorproject.org/) - Crisis intervention. Here you can reach out to a counselor if you’re struggling, find answers and information, and get the tools you need to help someone else.
 - [NAMI](https://www.nami.org/) — National Alliance on Mental Illness.
