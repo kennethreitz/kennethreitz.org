@@ -1,6 +1,9 @@
 # Responder: a Familiar Web Framework
 
-Responder is a web framework for Python. It is highly experimental and is not recommended for production use.
+Responder is a web framework for Python. It is highly experimental and is not recommended for production use. I
+personally consider this project to be an academic exercise, and recommend reading through the code, however!
+
+I think it was a little ahead of its time. FastAPI is a more mature and production-ready alternative.
 
 ## The Basic Idea
 
