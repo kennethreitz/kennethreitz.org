@@ -124,3 +124,8 @@ Here is a selection of my top 50 songs in iTunes:
 | 10 Bands                                     | 2:58     | Drake                                  | If You're Reading This It's Too Late                            |
 | Chicago Freestyle                            | 3:40     | Drake & GIVĒON                         | Dark Lane Demo Tapes                                            |
 | Family Matters                               | 7:37     | Drake                                  | Family Matters - Single                                         |
+
+
+-----------------
+
+I hope you enjoyed this little snippet of my music tastes. I'll expand upon this in the future.
