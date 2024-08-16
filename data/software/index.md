@@ -30,7 +30,7 @@ My "favorite" language is `bash`, overall. I have written a lot of `bash` script
 
 ## The Future
 
-I think that AI is here to stay, and it *changes our relationship with code*. Code is no longer purely an expression of logic, but also an expression of creativity (as it has always been) — but, I think that AI will help us all to write better code, lowering the barrier to entry to becoming better programmers, and to live better lives.
+I think that AI is here to stay, and it *changes our relationship with code*, fundamentally. Because of AI, code can be a trivial artifact of the creative process. It'll take some time to get there, but it's coming. I think, overall, that this is a good thing for humanity. AI has a tendency to *trivialize* code, while also making it more accessible to everyone. This is not ideal for software engineers, or is it? I think it is.
 
 The engine for this website, for example, was made with Claude 3.5 Sonnet, a powerful AI that can write code for you. It is a powerful tool that can help you to write better code, faster.
 
