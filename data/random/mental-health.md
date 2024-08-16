@@ -19,10 +19,8 @@ in 2015, and I have been on a journey ever since.
 
 Here are some things that have helped me:
 
-- **Avoid Stress**:
-  - I try to avoid stress as much as possible.
+- **Avoiding Stress**:
   - Unfortunately, this is not always realistic.
-  - CBT (Cognitive Behavioral Therapy) has been helpful for me in this regard.
   - When nothing else is working—believe it or not—**splashing cold water on your face** can help reset your nervous system. It triggers what is known as a "Diver's Reflex".
 - **Sleep:**
   - I try to get enough sleep, every night. This is crucial for me.
