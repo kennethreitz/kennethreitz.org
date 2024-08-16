@@ -8,12 +8,60 @@
 </div>
 
 
-In the "Python for Humans" talk, Kenneth Reitz explores the core principles behind writing code that is intuitive, accessible, and human-friendly. Drawing on his experience as the original author of the Requests library, Kenneth emphasizes the importance of designing software that prioritizes readability and simplicity without sacrificing functionality. He delves into practical techniques for making Python code more user-friendly, advocating for a design philosophy that places the developer experience at the forefront. The talk serves as both a guide and a manifesto for those who believe that code should be as delightful to read as it is to write.
+## Introduction
+- **Author:** Kenneth Reitz
+- **Focus:** Simplifying Python for everyday developers.
+- **Motivation:** Provide practical tools and packages to make Python more human-friendly.
 
-In the "Python for Humans" talk, Kenneth Reitz also discusses the importance of documentation and how it contributes to the overall user experience. He highlights the significance of clear and concise documentation that enables developers to easily understand and utilize Python libraries and frameworks. Kenneth shares practical tips and best practices for writing effective documentation, emphasizing the need for comprehensive examples and thorough explanations.
+## Key Projects
+- **Requests:** HTTP for Humans.
+- **Httpbin.org:** An HTTP request & response service.
+- **Other Projects:**
+  - Legit: Git workflow for Humans.
+  - Envoy: Subprocess for Humans.
+  - Tablib: Tabular data for Humans.
+  - Clint: CLI app toolkit.
+  - Autoenv: Magic shell environments.
 
-Furthermore, the talk explores the concept of "Pythonic" code, which refers to writing code that adheres to the idiomatic style and conventions of the Python language. Kenneth explains the benefits of writing Pythonic code, such as improved readability, maintainability, and collaboration. He provides insights into common Pythonic patterns and demonstrates how they can enhance the overall quality of code.
+## Philosophy
+- **Python Zen:** Emphasizes simplicity and clarity.
+- **Key Tenets:**
+  - Beautiful is better than ugly.
+  - Simple is better than complex.
+  - There should be one—and preferably only one—obvious way to do it.
 
-Throughout the talk, Kenneth Reitz emphasizes the importance of fostering a welcoming and inclusive community around Python development. He encourages attendees to actively participate in open-source projects, contribute to the Python ecosystem, and support initiatives that promote diversity and accessibility in programming.
+## The Problem with Existing Tools
+- **Complexity:** Traditional Python libraries like `urllib2` are overly complex.
+- **Accessibility:** Difficult APIs deter new users and frustrate experienced ones.
 
-By the end of the "Python for Humans" talk, attendees gain a deeper understanding of the principles and practices that make Python code more intuitive, accessible, and human-friendly. They leave with actionable insights and inspiration to apply these concepts in their own projects, ultimately striving to create software that is not only functional but also enjoyable to work with.
+## The Solution: Requests
+- **Design Principles:**
+  - Consistent and simple API.
+  - Methods like GET, POST, PUT, DELETE with intuitive parameters.
+- **Success:** Widely adopted due to its simplicity and effectiveness.
+
+## The Importance of API Design
+- **User-Centric:** APIs should cater to the 90% use case.
+- **Documentation:** A well-written README is crucial for adoption.
+- **Evolution:** Features can grow, but the API should remain simple.
+
+## Barriers to Python Adoption
+- **Installation:** Confusion around Python versions and installation methods.
+- **Standard Library Issues:** Complex modules for simple tasks.
+- **Dependency Management:** Complicated packaging and installation processes.
+
+## The Hitchhiker’s Guide to Python
+- **Purpose:** Document best practices and simplify Python adoption.
+- **Content:**
+  - Installation guides for different OS.
+  - Best practices for Python development.
+  - A guidebook for both newcomers and experienced developers.
+
+## Manifesto
+- **Goals:**
+  - Simplify terrible APIs.
+  - Document and share best practices with the community.
+
+## Conclusion
+- **Call to Action:** Developers should prioritize creating simple, accessible APIs and contribute to open-source projects.
+- **Contact:** [GitHub - Kenneth Reitz](https://github.com/kennethreitz)
