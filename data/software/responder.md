@@ -20,7 +20,7 @@ The primary concept here is to bring the niceties that are brought forth from bo
 
 I wanted to reboot this project, but I think FastAPI is a better choice for most people. I recommend using that instead.
 
-Honestly, I wrote this code in a month while I was taking perscription ADHD meds, years ago, and I don't remember much about it. I recommend reading through the code, though!
+Honestly, I wrote this code in a month while I was taking perscription ADD meds, years ago, and I don't remember much about it. I recommend reading through the code, though!
 
 ## The Code
 
