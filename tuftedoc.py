@@ -191,7 +191,7 @@ def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional
     logger.info(f"Processing directory: {full_path}")
     all_items = []
     for item in full_path.iterdir():
-        if item.name in [".DS_Store", "index.md"]:
+        if item.name in [".DS_Store", "index.md"] or item.name.startswith("."):
             continue
         is_image_file = is_image(item)
         exif_data = get_exif_data(item) if is_image_file else None
