@@ -11,7 +11,7 @@ outside of the main event loop.
 
 ## Installation
 
-You can install `background` using `pip`:
+You can install `background` using `uv` or `pip`:
 
 ```bash
 $ uv pip install background

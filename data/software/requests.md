@@ -6,7 +6,7 @@ The Requests library is a popular HTTP library for Python. It provides a simple 
 
 This project is downloaded over 20 million times a day, and is widely used in the Python community. It is known for its ease of use and powerful features, making it a go-to choice for developers who need to work with HTTP in their Python projects.
 
-**Fun fact**: the logo of the Requests project is a tattoo that I have on my right arm.
+**Fun fact**: the logo of the Requests project is a [tattoo]() that I have on my right arm.
 
 ## Resources
 
