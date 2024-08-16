@@ -27,3 +27,14 @@ I have found this approach to life to be incredibly rewarding. It has helped me 
 I learned `BASIC` and (albeit, very rudimentary) `C` and `Turbo Pascal` when I was a 9 years old. Throught elementary and middle school, I had fun programming my own programs and making my own websites. I learned `Python` in college, and it has been my primary language ever since. I have also written software in `PHP`, `Ruby`, and `Go`.
 
 My "favorite" language is `bash`, overall. I have written a lot of `bash` scripts over the years, and am a big fan of `shellcheck`. It makes you a better person.
+
+## The Future
+
+I think that AI is here to stay, and it *changes our relationship with code*. Code is no longer purely an expression of logic, but also an expression of creativity (as it has always been) — but, I think that AI will help us all to write better code, lowering the barrier to entry to becoming better programmers, and to live better lives.
+
+The engine for this website, for example, was made with Claude 3.5 Sonnet, a powerful AI that can write code for you. It is a powerful tool that can help you to write better code, faster.
+
+The future is bright!
+
+
+✨ 🍰 ✨
