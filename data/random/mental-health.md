@@ -61,7 +61,8 @@ Just remember, if you're in America, and you're thinking about harming yourself,
 
 Also, I **promise** you, my brain has told me some *really* convincing lies. It's not worth it. You are loved, and you are important. You are not alone. I promise.
 
-Feel free to reach out to me on [Twitter](https://twitter.com/kennethreitz42) if you need someone to talk to. I'm here for you.
+Feel free to reach out to me on [Twitter](https://twitter.com/kennethreitz42) or [email](/contact) if you need someone to talk to. I'm here for you.
+
 
 -------------
 
