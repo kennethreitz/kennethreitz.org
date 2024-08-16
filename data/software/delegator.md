@@ -47,3 +47,10 @@ In this example, we use the `chain` function to run the `ls -l | grep .py` comma
 ## Predecessor — Envoy
 
 `envoy` is a similar library that provides a high-level interface for subprocess management in Python. Delegator is a more modern and feature-rich alternative to Envoy, with additional functionality and improved performance. It has also been battle–tested in production environments and is used by [pipenv](/software/pipenv.md) for shell command execution.
+
+## Read More
+
+The project was gifted to [Amit Tripathi](https://github.com/amitt001) and is available on GitHub:
+
+- https://github.com/amitt001/delegator.py
+- https://github.com/not-kennethreitz/envoy
