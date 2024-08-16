@@ -6,6 +6,7 @@ I am blessed to have a loving wife and three wonderful children. They are my sou
 
 One of the children, Malachi, is biologically mine. He is a bright, energetic, and curious — and a constant source of inspiration and joy. He is currently 2 years old.
 
+Sometimes, I wish we could all just stay in this moment forever.
 
 ## Links:
 
