@@ -1,4 +1,4 @@
-# Mental Health Sucks
+# Mental Health
 
 I have been [fairly transparent](/essays/2016/mentalhealtherror_an_exception_occurred)
 about my mental health struggles over the years. I have been diagnosed with a number
