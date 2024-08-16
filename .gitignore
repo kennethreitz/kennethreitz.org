@@ -3,3 +3,4 @@ __pycache__
 .envrc
 .DS_Store
 data/photos/
+data/.obsidian/
