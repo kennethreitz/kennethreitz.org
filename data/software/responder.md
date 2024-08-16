@@ -14,5 +14,6 @@ The primary concept here is to bring the niceties that are brought forth from bo
 - Setting `resp.media` sends back JSON/YAML (`.text`/`.html`/`.content` override this).
 - Case-insensitive `req.headers` dict (from Requests directly).
 - `resp.status_code`, `req.method`, `req.url`, and other familiar friends.
+- The `async` keyword is optional for route functions. You must use `await` within any route that is reading from the network.
 
 https://github.com/kennethreitz/responder
