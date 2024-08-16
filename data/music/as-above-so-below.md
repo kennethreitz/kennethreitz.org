@@ -1,7 +1,9 @@
 # As Above, So Below.
 
 
-**"As Above, So Below"** is an album by Infinite State, a project led by Kenneth Reitz. The album is a masterful blend of ambient, electronic, and experimental music, creating an immersive auditory experience that reflects the concept of duality—where the physical and metaphysical, the above and below, are intertwined.
+*"As Above, So Below"* is an album by **Infinite State**, a project led by Kenneth Reitz. The album is a masterful blend of ambient, electronic, and experimental music, creating an immersive auditory experience that reflects the concept of duality—where the physical and metaphysical, the above and below, are intertwined.
+
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/as-above-so-below/1440343978"></iframe>
 
 ## Album Overview
 
