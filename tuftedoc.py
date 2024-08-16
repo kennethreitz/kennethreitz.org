@@ -6,6 +6,7 @@ import re
 import shutil
 import tempfile
 import zipfile
+import xml.etree.ElementTree as ET
 from contextlib import asynccontextmanager
 from datetime import datetime
 from typing import List, Optional, Tuple
@@ -14,7 +15,7 @@ import background
 import boto3
 import mistune
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import FileResponse, HTMLResponse
+from fastapi.responses import FileResponse, HTMLResponse, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from PIL import Image
@@ -252,6 +253,72 @@ def generate_breadcrumbs(path: str) -> List[Breadcrumb]:
 
 def generate_title_from_breadcrumbs(breadcrumbs: List[Breadcrumb]) -> str:
     return " > ".join(crumb.title or crumb.name for crumb in breadcrumbs)
+
+
+class XMLResponse(Response):
+    media_type = "application/xml"
+
+    def __init__(self, content: str, *args, **kwargs):
+        super().__init__(content=content, *args, **kwargs)
+
+
+def clean_url(url: str) -> str:
+    return re.sub(r"(?<!:)//+", "/", url)
+
+
+def generate_sitemap(base_url: str) -> str:
+    urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+
+    def add_url(
+        loc: str,
+        lastmod: datetime = None,
+        changefreq: str = None,
+        priority: float = None,
+    ):
+        url = ET.SubElement(urlset, "url")
+        ET.SubElement(url, "loc").text = clean_url(
+            f"{base_url.rstrip('/')}/{loc.lstrip('/')}"
+        )
+        if lastmod:
+            ET.SubElement(url, "lastmod").text = lastmod.strftime("%Y-%m-%d")
+        if changefreq:
+            ET.SubElement(url, "changefreq").text = changefreq
+        if priority:
+            ET.SubElement(url, "priority").text = str(priority)
+
+    def traverse_directory(path: pathlib.Path, relative_path: str = ""):
+        for item in path.iterdir():
+            if item.name.startswith(".") or item.name == "index.md":
+                continue
+            item_relative_path = f"{relative_path}/{item.name}"
+            clean_item_path = clean_url(get_clean_url(item_relative_path))
+            if item.is_dir():
+                add_url(
+                    clean_item_path,
+                    lastmod=datetime.fromtimestamp(item.stat().st_mtime),
+                    changefreq="weekly",
+                    priority=0.8,
+                )
+                traverse_directory(item, item_relative_path)
+            elif item.suffix == ".md":
+                add_url(
+                    clean_item_path,
+                    lastmod=datetime.fromtimestamp(item.stat().st_mtime),
+                    changefreq="monthly",
+                    priority=0.6,
+                )
+
+    add_url("/", lastmod=datetime.now(), changefreq="daily", priority=1.0)
+    traverse_directory(MARKDOWN_DIR)
+
+    return ET.tostring(urlset, encoding="unicode", method="xml")
+
+
+@app.get("/sitemap.xml", response_class=XMLResponse)
+async def sitemap(request: Request):
+    base_url = str(request.base_url)
+    sitemap_content = generate_sitemap(base_url)
+    return XMLResponse(content=sitemap_content, media_type="application/xml")
 
 
 @app.get("/", response_class=HTMLResponse, include_in_schema=False)
