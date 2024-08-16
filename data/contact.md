@@ -9,7 +9,6 @@ I love hearing from all of you, and do my best to respond to everything of inter
 
 ## Links:
 
-- https://twitter.com/kennethreitz42
 - https://github.com/kennethreitz
+- https://twitter.com/kennethreitz42
 - https://www.linkedin.com/in/kennethreitz/
-- https://www.facebook.com/kennethreitz
