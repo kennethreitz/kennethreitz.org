@@ -1,0 +1,62 @@
+# legit
+
+Legit is a simple command line tool that helps to manage your project repositories. It takes care of creating, deleting, and switching between branches.
+
+Legit is a Python script that wraps Git. It is designed to be used as a standalone tool, but it can also be used as a Git alias.
+
+It is inspired by [GitHub for Mac](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop),
+which is a great tool for managing Git repositories. I've written some about this in my blog post [GitHub for Mac: A Review](/essays/2011//).
+
+## Installation
+
+To install legit, you can use the following command:
+
+```bash
+$ pip install legit
+```
+
+If you're on a Mac, you can also use Homebrew:
+
+```bash
+$ brew install legit
+```
+
+## Usage
+
+First, you have to install the git aliases:
+
+```bash
+$ legit --install
+```
+
+Syncronizes the given branch. Defaults to current branch. Stash, Fetch, Auto\-Merge/Rebase, Push, and Unstash:
+
+```bash
+$ git sync
+```
+
+Publish a specified branch to the remote.
+
+```bash
+$ git publish
+```
+
+Removes specified branch from the remote.
+
+```bash
+$ git unpublish
+```
+
+Undos the last commit.
+
+```bash
+$ git undo
+```
+
+Get a nice pretty list of available branches.
+
+```bash
+$ git branches
+```
+
+Enjoy! I've been using this for a while now and it has saved me a lot of time.
