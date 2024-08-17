@@ -1,12 +1,8 @@
 # Mental Health
 
-I have been [fairly transparent](/essays/2016/mentalhealtherror_an_exception_occurred)
-about my mental health struggles over the years. I have been diagnosed with a number
-of things, primarily *Bipolar I* and *Schizoaffective Disorder*. A lot of people
-in my life are also bipolar, so I have a lot of experience with it.
+I have been [fairly transparent](/essays/2016/mentalhealtherror_an_exception_occurred) about my mental health struggles over the years. I have been diagnosed with a number of things, primarily *Bipolar I* and *Schizoaffective Disorder*. A lot of people in my life are also bipolar, so I have a lot of experience with it.
 
-First off, if this is your first time reading about mental health, I want to say that
-it's okay to not be okay. It's okay to be struggling. It's okay to be in pain. It's okay.
+First off, if this is your first time reading about mental health, I want to say that it's okay to not be okay. It's okay to be struggling. It's okay to be in pain. It's okay.
 
 - [MentalHealthError: An Exception Occurred](/essays/2016/mentalhealtherror_an_exception_occurred)
 - [MentalHealthError: Three Years Later](/essays/2019/mentalhealtherror_three_years_later)
@@ -16,8 +12,7 @@ Secondly, I want to say that I am not a doctor, and I am not qualified to give m
 
 ## My Story:
 
-I have been hospitalized an unfortunate number of times, and have been on a number of medications. My struggles started
-in 2015, and I have been on a journey ever since.
+I have been hospitalized an unfortunate number of times, and have been on a number of medications. My struggles started in 2015, and I have been on a journey ever since.
 
 I can sometimes get highly delusional from *mania*, and I have been known to say and do some some really stupid things while in that state.
 
@@ -39,8 +34,7 @@ Here are some things that have helped me:
   - Taking things *one day at a time*.
   - Sometimes, *one hour at a time*.
 
-I find working on my website, listening to music, and playing video games to be helpful, as
-well as [cannabis](/software/websites/strainsdb). I also find that exercise is helpful, but I don't do it as much as I should.
+I find working on my website, listening to music, and playing video games to be helpful, as well as [cannabis](/software/websites/strainsdb). I also find that exercise is helpful, but I don't do it as much as I should.
 
 ## Resources for Others
 
@@ -60,6 +54,4 @@ Just remember, if you're in America, and you're thinking about harming yourself,
 Also, I **promise** you, my brain has told me some *really* convincing lies. It's not worth it. You are loved, and you are important. You are not alone. I promise.
 
 Feel free to reach out to me on [Twitter](https://twitter.com/kennethreitz42) or [email](/contact) if you need someone to talk to about this stuff. I'm here for you.
-
-
--------------
+# ;
