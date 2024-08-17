@@ -48,10 +48,10 @@ I have found a number of resources to be helpful in my journey. Here are a few:
 
 - [To Write Love on Her Arms](https://twloha.com/) - A non-profit movement dedicated to presenting hope and finding help for people struggling with depression, addiction, self-injury, *&c.*
 - [The Trevor Project](https://www.thetrevorproject.org/) - Crisis intervention. Here you can reach out to a counselor if you’re struggling, find answers and information, and get the tools you need to help someone else.
+- [The Mighty](https://themighty.com/) - A community of people sharing their stories and experiences with mental health.
 - [NAMI](https://www.nami.org/) — National Alliance on Mental Illness.
 - [DBSA](https://www.dbsalliance.org/) — Depression and Bipolar Support Alliance.
 - [Mental Health America](https://www.mhanational.org/) — Mental Health America.
-- [The Mighty](https://themighty.com/) - A community of people sharing their stories and experiences with mental health.
 
 -------------
 
