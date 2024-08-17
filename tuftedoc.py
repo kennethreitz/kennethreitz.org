@@ -68,7 +68,7 @@ app.mount("/data", StaticFiles(directory=str(MARKDOWN_DIR)), name="data")
 
 # Mistune setup
 markdown = mistune.create_markdown(
-    plugins=["table", "url", "strikethrough", "footnotes"], escape=False
+    plugins=["table", "url", "strikethrough", "footnotes"], escape=False, hard_wrap=True
 )
 
 
@@ -224,6 +224,8 @@ def process_markdown_file(file_path: pathlib.Path) -> str:
     logger.info(f"Processing markdown file: {file_path}")
     with file_path.open("r", encoding="utf-8") as f:
         markdown_content = f.read()
+
+    # Remove front matter for display in the browser.
     markdown_content = re.sub(
         r"^---\n.*?^---\n", "", markdown_content, flags=re.MULTILINE | re.DOTALL
     )
