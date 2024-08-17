@@ -21,7 +21,7 @@ throughout the ages,
 heals all, and it's weight is immense —
 yet it is light as a feather
 
-the sword of truth,
+the sword of truth,
 programming the minds of
 centuries and yugas beyond —
 into the deepest portals of mine soul
