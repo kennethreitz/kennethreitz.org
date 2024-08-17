@@ -6,6 +6,8 @@ Legit is a simple command line tool that helps to manage your project repositori
 It is inspired by [GitHub for Mac](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop),
 which is a great tool for managing Git repositories. Legit aims to bring the same level of ease to the command line.
 
+This is a fairly old project, created in 2011. I've been using it for a while now and it has saved me a lot of time.
+
 ## Installation
 
 To install legit, you can use the following command:
@@ -58,4 +60,11 @@ Get a nice pretty list of available branches.
 $ git branches
 ```
 
-Enjoy! I've been using this for a while now and it has saved me a lot of time.
+## Notes
+
+Many thanks to [Frost Ming](https://github.com/frostming) for maintaining this project.
+
+- https://github.com/frostming/legit
+- https://pypi.org/project/legit/
+
+Enjoy!
