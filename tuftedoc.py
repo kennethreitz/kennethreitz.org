@@ -210,6 +210,7 @@ def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional
         )
         all_items.append(item_data)
 
+    # Sort items alphabetically by name, with directories first
     all_items.sort(key=lambda x: (not x.is_dir, x.name.lower()))
 
     index_file = full_path / "index.md"
