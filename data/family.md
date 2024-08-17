@@ -10,5 +10,5 @@ Sometimes, I wish we could all just stay in this moment forever.
 
 ## Links:
 
-- [Sarah's Twitter](https://twitter.com/reliablereitz).
-- [Sarah's Blog](https://skeetskeetholla.com).
+- [Sarah's Twitter](https://twitter.com/reliablereitz)
+- [Sarah's Blog](https://skeetskeetholla.com)
