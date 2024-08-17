@@ -8,6 +8,10 @@ in my life are also bipolar, so I have a lot of experience with it.
 First off, if this is your first time reading about mental health, I want to say that
 it's okay to not be okay. It's okay to be struggling. It's okay to be in pain. It's okay.
 
+- [MentalHealthError: An Exception Occurred](/essays/2016/mentalhealtherror_an_exception_occurred)
+- [MentalHealthError: Three Years Later](/essays/2019/mentalhealtherror_three_years_later)
+- [The Reality of Developer Burnout](/essays/2017/the_reality_of_developer_burnout)
+
 Secondly, I want to say that I am not a doctor, and I am not qualified to give medical advice. I am just a person who has been through a lot of stuff, and I want to share my experiences with you.
 
 ## My Story:
@@ -15,7 +19,7 @@ Secondly, I want to say that I am not a doctor, and I am not qualified to give m
 I have been hospitalized an unfortunate number of times, and have been on a number of medications. My struggles started
 in 2015, and I have been on a journey ever since.
 
-### What Works for Me
+I can sometimes get highly delusional from *mania*, and I have been known to say and do some some really stupid things while in that state.
 
 Here are some things that have helped me:
 
@@ -25,9 +29,6 @@ Here are some things that have helped me:
 - **Sleep:**
   - I try to get enough sleep, every night. This is crucial for me.
   - Bipolar disorder is very easily triggered by lack of sleep.
-- **Avoid Alcohol:**
-  - I don't generally drink alcohol. It's a depressant.
-  - If you're unaware, this is good general life advice, too.
 - **Support Network:**
   - I have a good support network of friends and family that know about my condition and how to help me.
   - Maintaining these relationships, and the complexities that come with them, is a full-time job.
@@ -62,10 +63,3 @@ Feel free to reach out to me on [Twitter](https://twitter.com/kennethreitz42) or
 
 
 -------------
-
-
-## Posts on Mental Health:
-
-- [MentalHealthError: An Exception Occurred](/essays/2016/mentalhealtherror_an_exception_occurred)
-- [MentalHealthError: Three Years Later](/essays/2019/mentalhealtherror_three_years_later)
-- [The Reality of Developer Burnout](/essays/2017/the_reality_of_developer_burnout)
