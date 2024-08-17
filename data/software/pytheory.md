@@ -18,3 +18,26 @@ You can install `pytheory` using pip:
 ```bash
 $ pip install pytheory
 ```
+
+## Usage
+
+Create a `Note` object:
+
+```pycon
+>>> import pytheory
+
+>>> c_minor = TonedScale(tonic='C4')['minor']
+>>> c_minor
+<Scale I=C4 II=D4 III=Eb4 IV=F4 V=G4 VI=Ab4 VII=Bb5 VIII=C5>
+
+>>> c_minor[0].pitch()
+523.251130601197
+
+>>> c_minor["I"].pitch(symbolic=True)
+440*2**(1/4)
+
+>>> c_minor["tonic"].pitch(temperament='pythagorean', symbolic=True)
+14080/27
+```
+
+I'm not sure if this is useful, but it's fun to play with, and it has enhanced my understanding of music theory— especially the `symbolic` parameter.
