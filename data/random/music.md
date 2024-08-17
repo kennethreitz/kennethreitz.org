@@ -2,16 +2,11 @@
 
 I love music. I listen to it all the time. I play it all the time.
 
-My music client of choice is [Apple Music](https://music.apple.com), mostly because
-of seamless integration with my devices, as well as the lossless quality that
-is a big deal for me.
+My music client of choice is [Apple Music](https://music.apple.com), mostly because of seamless integration with my devices, as well as the lossless quality that is a big deal for me.
 
 ## Favorite Artists
 
-I listen to a lot of hip-hop and rock, mostly. As I get older, I'm finding
-that I'm listening to more and more to electronic music as well. The energy
-and wide audio spectrum of rock is more taxing to my ears, I've noticed as
-I get older.
+I listen to a lot of hip-hop and rock, mostly. As I get older, I'm finding that I'm listening to more and more to electronic music as well. The energy and wide audio spectrum of rock is more taxing to my ears, I've noticed as I get older.
 
 **Hip-Hop**
 
@@ -56,8 +51,7 @@ I get older.
 
 ## Favorite Albums
 
-I'm not going to list them all, but here are a few of my favorite albums
-of all time:
+I'm not going to list them all, but here are a few of my favorite albums of all time:
 
 - *Wish You Were Here* by Pink Floyd
 - *Lateralus* by Tool
