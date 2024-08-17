@@ -3,7 +3,7 @@
 
 Kundalini is Rising,
 from the base of my spine
-to far beyond imagination
+to far beyond imagination
 
 
 Reaching deep into the farthest reaches
