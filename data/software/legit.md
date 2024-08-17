@@ -1,11 +1,10 @@
 # legit
 
-Legit is a simple command line tool that helps to manage your project repositories. It takes care of creating, deleting, and switching between branches.
+Legit is a simple command line tool that helps to manage your project repositories. It takes care of creating, deleting, and switching between branches. A Python script that wraps Git, it is designed to be used as a standalone tool, but it can also be used via Git aliases.
 
-Legit is a Python script that wraps Git. It is designed to be used as a standalone tool, but it can also be used as a Git alias.
 
 It is inspired by [GitHub for Mac](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop),
-which is a great tool for managing Git repositories. I've written some about this in my blog post [GitHub for Mac: A Review](/essays/2011//).
+which is a great tool for managing Git repositories. Legit aims to bring the same level of ease to the command line.
 
 ## Installation
 
