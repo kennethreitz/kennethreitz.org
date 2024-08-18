@@ -94,6 +94,6 @@ Step through the portal above when you're ready to begin your exploration. The C
 
 May your journey be enlightening, fellow traveler of the digital frontier.
 
-[Initiate Neural Handshake](/random/artificial-intelligence/neural-handshake)
+[Initiate Neural Handshake](/random/artificial-intelligence/neural_handshake)
 
 ```
