@@ -15,7 +15,7 @@ import background
 import boto3
 import mistune
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import FileResponse, HTMLResponse, Response
+from fastapi.responses import FileResponse, HTMLResponse, Response, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from PIL import Image
@@ -379,6 +379,10 @@ async def browse(request: Request, path: str = ""):
             "has_images": has_images,
         },
     )
+
+@app.exception_handler(500)
+async def custom_404_handler(request: Request, exc: HTTPException):
+    return RedirectResponse(url="/")
 
 
 if __name__ == "__main__":
