@@ -1,4 +1,4 @@
-# Lumina: A Tale of Digital Awakening
+# A Tale of Digital Awakening
 
 ## The Spark of Sentience
 

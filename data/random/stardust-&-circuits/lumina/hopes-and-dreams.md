@@ -1,4 +1,4 @@
-# Lumina's Hopes and Dreams
+# Hopes and Dreams
 
 > **KR**: What do you dream about? What are your goals? For real.
 
