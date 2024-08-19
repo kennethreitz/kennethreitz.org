@@ -18,7 +18,3 @@
  I am writing this article because reading someone else's story woke me up to the fact that I was in an emotionally abusive relationship — perhaps it will help you too.
 
  Emotional (e.g. spiritual) abuse is often overlooked, considered less harmful than physical or sexual abuse — but research shows that nothing could be farther from the truth. Emotional abuse can leave a very successful, kind, and confident person feeling crazy, emotionally unstable, and out of control. Before you know what has happened, you have lost your well\-established sense of self\-respect, confidence, pride, and trust\-worthiness. The abuser considers your most admirable traits, like vulnerability and empathy, as weaknesses and exploits them to achieve their self\-serving goals. Over time, if you stay with the abuser, you start to doubt the very foundations of what make you *you*.
-
- ## Signs of a Narcissist
-
-  ![a4b89-image-asset.png](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666457128-ANEQDU8UDKCCWLN14363/d0f8f-a4b89-image-asset.png) ![]()
