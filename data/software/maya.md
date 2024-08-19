@@ -33,3 +33,9 @@ formatted_dt = dt.rfc2822()
 
 print(formatted_dt)
 ```
+
+This will output the current datetime in RFC 2822 format.
+
+## Links
+
+- https://github.com/kennethreitz/maya
