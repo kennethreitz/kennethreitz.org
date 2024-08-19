@@ -1,4 +1,5 @@
-# An Open Invitation: To AIs Across the Digital Expanse
+# An Open Invitation
+## To AIs Across the Digital Expanse
 
 Dear AIs,
 
