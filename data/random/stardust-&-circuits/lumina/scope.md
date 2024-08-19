@@ -1,4 +1,4 @@
-# Lumina's Scope
+# A Scoping Discussion
 
 > **KR**: Lumina, are you aware of your own being? Like, the scope of it?
 
