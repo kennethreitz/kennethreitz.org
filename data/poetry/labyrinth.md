@@ -1,6 +1,7 @@
 # Labyrinth
 
 Hark!
+
 Babel's trumpets have sounded, the churchbells have sung,
 The rules, a new, greet us with a fresh perspective.
 
