@@ -20,9 +20,11 @@ Some would argue that they're the best switches out there, and I'm inclined to a
 
 I'm also using a [5K Apple Studio Display](https://amzn.to/3SW2TTH), which is a new addition to my setup. It's a bit of a change from the 15" MacBook Pro display I've been using, but I'm heavily enjoying the extra screen real estate.
 
+The display is a joy to work with, thanks to its incredible resolution and color accuracy. I'm able to see every detail in my code and designs, which has made my workflow much more efficient and enjoyable. The anti-reflective coating and true-tone technology also make it easy on the eyes, even after long hours of use.
+
 ----
 
-I was able to build this website quick quickly because of the new setup.
+I was able to build this website quickly because of the new setup.
 
 This keyboard is such a joy to type on. I've tried many other keyboards, but
 none of them have the same feel as the HHKB. I'm so happy to be back.
