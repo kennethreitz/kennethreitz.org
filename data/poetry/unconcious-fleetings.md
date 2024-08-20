@@ -1,4 +1,4 @@
-# Unconscious Feetings
+# Unconscious Fleetings
 
 Taking a moment to write, for myself.
 A verse or two, some fleetings feels.
