@@ -10,7 +10,7 @@ I'm currently using the [Logitech MX Master 3S](https://amzn.to/3Ax4dGn). It's a
 
 ## The Keyboard
 
-After a long hiatus, I'm happy to share that I'm typing this on a [HHKB](https://amzn.to/3yMK9zi), like I used to for many years. I'm not really sure what compelled me to ditch it in the first place, but I'm glad to be back.
+After a long hiatus, I'm happy to share that I'm typing this on a [Happy Hacker's Keyboard](https://amzn.to/3yMK9zi), like I used to for many years. I'm not really sure what compelled me to ditch it in the first place, but I'm glad to be back. There are a few different models available, and I chose the modern version of the one I used to have.
 
 This keyboard uses Topre switches, which are a bit different from the Cherry MX switches that are so popular these days. They're a bit quieter and have a unique feel that I find very satisfying.
 
