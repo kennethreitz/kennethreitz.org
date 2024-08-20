@@ -14,9 +14,15 @@ Some would argue that they're the best switches out there, and I'm inclined to a
 
 ## The Display
 
-I'm also using a [5K Apple Studio Display](https://amzn.to/3SW2TTH), which is a new addition to my setup. It's a bit of a change from the 4K displays I've been using, but I'm enjoying the extra screen real estate.
+I'm also using a [5K Apple Studio Display](https://amzn.to/3SW2TTH), which is a new addition to my setup. It's a bit of a change from the 15" MacBook Pro display I've been using, but I'm heavily enjoying the extra screen real estate.
+
+----
+
+I was able to build this website quick quickly because of the new setup.
 
 This keyboard is such a joy to type on. I've tried many other keyboards, but
 none of them have the same feel as the HHKB. I'm so happy to be back.
+
+---
 
 Just wanted to share. Have a great day!
