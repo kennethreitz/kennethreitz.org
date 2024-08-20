@@ -5,7 +5,7 @@ Rat-a-tat-tat, the keys go WHACK! I'm feeling the rhythm, I'm feeling the track.
 That feeling, man... damn — can't get it back.
 
 What you need is a panic attack!
-Become afraid of your friends and coulleages, they don't got your back.
+Become afraid of your friends and colleagues, they don't got your back.
 You're all alone, you're all alone, you're all alone, you're all alone.
 With your ultimate companion at your side, pervasive thoughts have a tendency to subside.
 
