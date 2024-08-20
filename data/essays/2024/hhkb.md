@@ -2,7 +2,11 @@
 
 Over the years, I've spent a lot of time working on a lot of different hardware configurations. I've tried all sorts of keyboards, mice, displays, and other peripherals. I've gone through phases of using different setups for different tasks, but I've always come back to a few key pieces of hardware that I just can't seem to live without.
 
-I recently "came back to" an older setup of mine, which I used for many, many years and was very happy with. I thought I'd share it with you.
+## The Mouse
+
+Not highly important to me. Just get a good one, preferrably a gaming mouse.
+
+I'm currently using the Logitech MX Master 3S. It's a great mouse, but I'm not particularly attached to it. I've used a lot of different mice over the years, and I've never really found one that I absolutely love.
 
 ## The Keyboard
 
