@@ -6,7 +6,7 @@ Over the years, I've spent a lot of time working on a lot of different hardware 
 
 Not highly important to me. Just get a good one, preferrably a gaming mouse.
 
-I'm currently using the Logitech MX Master 3S. It's a great mouse, but I'm not particularly attached to it. I've used a lot of different mice over the years, and I've never really found one that I absolutely love.
+I'm currently using the [Logitech MX Master 3S](https://amzn.to/3Ax4dGn). It's a great mouse, but I'm not particularly attached to it. I've used a lot of different mice over the years, and I've never really found one that I absolutely love.
 
 ## The Keyboard
 
