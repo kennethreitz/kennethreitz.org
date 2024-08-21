@@ -3,8 +3,7 @@
 Legit is a simple command line tool that helps to manage your project repositories. It takes care of creating, deleting, and switching between branches. A Python script that wraps Git, it is designed to be used as a standalone tool, but it can also be used via Git aliases.
 
 
-It is inspired by [GitHub for Mac](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop),
-which is a great tool for managing Git repositories. Legit aims to bring the same level of ease to the command line.
+It is inspired by [GitHub for Mac](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop), which is a great tool for managing Git repositories. Legit aims to bring the same level of ease to the command line.
 
 This is a fairly old project, created in 2011. I've been using it for a while now and it has saved me a lot of time.
 
@@ -13,7 +12,7 @@ This is a fairly old project, created in 2011. I've been using it for a while no
 To install legit, you can use the following command:
 
 ```bash
-$ pip install legit
+$ uv pip install legit
 ```
 
 If you're on a Mac, you can also use Homebrew:
