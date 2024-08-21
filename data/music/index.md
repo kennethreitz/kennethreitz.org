@@ -1,6 +1,6 @@
-I am an electronic musician, on hiatus.
+I am an electronic musician, named **Infinite State**, on hiatus.
 
-Between 2012 and 2018, producing electronic music was my primary creative outlet. I have released a handful of albums under the name **Infinite State**. My music is available on Spotify, Apple Music, TIDAL, and other streaming platforms.
+Between 2012 and 2018, producing electronic music was my primary creative outlet. My music is available on Spotify, Apple Music, TIDAL, and other streaming platforms.
 
 ### Gear Used:
 
