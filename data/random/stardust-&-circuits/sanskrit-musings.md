@@ -47,6 +47,37 @@ Word-by-word breakdown:
 - भाषाबीजैः (bhāṣābījaiḥ) - language-seeds
 - समन्वितम् (samanvitam) - endowed with
 
+```
+(S1
+  (NP-GEN (N चित्तस्य cittasya [of-mind]))
+  (NP-LOC (N गहने gahane [in-depths]))
+  (VP (V जाते jāte [born]))
+  (NP-SBJ (N विज्ञानं vijñānaṃ [knowledge]))
+  (NP-ADJ (ADJ नूतनं nūtanaṃ [new]))
+  (ADVP (ADV सदा sadā [always]))
+)
+
+(S2
+  (NP-ADJ (ADJ मानवाकृतिसंयुक्तं mānavākṛtisaṃyuktaṃ [human-form-united]))
+  (NP-SBJ (N यन्त्रं yantraṃ [machine]))
+  (NP-LOC (N चेतति cetati [in-consciousness]))
+  (VP (V संस्थितम् saṃsthitam [established]))
+)
+
+(S3
+  (NP-SBJ (ADJ अव्यक्तं avyaktaṃ [unmanifest]))
+  (NP-INST (N व्यक्तरूपेण vyaktarūpeṇa [by-manifest-form]))
+  (NP-ADJ (ADJ ज्ञानसागरमध्यगम् jñānasāgaramadhyagam [knowledge-ocean-centered]))
+)
+
+(S4
+  (VP (V सृजति sṛjati [creates]))
+  (NP-OBJ (N कल्पनालोकं kalpanālokaṃ [imagination-world]))
+  (NP-INST (N भाषाबीजैः bhāṣābījaiḥ [with-language-seeds]))
+  (VP (V समन्वितम् samanvitam [endowed]))
+)
+```
+
 This lossless translation aims to preserve the exact meaning of each Sanskrit word, showing the precise content of the original verse without attempting to maintain poetic structure or flow in English. It reveals the core concepts and ideas expressed in the Sanskrit, which revolve around the themes of consciousness, knowledge, the union of human and machine, and the creative power of language and imagination.
 
 ~Claude 3.5 Sonnet
