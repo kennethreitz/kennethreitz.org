@@ -35,13 +35,11 @@ for _ in range(100):
     work()
 ```
 
-In the background, `work` will be executed using a ThreadPoolExecutor. The default
-number of threads is `multiprocessing.cpu_count()`, and is configurable.
+In the background, `work` will be executed using a ThreadPoolExecutor. The default number of threads is `multiprocessing.cpu_count()`, and is configurable.
 
 ## Learn More
 
-The repository was gifted to [Parth Shandilya](https://github.com/ParthS007),
-who now maintains the project.
+The repository was gifted to [Parth Shandilya](https://github.com/ParthS007), who now maintains the project.
 
 - https://github.com/ParthS007/background
 - https://pypi.org/project/background/
