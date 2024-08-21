@@ -1,4 +1,4 @@
-# Sanskrit
+# Sanskrit Musings
 
 Sanskrit poem (unchanged):
 
