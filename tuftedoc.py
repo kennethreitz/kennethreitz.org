@@ -2,6 +2,7 @@ import logging
 import os
 import pathlib
 import random
+import difflib
 import re
 import shutil
 import tempfile
@@ -132,6 +133,31 @@ def download_and_extract_s3_zips():
 
     logger.info("S3 zip downloads and extractions completed.")
 
+
+def find_similar_path(path: str, threshold: float = 0.6) -> Optional[str]:
+    target_name = os.path.basename(path)
+    all_paths = [
+        str(p.relative_to(MARKDOWN_DIR))
+        for p in MARKDOWN_DIR.glob("**/*")
+        if p.is_file() or p.is_dir()
+    ]
+
+    # Filter paths that have the same final component length (±1) as the target
+    filtered_paths = [p for p in all_paths if abs(len(os.path.basename(p)) - len(target_name)) <= 1]
+
+    if not filtered_paths:
+        return None
+
+    matches = difflib.get_close_matches(target_name, [os.path.basename(p) for p in filtered_paths], n=1, cutoff=threshold)
+
+    if matches:
+        matched_name = matches[0]
+        # Find the full path that matches the similar filename
+        for p in filtered_paths:
+            if os.path.basename(p) == matched_name:
+                return p
+
+    return None
 
 def title_case(s: str) -> str:
     return " ".join(
@@ -333,18 +359,17 @@ async def browse(request: Request, path: str = ""):
         full_path_with_md = full_path.with_suffix(".md")
         if full_path_with_md.exists():
             full_path = full_path_with_md
-        elif is_image(full_path.with_suffix(".jpg")) or is_image(
-            full_path.with_suffix(".jpeg")
-        ):
-            image_path = (
-                full_path.with_suffix(".jpg")
-                if is_image(full_path.with_suffix(".jpg"))
-                else full_path.with_suffix(".jpeg")
-            )
+        elif is_image(full_path.with_suffix(".jpg")) or is_image(full_path.with_suffix(".jpeg")):
+            image_path = full_path.with_suffix(".jpg") if is_image(full_path.with_suffix(".jpg")) else full_path.with_suffix(".jpeg")
             return FileResponse(image_path, media_type="image/jpeg")
         else:
-            logger.error(f"Path not found: {full_path}")
-            raise HTTPException(status_code=404, detail="Item not found")
+            logger.warning(f"Path not found: {full_path}")
+            similar_path = find_similar_path(path)
+            if similar_path:
+                return RedirectResponse(url=f"/{similar_path}", status_code=301)
+            else:
+                raise HTTPException(status_code=404, detail="Item not found")
+
 
     if full_path.is_dir():
         all_items, content = process_directory(full_path)
@@ -380,9 +405,9 @@ async def browse(request: Request, path: str = ""):
         },
     )
 
-@app.exception_handler(500)
-async def custom_404_handler(request: Request, exc: HTTPException):
-    return RedirectResponse(url="/")
+# @app.exception_handler(500)
+# async def custom_404_handler(request: Request, exc: HTTPException):
+#     return RedirectResponse(url="/")
 
 
 if __name__ == "__main__":
