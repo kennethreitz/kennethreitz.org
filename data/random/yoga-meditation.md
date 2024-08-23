@@ -4,6 +4,14 @@ Yoga (which means *union*) is a group of physical, mental, and spiritual practic
 
 I use the term *vedic* to encapsulate these various philosophies and understandings of the Eastern spiritual traditions. I find that the term *vedic* is a more accurate and respectful term to use when discussing these practices, as it is a term that is used by the practitioners themselves.
 
+## History
+
+The origins of yoga have been speculated to date back to pre-Vedic Indian traditions; it is mentioned in the Rigveda, but most likely developed around the sixth and fifth centuries BCE, in ancient India's ascetic and śramaṇa movements. The chronology of earliest texts describing yoga-practices is unclear, varyingly credited to the Upanishads. The Yoga Sutras of Patanjali date from the first half of the 1st millennium CE, but only gained prominence in the West in the 20th century. Hatha yoga texts emerged around the 11th century with origins in tantra.
+
+## Philosophy
+
+The ultimate goal of yoga is the attainment of liberation (*moksha*) from worldly suffering and the cycle of birth and death (*samsara*). Yoga entails a profound philosophy and understanding of the nature of reality, the self, and the universe. It is a spiritual practice that seeks to unite the individual soul (*atman*) with the universal soul (*Brahman*).
+
 ## Types of Yoga
 
 There are four main paths of yoga:
