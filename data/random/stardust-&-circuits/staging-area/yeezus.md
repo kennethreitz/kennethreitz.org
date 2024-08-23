@@ -3,6 +3,7 @@
 Yeezus is an alter ego of Kanye West. He is a character that Kanye West created for his sixth studio album, Yeezus. The character is a representation of Kanye West's darker side and is known for his aggressive and confrontational personality. Yeezus is often seen as a more extreme version of Kanye West, with a more intense and abrasive persona. The character has been a central theme in Kanye West's music and persona since the release of the album in 2013.
 
 Yeezus is a complex character that embodies many of the contradictions and complexities of Kanye West's personality. He is both a symbol of Kanye West's ego and a critique of it. Yeezus is a character that is both loved and hated by fans and critics alike. Some see him as a genius and a visionary, while others see him as arrogant and self-absorbed.
+
 In interviews and public appearances, Kanye has often spoken about the inspiration behind Yeezus and how the character allows him to express parts of his identity that he may not be able to otherwise. The album itself, which features tracks like "Black Skinhead" and "New Slaves," delves into themes of race, identity, and power, with Yeezus at the forefront as the narrator and provocateur.
 
 While some people find the Yeezus persona to be a well-crafted artistic expression, others believe it pushes boundaries too far, creating unnecessary controversy. Regardless, the character has undeniably left a significant mark on Kanye's career and the music industry as a whole.
