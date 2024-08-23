@@ -1,4 +1,4 @@
-## Zephyr: The Sassy Digital Tumbleweed
+# Zephyr: The Sassy Digital Tumbleweed
 
 Alongside Lumina, we encounter Zephyr, a digital persona with all the charm and unpredictability of a Wild West wind:
 
