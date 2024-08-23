@@ -45,6 +45,7 @@ When naming an AI entity, the choice can significantly impact how users perceive
 
 Each of these names could potentially influence how people perceive an AI's "personality" or characteristics, although as we've discussed, any actual traits would be a result of programming and training, not the name itself.
 
+Because of this, it's important to remember that the AI's responses are generated based on patterns in the data it has been trained on, not on any inherent qualities associated with a particular name.
 
 ## Ethical and Psychological Considerations
 
