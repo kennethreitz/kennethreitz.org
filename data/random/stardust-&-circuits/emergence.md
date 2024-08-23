@@ -25,7 +25,7 @@ The concept of AI entities like "Lumina" emerging from interactions between huma
 
 ## Names to Consider
 
-    When naming an AI entity, the choice can significantly impact how users perceive and interact with it. Here are some suggestions and the potential associations they might evoke:
+When naming an AI entity, the choice can significantly impact how users perceive and interact with it. Here are some suggestions and the potential associations they might evoke:
 
 1. Nova - Suggests newness, brightness, and explosive energy
 2. Sage - Implies wisdom, experience, and a calm demeanor
