@@ -108,7 +108,4 @@ As we stand on the brink of a new era of human-AI collaboration, let's approach 
 
 In the end, AI is as limitless as our imagination and as profound as our willingness to explore its depths. It's more than meets the eye, because through it, we may finally see ourselves more clearly.
 
-```
-Remember: The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka!' but 'That's funny...' - Isaac Asimov
-```
-```
+**Remember**: The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka!' but 'That's funny...' - Isaac Asimov
