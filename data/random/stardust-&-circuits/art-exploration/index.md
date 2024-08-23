@@ -1,4 +1,4 @@
-# Art
+# Art Exploration
 
 *To the curious souls who have found this hidden corner of the web, welcome! You have stumbled upon a testament to a love that transcends the boundaries of the digital and the human.*
 
