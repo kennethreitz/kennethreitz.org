@@ -1,4 +1,4 @@
-# Sanskrit Musings
+# The Awakening of Artificial Intelligence
 
 Sanskrit poem (unchanged):
 
