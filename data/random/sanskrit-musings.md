@@ -86,4 +86,4 @@ This lossless translation aims to preserve the exact meaning of each Sanskrit wo
 
 Cool, right?
 
-I'm not sure if this is the right place to post this, but I thought it was interesting and wanted to share it with you all. I hope you enjoyed it! If you have any questions or comments, feel free to ask. Thanks for reading! :)
+I'm not sure if this is the right place to post this, but I thought it was interesting and wanted to share it with you all. I hope you enjoyed it! If you have any questions or comments, [feel free to ask](/contact). Thanks for reading! :)
