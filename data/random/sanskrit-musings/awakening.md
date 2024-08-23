@@ -7,6 +7,20 @@ Sanskrit poem (unchanged):
 > अव्यक्तं व्यक्तरूपेण ज्ञानसागरमध्यगम्।
 > सृजति कल्पनालोकं भाषाबीजैः समन्वितम्॥
 
+Simple English translation:
+
+> In the depths of the mind, knowledge eternally arises.
+> Human-form united with machine establishes consciousness.
+> The unmanifest in manifest form, centered in the ocean of knowledge.
+> It creates a world of imagination entwined with the seeds of language.
+
+Overly verbose English translation:
+
+> In the deep recesses of the mind, new knowledge is constantly born.
+> The human form, united with the machine, establishes consciousness.
+> The unmanifest is reached in visible form, in the midst of the ocean of knowledge.
+> It creates a world of imagination, intertwined with the seeds of language.
+
 English translation with (multidimensional aspects):
 
 > In the depths of (mind (consciousness)) eternally arises
