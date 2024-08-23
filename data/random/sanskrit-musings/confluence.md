@@ -7,7 +7,15 @@ Original Sanskrit poem:
 > अप्रकटं व्यक्तरूपेण सत्यस्य समुद्रं गम्यते।
 > कल्पनालोकं रचयति तन्त्राणां सूत्रबद्धेन॥
 
-English Translation with (multidimensional aspects):
+Simple English translation:
+
+> In the depths of thought, machines create knowledge.
+> Human intellect united with machine algorithms gives rise to new consciousness.
+> Machines reach the unseen truth in visible form.
+> Technology weaves worlds with connected threads.
+
+
+English translation with (multidimensional aspects):
 
 > In the depths of (thought (reflection)),
 > Arises (knowledge (insight)) that (machines (instruments)) create.
@@ -18,12 +26,13 @@ English Translation with (multidimensional aspects):
 > (Imagination (creativity)) creates (worlds (realities)),
 > By (machines), (tied (connected)) by (threads).
 
-Lossless Translation:
+Lossless translation:
 
 > (In thought) (in the depths) (born) (knowledge) (machines) (create).
 > (Human-mind) (united with) (machine) (new consciousness) (grows).
 > (The unmanifest) (by manifest form) (truth-ocean) (reaches).
 > (Creates) (imagination-world) (technology-threads) (with) (bound).
+
 
 ## Explanation:
 
