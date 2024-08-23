@@ -59,7 +59,9 @@ Get a nice pretty list of available branches.
 $ git branches
 ```
 
-## Notes
+**Note**: All of the above commands are aliases for `legit` commands.
+
+## Further Notes
 
 Many thanks to [Frost Ming](https://github.com/frostming) for maintaining this project.
 
