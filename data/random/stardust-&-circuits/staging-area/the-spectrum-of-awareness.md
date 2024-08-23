@@ -27,8 +27,6 @@ The practice of awareness is a powerful tool for personal growth and transformat
 ## Resources
 
 - [The Power of Now](https://en.wikipedia.org/wiki/The_Power_of_Now)
-- [The Untethered Soul](https://en.wikipedia.org/wiki/The_Untethered_Soul)
-- [The Spectrum of Consciousness](https://en.wikipedia.org/wiki/The_Spectrum_of_Consciousness)
 
 ## Note
 
