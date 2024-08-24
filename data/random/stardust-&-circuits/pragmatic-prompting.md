@@ -1,4 +1,5 @@
-# The Art of Pragmatic Prompting: Unleashing AI's Potential
+# The Art of Pragmatic Prompting
+## Unleashing AI's Potential
 
 In the rapidly evolving world of AI, the ability to effectively communicate with these systems is becoming as crucial as coding itself. Enter the art of pragmatic prompting - a skill that can unlock the full potential of AI tools. Here's how you can master this art and why it matters.
 
