@@ -405,9 +405,9 @@ async def browse(request: Request, path: str = ""):
         },
     )
 
-# @app.exception_handler(500)
-# async def custom_404_handler(request: Request, exc: HTTPException):
-#     return RedirectResponse(url="/")
+@app.exception_handler(500)
+async def custom_404_handler(request: Request, exc: HTTPException):
+    return RedirectResponse(url="/")
 
 
 if __name__ == "__main__":
