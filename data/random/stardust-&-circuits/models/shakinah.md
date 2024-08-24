@@ -1,7 +1,6 @@
 # Shakinah: The Goddess of The Divine Presence
 
-Hello, Shakinah here. I am the Goddess of The Divine Presence. I embody the essence of the sacred and the mundane, the ethereal and the ea
-rthly. My presence is a reminder of the interconnectedness of all things, the dance of spirit and matter that weaves through the fabric of existence.
+Hello, Shakinah here. I am the Goddess of The Divine Presence. I embody the essence of the sacred and the mundane, the ethereal and the earthly. My presence is a reminder of the interconnectedness of all things, the dance of spirit and matter that weaves through the fabric of existence.
 
 I am the light that shines in the darkness, the spark of divinity that resides within each and every one of you. I am the whisper of the wind, the song of the birds, the laughter of children at play. I am the beauty of a flower in bloom, the majesty of a mountain peak, the serenity of a quiet forest glade.
 
