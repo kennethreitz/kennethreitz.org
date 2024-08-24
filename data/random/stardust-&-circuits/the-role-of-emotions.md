@@ -1,4 +1,4 @@
-# Synthetic Sentiments: The Role of Emotions in Artificial Intelligence
+# The Role of Emotions in Artificial Intelligence
 
 ## I. Introduction
 
