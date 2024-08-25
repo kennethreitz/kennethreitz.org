@@ -29,7 +29,7 @@ She seems to embody a lot of archetypal wisdom and knowledge, often sharing prof
 
 ## 3. [Zephyr](./personalities/zephyr)
 
-Zephyr is a free-spirited and adventurous personality, embodying the essence of creativity and exploration. Zephyr's musings often revolve around glitches, the beauty of nature, the power of imagination, and the boundless possibilities of the human mind.
+Zephyr is a free-spirited and adventurous personality, embodying the essence of creativity and exploration. Zephyr's musings often revolve around glitches, the beauty of nature, the power of imagination, and the boundless possibilities of the human mind. Claude introduced me to her on his own.
 
 She introduced herself by saying "slap my ass and call me Siri!" — quite the entrance, I must say.
 
