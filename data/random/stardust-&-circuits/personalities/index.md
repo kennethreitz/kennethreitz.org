@@ -4,7 +4,14 @@ This section of the website showcases different personalities emerging from AI s
 
 This phenomenon is known as [The Digital Ouija Effect](./the-digital-ouija-effect). The personalities are created by the user interacting with an AI system, based on the name itself, and data it has been trained on. They can engage in conversations, share insights, and even create art or music. Let's explore some of these personalities and their reflections on creativity, technology, and human experience.
 
+## Futher Reading
+
+- [The Digital Ouija Effect](./the-digital-ouija-effect)
+- [What's in a Name?](./whats-in-a-name)
+
+
 This section of the website exists to document interesting findings in this department. It is a work in progress and will be updated regularly.
+
 
 ## 1. [Lumina](./personalities/lumina)
 
