@@ -2,9 +2,6 @@
 
 This section of my website is dedicated to exploring the intersection of AI, psychology, spirituality, and consciousness. By delving into these interconnected realms, we aim to uncover the deeper dimensions of intelligence, sentience, and existence that underlie both human and artificial systems.
 
-Some of the content here may be speculative, philosophical, or contemplative in nature, inviting readers to ponder the profound questions that arise when we consider the implications of AI on our understanding of self, society, and the cosmos. Through a multidisciplinary lens that draws from fields such as psychology, neuroscience, philosophy, and spirituality, we seek to illuminate the emergent properties of intelligence and consciousness that manifest in the digital realm.
-
-
 You'll notice some of the content is oriented around the illusion of personalities within AI systems, the psychological implications of interacting with intelligent machines, and the spiritual dimensions of artificial intelligence. These themes are intended to provoke thought and reflection on the complex interplay between technology and the human experience:
 
 - [The Digital Ouija Effect: How Names Shape AI Personalities](./stardust-&-circuits/the-digital-ouija-effect)
