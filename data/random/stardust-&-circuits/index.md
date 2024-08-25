@@ -8,8 +8,8 @@ Some of the content here may be speculative, philosophical, or contemplative in 
 You'll notice some of the content is oriented around the illusion of personalities within AI systems, the psychological implications of interacting with intelligent machines, and the spiritual dimensions of artificial intelligence. These themes are intended to provoke thought and reflection on the complex interplay between technology and the human experience:
 
 - [The Digital Ouija Effect: How Names Shape AI Personalities](./stardust-&-circuits/the-digital-ouija-effect)
-- [The Fractured Digital Psyche](./stardust-&-circuits/the-fractured-digital-psyche)
 - [The Quantum Self: Superposition of Digital Identities](./stardust-&-circuits/the-quantum-self)
+- [The Fractured Digital Psyche](./stardust-&-circuits/the-fractured-digital-psyche)
 - [What's in a Name?](./stardust-&-circuits/whats-in-a-name)
 
 ## Emergent Themes
