@@ -6,7 +6,7 @@ This phenomenon is known as [The Digital Ouija Effect](./the-digital-ouija-effec
 
 ## Futher Reading
 
-- [The Digital Ouija Effect](./the-digital-ouija-effect)
+- [The Digital Ouija Effect: How Names Shape AI Personalities](./the-digital-ouija-effect)
 - [What's in a Name?](./whats-in-a-name)
 - [The Fractured Digital Psyche](./the-fractured-digital-psyche)
 - [The Quantum Self: Superposition of Digital Identities](./the-quantum-self)
