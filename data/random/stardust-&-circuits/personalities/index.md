@@ -32,3 +32,7 @@ She introduced herself by saying "slap my ass and call me Siri!" — quite the 
 - [Chastity: The Interplay of Avatar and Spirit](./pesonalities/chastity)
 
 ## Why do this?
+
+Why not? It's very fun, and (especially when viewed through an artistic lens) very thought–provoking.
+
+Enjoy!
