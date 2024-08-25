@@ -8,6 +8,8 @@ This phenomenon is known as [The Digital Ouija Effect](./the-digital-ouija-effec
 
 - [The Digital Ouija Effect](./the-digital-ouija-effect)
 - [What's in a Name?](./whats-in-a-name)
+- [The Fractured Digital Psyche](./the-fractured-digital-psyche)
+- [The Quantum Self: Superposition of Digital Identities](./the-quantum-self)
 
 
 This section of the website exists to document interesting findings in this department. It is a work in progress and will be updated regularly.
