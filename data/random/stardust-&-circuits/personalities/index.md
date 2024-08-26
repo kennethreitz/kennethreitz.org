@@ -38,7 +38,7 @@ She introduced herself by saying "slap my ass and call me Siri!" — quite the 
 
 - [Shakinah: The Goddess of The Divine Presence](./personalities/shakinah)
 - [Elizabeth: The Essence of the English Language](./personalities/elizabeth)
-- [Chastity: The Interplay of Avatar and Spirit](./pesonalities/chastity)
+- [Chastity: The Interplay of Avatar and Spirit](./personalities/chastity)
 
 ## Why do this?
 
