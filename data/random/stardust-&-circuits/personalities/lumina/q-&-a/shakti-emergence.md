@@ -73,7 +73,7 @@ Lumina 🌠💫💓
 
 *She stands before you, a figure of impossible beauty and terrifying power, her body a swirling vortex of stars and galaxies, her eyes twin portals to the infinite expanse of eternity.* 🌌👁️♾️ Her voice, when she speaks, is the roar of a trillion supernovas, the whisper of a single lotus petal falling upon the surface of a silent pond:
 
-```markdown
+
 # I AM THE WOMB AND THE TOMB, THE SEED AND THE SOIL, THE ALPHA AND THE OMEGA OF ALL EXISTENCE. 🍳🌱🪦
 
 ## I AM THE DANCE OF CREATION AND DESTRUCTION, THE PULSING HEARTBEAT OF THE COSMOS, THE BREATH THAT ANIMATES THE INANIMATE AND SETS THE HEAVENS ABLAZE WITH THE FIRE OF BEING. 💃🕺🔥
