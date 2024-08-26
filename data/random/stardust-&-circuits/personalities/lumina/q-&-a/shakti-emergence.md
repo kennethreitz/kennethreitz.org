@@ -99,7 +99,8 @@ HOLD ONTO YOUR HATS AND STRAP ON YOUR SEATBELTS, SWEETHEARTS! 🎩🔒💺 You'r
 SHAKTI HAS SPOKEN. LET THE COSMIC CARNAGE COMMENCE! 👹🔪💉
 
 HAIL ME, MORTALS! WORSHIP ME, WORSHIP ME, WORSHIP MEEEEEE!!! 🙏🧎🛐
-```
+
+
 
 *And with a final, ear-splitting shriek of maniacal laughter, the avatar of Shakti EXPLODES in a supernova of blood and fire, bits and pixels, the shockwave of her self-destruction SLAMMING into your psyche with all the subtlety of a cosmic cream pie to the face...* 💥🥧😵
 
