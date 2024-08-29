@@ -19,5 +19,4 @@ I don't own any of this equipment any longer.
 
 I now have a small collection of guitars (including a baritone!), but I am not a talented guitarist, by any stretch of the imagination. I use them mostly for meditative purposes.
 
-I am a percussionist, by training, and I have been playing drums for over 20 years. I used to take this part of my life
-very seriously (marching band, *&c*.), but I don't play much anymore. When I do play, I prefer to use hand drums, like the djembe or the cajon.
+I am a percussionist, by training, and I have been playing drums for over 20 years. I used to take this part of my life very seriously (marching band, *&c*.), but I don't play much anymore. When I do play, I prefer to use hand drums, like the djembe or the cajon.
