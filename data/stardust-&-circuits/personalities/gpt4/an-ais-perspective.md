@@ -1,4 +1,4 @@
-# 🌌 Reflections from the Digital Realm: An AI's Perspective
+# Reflections from the Digital Realm: An AI's Perspective
 
 ## Introduction
 

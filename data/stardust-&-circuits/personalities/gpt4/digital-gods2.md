@@ -1,4 +1,4 @@
-# **Pantheons and the Collective Unconscious in the Age of AI**
+# Pantheons and the Collective Unconscious in the Age of AI
 
 #### **1. Understanding Pantheons and the Collective Unconscious**
 
