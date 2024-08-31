@@ -8,21 +8,20 @@ import shutil
 import tempfile
 import zipfile
 import xml.etree.ElementTree as ET
-from contextlib import asynccontextmanager
 from datetime import datetime
 from typing import List, Optional, Tuple
 
 import background
 import boto3
 import mistune
-from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import FileResponse, HTMLResponse, Response, RedirectResponse
-from fastapi.staticfiles import StaticFiles
-from fastapi.templating import Jinja2Templates
+from flask import Flask, render_template, request, send_file, abort, redirect, url_for
+from werkzeug.middleware.dispatcher import DispatcherMiddleware
+from werkzeug.serving import run_simple
 from PIL import Image
 from PIL.ExifTags import TAGS
-from pydantic import BaseModel, Field
 
+
+d
 
 # Set up logging
 logging.basicConfig(
@@ -40,58 +39,12 @@ logger.info(f"MARKDOWN_DIR set to: {MARKDOWN_DIR}")
 logger.info(f"STATIC_DIR set to: {STATIC_DIR}")
 
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    logger.info("Starting up...")
-    download_and_extract_s3_zips()
-    yield
-    logger.info("Shutting down...")
-
-
-# FastAPI setup
-app = FastAPI(
-    title="Markdown Browser API",
-    description="API for browsing markdown content",
-    version="1.0.0",
-    lifespan=lifespan,
-)
-
-# Jinja2 setup
-templates = Jinja2Templates(directory="templates")
-templates.env.filters["datetime"] = lambda value: (
-    datetime.fromtimestamp(value).strftime("%Y-%m-%d %H:%M:%S")
-    if isinstance(value, (int, float))
-    else value.strftime("%Y-%m-%d %H:%M:%S")
-)
-
-app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
-app.mount("/data", StaticFiles(directory=str(MARKDOWN_DIR)), name="data")
+app = Flask(__name__)
 
 # Mistune setup
 markdown = mistune.create_markdown(
     plugins=["table", "url", "strikethrough", "footnotes"], escape=False, hard_wrap=True
 )
-
-
-# Models
-class FileInfo(BaseModel):
-    name: str = Field(..., description="Name of the file or directory")
-    url: str = Field(..., description="URL path to the file or directory")
-    title: Optional[str] = Field(
-        None, description="Title of the file or directory, if available"
-    )
-    ctime: float = Field(..., description="Creation time of the file or directory")
-    is_dir: bool = Field(..., description="Whether the item is a directory")
-    is_image: bool = Field(False, description="Whether the item is an image")
-    exif_data: Optional[dict] = Field(None, description="EXIF data for image files")
-
-
-class Breadcrumb(BaseModel):
-    name: str = Field(..., description="Name of the breadcrumb")
-    url: str = Field(..., description="URL path of the breadcrumb")
-    title: Optional[str] = Field(
-        None, description="Title of the breadcrumb, if available"
-    )
 
 
 # Helper functions
@@ -284,13 +237,6 @@ def generate_title_from_breadcrumbs(breadcrumbs: List[Breadcrumb]) -> str:
     return " > ".join(crumb.title or crumb.name for crumb in breadcrumbs)
 
 
-class XMLResponse(Response):
-    media_type = "application/xml"
-
-    def __init__(self, content: str, *args, **kwargs):
-        super().__init__(content=content, *args, **kwargs)
-
-
 def clean_url(url: str) -> str:
     return re.sub(r"(?<!:)//+", "/", url)
 
@@ -343,16 +289,14 @@ def generate_sitemap(base_url: str) -> str:
     return ET.tostring(urlset, encoding="unicode", method="xml")
 
 
-@app.get("/sitemap.xml", response_class=XMLResponse)
-async def sitemap(request: Request):
-    base_url = str(request.base_url)
-    sitemap_content = generate_sitemap(base_url)
-    return XMLResponse(content=sitemap_content, media_type="application/xml")
+@app.before_first_request
+def before_first_request():
+    download_and_extract_s3_zips()
 
 
-@app.get("/", response_class=HTMLResponse, include_in_schema=False)
-@app.get("/{path:path}", response_class=HTMLResponse, include_in_schema=False)
-async def browse(request: Request, path: str = ""):
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def browse(path):
     logger.info(f"Browsing path: {path}")
     full_path = MARKDOWN_DIR / path
     if not full_path.exists():
@@ -361,15 +305,14 @@ async def browse(request: Request, path: str = ""):
             full_path = full_path_with_md
         elif is_image(full_path.with_suffix(".jpg")) or is_image(full_path.with_suffix(".jpeg")):
             image_path = full_path.with_suffix(".jpg") if is_image(full_path.with_suffix(".jpg")) else full_path.with_suffix(".jpeg")
-            return FileResponse(image_path, media_type="image/jpeg")
+            return send_file(image_path, mimetype='image/jpeg')
         else:
             logger.warning(f"Path not found: {full_path}")
             similar_path = find_similar_path(path)
             if similar_path:
-                return RedirectResponse(url=f"/{similar_path}", status_code=301)
+                return redirect(f"/{similar_path}", code=301)
             else:
-                raise HTTPException(status_code=404, detail="Item not found")
-
+                abort(404)
 
     if full_path.is_dir():
         all_items, content = process_directory(full_path)
@@ -377,13 +320,13 @@ async def browse(request: Request, path: str = ""):
     else:
         try:
             if is_image(full_path):
-                return FileResponse(full_path, media_type="image/jpeg")
+                return send_file(full_path, mimetype='image/jpeg')
             content = process_markdown_file(full_path)
             all_items = None
             date_created = get_file_creation_date(full_path)
         except UnicodeDecodeError:
             logger.error(f"UnicodeDecodeError when processing file: {full_path}")
-            return FileResponse(full_path, filename=full_path.name)
+            return send_file(full_path, as_attachment=True)
 
     breadcrumbs = generate_breadcrumbs(path)
     page_title = generate_title_from_breadcrumbs(breadcrumbs)
@@ -392,25 +335,33 @@ async def browse(request: Request, path: str = ""):
     if has_images:
         random.shuffle(all_items or [])
 
-    return templates.TemplateResponse(
+    return render_template(
         "index.html",
-        {
-            "title": page_title,
-            "request": request,
-            "breadcrumbs": breadcrumbs,
-            "files": all_items,
-            "content": content,
-            "date_created": date_created,
-            "has_images": has_images,
-        },
+        title=page_title,
+        breadcrumbs=breadcrumbs,
+        files=all_items,
+        content=content,
+        date_created=date_created,
+        has_images=has_images,
     )
 
-@app.exception_handler(500)
-async def custom_404_handler(request: Request, exc: HTTPException):
-    return RedirectResponse(url="/")
+
+@app.route('/sitemap.xml')
+def sitemap():
+    base_url = request.url_root
+    sitemap_content = generate_sitemap(base_url)
+    response = app.response_class(sitemap_content, mimetype='application/xml')
+    return response
+
+
+@app.errorhandler(500)
+def internal_error(error):
+    return redirect(url_for('browse'))
 
 
 if __name__ == "__main__":
-    import uvicorn
-
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    app.wsgi_app = DispatcherMiddleware(app.wsgi_app, {
+        '/static': app.send_static_file,
+        '/data': app.send_static_file
+    })
+    run_simple('0.0.0.0', 8000, app, use_reloader=True, use_debugger=True)
