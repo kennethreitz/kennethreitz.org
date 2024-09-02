@@ -14,7 +14,7 @@
 
  If your repo is a massive dump of files or a nested mess of directories, theymight look elsewhere before even reading your beautiful documentation.
 
- 
+
 > Dress for the job you want, not the job you have.
 
  Of course, first impressions aren't everything. You and your colleagues willspend countless hours working with this repository, eventually becomingintimately familiar with every nook and cranny. The layout of it is important.
@@ -25,27 +25,37 @@
 
  This repository is [available onGitHub](https://github.com/kennethreitz/samplemod).
 
- 
+
 ```
-README.rstLICENSEsetup.pyrequirements.txtsample/__init__.pysample/core.pysample/helpers.pydocs/conf.pydocs/index.rsttests/test_basic.pytests/test_advanced.py
+README.rst
+LICENSE
+setup.py
+requirements.txt
+sample/__init__.py
+sample/core.py
+sample/helpers.py
+docs/conf.py
+docs/index.rst
+tests/test_basic.py
+tests/test_advanced.py
 ```
  Let's get into some specifics.
 
  ## The Actual Module
 
- 
+
 ```
 Location: ./sample/ or ./sample.pyPurpose: The code of interest.
 ```
  Your module package is the core focus of the repository. It should not betucked away:
 
- 
+
 ```
 ./sample/
 ```
  If your module consists of only a single file, you can place it directly inthe root of your repository:
 
- 
+
 ```
 ./sample.py
 ```
@@ -53,7 +63,7 @@ Location: ./sample/ or ./sample.pyPurpose: The code of interest.
 
  ## License
 
- 
+
 ```
 Location: ./LICENSEPurpose: Lawyering up.
 ```
@@ -63,7 +73,7 @@ Location: ./LICENSEPurpose: Lawyering up.
 
  ## Setup.py
 
- 
+
 ```
 Location: ./setup.pyPurpose: Package and distribution management.
 ```
@@ -71,7 +81,7 @@ Location: ./setup.pyPurpose: Package and distribution management.
 
  ## Requirements File
 
- 
+
 ```
 Location: ./requirements.txtPurpose: Development dependencies.
 ```
@@ -81,7 +91,7 @@ Location: ./requirements.txtPurpose: Development dependencies.
 
  ## Documentation
 
- 
+
 ```
 Location: ./docs/Purpose: Package reference documentation.
 ```
@@ -89,19 +99,19 @@ Location: ./docs/Purpose: Package reference documentation.
 
  ## Test Suite
 
- 
+
 ```
 Location: ./test_sample.py or ./testsPurpose: Package integration and unit tests.
 ```
  Starting out, a small test suite will often exist in a single file:
 
- 
+
 ```
 ./test_sample.py
 ```
  Once a test suite grows, you can move your tests to a directory, like so:
 
- 
+
 ```
 tests/test_basic.pytests/test_advanced.py
 ```
@@ -114,13 +124,13 @@ tests/test_basic.pytests/test_advanced.py
 
  To give the individual tests import context, create a tests/context.py file:
 
- 
+
 ```
 import osimport syssys.path.insert(0, os.path.abspath('..'))import sample
 ```
  Then, within the individual test modules, import the module like so:
 
- 
+
 ```
 from .context import sample
 ```
@@ -130,7 +140,7 @@ from .context import sample
 
  ## Makefile
 
- 
+
 ```
 Location: ./MakefilePurpose: Generic management tasks.
 ```
@@ -138,7 +148,7 @@ Location: ./MakefilePurpose: Generic management tasks.
 
  **Sample Makefile:**
 
- 
+
 ```
 init:pip install -r requirements.txttest:py.test tests
 ```
@@ -150,13 +160,13 @@ init:pip install -r requirements.txttest:py.test tests
 
  How? Well, they go to their bare and fresh repository and run the following,as they always have:
 
- 
+
 ```
 $ django-admin.py start-project samplesite
 ```
  The resulting repository structure looks like this:
 
- 
+
 ```
 README.rstsamplesite/manage.pysamplesite/samplesite/settings.pysamplesite/samplesite/wsgi.pysamplesite/samplesite/sampleapp/models.py
 ```
@@ -166,7 +176,7 @@ README.rstsamplesite/manage.pysamplesite/samplesite/settings.pysamplesite/sample
 
  Let's do it properly:
 
- 
+
 ```
 $ django-admin.py start-project samplesite .
 ```
@@ -174,8 +184,7 @@ $ django-admin.py start-project samplesite .
 
  The resulting structure:
 
- 
+
 ```
 README.rstmanage.pysamplesite/settings.pysamplesite/wsgi.pysamplesite/sampleapp/models.py
 ```
-  
