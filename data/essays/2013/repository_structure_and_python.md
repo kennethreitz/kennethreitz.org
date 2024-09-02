@@ -119,7 +119,8 @@ Purpose: Package integration and unit tests.
 
 
 ```
-tests/test_basic.pytests/test_advanced.py
+tests/test_basic.py
+tests/test_advanced.py
 ```
  Obviously, these test modules must import your packaged module to test it. Youcan do this a few ways:
 
