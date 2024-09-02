@@ -186,5 +186,9 @@ $ django-admin.py start-project samplesite .
 
 
 ```
-README.rstmanage.pysamplesite/settings.pysamplesite/wsgi.pysamplesite/sampleapp/models.py
+README.rst
+manage.py
+samplesite/settings.py
+samplesite/wsgi.py
+samplesite/sampleapp/models.py
 ```
