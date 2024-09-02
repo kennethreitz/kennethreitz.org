@@ -45,7 +45,8 @@ tests/test_advanced.py
 
 
 ```
-Location: ./sample/ or ./sample.pyPurpose: The code of interest.
+Location: ./sample/ or ./sample.py
+Purpose: The code of interest.
 ```
  Your module package is the core focus of the repository. It should not betucked away:
 
@@ -65,7 +66,8 @@ Location: ./sample/ or ./sample.pyPurpose: The code of interest.
 
 
 ```
-Location: ./LICENSEPurpose: Lawyering up.
+Location: ./LICENSE
+Purpose: Lawyering up.
 ```
  This is arguably the most important part of your repository, aside from thesource code itself. The full license text and copyright claims should exist inthis file.
 
@@ -75,7 +77,8 @@ Location: ./LICENSEPurpose: Lawyering up.
 
 
 ```
-Location: ./setup.pyPurpose: Package and distribution management.
+Location: ./setup.py
+Purpose: Package and distribution management.
 ```
  If your module package is at the root of your repository, this shouldobviously be at the root as well.
 
@@ -83,7 +86,8 @@ Location: ./setup.pyPurpose: Package and distribution management.
 
 
 ```
-Location: ./requirements.txtPurpose: Development dependencies.
+Location: ./requirements.txt
+Purpose: Development dependencies.
 ```
  A [Pip requirements file](http://www.pip-installer.org/en/latest/requirements.html) should be placed at the root of therepository. It should specify the dependencies required to contribute to theproject: testing, building, and generating documentation.
 
@@ -93,7 +97,8 @@ Location: ./requirements.txtPurpose: Development dependencies.
 
 
 ```
-Location: ./docs/Purpose: Package reference documentation.
+Location: ./docs/
+Purpose: Package reference documentation.
 ```
  There is little reason for this to exist elsewhere.
 
@@ -101,7 +106,8 @@ Location: ./docs/Purpose: Package reference documentation.
 
 
 ```
-Location: ./test_sample.py or ./testsPurpose: Package integration and unit tests.
+Location: ./test_sample.py or ./tests
+Purpose: Package integration and unit tests.
 ```
  Starting out, a small test suite will often exist in a single file:
 
@@ -126,7 +132,12 @@ tests/test_basic.pytests/test_advanced.py
 
 
 ```
-import osimport syssys.path.insert(0, os.path.abspath('..'))import sample
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath('..'))
+
+import sample
 ```
  Then, within the individual test modules, import the module like so:
 
@@ -142,7 +153,8 @@ from .context import sample
 
 
 ```
-Location: ./MakefilePurpose: Generic management tasks.
+Location: ./Makefile
+Purpose: Generic management tasks.
 ```
  If you look at most of my projects or any Pocoo project, you'll notice aMakefile laying around. Why? These projects aren't written in C... In short,make is a incredibly useful tool for defining generic and platform agnostictasks for your project.
 
@@ -168,7 +180,11 @@ $ django-admin.py start-project samplesite
 
 
 ```
-README.rstsamplesite/manage.pysamplesite/samplesite/settings.pysamplesite/samplesite/wsgi.pysamplesite/samplesite/sampleapp/models.py
+README.rst
+samplesite/manage.py
+samplesite/samplesite/settings.py
+samplesite/samplesite/wsgi.py
+samplesite/samplesite/sampleapp/models.py
 ```
  Don't do this.
 
