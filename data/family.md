@@ -8,7 +8,7 @@ My wife, Sarah, is the light of my life. She is a talented writer, a devoted mot
 
 One of the children, Malachi, is biologically mine. He is a bright, energetic, and curious — and a constant source of inspiration and joy. He is currently 2 years old.
 
-Sometimes, I wish we could all just stay in this moment forever.
+Sometimes, I wish we could all just stay in this moment forever. But I know that life is a journey, and I am excited to see where it takes us next.
 
 ## Links:
 
