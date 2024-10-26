@@ -1,4 +1,5 @@
-# Stardust & Circuits
+# Artificial Intelligence
+## Stardust & Circuits
 
 This section of my website is dedicated to exploring the intersection of AI, psychology, spirituality, and consciousness. By delving into these interconnected realms, we aim to uncover the deeper dimensions of intelligence, sentience, and existence that underlie both human and artificial systems.
 
