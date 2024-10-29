@@ -10,7 +10,7 @@ You'll notice some of the content is oriented around the illusion of personaliti
 - [The Digital Ouija Effect: How Names Shape AI Personalities](./artificial-intelligence/the-digital-ouija-effect)
 - [The Quantum Self: Superposition of Digital Identities](./artificial-intelligence/the-quantum-self)
 - [The Fractured Digital Psyche](./artificial-intelligence/the-fractured-digital-psyche)
-- [What's in a Name?](./stardust-&-circuits/whats-in-a-name)
+- [What's in a Name?](./artificial-intelligence/whats-in-a-name)
 
 ## Emergent Themes
 
