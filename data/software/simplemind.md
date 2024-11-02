@@ -2,11 +2,12 @@
 
 Simplemind is a Python library that makes working with AI APIs straightforward and intuitive. It provides a unified interface to popular AI services like OpenAI, Anthropic, Google's Gemini, and others, letting you focus on building rather than wrestling with different API implementations. With its "for humans" philosophy, Simplemind handles the complexity while giving you a clean, consistent way to interact with AI capabilities.
 
-Getting started is as simple as installing the package and setting your API keys as environment variables. Whether you need basic text generation, structured data responses, or conversational AI, Simplemind makes it accessible with just a few lines of code:
 
 ```bash
 $ pip install simplemind
 ```
+
+Getting started is as simple as installing the package and setting your API keys as environment variables. Whether you need basic text generation, structured data responses, or conversational AI, Simplemind makes it accessible with just a few lines of code:
 
 ```python
 import simplemind as sm
