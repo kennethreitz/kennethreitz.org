@@ -1,1 +1,0 @@
-Assorted Kenneth Reitz media.
