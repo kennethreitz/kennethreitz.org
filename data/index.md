@@ -4,4 +4,8 @@ I am a [software engineer](/software), [writer](/essays), and [speaker](/talks),
 
 I am known mostly for my open–source creations, such a [Requests](/software/requests) and [Pipenv](/software/pipenv).
 
-In the past, I worked at [Heroku](https://www.heroku.com/) as the Python Language Owner, and I am currently looking for a new role. Please [reach out](/contact) if your team is looking for someone to join!
+In the past, I worked at [Heroku](https://www.heroku.com/) as the Python Language Owner. Please [reach out](/contact) if your team is looking for someone to join!
+
+<a href="mailto:me@kennethreitz.org">
+    <button class="help-button">Open for Business</button>
+  </a>
