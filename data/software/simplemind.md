@@ -42,4 +42,4 @@ claude = sm.Session(llm_provider="anthropic", llm_model="claude-3-5-sonnet-20241
 response = claude.generate_text("Hello!")
 ```
 
-Simplemind is open source under the Apache 2.0 License and welcomes contributions from the community. For more examples and documentation, visit the [GitHub repository](https://github.com/yourusername/simplemind).
+Simplemind is open source under the Apache 2.0 License and welcomes contributions from the community. For more examples and documentation, visit the [GitHub repository](https://github.com/kennethreitz/simplemind).
