@@ -9,7 +9,7 @@ RUN uv venv .venv
 COPY requirements.txt ./
 
 
-RUN uv pip install -r requirements.txt
+RUN uv pip install .
 
 
 FROM python:3.12.4-slim-bookworm

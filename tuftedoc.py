@@ -33,7 +33,13 @@ logger = logging.getLogger(__name__)
 # Configuration
 MARKDOWN_DIR = pathlib.Path("./data").resolve()
 STATIC_DIR = pathlib.Path("./static").resolve()
-BUCKET_NAME = os.environ["BUCKET_NAME"]
+
+
+if "BUCKET_NAME" in os.environ:
+    BUCKET_NAME = os.environ["BUCKET_NAME"]
+else:
+    BUCKET_NAME = None
+
 S3_ZIP_FILES = ["photos.zip"]
 
 logger.info(f"MARKDOWN_DIR set to: {MARKDOWN_DIR}")
@@ -100,6 +106,10 @@ def download_and_extract_s3_zips():
     s3 = boto3.client("s3")
 
     for zip_file in S3_ZIP_FILES:
+        if not BUCKET_NAME:
+            logger.error("BUCKET_NAME is not set. Skipping download.")
+            continue
+
         extracted_folder = MARKDOWN_DIR / zip_file.split(".")[0]
         if extracted_folder.exists() and any(extracted_folder.iterdir()):
             logger.info(
