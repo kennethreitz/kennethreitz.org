@@ -1637,6 +1637,28 @@ pre[class*="language-"] {
   transform: translateY(-1px);
 }
 
+.explorer-fab .shortcut-hint {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(var(--color-background-code));
+  color: rgb(var(--color-text-secondary));
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  border: 1px solid rgb(var(--color-border));
+  box-shadow: var(--shadow-sm);
+}
+
+.explorer-fab:hover .shortcut-hint {
+  opacity: 1;
+}
+
 .explorer-panel {
   position: fixed;
   top: 0;
@@ -1755,6 +1777,12 @@ pre[class*="language-"] {
     background-color: rgb(var(--color-primary));
   }
   
+  .explorer-fab .shortcut-hint {
+    background-color: rgb(var(--color-background-code-dark));
+    color: rgb(var(--color-text-light) / 0.7);
+    border-color: rgb(var(--color-border-dark));
+  }
+  
   .explorer-panel {
     background-color: rgb(var(--color-background-code-dark));
     border-color: rgb(var(--color-border-dark));
@@ -1820,6 +1848,307 @@ pre[class*="language-"] {
     background-color: rgb(var(--color-background-code-dark));
     color: rgb(var(--color-accent-light));
     border-color: rgba(var(--color-border-dark), 0.3);
+  }
+}
+
+/* Command Palette */
+.command-palette {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.95);
+  width: 600px;
+  max-width: 90vw;
+  max-height: 400px;
+  background-color: rgb(var(--color-background-code));
+  border-radius: 6px;
+  border: 1px solid rgb(var(--color-border));
+  box-shadow: var(--shadow-lg);
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.command-palette.show {
+  opacity: 1;
+  pointer-events: all;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.command-palette-header {
+  padding: 10px 15px;
+  border-bottom: 1px solid rgb(var(--color-border));
+  display: flex;
+  align-items: center;
+}
+
+.command-palette-search {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: rgb(var(--color-text));
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.9rem;
+}
+
+.command-palette-search::placeholder {
+  color: rgb(var(--color-text-secondary) / 0.6);
+}
+
+.command-palette-results {
+  max-height: 350px;
+  overflow-y: auto;
+  padding: 5px 0;
+}
+
+.command-palette-item {
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.command-palette-item:hover,
+.command-palette-item.selected {
+  background-color: rgba(var(--color-primary), 0.1);
+}
+
+.command-palette-icon {
+  color: rgb(var(--color-text-secondary));
+  width: 16px;
+  flex-shrink: 0;
+}
+
+.command-palette-label {
+  flex: 1;
+  font-size: 0.9rem;
+  color: rgb(var(--color-text));
+}
+
+.command-palette-shortcut {
+  display: flex;
+  gap: 4px;
+}
+
+.command-palette-key {
+  font-size: 0.75rem;
+  color: rgb(var(--color-text-secondary));
+  background-color: rgba(var(--color-background), 0.8);
+  border: 1px solid rgb(var(--color-border));
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* Keyboard Shortcuts Panel */
+.shortcuts-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.95);
+  width: 700px;
+  max-width: 90vw;
+  max-height: 80vh;
+  background-color: rgb(var(--color-background));
+  border-radius: 6px;
+  border: 1px solid rgb(var(--color-border));
+  box-shadow: var(--shadow-lg);
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.shortcuts-panel.show {
+  opacity: 1;
+  pointer-events: all;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.shortcuts-header {
+  padding: 15px;
+  border-bottom: 1px solid rgb(var(--color-border));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shortcuts-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: rgb(var(--color-text));
+}
+
+.shortcuts-close {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: rgb(var(--color-text-secondary));
+}
+
+.shortcuts-content {
+  padding: 20px;
+  overflow-y: auto;
+  max-height: calc(80vh - 60px);
+}
+
+.shortcuts-section {
+  margin-bottom: 25px;
+}
+
+.shortcuts-section-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgb(var(--color-primary));
+  border-bottom: 1px solid rgba(var(--color-border), 0.3);
+  padding-bottom: 5px;
+}
+
+.shortcuts-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.shortcut-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.shortcut-item:hover {
+  background-color: rgba(var(--color-primary), 0.05);
+}
+
+.shortcut-label {
+  font-size: 0.85rem;
+  color: rgb(var(--color-text));
+}
+
+.shortcut-combo {
+  display: flex;
+  gap: 4px;
+}
+
+.shortcut-key {
+  font-size: 0.75rem;
+  color: rgb(var(--color-text-secondary));
+  background-color: rgb(var(--color-background-code));
+  border: 1px solid rgb(var(--color-border));
+  border-radius: 3px;
+  padding: 2px 6px;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  min-width: 20px;
+  text-align: center;
+}
+
+.shortcuts-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.shortcuts-overlay.show {
+  opacity: 1;
+  pointer-events: all;
+}
+
+@media (prefers-color-scheme: dark) {
+  .command-palette {
+    background-color: rgb(var(--color-background-code-dark));
+    border-color: rgb(var(--color-border-dark));
+  }
+  
+  .command-palette-header {
+    border-color: rgb(var(--color-border-dark));
+  }
+  
+  .command-palette-search {
+    color: rgb(var(--color-text-light));
+  }
+  
+  .command-palette-search::placeholder {
+    color: rgb(var(--color-text-light) / 0.5);
+  }
+  
+  .command-palette-item:hover,
+  .command-palette-item.selected {
+    background-color: rgba(var(--color-primary-dark), 0.3);
+  }
+  
+  .command-palette-icon {
+    color: rgb(var(--color-text-light) / 0.7);
+  }
+  
+  .command-palette-label {
+    color: rgb(var(--color-text-light));
+  }
+  
+  .command-palette-key {
+    color: rgb(var(--color-text-light) / 0.7);
+    background-color: rgb(40, 44, 52);
+    border-color: rgb(var(--color-border-dark));
+  }
+  
+  .shortcuts-panel {
+    background-color: rgb(var(--color-background-dark));
+    border-color: rgb(var(--color-border-dark));
+  }
+  
+  .shortcuts-header {
+    border-color: rgb(var(--color-border-dark));
+  }
+  
+  .shortcuts-title {
+    color: rgb(var(--color-text-light));
+  }
+  
+  .shortcuts-close {
+    color: rgb(var(--color-text-light) / 0.7);
+  }
+  
+  .shortcuts-section-title {
+    color: rgb(var(--color-accent-light));
+    border-color: rgba(var(--color-border-dark), 0.3);
+  }
+  
+  .shortcut-item:hover {
+    background-color: rgba(var(--color-primary-dark), 0.2);
+  }
+  
+  .shortcut-label {
+    color: rgb(var(--color-text-light));
+  }
+  
+  .shortcut-key {
+    color: rgb(var(--color-text-light) / 0.8);
+    background-color: rgb(var(--color-background-code-dark));
+    border-color: rgb(var(--color-border-dark));
   }
 }
 
