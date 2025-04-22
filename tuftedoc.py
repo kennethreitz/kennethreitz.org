@@ -510,6 +510,69 @@ def generate_title_from_breadcrumbs(breadcrumbs: List[Breadcrumb]) -> str:
     return " > ".join(crumb.title or crumb.name for crumb in breadcrumbs)
 
 
+def generate_directory_tree(directory_path: pathlib.Path, max_depth: int = 3, current_depth: int = 0) -> List[Dict[str, Any]]:
+    """
+    Generate a recursive directory tree structure.
+    
+    Args:
+        directory_path: The path to the directory
+        max_depth: Maximum depth to traverse (to avoid infinite recursion)
+        current_depth: Current recursion depth
+        
+    Returns:
+        A list of dictionaries representing the directory tree structure
+    """
+    if current_depth > max_depth:
+        return []
+        
+    result = []
+    try:
+        for item in sorted(directory_path.iterdir(), key=lambda x: (not x.is_dir(), x.name.lower())):
+            # Skip hidden files and directories
+            if item.name.startswith(".") or item.name in ["__pycache__", "node_modules"]:
+                continue
+                
+            # Get item metadata
+            is_dir = item.is_dir()
+            metadata = get_markdown_metadata(item) if item.suffix == ".md" else None
+            
+            # Skip draft content unless in debug mode
+            if metadata and metadata.draft and not os.environ.get("DEBUG"):
+                continue
+                
+            # Get title (prioritize metadata, then H1, then formatted name)
+            title = None
+            if metadata and metadata.title:
+                title = metadata.title
+            elif item.suffix == ".md":
+                title = get_h1_from_markdown(item)
+            
+            if not title:
+                title = title_case(item.name)
+                
+            # Create node
+            node = {
+                "name": item.name,
+                "title": title,
+                "path": str(item.relative_to(MARKDOWN_DIR)),
+                "url": get_clean_url(str(item.relative_to(MARKDOWN_DIR))),
+                "is_dir": is_dir,
+                "has_index": (item / "index.md").exists() if is_dir else False
+            }
+            
+            # Add children recursively if it's a directory
+            if is_dir:
+                children = generate_directory_tree(item, max_depth, current_depth + 1)
+                if children:
+                    node["children"] = children
+                    
+            result.append(node)
+    except Exception as e:
+        logger.error(f"Error generating directory tree for {directory_path}: {e}")
+        
+    return result
+
+
 class XMLResponse(Response):
     media_type = "application/xml"
 
@@ -581,15 +644,17 @@ async def sitemap(request: Request):
 async def get_content_api(
     request: Request, 
     path: str = "", 
-    format: str = Query("json", description="Response format (json or html)")
+    format: str = Query("json", description="Response format (json or html)"),
+    tree: bool = Query(False, description="Return directory tree structure")
 ):
     """
     Get the content and metadata for a specific path.
     
     - For directories: returns list of items and index content if available
     - For files: returns the file content and metadata
+    - With tree=true: returns a recursive directory tree structure
     """
-    logger.info(f"API request for path: {path}")
+    logger.info(f"API request for path: {path}, format={format}, tree={tree}")
     
     try:
         full_path = MARKDOWN_DIR / path
@@ -610,6 +675,11 @@ async def get_content_api(
                 "metadata": metadata.dict() if metadata else None,
                 "path": path,
             }
+            
+            # Generate tree structure if requested
+            if tree:
+                result["tree"] = generate_directory_tree(full_path)
+                
         # Process file
         elif full_path.suffix == ".md":
             content, metadata = process_markdown_file_with_metadata(full_path)
@@ -738,6 +808,45 @@ async def get_all_tags():
         "count": len(sorted_tags),
         "tags": sorted_tags
     }
+
+
+@app.get("/api/tree", response_model=Dict[str, Any], tags=["API"])
+async def get_directory_tree_api(
+    path: str = Query("", description="Base path for the tree"),
+    max_depth: int = Query(3, description="Maximum depth to traverse"),
+):
+    """
+    Get a recursive directory tree structure starting from the specified path.
+    
+    - Returns a hierarchical tree of directories and files
+    - Includes metadata like titles and URLs
+    - Helps construct file browsers and navigation menus
+    """
+    logger.info(f"Tree request for path: {path}, max_depth: {max_depth}")
+    
+    try:
+        # Get the full path
+        full_path = MARKDOWN_DIR / path
+        
+        if not full_path.exists() or not full_path.is_dir():
+            return JSONResponse(
+                status_code=404,
+                content={"error": f"Directory not found: {path}"}
+            )
+            
+        # Generate the tree
+        tree = generate_directory_tree(full_path, max_depth=max_depth)
+        
+        return {
+            "path": path,
+            "tree": tree
+        }
+    except Exception as e:
+        logger.error(f"Error generating tree: {str(e)}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": str(e)}
+        )
 
 
 @app.get("/", response_class=HTMLResponse, include_in_schema=False)

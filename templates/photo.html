@@ -213,12 +213,48 @@
 {% block content %}
 <div class="photo-detail">
     <header class="photo-header">
-        <div class="photo-breadcrumbs">
-            <a href="/">kennethreitz.org</a>
-            <span class="separator">/</span>
-            <a href="/photos">photos</a>
-            <span class="separator">/</span>
-            <strong>{{ photo.key.split('/')[-1] }}</strong>
+        <div class="flex flex-col text-sm mb-4 bg-background-code dark:bg-background-code-dark p-3 rounded-lg border border-border dark:border-border-dark font-mono">
+            <!-- IDE-style path bar -->
+            <div class="flex items-center flex-wrap mb-2">
+                <div class="mr-1 text-syntax-comment dark:text-syntax-comment opacity-70">//</div>
+                <div class="flex items-center">
+                    <span class="text-syntax-function dark:text-syntax-function opacity-90">const</span>
+                    <span class="text-syntax-keyword dark:text-syntax-keyword ml-1">currentImage</span>
+                    <span class="mx-1 text-syntax-operator dark:text-syntax-operator">=</span>
+                    <span class="text-syntax-string dark:text-syntax-string">"{{ photo.key }}"</span>
+                    <span class="text-syntax-operator dark:text-syntax-operator">;</span>
+                </div>
+            </div>
+            
+            <!-- Path navigator with accurate breadcrumbs -->
+            <div class="flex items-center flex-wrap">
+                <span class="mr-2 text-syntax-function dark:text-syntax-function opacity-90">navigate:</span>
+                <a href="/" class="text-link no-underline px-1 py-1 transition-colors hover:text-primary flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1 opacity-70">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    </svg>
+                    <span>root</span>
+                </a>
+                
+                <span class="text-syntax-operator dark:text-syntax-operator mx-1">.</span>
+                <a href="/photos" class="text-link no-underline px-1 py-1 transition-colors hover:text-primary flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1 text-syntax-number dark:text-syntax-number opacity-70">
+                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <span>photos</span>
+                </a>
+                
+                <!-- Current file with no link -->
+                <span class="text-syntax-operator dark:text-syntax-operator mx-1">.</span>
+                <span class="flex items-center px-1 py-1 text-syntax-regex dark:text-syntax-regex font-medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1 opacity-70">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                        <polyline points="21 15 16 10 5 21"></polyline>
+                    </svg>
+                    <span>{{ photo.key.split('/')[-1] }}</span>
+                </span>
+            </div>
         </div>
         
         <h1>{{ photo.key.split('/')[-1] }}</h1>

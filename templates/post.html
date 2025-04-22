@@ -1,28 +1,31 @@
-{% extends "base.html" %}
-
-{% block title %}{{ title }}{% endblock %}
-
-{% block head %}
+{% extends "base.html" %} {% block title %}{{ title }}{% endblock %} {% block
+head %}
 <style>
     /* Additional styles for post content that Tailwind doesn't handle well */
     @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
-    
+
     .post-header {
         animation: fadeIn 0.8s ease;
     }
-    
+
     /* Custom styling for post content elements */
     .post-content img {
         transition: transform 0.3s ease;
     }
-    
+
     .post-content img:hover {
         transform: scale(1.01);
     }
-    
+
     .post-content blockquote::before {
         content: '"';
         position: absolute;
@@ -34,74 +37,263 @@
         font-family: Georgia, serif;
     }
 </style>
-{% endblock %}
-
-{% block content %}
+{% endblock %} {% block content %}
 <article class="post">
     <header class="post-header mb-12 text-center relative">
-        {% if breadcrumbs and not is_root and path != "contact" and path != "values" and path != "great-books" and path != "mental-health" and path != "family" and path != "yoga-meditation" %}
-        <div class="flex items-center justify-center flex-wrap text-sm mb-8 bg-background-code dark:bg-background-code-dark p-3 rounded-lg border border-border dark:border-border-dark font-mono">
-            <span class="mr-2 text-syntax-function dark:text-syntax-function opacity-70">path:</span>
-            <a href="/" class="text-link no-underline px-1 py-1 transition-colors hover:text-primary">/</a>
-            {% for crumb in breadcrumbs %}
-            <a href="{{ crumb.url }}" class="text-link no-underline px-1 py-1 transition-colors hover:text-primary">{{ crumb.title or crumb.name }}</a>
-            <span class="text-primary-dark/50 dark:text-primary-light/50">/</span>
-            {% endfor %}
-            <strong class="px-1 py-1 text-syntax-string dark:text-syntax-string font-medium">{{ title.split(' ')[0].lower() }}</strong>
+        {% if not is_root and path != "contact" and path != "values" and path !=
+        "great-books" and path != "mental-health" and path != "family" and path
+        != "yoga-meditation" %}
+        <div
+            class="flex flex-col text-sm mb-8 bg-background-code dark:bg-background-code-dark p-3 rounded-lg border border-border dark:border-border-dark font-mono"
+        >
+            <!-- IDE-style path bar -->
+            <div class="flex items-center flex-wrap mb-2">
+                <div
+                    class="mr-1 text-syntax-comment dark:text-syntax-comment opacity-70"
+                >
+                    //
+                </div>
+                <div class="flex items-center">
+                    <span
+                        class="text-syntax-function dark:text-syntax-function opacity-90"
+                        >const</span
+                    >
+                    <span
+                        class="text-syntax-keyword dark:text-syntax-keyword ml-1"
+                        >currentPath</span
+                    >
+                    <span
+                        class="mx-1 text-syntax-operator dark:text-syntax-operator"
+                        >=</span
+                    >
+                    <span class="text-syntax-string dark:text-syntax-string"
+                        >"{{ request.path }}"</span
+                    >
+                    <span class="text-syntax-operator dark:text-syntax-operator"
+                        >;</span
+                    >
+                </div>
+            </div>
+
+            <!-- Path navigator with accurate breadcrumbs -->
+            <div class="flex items-center flex-wrap">
+                <a
+                    href="/"
+                    class="text-link no-underline px-1 py-1 transition-colors hover:text-primary flex items-center"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="mr-1 opacity-70"
+                    >
+                        <path
+                            d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                        ></path>
+                    </svg>
+                    <span>root</span>
+                </a>
+
+                <!-- Only show accurate parts of the path -->
+                {% set path_parts = request.path.strip('/').split('/') %} {% for
+                i in range(path_parts|length) %} {% if i < path_parts|length - 1
+                %}
+                <span
+                    class="text-syntax-operator dark:text-syntax-operator mx-1"
+                    >.</span
+                >
+                <a
+                    href="/{{ '/'.join(path_parts[:i+1]) }}"
+                    class="text-link no-underline px-1 py-1 transition-colors hover:text-primary flex items-center"
+                >
+                    {% if i == path_parts|length - 2 %}
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="mr-1 text-syntax-string dark:text-syntax-string opacity-70"
+                    >
+                        <path
+                            d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                        ></path>
+                    </svg>
+                    {% else %}
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="mr-1 text-syntax-number dark:text-syntax-number opacity-70"
+                    >
+                        <path
+                            d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+                        ></path>
+                    </svg>
+                    {% endif %}
+                    <span>{{ path_parts[i] }}</span>
+                </a>
+                {% endif %} {% endfor %}
+
+                <!-- Current file with no link -->
+                {% if path_parts %}
+                <span
+                    class="text-syntax-operator dark:text-syntax-operator mx-1"
+                    >.</span
+                >
+                <span
+                    class="flex items-center px-1 py-1 text-syntax-string dark:text-syntax-string font-medium"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="mr-1 opacity-70"
+                    >
+                        <path
+                            d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                        ></path>
+                    </svg>
+                    <span>{{ path_parts[-1] }}</span>
+                </span>
+                {% endif %}
+            </div>
         </div>
         {% endif %}
-        
+
         <!-- Title is already in the content for most markdown files, so we'll hide it in the template -->
         {% if metadata %}
-        <div class="text-text/60 dark:text-text-light/60 text-sm mb-6 font-sans">
+        <div
+            class="text-text/60 dark:text-text-light/60 text-sm mb-6 font-sans"
+        >
             {% if metadata.date %}
             <span>{{ metadata.date }}</span>
-            {% endif %}
-            
-            {% if metadata.author %}
+            {% endif %} {% if metadata.author %}
             <span> • {{ metadata.author }}</span>
             {% endif %}
         </div>
         {% endif %}
-        
-        <div class="w-20 h-1 bg-gradient-to-r from-primary to-primary-light/50 mx-auto mb-10 rounded-sm"></div>
+
+        <div
+            class="w-20 h-1 bg-gradient-to-r from-primary to-primary-light/50 mx-auto mb-10 rounded-sm"
+        ></div>
     </header>
-    
-    <div class="post-content text-lg leading-relaxed text-text dark:text-text-light">
+
+    <div
+        class="post-content text-lg leading-relaxed text-text dark:text-text-light"
+    >
         {% if is_root %}
         <!-- Special styling for homepage content -->
-        <div class="prose prose-xl dark:prose-invert mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-p:mb-8 prose-p:max-w-[80ch] prose-p:text-xl prose-p:leading-relaxed prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-a:text-accent dark:prose-a:text-accent-light prose-a:font-medium prose-a:transition-colors prose-a:no-underline prose-a:border-b-2 prose-a:border-accent/30 dark:prose-a:border-accent-light/30 hover:prose-a:border-accent hover:dark:prose-a:border-accent-light">
+        <div
+            class="prose prose-xl dark:prose-invert mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-p:mb-8 prose-p:max-w-[80ch] prose-p:text-xl prose-p:leading-relaxed prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-a:text-accent dark:prose-a:text-accent-light prose-a:font-medium prose-a:transition-colors prose-a:no-underline prose-a:border-b-2 prose-a:border-accent/30 dark:prose-a:border-accent-light/30 hover:prose-a:border-accent hover:dark:prose-a:border-accent-light"
+        >
             {{ content | safe }}
         </div>
-        {% elif path == "contact" or path == "values" or path == "great-books" or path == "mental-health" or path == "family" or path == "yoga-meditation" %}
+        {% elif path == "contact" or path == "values" or path == "great-books"
+        or path == "mental-health" or path == "family" or path ==
+        "yoga-meditation" %}
         <!-- Special styling for key pages without path bar -->
-        <div class="prose prose-xl dark:prose-invert mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-h1:text-4xl prose-h1:mb-8 prose-h1:mt-0 prose-h1:text-center prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h2:font-semibold prose-p:mb-6 prose-p:max-w-[70ch] prose-p:text-lg prose-p:leading-relaxed prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-a:text-accent dark:prose-a:text-accent-light prose-a:font-medium prose-a:transition-colors prose-ul:my-6 prose-ul:pl-8 prose-li:mb-3 prose-li:text-lg prose-code:font-mono prose-code:text-sm prose-code:bg-background-code dark:prose-code:bg-background-code-dark prose-code:py-1 prose-code:px-2 prose-code:rounded prose-code:border prose-code:border-border/30 dark:prose-code:border-border-dark/30">
+        <div
+            class="prose prose-xl dark:prose-invert mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-h1:text-4xl prose-h1:mb-8 prose-h1:mt-0 prose-h1:text-center prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h2:font-semibold prose-p:mb-6 prose-p:max-w-[70ch] prose-p:text-lg prose-p:leading-relaxed prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-a:text-accent dark:prose-a:text-accent-light prose-a:font-medium prose-a:transition-colors prose-ul:my-6 prose-ul:pl-8 prose-li:mb-3 prose-li:text-lg prose-code:font-mono prose-code:text-sm prose-code:bg-background-code dark:prose-code:bg-background-code-dark prose-code:py-1 prose-code:px-2 prose-code:rounded prose-code:border prose-code:border-border/30 dark:prose-code:border-border-dark/30"
+        >
             {{ content | safe }}
         </div>
         {% else %}
         <!-- Standard post styling -->
-        <div class="prose prose-lg dark:prose-invert max-w-prose mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:relative prose-h2:inline-block prose-h2:after:content-[''] prose-h2:after:absolute prose-h2:after:bottom-[-8px] prose-h2:after:left-0 prose-h2:after:w-[50px] prose-h2:after:h-[3px] prose-h2:after:bg-primary prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-p:mb-6 prose-p:max-w-[70ch] prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-blockquote:my-10 prose-blockquote:py-6 prose-blockquote:px-10 prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:bg-primary-light/50 dark:prose-blockquote:bg-primary-dark/20 prose-blockquote:rounded-r prose-blockquote:italic prose-blockquote:relative prose-pre:my-8 prose-pre:p-4 prose-pre:bg-gray-100 dark:prose-pre:bg-gray-800 prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:border-l-4 prose-pre:border-primary prose-pre:font-mono prose-pre:text-sm prose-code:font-mono prose-code:text-sm prose-code:bg-gray-100 dark:prose-code:bg-gray-800 prose-code:py-0.5 prose-code:px-1.5 prose-code:rounded prose-pre:prose-code:bg-transparent prose-pre:prose-code:p-0 prose-ul:my-6 prose-ul:pl-8 prose-ol:my-6 prose-ol:pl-8 prose-li:mb-2 prose-table:w-full prose-table:my-8 prose-table:border-collapse prose-table:overflow-x-auto prose-table:block prose-th:bg-primary-light/50 dark:prose-th:bg-primary-dark/20 prose-th:text-primary-dark dark:prose-th:text-primary-light prose-th:font-semibold prose-th:text-left prose-th:p-3 prose-th:border prose-th:border-border dark:prose-th:border-border-dark prose-td:p-3 prose-td:border prose-td:border-border dark:prose-td:border-border-dark prose-tr:even:bg-primary-light/10 dark:prose-tr:even:bg-primary-dark/10">
+        <div
+            class="prose prose-lg dark:prose-invert max-w-prose mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:relative prose-h2:inline-block prose-h2:after:content-[''] prose-h2:after:absolute prose-h2:after:bottom-[-8px] prose-h2:after:left-0 prose-h2:after:w-[50px] prose-h2:after:h-[3px] prose-h2:after:bg-primary prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-p:mb-6 prose-p:max-w-[70ch] prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-blockquote:my-10 prose-blockquote:py-6 prose-blockquote:px-10 prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:bg-primary-light/50 dark:prose-blockquote:bg-primary-dark/20 prose-blockquote:rounded-r prose-blockquote:italic prose-blockquote:relative prose-pre:my-8 prose-pre:p-4 prose-pre:bg-gray-100 dark:prose-pre:bg-gray-800 prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:border-l-4 prose-pre:border-primary prose-pre:font-mono prose-pre:text-sm prose-code:font-mono prose-code:text-sm prose-code:bg-gray-100 dark:prose-code:bg-gray-800 prose-code:py-0.5 prose-code:px-1.5 prose-code:rounded prose-pre:prose-code:bg-transparent prose-pre:prose-code:p-0 prose-ul:my-6 prose-ul:pl-8 prose-ol:my-6 prose-ol:pl-8 prose-li:mb-2 prose-table:w-full prose-table:my-8 prose-table:border-collapse prose-table:overflow-x-auto prose-table:block prose-th:bg-primary-light/50 dark:prose-th:bg-primary-dark/20 prose-th:text-primary-dark dark:prose-th:text-primary-light prose-th:font-semibold prose-th:text-left prose-th:p-3 prose-th:border prose-th:border-border dark:prose-th:border-border-dark prose-td:p-3 prose-td:border prose-td:border-border dark:prose-td:border-border-dark prose-tr:even:bg-primary-light/10 dark:prose-tr:even:bg-primary-dark/10"
+        >
             {{ content | safe }}
         </div>
         {% endif %}
     </div>
-    
-    <footer class="mt-16 pt-8 border-t border-border dark:border-border-dark flex justify-between items-center flex-wrap font-sans">
+
+    <footer
+        class="mt-16 pt-8 border-t border-border dark:border-border-dark flex justify-between items-center flex-wrap font-sans"
+    >
         <div class="flex flex-wrap gap-2">
-            {% if metadata and metadata.tags %}
-            {% for tag in metadata.tags %}
-            <a href="/tags/{{ tag }}" class="inline-block py-1 px-3 bg-primary-light dark:bg-primary-dark/20 text-primary-dark dark:text-primary-light text-sm rounded-full no-underline hover:bg-primary hover:text-white transition-all hover:-translate-y-0.5">{{ tag }}</a>
-            {% endfor %}
-            {% endif %}
+            {% if metadata and metadata.tags %} {% for tag in metadata.tags %}
+            <a
+                href="/tags/{{ tag }}"
+                class="inline-block py-1 px-3 bg-primary-light dark:bg-primary-dark/20 text-primary-dark dark:text-primary-light text-sm rounded-full no-underline hover:bg-primary hover:text-white transition-all hover:-translate-y-0.5"
+                >{{ tag }}</a
+            >
+            {% endfor %} {% endif %}
         </div>
-        
+
         <div class="flex gap-4 items-center">
-            <span class="text-sm text-text/60 dark:text-text-light/60 mr-2">Share:</span>
-            <a href="https://twitter.com/intent/tweet?text={{ title | urlencode }}&url={{ request.url | urlencode }}" target="_blank" rel="noopener noreferrer" title="Share on Twitter" class="text-text/60 dark:text-text-light/60 hover:text-primary transition-all hover:-translate-y-0.5 flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+            <span class="text-sm text-text/60 dark:text-text-light/60 mr-2"
+                >Share:</span
+            >
+            <a
+                href="https://twitter.com/intent/tweet?text={{ title | urlencode }}&url={{ request.url | urlencode }}"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Share on Twitter"
+                class="text-text/60 dark:text-text-light/60 hover:text-primary transition-all hover:-translate-y-0.5 flex items-center justify-center"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                >
+                    <path
+                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                    ></path>
+                </svg>
             </a>
-            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ request.url | urlencode }}&title={{ title | urlencode }}" target="_blank" rel="noopener noreferrer" title="Share on LinkedIn" class="text-text/60 dark:text-text-light/60 hover:text-primary transition-all hover:-translate-y-0.5 flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <a
+                href="https://www.linkedin.com/shareArticle?mini=true&url={{ request.url | urlencode }}&title={{ title | urlencode }}"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Share on LinkedIn"
+                class="text-text/60 dark:text-text-light/60 hover:text-primary transition-all hover:-translate-y-0.5 flex items-center justify-center"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                >
+                    <path
+                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                    ></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
             </a>
         </div>
     </footer>

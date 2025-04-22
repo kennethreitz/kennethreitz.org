@@ -81,36 +81,153 @@
                         <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
                         <path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path>
                     </svg>
-                    <span>PROJECTS</span>
+                    <span>FILE EXPLORER</span>
                 </div>
                 <div class="explorer-section-content">
-                    <a href="/software/requests" class="explorer-item">requests</a>
-                    <a href="/software/pipenv" class="explorer-item">pipenv</a>
-                    <a href="/software/tablib" class="explorer-item">tablib</a>
-                    <a href="/software/responder" class="explorer-item">responder</a>
+                    <ul class="tree-view">
+                        <!-- Software Folder -->
+                        <li class="tree-item tree-folder expanded">
+                            <div class="tree-item-header">
+                                <div class="tree-toggle">-</div>
+                                <div class="tree-folder-icon icon-folder">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                </div>
+                                <span class="tree-label">software</span>
+                                <span class="file-ext ext-dir">/dir</span>
+                            </div>
+                            <ul class="tree-children">
+                                <li class="tree-item">
+                                    <div class="tree-item-header">
+                                        <div class="tree-toggle" style="visibility: hidden;">+</div>
+                                        <div class="tree-file-icon icon-python">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                            </svg>
+                                        </div>
+                                        <a href="/software/requests" class="tree-label">requests</a>
+                                        <span class="file-ext ext-py">.py</span>
+                                    </div>
+                                </li>
+                                <li class="tree-item">
+                                    <div class="tree-item-header">
+                                        <div class="tree-toggle" style="visibility: hidden;">+</div>
+                                        <div class="tree-file-icon icon-python">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                            </svg>
+                                        </div>
+                                        <a href="/software/pipenv" class="tree-label">pipenv</a>
+                                        <span class="file-ext ext-py">.py</span>
+                                    </div>
+                                </li>
+                                <li class="tree-item">
+                                    <div class="tree-item-header">
+                                        <div class="tree-toggle" style="visibility: hidden;">+</div>
+                                        <div class="tree-file-icon icon-python">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                            </svg>
+                                        </div>
+                                        <a href="/software/tablib" class="tree-label">tablib</a>
+                                        <span class="file-ext ext-py">.py</span>
+                                    </div>
+                                </li>
+                                <li class="tree-item">
+                                    <div class="tree-item-header">
+                                        <div class="tree-toggle" style="visibility: hidden;">+</div>
+                                        <div class="tree-file-icon icon-python">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                            </svg>
+                                        </div>
+                                        <a href="/software/responder" class="tree-label">responder</a>
+                                        <span class="file-ext ext-py">.py</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <!-- Essays Folder -->
+                        <li class="tree-item tree-folder collapsed">
+                            <div class="tree-item-header">
+                                <div class="tree-toggle">+</div>
+                                <div class="tree-folder-icon icon-folder">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                </div>
+                                <a href="/essays" class="tree-label">essays</a>
+                                <span class="file-ext ext-dir">/dir</span>
+                            </div>
+                            <ul class="tree-children">
+                                <!-- Years folders would be dynamically generated -->
+                                <li class="tree-item tree-folder collapsed">
+                                    <div class="tree-item-header">
+                                        <div class="tree-toggle">+</div>
+                                        <div class="tree-folder-icon icon-folder">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                        <a href="/essays/2023" class="tree-label">2023</a>
+                                        <span class="file-ext ext-dir">/dir</span>
+                                    </div>
+                                </li>
+                                <li class="tree-item tree-folder collapsed">
+                                    <div class="tree-item-header">
+                                        <div class="tree-toggle">+</div>
+                                        <div class="tree-folder-icon icon-folder">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                            </svg>
+                                        </div>
+                                        <a href="/essays/2024" class="tree-label">2024</a>
+                                        <span class="file-ext ext-dir">/dir</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <!-- Poetry Folder -->
+                        <li class="tree-item tree-folder collapsed">
+                            <div class="tree-item-header">
+                                <div class="tree-toggle">+</div>
+                                <div class="tree-folder-icon icon-folder">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                </div>
+                                <a href="/poetry" class="tree-label">poetry</a>
+                                <span class="file-ext ext-dir">/dir</span>
+                            </div>
+                        </li>
+                        
+                        <!-- AI Folder -->
+                        <li class="tree-item tree-folder collapsed">
+                            <div class="tree-item-header">
+                                <div class="tree-toggle">+</div>
+                                <div class="tree-folder-icon icon-folder">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                </div>
+                                <a href="/artificial-intelligence" class="tree-label">artificial-intelligence</a>
+                                <span class="file-ext ext-dir">/dir</span>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="explorer-section">
-                <div class="explorer-section-header">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-                    </svg>
-                    <span>POSTS</span>
-                </div>
-                <div class="explorer-section-content">
-                    <a href="/essays" class="explorer-item">Essays</a>
-                    <a href="/poetry" class="explorer-item">Poetry</a>
-                    <a href="/artificial-intelligence" class="explorer-item">AI</a>
-                </div>
-            </div>
+            
             <div class="explorer-section">
                 <div class="explorer-section-header">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="M12 8l4 4-4 4M8 12h8"></path>
                     </svg>
-                    <span>LINKS</span>
+                    <span>EXTERNAL LINKS</span>
                 </div>
                 <div class="explorer-section-content">
                     <a href="https://github.com/kennethreitz" class="explorer-item external">GitHub</a>
@@ -512,6 +629,30 @@
                             content.style.display = 'block';
                         } else {
                             content.style.display = 'none';
+                        }
+                    });
+                });
+                
+                // Windows 95-style tree view toggle functionality
+                const treeToggles = document.querySelectorAll('.tree-folder > .tree-item-header');
+                treeToggles.forEach(toggle => {
+                    toggle.addEventListener('click', (e) => {
+                        // Don't follow links if clicking on the toggle or folder name
+                        if (e.target.tagName !== 'A') {
+                            e.preventDefault();
+                            
+                            const treeItem = toggle.closest('.tree-folder');
+                            const toggleButton = toggle.querySelector('.tree-toggle');
+                            
+                            if (treeItem.classList.contains('collapsed')) {
+                                treeItem.classList.remove('collapsed');
+                                treeItem.classList.add('expanded');
+                                toggleButton.textContent = '-';
+                            } else {
+                                treeItem.classList.remove('expanded');
+                                treeItem.classList.add('collapsed');
+                                toggleButton.textContent = '+';
+                            }
                         }
                     });
                 });
