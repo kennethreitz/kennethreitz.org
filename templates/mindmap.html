@@ -1,0 +1,906 @@
+{% extends "base.html" %}
+
+{% block title %}Mind Map - Kenneth Reitz{% endblock %}
+
+{% block head %}
+<style>
+    /* Mindmap specific styling */
+    .mindmap-container {
+        width: 100%;
+        height: 85vh;
+        min-height: 600px;
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(135deg, rgba(var(--color-background), 0.8), rgba(var(--color-background), 0.95));
+        border-radius: 12px;
+        box-shadow: var(--shadow-lg);
+        margin-bottom: 2rem;
+    }
+    
+    .dark-theme .mindmap-container {
+        background: linear-gradient(135deg, rgba(var(--color-background-dark), 0.8), rgba(var(--color-background-dark), 0.95));
+    }
+    
+    .mindmap-canvas {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .mindmap-controls {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 10;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .control-btn {
+        background: rgba(var(--color-primary), 0.9);
+        border: none;
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+        opacity: 0.7;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .control-btn:hover {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    
+    .node {
+        position: absolute;
+        padding: 10px 15px;
+        border-radius: 8px;
+        background-color: rgba(var(--color-primary), 0.8);
+        color: white;
+        font-weight: 500;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        z-index: 5;
+        user-select: none;
+        transform-origin: center center;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    
+    .node:hover {
+        transform: scale(1.1);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        z-index: 10;
+    }
+    
+    .node.selected {
+        transform: scale(1.1);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        z-index: 10;
+        background-color: rgba(var(--color-accent), 0.9);
+    }
+    
+    .node.software { background-color: rgba(var(--color-syntax-function), 0.8); }
+    .node.music { background-color: rgba(var(--color-syntax-string), 0.8); }
+    .node.poetry { background-color: rgba(var(--color-syntax-keyword), 0.8); }
+    .node.essays { background-color: rgba(var(--color-syntax-class), 0.8); }
+    .node.ai { background-color: rgba(var(--color-accent), 0.8); }
+    .node.talks { background-color: rgba(var(--color-syntax-decorator), 0.8); }
+    .node.values { background-color: rgba(var(--color-syntax-constant), 0.8); }
+    .node.contact { background-color: rgba(var(--color-success), 0.8); }
+    
+    .category-label {
+        font-size: 0.75rem;
+        opacity: 0.8;
+        text-transform: uppercase;
+        margin-bottom: 3px;
+        display: block;
+    }
+    
+    .node-link {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+    .node.central {
+        background: linear-gradient(135deg, rgba(var(--color-primary), 0.9), rgba(var(--color-accent), 0.9));
+        padding: 15px 25px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        z-index: 50;
+    }
+    
+    .node-info-panel {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        z-index: 20;
+        width: 300px;
+        background: rgba(var(--color-background), 0.95);
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        transform: translateY(20px);
+        opacity: 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        pointer-events: none;
+    }
+    
+    .dark-theme .node-info-panel {
+        background: rgba(var(--color-background-dark), 0.95);
+    }
+    
+    .node-info-panel.visible {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .node-info-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: rgb(var(--color-text));
+        border-bottom: 1px solid rgba(var(--color-border), 0.5);
+        padding-bottom: 8px;
+    }
+    
+    .dark-theme .node-info-title {
+        color: rgb(var(--color-text-light));
+        border-bottom-color: rgba(var(--color-border-dark), 0.5);
+    }
+    
+    .node-info-content {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        max-height: 200px;
+        overflow-y: auto;
+        margin-bottom: 10px;
+        color: rgb(var(--color-text-secondary));
+    }
+    
+    .dark-theme .node-info-content {
+        color: rgba(var(--color-text-light), 0.8);
+    }
+    
+    .node-info-link {
+        display: inline-block;
+        padding: 6px 12px;
+        background-color: rgb(var(--color-primary));
+        color: white;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.85rem;
+        transition: background-color 0.3s ease;
+    }
+    
+    .node-info-link:hover {
+        background-color: rgb(var(--color-primary-dark));
+    }
+    
+    .connection-line {
+        position: absolute;
+        height: 2px;
+        background-color: rgba(var(--color-border), 0.5);
+        transform-origin: 0 0;
+        pointer-events: none;
+        z-index: 1;
+    }
+    
+    .dark-theme .connection-line {
+        background-color: rgba(var(--color-border-dark), 0.6);
+    }
+    
+    @media (max-width: 768px) {
+        .mindmap-container {
+            height: 70vh;
+        }
+        
+        .node {
+            padding: 8px 12px;
+            font-size: 0.9rem;
+        }
+        
+        .node.central {
+            padding: 12px 18px;
+            font-size: 1.1rem;
+        }
+        
+        .node-info-panel {
+            width: calc(100% - 40px);
+            bottom: 10px;
+            left: 10px;
+            right: 10px;
+        }
+    }
+    
+    /* Loading animation */
+    .mindmap-loading {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(var(--color-background), 0.8);
+        z-index: 100;
+        flex-direction: column;
+    }
+    
+    .dark-theme .mindmap-loading {
+        background-color: rgba(var(--color-background-dark), 0.8);
+    }
+    
+    .loading-text {
+        font-family: 'JetBrains Mono', monospace;
+        margin-top: 15px;
+        font-size: 1rem;
+        color: rgb(var(--color-primary));
+        letter-spacing: 1px;
+    }
+    
+    .dark-theme .loading-text {
+        color: rgb(var(--color-primary-light));
+    }
+    
+    .loading-spinner {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(var(--color-primary), 0.3);
+        border-radius: 50%;
+        border-top-color: rgb(var(--color-primary));
+        animation: spin 1s linear infinite;
+    }
+    
+    .dark-theme .loading-spinner {
+        border-color: rgba(var(--color-primary-light), 0.3);
+        border-top-color: rgb(var(--color-primary-light));
+    }
+    
+    @keyframes spin {
+        to { transform: rotate(360deg); }
+    }
+    
+    /* Legend */
+    .mindmap-legend {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        z-index: 20;
+        background: rgba(var(--color-background), 0.95);
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        max-width: 300px;
+    }
+    
+    .dark-theme .mindmap-legend {
+        background: rgba(var(--color-background-dark), 0.95);
+    }
+    
+    .legend-title {
+        font-weight: 600;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgba(var(--color-border), 0.5);
+        font-size: 0.9rem;
+    }
+    
+    .dark-theme .legend-title {
+        border-bottom-color: rgba(var(--color-border-dark), 0.5);
+    }
+    
+    .legend-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .legend-item {
+        display: flex;
+        align-items: center;
+        margin-right: 8px;
+        font-size: 0.8rem;
+    }
+    
+    .legend-color {
+        width: 12px;
+        height: 12px;
+        border-radius: 3px;
+        margin-right: 5px;
+    }
+    
+    .legend-color.software { background-color: rgba(var(--color-syntax-function), 0.8); }
+    .legend-color.music { background-color: rgba(var(--color-syntax-string), 0.8); }
+    .legend-color.poetry { background-color: rgba(var(--color-syntax-keyword), 0.8); }
+    .legend-color.essays { background-color: rgba(var(--color-syntax-class), 0.8); }
+    .legend-color.ai { background-color: rgba(var(--color-accent), 0.8); }
+    .legend-color.talks { background-color: rgba(var(--color-syntax-decorator), 0.8); }
+    .legend-color.values { background-color: rgba(var(--color-syntax-constant), 0.8); }
+    .legend-color.contact { background-color: rgba(var(--color-success), 0.8); }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1 class="text-3xl mb-6">Mind Map of kennethreitz.org</h1>
+<p class="text-lg mb-8">Explore the interconnections between different sections of my digital world. Click on any node to see more information, and follow the links to dive deeper into specific areas.</p>
+
+<div class="mindmap-container">
+    <!-- Loading indicator -->
+    <div class="mindmap-loading" id="mindmap-loading">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">MAPPING NEURAL CONNECTIONS</div>
+    </div>
+    
+    <!-- Canvas for node connections -->
+    <canvas id="mindmap-canvas" class="mindmap-canvas"></canvas>
+    
+    <!-- Controls -->
+    <div class="mindmap-controls">
+        <button class="control-btn" id="zoom-in" aria-label="Zoom in">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                <line x1="11" y1="8" x2="11" y2="14"></line>
+                <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+        </button>
+        <button class="control-btn" id="zoom-out" aria-label="Zoom out">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+        </button>
+        <button class="control-btn" id="reset-view" aria-label="Reset view">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 2v6h6"></path>
+                <path d="M21 12A9 9 0 0 0 6 5.3L3 8"></path>
+                <path d="M21 22v-6h-6"></path>
+                <path d="M3 12a9 9 0 0 0 15 6.7l3-2.7"></path>
+            </svg>
+        </button>
+    </div>
+    
+    <!-- Node info panel -->
+    <div class="node-info-panel" id="node-info-panel">
+        <h3 class="node-info-title" id="node-info-title">Node Title</h3>
+        <div class="node-info-content" id="node-info-content">
+            Information about this node will appear here when you click on a node.
+        </div>
+        <a href="#" class="node-info-link" id="node-info-link">Explore</a>
+    </div>
+    
+    <!-- Legend -->
+    <div class="mindmap-legend">
+        <div class="legend-title">Category Legend</div>
+        <div class="legend-items">
+            <div class="legend-item">
+                <div class="legend-color software"></div>
+                <span>Software</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color music"></div>
+                <span>Music</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color poetry"></div>
+                <span>Poetry</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color essays"></div>
+                <span>Essays</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color ai"></div>
+                <span>AI</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color talks"></div>
+                <span>Talks</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color values"></div>
+                <span>Values</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color contact"></div>
+                <span>Contact</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Site structure data
+        const siteMap = {
+            center: {
+                id: 'kenneth',
+                title: 'Kenneth Reitz',
+                url: '/',
+                category: 'central',
+                description: 'Software engineer, open source advocate, photographer, musician, and explorer of the digital frontier.'
+            },
+            main: [
+                {
+                    id: 'software',
+                    title: 'Software',
+                    url: '/software',
+                    category: 'software',
+                    description: 'Open source projects and contributions to the Python ecosystem.',
+                    children: [
+                        { id: 'requests', title: 'Requests', url: '/software/requests', description: 'HTTP for Humans. Python\'s most popular HTTP client library designed for simplicity and elegance.' },
+                        { id: 'pipenv', title: 'Pipenv', url: '/software/pipenv', description: 'Python Development Workflow for Humans. Modern dependency management combining pip, Pipfile, and virtualenv.' },
+                        { id: 'tablib', title: 'Tablib', url: '/software/tablib', description: 'Pythonic Tabular Data. A format-agnostic tabular dataset library for Python.' },
+                        { id: 'responder', title: 'Responder', url: '/software/responder', description: 'A familiar HTTP Service Framework for Python, powered by Starlette.' },
+                        { id: 'records', title: 'Records', url: '/software/records', description: 'SQL for Humans™. A simple, Pythonic library for SQL database access.' },
+                        { id: 'legit', title: 'Legit', url: '/software/legit', description: 'Git for Humans™. An elegant CLI tool that makes Git command-line interface more usable.' },
+                        { id: 'httpbin', title: 'httpbin', url: '/software/websites/httpbin', description: 'HTTP Request & Response Service. A testing service for HTTP libraries and tools.' }
+                    ]
+                },
+                {
+                    id: 'essays',
+                    title: 'Essays',
+                    url: '/essays',
+                    category: 'essays',
+                    description: 'Thoughts on software development, culture, and personal reflections.',
+                    children: [
+                        { id: 'essays-2024', title: 'Essays 2024', url: '/essays/2024', description: 'Recent writings and perspectives from 2024.' },
+                        { id: 'essays-2023', title: 'Essays 2023', url: '/essays/2023', description: 'Thoughts on AI and consciousness from 2023.' },
+                        { id: 'essays-dev', title: 'On Development', url: '/essays/2013/how_i_develop_things_and_why', description: 'How I develop things and why - A perspective on software development philosophy.' },
+                        { id: 'essays-opensource', title: 'Open Source', url: '/essays/2013/growing_open_source_seeds', description: 'Growing Open Source Seeds - Nurturing community around software projects.' },
+                        { id: 'essays-burnout', title: 'Burnout', url: '/essays/2017/the_reality_of_developer_burnout', description: 'The Reality of Developer Burnout - A personal account of mental health in tech.' }
+                    ]
+                },
+                {
+                    id: 'poetry',
+                    title: 'Poetry',
+                    url: '/poetry',
+                    category: 'poetry',
+                    description: 'Verses from the mind, explorations of consciousness through words.',
+                    children: [
+                        { id: 'flowetry', title: 'Flowetry', url: '/poetry/flowetry', description: 'Stream of consciousness poetry written in the flow state.' },
+                        { id: 'sanskrit', title: 'Sanskrit Musings', url: '/poetry/sanskrit-musings', description: 'Philosophical explorations inspired by Sanskrit concepts and Eastern philosophy.' },
+                        { id: 'machina', title: 'Machina', url: '/poetry/machina', description: 'Reflections on technology, consciousness, and the machine mind.' }
+                    ]
+                },
+                {
+                    id: 'ai',
+                    title: 'AI Exploration',
+                    url: '/artificial-intelligence',
+                    category: 'ai',
+                    description: 'Explorations into artificial intelligence, consciousness, and the digital frontier.',
+                    children: [
+                        { id: 'ai-art', title: 'AI Art', url: '/artificial-intelligence/art-exploration', description: 'Visual explorations and collaborations with artificial intelligence.' },
+                        { id: 'ai-consciousness', title: 'AI & Consciousness', url: '/artificial-intelligence/consciousness-and-sentience', description: 'Philosophical inquiries into the nature of artificial awareness and being.' },
+                        { id: 'ai-philosophy', title: 'Digital Philosophy', url: '/artificial-intelligence/digital-philosophy', description: 'The intersection of computation, existence, and emerging digital minds.' },
+                        { id: 'ai-reflections', title: 'Personal Reflections', url: '/artificial-intelligence/personal-reflections', description: 'My personal journey through the evolving landscape of artificial intelligence.' }
+                    ]
+                },
+                {
+                    id: 'music',
+                    title: 'Music',
+                    url: '/music',
+                    category: 'music',
+                    description: 'Electronic music productions and sonic explorations.',
+                    children: [
+                        { id: 'music-resolution', title: 'Resolution', url: '/music/resolution', description: 'Third studio album exploring themes of clarity and decision.' },
+                        { id: 'music-messengers', title: 'Messengers Rising', url: '/music/messengers-rising', description: 'A journey through sound and message.' },
+                        { id: 'music-alchemical', title: 'Alchemical Divorce', url: '/music/alchemical-divorce', description: 'EP exploring transformation through separation.' }
+                    ]
+                },
+                {
+                    id: 'talks',
+                    title: 'Talks',
+                    url: '/talks',
+                    category: 'talks',
+                    description: 'Conference presentations and speaking engagements.',
+                    children: [
+                        { id: 'talks-python', title: 'Python for Humans', url: '/talks/python-for-humans', description: 'Making Python more accessible and user-friendly for everyone.' },
+                        { id: 'talks-burnout', title: 'Developer Burnout', url: '/talks/developer-burnout', description: 'Recognizing, preventing, and recovering from burnout in tech.' },
+                        { id: 'talks-docs', title: 'Documentation is King', url: '/talks/documentation-is-king', description: 'The importance of documentation in software development.' }
+                    ]
+                },
+                {
+                    id: 'values',
+                    title: 'Values',
+                    url: '/values',
+                    category: 'values',
+                    description: 'Personal principles and philosophical foundations.',
+                    children: []
+                },
+                {
+                    id: 'contact',
+                    title: 'Contact',
+                    url: '/contact',
+                    category: 'contact',
+                    description: 'Get in touch and connect with me across platforms.',
+                    children: []
+                }
+            ]
+        };
+        
+        const CENTRAL_NODE_SIZE = 120;
+        const MAIN_NODE_SIZE = 100;
+        const SUB_NODE_SIZE = 80;
+        
+        let currentScale = 1;
+        let isDragging = false;
+        let startX, startY, translateX = 0, translateY = 0;
+        let lastTranslateX = 0, lastTranslateY = 0;
+        
+        const mindmapContainer = document.querySelector('.mindmap-container');
+        const canvas = document.getElementById('mindmap-canvas');
+        const ctx = canvas.getContext('2d');
+        const infoPanel = document.getElementById('node-info-panel');
+        const infoTitle = document.getElementById('node-info-title');
+        const infoContent = document.getElementById('node-info-content');
+        const infoLink = document.getElementById('node-info-link');
+        const loading = document.getElementById('mindmap-loading');
+        
+        // Set up controls
+        document.getElementById('zoom-in').addEventListener('click', () => {
+            currentScale += 0.1;
+            updateTransform();
+        });
+        
+        document.getElementById('zoom-out').addEventListener('click', () => {
+            currentScale = Math.max(0.5, currentScale - 0.1);
+            updateTransform();
+        });
+        
+        document.getElementById('reset-view').addEventListener('click', () => {
+            currentScale = 1;
+            translateX = 0;
+            translateY = 0;
+            lastTranslateX = 0;
+            lastTranslateY = 0;
+            updateTransform();
+        });
+        
+        // Set up canvas size
+        function resizeCanvas() {
+            canvas.width = mindmapContainer.clientWidth;
+            canvas.height = mindmapContainer.clientHeight;
+            renderConnections();
+        }
+        
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+        
+        // Calculate positions
+        function calculatePositions() {
+            const containerWidth = mindmapContainer.clientWidth;
+            const containerHeight = mindmapContainer.clientHeight;
+            const centerX = containerWidth / 2;
+            const centerY = containerHeight / 2;
+            
+            // Center node position
+            siteMap.center.x = centerX;
+            siteMap.center.y = centerY;
+            
+            // Main nodes positioned in a circle around the center
+            const mainNodes = siteMap.main;
+            const radius = Math.min(containerWidth, containerHeight) * 0.3;
+            const angleStep = (2 * Math.PI) / mainNodes.length;
+            
+            mainNodes.forEach((node, i) => {
+                const angle = i * angleStep;
+                node.x = centerX + radius * Math.cos(angle);
+                node.y = centerY + radius * Math.sin(angle);
+                
+                // Position child nodes in an arc around their parent
+                if (node.children && node.children.length > 0) {
+                    const childRadius = radius * 0.8;
+                    const childCount = node.children.length;
+                    const childAngleSpan = Math.PI / 3; // 60 degrees arc
+                    const childAngleStep = childAngleSpan / (childCount > 1 ? childCount - 1 : 1);
+                    const startAngle = angle - childAngleSpan / 2;
+                    
+                    node.children.forEach((child, j) => {
+                        const childAngle = startAngle + j * childAngleStep;
+                        child.x = node.x + childRadius * Math.cos(childAngle);
+                        child.y = node.y + childRadius * Math.sin(childAngle);
+                    });
+                }
+            });
+        }
+        
+        // Create nodes
+        function createNodes() {
+            // Create central node
+            const centerNode = document.createElement('div');
+            centerNode.className = `node central ${siteMap.center.category}`;
+            centerNode.id = `node-${siteMap.center.id}`;
+            centerNode.innerHTML = `<a href="${siteMap.center.url}" class="node-link">${siteMap.center.title}</a>`;
+            centerNode.style.left = `${siteMap.center.x - CENTRAL_NODE_SIZE/2}px`;
+            centerNode.style.top = `${siteMap.center.y - CENTRAL_NODE_SIZE/2}px`;
+            centerNode.style.width = `${CENTRAL_NODE_SIZE}px`;
+            centerNode.style.height = `${CENTRAL_NODE_SIZE}px`;
+            centerNode.dataset.id = siteMap.center.id;
+            centerNode.dataset.category = siteMap.center.category;
+            mindmapContainer.appendChild(centerNode);
+            
+            // Create main category nodes
+            siteMap.main.forEach(node => {
+                const mainNode = document.createElement('div');
+                mainNode.className = `node ${node.category}`;
+                mainNode.id = `node-${node.id}`;
+                mainNode.innerHTML = `
+                    <span class="category-label">${node.category}</span>
+                    <a href="${node.url}" class="node-link">${node.title}</a>
+                `;
+                mainNode.style.left = `${node.x - MAIN_NODE_SIZE/2}px`;
+                mainNode.style.top = `${node.y - MAIN_NODE_SIZE/2}px`;
+                mainNode.style.width = `${MAIN_NODE_SIZE}px`;
+                mainNode.style.height = `${MAIN_NODE_SIZE}px`;
+                mainNode.dataset.id = node.id;
+                mainNode.dataset.category = node.category;
+                mindmapContainer.appendChild(mainNode);
+                
+                // Create child nodes if any
+                if (node.children && node.children.length > 0) {
+                    node.children.forEach(child => {
+                        const childNode = document.createElement('div');
+                        childNode.className = `node ${node.category}`;
+                        childNode.id = `node-${child.id}`;
+                        childNode.innerHTML = `<a href="${child.url}" class="node-link">${child.title}</a>`;
+                        childNode.style.left = `${child.x - SUB_NODE_SIZE/2}px`;
+                        childNode.style.top = `${child.y - SUB_NODE_SIZE/2}px`;
+                        childNode.style.width = `${SUB_NODE_SIZE}px`;
+                        childNode.style.height = `${SUB_NODE_SIZE}px`;
+                        childNode.dataset.id = child.id;
+                        childNode.dataset.parentId = node.id;
+                        childNode.dataset.category = node.category;
+                        mindmapContainer.appendChild(childNode);
+                    });
+                }
+            });
+            
+            // Add event listeners to nodes
+            const nodes = document.querySelectorAll('.node');
+            nodes.forEach(node => {
+                node.addEventListener('click', (e) => {
+                    // Only handle node clicks, not link clicks
+                    if (e.target.tagName !== 'A') {
+                        e.preventDefault();
+                        selectNode(node.dataset.id);
+                    }
+                });
+            });
+        }
+        
+        // Render connections between nodes
+        function renderConnections() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            // Apply current transform
+            ctx.save();
+            ctx.translate(translateX, translateY);
+            ctx.scale(currentScale, currentScale);
+            
+            // Draw connections from center to main nodes
+            siteMap.main.forEach(node => {
+                drawConnection(siteMap.center.x, siteMap.center.y, node.x, node.y, node.category);
+                
+                // Draw connections to children
+                if (node.children && node.children.length > 0) {
+                    node.children.forEach(child => {
+                        drawConnection(node.x, node.y, child.x, child.y, node.category);
+                    });
+                }
+            });
+            
+            ctx.restore();
+        }
+        
+        // Draw a single connection line
+        function drawConnection(x1, y1, x2, y2, category) {
+            ctx.beginPath();
+            ctx.moveTo(x1, y1);
+            
+            // Get the color based on category
+            let color;
+            switch(category) {
+                case 'software': color = 'rgba(104, 157, 237, 0.6)'; break;
+                case 'music': color = 'rgba(82, 195, 161, 0.6)'; break;
+                case 'poetry': color = 'rgba(218, 120, 221, 0.6)'; break;
+                case 'essays': color = 'rgba(75, 175, 248, 0.6)'; break;
+                case 'ai': color = 'rgba(156, 79, 219, 0.6)'; break;
+                case 'talks': color = 'rgba(240, 147, 93, 0.6)'; break;
+                case 'values': color = 'rgba(96, 156, 234, 0.6)'; break;
+                case 'contact': color = 'rgba(56, 182, 142, 0.6)'; break;
+                default: color = 'rgba(120, 120, 120, 0.6)';
+            }
+            
+            // Create a gradient
+            const gradient = ctx.createLinearGradient(x1, y1, x2, y2);
+            gradient.addColorStop(0, 'rgba(120, 120, 120, 0.2)');
+            gradient.addColorStop(1, color);
+            
+            ctx.strokeStyle = gradient;
+            ctx.lineWidth = 2;
+            
+            // Draw a curved line
+            const midX = (x1 + x2) / 2;
+            const midY = (y1 + y2) / 2;
+            const dx = x2 - x1;
+            const dy = y2 - y1;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            
+            // Add a slight curve
+            const curveHeight = dist * 0.1;
+            const cpX = midX + curveHeight * (dy / dist);
+            const cpY = midY - curveHeight * (dx / dist);
+            
+            ctx.quadraticCurveTo(cpX, cpY, x2, y2);
+            ctx.stroke();
+        }
+        
+        // Select a node and show its info
+        function selectNode(nodeId) {
+            // Find node data
+            let nodeData;
+            
+            if (nodeId === siteMap.center.id) {
+                nodeData = siteMap.center;
+            } else {
+                // Check main nodes
+                const mainNode = siteMap.main.find(n => n.id === nodeId);
+                if (mainNode) {
+                    nodeData = mainNode;
+                } else {
+                    // Check children of main nodes
+                    for (const main of siteMap.main) {
+                        if (main.children) {
+                            const child = main.children.find(c => c.id === nodeId);
+                            if (child) {
+                                nodeData = child;
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            if (nodeData) {
+                // Update info panel
+                infoTitle.textContent = nodeData.title;
+                infoContent.textContent = nodeData.description;
+                infoLink.href = nodeData.url;
+                infoPanel.classList.add('visible');
+                
+                // Highlight the node
+                document.querySelectorAll('.node').forEach(n => {
+                    n.classList.remove('selected');
+                });
+                document.getElementById(`node-${nodeId}`).classList.add('selected');
+            }
+        }
+        
+        // Make the mindmap draggable
+        mindmapContainer.addEventListener('mousedown', (e) => {
+            // Ignore if clicking on a node or control
+            if (e.target.closest('.node') || e.target.closest('.mindmap-controls') || 
+                e.target.closest('.node-info-panel') || e.target.closest('.mindmap-legend')) {
+                return;
+            }
+            
+            isDragging = true;
+            startX = e.clientX - translateX;
+            startY = e.clientY - translateY;
+            
+            mindmapContainer.style.cursor = 'grabbing';
+        });
+        
+        window.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            
+            translateX = e.clientX - startX;
+            translateY = e.clientY - startY;
+            
+            updateTransform();
+        });
+        
+        window.addEventListener('mouseup', () => {
+            if (isDragging) {
+                isDragging = false;
+                lastTranslateX = translateX;
+                lastTranslateY = translateY;
+                mindmapContainer.style.cursor = 'grab';
+            }
+        });
+        
+        // Touch support for mobile
+        mindmapContainer.addEventListener('touchstart', (e) => {
+            // Ignore if touching a node or control
+            if (e.target.closest('.node') || e.target.closest('.mindmap-controls') || 
+                e.target.closest('.node-info-panel') || e.target.closest('.mindmap-legend')) {
+                return;
+            }
+            
+            isDragging = true;
+            startX = e.touches[0].clientX - translateX;
+            startY = e.touches[0].clientY - translateY;
+        });
+        
+        window.addEventListener('touchmove', (e) => {
+            if (!isDragging) return;
+            
+            translateX = e.touches[0].clientX - startX;
+            translateY = e.touches[0].clientY - startY;
+            
+            updateTransform();
+        });
+        
+        window.addEventListener('touchend', () => {
+            if (isDragging) {
+                isDragging = false;
+                lastTranslateX = translateX;
+                lastTranslateY = translateY;
+            }
+        });
+        
+        // Update transform of nodes and connections
+        function updateTransform() {
+            // Apply transform to all nodes
+            document.querySelectorAll('.node').forEach(node => {
+                node.style.transform = `translate(${translateX}px, ${translateY}px) scale(${currentScale})`;
+            });
+            
+            // Redraw connections
+            renderConnections();
+        }
+        
+        // Initialize the mindmap
+        function initMindmap() {
+            calculatePositions();
+            createNodes();
+            renderConnections();
+            
+            // Hide loading after a short delay
+            setTimeout(() => {
+                loading.style.opacity = '0';
+                setTimeout(() => {
+                    loading.style.display = 'none';
+                }, 500);
+            }, 1500);
+            
+            // Set initial cursor
+            mindmapContainer.style.cursor = 'grab';
+        }
+        
+        // Close info panel when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.node') && !e.target.closest('.node-info-panel')) {
+                infoPanel.classList.remove('visible');
+                document.querySelectorAll('.node').forEach(n => {
+                    n.classList.remove('selected');
+                });
+            }
+        });
+        
+        // Start with a small delay to allow for DOM updates
+        setTimeout(initMindmap, 200);
+    });
+</script>
+{% endblock %}

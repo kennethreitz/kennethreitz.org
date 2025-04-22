@@ -849,6 +849,15 @@ async def get_directory_tree_api(
         )
 
 
+@app.get("/mindmap", response_class=HTMLResponse, include_in_schema=False)
+async def mindmap(request: Request):
+    """Renders the mind map visualization of the website."""
+    logger.info("Rendering mindmap view")
+    return templates.TemplateResponse(
+        "mindmap.html",
+        {"request": request, "title": "Mind Map - Kenneth Reitz", "content": None, "files": None}
+    )
+
 @app.get("/", response_class=HTMLResponse, include_in_schema=False)
 @app.get("/{path:path}", response_class=HTMLResponse, include_in_schema=False)
 async def browse(

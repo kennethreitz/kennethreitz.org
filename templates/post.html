@@ -16,10 +16,25 @@ head %}
     .post-header {
         animation: fadeIn 0.8s ease;
     }
+    
+    /* Heroku color variables - subtler purples, stronger greens and amber */
+    :root {
+        --heroku-purple: 65, 45, 105;
+        --heroku-light-purple: 110, 80, 175;
+        --heroku-dark-purple: 40, 28, 65;
+        --heroku-fuchsia: 200, 50, 130;
+        --heroku-blue: 45, 156, 219;
+        --heroku-green: 90, 220, 120;
+        --heroku-amber: 255, 180, 60;
+    }
 
     /* Custom styling for post content elements */
     .post-content img {
         transition: transform 0.3s ease;
+        max-width: 100%;
+        height: auto; /* Ensure responsive images */
+        display: block;
+        margin: 1.5rem auto;
     }
 
     .post-content img:hover {
@@ -32,9 +47,74 @@ head %}
         top: -15px;
         left: 10px;
         font-size: 3rem;
-        color: #5a8a72;
+        color: rgb(var(--color-primary));
         opacity: 0.2;
         font-family: Georgia, serif;
+    }
+
+    /* Code highlighting improvements for developer focus */
+    .post-content pre code {
+        font-family: "JetBrains Mono", "Fira Code", monospace;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        overflow-x: auto; /* Allow horizontal scrolling for code */
+        white-space: pre-wrap; /* Respect line breaks but wrap if needed */
+        word-break: normal;
+    }
+
+    .post-content pre {
+        background-color: rgb(var(--color-background-code)) !important;
+        border-radius: 6px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        margin: 1.5rem 0;
+        padding: 1rem;
+        overflow-x: auto; /* Ensure code blocks can scroll horizontally on small screens */
+    }
+
+    /* Responsive adjustments for small screens */
+    @media screen and (max-width: 480px) {
+        .post-content pre {
+            margin-left: -0.75rem;
+            margin-right: -0.75rem;
+            border-radius: 0;
+            padding: 0.75rem;
+        }
+        
+        .post-content pre code {
+            font-size: 0.85rem;
+        }
+        
+        .post-header h1 {
+            font-size: 1.75rem;
+            line-height: 1.3;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .post-content pre {
+            background-color: rgb(var(--color-background-code-dark)) !important;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+        }
+    }
+    
+    /* Improved table responsiveness */
+    .post-content table {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+    }
+    
+    .post-content table th,
+    .post-content table td {
+        padding: 0.5rem;
+        border: 1px solid rgba(var(--color-border), 1);
+    }
+    
+    .dark-theme .post-content table th,
+    .dark-theme .post-content table td {
+        border-color: rgba(var(--color-border-dark), 1);
     }
 </style>
 {% endblock %} {% block content %}
@@ -46,35 +126,6 @@ head %}
         <div
             class="flex flex-col text-sm mb-8 bg-background-code dark:bg-background-code-dark p-3 rounded-lg border border-border dark:border-border-dark font-mono"
         >
-            <!-- IDE-style path bar -->
-            <div class="flex items-center flex-wrap mb-2">
-                <div
-                    class="mr-1 text-syntax-comment dark:text-syntax-comment opacity-70"
-                >
-                    //
-                </div>
-                <div class="flex items-center">
-                    <span
-                        class="text-syntax-function dark:text-syntax-function opacity-90"
-                        >const</span
-                    >
-                    <span
-                        class="text-syntax-keyword dark:text-syntax-keyword ml-1"
-                        >currentPath</span
-                    >
-                    <span
-                        class="mx-1 text-syntax-operator dark:text-syntax-operator"
-                        >=</span
-                    >
-                    <span class="text-syntax-string dark:text-syntax-string"
-                        >"{{ request.path }}"</span
-                    >
-                    <span class="text-syntax-operator dark:text-syntax-operator"
-                        >;</span
-                    >
-                </div>
-            </div>
-
             <!-- Path navigator with accurate breadcrumbs -->
             <div class="flex items-center flex-wrap">
                 <a
@@ -221,9 +272,9 @@ head %}
             {{ content | safe }}
         </div>
         {% else %}
-        <!-- Standard post styling -->
+        <!-- Standard post styling with developer-focused code styling -->
         <div
-            class="prose prose-lg dark:prose-invert max-w-prose mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:relative prose-h2:inline-block prose-h2:after:content-[''] prose-h2:after:absolute prose-h2:after:bottom-[-8px] prose-h2:after:left-0 prose-h2:after:w-[50px] prose-h2:after:h-[3px] prose-h2:after:bg-primary prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-p:mb-6 prose-p:max-w-[70ch] prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-blockquote:my-10 prose-blockquote:py-6 prose-blockquote:px-10 prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:bg-primary-light/50 dark:prose-blockquote:bg-primary-dark/20 prose-blockquote:rounded-r prose-blockquote:italic prose-blockquote:relative prose-pre:my-8 prose-pre:p-4 prose-pre:bg-gray-100 dark:prose-pre:bg-gray-800 prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:border-l-4 prose-pre:border-primary prose-pre:font-mono prose-pre:text-sm prose-code:font-mono prose-code:text-sm prose-code:bg-gray-100 dark:prose-code:bg-gray-800 prose-code:py-0.5 prose-code:px-1.5 prose-code:rounded prose-pre:prose-code:bg-transparent prose-pre:prose-code:p-0 prose-ul:my-6 prose-ul:pl-8 prose-ol:my-6 prose-ol:pl-8 prose-li:mb-2 prose-table:w-full prose-table:my-8 prose-table:border-collapse prose-table:overflow-x-auto prose-table:block prose-th:bg-primary-light/50 dark:prose-th:bg-primary-dark/20 prose-th:text-primary-dark dark:prose-th:text-primary-light prose-th:font-semibold prose-th:text-left prose-th:p-3 prose-th:border prose-th:border-border dark:prose-th:border-border-dark prose-td:p-3 prose-td:border prose-td:border-border dark:prose-td:border-border-dark prose-tr:even:bg-primary-light/10 dark:prose-tr:even:bg-primary-dark/10"
+            class="prose prose-lg dark:prose-invert max-w-prose mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:relative prose-h2:inline-block prose-h2:after:content-[''] prose-h2:after:absolute prose-h2:after:bottom-[-8px] prose-h2:after:left-0 prose-h2:after:w-[50px] prose-h2:after:h-[3px] prose-h2:after:bg-primary prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-p:mb-6 prose-p:max-w-[70ch] prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-blockquote:my-10 prose-blockquote:py-6 prose-blockquote:px-10 prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:bg-primary-light/50 dark:prose-blockquote:bg-primary-dark/20 prose-blockquote:rounded-r prose-blockquote:italic prose-blockquote:relative prose-pre:my-8 prose-pre:p-4 prose-pre:bg-background-code dark:prose-pre:bg-background-code-dark prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:border-l-4 prose-pre:border-primary prose-pre:font-mono prose-pre:text-sm prose-code:font-mono prose-code:text-sm prose-code:bg-background-code dark:prose-code:bg-background-code-dark prose-code:py-0.5 prose-code:px-1.5 prose-code:rounded prose-code:border prose-code:border-border/30 dark:prose-code:border-border-dark/30 prose-pre:prose-code:bg-transparent prose-pre:prose-code:border-0 prose-pre:prose-code:p-0 prose-ul:my-6 prose-ul:pl-8 prose-ol:my-6 prose-ol:pl-8 prose-li:mb-2 prose-table:w-full prose-table:my-8 prose-table:border-collapse prose-table:overflow-x-auto prose-table:block prose-th:bg-primary-light/50 dark:prose-th:bg-primary-dark/20 prose-th:text-primary-dark dark:prose-th:text-primary-light prose-th:font-semibold prose-th:text-left prose-th:p-3 prose-th:border prose-th:border-border dark:prose-th:border-border-dark prose-td:p-3 prose-td:border prose-td:border-border dark:prose-td:border-border-dark prose-tr:even:bg-primary-light/10 dark:prose-tr:even:bg-primary-dark/10"
         >
             {{ content | safe }}
         </div>
@@ -231,70 +282,114 @@ head %}
     </div>
 
     <footer
-        class="mt-16 pt-8 border-t border-border dark:border-border-dark flex justify-between items-center flex-wrap font-sans"
+        class="mt-16 pt-8 border-t border-border dark:border-border-dark font-mono"
     >
-        <div class="flex flex-wrap gap-2">
-            {% if metadata and metadata.tags %} {% for tag in metadata.tags %}
+        <!-- Tags section with developer-style indicators -->
+        <div class="flex flex-wrap gap-2 mb-4">
+            {% if metadata and metadata.tags %}
+            <div
+                class="text-sm text-syntax-function dark:text-syntax-function mr-2 flex items-center"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="mr-1.5"
+                >
+                    <path
+                        d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
+                    ></path>
+                    <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                </svg>
+                <span>Tags:</span>
+            </div>
+            {% for tag in metadata.tags %}
             <a
                 href="/tags/{{ tag }}"
-                class="inline-block py-1 px-3 bg-primary-light dark:bg-primary-dark/20 text-primary-dark dark:text-primary-light text-sm rounded-full no-underline hover:bg-primary hover:text-white transition-all hover:-translate-y-0.5"
+                class="inline-block py-1 px-3 bg-primary-light/30 dark:bg-primary-dark/20 text-primary-dark dark:text-primary-light text-sm rounded no-underline hover:bg-primary-light/50 dark:hover:bg-primary-dark/30 transition-all hover:-translate-y-0.5 border border-primary-light/20 dark:border-primary-dark/20"
                 >{{ tag }}</a
             >
             {% endfor %} {% endif %}
         </div>
 
-        <div class="flex gap-4 items-center">
-            <span class="text-sm text-text/60 dark:text-text-light/60 mr-2"
-                >Share:</span
-            >
-            <a
-                href="https://twitter.com/intent/tweet?text={{ title | urlencode }}&url={{ request.url | urlencode }}"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Share on Twitter"
-                class="text-text/60 dark:text-text-light/60 hover:text-primary transition-all hover:-translate-y-0.5 flex items-center justify-center"
-            >
+        <!-- IDE-style status bar with file metadata -->
+        <div
+            class="flex flex-wrap justify-between items-center text-xs text-text/60 dark:text-text-light/60 bg-background-code/50 dark:bg-background-code-dark/50 p-2 rounded border border-border/30 dark:border-border-dark/30"
+        >
+            <div class="flex items-center">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
+                    width="12"
+                    height="12"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
+                    class="mr-1.5 text-syntax-comment dark:text-syntax-comment"
                 >
-                    <path
-                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
-                    ></path>
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
                 </svg>
-            </a>
-            <a
-                href="https://www.linkedin.com/shareArticle?mini=true&url={{ request.url | urlencode }}&title={{ title | urlencode }}"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Share on LinkedIn"
-                class="text-text/60 dark:text-text-light/60 hover:text-primary transition-all hover:-translate-y-0.5 flex items-center justify-center"
-            >
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                <span
+                    >Modified: {{ date_created|datetime if date_created else
+                    'Unknown date' }}</span
                 >
-                    <path
-                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
-                    ></path>
-                    <rect x="2" y="9" width="4" height="12"></rect>
-                    <circle cx="4" cy="4" r="2"></circle>
-                </svg>
-            </a>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <span class="flex items-center">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="mr-1.5 text-syntax-constant dark:text-syntax-constant"
+                    >
+                        <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                        ></polygon>
+                    </svg>
+                    <span>{{path}}</span>
+                </span>
+
+                <span
+                    class="flex items-center bg-primary/10 dark:bg-primary-dark/20 px-2 py-0.5 rounded"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="mr-1.5"
+                    >
+                        <path
+                            d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"
+                        ></path>
+                        <polygon
+                            points="18 2 22 6 12 16 8 16 8 12 18 2"
+                        ></polygon>
+                    </svg>
+                    <span>markdown</span>
+                </span>
+            </div>
         </div>
     </footer>
 </article>

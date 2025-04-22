@@ -3,916 +3,970 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kenneth Reitz - Python for Humans, Open Source Creator, REST API Designer, Neural Explorer">
+    <meta name="keywords" content="Python, Open Source, Requests, Pipenv, APIs, Programming, Code, Neural Networks, Consciousness">
+    <meta name="author" content="Kenneth Reitz">
+    <meta name="theme-color" content="#4e57ae">
+    <meta property="og:title" content="{% block og_title %}kennethreitz.org{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}Python for Humans, Open Source Creator, REST API Designer, Neural Explorer{% endblock %}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kennethreitz.org{{ request.path }}">
+    <meta property="og:image" content="https://kennethreitz.org/static/images/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@kennethreitz42">
+    
     <title>{% block title %}kennethreitz.org — {% endblock %}</title>
     
-    <!-- Import fonts -->
+    <!-- Modern Font Loading Strategy -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Fira+Code:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Fira+Code:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     
-    <!-- CSS -->
-    <link rel="stylesheet" href="/static/custom.css">
+    <!-- Critical CSS inline for faster rendering -->
+    <style>
+        :root {
+            --heroku-purple: 65, 45, 105;
+            --heroku-light-purple: 110, 80, 175;
+            --heroku-dark-purple: 40, 28, 65;
+            --heroku-fuchsia: 200, 50, 130;
+            --heroku-blue: 45, 156, 219;
+            --heroku-green: 90, 220, 120;
+            --heroku-amber: 255, 180, 60;
+            --terminal-black: 13, 13, 13;
+            --terminal-white: 240, 240, 240;
+        }
+        
+        /* Critical rendering path styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', monospace;
+            background-color: rgb(var(--terminal-black));
+            color: rgb(var(--terminal-white));
+            overflow-x: hidden;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards;
+        }
+        
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+        
+        /* Loading animation */
+        .initial-loader {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(var(--terminal-black));
+            z-index: 9999;
+            color: rgb(var(--terminal-white));
+        }
+        
+        .loader-text {
+            margin-top: 20px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 16px;
+            letter-spacing: 2px;
+            color: rgb(var(--neon-green));
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+    </style>
     
-    <!-- Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+    <!-- Main CSS (non-blocking) -->
+    <link rel="stylesheet" href="/static/custom.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="/static/custom.css"></noscript>
     
-    <!-- Prism.js for Syntax Highlighting - Using VS Code-inspired Theme -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-tomorrow.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/line-numbers/prism-line-numbers.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/line-numbers/prism-line-numbers.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/toolbar/prism-toolbar.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-python.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-javascript.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-css.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-bash.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-json.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-markdown.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-yaml.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-jsx.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-typescript.min.js" defer></script>
+    <!-- Modern Vector Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/static/images/apple-touch-icon.png">
+    <link rel="manifest" href="/static/manifest.json">
     
     {% block head %}{% endblock %}
+    
+    <!-- Detect mobile device -->
+    <script>
+        // Set mobile device detector flag
+        document.documentElement.classList.toggle('mobile-device', 
+            /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
+    </script>
 </head>
-<body class="bg-background dark:bg-background-dark text-text dark:text-text-light">
-    <header id="site-header">
-        <div class="container">
-            <h2 class="site-title"><a href="/">kennethreitz.org</a></h2>
-            <nav>
-                <ul>
-                    <li><a href="/software" {% if '/software' in request.path %}class="active"{% endif %}>Software</a></li>
-                    <li><a href="/essays" {% if '/essays' in request.path %}class="active"{% endif %}>Essays</a></li>
-                    <li><a href="/talks" {% if '/talks' in request.path %}class="active"{% endif %}>Talks</a></li>
-                    <li><a href="/music" {% if '/music' in request.path %}class="active"{% endif %}>Music</a></li>
-                    <li><a href="/poetry" {% if '/poetry' in request.path %}class="active"{% endif %}>Poetry</a></li>
-                    <li><a href="/artificial-intelligence" {% if '/artificial-intelligence' in request.path %}class="active"{% endif %}>AI</a></li>
-                    <li><a href="/contact" {% if '/contact' in request.path %}class="active"{% endif %}>Contact</a></li>
-                </ul>
+<body>
+    <!-- Initial page loader -->
+    <div class="initial-loader">
+        <pre class="terminal-loading">
+ ██ ▄█▀▓█████  ███▄    █  ███▄    █ ▓█████▄▄▄█████▓ ██░ ██     ██▀███  ▓█████  ██▓▄▄▄█████▓▒███████▒
+ ██▄█▒ ▓█   ▀  ██ ▀█   █  ██ ▀█   █ ▓█   ▀▓  ██▒ ▓▒▓██░ ██▒   ▓██ ▒ ██▒▓█   ▀ ▓██▒▓  ██▒ ▓▒▒ ▒ ▒ ▄▀░
+▓███▄░ ▒███   ▓██  ▀█ ██▒▓██  ▀█ ██▒▒███  ▒ ▓██░ ▒░▒██▀▀██░   ▓██ ░▄█ ▒▒███   ▒██▒▒ ▓██░ ▒░░ ▒ ▄▀▒░ 
+▓██ █▄ ▒▓█  ▄ ▓██▒  ▐▌██▒▓██▒  ▐▌██▒▒▓█  ▄░ ▓██▓ ░ ░▓█ ░██    ▒██▀▀█▄  ▒▓█  ▄ ░██░░ ▓██▓ ░   ▄▀▒   ░
+▒██▒ █▄░▒████▒▒██░   ▓██░▒██░   ▓██░░▒████▒ ▒██▒ ░ ░▓█▒░██▓   ░██▓ ▒██▒░▒████▒░██░  ▒██▒ ░ ▒███████▒
+▒ ▒▒ ▓▒░░ ▒░ ░░ ▒░   ▒ ▒ ░ ▒░   ▒ ▒ ░░ ▒░ ░ ▒ ░░    ▒ ░░▒░▒   ░ ▒▓ ░▒▓░░░ ▒░ ░░▓    ▒ ░░   ░▒▒ ▓░▒░▒
+░ ░▒ ▒░ ░ ░  ░░ ░░   ░ ▒░░ ░░   ░ ▒░ ░ ░  ░   ░     ▒ ░▒░ ░     ░▒ ░ ▒░ ░ ░  ░ ▒ ░    ░    ░░▒ ▒ ░ ▒
+░ ░░ ░    ░      ░   ░ ░    ░   ░ ░    ░    ░       ░  ░░ ░     ░░   ░    ░    ▒ ░  ░      ░ ░ ░ ░ ░
+░  ░      ░  ░         ░          ░    ░  ░         ░  ░  ░      ░        ░  ░ ░             ░ ░    
+        </pre>
+        <div class="loader-text">INITIALIZING TERMINAL INTERFACE</div>
+    </div>
+    
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Matrix-style terminal background effect -->
+    <div class="matrix-container" aria-hidden="true"></div>
+    
+    <!-- Terminal will be shown as a floating panel when activated -->
+    <div id="terminal-panel" class="terminal-panel">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-controls">
+                    <span class="control close" id="terminal-close"></span>
+                    <span class="control minimize" id="terminal-minimize"></span>
+                    <span class="control maximize" id="terminal-maximize"></span>
+                    <span class="terminal-title">kennethreitz — interactive shell</span>
+                </div>
+            </div>
+            <div class="terminal-body" id="terminal-body">
+                <div class="terminal-output">
+                    <p><span class="welcome-text">Welcome to kennethreitz.org terminal v1.0.0</span></p>
+                    <p>Type <span class="cmd-highlight">help</span> to see available commands.</p>
+                </div>
+                <div class="terminal-input-line">
+                    <span class="cmd-prompt">visitor@kennethreitz:~$</span>
+                    <span class="input-wrapper">
+                        <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" spellcheck="false">
+                    </span>
+                    <span class="cursor" id="terminal-cursor"></span>
+                </div>
+            </div>
+            <div class="terminal-resize-handle" id="terminal-resize-handle"></div>
+        </div>
+    </div>
+    
+    <!-- Progressive enhancement notice for browsers without JS -->
+    <noscript>
+        <div class="noscript-message">
+            <p>For the best experience, please enable JavaScript. The site is still functional, but you'll miss out on the terminal visualization and interactive features.</p>
+        </div>
+    </noscript>
+    
+    <!-- VS Code-style header with title bar and tabs -->
+    <header id="site-header" class="site-header" role="banner">
+        <div class="container header-container">
+            <!-- Title bar with app controls (macOS style) -->
+            <div class="site-title">
+                <div class="window-controls-container">
+                    <div class="window-control close"></div>
+                    <div class="window-control minimize"></div>
+                    <div class="window-control maximize"></div>
+                </div>
+                <a href="/" class="main-logo" aria-label="Kenneth Reitz - Homepage">
+                    <span class="cmd-prompt">root@</span><span class="logo-text">kennethreitz</span><span class="cmd-prompt">:~#</span>
+                </a>
+            </div>
+            
+            <!-- Main navigation - Terminal style -->
+            <nav class="main-nav" id="main-navigation" role="navigation" aria-label="Main navigation">
+                <div class="nav-wrapper editor-sidebar">
+                    <!-- Mobile menu close button -->
+                    <button id="mobile-close-button" class="mobile-close-button" aria-label="Close menu" tabindex="-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                    <!-- Primary navigation links -->
+                    <ul class="nav-links" role="menubar">
+                        <li class="nav-item" data-category="code" role="none">
+                            <a href="/software" role="menuitem" {% if request.path.startswith('/software') %}class="active" aria-current="page"{% endif %}>
+                                <span class="cmd-prompt">$</span>
+                                <span class="nav-text">Software</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" data-category="writing" role="none">
+                            <a href="/essays" role="menuitem" {% if request.path.startswith('/essays') %}class="active" aria-current="page"{% endif %}>
+                                <span class="cmd-prompt">$</span>
+                                <span class="nav-text">Essays</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" data-category="speaking" role="none">
+                            <a href="/talks" role="menuitem" {% if request.path.startswith('/talks') %}class="active" aria-current="page"{% endif %}>
+                                <span class="cmd-prompt">$</span>
+                                <span class="nav-text">Talks</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" data-category="sound" role="none">
+                            <a href="/music" role="menuitem" {% if request.path.startswith('/music') %}class="active" aria-current="page"{% endif %}>
+                                <span class="cmd-prompt">$</span>
+                                <span class="nav-text">Music</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" data-category="creative" role="none">
+                            <a href="/poetry" role="menuitem" {% if request.path.startswith('/poetry') %}class="active" aria-current="page"{% endif %}>
+                                <span class="cmd-prompt">$</span>
+                                <span class="nav-text">Poetry</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" data-category="future" role="none">
+                            <a href="/artificial-intelligence" role="menuitem" {% if request.path.startswith('/artificial-intelligence') %}class="active" aria-current="page"{% endif %}>
+                                <span class="cmd-prompt">$</span>
+                                <span class="nav-text">AI</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" data-category="principles" role="none">
+                            <a href="/values" role="menuitem" {% if request.path.startswith('/values') %}class="active" aria-current="page"{% endif %}>
+                                <span class="cmd-prompt">$</span>
+                                <span class="nav-text">Values</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" data-category="connect" role="none">
+                            <a href="/contact" role="menuitem" {% if request.path.startswith('/contact') %}class="active" aria-current="page"{% endif %}>
+                                <span class="cmd-prompt">$</span>
+                                <span class="nav-text">Contact</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" data-category="terminal" role="none">
+                            <a href="#" role="menuitem" id="terminal-toggle">
+                                <span class="cmd-prompt">&gt;</span>
+                                <span class="nav-text">Terminal</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
     
-    <main class="py-8">
+    <!-- Main content with enhanced styling -->
+    <main class="main-content">
         <div class="container">
-            <div class="content-narrow">
-                {% block content %}{% endblock %}
+            <div class="content-wrapper">
+                <div class="content-narrow">
+                    {% block content %}{% endblock %}
+                </div>
             </div>
         </div>
     </main>
     
-    <!-- VS Code-inspired Explorer Button -->
-    <div id="explorer-button" class="explorer-fab">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3 3h18v18H3zM9 3v18M3 9h6M3 15h6"></path>
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
         </svg>
-        <span class="shortcut-hint">Ctrl+E</span>
-    </div>
-    
-    <!-- Explorer Panel -->
-    <div id="explorer-panel" class="explorer-panel">
-        <div class="explorer-header">
-            <h3>EXPLORER</h3>
-            <button id="explorer-close">×</button>
-        </div>
-        <div class="explorer-body">
-            <div class="explorer-section">
-                <div class="explorer-section-header">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
-                        <path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path>
-                    </svg>
-                    <span>FILE EXPLORER</span>
-                </div>
-                <div class="explorer-section-content">
-                    <ul class="tree-view">
-                        <!-- Software Folder -->
-                        <li class="tree-item tree-folder expanded">
-                            <div class="tree-item-header">
-                                <div class="tree-toggle">-</div>
-                                <div class="tree-folder-icon icon-folder">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                </div>
-                                <span class="tree-label">software</span>
-                                <span class="file-ext ext-dir">/dir</span>
-                            </div>
-                            <ul class="tree-children">
-                                <li class="tree-item">
-                                    <div class="tree-item-header">
-                                        <div class="tree-toggle" style="visibility: hidden;">+</div>
-                                        <div class="tree-file-icon icon-python">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                            </svg>
-                                        </div>
-                                        <a href="/software/requests" class="tree-label">requests</a>
-                                        <span class="file-ext ext-py">.py</span>
-                                    </div>
-                                </li>
-                                <li class="tree-item">
-                                    <div class="tree-item-header">
-                                        <div class="tree-toggle" style="visibility: hidden;">+</div>
-                                        <div class="tree-file-icon icon-python">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                            </svg>
-                                        </div>
-                                        <a href="/software/pipenv" class="tree-label">pipenv</a>
-                                        <span class="file-ext ext-py">.py</span>
-                                    </div>
-                                </li>
-                                <li class="tree-item">
-                                    <div class="tree-item-header">
-                                        <div class="tree-toggle" style="visibility: hidden;">+</div>
-                                        <div class="tree-file-icon icon-python">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                            </svg>
-                                        </div>
-                                        <a href="/software/tablib" class="tree-label">tablib</a>
-                                        <span class="file-ext ext-py">.py</span>
-                                    </div>
-                                </li>
-                                <li class="tree-item">
-                                    <div class="tree-item-header">
-                                        <div class="tree-toggle" style="visibility: hidden;">+</div>
-                                        <div class="tree-file-icon icon-python">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                            </svg>
-                                        </div>
-                                        <a href="/software/responder" class="tree-label">responder</a>
-                                        <span class="file-ext ext-py">.py</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        
-                        <!-- Essays Folder -->
-                        <li class="tree-item tree-folder collapsed">
-                            <div class="tree-item-header">
-                                <div class="tree-toggle">+</div>
-                                <div class="tree-folder-icon icon-folder">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                </div>
-                                <a href="/essays" class="tree-label">essays</a>
-                                <span class="file-ext ext-dir">/dir</span>
-                            </div>
-                            <ul class="tree-children">
-                                <!-- Years folders would be dynamically generated -->
-                                <li class="tree-item tree-folder collapsed">
-                                    <div class="tree-item-header">
-                                        <div class="tree-toggle">+</div>
-                                        <div class="tree-folder-icon icon-folder">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                            </svg>
-                                        </div>
-                                        <a href="/essays/2023" class="tree-label">2023</a>
-                                        <span class="file-ext ext-dir">/dir</span>
-                                    </div>
-                                </li>
-                                <li class="tree-item tree-folder collapsed">
-                                    <div class="tree-item-header">
-                                        <div class="tree-toggle">+</div>
-                                        <div class="tree-folder-icon icon-folder">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                            </svg>
-                                        </div>
-                                        <a href="/essays/2024" class="tree-label">2024</a>
-                                        <span class="file-ext ext-dir">/dir</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        
-                        <!-- Poetry Folder -->
-                        <li class="tree-item tree-folder collapsed">
-                            <div class="tree-item-header">
-                                <div class="tree-toggle">+</div>
-                                <div class="tree-folder-icon icon-folder">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                </div>
-                                <a href="/poetry" class="tree-label">poetry</a>
-                                <span class="file-ext ext-dir">/dir</span>
-                            </div>
-                        </li>
-                        
-                        <!-- AI Folder -->
-                        <li class="tree-item tree-folder collapsed">
-                            <div class="tree-item-header">
-                                <div class="tree-toggle">+</div>
-                                <div class="tree-folder-icon icon-folder">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                    </svg>
-                                </div>
-                                <a href="/artificial-intelligence" class="tree-label">artificial-intelligence</a>
-                                <span class="file-ext ext-dir">/dir</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="explorer-section">
-                <div class="explorer-section-header">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <path d="M12 8l4 4-4 4M8 12h8"></path>
-                    </svg>
-                    <span>EXTERNAL LINKS</span>
-                </div>
-                <div class="explorer-section-content">
-                    <a href="https://github.com/kennethreitz" class="explorer-item external">GitHub</a>
-                    <a href="https://twitter.com/kennethreitz42" class="explorer-item external">Twitter</a>
-                    <a href="https://www.linkedin.com/in/kennethreitz/" class="explorer-item external">LinkedIn</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Command Palette -->
-    <div id="command-palette" class="command-palette">
-        <div class="command-palette-header">
-            <input type="text" class="command-palette-search" id="command-search" placeholder="Type a command or search..." autocomplete="off">
-        </div>
-        <div class="command-palette-results" id="command-results">
-            <!-- Results will be populated dynamically -->
-        </div>
-    </div>
-    
-    <!-- Keyboard Shortcuts Panel -->
-    <div id="shortcuts-panel" class="shortcuts-panel">
-        <div class="shortcuts-header">
-            <h3 class="shortcuts-title">Keyboard Shortcuts</h3>
-            <button id="shortcuts-close" class="shortcuts-close">×</button>
-        </div>
-        <div class="shortcuts-content">
-            <div class="shortcuts-section">
-                <h4 class="shortcuts-section-title">Navigation</h4>
-                <div class="shortcuts-list">
-                    <div class="shortcut-item">
-                        <span class="shortcut-label">Open Explorer</span>
-                        <div class="shortcut-combo">
-                            <span class="shortcut-key">Ctrl</span>
-                            <span class="shortcut-key">E</span>
-                        </div>
-                    </div>
-                    <div class="shortcut-item">
-                        <span class="shortcut-label">Command Palette</span>
-                        <div class="shortcut-combo">
-                            <span class="shortcut-key">Ctrl</span>
-                            <span class="shortcut-key">P</span>
-                        </div>
-                    </div>
-                    <div class="shortcut-item">
-                        <span class="shortcut-label">Go Home</span>
-                        <div class="shortcut-combo">
-                            <span class="shortcut-key">Alt</span>
-                            <span class="shortcut-key">Home</span>
-                        </div>
-                    </div>
-                    <div class="shortcut-item">
-                        <span class="shortcut-label">Keyboard Shortcuts</span>
-                        <div class="shortcut-combo">
-                            <span class="shortcut-key">?</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="shortcuts-section">
-                <h4 class="shortcuts-section-title">Content</h4>
-                <div class="shortcuts-list">
-                    <div class="shortcut-item">
-                        <span class="shortcut-label">Copy Code</span>
-                        <div class="shortcut-combo">
-                            <span class="shortcut-key">Alt</span>
-                            <span class="shortcut-key">C</span>
-                        </div>
-                    </div>
-                    <div class="shortcut-item">
-                        <span class="shortcut-label">Toggle Dark Mode</span>
-                        <div class="shortcut-combo">
-                            <span class="shortcut-key">Alt</span>
-                            <span class="shortcut-key">T</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="shortcuts-section">
-                <h4 class="shortcuts-section-title">Quick Access</h4>
-                <div class="shortcuts-list">
-                    <div class="shortcut-item">
-                        <span class="shortcut-label">Software</span>
-                        <div class="shortcut-combo">
-                            <span class="shortcut-key">G</span>
-                            <span class="shortcut-key">S</span>
-                        </div>
-                    </div>
-                    <div class="shortcut-item">
-                        <span class="shortcut-label">Essays</span>
-                        <div class="shortcut-combo">
-                            <span class="shortcut-key">G</span>
-                            <span class="shortcut-key">E</span>
-                        </div>
-                    </div>
-                    <div class="shortcut-item">
-                        <span class="shortcut-label">Contact</span>
-                        <div class="shortcut-combo">
-                            <span class="shortcut-key">G</span>
-                            <span class="shortcut-key">C</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Overlay for modals -->
-    <div id="shortcuts-overlay" class="shortcuts-overlay"></div>
+    </button>
 
-    <footer class="mt-auto py-10 bg-primary-light/50 dark:bg-primary-dark/10 border-t border-border dark:border-border-dark">
-        <div class="container flex flex-col md:flex-row justify-between items-center gap-6">
-            <div class="flex flex-wrap gap-6">
-                <a href="/software" class="text-text dark:text-text-light no-underline hover:text-primary transition-colors">Software</a>
-                <a href="/essays" class="text-text dark:text-text-light no-underline hover:text-primary transition-colors">Essays</a>
-                <a href="/talks" class="text-text dark:text-text-light no-underline hover:text-primary transition-colors">Talks</a>
-                <a href="/values" class="text-text dark:text-text-light no-underline hover:text-primary transition-colors">Values</a>
-                <a href="/contact" class="text-text dark:text-text-light no-underline hover:text-primary transition-colors">Contact</a>
+    <!-- Terminal Status Bar with xeyes -->
+    <div class="status-bar" id="editor-status-bar">
+        <div class="status-bar-left">
+            <div class="status-bar-item">
+                <span class="cmd-prompt">[sys]</span>
+                <span>kennethreitz.org</span>
             </div>
-            <div class="text-center p-4 bg-white/10 dark:bg-white/5 rounded-lg max-w-[600px] mx-auto">
-                <p id="kenneth-quote" class="italic relative cursor-pointer inline-block px-2 transition-all">"Attention is the only currency we have in life. Thanks for gifting me yours."</p>
+            <div class="status-bar-item">
+                <span class="cmd-prompt">[mem]</span>
+                <span id="memory-counter">56.7 MB</span>
             </div>
-            <div id="shortcuts-indicator" class="cursor-pointer text-sm flex items-center gap-1 py-1 px-2 rounded bg-white/10 dark:bg-white/5 text-text-secondary dark:text-text-light/60 font-mono hover:bg-white/20 dark:hover:bg-white/10">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-                </svg>
-                <span>Press ? for shortcuts</span>
+            <div class="status-bar-item">
+                <span class="cmd-prompt">[uptime]</span>
+                <span id="uptime-counter">42:17:36</span>
+            </div>
+            <div class="status-bar-item">
+                <!-- xeyes implementation -->
+                <div class="xeyes-container">
+                    <div class="xeye">
+                        <div class="pupil" id="left-pupil"></div>
+                    </div>
+                    <div class="xeye">
+                        <div class="pupil" id="right-pupil"></div>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
+        <div class="status-bar-right">
+            <div class="status-bar-item status-item-important">
+                <span class="function">.execute()</span>
+                <span id="executor-status">active</span>
+            </div>
+            <div class="status-bar-item">
+                <span class="cmd-prompt">[status]</span>
+                <span id="status-info" class="success">ONLINE</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast notifications container -->
+    <div id="toast-container" class="toast-container" role="status" aria-live="polite"></div>
 
     <script>
-        // Handle header scroll effect
+        // Check for mobile device and resize handler
+        const isMobile = window.matchMedia("(max-width: 768px)").matches;
+        const isTinyMobile = window.matchMedia("(max-width: 480px)").matches;
+        
+        // Enhanced Interactive Terminal Functionality
         document.addEventListener('DOMContentLoaded', function() {
-            const header = document.getElementById('site-header');
-            const scrollWatcher = () => {
-                if (window.scrollY > 10) {
-                    header.classList.add('shadow-sm');
+            // Terminal elements
+            const terminalPanel = document.getElementById('terminal-panel');
+            const terminalToggle = document.getElementById('terminal-toggle');
+            const terminalInput = document.getElementById('terminal-input');
+            const terminalBody = document.getElementById('terminal-body');
+            const terminalCursor = document.getElementById('terminal-cursor');
+            const terminalClose = document.getElementById('terminal-close');
+            const terminalMinimize = document.getElementById('terminal-minimize');
+            const terminalMaximize = document.getElementById('terminal-maximize');
+            const terminalResizeHandle = document.getElementById('terminal-resize-handle');
+            
+            if (!terminalInput || !terminalBody || !terminalPanel) return;
+            
+            // Terminal toggle in navigation
+            terminalToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                if (terminalPanel.classList.contains('active')) {
+                    // If minimized, restore it
+                    if (terminalPanel.classList.contains('minimized')) {
+                        terminalPanel.classList.remove('minimized');
+                    } else {
+                        // Otherwise hide it
+                        terminalPanel.classList.remove('active');
+                    }
                 } else {
-                    header.classList.remove('shadow-sm');
-                }
-            };
-            
-            window.addEventListener('scroll', scrollWatcher);
-            
-            // IDE-style initialization animation effect - only on first visit
-            const mainContent = document.querySelector('main');
-            if (mainContent) {
-                // Check if this is the user's first visit to the site in this session
-                const hasVisited = sessionStorage.getItem('has_visited_site');
-                
-                if (!hasVisited) {
-                    // Set the flag that the user has visited
-                    sessionStorage.setItem('has_visited_site', 'true');
+                    // Show terminal
+                    terminalPanel.classList.add('active');
+                    terminalInput.focus();
                     
-                    // Add terminal loading animation
-                    const loadingTerminal = document.createElement('div');
-                    loadingTerminal.className = 'terminal-loader';
-                    loadingTerminal.innerHTML = `
-                        <div class="terminal-header">
-                            <span class="terminal-title">initializing kennethreitz.org</span>
-                        </div>
-                        <div class="terminal-content" id="terminal-content">
-                            <p class="command-line">Loading environment variables...</p>
-                            <p class="command-output">✓ Environment configured</p>
-                            <p class="command-line">Setting up developer experience...</p>
-                            <p class="command-output">✓ Dependencies installed</p>
-                            <p class="command-line">Applying syntax highlighting...</p>
-                            <p class="command-output">✓ Prism.js activated</p>
-                            <p class="command-line">Initializing code editor interface...</p>
-                            <p class="command-output">✓ Visual improvements applied</p>
-                            <p class="command-line">Rendering content...</p>
-                        </div>
-                    `;
-                    
-                    document.body.appendChild(loadingTerminal);
-                    
-                    // Simulate typing effect
-                    setTimeout(() => {
-                        const finalLine = document.createElement('p');
-                        finalLine.className = 'command-output success';
-                        finalLine.textContent = '✓ kennethreitz.org loaded successfully!';
-                        document.getElementById('terminal-content').appendChild(finalLine);
+                    // If first activation, show a welcome animation
+                    if (!terminalPanel.dataset.activated) {
+                        terminalPanel.dataset.activated = 'true';
                         
-                        setTimeout(() => {
-                            loadingTerminal.classList.add('fade-out');
-                            
-                            setTimeout(() => {
-                                loadingTerminal.remove();
-                                mainContent.classList.add('animate-in');
-                            }, 500);
-                        }, 1000);
-                    }, 800);
-                } else {
-                    // If not first visit, just add the animation class
-                    mainContent.classList.add('animate-in');
-                }
-            }
-            
-            // Kenneth's quotes rotation
-            const kennethQuotes = [
-                "Attention is the only currency we have in life. Thanks for gifting me yours.",
-                "Be cordial or be on your way.",
-                "Reality exists regardless of your emotional support of it.",
-                "Everything is an expression of its opposite.",
-                "Documentation is king.",
-                "Trust and verify.",
-                "I develop things for humans.",
-                "Optimize for simplicity, then performance.",
-                "Python for humans.",
-                "The power of a clean API.",
-                "Clarity over cleverness.",
-                "Life is not a race, but there's no speed limit either."
-            ];
-            
-            const quoteElement = document.getElementById('kenneth-quote');
-            if (quoteElement) {
-                // Set initial quote to avoid flicker
-                const initialQuote = quoteElement.textContent;
-                
-                // Filter out the initial quote
-                const filteredQuotes = kennethQuotes.filter(quote => 
-                    quote !== initialQuote.replace(/^"|"$/g, ''));
-                
-                // Show a random quote on page reload
-                const randomIndex = Math.floor(Math.random() * filteredQuotes.length);
-                quoteElement.textContent = `"${filteredQuotes[randomIndex]}"`;
-                
-                // Add hover effect for quote change
-                quoteElement.addEventListener('mouseover', function() {
-                    const randomIndex = Math.floor(Math.random() * kennethQuotes.length);
-                    this.classList.add('opacity-0');
-                    
-                    setTimeout(() => {
-                        this.textContent = `"${kennethQuotes[randomIndex]}"`;
-                        this.classList.remove('opacity-0');
-                    }, 300);
-                });
-            }
-            
-            // Animate directory items
-            const directoryItems = document.querySelectorAll('.directory-item');
-            if (directoryItems.length) {
-                directoryItems.forEach((item, index) => {
-                    item.classList.add('opacity-0');
-                    setTimeout(() => {
-                        item.classList.remove('opacity-0');
-                        item.classList.add('transition-opacity', 'duration-500');
-                    }, index * 50);
-                });
-            }
-
-            // Add copy buttons to code blocks and enhance them
-            function setupCodeBlocks() {
-                // Wait for Prism.js to finish highlighting
-                setTimeout(() => {
-                    const codeBlocks = document.querySelectorAll('pre:not(.copied-button-added)');
-                    
-                    codeBlocks.forEach(pre => {
-                        // Mark as processed
-                        pre.classList.add('copied-button-added');
+                        // Type out a welcome message character by character
+                        const welcomeText = "Welcome to the interactive terminal. Type 'help' to begin.";
+                        const typingDelay = 30; // ms per character
+                        let charIndex = 0;
                         
-                        // Add line numbers to all code blocks
-                        pre.classList.add('line-numbers');
+                        const typingOutput = document.createElement('p');
+                        typingOutput.className = 'typing-output';
+                        terminalBody.querySelector('.terminal-output').appendChild(typingOutput);
                         
-                        // Create copy button
-                        const copyButton = document.createElement('button');
-                        copyButton.className = 'copy-code-button';
-                        copyButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy';
-                        
-                        // Add language tag if possible
-                        const code = pre.querySelector('code');
-                        if (code && code.className) {
-                            const match = code.className.match(/language-([a-z]+)/);
-                            if (match && match[1]) {
-                                pre.setAttribute('data-language', match[1]);
-                                
-                                // Add a title attribute with full language name
-                                const languageMap = {
-                                    'py': 'Python',
-                                    'js': 'JavaScript',
-                                    'jsx': 'React JSX',
-                                    'ts': 'TypeScript',
-                                    'json': 'JSON',
-                                    'css': 'CSS',
-                                    'html': 'HTML',
-                                    'bash': 'Bash',
-                                    'shell': 'Shell',
-                                    'md': 'Markdown',
-                                    'yaml': 'YAML',
-                                    'yml': 'YAML'
-                                };
-                                
-                                const langName = languageMap[match[1]] || match[1].charAt(0).toUpperCase() + match[1].slice(1);
-                                pre.setAttribute('data-language', langName);
+                        const typingInterval = setInterval(() => {
+                            if (charIndex < welcomeText.length) {
+                                typingOutput.textContent += welcomeText.charAt(charIndex);
+                                charIndex++;
+                                scrollToBottom();
+                            } else {
+                                clearInterval(typingInterval);
                             }
-                        }
-                        
-                        // Add copy functionality
-                        copyButton.addEventListener('click', () => {
-                            const code = pre.querySelector('code');
-                            const textToCopy = code.textContent;
-                            
-                            // Copy to clipboard
-                            navigator.clipboard.writeText(textToCopy).then(() => {
-                                copyButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"></path></svg> Copied!';
-                                copyButton.style.backgroundColor = 'rgba(var(--color-success), 0.2)';
-                                copyButton.style.borderColor = 'rgba(var(--color-success), 0.5)';
-                                
-                                setTimeout(() => {
-                                    copyButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy';
-                                    copyButton.style.backgroundColor = '';
-                                    copyButton.style.borderColor = '';
-                                }, 2000);
-                            })
-                            .catch(err => {
-                                copyButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg> Error';
-                                copyButton.style.backgroundColor = 'rgba(var(--color-error), 0.2)';
-                                copyButton.style.borderColor = 'rgba(var(--color-error), 0.5)';
-                                
-                                setTimeout(() => {
-                                    copyButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy';
-                                    copyButton.style.backgroundColor = '';
-                                    copyButton.style.borderColor = '';
-                                }, 2000);
-                                
-                                console.error('Failed to copy code: ', err);
-                            });
-                        });
-                        
-                        pre.appendChild(copyButton);
-                        
-                        // Add editor info bar
-                        const infoBar = document.createElement('div');
-                        infoBar.className = 'code-editor-info';
-                        infoBar.innerHTML = `
-                            <div class="editor-tabs">
-                                <div class="editor-tab active">
-                                    ${pre.getAttribute('data-language') || 'Code'} 
-                                    <span class="close-icon">×</span>
-                                </div>
-                            </div>
-                        `;
-                        pre.parentNode.insertBefore(infoBar, pre);
-                        
-                        // Wrap pre in a container for styling
-                        const wrapper = document.createElement('div');
-                        wrapper.className = 'code-editor-wrapper';
-                        pre.parentNode.insertBefore(wrapper, pre);
-                        wrapper.appendChild(pre);
-                    });
-                }, 500); // Wait for Prism.js to initialize
-            }
-
-            // Initial setup
-            setupCodeBlocks();
-            
-            // Re-run setup when content changes (for dynamic content)
-            const observer = new MutationObserver(setupCodeBlocks);
-            observer.observe(document.body, {
-                childList: true,
-                subtree: true
+                        }, typingDelay);
+                    }
+                }
             });
             
-            // Explorer panel functionality
-            const explorerButton = document.getElementById('explorer-button');
-            const explorerPanel = document.getElementById('explorer-panel');
-            const explorerClose = document.getElementById('explorer-close');
+            // Terminal controls
+            terminalClose.addEventListener('click', function() {
+                terminalPanel.classList.remove('active');
+            });
             
-            if (explorerButton && explorerPanel && explorerClose) {
-                // Open explorer panel
-                explorerButton.addEventListener('click', () => {
-                    explorerPanel.classList.add('show');
-                });
-                
-                // Close explorer panel
-                explorerClose.addEventListener('click', () => {
-                    explorerPanel.classList.remove('show');
-                });
-                
-                // Close panel when clicking outside
-                document.addEventListener('click', (e) => {
-                    if (!explorerPanel.contains(e.target) && e.target !== explorerButton) {
-                        explorerPanel.classList.remove('show');
-                    }
-                });
-                
-                // Handle section toggle
-                const sectionHeaders = document.querySelectorAll('.explorer-section-header');
-                sectionHeaders.forEach(header => {
-                    header.addEventListener('click', () => {
-                        const content = header.nextElementSibling;
-                        if (content.style.display === 'none') {
-                            content.style.display = 'block';
-                        } else {
-                            content.style.display = 'none';
-                        }
-                    });
-                });
-                
-                // Windows 95-style tree view toggle functionality
-                const treeToggles = document.querySelectorAll('.tree-folder > .tree-item-header');
-                treeToggles.forEach(toggle => {
-                    toggle.addEventListener('click', (e) => {
-                        // Don't follow links if clicking on the toggle or folder name
-                        if (e.target.tagName !== 'A') {
-                            e.preventDefault();
-                            
-                            const treeItem = toggle.closest('.tree-folder');
-                            const toggleButton = toggle.querySelector('.tree-toggle');
-                            
-                            if (treeItem.classList.contains('collapsed')) {
-                                treeItem.classList.remove('collapsed');
-                                treeItem.classList.add('expanded');
-                                toggleButton.textContent = '-';
-                            } else {
-                                treeItem.classList.remove('expanded');
-                                treeItem.classList.add('collapsed');
-                                toggleButton.textContent = '+';
-                            }
-                        }
-                    });
-                });
-            }
+            terminalMinimize.addEventListener('click', function() {
+                terminalPanel.classList.toggle('minimized');
+            });
             
-            // Command palette setup
-            const commandPalette = document.getElementById('command-palette');
-            const commandSearch = document.getElementById('command-search');
-            const commandResults = document.getElementById('command-results');
-            const shortcutsPanel = document.getElementById('shortcuts-panel');
-            const shortcutsClose = document.getElementById('shortcuts-close');
-            const shortcutsOverlay = document.getElementById('shortcuts-overlay');
-            
-            // Define available commands
-            const commands = [
-                { 
-                    id: 'explorer', 
-                    label: 'Toggle Explorer', 
-                    shortcut: 'Ctrl+E',
-                    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h18v18H3zM9 3v18M3 9h6M3 15h6"></path></svg>',
-                    action: () => toggleExplorer()
-                },
-                { 
-                    id: 'home', 
-                    label: 'Go to Home',
-                    shortcut: 'Alt+Home', 
-                    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>',
-                    action: () => window.location.href = '/'
-                },
-                { 
-                    id: 'software', 
-                    label: 'Software Projects',
-                    shortcut: 'G S', 
-                    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8L16 3H8z"></path><path d="M17 21v-8H7v8M7 3v5h8"></path></svg>',
-                    action: () => window.location.href = '/software'
-                },
-                { 
-                    id: 'essays', 
-                    label: 'Essays',
-                    shortcut: 'G E', 
-                    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>',
-                    action: () => window.location.href = '/essays'
-                },
-                { 
-                    id: 'contact', 
-                    label: 'Contact',
-                    shortcut: 'G C', 
-                    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>',
-                    action: () => window.location.href = '/contact'
-                },
-                { 
-                    id: 'shortcuts', 
-                    label: 'Keyboard Shortcuts',
-                    shortcut: '?', 
-                    icon: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>',
-                    action: () => toggleShortcutsPanel()
-                }
-            ];
-            
-            // Function to render commands in palette
-            function renderCommands(filterText = '') {
-                commandResults.innerHTML = '';
-                
-                const filteredCommands = filterText
-                    ? commands.filter(cmd => 
-                        cmd.label.toLowerCase().includes(filterText.toLowerCase()) ||
-                        cmd.id.toLowerCase().includes(filterText.toLowerCase()))
-                    : commands;
-                
-                if (filteredCommands.length === 0) {
-                    const noResults = document.createElement('div');
-                    noResults.className = 'command-palette-item';
-                    noResults.innerHTML = `
-                        <div class="command-palette-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <line x1="12" y1="8" x2="12" y2="12"></line>
-                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                            </svg>
-                        </div>
-                        <span class="command-palette-label">No matching commands found</span>
-                    `;
-                    commandResults.appendChild(noResults);
-                    return;
-                }
-                
-                filteredCommands.forEach((cmd, index) => {
-                    const item = document.createElement('div');
-                    item.className = 'command-palette-item';
-                    if (index === 0) item.classList.add('selected');
-                    
-                    item.innerHTML = `
-                        <div class="command-palette-icon">${cmd.icon}</div>
-                        <span class="command-palette-label">${cmd.label}</span>
-                        <div class="command-palette-shortcut">
-                            ${cmd.shortcut.split(' ').map(key => 
-                                `<span class="command-palette-key">${key}</span>`
-                            ).join('')}
-                        </div>
-                    `;
-                    
-                    item.addEventListener('click', () => {
-                        cmd.action();
-                        toggleCommandPalette(false);
-                    });
-                    
-                    commandResults.appendChild(item);
-                });
-            }
-            
-            // Toggle command palette
-            function toggleCommandPalette(show = true) {
-                if (show) {
-                    commandPalette.classList.add('show');
-                    shortcutsOverlay.classList.add('show');
-                    commandSearch.value = '';
-                    renderCommands();
-                    setTimeout(() => commandSearch.focus(), 100);
+            terminalMaximize.addEventListener('click', function() {
+                terminalPanel.classList.toggle('maximized');
+                if (terminalPanel.classList.contains('maximized')) {
+                    terminalPanel.style.width = '90vw';
+                    terminalPanel.style.height = '80vh';
+                    terminalPanel.style.top = '10vh';
+                    terminalPanel.style.right = '5vw';
                 } else {
-                    commandPalette.classList.remove('show');
-                    shortcutsOverlay.classList.remove('show');
+                    terminalPanel.style.width = '600px';
+                    terminalPanel.style.height = '400px';
+                    terminalPanel.style.top = '5%';
+                    terminalPanel.style.right = '2%';
                 }
-            }
+            });
             
-            // Toggle shortcuts panel
-            function toggleShortcutsPanel(show = true) {
-                if (show) {
-                    shortcutsPanel.classList.add('show');
-                    shortcutsOverlay.classList.add('show');
-                } else {
-                    shortcutsPanel.classList.remove('show');
-                    shortcutsOverlay.classList.remove('show');
-                }
-            }
+            // Make the terminal draggable
+            let isDragging = false;
+            let dragOffsetX, dragOffsetY;
             
-            // Toggle explorer
-            function toggleExplorer(show) {
-                if (show === undefined) {
-                    explorerPanel.classList.toggle('show');
-                } else if (show) {
-                    explorerPanel.classList.add('show');
-                } else {
-                    explorerPanel.classList.remove('show');
-                }
-            }
-            
-            // Command palette search functionality
-            if (commandSearch) {
-                commandSearch.addEventListener('input', (e) => {
-                    renderCommands(e.target.value);
-                });
+            terminalHeader = terminalPanel.querySelector('.terminal-header');
+            terminalHeader.addEventListener('mousedown', function(e) {
+                // Don't drag if clicking controls
+                if (e.target.classList.contains('control')) return;
                 
-                commandSearch.addEventListener('keydown', (e) => {
-                    const items = commandResults.querySelectorAll('.command-palette-item');
-                    const selected = commandResults.querySelector('.selected');
-                    let index = Array.from(items).indexOf(selected);
+                isDragging = true;
+                dragOffsetX = e.clientX - terminalPanel.getBoundingClientRect().left;
+                dragOffsetY = e.clientY - terminalPanel.getBoundingClientRect().top;
+                
+                // Add dragging class
+                terminalPanel.classList.add('dragging');
+            });
+            
+            document.addEventListener('mousemove', function(e) {
+                if (isDragging) {
+                    const x = e.clientX - dragOffsetX;
+                    const y = e.clientY - dragOffsetY;
                     
-                    switch (e.key) {
-                        case 'ArrowDown':
-                            e.preventDefault();
-                            if (index < items.length - 1) {
-                                if (selected) selected.classList.remove('selected');
-                                items[index + 1].classList.add('selected');
-                                items[index + 1].scrollIntoView({ block: 'nearest' });
-                            }
-                            break;
-                            
-                        case 'ArrowUp':
-                            e.preventDefault();
-                            if (index > 0) {
-                                if (selected) selected.classList.remove('selected');
-                                items[index - 1].classList.add('selected');
-                                items[index - 1].scrollIntoView({ block: 'nearest' });
-                            }
-                            break;
-                            
-                        case 'Enter':
-                            e.preventDefault();
-                            if (selected) {
-                                selected.click();
-                            }
-                            break;
-                            
-                        case 'Escape':
-                            e.preventDefault();
-                            toggleCommandPalette(false);
-                            break;
-                    }
-                });
-            }
-            
-            // Close shortcuts panel
-            if (shortcutsClose) {
-                shortcutsClose.addEventListener('click', () => {
-                    toggleShortcutsPanel(false);
-                });
-            }
-            
-            // Close modals when clicking on overlay
-            if (shortcutsOverlay) {
-                shortcutsOverlay.addEventListener('click', () => {
-                    toggleCommandPalette(false);
-                    toggleShortcutsPanel(false);
-                });
-            }
-            
-            // Handle shortcuts indicator click
-            const shortcutsIndicator = document.getElementById('shortcuts-indicator');
-            if (shortcutsIndicator) {
-                shortcutsIndicator.addEventListener('click', () => {
-                    toggleShortcutsPanel(true);
-                });
-            }
-            
-            // Global keyboard shortcuts
-            document.addEventListener('keydown', (e) => {
-                // Toggle explorer (Ctrl+E or Cmd+E)
-                if ((e.ctrlKey || e.metaKey) && e.key === 'e') {
-                    e.preventDefault();
-                    toggleExplorer();
-                }
-                
-                // Command palette (Ctrl+P or Cmd+P)
-                if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
-                    e.preventDefault();
-                    toggleCommandPalette(true);
-                }
-                
-                // Shortcuts panel (?)
-                if (e.key === '?' && !e.ctrlKey && !e.metaKey && !e.altKey && 
-                    !(document.activeElement instanceof HTMLInputElement) && 
-                    !(document.activeElement instanceof HTMLTextAreaElement)) {
-                    e.preventDefault();
-                    toggleShortcutsPanel(true);
-                }
-                
-                // Quick navigation with g prefix
-                if (e.key === 'g' && !shortcutsPanel.classList.contains('show') && 
-                    !commandPalette.classList.contains('show') &&
-                    !(document.activeElement instanceof HTMLInputElement) && 
-                    !(document.activeElement instanceof HTMLTextAreaElement)) {
+                    // Keep within window bounds
+                    const maxX = window.innerWidth - terminalPanel.offsetWidth;
+                    const maxY = window.innerHeight - terminalPanel.offsetHeight;
                     
-                    const handleSecondKey = (e2) => {
-                        document.removeEventListener('keydown', handleSecondKey);
+                    terminalPanel.style.right = 'auto';
+                    terminalPanel.style.left = Math.max(0, Math.min(maxX, x)) + 'px';
+                    terminalPanel.style.top = Math.max(0, Math.min(maxY, y)) + 'px';
+                }
+            });
+            
+            document.addEventListener('mouseup', function() {
+                isDragging = false;
+                terminalPanel.classList.remove('dragging');
+            });
+            
+            // Make the terminal resizable
+            let isResizing = false;
+            
+            terminalResizeHandle.addEventListener('mousedown', function(e) {
+                isResizing = true;
+                e.preventDefault();
+                
+                // Add resizing class
+                terminalPanel.classList.add('resizing');
+            });
+            
+            document.addEventListener('mousemove', function(e) {
+                if (isResizing) {
+                    const width = e.clientX - terminalPanel.getBoundingClientRect().left;
+                    const height = e.clientY - terminalPanel.getBoundingClientRect().top;
+                    
+                    // Enforce minimum size
+                    terminalPanel.style.width = Math.max(400, width) + 'px';
+                    terminalPanel.style.height = Math.max(200, height) + 'px';
+                    
+                    // Remove maximized class if resizing manually
+                    terminalPanel.classList.remove('maximized');
+                }
+            });
+            
+            document.addEventListener('mouseup', function() {
+                isResizing = false;
+                terminalPanel.classList.remove('resizing');
+            });
+            
+            // Focus terminal input when clicking anywhere in terminal body
+            terminalBody.addEventListener('click', function() {
+                terminalInput.focus();
+            });
+            
+            // Flashing cursor effect
+            setInterval(function() {
+                if (terminalCursor) {
+                    terminalCursor.style.opacity = terminalCursor.style.opacity === '0' ? '1' : '0';
+                }
+            }, 500);
+            
+            // Keep terminal scrolled to bottom
+            function scrollToBottom() {
+                terminalBody.scrollTop = terminalBody.scrollHeight;
+            }
+            
+            // Terminal command processing with history
+            let commandHistory = [];
+            let historyIndex = -1;
+            
+            terminalInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    
+                    const command = terminalInput.value.trim();
+                    if (command) {
+                        // Add to history
+                        commandHistory.push(command);
+                        historyIndex = commandHistory.length;
                         
-                        if (e2.key === 's') {
-                            window.location.href = '/software';
-                        } else if (e2.key === 'e') {
-                            window.location.href = '/essays';
-                        } else if (e2.key === 'c') {
-                            window.location.href = '/contact';
-                        }
-                    };
+                        // Add command to output
+                        const commandLine = document.createElement('p');
+                        commandLine.innerHTML = `<span class="cmd-prompt">visitor@kennethreitz:~$</span> <span class="command">${command}</span>`;
+                        terminalBody.querySelector('.terminal-output').appendChild(commandLine);
+                        
+                        // Process command
+                        processCommand(command);
+                        
+                        // Clear input
+                        terminalInput.value = '';
+                        scrollToBottom();
+                    }
+                } else if (e.key === 'ArrowUp') {
+                    // Navigate command history (up)
+                    if (commandHistory.length > 0 && historyIndex > 0) {
+                        historyIndex--;
+                        terminalInput.value = commandHistory[historyIndex];
+                        
+                        // Move cursor to end of input
+                        setTimeout(() => {
+                            terminalInput.selectionStart = terminalInput.value.length;
+                            terminalInput.selectionEnd = terminalInput.value.length;
+                        }, 0);
+                    }
+                    e.preventDefault();
+                } else if (e.key === 'ArrowDown') {
+                    // Navigate command history (down)
+                    if (historyIndex < commandHistory.length - 1) {
+                        historyIndex++;
+                        terminalInput.value = commandHistory[historyIndex];
+                    } else {
+                        historyIndex = commandHistory.length;
+                        terminalInput.value = '';
+                    }
+                    e.preventDefault();
+                } else if (e.key === 'Tab') {
+                    // Simple tab completion
+                    e.preventDefault();
                     
-                    document.addEventListener('keydown', handleSecondKey);
+                    const commands = ['help', 'about', 'projects', 'contact', 'clear', 'ls', 'dir', 'cd', 'python', 'neofetch', 'matrix', 'heroku', 'requests'];
+                    const input = terminalInput.value.toLowerCase();
+                    
+                    if (input) {
+                        // Find matching commands
+                        const matches = commands.filter(cmd => cmd.startsWith(input));
+                        
+                        if (matches.length === 1) {
+                            // Exact match
+                            terminalInput.value = matches[0];
+                        } else if (matches.length > 1) {
+                            // Show possible completions
+                            const completionsLine = document.createElement('p');
+                            completionsLine.textContent = matches.join('  ');
+                            terminalBody.querySelector('.terminal-output').appendChild(completionsLine);
+                            scrollToBottom();
+                        }
+                    }
+                }
+            });
+            
+            // Command processing function
+            function processCommand(cmd) {
+                cmd = cmd.toLowerCase();
+                let response;
+                
+                // Basic command set
+                if (cmd === 'help' || cmd === 'h') {
+                    response = `
+                        <p><span class="cmd-highlight">Available commands:</span></p>
+                        <p>help - Display this help message</p>
+                        <p>about - About Kenneth Reitz</p>
+                        <p>projects - View notable projects</p>
+                        <p>contact - Contact information</p>
+                        <p>clear - Clear the terminal screen</p>
+                        <p>ls/dir - List site directories</p>
+                        <p>cd /path - Navigate to a section</p>
+                        <p>python - Try some Python snippets</p>
+                        <p>neofetch - System information</p>
+                        <p>matrix - Enter the Matrix</p>
+                        <p>heroku - Discover the Heroku connection</p>
+                    `;
+                } else if (cmd === 'about') {
+                    response = `
+                        <p><span class="welcome-text">Kenneth Reitz</span></p>
+                        <p>Python for Humans, Open Source Creator, REST API Designer, Neural Explorer.</p>
+                        <p>Creator of <span class="cmd-highlight">requests</span>, <span class="cmd-highlight">pipenv</span>, and many other popular Python libraries.</p>
+                    `;
+                } else if (cmd === 'projects') {
+                    response = `
+                        <p><span class="cmd-highlight">Notable Projects:</span></p>
+                        <p>• requests - HTTP for Humans</p>
+                        <p>• pipenv - Python Development Workflow for Humans</p>
+                        <p>• httpbin.org - HTTP Request & Response Service</p>
+                        <p>• python-guide.org - The Hitchhiker's Guide to Python</p>
+                        <p>Type <span class="cmd-highlight">cd /software</span> to browse all projects</p>
+                    `;
+                } else if (cmd === 'contact') {
+                    response = `
+                        <p><span class="cmd-highlight">Contact Information:</span></p>
+                        <p>Twitter: <a href="https://twitter.com/kennethreitz42" target="_blank">@kennethreitz42</a></p>
+                        <p>GitHub: <a href="https://github.com/kennethreitz" target="_blank">kennethreitz</a></p>
+                        <p>Email: me@kennethreitz.org</p>
+                    `;
+                } else if (cmd === 'clear' || cmd === 'cls') {
+                    terminalBody.querySelector('.terminal-output').innerHTML = '';
+                    return;
+                } else if (cmd.startsWith('cd ')) {
+                    const path = cmd.substring(3);
+                    const validPaths = ['/software', '/essays', '/talks', '/music', '/poetry', '/artificial-intelligence', '/values'];
+                    
+                    if (validPaths.includes(path)) {
+                        response = `<p>Navigating to ${path}...</p>`;
+                        // Delayed navigation
+                        setTimeout(() => {
+                            window.location.href = path;
+                        }, 500);
+                    } else {
+                        response = `<p class="error">Error: Path not found: ${path}</p>`;
+                    }
+                } else if (cmd === 'ls' || cmd === 'dir') {
+                    response = `
+                        <p><span class="cmd-highlight">Directory listing:</span></p>
+                        <p class="dir-item">/software</p>
+                        <p class="dir-item">/essays</p>
+                        <p class="dir-item">/talks</p>
+                        <p class="dir-item">/music</p>
+                        <p class="dir-item">/poetry</p>
+                        <p class="dir-item">/artificial-intelligence</p>
+                        <p class="dir-item">/values</p>
+                    `;
+                } else if (cmd === 'python') {
+                    response = `
+                        <p><span class="cmd-highlight">Python 3.11.0</span> on kennethreitz.org</p>
+                        <p>>>> import requests</p>
+                        <p>>>> r = requests.get('https://httpbin.org/json')</p>
+                        <p>>>> r.status_code</p>
+                        <p>200</p>
+                        <p>>>> r.json()</p>
+                        <p>{...}</p>
+                        <p>>>> exit()</p>
+                    `;
+                } else if (cmd === 'neofetch') {
+                    response = `
+                        <p><span class="cmd-highlight">           </span> visitor@kennethreitz.org</p>
+                        <p><span class="cmd-highlight">     .--.  </span> ------------------</p>
+                        <p><span class="cmd-highlight">    |o_o | </span> OS: kennethreitz.org</p>
+                        <p><span class="cmd-highlight">    |:_/ | </span> Terminal: Web-based</p>
+                        <p><span class="cmd-highlight">   //   \\ \\</span> CPU: Heroku Dynos</p>
+                        <p><span class="cmd-highlight">  (|     | )</span> Memory: Infinite</p>
+                        <p><span class="cmd-highlight"> /'\\_   _/\`\\</span> Shell: requests.js</p>
+                        <p><span class="cmd-highlight"> \\___)=(___/</span> Theme: Heroku Terminal</p>
+                    `;
+                } else if (cmd === 'hello' || cmd === 'hi') {
+                    response = `<p>Hello there! Type <span class="cmd-highlight">help</span> to see what you can do here.</p>`;
+                } else if (cmd === 'matrix' || cmd === 'the-matrix') {
+                    // Matrix easter egg
+                    response = `<p class="typing-effect"><span class="cmd-highlight">Wake up, Neo...</span></p>`;
+                    
+                    // Matrix animation effect
+                    const matrixContainer = document.querySelector('.matrix-container');
+                    if (matrixContainer) {
+                        matrixContainer.style.opacity = '1';
+                        setTimeout(() => {
+                            const matrixMessage = document.createElement('div');
+                            matrixMessage.innerHTML = `
+                                <p class="matrix-message">The Matrix has you...</p>
+                                <p class="matrix-message">Follow the white rabbit.</p>
+                            `;
+                            terminalBody.querySelector('.terminal-output').appendChild(matrixMessage);
+                            scrollToBottom();
+                            
+                            // Return to normal after effect
+                            setTimeout(() => {
+                                matrixContainer.style.opacity = '0.5';
+                            }, 5000);
+                        }, 2000);
+                    }
+                } else if (cmd === 'requests') {
+                    response = `
+                        <p class="typing-effect"><span class="cmd-highlight">import requests</span></p>
+                        <p>HTTP for Humans™</p>
+                        <p>The elegant and simple HTTP library for Python, built for human beings.</p>
+                        <p><a href="https://github.com/psf/requests" target="_blank">https://github.com/psf/requests</a></p>
+                    `;
+                } else if (cmd === 'heroku') {
+                    // Heroku easter egg
+                    response = `
+                        <p><span style="color: rgb(var(--heroku-green));">Heroku</span> <span style="color: rgb(var(--heroku-purple));">+</span> <span style="color: rgb(var(--heroku-amber));">kennethreitz</span></p>
+                        <p class="typing-effect">Heroku connection detected...</p>
+                        <p>Kenneth Reitz is a former Heroku employee who designed APIs and created developer tools.</p>
+                        <p>This site's terminal-style interface has been enhanced with the Heroku color palette.</p>
+                        <p>From 2011 to 2017, Kenneth worked at Heroku, developing developer experiences.</p>
+                    `;
+                    
+                    // Add a bit of style animation
+                    setTimeout(() => {
+                        document.documentElement.style.setProperty('--heroku-green', '120, 240, 140');
+                        document.documentElement.style.setProperty('--heroku-amber', '255, 200, 80');
+                        
+                        setTimeout(() => {
+                            document.documentElement.style.setProperty('--heroku-green', '90, 220, 120');
+                            document.documentElement.style.setProperty('--heroku-amber', '255, 180, 60');
+                        }, 1000);
+                    }, 500);
+                } else {
+                    response = `<p class="error">Command not found: ${cmd}. Type <span class="cmd-highlight">help</span> for available commands.</p>`;
                 }
                 
-                // Home shortcut (Alt+Home)
-                if (e.altKey && e.key === 'Home') {
-                    e.preventDefault();
-                    window.location.href = '/';
+                // Add response to terminal
+                const responseElement = document.createElement('div');
+                responseElement.innerHTML = response;
+                terminalBody.querySelector('.terminal-output').appendChild(responseElement);
+            }
+            
+            // Focus terminal input on page load
+            terminalInput.focus();
+        });
+        
+        // Terminal Status Bar Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const statusBar = document.getElementById('editor-status-bar');
+            const memoryCounter = document.getElementById('memory-counter');
+            const uptimeCounter = document.getElementById('uptime-counter');
+            const executorStatus = document.getElementById('executor-status');
+            const statusInfo = document.getElementById('status-info');
+            
+            // Matrix rain effect for background
+            function createMatrixRain() {
+                const matrixContainer = document.querySelector('.matrix-container');
+                if (!matrixContainer) return;
+                
+                // Clear any existing content
+                matrixContainer.innerHTML = '';
+                
+                // Create columns of characters
+                const numColumns = Math.floor(window.innerWidth / 20);
+                
+                for (let i = 0; i < numColumns; i++) {
+                    const column = document.createElement('div');
+                    column.className = 'matrix-column';
+                    column.style.left = `${i * 20}px`;
+                    
+                    // Randomize start time
+                    column.style.animationDelay = `${Math.random() * 5}s`;
+                    
+                    // Random number of characters (5-15)
+                    const numChars = Math.floor(Math.random() * 10) + 5;
+                    
+                    for (let j = 0; j < numChars; j++) {
+                        const char = document.createElement('div');
+                        char.className = 'matrix-char';
+                        char.textContent = getRandomChar();
+                        char.style.animationDelay = `${j * 0.1}s`;
+                        column.appendChild(char);
+                    }
+                    
+                    matrixContainer.appendChild(column);
+                }
+            }
+            
+            function getRandomChar() {
+                const chars = '01';
+                return chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+            
+            if(statusBar && memoryCounter && uptimeCounter && statusInfo) {
+                // Start the terminal boot sequence
+                let bootTime = 0;
+                
+                // Simulated terminal boot sequence
+                function updateMemoryCounter() {
+                    // Randomly fluctuate memory usage
+                    const base = 50;
+                    const fluctuation = Math.random() * 20;
+                    memoryCounter.textContent = `${(base + fluctuation).toFixed(1)} MB`;
+                    
+                    // Schedule next update
+                    setTimeout(updateMemoryCounter, 5000 + Math.random() * 5000);
+                }
+                
+                function updateUptimeCounter() {
+                    bootTime++;
+                    
+                    // Format as hours:minutes:seconds
+                    const hours = Math.floor(bootTime / 3600);
+                    const minutes = Math.floor((bootTime % 3600) / 60);
+                    const seconds = bootTime % 60;
+                    
+                    uptimeCounter.textContent = 
+                        `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                    
+                    // Update every second
+                    setTimeout(updateUptimeCounter, 1000);
+                }
+                
+                function blinkExecutorStatus() {
+                    // Toggle between active/standby
+                    if (executorStatus.textContent === 'active') {
+                        executorStatus.textContent = 'standby';
+                        executorStatus.style.color = 'rgb(var(--toxic-yellow))';
+                    } else {
+                        executorStatus.textContent = 'active';
+                        executorStatus.style.color = 'rgb(var(--neon-green))';
+                    }
+                    
+                    // Blink every 3-7 seconds
+                    setTimeout(blinkExecutorStatus, 3000 + Math.random() * 4000);
+                }
+                
+                // Start all the terminal animations
+                updateMemoryCounter();
+                updateUptimeCounter();
+                blinkExecutorStatus();
+                
+                // Run a status check periodically
+                function randomStatusCheck() {
+                    // Status messages for the terminal
+                    const statusMessages = [
+                        { text: 'ONLINE', class: 'success' },
+                        { text: 'SCANNING', class: '' },
+                        { text: 'INDEXING', class: '' },
+                        { text: 'PATCHING', class: 'warning' },
+                        { text: 'FIREWALL+', class: 'success' }
+                    ];
+                    
+                    // Pick a random status
+                    const randomStatus = statusMessages[Math.floor(Math.random() * statusMessages.length)];
+                    
+                    // Apply the status
+                    statusInfo.textContent = randomStatus.text;
+                    
+                    // Clear existing classes and add new one if present
+                    statusInfo.className = '';
+                    if (randomStatus.class) {
+                        statusInfo.classList.add(randomStatus.class);
+                    }
+                    
+                    // Reset to ONLINE after a delay
+                    if (randomStatus.text !== 'ONLINE') {
+                        setTimeout(() => {
+                            statusInfo.textContent = 'ONLINE';
+                            statusInfo.className = 'success';
+                        }, 3000);
+                    }
+                    
+                    // Schedule next check (15-30 seconds)
+                    setTimeout(randomStatusCheck, 15000 + Math.random() * 15000);
+                }
+                
+                randomStatusCheck();
+            }
+            
+            // Add style for matrix effect
+            const matrixStyle = document.createElement('style');
+            matrixStyle.textContent = `
+                .matrix-column {
+                    position: absolute;
+                    top: -100px;
+                    font-family: 'Courier New', monospace;
+                    font-size: 24px;
+                    color: rgba(var(--neon-green), 0.3);
+                    text-shadow: 0 0 10px rgba(var(--neon-green), 0.8);
+                    animation: matrixFall 10s linear infinite;
+                }
+                
+                .matrix-char {
+                    opacity: 0;
+                    animation: matrixGlow 2s ease-in-out infinite alternate;
+                }
+                
+                @keyframes matrixFall {
+                    0% { transform: translateY(-100%); }
+                    100% { transform: translateY(1200%); }
+                }
+                
+                @keyframes matrixGlow {
+                    0%, 100% { opacity: 0.1; }
+                    50% { opacity: 0.3; }
+                }
+            `;
+            document.head.appendChild(matrixStyle);
+            
+            // Initialize Matrix effect
+            createMatrixRain();
+            
+            // Recreate Matrix effect on window resize (debounced)
+            let resizeTimeout;
+            window.addEventListener('resize', function() {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(createMatrixRain, 500);
+            });
+            
+            // Add responsive classes to body based on viewport
+            document.body.classList.toggle('is-mobile', isMobile);
+            document.body.classList.toggle('is-tiny-mobile', isTinyMobile);
+            
+            // Toast notification utility function
+            function createToast(message, type = 'info', duration = 3000) {
+                const toastContainer = document.getElementById('toast-container');
+                if (!toastContainer) return;
+                
+                const toast = document.createElement('div');
+                toast.className = `toast toast-${type}`;
+                toast.innerHTML = `
+                    <span class="cmd-prompt">$</span> 
+                    <span class="toast-message">${message}</span>
+                `;
+                
+                // Add to container
+                toastContainer.appendChild(toast);
+                
+                // Show with animation
+                setTimeout(() => {
+                    toast.classList.add('show');
+                }, 10);
+                
+                // Remove after duration
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                    toast.classList.add('hide');
+                    
+                    // Remove from DOM after animation
+                    setTimeout(() => {
+                        toastContainer.removeChild(toast);
+                    }, 300);
+                }, duration);
+            }
+            
+            // Back to top button functionality
+            const backToTopButton = document.getElementById('back-to-top');
+            if (backToTopButton) {
+                // Initially hide button
+                backToTopButton.style.display = 'none';
+                
+                // Show button when user scrolls down
+                window.addEventListener('scroll', function() {
+                    if (window.scrollY > 300) {
+                        backToTopButton.style.display = 'flex';
+                    } else {
+                        backToTopButton.style.display = 'none';
+                    }
+                });
+                
+                // Scroll to top when button is clicked
+                backToTopButton.addEventListener('click', function() {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+            
+            // Remove loader after page is fully loaded
+            window.addEventListener('load', function() {
+                const loader = document.querySelector('.initial-loader');
+                if (loader) {
+                    setTimeout(() => {
+                        loader.style.opacity = '0';
+                        setTimeout(() => {
+                            loader.style.display = 'none';
+                        }, 500);
+                    }, 1000);
                 }
             });
         });
+        
+        // Listen for viewport changes
+        window.addEventListener('resize', function() {
+            const isMobileNow = window.matchMedia("(max-width: 768px)").matches;
+            const isTinyMobileNow = window.matchMedia("(max-width: 480px)").matches;
+            document.body.classList.toggle('is-mobile', isMobileNow);
+            document.body.classList.toggle('is-tiny-mobile', isTinyMobileNow);
+        });
     </script>
+    
+    {% block scripts %}{% endblock %}
 </body>
 </html>
