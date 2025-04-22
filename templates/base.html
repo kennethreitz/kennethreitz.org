@@ -718,6 +718,71 @@
             const executorStatus = document.getElementById('executor-status');
             const statusInfo = document.getElementById('status-info');
             
+            // XEyes functionality
+            const leftPupil = document.getElementById('left-pupil');
+            const rightPupil = document.getElementById('right-pupil');
+            
+            if (leftPupil && rightPupil) {
+                // Function to move pupils to follow cursor
+                function movePupils(e) {
+                    const leftEye = leftPupil.parentElement;
+                    const rightEye = rightPupil.parentElement;
+                    
+                    // Get eye positions
+                    const leftEyeRect = leftEye.getBoundingClientRect();
+                    const rightEyeRect = rightEye.getBoundingClientRect();
+                    
+                    // Calculate eye centers
+                    const leftEyeX = leftEyeRect.left + leftEyeRect.width / 2;
+                    const leftEyeY = leftEyeRect.top + leftEyeRect.height / 2;
+                    const rightEyeX = rightEyeRect.left + rightEyeRect.width / 2;
+                    const rightEyeY = rightEyeRect.top + rightEyeRect.height / 2;
+                    
+                    // Calculate angle between cursor and eye centers
+                    const leftDx = e.clientX - leftEyeX;
+                    const leftDy = e.clientY - leftEyeY;
+                    const rightDx = e.clientX - rightEyeX;
+                    const rightDy = e.clientY - rightEyeY;
+                    
+                    // Calculate angle using atan2
+                    const leftAngle = Math.atan2(leftDy, leftDx);
+                    const rightAngle = Math.atan2(rightDy, rightDx);
+                    
+                    // Limit pupil movement radius
+                    const maxRadius = 2.5;
+                    
+                    // Calculate new pupil positions
+                    const leftPupilX = Math.cos(leftAngle) * maxRadius;
+                    const leftPupilY = Math.sin(leftAngle) * maxRadius;
+                    const rightPupilX = Math.cos(rightAngle) * maxRadius;
+                    const rightPupilY = Math.sin(rightAngle) * maxRadius;
+                    
+                    // Update pupil positions
+                    leftPupil.style.transform = `translate(${leftPupilX}px, ${leftPupilY}px)`;
+                    rightPupil.style.transform = `translate(${rightPupilX}px, ${rightPupilY}px)`;
+                }
+                
+                // Listen for mouse movement to update eyes
+                document.addEventListener('mousemove', movePupils);
+                
+                // Initial position - center
+                leftPupil.style.transform = 'translate(0, 0)';
+                rightPupil.style.transform = 'translate(0, 0)';
+                
+                // Occasionally blink
+                setInterval(() => {
+                    // Blink both eyes
+                    leftPupil.style.opacity = '0';
+                    rightPupil.style.opacity = '0';
+                    
+                    // Open eyes after a short delay
+                    setTimeout(() => {
+                        leftPupil.style.opacity = '1';
+                        rightPupil.style.opacity = '1';
+                    }, 150);
+                }, 5000 + Math.random() * 5000); // Random blink interval
+            }
+            
             // Matrix rain effect for background
             function createMatrixRain() {
                 const matrixContainer = document.querySelector('.matrix-container');
