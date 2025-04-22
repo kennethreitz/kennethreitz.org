@@ -4,3 +4,5 @@ __pycache__
 .DS_Store
 data/photos/
 data/.obsidian/
+node_modules/
+.cache/
