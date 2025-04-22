@@ -4,7 +4,7 @@
 
 {% block head %}
 <style>
-    /* Custom classes that need specific styling beyond what Tailwind provides */
+    /* Custom classes for programmer-focused directory view */
     @keyframes fadeIn {
         from { opacity: 0; transform: translateY(10px); }
         to { opacity: 1; transform: translateY(0); }
@@ -19,7 +19,7 @@
     }
     
     .section-divider::before {
-        content: '§';
+        content: '//';
         position: absolute;
         top: 50%;
         left: 50%;
@@ -27,36 +27,26 @@
         background-color: var(--tw-bg-opacity, 1);
         background-color: rgb(var(--tw-bg-opacity) * 252 var(--tw-bg-opacity) * 250 var(--tw-bg-opacity) * 245 / var(--tw-bg-opacity));
         padding: 0 1rem;
-        color: #5a8a72;
+        font-family: 'JetBrains Mono', monospace;
+        color: rgba(var(--color-syntax-comment), 0.8);
     }
-    
-    /* File type icons */
-    .directory-item.folder:before { content: "📁"; }
-    .directory-item.markdown:before { content: "📝"; }
-    .directory-item.image:before { content: "🖼️"; }
-    .directory-item.audio:before { content: "🎵"; }
-    .directory-item.video:before { content: "🎬"; }
-    .directory-item.code:before { content: "⌨️"; }
-    .directory-item.file:before { content: "📄"; }
-    .directory-item.python:before { content: "🐍"; }
 </style>
 {% endblock %}
 
 {% block content %}
 <div class="directory-header mb-12 relative">
-    <div class="flex items-center flex-wrap text-sm mb-6 bg-primary-light/50 dark:bg-primary-dark/20 p-3 rounded-lg">
+    <div class="flex items-center flex-wrap text-sm mb-6 bg-background-code dark:bg-background-code-dark p-3 rounded-lg border border-border dark:border-border-dark font-mono">
+        <span class="mr-2 text-syntax-function dark:text-syntax-function opacity-70">path:</span>
         {% if is_root %}
-            <strong class="px-2 py-1 text-primary-dark dark:text-primary-light font-medium">Home</strong>
+            <strong class="px-2 py-1 text-primary-dark dark:text-primary-light font-medium">/</strong>
         {% else %}
-            <a href="/" class="text-link no-underline px-2 py-1 rounded transition-colors hover:bg-white/30 dark:hover:bg-white/10 hover:text-primary-dark">kennethreitz.org</a>
+            <a href="/" class="text-link no-underline px-1 py-1 transition-colors hover:text-primary">/</a>
             {% if breadcrumbs %}
                 {% for crumb in breadcrumbs %}
-                    <span class="mx-1 text-primary-dark/50 dark:text-primary-light/50">/</span>
-                    <a href="{{ crumb.url }}" class="text-link no-underline px-2 py-1 rounded transition-colors hover:bg-white/30 dark:hover:bg-white/10 hover:text-primary-dark">{{ crumb.title or crumb.name }}</a>
+                    <a href="{{ crumb.url }}" class="text-link no-underline px-1 py-1 transition-colors hover:text-primary">{{ crumb.title or crumb.name }}</a><span class="text-primary-dark/50 dark:text-primary-light/50">/</span>
                 {% endfor %}
             {% endif %}
-            <span class="mx-1 text-primary-dark/50 dark:text-primary-light/50">/</span>
-            <strong class="px-2 py-1 text-primary-dark dark:text-primary-light font-medium">{{ path.name }}</strong>
+            <strong class="px-1 py-1 text-syntax-string dark:text-syntax-string font-medium">{{ path.name }}</strong>
         {% endif %}
     </div>
     
@@ -74,11 +64,14 @@
 {% if children or posts %}
     {% if children %}
     <div class="mb-12">
-        <h2 class="text-2xl mb-6 text-text dark:text-text-light relative inline-block border-b-0 pb-0 after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-[40px] after:h-[3px] after:bg-primary">Directories</h2>
+        <h2 class="text-xl mb-6 text-text dark:text-text-light relative inline-block border-b-0 pb-0 font-mono">// directories</h2>
         <ul class="list-none p-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {% for child in children %}
-                <li class="directory-item folder mb-2 transition-all duration-300 rounded-lg border border-border dark:border-border-dark bg-white dark:bg-gray-900 shadow hover:shadow-md overflow-hidden hover:-translate-y-1 relative before:absolute before:top-0 before:left-0 before:w-1 before:h-full before:bg-primary before:opacity-0 hover:before:opacity-100 before:transition-opacity">
-                    <a href="{{ child.url }}" class="flex items-center p-4 no-underline text-text dark:text-text-light h-full transition-colors hover:text-primary before:mr-3 before:text-xl before:min-w-[1.8rem] before:transition-transform hover:before:scale-125">{{ child.title or child.name }}</a>
+                <li class="directory-item mb-2 transition-all duration-300 rounded-lg border border-border dark:border-border-dark bg-white dark:bg-gray-900 shadow hover:shadow-md overflow-hidden hover:-translate-y-1 relative before:absolute before:top-0 before:left-0 before:w-1 before:h-full before:bg-accent before:opacity-0 hover:before:opacity-100 before:transition-opacity">
+                    <a href="{{ child.url }}" class="flex items-center justify-between p-4 no-underline text-text dark:text-text-light h-full transition-colors hover:text-primary">
+                        <span>{{ child.title or child.name }}</span>
+                        <span class="text-xs opacity-50 px-2 py-1 rounded bg-accent-light/20 dark:bg-accent-dark/20 font-mono">/dir</span>
+                    </a>
                 </li>
             {% endfor %}
         </ul>
@@ -87,11 +80,26 @@
     
     {% if posts %}
     <div class="mb-12">
-        <h2 class="text-2xl mb-6 text-text dark:text-text-light relative inline-block border-b-0 pb-0 after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-[40px] after:h-[3px] after:bg-primary">Files</h2>
+        <h2 class="text-xl mb-6 text-text dark:text-text-light relative inline-block border-b-0 pb-0 font-mono">// files</h2>
         <ul class="list-none p-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {% for post in posts %}
-                <li class="directory-item {% if post.slug.endswith('.jpg') or post.slug.endswith('.jpeg') or post.slug.endswith('.png') %}image{% elif post.slug.endswith('.md') %}markdown{% elif post.slug.endswith('.py') %}python{% elif post.slug.endswith('.js') or post.slug.endswith('.html') %}code{% elif post.slug.endswith('.mp3') or post.slug.endswith('.wav') %}audio{% elif post.slug.endswith('.mp4') or post.slug.endswith('.mov') %}video{% else %}file{% endif %} mb-2 transition-all duration-300 rounded-lg border border-border dark:border-border-dark bg-white dark:bg-gray-900 shadow hover:shadow-md overflow-hidden hover:-translate-y-1 relative before:absolute before:top-0 before:left-0 before:w-1 before:h-full before:bg-primary before:opacity-0 hover:before:opacity-100 before:transition-opacity">
-                    <a href="{{ post.url }}" class="flex items-center p-4 no-underline text-text dark:text-text-light h-full transition-colors hover:text-primary before:mr-3 before:text-xl before:min-w-[1.8rem] before:transition-transform hover:before:scale-125">{{ post.title }}</a>
+                <li class="directory-item mb-2 transition-all duration-300 rounded-lg border border-border dark:border-border-dark bg-white dark:bg-gray-900 shadow hover:shadow-md overflow-hidden hover:-translate-y-1 relative before:absolute before:top-0 before:left-0 before:w-1 before:h-full before:bg-accent before:opacity-0 hover:before:opacity-100 before:transition-opacity">
+                    <a href="{{ post.url }}" class="flex items-center justify-between p-4 no-underline text-text dark:text-text-light h-full transition-colors hover:text-primary">
+                        <span>{{ post.title }}</span>
+                        {% if post.slug.endswith('.md') %}
+                            <span class="text-xs opacity-50 px-2 py-1 rounded bg-accent-light/20 dark:bg-accent-dark/20 font-mono">.md</span>
+                        {% elif post.slug.endswith('.py') %}
+                            <span class="text-xs opacity-50 px-2 py-1 rounded bg-accent-light/20 dark:bg-accent-dark/20 font-mono">.py</span>
+                        {% elif post.slug.endswith('.js') %}
+                            <span class="text-xs opacity-50 px-2 py-1 rounded bg-accent-light/20 dark:bg-accent-dark/20 font-mono">.js</span>
+                        {% elif post.slug.endswith('.html') %}
+                            <span class="text-xs opacity-50 px-2 py-1 rounded bg-accent-light/20 dark:bg-accent-dark/20 font-mono">.html</span>
+                        {% elif post.slug.endswith('.jpg') or post.slug.endswith('.jpeg') or post.slug.endswith('.png') %}
+                            <span class="text-xs opacity-50 px-2 py-1 rounded bg-accent-light/20 dark:bg-accent-dark/20 font-mono">.img</span>
+                        {% else %}
+                            <span class="text-xs opacity-50 px-2 py-1 rounded bg-accent-light/20 dark:bg-accent-dark/20 font-mono">.file</span>
+                        {% endif %}
+                    </a>
                 </li>
             {% endfor %}
         </ul>

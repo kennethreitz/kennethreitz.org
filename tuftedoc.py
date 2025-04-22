@@ -844,9 +844,15 @@ async def browse(
     if metadata and metadata.layout:
         template_name = f"{metadata.layout}.html"
 
-    # If we're at root and using index.html, use directory.html template
-    if is_root and template_name == "index.html":
-        template_name = "directory.html"
+    # If we're at root, load index.md content and use post.html template
+    if is_root:
+        index_file = MARKDOWN_DIR / "index.md"
+        if index_file.exists():
+            content, index_metadata = process_markdown_file_with_metadata(index_file)
+            metadata = index_metadata
+            template_name = "post.html"
+        else:
+            template_name = "directory.html"
         
     # Determine if we're in photos path
     is_photos = path.startswith("photos") or path.find("/photos") >= 0

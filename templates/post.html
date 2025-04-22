@@ -39,18 +39,19 @@
 {% block content %}
 <article class="post">
     <header class="post-header mb-12 text-center relative">
-        {% if breadcrumbs %}
-        <div class="flex items-center justify-center flex-wrap text-sm mb-8 bg-primary-light/50 dark:bg-primary-dark/20 p-3 rounded-lg">
-            <a href="/" class="text-link no-underline px-2 py-1 rounded transition-colors hover:bg-white/30 dark:hover:bg-white/10 hover:text-primary-dark">kennethreitz.org</a>
+        {% if breadcrumbs and not is_root and path != "contact" and path != "values" and path != "great-books" and path != "mental-health" and path != "family" and path != "yoga-meditation" %}
+        <div class="flex items-center justify-center flex-wrap text-sm mb-8 bg-background-code dark:bg-background-code-dark p-3 rounded-lg border border-border dark:border-border-dark font-mono">
+            <span class="mr-2 text-syntax-function dark:text-syntax-function opacity-70">path:</span>
+            <a href="/" class="text-link no-underline px-1 py-1 transition-colors hover:text-primary">/</a>
             {% for crumb in breadcrumbs %}
-            <span class="mx-1 text-primary-dark/50 dark:text-primary-light/50">/</span>
-            <a href="{{ crumb.url }}" class="text-link no-underline px-2 py-1 rounded transition-colors hover:bg-white/30 dark:hover:bg-white/10 hover:text-primary-dark">{{ crumb.title or crumb.name }}</a>
+            <a href="{{ crumb.url }}" class="text-link no-underline px-1 py-1 transition-colors hover:text-primary">{{ crumb.title or crumb.name }}</a>
+            <span class="text-primary-dark/50 dark:text-primary-light/50">/</span>
             {% endfor %}
+            <strong class="px-1 py-1 text-syntax-string dark:text-syntax-string font-medium">{{ title.split(' ')[0].lower() }}</strong>
         </div>
         {% endif %}
         
-        <h1 class="text-4xl sm:text-5xl mb-4 leading-tight tracking-tight text-text dark:text-text-light relative inline-block">{{ title }}</h1>
-        
+        <!-- Title is already in the content for most markdown files, so we'll hide it in the template -->
         {% if metadata %}
         <div class="text-text/60 dark:text-text-light/60 text-sm mb-6 font-sans">
             {% if metadata.date %}
@@ -67,9 +68,22 @@
     </header>
     
     <div class="post-content text-lg leading-relaxed text-text dark:text-text-light">
+        {% if is_root %}
+        <!-- Special styling for homepage content -->
+        <div class="prose prose-xl dark:prose-invert mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-p:mb-8 prose-p:max-w-[80ch] prose-p:text-xl prose-p:leading-relaxed prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-a:text-accent dark:prose-a:text-accent-light prose-a:font-medium prose-a:transition-colors prose-a:no-underline prose-a:border-b-2 prose-a:border-accent/30 dark:prose-a:border-accent-light/30 hover:prose-a:border-accent hover:dark:prose-a:border-accent-light">
+            {{ content | safe }}
+        </div>
+        {% elif path == "contact" or path == "values" or path == "great-books" or path == "mental-health" or path == "family" or path == "yoga-meditation" %}
+        <!-- Special styling for key pages without path bar -->
+        <div class="prose prose-xl dark:prose-invert mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-h1:text-4xl prose-h1:mb-8 prose-h1:mt-0 prose-h1:text-center prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h2:font-semibold prose-p:mb-6 prose-p:max-w-[70ch] prose-p:text-lg prose-p:leading-relaxed prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-a:text-accent dark:prose-a:text-accent-light prose-a:font-medium prose-a:transition-colors prose-ul:my-6 prose-ul:pl-8 prose-li:mb-3 prose-li:text-lg prose-code:font-mono prose-code:text-sm prose-code:bg-background-code dark:prose-code:bg-background-code-dark prose-code:py-1 prose-code:px-2 prose-code:rounded prose-code:border prose-code:border-border/30 dark:prose-code:border-border-dark/30">
+            {{ content | safe }}
+        </div>
+        {% else %}
+        <!-- Standard post styling -->
         <div class="prose prose-lg dark:prose-invert max-w-prose mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:relative prose-h2:inline-block prose-h2:after:content-[''] prose-h2:after:absolute prose-h2:after:bottom-[-8px] prose-h2:after:left-0 prose-h2:after:w-[50px] prose-h2:after:h-[3px] prose-h2:after:bg-primary prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-p:mb-6 prose-p:max-w-[70ch] prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-blockquote:my-10 prose-blockquote:py-6 prose-blockquote:px-10 prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:bg-primary-light/50 dark:prose-blockquote:bg-primary-dark/20 prose-blockquote:rounded-r prose-blockquote:italic prose-blockquote:relative prose-pre:my-8 prose-pre:p-4 prose-pre:bg-gray-100 dark:prose-pre:bg-gray-800 prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:border-l-4 prose-pre:border-primary prose-pre:font-mono prose-pre:text-sm prose-code:font-mono prose-code:text-sm prose-code:bg-gray-100 dark:prose-code:bg-gray-800 prose-code:py-0.5 prose-code:px-1.5 prose-code:rounded prose-pre:prose-code:bg-transparent prose-pre:prose-code:p-0 prose-ul:my-6 prose-ul:pl-8 prose-ol:my-6 prose-ol:pl-8 prose-li:mb-2 prose-table:w-full prose-table:my-8 prose-table:border-collapse prose-table:overflow-x-auto prose-table:block prose-th:bg-primary-light/50 dark:prose-th:bg-primary-dark/20 prose-th:text-primary-dark dark:prose-th:text-primary-light prose-th:font-semibold prose-th:text-left prose-th:p-3 prose-th:border prose-th:border-border dark:prose-th:border-border-dark prose-td:p-3 prose-td:border prose-td:border-border dark:prose-td:border-border-dark prose-tr:even:bg-primary-light/10 dark:prose-tr:even:bg-primary-dark/10">
             {{ content | safe }}
         </div>
+        {% endif %}
     </div>
     
     <footer class="mt-16 pt-8 border-t border-border dark:border-border-dark flex justify-between items-center flex-wrap font-sans">
