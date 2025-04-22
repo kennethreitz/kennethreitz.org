@@ -1,27 +1,284 @@
 {% extends "base.html" %}
 
+{% block title %}{{ photo.key.split('/')[-1] }} — Kenneth Reitz{% endblock %}
+
+{% block head %}
+<style>
+    .photo-detail {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .photo-header {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .photo-header h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        color: var(--heading-color);
+    }
+    
+    .photo-breadcrumbs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+    
+    .photo-breadcrumbs a {
+        color: var(--link-color);
+        text-decoration: none;
+        padding: 0.2rem 0.5rem;
+        transition: color 0.2s ease;
+    }
+    
+    .photo-breadcrumbs a:hover {
+        color: var(--accent-color);
+    }
+    
+    .photo-breadcrumbs .separator {
+        margin: 0 0.25rem;
+        color: var(--border-color);
+    }
+    
+    .photo-container {
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        max-height: 80vh;
+        overflow: hidden;
+        border-radius: var(--border-radius);
+        box-shadow: 0 8px 24px var(--card-shadow);
+    }
+    
+    .full-image {
+        max-width: 100%;
+        max-height: 80vh;
+        object-fit: contain;
+    }
+    
+    .photo-metadata {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+    
+    .metadata-section {
+        background-color: var(--card-color);
+        border-radius: var(--border-radius);
+        padding: 1.5rem;
+        box-shadow: 0 4px 12px var(--card-shadow);
+    }
+    
+    .metadata-section h2 {
+        font-size: 1.3rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--border-color);
+        color: var(--heading-color);
+    }
+    
+    .metadata-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .metadata-list li {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid var(--border-color);
+        font-size: 0.95rem;
+    }
+    
+    .metadata-list li:last-child {
+        border-bottom: none;
+    }
+    
+    .metadata-key {
+        font-weight: 600;
+        color: var(--heading-color);
+    }
+    
+    .metadata-value {
+        color: var(--text-color);
+        max-width: 60%;
+        text-align: right;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+    
+    .exif-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .exif-table th, .exif-table td {
+        padding: 0.5rem;
+        text-align: left;
+        border-bottom: 1px solid var(--border-color);
+        font-size: 0.95rem;
+    }
+    
+    .exif-table th {
+        font-weight: 600;
+        color: var(--heading-color);
+    }
+    
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border-color);
+    }
+    
+    .nav-button {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        background-color: var(--accent-light);
+        color: var(--accent-dark);
+        border-radius: var(--border-radius);
+        text-decoration: none;
+        transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+    
+    .nav-button:hover {
+        background-color: var(--accent-color);
+        color: white;
+        transform: translateY(-2px);
+    }
+    
+    .nav-button.prev:before {
+        content: "←";
+        margin-right: 0.5rem;
+    }
+    
+    .nav-button.next:after {
+        content: "→";
+        margin-left: 0.5rem;
+    }
+    
+    .download-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        width: 3rem;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        border-radius: 50%;
+        text-decoration: none;
+        opacity: 0.7;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+        z-index: 10;
+    }
+    
+    .download-button:hover {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    
+    @media (max-width: 768px) {
+        .photo-metadata {
+            grid-template-columns: 1fr;
+        }
+        
+        .metadata-list li {
+            flex-direction: column;
+        }
+        
+        .metadata-value {
+            max-width: 100%;
+            text-align: left;
+            margin-top: 0.3rem;
+        }
+    }
+</style>
+{% endblock %}
+
 {% block content %}
 <div class="photo-detail">
-    <h1>Photo Details</h1>
+    <header class="photo-header">
+        <div class="photo-breadcrumbs">
+            <a href="/">kennethreitz.org</a>
+            <span class="separator">/</span>
+            <a href="/photos">photos</a>
+            <span class="separator">/</span>
+            <strong>{{ photo.key.split('/')[-1] }}</strong>
+        </div>
+        
+        <h1>{{ photo.key.split('/')[-1] }}</h1>
+    </header>
 
     <div class="photo-container">
-        <img src="{{ photo.full_image_url }}" alt="Full size image" class="full-image">
+        <img src="{{ photo.full_image_url }}" alt="{{ photo.key.split('/')[-1] }}" class="full-image">
+        <a href="{{ photo.full_image_url }}" download class="download-button" title="Download full image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        </a>
     </div>
 
-    <div class="photo-info">
-        <h2>Photo Information</h2>
-        <ul>
-            <li><strong>Filename:</strong> {{ photo.key.split('/')[-1] }}</li>
-            <li><strong>Size:</strong> {{ photo.size | filesizeformat }}</li>
-            <li><strong>Last Modified:</strong> {{ photo.last_modified.strftime('%Y-%m-%d %H:%M:%S') }}</li>
-            {% if photo.lens %}<li><strong>Lens:</strong> {{ photo.lens }}</li>{% endif %}
-            {% if photo.year_taken %}<li><strong>Year Taken:</strong> {{ photo.year_taken }}</li>{% endif %}
-        </ul>
+    <div class="photo-metadata">
+        <div class="metadata-section">
+            <h2>Photo Information</h2>
+            <ul class="metadata-list">
+                <li>
+                    <span class="metadata-key">Filename</span>
+                    <span class="metadata-value">{{ photo.key.split('/')[-1] }}</span>
+                </li>
+                <li>
+                    <span class="metadata-key">Size</span>
+                    <span class="metadata-value">{{ photo.size | filesizeformat }}</span>
+                </li>
+                <li>
+                    <span class="metadata-key">Last Modified</span>
+                    <span class="metadata-value">{{ photo.last_modified.strftime('%Y-%m-%d %H:%M:%S') }}</span>
+                </li>
+                {% if photo.lens %}
+                <li>
+                    <span class="metadata-key">Lens</span>
+                    <span class="metadata-value">{{ photo.lens }}</span>
+                </li>
+                {% endif %}
+                {% if photo.year_taken %}
+                <li>
+                    <span class="metadata-key">Year Taken</span>
+                    <span class="metadata-value">{{ photo.year_taken }}</span>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+        
+        <div class="metadata-section">
+            <h2>Camera Settings</h2>
+            <ul class="metadata-list">
+                {% for key, value in exif_data.items() if key in ['Aperture', 'Shutter Speed', 'ISO', 'Focal Length', 'Camera', 'Exposure Program', 'Date Time'] %}
+                <li>
+                    <span class="metadata-key">{{ key }}</span>
+                    <span class="metadata-value">{{ value }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
-
-    <div class="exif-data">
-        <h2>EXIF Data</h2>
-        <table>
+    
+    {% if exif_data and exif_data|length > 6 %}
+    <div class="metadata-section" style="margin-top: 2rem;">
+        <h2>All EXIF Data</h2>
+        <table class="exif-table">
             <thead>
                 <tr>
                     <th>Key</th>
@@ -38,9 +295,22 @@
             </tbody>
         </table>
     </div>
+    {% endif %}
 
     <div class="navigation">
-        <a href="/photos" class="back-link">Back to Gallery</a>
+        {% if prev_photo %}
+        <a href="{{ prev_photo.url }}" class="nav-button prev">Previous</a>
+        {% else %}
+        <div></div>
+        {% endif %}
+        
+        <a href="/photos" class="nav-button">Back to Gallery</a>
+        
+        {% if next_photo %}
+        <a href="{{ next_photo.url }}" class="nav-button next">Next</a>
+        {% else %}
+        <div></div>
+        {% endif %}
     </div>
 </div>
 {% endblock %}

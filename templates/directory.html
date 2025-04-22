@@ -1,43 +1,259 @@
 {% extends "base.html" %}
 
-{% block title %}{% if is_root %}Home{% else %}Directory: {{ path }}{% endif %}{% endblock %}
+{% block title %}{% if is_root %}Kenneth Reitz{% else %}{{ path.name }}{% endif %}{% endblock %}
 
-{% block nav %}
-<nav class="breadcrumbs">
-    {% if is_root %}
-        <strong>/</strong>
-    {% else %}
-        <a href="/">~</a>
-        {% if breadcrumbs %}
-            {% for crumb in breadcrumbs %}
-                / <a href="{{ crumb.get_url() }}">{{ crumb.path.name }}</a>
-            {% endfor %}
-        {% endif %}
-        / <strong>{{ path.name }}</strong>
-    {% endif %}
-</nav>
+{% block head %}
+<style>
+    .directory-header {
+        margin-bottom: 2.5rem;
+        position: relative;
+    }
+    
+    .directory-header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        color: var(--heading-color);
+    }
+    
+    .directory-breadcrumbs {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .directory-breadcrumbs a {
+        color: var(--link-color);
+        text-decoration: none;
+        padding: 0.2rem 0.5rem;
+        border-radius: var(--border-radius);
+        transition: all 0.2s ease;
+    }
+    
+    .directory-breadcrumbs a:hover {
+        background-color: var(--accent-light);
+        color: var(--accent-dark);
+    }
+    
+    .directory-breadcrumbs .separator {
+        margin: 0 0.2rem;
+        color: var(--border-color);
+    }
+    
+    .directory-breadcrumbs strong {
+        padding: 0.2rem 0.5rem;
+        color: var(--heading-color);
+    }
+    
+    .directory-description {
+        margin-bottom: 2rem;
+        color: var(--blockquote-color);
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+    
+    .directory-content {
+        margin-top: 2rem;
+    }
+    
+    .section-divider {
+        width: 100%;
+        height: 1px;
+        background-color: var(--border-color);
+        margin: 2.5rem 0;
+    }
+    
+    .directory-categories {
+        margin-bottom: 2rem;
+    }
+    
+    .directory-categories h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: var(--heading-color);
+        display: flex;
+        align-items: center;
+    }
+    
+    .directory-categories h2:after {
+        content: "";
+        flex-grow: 1;
+        height: 1px;
+        background-color: var(--border-color);
+        margin-left: 1rem;
+    }
+    
+    .categories-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .category-card {
+        background-color: var(--card-color);
+        border-radius: var(--border-radius);
+        box-shadow: 0 4px 12px var(--card-shadow);
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .category-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 24px var(--card-shadow);
+    }
+    
+    .category-content {
+        padding: 1.5rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .category-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        color: var(--heading-color);
+    }
+    
+    .category-icon {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .directory-list {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 0.8rem;
+    }
+    
+    .directory-item {
+        background-color: var(--card-color);
+        border-radius: var(--border-radius);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        border: 1px solid var(--border-color);
+    }
+    
+    .directory-item:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 8px var(--card-shadow);
+    }
+    
+    .directory-item a {
+        display: flex;
+        align-items: center;
+        padding: 0.8rem 1rem;
+        text-decoration: none;
+        color: var(--text-color);
+        height: 100%;
+    }
+    
+    .directory-item a:hover {
+        color: var(--accent-color);
+    }
+    
+    .directory-item:before {
+        margin-right: 0.8rem;
+        font-size: 1.2rem;
+    }
+    
+    .directory-item.folder:before {
+        content: "📁";
+    }
+    
+    .directory-item.markdown:before {
+        content: "📝";
+    }
+    
+    .directory-item.image:before {
+        content: "🖼️";
+    }
+    
+    .directory-item.audio:before {
+        content: "🎵";
+    }
+    
+    .directory-item.video:before {
+        content: "🎬";
+    }
+    
+    .directory-item.code:before {
+        content: "📊";
+    }
+    
+    .directory-item.file:before {
+        content: "📄";
+    }
+    
+    @media (max-width: 768px) {
+        .directory-list {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
 {% endblock %}
 
 {% block content %}
-{% if index %}
-    <h1>{{ index.title }}</h1>
-    {{ index.render() | safe }}
-    <hr />
-{% endif %}
+<div class="directory-header">
+    <div class="directory-breadcrumbs">
+        {% if is_root %}
+            <strong>/</strong>
+        {% else %}
+            <a href="/">kennethreitz.org</a>
+            {% if breadcrumbs %}
+                {% for crumb in breadcrumbs %}
+                    <span class="separator">/</span>
+                    <a href="{{ crumb.url }}">{{ crumb.title or crumb.name }}</a>
+                {% endfor %}
+            {% endif %}
+            <span class="separator">/</span>
+            <strong>{{ path.name }}</strong>
+        {% endif %}
+    </div>
+    
+    {% if index %}
+        <h1>{{ index.title }}</h1>
+        <div class="directory-description">
+            {{ index.render() | safe }}
+        </div>
+        <div class="section-divider"></div>
+    {% else %}
+        <h1>{% if is_root %}Kenneth Reitz{% else %}{{ path.name }}{% endif %}</h1>
+    {% endif %}
+</div>
 
 {% if children or posts %}
-    <ul class="directory-list">
-        {% for child in children %}
-            <li class="directory-item folder">
-                <a href="{{ child.get_url() }}">{{ child.path.name }}</a>
-            </li>
-        {% endfor %}
-        
-        {% for post in posts %}
-            <li class="directory-item file {% if post.slug.endswith('.jpg') or post.slug.endswith('.jpeg') or post.slug.endswith('.png') %}image{% elif post.slug.endswith('.md') %}markdown{% elif post.slug.endswith('.py') or post.slug.endswith('.js') or post.slug.endswith('.html') %}code{% elif post.slug.endswith('.mp3') or post.slug.endswith('.wav') %}audio{% elif post.slug.endswith('.mp4') or post.slug.endswith('.mov') %}video{% endif %}">
-                <a href="{{ post.slug }}">{{ post.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+    {% if children %}
+    <div class="directory-categories">
+        <h2>Directories</h2>
+        <ul class="directory-list">
+            {% for child in children %}
+                <li class="directory-item folder">
+                    <a href="{{ child.url }}">{{ child.title or child.name }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    
+    {% if posts %}
+    <div class="directory-categories">
+        <h2>Files</h2>
+        <ul class="directory-list">
+            {% for post in posts %}
+                <li class="directory-item {% if post.slug.endswith('.jpg') or post.slug.endswith('.jpeg') or post.slug.endswith('.png') %}image{% elif post.slug.endswith('.md') %}markdown{% elif post.slug.endswith('.py') or post.slug.endswith('.js') or post.slug.endswith('.html') %}code{% elif post.slug.endswith('.mp3') or post.slug.endswith('.wav') %}audio{% elif post.slug.endswith('.mp4') or post.slug.endswith('.mov') %}video{% else %}file{% endif %}">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
 {% endif %}
 {% endblock %}

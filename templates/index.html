@@ -1,175 +1,242 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
-        <title>{{ title }} — kennethreitz.org</title>
-        <style>
-            .title-breadcrumbs {
-                font-size: 1.4rem;
-                margin-bottom: 1em;
-            }
-            .title-breadcrumbs a {
-                text-decoration: none;
-                color: #111;
-            }
-            .title-breadcrumbs .separator {
-                margin: 0 0.5em;
-                color: #aaa;
-            }
-            .image-grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-                gap: 1rem;
-                margin-bottom: 2rem;
-            }
-            .image-item {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            .image-item a {
-                display: block;
-                width: 100%;
-                height: 200px;
-                overflow: hidden;
-                border-radius: 4px;
-                transition: transform 0.3s ease;
-            }
-            .image-item a:hover {
-                transform: scale(1.05);
-            }
-            .image-item img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-            .image-item p {
-                margin-top: 0.5rem;
-                text-align: center;
-                font-size: 0.9rem;
-            }
-            .exif-data {
-                font-size: 0.8rem;
-                color: #666;
-                text-align: left;
-                margin-top: 0.5rem;
-            }
-            .exif-data p {
-                margin: 0;
-                line-height: 1.2;
-            }
-            .help-button {
-                background: #90EE90;
-                border: 1px solid #333;
-                padding: 0.5rem 1rem;
-                font-family: et-book, Palatino, "Palatino Linotype", serif;
-                cursor: pointer;
-                position: relative;
-                transition: background 0.3s ease;
-              }
+{% extends "base.html" %}
 
-              .help-button:hover {
-                background: #32CD32;
-              }
-        </style>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
-        />
-    </head>
-    <body>
-        <article>
-            <h1 class="title-breadcrumbs">
-                <a href="/">kennethreitz.org</a>
-                {% for crumb in breadcrumbs %}
-                <span class="separator">/</span>
-                <a href="{{ crumb.url }}">{{ crumb.title or crumb.name }}</a>
-                {% endfor %}
-            </h1>
+{% block title %}{{ title }}{% endblock %}
 
-            {% if files %} {% set image_files = files | selectattr("is_image",
-            "equalto", true) | list %} {% set non_image_files = files |
-            selectattr("is_image", "equalto", false) | list %} {% if
-            image_files %}
-            <div class="image-grid">
-                {% for file in image_files %}
-                <div class="image-item">
-                    <a
-                        href="{{ file.url }}"
-                        data-fancybox="gallery"
-                        data-caption="{{ file.title or file.name }}"
-                    >
-                        <img
-                            src="{{ file.url }}"
-                            alt="{{ file.title or file.name }}"
-                            loading="lazy"
-                        />
-                    </a>
+{% block head %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+<style>
+    .title-breadcrumbs {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .title-breadcrumbs a {
+        color: var(--link-color);
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+    
+    .title-breadcrumbs a:hover {
+        color: var(--accent-color);
+    }
+    
+    .title-breadcrumbs .separator {
+        margin: 0 0.5rem;
+        color: var(--border-color);
+    }
+    
+    .home-hero {
+        text-align: center;
+        padding: 3rem 0;
+        margin-bottom: 3rem;
+    }
+    
+    .home-hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: var(--heading-color);
+        letter-spacing: -0.02em;
+    }
+    
+    .home-hero p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 0 auto 1.5rem;
+        color: var(--blockquote-color);
+    }
+    
+    .home-section {
+        margin-bottom: 4rem;
+    }
+    
+    .home-section h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+        color: var(--heading-color);
+        letter-spacing: -0.01em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .home-section h2:after {
+        content: "";
+        flex-grow: 1;
+        height: 1px;
+        background-color: var(--border-color);
+        margin-left: 1rem;
+    }
+    
+    .section-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .help-button {
+        background: var(--accent-light);
+        border: 2px solid var(--accent-color);
+        color: var(--accent-dark);
+        padding: 0.5rem 1.5rem;
+        font-family: var(--font-base);
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: var(--border-radius);
+        transition: background 0.3s ease, transform 0.2s ease;
+        margin-top: 1rem;
+    }
+    
+    .help-button:hover {
+        background: var(--accent-color);
+        color: white;
+        transform: translateY(-2px);
+    }
+</style>
+{% endblock %}
 
-                    {% if file.exif_data %}
-                    <div class="exif-data">
-                        {% for key, value in file.exif_data.items() %} {% if
-                        value and value != "Unknown" %}
-                        <p>{{ key }}: {{ value }}</p>
-                        {% endif %} {% endfor %}
-                    </div>
-                    {% endif %}
-                </div>
+{% block content %}
+{% if breadcrumbs %}
+<div class="title-breadcrumbs">
+    <a href="/">kennethreitz.org</a>
+    {% for crumb in breadcrumbs %}
+    <span class="separator">/</span>
+    <a href="{{ crumb.url }}">{{ crumb.title or crumb.name }}</a>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if content and not breadcrumbs %}
+<section class="home-hero">
+    <h1>Kenneth Reitz</h1>
+    <p>Software engineer, writer, and creative explorer.</p>
+</section>
+{% endif %}
+
+{% if files %} 
+    {% set image_files = files | selectattr("is_image", "equalto", true) | list %} 
+    {% set non_image_files = files | selectattr("is_image", "equalto", false) | list %} 
+    
+    {% if image_files %}
+    <div class="image-grid">
+        {% for file in image_files %}
+        <div class="image-item">
+            <a href="{{ file.url }}" data-fancybox="gallery" data-caption="{{ file.title or file.name }}">
+                <img src="{{ file.url }}" alt="{{ file.title or file.name }}" loading="lazy" />
+            </a>
+            
+            {% if file.exif_data %}
+            <div class="exif-data">
+                {% for key, value in file.exif_data.items() %} 
+                    {% if value and value != "Unknown" %}
+                    <p>{{ key }}: {{ value }}</p>
+                    {% endif %} 
                 {% endfor %}
             </div>
-            {% endif %} {% if non_image_files %}
-            <ul>
-                {% for file in non_image_files %}
-                <li>
-                    {% if file.is_dir %}<strong
-                        >{% endif %}
-                        <a href="{{ file.url }}"
-                            >{{ file.title or file.name }}</a
-                        >
-                        {% if file.is_dir %}</strong
-                    >{% endif %}
-                </li>
-                {% endfor %}
-            </ul>
-            {% endif %} {% endif %} {% if content %}
-            <section>{{ content | safe }}</section>
             {% endif %}
-        </article>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %} 
+    
+    {% if non_image_files %}
+    <div class="directory-list">
+        {% for file in non_image_files %}
+        <div class="directory-item {% if file.is_dir %}folder{% else %}file{% endif %}">
+            <a href="{{ file.url }}">{{ file.title or file.name }}</a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %} 
+{% endif %}
 
-        <script type="text/javascript">
-            var _gauges = _gauges || [];
-            (function () {
-                var t = document.createElement("script");
-                t.type = "text/javascript";
-                t.async = true;
-                t.id = "gauges-tracker";
-                t.setAttribute("data-site-id", "65529a9abd1a3b3101979d52");
-                t.setAttribute(
-                    "data-track-path",
-                    "https://track.gaug.es/track.gif",
-                );
-                t.src = "https://d2fuc4clr7gvcn.cloudfront.net/track.js";
-                var s = document.getElementsByTagName("script")[0];
-                s.parentNode.insertBefore(t, s);
-            })();
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-        <script>
-            Fancybox.bind("[data-fancybox]", {
-                // Your custom options
-            });
-        </script>
-    </body>
-</html>
+{% if content %}
+<section class="content-section">
+    {{ content | safe }}
+</section>
+
+{% if not breadcrumbs %}
+<section class="home-section">
+    <h2>Featured Projects</h2>
+    <div class="card-grid">
+        <div class="card">
+            <div class="card-content">
+                <h3 class="card-title">Requests</h3>
+                <div class="card-description">
+                    <p>HTTP for Humans. Python's most popular HTTP client library.</p>
+                </div>
+                <a href="/software/requests" class="card-link">Learn more</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-content">
+                <h3 class="card-title">Pipenv</h3>
+                <div class="card-description">
+                    <p>Python Development Workflow for Humans. Modern dependency management.</p>
+                </div>
+                <a href="/software/pipenv" class="card-link">Learn more</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-content">
+                <h3 class="card-title">AI Explorations</h3>
+                <div class="card-description">
+                    <p>Thoughts and experiments on artificial intelligence and consciousness.</p>
+                </div>
+                <a href="/artificial-intelligence" class="card-link">Explore</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="home-section">
+    <h2>Connect</h2>
+    <div class="card-grid">
+        <div class="card">
+            <div class="card-content">
+                <h3 class="card-title">Work With Me</h3>
+                <div class="card-description">
+                    <p>Interested in working together? I'm available for consulting and other opportunities.</p>
+                </div>
+                <a href="mailto:me@kennethreitz.org" class="button">Contact Me</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-content">
+                <h3 class="card-title">Explore My Writing</h3>
+                <div class="card-description">
+                    <p>Essays on technology, philosophy, and other topics of interest.</p>
+                </div>
+                <a href="/essays" class="button button-outline">Read Essays</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+{% endif %}
+
+<script type="text/javascript">
+    var _gauges = _gauges || [];
+    (function () {
+        var t = document.createElement("script");
+        t.type = "text/javascript";
+        t.async = true;
+        t.id = "gauges-tracker";
+        t.setAttribute("data-site-id", "65529a9abd1a3b3101979d52");
+        t.setAttribute("data-track-path", "https://track.gaug.es/track.gif");
+        t.src = "https://d2fuc4clr7gvcn.cloudfront.net/track.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(t, s);
+    })();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script>
+    Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+    });
+</script>
+{% endblock %}
