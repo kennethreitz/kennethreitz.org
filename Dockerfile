@@ -6,11 +6,9 @@ WORKDIR /app
 
 RUN python -m pip install uv
 RUN uv venv .venv
-COPY requirements.txt ./
-
+COPY pyproject.toml ./
 
 RUN uv pip install .
-
 
 FROM python:3.12.4-slim-bookworm
 
