@@ -7,32 +7,37 @@
     {% if is_root %}
         <strong>/</strong>
     {% else %}
-        <a href="/">.</a>
+        <a href="/">~</a>
         {% if breadcrumbs %}
             {% for crumb in breadcrumbs %}
                 / <a href="{{ crumb.get_url() }}">{{ crumb.path.name }}</a>
             {% endfor %}
         {% endif %}
-        / {{ path.name }}
+        / <strong>{{ path.name }}</strong>
     {% endif %}
 </nav>
-<ul>
-    {% for child in children %}
-        <li><a href="{{ child.get_url() }}"><strong>{{ child.path.name }}</strong></a></li>
-    {% endfor %}
-    {% for post in posts %}
-        <li><a href="{{ post.slug }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
 {% endblock %}
 
 {% block content %}
-
 {% if index %}
-    <hr />
     <h1>{{ index.title }}</h1>
-
     {{ index.render() | safe }}
+    <hr />
+{% endif %}
 
+{% if children or posts %}
+    <ul class="directory-list">
+        {% for child in children %}
+            <li class="directory-item folder">
+                <a href="{{ child.get_url() }}">{{ child.path.name }}</a>
+            </li>
+        {% endfor %}
+        
+        {% for post in posts %}
+            <li class="directory-item file {% if post.slug.endswith('.jpg') or post.slug.endswith('.jpeg') or post.slug.endswith('.png') %}image{% elif post.slug.endswith('.md') %}markdown{% elif post.slug.endswith('.py') or post.slug.endswith('.js') or post.slug.endswith('.html') %}code{% elif post.slug.endswith('.mp3') or post.slug.endswith('.wav') %}audio{% elif post.slug.endswith('.mp4') or post.slug.endswith('.mov') %}video{% endif %}">
+                <a href="{{ post.slug }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
 {% endif %}
 {% endblock %}

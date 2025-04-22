@@ -1,15 +1,24 @@
-{% extends "base.html" %} {% block title %}{{ title }}{% endblock %}
+{% extends "base.html" %}
+{% block title %}{{ title }}{% endblock %}
 
 {% block nav %}
 <nav class="breadcrumbs">
+    <a href="/">~</a>
     {% for crumb in breadcrumbs %}
-        / <a href="/{{ crumb.path.name }}">{{ crumb.path.name }}</a>
+        / <a href="{{ crumb.get_url() }}">{{ crumb.path.name }}</a>
     {% endfor %}
-    / {{ path.name }}
+    / <strong>{{ path.name }}</strong>
 </nav>
 {% endblock %}
 
 {% block content %}
-<h1>{{ title }}</h1>
-{{ content | safe }}
+<article class="post">
+    <header class="post-header">
+        <h1>{{ title }}</h1>
+    </header>
+    
+    <div class="post-content">
+        {{ content | safe }}
+    </div>
+</article>
 {% endblock %}

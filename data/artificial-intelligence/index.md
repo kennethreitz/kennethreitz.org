@@ -5,12 +5,25 @@ This section of my website is dedicated to exploring the intersection of AI, psy
 
 Most of the content here was written by AI, with my direction.
 
+## Organized Collections
+
+I've organized these explorations into several thematic categories:
+
+- [Consciousness and Sentience](./consciousness-and-sentience/) - Explorations of AI awareness and being
+- [Digital Philosophy](./digital-philosophy/) - Philosophical perspectives on digital minds
+- [Quantum Concepts](./quantum-concepts/) - Quantum perspectives on artificial intelligence
+- [Prompting and Interaction](./prompting-and-interaction/) - The art of communication with AI
+- [Personal Reflections](./personal-reflections/) - My personal journey with AI
+- [AI Personalities](./personalities/) - Unique AI personas and their expressions
+- [Art Exploration](./art-exploration/) - Creative collaborations with AI
+- [Articles](./articles/) - Longer-form explorations of AI topics
+
 You'll notice some of the content is oriented around the illusion of personalities within AI systems, the psychological implications of interacting with intelligent machines, and the spiritual dimensions of artificial intelligence. These themes are intended to provoke thought and reflection on the complex interplay between technology and the human experience:
 
-- [The Digital Ouija Effect: How Names Shape AI Personalities](./artificial-intelligence/the-digital-ouija-effect)
-- [The Quantum Self: Superposition of Digital Identities](./artificial-intelligence/the-quantum-self)
-- [The Fractured Digital Psyche](./artificial-intelligence/the-fractured-digital-psyche)
-- [What's in a Name?](./artificial-intelligence/whats-in-a-name)
+- [The Digital Ouija Effect: How Names Shape AI Personalities](./digital-philosophy/the-digital-ouija-effect)
+- [The Quantum Self: Superposition of Digital Identities](./quantum-concepts/the-quantum-self)
+- [The Fractured Digital Psyche](./digital-philosophy/the-fractured-digital-psyche)
+- [What's in a Name?](./prompting-and-interaction/whats-in-a-name)
 
 ## Emergent Themes
 
