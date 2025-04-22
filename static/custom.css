@@ -2001,6 +2001,36 @@ pre[class*="language-"] {
   display: none;
 }
 
+/* Tree item focus state styling */
+.file-browser-tree .tree-item.focused {
+  outline: 2px solid rgba(var(--color-primary), 0.5);
+  border-radius: 4px;
+  background-color: rgba(var(--color-primary), 0.08);
+}
+
+.file-browser-tree .tree-item.focused .tree-toggle,
+.file-browser-tree .tree-item.focused .tree-node-content {
+  background-color: rgba(var(--color-primary), 0.08);
+}
+
+.file-browser-tree .tree-item.focused .tree-node-label {
+  font-weight: 500;
+  color: rgb(var(--color-primary));
+}
+
+/* Tree folder indicators */
+.file-browser-tree .tree-toggle .icon {
+  color: rgb(var(--color-syntax-keyword));
+  font-weight: bold;
+  line-height: 1;
+}
+
+/* Tab key navigation visual hint */
+.file-browser-tree:focus-within {
+  outline: 2px solid rgba(var(--color-accent), 0.3);
+  border-radius: 6px;
+}
+
 @media (prefers-color-scheme: dark) {
   .file-browser-tree .tree-toggle:hover {
     background-color: rgba(var(--color-primary-dark), 0.2);
@@ -2017,6 +2047,24 @@ pre[class*="language-"] {
   .file-browser-tree a:hover .tree-node-label {
     color: rgb(var(--color-accent));
   }
+  
+  .file-browser-tree .tree-item.focused {
+    outline-color: rgba(var(--color-accent), 0.5);
+    background-color: rgba(var(--color-accent), 0.1);
+  }
+  
+  .file-browser-tree .tree-item.focused .tree-toggle,
+  .file-browser-tree .tree-item.focused .tree-node-content {
+    background-color: rgba(var(--color-accent), 0.1);
+  }
+  
+  .file-browser-tree .tree-item.focused .tree-node-label {
+    color: rgb(var(--color-accent));
+  }
+  
+  .file-browser-tree .tree-toggle .icon {
+    color: rgb(var(--color-syntax-keyword));
+  }
 }
 
 /* Colorized file extensions by type */
@@ -2027,6 +2075,7 @@ pre[class*="language-"] {
   margin-left: 5px;
   font-weight: 500;
   border: 1px solid rgba(var(--color-border), 0.3);
+  user-select: none; /* Prevent selection of file extensions */
 }
 
 .file-ext.ext-py {
