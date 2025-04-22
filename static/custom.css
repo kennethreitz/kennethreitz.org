@@ -2031,6 +2031,130 @@ pre[class*="language-"] {
   border-radius: 6px;
 }
 
+/* IDE-style directory listing */
+#dir-tree {
+  max-height: 70vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+#dir-tree::-webkit-scrollbar {
+  width: 6px;
+}
+
+#dir-tree::-webkit-scrollbar-track {
+  background: rgba(var(--color-border), 0.1);
+}
+
+#dir-tree::-webkit-scrollbar-thumb {
+  background: rgba(var(--color-primary), 0.3);
+  border-radius: 3px;
+}
+
+#dir-tree .tree-item:last-child {
+  border-bottom: none;
+}
+
+#dir-tree .tree-toggle {
+  cursor: pointer;
+}
+
+#dir-tree .tree-toggle .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  margin-right: 2px;
+}
+
+#dir-tree .tree-toggle.collapsed .icon {
+  transform: rotate(-90deg);
+}
+
+#dir-tree .tree-children {
+  max-height: 2000px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+#dir-tree .tree-children.collapsed {
+  max-height: 0;
+  margin: 0;
+}
+
+/* Special styling for directory browser */
+#dir-tree {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.9rem;
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-bottom: 1rem;
+}
+
+#dir-tree:focus {
+  outline: 2px solid rgba(var(--color-accent), 0.3);
+  border-radius: 4px;
+}
+
+#dir-tree .tree-item {
+  margin-bottom: 0.15rem;
+}
+
+#dir-tree .tree-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease;
+}
+
+#dir-tree .tree-toggle:hover {
+  background-color: rgba(var(--color-accent), 0.1);
+}
+
+#dir-tree .tree-toggle .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+  color: rgb(var(--color-syntax-keyword));
+}
+
+#dir-tree .tree-toggle.collapsed .icon {
+  transform: rotate(-90deg);
+}
+
+#dir-tree .tree-node-content {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease;
+}
+
+#dir-tree .tree-node-content:hover {
+  background-color: rgba(var(--color-accent), 0.1);
+}
+
+#dir-tree .tree-item.focused > .tree-toggle,
+#dir-tree .tree-item.focused > .tree-node-content {
+  background-color: rgba(var(--color-primary), 0.15);
+  outline: 1px solid rgba(var(--color-primary), 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  #dir-tree .tree-item.focused > .tree-toggle,
+  #dir-tree .tree-item.focused > .tree-node-content {
+    background-color: rgba(var(--color-accent), 0.15);
+    outline: 1px solid rgba(var(--color-accent), 0.3);
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .file-browser-tree .tree-toggle:hover {
     background-color: rgba(var(--color-primary-dark), 0.2);

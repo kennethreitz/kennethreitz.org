@@ -255,6 +255,52 @@
         {% if is_root %}Kenneth Reitz{% else %}{{ path.name }}{% endif %}
     </h1>
     {% endif %}
+    
+    <!-- IDE-style file browser with year groups (only for directory-only pages) -->
+    {% if children and not posts and path in ['essays', 'artificial-intelligence', 'poetry', 'music', 'talks'] %}
+    <div class="bg-background-code dark:bg-background-code-dark rounded-lg border border-border dark:border-border-dark overflow-hidden mb-8 shadow-md">
+        <div class="flex justify-between items-center px-4 py-2 border-b border-border dark:border-border-dark bg-opacity-60">
+            <div class="font-mono text-sm text-text-secondary dark:text-text-light/70 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2 text-syntax-comment dark:text-syntax-comment">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span class="text-syntax-function dark:text-syntax-function-dark opacity-90">{{ path }}</span>
+            </div>
+            <div class="flex items-center gap-1 text-sm">
+                <span class="ml-2 text-sm font-mono bg-background/40 dark:bg-background-dark/40 px-2 py-0.5 rounded text-syntax-comment dark:text-syntax-comment">
+                    {{ children|length }} items
+                </span>
+                <span class="text-sm font-mono flex items-center ml-2 text-syntax-comment dark:text-syntax-comment">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <span class="text-xs">updated</span>
+                </span>
+            </div>
+        </div>
+        <div class="p-0">
+            <div id="dir-tree" class="file-browser-tree" tabindex="0">
+                <!-- Tree loading spinner -->
+                <div id="dir-tree-loading" class="text-center py-4">
+                    <svg class="animate-spin h-6 w-6 text-primary mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <p class="mt-2 text-text/60 dark:text-text-light/60">Loading directory structure...</p>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-border dark:border-border-dark text-xs px-4 py-1.5 font-mono text-syntax-comment dark:text-syntax-comment flex items-center bg-opacity-60">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1.5">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+            Press <span class="bg-background-code-dark/20 dark:bg-background-code-light/10 px-1 rounded mx-1">j/k</span> to navigate, <span class="bg-background-code-dark/20 dark:bg-background-code-light/10 px-1 rounded mx-1">o</span> to open
+        </div>
+    </div>
+    {% endif %}
 </div>
 
 {% if children or posts %}
@@ -674,4 +720,438 @@
         <div class="text-syntax-keyword dark:text-syntax-keyword">Tab</div><div>Switch views</div>
     </div>
 </div>
+
+<!-- Special IDE-style file browser for directory-only pages -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const dirTree = document.getElementById('dir-tree');
+    const dirTreeLoading = document.getElementById('dir-tree-loading');
+    
+    if (dirTree) {
+        loadDirectoryTree();
+        
+        // Load directory tree structure
+        function loadDirectoryTree() {
+            // Get current path
+            const path = "{{ path }}";
+            
+            // Fetch tree data from API
+            fetch(`/api/tree?path=${path}&max_depth=3`)
+                .then(response => response.json())
+                .then(data => {
+                    // Remove loading indicator
+                    dirTreeLoading.remove();
+                    
+                    // Process and organize the tree
+                    if (data.tree && data.tree.length > 0) {
+                        // Set focus to tree for keyboard navigation
+                        dirTree.focus();
+                        
+                        // Special handling for different directory types
+                        if (path === 'essays') {
+                            // Essays are organized by year
+                            organizeByYear(data.tree);
+                        } else if (path === 'artificial-intelligence') {
+                            // AI content is organized by topic
+                            organizeByTopics(data.tree);
+                        } else {
+                            // Default organization
+                            organizeDefault(data.tree);
+                        }
+                        
+                        // Setup keyboard navigation and toggle functionality
+                        setupToggleHandlers();
+                        setupKeyboardNavigation();
+                    } else {
+                        dirTree.innerHTML = '<p class="p-4 text-text/60 dark:text-text-light/60">No content found.</p>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading directory tree:', error);
+                    dirTreeLoading.remove();
+                    dirTree.innerHTML = `<p class="p-4 text-error">Error loading directory structure: ${error.message}</p>`;
+                });
+        }
+        
+        // Organize content by year (especially useful for essays)
+        function organizeByYear(items) {
+            const yearPattern = /^\d{4}$/;
+            let yearGroups = {};
+            let otherDirs = [];
+            let rootFiles = [];
+            
+            // First pass - sort into year groups
+            items.forEach(item => {
+                if (item.is_dir) {
+                    if (yearPattern.test(item.name)) {
+                        // This is a year directory
+                        const year = item.name;
+                        if (!yearGroups[year]) {
+                            yearGroups[year] = [];
+                        }
+                        // If it has children, add them
+                        if (item.children && item.children.length > 0) {
+                            yearGroups[year].push(...item.children);
+                        }
+                    } else {
+                        // Not a year directory
+                        otherDirs.push(item);
+                    }
+                } else if (!item.is_dir && item.name !== 'index.md') {
+                    // Root files that aren't index.md
+                    rootFiles.push(item);
+                }
+            });
+            
+            // Sort years in descending order (newest first)
+            const sortedYears = Object.keys(yearGroups).sort((a, b) => b - a);
+            
+            // Create year folders
+            sortedYears.forEach(year => {
+                // Create year folder container
+                const yearFolder = document.createElement('div');
+                yearFolder.className = 'tree-item';
+                yearFolder.innerHTML = `
+                    <div class="tree-toggle">
+                        <span class="icon">▼</span>
+                        <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <span class="tree-node-label font-medium">${year}</span>
+                        <span class="text-xs ml-2 px-1 rounded font-mono text-syntax-comment dark:text-syntax-comment/70">${yearGroups[year].length} items</span>
+                    </div>
+                    <div class="tree-children"></div>
+                `;
+                
+                // Add to tree
+                dirTree.appendChild(yearFolder);
+                
+                // Add children
+                const childrenContainer = yearFolder.querySelector('.tree-children');
+                yearGroups[year].sort((a, b) => a.title.localeCompare(b.title)).forEach(child => {
+                    addFileNode(childrenContainer, child);
+                });
+            });
+            
+            // Add remaining directories
+            if (otherDirs.length > 0) {
+                addFolderGroup(dirTree, "Categories", otherDirs);
+            }
+            
+            // Add root files if any
+            if (rootFiles.length > 0) {
+                addFolderGroup(dirTree, "Other Content", rootFiles);
+            }
+        }
+        
+        // Organize content by topics (for AI section)
+        function organizeByTopics(items) {
+            // Group by top-level categories
+            items.sort((a, b) => a.title.localeCompare(b.title)).forEach(item => {
+                if (item.is_dir) {
+                    const folderNode = document.createElement('div');
+                    folderNode.className = 'tree-item';
+                    
+                    // Determine if the folder has children
+                    if (item.children && item.children.length > 0) {
+                        folderNode.innerHTML = `
+                            <div class="tree-toggle">
+                                <span class="icon">▼</span>
+                                <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                                <a href="${item.url}">
+                                    <span class="tree-node-label">${item.title}</span>
+                                </a>
+                                <span class="text-xs ml-2 px-1 rounded font-mono text-syntax-comment dark:text-syntax-comment/70">${item.children.length}</span>
+                            </div>
+                            <div class="tree-children"></div>
+                        `;
+                        
+                        dirTree.appendChild(folderNode);
+                        
+                        // Add children
+                        const childrenContainer = folderNode.querySelector('.tree-children');
+                        item.children.sort((a, b) => a.title.localeCompare(b.title)).forEach(child => {
+                            if (child.is_dir) {
+                                addFolderNode(childrenContainer, child);
+                            } else {
+                                addFileNode(childrenContainer, child);
+                            }
+                        });
+                    } else {
+                        // Empty folder
+                        folderNode.innerHTML = `
+                            <div class="tree-node-content">
+                                <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                                <a href="${item.url}">
+                                    <span class="tree-node-label">${item.title}</span>
+                                </a>
+                            </div>
+                        `;
+                        dirTree.appendChild(folderNode);
+                    }
+                } else if (item.name !== 'index.md') {
+                    // Root files that aren't index.md
+                    addFileNode(dirTree, item);
+                }
+            });
+        }
+        
+        // Default organization (alphabetical by folder, then files)
+        function organizeDefault(items) {
+            // Sort items: directories first, then files, all alphabetically
+            items.sort((a, b) => {
+                if (a.is_dir && !b.is_dir) return -1;
+                if (!a.is_dir && b.is_dir) return 1;
+                return a.title.localeCompare(b.title);
+            });
+            
+            // Add each item to the tree
+            items.forEach(item => {
+                if (item.name === 'index.md') return; // Skip index.md
+                
+                if (item.is_dir) {
+                    addFolderNode(dirTree, item);
+                } else {
+                    addFileNode(dirTree, item);
+                }
+            });
+        }
+        
+        // Add a folder group (section with title)
+        function addFolderGroup(container, title, items) {
+            const groupNode = document.createElement('div');
+            groupNode.className = 'tree-item mt-2';
+            groupNode.innerHTML = `
+                <div class="tree-toggle">
+                    <span class="icon">▼</span>
+                    <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <span class="tree-node-label font-medium">${title}</span>
+                    <span class="text-xs ml-2 px-1 rounded font-mono text-syntax-comment dark:text-syntax-comment/70">${items.length}</span>
+                </div>
+                <div class="tree-children"></div>
+            `;
+            
+            container.appendChild(groupNode);
+            
+            // Sort and add items
+            const childrenContainer = groupNode.querySelector('.tree-children');
+            items.sort((a, b) => a.title.localeCompare(b.title)).forEach(item => {
+                if (item.is_dir) {
+                    addFolderNode(childrenContainer, item);
+                } else {
+                    addFileNode(childrenContainer, item);
+                }
+            });
+        }
+        
+        // Add a folder node with its children
+        function addFolderNode(container, folder) {
+            const folderNode = document.createElement('div');
+            folderNode.className = 'tree-item';
+            
+            if (folder.children && folder.children.length > 0) {
+                // Folder with children
+                folderNode.innerHTML = `
+                    <div class="tree-toggle">
+                        <span class="icon">▼</span>
+                        <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <a href="${folder.url}">
+                            <span class="tree-node-label">${folder.title}</span>
+                        </a>
+                        <span class="text-xs ml-2 px-1 rounded font-mono text-syntax-comment dark:text-syntax-comment/70">${folder.children.length}</span>
+                    </div>
+                    <div class="tree-children"></div>
+                `;
+                
+                container.appendChild(folderNode);
+                
+                // Add children
+                const childrenContainer = folderNode.querySelector('.tree-children');
+                folder.children
+                    .filter(child => child.name !== 'index.md') // Skip index.md
+                    .sort((a, b) => {
+                        // Sort: directories first, then by title
+                        if (a.is_dir && !b.is_dir) return -1;
+                        if (!a.is_dir && b.is_dir) return 1;
+                        return a.title.localeCompare(b.title);
+                    })
+                    .forEach(child => {
+                        if (child.is_dir) {
+                            addFolderNode(childrenContainer, child);
+                        } else {
+                            addFileNode(childrenContainer, child);
+                        }
+                    });
+            } else {
+                // Empty folder
+                folderNode.innerHTML = `
+                    <div class="tree-node-content">
+                        <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <a href="${folder.url}">
+                            <span class="tree-node-label">${folder.title}</span>
+                        </a>
+                    </div>
+                `;
+                container.appendChild(folderNode);
+            }
+        }
+        
+        // Add a file node
+        function addFileNode(container, file) {
+            const fileNode = document.createElement('div');
+            fileNode.className = 'tree-item';
+            
+            // Determine file type
+            let fileIconClass = "tree-file-icon";
+            if (file.name.endsWith('.md')) {
+                fileIconClass += " icon-markdown";
+            } else if (file.name.endsWith('.py')) {
+                fileIconClass += " icon-python";
+            } else if (file.name.endsWith('.js')) {
+                fileIconClass += " icon-javascript";
+            } else if (file.name.endsWith('.html')) {
+                fileIconClass += " icon-html";
+            } else if (file.name.endsWith('.jpg') || file.name.endsWith('.jpeg') || file.name.endsWith('.png')) {
+                fileIconClass += " icon-image";
+            }
+            
+            fileNode.innerHTML = `
+                <div class="tree-node-content">
+                    <svg class="${fileIconClass}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                    </svg>
+                    <a href="${file.url}">
+                        <span class="tree-node-label">${file.title}</span>
+                    </a>
+                </div>
+            `;
+            
+            container.appendChild(fileNode);
+        }
+        
+        // Setup tree toggle functionality
+        function setupToggleHandlers() {
+            document.querySelectorAll('#dir-tree .tree-toggle').forEach(toggle => {
+                toggle.addEventListener('click', event => {
+                    // Don't toggle if clicking on a link
+                    if (event.target.tagName.toLowerCase() === 'a') {
+                        return;
+                    }
+                    
+                    toggle.classList.toggle('collapsed');
+                    const children = toggle.nextElementSibling;
+                    children.classList.toggle('collapsed');
+                    
+                    // Update toggle indicator
+                    const icon = toggle.querySelector('.icon');
+                    if (icon) {
+                        icon.textContent = toggle.classList.contains('collapsed') ? '▶' : '▼';
+                    }
+                });
+            });
+        }
+        
+        // Setup keyboard navigation
+        function setupKeyboardNavigation() {
+            // Ensure tree has focus for keyboard events
+            dirTree.setAttribute('tabindex', '0');
+            
+            dirTree.addEventListener('keydown', function(e) {
+                const allTreeItems = Array.from(dirTree.querySelectorAll('.tree-item'));
+                // Get only visible items (not in collapsed sections)
+                const visibleItems = allTreeItems.filter(item => {
+                    let parent = item.parentElement;
+                    while (parent && parent !== dirTree) {
+                        if (parent.classList.contains('tree-children') && 
+                            parent.classList.contains('collapsed')) {
+                            return false;
+                        }
+                        parent = parent.parentElement;
+                    }
+                    return true;
+                });
+                
+                let focused = dirTree.querySelector('.tree-item.focused');
+                let focusedIndex = focused ? visibleItems.indexOf(focused) : -1;
+                
+                switch (e.key) {
+                    case 'j': // Move down
+                        e.preventDefault();
+                        if (focusedIndex < 0 && visibleItems.length > 0) {
+                            // No focused item yet, focus the first one
+                            visibleItems[0].classList.add('focused');
+                            visibleItems[0].scrollIntoView({ block: 'center' });
+                        } else if (focusedIndex >= 0 && focusedIndex < visibleItems.length - 1) {
+                            // Move focus to next item
+                            focused.classList.remove('focused');
+                            visibleItems[focusedIndex + 1].classList.add('focused');
+                            visibleItems[focusedIndex + 1].scrollIntoView({ block: 'center' });
+                        }
+                        break;
+                        
+                    case 'k': // Move up
+                        e.preventDefault();
+                        if (focusedIndex < 0 && visibleItems.length > 0) {
+                            // No focused item yet, focus the first one
+                            visibleItems[0].classList.add('focused');
+                            visibleItems[0].scrollIntoView({ block: 'center' });
+                        } else if (focusedIndex > 0) {
+                            // Move focus to previous item
+                            focused.classList.remove('focused');
+                            visibleItems[focusedIndex - 1].classList.add('focused');
+                            visibleItems[focusedIndex - 1].scrollIntoView({ block: 'center' });
+                        }
+                        break;
+                        
+                    case 'o': // Open item
+                    case 'Enter':
+                        e.preventDefault();
+                        if (focused) {
+                            // Check if it has a toggle
+                            const toggle = focused.querySelector('.tree-toggle');
+                            if (toggle) {
+                                // It's a folder, toggle it
+                                toggle.click();
+                            } else {
+                                // It's a file, navigate to it
+                                const link = focused.querySelector('a');
+                                if (link) window.location.href = link.getAttribute('href');
+                            }
+                        }
+                        break;
+                        
+                    case 'g': // Go to top
+                        e.preventDefault();
+                        if (visibleItems.length > 0) {
+                            if (focused) focused.classList.remove('focused');
+                            visibleItems[0].classList.add('focused');
+                            visibleItems[0].scrollIntoView({ block: 'center' });
+                        }
+                        break;
+                        
+                    case 'G': // Go to bottom (Shift+g)
+                        e.preventDefault();
+                        if (visibleItems.length > 0) {
+                            if (focused) focused.classList.remove('focused');
+                            visibleItems[visibleItems.length - 1].classList.add('focused');
+                            visibleItems[visibleItems.length - 1].scrollIntoView({ block: 'center' });
+                        }
+                        break;
+                }
+            });
+        }
+    }
+});
+</script>
 {% endif %} {% endblock %}
