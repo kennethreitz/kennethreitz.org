@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,16 +13,13 @@
     <meta property="og:image" content="https://kennethreitz.org/static/images/og-image.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@kennethreitz42">
-    
+
     <title>{% block title %}kennethreitz.org — {% endblock %}</title>
-    
-    <!-- Modern Font Loading Strategy -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Fira+Code:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Fira+Code:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Critical CSS inline for faster rendering -->
+
     <style>
         :root {
             --heroku-purple: 65, 45, 105;
@@ -36,133 +32,47 @@
             --terminal-black: 13, 13, 13;
             --terminal-white: 240, 240, 240;
         }
-        
-        /* Critical rendering path styles */
+
         body {
             margin: 0;
             padding: 0;
-            font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', monospace;
+            font-family: "JetBrains Mono", "Fira Code", "IBM Plex Mono", monospace;
             background-color: rgb(var(--terminal-black));
             color: rgb(var(--terminal-white));
             overflow-x: hidden;
             opacity: 0;
             animation: fadeIn 0.5s forwards;
         }
-        
+
         @keyframes fadeIn {
             to { opacity: 1; }
         }
-        
-        /* Loading animation */
-        .initial-loader {
-            position: fixed;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgb(var(--terminal-black));
-            z-index: 9999;
-            color: rgb(var(--terminal-white));
-        }
-        
-        .loader-text {
-            margin-top: 20px;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 16px;
-            letter-spacing: 2px;
-            color: rgb(var(--neon-green));
-        }
-        
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); opacity: 1; }
-            50% { transform: scale(1.1); opacity: 0.8; }
-        }
     </style>
-    
-    <!-- Main CSS (non-blocking) -->
-    <link rel="stylesheet" href="/static/custom.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="/static/custom.css"></noscript>
-    
-    <!-- Modern Vector Favicon -->
+
+    <link rel="stylesheet" href="/static/custom.css">
+
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/static/images/apple-touch-icon.png">
     <link rel="manifest" href="/static/manifest.json">
-    
+
     {% block head %}{% endblock %}
-    
-    <!-- Detect mobile device -->
+
     <script>
-        // Set mobile device detector flag
-        document.documentElement.classList.toggle('mobile-device', 
+        document.documentElement.classList.toggle("mobile-device",
             /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
     </script>
 </head>
 <body>
-    <!-- Initial page loader -->
-    <div class="initial-loader">
-        <pre class="terminal-loading">
- ██ ▄█▀▓█████  ███▄    █  ███▄    █ ▓█████▄▄▄█████▓ ██░ ██     ██▀███  ▓█████  ██▓▄▄▄█████▓▒███████▒
- ██▄█▒ ▓█   ▀  ██ ▀█   █  ██ ▀█   █ ▓█   ▀▓  ██▒ ▓▒▓██░ ██▒   ▓██ ▒ ██▒▓█   ▀ ▓██▒▓  ██▒ ▓▒▒ ▒ ▒ ▄▀░
-▓███▄░ ▒███   ▓██  ▀█ ██▒▓██  ▀█ ██▒▒███  ▒ ▓██░ ▒░▒██▀▀██░   ▓██ ░▄█ ▒▒███   ▒██▒▒ ▓██░ ▒░░ ▒ ▄▀▒░ 
-▓██ █▄ ▒▓█  ▄ ▓██▒  ▐▌██▒▓██▒  ▐▌██▒▒▓█  ▄░ ▓██▓ ░ ░▓█ ░██    ▒██▀▀█▄  ▒▓█  ▄ ░██░░ ▓██▓ ░   ▄▀▒   ░
-▒██▒ █▄░▒████▒▒██░   ▓██░▒██░   ▓██░░▒████▒ ▒██▒ ░ ░▓█▒░██▓   ░██▓ ▒██▒░▒████▒░██░  ▒██▒ ░ ▒███████▒
-▒ ▒▒ ▓▒░░ ▒░ ░░ ▒░   ▒ ▒ ░ ▒░   ▒ ▒ ░░ ▒░ ░ ▒ ░░    ▒ ░░▒░▒   ░ ▒▓ ░▒▓░░░ ▒░ ░░▓    ▒ ░░   ░▒▒ ▓░▒░▒
-░ ░▒ ▒░ ░ ░  ░░ ░░   ░ ▒░░ ░░   ░ ▒░ ░ ░  ░   ░     ▒ ░▒░ ░     ░▒ ░ ▒░ ░ ░  ░ ▒ ░    ░    ░░▒ ▒ ░ ▒
-░ ░░ ░    ░      ░   ░ ░    ░   ░ ░    ░    ░       ░  ░░ ░     ░░   ░    ░    ▒ ░  ░      ░ ░ ░ ░ ░
-░  ░      ░  ░         ░          ░    ░  ░         ░  ░  ░      ░        ░  ░ ░             ░ ░    
-        </pre>
-        <div class="loader-text">INITIALIZING TERMINAL INTERFACE</div>
-    </div>
-    
-    <!-- Skip to main content link for accessibility -->
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-    
-    <!-- Matrix-style terminal background effect -->
     <div class="matrix-container" aria-hidden="true"></div>
-    
-    <!-- Terminal will be shown as a floating panel when activated -->
-    <div id="terminal-panel" class="terminal-panel">
-        <div class="terminal-window">
-            <div class="terminal-header">
-                <div class="terminal-controls">
-                    <span class="control close" id="terminal-close"></span>
-                    <span class="control minimize" id="terminal-minimize"></span>
-                    <span class="control maximize" id="terminal-maximize"></span>
-                    <span class="terminal-title">kennethreitz — interactive shell</span>
-                </div>
-            </div>
-            <div class="terminal-body" id="terminal-body">
-                <div class="terminal-output">
-                    <p><span class="welcome-text">Welcome to kennethreitz.org terminal v1.0.0</span></p>
-                    <p>Type <span class="cmd-highlight">help</span> to see available commands.</p>
-                </div>
-                <div class="terminal-input-line">
-                    <span class="cmd-prompt">visitor@kennethreitz:~$</span>
-                    <span class="input-wrapper">
-                        <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" spellcheck="false">
-                    </span>
-                    <span class="cursor" id="terminal-cursor"></span>
-                </div>
-            </div>
-            <div class="terminal-resize-handle" id="terminal-resize-handle"></div>
-        </div>
-    </div>
-    
-    <!-- Progressive enhancement notice for browsers without JS -->
+
     <noscript>
         <div class="noscript-message">
-            <p>For the best experience, please enable JavaScript. The site is still functional, but you'll miss out on the terminal visualization and interactive features.</p>
+            <p>For the best experience, please enable JavaScript. The site is still functional, but you will miss out on some interactive features.</p>
         </div>
     </noscript>
-    
-    <!-- VS Code-style header with title bar and tabs -->
+
     <header id="site-header" class="site-header" role="banner">
         <div class="container header-container">
-            <!-- Title bar with app controls (macOS style) -->
             <div class="site-title">
                 <div class="window-controls-container">
                     <div class="window-control close"></div>
@@ -173,71 +83,32 @@
                     <span class="cmd-prompt">root@</span><span class="logo-text">kennethreitz</span><span class="cmd-prompt">:~#</span>
                 </a>
             </div>
-            
-            <!-- Main navigation - Terminal style -->
+
             <nav class="main-nav" id="main-navigation" role="navigation" aria-label="Main navigation">
                 <div class="nav-wrapper editor-sidebar">
-                    <!-- Mobile menu close button -->
-                    <button id="mobile-close-button" class="mobile-close-button" aria-label="Close menu" tabindex="-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <line x1="18" y1="6" x2="6" y2="18"></line>
-                            <line x1="6" y1="6" x2="18" y2="18"></line>
-                        </svg>
-                    </button>
-                    <!-- Primary navigation links -->
                     <ul class="nav-links" role="menubar">
-                        <li class="nav-item" data-category="code" role="none">
+                        <li class="nav-item" role="none">
                             <a href="/software" role="menuitem" {% if request.path.startswith('/software') %}class="active" aria-current="page"{% endif %}>
                                 <span class="cmd-prompt">$</span>
-                                <span class="nav-text">Software</span>
+                                <span class="nav-text">code</span>
                             </a>
                         </li>
-                        <li class="nav-item" data-category="writing" role="none">
+                        <li class="nav-item" role="none">
                             <a href="/essays" role="menuitem" {% if request.path.startswith('/essays') %}class="active" aria-current="page"{% endif %}>
                                 <span class="cmd-prompt">$</span>
-                                <span class="nav-text">Essays</span>
+                                <span class="nav-text">blog</span>
                             </a>
                         </li>
-                        <li class="nav-item" data-category="speaking" role="none">
-                            <a href="/talks" role="menuitem" {% if request.path.startswith('/talks') %}class="active" aria-current="page"{% endif %}>
-                                <span class="cmd-prompt">$</span>
-                                <span class="nav-text">Talks</span>
-                            </a>
-                        </li>
-                        <li class="nav-item" data-category="sound" role="none">
+                        <li class="nav-item" role="none">
                             <a href="/music" role="menuitem" {% if request.path.startswith('/music') %}class="active" aria-current="page"{% endif %}>
                                 <span class="cmd-prompt">$</span>
-                                <span class="nav-text">Music</span>
+                                <span class="nav-text">audio</span>
                             </a>
                         </li>
-                        <li class="nav-item" data-category="creative" role="none">
-                            <a href="/poetry" role="menuitem" {% if request.path.startswith('/poetry') %}class="active" aria-current="page"{% endif %}>
-                                <span class="cmd-prompt">$</span>
-                                <span class="nav-text">Poetry</span>
-                            </a>
-                        </li>
-                        <li class="nav-item" data-category="future" role="none">
+                        <li class="nav-item" role="none">
                             <a href="/artificial-intelligence" role="menuitem" {% if request.path.startswith('/artificial-intelligence') %}class="active" aria-current="page"{% endif %}>
                                 <span class="cmd-prompt">$</span>
-                                <span class="nav-text">AI</span>
-                            </a>
-                        </li>
-                        <li class="nav-item" data-category="principles" role="none">
-                            <a href="/values" role="menuitem" {% if request.path.startswith('/values') %}class="active" aria-current="page"{% endif %}>
-                                <span class="cmd-prompt">$</span>
-                                <span class="nav-text">Values</span>
-                            </a>
-                        </li>
-                        <li class="nav-item" data-category="connect" role="none">
-                            <a href="/contact" role="menuitem" {% if request.path.startswith('/contact') %}class="active" aria-current="page"{% endif %}>
-                                <span class="cmd-prompt">$</span>
-                                <span class="nav-text">Contact</span>
-                            </a>
-                        </li>
-                        <li class="nav-item" data-category="terminal" role="none">
-                            <a href="#" role="menuitem" id="terminal-toggle">
-                                <span class="cmd-prompt">&gt;</span>
-                                <span class="nav-text">Terminal</span>
+                                <span class="nav-text">ai</span>
                             </a>
                         </li>
                     </ul>
@@ -245,8 +116,7 @@
             </nav>
         </div>
     </header>
-    
-    <!-- Main content with enhanced styling -->
+
     <main class="main-content">
         <div class="container">
             <div class="content-wrapper">
@@ -256,782 +126,53 @@
             </div>
         </div>
     </main>
-    
-    <!-- Back to top button -->
+
     <button id="back-to-top" class="back-to-top" aria-label="Back to top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="18 15 12 9 6 15"></polyline>
         </svg>
     </button>
 
-    <!-- Terminal Status Bar with xeyes -->
-    <div class="status-bar" id="editor-status-bar">
-        <div class="status-bar-left">
-            <div class="status-bar-item">
-                <span class="cmd-prompt">[sys]</span>
-                <span>kennethreitz.org</span>
-            </div>
-            <div class="status-bar-item">
-                <span class="cmd-prompt">[mem]</span>
-                <span id="memory-counter">56.7 MB</span>
-            </div>
-            <div class="status-bar-item">
-                <span class="cmd-prompt">[uptime]</span>
-                <span id="uptime-counter">42:17:36</span>
-            </div>
-            <div class="status-bar-item">
-                <!-- xeyes implementation -->
-                <div class="xeyes-container">
-                    <div class="xeye">
-                        <div class="pupil" id="left-pupil"></div>
-                    </div>
-                    <div class="xeye">
-                        <div class="pupil" id="right-pupil"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="status-bar-right">
-            <div class="status-bar-item status-item-important">
-                <span class="function">.execute()</span>
-                <span id="executor-status">active</span>
-            </div>
-            <div class="status-bar-item">
-                <span class="cmd-prompt">[status]</span>
-                <span id="status-info" class="success">ONLINE</span>
-            </div>
-        </div>
-    </div>
-
-    <!-- Toast notifications container -->
     <div id="toast-container" class="toast-container" role="status" aria-live="polite"></div>
 
     <script>
-        // Check for mobile device and resize handler
-        const isMobile = window.matchMedia("(max-width: 768px)").matches;
-        const isTinyMobile = window.matchMedia("(max-width: 480px)").matches;
-        
-        // Enhanced Interactive Terminal Functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            // Terminal elements
-            const terminalPanel = document.getElementById('terminal-panel');
-            const terminalToggle = document.getElementById('terminal-toggle');
-            const terminalInput = document.getElementById('terminal-input');
-            const terminalBody = document.getElementById('terminal-body');
-            const terminalCursor = document.getElementById('terminal-cursor');
-            const terminalClose = document.getElementById('terminal-close');
-            const terminalMinimize = document.getElementById('terminal-minimize');
-            const terminalMaximize = document.getElementById('terminal-maximize');
-            const terminalResizeHandle = document.getElementById('terminal-resize-handle');
-            
-            if (!terminalInput || !terminalBody || !terminalPanel) return;
-            
-            // Terminal toggle in navigation
-            terminalToggle.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                if (terminalPanel.classList.contains('active')) {
-                    // If minimized, restore it
-                    if (terminalPanel.classList.contains('minimized')) {
-                        terminalPanel.classList.remove('minimized');
-                    } else {
-                        // Otherwise hide it
-                        terminalPanel.classList.remove('active');
-                    }
-                } else {
-                    // Show terminal
-                    terminalPanel.classList.add('active');
-                    terminalInput.focus();
-                    
-                    // If first activation, show a welcome animation
-                    if (!terminalPanel.dataset.activated) {
-                        terminalPanel.dataset.activated = 'true';
-                        
-                        // Type out a welcome message character by character
-                        const welcomeText = "Welcome to the interactive terminal. Type 'help' to begin.";
-                        const typingDelay = 30; // ms per character
-                        let charIndex = 0;
-                        
-                        const typingOutput = document.createElement('p');
-                        typingOutput.className = 'typing-output';
-                        terminalBody.querySelector('.terminal-output').appendChild(typingOutput);
-                        
-                        const typingInterval = setInterval(() => {
-                            if (charIndex < welcomeText.length) {
-                                typingOutput.textContent += welcomeText.charAt(charIndex);
-                                charIndex++;
-                                scrollToBottom();
-                            } else {
-                                clearInterval(typingInterval);
-                            }
-                        }, typingDelay);
-                    }
-                }
-            });
-            
-            // Terminal controls
-            terminalClose.addEventListener('click', function() {
-                terminalPanel.classList.remove('active');
-            });
-            
-            terminalMinimize.addEventListener('click', function() {
-                terminalPanel.classList.toggle('minimized');
-            });
-            
-            terminalMaximize.addEventListener('click', function() {
-                terminalPanel.classList.toggle('maximized');
-                if (terminalPanel.classList.contains('maximized')) {
-                    terminalPanel.style.width = '90vw';
-                    terminalPanel.style.height = '80vh';
-                    terminalPanel.style.top = '10vh';
-                    terminalPanel.style.right = '5vw';
-                } else {
-                    terminalPanel.style.width = '600px';
-                    terminalPanel.style.height = '400px';
-                    terminalPanel.style.top = '5%';
-                    terminalPanel.style.right = '2%';
-                }
-            });
-            
-            // Make the terminal draggable
-            let isDragging = false;
-            let dragOffsetX, dragOffsetY;
-            
-            terminalHeader = terminalPanel.querySelector('.terminal-header');
-            terminalHeader.addEventListener('mousedown', function(e) {
-                // Don't drag if clicking controls
-                if (e.target.classList.contains('control')) return;
-                
-                isDragging = true;
-                dragOffsetX = e.clientX - terminalPanel.getBoundingClientRect().left;
-                dragOffsetY = e.clientY - terminalPanel.getBoundingClientRect().top;
-                
-                // Add dragging class
-                terminalPanel.classList.add('dragging');
-            });
-            
-            document.addEventListener('mousemove', function(e) {
-                if (isDragging) {
-                    const x = e.clientX - dragOffsetX;
-                    const y = e.clientY - dragOffsetY;
-                    
-                    // Keep within window bounds
-                    const maxX = window.innerWidth - terminalPanel.offsetWidth;
-                    const maxY = window.innerHeight - terminalPanel.offsetHeight;
-                    
-                    terminalPanel.style.right = 'auto';
-                    terminalPanel.style.left = Math.max(0, Math.min(maxX, x)) + 'px';
-                    terminalPanel.style.top = Math.max(0, Math.min(maxY, y)) + 'px';
-                }
-            });
-            
-            document.addEventListener('mouseup', function() {
-                isDragging = false;
-                terminalPanel.classList.remove('dragging');
-            });
-            
-            // Make the terminal resizable
-            let isResizing = false;
-            
-            terminalResizeHandle.addEventListener('mousedown', function(e) {
-                isResizing = true;
-                e.preventDefault();
-                
-                // Add resizing class
-                terminalPanel.classList.add('resizing');
-            });
-            
-            document.addEventListener('mousemove', function(e) {
-                if (isResizing) {
-                    const width = e.clientX - terminalPanel.getBoundingClientRect().left;
-                    const height = e.clientY - terminalPanel.getBoundingClientRect().top;
-                    
-                    // Enforce minimum size
-                    terminalPanel.style.width = Math.max(400, width) + 'px';
-                    terminalPanel.style.height = Math.max(200, height) + 'px';
-                    
-                    // Remove maximized class if resizing manually
-                    terminalPanel.classList.remove('maximized');
-                }
-            });
-            
-            document.addEventListener('mouseup', function() {
-                isResizing = false;
-                terminalPanel.classList.remove('resizing');
-            });
-            
-            // Focus terminal input when clicking anywhere in terminal body
-            terminalBody.addEventListener('click', function() {
-                terminalInput.focus();
-            });
-            
-            // Flashing cursor effect
-            setInterval(function() {
-                if (terminalCursor) {
-                    terminalCursor.style.opacity = terminalCursor.style.opacity === '0' ? '1' : '0';
-                }
-            }, 500);
-            
-            // Keep terminal scrolled to bottom
-            function scrollToBottom() {
-                terminalBody.scrollTop = terminalBody.scrollHeight;
-            }
-            
-            // Terminal command processing with history
-            let commandHistory = [];
-            let historyIndex = -1;
-            
-            terminalInput.addEventListener('keydown', function(e) {
-                if (e.key === 'Enter') {
-                    e.preventDefault();
-                    
-                    const command = terminalInput.value.trim();
-                    if (command) {
-                        // Add to history
-                        commandHistory.push(command);
-                        historyIndex = commandHistory.length;
-                        
-                        // Add command to output
-                        const commandLine = document.createElement('p');
-                        commandLine.innerHTML = `<span class="cmd-prompt">visitor@kennethreitz:~$</span> <span class="command">${command}</span>`;
-                        terminalBody.querySelector('.terminal-output').appendChild(commandLine);
-                        
-                        // Process command
-                        processCommand(command);
-                        
-                        // Clear input
-                        terminalInput.value = '';
-                        scrollToBottom();
-                    }
-                } else if (e.key === 'ArrowUp') {
-                    // Navigate command history (up)
-                    if (commandHistory.length > 0 && historyIndex > 0) {
-                        historyIndex--;
-                        terminalInput.value = commandHistory[historyIndex];
-                        
-                        // Move cursor to end of input
-                        setTimeout(() => {
-                            terminalInput.selectionStart = terminalInput.value.length;
-                            terminalInput.selectionEnd = terminalInput.value.length;
-                        }, 0);
-                    }
-                    e.preventDefault();
-                } else if (e.key === 'ArrowDown') {
-                    // Navigate command history (down)
-                    if (historyIndex < commandHistory.length - 1) {
-                        historyIndex++;
-                        terminalInput.value = commandHistory[historyIndex];
-                    } else {
-                        historyIndex = commandHistory.length;
-                        terminalInput.value = '';
-                    }
-                    e.preventDefault();
-                } else if (e.key === 'Tab') {
-                    // Simple tab completion
-                    e.preventDefault();
-                    
-                    const commands = ['help', 'about', 'projects', 'contact', 'clear', 'ls', 'dir', 'cd', 'python', 'neofetch', 'matrix', 'heroku', 'requests'];
-                    const input = terminalInput.value.toLowerCase();
-                    
-                    if (input) {
-                        // Find matching commands
-                        const matches = commands.filter(cmd => cmd.startsWith(input));
-                        
-                        if (matches.length === 1) {
-                            // Exact match
-                            terminalInput.value = matches[0];
-                        } else if (matches.length > 1) {
-                            // Show possible completions
-                            const completionsLine = document.createElement('p');
-                            completionsLine.textContent = matches.join('  ');
-                            terminalBody.querySelector('.terminal-output').appendChild(completionsLine);
-                            scrollToBottom();
-                        }
-                    }
-                }
-            });
-            
-            // Command processing function
-            function processCommand(cmd) {
-                cmd = cmd.toLowerCase();
-                let response;
-                
-                // Basic command set
-                if (cmd === 'help' || cmd === 'h') {
-                    response = `
-                        <p><span class="cmd-highlight">Available commands:</span></p>
-                        <p>help - Display this help message</p>
-                        <p>about - About Kenneth Reitz</p>
-                        <p>projects - View notable projects</p>
-                        <p>contact - Contact information</p>
-                        <p>clear - Clear the terminal screen</p>
-                        <p>ls/dir - List site directories</p>
-                        <p>cd /path - Navigate to a section</p>
-                        <p>python - Try some Python snippets</p>
-                        <p>neofetch - System information</p>
-                        <p>matrix - Enter the Matrix</p>
-                        <p>heroku - Discover the Heroku connection</p>
-                    `;
-                } else if (cmd === 'about') {
-                    response = `
-                        <p><span class="welcome-text">Kenneth Reitz</span></p>
-                        <p>Python for Humans, Open Source Creator, REST API Designer, Neural Explorer.</p>
-                        <p>Creator of <span class="cmd-highlight">requests</span>, <span class="cmd-highlight">pipenv</span>, and many other popular Python libraries.</p>
-                    `;
-                } else if (cmd === 'projects') {
-                    response = `
-                        <p><span class="cmd-highlight">Notable Projects:</span></p>
-                        <p>• requests - HTTP for Humans</p>
-                        <p>• pipenv - Python Development Workflow for Humans</p>
-                        <p>• httpbin.org - HTTP Request & Response Service</p>
-                        <p>• python-guide.org - The Hitchhiker's Guide to Python</p>
-                        <p>Type <span class="cmd-highlight">cd /software</span> to browse all projects</p>
-                    `;
-                } else if (cmd === 'contact') {
-                    response = `
-                        <p><span class="cmd-highlight">Contact Information:</span></p>
-                        <p>Twitter: <a href="https://twitter.com/kennethreitz42" target="_blank">@kennethreitz42</a></p>
-                        <p>GitHub: <a href="https://github.com/kennethreitz" target="_blank">kennethreitz</a></p>
-                        <p>Email: me@kennethreitz.org</p>
-                    `;
-                } else if (cmd === 'clear' || cmd === 'cls') {
-                    terminalBody.querySelector('.terminal-output').innerHTML = '';
-                    return;
-                } else if (cmd.startsWith('cd ')) {
-                    const path = cmd.substring(3);
-                    const validPaths = ['/software', '/essays', '/talks', '/music', '/poetry', '/artificial-intelligence', '/values'];
-                    
-                    if (validPaths.includes(path)) {
-                        response = `<p>Navigating to ${path}...</p>`;
-                        // Delayed navigation
-                        setTimeout(() => {
-                            window.location.href = path;
-                        }, 500);
-                    } else {
-                        response = `<p class="error">Error: Path not found: ${path}</p>`;
-                    }
-                } else if (cmd === 'ls' || cmd === 'dir') {
-                    response = `
-                        <p><span class="cmd-highlight">Directory listing:</span></p>
-                        <p class="dir-item">/software</p>
-                        <p class="dir-item">/essays</p>
-                        <p class="dir-item">/talks</p>
-                        <p class="dir-item">/music</p>
-                        <p class="dir-item">/poetry</p>
-                        <p class="dir-item">/artificial-intelligence</p>
-                        <p class="dir-item">/values</p>
-                    `;
-                } else if (cmd === 'python') {
-                    response = `
-                        <p><span class="cmd-highlight">Python 3.11.0</span> on kennethreitz.org</p>
-                        <p>>>> import requests</p>
-                        <p>>>> r = requests.get('https://httpbin.org/json')</p>
-                        <p>>>> r.status_code</p>
-                        <p>200</p>
-                        <p>>>> r.json()</p>
-                        <p>{...}</p>
-                        <p>>>> exit()</p>
-                    `;
-                } else if (cmd === 'neofetch') {
-                    response = `
-                        <p><span class="cmd-highlight">           </span> visitor@kennethreitz.org</p>
-                        <p><span class="cmd-highlight">     .--.  </span> ------------------</p>
-                        <p><span class="cmd-highlight">    |o_o | </span> OS: kennethreitz.org</p>
-                        <p><span class="cmd-highlight">    |:_/ | </span> Terminal: Web-based</p>
-                        <p><span class="cmd-highlight">   //   \\ \\</span> CPU: Heroku Dynos</p>
-                        <p><span class="cmd-highlight">  (|     | )</span> Memory: Infinite</p>
-                        <p><span class="cmd-highlight"> /'\\_   _/\`\\</span> Shell: requests.js</p>
-                        <p><span class="cmd-highlight"> \\___)=(___/</span> Theme: Heroku Terminal</p>
-                    `;
-                } else if (cmd === 'hello' || cmd === 'hi') {
-                    response = `<p>Hello there! Type <span class="cmd-highlight">help</span> to see what you can do here.</p>`;
-                } else if (cmd === 'matrix' || cmd === 'the-matrix') {
-                    // Matrix easter egg
-                    response = `<p class="typing-effect"><span class="cmd-highlight">Wake up, Neo...</span></p>`;
-                    
-                    // Matrix animation effect
-                    const matrixContainer = document.querySelector('.matrix-container');
-                    if (matrixContainer) {
-                        matrixContainer.style.opacity = '1';
-                        setTimeout(() => {
-                            const matrixMessage = document.createElement('div');
-                            matrixMessage.innerHTML = `
-                                <p class="matrix-message">The Matrix has you...</p>
-                                <p class="matrix-message">Follow the white rabbit.</p>
-                            `;
-                            terminalBody.querySelector('.terminal-output').appendChild(matrixMessage);
-                            scrollToBottom();
-                            
-                            // Return to normal after effect
-                            setTimeout(() => {
-                                matrixContainer.style.opacity = '0.5';
-                            }, 5000);
-                        }, 2000);
-                    }
-                } else if (cmd === 'requests') {
-                    response = `
-                        <p class="typing-effect"><span class="cmd-highlight">import requests</span></p>
-                        <p>HTTP for Humans™</p>
-                        <p>The elegant and simple HTTP library for Python, built for human beings.</p>
-                        <p><a href="https://github.com/psf/requests" target="_blank">https://github.com/psf/requests</a></p>
-                    `;
-                } else if (cmd === 'heroku') {
-                    // Heroku easter egg
-                    response = `
-                        <p><span style="color: rgb(var(--heroku-green));">Heroku</span> <span style="color: rgb(var(--heroku-purple));">+</span> <span style="color: rgb(var(--heroku-amber));">kennethreitz</span></p>
-                        <p class="typing-effect">Heroku connection detected...</p>
-                        <p>Kenneth Reitz is a former Heroku employee who designed APIs and created developer tools.</p>
-                        <p>This site's terminal-style interface has been enhanced with the Heroku color palette.</p>
-                        <p>From 2011 to 2017, Kenneth worked at Heroku, developing developer experiences.</p>
-                    `;
-                    
-                    // Add a bit of style animation
-                    setTimeout(() => {
-                        document.documentElement.style.setProperty('--heroku-green', '120, 240, 140');
-                        document.documentElement.style.setProperty('--heroku-amber', '255, 200, 80');
-                        
-                        setTimeout(() => {
-                            document.documentElement.style.setProperty('--heroku-green', '90, 220, 120');
-                            document.documentElement.style.setProperty('--heroku-amber', '255, 180, 60');
-                        }, 1000);
-                    }, 500);
-                } else {
-                    response = `<p class="error">Command not found: ${cmd}. Type <span class="cmd-highlight">help</span> for available commands.</p>`;
-                }
-                
-                // Add response to terminal
-                const responseElement = document.createElement('div');
-                responseElement.innerHTML = response;
-                terminalBody.querySelector('.terminal-output').appendChild(responseElement);
-            }
-            
-            // Focus terminal input on page load
-            terminalInput.focus();
-        });
-        
-        // Terminal Status Bar Functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const statusBar = document.getElementById('editor-status-bar');
-            const memoryCounter = document.getElementById('memory-counter');
-            const uptimeCounter = document.getElementById('uptime-counter');
-            const executorStatus = document.getElementById('executor-status');
-            const statusInfo = document.getElementById('status-info');
-            
-            // XEyes functionality
-            const leftPupil = document.getElementById('left-pupil');
-            const rightPupil = document.getElementById('right-pupil');
-            
-            if (leftPupil && rightPupil) {
-                // Function to move pupils to follow cursor
-                function movePupils(e) {
-                    const leftEye = leftPupil.parentElement;
-                    const rightEye = rightPupil.parentElement;
-                    
-                    // Get eye positions
-                    const leftEyeRect = leftEye.getBoundingClientRect();
-                    const rightEyeRect = rightEye.getBoundingClientRect();
-                    
-                    // Calculate eye centers
-                    const leftEyeX = leftEyeRect.left + leftEyeRect.width / 2;
-                    const leftEyeY = leftEyeRect.top + leftEyeRect.height / 2;
-                    const rightEyeX = rightEyeRect.left + rightEyeRect.width / 2;
-                    const rightEyeY = rightEyeRect.top + rightEyeRect.height / 2;
-                    
-                    // Calculate angle between cursor and eye centers
-                    const leftDx = e.clientX - leftEyeX;
-                    const leftDy = e.clientY - leftEyeY;
-                    const rightDx = e.clientX - rightEyeX;
-                    const rightDy = e.clientY - rightEyeY;
-                    
-                    // Calculate angle using atan2
-                    const leftAngle = Math.atan2(leftDy, leftDx);
-                    const rightAngle = Math.atan2(rightDy, rightDx);
-                    
-                    // Limit pupil movement radius
-                    const maxRadius = 2.5;
-                    
-                    // Calculate new pupil positions
-                    const leftPupilX = Math.cos(leftAngle) * maxRadius;
-                    const leftPupilY = Math.sin(leftAngle) * maxRadius;
-                    const rightPupilX = Math.cos(rightAngle) * maxRadius;
-                    const rightPupilY = Math.sin(rightAngle) * maxRadius;
-                    
-                    // Update pupil positions
-                    leftPupil.style.transform = `translate(${leftPupilX}px, ${leftPupilY}px)`;
-                    rightPupil.style.transform = `translate(${rightPupilX}px, ${rightPupilY}px)`;
-                }
-                
-                // Listen for mouse movement to update eyes
-                document.addEventListener('mousemove', movePupils);
-                
-                // Initial position - center
-                leftPupil.style.transform = 'translate(0, 0)';
-                rightPupil.style.transform = 'translate(0, 0)';
-                
-                // Occasionally blink
-                setInterval(() => {
-                    // Blink both eyes
-                    leftPupil.style.opacity = '0';
-                    rightPupil.style.opacity = '0';
-                    
-                    // Open eyes after a short delay
-                    setTimeout(() => {
-                        leftPupil.style.opacity = '1';
-                        rightPupil.style.opacity = '1';
-                    }, 150);
-                }, 5000 + Math.random() * 5000); // Random blink interval
-            }
-            
-            // Matrix rain effect for background
-            function createMatrixRain() {
-                const matrixContainer = document.querySelector('.matrix-container');
-                if (!matrixContainer) return;
-                
-                // Clear any existing content
-                matrixContainer.innerHTML = '';
-                
-                // Create columns of characters
-                const numColumns = Math.floor(window.innerWidth / 20);
-                
-                for (let i = 0; i < numColumns; i++) {
-                    const column = document.createElement('div');
-                    column.className = 'matrix-column';
-                    column.style.left = `${i * 20}px`;
-                    
-                    // Randomize start time
-                    column.style.animationDelay = `${Math.random() * 5}s`;
-                    
-                    // Random number of characters (5-15)
-                    const numChars = Math.floor(Math.random() * 10) + 5;
-                    
-                    for (let j = 0; j < numChars; j++) {
-                        const char = document.createElement('div');
-                        char.className = 'matrix-char';
-                        char.textContent = getRandomChar();
-                        char.style.animationDelay = `${j * 0.1}s`;
-                        column.appendChild(char);
-                    }
-                    
-                    matrixContainer.appendChild(column);
-                }
-            }
-            
-            function getRandomChar() {
-                const chars = '01';
-                return chars.charAt(Math.floor(Math.random() * chars.length));
-            }
-            
-            if(statusBar && memoryCounter && uptimeCounter && statusInfo) {
-                // Start the terminal boot sequence
-                let bootTime = 0;
-                
-                // Simulated terminal boot sequence
-                function updateMemoryCounter() {
-                    // Randomly fluctuate memory usage
-                    const base = 50;
-                    const fluctuation = Math.random() * 20;
-                    memoryCounter.textContent = `${(base + fluctuation).toFixed(1)} MB`;
-                    
-                    // Schedule next update
-                    setTimeout(updateMemoryCounter, 5000 + Math.random() * 5000);
-                }
-                
-                function updateUptimeCounter() {
-                    bootTime++;
-                    
-                    // Format as hours:minutes:seconds
-                    const hours = Math.floor(bootTime / 3600);
-                    const minutes = Math.floor((bootTime % 3600) / 60);
-                    const seconds = bootTime % 60;
-                    
-                    uptimeCounter.textContent = 
-                        `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-                    
-                    // Update every second
-                    setTimeout(updateUptimeCounter, 1000);
-                }
-                
-                function blinkExecutorStatus() {
-                    // Toggle between active/standby
-                    if (executorStatus.textContent === 'active') {
-                        executorStatus.textContent = 'standby';
-                        executorStatus.style.color = 'rgb(var(--toxic-yellow))';
-                    } else {
-                        executorStatus.textContent = 'active';
-                        executorStatus.style.color = 'rgb(var(--neon-green))';
-                    }
-                    
-                    // Blink every 3-7 seconds
-                    setTimeout(blinkExecutorStatus, 3000 + Math.random() * 4000);
-                }
-                
-                // Start all the terminal animations
-                updateMemoryCounter();
-                updateUptimeCounter();
-                blinkExecutorStatus();
-                
-                // Run a status check periodically
-                function randomStatusCheck() {
-                    // Status messages for the terminal
-                    const statusMessages = [
-                        { text: 'ONLINE', class: 'success' },
-                        { text: 'SCANNING', class: '' },
-                        { text: 'INDEXING', class: '' },
-                        { text: 'PATCHING', class: 'warning' },
-                        { text: 'FIREWALL+', class: 'success' }
-                    ];
-                    
-                    // Pick a random status
-                    const randomStatus = statusMessages[Math.floor(Math.random() * statusMessages.length)];
-                    
-                    // Apply the status
-                    statusInfo.textContent = randomStatus.text;
-                    
-                    // Clear existing classes and add new one if present
-                    statusInfo.className = '';
-                    if (randomStatus.class) {
-                        statusInfo.classList.add(randomStatus.class);
-                    }
-                    
-                    // Reset to ONLINE after a delay
-                    if (randomStatus.text !== 'ONLINE') {
-                        setTimeout(() => {
-                            statusInfo.textContent = 'ONLINE';
-                            statusInfo.className = 'success';
-                        }, 3000);
-                    }
-                    
-                    // Schedule next check (15-30 seconds)
-                    setTimeout(randomStatusCheck, 15000 + Math.random() * 15000);
-                }
-                
-                randomStatusCheck();
-            }
-            
-            // Add style for matrix effect
-            const matrixStyle = document.createElement('style');
-            matrixStyle.textContent = `
-                .matrix-column {
-                    position: absolute;
-                    top: -100px;
-                    font-family: 'Courier New', monospace;
-                    font-size: 24px;
-                    color: rgba(var(--neon-green), 0.3);
-                    text-shadow: 0 0 10px rgba(var(--neon-green), 0.8);
-                    animation: matrixFall 10s linear infinite;
-                }
-                
-                .matrix-char {
-                    opacity: 0;
-                    animation: matrixGlow 2s ease-in-out infinite alternate;
-                }
-                
-                @keyframes matrixFall {
-                    0% { transform: translateY(-100%); }
-                    100% { transform: translateY(1200%); }
-                }
-                
-                @keyframes matrixGlow {
-                    0%, 100% { opacity: 0.1; }
-                    50% { opacity: 0.3; }
-                }
-            `;
-            document.head.appendChild(matrixStyle);
-            
-            // Initialize Matrix effect
-            createMatrixRain();
-            
-            // Recreate Matrix effect on window resize (debounced)
-            let resizeTimeout;
-            window.addEventListener('resize', function() {
-                clearTimeout(resizeTimeout);
-                resizeTimeout = setTimeout(createMatrixRain, 500);
-            });
-            
-            // Add responsive classes to body based on viewport
-            document.body.classList.toggle('is-mobile', isMobile);
-            document.body.classList.toggle('is-tiny-mobile', isTinyMobile);
-            
-            // Toast notification utility function
-            function createToast(message, type = 'info', duration = 3000) {
-                const toastContainer = document.getElementById('toast-container');
-                if (!toastContainer) return;
-                
-                const toast = document.createElement('div');
-                toast.className = `toast toast-${type}`;
-                toast.innerHTML = `
-                    <span class="cmd-prompt">$</span> 
-                    <span class="toast-message">${message}</span>
-                `;
-                
-                // Add to container
-                toastContainer.appendChild(toast);
-                
-                // Show with animation
-                setTimeout(() => {
-                    toast.classList.add('show');
-                }, 10);
-                
-                // Remove after duration
-                setTimeout(() => {
-                    toast.classList.remove('show');
-                    toast.classList.add('hide');
-                    
-                    // Remove from DOM after animation
-                    setTimeout(() => {
-                        toastContainer.removeChild(toast);
-                    }, 300);
-                }, duration);
-            }
-            
-            // Back to top button functionality
-            const backToTopButton = document.getElementById('back-to-top');
+        document.addEventListener("DOMContentLoaded", function() {
+            const isMobile = window.matchMedia("(max-width: 768px)").matches;
+            const isTinyMobile = window.matchMedia("(max-width: 480px)").matches;
+
+            document.body.classList.toggle("is-mobile", isMobile);
+            document.body.classList.toggle("is-tiny-mobile", isTinyMobile);
+
+            const backToTopButton = document.getElementById("back-to-top");
             if (backToTopButton) {
-                // Initially hide button
-                backToTopButton.style.display = 'none';
-                
-                // Show button when user scrolls down
-                window.addEventListener('scroll', function() {
+                backToTopButton.style.display = "none";
+
+                window.addEventListener("scroll", function() {
                     if (window.scrollY > 300) {
-                        backToTopButton.style.display = 'flex';
+                        backToTopButton.style.display = "flex";
                     } else {
-                        backToTopButton.style.display = 'none';
+                        backToTopButton.style.display = "none";
                     }
                 });
-                
-                // Scroll to top when button is clicked
-                backToTopButton.addEventListener('click', function() {
+
+                backToTopButton.addEventListener("click", function() {
                     window.scrollTo({
                         top: 0,
-                        behavior: 'smooth'
+                        behavior: "smooth"
                     });
                 });
             }
-            
-            // Remove loader after page is fully loaded
-            window.addEventListener('load', function() {
-                const loader = document.querySelector('.initial-loader');
-                if (loader) {
-                    setTimeout(() => {
-                        loader.style.opacity = '0';
-                        setTimeout(() => {
-                            loader.style.display = 'none';
-                        }, 500);
-                    }, 1000);
-                }
+
+            window.addEventListener("resize", function() {
+                const isMobileNow = window.matchMedia("(max-width: 768px)").matches;
+                const isTinyMobileNow = window.matchMedia("(max-width: 480px)").matches;
+                document.body.classList.toggle("is-mobile", isMobileNow);
+                document.body.classList.toggle("is-tiny-mobile", isTinyMobileNow);
             });
         });
-        
-        // Listen for viewport changes
-        window.addEventListener('resize', function() {
-            const isMobileNow = window.matchMedia("(max-width: 768px)").matches;
-            const isTinyMobileNow = window.matchMedia("(max-width: 480px)").matches;
-            document.body.classList.toggle('is-mobile', isMobileNow);
-            document.body.classList.toggle('is-tiny-mobile', isTinyMobileNow);
-        });
     </script>
-    
+
     {% block scripts %}{% endblock %}
 </body>
 </html>
