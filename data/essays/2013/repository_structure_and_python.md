@@ -45,20 +45,20 @@ tests/test_advanced.py
 
 
 ```
-Location: ./sample/ or ./sample.py
+Location: sample/ or sample.py
 Purpose: The code of interest.
 ```
  Your module package is the core focus of the repository. It should not betucked away:
 
 
 ```
-./sample/
+sample/
 ```
  If your module consists of only a single file, you can place it directly inthe root of your repository:
 
 
 ```
-./sample.py
+sample.py
 ```
  Your library does not belong in an ambiguous src or python subdirectory.
 
@@ -66,7 +66,7 @@ Purpose: The code of interest.
 
 
 ```
-Location: ./LICENSE
+Location: LICENSE
 Purpose: Lawyering up.
 ```
  This is arguably the most important part of your repository, aside from thesource code itself. The full license text and copyright claims should exist inthis file.
@@ -77,7 +77,7 @@ Purpose: Lawyering up.
 
 
 ```
-Location: ./setup.py
+Location: setup.py
 Purpose: Package and distribution management.
 ```
  If your module package is at the root of your repository, this shouldobviously be at the root as well.
@@ -86,7 +86,7 @@ Purpose: Package and distribution management.
 
 
 ```
-Location: ./requirements.txt
+Location: requirements.txt
 Purpose: Development dependencies.
 ```
  A [Pip requirements file](http://www.pip-installer.org/en/latest/requirements.html) should be placed at the root of therepository. It should specify the dependencies required to contribute to theproject: testing, building, and generating documentation.
@@ -97,7 +97,7 @@ Purpose: Development dependencies.
 
 
 ```
-Location: ./docs/
+Location: docs/
 Purpose: Package reference documentation.
 ```
  There is little reason for this to exist elsewhere.
@@ -106,14 +106,14 @@ Purpose: Package reference documentation.
 
 
 ```
-Location: ./test_sample.py or ./tests
+Location: test_sample.py or tests
 Purpose: Package integration and unit tests.
 ```
  Starting out, a small test suite will often exist in a single file:
 
 
 ```
-./test_sample.py
+test_sample.py
 ```
  Once a test suite grows, you can move your tests to a directory, like so:
 
@@ -154,7 +154,7 @@ from .context import sample
 
 
 ```
-Location: ./Makefile
+Location: Makefile
 Purpose: Generic management tasks.
 ```
  If you look at most of my projects or any Pocoo project, you'll notice aMakefile laying around. Why? These projects aren't written in C... In short,make is a incredibly useful tool for defining generic and platform agnostictasks for your project.

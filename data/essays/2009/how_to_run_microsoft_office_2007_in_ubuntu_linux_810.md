@@ -4,19 +4,19 @@
 
  WINE (**W**ine **I**s **N**ot an **E**mulator) is an application layer for Linux that interprets the Windows API and DLLs into native Linux commands. This allows for programs made for Windows to be run in Linux!In order to run Office 2007, Wine 1\.1\.9 (or newer) is **required.** It is currently in a development release. If you don’t have it installed already (this is very likely), go ahead and type the following commands, which will set it up for you:
 
- 
+
 ```
 wget -q http://wine.budgetdedicated.com/apt/387EE263.gpg -O- | sudo apt-key add -
 ```
- 
+
 ```
 sudo wget http://wine.budgetdedicated.com/apt/sources.list.d/intrepid.list -O /etc/apt/sources.list.d/winehq.list
 ```
- 
+
 ```
 sudo apt-get update
 ```
- 
+
 ```
 sudo apt-get install wine cabextract
 ```
@@ -24,7 +24,7 @@ sudo apt-get install wine cabextract
 
  You should now have an installation of Wine 1\.1\.9 installed on your system. To confirm the version of Wine installed, type the following:
 
- 
+
 ```
 wine --version
 ```
@@ -32,21 +32,21 @@ wine --version
 
  [Winetricks](http://www.kegel.com/wine/winetricks "Winetricks Page") is a small SH script which will go on the internet and automatically fetch and install Microsoft DLLs and Libraries into Wine with almost no hassle at all! To download it directly, type the following commands:
 
- 
+
 ```
 wget http://www.kegel.com/wine/winetricks
 ```
- 
+
 ```
-chmod +x ./winetricks
+chmod +x winetricks
 ```
  ### Utilize winetricks:
 
  This will setup all necessary libraries and DLLs that Office 2007 will need to run properly:
 
- 
+
 ```
-./winetricks gdiplus riched20 riched30 msxml3 msxml4 msxml6 corefonts tahoma vb6run vcrun6 msi2
+winetricks gdiplus riched20 riched30 msxml3 msxml4 msxml6 corefonts tahoma vb6run vcrun6 msi2
 ```
  Please be patient while the downloads complete. This script is working hard and is saving hours of your time.
 
@@ -54,7 +54,7 @@ chmod +x ./winetricks
 
  Now that we have all of the DLLs necessary to run the Installer, let us do so!
 
- 
+
 ```
 wine pathToCD/setup.exe
 ```
@@ -63,7 +63,3 @@ wine pathToCD/setup.exe
  If you have any problems, ask, and we'll try to help you out as much as possible!
 
  UPDATE: Lost your CD? [Download the installer](/blog/free-direct-download-microsoft-office-2007) for free!
-
- 
-
- 
