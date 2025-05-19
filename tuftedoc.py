@@ -217,7 +217,7 @@ def title_case(s: str) -> str:
 def extract_frontmatter(markdown_content: str) -> Tuple[Optional[Dict[str, Any]], str]:
     """Extract frontmatter from markdown content."""
     frontmatter_match = re.match(r"^---\n(.*?)\n---\n(.*)", markdown_content, re.DOTALL)
-    
+
     if frontmatter_match:
         try:
             # Parse the YAML frontmatter
@@ -239,7 +239,7 @@ def parse_metadata(frontmatter: Optional[Dict[str, Any]]) -> Optional[Metadata]:
     """Parse frontmatter into a Metadata object."""
     if not frontmatter:
         return None
-    
+
     # Extract known fields
     metadata_dict = {
         "title": frontmatter.get("title"),
@@ -251,24 +251,24 @@ def parse_metadata(frontmatter: Optional[Dict[str, Any]]) -> Optional[Metadata]:
         "draft": frontmatter.get("draft", False),
         "layout": frontmatter.get("layout"),
     }
-    
+
     # Copy any extra fields to the extra dict
-    extra_fields = {k: v for k, v in frontmatter.items() 
+    extra_fields = {k: v for k, v in frontmatter.items()
                   if k not in metadata_dict}
-    
+
     if extra_fields:
         metadata_dict["extra"] = extra_fields
-        
+
     return Metadata(**metadata_dict)
 
 
 def get_h1_from_markdown(file_path: pathlib.Path) -> Optional[str]:
     with file_path.open("r", encoding="utf-8") as f:
         content = f.read()
-    
+
     # Extract frontmatter and content
     _, content_without_frontmatter = extract_frontmatter(content)
-    
+
     # Look for the first heading
     match = re.search(r"^#\s+(.+)$", content_without_frontmatter, re.MULTILINE)
     return match.group(1) if match else None
@@ -279,7 +279,7 @@ def get_markdown_metadata(file_path: pathlib.Path) -> Optional[Metadata]:
     try:
         with file_path.open("r", encoding="utf-8") as f:
             content = f.read()
-        
+
         frontmatter, _ = extract_frontmatter(content)
         return parse_metadata(frontmatter)
     except Exception as e:
@@ -291,7 +291,7 @@ def generate_summary(markdown_content: str, max_length: int = 150) -> str:
     """Generate a summary from markdown content."""
     # Remove frontmatter if present
     _, content = extract_frontmatter(markdown_content)
-    
+
     # Remove markdown formatting
     # Strip headers
     content = re.sub(r"^#{1,6}\s+.*$", "", content, flags=re.MULTILINE)
@@ -305,14 +305,14 @@ def generate_summary(markdown_content: str, max_length: int = 150) -> str:
     content = re.sub(r"`[^`]+`", "", content)
     # Strip bold/italic
     content = re.sub(r"\*\*|\*|__|\b_\b", "", content)
-    
+
     # Clean up whitespace
     content = re.sub(r"\s+", " ", content).strip()
-    
+
     # Truncate to max_length
     if len(content) > max_length:
         content = content[:max_length-3] + "..."
-        
+
     return content
 
 
@@ -326,8 +326,19 @@ def get_directory_title(dir_path: pathlib.Path) -> str:
 
 
 def get_clean_url(path: str) -> str:
-    return "/" + path.rsplit(".", 1)[0] if path.endswith(".md") else "/" + path
-
+    """
+    Get a clean URL for a path.
+    - For markdown files: remove the .md extension
+    - For directories: ensure they end with a trailing slash
+    """
+    if path.endswith(".md"):
+        return "/" + path.rsplit(".", 1)[0]
+    else:
+        # Check if it's a directory path by checking the filesystem
+        full_path = MARKDOWN_DIR / path
+        if full_path.is_dir() and not path.endswith('/'):
+            return "/" + path + "/"
+        return "/" + path
 
 def get_file_creation_date(file_path: pathlib.Path) -> datetime:
     return datetime.fromtimestamp(file_path.stat().st_ctime)
@@ -355,28 +366,27 @@ def get_exif_data(image_path: pathlib.Path) -> dict:
         logger.error(f"Error reading EXIF data: {e}")
     return {}
 
-
 def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional[str], Optional[Metadata]]:
     logger.info(f"Processing directory: {full_path}")
     all_items = []
-    
+
     # For sorting, we'll track directories and files separately
     directories = []
     files = []
-    
+
     for item in full_path.iterdir():
         if item.name in [".DS_Store", ".git", "node_modules"] or item.name.startswith("."):
             continue
-            
+
         if item.name == "index.md":
             continue
-            
+
         is_image_file = is_image(item)
         exif_data = get_exif_data(item) if is_image_file else None
-        
+
         # Get metadata for markdown files
         metadata = get_markdown_metadata(item) if item.suffix == ".md" else None
-        
+
         # Get summary for markdown files
         summary = None
         if item.suffix == ".md":
@@ -386,7 +396,7 @@ def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional
                 summary = generate_summary(content)
             except Exception as e:
                 logger.error(f"Error generating summary for {item}: {e}")
-                
+
         # Use metadata title if available, otherwise use H1 or directory title
         title = None
         if metadata and metadata.title:
@@ -397,10 +407,15 @@ def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional
                 if item.is_dir()
                 else (get_h1_from_markdown(item) if item.suffix == ".md" else None)
             )
-            
+
+        # Ensure directory URLs end with a trailing slash
+        item_url = get_clean_url(str(item.relative_to(MARKDOWN_DIR)))
+        if item.is_dir() and not item_url.endswith('/'):
+            item_url += '/'
+
         item_data = FileInfo(
             name=title_case(item.name),
-            url=get_clean_url(str(item.relative_to(MARKDOWN_DIR))),
+            url=item_url,  # Use the corrected URL with trailing slash for directories
             slug=item.name,
             ctime=os.path.getctime(item),
             mtime=os.path.getmtime(item),
@@ -411,7 +426,7 @@ def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional
             metadata=metadata,
             summary=summary,
         )
-        
+
         if item.is_dir():
             directories.append(item_data)
         else:
@@ -422,11 +437,11 @@ def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional
 
     # Sort directories and files separately
     directories.sort(key=lambda x: x.name.lower())
-    
+
     # Sort files by modification time (newest first) by default,
     # but can be sorted by other fields based on query parameters
     files.sort(key=lambda x: x.mtime, reverse=True)
-    
+
     # Combine directories and files
     all_items = directories + files
 
@@ -434,25 +449,24 @@ def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional
     index_file = full_path / "index.md"
     index_content = None
     index_metadata = None
-    
+
     if index_file.exists():
         index_content, index_metadata = process_markdown_file_with_metadata(index_file)
 
     logger.info(f"Processed {len(all_items)} items in directory: {full_path}")
     return all_items, index_content, index_metadata
 
-
 def process_markdown_file(file_path: pathlib.Path) -> str:
     """Process markdown file and return the rendered HTML content."""
     logger.info(f"Processing markdown file: {file_path}")
-    
+
     try:
         with file_path.open("r", encoding="utf-8") as f:
             markdown_content = f.read()
 
         # Extract frontmatter and content
         _, content_without_frontmatter = extract_frontmatter(markdown_content)
-        
+
         # Convert markdown to HTML
         html_content = markdown(content_without_frontmatter)
         return html_content
@@ -464,20 +478,20 @@ def process_markdown_file(file_path: pathlib.Path) -> str:
 def process_markdown_file_with_metadata(file_path: pathlib.Path) -> Tuple[str, Optional[Metadata]]:
     """Process markdown file and return both the rendered content and metadata."""
     logger.info(f"Processing markdown file with metadata: {file_path}")
-    
+
     try:
         with file_path.open("r", encoding="utf-8") as f:
             markdown_content = f.read()
 
         # Extract frontmatter and content
         frontmatter, content_without_frontmatter = extract_frontmatter(markdown_content)
-        
+
         # Parse metadata
         metadata = parse_metadata(frontmatter)
-        
+
         # Convert markdown to HTML
         html_content = markdown(content_without_frontmatter)
-        
+
         return html_content, metadata
     except Exception as e:
         logger.error(f"Error processing markdown file with metadata {file_path}: {e}")
@@ -513,43 +527,43 @@ def generate_title_from_breadcrumbs(breadcrumbs: List[Breadcrumb]) -> str:
 def generate_directory_tree(directory_path: pathlib.Path, max_depth: int = 3, current_depth: int = 0) -> List[Dict[str, Any]]:
     """
     Generate a recursive directory tree structure.
-    
+
     Args:
         directory_path: The path to the directory
         max_depth: Maximum depth to traverse (to avoid infinite recursion)
         current_depth: Current recursion depth
-        
+
     Returns:
         A list of dictionaries representing the directory tree structure
     """
     if current_depth > max_depth:
         return []
-        
+
     result = []
     try:
         for item in sorted(directory_path.iterdir(), key=lambda x: (not x.is_dir(), x.name.lower())):
             # Skip hidden files and directories
             if item.name.startswith(".") or item.name in ["__pycache__", "node_modules"]:
                 continue
-                
+
             # Get item metadata
             is_dir = item.is_dir()
             metadata = get_markdown_metadata(item) if item.suffix == ".md" else None
-            
+
             # Skip draft content unless in debug mode
             if metadata and metadata.draft and not os.environ.get("DEBUG"):
                 continue
-                
+
             # Get title (prioritize metadata, then H1, then formatted name)
             title = None
             if metadata and metadata.title:
                 title = metadata.title
             elif item.suffix == ".md":
                 title = get_h1_from_markdown(item)
-            
+
             if not title:
                 title = title_case(item.name)
-                
+
             # Create node
             node = {
                 "name": item.name,
@@ -559,17 +573,17 @@ def generate_directory_tree(directory_path: pathlib.Path, max_depth: int = 3, cu
                 "is_dir": is_dir,
                 "has_index": (item / "index.md").exists() if is_dir else False
             }
-            
+
             # Add children recursively if it's a directory
             if is_dir:
                 children = generate_directory_tree(item, max_depth, current_depth + 1)
                 if children:
                     node["children"] = children
-                    
+
             result.append(node)
     except Exception as e:
         logger.error(f"Error generating directory tree for {directory_path}: {e}")
-        
+
     return result
 
 
@@ -642,29 +656,29 @@ async def sitemap(request: Request):
 # API endpoints
 @app.get("/api/content/{path:path}", response_model=Dict[str, Any], tags=["API"])
 async def get_content_api(
-    request: Request, 
-    path: str = "", 
+    request: Request,
+    path: str = "",
     format: str = Query("json", description="Response format (json or html)"),
     tree: bool = Query(False, description="Return directory tree structure")
 ):
     """
     Get the content and metadata for a specific path.
-    
+
     - For directories: returns list of items and index content if available
     - For files: returns the file content and metadata
     - With tree=true: returns a recursive directory tree structure
     """
     logger.info(f"API request for path: {path}, format={format}, tree={tree}")
-    
+
     try:
         full_path = MARKDOWN_DIR / path
-        
+
         # Handle file extensions
         if not full_path.exists():
             full_path_with_md = full_path.with_suffix(".md")
             if full_path_with_md.exists():
                 full_path = full_path_with_md
-        
+
         # Process directory
         if full_path.is_dir():
             all_items, content, metadata = process_directory(full_path)
@@ -675,11 +689,11 @@ async def get_content_api(
                 "metadata": metadata.dict() if metadata else None,
                 "path": path,
             }
-            
+
             # Generate tree structure if requested
             if tree:
                 result["tree"] = generate_directory_tree(full_path)
-                
+
         # Process file
         elif full_path.suffix == ".md":
             content, metadata = process_markdown_file_with_metadata(full_path)
@@ -696,14 +710,14 @@ async def get_content_api(
                 status_code=400,
                 content={"error": f"Unsupported file type: {full_path.suffix}"}
             )
-        
+
         if format.lower() == "html":
             # Return HTML response
             return HTMLResponse(content=content if content else "")
         else:
             # Return JSON response
             return result
-            
+
     except Exception as e:
         logger.error(f"API error: {str(e)}")
         return JSONResponse(
@@ -720,42 +734,42 @@ async def search_content(
 ):
     """Search content in the repository."""
     logger.info(f"Search request: q={q}, path={path}, tags={tags}")
-    
+
     results = []
     search_path = MARKDOWN_DIR / path if path else MARKDOWN_DIR
-    
+
     # Simple search implementation - could be improved with a real search engine
     for item in search_path.glob("**/*.md"):
         try:
             relative_path = str(item.relative_to(MARKDOWN_DIR))
-            
+
             # Skip hidden files and directories
             if any(part.startswith(".") for part in item.parts):
                 continue
-                
+
             with item.open("r", encoding="utf-8") as f:
                 content = f.read()
-                
+
             # Get metadata
             frontmatter, content_text = extract_frontmatter(content)
             metadata = parse_metadata(frontmatter)
-            
+
             # Skip drafts
             if metadata and metadata.draft and not os.environ.get("DEBUG"):
                 continue
-                
+
             # Filter by tags if specified
             if tags and metadata and metadata.tags:
                 if not any(tag in metadata.tags for tag in tags):
                     continue
-            
+
             # Check for matches in content or title
-            if (q.lower() in content_text.lower() or 
+            if (q.lower() in content_text.lower() or
                 (metadata and metadata.title and q.lower() in metadata.title.lower())):
-                
+
                 title = metadata.title if metadata and metadata.title else get_h1_from_markdown(item)
                 summary = generate_summary(content)
-                
+
                 results.append({
                     "title": title or item.stem,
                     "path": get_clean_url(relative_path),
@@ -765,10 +779,10 @@ async def search_content(
                 })
         except Exception as e:
             logger.error(f"Error processing file {item} during search: {e}")
-            
+
     # Sort results by relevance (could be improved)
     results.sort(key=lambda x: 0 if x.get("title", "").lower().startswith(q.lower()) else 1)
-    
+
     return {
         "query": q,
         "path": path,
@@ -782,14 +796,14 @@ async def search_content(
 async def get_all_tags():
     """Get all tags used in the content with counts."""
     tags_count = {}
-    
+
     # Collect all tags
     for item in MARKDOWN_DIR.glob("**/*.md"):
         try:
             # Skip hidden files
             if any(part.startswith(".") for part in item.parts):
                 continue
-                
+
             metadata = get_markdown_metadata(item)
             if metadata and metadata.tags:
                 for tag in metadata.tags:
@@ -799,11 +813,11 @@ async def get_all_tags():
                         tags_count[tag] = 1
         except Exception as e:
             logger.error(f"Error processing tags for file {item}: {e}")
-            
+
     # Sort tags by count
     sorted_tags = [{"name": tag, "count": count} for tag, count in tags_count.items()]
     sorted_tags.sort(key=lambda x: x["count"], reverse=True)
-    
+
     return {
         "count": len(sorted_tags),
         "tags": sorted_tags
@@ -817,26 +831,26 @@ async def get_directory_tree_api(
 ):
     """
     Get a recursive directory tree structure starting from the specified path.
-    
+
     - Returns a hierarchical tree of directories and files
     - Includes metadata like titles and URLs
     - Helps construct file browsers and navigation menus
     """
     logger.info(f"Tree request for path: {path}, max_depth: {max_depth}")
-    
+
     try:
         # Get the full path
         full_path = MARKDOWN_DIR / path
-        
+
         if not full_path.exists() or not full_path.is_dir():
             return JSONResponse(
                 status_code=404,
                 content={"error": f"Directory not found: {path}"}
             )
-            
+
         # Generate the tree
         tree = generate_directory_tree(full_path, max_depth=max_depth)
-        
+
         return {
             "path": path,
             "tree": tree
@@ -858,17 +872,33 @@ async def mindmap(request: Request):
         {"request": request, "title": "Mind Map - Kenneth Reitz", "content": None, "files": None}
     )
 
+
 @app.get("/", response_class=HTMLResponse, include_in_schema=False)
 @app.get("/{path:path}", response_class=HTMLResponse, include_in_schema=False)
 async def browse(
-    request: Request, 
-    path: str = "", 
+    request: Request,
+    path: str = "",
     sort: str = Query(None, description="Sort order for files"),
     tag: str = Query(None, description="Filter by tag")
 ):
     logger.info(f"Browsing path: {path}")
     full_path = MARKDOWN_DIR / path
-    
+
+    # Check if it's a directory and the URL doesn't end with '/'
+    if full_path.is_dir() and path and not path.endswith('/'):
+        # Preserve query parameters in the redirect
+        query_params = []
+        if sort:
+            query_params.append(f"sort={sort}")
+        if tag:
+            query_params.append(f"tag={tag}")
+
+        query_string = f"?{'&'.join(query_params)}" if query_params else ""
+        redirect_url = f"/{path}/{query_string}"
+
+        logger.info(f"Redirecting directory without trailing slash: {path} to {redirect_url}")
+        return RedirectResponse(url=redirect_url, status_code=301)
+
     if not full_path.exists():
         full_path_with_md = full_path.with_suffix(".md")
         if full_path_with_md.exists():
@@ -892,18 +922,18 @@ async def browse(
 
     metadata = None
     template_name = "index.html"
-    
+
     if full_path.is_dir():
         all_items, content, metadata = process_directory(full_path)
         date_created = None
-        
+
         # Apply tag filter if specified
         if tag:
             all_items = [
                 item for item in all_items
                 if not item.is_dir and item.metadata and item.metadata.tags and tag in item.metadata.tags
             ]
-        
+
         # Apply sort if specified
         if sort and all_items:
             if sort == "name":
@@ -918,11 +948,11 @@ async def browse(
         try:
             if is_image(full_path):
                 return FileResponse(full_path, media_type="image/jpeg")
-                
+
             content, metadata = process_markdown_file_with_metadata(full_path)
             all_items = None
             date_created = get_file_creation_date(full_path)
-            
+
             # Use post template for markdown files
             template_name = "post.html"
         except UnicodeDecodeError:
@@ -930,13 +960,13 @@ async def browse(
             return FileResponse(full_path, filename=full_path.name)
 
     breadcrumbs = generate_breadcrumbs(path)
-    
+
     # Use metadata title if available, otherwise use breadcrumbs
     if metadata and metadata.title:
         page_title = metadata.title
     else:
         page_title = generate_title_from_breadcrumbs(breadcrumbs)
-        
+
     has_images = any(item.is_image for item in all_items or [])
 
     # If in image gallery, consider randomizing
@@ -944,20 +974,20 @@ async def browse(
         # Separate images and non-images
         image_items = [item for item in all_items if item.is_image]
         non_image_items = [item for item in all_items if not item.is_image]
-        
+
         # Randomize images
         random.shuffle(image_items)
-        
+
         # Recombine
         all_items = non_image_items + image_items
 
     # Special handling for index page
     is_root = path == ""
-    
+
     # Determine if we should use photo_browser for image-heavy directories
     if has_images and len([item for item in all_items if item.is_image]) > 5:
         template_name = "photo_browser.html"
-        
+
     # Check for layout override in metadata
     if metadata and metadata.layout:
         template_name = f"{metadata.layout}.html"
@@ -971,10 +1001,10 @@ async def browse(
             template_name = "post.html"
         else:
             template_name = "directory.html"
-        
+
     # Determine if we're in photos path
     is_photos = path.startswith("photos") or path.find("/photos") >= 0
-    
+
     return templates.TemplateResponse(
         template_name,
         {
