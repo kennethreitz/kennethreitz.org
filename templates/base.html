@@ -13,8 +13,19 @@
     <meta property="og:image" content="https://kennethreitz.org/static/images/og-image.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@kennethreitz42">
-
-    <title>{% block title %}kennethreitz.org — {% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                terminal: "#0d0d0d"
+              }
+            }
+          }
+        }
+      </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7x1z5l5c5e5c5e5c5e5c5e5c5e5c5e5c5" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

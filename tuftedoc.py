@@ -13,12 +13,21 @@ import yaml
 from contextlib import asynccontextmanager
 from datetime import datetime
 from typing import List, Optional, Tuple, Dict, Any, Union
+from PIL import Image
+import io
+
 
 import background
 import boto3
 import mistune
 from fastapi import FastAPI, HTTPException, Request, Query
-from fastapi.responses import FileResponse, HTMLResponse, Response, RedirectResponse, JSONResponse
+from fastapi.responses import (
+    FileResponse,
+    HTMLResponse,
+    Response,
+    RedirectResponse,
+    JSONResponse,
+)
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.middleware.cors import CORSMiddleware
@@ -96,15 +105,24 @@ markdown = mistune.create_markdown(
 # Models
 class Metadata(BaseModel):
     """Metadata extracted from frontmatter in markdown files."""
-    title: Optional[str] = Field(None, description="Title from the document frontmatter")
+
+    title: Optional[str] = Field(
+        None, description="Title from the document frontmatter"
+    )
     date: Optional[str] = Field(None, description="Date of publication")
     author: Optional[str] = Field(None, description="Author of the document")
-    tags: Optional[List[str]] = Field(None, description="Tags associated with the document")
-    description: Optional[str] = Field(None, description="Brief description of the content")
+    tags: Optional[List[str]] = Field(
+        None, description="Tags associated with the document"
+    )
+    description: Optional[str] = Field(
+        None, description="Brief description of the content"
+    )
     featured_image: Optional[str] = Field(None, description="Path to a featured image")
     draft: Optional[bool] = Field(False, description="Whether the content is a draft")
     layout: Optional[str] = Field(None, description="Layout template to use")
-    extra: Optional[Dict[str, Any]] = Field(None, description="Additional custom metadata")
+    extra: Optional[Dict[str, Any]] = Field(
+        None, description="Additional custom metadata"
+    )
 
 
 class FileInfo(BaseModel):
@@ -119,7 +137,9 @@ class FileInfo(BaseModel):
     is_dir: bool = Field(..., description="Whether the item is a directory")
     is_image: bool = Field(False, description="Whether the item is an image")
     exif_data: Optional[dict] = Field(None, description="EXIF data for image files")
-    metadata: Optional[Metadata] = Field(None, description="Frontmatter metadata if available")
+    metadata: Optional[Metadata] = Field(
+        None, description="Frontmatter metadata if available"
+    )
     summary: Optional[str] = Field(None, description="Brief summary of the content")
 
 
@@ -228,7 +248,9 @@ def extract_frontmatter(markdown_content: str) -> Tuple[Optional[Dict[str, Any]]
         except Exception as e:
             logger.error(f"Error parsing frontmatter: {e}")
             # If there's an error in parsing, return the original content without frontmatter
-            content = re.sub(r"^---\n.*?^---\n", "", markdown_content, flags=re.MULTILINE | re.DOTALL)
+            content = re.sub(
+                r"^---\n.*?^---\n", "", markdown_content, flags=re.MULTILINE | re.DOTALL
+            )
             return None, content
     else:
         # No frontmatter found
@@ -253,8 +275,7 @@ def parse_metadata(frontmatter: Optional[Dict[str, Any]]) -> Optional[Metadata]:
     }
 
     # Copy any extra fields to the extra dict
-    extra_fields = {k: v for k, v in frontmatter.items()
-                  if k not in metadata_dict}
+    extra_fields = {k: v for k, v in frontmatter.items() if k not in metadata_dict}
 
     if extra_fields:
         metadata_dict["extra"] = extra_fields
@@ -311,7 +332,7 @@ def generate_summary(markdown_content: str, max_length: int = 150) -> str:
 
     # Truncate to max_length
     if len(content) > max_length:
-        content = content[:max_length-3] + "..."
+        content = content[: max_length - 3] + "..."
 
     return content
 
@@ -336,16 +357,39 @@ def get_clean_url(path: str) -> str:
     else:
         # Check if it's a directory path by checking the filesystem
         full_path = MARKDOWN_DIR / path
-        if full_path.is_dir() and not path.endswith('/'):
+        if full_path.is_dir() and not path.endswith("/"):
             return "/" + path + "/"
         return "/" + path
+
 
 def get_file_creation_date(file_path: pathlib.Path) -> datetime:
     return datetime.fromtimestamp(file_path.stat().st_ctime)
 
 
 def is_image(file_path: pathlib.Path) -> bool:
-    return file_path.suffix.lower() in (".jpg", ".jpeg", ".png", ".gif")
+    return file_path.suffix.lower() in (
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".gif",
+        ".webp",
+        ".tiff",
+        ".bmp",
+    )
+
+
+def get_image_media_type(file_path: pathlib.Path) -> str:
+    extension = file_path.suffix.lower()
+    media_types = {
+        ".jpg": "image/jpeg",
+        ".jpeg": "image/jpeg",
+        ".png": "image/png",
+        ".gif": "image/gif",
+        ".webp": "image/webp",
+        ".tiff": "image/tiff",
+        ".bmp": "image/bmp",
+    }
+    return media_types.get(extension, "application/octet-stream")
 
 
 def get_exif_data(image_path: pathlib.Path) -> dict:
@@ -366,7 +410,10 @@ def get_exif_data(image_path: pathlib.Path) -> dict:
         logger.error(f"Error reading EXIF data: {e}")
     return {}
 
-def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional[str], Optional[Metadata]]:
+
+def process_directory(
+    full_path: pathlib.Path,
+) -> Tuple[List[FileInfo], Optional[str], Optional[Metadata]]:
     logger.info(f"Processing directory: {full_path}")
     all_items = []
 
@@ -375,7 +422,9 @@ def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional
     files = []
 
     for item in full_path.iterdir():
-        if item.name in [".DS_Store", ".git", "node_modules"] or item.name.startswith("."):
+        if item.name in [".DS_Store", ".git", "node_modules"] or item.name.startswith(
+            "."
+        ):
             continue
 
         if item.name == "index.md":
@@ -410,8 +459,8 @@ def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional
 
         # Ensure directory URLs end with a trailing slash
         item_url = get_clean_url(str(item.relative_to(MARKDOWN_DIR)))
-        if item.is_dir() and not item_url.endswith('/'):
-            item_url += '/'
+        if item.is_dir() and not item_url.endswith("/"):
+            item_url += "/"
 
         item_data = FileInfo(
             name=title_case(item.name),
@@ -456,6 +505,7 @@ def process_directory(full_path: pathlib.Path) -> Tuple[List[FileInfo], Optional
     logger.info(f"Processed {len(all_items)} items in directory: {full_path}")
     return all_items, index_content, index_metadata
 
+
 def process_markdown_file(file_path: pathlib.Path) -> str:
     """Process markdown file and return the rendered HTML content."""
     logger.info(f"Processing markdown file: {file_path}")
@@ -475,7 +525,9 @@ def process_markdown_file(file_path: pathlib.Path) -> str:
         return f"<p>Error processing markdown file: {str(e)}</p>"
 
 
-def process_markdown_file_with_metadata(file_path: pathlib.Path) -> Tuple[str, Optional[Metadata]]:
+def process_markdown_file_with_metadata(
+    file_path: pathlib.Path,
+) -> Tuple[str, Optional[Metadata]]:
     """Process markdown file and return both the rendered content and metadata."""
     logger.info(f"Processing markdown file with metadata: {file_path}")
 
@@ -524,7 +576,9 @@ def generate_title_from_breadcrumbs(breadcrumbs: List[Breadcrumb]) -> str:
     return " > ".join(crumb.title or crumb.name for crumb in breadcrumbs)
 
 
-def generate_directory_tree(directory_path: pathlib.Path, max_depth: int = 3, current_depth: int = 0) -> List[Dict[str, Any]]:
+def generate_directory_tree(
+    directory_path: pathlib.Path, max_depth: int = 3, current_depth: int = 0
+) -> List[Dict[str, Any]]:
     """
     Generate a recursive directory tree structure.
 
@@ -541,9 +595,14 @@ def generate_directory_tree(directory_path: pathlib.Path, max_depth: int = 3, cu
 
     result = []
     try:
-        for item in sorted(directory_path.iterdir(), key=lambda x: (not x.is_dir(), x.name.lower())):
+        for item in sorted(
+            directory_path.iterdir(), key=lambda x: (not x.is_dir(), x.name.lower())
+        ):
             # Skip hidden files and directories
-            if item.name.startswith(".") or item.name in ["__pycache__", "node_modules"]:
+            if item.name.startswith(".") or item.name in [
+                "__pycache__",
+                "node_modules",
+            ]:
                 continue
 
             # Get item metadata
@@ -571,7 +630,7 @@ def generate_directory_tree(directory_path: pathlib.Path, max_depth: int = 3, cu
                 "path": str(item.relative_to(MARKDOWN_DIR)),
                 "url": get_clean_url(str(item.relative_to(MARKDOWN_DIR))),
                 "is_dir": is_dir,
-                "has_index": (item / "index.md").exists() if is_dir else False
+                "has_index": (item / "index.md").exists() if is_dir else False,
             }
 
             # Add children recursively if it's a directory
@@ -659,7 +718,7 @@ async def get_content_api(
     request: Request,
     path: str = "",
     format: str = Query("json", description="Response format (json or html)"),
-    tree: bool = Query(False, description="Return directory tree structure")
+    tree: bool = Query(False, description="Return directory tree structure"),
 ):
     """
     Get the content and metadata for a specific path.
@@ -702,13 +761,15 @@ async def get_content_api(
                 "content": content,
                 "metadata": metadata.dict() if metadata else None,
                 "path": path,
-                "last_modified": datetime.fromtimestamp(full_path.stat().st_mtime).isoformat(),
+                "last_modified": datetime.fromtimestamp(
+                    full_path.stat().st_mtime
+                ).isoformat(),
             }
         # Other file types
         else:
             return JSONResponse(
                 status_code=400,
-                content={"error": f"Unsupported file type: {full_path.suffix}"}
+                content={"error": f"Unsupported file type: {full_path.suffix}"},
             )
 
         if format.lower() == "html":
@@ -720,17 +781,14 @@ async def get_content_api(
 
     except Exception as e:
         logger.error(f"API error: {str(e)}")
-        return JSONResponse(
-            status_code=500,
-            content={"error": str(e)}
-        )
+        return JSONResponse(status_code=500, content={"error": str(e)})
 
 
 @app.get("/api/search", response_model=Dict[str, Any], tags=["API"])
 async def search_content(
     q: str = Query(..., description="Search query"),
     path: str = Query("", description="Path to limit search to"),
-    tags: Optional[List[str]] = Query(None, description="Filter by tags")
+    tags: Optional[List[str]] = Query(None, description="Filter by tags"),
 ):
     """Search content in the repository."""
     logger.info(f"Search request: q={q}, path={path}, tags={tags}")
@@ -764,31 +822,40 @@ async def search_content(
                     continue
 
             # Check for matches in content or title
-            if (q.lower() in content_text.lower() or
-                (metadata and metadata.title and q.lower() in metadata.title.lower())):
+            if q.lower() in content_text.lower() or (
+                metadata and metadata.title and q.lower() in metadata.title.lower()
+            ):
 
-                title = metadata.title if metadata and metadata.title else get_h1_from_markdown(item)
+                title = (
+                    metadata.title
+                    if metadata and metadata.title
+                    else get_h1_from_markdown(item)
+                )
                 summary = generate_summary(content)
 
-                results.append({
-                    "title": title or item.stem,
-                    "path": get_clean_url(relative_path),
-                    "summary": summary,
-                    "tags": metadata.tags if metadata and metadata.tags else [],
-                    "date": metadata.date if metadata and metadata.date else None,
-                })
+                results.append(
+                    {
+                        "title": title or item.stem,
+                        "path": get_clean_url(relative_path),
+                        "summary": summary,
+                        "tags": metadata.tags if metadata and metadata.tags else [],
+                        "date": metadata.date if metadata and metadata.date else None,
+                    }
+                )
         except Exception as e:
             logger.error(f"Error processing file {item} during search: {e}")
 
     # Sort results by relevance (could be improved)
-    results.sort(key=lambda x: 0 if x.get("title", "").lower().startswith(q.lower()) else 1)
+    results.sort(
+        key=lambda x: 0 if x.get("title", "").lower().startswith(q.lower()) else 1
+    )
 
     return {
         "query": q,
         "path": path,
         "tags": tags,
         "count": len(results),
-        "results": results
+        "results": results,
     }
 
 
@@ -818,10 +885,7 @@ async def get_all_tags():
     sorted_tags = [{"name": tag, "count": count} for tag, count in tags_count.items()]
     sorted_tags.sort(key=lambda x: x["count"], reverse=True)
 
-    return {
-        "count": len(sorted_tags),
-        "tags": sorted_tags
-    }
+    return {"count": len(sorted_tags), "tags": sorted_tags}
 
 
 @app.get("/api/tree", response_model=Dict[str, Any], tags=["API"])
@@ -844,23 +908,16 @@ async def get_directory_tree_api(
 
         if not full_path.exists() or not full_path.is_dir():
             return JSONResponse(
-                status_code=404,
-                content={"error": f"Directory not found: {path}"}
+                status_code=404, content={"error": f"Directory not found: {path}"}
             )
 
         # Generate the tree
         tree = generate_directory_tree(full_path, max_depth=max_depth)
 
-        return {
-            "path": path,
-            "tree": tree
-        }
+        return {"path": path, "tree": tree}
     except Exception as e:
         logger.error(f"Error generating tree: {str(e)}")
-        return JSONResponse(
-            status_code=500,
-            content={"error": str(e)}
-        )
+        return JSONResponse(status_code=500, content={"error": str(e)})
 
 
 @app.get("/mindmap", response_class=HTMLResponse, include_in_schema=False)
@@ -869,7 +926,12 @@ async def mindmap(request: Request):
     logger.info("Rendering mindmap view")
     return templates.TemplateResponse(
         "mindmap.html",
-        {"request": request, "title": "Mind Map - Kenneth Reitz", "content": None, "files": None}
+        {
+            "request": request,
+            "title": "Mind Map - Kenneth Reitz",
+            "content": None,
+            "files": None,
+        },
     )
 
 
@@ -879,13 +941,29 @@ async def browse(
     request: Request,
     path: str = "",
     sort: str = Query(None, description="Sort order for files"),
-    tag: str = Query(None, description="Filter by tag")
+    tag: str = Query(None, description="Filter by tag"),
+    view: str = Query(None, description="View type (grid / list)"),
 ):
     logger.info(f"Browsing path: {path}")
     full_path = MARKDOWN_DIR / path
 
+    # Handle image files directly
+    if not full_path.exists():
+        # Try common image extensions
+        for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp", ".tiff", ".bmp"]:
+            image_path = full_path.with_suffix(ext)
+            if image_path.exists() and is_image(image_path):
+                return FileResponse(
+                    image_path,
+                    media_type=get_image_media_type(image_path),
+                    headers={
+                        "Cache-Control": "public, max-age=31536000",
+                        "Content-Disposition": f"inline; filename={image_path.name}",
+                    },
+                )
+
     # Check if it's a directory and the URL doesn't end with '/'
-    if full_path.is_dir() and path and not path.endswith('/'):
+    if full_path.is_dir() and path and not path.endswith("/"):
         # Preserve query parameters in the redirect
         query_params = []
         if sort:
@@ -896,7 +974,9 @@ async def browse(
         query_string = f"?{'&'.join(query_params)}" if query_params else ""
         redirect_url = f"/{path}/{query_string}"
 
-        logger.info(f"Redirecting directory without trailing slash: {path} to {redirect_url}")
+        logger.info(
+            f"Redirecting directory without trailing slash: {path} to {redirect_url}"
+        )
         return RedirectResponse(url=redirect_url, status_code=301)
 
     if not full_path.exists():
@@ -930,8 +1010,12 @@ async def browse(
         # Apply tag filter if specified
         if tag:
             all_items = [
-                item for item in all_items
-                if not item.is_dir and item.metadata and item.metadata.tags and tag in item.metadata.tags
+                item
+                for item in all_items
+                if not item.is_dir
+                and item.metadata
+                and item.metadata.tags
+                and tag in item.metadata.tags
             ]
 
         # Apply sort if specified
@@ -984,9 +1068,9 @@ async def browse(
     # Special handling for index page
     is_root = path == ""
 
-    # Determine if we should use photo_browser for image-heavy directories
-    if has_images and len([item for item in all_items if item.is_image]) > 5:
-        template_name = "photo_browser.html"
+    # Always use images.html for any directory with images
+    if has_images:
+        template_name = "photo-grid.html"
 
     # Check for layout override in metadata
     if metadata and metadata.layout:
@@ -1005,6 +1089,9 @@ async def browse(
     # Determine if we're in photos path
     is_photos = path.startswith("photos") or path.find("/photos") >= 0
 
+    logger.info(
+        f"Rendering template: {template_name} | Path: {path} | Items: {len(all_items or [])}"
+    )
     return templates.TemplateResponse(
         template_name,
         {
@@ -1025,9 +1112,181 @@ async def browse(
     )
 
 
+@app.get("/api/preview/{path:path}", include_in_schema=False)
+async def image_preview(
+    request: Request,
+    path: str,
+    width: int = Query(300, gt=0, lt=2000),
+    height: int = Query(300, gt=0, lt=2000),
+    mode: str = Query("fit", regex="^(fit|crop)$"),
+):
+    """Generate image preview/thumbnail."""
+    try:
+        full_path = MARKDOWN_DIR / path
+        if not full_path.exists() or not is_image(full_path):
+            raise HTTPException(status_code=404, detail="Image not found")
+
+        # Open and resize image
+        with Image.open(full_path) as img:
+            # Convert RGBA to RGB if necessary
+            if img.mode == "RGBA":
+                img = img.convert("RGB")
+
+            if mode == "fit":
+                img.thumbnail((width, height), Image.Resampling.LANCZOS)
+            else:  # crop
+                img = img.resize((width, height), Image.Resampling.LANCZOS)
+
+            # Save to buffer
+            buffer = io.BytesIO()
+            img.save(buffer, format="JPEG", quality=85, optimize=True)
+            buffer.seek(0)
+
+        return Response(
+            content=buffer.getvalue(),
+            media_type="image/jpeg",
+            headers={"Cache-Control": "public, max-age=31536000"},
+        )
+    except Exception as e:
+        logger.error(f"Error generating preview for {path}: {e}")
+        raise HTTPException(status_code=500, detail="Error generating preview")
+
+
 @app.exception_handler(500)
 async def custom_404_handler(request: Request, exc: HTTPException):
     return RedirectResponse(url="/")
+
+
+@app.route("/image/<image_id>")
+def show_image(image_id):
+    """Display an image with its metadata and navigation."""
+    try:
+        # Get image info
+        image = get_image(image_id)
+        if not image:
+            logger.warning(f"Image not found: {image_id}")
+            return templates.TemplateResponse(
+                "images.html",
+                {
+                    "request": request,
+                    "image_url": None,
+                    "title": "Image Not Found",
+                },
+            )
+
+        # Get navigation links
+        prev_image = get_prev_image(image_id)
+        next_image = get_next_image(image_id)
+
+        # Get EXIF metadata if available
+        metadata = None
+        if hasattr(image, "path"):
+            metadata = {"exif_data": get_exif_data(image.path)}
+
+        return templates.TemplateResponse(
+            "images.html",
+            {
+                "request": request,
+                "image_url": image.url,
+                "title": getattr(image, "title", None),
+                "metadata": metadata,
+                "prev_image": prev_image,
+                "next_image": next_image,
+            },
+        )
+
+    except Exception as e:
+        logger.error(f"Error displaying image {image_id}: {e}")
+        return templates.TemplateResponse(
+            "images.html",
+            {
+                "request": request,
+                "image_url": None,
+                "title": "Error Loading Image",
+                "error": str(e),
+            },
+        )
+
+
+def get_image(image_id: str) -> Optional[Dict[str, Any]]:
+    """Get image information by ID (path)."""
+    try:
+        # Convert image_id to Path
+        image_path = MARKDOWN_DIR / image_id
+        logger.info(f"Looking for image with ID: {image_id}")
+        logger.info(f"Resolved image path: {image_path}")
+
+        # Try common image extensions if no extension provided
+        if not image_path.exists():
+            for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp", ".tiff", ".bmp"]:
+                test_path = image_path.with_suffix(ext)
+                if test_path.exists() and is_image(test_path):
+                    image_path = test_path
+                    break
+
+        if not image_path.exists() or not is_image(image_path):
+            logger.warning(f"Image not found at: {image_path}")
+            return None
+
+        return {
+            "id": str(image_path.relative_to(MARKDOWN_DIR)),
+            "url": f"/data/{image_path.relative_to(MARKDOWN_DIR)}",
+            "path": str(image_path),
+            "title": image_path.stem.replace("-", " ").title(),
+            "metadata": {"exif_data": get_exif_data(image_path)},
+        }
+
+    except Exception as e:
+        logger.error(f"Error getting image {image_id}: {e}")
+        return None
+
+
+def get_prev_image(current_id: str) -> Optional[Dict[str, Any]]:
+    """Get previous image in the same directory."""
+    try:
+        current_path = MARKDOWN_DIR / current_id
+        parent_dir = current_path.parent
+
+        # Get all images in the directory
+        images = sorted([f for f in parent_dir.iterdir() if is_image(f)])
+
+        # Find current image index
+        current_idx = next(
+            (i for i, img in enumerate(images) if img.name == current_path.name), -1
+        )
+
+        # Get previous image
+        if current_idx > 0:
+            return get_image(str(images[current_idx - 1].relative_to(MARKDOWN_DIR)))
+        return None
+
+    except Exception as e:
+        logger.error(f"Error getting previous image for {current_id}: {e}")
+        return None
+
+
+def get_next_image(current_id: str) -> Optional[Dict[str, Any]]:
+    """Get next image in the same directory."""
+    try:
+        current_path = MARKDOWN_DIR / current_id
+        parent_dir = current_path.parent
+
+        # Get all images in the directory
+        images = sorted([f for f in parent_dir.iterdir() if is_image(f)])
+
+        # Find current image index
+        current_idx = next(
+            (i for i, img in enumerate(images) if img.name == current_path.name), -1
+        )
+
+        # Get next image
+        if current_idx < len(images) - 1:
+            return get_image(str(images[current_idx + 1].relative_to(MARKDOWN_DIR)))
+        return None
+
+    except Exception as e:
+        logger.error(f"Error getting next image for {current_id}: {e}")
+        return None
 
 
 if __name__ == "__main__":
