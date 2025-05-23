@@ -28,9 +28,8 @@
 }
 
 .tufte h1 {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   letter-spacing: -0.03em;
-  text-shadow: 0 0 20px rgba(181, 167, 224, 0.3);
 }
 
 .tufte h2, .tufte h3, .tufte h4, .tufte h5, .tufte h6 {
@@ -45,9 +44,8 @@
   font-size: 3.4rem;
   line-height: 1.1;
   letter-spacing: -0.02em;
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   color: #b5a7e0;
-  text-shadow: 0 0 15px rgba(155, 134, 211, 0.2);
 }
   background: linear-gradient(135deg, #b5a7e0 0%, #6f52b0 100%);
   -webkit-background-clip: text;
@@ -133,7 +131,7 @@
 .tufte p:first-of-type {
   font-size: 1.5rem;
   line-height: 2.2rem;
-  color: #b5a7e0;
+  color: inherit;
 }
 
 /* Links with Kenneth's branding */

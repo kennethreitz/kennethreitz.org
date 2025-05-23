@@ -30,10 +30,15 @@ def get_directory_structure(path):
         display_name = item.stem if item.is_file() and item.suffix else item.name
         display_name = display_name.replace('-', ' ').replace('_', ' ').title()
         
-        # Create URL path with trailing slash for directories
-        url_path = '/' + str(item.relative_to(DATA_DIR))
+        # Create clean URL path without .md extension
         if item.is_dir():
-            url_path += '/'
+            url_path = '/' + str(item.relative_to(DATA_DIR)) + '/'
+        elif item.suffix == '.md':
+            # Remove .md extension for clean URLs
+            relative_path = str(item.relative_to(DATA_DIR))
+            url_path = '/' + relative_path[:-3]  # Remove .md extension
+        else:
+            url_path = '/' + str(item.relative_to(DATA_DIR))
         
         item_info = {
             'name': item.name,
@@ -212,11 +217,23 @@ def serve_path(path):
     """Serve files and directories from the data folder."""
     full_path = DATA_DIR / path
     
+    # If the path doesn't exist, try adding .md extension for markdown files
     if not full_path.exists():
-        abort(404)
+        md_path = DATA_DIR / (path + '.md')
+        if md_path.exists() and md_path.suffix == '.md':
+            full_path = md_path
+        else:
+            abort(404)
     
     # Generate breadcrumbs
-    path_parts = path.split('/')
+    # For clean URLs, we need to handle the case where path might not include .md
+    original_path = path
+    if full_path.suffix == '.md' and not path.endswith('.md'):
+        # This is a clean URL for a markdown file
+        path_parts = path.split('/')
+    else:
+        path_parts = path.split('/')
+    
     breadcrumbs = []
     current = ''
     for part in path_parts[:-1]:  # Exclude the current page
@@ -250,7 +267,7 @@ def serve_path(path):
         
         return render_template('directory.html', 
                              items=items, 
-                             current_path=path,
+                             current_path=original_path,
                              title=title,
                              breadcrumbs=breadcrumbs,
                              index_content=index_content,
@@ -394,6 +411,107 @@ def mindmap():
                          breadcrumbs=[],
                          current_year=datetime.now().year,
                          current_page='Mind Map')
+
+def generate_sitemap_data():
+    """Generate sitemap data by recursively scanning the data directory."""
+    sitemap_items = []
+    
+    def scan_directory(path, url_path=""):
+        if not path.exists() or not path.is_dir():
+            return
+            
+        for item in sorted(path.iterdir()):
+            if item.name.startswith('.'):
+                continue
+                
+            item_url_path = f"{url_path}/{item.name}" if url_path else item.name
+            
+            if item.is_dir():
+                # Add directory to sitemap
+                sitemap_items.append({
+                    'url': f"/{item_url_path}",
+                    'title': item.name.replace('-', ' ').replace('_', ' ').title(),
+                    'type': 'directory',
+                    'modified': datetime.fromtimestamp(item.stat().st_mtime)
+                })
+                # Recursively scan subdirectories
+                scan_directory(item, item_url_path)
+            elif item.suffix == '.md':
+                # Remove .md extension for clean URLs
+                clean_url_path = item_url_path[:-3] if item_url_path.endswith('.md') else item_url_path
+                
+                # Get title from file content
+                title = item.stem.replace('-', ' ').replace('_', ' ').title()
+                try:
+                    content_data = render_markdown_file(item)
+                    title = content_data['title']
+                except:
+                    pass
+                
+                sitemap_items.append({
+                    'url': f"/{clean_url_path}",
+                    'title': title,
+                    'type': 'article',
+                    'modified': datetime.fromtimestamp(item.stat().st_mtime)
+                })
+    
+    # Start scanning from data directory
+    scan_directory(DATA_DIR)
+    
+    # Add static pages
+    static_pages = [
+        {'url': '/', 'title': 'Kenneth Reitz - Digital Mind Map', 'type': 'homepage'},
+        {'url': '/directory', 'title': 'File Explorer', 'type': 'directory'},
+        {'url': '/sitemap', 'title': 'Site Map', 'type': 'sitemap'}
+    ]
+    
+    return static_pages + sitemap_items
+
+@app.route('/sitemap')
+def sitemap():
+    """Show the site sitemap."""
+    sitemap_data = generate_sitemap_data()
+    
+    # Group by type
+    grouped_sitemap = {
+        'homepage': [],
+        'directory': [],
+        'article': [],
+        'sitemap': []
+    }
+    
+    for item in sitemap_data:
+        item_type = item.get('type', 'article')
+        if item_type in grouped_sitemap:
+            grouped_sitemap[item_type].append(item)
+    
+    return render_template('sitemap.html',
+                         title='Site Map',
+                         sitemap_data=grouped_sitemap,
+                         total_items=len(sitemap_data),
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='Site Map')
+
+@app.route('/sitemap.xml')
+def sitemap_xml():
+    """Generate XML sitemap for search engines."""
+    sitemap_data = generate_sitemap_data()
+    
+    xml_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    xml_content += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    
+    for item in sitemap_data:
+        xml_content += '  <url>\n'
+        xml_content += f'    <loc>https://kennethreitz.org{item["url"]}</loc>\n'
+        if 'modified' in item:
+            xml_content += f'    <lastmod>{item["modified"].strftime("%Y-%m-%d")}</lastmod>\n'
+        xml_content += '  </url>\n'
+    
+    xml_content += '</urlset>'
+    
+    from flask import Response
+    return Response(xml_content, mimetype='application/xml')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)

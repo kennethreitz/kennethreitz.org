@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mb-8">
+    <h1 class="text-5xl font-bold text-gray-100 mb-4 tracking-tight page-title font-serif">
+        🗺️ Site Map
+    </h1>
+    <p class="text-xl text-gray-400 font-serif italic tracking-wide">
+        Navigate the complete universe of Kenneth Reitz's digital knowledge
+    </p>
+</div>
+
+<!-- Statistics -->
+<div class="bg-gray-800/30 border border-gray-700/50 rounded-lg p-6 mb-8 backdrop-blur-sm">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+        <div>
+            <div class="text-3xl font-bold text-primary-300 mb-2">{{ total_items }}</div>
+            <div class="text-sm text-gray-300 font-medium">Total Pages</div>
+        </div>
+        <div>
+            <div class="text-3xl font-bold text-primary-300 mb-2">{{ sitemap_data.article|length }}</div>
+            <div class="text-sm text-gray-300 font-medium">Articles</div>
+        </div>
+        <div>
+            <div class="text-3xl font-bold text-primary-300 mb-2">{{ sitemap_data.directory|length }}</div>
+            <div class="text-sm text-gray-300 font-medium">Directories</div>
+        </div>
+        <div>
+            <div class="text-3xl font-bold text-primary-300 mb-2">∞</div>
+            <div class="text-sm text-gray-300 font-medium">Connections</div>
+        </div>
+    </div>
+</div>
+
+<!-- Main Navigation -->
+{% if sitemap_data.homepage %}
+<section class="mb-8">
+    <h2 class="text-2xl font-bold text-gray-100 mb-4 border-b border-gray-700 pb-2 font-serif">
+        🏠 Homepage
+    </h2>
+    <div class="bg-gray-800/20 rounded-lg p-4">
+        {% for item in sitemap_data.homepage %}
+        <a href="{{ item.url }}" class="block p-3 rounded-lg hover:bg-gray-700/30 transition-colors group">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h3 class="font-semibold text-gray-200 group-hover:text-primary-400 transition-colors">
+                        {{ item.title }}
+                    </h3>
+                    <p class="text-sm text-gray-400 mt-1">{{ item.url }}</p>
+                </div>
+                <svg class="w-5 h-5 text-gray-500 group-hover:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
+<!-- Directories -->
+{% if sitemap_data.directory %}
+<section class="mb-8">
+    <h2 class="text-2xl font-bold text-gray-100 mb-4 border-b border-gray-700 pb-2 font-serif">
+        📁 Directories & Collections
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {% for item in sitemap_data.directory %}
+        <a href="{{ item.url }}" class="block bg-gray-800/20 rounded-lg p-4 hover:bg-gray-700/30 transition-colors group">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h3 class="font-semibold text-gray-200 group-hover:text-primary-400 transition-colors flex items-center">
+                        📁 {{ item.title }}
+                    </h3>
+                    <p class="text-sm text-gray-400 mt-1">{{ item.url }}</p>
+                    {% if item.modified %}
+                    <p class="text-xs text-gray-500 mt-1">Updated {{ item.modified.strftime('%B %d, %Y') }}</p>
+                    {% endif %}
+                </div>
+                <svg class="w-5 h-5 text-gray-500 group-hover:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
+<!-- Articles -->
+{% if sitemap_data.article %}
+<section class="mb-8">
+    <h2 class="text-2xl font-bold text-gray-100 mb-4 border-b border-gray-700 pb-2 font-serif">
+        📄 Articles & Content
+    </h2>
+    <div class="space-y-2">
+        {% for item in sitemap_data.article %}
+        <a href="{{ item.url }}" class="block bg-gray-800/20 rounded-lg p-4 hover:bg-gray-700/30 transition-colors group">
+            <div class="flex items-center justify-between">
+                <div class="flex-1">
+                    <h3 class="font-semibold text-gray-200 group-hover:text-primary-400 transition-colors flex items-center">
+                        📄 {{ item.title }}
+                    </h3>
+                    <p class="text-sm text-gray-400 mt-1">{{ item.url }}</p>
+                    {% if item.modified %}
+                    <p class="text-xs text-gray-500 mt-1">Updated {{ item.modified.strftime('%B %d, %Y') }}</p>
+                    {% endif %}
+                </div>
+                <svg class="w-5 h-5 text-gray-500 group-hover:text-primary-400 transition-colors flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
+<!-- Technical Sitemap -->
+<section class="mb-8">
+    <h2 class="text-2xl font-bold text-gray-100 mb-4 border-b border-gray-700 pb-2 font-serif">
+        🔧 Technical
+    </h2>
+    <div class="bg-gray-800/20 rounded-lg p-4">
+        <a href="/sitemap.xml" class="block p-3 rounded-lg hover:bg-gray-700/30 transition-colors group">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h3 class="font-semibold text-gray-200 group-hover:text-primary-400 transition-colors">
+                        XML Sitemap
+                    </h3>
+                    <p class="text-sm text-gray-400 mt-1">Machine-readable sitemap for search engines</p>
+                </div>
+                <svg class="w-5 h-5 text-gray-500 group-hover:text-primary-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+            </div>
+        </a>
+    </div>
+</section>
+
+<!-- Back to Mind Map -->
+<div class="text-center mt-12">
+    <a href="/" class="inline-flex items-center px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-colors duration-200">
+        🧠 Return to Mind Map
+        <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+    </a>
+</div>
+{% endblock %}
