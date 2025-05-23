@@ -254,7 +254,7 @@
 <article class="post">
     <!-- Post Header -->
     <header class="mb-12 pb-8 border-b-2 border-primary-200">
-        <h1 class="text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
+        <h1 class="text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight page-title">
             {{ title }}
         </h1>
         
@@ -288,6 +288,13 @@
             {{ content | safe }}
         </div>
         <style>
+            /* Style for page title to distinguish from content headers */
+            .page-title {
+                color: #4e3979 !important;
+                font-family: 'Inter', system-ui, sans-serif !important;
+                border-bottom: none !important;
+            }
+            
             /* Ensure proper bullet point display in Markdown content */
             .content-section h1,
             .content-section h2,
