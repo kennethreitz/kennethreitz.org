@@ -22,8 +22,138 @@
 </div>
 {% endif %}
 
-{% if items %}
-<!-- Directory Listing -->
+{% if is_image_gallery and image_items %}
+<!-- Image Gallery View -->
+<div class="mb-8">
+    <div class="flex items-center justify-between mb-6">
+        <h2 class="text-2xl font-bold text-gray-200 font-serif">Gallery</h2>
+        <div class="flex items-center gap-2">
+            <button id="grid-view" class="px-3 py-2 text-sm bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors">
+                Grid
+            </button>
+            <button id="list-view" class="px-3 py-2 text-sm bg-gray-700 text-gray-300 rounded-lg hover:bg-gray-600 transition-colors">
+                List
+            </button>
+        </div>
+    </div>
+    
+    <!-- Image Grid -->
+    <div id="image-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-8">
+        {% for item in image_items %}
+        <div class="group relative aspect-square overflow-hidden rounded-lg bg-gray-800 hover:scale-105 transition-transform duration-300">
+            <a href="{{ item.url_path }}" class="block w-full h-full">
+                <img src="{{ item.static_path }}" 
+                     alt="{{ item.display_name }}"
+                     class="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                     loading="lazy">
+                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
+                <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <p class="text-white text-sm font-medium truncate">{{ item.display_name }}</p>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <!-- Other Files (if any) -->
+    {% set non_image_items = items | rejectattr('is_image') | list %}
+    {% if non_image_items %}
+    <h3 class="text-xl font-semibold text-gray-300 mb-4 font-serif">Other Files</h3>
+    <div class="space-y-2">
+        {% for item in non_image_items %}
+        <div class="group flex items-center p-3 rounded-lg hover:bg-gray-800/70 transition-all duration-300 border border-transparent hover:border-gray-700 hover:border-primary-700/50 backdrop-blur-sm">
+            <!-- Item Icon -->
+            <div class="flex-shrink-0 w-10 text-center text-xl mr-4">
+                {% if item.is_dir %}
+                    <span class="text-primary-400">📁</span>
+                {% elif item.is_markdown %}
+                    <span class="text-blue-400">📝</span>
+                {% else %}
+                    <span class="text-gray-400">📄</span>
+                {% endif %}
+            </div>
+            
+            <!-- Item Content -->
+            <div class="flex-grow flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                <a href="{{ item.url_path }}" 
+                   class="text-lg font-medium {% if item.is_dir %}text-primary-300{% else %}text-gray-200 et-book{% endif %} hover:text-primary-400 transition-colors duration-200 group-hover:text-primary-300 tracking-wide">
+                    {{ item.display_name }}{% if item.is_dir %}/{% endif %}
+                </a>
+                
+                <!-- Item Meta -->
+                <div class="flex items-center gap-4 text-sm text-gray-400">
+                    <span class="font-mono">
+                        {{ item.modified.strftime('%b %d, %Y') }}
+                    </span>
+                    {% if item.is_dir %}
+                    <span class="px-2 py-1 bg-primary-900/60 text-primary-300 rounded-full text-xs font-medium uppercase tracking-wide border border-primary-700/30">
+                        folder
+                    </span>
+                    {% elif not item.is_markdown %}
+                    <span class="px-2 py-1 bg-gray-800/60 text-gray-300 rounded-full text-xs font-medium uppercase tracking-wide border border-gray-700/30">
+                        {{ item.file_type.replace('.', '') or 'file' }}
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+
+<!-- Hidden List View (for toggle) -->
+<div id="list-view-container" class="hidden mb-12 mt-8">
+    <div class="space-y-2">
+        {% for item in items %}
+        <div class="group flex items-center p-4 rounded-lg hover:bg-gray-800/70 transition-all duration-300 border border-transparent hover:border-gray-700 hover:border-primary-700/50 backdrop-blur-sm">
+            <!-- Item Icon -->
+            <div class="flex-shrink-0 w-10 text-center text-xl mr-4">
+                {% if item.is_dir %}
+                    <span class="text-primary-400">📁</span>
+                {% elif item.is_markdown %}
+                    <span class="text-blue-400">📝</span>
+                {% elif item.is_image %}
+                    <span class="text-green-400">🖼️</span>
+                {% else %}
+                    <span class="text-gray-400">📄</span>
+                {% endif %}
+            </div>
+            
+            <!-- Item Content -->
+            <div class="flex-grow flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                <a href="{{ item.url_path }}" 
+                   class="text-lg font-medium {% if item.is_dir %}text-primary-300{% else %}text-gray-200 et-book{% endif %} hover:text-primary-400 transition-colors duration-200 group-hover:text-primary-300 tracking-wide">
+                    {{ item.display_name }}{% if item.is_dir %}/{% endif %}
+                </a>
+                
+                <!-- Item Meta -->
+                <div class="flex items-center gap-4 text-sm text-gray-400">
+                    <span class="font-mono">
+                        {{ item.modified.strftime('%b %d, %Y') }}
+                    </span>
+                    {% if item.is_dir %}
+                    <span class="px-2 py-1 bg-primary-900/60 text-primary-300 rounded-full text-xs font-medium uppercase tracking-wide border border-primary-700/30">
+                        folder
+                    </span>
+                    {% elif item.is_image %}
+                    <span class="px-2 py-1 bg-green-900/60 text-green-300 rounded-full text-xs font-medium uppercase tracking-wide border border-green-700/30">
+                        image
+                    </span>
+                    {% elif not item.is_markdown %}
+                    <span class="px-2 py-1 bg-gray-800/60 text-gray-300 rounded-full text-xs font-medium uppercase tracking-wide border border-gray-700/30">
+                        {{ item.file_type.replace('.', '') or 'file' }}
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% elif items %}
+<!-- Regular Directory Listing -->
 <div class="space-y-2 mb-12 mt-8">
     {% for item in items %}
     <div class="group flex items-center p-4 rounded-lg hover:bg-gray-800/70 transition-all duration-300 border border-transparent hover:border-gray-700 hover:border-primary-700/50 backdrop-blur-sm">
@@ -96,6 +226,32 @@
 {% block extra_scripts %}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // View toggle functionality for image galleries
+    const gridViewBtn = document.getElementById('grid-view');
+    const listViewBtn = document.getElementById('list-view');
+    const imageGrid = document.getElementById('image-grid');
+    const listViewContainer = document.getElementById('list-view-container');
+    
+    if (gridViewBtn && listViewBtn && imageGrid && listViewContainer) {
+        gridViewBtn.addEventListener('click', function() {
+            imageGrid.parentElement.classList.remove('hidden');
+            listViewContainer.classList.add('hidden');
+            gridViewBtn.classList.add('bg-primary-600', 'text-white');
+            gridViewBtn.classList.remove('bg-gray-700', 'text-gray-300');
+            listViewBtn.classList.add('bg-gray-700', 'text-gray-300');
+            listViewBtn.classList.remove('bg-primary-600', 'text-white');
+        });
+        
+        listViewBtn.addEventListener('click', function() {
+            imageGrid.parentElement.classList.add('hidden');
+            listViewContainer.classList.remove('hidden');
+            listViewBtn.classList.add('bg-primary-600', 'text-white');
+            listViewBtn.classList.remove('bg-gray-700', 'text-gray-300');
+            gridViewBtn.classList.add('bg-gray-700', 'text-gray-300');
+            gridViewBtn.classList.remove('bg-primary-600', 'text-white');
+        });
+    }
+
     // Enhanced keyboard navigation
     const items = document.querySelectorAll('.group a');
     let currentIndex = -1;
@@ -138,6 +294,19 @@ document.addEventListener('DOMContentLoaded', function() {
             item.style.opacity = '1';
             item.style.transform = 'translateY(0) scale(1)';
         }, index * 60);
+    });
+
+    // Add animation for image grid items
+    const gridItems = document.querySelectorAll('#image-grid > div');
+    gridItems.forEach((item, index) => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateY(20px) scale(0.95)';
+        
+        setTimeout(() => {
+            item.style.transition = 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
+            item.style.opacity = '1';
+            item.style.transform = 'translateY(0) scale(1)';
+        }, index * 80);
     });
 
     // Add file type icons based on extension

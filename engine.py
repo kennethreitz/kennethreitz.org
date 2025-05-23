@@ -1,6 +1,6 @@
 import os
 import markdown
-from flask import Flask, render_template, abort, request, url_for, jsonify
+from flask import Flask, render_template, abort, request, url_for, jsonify, redirect
 from pathlib import Path
 import re
 from datetime import datetime
@@ -50,7 +50,8 @@ def get_directory_structure(path):
             'is_image': item.suffix.lower() in ['.jpg', '.jpeg', '.png', '.gif', '.webp'],
             'size': item.stat().st_size if item.is_file() else None,
             'modified': datetime.fromtimestamp(item.stat().st_mtime),
-            'file_type': item.suffix.lower() if item.is_file() else 'directory'
+            'file_type': item.suffix.lower() if item.is_file() else 'directory',
+            'static_path': f"/static/data/{item.relative_to(DATA_DIR)}" if not item.is_dir() else None
         }
         
         if item.is_dir():
@@ -61,53 +62,7 @@ def get_directory_structure(path):
     # Return directories first, then files
     return dirs + files
 
-def build_mindmap_data():
-    """Build a hierarchical data structure for the mindmap."""
-    def process_directory(path, relative_path=""):
-        node = {
-            'name': path.name if path.name else 'Kenneth Reitz',
-            'type': 'directory',
-            'path': relative_path,
-            'children': []
-        }
-        
-        if not path.exists() or not path.is_dir():
-            return node
-            
-        for item in sorted(path.iterdir()):
-            if item.name.startswith('.'):
-                continue
-                
-            item_relative_path = str(item.relative_to(DATA_DIR)) if item != DATA_DIR else ""
-            
-            if item.is_dir():
-                child_node = process_directory(item, item_relative_path)
-                node['children'].append(child_node)
-            elif item.suffix == '.md':
-                # Create display name without extension
-                display_name = item.stem.replace('-', ' ').replace('_', ' ').title()
-                
-                # Get content for full-text search
-                content = ""
-                try:
-                    with open(item, 'r', encoding='utf-8') as f:
-                        content = f.read()
-                except Exception:
-                    pass
-                
-                child_node = {
-                    'name': display_name,
-                    'type': 'markdown',
-                    'path': item_relative_path,
-                    'size': item.stat().st_size,
-                    'modified': item.stat().st_mtime,
-                    'content': content
-                }
-                node['children'].append(child_node)
-        
-        return node
-    
-    return process_directory(DATA_DIR)
+
 
 @lru_cache(maxsize=128)
 def render_markdown_file(file_path):
@@ -175,12 +130,8 @@ def render_markdown_file(file_path):
 
 @app.route('/')
 def index():
-    """Homepage showing the mindmap visualization."""
-    return render_template('mindmap.html',
-                         title='Kenneth Reitz - Digital Mind Map',
-                         breadcrumbs=[],
-                         current_year=datetime.now().year,
-                         current_page='Mind Map')
+    """Homepage redirects to directory listing."""
+    return redirect('/directory')
 
 @app.route('/directory')
 def directory_index():
@@ -203,6 +154,11 @@ def directory_index():
         if word_count > 150:
             content_position = 'bottom'
     
+    # Check if root directory is an image gallery
+    image_items = [item for item in items if item['is_image']]
+    total_files = [item for item in items if not item['is_dir']]
+    is_image_gallery = len(image_items) >= 3 and len(total_files) > 0 and (len(image_items) / len(total_files)) >= 0.5
+    
     return render_template('directory.html', 
                          items=items, 
                          current_path='', 
@@ -210,6 +166,8 @@ def directory_index():
                          breadcrumbs=[],
                          index_content=index_content,
                          content_position=content_position,
+                         is_image_gallery=is_image_gallery,
+                         image_items=image_items,
                          current_year=datetime.now().year)
 
 @app.route('/<path:path>')
@@ -247,6 +205,11 @@ def serve_path(path):
         # Directory listing
         items = get_directory_structure(full_path)
         
+        # Check if this is an image gallery (50% or more images)
+        image_items = [item for item in items if item['is_image']]
+        total_files = [item for item in items if not item['is_dir']]
+        is_image_gallery = len(image_items) >= 3 and len(total_files) > 0 and (len(image_items) / len(total_files)) >= 0.5
+        
         # Check for index.md in the directory
         index_file = full_path / 'index.md'
         index_content = None
@@ -272,6 +235,8 @@ def serve_path(path):
                              breadcrumbs=breadcrumbs,
                              index_content=index_content,
                              content_position=content_position,
+                             is_image_gallery=is_image_gallery,
+                             image_items=image_items,
                              current_year=datetime.now().year,
                              current_page=title)
     
@@ -326,24 +291,7 @@ def serve_data_file(path):
     from flask import send_file
     return send_file(full_path)
 
-@app.route('/api/mindmap')
-def api_mindmap():
-    """API endpoint to get mindmap data."""
-    mindmap_data = build_mindmap_data()
-    
-    # Strip content from response to reduce size
-    def remove_content(node):
-        if 'content' in node:
-            del node['content']
-        if 'children' in node:
-            for child in node['children']:
-                remove_content(child)
-    
-    # Create a copy to avoid modifying the original
-    response_data = json.loads(json.dumps(mindmap_data))
-    remove_content(response_data)
-    
-    return jsonify(response_data)
+
 
 @app.route('/api/search')
 def api_search():
@@ -394,23 +342,15 @@ def api_search():
             for child in node['children']:
                 search_node(child, display_path)
     
-    # Start the search from the root
-    mindmap_data = build_mindmap_data()
-    search_node(mindmap_data)
+    # Start the search from the root data directory
+    search_node({'name': 'root', 'type': 'directory', 'path': '', 'children': []})
     
     # Sort results by relevance
     results.sort(key=lambda x: x['relevance'], reverse=True)
     
     return jsonify(results)
 
-@app.route('/mindmap')
-def mindmap():
-    """Show the mindmap visualization."""
-    return render_template('mindmap.html',
-                         title='Mind Map',
-                         breadcrumbs=[],
-                         current_year=datetime.now().year,
-                         current_page='Mind Map')
+
 
 def generate_sitemap_data():
     """Generate sitemap data by recursively scanning the data directory."""
