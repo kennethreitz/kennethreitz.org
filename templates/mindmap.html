@@ -2,35 +2,179 @@
 
 {% block extra_head %}
 <style>
-    /* Obsidian-style theme variables */
+    /* Kenneth Reitz Brand Colors & Variables */
     :root {
-        --obsidian-bg: #1e1e1e;
-        --obsidian-surface: #2d2d30;
-        --obsidian-accent: #7c3aed;
-        --obsidian-accent-hover: #8b5cf6;
-        --obsidian-text: #dcddde;
-        --obsidian-text-muted: #b3b3b3;
-        --obsidian-border: #3e3e42;
-        --obsidian-node-directory: #a855f7;
-        --obsidian-node-file: #06b6d4;
-        --obsidian-node-active: #f59e0b;
-        --obsidian-link: rgba(0, 0, 0, 0.6);
-        --obsidian-link-active: rgba(0, 0, 0, 0.9);
+        --kr-primary: #6366f1;
+        --kr-primary-dark: #4338ca;
+        --kr-secondary: #f59e0b;
+        --kr-accent: #10b981;
+        --kr-purple: #8b5cf6;
+        --kr-pink: #ec4899;
+        --kr-bg: #0f0f0f;
+        --kr-surface: #1a1a1a;
+        --kr-card: #262626;
+        --kr-text: #f8fafc;
+        --kr-text-muted: #94a3b8;
+        --kr-border: #374151;
+        --kr-glow: rgba(99, 102, 241, 0.3);
     }
 
-    /* Main container styling */
-    .obsidian-mindmap {
-        background: linear-gradient(135deg, var(--obsidian-bg) 0%, #1a1a1a 100%);
-        border: 1px solid var(--obsidian-border);
-        border-radius: 12px;
+    body {
+        background: linear-gradient(135deg, var(--kr-bg) 0%, #111827 50%, var(--kr-bg) 100%);
+        min-height: 100vh;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        padding: 80px 0 60px;
+        text-align: center;
+        position: relative;
+        background: radial-gradient(circle at 50% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 50%);
+    }
+
+    .hero-title {
+        font-size: clamp(3rem, 8vw, 6rem);
+        font-weight: 800;
+        background: linear-gradient(135deg, var(--kr-primary) 0%, var(--kr-purple) 50%, var(--kr-pink) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 1rem;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem;
+        color: var(--kr-text-muted);
+        margin-bottom: 2rem;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-stats {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        margin-bottom: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .stat-item {
+        text-align: center;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--kr-primary);
+        display: block;
+    }
+
+    .stat-label {
+        color: var(--kr-text-muted);
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    /* Featured Projects */
+    .featured-section {
+        padding: 60px 0;
+        background: rgba(26, 26, 26, 0.8);
+        backdrop-filter: blur(10px);
+    }
+
+    .featured-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .project-card {
+        background: var(--kr-card);
+        border: 1px solid var(--kr-border);
+        border-radius: 16px;
+        padding: 2rem;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         position: relative;
         overflow: hidden;
-        height: 80vh;
-        min-height: 700px;
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     }
 
-    /* Graph container */
+    .project-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, var(--kr-primary), var(--kr-purple));
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+    }
+
+    .project-card:hover::before {
+        transform: scaleX(1);
+    }
+
+    .project-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(99, 102, 241, 0.2);
+        border-color: var(--kr-primary);
+    }
+
+    .project-icon {
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(135deg, var(--kr-primary), var(--kr-purple));
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        margin-bottom: 1.5rem;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--kr-text);
+        margin-bottom: 0.5rem;
+    }
+
+    .project-desc {
+        color: var(--kr-text-muted);
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }
+
+    .project-stats {
+        display: flex;
+        gap: 1rem;
+        font-size: 0.9rem;
+        color: var(--kr-text-muted);
+    }
+
+    /* Mind Map Section */
+    .mindmap-section {
+        padding: 60px 0;
+    }
+
+    .obsidian-mindmap {
+        background: linear-gradient(135deg, var(--kr-surface) 0%, #1f1f1f 100%);
+        border: 1px solid var(--kr-border);
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+        height: 70vh;
+        min-height: 600px;
+        box-shadow: 
+            0 25px 50px rgba(0, 0, 0, 0.5),
+            inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
     .graph-container {
         width: 100%;
         height: 100%;
@@ -42,123 +186,122 @@
         cursor: grabbing;
     }
 
-    /* SVG styles */
     .mindmap-svg {
         width: 100%;
         height: 100%;
-        background: radial-gradient(circle at 50% 50%, rgba(124, 58, 237, 0.03) 0%, transparent 70%);
+        background: radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.05) 0%, transparent 70%);
     }
 
-    /* Node styles */
+    /* Enhanced Node Styles */
     .node {
         cursor: pointer;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .node circle {
         stroke-width: 2;
-        filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .node.directory circle {
-        fill: var(--obsidian-node-directory);
-        stroke: rgba(168, 85, 247, 0.6);
-        r: 8;
+        fill: var(--kr-primary);
+        stroke: rgba(99, 102, 241, 0.8);
+        r: 10;
     }
 
     .node.file circle {
-        fill: var(--obsidian-node-file);
-        stroke: rgba(6, 182, 212, 0.6);
-        r: 6;
+        fill: var(--kr-accent);
+        stroke: rgba(16, 185, 129, 0.8);
+        r: 7;
     }
 
     .node.root circle {
-        fill: var(--obsidian-node-active);
-        stroke: rgba(245, 158, 11, 0.8);
-        r: 12;
+        fill: var(--kr-secondary);
+        stroke: rgba(245, 158, 11, 0.9);
+        r: 16;
         stroke-width: 3;
     }
 
     .node:hover circle {
-        transform: scale(1.2);
-        filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.4)) brightness(1.1);
+        transform: scale(1.3);
+        filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.6)) brightness(1.2);
     }
 
     .node.active circle {
         stroke-width: 4;
-        filter: drop-shadow(0 0 15px currentColor) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+        filter: drop-shadow(0 0 20px currentColor) drop-shadow(0 6px 15px rgba(0, 0, 0, 0.4));
         animation: pulse 2s infinite;
     }
 
     @keyframes pulse {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0.7; }
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.8; transform: scale(1.05); }
     }
 
-    /* Node text */
     .node text {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         font-size: 11px;
-        font-weight: 500;
+        font-weight: 600;
         fill: #000000;
         text-anchor: middle;
         dominant-baseline: middle;
         pointer-events: none;
-        text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
+        text-shadow: 0 2px 4px rgba(255, 255, 255, 0.9);
         transition: all 0.3s ease;
     }
 
     .node.directory text {
-        font-weight: 600;
+        font-weight: 700;
         font-size: 12px;
     }
 
     .node.root text {
-        font-size: 14px;
-        font-weight: 700;
+        font-size: 15px;
+        font-weight: 800;
         fill: #000000;
     }
 
     .node:hover text {
         font-size: 13px;
         fill: #000000;
+        font-weight: 700;
     }
 
-    /* Links */
+    /* Enhanced Links */
     .link {
         fill: none;
-        stroke: var(--obsidian-link);
-        stroke-width: 1.5;
-        stroke-opacity: 0.6;
+        stroke: rgba(0, 0, 0, 0.4);
+        stroke-width: 2;
+        stroke-opacity: 0.7;
         transition: all 0.3s ease;
     }
 
     .link.active {
-        stroke: var(--obsidian-link-active);
+        stroke: rgba(0, 0, 0, 0.9);
         stroke-width: 3;
         stroke-opacity: 1;
-        filter: drop-shadow(0 0 6px currentColor);
+        filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.5));
     }
 
-    /* Tooltip */
+    /* Enhanced Tooltip */
     .obsidian-tooltip {
         position: absolute;
-        background: rgba(45, 45, 48, 0.95);
-        border: 1px solid var(--obsidian-border);
-        border-radius: 8px;
-        padding: 12px 16px;
-        color: var(--obsidian-text);
+        background: rgba(26, 26, 26, 0.95);
+        border: 1px solid var(--kr-border);
+        border-radius: 12px;
+        padding: 16px 20px;
+        color: var(--kr-text);
         font-size: 13px;
         font-family: 'Inter', sans-serif;
-        max-width: 280px;
+        max-width: 320px;
         z-index: 1000;
         opacity: 0;
         pointer-events: none;
-        backdrop-filter: blur(8px);
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-        transition: opacity 0.2s ease, transform 0.2s ease;
-        transform: translateY(4px);
+        backdrop-filter: blur(12px);
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        transform: translateY(8px);
     }
 
     .obsidian-tooltip.visible {
@@ -167,125 +310,125 @@
     }
 
     .tooltip-title {
-        font-weight: 600;
-        color: var(--obsidian-accent);
-        margin-bottom: 6px;
+        font-weight: 700;
+        color: var(--kr-primary);
+        margin-bottom: 8px;
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 10px;
+        font-size: 14px;
     }
 
     .tooltip-path {
         font-size: 11px;
-        color: var(--obsidian-text-muted);
+        color: var(--kr-text-muted);
         font-family: 'JetBrains Mono', monospace;
-        margin-bottom: 6px;
+        margin-bottom: 8px;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 4px 8px;
+        border-radius: 4px;
     }
 
     .tooltip-meta {
         font-size: 11px;
-        color: var(--obsidian-text-muted);
+        color: var(--kr-text-muted);
     }
 
-    /* Control panel */
+    /* Control Panels */
     .control-panel {
         position: absolute;
         top: 20px;
         right: 20px;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 12px;
         z-index: 100;
     }
 
     .control-button {
-        width: 44px;
-        height: 44px;
-        background: rgba(45, 45, 48, 0.9);
-        border: 1px solid var(--obsidian-border);
-        border-radius: 8px;
-        color: var(--obsidian-text);
+        width: 48px;
+        height: 48px;
+        background: rgba(26, 26, 26, 0.9);
+        border: 1px solid var(--kr-border);
+        border-radius: 12px;
+        color: var(--kr-text);
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        font-size: 16px;
-        font-weight: 500;
-        transition: all 0.2s ease;
-        backdrop-filter: blur(8px);
+        font-size: 18px;
+        font-weight: 600;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        backdrop-filter: blur(12px);
     }
 
     .control-button:hover {
-        background: var(--obsidian-accent);
+        background: var(--kr-primary);
         color: white;
-        transform: translateY(-1px);
-        box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+        transform: translateY(-2px) scale(1.05);
+        box-shadow: 0 8px 24px rgba(99, 102, 241, 0.4);
     }
 
-    .control-button:active {
-        transform: translateY(0);
-    }
-
-    /* Search panel */
     .search-panel {
         position: absolute;
         top: 20px;
         left: 20px;
-        width: 300px;
-        background: rgba(45, 45, 48, 0.95);
-        border: 1px solid var(--obsidian-border);
-        border-radius: 12px;
-        padding: 16px;
+        width: 320px;
+        background: rgba(26, 26, 26, 0.95);
+        border: 1px solid var(--kr-border);
+        border-radius: 16px;
+        padding: 20px;
         backdrop-filter: blur(12px);
         z-index: 100;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
     }
 
     .search-input {
         width: 100%;
-        background: rgba(30, 30, 30, 0.8);
-        border: 1px solid var(--obsidian-border);
-        border-radius: 8px;
-        padding: 10px 12px;
-        color: var(--obsidian-text);
-        font-size: 13px;
-        transition: all 0.2s ease;
+        background: rgba(15, 15, 15, 0.8);
+        border: 1px solid var(--kr-border);
+        border-radius: 10px;
+        padding: 12px 16px;
+        color: var(--kr-text);
+        font-size: 14px;
+        transition: all 0.3s ease;
+        font-family: 'Inter', sans-serif;
     }
 
     .search-input:focus {
         outline: none;
-        border-color: var(--obsidian-accent);
-        box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
+        border-color: var(--kr-primary);
+        box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+        background: rgba(15, 15, 15, 0.9);
     }
 
     .search-input::placeholder {
-        color: var(--obsidian-text-muted);
+        color: var(--kr-text-muted);
     }
 
-    /* Info panel */
     .info-panel {
         position: absolute;
         bottom: 20px;
         left: 20px;
-        background: rgba(45, 45, 48, 0.95);
-        border: 1px solid var(--obsidian-border);
-        border-radius: 12px;
-        padding: 16px;
+        background: rgba(26, 26, 26, 0.95);
+        border: 1px solid var(--kr-border);
+        border-radius: 16px;
+        padding: 20px;
         backdrop-filter: blur(12px);
         z-index: 100;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
         font-family: 'Inter', sans-serif;
         font-size: 12px;
-        color: var(--obsidian-text-muted);
-        min-width: 200px;
+        color: var(--kr-text-muted);
+        min-width: 220px;
     }
 
     .info-item {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 6px;
-        padding: 4px 0;
-        border-bottom: 1px solid rgba(124, 58, 237, 0.1);
+        margin-bottom: 8px;
+        padding: 6px 0;
+        border-bottom: 1px solid rgba(99, 102, 241, 0.1);
     }
 
     .info-item:last-child {
@@ -294,33 +437,34 @@
     }
 
     .info-label {
-        color: var(--obsidian-text-muted);
+        color: var(--kr-text-muted);
+        font-weight: 500;
     }
 
     .info-value {
-        color: var(--obsidian-accent);
-        font-weight: 600;
+        color: var(--kr-primary);
+        font-weight: 700;
     }
 
-    /* Loading animation */
+    /* Loading Animation */
     .loading-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 100%;
-        color: var(--obsidian-text);
+        color: var(--kr-text);
         font-family: 'Inter', sans-serif;
     }
 
     .loading-spinner {
-        width: 48px;
-        height: 48px;
-        border: 3px solid rgba(124, 58, 237, 0.2);
-        border-top: 3px solid var(--obsidian-accent);
+        width: 56px;
+        height: 56px;
+        border: 4px solid rgba(99, 102, 241, 0.2);
+        border-top: 4px solid var(--kr-primary);
         border-radius: 50%;
         animation: spin 1s linear infinite;
-        margin-bottom: 16px;
+        margin-bottom: 20px;
     }
 
     @keyframes spin {
@@ -329,13 +473,49 @@
     }
 
     .loading-text {
-        font-size: 16px;
-        font-weight: 500;
-        color: var(--obsidian-text-muted);
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--kr-text-muted);
     }
 
-    /* Responsive design */
+    /* Philosophy Quote */
+    .philosophy-section {
+        text-align: center;
+        padding: 60px 0;
+        background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%);
+    }
+
+    .philosophy-quote {
+        font-size: 1.8rem;
+        font-style: italic;
+        color: var(--kr-text);
+        margin-bottom: 1rem;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.4;
+    }
+
+    .philosophy-author {
+        color: var(--kr-primary);
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    /* Responsive Design */
     @media (max-width: 768px) {
+        .hero-stats {
+            gap: 2rem;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+        }
+        
+        .featured-grid {
+            grid-template-columns: 1fr;
+        }
+        
         .search-panel {
             width: calc(100% - 40px);
             position: relative;
@@ -362,439 +542,76 @@
             right: 10px;
             flex-direction: row;
         }
-    }
-
-    /* Custom scrollbar */
-    ::-webkit-scrollbar {
-        width: 8px;
-    }
-
-    ::-webkit-scrollbar-track {
-        background: var(--obsidian-bg);
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: var(--obsidian-border);
-        border-radius: 4px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-        background: var(--obsidian-accent);
+        
+        .control-button {
+            width: 40px;
+            height: 40px;
+            font-size: 16px;
+        }
     }
 </style>
 {% endblock %}
 
 {% block content %}
-<div class="mb-8">
-    <h1 class="text-5xl font-bold text-gray-100 mb-4 tracking-tight page-title">
-        🧠 Digital Mind Map
-    </h1>
-    <p class="text-xl text-gray-400 font-serif italic tracking-wide">
-        Explore the interconnected universe of knowledge in Obsidian style
-    </p>
-</div>
-
-<div class="obsidian-mindmap">
-    <!-- Loading State -->
-    <div id="loading" class="loading-container">
-        <div class="loading-spinner"></div>
-        <div class="loading-text">Mapping neural pathways...</div>
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="max-w-6xl mx-auto px-6">
+        <h1 class="hero-title">Kenneth Reitz</h1>
+        <p class="hero-subtitle">
+            Creator of <strong>requests</strong> • Python Advocate • Making Complex Things Simple & Beautiful
+        </p>
+        
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number">500M+</span>
+                <span class="stat-label">Downloads</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">51K+</span>
+                <span class="stat-label">GitHub Stars</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Years Contributing</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">∞</span>
+                <span class="stat-label">Impact</span>
+            </div>
+        </div>
     </div>
+</section>
 
-    <!-- Main Graph Container -->
-    <div id="graph-container" class="graph-container" style="display: none;">
-        <svg class="mindmap-svg" id="mindmap-svg"></svg>
+<!-- Featured Projects -->
+<section class="featured-section">
+    <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-4" style="color: var(--kr-text);">Legendary Contributions</h2>
+        <p class="text-center text-xl" style="color: var(--kr-text-muted);">Libraries that changed how the world codes</p>
         
-        <!-- Search Panel -->
-        <div class="search-panel">
-            <input 
-                type="text" 
-                id="search-input" 
-                class="search-input" 
-                placeholder="Search nodes... (type to filter)"
-            >
-        </div>
-
-        <!-- Control Panel -->
-        <div class="control-panel">
-            <div class="control-button" id="zoom-in" title="Zoom In">+</div>
-            <div class="control-button" id="zoom-out" title="Zoom Out">−</div>
-            <div class="control-button" id="reset-view" title="Reset View">⌂</div>
-            <div class="control-button" id="toggle-physics" title="Toggle Physics">⚡</div>
-        </div>
-
-        <!-- Info Panel -->
-        <div class="info-panel">
-            <div class="info-item">
-                <span class="info-label">Nodes</span>
-                <span class="info-value" id="node-count">0</span>
+        <div class="featured-grid">
+            <div class="project-card">
+                <div class="project-icon">🌐</div>
+                <h3 class="project-title">requests</h3>
+                <p class="project-desc">HTTP for Humans. The most elegant Python library ever created, downloaded by every Python developer on Earth.</p>
+                <div class="project-stats">
+                    <span>⭐ 51k stars</span>
+                    <span>📦 500M+ downloads</span>
+                    <span>🔥 Industry standard</span>
+                </div>
             </div>
-            <div class="info-item">
-                <span class="info-label">Connections</span>
-                <span class="info-value" id="link-count">0</span>
-            </div>
-            <div class="info-item">
-                <span class="info-label">Directories</span>
-                <span class="info-value" id="dir-count">0</span>
-            </div>
-            <div class="info-item">
-                <span class="info-label">Files</span>
-                <span class="info-value" id="file-count">0</span>
-            </div>
-        </div>
-
-        <!-- Tooltip -->
-        <div class="obsidian-tooltip" id="tooltip"></div>
-    </div>
-</div>
-{% endblock %}
-
-{% block extra_scripts %}
-<script src="https://d3js.org/d3.v7.min.js"></script>
-<script>
-class ObsidianMindmap {
-    constructor() {
-        this.data = null;
-        this.nodes = [];
-        this.links = [];
-        this.simulation = null;
-        this.svg = null;
-        this.g = null;
-        this.zoom = null;
-        this.physicsEnabled = true;
-        this.searchTerm = '';
-        
-        this.width = 0;
-        this.height = 0;
-        
-        this.init();
-    }
-
-    async init() {
-        try {
-            const response = await fetch('/api/mindmap');
-            this.data = await response.json();
             
-            this.setupSVG();
-            this.processData();
-            this.createSimulation();
-            this.render();
-            this.setupEventListeners();
-            this.updateStats();
+            <div class="project-card">
+                <div class="project-icon">📦</div>
+                <h3 class="project-title">pipenv</h3>
+                <p class="project-desc">Python packaging and dependency management for humans. Bringing sanity to Python environments.</p>
+                <div class="project-stats">
+                    <span>⭐ 24k stars</span>
+                    <span>🛠️ Dev tool</span>
+                    <span>🎯 Problem solver</span>
+                </div>
+            </div>
             
-            document.getElementById('loading').style.display = 'none';
-            document.getElementById('graph-container').style.display = 'block';
-        } catch (error) {
-            console.error('Failed to load mindmap data:', error);
-        }
-    }
-
-    setupSVG() {
-        const container = document.getElementById('graph-container');
-        this.width = container.clientWidth;
-        this.height = container.clientHeight;
-
-        this.svg = d3.select('#mindmap-svg')
-            .attr('width', this.width)
-            .attr('height', this.height);
-
-        this.zoom = d3.zoom()
-            .scaleExtent([0.1, 4])
-            .on('zoom', (event) => {
-                this.g.attr('transform', event.transform);
-            });
-
-        this.svg.call(this.zoom);
-
-        this.g = this.svg.append('g');
-    }
-
-    processData(node = this.data, parent = null, level = 0) {
-        if (!node) return;
-
-        const nodeData = {
-            id: node.path || 'root',
-            name: node.name || 'Root',
-            type: node.type || 'root',
-            path: node.path || '',
-            level: level,
-            parent: parent,
-            children: node.children || []
-        };
-
-        this.nodes.push(nodeData);
-
-        if (parent) {
-            this.links.push({
-                source: parent.id,
-                target: nodeData.id
-            });
-        }
-
-        if (node.children) {
-            node.children.forEach(child => {
-                this.processData(child, nodeData, level + 1);
-            });
-        }
-    }
-
-    createSimulation() {
-        this.simulation = d3.forceSimulation(this.nodes)
-            .force('link', d3.forceLink(this.links)
-                .id(d => d.id)
-                .distance(d => {
-                    const sourceLevel = this.nodes.find(n => n.id === d.source.id)?.level || 0;
-                    const targetLevel = this.nodes.find(n => n.id === d.target.id)?.level || 0;
-                    return 80 + (Math.max(sourceLevel, targetLevel) * 20);
-                })
-                .strength(0.8))
-            .force('charge', d3.forceManyBody()
-                .strength(d => {
-                    if (d.type === 'root') return -1000;
-                    if (d.type === 'directory') return -400;
-                    return -200;
-                }))
-            .force('center', d3.forceCenter(this.width / 2, this.height / 2))
-            .force('collision', d3.forceCollide()
-                .radius(d => {
-                    if (d.type === 'root') return 25;
-                    if (d.type === 'directory') return 20;
-                    return 15;
-                }))
-            .force('x', d3.forceX(this.width / 2).strength(0.1))
-            .force('y', d3.forceY(this.height / 2).strength(0.1));
-
-        this.simulation.on('tick', () => this.ticked());
-    }
-
-    render() {
-        // Render links
-        this.linkElements = this.g.selectAll('.link')
-            .data(this.links)
-            .enter()
-            .append('line')
-            .attr('class', 'link')
-            .attr('stroke-width', d => {
-                const sourceNode = this.nodes.find(n => n.id === d.source.id);
-                const targetNode = this.nodes.find(n => n.id === d.target.id);
-                if (sourceNode?.type === 'root' || targetNode?.type === 'root') return 3;
-                if (sourceNode?.type === 'directory' || targetNode?.type === 'directory') return 2;
-                return 1.5;
-            });
-
-        // Render nodes
-        this.nodeElements = this.g.selectAll('.node')
-            .data(this.nodes)
-            .enter()
-            .append('g')
-            .attr('class', d => `node ${d.type}`)
-            .call(this.drag());
-
-        // Add circles to nodes
-        this.nodeElements.append('circle')
-            .attr('r', d => {
-                if (d.type === 'root') return 12;
-                if (d.type === 'directory') return 8;
-                return 6;
-            });
-
-        // Add text labels
-        this.nodeElements.append('text')
-            .attr('dy', d => d.type === 'root' ? 25 : 20)
-            .text(d => {
-                if (d.name.length > 15) {
-                    return d.name.substring(0, 12) + '...';
-                }
-                return d.name;
-            });
-
-        // Add event listeners
-        this.nodeElements
-            .on('mouseover', (event, d) => this.showTooltip(event, d))
-            .on('mouseout', () => this.hideTooltip())
-            .on('click', (event, d) => this.handleNodeClick(event, d))
-            .on('dblclick', (event, d) => this.handleNodeDoubleClick(event, d));
-    }
-
-    ticked() {
-        if (this.linkElements) {
-            this.linkElements
-                .attr('x1', d => d.source.x)
-                .attr('y1', d => d.source.y)
-                .attr('x2', d => d.target.x)
-                .attr('y2', d => d.target.y);
-        }
-
-        if (this.nodeElements) {
-            this.nodeElements
-                .attr('transform', d => `translate(${d.x}, ${d.y})`);
-        }
-    }
-
-    drag() {
-        return d3.drag()
-            .on('start', (event, d) => {
-                if (!event.active && this.physicsEnabled) {
-                    this.simulation.alphaTarget(0.3).restart();
-                }
-                d.fx = d.x;
-                d.fy = d.y;
-            })
-            .on('drag', (event, d) => {
-                d.fx = event.x;
-                d.fy = event.y;
-            })
-            .on('end', (event, d) => {
-                if (!event.active && this.physicsEnabled) {
-                    this.simulation.alphaTarget(0);
-                }
-                d.fx = null;
-                d.fy = null;
-            });
-    }
-
-    showTooltip(event, d) {
-        const tooltip = document.getElementById('tooltip');
-        const icon = d.type === 'directory' ? '📁' : d.type === 'root' ? '🌟' : '📄';
-        
-        tooltip.innerHTML = `
-            <div class="tooltip-title">
-                <span>${icon}</span>
-                <span>${d.name}</span>
-            </div>
-            <div class="tooltip-path">${d.path || 'Root'}</div>
-            <div class="tooltip-meta">
-                Type: ${d.type} • Level: ${d.level}
-                ${d.children ? ` • Children: ${d.children.length}` : ''}
-            </div>
-        `;
-
-        tooltip.style.left = (event.pageX + 10) + 'px';
-        tooltip.style.top = (event.pageY - 10) + 'px';
-        tooltip.classList.add('visible');
-    }
-
-    hideTooltip() {
-        document.getElementById('tooltip').classList.remove('visible');
-    }
-
-    handleNodeClick(event, d) {
-        // Highlight connected nodes
-        this.nodeElements.classed('active', false);
-        this.linkElements.classed('active', false);
-
-        d3.select(event.currentTarget).classed('active', true);
-
-        // Highlight connected links
-        this.linkElements
-            .classed('active', link => 
-                link.source.id === d.id || link.target.id === d.id
-            );
-    }
-
-    handleNodeDoubleClick(event, d) {
-        if (d.path && d.path !== '') {
-            window.open(`/${d.path}`, '_blank');
-        }
-    }
-
-    setupEventListeners() {
-        // Zoom controls
-        document.getElementById('zoom-in').addEventListener('click', () => {
-            this.svg.transition().duration(300).call(
-                this.zoom.scaleBy, 1.5
-            );
-        });
-
-        document.getElementById('zoom-out').addEventListener('click', () => {
-            this.svg.transition().duration(300).call(
-                this.zoom.scaleBy, 1 / 1.5
-            );
-        });
-
-        document.getElementById('reset-view').addEventListener('click', () => {
-            this.svg.transition().duration(750).call(
-                this.zoom.transform,
-                d3.zoomIdentity.translate(this.width / 2, this.height / 2).scale(1)
-            );
-        });
-
-        document.getElementById('toggle-physics').addEventListener('click', () => {
-            this.physicsEnabled = !this.physicsEnabled;
-            if (this.physicsEnabled) {
-                this.simulation.alphaTarget(0.3).restart();
-            } else {
-                this.simulation.stop();
-            }
-        });
-
-        // Search functionality
-        const searchInput = document.getElementById('search-input');
-        searchInput.addEventListener('input', (event) => {
-            this.searchTerm = event.target.value.toLowerCase();
-            this.filterNodes();
-        });
-
-        // Window resize
-        window.addEventListener('resize', () => {
-            this.handleResize();
-        });
-    }
-
-    filterNodes() {
-        this.nodeElements
-            .style('opacity', d => {
-                if (!this.searchTerm) return 1;
-                return d.name.toLowerCase().includes(this.searchTerm) ? 1 : 0.2;
-            })
-            .style('transform', d => {
-                if (!this.searchTerm) return null;
-                const scale = d.name.toLowerCase().includes(this.searchTerm) ? 'scale(1.1)' : 'scale(0.8)';
-                return `translate(${d.x}px, ${d.y}px) ${scale}`;
-            });
-
-        this.linkElements
-            .style('opacity', d => {
-                if (!this.searchTerm) return 0.6;
-                const sourceMatch = d.source.name.toLowerCase().includes(this.searchTerm);
-                const targetMatch = d.target.name.toLowerCase().includes(this.searchTerm);
-                return (sourceMatch || targetMatch) ? 1 : 0.1;
-            });
-    }
-
-    updateStats() {
-        const nodeCount = this.nodes.length;
-        const linkCount = this.links.length;
-        const dirCount = this.nodes.filter(n => n.type === 'directory').length;
-        const fileCount = this.nodes.filter(n => n.type === 'file').length;
-
-        document.getElementById('node-count').textContent = nodeCount;
-        document.getElementById('link-count').textContent = linkCount;
-        document.getElementById('dir-count').textContent = dirCount;
-        document.getElementById('file-count').textContent = fileCount;
-    }
-
-    handleResize() {
-        const container = document.getElementById('graph-container');
-        this.width = container.clientWidth;
-        this.height = container.clientHeight;
-
-        this.svg
-            .attr('width', this.width)
-            .attr('height', this.height);
-
-        this.simulation
-            .force('center', d3.forceCenter(this.width / 2, this.height / 2))
-            .force('x', d3.forceX(this.width / 2).strength(0.1))
-            .force('y', d3.forceY(this.height / 2).strength(0.1))
-            .alpha(0.3)
-            .restart();
-    }
-}
-
-// Initialize the mindmap when the page loads
-document.addEventListener('DOMContentLoaded', () => {
-    new ObsidianMindmap();
-});
-</script>
-{% endblock %}
+            <div class="project-card">
+                <div class="project-icon">⏰</div>
+                <h3 class="project-title">maya</h3>
+                <p class="project-desc">Datetimes for Humans. Making
