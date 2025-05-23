@@ -614,4 +614,441 @@
             <div class="project-card">
                 <div class="project-icon">⏰</div>
                 <h3 class="project-title">maya</h3>
-                <p class="project-desc">Datetimes for Humans. Making
+                <p class="project-desc">Datetimes for Humans. Making datetime manipulation intuitive and Pythonic with natural language parsing.</p>
+                <div class="project-stats">
+                    <span>⭐ 3.4k stars</span>
+                    <span>🕐 Time magic</span>
+                    <span>🐍 Pythonic</span>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-icon">🎨</div>
+                <h3 class="project-title">Philosophy</h3>
+                <p class="project-desc">"For Humans" design philosophy. Creating APIs that feel natural and make developers happy to write code.</p>
+                <div class="project-stats">
+                    <span>💡 Human-centered</span>
+                    <span>✨ Beautiful APIs</span>
+                    <span>🌟 Developer joy</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Philosophy Section -->
+<section class="philosophy-section">
+    <div class="max-w-4xl mx-auto px-6">
+        <blockquote class="philosophy-quote">
+            "Beautiful is better than ugly. Simple is better than complex. Complex is better than complicated."
+        </blockquote>
+        <div class="philosophy-author">— The Zen of Python (Tim Peters)</div>
+    </div>
+</section>
+
+<!-- Mind Map Section -->
+<section class="mindmap-section">
+    <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-4" style="color: var(--kr-text);">Explore the Digital Universe</h2>
+        <p class="text-center text-xl mb-8" style="color: var(--kr-text-muted);">Interactive knowledge graph of thoughts, projects, and insights</p>
+        
+        <div class="obsidian-mindmap">
+            <!-- Loading State -->
+            <div id="loading" class="loading-container">
+                <div class="loading-spinner"></div>
+                <div class="loading-text">Mapping neural pathways...</div>
+            </div>
+
+            <!-- Main Graph Container -->
+            <div id="graph-container" class="graph-container" style="display: none;">
+                <svg class="mindmap-svg" id="mindmap-svg"></svg>
+                
+                <!-- Search Panel -->
+                <div class="search-panel">
+                    <input 
+                        type="text" 
+                        id="search-input" 
+                        class="search-input" 
+                        placeholder="Search the knowledge graph..."
+                    >
+                </div>
+
+                <!-- Control Panel -->
+                <div class="control-panel">
+                    <div class="control-button" id="zoom-in" title="Zoom In">+</div>
+                    <div class="control-button" id="zoom-out" title="Zoom Out">−</div>
+                    <div class="control-button" id="reset-view" title="Reset View">⌂</div>
+                    <div class="control-button" id="toggle-physics" title="Toggle Physics">⚡</div>
+                </div>
+
+                <!-- Info Panel -->
+                <div class="info-panel">
+                    <div class="info-item">
+                        <span class="info-label">Nodes</span>
+                        <span class="info-value" id="node-count">0</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Connections</span>
+                        <span class="info-value" id="link-count">0</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Directories</span>
+                        <span class="info-value" id="dir-count">0</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Files</span>
+                        <span class="info-value" id="file-count">0</span>
+                    </div>
+                </div>
+
+                <!-- Tooltip -->
+                <div class="obsidian-tooltip" id="tooltip"></div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+class ObsidianMindmap {
+    constructor() {
+        this.data = null;
+        this.nodes = [];
+        this.links = [];
+        this.simulation = null;
+        this.svg = null;
+        this.g = null;
+        this.zoom = null;
+        this.physicsEnabled = true;
+        this.searchTerm = '';
+        
+        this.width = 0;
+        this.height = 0;
+        
+        this.init();
+    }
+
+    async init() {
+        try {
+            const response = await fetch('/api/mindmap');
+            this.data = await response.json();
+            
+            this.setupSVG();
+            this.processData();
+            this.createSimulation();
+            this.render();
+            this.setupEventListeners();
+            this.updateStats();
+            
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('graph-container').style.display = 'block';
+        } catch (error) {
+            console.error('Failed to load mindmap data:', error);
+        }
+    }
+
+    setupSVG() {
+        const container = document.getElementById('graph-container');
+        this.width = container.clientWidth;
+        this.height = container.clientHeight;
+
+        this.svg = d3.select('#mindmap-svg')
+            .attr('width', this.width)
+            .attr('height', this.height);
+
+        this.zoom = d3.zoom()
+            .scaleExtent([0.1, 4])
+            .on('zoom', (event) => {
+                this.g.attr('transform', event.transform);
+            });
+
+        this.svg.call(this.zoom);
+        this.g = this.svg.append('g');
+    }
+
+    processData(node = this.data, parent = null, level = 0) {
+        if (!node) return;
+
+        const nodeData = {
+            id: node.path || 'root',
+            name: node.name || 'Root',
+            type: node.type || 'root',
+            path: node.path || '',
+            level: level,
+            parent: parent,
+            children: node.children || []
+        };
+
+        this.nodes.push(nodeData);
+
+        if (parent) {
+            this.links.push({
+                source: parent.id,
+                target: nodeData.id
+            });
+        }
+
+        if (node.children) {
+            node.children.forEach(child => {
+                this.processData(child, nodeData, level + 1);
+            });
+        }
+    }
+
+    createSimulation() {
+        this.simulation = d3.forceSimulation(this.nodes)
+            .force('link', d3.forceLink(this.links)
+                .id(d => d.id)
+                .distance(d => {
+                    const sourceLevel = this.nodes.find(n => n.id === d.source.id)?.level || 0;
+                    const targetLevel = this.nodes.find(n => n.id === d.target.id)?.level || 0;
+                    return 100 + (Math.max(sourceLevel, targetLevel) * 30);
+                })
+                .strength(0.7))
+            .force('charge', d3.forceManyBody()
+                .strength(d => {
+                    if (d.type === 'root') return -2000;
+                    if (d.type === 'directory') return -800;
+                    return -400;
+                }))
+            .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+            .force('collision', d3.forceCollide()
+                .radius(d => {
+                    if (d.type === 'root') return 30;
+                    if (d.type === 'directory') return 25;
+                    return 20;
+                }))
+            .force('x', d3.forceX(this.width / 2).strength(0.1))
+            .force('y', d3.forceY(this.height / 2).strength(0.1));
+
+        this.simulation.on('tick', () => this.ticked());
+    }
+
+    render() {
+        // Render links first (so they appear behind nodes)
+        this.linkElements = this.g.selectAll('.link')
+            .data(this.links)
+            .enter()
+            .append('line')
+            .attr('class', 'link')
+            .attr('stroke-width', d => {
+                const sourceNode = this.nodes.find(n => n.id === d.source.id);
+                const targetNode = this.nodes.find(n => n.id === d.target.id);
+                if (sourceNode?.type === 'root' || targetNode?.type === 'root') return 4;
+                if (sourceNode?.type === 'directory' || targetNode?.type === 'directory') return 3;
+                return 2;
+            });
+
+        // Render nodes
+        this.nodeElements = this.g.selectAll('.node')
+            .data(this.nodes)
+            .enter()
+            .append('g')
+            .attr('class', d => `node ${d.type}`)
+            .call(this.drag());
+
+        // Add circles to nodes
+        this.nodeElements.append('circle');
+
+        // Add text labels
+        this.nodeElements.append('text')
+            .attr('dy', d => d.type === 'root' ? 30 : 25)
+            .text(d => {
+                if (d.name.length > 20) {
+                    return d.name.substring(0, 17) + '...';
+                }
+                return d.name;
+            });
+
+        // Add event listeners
+        this.nodeElements
+            .on('mouseover', (event, d) => this.showTooltip(event, d))
+            .on('mouseout', () => this.hideTooltip())
+            .on('click', (event, d) => this.handleNodeClick(event, d))
+            .on('dblclick', (event, d) => this.handleNodeDoubleClick(event, d));
+    }
+
+    ticked() {
+        if (this.linkElements) {
+            this.linkElements
+                .attr('x1', d => d.source.x)
+                .attr('y1', d => d.source.y)
+                .attr('x2', d => d.target.x)
+                .attr('y2', d => d.target.y);
+        }
+
+        if (this.nodeElements) {
+            this.nodeElements
+                .attr('transform', d => `translate(${d.x}, ${d.y})`);
+        }
+    }
+
+    drag() {
+        return d3.drag()
+            .on('start', (event, d) => {
+                if (!event.active && this.physicsEnabled) {
+                    this.simulation.alphaTarget(0.3).restart();
+                }
+                d.fx = d.x;
+                d.fy = d.y;
+            })
+            .on('drag', (event, d) => {
+                d.fx = event.x;
+                d.fy = event.y;
+            })
+            .on('end', (event, d) => {
+                if (!event.active && this.physicsEnabled) {
+                    this.simulation.alphaTarget(0);
+                }
+                d.fx = null;
+                d.fy = null;
+            });
+    }
+
+    showTooltip(event, d) {
+        const tooltip = document.getElementById('tooltip');
+        const icon = d.type === 'directory' ? '📁' : d.type === 'root' ? '🌟' : '📄';
+        
+        tooltip.innerHTML = `
+            <div class="tooltip-title">
+                <span>${icon}</span>
+                <span>${d.name}</span>
+            </div>
+            <div class="tooltip-path">${d.path || 'Root'}</div>
+            <div class="tooltip-meta">
+                Type: ${d.type} • Level: ${d.level}
+                ${d.children ? ` • Children: ${d.children.length}` : ''}
+            </div>
+        `;
+
+        tooltip.style.left = (event.pageX + 15) + 'px';
+        tooltip.style.top = (event.pageY - 15) + 'px';
+        tooltip.classList.add('visible');
+    }
+
+    hideTooltip() {
+        document.getElementById('tooltip').classList.remove('visible');
+    }
+
+    handleNodeClick(event, d) {
+        // Highlight connected nodes
+        this.nodeElements.classed('active', false);
+        this.linkElements.classed('active', false);
+
+        d3.select(event.currentTarget).classed('active', true);
+
+        // Highlight connected links
+        this.linkElements
+            .classed('active', link => 
+                link.source.id === d.id || link.target.id === d.id
+            );
+    }
+
+    handleNodeDoubleClick(event, d) {
+        if (d.path && d.path !== '') {
+            window.open(`/${d.path}`, '_blank');
+        }
+    }
+
+    setupEventListeners() {
+        // Zoom controls
+        document.getElementById('zoom-in').addEventListener('click', () => {
+            this.svg.transition().duration(300).call(
+                this.zoom.scaleBy, 1.5
+            );
+        });
+
+        document.getElementById('zoom-out').addEventListener('click', () => {
+            this.svg.transition().duration(300).call(
+                this.zoom.scaleBy, 1 / 1.5
+            );
+        });
+
+        document.getElementById('reset-view').addEventListener('click', () => {
+            this.svg.transition().duration(750).call(
+                this.zoom.transform,
+                d3.zoomIdentity.translate(this.width / 2, this.height / 2).scale(1)
+            );
+        });
+
+        document.getElementById('toggle-physics').addEventListener('click', () => {
+            this.physicsEnabled = !this.physicsEnabled;
+            if (this.physicsEnabled) {
+                this.simulation.alphaTarget(0.3).restart();
+            } else {
+                this.simulation.stop();
+            }
+        });
+
+        // Search functionality
+        const searchInput = document.getElementById('search-input');
+        searchInput.addEventListener('input', (event) => {
+            this.searchTerm = event.target.value.toLowerCase();
+            this.filterNodes();
+        });
+
+        // Window resize
+        window.addEventListener('resize', () => {
+            this.handleResize();
+        });
+    }
+
+    filterNodes() {
+        this.nodeElements
+            .style('opacity', d => {
+                if (!this.searchTerm) return 1;
+                return d.name.toLowerCase().includes(this.searchTerm) ? 1 : 0.3;
+            })
+            .select('circle')
+            .style('transform', d => {
+                if (!this.searchTerm) return null;
+                const scale = d.name.toLowerCase().includes(this.searchTerm) ? 1.2 : 0.8;
+                return `scale(${scale})`;
+            });
+
+        this.linkElements
+            .style('opacity', d => {
+                if (!this.searchTerm) return 0.7;
+                const sourceMatch = d.source.name.toLowerCase().includes(this.searchTerm);
+                const targetMatch = d.target.name.toLowerCase().includes(this.searchTerm);
+                return (sourceMatch || targetMatch) ? 1 : 0.2;
+            });
+    }
+
+    updateStats() {
+        const nodeCount = this.nodes.length;
+        const linkCount = this.links.length;
+        const dirCount = this.nodes.filter(n => n.type === 'directory').length;
+        const fileCount = this.nodes.filter(n => n.type === 'file').length;
+
+        document.getElementById('node-count').textContent = nodeCount;
+        document.getElementById('link-count').textContent = linkCount;
+        document.getElementById('dir-count').textContent = dirCount;
+        document.getElementById('file-count').textContent = fileCount;
+    }
+
+    handleResize() {
+        const container = document.getElementById('graph-container');
+        this.width = container.clientWidth;
+        this.height = container.clientHeight;
+
+        this.svg
+            .attr('width', this.width)
+            .attr('height', this.height);
+
+        this.simulation
+            .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+            .force('x', d3.forceX(this.width / 2).strength(0.1))
+            .force('y', d3.forceY(this.height / 2).strength(0.1))
+            .alpha(0.3)
+            .restart();
+    }
+}
+
+// Initialize the mindmap when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    new ObsidianMindmap();
+});
+</script>
