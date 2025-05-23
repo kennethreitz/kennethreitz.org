@@ -170,7 +170,16 @@ def render_markdown_file(file_path):
 
 @app.route('/')
 def index():
-    """Homepage showing the root data directory."""
+    """Homepage showing the mindmap visualization."""
+    return render_template('mindmap.html',
+                         title='Kenneth Reitz - Digital Mind Map',
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='Mind Map')
+
+@app.route('/directory')
+def directory_index():
+    """Directory listing that was previously the homepage."""
     items = get_directory_structure(DATA_DIR)
     
     # Check for index.md in the root data directory
