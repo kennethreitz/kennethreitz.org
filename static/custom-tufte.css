@@ -369,15 +369,19 @@ header, footer, nav {
 
 /* Directory content positioning styles */
 .directory-content-top {
-  margin-bottom: 2.5rem;
-  padding-bottom: 1.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
   border-bottom: 1px solid #e3e0f4;
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
 .directory-content-bottom {
-  margin-top: 3rem;
-  padding-top: 2rem;
+  margin-top: 4rem;
+  padding-top: 3rem;
   border-top: 1px solid #e3e0f4;
+  background-color: #faf9fd;
+  padding: 2rem;
+  border-radius: 8px;
 }
 
 .directory-content-title {
@@ -386,6 +390,83 @@ header, footer, nav {
   color: #4e3979;
   margin-bottom: 1.5rem;
   font-weight: 400;
+  border-bottom: 1px solid #d0c8ec;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.directory-content-top h1,
+.directory-content-bottom h1 {
+  font-size: 2.2rem;
+  color: #4e3979;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.directory-content-top h2,
+.directory-content-bottom h2 {
+  font-size: 1.8rem;
+  color: #6f52b0;
+  margin: 1.5rem 0 1rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.directory-content-top h3,
+.directory-content-bottom h3 {
+  font-size: 1.5rem;
+  color: #8265c4;
+  margin: 1.2rem 0 0.8rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.directory-content-top p,
+.directory-content-bottom p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin: 1rem 0;
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.directory-content-top ul,
+.directory-content-bottom ul {
+  list-style-type: disc;
+  padding-left: 2.5rem;
+  margin: 1.5rem 0;
+  width: 90%;
+}
+
+.directory-content-top ol,
+.directory-content-bottom ol {
+  list-style-type: decimal;
+  padding-left: 2.5rem;
+  margin: 1.5rem 0;
+  width: 90%;
+}
+
+.directory-content-top li,
+.directory-content-bottom li {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-bottom: 0.7rem;
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.directory-content-top ul ul,
+.directory-content-top ol ul,
+.directory-content-bottom ul ul,
+.directory-content-bottom ol ul {
+  list-style-type: circle;
+  margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.directory-content-top ul ol,
+.directory-content-top ol ol,
+.directory-content-bottom ul ol,
+.directory-content-bottom ol ol {
+  list-style-type: lower-alpha;
+  margin: 0.5rem 0 0.5rem 1rem;
 }
 
 /* =====================================================
