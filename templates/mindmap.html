@@ -90,11 +90,7 @@
                             <p
                                 class="text-xl text-gray-400 font-serif italic mt-2 tracking-wide"
                             >
-                                Creator of
-                                <span class="text-primary-400 font-semibold"
-                                    >Requests</span
-                                >
-                                • Making Complex Things Simple
+                                Making Complex Things Simple
                             </p>
                         </div>
 
@@ -130,19 +126,8 @@
                             >
                                 💎 Values
                             </a>
-                            <a
-                                href="/sitemap"
-                                class="text-sm font-medium text-gray-300 hover:text-primary-400 transition-all duration-300 px-3 py-2 rounded-lg hover:bg-primary-900/30 border border-transparent hover:border-primary-500/30"
-                            >
-                                🗺️ Sitemap
-                            </a>
-                            <a
-                                href="https://github.com/psf/requests"
-                                target="_blank"
-                                class="text-sm font-medium text-gray-300 hover:text-primary-400 transition-all duration-300 px-3 py-2 rounded-lg hover:bg-primary-900/30 border border-transparent hover:border-primary-500/30"
-                            >
-                                🌐 Requests
-                            </a>
+
+
                         </nav>
                     </div>
 
@@ -179,19 +164,6 @@
                                 class="text-xs font-medium text-gray-300 hover:text-primary-400 transition-all duration-300 px-3 py-2 rounded-lg hover:bg-primary-900/30"
                             >
                                 💎 Values
-                            </a>
-                            <a
-                                href="/sitemap"
-                                class="text-xs font-medium text-gray-300 hover:text-primary-400 transition-all duration-300 px-3 py-2 rounded-lg hover:bg-primary-900/30"
-                            >
-                                🗺️ Sitemap
-                            </a>
-                            <a
-                                href="https://github.com/psf/requests"
-                                target="_blank"
-                                class="text-xs font-medium text-gray-300 hover:text-primary-400 transition-all duration-300 px-3 py-2 rounded-lg hover:bg-primary-900/30"
-                            >
-                                🌐 Requests
                             </a>
                         </nav>
                     </div>
@@ -495,7 +467,7 @@
             .node {
                 cursor: pointer;
                 transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-                filter: brightness(1.0);
+                filter: brightness(1);
             }
 
             .node:hover {
@@ -542,8 +514,7 @@
             .node:hover circle {
                 transform: scale(1.4);
                 filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.6))
-                    drop-shadow(0 0 15px currentColor)
-                    brightness(1.3);
+                    drop-shadow(0 0 15px currentColor) brightness(1.3);
             }
 
             .node.active circle {
@@ -561,9 +532,15 @@
             }
 
             @keyframes navigate-pulse {
-                0% { transform: scale(1); }
-                50% { transform: scale(1.3); }
-                100% { transform: scale(1); }
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.3);
+                }
+                100% {
+                    transform: scale(1);
+                }
             }
 
             @keyframes pulse {
@@ -1055,28 +1032,44 @@
                     Interactive knowledge graph of thoughts, projects, and
                     insights
                 </p>
-                
+
                 <!-- Interaction Legend -->
                 <div class="flex justify-center mb-8">
-                    <div class="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-lg px-6 py-4 max-w-full">
-                        <div class="flex flex-wrap justify-center gap-6 text-sm">
+                    <div
+                        class="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-lg px-6 py-4 max-w-full"
+                    >
+                        <div
+                            class="flex flex-wrap justify-center gap-6 text-sm"
+                        >
                             <div class="flex items-center gap-2">
-                                <div class="w-3 h-3 rounded-full bg-green-500"></div>
-                                <span class="text-gray-300">📄 Files - Click to read</span>
+                                <div
+                                    class="w-3 h-3 rounded-full bg-green-500"
+                                ></div>
+                                <span class="text-gray-300"
+                                    >📄 Files - Click to read</span
+                                >
                             </div>
                             <div class="flex items-center gap-2">
-                                <div class="w-3 h-3 rounded-full bg-blue-500"></div>
-                                <span class="text-gray-300">📁 Folders - Click to explore</span>
+                                <div
+                                    class="w-3 h-3 rounded-full bg-blue-500"
+                                ></div>
+                                <span class="text-gray-300"
+                                    >📁 Folders - Click to explore</span
+                                >
                             </div>
                             <div class="flex items-center gap-2">
-                                <div class="w-4 h-4 rounded-full bg-yellow-500"></div>
-                                <span class="text-gray-300">🌟 Root - Hover for info</span>
+                                <div
+                                    class="w-4 h-4 rounded-full bg-yellow-500"
+                                ></div>
+                                <span class="text-gray-300"
+                                    >🌟 Root - Hover for info</span
+                                >
                             </div>
                         </div>
-                        
+
                         <!-- Debug Test Button -->
                         <div class="text-center mt-4">
-                            <button 
+                            <button
                                 id="test-click-btn"
                                 class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm"
                                 onclick="console.log('Test button clicked!'); alert('JavaScript is working!');"
@@ -1178,94 +1171,11 @@
                 </div>
             </div>
         </section>
+
         <!-- Footer -->
-        <footer
-            class="border-t border-gray-800/60 mt-20 bg-gradient-to-t from-gray-900 to-gray-900/60 backdrop-blur-sm"
-        >
-            <div class="max-w-6xl mx-auto px-6 py-16">
-                <div class="text-center">
-                    <!-- Impact Statement -->
-                    <div class="mb-8">
-                        <p class="text-lg text-gray-300 font-medium mb-2">
-                            Empowering developers worldwide with elegant,
-                            human-centered code
-                        </p>
-                        <p class="text-sm text-gray-500">
-                            16M downloads daily • Touching every Python project
-                            on Earth
-                        </p>
-                    </div>
-
-                    <!-- Social Links -->
-                    <div class="flex justify-center space-x-8 mb-8">
-                        <a
-                            href="https://github.com/kennethreitz"
-                            target="_blank"
-                            class="text-gray-400 hover:text-primary-400 transition-all duration-300 flex items-center space-x-2 group"
-                        >
-                            <svg
-                                class="h-6 w-6 group-hover:scale-110 transition-transform"
-                                fill="currentColor"
-                                viewBox="0 0 20 20"
-                            >
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z"
-                                    clip-rule="evenodd"
-                                />
-                            </svg>
-                            <span class="hidden sm:inline font-medium"
-                                >GitHub</span
-                            >
-                        </a>
-                        <a
-                            href="https://twitter.com/kennethreitz"
-                            target="_blank"
-                            class="text-gray-400 hover:text-primary-400 transition-all duration-300 flex items-center space-x-2 group"
-                        >
-                            <svg
-                                class="h-6 w-6 group-hover:scale-110 transition-transform"
-                                fill="currentColor"
-                                viewBox="0 0 20 20"
-                            >
-                                <path
-                                    d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"
-                                />
-                            </svg>
-                            <span class="hidden sm:inline font-medium"
-                                >Twitter</span
-                            >
-                        </a>
-                        <a
-                            href="https://github.com/psf/requests"
-                            target="_blank"
-                            class="text-gray-400 hover:text-primary-400 transition-all duration-300 flex items-center space-x-2 group"
-                        >
-                            <svg
-                                class="h-6 w-6 group-hover:scale-110 transition-transform"
-                                fill="currentColor"
-                                viewBox="0 0 20 20"
-                            >
-                                <path d="M10 2L3 7v11h14V7l-7-5z" />
-                            </svg>
-                            <span class="hidden sm:inline font-medium"
-                                >Requests</span
-                            >
-                        </a>
-                    </div>
-
-                    <!-- Copyright -->
-                    <div class="border-t border-gray-800/40 pt-8">
-                        <p class="text-sm text-gray-500">
-                            &copy; 2024 Kenneth Reitz. Crafted with passion for
-                            beautiful, human-centered design.
-                        </p>
-                        <p class="text-xs text-gray-600 mt-2">
-                            "Beautiful is better than ugly. Simple is better
-                            than complex."
-                        </p>
-                    </div>
-                </div>
+        <footer class="border-t border-gray-800/60 mt-20">
+            <div class="max-w-6xl mx-auto px-6 py-8 text-center">
+                <p class="text-sm text-gray-500">&copy; 2025 Kenneth Reitz</p>
             </div>
         </footer>
 
@@ -1302,7 +1212,11 @@
                         this.updateStats();
 
                         // Add initialization feedback
-                        console.log("Mindmap initialized with", this.nodes.length, "nodes");
+                        console.log(
+                            "Mindmap initialized with",
+                            this.nodes.length,
+                            "nodes",
+                        );
                         console.log("Event listeners attached to nodes");
 
                         document.getElementById("loading").style.display =
@@ -1417,8 +1331,12 @@
                 }
 
                 render() {
-                    console.log("🔧 Starting render with", this.nodes.length, "nodes");
-                    
+                    console.log(
+                        "🔧 Starting render with",
+                        this.nodes.length,
+                        "nodes",
+                    );
+
                     // Render links first (so they appear behind nodes)
                     this.linkElements = this.g
                         .selectAll(".link")
@@ -1458,7 +1376,8 @@
                         .attr("data-path", (d) => d.path || "");
 
                     // Add circles to nodes
-                    this.nodeElements.append("circle")
+                    this.nodeElements
+                        .append("circle")
                         .attr("data-clickable", "true");
 
                     // Add text labels
@@ -1481,49 +1400,74 @@
 
                     // Add comprehensive event handling
                     const self = this;
-                    this.nodeElements.each(function(d, i) {
+                    this.nodeElements.each(function (d, i) {
                         const nodeElement = this;
                         const nodeData = d;
-                        
-                        console.log(`Setting up node ${i}: ${nodeData.name} (${nodeData.type})`);
-                        
+
+                        console.log(
+                            `Setting up node ${i}: ${nodeData.name} (${nodeData.type})`,
+                        );
+
                         // D3 event listeners
                         d3.select(this)
-                            .on("mouseover", function(event, d) {
+                            .on("mouseover", function (event, d) {
                                 console.log("D3 Mouseover:", d.name);
                                 self.showTooltip(event, d);
                             })
-                            .on("mouseout", function() {
+                            .on("mouseout", function () {
                                 self.hideTooltip();
                             })
-                            .on("click", function(event, d) {
-                                console.log("🎯 D3 CLICK:", d.name, d.type, d.path);
+                            .on("click", function (event, d) {
+                                console.log(
+                                    "🎯 D3 CLICK:",
+                                    d.name,
+                                    d.type,
+                                    d.path,
+                                );
                                 self.handleNodeClick(event, d);
                             });
-                        
+
                         // Native DOM event listeners
-                        nodeElement.addEventListener('click', function(event) {
-                            console.log("🔥 NATIVE CLICK:", nodeData.name, nodeData.type);
-                            event.stopPropagation();
-                            
-                            if (nodeData.type === "file" && nodeData.path) {
-                                console.log("📄 Navigating to:", `/${nodeData.path}`);
-                                window.location.href = `/${nodeData.path}`;
-                            } else {
-                                console.log("📁 Directory clicked");
-                            }
-                        }, true);
-                        
+                        nodeElement.addEventListener(
+                            "click",
+                            function (event) {
+                                console.log(
+                                    "🔥 NATIVE CLICK:",
+                                    nodeData.name,
+                                    nodeData.type,
+                                );
+                                event.stopPropagation();
+
+                                if (nodeData.type === "file" && nodeData.path) {
+                                    console.log(
+                                        "📄 Navigating to:",
+                                        `/${nodeData.path}`,
+                                    );
+                                    window.location.href = `/${nodeData.path}`;
+                                } else {
+                                    console.log("📁 Directory clicked");
+                                }
+                            },
+                            true,
+                        );
+
                         // Add click to circle specifically
                         const circle = d3.select(this).select("circle");
-                        circle.node().addEventListener('click', function(event) {
-                            console.log("⭕ CIRCLE NATIVE CLICK:", nodeData.name);
-                            event.stopPropagation();
-                            
-                            if (nodeData.type === "file" && nodeData.path) {
-                                window.location.href = `/${nodeData.path}`;
-                            }
-                        }, true);
+                        circle.node().addEventListener(
+                            "click",
+                            function (event) {
+                                console.log(
+                                    "⭕ CIRCLE NATIVE CLICK:",
+                                    nodeData.name,
+                                );
+                                event.stopPropagation();
+
+                                if (nodeData.type === "file" && nodeData.path) {
+                                    window.location.href = `/${nodeData.path}`;
+                                }
+                            },
+                            true,
+                        );
                     });
 
                     console.log("✅ All event listeners attached");
@@ -1613,7 +1557,12 @@
                 }
 
                 handleNodeClick(event, d) {
-                    console.log("🚀 handleNodeClick called for:", d.name, d.type, d.path);
+                    console.log(
+                        "🚀 handleNodeClick called for:",
+                        d.name,
+                        d.type,
+                        d.path,
+                    );
 
                     // Prevent event bubbling
                     event.stopPropagation();
@@ -1622,7 +1571,7 @@
                     // Add visual feedback immediately
                     const clickedNode = d3.select(event.currentTarget);
                     const circle = clickedNode.select("circle");
-                    
+
                     // Flash effect
                     circle
                         .transition()
@@ -1630,27 +1579,52 @@
                         .attr("fill", "#ffffff")
                         .transition()
                         .duration(100)
-                        .attr("fill", d.type === "file" ? "var(--kr-accent)" : 
-                                     d.type === "directory" ? "var(--kr-primary)" : "var(--kr-secondary)");
+                        .attr(
+                            "fill",
+                            d.type === "file"
+                                ? "var(--kr-accent)"
+                                : d.type === "directory"
+                                  ? "var(--kr-primary)"
+                                  : "var(--kr-secondary)",
+                        );
 
                     // Scale animation
                     circle
                         .transition()
                         .duration(200)
-                        .attr("r", d.type === "root" ? 20 : d.type === "directory" ? 14 : 10)
+                        .attr(
+                            "r",
+                            d.type === "root"
+                                ? 20
+                                : d.type === "directory"
+                                  ? 14
+                                  : 10,
+                        )
                         .transition()
                         .duration(200)
-                        .attr("r", d.type === "root" ? 16 : d.type === "directory" ? 10 : 7);
+                        .attr(
+                            "r",
+                            d.type === "root"
+                                ? 16
+                                : d.type === "directory"
+                                  ? 10
+                                  : 7,
+                        );
 
                     // Navigate to article if it's a file
                     if (d.type === "file" && d.path && d.path !== "") {
-                        console.log("📄 FILE CLICK - Navigating to:", `/${d.path}`);
+                        console.log(
+                            "📄 FILE CLICK - Navigating to:",
+                            `/${d.path}`,
+                        );
                         // Immediate navigation for better UX
                         window.location.href = `/${d.path}`;
                         return;
                     }
 
-                    console.log("📁 DIRECTORY CLICK - Highlighting connections");
+                    console.log(
+                        "📁 DIRECTORY CLICK - Highlighting connections",
+                    );
 
                     // For directories, highlight connections
                     this.nodeElements.classed("active", false);
@@ -1660,10 +1634,17 @@
 
                     // Highlight connected links
                     this.linkElements
-                        .classed("active", (link) =>
-                            link.source.id === d.id || link.target.id === d.id)
+                        .classed(
+                            "active",
+                            (link) =>
+                                link.source.id === d.id ||
+                                link.target.id === d.id,
+                        )
                         .style("opacity", (link) =>
-                            link.source.id === d.id || link.target.id === d.id ? 1 : 0.3);
+                            link.source.id === d.id || link.target.id === d.id
+                                ? 1
+                                : 0.3,
+                        );
                 }
 
                 handleNodeDoubleClick(event, d) {

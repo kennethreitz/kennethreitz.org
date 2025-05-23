@@ -93,7 +93,7 @@ h3 {
 hr {
     display: block;
     height: 1px;
-    width: 55%;
+    width: 75%;
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
@@ -170,12 +170,12 @@ blockquote {
 }
 
 blockquote p {
-    width: 55%;
+    width: 75%;
     margin-right: 40px;
 }
 
 blockquote footer {
-    width: 55%;
+    width: 75%;
     font-size: 1.1rem;
     text-align: right;
 }
@@ -183,7 +183,7 @@ blockquote footer {
 section > p,
 section > footer,
 section > table {
-    width: 55%;
+    width: 75%;
 }
 
 /* 50 + 5 == 55, to be the same width as paragraph */
@@ -219,7 +219,7 @@ figure {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    max-width: 55%;
+    max-width: 75%;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     margin: 0 0 3em 0;

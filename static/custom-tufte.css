@@ -385,7 +385,7 @@ header, footer, nav {
 
 /* List styling */
 .tufte ul, .tufte ol {
-  width: 55%;
+  width: 75%;
   -webkit-padding-start: 5%;
   -webkit-padding-end: 5%;
   padding-inline-start: 5%;
@@ -607,11 +607,11 @@ header, footer, nav {
 
 @media (max-width: 1024px) {
   .tufte section > p, .tufte section > ul, .tufte section > ol {
-    width: 65%;
+    width: 85%;
   }
 
   .tufte ul, .tufte ol {
-    width: 65%;
+    width: 85%;
   }
 
   .tufte .sidenote, .tufte .marginnote {
@@ -805,6 +805,7 @@ h4.content-header, h5.content-header, h6.content-header {
   line-height: 2rem;
   margin-top: 1.4rem;
   margin-bottom: 1.4rem;
+  width: 75%;
 }
 
 .content-section h1:first-child {
