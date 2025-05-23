@@ -192,11 +192,25 @@ section > ol,
 section > ul {
     width: 50%;
     -webkit-padding-start: 5%;
+    list-style-position: outside;
+    box-sizing: border-box;
+}
+
+section > ul {
+    list-style-type: disc;
+}
+
+section > ol {
+    list-style-type: decimal;
 }
 
 dt:not(:first-child),
 li:not(:first-child) {
     margin-top: 0.25rem;
+}
+
+li {
+    display: list-item;
 }
 
 figure {
@@ -428,6 +442,7 @@ label.margin-toggle:not(.sidenote-number) {
     section > ol,
     section > ul {
         width: 90%;
+        padding-inline-start: 1.5rem;
     }
 
     figure {

@@ -1,352 +1,249 @@
 {% extends "base.html" %}
 
-{% block title %}{{ photo.key.split('/')[-1] }} — Kenneth Reitz{% endblock %}
-
-{% block head %}
+{% block extra_head %}
 <style>
-    .photo-detail {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-    
-    .photo-header {
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-    
-    .photo-header h1 {
-        font-size: 2rem;
-        margin-bottom: 0.5rem;
-        color: var(--heading-color);
-    }
-    
-    .photo-breadcrumbs {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        font-size: 0.9rem;
-        margin-bottom: 1rem;
-    }
-    
-    .photo-breadcrumbs a {
-        color: var(--link-color);
-        text-decoration: none;
-        padding: 0.2rem 0.5rem;
-        transition: color 0.2s ease;
-    }
-    
-    .photo-breadcrumbs a:hover {
-        color: var(--accent-color);
-    }
-    
-    .photo-breadcrumbs .separator {
-        margin: 0 0.25rem;
-        color: var(--border-color);
-    }
-    
-    .photo-container {
-        margin-bottom: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        max-height: 80vh;
-        overflow: hidden;
-        border-radius: var(--border-radius);
-        box-shadow: 0 8px 24px var(--card-shadow);
-    }
-    
-    .full-image {
-        max-width: 100%;
-        max-height: 80vh;
-        object-fit: contain;
-    }
-    
-    .photo-metadata {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 2rem;
-        margin-top: 3rem;
-    }
-    
-    .metadata-section {
-        background-color: var(--card-color);
-        border-radius: var(--border-radius);
-        padding: 1.5rem;
-        box-shadow: 0 4px 12px var(--card-shadow);
-    }
-    
-    .metadata-section h2 {
-        font-size: 1.3rem;
-        margin-top: 0;
-        margin-bottom: 1rem;
-        padding-bottom: 0.5rem;
-        border-bottom: 1px solid var(--border-color);
-        color: var(--heading-color);
-    }
-    
-    .metadata-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .metadata-list li {
-        display: flex;
-        justify-content: space-between;
-        padding: 0.5rem 0;
-        border-bottom: 1px solid var(--border-color);
-        font-size: 0.95rem;
-    }
-    
-    .metadata-list li:last-child {
-        border-bottom: none;
-    }
-    
-    .metadata-key {
-        font-weight: 600;
-        color: var(--heading-color);
-    }
-    
-    .metadata-value {
-        color: var(--text-color);
-        max-width: 60%;
-        text-align: right;
-        overflow-wrap: break-word;
-        word-break: break-word;
-    }
-    
-    .exif-table {
+    /* Modal styles that need to be in CSS for proper layering */
+    .photo-modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
         width: 100%;
-        border-collapse: collapse;
+        height: 100%;
+        background-color: rgba(0,0,0,0.95);
+        cursor: zoom-out;
+        backdrop-filter: blur(4px);
     }
-    
-    .exif-table th, .exif-table td {
-        padding: 0.5rem;
-        text-align: left;
-        border-bottom: 1px solid var(--border-color);
-        font-size: 0.95rem;
+
+    .photo-modal-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 95%;
+        max-height: 95%;
+        border-radius: 12px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
     }
-    
-    .exif-table th {
-        font-weight: 600;
-        color: var(--heading-color);
-    }
-    
-    .navigation {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 3rem;
-        padding-top: 1.5rem;
-        border-top: 1px solid var(--border-color);
-    }
-    
-    .nav-button {
-        display: inline-flex;
-        align-items: center;
-        padding: 0.5rem 1rem;
-        background-color: var(--accent-light);
-        color: var(--accent-dark);
-        border-radius: var(--border-radius);
-        text-decoration: none;
-        transition: background-color 0.2s ease, transform 0.2s ease;
-    }
-    
-    .nav-button:hover {
-        background-color: var(--accent-color);
-        color: white;
-        transform: translateY(-2px);
-    }
-    
-    .nav-button.prev:before {
-        content: "←";
-        margin-right: 0.5rem;
-    }
-    
-    .nav-button.next:after {
-        content: "→";
-        margin-left: 0.5rem;
-    }
-    
-    .download-button {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
+
+    .photo-modal-close {
         position: absolute;
         top: 1rem;
         right: 1rem;
-        width: 3rem;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, 0.6);
         color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        z-index: 1001;
+        background: rgba(0,0,0,0.6);
         border-radius: 50%;
-        text-decoration: none;
-        opacity: 0.7;
-        transition: opacity 0.2s ease, transform 0.2s ease;
-        z-index: 10;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease;
     }
-    
-    .download-button:hover {
-        opacity: 1;
+
+    .photo-modal-close:hover {
+        background: rgba(0,0,0,0.8);
         transform: scale(1.1);
-    }
-    
-    @media (max-width: 768px) {
-        .photo-metadata {
-            grid-template-columns: 1fr;
-        }
-        
-        .metadata-list li {
-            flex-direction: column;
-        }
-        
-        .metadata-value {
-            max-width: 100%;
-            text-align: left;
-            margin-top: 0.3rem;
-        }
     }
 </style>
 {% endblock %}
 
 {% block content %}
-<div class="photo-detail">
-    <header class="photo-header">
-        <div class="flex flex-col text-sm mb-4 bg-background-code dark:bg-background-code-dark p-3 rounded-lg border border-border dark:border-border-dark font-mono">
-            <!-- IDE-style path bar -->
-            <div class="flex items-center flex-wrap mb-2">
-                <div class="mr-1 text-syntax-comment dark:text-syntax-comment opacity-70">//</div>
-                <div class="flex items-center">
-                    <span class="text-syntax-function dark:text-syntax-function opacity-90">const</span>
-                    <span class="text-syntax-keyword dark:text-syntax-keyword ml-1">currentImage</span>
-                    <span class="mx-1 text-syntax-operator dark:text-syntax-operator">=</span>
-                    <span class="text-syntax-string dark:text-syntax-string">"{{ photo.key }}"</span>
-                    <span class="text-syntax-operator dark:text-syntax-operator">;</span>
-                </div>
-            </div>
-            
-            <!-- Path navigator with accurate breadcrumbs -->
-            <div class="flex items-center flex-wrap">
-                <span class="mr-2 text-syntax-function dark:text-syntax-function opacity-90">navigate:</span>
-                <a href="/" class="text-link no-underline px-1 py-1 transition-colors hover:text-primary flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1 opacity-70">
-                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                    </svg>
-                    <span>root</span>
-                </a>
-                
-                <span class="text-syntax-operator dark:text-syntax-operator mx-1">.</span>
-                <a href="/photos" class="text-link no-underline px-1 py-1 transition-colors hover:text-primary flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1 text-syntax-number dark:text-syntax-number opacity-70">
-                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                    </svg>
-                    <span>photos</span>
-                </a>
-                
-                <!-- Current file with no link -->
-                <span class="text-syntax-operator dark:text-syntax-operator mx-1">.</span>
-                <span class="flex items-center px-1 py-1 text-syntax-regex dark:text-syntax-regex font-medium">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1 opacity-70">
-                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                        <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                        <polyline points="21 15 16 10 5 21"></polyline>
-                    </svg>
-                    <span>{{ photo.key.split('/')[-1] }}</span>
-                </span>
-            </div>
+<div class="max-w-6xl mx-auto">
+    <!-- Photo Header -->
+    <header class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+            {{ title }}
+        </h1>
+        <div class="text-lg text-gray-600">
+            <span class="inline-flex items-center gap-2">
+                <span class="text-primary-600">📸</span>
+                <span>Photo Gallery</span>
+            </span>
+            {% if gallery_images %}
+                <span class="mx-2 text-gray-400">•</span>
+                <span>{{ gallery_images | length }} image{{ 's' if gallery_images | length != 1 else '' }}</span>
+            {% endif %}
         </div>
-        
-        <h1>{{ photo.key.split('/')[-1] }}</h1>
     </header>
 
-    <div class="photo-container">
-        <img src="{{ photo.full_image_url }}" alt="{{ photo.key.split('/')[-1] }}" class="full-image">
-        <a href="{{ photo.full_image_url }}" download class="download-button" title="Download full image">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+    <!-- Main Photo -->
+    <div class="text-center mb-8">
+        <img src="{{ image_path }}" 
+             alt="{{ title }}" 
+             id="mainImage" 
+             onclick="openModal()"
+             class="max-w-full h-auto max-h-[80vh] rounded-2xl shadow-2xl cursor-zoom-in hover:scale-[1.02] transition-transform duration-300 mx-auto">
+    </div>
+
+    <!-- Photo Actions -->
+    <div class="flex justify-center gap-4 mb-12 flex-wrap">
+        <a href="{{ image_path }}" 
+           target="_blank"
+           class="inline-flex items-center gap-3 px-6 py-3 border-2 border-primary-600 text-primary-700 rounded-lg hover:bg-primary-600 hover:text-white transition-all duration-200 font-medium group">
+            <span class="text-xl">🔍</span>
+            <span>View Full Size</span>
+        </a>
+        <a href="{{ image_path }}" 
+           download
+           class="inline-flex items-center gap-3 px-6 py-3 border-2 border-green-600 text-green-700 rounded-lg hover:bg-green-600 hover:text-white transition-all duration-200 font-medium group">
+            <span class="text-xl">⬇️</span>
+            <span>Download</span>
         </a>
     </div>
 
-    <div class="photo-metadata">
-        <div class="metadata-section">
-            <h2>Photo Information</h2>
-            <ul class="metadata-list">
-                <li>
-                    <span class="metadata-key">Filename</span>
-                    <span class="metadata-value">{{ photo.key.split('/')[-1] }}</span>
-                </li>
-                <li>
-                    <span class="metadata-key">Size</span>
-                    <span class="metadata-value">{{ photo.size | filesizeformat }}</span>
-                </li>
-                <li>
-                    <span class="metadata-key">Last Modified</span>
-                    <span class="metadata-value">{{ photo.last_modified.strftime('%Y-%m-%d %H:%M:%S') }}</span>
-                </li>
-                {% if photo.lens %}
-                <li>
-                    <span class="metadata-key">Lens</span>
-                    <span class="metadata-value">{{ photo.lens }}</span>
-                </li>
-                {% endif %}
-                {% if photo.year_taken %}
-                <li>
-                    <span class="metadata-key">Year Taken</span>
-                    <span class="metadata-value">{{ photo.year_taken }}</span>
-                </li>
-                {% endif %}
-            </ul>
-        </div>
+    {% if gallery_images and gallery_images | length > 1 %}
+    <!-- Gallery Section -->
+    <section class="mt-16 pt-8 border-t-2 border-gray-200">
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">
+            Gallery
+        </h2>
         
-        <div class="metadata-section">
-            <h2>Camera Settings</h2>
-            <ul class="metadata-list">
-                {% for key, value in exif_data.items() if key in ['Aperture', 'Shutter Speed', 'ISO', 'Focal Length', 'Camera', 'Exposure Program', 'Date Time'] %}
-                <li>
-                    <span class="metadata-key">{{ key }}</span>
-                    <span class="metadata-value">{{ value }}</span>
-                </li>
-                {% endfor %}
-            </ul>
+        <!-- Navigation Buttons -->
+        <div class="flex flex-col lg:flex-row justify-between items-center mb-8 gap-4">
+            {% set current_index = namespace(value=-1) %}
+            {% for img in gallery_images %}
+                {% if img.is_current %}
+                    {% set current_index.value = loop.index0 %}
+                {% endif %}
+            {% endfor %}
+            
+            {% if current_index.value > 0 %}
+                <a href="{{ gallery_images[current_index.value - 1].url }}" 
+                   class="inline-flex items-center gap-3 px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-lg">
+                    <span>←</span>
+                    <span>Previous</span>
+                </a>
+            {% else %}
+                <span class="inline-flex items-center gap-3 px-6 py-3 bg-gray-300 text-gray-500 rounded-lg cursor-not-allowed font-medium">
+                    <span>←</span>
+                    <span>Previous</span>
+                </span>
+            {% endif %}
+
+            <div class="text-sm text-gray-600 font-mono bg-gray-100 px-4 py-2 rounded-full">
+                {{ current_index.value + 1 }} of {{ gallery_images | length }}
+            </div>
+
+            {% if current_index.value < (gallery_images | length - 1) %}
+                <a href="{{ gallery_images[current_index.value + 1].url }}" 
+                   class="inline-flex items-center gap-3 px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-lg">
+                    <span>Next</span>
+                    <span>→</span>
+                </a>
+            {% else %}
+                <span class="inline-flex items-center gap-3 px-6 py-3 bg-gray-300 text-gray-500 rounded-lg cursor-not-allowed font-medium">
+                    <span>Next</span>
+                    <span>→</span>
+                </span>
+            {% endif %}
         </div>
-    </div>
-    
-    {% if exif_data and exif_data|length > 6 %}
-    <div class="metadata-section" style="margin-top: 2rem;">
-        <h2>All EXIF Data</h2>
-        <table class="exif-table">
-            <thead>
-                <tr>
-                    <th>Key</th>
-                    <th>Value</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for key, value in exif_data.items() %}
-                <tr>
-                    <td>{{ key }}</td>
-                    <td>{{ value }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </div>
+
+        <!-- Gallery Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-8">
+            {% for img in gallery_images %}
+            <div class="relative aspect-square rounded-lg overflow-hidden shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300 group {% if img.is_current %}ring-4 ring-primary-500 shadow-primary-200{% endif %}">
+                {% if not img.is_current %}
+                    <a href="{{ img.url }}" class="block w-full h-full">
+                        <img src="{{ img.path }}" 
+                             alt="{{ img.name }}" 
+                             loading="lazy"
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                    </a>
+                {% else %}
+                    <img src="{{ img.path }}" 
+                         alt="{{ img.name }}" 
+                         loading="lazy"
+                         class="w-full h-full object-cover">
+                    <div class="absolute top-2 right-2 bg-primary-600 text-white px-2 py-1 rounded-md text-xs font-semibold">
+                        Current
+                    </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </section>
     {% endif %}
 
-    <div class="navigation">
-        {% if prev_photo %}
-        <a href="{{ prev_photo.url }}" class="nav-button prev">Previous</a>
+    <!-- Back Navigation -->
+    <nav class="mt-16 pt-8 border-t border-gray-200">
+        {% if breadcrumbs %}
+            {% set parent_path = breadcrumbs[-1].url if breadcrumbs else '/' %}
         {% else %}
-        <div></div>
+            {% set parent_path = '/' %}
         {% endif %}
         
-        <a href="/photos" class="nav-button">Back to Gallery</a>
-        
-        {% if next_photo %}
-        <a href="{{ next_photo.url }}" class="nav-button next">Next</a>
-        {% else %}
-        <div></div>
-        {% endif %}
-    </div>
+        <a href="{{ parent_path }}" 
+           class="inline-flex items-center gap-3 px-6 py-3 text-primary-700 border-2 border-primary-600 rounded-lg hover:bg-primary-600 hover:text-white transition-all duration-200 font-medium group">
+            <span class="transition-transform group-hover:-translate-x-1">←</span>
+            <span>Back to Directory</span>
+        </a>
+    </nav>
 </div>
+
+<!-- Modal for full-screen view -->
+<div id="imageModal" class="photo-modal" onclick="closeModal()">
+    <span class="photo-modal-close" onclick="closeModal()">&times;</span>
+    <img class="photo-modal-content" id="modalImage">
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+function openModal() {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    const mainImg = document.getElementById('mainImage');
+    
+    modal.style.display = 'block';
+    modalImg.src = mainImg.src;
+}
+
+function closeModal() {
+    document.getElementById('imageModal').style.display = 'none';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeModal();
+        }
+        
+        // Arrow key navigation between images
+        {% if gallery_images and gallery_images | length > 1 %}
+        const currentIndex = {{ current_index.value if current_index is defined else 0 }};
+        const galleryImages = {{ gallery_images | tojson }};
+        
+        if (e.key === 'ArrowLeft' && currentIndex > 0) {
+            window.location.href = galleryImages[currentIndex - 1].url;
+        } else if (e.key === 'ArrowRight' && currentIndex < galleryImages.length - 1) {
+            window.location.href = galleryImages[currentIndex + 1].url;
+        }
+        {% endif %}
+    });
+
+    // Preload adjacent images for faster navigation
+    {% if gallery_images and gallery_images | length > 1 %}
+    const currentIndex = {{ current_index.value if current_index is defined else 0 }};
+    const galleryImages = {{ gallery_images | tojson }};
+    
+    // Preload previous image
+    if (currentIndex > 0) {
+        const prevImg = new Image();
+        prevImg.src = galleryImages[currentIndex - 1].path;
+    }
+    
+    // Preload next image
+    if (currentIndex < galleryImages.length - 1) {
+        const nextImg = new Image();
+        nextImg.src = galleryImages[currentIndex + 1].path;
+    }
+    {% endif %}
+});
+</script>
 {% endblock %}

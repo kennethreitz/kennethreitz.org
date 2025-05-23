@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "et-book";
+  src: url("tufte/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "et-book";
+  src: url("tufte/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "et-book";
+  src: url("tufte/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "et-book";
+  src: url("tufte/et-book/et-book-semi-bold-old-style-figures/et-book-semi-bold-old-style-figures.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ET Book class for easy application */
+.et-book {
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+/* Ensure proper text rendering */
+.et-book {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

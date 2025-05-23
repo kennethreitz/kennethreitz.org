@@ -15,5 +15,7 @@ dependencies = [
     "pygments",
     "boto3",
     "pillow",
-    "background"
+    "background",
+    "markdown>=3.8",
+    "flask>=3.1.1",
 ]

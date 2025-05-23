@@ -1,0 +1,438 @@
+{% extends "base.html" %}
+
+{% block extra_head %}
+<style>
+    /* Custom D3.js styles that need to be in CSS */
+    #mindmap-svg {
+        cursor: grab;
+    }
+
+    #mindmap-svg:active {
+        cursor: grabbing;
+    }
+
+    .node-circle {
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .node-directory {
+        fill: #4e3979;
+        stroke: #3a2b5c;
+        stroke-width: 2;
+    }
+
+    .node-markdown {
+        fill: #2563eb;
+        stroke: #3a2b5c;
+        stroke-width: 2;
+    }
+
+    .node-text {
+        font-family: 'Inter', system-ui, sans-serif;
+        font-size: 12px;
+        fill: #1f2937;
+        text-anchor: middle;
+        pointer-events: none;
+        font-weight: 500;
+    }
+
+    .link {
+        fill: none;
+        stroke: #d1d5db;
+        stroke-width: 2;
+        stroke-opacity: 0.6;
+    }
+
+    .node-circle:hover {
+        stroke-width: 3;
+        filter: brightness(1.1);
+    }
+
+    .mindmap-tooltip {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.9);
+        color: white;
+        padding: 0.75rem;
+        border-radius: 8px;
+        font-size: 0.875rem;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+        z-index: 1000;
+        max-width: 250px;
+        word-wrap: break-word;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<!-- Mindmap Header -->
+<div class="text-center mb-8">
+    <h1 class="text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+        Digital Mind Map
+    </h1>
+    <p class="text-xl text-gray-600 font-serif italic mb-8">
+        Interactive visualization of Kenneth Reitz's digital vault
+    </p>
+    
+    <!-- Controls -->
+    <div class="flex flex-wrap justify-center gap-3 mb-8">
+        <button onclick="resetZoom()" 
+                class="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-md">
+            <span>🔍</span>
+            <span>Reset Zoom</span>
+        </button>
+        <button onclick="expandAll()" 
+                class="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-md">
+            <span>📂</span>
+            <span>Expand All</span>
+        </button>
+        <button onclick="collapseAll()" 
+                class="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-md">
+            <span>📁</span>
+            <span>Collapse All</span>
+        </button>
+        <button onclick="centerGraph()" 
+                class="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-md">
+            <span>🎯</span>
+            <span>Center</span>
+        </button>
+    </div>
+</div>
+
+<!-- Mindmap Container -->
+<div class="w-full bg-white border-2 border-gray-200 rounded-2xl overflow-hidden shadow-xl relative" 
+     style="height: calc(100vh - 300px); min-height: 600px;">
+    
+    <!-- Loading State -->
+    <div id="loading" class="flex items-center justify-center h-full text-gray-500">
+        <div class="flex items-center gap-4">
+            <div class="w-10 h-10 border-4 border-gray-200 border-t-primary-600 rounded-full animate-spin"></div>
+            <span class="text-lg font-medium">Loading mind map...</span>
+        </div>
+    </div>
+    
+    <!-- SVG Container -->
+    <svg id="mindmap-svg" class="w-full h-full" style="display: none;"></svg>
+</div>
+
+<!-- Statistics -->
+<div id="stats" class="flex flex-wrap justify-center gap-6 mt-8" style="display: none;">
+    <div class="text-center p-6 bg-gray-50 rounded-xl shadow-sm min-w-[140px]">
+        <div id="total-nodes" class="text-3xl font-bold text-primary-600 mb-2">0</div>
+        <div class="text-sm text-gray-600 font-medium">Total Items</div>
+    </div>
+    <div class="text-center p-6 bg-gray-50 rounded-xl shadow-sm min-w-[140px]">
+        <div id="directory-count" class="text-3xl font-bold text-primary-600 mb-2">0</div>
+        <div class="text-sm text-gray-600 font-medium">Directories</div>
+    </div>
+    <div class="text-center p-6 bg-gray-50 rounded-xl shadow-sm min-w-[140px]">
+        <div id="markdown-count" class="text-3xl font-bold text-primary-600 mb-2">0</div>
+        <div class="text-sm text-gray-600 font-medium">Documents</div>
+    </div>
+    <div class="text-center p-6 bg-gray-50 rounded-xl shadow-sm min-w-[140px]">
+        <div id="max-depth" class="text-3xl font-bold text-primary-600 mb-2">0</div>
+        <div class="text-sm text-gray-600 font-medium">Max Depth</div>
+    </div>
+</div>
+
+<!-- Tooltip -->
+<div class="mindmap-tooltip" id="tooltip"></div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+let svg, g, simulation, nodes, links;
+let width, height;
+let mindmapData;
+let tooltip;
+
+// Initialize the visualization
+async function initMindmap() {
+    try {
+        const response = await fetch('/api/mindmap');
+        mindmapData = await response.json();
+        
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('mindmap-svg').style.display = 'block';
+        document.getElementById('stats').style.display = 'flex';
+        
+        setupSVG();
+        processData();
+        createVisualization();
+        updateStats();
+        
+    } catch (error) {
+        console.error('Error loading mindmap data:', error);
+        document.getElementById('loading').innerHTML = '<span style="color: var(--heroku-red);">Error loading mind map data</span>';
+    }
+}
+
+function setupSVG() {
+    const container = document.querySelector('#mindmap-svg').parentElement;
+    width = container.clientWidth;
+    height = container.clientHeight;
+    
+    svg = d3.select("#mindmap-svg")
+        .attr("width", width)
+        .attr("height", height);
+    
+    // Create main group for zoom/pan
+    g = svg.append("g");
+    
+    tooltip = d3.select("#tooltip");
+    
+    // Add zoom and pan behavior
+    const zoom = d3.zoom()
+        .scaleExtent([0.1, 3])
+        .on("zoom", (event) => {
+            g.attr("transform", event.transform);
+        });
+    
+    svg.call(zoom);
+}
+
+function processData() {
+    nodes = [];
+    links = [];
+    
+    function traverse(node, parent = null, depth = 0) {
+        const nodeData = {
+            id: node.path || 'root',
+            name: node.name,
+            type: node.type,
+            path: node.path,
+            depth: depth,
+            children: node.children || [],
+            parent: parent
+        };
+        
+        nodes.push(nodeData);
+        
+        if (parent) {
+            links.push({
+                source: parent.id,
+                target: nodeData.id
+            });
+        }
+        
+        if (node.children) {
+            node.children.forEach(child => traverse(child, nodeData, depth + 1));
+        }
+        
+        return nodeData;
+    }
+    
+    traverse(mindmapData);
+}
+
+function createVisualization() {
+    // Create force simulation
+        simulation = d3.forceSimulation(nodes)
+            .force("link", d3.forceLink(links).id(d => d.id).distance(100))
+            .force("charge", d3.forceManyBody().strength(-300))
+            .force("center", d3.forceCenter(width / 2, height / 2))
+            .force("collision", d3.forceCollide().radius(30))
+            .alphaDecay(0.028); // Slightly slower cooling for better layout
+    
+    // Create links
+        const link = g.append("g")
+            .attr("class", "links")
+            .selectAll("line")
+            .data(links)
+            .enter().append("line")
+            .attr("class", "link");
+    
+    // Create nodes
+    const node = g.append("g")
+        .selectAll("g")
+        .data(nodes)
+        .enter().append("g")
+        .attr("class", "node")
+        .call(d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended));
+    
+    // Add circles to nodes
+    node.append("circle")
+        .attr("class", d => `node-circle node-${d.type}`)
+        .attr("r", d => d.type === 'directory' ? 15 : 10)
+        .on("click", handleNodeClick)
+        .on("mouseover", handleMouseOver)
+        .on("mouseout", handleMouseOut);
+    
+    // Add text labels
+    node.append("text")
+        .attr("class", "node-text")
+        .attr("dy", 25)
+        .text(d => d.name.length > 15 ? d.name.substring(0, 12) + "..." : d.name);
+    
+    // Update positions on simulation tick
+    simulation.on("tick", () => {
+        link
+            .attr("x1", d => d.source.x)
+            .attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x)
+            .attr("y2", d => d.target.y);
+        
+        node.attr("transform", d => `translate(${d.x},${d.y})`);
+    });
+}
+
+function handleNodeClick(event, d) {
+    if (d.path && d.type === 'markdown') {
+        window.location.href = `/${d.path}`;
+    } else if (d.path && d.type === 'directory') {
+        window.location.href = `/${d.path}`;
+    }
+}
+
+function handleMouseOver(event, d) {
+    tooltip
+        .style("opacity", 1)
+        .style("left", (event.pageX + 10) + "px")
+        .style("top", (event.pageY - 10) + "px")
+        .html(`
+            <strong>${d.name}</strong><br>
+            Type: ${d.type}<br>
+            Depth: ${d.depth}<br>
+            ${d.path ? `Path: /${d.path}` : 'Root directory'}
+        `);
+}
+
+function handleMouseOut() {
+    tooltip.style("opacity", 0);
+}
+
+function dragstarted(event, d) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+}
+
+function dragged(event, d) {
+    d.fx = event.x;
+    d.fy = event.y;
+}
+
+function dragended(event, d) {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+}
+
+function updateStats() {
+    const totalNodes = nodes.length;
+    const directoryCount = nodes.filter(n => n.type === 'directory').length;
+    const markdownCount = nodes.filter(n => n.type === 'markdown').length;
+    const maxDepth = Math.max(...nodes.map(n => n.depth));
+    
+    document.getElementById('total-nodes').textContent = totalNodes;
+    document.getElementById('directory-count').textContent = directoryCount;
+    document.getElementById('markdown-count').textContent = markdownCount;
+    document.getElementById('max-depth').textContent = maxDepth;
+}
+
+// Control functions
+function resetZoom() {
+    svg.transition().duration(750).call(
+        d3.zoom().transform,
+        d3.zoomIdentity
+    );
+}
+
+function expandAll() {
+    // Show all nodes and links
+    d3.selectAll(".node").style("display", "");
+    d3.selectAll(".link").style("display", "");
+    
+    // Restart simulation with higher energy
+    simulation.alpha(1).restart();
+    
+    // Center after a brief delay to allow simulation to adjust
+    setTimeout(centerGraph, 300);
+}
+
+function collapseAll() {
+    // Hide all nodes except root and first level children
+    d3.selectAll(".node").each(function(d) {
+        if (d.depth > 1) {
+            d3.select(this).style("display", "none");
+        } else {
+            d3.select(this).style("display", "");
+        }
+    });
+    
+    // Hide links to hidden nodes
+    d3.selectAll(".link").each(function(d) {
+        if (d.source.depth > 0 || d.target.depth > 1) {
+            d3.select(this).style("display", "none");
+        } else {
+            d3.select(this).style("display", "");
+        }
+    });
+    
+    // Restart simulation
+    simulation.alpha(1).restart();
+    
+    // Center after a brief delay
+    setTimeout(centerGraph, 300);
+}
+
+function centerGraph() {
+    if (!g || !g.node()) return;
+    
+    const bounds = g.node().getBBox();
+    if (bounds.width === 0 || bounds.height === 0) return;
+    
+    const fullWidth = width;
+    const fullHeight = height;
+    const widthScale = fullWidth / bounds.width;
+    const heightScale = fullHeight / bounds.height;
+    const scale = Math.min(widthScale, heightScale) * 0.8;
+    const translate = [
+        fullWidth / 2 - scale * (bounds.x + bounds.width / 2),
+        fullHeight / 2 - scale * (bounds.y + bounds.height / 2)
+    ];
+    
+    svg.transition().duration(750).call(
+        d3.zoom().transform,
+        d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
+    );
+}
+
+// Handle window resize
+window.addEventListener('resize', () => {
+    const container = document.querySelector('#mindmap-svg').parentElement;
+    width = container.clientWidth;
+    height = container.clientHeight;
+    
+    svg.attr("width", width).attr("height", height);
+    if (simulation) {
+        simulation.force("center", d3.forceCenter(width / 2, height / 2)).restart();
+    }
+});
+
+// Initialize when page loads
+document.addEventListener('DOMContentLoaded', () => {
+    // Add a small delay to ensure DOM is fully ready
+    setTimeout(initMindmap, 100);
+    
+    // Add double-click handler for SVG background to reset zoom
+    document.getElementById('mindmap-svg').addEventListener('dblclick', (event) => {
+        if (event.target.id === 'mindmap-svg') {
+            resetZoom();
+        }
+    });
+});
+</script>
+{% endblock %}

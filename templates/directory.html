@@ -1,1360 +1,153 @@
-{% extends "base.html" %} {% block title %}{% if is_root %}Kenneth Reitz{% else
-%}{{ path.name }}{% endif %}{% endblock %} {% block head %}
-<style>
-    /* Custom classes for programmer-focused directory view */
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(10px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
+{% extends "base.html" %}
 
-    .directory-header {
-        animation: fadeIn 0.8s ease;
-    }
+{% block content %}
+<!-- Directory Header & Index Content -->
+{% if index_content %}
+<div class="mb-16 pb-8 border-b border-gray-200">
+    <article class="tufte">
+        <section class="tufte-content">
+            {{ index_content.content | safe }}
+        </section>
+    </article>
+</div>
+{% else %}
+<div class="mb-12">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4 tracking-tight et-book">
+        {{ title }}
+    </h1>
+    {% if current_path and current_path != '' %}
+        <p class="text-lg text-gray-600 font-serif italic et-book">{{ current_path }}</p>
+    {% endif %}
+</div>
+{% endif %}
 
-    .section-divider {
-        position: relative;
-    }
-
-    .section-divider::before {
-        content: "//";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: var(--tw-bg-opacity, 1);
-        background-color: rgb(
-            var(--tw-bg-opacity) * 252 var(--tw-bg-opacity) * 250
-                var(--tw-bg-opacity) * 245 / var(--tw-bg-opacity)
-        );
-        padding: 0 1rem;
-        font-family: "JetBrains Mono", monospace;
-        color: rgba(var(--color-syntax-comment), 0.8);
-    }
-
-    /* Tree view styles */
-    .directory-tree {
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.9rem;
-    }
-
-    .tree-item {
-        margin-bottom: 0.15rem;
-    }
-
-    .tree-toggle {
-        cursor: pointer;
-        display: inline-flex;
-        align-items: center;
-        padding: 0.2rem;
-        border-radius: 0.25rem;
-        transition: background-color 0.2s;
-    }
-
-    .tree-toggle:hover {
-        background-color: rgba(var(--color-accent), 0.1);
-    }
-
-    .tree-toggle .icon {
-        width: 16px;
-        height: 16px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.2s;
-    }
-
-    .tree-toggle.collapsed .icon {
-        transform: rotate(-90deg);
-    }
-
-    .tree-children {
-        padding-left: 1.5rem;
-        margin-top: 0.15rem;
-        overflow: hidden;
-        max-height: 1000px;
-        transition: max-height 0.3s ease-in-out;
-    }
-
-    .tree-children.collapsed {
-        max-height: 0;
-    }
-
-    .tree-folder-icon,
-    .tree-file-icon {
-        width: 16px;
-        height: 16px;
-        margin-right: 0.4rem;
-        opacity: 0.7;
-    }
-
-    .directory-tabs {
-        display: flex;
-        border-bottom: 1px solid var(--color-border);
-        margin-bottom: 1rem;
-    }
-
-    .tab {
-        padding: 0.5rem 1rem;
-        border-bottom: 2px solid transparent;
-        cursor: pointer;
-        font-family: "JetBrains Mono", monospace;
-        font-size: 0.9rem;
-    }
-
-    .tab.active {
-        border-bottom: 2px solid var(--color-primary);
-        color: var(--color-primary);
-    }
-
-    .tab-content {
-        display: none;
-    }
-
-    .tab-content.active {
-        display: block;
-    }
-</style>
-{% endblock %} {% block content %}
-<div class="directory-header mb-12 relative">
-    <div
-        class="flex flex-col text-sm mb-8 bg-background-code dark:bg-background-code-dark p-3 rounded-lg border border-border dark:border-border-dark font-mono"
-    >
-        <!-- Path navigator with accurate breadcrumbs -->
-        <div class="flex items-center flex-wrap">
-            <span
-                class="mr-2 text-syntax-function dark:text-syntax-function opacity-90"
-                >navigate:</span
-            >
-            {% if is_root %}
-            <span
-                class="flex items-center px-1 py-1 text-syntax-string dark:text-syntax-string font-medium"
-            >
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="mr-1 opacity-70"
-                >
-                    <path
-                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
-                    ></path>
-                </svg>
-                <span>root</span>
-            </span>
+{% if items %}
+<!-- Directory Listing -->
+<div class="space-y-1 mb-12 mt-8">
+    {% for item in items %}
+    <div class="group flex items-center p-4 rounded-lg hover:bg-gray-50 transition-all duration-200 border border-transparent hover:border-gray-200 hover:border-primary-200">
+        <!-- Item Icon -->
+        <div class="flex-shrink-0 w-8 text-center text-xl mr-4">
+            {% if item.is_dir %}
+                <span class="text-primary-600">📁</span>
+            {% elif item.is_markdown %}
+                <span class="text-blue-600">📝</span>
+            {% elif item.is_image %}
+                <span class="text-green-600">🖼️</span>
             {% else %}
-            <a
-                href="/"
-                class="text-link no-underline px-1 py-1 transition-colors hover:text-primary flex items-center"
-            >
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="mr-1 opacity-70"
-                >
-                    <path
-                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
-                    ></path>
-                </svg>
-                <span>root</span>
-            </a>
-
-            <!-- Only show accurate parts of the path -->
-            {% set path_parts = request.path.strip('/').split('/') %} {% for i
-            in range(path_parts|length - 1) %}
-            <span class="text-syntax-operator dark:text-syntax-operator mx-1"
-                >.</span
-            >
-            <a
-                href="/{{ '/'.join(path_parts[:i+1]) }}"
-                class="text-link no-underline px-1 py-1 transition-colors hover:text-primary flex items-center"
-            >
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="mr-1 text-syntax-number dark:text-syntax-number opacity-70"
-                >
-                    <path
-                        d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
-                    ></path>
-                </svg>
-                <span>{{ path_parts[i] }}</span>
-            </a>
-            {% endfor %}
-
-            <!-- Current directory with no link -->
-            <span class="text-syntax-operator dark:text-syntax-operator mx-1"
-                >.</span
-            >
-            <span
-                class="flex items-center px-1 py-1 text-syntax-number dark:text-syntax-number font-medium"
-            >
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="mr-1 opacity-70"
-                >
-                    <path
-                        d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
-                    ></path>
-                </svg>
-                <span>{{ path_parts[-1] }}</span>
-            </span>
+                <span class="text-gray-500">📄</span>
             {% endif %}
         </div>
-    </div>
-
-    {% if index %}
-    <h1
-        class="text-4xl mb-4 text-text dark:text-text-light relative inline-block after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:w-[60px] after:h-[3px] after:bg-gradient-to-r after:from-primary after:to-primary-light"
-    >
-        {{ index.title }}
-    </h1>
-    <div
-        class="mb-10 text-text/80 dark:text-text-light/80 text-lg leading-relaxed max-w-prose"
-    >
-        {{ index.render() | safe }}
-    </div>
-    <div class="section-divider h-px bg-border dark:bg-border-dark my-12"></div>
-    {% else %}
-    <h1
-        class="text-4xl mb-4 text-text dark:text-text-light relative inline-block after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:w-[60px] after:h-[3px] after:bg-gradient-to-r after:from-primary after:to-primary-light"
-    >
-        {% if is_root %}Kenneth Reitz{% else %}{{ path.name }}{% endif %}
-    </h1>
-    {% endif %}
-
-    <!-- IDE-style file browser with year groups (only for directory-only pages) -->
-    {% if children and not posts and path in ['essays',
-    'artificial-intelligence', 'poetry', 'music', 'talks'] %}
-    <div
-        class="bg-background-code dark:bg-background-code-dark rounded-lg border border-border dark:border-border-dark overflow-hidden mb-8 shadow-md"
-    >
-        <div
-            class="flex justify-between items-center px-4 py-2 border-b border-border dark:border-border-dark bg-opacity-60"
-        >
-            <div
-                class="font-mono text-sm text-text-secondary dark:text-text-light/70 flex items-center"
-            >
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="mr-2 text-syntax-comment dark:text-syntax-comment"
-                >
-                    <path
-                        d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
-                    ></path>
-                </svg>
-                <span
-                    class="text-syntax-function dark:text-syntax-function-dark opacity-90"
-                    >{{ path }}</span
-                >
-            </div>
-            <div class="flex items-center gap-1 text-sm">
-                <span
-                    class="ml-2 text-sm font-mono bg-background/40 dark:bg-background-dark/40 px-2 py-0.5 rounded text-syntax-comment dark:text-syntax-comment"
-                >
-                    {{ children|length }} items
-                </span>
-                <span
-                    class="text-sm font-mono flex items-center ml-2 text-syntax-comment dark:text-syntax-comment"
-                >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="14"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="mr-1"
-                    >
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <polyline points="12 6 12 12 16 14"></polyline>
-                    </svg>
-                    <span class="text-xs">updated</span>
-                </span>
-            </div>
-        </div>
-        <div class="p-0">
-            <div id="dir-tree" class="file-browser-tree" tabindex="0">
-                <!-- Tree loading spinner -->
-                <div id="dir-tree-loading" class="text-center py-4">
-                    <svg
-                        class="animate-spin h-6 w-6 text-primary mx-auto"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                    >
-                        <circle
-                            class="opacity-25"
-                            cx="12"
-                            cy="12"
-                            r="10"
-                            stroke="currentColor"
-                            stroke-width="4"
-                        ></circle>
-                        <path
-                            class="opacity-75"
-                            fill="currentColor"
-                            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                        ></path>
-                    </svg>
-                    <p class="mt-2 text-text/60 dark:text-text-light/60">
-                        Loading directory structure...
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div
-            class="border-t border-border dark:border-border-dark text-xs px-4 py-1.5 font-mono text-syntax-comment dark:text-syntax-comment flex items-center bg-opacity-60"
-        >
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="mr-1.5"
-            >
-                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                <line x1="8" y1="21" x2="16" y2="21"></line>
-                <line x1="12" y1="17" x2="12" y2="21"></line>
-            </svg>
-            Press
-            <span
-                class="bg-background-code-dark/20 dark:bg-background-code-light/10 px-1 rounded mx-1"
-                >j/k</span
-            >
-            to navigate,
-            <span
-                class="bg-background-code-dark/20 dark:bg-background-code-light/10 px-1 rounded mx-1"
-                >o</span
-            >
-            to open
-        </div>
-    </div>
-    {% endif %}
-</div>
-
-{% if children or posts %}
-<!-- Directory view tabs -->
-<div class="directory-tabs mb-6">
-    <div class="tab active" data-tab="grid">Grid View</div>
-    <div class="tab" data-tab="tree">Tree View</div>
-</div>
-
-<!-- Grid view tab content -->
-<div class="tab-content active" id="grid-view">
-    {% if children %}
-    <div class="mb-12">
-        <h2
-            class="text-xl mb-6 text-text dark:text-text-light relative inline-block border-b-0 pb-0 font-mono"
-        >
-            // directories
-        </h2>
-        <ul
-            class="list-none p-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
-        >
-            {% for child in children %}
-            <li
-                class="directory-item mb-2 transition-all duration-300 rounded-lg border border-border dark:border-border-dark bg-white dark:bg-gray-900 shadow hover:shadow-md overflow-hidden hover:-translate-y-1 relative before:absolute before:top-0 before:left-0 before:w-1 before:h-full before:bg-accent before:opacity-0 hover:before:opacity-100 before:transition-opacity"
-            >
-                <a
-                    href="{{ child.url }}"
-                    class="flex items-center justify-between p-4 no-underline text-text dark:text-text-light h-full transition-colors hover:text-primary"
-                >
-                    <span>{{ child.title or child.name }}</span>
-                    <span
-                        class="text-xs px-2 py-1 rounded font-mono file-ext ext-dir"
-                        >/dir</span
-                    >
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    {% endif %} {% if posts %}
-    <div class="mb-12">
-        <h2
-            class="text-xl mb-6 text-text dark:text-text-light relative inline-block border-b-0 pb-0 font-mono"
-        >
-            // files
-        </h2>
-        <ul
-            class="list-none p-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
-        >
-            {% for post in posts %}
-            <li
-                class="directory-item mb-2 transition-all duration-300 rounded-lg border border-border dark:border-border-dark bg-white dark:bg-gray-900 shadow hover:shadow-md overflow-hidden hover:-translate-y-1 relative before:absolute before:top-0 before:left-0 before:w-1 before:h-full before:bg-accent before:opacity-0 hover:before:opacity-100 before:transition-opacity"
-            >
-                <a
-                    href="{{ post.url }}"
-                    class="flex items-center justify-between p-4 no-underline text-text dark:text-text-light h-full transition-colors hover:text-primary"
-                >
-                    <span>{{ post.title }}</span>
-                    {% if post.slug.endswith('.md') %}
-                    <span
-                        class="text-xs px-2 py-1 rounded font-mono file-ext ext-md"
-                        >.md</span
-                    >
-                    {% elif post.slug.endswith('.py') %}
-                    <span
-                        class="text-xs px-2 py-1 rounded font-mono file-ext ext-py"
-                        >.py</span
-                    >
-                    {% elif post.slug.endswith('.js') %}
-                    <span
-                        class="text-xs px-2 py-1 rounded font-mono file-ext ext-js"
-                        >.js</span
-                    >
-                    {% elif post.slug.endswith('.html') %}
-                    <span
-                        class="text-xs px-2 py-1 rounded font-mono file-ext ext-html"
-                        >.html</span
-                    >
-                    {% elif post.slug.endswith('.css') %}
-                    <span
-                        class="text-xs px-2 py-1 rounded font-mono file-ext ext-css"
-                        >.css</span
-                    >
-                    {% elif post.slug.endswith('.jpg') or
-                    post.slug.endswith('.jpeg') or post.slug.endswith('.png') %}
-                    <span
-                        class="text-xs px-2 py-1 rounded font-mono file-ext ext-img"
-                        >.img</span
-                    >
-                    {% else %}
-                    <span
-                        class="text-xs px-2 py-1 rounded font-mono file-ext ext-txt"
-                        >.file</span
-                    >
-                    {% endif %}
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    {% endif %}
-</div>
-
-<!-- Tree view tab content -->
-<div class="tab-content" id="tree-view">
-    <div
-        class="directory-tree bg-background-code dark:bg-background-code-dark p-4 rounded-lg border border-border dark:border-border-dark mb-8"
-    >
-        <div id="tree-loading" class="text-center py-4">
-            <svg
-                class="animate-spin h-6 w-6 text-primary mx-auto"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-            >
-                <circle
-                    class="opacity-25"
-                    cx="12"
-                    cy="12"
-                    r="10"
-                    stroke="currentColor"
-                    stroke-width="4"
-                ></circle>
-                <path
-                    class="opacity-75"
-                    fill="currentColor"
-                    d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                ></path>
-            </svg>
-            <p class="mt-2 text-text/60 dark:text-text-light/60">
-                Loading directory tree...
-            </p>
-        </div>
-        <div id="tree-root" class="hidden"></div>
-    </div>
-</div>
-
-<!-- Tree view JavaScript -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        // Tab switching
-        const tabs = document.querySelectorAll(".tab");
-        const tabContents = document.querySelectorAll(".tab-content");
-
-        tabs.forEach((tab) => {
-            tab.addEventListener("click", () => {
-                const targetTab = tab.dataset.tab;
-
-                // Update active tab
-                tabs.forEach((t) => t.classList.remove("active"));
-                tab.classList.add("active");
-
-                // Show corresponding content
-                tabContents.forEach((content) => {
-                    content.classList.remove("active");
-                    if (content.id === `${targetTab}-view`) {
-                        content.classList.add("active");
-                    }
-                });
-
-                // Lazy load tree view data when tab is activated
-                if (
-                    targetTab === "tree" &&
-                    !document.querySelector("#tree-root").hasChildNodes()
-                ) {
-                    fetchDirectoryTree();
-                }
-            });
-        });
-
-        // Fetch directory tree data
-        function fetchDirectoryTree() {
-            const path = "{{ path }}";
-            const treeRoot = document.getElementById("tree-root");
-            const treeLoading = document.getElementById("tree-loading");
-
-            fetch(`/api/tree?path=${path}`)
-                .then((response) => response.json())
-                .then((data) => {
-                    // Remove loading indicator and show tree
-                    treeLoading.classList.add("hidden");
-                    treeRoot.classList.remove("hidden");
-                    treeRoot.classList.add("file-browser-tree");
-
-                    // Render the tree
-                    if (data.tree && data.tree.length > 0) {
-                        renderTree(data.tree, treeRoot);
-                    } else {
-                        treeRoot.innerHTML =
-                            '<p class="text-center py-4 text-text/60 dark:text-text-light/60">No items found.</p>';
-                    }
-
-                    // Add event listeners for tree toggles
-                    setupTreeToggles();
-                })
-                .catch((error) => {
-                    console.error("Error fetching directory tree:", error);
-                    treeLoading.classList.add("hidden");
-                    treeRoot.classList.remove("hidden");
-                    treeRoot.innerHTML = `<p class="text-center py-4 text-error">Error loading directory tree: ${error.message}</p>`;
-                });
-        }
-
-        // Render tree structure
-        function renderTree(items, container) {
-            items.forEach((item) => {
-                const itemEl = document.createElement("div");
-                itemEl.className = "tree-item";
-
-                // Determine file extension for icon coloring
-                let fileIconClass = "tree-file-icon";
-                if (item.name.endsWith(".md")) {
-                    fileIconClass += " icon-markdown";
-                } else if (item.name.endsWith(".py")) {
-                    fileIconClass += " icon-python";
-                } else if (
-                    item.name.endsWith(".js") ||
-                    item.name.endsWith(".jsx")
-                ) {
-                    fileIconClass += " icon-javascript";
-                } else if (item.name.endsWith(".html")) {
-                    fileIconClass += " icon-html";
-                } else if (
-                    item.name.endsWith(".jpg") ||
-                    item.name.endsWith(".jpeg") ||
-                    item.name.endsWith(".png")
-                ) {
-                    fileIconClass += " icon-image";
-                }
-
-                if (item.is_dir && item.children && item.children.length > 0) {
-                    // Directory with children
-                    itemEl.innerHTML = `
-                        <div class="tree-toggle">
-                            <span class="icon">▼</span>
-                            <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                            </svg>
-                            <a href="${item.url}" class="hover:text-primary">
-                                <span class="tree-node-label">${item.title}</span>
-                                <span class="text-xs px-1 rounded font-mono file-ext ext-dir opacity-60">/dir</span>
-                            </a>
-                        </div>
-                        <div class="tree-children"></div>
-                    `;
-
-                    container.appendChild(itemEl);
-                    renderTree(
-                        item.children,
-                        itemEl.querySelector(".tree-children"),
-                    );
-                } else if (item.is_dir) {
-                    // Empty directory
-                    itemEl.innerHTML = `
-                        <div class="tree-node-content pl-4">
-                            <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                            </svg>
-                            <a href="${item.url}">
-                                <span class="tree-node-label">${item.title}</span>
-                                <span class="text-xs px-1 rounded font-mono file-ext ext-dir opacity-60">/dir</span>
-                            </a>
-                        </div>
-                    `;
-                    container.appendChild(itemEl);
-                } else {
-                    // File
-                    // Determine file extension class
-                    let extClass = "ext-txt";
-                    if (item.name.endsWith(".md")) extClass = "ext-md";
-                    else if (item.name.endsWith(".py")) extClass = "ext-py";
-                    else if (item.name.endsWith(".js")) extClass = "ext-js";
-                    else if (item.name.endsWith(".html")) extClass = "ext-html";
-                    else if (item.name.endsWith(".css")) extClass = "ext-css";
-                    else if (
-                        item.name.endsWith(".jpg") ||
-                        item.name.endsWith(".jpeg") ||
-                        item.name.endsWith(".png")
-                    )
-                        extClass = "ext-img";
-
-                    itemEl.innerHTML = `
-                        <div class="tree-node-content pl-4">
-                            <svg class="${fileIconClass}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                <polyline points="14 2 14 8 20 8"></polyline>
-                            </svg>
-                            <a href="${item.url}">
-                                <span class="tree-node-label">${item.title}</span>
-                                <span class="text-xs px-1 rounded font-mono file-ext ${extClass} opacity-60">.${item.name.split(".").pop()}</span>
-                            </a>
-                        </div>
-                    `;
-                    container.appendChild(itemEl);
-                }
-            });
-        }
-
-        // Setup tree toggle functionality
-        function setupTreeToggles() {
-            document.querySelectorAll(".tree-toggle").forEach((toggle) => {
-                toggle.addEventListener("click", (event) => {
-                    // Prevent default navigation if we're clicking the toggle itself
-                    if (!event.target.tagName.toLowerCase() === "a") {
-                        event.preventDefault();
-                    }
-
-                    // Prevent clicks on links from toggling
-                    if (event.target.tagName.toLowerCase() === "a") {
-                        return;
-                    }
-
-                    toggle.classList.toggle("collapsed");
-                    const children = toggle.nextElementSibling;
-                    children.classList.toggle("collapsed");
-                });
-            });
-        }
-
-        // Tab switching with keyboard
-        document.addEventListener("keydown", function (e) {
-            // Don't handle if in an input field
-            if (
-                e.target.tagName.toLowerCase() === "input" ||
-                e.target.tagName.toLowerCase() === "textarea"
-            )
-                return;
-
-            // Switch tabs with Tab key
-            if (e.key === "Tab") {
-                e.preventDefault();
-                const activeTab = document.querySelector(".tab.active");
-                const tabs = Array.from(document.querySelectorAll(".tab"));
-                const currentIndex = tabs.indexOf(activeTab);
-                const nextIndex = (currentIndex + 1) % tabs.length;
-                tabs[nextIndex].click();
-            }
-        });
-
-        // Add keyboard shortcuts for tree navigation
-        document.addEventListener("keydown", function (e) {
-            // Only activate in tree view
-            if (
-                !document
-                    .querySelector("#tree-view")
-                    .classList.contains("active")
-            )
-                return;
-
-            // Don't handle if in an input field
-            if (
-                e.target.tagName.toLowerCase() === "input" ||
-                e.target.tagName.toLowerCase() === "textarea"
-            )
-                return;
-
-            const treeItems = document.querySelectorAll(
-                "#tree-root .tree-item",
-            );
-
-            if (e.key === "j") {
-                // Move down (like vim)
-                e.preventDefault();
-                let focused = document.querySelector(
-                    "#tree-root .tree-item.focused",
-                );
-
-                if (!focused && treeItems.length > 0) {
-                    treeItems[0].classList.add("focused");
-                    treeItems[0].scrollIntoView({ block: "center" });
-                } else if (focused) {
-                    const index = Array.from(treeItems).indexOf(focused);
-                    if (index < treeItems.length - 1) {
-                        focused.classList.remove("focused");
-                        treeItems[index + 1].classList.add("focused");
-                        treeItems[index + 1].scrollIntoView({
-                            block: "center",
-                        });
-                    }
-                }
-            }
-
-            if (e.key === "k") {
-                // Move up (like vim)
-                e.preventDefault();
-                let focused = document.querySelector(
-                    "#tree-root .tree-item.focused",
-                );
-
-                if (!focused && treeItems.length > 0) {
-                    treeItems[0].classList.add("focused");
-                    treeItems[0].scrollIntoView({ block: "center" });
-                } else if (focused) {
-                    const index = Array.from(treeItems).indexOf(focused);
-                    if (index > 0) {
-                        focused.classList.remove("focused");
-                        treeItems[index - 1].classList.add("focused");
-                        treeItems[index - 1].scrollIntoView({
-                            block: "center",
-                        });
-                    }
-                }
-            }
-
-            if (e.key === "o" || e.key === "Enter") {
-                // Open item (like vim)
-                e.preventDefault();
-                let focused = document.querySelector(
-                    "#tree-root .tree-item.focused",
-                );
-
-                if (focused) {
-                    // Check if it's a directory with children
-                    const toggle = focused.querySelector(".tree-toggle");
-                    if (toggle) {
-                        toggle.click();
-                    } else {
-                        // It's a file, navigate to it
-                        const link = focused.querySelector("a");
-                        if (link)
-                            window.location.href = link.getAttribute("href");
-                    }
-                }
-            }
-
-            if (e.key === "g") {
-                // Go to top
-                e.preventDefault();
-                if (treeItems.length > 0) {
-                    let focused = document.querySelector(
-                        "#tree-root .tree-item.focused",
-                    );
-                    if (focused) focused.classList.remove("focused");
-                    treeItems[0].classList.add("focused");
-                    treeItems[0].scrollIntoView({ block: "center" });
-                }
-            }
-
-            if (e.key === "G") {
-                // Go to bottom
-                e.preventDefault();
-                if (treeItems.length > 0) {
-                    let focused = document.querySelector(
-                        "#tree-root .tree-item.focused",
-                    );
-                    if (focused) focused.classList.remove("focused");
-                    treeItems[treeItems.length - 1].classList.add("focused");
-                    treeItems[treeItems.length - 1].scrollIntoView({
-                        block: "center",
-                    });
-                }
-            }
-        });
-    });
-</script>
-
-<!-- Add Keyboard Shortcuts Help -->
-<div
-    class="bg-background-code/70 dark:bg-background-code-dark/70 p-3 rounded-lg text-xs font-mono opacity-80 mt-4 border border-border/20 dark:border-border-dark/20"
->
-    <div class="font-bold mb-1">Keyboard Shortcuts:</div>
-    <div class="grid grid-cols-2 gap-x-4 gap-y-1">
-        <div class="text-syntax-keyword dark:text-syntax-keyword">j</div>
-        <div>Move down</div>
-        <div class="text-syntax-keyword dark:text-syntax-keyword">k</div>
-        <div>Move up</div>
-        <div class="text-syntax-keyword dark:text-syntax-keyword">
-            o / Enter
-        </div>
-        <div>Open/collapse</div>
-        <div class="text-syntax-keyword dark:text-syntax-keyword">g</div>
-        <div>Go to beginning</div>
-        <div class="text-syntax-keyword dark:text-syntax-keyword">G</div>
-        <div>Go to end</div>
-        <div class="text-syntax-keyword dark:text-syntax-keyword">Tab</div>
-        <div>Switch views</div>
-    </div>
-</div>
-
-<!-- Special IDE-style file browser for directory-only pages -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const dirTree = document.getElementById("dir-tree");
-        const dirTreeLoading = document.getElementById("dir-tree-loading");
-
-        if (dirTree) {
-            loadDirectoryTree();
-
-            // Load directory tree structure
-            function loadDirectoryTree() {
-                // Get current path
-                const path = "{{ path }}";
-
-                // Fetch tree data from API
-                fetch(`/api/tree?path=${path}&max_depth=3`)
-                    .then((response) => response.json())
-                    .then((data) => {
-                        // Remove loading indicator
-                        dirTreeLoading.remove();
-
-                        // Process and organize the tree
-                        if (data.tree && data.tree.length > 0) {
-                            // Set focus to tree for keyboard navigation
-                            dirTree.focus();
-
-                            // Special handling for different directory types
-                            if (path === "essays") {
-                                // Essays are organized by year
-                                organizeByYear(data.tree);
-                            } else if (path === "artificial-intelligence") {
-                                // AI content is organized by topic
-                                organizeByTopics(data.tree);
-                            } else {
-                                // Default organization
-                                organizeDefault(data.tree);
-                            }
-
-                            // Setup keyboard navigation and toggle functionality
-                            setupToggleHandlers();
-                            setupKeyboardNavigation();
-                        } else {
-                            dirTree.innerHTML =
-                                '<p class="p-4 text-text/60 dark:text-text-light/60">No content found.</p>';
-                        }
-                    })
-                    .catch((error) => {
-                        console.error("Error loading directory tree:", error);
-                        dirTreeLoading.remove();
-                        dirTree.innerHTML = `<p class="p-4 text-error">Error loading directory structure: ${error.message}</p>`;
-                    });
-            }
-
-            // Organize content by year (especially useful for essays)
-            function organizeByYear(items) {
-                const yearPattern = /^\d{4}$/;
-                let yearGroups = {};
-                let otherDirs = [];
-                let rootFiles = [];
-
-                // First pass - sort into year groups
-                items.forEach((item) => {
-                    if (item.is_dir) {
-                        if (yearPattern.test(item.name)) {
-                            // This is a year directory
-                            const year = item.name;
-                            if (!yearGroups[year]) {
-                                yearGroups[year] = [];
-                            }
-                            // If it has children, add them
-                            if (item.children && item.children.length > 0) {
-                                yearGroups[year].push(...item.children);
-                            }
-                        } else {
-                            // Not a year directory
-                            otherDirs.push(item);
-                        }
-                    } else if (!item.is_dir && item.name !== "index.md") {
-                        // Root files that aren't index.md
-                        rootFiles.push(item);
-                    }
-                });
-
-                // Sort years in descending order (newest first)
-                const sortedYears = Object.keys(yearGroups).sort(
-                    (a, b) => b - a,
-                );
-
-                // Create year folders
-                sortedYears.forEach((year) => {
-                    // Create year folder container
-                    const yearFolder = document.createElement("div");
-                    yearFolder.className = "tree-item";
-                    yearFolder.innerHTML = `
-                    <div class="tree-toggle">
-                        <span class="icon">▼</span>
-                        <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                        </svg>
-                        <span class="tree-node-label font-medium">${year}</span>
-                        <span class="text-xs ml-2 px-1 rounded font-mono text-syntax-comment dark:text-syntax-comment/70">${yearGroups[year].length} items</span>
-                    </div>
-                    <div class="tree-children"></div>
-                `;
-
-                    // Add to tree
-                    dirTree.appendChild(yearFolder);
-
-                    // Add children
-                    const childrenContainer =
-                        yearFolder.querySelector(".tree-children");
-                    yearGroups[year]
-                        .sort((a, b) => a.title.localeCompare(b.title))
-                        .forEach((child) => {
-                            addFileNode(childrenContainer, child);
-                        });
-                });
-
-                // Add remaining directories
-                if (otherDirs.length > 0) {
-                    addFolderGroup(dirTree, "Categories", otherDirs);
-                }
-
-                // Add root files if any
-                if (rootFiles.length > 0) {
-                    addFolderGroup(dirTree, "Other Content", rootFiles);
-                }
-            }
-
-            // Organize content by topics (for AI section)
-            function organizeByTopics(items) {
-                // Group by top-level categories
-                items
-                    .sort((a, b) => a.title.localeCompare(b.title))
-                    .forEach((item) => {
-                        if (item.is_dir) {
-                            const folderNode = document.createElement("div");
-                            folderNode.className = "tree-item";
-
-                            // Determine if the folder has children
-                            if (item.children && item.children.length > 0) {
-                                folderNode.innerHTML = `
-                            <div class="tree-toggle">
-                                <span class="icon">▼</span>
-                                <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                </svg>
-                                <a href="${item.url}">
-                                    <span class="tree-node-label">${item.title}</span>
-                                </a>
-                                <span class="text-xs ml-2 px-1 rounded font-mono text-syntax-comment dark:text-syntax-comment/70">${item.children.length}</span>
-                            </div>
-                            <div class="tree-children"></div>
-                        `;
-
-                                dirTree.appendChild(folderNode);
-
-                                // Add children
-                                const childrenContainer =
-                                    folderNode.querySelector(".tree-children");
-                                item.children
-                                    .sort((a, b) =>
-                                        a.title.localeCompare(b.title),
-                                    )
-                                    .forEach((child) => {
-                                        if (child.is_dir) {
-                                            addFolderNode(
-                                                childrenContainer,
-                                                child,
-                                            );
-                                        } else {
-                                            addFileNode(
-                                                childrenContainer,
-                                                child,
-                                            );
-                                        }
-                                    });
-                            } else {
-                                // Empty folder
-                                folderNode.innerHTML = `
-                            <div class="tree-node-content">
-                                <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                </svg>
-                                <a href="${item.url}">
-                                    <span class="tree-node-label">${item.title}</span>
-                                </a>
-                            </div>
-                        `;
-                                dirTree.appendChild(folderNode);
-                            }
-                        } else if (item.name !== "index.md") {
-                            // Root files that aren't index.md
-                            addFileNode(dirTree, item);
-                        }
-                    });
-            }
-
-            // Default organization (alphabetical by folder, then files)
-            function organizeDefault(items) {
-                // Sort items: directories first, then files, all alphabetically
-                items.sort((a, b) => {
-                    if (a.is_dir && !b.is_dir) return -1;
-                    if (!a.is_dir && b.is_dir) return 1;
-                    return a.title.localeCompare(b.title);
-                });
-
-                // Add each item to the tree
-                items.forEach((item) => {
-                    if (item.name === "index.md") return; // Skip index.md
-
-                    if (item.is_dir) {
-                        addFolderNode(dirTree, item);
-                    } else {
-                        addFileNode(dirTree, item);
-                    }
-                });
-            }
-
-            // Add a folder group (section with title)
-            function addFolderGroup(container, title, items) {
-                const groupNode = document.createElement("div");
-                groupNode.className = "tree-item mt-2";
-                groupNode.innerHTML = `
-                <div class="tree-toggle">
-                    <span class="icon">▼</span>
-                    <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                    </svg>
-                    <span class="tree-node-label font-medium">${title}</span>
-                    <span class="text-xs ml-2 px-1 rounded font-mono text-syntax-comment dark:text-syntax-comment/70">${items.length}</span>
-                </div>
-                <div class="tree-children"></div>
-            `;
-
-                container.appendChild(groupNode);
-
-                // Sort and add items
-                const childrenContainer =
-                    groupNode.querySelector(".tree-children");
-                items
-                    .sort((a, b) => a.title.localeCompare(b.title))
-                    .forEach((item) => {
-                        if (item.is_dir) {
-                            addFolderNode(childrenContainer, item);
-                        } else {
-                            addFileNode(childrenContainer, item);
-                        }
-                    });
-            }
-
-            // Add a folder node with its children
-            function addFolderNode(container, folder) {
-                const folderNode = document.createElement("div");
-                folderNode.className = "tree-item";
-
-                if (folder.children && folder.children.length > 0) {
-                    // Folder with children
-                    folderNode.innerHTML = `
-                    <div class="tree-toggle">
-                        <span class="icon">▼</span>
-                        <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                        </svg>
-                        <a href="${folder.url}">
-                            <span class="tree-node-label">${folder.title}</span>
-                        </a>
-                        <span class="text-xs ml-2 px-1 rounded font-mono text-syntax-comment dark:text-syntax-comment/70">${folder.children.length}</span>
-                    </div>
-                    <div class="tree-children"></div>
-                `;
-
-                    container.appendChild(folderNode);
-
-                    // Add children
-                    const childrenContainer =
-                        folderNode.querySelector(".tree-children");
-                    folder.children
-                        .filter((child) => child.name !== "index.md") // Skip index.md
-                        .sort((a, b) => {
-                            // Sort: directories first, then by title
-                            if (a.is_dir && !b.is_dir) return -1;
-                            if (!a.is_dir && b.is_dir) return 1;
-                            return a.title.localeCompare(b.title);
-                        })
-                        .forEach((child) => {
-                            if (child.is_dir) {
-                                addFolderNode(childrenContainer, child);
-                            } else {
-                                addFileNode(childrenContainer, child);
-                            }
-                        });
-                } else {
-                    // Empty folder
-                    folderNode.innerHTML = `
-                    <div class="tree-node-content">
-                        <svg class="tree-folder-icon icon-folder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                        </svg>
-                        <a href="${folder.url}">
-                            <span class="tree-node-label">${folder.title}</span>
-                        </a>
-                    </div>
-                `;
-                    container.appendChild(folderNode);
-                }
-            }
-
-            // Add a file node
-            function addFileNode(container, file) {
-                const fileNode = document.createElement("div");
-                fileNode.className = "tree-item";
-
-                // Determine file type
-                let fileIconClass = "tree-file-icon";
-                if (file.name.endsWith(".md")) {
-                    fileIconClass += " icon-markdown";
-                } else if (file.name.endsWith(".py")) {
-                    fileIconClass += " icon-python";
-                } else if (file.name.endsWith(".js")) {
-                    fileIconClass += " icon-javascript";
-                } else if (file.name.endsWith(".html")) {
-                    fileIconClass += " icon-html";
-                } else if (
-                    file.name.endsWith(".jpg") ||
-                    file.name.endsWith(".jpeg") ||
-                    file.name.endsWith(".png")
-                ) {
-                    fileIconClass += " icon-image";
-                }
-
-                fileNode.innerHTML = `
-                <div class="tree-node-content">
-                    <svg class="${fileIconClass}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                        <polyline points="14 2 14 8 20 8"></polyline>
-                    </svg>
-                    <a href="${file.url}">
-                        <span class="tree-node-label">${file.title}</span>
+        
+        <!-- Item Content -->
+        <div class="flex-grow flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                    <a href="{{ item.url_path }}" 
+                       class="text-lg font-medium {% if item.is_dir %}text-primary-800{% else %}text-gray-900 et-book{% endif %} hover:text-primary-700 transition-colors duration-200 group-hover:text-primary-700">
+                        {{ item.display_name }}{% if item.is_dir %}/{% endif %}
                     </a>
-                </div>
-            `;
+            
+            <!-- Item Meta -->
+            <div class="flex items-center gap-4 text-sm text-gray-500">
+                <span class="font-mono">
+                    {{ item.modified.strftime('%b %d, %Y') }}
+                </span>
+                {% if item.is_dir %}
+                <span class="px-2 py-1 bg-primary-100 text-primary-800 rounded-full text-xs font-medium uppercase tracking-wide">
+                    folder
+                </span>
+                {% elif item.is_image %}
+                <span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium uppercase tracking-wide">
+                    image
+                </span>
+                {% elif not item.is_markdown %}
+                <span class="px-2 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-medium uppercase tracking-wide">
+                    {{ item.file_type.replace('.', '') or 'file' }}
+                </span>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<!-- Empty Directory -->
+<div class="text-center py-16">
+    <div class="text-6xl mb-6 opacity-40">📂</div>
+    <p class="text-lg text-gray-600 font-serif italic et-book">
+        This directory doesn't contain any files or folders yet.
+    </p>
+</div>
+{% endif %}
+{% endblock %}
 
-                container.appendChild(fileNode);
+{% block extra_scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Enhanced keyboard navigation
+    const items = document.querySelectorAll('.group a');
+    let currentIndex = -1;
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowDown' || e.key === 'j') {
+            e.preventDefault();
+            currentIndex = Math.min(currentIndex + 1, items.length - 1);
+            focusItem(currentIndex);
+        } else if (e.key === 'ArrowUp' || e.key === 'k') {
+            e.preventDefault();
+            currentIndex = Math.max(currentIndex - 1, 0);
+            focusItem(currentIndex);
+        } else if (e.key === 'Enter' && currentIndex >= 0) {
+            e.preventDefault();
+            items[currentIndex].click();
+        }
+    });
+
+    function focusItem(index) {
+        items.forEach((item, i) => {
+            const parent = item.closest('.group');
+            if (i === index) {
+                item.focus();
+                parent.classList.add('bg-gray-50', 'border-gray-200');
+            } else {
+                parent.classList.remove('bg-gray-50', 'border-gray-200');
             }
+        });
+    }
 
-            // Setup tree toggle functionality
-            function setupToggleHandlers() {
-                document
-                    .querySelectorAll("#dir-tree .tree-toggle")
-                    .forEach((toggle) => {
-                        toggle.addEventListener("click", (event) => {
-                            // Don't toggle if clicking on a link
-                            if (event.target.tagName.toLowerCase() === "a") {
-                                return;
-                            }
+    // Add subtle animation on page load
+    const directoryItems = document.querySelectorAll('.group');
+    directoryItems.forEach((item, index) => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateY(20px)';
+        
+        setTimeout(() => {
+            item.style.transition = 'all 0.4s ease';
+            item.style.opacity = '1';
+            item.style.transform = 'translateY(0)';
+        }, index * 50);
+    });
 
-                            toggle.classList.toggle("collapsed");
-                            const children = toggle.nextElementSibling;
-                            children.classList.toggle("collapsed");
-
-                            // Update toggle indicator
-                            const icon = toggle.querySelector(".icon");
-                            if (icon) {
-                                icon.textContent = toggle.classList.contains(
-                                    "collapsed",
-                                )
-                                    ? "▶"
-                                    : "▼";
-                            }
-                        });
-                    });
-            }
-
-            // Setup keyboard navigation
-            function setupKeyboardNavigation() {
-                // Ensure tree has focus for keyboard events
-                dirTree.setAttribute("tabindex", "0");
-
-                dirTree.addEventListener("keydown", function (e) {
-                    const allTreeItems = Array.from(
-                        dirTree.querySelectorAll(".tree-item"),
-                    );
-                    // Get only visible items (not in collapsed sections)
-                    const visibleItems = allTreeItems.filter((item) => {
-                        let parent = item.parentElement;
-                        while (parent && parent !== dirTree) {
-                            if (
-                                parent.classList.contains("tree-children") &&
-                                parent.classList.contains("collapsed")
-                            ) {
-                                return false;
-                            }
-                            parent = parent.parentElement;
-                        }
-                        return true;
-                    });
-
-                    let focused = dirTree.querySelector(".tree-item.focused");
-                    let focusedIndex = focused
-                        ? visibleItems.indexOf(focused)
-                        : -1;
-
-                    switch (e.key) {
-                        case "j": // Move down
-                            e.preventDefault();
-                            if (focusedIndex < 0 && visibleItems.length > 0) {
-                                // No focused item yet, focus the first one
-                                visibleItems[0].classList.add("focused");
-                                visibleItems[0].scrollIntoView({
-                                    block: "center",
-                                });
-                            } else if (
-                                focusedIndex >= 0 &&
-                                focusedIndex < visibleItems.length - 1
-                            ) {
-                                // Move focus to next item
-                                focused.classList.remove("focused");
-                                visibleItems[focusedIndex + 1].classList.add(
-                                    "focused",
-                                );
-                                visibleItems[focusedIndex + 1].scrollIntoView({
-                                    block: "center",
-                                });
-                            }
-                            break;
-
-                        case "k": // Move up
-                            e.preventDefault();
-                            if (focusedIndex < 0 && visibleItems.length > 0) {
-                                // No focused item yet, focus the first one
-                                visibleItems[0].classList.add("focused");
-                                visibleItems[0].scrollIntoView({
-                                    block: "center",
-                                });
-                            } else if (focusedIndex > 0) {
-                                // Move focus to previous item
-                                focused.classList.remove("focused");
-                                visibleItems[focusedIndex - 1].classList.add(
-                                    "focused",
-                                );
-                                visibleItems[focusedIndex - 1].scrollIntoView({
-                                    block: "center",
-                                });
-                            }
-                            break;
-
-                        case "o": // Open item
-                        case "Enter":
-                            e.preventDefault();
-                            if (focused) {
-                                // Check if it has a toggle
-                                const toggle =
-                                    focused.querySelector(".tree-toggle");
-                                if (toggle) {
-                                    // It's a folder, toggle it
-                                    toggle.click();
-                                } else {
-                                    // It's a file, navigate to it
-                                    const link = focused.querySelector("a");
-                                    if (link)
-                                        window.location.href =
-                                            link.getAttribute("href");
-                                }
-                            }
-                            break;
-
-                        case "g": // Go to top
-                            e.preventDefault();
-                            if (visibleItems.length > 0) {
-                                if (focused)
-                                    focused.classList.remove("focused");
-                                visibleItems[0].classList.add("focused");
-                                visibleItems[0].scrollIntoView({
-                                    block: "center",
-                                });
-                            }
-                            break;
-
-                        case "G": // Go to bottom (Shift+g)
-                            e.preventDefault();
-                            if (visibleItems.length > 0) {
-                                if (focused)
-                                    focused.classList.remove("focused");
-                                visibleItems[
-                                    visibleItems.length - 1
-                                ].classList.add("focused");
-                                visibleItems[
-                                    visibleItems.length - 1
-                                ].scrollIntoView({ block: "center" });
-                            }
-                            break;
-                    }
-                });
+    // Add file type icons based on extension
+    const fileLinks = document.querySelectorAll('.group a');
+    fileLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        if (href && !link.querySelector('.file-icon')) {
+            let icon = '';
+            if (href.includes('.pdf')) icon = '📕';
+            else if (href.includes('.doc') || href.includes('.docx')) icon = '📘';
+            else if (href.includes('.xls') || href.includes('.xlsx')) icon = '📊';
+            else if (href.includes('.zip') || href.includes('.tar')) icon = '📦';
+            else if (href.includes('.mp3') || href.includes('.wav')) icon = '🎵';
+            else if (href.includes('.mp4') || href.includes('.mov')) icon = '🎬';
+            
+            if (icon) {
+                const iconSpan = document.createElement('span');
+                iconSpan.textContent = ` ${icon}`;
+                iconSpan.className = 'file-icon text-sm opacity-60';
+                link.appendChild(iconSpan);
             }
         }
     });
+});
 </script>
-{% endif %} {% endblock %}
+{% endblock %}

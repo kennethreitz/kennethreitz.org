@@ -1,396 +1,539 @@
-{% extends "base.html" %} {% block title %}{{ title }}{% endblock %} {% block
-head %}
+{% extends "base.html" %}
+
+{% block extra_head %}
 <style>
-    /* Additional styles for post content that Tailwind doesn't handle well */
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(10px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    .post-header {
-        animation: fadeIn 0.8s ease;
+    /* Custom Tufte-inspired styles with Kenneth's brand colors */
+    
+    /* Override some Tufte defaults with Kenneth's branding */
+    .tufte-content {
+        margin: 0 auto;
+        padding: 0;
+        width: 87.5%;
+        max-width: 1400px;
+        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     }
     
-    /* Heroku color variables - subtler purples, stronger greens and amber */
-    :root {
-        --heroku-purple: 65, 45, 105;
-        --heroku-light-purple: 110, 80, 175;
-        --heroku-dark-purple: 40, 28, 65;
-        --heroku-fuchsia: 200, 50, 130;
-        --heroku-blue: 45, 156, 219;
-        --heroku-green: 90, 220, 120;
-        --heroku-amber: 255, 180, 60;
+    h1, h2, h3, h4, h5, h6 {
+        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        color: #4e3979;
     }
-
-    /* Custom styling for post content elements */
-    .post-content img {
-        transition: transform 0.3s ease;
-        max-width: 100%;
-        height: auto; /* Ensure responsive images */
-        display: block;
-        margin: 1.5rem auto;
+    
+    h1 {
+        font-weight: 400;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        font-size: 3.2rem;
+        line-height: 1;
     }
-
-    .post-content img:hover {
-        transform: scale(1.01);
+    
+    h2 {
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 2.5rem;
+        margin-bottom: 0;
+        font-size: 2.2rem;
+        line-height: 1;
     }
-
-    .post-content blockquote::before {
-        content: '"';
-        position: absolute;
-        top: -15px;
-        left: 10px;
-        font-size: 3rem;
-        color: rgb(var(--color-primary));
-        opacity: 0.2;
-        font-family: Georgia, serif;
+    
+    h3 {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1.7rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        line-height: 1;
     }
-
-    /* Code highlighting improvements for developer focus */
-    .post-content pre code {
-        font-family: "JetBrains Mono", "Fira Code", monospace;
+    
+    /* Links with Kenneth's branding */
+    a:link, a:visited {
+        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        color: #4e3979;
+        text-decoration: none;
+        background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#4e3979, #4e3979);
+        background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+        background-repeat: no-repeat, no-repeat, repeat-x;
+        text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
+        background-position: 0% 93%, 100% 93%, 0% 93%;
+        transition: color 0.2s ease;
+    }
+    
+    a:hover {
+        color: #6f52b0;
+    }
+    
+    /* Sidenotes and margin notes styling with Kenneth's color scheme */
+    .sidenote, .marginnote { 
+        float: right;
+        clear: right;
+        margin-right: -60%;
+        width: 50%;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+        line-height: 1.3;
+        vertical-align: baseline;
+        position: relative;
+        color: #5c4394;
+        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        font-style: italic;
+    }
+    
+    .sidenote-number {
+        color: #4e3979;
+    }
+    
+    /* Blockquotes with Kenneth's branding */
+    blockquote {
+        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        font-size: 1.4rem;
+        margin: 2rem 0;
+        padding-left: 2rem;
+        border-left: 3px solid #9b86d3;
+        font-style: italic;
+        line-height: 1.75;
+    }
+    
+    /* Figure and caption styling */
+    figure {
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        max-width: 85%;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        margin: 0 0 3em 0;
+    }
+    
+    /* Figure and caption styling */
+    figcaption {
+        float: right;
+        clear: right;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        vertical-align: baseline;
+        position: relative;
+        max-width: 40%;
+        color: #5c4394;
+        font-style: italic;
+        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    }
+    
+    /* Code styling with Kenneth's branding */
+    code {
+        font-family: 'JetBrains Mono', Consolas, "Liberation Mono", Menlo, Courier, monospace;
         font-size: 0.9rem;
-        line-height: 1.5;
-        overflow-x: auto; /* Allow horizontal scrolling for code */
-        white-space: pre-wrap; /* Respect line breaks but wrap if needed */
-        word-break: normal;
-    }
-
-    .post-content pre {
-        background-color: rgb(var(--color-background-code)) !important;
-        border-radius: 6px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-        margin: 1.5rem 0;
-        padding: 1rem;
-        overflow-x: auto; /* Ensure code blocks can scroll horizontally on small screens */
-    }
-
-    /* Responsive adjustments for small screens */
-    @media screen and (max-width: 480px) {
-        .post-content pre {
-            margin-left: -0.75rem;
-            margin-right: -0.75rem;
-            border-radius: 0;
-            padding: 0.75rem;
-        }
-        
-        .post-content pre code {
-            font-size: 0.85rem;
-        }
-        
-        .post-header h1 {
-            font-size: 1.75rem;
-            line-height: 1.3;
-        }
-    }
-
-    @media (prefers-color-scheme: dark) {
-        .post-content pre {
-            background-color: rgb(var(--color-background-code-dark)) !important;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-        }
+        line-height: 1.6;
+        background-color: #e3e0f4;
+        padding: 0.2rem 0.4rem;
+        border-radius: 3px;
+        color: #4e3979;
     }
     
-    /* Improved table responsiveness */
-    .post-content table {
-        width: 100%;
+    pre {
+        padding: 1.5rem;
+        margin: 2rem 0;
+        background-color: #faf9fd;
+        border: 1px solid #d0c8ec;
+        border-radius: 5px;
         overflow-x: auto;
-        display: block;
+    }
+    
+    pre code {
+        background-color: transparent;
+        padding: 0;
+    }
+    
+    /* Full width figures/tables */
+    .fullwidth {
+        max-width: 100%;
+        clear: both;
+    }
+    
+    /* Table styling */
+    table {
+        width: 100%;
         border-collapse: collapse;
-        margin: 1.5rem 0;
+        border-spacing: 0;
+        margin: 2rem 0;
+        font-size: 1.1rem;
+        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     }
     
-    .post-content table th,
-    .post-content table td {
-        padding: 0.5rem;
-        border: 1px solid rgba(var(--color-border), 1);
+    th {
+        padding: 0.75rem 1rem;
+        font-weight: 600;
+        text-align: left;
+        border-bottom: 2px solid #4e3979;
+        color: #4e3979;
     }
     
-    .dark-theme .post-content table th,
-    .dark-theme .post-content table td {
-        border-color: rgba(var(--color-border-dark), 1);
+    td {
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid #d0c8ec;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f8f7fd;
+    }
+    
+    /* Copy button for code blocks */
+    .code-block-container {
+        position: relative;
+    }
+
+    .copy-button {
+        position: absolute;
+        top: 0.75rem;
+        right: 0.75rem;
+        background: #4e3979;
+        color: white;
+        border: none;
+        padding: 0.375rem 0.75rem;
+        border-radius: 0.375rem;
+        font-size: 0.75rem;
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+
+    .code-block-container:hover .copy-button {
+        opacity: 1;
+    }
+
+    .copy-button:hover {
+        background: #5c4394;
+    }
+    
+    /* Adjustments for mobile responsive design */
+    @media (max-width: 760px) {
+        body {
+            width: 84%;
+            padding-left: 8%;
+            padding-right: 8%;
+            font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        }
+        
+        .tufte-content {
+            width: 100%;
+        }
+        
+        hr, section > p, section > footer, section > table {
+            width: 100%;
+        }
+        
+        pre {
+            width: 97%;
+        }
+        
+        .sidenote, .marginnote {
+            display: none;
+        }
+        
+        .margin-toggle:checked + .sidenote,
+        .margin-toggle:checked + .marginnote {
+            display: block;
+            float: left;
+            left: 1rem;
+            clear: both;
+            width: 95%;
+            margin: 1rem 2.5%;
+            vertical-align: baseline;
+            position: relative;
+        }
     }
 </style>
-{% endblock %} {% block content %}
+{% endblock %}
+
+{% block content %}
 <article class="post">
-    <header class="post-header mb-12 text-center relative">
-        {% if not is_root and path != "contact" and path != "values" and path !=
-        "great-books" and path != "mental-health" and path != "family" and path
-        != "yoga-meditation" %}
-        <div
-            class="flex flex-col text-sm mb-8 bg-background-code dark:bg-background-code-dark p-3 rounded-lg border border-border dark:border-border-dark font-mono"
-        >
-            <!-- Path navigator with accurate breadcrumbs -->
-            <div class="flex items-center flex-wrap">
-                <a
-                    href="/"
-                    class="text-link no-underline px-1 py-1 transition-colors hover:text-primary flex items-center"
-                >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="mr-1 opacity-70"
-                    >
-                        <path
-                            d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
-                        ></path>
-                    </svg>
-                    <span>root</span>
-                </a>
-
-                <!-- Only show accurate parts of the path -->
-                {% set path_parts = request.path.strip('/').split('/') %} {% for
-                i in range(path_parts|length) %} {% if i < path_parts|length - 1
-                %}
-                <span
-                    class="text-syntax-operator dark:text-syntax-operator mx-1"
-                    >.</span
-                >
-                <a
-                    href="/{{ '/'.join(path_parts[:i+1]) }}"
-                    class="text-link no-underline px-1 py-1 transition-colors hover:text-primary flex items-center"
-                >
-                    {% if i == path_parts|length - 2 %}
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="mr-1 text-syntax-string dark:text-syntax-string opacity-70"
-                    >
-                        <path
-                            d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
-                        ></path>
-                    </svg>
-                    {% else %}
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="mr-1 text-syntax-number dark:text-syntax-number opacity-70"
-                    >
-                        <path
-                            d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
-                        ></path>
-                    </svg>
-                    {% endif %}
-                    <span>{{ path_parts[i] }}</span>
-                </a>
-                {% endif %} {% endfor %}
-
-                <!-- Current file with no link -->
-                {% if path_parts %}
-                <span
-                    class="text-syntax-operator dark:text-syntax-operator mx-1"
-                    >.</span
-                >
-                <span
-                    class="flex items-center px-1 py-1 text-syntax-string dark:text-syntax-string font-medium"
-                >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="mr-1 opacity-70"
-                    >
-                        <path
-                            d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
-                        ></path>
-                    </svg>
-                    <span>{{ path_parts[-1] }}</span>
-                </span>
-                {% endif %}
-            </div>
-        </div>
-        {% endif %}
-
-        <!-- Title is already in the content for most markdown files, so we'll hide it in the template -->
+    <!-- Post Header -->
+    <header class="mb-12 pb-8 border-b-2 border-primary-200">
+        <h1 class="text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
+            {{ title }}
+        </h1>
+        
         {% if metadata %}
-        <div
-            class="text-text/60 dark:text-text-light/60 text-sm mb-6 font-sans"
-        >
+        <div class="flex flex-wrap gap-6 text-sm text-gray-600">
+            {% if metadata.author %}
+            <div class="flex items-center gap-2">
+                <span class="text-primary-600">👤</span>
+                <span class="font-medium">{{ metadata.author[0] }}</span>
+            </div>
+            {% endif %}
             {% if metadata.date %}
-            <span>{{ metadata.date }}</span>
-            {% endif %} {% if metadata.author %}
-            <span> • {{ metadata.author }}</span>
+            <div class="flex items-center gap-2">
+                <span class="text-primary-600">📅</span>
+                <span>{{ metadata.date[0] }}</span>
+            </div>
+            {% endif %}
+            {% if metadata.tags %}
+            <div class="flex items-center gap-2">
+                <span class="text-primary-600">🏷️</span>
+                <span>{{ metadata.tags | join(', ') }}</span>
+            </div>
             {% endif %}
         </div>
         {% endif %}
-
-        <div
-            class="w-20 h-1 bg-gradient-to-r from-primary to-primary-light/50 mx-auto mb-10 rounded-sm"
-        ></div>
     </header>
 
-    <div
-        class="post-content text-lg leading-relaxed text-text dark:text-text-light"
-    >
-        {% if is_root %}
-        <!-- Special styling for homepage content -->
-        <div
-            class="prose prose-xl dark:prose-invert mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-p:mb-8 prose-p:max-w-[80ch] prose-p:text-xl prose-p:leading-relaxed prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-a:text-accent dark:prose-a:text-accent-light prose-a:font-medium prose-a:transition-colors prose-a:no-underline prose-a:border-b-2 prose-a:border-accent/30 dark:prose-a:border-accent-light/30 hover:prose-a:border-accent hover:dark:prose-a:border-accent-light"
-        >
+    <!-- Post Content with Tufte Typography -->
+    <div class="et-book">
+        <div class="font-serif content-section">
             {{ content | safe }}
         </div>
-        {% elif path == "contact" or path == "values" or path == "great-books"
-        or path == "mental-health" or path == "family" or path ==
-        "yoga-meditation" %}
-        <!-- Special styling for key pages without path bar -->
-        <div
-            class="prose prose-xl dark:prose-invert mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-h1:text-4xl prose-h1:mb-8 prose-h1:mt-0 prose-h1:text-center prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h2:font-semibold prose-p:mb-6 prose-p:max-w-[70ch] prose-p:text-lg prose-p:leading-relaxed prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-a:text-accent dark:prose-a:text-accent-light prose-a:font-medium prose-a:transition-colors prose-ul:my-6 prose-ul:pl-8 prose-li:mb-3 prose-li:text-lg prose-code:font-mono prose-code:text-sm prose-code:bg-background-code dark:prose-code:bg-background-code-dark prose-code:py-1 prose-code:px-2 prose-code:rounded prose-code:border prose-code:border-border/30 dark:prose-code:border-border-dark/30"
-        >
-            {{ content | safe }}
-        </div>
-        {% else %}
-        <!-- Standard post styling with developer-focused code styling -->
-        <div
-            class="prose prose-lg dark:prose-invert max-w-prose mx-auto prose-headings:text-text dark:prose-headings:text-text-light prose-headings:font-medium prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:relative prose-h2:inline-block prose-h2:after:content-[''] prose-h2:after:absolute prose-h2:after:bottom-[-8px] prose-h2:after:left-0 prose-h2:after:w-[50px] prose-h2:after:h-[3px] prose-h2:after:bg-primary prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-p:mb-6 prose-p:max-w-[70ch] prose-img:mx-auto prose-img:my-10 prose-img:rounded-lg prose-img:shadow-md prose-img:block prose-img:max-w-full prose-img:h-auto prose-blockquote:my-10 prose-blockquote:py-6 prose-blockquote:px-10 prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:bg-primary-light/50 dark:prose-blockquote:bg-primary-dark/20 prose-blockquote:rounded-r prose-blockquote:italic prose-blockquote:relative prose-pre:my-8 prose-pre:p-4 prose-pre:bg-background-code dark:prose-pre:bg-background-code-dark prose-pre:rounded-lg prose-pre:overflow-x-auto prose-pre:border-l-4 prose-pre:border-primary prose-pre:font-mono prose-pre:text-sm prose-code:font-mono prose-code:text-sm prose-code:bg-background-code dark:prose-code:bg-background-code-dark prose-code:py-0.5 prose-code:px-1.5 prose-code:rounded prose-code:border prose-code:border-border/30 dark:prose-code:border-border-dark/30 prose-pre:prose-code:bg-transparent prose-pre:prose-code:border-0 prose-pre:prose-code:p-0 prose-ul:my-6 prose-ul:pl-8 prose-ol:my-6 prose-ol:pl-8 prose-li:mb-2 prose-table:w-full prose-table:my-8 prose-table:border-collapse prose-table:overflow-x-auto prose-table:block prose-th:bg-primary-light/50 dark:prose-th:bg-primary-dark/20 prose-th:text-primary-dark dark:prose-th:text-primary-light prose-th:font-semibold prose-th:text-left prose-th:p-3 prose-th:border prose-th:border-border dark:prose-th:border-border-dark prose-td:p-3 prose-td:border prose-td:border-border dark:prose-td:border-border-dark prose-tr:even:bg-primary-light/10 dark:prose-tr:even:bg-primary-dark/10"
-        >
-            {{ content | safe }}
-        </div>
-        {% endif %}
+        <style>
+            /* Ensure proper bullet point display in Markdown content */
+            .content-section h1,
+            .content-section h2,
+            .content-section h3,
+            .content-section h4,
+            .content-section h5,
+            .content-section h6 {
+                color: #5c4394 !important;
+                border-bottom: none !important;
+                font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif !important;
+            }
+        
+            .content-section h1 {
+                font-size: 2.5rem !important;
+                margin-top: 2.5rem !important;
+            }
+        
+            .content-section h2 {
+                font-size: 2.0rem !important;
+                margin-top: 2.2rem !important;
+            }
+        
+            .content-section h3 {
+                font-size: 1.6rem !important;
+                margin-top: 1.8rem !important;
+            }
+        
+            .content-section ul {
+                list-style-type: disc !important;
+                padding-left: 2.5rem !important;
+                margin: 1rem 0 !important;
+            }
+        
+            .content-section ol {
+                list-style-type: decimal !important;
+                padding-left: 2.5rem !important;
+                margin: 1rem 0 !important;
+            }
+        
+            .content-section ul ul {
+                list-style-type: circle !important;
+            }
+        
+            .content-section ul ol {
+                list-style-type: lower-alpha !important;
+            }
+        
+            .content-section ol ul {
+                list-style-type: circle !important;
+            }
+        
+            .content-section ol ol {
+                list-style-type: lower-alpha !important;
+            }
+        
+            .content-section li {
+                display: list-item !important;
+                margin-bottom: 0.5rem !important;
+            }
+        
+            @media (max-width: 760px) {
+                .content-section ul,
+                .content-section ol {
+                    width: 100% !important;
+                    padding-left: 1.5rem !important;
+                }
+            }
+        </style>
     </div>
 
-    <footer
-        class="mt-16 pt-8 border-t border-border dark:border-border-dark font-mono"
-    >
-        <!-- Tags section with developer-style indicators -->
-        <div class="flex flex-wrap gap-2 mb-4">
-            {% if metadata and metadata.tags %}
-            <div
-                class="text-sm text-syntax-function dark:text-syntax-function mr-2 flex items-center"
-            >
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="mr-1.5"
-                >
-                    <path
-                        d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
-                    ></path>
-                    <line x1="7" y1="7" x2="7.01" y2="7"></line>
-                </svg>
-                <span>Tags:</span>
-            </div>
-            {% for tag in metadata.tags %}
-            <a
-                href="/tags/{{ tag }}"
-                class="inline-block py-1 px-3 bg-primary-light/30 dark:bg-primary-dark/20 text-primary-dark dark:text-primary-light text-sm rounded no-underline hover:bg-primary-light/50 dark:hover:bg-primary-dark/30 transition-all hover:-translate-y-0.5 border border-primary-light/20 dark:border-primary-dark/20"
-                >{{ tag }}</a
-            >
-            {% endfor %} {% endif %}
+    <!-- Post Navigation -->
+    <nav class="mt-16 pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+        {% if breadcrumbs %}
+            {% set parent_path = breadcrumbs[-1].url if breadcrumbs else '/' %}
+        {% else %}
+            {% set parent_path = '/' %}
+        {% endif %}
+        
+        <a href="{{ parent_path }}" 
+           class="inline-flex items-center gap-3 px-6 py-3 text-primary-700 border-2 border-primary-600 rounded-lg hover:bg-primary-600 hover:text-white transition-all duration-200 font-medium group">
+            <span class="transition-transform group-hover:-translate-x-1">←</span>
+            <span>Back to Directory</span>
+        </a>
+        
+        <div class="text-sm text-gray-500 font-medium">
+            Markdown Document
         </div>
-
-        <!-- IDE-style status bar with file metadata -->
-        <div
-            class="flex flex-wrap justify-between items-center text-xs text-text/60 dark:text-text-light/60 bg-background-code/50 dark:bg-background-code-dark/50 p-2 rounded border border-border/30 dark:border-border-dark/30"
-        >
-            <div class="flex items-center">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="12"
-                    height="12"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="mr-1.5 text-syntax-comment dark:text-syntax-comment"
-                >
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <polyline points="12 6 12 12 16 14"></polyline>
-                </svg>
-                <span
-                    >Modified: {{ date_created|datetime if date_created else
-                    'Unknown date' }}</span
-                >
-            </div>
-
-            <div class="flex items-center gap-3">
-                <span class="flex items-center">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="12"
-                        height="12"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="mr-1.5 text-syntax-constant dark:text-syntax-constant"
-                    >
-                        <polygon
-                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
-                        ></polygon>
-                    </svg>
-                    <span>{{path}}</span>
-                </span>
-
-                <span
-                    class="flex items-center bg-primary/10 dark:bg-primary-dark/20 px-2 py-0.5 rounded"
-                >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="12"
-                        height="12"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="mr-1.5"
-                    >
-                        <path
-                            d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"
-                        ></path>
-                        <polygon
-                            points="18 2 22 6 12 16 8 16 8 12 18 2"
-                        ></polygon>
-                    </svg>
-                    <span>markdown</span>
-                </span>
-            </div>
-        </div>
-    </footer>
+    </nav>
 </article>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Smooth scrolling for anchor links
+    const anchorLinks = document.querySelectorAll('.content-section a[href^="#"]');
+    anchorLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Add copy button to code blocks
+    const codeBlocks = document.querySelectorAll('.content-section pre code');
+    codeBlocks.forEach(block => {
+        const pre = block.parentElement;
+        
+        // Wrap pre in container for positioning
+        const container = document.createElement('div');
+        container.className = 'code-block-container';
+        pre.parentNode.insertBefore(container, pre);
+        container.appendChild(pre);
+        
+        // Create copy button
+        const button = document.createElement('button');
+        button.textContent = 'Copy';
+        button.className = 'copy-button';
+        
+        container.appendChild(button);
+        
+        button.addEventListener('click', async () => {
+            try {
+                await navigator.clipboard.writeText(block.textContent);
+                button.textContent = 'Copied!';
+                button.style.background = '#10b981';
+                setTimeout(() => {
+                    button.textContent = 'Copy';
+                    button.style.background = '#4e3979';
+                }, 2000);
+            } catch (err) {
+                console.error('Failed to copy: ', err);
+            }
+        });
+    });
+
+    // Add reading progress indicator
+    const progressBar = document.createElement('div');
+    progressBar.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 3px;
+        background: linear-gradient(90deg, #4e3979, #6f52b0);
+        z-index: 9999;
+        transition: width 0.2s ease;
+    `;
+    document.body.appendChild(progressBar);
+
+    window.addEventListener('scroll', () => {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (winScroll / height) * 100;
+        progressBar.style.width = scrolled + '%';
+    });
+
+    // Enhance image viewing
+    const images = document.querySelectorAll('.content-section img');
+    images.forEach(img => {
+        // Create figure and figcaption for Tufte-style
+        if (!img.parentElement.matches('figure')) {
+            const figure = document.createElement('figure');
+            img.parentNode.insertBefore(figure, img);
+            figure.appendChild(img);
+            
+            // Add caption if alt text exists
+            if (img.alt && !img.alt.startsWith('_')) {
+                const figcaption = document.createElement('figcaption');
+                figcaption.textContent = img.alt;
+                figure.appendChild(figcaption);
+            }
+        }
+        
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', () => {
+            // Simple lightbox effect
+            const overlay = document.createElement('div');
+            overlay.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.9);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 10000;
+                cursor: pointer;
+            `;
+            
+            const enlargedImg = img.cloneNode();
+            enlargedImg.style.cssText = `
+                max-width: 90%;
+                max-height: 90%;
+                object-fit: contain;
+                border-radius: 8px;
+                box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            `;
+            
+            overlay.appendChild(enlargedImg);
+            document.body.appendChild(overlay);
+            
+            overlay.addEventListener('click', () => {
+                document.body.removeChild(overlay);
+            });
+        });
+    });
+    
+    // Transform blockquotes with attribution to Tufte style
+    document.querySelectorAll('.content-section blockquote').forEach(blockquote => {
+        const lastP = blockquote.querySelector('p:last-child');
+        if (lastP && lastP.textContent.startsWith('—')) {
+            lastP.classList.add('attribution');
+            lastP.style.textAlign = 'right';
+            lastP.style.marginTop = '0.5rem';
+        }
+    });
+    
+    // Add margin toggle buttons for sidenotes in mobile view
+    document.querySelectorAll('.content-section .sidenote, .content-section .marginnote').forEach((note, i) => {
+        const id = 'sidenote-' + i;
+        
+        // Create the toggle
+        const toggle = document.createElement('label');
+        toggle.setAttribute('for', id);
+        toggle.className = 'margin-toggle sidenote-number';
+        toggle.textContent = (i + 1);
+        
+        // Create the checkbox
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.id = id;
+        checkbox.className = 'margin-toggle';
+        
+        // Insert them before the note
+        note.parentNode.insertBefore(toggle, note);
+        note.parentNode.insertBefore(checkbox, note);
+    });
+});
+</script>
 {% endblock %}

@@ -1,0 +1,722 @@
+/* 
+   Kenneth Reitz Custom Tufte CSS
+   Combines the elegance of Tufte CSS with Kenneth's brand identity
+*/
+
+/* =====================================================
+   TUFTE OVERRIDES WITH KENNETH'S BRANDING
+   ===================================================== */
+
+/* Ensure we're working within the Tufte context */
+.tufte {
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  counter-reset: sidenote-counter;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.tufte h1, .tufte h2, .tufte h3, .tufte h4, .tufte h5, .tufte h6 {
+  color: #4e3979;
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  margin-top: 1.568rem;
+  margin-bottom: 1.568rem;
+  line-height: 1;
+}
+
+/* Header styling */
+.tufte h1 {
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.tufte h2 {
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.tufte h3 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+/* Paragraphs */
+.tufte p {
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  padding-right: 0;
+  vertical-align: baseline;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Links with Kenneth's branding */
+.tufte a:link, .tufte a:visited {
+  color: #4e3979;
+  text-decoration: none;
+  background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#4e3979, #4e3979);
+  background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
+  background-position: 0% 93%, 100% 93%, 0% 93%;
+  transition: color 0.2s ease;
+}
+
+.tufte a:hover {
+  color: #6f52b0;
+  background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#6f52b0, #6f52b0);
+  background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: 0% 93%, 100% 93%, 0% 93%;
+}
+
+/* Override header links to match site style */
+header a:link, header a:visited, 
+footer a:link, footer a:visited,
+nav a:link, nav a:visited {
+  background: none;
+  text-shadow: none;
+}
+
+/* Force serif for all main content */
+.tufte-content {
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+/* Override site header to keep sans-serif */
+header, footer, nav {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Sidenotes and margin notes styling with Kenneth's color scheme */
+.tufte .sidenote, .tufte .marginnote { 
+  float: right;
+  clear: right;
+  margin-right: -60%;
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  vertical-align: baseline;
+  position: relative;
+  color: #5c4394;
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-style: italic;
+}
+
+.tufte .sidenote-number {
+  color: #4e3979;
+}
+
+.tufte .sidenote:before {
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.tufte .sidenote-number {
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  font-size: 1rem;
+  color: #4e3979;
+  top: -0.5rem;
+}
+
+/* Blockquotes with Kenneth's branding */
+.tufte blockquote {
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1.4rem;
+  margin: 2rem 0;
+  padding-left: 2rem;
+  border-left: 3px solid #9b86d3;
+  font-style: italic;
+  line-height: 1.75;
+}
+
+.tufte blockquote footer {
+  font-size: 1.1rem;
+  text-align: right;
+  margin-top: 0.5rem;
+  color: #6f52b0;
+}
+
+/* Figure and caption styling */
+.tufte figure {
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  max-width: 85%;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  margin: 0 0 3em 0;
+}
+
+.tufte figcaption {
+  float: right;
+  clear: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  vertical-align: baseline;
+  position: relative;
+  max-width: 40%;
+  color: #5c4394;
+  font-style: italic;
+}
+
+/* Code styling with Kenneth's branding */
+.tufte code {
+  font-family: 'JetBrains Mono', Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  background-color: #e3e0f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  color: #4e3979;
+}
+
+/* Preserve monospace for code but use serif everywhere else */
+.tufte :not(pre):not(code) {
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.tufte pre {
+  padding: 1.5rem;
+  margin: 2rem 0;
+  background-color: #faf9fd;
+  border: 1px solid #d0c8ec;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.tufte pre code {
+  background-color: transparent;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+/* Tables */
+.tufte table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 2rem 0;
+  font-size: 1.1rem;
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.tufte th {
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 2px solid #4e3979;
+  color: #4e3979;
+}
+
+.tufte td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #d0c8ec;
+}
+
+.tufte tr:nth-child(even) {
+  background-color: #f8f7fd;
+}
+
+/* Full width elements */
+.tufte .fullwidth {
+  max-width: 100%;
+  clear: both;
+}
+
+/* New article section to adjust width */
+.tufte article {
+  position: relative;
+  padding: 1rem 0;
+}
+
+.tufte section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* List styling */
+.tufte ul, .tufte ol {
+  width: 55%;
+  -webkit-padding-start: 5%;
+  -webkit-padding-end: 5%;
+  padding-inline-start: 5%;
+  padding-inline-end: 5%;
+  margin: 0 0 0.5rem 0;
+  list-style-position: outside;
+  box-sizing: border-box;
+}
+
+.tufte ul {
+  list-style-type: disc;
+}
+
+.tufte ol {
+  list-style-type: decimal;
+}
+
+.tufte ul ul {
+  list-style-type: circle;
+  margin-left: 2%;
+  width: 98%;
+}
+
+.tufte ol ol, .tufte ul ol {
+  list-style-type: lower-alpha;
+  margin-left: 2%;
+  width: 98%;
+}
+
+.tufte ul ol ul, .tufte ul ul ul, .tufte ol ul ul, .tufte ol ol ul {
+  list-style-type: square;
+  margin-left: 2%;
+  width: 98%;
+}
+
+.tufte li {
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  line-height: 2rem;
+  display: list-item;
+}
+
+/* Content specific list styling */
+.content-section ul, .content-section ol {
+  width: 90%;
+  padding-left: 2.5rem;
+  margin: 1rem 0;
+  list-style-position: outside;
+}
+
+.content-section ul {
+  list-style-type: disc;
+}
+
+.content-section ol {
+  list-style-type: decimal;
+}
+
+.content-section li {
+  display: list-item;
+  margin-bottom: 0.5rem;
+}
+
+/* Epigraph styling */
+.tufte .epigraph {
+  margin: 3em 0;
+}
+
+.tufte .epigraph blockquote {
+  font-style: italic;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+
+.tufte .epigraph footer {
+  font-style: normal;
+  text-align: right;
+}
+
+/* Pull quotes */
+.tufte .pullquote {
+  width: 45%;
+  float: right;
+  margin: 1em 0 1em 1em;
+  padding: 0.5em 1em;
+  border-left: 3px solid #9b86d3;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #4e3979;
+}
+
+/* =====================================================
+   RESPONSIVE ADJUSTMENTS
+   ===================================================== */
+
+@media (max-width: 1200px) {
+  .tufte .sidenote, .tufte .marginnote {
+    margin-right: -45%;
+    width: 40%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tufte section > p, .tufte section > ul, .tufte section > ol {
+    width: 65%;
+  }
+  
+  .tufte ul, .tufte ol {
+    width: 65%;
+  }
+  
+  .tufte .sidenote, .tufte .marginnote {
+    margin-right: -55%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 760px) {
+  .tufte section > p, .tufte section > ul, .tufte section > ol {
+    width: 100%;
+    padding-inline-start: 1.5rem;
+  }
+  
+  .tufte-content {
+    width: 100%;
+  }
+  
+  .tufte .sidenote, .tufte .marginnote {
+    display: none;
+  }
+  
+  .tufte .margin-toggle:checked + .sidenote,
+  .tufte .margin-toggle:checked + .marginnote {
+    display: block;
+    float: left;
+    left: 1rem;
+    clear: both;
+    width: 95%;
+    margin: 1rem 2.5%;
+    vertical-align: baseline;
+    position: relative;
+  }
+  
+  .tufte label.margin-toggle:not(.sidenote-number) {
+    display: inline;
+  }
+  
+  .tufte label {
+    cursor: pointer;
+  }
+  
+  .tufte .margin-toggle {
+    display: none;
+  }
+  
+  .tufte .sn-left, .tufte .mn-left {
+    float: left;
+    clear: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  
+  .tufte .table-caption {
+    display: block;
+    float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+/* Print styles */
+@media print {
+  .tufte * {
+    background: transparent !important;
+    color: black !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+  
+  .tufte .sidenote, .tufte .marginnote {
+    display: block;
+    float: right;
+    clear: right;
+    margin-right: 0;
+    width: 35%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .tufte body {
+    width: 100%;
+  }
+  
+  .tufte .margin-toggle {
+    display: none;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .tufte.dark-mode {
+    background-color: #1a1625;
+    color: #e6e6e6;
+  }
+  
+  .tufte.dark-mode h1, 
+  .tufte.dark-mode h2, 
+  .tufte.dark-mode h3 {
+    color: #b5a7e0;
+  }
+  
+  .tufte.dark-mode a:link, 
+  .tufte.dark-mode a:visited {
+    color: #b5a7e0;
+    background: linear-gradient(#1a1625, #1a1625), linear-gradient(#1a1625, #1a1625), linear-gradient(#b5a7e0, #b5a7e0);
+    text-shadow: 0.03em 0 #1a1625, -0.03em 0 #1a1625, 0 0.03em #1a1625, 0 -0.03em #1a1625, 0.06em 0 #1a1625, -0.06em 0 #1a1625, 0.09em 0 #1a1625, -0.09em 0 #1a1625, 0.12em 0 #1a1625, -0.12em 0 #1a1625, 0.15em 0 #1a1625, -0.15em 0 #1a1625;
+  }
+  
+  .tufte.dark-mode pre {
+    background-color: #2d2440;
+    border: 1px solid #4e3979;
+  }
+  
+  .tufte.dark-mode code {
+    background-color: #2d2440;
+    color: #d0c8ec;
+  }
+  
+  .tufte.dark-mode blockquote {
+    border-left: 3px solid #6f52b0;
+  }
+  
+  .tufte.dark-mode tr:nth-child(even) {
+    background-color: #2d2440;
+  }
+  
+  .tufte.dark-mode td {
+    border-bottom: 1px solid #4e3979;
+  }
+}
+
+/* =====================================================
+   CUSTOM CLASSES
+   ===================================================== */
+
+/* Content header styles */
+.content-header {
+  color: #5c4394 !important;
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+}
+
+h1.content-header {
+  font-size: 2.5rem !important;
+  font-weight: 400 !important;
+  margin-top: 2.5rem !important;
+}
+
+h2.content-header {
+  font-size: 2rem !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  margin-top: 2rem !important;
+}
+
+h3.content-header {
+  font-size: 1.6rem !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  margin-top: 1.8rem !important;
+}
+
+h4.content-header, h5.content-header, h6.content-header {
+  font-size: 1.4rem !important;
+  font-weight: 400 !important;
+  margin-top: 1.5rem !important;
+}
+
+.content-section {
+  margin-top: 2rem;
+}
+
+.content-section p {
+  font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+/* Mindmap specific styles */
+#mindmap-svg {
+  cursor: grab;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+#mindmap-svg:active {
+  cursor: grabbing;
+}
+
+.node-circle {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.node-directory {
+  fill: #4e3979;
+  stroke: #3a2b5c;
+  stroke-width: 2;
+}
+
+.node-markdown {
+  fill: #2563eb;
+  stroke: #3a2b5c;
+  stroke-width: 2;
+}
+
+.node-text {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 12px;
+  fill: #1f2937;
+  text-anchor: middle;
+  pointer-events: none;
+  font-weight: 500;
+}
+
+.link {
+  fill: none;
+  stroke: #d1d5db;
+  stroke-width: 2;
+  stroke-opacity: 0.6;
+}
+
+.node-circle:hover {
+  stroke-width: 3;
+  filter: brightness(1.1);
+}
+
+.mindmap-tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 1000;
+  max-width: 250px;
+  word-wrap: break-word;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* For content that should have full width (images, tables, etc.) */
+.tufte .full-width {
+  width: 100%;
+  clear: both;
+}
+
+/* For highlighting important notes */
+.tufte .note {
+  background-color: #f0eef9;
+  border-left: 4px solid #8265c4;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.tufte .note:before {
+  content: "Note";
+  display: block;
+  font-weight: 600;
+  color: #4e3979;
+  margin-bottom: 0.5rem;
+}
+
+/* For highlighting important information */
+.tufte .important {
+  background-color: #f9eef0;
+  border-left: 4px solid #c46579;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.tufte .important:before {
+  content: "Important";
+  display: block;
+  font-weight: 600;
+  color: #c46579;
+  margin-bottom: 0.5rem;
+}
+
+/* For tips and tricks */
+.tufte .tip {
+  background-color: #eef9f0;
+  border-left: 4px solid #65c479;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.tufte .tip:before {
+  content: "Tip";
+  display: block;
+  font-weight: 600;
+  color: #65c479;
+  margin-bottom: 0.5rem;
+}
+
+/* Citation styling */
+.tufte .citation {
+  font-size: 1.1rem;
+  color: #6f52b0;
+  line-height: 1.4;
+}
+
+/* Button styling */
+.tufte .button {
+  display: inline-block;
+  background-color: #4e3979;
+  color: white !important;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  margin: 1rem 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  text-shadow: none !important;
+  background-image: none !important;
+}
+
+.tufte .button:hover {
+  background-color: #6f52b0;
+}
+
+/* Utility classes */
+.tufte .center {
+  text-align: center;
+}
+
+.tufte .left {
+  text-align: left;
+}
+
+.tufte .right {
+  text-align: right;
+}

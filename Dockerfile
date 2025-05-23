@@ -16,4 +16,4 @@ WORKDIR /app
 COPY --from=builder /app/.venv .venv/
 
 COPY . .
-CMD ["/app/.venv/bin/fastapi", "run", "tuftedoc.py"]
+CMD ["uv", "run", "engine.py"]

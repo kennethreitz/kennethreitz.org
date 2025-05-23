@@ -1,189 +1,157 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="antialiased">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kenneth Reitz - Python for Humans, Open Source Creator, REST API Designer, Neural Explorer">
-    <meta name="keywords" content="Python, Open Source, Requests, Pipenv, APIs, Programming, Code, Neural Networks, Consciousness">
-    <meta name="author" content="Kenneth Reitz">
-    <meta name="theme-color" content="#4e57ae">
-    <meta property="og:title" content="{% block og_title %}kennethreitz.org{% endblock %}">
-    <meta property="og:description" content="{% block og_description %}Python for Humans, Open Source Creator, REST API Designer, Neural Explorer{% endblock %}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://kennethreitz.org{{ request.path }}">
-    <meta property="og:image" content="https://kennethreitz.org/static/images/og-image.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@kennethreitz42">
+    <title>{% block title %}{{ title }} - Kenneth Reitz{% endblock %}</title>
+    
+    <!-- Load Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Load Tufte CSS -->
+    <link rel="stylesheet" href="/static/et-book.css">
+    <link rel="stylesheet" href="/static/tufte/tufte.css">
+    <link rel="stylesheet" href="/static/custom-tufte.css">
+    
+    <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                terminal: "#0d0d0d"
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        heroku: {
+                            50: '#f8f7fd',
+                            100: '#f0eef9',
+                            200: '#e3e0f4',
+                            300: '#d0c8ec',
+                            400: '#b5a7e0',
+                            500: '#9b86d3',
+                            600: '#8265c4',
+                            700: '#6f52b0',
+                            800: '#5c4394',
+                            900: '#4e3979',
+                            950: '#3a2b5c',
+                        },
+                        primary: {
+                            DEFAULT: '#4e3979',
+                            50: '#f8f7fd',
+                            100: '#f0eef9',
+                            200: '#e3e0f4',
+                            300: '#d0c8ec',
+                            400: '#b5a7e0',
+                            500: '#9b86d3',
+                            600: '#8265c4',
+                            700: '#6f52b0',
+                            800: '#5c4394',
+                            900: '#4e3979',
+                            950: '#3a2b5c',
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+                        'serif': ['Crimson Text', 'Charter', 'Georgia', 'Times New Roman', 'serif'],
+                        'mono': ['JetBrains Mono', 'Fira Code', 'SF Mono', 'Consolas', 'monospace'],
+                    }
+                }
             }
-          }
         }
-      </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7x1z5l5c5e5c5e5c5e5c5e5c5e5c5e5c5" crossorigin="anonymous">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Fira+Code:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <style>
-        :root {
-            --heroku-purple: 65, 45, 105;
-            --heroku-light-purple: 110, 80, 175;
-            --heroku-dark-purple: 40, 28, 65;
-            --heroku-fuchsia: 200, 50, 130;
-            --heroku-blue: 45, 156, 219;
-            --heroku-green: 90, 220, 120;
-            --heroku-amber: 255, 180, 60;
-            --terminal-black: 13, 13, 13;
-            --terminal-white: 240, 240, 240;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: "JetBrains Mono", "Fira Code", "IBM Plex Mono", monospace;
-            background-color: rgb(var(--terminal-black));
-            color: rgb(var(--terminal-white));
-            overflow-x: hidden;
-            opacity: 0;
-            animation: fadeIn 0.5s forwards;
-        }
-
-        @keyframes fadeIn {
-            to { opacity: 1; }
-        }
-    </style>
-
-    <link rel="stylesheet" href="/static/custom.css">
-
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/static/images/apple-touch-icon.png">
-    <link rel="manifest" href="/static/manifest.json">
-
-    {% block head %}{% endblock %}
-
-    <script>
-        document.documentElement.classList.toggle("mobile-device",
-            /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
     </script>
+    
+    {% block extra_head %}{% endblock %}
 </head>
-<body>
-    <div class="matrix-container" aria-hidden="true"></div>
-
-    <noscript>
-        <div class="noscript-message">
-            <p>For the best experience, please enable JavaScript. The site is still functional, but you will miss out on some interactive features.</p>
-        </div>
-    </noscript>
-
-    <header id="site-header" class="site-header" role="banner">
-        <div class="container header-container">
-            <div class="site-title">
-                <div class="window-controls-container">
-                    <div class="window-control close"></div>
-                    <div class="window-control minimize"></div>
-                    <div class="window-control maximize"></div>
+<body class="bg-white font-serif text-gray-900 selection:bg-primary-200 selection:text-primary-900 tufte" id="tufte-body">
+    <!-- Header -->
+    <header class="border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-8">
+            <div class="flex flex-col space-y-4">
+                <!-- Main brand -->
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h1 class="text-4xl font-bold tracking-tight">
+                            <a href="/" class="text-gray-900 hover:text-primary-700 transition-colors duration-200 no-underline">
+                                Kenneth Reitz
+                            </a>
+                        </h1>
+                        <p class="text-xl text-gray-600 font-serif italic mt-2 et-book">
+                            Digital Vault & Blog
+                        </p>
+                    </div>
+                    
+                    <!-- Mobile-friendly navigation -->
+                    <nav class="hidden md:flex space-x-6">
+                        <a href="/" class="text-sm font-medium text-gray-600 hover:text-primary-700 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-primary-50">
+                            Home
+                        </a>
+                        <a href="/mindmap" class="text-sm font-medium text-gray-600 hover:text-primary-700 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-primary-50">
+                            🧠 Mind Map
+                        </a>
+                    </nav>
                 </div>
-                <a href="/" class="main-logo" aria-label="Kenneth Reitz - Homepage">
-                    <span class="cmd-prompt">root@</span><span class="logo-text">kennethreitz</span><span class="cmd-prompt">:~#</span>
-                </a>
+                
+                <!-- Mobile navigation -->
+                <nav class="md:hidden flex space-x-4">
+                    <a href="/" class="text-sm font-medium text-gray-600 hover:text-primary-700 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-primary-50">
+                        Home
+                    </a>
+                    <a href="/mindmap" class="text-sm font-medium text-gray-600 hover:text-primary-700 transition-colors duration-200 px-3 py-2 rounded-md hover:bg-primary-50">
+                        🧠 Mind Map
+                    </a>
+                </nav>
             </div>
-
-            <nav class="main-nav" id="main-navigation" role="navigation" aria-label="Main navigation">
-                <div class="nav-wrapper editor-sidebar">
-                    <ul class="nav-links" role="menubar">
-                        <li class="nav-item" role="none">
-                            <a href="/software" role="menuitem" {% if request.path.startswith('/software') %}class="active" aria-current="page"{% endif %}>
-                                <span class="cmd-prompt">$</span>
-                                <span class="nav-text">code</span>
-                            </a>
-                        </li>
-                        <li class="nav-item" role="none">
-                            <a href="/essays" role="menuitem" {% if request.path.startswith('/essays') %}class="active" aria-current="page"{% endif %}>
-                                <span class="cmd-prompt">$</span>
-                                <span class="nav-text">blog</span>
-                            </a>
-                        </li>
-                        <li class="nav-item" role="none">
-                            <a href="/music" role="menuitem" {% if request.path.startswith('/music') %}class="active" aria-current="page"{% endif %}>
-                                <span class="cmd-prompt">$</span>
-                                <span class="nav-text">audio</span>
-                            </a>
-                        </li>
-                        <li class="nav-item" role="none">
-                            <a href="/artificial-intelligence" role="menuitem" {% if request.path.startswith('/artificial-intelligence') %}class="active" aria-current="page"{% endif %}>
-                                <span class="cmd-prompt">$</span>
-                                <span class="nav-text">ai</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
         </div>
     </header>
 
-    <main class="main-content">
-        <div class="container">
-            <div class="content-wrapper">
-                <div class="content-narrow">
-                    {% block content %}{% endblock %}
+    <!-- Breadcrumbs -->
+    {% if breadcrumbs %}
+    <nav class="max-w-4xl mx-auto px-6 py-4 text-sm text-gray-500">
+        <div class="flex items-center space-x-2">
+            <a href="/" class="hover:text-primary-700 transition-colors duration-200">Home</a>
+            {% for crumb in breadcrumbs %}
+                <span class="text-gray-300">›</span>
+                <a href="{{ crumb.url }}" class="hover:text-primary-700 transition-colors duration-200">{{ crumb.name }}</a>
+            {% endfor %}
+            {% if current_page %}
+                <span class="text-gray-300">›</span>
+                <span class="text-gray-900 font-medium">{{ current_page }}</span>
+            {% endif %}
+        </div>
+    </nav>
+    {% endif %}
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 py-8 tufte-content font-serif">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-200 mt-16">
+        <div class="max-w-4xl mx-auto px-6 py-12">
+            <div class="text-center">
+                <p class="text-sm text-gray-500">
+                    &copy; {{ current_year }} Kenneth Reitz. Built with elegant typography and thoughtful design.
+                </p>
+                <div class="mt-4 flex justify-center space-x-6">
+                    <a href="https://twitter.com/kennethreitz" class="text-gray-400 hover:text-primary-600 transition-colors duration-200">
+                        <span class="sr-only">Twitter</span>
+                        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/kennethreitz" class="text-gray-400 hover:text-primary-600 transition-colors duration-200">
+                        <span class="sr-only">GitHub</span>
+                        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" clip-rule="evenodd"/>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
-    </main>
+    </footer>
 
-    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="18 15 12 9 6 15"></polyline>
-        </svg>
-    </button>
-
-    <div id="toast-container" class="toast-container" role="status" aria-live="polite"></div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const isMobile = window.matchMedia("(max-width: 768px)").matches;
-            const isTinyMobile = window.matchMedia("(max-width: 480px)").matches;
-
-            document.body.classList.toggle("is-mobile", isMobile);
-            document.body.classList.toggle("is-tiny-mobile", isTinyMobile);
-
-            const backToTopButton = document.getElementById("back-to-top");
-            if (backToTopButton) {
-                backToTopButton.style.display = "none";
-
-                window.addEventListener("scroll", function() {
-                    if (window.scrollY > 300) {
-                        backToTopButton.style.display = "flex";
-                    } else {
-                        backToTopButton.style.display = "none";
-                    }
-                });
-
-                backToTopButton.addEventListener("click", function() {
-                    window.scrollTo({
-                        top: 0,
-                        behavior: "smooth"
-                    });
-                });
-            }
-
-            window.addEventListener("resize", function() {
-                const isMobileNow = window.matchMedia("(max-width: 768px)").matches;
-                const isTinyMobileNow = window.matchMedia("(max-width: 480px)").matches;
-                document.body.classList.toggle("is-mobile", isMobileNow);
-                document.body.classList.toggle("is-tiny-mobile", isTinyMobileNow);
-            });
-        });
-    </script>
-
-    {% block scripts %}{% endblock %}
+    <script src="/static/tufte-converter.js"></script>
+    {% block extra_scripts %}{% endblock %}
 </body>
 </html>
