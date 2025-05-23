@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-<!-- Directory Header & Index Content -->
-{% if index_content %}
-<div class="mb-16 pb-8 border-b border-gray-200">
+<!-- Directory Header & Title -->
+{% if index_content and content_position == 'top' %}
+<!-- Short content displayed at the top -->
+<div class="directory-content-top">
     <article class="tufte">
         <section class="tufte-content">
             {{ index_content.content | safe }}
@@ -76,6 +77,18 @@
     <p class="text-lg text-gray-600 font-serif italic et-book">
         This directory doesn't contain any files or folders yet.
     </p>
+</div>
+{% endif %}
+
+<!-- Long content displayed at the bottom -->
+{% if index_content and content_position == 'bottom' %}
+<div class="directory-content-bottom">
+    <h2 class="directory-content-title">About This Directory</h2>
+    <article class="tufte">
+        <section class="tufte-content">
+            {{ index_content.content | safe }}
+        </section>
+    </article>
 </div>
 {% endif %}
 {% endblock %}

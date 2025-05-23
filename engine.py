@@ -162,8 +162,19 @@ def index():
     # Check for index.md in the root data directory
     index_file = DATA_DIR / 'index.md'
     index_content = None
+    content_position = 'top'  # Default position
     if index_file.exists():
         index_content = render_markdown_file(index_file)
+        
+        # Determine content position based on length
+        # Count words in the HTML content (after stripping HTML tags)
+        import re
+        content_text = re.sub(r'<[^>]+>', '', index_content['content'])
+        word_count = len(content_text.split())
+        
+        # If content is longer than 150 words, put it at the bottom
+        if word_count > 150:
+            content_position = 'bottom'
     
     return render_template('directory.html', 
                          items=items, 
@@ -171,6 +182,7 @@ def index():
                          title='Kenneth Reitz',
                          breadcrumbs=[],
                          index_content=index_content,
+                         content_position=content_position,
                          current_year=datetime.now().year)
 
 @app.route('/<path:path>')
@@ -199,8 +211,19 @@ def serve_path(path):
         # Check for index.md in the directory
         index_file = full_path / 'index.md'
         index_content = None
+        content_position = 'top'  # Default position
         if index_file.exists():
             index_content = render_markdown_file(index_file)
+            
+            # Determine content position based on length
+            # Count words in the HTML content (after stripping HTML tags)
+            import re
+            content_text = re.sub(r'<[^>]+>', '', index_content['content'])
+            word_count = len(content_text.split())
+            
+            # If content is longer than 150 words, put it at the bottom
+            if word_count > 150:
+                content_position = 'bottom'
         
         title = path_parts[-1].replace('-', ' ').replace('_', ' ').title()
         
@@ -210,6 +233,7 @@ def serve_path(path):
                              title=title,
                              breadcrumbs=breadcrumbs,
                              index_content=index_content,
+                             content_position=content_position,
                              current_year=datetime.now().year,
                              current_page=title)
     
