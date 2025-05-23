@@ -6,6 +6,7 @@ import re
 from datetime import datetime
 from urllib.parse import quote
 import json
+from functools import lru_cache
 
 app = Flask(__name__, template_folder='templates')
 
@@ -80,12 +81,22 @@ def build_mindmap_data():
             elif item.suffix == '.md':
                 # Create display name without extension
                 display_name = item.stem.replace('-', ' ').replace('_', ' ').title()
+                
+                # Get content for full-text search
+                content = ""
+                try:
+                    with open(item, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                except Exception:
+                    pass
+                
                 child_node = {
                     'name': display_name,
                     'type': 'markdown',
                     'path': item_relative_path,
                     'size': item.stat().st_size,
-                    'modified': item.stat().st_mtime
+                    'modified': item.stat().st_mtime,
+                    'content': content
                 }
                 node['children'].append(child_node)
         
@@ -93,8 +104,9 @@ def build_mindmap_data():
     
     return process_directory(DATA_DIR)
 
+@lru_cache(maxsize=128)
 def render_markdown_file(file_path):
-    """Render a markdown file to HTML."""
+    """Render a markdown file to HTML with caching for performance."""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
@@ -133,6 +145,8 @@ def render_markdown_file(file_path):
         html_content = html_content.replace('<h5>', '<h5 class="content-header">')
         html_content = html_content.replace('<h6>', '<h6 class="content-header">')
         
+
+        
         # Get metadata
         metadata = getattr(md, 'Meta', {})
         
@@ -168,7 +182,6 @@ def index():
         
         # Determine content position based on length
         # Count words in the HTML content (after stripping HTML tags)
-        import re
         content_text = re.sub(r'<[^>]+>', '', index_content['content'])
         word_count = len(content_text.split())
         
@@ -217,7 +230,6 @@ def serve_path(path):
             
             # Determine content position based on length
             # Count words in the HTML content (after stripping HTML tags)
-            import re
             content_text = re.sub(r'<[^>]+>', '', index_content['content'])
             word_count = len(content_text.split())
             
@@ -292,7 +304,78 @@ def serve_data_file(path):
 def api_mindmap():
     """API endpoint to get mindmap data."""
     mindmap_data = build_mindmap_data()
-    return jsonify(mindmap_data)
+    
+    # Strip content from response to reduce size
+    def remove_content(node):
+        if 'content' in node:
+            del node['content']
+        if 'children' in node:
+            for child in node['children']:
+                remove_content(child)
+    
+    # Create a copy to avoid modifying the original
+    response_data = json.loads(json.dumps(mindmap_data))
+    remove_content(response_data)
+    
+    return jsonify(response_data)
+
+@app.route('/api/search')
+def api_search():
+    """API endpoint for full-text search across the knowledge base."""
+    query = request.args.get('q', '').lower()
+    if not query:
+        return jsonify([])
+    
+    results = []
+    
+    def search_node(node, path=""):
+        # Check if the node itself matches
+        node_name = node.get('name', '').lower()
+        node_path = node.get('path', '').lower()
+        node_content = node.get('content', '').lower()
+        
+        # Calculate path for display
+        display_path = path + '/' + node.get('name', '') if path else node.get('name', '')
+        
+        if query in node_name or query in node_path or query in node_content:
+            # Create a result object with relevant info
+            result = {
+                'name': node.get('name', ''),
+                'type': node.get('type', ''),
+                'path': node.get('path', ''),
+                'display_path': display_path,
+                'relevance': 0  # Will be calculated below
+            }
+            
+            # Calculate relevance score
+            relevance = 0
+            if query in node_name:
+                relevance += 10
+                if node_name.startswith(query):
+                    relevance += 5
+            if query in node_path:
+                relevance += 3
+            if query in node_content:
+                relevance += 1
+                # Extra points for each occurrence in content
+                relevance += node_content.count(query) * 0.1
+            
+            result['relevance'] = relevance
+            results.append(result)
+        
+        # Recursively search children
+        if 'children' in node:
+            for child in node['children']:
+                search_node(child, display_path)
+    
+    # Start the search from the root
+    mindmap_data = build_mindmap_data()
+    search_node(mindmap_data)
+    
+    # Sort results by relevance
+    results.sort(key=lambda x: x['relevance'], reverse=True)
+    
+    return jsonify(results)
 
 @app.route('/mindmap')
 def mindmap():
@@ -304,4 +387,4 @@ def mindmap():
                          current_page='Mind Map')
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=8000)

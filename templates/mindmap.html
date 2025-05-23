@@ -2,437 +2,799 @@
 
 {% block extra_head %}
 <style>
-    /* Custom D3.js styles that need to be in CSS */
-    #mindmap-svg {
+    /* Obsidian-style theme variables */
+    :root {
+        --obsidian-bg: #1e1e1e;
+        --obsidian-surface: #2d2d30;
+        --obsidian-accent: #7c3aed;
+        --obsidian-accent-hover: #8b5cf6;
+        --obsidian-text: #dcddde;
+        --obsidian-text-muted: #b3b3b3;
+        --obsidian-border: #3e3e42;
+        --obsidian-node-directory: #a855f7;
+        --obsidian-node-file: #06b6d4;
+        --obsidian-node-active: #f59e0b;
+        --obsidian-link: rgba(124, 58, 237, 0.4);
+        --obsidian-link-active: rgba(124, 58, 237, 0.8);
+    }
+
+    /* Main container styling */
+    .obsidian-mindmap {
+        background: linear-gradient(135deg, var(--obsidian-bg) 0%, #1a1a1a 100%);
+        border: 1px solid var(--obsidian-border);
+        border-radius: 12px;
+        position: relative;
+        overflow: hidden;
+        height: 80vh;
+        min-height: 700px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Graph container */
+    .graph-container {
+        width: 100%;
+        height: 100%;
+        position: relative;
         cursor: grab;
     }
 
-    #mindmap-svg:active {
+    .graph-container:active {
         cursor: grabbing;
     }
 
-    .node-circle {
+    /* SVG styles */
+    .mindmap-svg {
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at 50% 50%, rgba(124, 58, 237, 0.03) 0%, transparent 70%);
+    }
+
+    /* Node styles */
+    .node {
         cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .node circle {
+        stroke-width: 2;
+        filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .node.directory circle {
+        fill: var(--obsidian-node-directory);
+        stroke: rgba(168, 85, 247, 0.6);
+        r: 8;
+    }
+
+    .node.file circle {
+        fill: var(--obsidian-node-file);
+        stroke: rgba(6, 182, 212, 0.6);
+        r: 6;
+    }
+
+    .node.root circle {
+        fill: var(--obsidian-node-active);
+        stroke: rgba(245, 158, 11, 0.8);
+        r: 12;
+        stroke-width: 3;
+    }
+
+    .node:hover circle {
+        transform: scale(1.2);
+        filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.4)) brightness(1.1);
+    }
+
+    .node.active circle {
+        stroke-width: 4;
+        filter: drop-shadow(0 0 15px currentColor) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; }
+    }
+
+    /* Node text */
+    .node text {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        fill: var(--obsidian-text);
+        text-anchor: middle;
+        dominant-baseline: middle;
+        pointer-events: none;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
         transition: all 0.3s ease;
     }
 
-    .node-directory {
-        fill: #4e3979;
-        stroke: #3a2b5c;
-        stroke-width: 2;
-    }
-
-    .node-markdown {
-        fill: #2563eb;
-        stroke: #3a2b5c;
-        stroke-width: 2;
-    }
-
-    .node-text {
-        font-family: 'Inter', system-ui, sans-serif;
+    .node.directory text {
+        font-weight: 600;
         font-size: 12px;
-        fill: #1f2937;
-        text-anchor: middle;
-        pointer-events: none;
-        font-weight: 500;
     }
 
+    .node.root text {
+        font-size: 14px;
+        font-weight: 700;
+        fill: #ffffff;
+    }
+
+    .node:hover text {
+        font-size: 13px;
+        fill: #ffffff;
+    }
+
+    /* Links */
     .link {
         fill: none;
-        stroke: #d1d5db;
-        stroke-width: 2;
+        stroke: var(--obsidian-link);
+        stroke-width: 1.5;
         stroke-opacity: 0.6;
+        transition: all 0.3s ease;
     }
 
-    .node-circle:hover {
+    .link.active {
+        stroke: var(--obsidian-link-active);
         stroke-width: 3;
-        filter: brightness(1.1);
+        stroke-opacity: 1;
+        filter: drop-shadow(0 0 6px currentColor);
     }
 
-    .mindmap-tooltip {
+    /* Tooltip */
+    .obsidian-tooltip {
         position: absolute;
-        background: rgba(0, 0, 0, 0.9);
-        color: white;
-        padding: 0.75rem;
+        background: rgba(45, 45, 48, 0.95);
+        border: 1px solid var(--obsidian-border);
         border-radius: 8px;
-        font-size: 0.875rem;
-        pointer-events: none;
-        opacity: 0;
-        transition: opacity 0.2s ease;
+        padding: 12px 16px;
+        color: var(--obsidian-text);
+        font-size: 13px;
+        font-family: 'Inter', sans-serif;
+        max-width: 280px;
         z-index: 1000;
-        max-width: 250px;
-        word-wrap: break-word;
-        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        pointer-events: none;
+        backdrop-filter: blur(8px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+        transition: opacity 0.2s ease, transform 0.2s ease;
+        transform: translateY(4px);
+    }
+
+    .obsidian-tooltip.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .tooltip-title {
+        font-weight: 600;
+        color: var(--obsidian-accent);
+        margin-bottom: 6px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .tooltip-path {
+        font-size: 11px;
+        color: var(--obsidian-text-muted);
+        font-family: 'JetBrains Mono', monospace;
+        margin-bottom: 6px;
+    }
+
+    .tooltip-meta {
+        font-size: 11px;
+        color: var(--obsidian-text-muted);
+    }
+
+    /* Control panel */
+    .control-panel {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        z-index: 100;
+    }
+
+    .control-button {
+        width: 44px;
+        height: 44px;
+        background: rgba(45, 45, 48, 0.9);
+        border: 1px solid var(--obsidian-border);
+        border-radius: 8px;
+        color: var(--obsidian-text);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        backdrop-filter: blur(8px);
+    }
+
+    .control-button:hover {
+        background: var(--obsidian-accent);
+        color: white;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+    }
+
+    .control-button:active {
+        transform: translateY(0);
+    }
+
+    /* Search panel */
+    .search-panel {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 300px;
+        background: rgba(45, 45, 48, 0.95);
+        border: 1px solid var(--obsidian-border);
+        border-radius: 12px;
+        padding: 16px;
+        backdrop-filter: blur(12px);
+        z-index: 100;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .search-input {
+        width: 100%;
+        background: rgba(30, 30, 30, 0.8);
+        border: 1px solid var(--obsidian-border);
+        border-radius: 8px;
+        padding: 10px 12px;
+        color: var(--obsidian-text);
+        font-size: 13px;
+        transition: all 0.2s ease;
+    }
+
+    .search-input:focus {
+        outline: none;
+        border-color: var(--obsidian-accent);
+        box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
+    }
+
+    .search-input::placeholder {
+        color: var(--obsidian-text-muted);
+    }
+
+    /* Info panel */
+    .info-panel {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        background: rgba(45, 45, 48, 0.95);
+        border: 1px solid var(--obsidian-border);
+        border-radius: 12px;
+        padding: 16px;
+        backdrop-filter: blur(12px);
+        z-index: 100;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        color: var(--obsidian-text-muted);
+        min-width: 200px;
+    }
+
+    .info-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6px;
+        padding: 4px 0;
+        border-bottom: 1px solid rgba(124, 58, 237, 0.1);
+    }
+
+    .info-item:last-child {
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    .info-label {
+        color: var(--obsidian-text-muted);
+    }
+
+    .info-value {
+        color: var(--obsidian-accent);
+        font-weight: 600;
+    }
+
+    /* Loading animation */
+    .loading-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: var(--obsidian-text);
+        font-family: 'Inter', sans-serif;
+    }
+
+    .loading-spinner {
+        width: 48px;
+        height: 48px;
+        border: 3px solid rgba(124, 58, 237, 0.2);
+        border-top: 3px solid var(--obsidian-accent);
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-bottom: 16px;
     }
 
     @keyframes spin {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
     }
+
+    .loading-text {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--obsidian-text-muted);
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+        .search-panel {
+            width: calc(100% - 40px);
+            position: relative;
+            top: 0;
+            left: 0;
+            margin-bottom: 20px;
+        }
+
+        .obsidian-mindmap {
+            height: 60vh;
+            min-height: 500px;
+        }
+
+        .info-panel {
+            position: relative;
+            bottom: 0;
+            left: 0;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .control-panel {
+            top: 10px;
+            right: 10px;
+            flex-direction: row;
+        }
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--obsidian-bg);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--obsidian-border);
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--obsidian-accent);
+    }
 </style>
 {% endblock %}
 
 {% block content %}
-<!-- Mindmap Header -->
-<div class="text-center mb-8">
-    <h1 class="text-5xl font-bold text-gray-900 mb-4 tracking-tight">
-        Digital Mind Map
+<div class="mb-8">
+    <h1 class="text-5xl font-bold text-gray-100 mb-4 tracking-tight page-title">
+        🧠 Digital Mind Map
     </h1>
-    <p class="text-xl text-gray-600 font-serif italic mb-8">
-        Interactive visualization of Kenneth Reitz's digital vault
+    <p class="text-xl text-gray-400 font-serif italic tracking-wide">
+        Explore the interconnected universe of knowledge in Obsidian style
     </p>
-    
-    <!-- Controls -->
-    <div class="flex flex-wrap justify-center gap-3 mb-8">
-        <button onclick="resetZoom()" 
-                class="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-md">
-            <span>🔍</span>
-            <span>Reset Zoom</span>
-        </button>
-        <button onclick="expandAll()" 
-                class="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-md">
-            <span>📂</span>
-            <span>Expand All</span>
-        </button>
-        <button onclick="collapseAll()" 
-                class="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-md">
-            <span>📁</span>
-            <span>Collapse All</span>
-        </button>
-        <button onclick="centerGraph()" 
-                class="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-md">
-            <span>🎯</span>
-            <span>Center</span>
-        </button>
-    </div>
 </div>
 
-<!-- Mindmap Container -->
-<div class="w-full bg-white border-2 border-gray-200 rounded-2xl overflow-hidden shadow-xl relative" 
-     style="height: calc(100vh - 300px); min-height: 600px;">
-    
+<div class="obsidian-mindmap">
     <!-- Loading State -->
-    <div id="loading" class="flex items-center justify-center h-full text-gray-500">
-        <div class="flex items-center gap-4">
-            <div class="w-10 h-10 border-4 border-gray-200 border-t-primary-600 rounded-full animate-spin"></div>
-            <span class="text-lg font-medium">Loading mind map...</span>
+    <div id="loading" class="loading-container">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Mapping neural pathways...</div>
+    </div>
+
+    <!-- Main Graph Container -->
+    <div id="graph-container" class="graph-container" style="display: none;">
+        <svg class="mindmap-svg" id="mindmap-svg"></svg>
+        
+        <!-- Search Panel -->
+        <div class="search-panel">
+            <input 
+                type="text" 
+                id="search-input" 
+                class="search-input" 
+                placeholder="Search nodes... (type to filter)"
+            >
         </div>
-    </div>
-    
-    <!-- SVG Container -->
-    <svg id="mindmap-svg" class="w-full h-full" style="display: none;"></svg>
-</div>
 
-<!-- Statistics -->
-<div id="stats" class="flex flex-wrap justify-center gap-6 mt-8" style="display: none;">
-    <div class="text-center p-6 bg-gray-50 rounded-xl shadow-sm min-w-[140px]">
-        <div id="total-nodes" class="text-3xl font-bold text-primary-600 mb-2">0</div>
-        <div class="text-sm text-gray-600 font-medium">Total Items</div>
-    </div>
-    <div class="text-center p-6 bg-gray-50 rounded-xl shadow-sm min-w-[140px]">
-        <div id="directory-count" class="text-3xl font-bold text-primary-600 mb-2">0</div>
-        <div class="text-sm text-gray-600 font-medium">Directories</div>
-    </div>
-    <div class="text-center p-6 bg-gray-50 rounded-xl shadow-sm min-w-[140px]">
-        <div id="markdown-count" class="text-3xl font-bold text-primary-600 mb-2">0</div>
-        <div class="text-sm text-gray-600 font-medium">Documents</div>
-    </div>
-    <div class="text-center p-6 bg-gray-50 rounded-xl shadow-sm min-w-[140px]">
-        <div id="max-depth" class="text-3xl font-bold text-primary-600 mb-2">0</div>
-        <div class="text-sm text-gray-600 font-medium">Max Depth</div>
+        <!-- Control Panel -->
+        <div class="control-panel">
+            <div class="control-button" id="zoom-in" title="Zoom In">+</div>
+            <div class="control-button" id="zoom-out" title="Zoom Out">−</div>
+            <div class="control-button" id="reset-view" title="Reset View">⌂</div>
+            <div class="control-button" id="toggle-physics" title="Toggle Physics">⚡</div>
+        </div>
+
+        <!-- Info Panel -->
+        <div class="info-panel">
+            <div class="info-item">
+                <span class="info-label">Nodes</span>
+                <span class="info-value" id="node-count">0</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Connections</span>
+                <span class="info-value" id="link-count">0</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Directories</span>
+                <span class="info-value" id="dir-count">0</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Files</span>
+                <span class="info-value" id="file-count">0</span>
+            </div>
+        </div>
+
+        <!-- Tooltip -->
+        <div class="obsidian-tooltip" id="tooltip"></div>
     </div>
 </div>
-
-<!-- Tooltip -->
-<div class="mindmap-tooltip" id="tooltip"></div>
 {% endblock %}
 
 {% block extra_scripts %}
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
-let svg, g, simulation, nodes, links;
-let width, height;
-let mindmapData;
-let tooltip;
-
-// Initialize the visualization
-async function initMindmap() {
-    try {
-        const response = await fetch('/api/mindmap');
-        mindmapData = await response.json();
+class ObsidianMindmap {
+    constructor() {
+        this.data = null;
+        this.nodes = [];
+        this.links = [];
+        this.simulation = null;
+        this.svg = null;
+        this.g = null;
+        this.zoom = null;
+        this.physicsEnabled = true;
+        this.searchTerm = '';
         
-        document.getElementById('loading').style.display = 'none';
-        document.getElementById('mindmap-svg').style.display = 'block';
-        document.getElementById('stats').style.display = 'flex';
+        this.width = 0;
+        this.height = 0;
         
-        setupSVG();
-        processData();
-        createVisualization();
-        updateStats();
-        
-    } catch (error) {
-        console.error('Error loading mindmap data:', error);
-        document.getElementById('loading').innerHTML = '<span style="color: var(--heroku-red);">Error loading mind map data</span>';
+        this.init();
     }
-}
 
-function setupSVG() {
-    const container = document.querySelector('#mindmap-svg').parentElement;
-    width = container.clientWidth;
-    height = container.clientHeight;
-    
-    svg = d3.select("#mindmap-svg")
-        .attr("width", width)
-        .attr("height", height);
-    
-    // Create main group for zoom/pan
-    g = svg.append("g");
-    
-    tooltip = d3.select("#tooltip");
-    
-    // Add zoom and pan behavior
-    const zoom = d3.zoom()
-        .scaleExtent([0.1, 3])
-        .on("zoom", (event) => {
-            g.attr("transform", event.transform);
-        });
-    
-    svg.call(zoom);
-}
+    async init() {
+        try {
+            const response = await fetch('/api/mindmap');
+            this.data = await response.json();
+            
+            this.setupSVG();
+            this.processData();
+            this.createSimulation();
+            this.render();
+            this.setupEventListeners();
+            this.updateStats();
+            
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('graph-container').style.display = 'block';
+        } catch (error) {
+            console.error('Failed to load mindmap data:', error);
+        }
+    }
 
-function processData() {
-    nodes = [];
-    links = [];
-    
-    function traverse(node, parent = null, depth = 0) {
+    setupSVG() {
+        const container = document.getElementById('graph-container');
+        this.width = container.clientWidth;
+        this.height = container.clientHeight;
+
+        this.svg = d3.select('#mindmap-svg')
+            .attr('width', this.width)
+            .attr('height', this.height);
+
+        this.zoom = d3.zoom()
+            .scaleExtent([0.1, 4])
+            .on('zoom', (event) => {
+                this.g.attr('transform', event.transform);
+            });
+
+        this.svg.call(this.zoom);
+
+        this.g = this.svg.append('g');
+    }
+
+    processData(node = this.data, parent = null, level = 0) {
+        if (!node) return;
+
         const nodeData = {
             id: node.path || 'root',
-            name: node.name,
-            type: node.type,
-            path: node.path,
-            depth: depth,
-            children: node.children || [],
-            parent: parent
+            name: node.name || 'Root',
+            type: node.type || 'root',
+            path: node.path || '',
+            level: level,
+            parent: parent,
+            children: node.children || []
         };
-        
-        nodes.push(nodeData);
-        
+
+        this.nodes.push(nodeData);
+
         if (parent) {
-            links.push({
+            this.links.push({
                 source: parent.id,
                 target: nodeData.id
             });
         }
-        
+
         if (node.children) {
-            node.children.forEach(child => traverse(child, nodeData, depth + 1));
+            node.children.forEach(child => {
+                this.processData(child, nodeData, level + 1);
+            });
         }
+    }
+
+    createSimulation() {
+        this.simulation = d3.forceSimulation(this.nodes)
+            .force('link', d3.forceLink(this.links)
+                .id(d => d.id)
+                .distance(d => {
+                    const sourceLevel = this.nodes.find(n => n.id === d.source.id)?.level || 0;
+                    const targetLevel = this.nodes.find(n => n.id === d.target.id)?.level || 0;
+                    return 80 + (Math.max(sourceLevel, targetLevel) * 20);
+                })
+                .strength(0.8))
+            .force('charge', d3.forceManyBody()
+                .strength(d => {
+                    if (d.type === 'root') return -1000;
+                    if (d.type === 'directory') return -400;
+                    return -200;
+                }))
+            .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+            .force('collision', d3.forceCollide()
+                .radius(d => {
+                    if (d.type === 'root') return 25;
+                    if (d.type === 'directory') return 20;
+                    return 15;
+                }))
+            .force('x', d3.forceX(this.width / 2).strength(0.1))
+            .force('y', d3.forceY(this.height / 2).strength(0.1));
+
+        this.simulation.on('tick', () => this.ticked());
+    }
+
+    render() {
+        // Render links
+        this.linkElements = this.g.selectAll('.link')
+            .data(this.links)
+            .enter()
+            .append('line')
+            .attr('class', 'link')
+            .attr('stroke-width', d => {
+                const sourceNode = this.nodes.find(n => n.id === d.source.id);
+                const targetNode = this.nodes.find(n => n.id === d.target.id);
+                if (sourceNode?.type === 'root' || targetNode?.type === 'root') return 3;
+                if (sourceNode?.type === 'directory' || targetNode?.type === 'directory') return 2;
+                return 1.5;
+            });
+
+        // Render nodes
+        this.nodeElements = this.g.selectAll('.node')
+            .data(this.nodes)
+            .enter()
+            .append('g')
+            .attr('class', d => `node ${d.type}`)
+            .call(this.drag());
+
+        // Add circles to nodes
+        this.nodeElements.append('circle')
+            .attr('r', d => {
+                if (d.type === 'root') return 12;
+                if (d.type === 'directory') return 8;
+                return 6;
+            });
+
+        // Add text labels
+        this.nodeElements.append('text')
+            .attr('dy', d => d.type === 'root' ? 25 : 20)
+            .text(d => {
+                if (d.name.length > 15) {
+                    return d.name.substring(0, 12) + '...';
+                }
+                return d.name;
+            });
+
+        // Add event listeners
+        this.nodeElements
+            .on('mouseover', (event, d) => this.showTooltip(event, d))
+            .on('mouseout', () => this.hideTooltip())
+            .on('click', (event, d) => this.handleNodeClick(event, d))
+            .on('dblclick', (event, d) => this.handleNodeDoubleClick(event, d));
+    }
+
+    ticked() {
+        if (this.linkElements) {
+            this.linkElements
+                .attr('x1', d => d.source.x)
+                .attr('y1', d => d.source.y)
+                .attr('x2', d => d.target.x)
+                .attr('y2', d => d.target.y);
+        }
+
+        if (this.nodeElements) {
+            this.nodeElements
+                .attr('transform', d => `translate(${d.x}, ${d.y})`);
+        }
+    }
+
+    drag() {
+        return d3.drag()
+            .on('start', (event, d) => {
+                if (!event.active && this.physicsEnabled) {
+                    this.simulation.alphaTarget(0.3).restart();
+                }
+                d.fx = d.x;
+                d.fy = d.y;
+            })
+            .on('drag', (event, d) => {
+                d.fx = event.x;
+                d.fy = event.y;
+            })
+            .on('end', (event, d) => {
+                if (!event.active && this.physicsEnabled) {
+                    this.simulation.alphaTarget(0);
+                }
+                d.fx = null;
+                d.fy = null;
+            });
+    }
+
+    showTooltip(event, d) {
+        const tooltip = document.getElementById('tooltip');
+        const icon = d.type === 'directory' ? '📁' : d.type === 'root' ? '🌟' : '📄';
         
-        return nodeData;
+        tooltip.innerHTML = `
+            <div class="tooltip-title">
+                <span>${icon}</span>
+                <span>${d.name}</span>
+            </div>
+            <div class="tooltip-path">${d.path || 'Root'}</div>
+            <div class="tooltip-meta">
+                Type: ${d.type} • Level: ${d.level}
+                ${d.children ? ` • Children: ${d.children.length}` : ''}
+            </div>
+        `;
+
+        tooltip.style.left = (event.pageX + 10) + 'px';
+        tooltip.style.top = (event.pageY - 10) + 'px';
+        tooltip.classList.add('visible');
     }
-    
-    traverse(mindmapData);
-}
 
-function createVisualization() {
-    // Create force simulation
-        simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links).id(d => d.id).distance(100))
-            .force("charge", d3.forceManyBody().strength(-300))
-            .force("center", d3.forceCenter(width / 2, height / 2))
-            .force("collision", d3.forceCollide().radius(30))
-            .alphaDecay(0.028); // Slightly slower cooling for better layout
-    
-    // Create links
-        const link = g.append("g")
-            .attr("class", "links")
-            .selectAll("line")
-            .data(links)
-            .enter().append("line")
-            .attr("class", "link");
-    
-    // Create nodes
-    const node = g.append("g")
-        .selectAll("g")
-        .data(nodes)
-        .enter().append("g")
-        .attr("class", "node")
-        .call(d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended));
-    
-    // Add circles to nodes
-    node.append("circle")
-        .attr("class", d => `node-circle node-${d.type}`)
-        .attr("r", d => d.type === 'directory' ? 15 : 10)
-        .on("click", handleNodeClick)
-        .on("mouseover", handleMouseOver)
-        .on("mouseout", handleMouseOut);
-    
-    // Add text labels
-    node.append("text")
-        .attr("class", "node-text")
-        .attr("dy", 25)
-        .text(d => d.name.length > 15 ? d.name.substring(0, 12) + "..." : d.name);
-    
-    // Update positions on simulation tick
-    simulation.on("tick", () => {
-        link
-            .attr("x1", d => d.source.x)
-            .attr("y1", d => d.source.y)
-            .attr("x2", d => d.target.x)
-            .attr("y2", d => d.target.y);
-        
-        node.attr("transform", d => `translate(${d.x},${d.y})`);
-    });
-}
-
-function handleNodeClick(event, d) {
-    if (d.path && d.type === 'markdown') {
-        window.location.href = `/${d.path}`;
-    } else if (d.path && d.type === 'directory') {
-        window.location.href = `/${d.path}`;
+    hideTooltip() {
+        document.getElementById('tooltip').classList.remove('visible');
     }
-}
 
-function handleMouseOver(event, d) {
-    tooltip
-        .style("opacity", 1)
-        .style("left", (event.pageX + 10) + "px")
-        .style("top", (event.pageY - 10) + "px")
-        .html(`
-            <strong>${d.name}</strong><br>
-            Type: ${d.type}<br>
-            Depth: ${d.depth}<br>
-            ${d.path ? `Path: /${d.path}` : 'Root directory'}
-        `);
-}
+    handleNodeClick(event, d) {
+        // Highlight connected nodes
+        this.nodeElements.classed('active', false);
+        this.linkElements.classed('active', false);
 
-function handleMouseOut() {
-    tooltip.style("opacity", 0);
-}
+        d3.select(event.currentTarget).classed('active', true);
 
-function dragstarted(event, d) {
-    if (!event.active) simulation.alphaTarget(0.3).restart();
-    d.fx = d.x;
-    d.fy = d.y;
-}
+        // Highlight connected links
+        this.linkElements
+            .classed('active', link => 
+                link.source.id === d.id || link.target.id === d.id
+            );
+    }
 
-function dragged(event, d) {
-    d.fx = event.x;
-    d.fy = event.y;
-}
-
-function dragended(event, d) {
-    if (!event.active) simulation.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
-}
-
-function updateStats() {
-    const totalNodes = nodes.length;
-    const directoryCount = nodes.filter(n => n.type === 'directory').length;
-    const markdownCount = nodes.filter(n => n.type === 'markdown').length;
-    const maxDepth = Math.max(...nodes.map(n => n.depth));
-    
-    document.getElementById('total-nodes').textContent = totalNodes;
-    document.getElementById('directory-count').textContent = directoryCount;
-    document.getElementById('markdown-count').textContent = markdownCount;
-    document.getElementById('max-depth').textContent = maxDepth;
-}
-
-// Control functions
-function resetZoom() {
-    svg.transition().duration(750).call(
-        d3.zoom().transform,
-        d3.zoomIdentity
-    );
-}
-
-function expandAll() {
-    // Show all nodes and links
-    d3.selectAll(".node").style("display", "");
-    d3.selectAll(".link").style("display", "");
-    
-    // Restart simulation with higher energy
-    simulation.alpha(1).restart();
-    
-    // Center after a brief delay to allow simulation to adjust
-    setTimeout(centerGraph, 300);
-}
-
-function collapseAll() {
-    // Hide all nodes except root and first level children
-    d3.selectAll(".node").each(function(d) {
-        if (d.depth > 1) {
-            d3.select(this).style("display", "none");
-        } else {
-            d3.select(this).style("display", "");
+    handleNodeDoubleClick(event, d) {
+        if (d.path && d.path !== '') {
+            window.open(`/${d.path}`, '_blank');
         }
-    });
-    
-    // Hide links to hidden nodes
-    d3.selectAll(".link").each(function(d) {
-        if (d.source.depth > 0 || d.target.depth > 1) {
-            d3.select(this).style("display", "none");
-        } else {
-            d3.select(this).style("display", "");
-        }
-    });
-    
-    // Restart simulation
-    simulation.alpha(1).restart();
-    
-    // Center after a brief delay
-    setTimeout(centerGraph, 300);
-}
-
-function centerGraph() {
-    if (!g || !g.node()) return;
-    
-    const bounds = g.node().getBBox();
-    if (bounds.width === 0 || bounds.height === 0) return;
-    
-    const fullWidth = width;
-    const fullHeight = height;
-    const widthScale = fullWidth / bounds.width;
-    const heightScale = fullHeight / bounds.height;
-    const scale = Math.min(widthScale, heightScale) * 0.8;
-    const translate = [
-        fullWidth / 2 - scale * (bounds.x + bounds.width / 2),
-        fullHeight / 2 - scale * (bounds.y + bounds.height / 2)
-    ];
-    
-    svg.transition().duration(750).call(
-        d3.zoom().transform,
-        d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale)
-    );
-}
-
-// Handle window resize
-window.addEventListener('resize', () => {
-    const container = document.querySelector('#mindmap-svg').parentElement;
-    width = container.clientWidth;
-    height = container.clientHeight;
-    
-    svg.attr("width", width).attr("height", height);
-    if (simulation) {
-        simulation.force("center", d3.forceCenter(width / 2, height / 2)).restart();
     }
-});
 
-// Initialize when page loads
+    setupEventListeners() {
+        // Zoom controls
+        document.getElementById('zoom-in').addEventListener('click', () => {
+            this.svg.transition().duration(300).call(
+                this.zoom.scaleBy, 1.5
+            );
+        });
+
+        document.getElementById('zoom-out').addEventListener('click', () => {
+            this.svg.transition().duration(300).call(
+                this.zoom.scaleBy, 1 / 1.5
+            );
+        });
+
+        document.getElementById('reset-view').addEventListener('click', () => {
+            this.svg.transition().duration(750).call(
+                this.zoom.transform,
+                d3.zoomIdentity.translate(this.width / 2, this.height / 2).scale(1)
+            );
+        });
+
+        document.getElementById('toggle-physics').addEventListener('click', () => {
+            this.physicsEnabled = !this.physicsEnabled;
+            if (this.physicsEnabled) {
+                this.simulation.alphaTarget(0.3).restart();
+            } else {
+                this.simulation.stop();
+            }
+        });
+
+        // Search functionality
+        const searchInput = document.getElementById('search-input');
+        searchInput.addEventListener('input', (event) => {
+            this.searchTerm = event.target.value.toLowerCase();
+            this.filterNodes();
+        });
+
+        // Window resize
+        window.addEventListener('resize', () => {
+            this.handleResize();
+        });
+    }
+
+    filterNodes() {
+        this.nodeElements
+            .style('opacity', d => {
+                if (!this.searchTerm) return 1;
+                return d.name.toLowerCase().includes(this.searchTerm) ? 1 : 0.2;
+            })
+            .style('transform', d => {
+                if (!this.searchTerm) return null;
+                const scale = d.name.toLowerCase().includes(this.searchTerm) ? 'scale(1.1)' : 'scale(0.8)';
+                return `translate(${d.x}px, ${d.y}px) ${scale}`;
+            });
+
+        this.linkElements
+            .style('opacity', d => {
+                if (!this.searchTerm) return 0.6;
+                const sourceMatch = d.source.name.toLowerCase().includes(this.searchTerm);
+                const targetMatch = d.target.name.toLowerCase().includes(this.searchTerm);
+                return (sourceMatch || targetMatch) ? 1 : 0.1;
+            });
+    }
+
+    updateStats() {
+        const nodeCount = this.nodes.length;
+        const linkCount = this.links.length;
+        const dirCount = this.nodes.filter(n => n.type === 'directory').length;
+        const fileCount = this.nodes.filter(n => n.type === 'file').length;
+
+        document.getElementById('node-count').textContent = nodeCount;
+        document.getElementById('link-count').textContent = linkCount;
+        document.getElementById('dir-count').textContent = dirCount;
+        document.getElementById('file-count').textContent = fileCount;
+    }
+
+    handleResize() {
+        const container = document.getElementById('graph-container');
+        this.width = container.clientWidth;
+        this.height = container.clientHeight;
+
+        this.svg
+            .attr('width', this.width)
+            .attr('height', this.height);
+
+        this.simulation
+            .force('center', d3.forceCenter(this.width / 2, this.height / 2))
+            .force('x', d3.forceX(this.width / 2).strength(0.1))
+            .force('y', d3.forceY(this.height / 2).strength(0.1))
+            .alpha(0.3)
+            .restart();
+    }
+}
+
+// Initialize the mindmap when the page loads
 document.addEventListener('DOMContentLoaded', () => {
-    // Add a small delay to ensure DOM is fully ready
-    setTimeout(initMindmap, 100);
-    
-    // Add double-click handler for SVG background to reset zoom
-    document.getElementById('mindmap-svg').addEventListener('dblclick', (event) => {
-        if (event.target.id === 'mindmap-svg') {
-            resetZoom();
-        }
-    });
+    new ObsidianMindmap();
 });
 </script>
 {% endblock %}

@@ -13,55 +13,55 @@
 </div>
 {% else %}
 <div class="mb-12">
-    <h1 class="text-4xl font-bold text-gray-900 mb-4 tracking-tight et-book">
+    <h1 class="text-4xl font-bold text-gray-100 mb-4 tracking-tight font-serif page-title">
         {{ title }}
     </h1>
     {% if current_path and current_path != '' %}
-        <p class="text-lg text-gray-600 font-serif italic et-book">{{ current_path }}</p>
+        <p class="text-xl text-gray-400 font-serif italic et-book tracking-wide">{{ current_path }}</p>
     {% endif %}
 </div>
 {% endif %}
 
 {% if items %}
 <!-- Directory Listing -->
-<div class="space-y-1 mb-12 mt-8">
+<div class="space-y-2 mb-12 mt-8">
     {% for item in items %}
-    <div class="group flex items-center p-4 rounded-lg hover:bg-gray-50 transition-all duration-200 border border-transparent hover:border-gray-200 hover:border-primary-200">
+    <div class="group flex items-center p-4 rounded-lg hover:bg-gray-800/70 transition-all duration-300 border border-transparent hover:border-gray-700 hover:border-primary-700/50 backdrop-blur-sm">
         <!-- Item Icon -->
-        <div class="flex-shrink-0 w-8 text-center text-xl mr-4">
+        <div class="flex-shrink-0 w-10 text-center text-xl mr-4">
             {% if item.is_dir %}
-                <span class="text-primary-600">📁</span>
+                <span class="text-primary-400">📁</span>
             {% elif item.is_markdown %}
-                <span class="text-blue-600">📝</span>
+                <span class="text-blue-400">📝</span>
             {% elif item.is_image %}
-                <span class="text-green-600">🖼️</span>
+                <span class="text-green-400">🖼️</span>
             {% else %}
-                <span class="text-gray-500">📄</span>
+                <span class="text-gray-400">📄</span>
             {% endif %}
         </div>
         
         <!-- Item Content -->
         <div class="flex-grow flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
                     <a href="{{ item.url_path }}" 
-                       class="text-lg font-medium {% if item.is_dir %}text-primary-800{% else %}text-gray-900 et-book{% endif %} hover:text-primary-700 transition-colors duration-200 group-hover:text-primary-700">
+                       class="text-lg font-medium {% if item.is_dir %}text-primary-300{% else %}text-gray-200 et-book{% endif %} hover:text-primary-400 transition-colors duration-200 group-hover:text-primary-300 tracking-wide">
                         {{ item.display_name }}{% if item.is_dir %}/{% endif %}
                     </a>
             
             <!-- Item Meta -->
-            <div class="flex items-center gap-4 text-sm text-gray-500">
+            <div class="flex items-center gap-4 text-sm text-gray-400">
                 <span class="font-mono">
                     {{ item.modified.strftime('%b %d, %Y') }}
                 </span>
                 {% if item.is_dir %}
-                <span class="px-2 py-1 bg-primary-100 text-primary-800 rounded-full text-xs font-medium uppercase tracking-wide">
+                <span class="px-2 py-1 bg-primary-900/60 text-primary-300 rounded-full text-xs font-medium uppercase tracking-wide border border-primary-700/30">
                     folder
                 </span>
                 {% elif item.is_image %}
-                <span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium uppercase tracking-wide">
+                <span class="px-2 py-1 bg-green-900/60 text-green-300 rounded-full text-xs font-medium uppercase tracking-wide border border-green-700/30">
                     image
                 </span>
                 {% elif not item.is_markdown %}
-                <span class="px-2 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-medium uppercase tracking-wide">
+                <span class="px-2 py-1 bg-gray-800/60 text-gray-300 rounded-full text-xs font-medium uppercase tracking-wide border border-gray-700/30">
                     {{ item.file_type.replace('.', '') or 'file' }}
                 </span>
                 {% endif %}
@@ -72,9 +72,9 @@
 </div>
 {% else %}
 <!-- Empty Directory -->
-<div class="text-center py-16">
+<div class="text-center py-16 bg-gray-800/20 rounded-lg backdrop-blur-sm">
     <div class="text-6xl mb-6 opacity-40">📂</div>
-    <p class="text-lg text-gray-600 font-serif italic et-book">
+    <p class="text-xl text-gray-400 font-serif italic et-book tracking-wide">
         This directory doesn't contain any files or folders yet.
     </p>
 </div>
@@ -82,7 +82,7 @@
 
 <!-- Long content displayed at the bottom -->
 {% if index_content and content_position == 'bottom' %}
-<div class="directory-content-bottom">
+<div class="directory-content-bottom bg-gray-800/30 backdrop-blur-sm border border-gray-700/30">
     <h2 class="directory-content-title">About This Directory</h2>
     <article class="tufte">
         <section class="tufte-content">
@@ -120,24 +120,24 @@ document.addEventListener('DOMContentLoaded', function() {
             const parent = item.closest('.group');
             if (i === index) {
                 item.focus();
-                parent.classList.add('bg-gray-50', 'border-gray-200');
+                parent.classList.add('bg-gray-800/70', 'border-primary-700/50');
             } else {
-                parent.classList.remove('bg-gray-50', 'border-gray-200');
+                parent.classList.remove('bg-gray-800/70', 'border-primary-700/50');
             }
         });
     }
 
-    // Add subtle animation on page load
+    // Add elegant animation on page load
     const directoryItems = document.querySelectorAll('.group');
     directoryItems.forEach((item, index) => {
         item.style.opacity = '0';
-        item.style.transform = 'translateY(20px)';
+        item.style.transform = 'translateY(20px) scale(0.98)';
         
         setTimeout(() => {
-            item.style.transition = 'all 0.4s ease';
+            item.style.transition = 'all 0.6s cubic-bezier(0.16, 1, 0.3, 1)';
             item.style.opacity = '1';
-            item.style.transform = 'translateY(0)';
-        }, index * 50);
+            item.style.transform = 'translateY(0) scale(1)';
+        }, index * 60);
     });
 
     // Add file type icons based on extension
