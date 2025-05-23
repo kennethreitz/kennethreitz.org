@@ -158,22 +158,6 @@
 
     <script src="/static/tufte-converter.js"></script>
     
-
-            
-            // Initialize search with URL parameters if any
-            const urlParams = new URLSearchParams(window.location.search);
-            const searchParam = urlParams.get('search');
-            
-            if (searchParam && siteSearch) {
-                siteSearch.value = searchParam;
-            }
-            
-            if (searchParam && mobileSiteSearch) {
-                mobileSiteSearch.value = searchParam;
-            }
-        });
-    </script>
-    
     {% block extra_scripts %}{% endblock %}
 </body>
 </html>
