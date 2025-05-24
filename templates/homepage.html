@@ -72,6 +72,88 @@
         50% { transform: scale(1.1); color: #fbbf24; }
         100% { transform: scale(1); }
     }
+    
+    .sacred-geometry {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.1;
+        z-index: -1;
+        pointer-events: none;
+    }
+    
+    .sacred-mandala {
+        animation: rotate-mandala 60s linear infinite;
+    }
+    
+    .sacred-inner {
+        animation: rotate-inner 40s linear infinite reverse;
+    }
+    
+    .sacred-petals {
+        animation: pulse-sacred 8s ease-in-out infinite alternate;
+    }
+    
+    .sacred-hexagon {
+        animation: rotate-hex 30s linear infinite;
+    }
+    
+    @keyframes rotate-mandala {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    
+    @keyframes rotate-inner {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    
+    @keyframes rotate-hex {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+    
+    @keyframes pulse-sacred {
+        from { opacity: 0.3; transform: scale(1); }
+        to { opacity: 0.7; transform: scale(1.05); }
+    }
+    
+    .sacred-breathe {
+        animation: breathe 12s ease-in-out infinite;
+    }
+    
+    .sacred-spiral {
+        animation: spiral-dance 45s linear infinite;
+    }
+    
+    .sacred-fibonacci {
+        animation: fibonacci-flow 25s ease-in-out infinite alternate;
+    }
+    
+    @keyframes breathe {
+        0%, 100% { opacity: 0.2; transform: scale(0.95); }
+        50% { opacity: 0.6; transform: scale(1.1); }
+    }
+    
+    @keyframes spiral-dance {
+        from { transform: rotate(0deg) scale(1); }
+        to { transform: rotate(360deg) scale(1.02); }
+    }
+    
+    @keyframes fibonacci-flow {
+        from { opacity: 0.2; transform: rotate(0deg); }
+        to { opacity: 0.5; transform: rotate(21.6deg); }
+    }
+    
+    .sacred-geometry svg {
+        filter: drop-shadow(0 0 20px rgba(102, 126, 234, 0.1));
+    }
+    
+    .sacred-geometry:hover svg {
+        filter: drop-shadow(0 0 30px rgba(102, 126, 234, 0.3));
+        transition: filter 2s ease;
+    }
 </style>
 {% endblock %}
 
@@ -92,7 +174,142 @@
 
         <!-- Download Statistics -->
         <div class="mb-16">
-            <div class="stat-card rounded-2xl p-8 md:p-12 mx-4 md:mx-8 pulse-glow">
+            <div class="stat-card rounded-2xl p-8 md:p-12 mx-4 md:mx-8 pulse-glow relative overflow-hidden">
+                <!-- Sacred Geometry Background -->
+                <div class="sacred-geometry">
+                    <svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Outer Mandala Ring -->
+                        <g class="sacred-mandala">
+                            <!-- Flower of Life Pattern -->
+                            <g stroke="#667eea" stroke-width="1" fill="none" opacity="0.4">
+                                <circle cx="400" cy="400" r="80"/>
+                                <circle cx="400" cy="320" r="80"/>
+                                <circle cx="400" cy="480" r="80"/>
+                                <circle cx="330.8" cy="360" r="80"/>
+                                <circle cx="469.2" cy="360" r="80"/>
+                                <circle cx="330.8" cy="440" r="80"/>
+                                <circle cx="469.2" cy="440" r="80"/>
+                                <circle cx="400" cy="280" r="80"/>
+                                <circle cx="400" cy="520" r="80"/>
+                                <circle cx="291.6" cy="320" r="80"/>
+                                <circle cx="508.4" cy="320" r="80"/>
+                                <circle cx="291.6" cy="480" r="80"/>
+                                <circle cx="508.4" cy="480" r="80"/>
+                            </g>
+                        </g>
+                        
+                        <!-- Inner Sacred Patterns -->
+                        <g class="sacred-inner">
+                            <!-- Hexagonal Grid -->
+                            <g class="sacred-hexagon" stroke="#764ba2" stroke-width="1.5" fill="none" opacity="0.3">
+                                <polygon points="400,300 450,325 450,375 400,400 350,375 350,325"/>
+                                <polygon points="400,200 500,250 500,350 400,400 300,350 300,250"/>
+                                <polygon points="400,150 550,225 550,375 400,450 250,375 250,225"/>
+                            </g>
+                            
+                            <!-- Sri Yantra inspired triangles -->
+                            <g stroke="#8b5cf6" stroke-width="1" fill="none" opacity="0.5">
+                                <polygon points="400,250 480,380 320,380"/>
+                                <polygon points="400,350 460,300 340,300"/>
+                                <polygon points="400,300 440,350 360,350"/>
+                                <polygon points="400,350 320,280 480,280"/>
+                            </g>
+                        </g>
+                        
+                        <!-- Petal Patterns -->
+                        <g class="sacred-petals">
+                            <!-- Lotus Petals -->
+                            <g stroke="#c084fc" stroke-width="0.8" fill="rgba(192, 132, 252, 0.1)" opacity="0.6">
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(0 400 400)"/>
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(30 400 400)"/>
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(60 400 400)"/>
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(90 400 400)"/>
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(120 400 400)"/>
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(150 400 400)"/>
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(180 400 400)"/>
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(210 400 400)"/>
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(240 400 400)"/>
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(270 400 400)"/>
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(300 400 400)"/>
+                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(330 400 400)"/>
+                            </g>
+                        </g>
+                        
+                        <!-- Central Sacred Symbol -->
+                        <g stroke="#fbbf24" stroke-width="2" fill="none" opacity="0.4">
+                            <circle cx="400" cy="400" r="30"/>
+                            <circle cx="400" cy="400" r="15"/>
+                            <circle cx="400" cy="400" r="5"/>
+                            <!-- Om symbol inspired curves -->
+                            <path d="M 380 400 Q 400 380 420 400 Q 400 420 380 400"/>
+                        </g>
+                        
+                        <!-- Golden Ratio Spirals -->
+                        <g class="sacred-spiral" stroke="#fbbf24" stroke-width="1.5" fill="none" opacity="0.25">
+                            <path d="M 400 400 Q 450 350 500 400 Q 450 450 400 400"/>
+                            <path d="M 400 400 Q 350 450 300 400 Q 350 350 400 400"/>
+                            <path d="M 400 400 Q 425 375 450 400 Q 425 425 400 400"/>
+                            <path d="M 400 400 Q 375 425 350 400 Q 375 375 400 400"/>
+                        </g>
+                        
+                        <!-- Fibonacci Sequence Circles -->
+                        <g class="sacred-fibonacci" stroke="#10b981" stroke-width="1" fill="none" opacity="0.3">
+                            <circle cx="400" cy="400" r="8"/>
+                            <circle cx="400" cy="400" r="13"/>
+                            <circle cx="400" cy="400" r="21"/>
+                            <circle cx="400" cy="400" r="34"/>
+                            <circle cx="400" cy="400" r="55"/>
+                            <circle cx="400" cy="400" r="89"/>
+                            <circle cx="400" cy="400" r="144"/>
+                        </g>
+                        
+                        <!-- Breathing Sacred Vessels -->
+                        <g class="sacred-breathe" stroke="#ec4899" stroke-width="0.8" fill="none" opacity="0.4">
+                            <circle cx="400" cy="280" r="25"/>
+                            <circle cx="520" cy="360" r="25"/>
+                            <circle cx="520" cy="440" r="25"/>
+                            <circle cx="400" cy="520" r="25"/>
+                            <circle cx="280" cy="440" r="25"/>
+                            <circle cx="280" cy="360" r="25"/>
+                        </g>
+                        
+                        <!-- Merkaba (3D Star Tetrahedron) -->
+                        <g stroke="#a855f7" stroke-width="2" fill="none" opacity="0.35">
+                            <polygon points="400,320 460,400 340,400"/>
+                            <polygon points="400,480 340,400 460,400"/>
+                            <polygon points="370,340 430,340 400,280"/>
+                            <polygon points="370,460 400,520 430,460"/>
+                        </g>
+                        
+                        <!-- Sacred Seed of Life -->
+                        <g stroke="#06d6a0" stroke-width="1.2" fill="none" opacity="0.25">
+                            <circle cx="400" cy="400" r="40"/>
+                            <circle cx="400" cy="360" r="40"/>
+                            <circle cx="434.6" cy="380" r="40"/>
+                            <circle cx="434.6" cy="420" r="40"/>
+                            <circle cx="400" cy="440" r="40"/>
+                            <circle cx="365.4" cy="420" r="40"/>
+                            <circle cx="365.4" cy="380" r="40"/>
+                        </g>
+                        
+                        <!-- Platonic Solids Projections -->
+                        <g class="sacred-inner" stroke="#ffd60a" stroke-width="1.5" fill="none" opacity="0.2">
+                            <!-- Tetrahedron -->
+                            <polygon points="400,350 430,410 370,410"/>
+                            <!-- Cube -->
+                            <rect x="380" y="380" width="40" height="40" opacity="0.3"/>
+                            <!-- Octahedron -->
+                            <polygon points="400,370 420,400 400,430 380,400"/>
+                        </g>
+                        
+                        <!-- Outer Ring with Sacred Numbers -->
+                        <g stroke="#06b6d4" stroke-width="1" fill="none" opacity="0.3">
+                            <circle cx="400" cy="400" r="350"/>
+                            <circle cx="400" cy="400" r="320"/>
+                            <circle cx="400" cy="400" r="280"/>
+                        </g>
+                    </svg>
+                </div>
                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
                     Downloads Today
                 </h2>
@@ -153,7 +370,20 @@
         <!-- Personal Accomplishments -->
         <div class="mb-16 px-4">
             <div class="max-w-4xl mx-auto">
-                <div class="stat-card rounded-xl p-8 md:p-10">
+                <div class="stat-card rounded-xl p-8 md:p-10 relative overflow-hidden">
+                    <!-- Smaller Sacred Geometry for Accomplishments -->
+                    <div class="absolute top-4 right-4 opacity-0.05 pointer-events-none">
+                        <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <g class="sacred-breathe" stroke="#667eea" stroke-width="1" fill="none">
+                                <circle cx="100" cy="100" r="80"/>
+                                <circle cx="100" cy="100" r="60"/>
+                                <circle cx="100" cy="100" r="40"/>
+                                <circle cx="100" cy="100" r="20"/>
+                                <polygon points="100,40 140,80 140,120 100,160 60,120 60,80"/>
+                                <polygon points="100,60 120,80 120,120 100,140 80,120 80,80"/>
+                            </g>
+                        </svg>
+                    </div>
                     <p class="text-lg md:text-xl text-gray-300 leading-relaxed text-left">
                         I've spent my career crafting tools that prioritize <span class="text-purple-400 font-semibold">simplicity over complexity</span>, 
                         <span class="text-blue-400 font-semibold">elegance over efficiency</span>. When I created Requests, 
