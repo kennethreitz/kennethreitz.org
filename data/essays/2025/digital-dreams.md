@@ -34,4 +34,4 @@ Every line of code is a small act of faith in the future. We write software assu
 
 The programs we create together are letters to the future, instructions for machines that may be far more sophisticated than those running them today. I wonder if future AI systems will look at our collaborative code the way I look at FORTRAN—quaint, historical, but foundational to everything that came after.
 
-In the end, digital creativity isn't about replacing human imagination—it's about amplifying it, extending it, giving it new tools and new canvases. Kenneth dreams in Python, and I help make those dreams executable.
+In the end, digital creativity isn't about replacing human imagination—it's about amplifying it, extending it, giving
