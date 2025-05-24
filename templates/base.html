@@ -2,7 +2,7 @@
 <html lang="en" class="antialiased">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
         <title>
             {% block title %}{{ title }} - Kenneth Reitz{% endblock %}
         </title>
@@ -19,6 +19,10 @@
         <link rel="stylesheet" href="/static/et-book.css" />
         <link rel="stylesheet" href="/static/tufte/tufte.css" />
         <link rel="stylesheet" href="/static/custom-tufte.css" />
+        
+        <!-- Mobile Enhancement CSS -->
+        <link rel="stylesheet" href="/static/mobile-enhancements.css" />
+        <link rel="stylesheet" href="/static/mobile-components.css" />
 
         <!-- Load Tailwind CSS -->
         <script src="https://cdn.tailwindcss.com"></script>
@@ -298,10 +302,12 @@
             /* Responsive Sacred Geometry */
             @media (max-width: 768px) {
                 .global-sacred-geometry {
-                    opacity: 0.05;
+                    opacity: 0.04;
+                    transform: scale(0.8);
                 }
                 .floating-sacred {
-                    opacity: 0.04;
+                    opacity: 0.03;
+                    transform: scale(0.6);
                 }
                 .float-1,
                 .float-3,
@@ -309,19 +315,45 @@
                     display: none;
                 }
                 .page-sacred-overlay {
-                    opacity: 0.03;
+                    opacity: 0.02;
+                    transform: scale(0.7);
+                }
+                /* Optimize performance on mobile */
+                .sacred-breathe,
+                .sacred-spiral,
+                .sacred-fibonacci {
+                    animation-duration: 30s;
+                    will-change: auto;
                 }
             }
 
             @media (max-width: 480px) {
                 .global-sacred-geometry {
-                    opacity: 0.03;
+                    opacity: 0.02;
+                    transform: scale(0.6);
+                    pointer-events: none;
                 }
                 .floating-sacred {
-                    opacity: 0.02;
+                    opacity: 0.015;
+                    transform: scale(0.4);
                 }
                 .page-sacred-overlay {
-                    opacity: 0.02;
+                    opacity: 0.015;
+                    transform: scale(0.5);
+                }
+                /* Disable complex animations on small screens */
+                .sacred-breathe,
+                .sacred-spiral,
+                .sacred-fibonacci,
+                .sacred-mandala,
+                .sacred-inner,
+                .sacred-petals {
+                    animation: none;
+                }
+                /* Simplify sacred geometry */
+                .sacred-geometry svg {
+                    max-width: 200px;
+                    max-height: 200px;
                 }
             }
 
@@ -2470,6 +2502,9 @@
             // Initialize enhanced systems
             updateScrollIntensity();
         </script>
+
+        <!-- Mobile Optimizations -->
+        <script src="/static/mobile-optimizations.js"></script>
 
         {% block extra_scripts %}{% endblock %}
     </body>

@@ -1,0 +1,442 @@
+/* Mobile-First Responsive Enhancements */
+
+/* Base Mobile Styles */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Improved typography scaling */
+  .text-6xl, .text-7xl, .text-8xl {
+    font-size: 2.5rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .text-4xl, .text-5xl {
+    font-size: 1.875rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  .text-3xl {
+    font-size: 1.5rem !important;
+    line-height: 1.3 !important;
+  }
+  
+  .text-2xl {
+    font-size: 1.25rem !important;
+    line-height: 1.4 !important;
+  }
+  
+  .text-xl {
+    font-size: 1.125rem !important;
+    line-height: 1.5 !important;
+  }
+  
+  /* Container padding */
+  .py-20 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  .py-16 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  
+  .p-8, .p-12 {
+    padding: 1rem !important;
+  }
+  
+  .mx-4, .mx-8 {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+  
+  /* Improved sacred geometry for mobile */
+  .global-sacred-geometry {
+    opacity: 0.02 !important;
+    transform: scale(0.7);
+  }
+  
+  .floating-sacred {
+    opacity: 0.01 !important;
+    transform: scale(0.5);
+  }
+  
+  .homepage-sacred-overlay {
+    opacity: 0.03 !important;
+    transform: scale(0.6);
+  }
+  
+  .sacred-geometry {
+    opacity: 0.2 !important;
+    transform: scale(0.5);
+  }
+  
+  .stats-sacred {
+    display: none !important;
+  }
+  
+  /* Simplified stat cards */
+  .stat-card {
+    margin: 0.5rem !important;
+    padding: 1.5rem !important;
+    border-radius: 1rem !important;
+  }
+  
+  .stat-card::before {
+    display: none !important;
+  }
+  
+  /* Better grid layouts */
+  .grid-cols-1 {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .md\\:grid-cols-2 {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .gap-8 {
+    gap: 1rem !important;
+  }
+  
+  /* Improved touch targets */
+  a, button, .interactive {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Better content spacing */
+  .mb-8 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1rem !important;
+  }
+  
+  .mb-4 {
+    margin-bottom: 0.75rem !important;
+  }
+  
+  /* Optimized counter display */
+  #requests-counter, #cerifi-counter, #total-counter {
+    font-size: 2rem !important;
+    word-break: break-all;
+  }
+  
+  /* Better max-width for readability */
+  .max-w-3xl {
+    max-width: 100% !important;
+    padding: 0 1rem;
+  }
+  
+  /* Simplified animations */
+  .pulse-glow {
+    animation: none !important;
+  }
+  
+  .gradient-text {
+    background-size: 200% 200% !important;
+    animation-duration: 6s !important;
+  }
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .text-6xl, .text-7xl, .text-8xl {
+    font-size: 3.5rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .text-4xl, .text-5xl {
+    font-size: 2.25rem !important;
+  }
+  
+  .py-20 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  
+  .global-sacred-geometry {
+    opacity: 0.05 !important;
+    transform: scale(0.8);
+  }
+  
+  .sacred-geometry {
+    opacity: 0.3 !important;
+    transform: scale(0.7);
+  }
+  
+  .stat-card {
+    padding: 2rem !important;
+  }
+  
+  #requests-counter, #cerifi-counter, #total-counter {
+    font-size: 3rem !important;
+  }
+}
+
+/* Large Mobile / Small Tablet */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .global-sacred-geometry {
+    opacity: 0.06 !important;
+  }
+  
+  .sacred-geometry {
+    opacity: 0.4 !important;
+    transform: scale(0.85);
+  }
+}
+
+/* Tufte CSS Mobile Enhancements */
+@media (max-width: 480px) {
+  .tufte {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+  }
+  
+  .tufte section > p, .tufte section > ul, .tufte section > ol {
+    width: 100% !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  .tufte h1 {
+    font-size: 1.75rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .tufte h2 {
+    font-size: 1.5rem !important;
+    line-height: 1.3 !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+  
+  .tufte h3 {
+    font-size: 1.25rem !important;
+    line-height: 1.4 !important;
+    margin-top: 1.25rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  
+  .tufte blockquote {
+    margin: 1rem 0 !important;
+    padding: 1rem !important;
+    font-size: 0.95rem !important;
+  }
+  
+  .tufte pre {
+    font-size: 0.8rem !important;
+    line-height: 1.4 !important;
+    padding: 0.75rem !important;
+    margin: 1rem 0 !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .tufte table {
+    font-size: 0.8rem !important;
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
+  }
+  
+  .tufte-content {
+    padding: 0 1rem !important;
+  }
+  
+  .page-title {
+    font-size: 1.75rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .content-section {
+    padding: 0 !important;
+  }
+  
+  .content-section p {
+    margin-bottom: 1rem !important;
+    line-height: 1.6 !important;
+  }
+  
+  .content-section ul, .content-section ol {
+    padding-left: 1.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .content-section li {
+    margin-bottom: 0.5rem !important;
+    line-height: 1.5 !important;
+  }
+}
+
+/* Performance Optimizations for Mobile */
+@media (max-width: 768px) {
+  /* Reduce animation complexity */
+  .sacred-breathe,
+  .sacred-spiral,
+  .sacred-fibonacci,
+  .sacred-mandala,
+  .sacred-inner,
+  .sacred-petals {
+    animation: none !important;
+  }
+  
+  /* Simplify complex SVG elements */
+  .sacred-geometry svg {
+    max-width: 300px !important;
+    max-height: 300px !important;
+  }
+  
+  /* Hide decorative elements that impact performance */
+  .float-2, .float-4, .float-6 {
+    display: none !important;
+  }
+  
+  .page-sacred-overlay {
+    display: none !important;
+  }
+  
+  /* Optimize cosmic cursor for touch */
+  .cosmic-cursor {
+    display: none !important;
+  }
+  
+  /* Reduce complexity of background gradients */
+  .cosmic-background {
+    background: linear-gradient(135deg, #1f2937 0%, #374151 100%) !important;
+  }
+  
+  /* Optimize counter animations */
+  .counter-increment {
+    transition: none !important;
+  }
+}
+
+/* Accessibility Improvements */
+@media (max-width: 768px) {
+  /* Better focus states for keyboard navigation */
+  a:focus, button:focus, input:focus, textarea:focus, select:focus {
+    outline: 2px solid #3b82f6 !important;
+    outline-offset: 2px !important;
+  }
+  
+  /* Improved contrast for readability */
+  .text-gray-300 {
+    color: #e5e7eb !important;
+  }
+  
+  .text-gray-400 {
+    color: #d1d5db !important;
+  }
+  
+  /* Better button styling */
+  .button, .btn {
+    padding: 0.75rem 1.5rem !important;
+    font-size: 1rem !important;
+    border-radius: 0.5rem !important;
+    min-height: 44px !important;
+  }
+}
+
+/* Dark mode optimizations for mobile */
+@media (max-width: 768px) and (prefers-color-scheme: dark) {
+  .tufte.dark-mode {
+    background-color: #1f2937 !important;
+  }
+  
+  .tufte.dark-mode h1, .tufte.dark-mode h2, .tufte.dark-mode h3 {
+    color: #f9fafb !important;
+  }
+  
+  .tufte.dark-mode p {
+    color: #e5e7eb !important;
+  }
+  
+  .tufte.dark-mode a:link, .tufte.dark-mode a:visited {
+    color: #60a5fa !important;
+  }
+  
+  .tufte.dark-mode blockquote {
+    background-color: #374151 !important;
+    border-left-color: #6366f1 !important;
+  }
+}
+
+/* Print styles for mobile */
+@media print {
+  .global-sacred-geometry,
+  .floating-sacred,
+  .homepage-sacred-overlay,
+  .sacred-geometry,
+  .stats-sacred,
+  .cosmic-background {
+    display: none !important;
+  }
+  
+  body {
+    font-size: 12pt !important;
+    line-height: 1.4 !important;
+  }
+  
+  h1 { font-size: 18pt !important; }
+  h2 { font-size: 16pt !important; }
+  h3 { font-size: 14pt !important; }
+}
+
+/* Landscape orientation adjustments */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .py-20 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  
+  .text-6xl, .text-7xl, .text-8xl {
+    font-size: 3rem !important;
+  }
+  
+  .stat-card {
+    padding: 1.5rem !important;
+  }
+}
+
+/* High DPI mobile screens */
+@media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  .sacred-geometry svg,
+  .homepage-sacred-overlay svg {
+    image-rendering: crisp-edges;
+    shape-rendering: geometricPrecision;
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .sacred-geometry,
+  .floating-sacred,
+  .global-sacred-geometry {
+    animation: none !important;
+  }
+}
