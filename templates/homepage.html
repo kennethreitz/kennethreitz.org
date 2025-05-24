@@ -78,9 +78,15 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        opacity: 0.1;
+        opacity: 0.25;
         z-index: -1;
         pointer-events: none;
+        transition: opacity 2s ease, transform 3s ease;
+    }
+    
+    .sacred-geometry:hover {
+        opacity: 0.4;
+        transform: translate(-50%, -50%) scale(1.05);
     }
     
     .sacred-mandala {
@@ -115,8 +121,8 @@
     }
     
     @keyframes pulse-sacred {
-        from { opacity: 0.3; transform: scale(1); }
-        to { opacity: 0.7; transform: scale(1.05); }
+        from { opacity: 0.5; transform: scale(1); }
+        to { opacity: 0.9; transform: scale(1.08); }
     }
     
     .sacred-breathe {
@@ -132,8 +138,8 @@
     }
     
     @keyframes breathe {
-        0%, 100% { opacity: 0.2; transform: scale(0.95); }
-        50% { opacity: 0.6; transform: scale(1.1); }
+        0%, 100% { opacity: 0.4; transform: scale(0.98); }
+        50% { opacity: 0.8; transform: scale(1.12); }
     }
     
     @keyframes spiral-dance {
@@ -142,22 +148,106 @@
     }
     
     @keyframes fibonacci-flow {
-        from { opacity: 0.2; transform: rotate(0deg); }
-        to { opacity: 0.5; transform: rotate(21.6deg); }
+        from { opacity: 0.4; transform: rotate(0deg); }
+        to { opacity: 0.7; transform: rotate(21.6deg); }
+    }
+    
+    .homepage-sacred-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        z-index: -2;
+        opacity: 0.15;
+    }
+    
+    .stats-sacred {
+        position: absolute;
+        pointer-events: none;
+        z-index: -1;
+        opacity: 0.08;
+        animation: stats-pulse 20s ease-in-out infinite alternate;
+    }
+    
+    @keyframes stats-pulse {
+        0%, 100% { opacity: 0.06; transform: scale(0.95) rotate(-2deg); }
+        25% { opacity: 0.12; transform: scale(1.03) rotate(1deg); }
+        50% { opacity: 0.08; transform: scale(1) rotate(0deg); }
+        75% { opacity: 0.10; transform: scale(1.02) rotate(-1deg); }
     }
     
     .sacred-geometry svg {
-        filter: drop-shadow(0 0 20px rgba(102, 126, 234, 0.1));
+        filter: drop-shadow(0 0 25px rgba(102, 126, 234, 0.2));
     }
     
     .sacred-geometry:hover svg {
-        filter: drop-shadow(0 0 30px rgba(102, 126, 234, 0.3));
+        filter: drop-shadow(0 0 40px rgba(102, 126, 234, 0.5));
         transition: filter 2s ease;
+    }
+    
+    .cosmic-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        z-index: -15;
+        opacity: 0.03;
+        background: radial-gradient(circle at 30% 20%, rgba(102, 126, 234, 0.1) 0%, transparent 50%),
+                    radial-gradient(circle at 70% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+                    radial-gradient(circle at 20% 70%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
+        animation: cosmic-drift 120s linear infinite;
+    }
+    
+    @keyframes cosmic-drift {
+        0% { transform: rotate(0deg) scale(1); }
+        33% { transform: rotate(120deg) scale(1.02); }
+        66% { transform: rotate(240deg) scale(0.98); }
+        100% { transform: rotate(360deg) scale(1); }
     }
 </style>
 {% endblock %}
 
 {% block content %}
+<!-- Cosmic Background -->
+<div class="cosmic-background"></div>
+
+<!-- Homepage Sacred Overlay -->
+<div class="homepage-sacred-overlay">
+    <svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+        <!-- Large Sacred Mandalas -->
+        <g stroke="#667eea" stroke-width="0.8" fill="none" opacity="0.4">
+            <circle cx="300" cy="200" r="100"/>
+            <circle cx="300" cy="120" r="100"/>
+            <circle cx="300" cy="280" r="100"/>
+            <circle cx="213" cy="160" r="100"/>
+            <circle cx="387" cy="160" r="100"/>
+            <circle cx="213" cy="240" r="100"/>
+            <circle cx="387" cy="240" r="100"/>
+        </g>
+        
+        <g stroke="#8b5cf6" stroke-width="0.6" fill="none" opacity="0.3">
+            <circle cx="1620" cy="800" r="80"/>
+            <circle cx="1620" cy="740" r="80"/>
+            <circle cx="1620" cy="860" r="80"/>
+            <circle cx="1550" cy="770" r="80"/>
+            <circle cx="1690" cy="770" r="80"/>
+            <circle cx="1550" cy="830" r="80"/>
+            <circle cx="1690" cy="830" r="80"/>
+        </g>
+        
+        <!-- Sacred geometry network -->
+        <g stroke="#06d6a0" stroke-width="0.5" fill="none" opacity="0.4">
+            <polygon points="960,150 1060,200 1060,300 960,350 860,300 860,200"/>
+            <polygon points="480,600 580,650 580,750 480,800 380,750 380,650"/>
+            <polygon points="1440,500 1540,550 1540,650 1440,700 1340,650 1340,550"/>
+        </g>
+    </svg>
+</div>
+
 <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
     <!-- Hero Section -->
     <section class="text-center py-20">
@@ -175,6 +265,24 @@
         <!-- Download Statistics -->
         <div class="mb-16">
             <div class="stat-card rounded-2xl p-8 md:p-12 mx-4 md:mx-8 pulse-glow relative overflow-hidden">
+                <!-- Stats Sacred Geometry -->
+                <div class="stats-sacred" style="top: 20px; left: 20px;">
+                    <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                        <g stroke="#667eea" stroke-width="1" fill="none">
+                            <circle cx="30" cy="30" r="25"/>
+                            <polygon points="30,8 52,30 30,52 8,30"/>
+                            <circle cx="30" cy="30" r="12"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="stats-sacred" style="bottom: 20px; right: 20px;">
+                    <svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <g stroke="#8b5cf6" stroke-width="1" fill="none">
+                            <polygon points="25,5 45,20 45,35 25,45 5,35 5,20"/>
+                            <polygon points="25,15 35,25 25,35 15,25"/>
+                        </g>
+                    </svg>
+                </div>
                 <!-- Sacred Geometry Background -->
                 <div class="sacred-geometry">
                     <svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">

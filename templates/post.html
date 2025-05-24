@@ -4,6 +4,44 @@
 <style>
     /* Custom Tufte-inspired styles with Kenneth's brand colors */
     
+    /* Post Sacred Geometry Styles */
+    .post-sacred-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        z-index: -5;
+        opacity: 0.04;
+    }
+    
+    .post-sacred-margin {
+        position: absolute;
+        pointer-events: none;
+        z-index: -2;
+        opacity: 0.06;
+        animation: margin-breathe 30s ease-in-out infinite alternate;
+    }
+    
+    @keyframes margin-breathe {
+        0%, 100% { opacity: 0.04; transform: scale(0.98) rotate(-1deg); }
+        50% { opacity: 0.08; transform: scale(1.02) rotate(1deg); }
+    }
+    
+    .reading-sacred {
+        position: fixed;
+        pointer-events: none;
+        z-index: -3;
+        opacity: 0.03;
+        animation: reading-flow 45s linear infinite;
+    }
+    
+    @keyframes reading-flow {
+        0% { transform: translateY(100vh) rotate(0deg); }
+        100% { transform: translateY(-100px) rotate(360deg); }
+    }
+    
     /* Override some Tufte defaults with Kenneth's branding */
     .tufte-content {
         margin: 0 auto;
@@ -251,6 +289,68 @@
 {% endblock %}
 
 {% block content %}
+<!-- Post Sacred Geometry Overlay -->
+<div class="post-sacred-overlay">
+    <svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+        <!-- Reading Flow Patterns -->
+        <g stroke="#667eea" stroke-width="0.6" fill="none" opacity="0.4">
+            <!-- Margin Sacred Geometry -->
+            <circle cx="100" cy="200" r="30"/>
+            <circle cx="100" cy="400" r="25"/>
+            <circle cx="100" cy="600" r="35"/>
+            <circle cx="100" cy="800" r="28"/>
+            
+            <circle cx="1820" cy="250" r="32"/>
+            <circle cx="1820" cy="450" r="27"/>
+            <circle cx="1820" cy="650" r="30"/>
+            <circle cx="1820" cy="850" r="33"/>
+        </g>
+        
+        <!-- Sacred Text Flow Lines -->
+        <g stroke="#8b5cf6" stroke-width="0.4" fill="none" opacity="0.3">
+            <path d="M 50 100 Q 200 150 350 100 Q 500 50 650 100"/>
+            <path d="M 50 300 Q 200 350 350 300 Q 500 250 650 300"/>
+            <path d="M 50 500 Q 200 550 350 500 Q 500 450 650 500"/>
+            <path d="M 50 700 Q 200 750 350 700 Q 500 650 650 700"/>
+        </g>
+        
+        <!-- Corner Sacred Symbols -->
+        <g stroke="#10b981" stroke-width="0.8" fill="none" opacity="0.4">
+            <polygon points="50,50 100,75 100,125 50,150 0,125 0,75"/>
+            <polygon points="1870,50 1920,75 1920,125 1870,150 1820,125 1820,75"/>
+            <polygon points="50,1030 100,1055 100,1105 50,1130 0,1105 0,1055"/>
+            <polygon points="1870,1030 1920,1055 1920,1105 1870,1130 1820,1105 1820,1055"/>
+        </g>
+    </svg>
+</div>
+
+<!-- Reading Sacred Flow Elements -->
+<div class="reading-sacred" style="left: 5%; animation-delay: 0s;">
+    <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="#764ba2" stroke-width="0.6" fill="none">
+            <circle cx="12.5" cy="12.5" r="10"/>
+            <circle cx="12.5" cy="12.5" r="5"/>
+        </g>
+    </svg>
+</div>
+
+<div class="reading-sacred" style="right: 8%; animation-delay: -15s;">
+    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="#a855f7" stroke-width="0.6" fill="none">
+            <polygon points="10,2 18,10 10,18 2,10"/>
+        </g>
+    </svg>
+</div>
+
+<div class="reading-sacred" style="left: 15%; animation-delay: -30s;">
+    <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="#06b6d4" stroke-width="0.6" fill="none">
+            <polygon points="15,3 27,15 15,27 3,15"/>
+            <circle cx="15" cy="15" r="6"/>
+        </g>
+    </svg>
+</div>
+
 <article class="post">
     <!-- Post Header -->
     <header class="mb-12 pb-8 border-b-2 border-primary-200">
@@ -284,6 +384,44 @@
 
     <!-- Post Content with Tufte Typography -->
     <div class="et-book">
+        <!-- Left Margin Sacred Geometry -->
+        <div class="post-sacred-margin" style="left: -60px; top: 100px;">
+            <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#667eea" stroke-width="0.8" fill="none">
+                    <circle cx="20" cy="20" r="15"/>
+                    <polygon points="20,8 32,20 20,32 8,20"/>
+                </g>
+            </svg>
+        </div>
+        
+        <div class="post-sacred-margin" style="right: -60px; top: 200px;">
+            <svg width="35" height="35" viewBox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#8b5cf6" stroke-width="0.8" fill="none">
+                    <polygon points="17.5,3 32,17.5 17.5,32 3,17.5"/>
+                    <circle cx="17.5" cy="17.5" r="8"/>
+                </g>
+            </svg>
+        </div>
+        
+        <div class="post-sacred-margin" style="left: -50px; top: 400px;">
+            <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#10b981" stroke-width="0.8" fill="none">
+                    <circle cx="15" cy="15" r="12"/>
+                    <circle cx="15" cy="15" r="8"/>
+                    <circle cx="15" cy="15" r="4"/>
+                </g>
+            </svg>
+        </div>
+        
+        <div class="post-sacred-margin" style="right: -55px; top: 500px;">
+            <svg width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#ec4899" stroke-width="0.8" fill="none">
+                    <polygon points="19,5 33,12 33,26 19,33 5,26 5,12"/>
+                    <polygon points="19,12 26,19 19,26 12,19"/>
+                </g>
+            </svg>
+        </div>
+        
         <div class="font-serif content-section">
             {{ content | safe }}
         </div>

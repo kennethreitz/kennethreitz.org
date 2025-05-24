@@ -95,7 +95,8 @@
                 height: 100vh;
                 pointer-events: none;
                 z-index: -10;
-                opacity: 0.03;
+                opacity: 0.08;
+                transition: opacity 2s ease;
             }
             
             .sacred-layer-1 {
@@ -149,7 +150,13 @@
                 position: fixed;
                 pointer-events: none;
                 z-index: -5;
-                opacity: 0.02;
+                opacity: 0.06;
+                transition: opacity 1s ease, transform 2s ease;
+            }
+            
+            .floating-sacred:hover {
+                opacity: 0.12;
+                transform: scale(1.2);
             }
             
             .float-1 {
@@ -189,17 +196,41 @@
             }
             
             @keyframes float-sacred {
-                0%, 100% { transform: translateY(0px) rotate(0deg) scale(1); opacity: 0.01; }
-                25% { transform: translateY(-20px) rotate(90deg) scale(1.1); opacity: 0.04; }
-                50% { transform: translateY(-10px) rotate(180deg) scale(0.9); opacity: 0.02; }
-                75% { transform: translateY(-30px) rotate(270deg) scale(1.05); opacity: 0.03; }
+                0%, 100% { transform: translateY(0px) rotate(0deg) scale(1); opacity: 0.04; }
+                25% { transform: translateY(-30px) rotate(90deg) scale(1.2); opacity: 0.08; }
+                50% { transform: translateY(-15px) rotate(180deg) scale(0.95); opacity: 0.06; }
+                75% { transform: translateY(-40px) rotate(270deg) scale(1.1); opacity: 0.07; }
             }
             
             .scroll-sacred {
                 position: absolute;
                 pointer-events: none;
-                opacity: 0.015;
+                opacity: 0.05;
                 animation: scroll-drift 60s linear infinite;
+            }
+            
+            .page-sacred-overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                pointer-events: none;
+                z-index: -8;
+                opacity: 0.04;
+            }
+            
+            .content-sacred {
+                position: absolute;
+                pointer-events: none;
+                z-index: -3;
+                opacity: 0.03;
+                animation: content-breathe 25s ease-in-out infinite alternate;
+            }
+            
+            @keyframes content-breathe {
+                0%, 100% { opacity: 0.02; transform: scale(0.98) rotate(0deg); }
+                50% { opacity: 0.06; transform: scale(1.03) rotate(2deg); }
             }
             
             @keyframes scroll-drift {
@@ -210,20 +241,26 @@
             /* Responsive Sacred Geometry */
             @media (max-width: 768px) {
                 .global-sacred-geometry {
-                    opacity: 0.02;
+                    opacity: 0.05;
                 }
                 .floating-sacred {
-                    opacity: 0.015;
+                    opacity: 0.04;
                 }
                 .float-1, .float-3, .float-5 { display: none; }
+                .page-sacred-overlay {
+                    opacity: 0.03;
+                }
             }
             
             @media (max-width: 480px) {
                 .global-sacred-geometry {
-                    opacity: 0.01;
+                    opacity: 0.03;
                 }
                 .floating-sacred {
-                    opacity: 0.01;
+                    opacity: 0.02;
+                }
+                .page-sacred-overlay {
+                    opacity: 0.02;
                 }
             }
             
@@ -239,8 +276,8 @@
             }
             
             body:hover .cosmic-cursor {
-                opacity: 0.02;
-                animation: cursor-mandala 10s linear infinite;
+                opacity: 0.06;
+                animation: cursor-mandala 8s linear infinite;
             }
             
             @keyframes cursor-mandala {
@@ -250,13 +287,110 @@
             
             /* Scroll-triggered sacred geometry */
             .scroll-triggered {
-                opacity: 0.01;
-                transition: opacity 1s ease;
+                opacity: 0.02;
+                transition: opacity 1.5s ease, transform 1.5s ease;
+                transform: scale(0.8) rotate(-5deg);
             }
             
             .scroll-triggered.visible {
-                opacity: 0.04;
+                opacity: 0.08;
+                transform: scale(1) rotate(0deg);
             }
+            
+            /* Page transition sacred geometry */
+            .page-enter {
+                animation: sacred-page-enter 2s ease-out;
+            }
+            
+            @keyframes sacred-page-enter {
+                0% { opacity: 0; transform: scale(0.95) rotate(-3deg); }
+                50% { opacity: 0.12; transform: scale(1.02) rotate(1deg); }
+                100% { opacity: 0.08; transform: scale(1) rotate(0deg); }
+            }
+            
+            /* Sacred geometry pulse on interactions */
+            .sacred-pulse {
+                animation: interaction-pulse 3s ease-out;
+            }
+            
+            @keyframes interaction-pulse {
+                0% { opacity: 0.08; transform: scale(1); }
+                30% { opacity: 0.15; transform: scale(1.05); }
+                100% { opacity: 0.08; transform: scale(1); }
+            }
+            
+            /* New Sacred Geometry Enhancements */
+            .sacred-layer-7 {
+                animation: sri-yantra-spin 240s linear infinite;
+            }
+            
+            .sacred-layer-8 {
+                animation: vesica-flow 60s ease-in-out infinite alternate;
+            }
+            
+            .sacred-particles {
+                animation: particle-drift 45s linear infinite;
+            }
+            
+            .organic-flow {
+                animation: organic-movement 80s ease-in-out infinite;
+            }
+            
+            @keyframes sri-yantra-spin {
+                from { transform: rotate(0deg) scale(1); opacity: 0.04; }
+                25% { opacity: 0.08; }
+                50% { transform: rotate(180deg) scale(1.02); opacity: 0.06; }
+                75% { opacity: 0.09; }
+                to { transform: rotate(360deg) scale(1); opacity: 0.04; }
+            }
+            
+            @keyframes vesica-flow {
+                0% { transform: translateX(0) scaleY(1); opacity: 0.05; }
+                33% { transform: translateX(20px) scaleY(1.1); opacity: 0.08; }
+                66% { transform: translateX(-10px) scaleY(0.9); opacity: 0.06; }
+                100% { transform: translateX(0) scaleY(1); opacity: 0.05; }
+            }
+            
+            @keyframes particle-drift {
+                0% { transform: translateY(100vh) translateX(0) rotate(0deg); opacity: 0; }
+                10% { opacity: 0.04; }
+                50% { transform: translateY(50vh) translateX(30px) rotate(180deg); opacity: 0.08; }
+                90% { opacity: 0.04; }
+                100% { transform: translateY(-50px) translateX(-20px) rotate(360deg); opacity: 0; }
+            }
+            
+            @keyframes organic-movement {
+                0%, 100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+                16% { transform: translate(15px, -10px) rotate(30deg) scale(1.05); }
+                32% { transform: translate(5px, 20px) rotate(-15deg) scale(0.95); }
+                48% { transform: translate(-20px, 5px) rotate(45deg) scale(1.08); }
+                64% { transform: translate(-10px, -25px) rotate(-30deg) scale(0.92); }
+                80% { transform: translate(25px, -5px) rotate(60deg) scale(1.03); }
+            }
+            
+            .interactive-particles {
+                position: fixed;
+                pointer-events: none;
+                z-index: -7;
+                opacity: 0;
+                transition: opacity 0.5s ease;
+            }
+            
+            .particles-active {
+                opacity: 0.06;
+            }
+            
+            @keyframes mouse-particle-birth {
+                0% { transform: scale(0) rotate(0deg); opacity: 0; }
+                50% { transform: scale(1.2) rotate(180deg); opacity: 0.8; }
+                100% { transform: scale(0.3) rotate(360deg); opacity: 0; }
+            }
+            
+            .scroll-intensity-1 { opacity: 0.04; }
+            .scroll-intensity-2 { opacity: 0.06; }
+            .scroll-intensity-3 { opacity: 0.08; }
+            .scroll-intensity-4 { opacity: 0.10; }
+            .scroll-intensity-5 { opacity: 0.12; }
         </style>
 
         {% block extra_head %}{% endblock %}
@@ -370,6 +504,20 @@
                     <ellipse cx="960" cy="390" rx="30" ry="90" transform="rotate(300 960 540)"/>
                     <ellipse cx="960" cy="390" rx="30" ry="90" transform="rotate(330 960 540)"/>
                     
+                    <!-- Expanded Sacred Lotus Layers -->
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(15 960 540)" opacity="0.4"/>
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(45 960 540)" opacity="0.4"/>
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(75 960 540)" opacity="0.4"/>
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(105 960 540)" opacity="0.4"/>
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(135 960 540)" opacity="0.4"/>
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(165 960 540)" opacity="0.4"/>
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(195 960 540)" opacity="0.4"/>
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(225 960 540)" opacity="0.4"/>
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(255 960 540)" opacity="0.4"/>
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(285 960 540)" opacity="0.4"/>
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(315 960 540)" opacity="0.4"/>
+                    <ellipse cx="960" cy="340" rx="40" ry="120" transform="rotate(345 960 540)" opacity="0.4"/>
+                    
                     <!-- Corner Lotus Flowers -->
                     <ellipse cx="240" cy="180" rx="15" ry="45" transform="rotate(0 240 240)"/>
                     <ellipse cx="240" cy="180" rx="15" ry="45" transform="rotate(60 240 240)"/>
@@ -392,6 +540,141 @@
                     <path d="M 940 540 Q 960 520 980 540 Q 960 560 940 540"/>
                 </g>
             </svg>
+            
+            <!-- Layer 6: Sacred Tree of Life -->
+            <svg class="sacred-layer-6" width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#f59e0b" stroke-width="0.8" fill="none" opacity="0.3">
+                    <!-- Tree of Life Sephirot -->
+                    <circle cx="960" cy="150" r="25"/>  <!-- Kether -->
+                    <circle cx="900" cy="220" r="22"/>  <!-- Chokmah -->
+                    <circle cx="1020" cy="220" r="22"/> <!-- Binah -->
+                    <circle cx="960" cy="320" r="20"/>  <!-- Daath -->
+                    <circle cx="840" cy="380" r="24"/>  <!-- Chesed -->
+                    <circle cx="1080" cy="380" r="24"/> <!-- Geburah -->
+                    <circle cx="960" cy="480" r="26"/>  <!-- Tiphereth -->
+                    <circle cx="840" cy="580" r="22"/>  <!-- Netzach -->
+                    <circle cx="1080" cy="580" r="22"/> <!-- Hod -->
+                    <circle cx="960" cy="680" r="24"/>  <!-- Yesod -->
+                    <circle cx="960" cy="780" r="28"/>  <!-- Malkuth -->
+                    
+                    <!-- Connecting Paths -->
+                    <line x1="960" y1="150" x2="900" y2="220"/>
+                    <line x1="960" y1="150" x2="1020" y2="220"/>
+                    <line x1="900" y1="220" x2="1020" y2="220"/>
+                    <line x1="900" y1="220" x2="960" y2="320"/>
+                    <line x1="1020" y1="220" x2="960" y2="320"/>
+                    <line x1="960" y1="320" x2="840" y2="380"/>
+                    <line x1="960" y1="320" x2="1080" y2="380"/>
+                    <line x1="840" y1="380" x2="1080" y2="380"/>
+                    <line x1="840" y1="380" x2="960" y2="480"/>
+                    <line x1="1080" y1="380" x2="960" y2="480"/>
+                    <line x1="960" y1="480" x2="840" y2="580"/>
+                    <line x1="960" y1="480" x2="1080" y2="580"/>
+                    <line x1="840" y1="580" x2="1080" y2="580"/>
+                    <line x1="840" y1="580" x2="960" y2="680"/>
+                    <line x1="1080" y1="580" x2="960" y2="680"/>
+                    <line x1="960" y1="680" x2="960" y2="780"/>
+                </g>
+            </svg>
+            
+            <!-- Layer 7: Sri Yantra -->
+            <svg class="sacred-layer-7" width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#e879f9" stroke-width="0.7" fill="none" opacity="0.4">
+                    <!-- Outer Square -->
+                    <rect x="760" y="340" width="400" height="400" stroke="#e879f9"/>
+                    <!-- Inner Square -->
+                    <rect x="810" y="390" width="300" height="300" stroke="#c084fc"/>
+                    
+                    <!-- Central Triangle (Upward) -->
+                    <polygon points="960,420 1040,600 880,600"/>
+                    <!-- Inverted Triangle -->
+                    <polygon points="960,660 880,480 1040,480"/>
+                    
+                    <!-- Interlocking Triangles -->
+                    <polygon points="960,450 1020,570 900,570"/>
+                    <polygon points="960,630 900,510 1020,510"/>
+                    <polygon points="960,480 1000,560 920,560"/>
+                    <polygon points="960,600 920,520 1000,520"/>
+                    
+                    <!-- Central Bindu -->
+                    <circle cx="960" cy="540" r="8" stroke="#fbbf24" stroke-width="1"/>
+                    <circle cx="960" cy="540" r="4" stroke="#fbbf24" stroke-width="0.5"/>
+                    
+                    <!-- Corner Sri Yantras -->
+                    <g opacity="0.6" transform="scale(0.3)">
+                        <polygon points="600,600 720,840 480,840" transform="translate(0,0)"/>
+                        <polygon points="600,1080 480,840 720,840" transform="translate(0,0)"/>
+                        <circle cx="600" cy="840" r="15"/>
+                    </g>
+                    
+                    <g opacity="0.6" transform="scale(0.3)">
+                        <polygon points="4800,600 4920,840 4680,840" transform="translate(0,0)"/>
+                        <polygon points="4800,1080 4680,840 4920,840" transform="translate(0,0)"/>
+                        <circle cx="4800" cy="840" r="15"/>
+                    </g>
+                </g>
+            </svg>
+            
+            <!-- Layer 8: Vesica Piscis Flow -->
+            <svg class="sacred-layer-8" width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+                <g stroke="#38bdf8" stroke-width="0.8" fill="rgba(56, 189, 248, 0.02)" opacity="0.5">
+                    <!-- Central Vesica Piscis -->
+                    <circle cx="920" cy="540" r="120" fill="none"/>
+                    <circle cx="1000" cy="540" r="120" fill="none"/>
+                    
+                    <!-- Flowing Vesica Chain -->
+                    <circle cx="400" cy="300" r="80" fill="none"/>
+                    <circle cx="460" cy="300" r="80" fill="none"/>
+                    
+                    <circle cx="1460" cy="300" r="80" fill="none"/>
+                    <circle cx="1520" cy="300" r="80" fill="none"/>
+                    
+                    <circle cx="400" cy="780" r="80" fill="none"/>
+                    <circle cx="460" cy="780" r="80" fill="none"/>
+                    
+                    <circle cx="1460" cy="780" r="80" fill="none"/>
+                    <circle cx="1520" cy="780" r="80" fill="none"/>
+                    
+                    <!-- Organic connecting flows -->
+                    <path d="M 480 300 Q 720 200 920 400" stroke="#06d6a0" stroke-width="0.5" opacity="0.6"/>
+                    <path d="M 1000 680 Q 1280 880 1460 780" stroke="#06d6a0" stroke-width="0.5" opacity="0.6"/>
+                    <path d="M 480 780 Q 720 680 920 680" stroke="#06d6a0" stroke-width="0.5" opacity="0.6"/>
+                    <path d="M 1000 400 Q 1280 200 1460 300" stroke="#06d6a0" stroke-width="0.5" opacity="0.6"/>
+                </g>
+            </svg>
+            
+            <!-- Page-Specific Sacred Overlay -->
+            <div class="page-sacred-overlay page-enter">
+                <svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Interconnected Sacred Network -->
+                    <g stroke="#06b6d4" stroke-width="0.5" fill="none" opacity="0.6">
+                        <circle cx="200" cy="200" r="15"/>
+                        <circle cx="400" cy="150" r="12"/>
+                        <circle cx="600" cy="250" r="18"/>
+                        <circle cx="800" cy="180" r="14"/>
+                        <circle cx="1000" cy="280" r="16"/>
+                        <circle cx="1200" cy="200" r="13"/>
+                        <circle cx="1400" cy="160" r="17"/>
+                        <circle cx="1600" cy="220" r="15"/>
+                        
+                        <line x1="200" y1="200" x2="400" y2="150"/>
+                        <line x1="400" y1="150" x2="600" y2="250"/>
+                        <line x1="600" y1="250" x2="800" y2="180"/>
+                        <line x1="800" y1="180" x2="1000" y2="280"/>
+                        <line x1="1000" y1="280" x2="1200" y2="200"/>
+                        <line x1="1200" y1="200" x2="1400" y2="160"/>
+                        <line x1="1400" y1="160" x2="1600" y2="220"/>
+                        
+                        <!-- Cross connections -->
+                        <line x1="200" y1="200" x2="600" y2="250" opacity="0.3"/>
+                        <line x1="400" y1="150" x2="800" y2="180" opacity="0.3"/>
+                        <line x1="600" y1="250" x2="1000" y2="280" opacity="0.3"/>
+                        <line x1="800" y1="180" x2="1200" y2="200" opacity="0.3"/>
+                        <line x1="1000" y1="280" x2="1400" y2="160" opacity="0.3"/>
+                        <line x1="1200" y1="200" x2="1600" y2="220" opacity="0.3"/>
+                    </g>
+                </svg>
+            </div>
             
             <!-- Floating Sacred Symbols -->
             <div class="floating-sacred float-1">
@@ -490,6 +773,64 @@
                         <circle cx="19" cy="19" r="15"/>
                         <polygon points="19,4 34,19 19,34 4,19"/>
                     </g>
+                </svg>
+            </div>
+            
+            <!-- Sacred Particle Flow -->
+            <div class="sacred-particles" style="left: 5%; animation-delay: 0s;">
+                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="8" stroke="#8b5cf6" stroke-width="0.8" fill="rgba(139, 92, 246, 0.1)"/>
+                    <circle cx="10" cy="10" r="3" stroke="#8b5cf6" stroke-width="0.5" fill="none"/>
+                </svg>
+            </div>
+            
+            <div class="sacred-particles" style="right: 8%; animation-delay: -15s;">
+                <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="12.5,2 23,12.5 12.5,23 2,12.5" stroke="#06d6a0" stroke-width="0.8" fill="rgba(6, 214, 160, 0.1)"/>
+                    <circle cx="12.5" cy="12.5" r="4" stroke="#06d6a0" stroke-width="0.5" fill="none"/>
+                </svg>
+            </div>
+            
+            <div class="sacred-particles" style="left: 40%; animation-delay: -25s;">
+                <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="9,1 17,9 9,17 1,9" stroke="#f59e0b" stroke-width="0.8" fill="rgba(245, 158, 11, 0.1)"/>
+                </svg>
+            </div>
+            
+            <div class="sacred-particles" style="right: 25%; animation-delay: -35s;">
+                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="11" cy="11" r="9" stroke="#ec4899" stroke-width="0.8" fill="none"/>
+                    <polygon points="11,2 20,11 11,20 2,11" stroke="#ec4899" stroke-width="0.5" fill="rgba(236, 72, 153, 0.1)"/>
+                </svg>
+            </div>
+            
+            <!-- Organic Flow Elements -->
+            <div class="organic-flow" style="position: fixed; top: 15%; left: 12%; z-index: -6;">
+                <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#a855f7" stroke-width="0.8" fill="none">
+                        <path d="M 10 30 Q 30 10 50 30 Q 30 50 10 30" opacity="0.6"/>
+                        <path d="M 20 30 Q 30 20 40 30 Q 30 40 20 30" opacity="0.8"/>
+                        <circle cx="30" cy="30" r="5" opacity="0.7"/>
+                    </g>
+                </svg>
+            </div>
+            
+            <div class="organic-flow" style="position: fixed; bottom: 20%; right: 15%; z-index: -6;">
+                <svg width="70" height="70" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#14b8a6" stroke-width="0.8" fill="none">
+                        <ellipse cx="35" cy="25" rx="25" ry="15" opacity="0.6"/>
+                        <ellipse cx="35" cy="45" rx="25" ry="15" opacity="0.6"/>
+                        <ellipse cx="25" cy="35" rx="15" ry="25" opacity="0.6"/>
+                        <ellipse cx="45" cy="35" rx="15" ry="25" opacity="0.6"/>
+                        <circle cx="35" cy="35" r="8" opacity="0.8"/>
+                    </g>
+                </svg>
+            </div>
+            
+            <!-- Interactive Particle System -->
+            <div class="interactive-particles" id="particle-system">
+                <svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+                    <g id="particle-container"></g>
                 </svg>
             </div>
             
@@ -699,20 +1040,75 @@
             function adjustSacredIntensity() {
                 const hour = new Date().getHours();
                 const geometry = document.querySelector('.global-sacred-geometry');
+                const pageOverlay = document.querySelector('.page-sacred-overlay');
                 
                 if (geometry) {
                     // More visible during "mystical hours" (dawn/dusk)
                     if (hour >= 5 && hour <= 7 || hour >= 17 && hour <= 19) {
-                        geometry.style.opacity = '0.05';
+                        geometry.style.opacity = '0.12';
+                        if (pageOverlay) pageOverlay.style.opacity = '0.08';
                     } else if (hour >= 0 && hour <= 5 || hour >= 22) {
-                        geometry.style.opacity = '0.04'; // Mystical night hours
+                        geometry.style.opacity = '0.10'; // Mystical night hours
+                        if (pageOverlay) pageOverlay.style.opacity = '0.06';
                     } else {
-                        geometry.style.opacity = '0.03'; // Regular hours
+                        geometry.style.opacity = '0.08'; // Regular hours
+                        if (pageOverlay) pageOverlay.style.opacity = '0.04';
                     }
                 }
             }
             
+            // Add sacred geometry pulse on scroll
+            let lastScrollTop = 0;
+            window.addEventListener('scroll', function() {
+                const st = window.pageYOffset || document.documentElement.scrollTop;
+                const geometry = document.querySelector('.global-sacred-geometry');
+                
+                if (Math.abs(st - lastScrollTop) > 50) {
+                    if (geometry) {
+                        geometry.classList.add('sacred-pulse');
+                        setTimeout(() => {
+                            geometry.classList.remove('sacred-pulse');
+                        }, 3000);
+                    }
+                }
+                lastScrollTop = st <= 0 ? 0 : st;
+            });
+            
+            // Add sacred geometry to content sections
+            function addContentSacredGeometry() {
+                const contentSections = document.querySelectorAll('article, section, .content, main');
+                contentSections.forEach((section, index) => {
+                    if (!section.querySelector('.content-sacred')) {
+                        const sacredDiv = document.createElement('div');
+                        sacredDiv.className = 'content-sacred scroll-triggered';
+                        sacredDiv.style.top = '10px';
+                        sacredDiv.style.right = '10px';
+                        sacredDiv.style.animationDelay = `${index * 0.5}s`;
+                        
+                        const symbols = [
+                            '<svg width="40" height="40" viewBox="0 0 40 40"><g stroke="#8b5cf6" stroke-width="0.8" fill="none"><polygon points="20,5 35,20 20,35 5,20"/><circle cx="20" cy="20" r="8"/></g></svg>',
+                            '<svg width="40" height="40" viewBox="0 0 40 40"><g stroke="#06d6a0" stroke-width="0.8" fill="none"><circle cx="20" cy="20" r="15"/><circle cx="20" cy="20" r="10"/><circle cx="20" cy="20" r="5"/></g></svg>',
+                            '<svg width="40" height="40" viewBox="0 0 40 40"><g stroke="#f59e0b" stroke-width="0.8" fill="none"><polygon points="20,2 38,20 20,38 2,20"/><polygon points="20,10 30,20 20,30 10,20"/></g></svg>',
+                            '<svg width="40" height="40" viewBox="0 0 40 40"><g stroke="#ec4899" stroke-width="0.8" fill="none"><polygon points="20,5 30,15 30,25 20,35 10,25 10,15"/><circle cx="20" cy="20" r="6"/></g></svg>'
+                        ];
+                        
+                        sacredDiv.innerHTML = symbols[index % symbols.length];
+                        section.style.position = section.style.position || 'relative';
+                        section.appendChild(sacredDiv);
+                    }
+                });
+            }
+            
             adjustSacredIntensity();
+            addContentSacredGeometry();
+            
+            // Initialize page enter animation
+            setTimeout(() => {
+                const pageOverlay = document.querySelector('.page-sacred-overlay');
+                if (pageOverlay) {
+                    pageOverlay.classList.add('page-enter');
+                }
+            }, 100);
             
             // Pulse sacred geometry on page focus
             window.addEventListener('focus', function() {
@@ -723,6 +1119,135 @@
                     }, 5000);
                 });
             });
+            
+            // Enhanced Mouse Interaction with Particle Generation
+            let mouseParticles = [];
+            let lastMouseMove = 0;
+            
+            document.addEventListener('mousemove', function(e) {
+                const now = Date.now();
+                if (now - lastMouseMove > 100) { // Throttle particle creation
+                    createMouseParticle(e.clientX, e.clientY);
+                    lastMouseMove = now;
+                }
+                
+                // Activate particle system
+                const particleSystem = document.getElementById('particle-system');
+                if (particleSystem) {
+                    particleSystem.classList.add('particles-active');
+                }
+            });
+            
+            function createMouseParticle(x, y) {
+                const particleContainer = document.getElementById('particle-container');
+                if (!particleContainer) return;
+                
+                const particle = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+                particle.setAttribute('transform', `translate(${x}, ${y})`);
+                particle.style.animation = 'mouse-particle-birth 2s ease-out forwards';
+                
+                const shapes = [
+                    '<circle r="8" stroke="#8b5cf6" stroke-width="0.5" fill="rgba(139, 92, 246, 0.1)"/>',
+                    '<polygon points="-6,-6 6,-6 6,6 -6,6" stroke="#06d6a0" stroke-width="0.5" fill="rgba(6, 214, 160, 0.1)"/>',
+                    '<polygon points="0,-8 8,8 -8,8" stroke="#f59e0b" stroke-width="0.5" fill="rgba(245, 158, 11, 0.1)"/>'
+                ];
+                
+                particle.innerHTML = shapes[Math.floor(Math.random() * shapes.length)];
+                particleContainer.appendChild(particle);
+                
+                // Clean up particle after animation
+                setTimeout(() => {
+                    if (particle && particle.parentNode) {
+                        particle.parentNode.removeChild(particle);
+                    }
+                }, 2000);
+                
+                // Limit number of particles
+                if (particleContainer.children.length > 20) {
+                    particleContainer.removeChild(particleContainer.firstChild);
+                }
+            }
+            
+            // Enhanced Scroll-based Intensity
+            function updateScrollIntensity() {
+                const scrollPercent = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+                const intensity = Math.min(5, Math.floor(scrollPercent * 5) + 1);
+                
+                const geometry = document.querySelector('.global-sacred-geometry');
+                if (geometry) {
+                    // Remove previous intensity classes
+                    geometry.classList.remove('scroll-intensity-1', 'scroll-intensity-2', 'scroll-intensity-3', 'scroll-intensity-4', 'scroll-intensity-5');
+                    geometry.classList.add(`scroll-intensity-${intensity}`);
+                }
+                
+                // Update particle flow based on scroll speed
+                const scrollSpeed = Math.abs(window.scrollY - (window.lastScrollY || 0));
+                if (scrollSpeed > 10) {
+                    document.querySelectorAll('.sacred-particles').forEach(particle => {
+                        particle.style.animationDuration = '30s';
+                        setTimeout(() => {
+                            particle.style.animationDuration = '45s';
+                        }, 2000);
+                    });
+                }
+                window.lastScrollY = window.scrollY;
+            }
+            
+            window.addEventListener('scroll', updateScrollIntensity);
+            
+            // Organic Flow Response to User Activity
+            let userActivity = 0;
+            let activityTimer;
+            
+            function increaseActivity() {
+                userActivity = Math.min(userActivity + 1, 10);
+                clearTimeout(activityTimer);
+                activityTimer = setTimeout(() => {
+                    userActivity = Math.max(userActivity - 1, 0);
+                }, 2000);
+                
+                // Adjust organic flow based on activity
+                const flowElements = document.querySelectorAll('.organic-flow');
+                const flowSpeed = Math.max(40, 80 - (userActivity * 4));
+                flowElements.forEach(element => {
+                    element.style.animationDuration = `${flowSpeed}s`;
+                });
+            }
+            
+            ['mousemove', 'scroll', 'click', 'keydown'].forEach(event => {
+                document.addEventListener(event, increaseActivity);
+            });
+            
+            // Time-based Sacred Geometry Variations
+            function updateTimeBasedGeometry() {
+                const hour = new Date().getHours();
+                const sri = document.querySelector('.sacred-layer-7');
+                const vesica = document.querySelector('.sacred-layer-8');
+                
+                if (sri && vesica) {
+                    // Dawn/Dusk enhancement (5-7 AM, 5-7 PM)
+                    if ((hour >= 5 && hour <= 7) || (hour >= 17 && hour <= 19)) {
+                        sri.style.opacity = '0.6';
+                        vesica.style.opacity = '0.7';
+                    }
+                    // Night mystical hours (10 PM - 5 AM)
+                    else if (hour >= 22 || hour <= 5) {
+                        sri.style.opacity = '0.5';
+                        vesica.style.opacity = '0.6';
+                    }
+                    // Regular daytime
+                    else {
+                        sri.style.opacity = '0.4';
+                        vesica.style.opacity = '0.5';
+                    }
+                }
+            }
+            
+            updateTimeBasedGeometry();
+            setInterval(updateTimeBasedGeometry, 60000); // Update every minute
+            
+            // Initialize enhanced systems
+            updateScrollIntensity();
         </script>
 
         {% block extra_scripts %}{% endblock %}
