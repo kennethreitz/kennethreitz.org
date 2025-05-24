@@ -172,9 +172,9 @@
     <!-- Back Navigation -->
     <nav class="mt-16 pt-8 border-t border-gray-200">
         {% if breadcrumbs %}
-            {% set parent_path = breadcrumbs[-1].url if breadcrumbs else '/' %}
+            {% set parent_path = breadcrumbs[-1].url if breadcrumbs else '/directory' %}
         {% else %}
-            {% set parent_path = '/' %}
+            {% set parent_path = '/directory' %}
         {% endif %}
         
         <a href="{{ parent_path }}" 

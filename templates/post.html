@@ -506,9 +506,9 @@
     <!-- Post Navigation -->
     <nav class="mt-16 pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         {% if breadcrumbs %}
-            {% set parent_path = breadcrumbs[-1].url if breadcrumbs else '/' %}
+            {% set parent_path = breadcrumbs[-1].url if breadcrumbs else '/directory' %}
         {% else %}
-            {% set parent_path = '/' %}
+            {% set parent_path = '/directory' %}
         {% endif %}
         
         <a href="{{ parent_path }}" 
