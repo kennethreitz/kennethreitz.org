@@ -49,6 +49,7 @@ def get_directory_structure(path):
             'is_markdown': item.suffix == '.md',
             'is_image': item.suffix.lower() in ['.jpg', '.jpeg', '.png', '.gif', '.webp'],
             'size': item.stat().st_size if item.is_file() else None,
+            'created': datetime.fromtimestamp(item.stat().st_ctime),
             'modified': datetime.fromtimestamp(item.stat().st_mtime),
             'file_type': item.suffix.lower() if item.is_file() else 'directory',
             'static_path': f"/static/data/{item.relative_to(DATA_DIR)}" if not item.is_dir() else None

@@ -12,44 +12,41 @@
     </article>
 </div>
 {% else %}
-<div class="mb-12">
-    <h1 class="text-4xl font-bold text-gray-100 mb-4 tracking-tight font-serif page-title">
+<div class="mb-8 md:mb-12 px-4 sm:px-0">
+    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-100 mb-4 tracking-tight font-serif page-title break-words">
         {{ title }}
     </h1>
     {% if current_path and current_path != '' %}
-        <p class="text-xl text-gray-400 font-serif italic et-book tracking-wide">{{ current_path }}</p>
+        <p class="text-lg md:text-xl text-gray-400 font-serif italic et-book tracking-wide break-words">{{ current_path }}</p>
     {% endif %}
 </div>
 {% endif %}
 
 {% if is_image_gallery and image_items %}
 <!-- Image Gallery View -->
-<div class="mb-8">
-    <div class="flex items-center justify-between mb-6">
-        <h2 class="text-2xl font-bold text-gray-200 font-serif">Gallery</h2>
-        <div class="flex items-center gap-2">
-            <button id="grid-view" class="px-3 py-2 text-sm bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors">
+<div class="mb-6 md:mb-8 px-4 sm:px-0">
+    <div class="flex items-center justify-between mb-4 md:mb-6">
+        <h2 class="text-xl md:text-2xl font-bold text-gray-200 font-serif">Gallery</h2>
+        <div class="flex items-center gap-1 md:gap-2">
+            <button id="grid-view" class="px-2 md:px-3 py-1 md:py-2 text-xs md:text-sm bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors">
                 Grid
             </button>
-            <button id="list-view" class="px-3 py-2 text-sm bg-gray-700 text-gray-300 rounded-lg hover:bg-gray-600 transition-colors">
+            <button id="list-view" class="px-2 md:px-3 py-1 md:py-2 text-xs md:text-sm bg-gray-700 text-gray-300 rounded-lg hover:bg-gray-600 transition-colors">
                 List
             </button>
         </div>
     </div>
     
     <!-- Image Grid -->
-    <div id="image-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-8">
+    <div id="image-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 sm:gap-3 md:gap-4 mb-6 md:mb-8 px-4 sm:px-0">
         {% for item in image_items %}
-        <div class="group relative aspect-square overflow-hidden rounded-lg bg-gray-800 hover:scale-105 transition-transform duration-300">
+        <div class="group relative aspect-square overflow-hidden rounded-md md:rounded-lg bg-gray-800 hover:scale-105 transition-transform duration-300">
             <a href="{{ item.url_path }}" class="block w-full h-full">
                 <img src="{{ item.static_path }}" 
                      alt="{{ item.display_name }}"
                      class="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                      loading="lazy">
-                <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
-                <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <p class="text-white text-sm font-medium truncate">{{ item.display_name }}</p>
-                </div>
+
             </a>
         </div>
         {% endfor %}
@@ -58,12 +55,12 @@
     <!-- Other Files (if any) -->
     {% set non_image_items = items | rejectattr('is_image') | list %}
     {% if non_image_items %}
-    <h3 class="text-xl font-semibold text-gray-300 mb-4 font-serif">Other Files</h3>
-    <div class="space-y-2">
+    <h3 class="text-lg md:text-xl font-semibold text-gray-300 mb-3 md:mb-4 font-serif px-4 sm:px-0">Other Files</h3>
+    <div class="space-y-1 md:space-y-2 px-4 sm:px-0">
         {% for item in non_image_items %}
-        <div class="group flex items-center p-3 rounded-lg hover:bg-gray-800/70 transition-all duration-300 border border-transparent hover:border-gray-700 hover:border-primary-700/50 backdrop-blur-sm">
+        <div class="group flex items-center p-2 md:p-3 rounded-md md:rounded-lg hover:bg-gray-800/70 transition-all duration-300 border border-transparent hover:border-gray-700 hover:border-primary-700/50 backdrop-blur-sm">
             <!-- Item Icon -->
-            <div class="flex-shrink-0 w-10 text-center text-xl mr-4">
+            <div class="flex-shrink-0 w-8 md:w-10 text-center text-lg md:text-xl mr-2 md:mr-4">
                 {% if item.is_dir %}
                     <span class="text-primary-400">📁</span>
                 {% elif item.is_markdown %}
@@ -74,26 +71,29 @@
             </div>
             
             <!-- Item Content -->
-            <div class="flex-grow flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+            <div class="flex-grow flex flex-col gap-2">
                 <a href="{{ item.url_path }}" 
-                   class="text-lg font-medium {% if item.is_dir %}text-primary-300{% else %}text-gray-200 et-book{% endif %} hover:text-primary-400 transition-colors duration-200 group-hover:text-primary-300 tracking-wide">
+                   class="text-base md:text-lg font-medium {% if item.is_dir %}text-primary-300{% else %}text-gray-200 et-book{% endif %} hover:text-primary-400 transition-colors duration-200 group-hover:text-primary-300 tracking-wide break-words">
                     {{ item.display_name }}{% if item.is_dir %}/{% endif %}
                 </a>
                 
                 <!-- Item Meta -->
-                <div class="flex items-center gap-4 text-sm text-gray-400">
-                    <span class="font-mono">
-                        {{ item.modified.strftime('%b %d, %Y') }}
-                    </span>
-                    {% if item.is_dir %}
-                    <span class="px-2 py-1 bg-primary-900/60 text-primary-300 rounded-full text-xs font-medium uppercase tracking-wide border border-primary-700/30">
-                        folder
-                    </span>
-                    {% elif not item.is_markdown %}
-                    <span class="px-2 py-1 bg-gray-800/60 text-gray-300 rounded-full text-xs font-medium uppercase tracking-wide border border-gray-700/30">
-                        {{ item.file_type.replace('.', '') or 'file' }}
-                    </span>
-                    {% endif %}
+                <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-xs md:text-sm text-gray-400">
+                    <div class="flex flex-col gap-0.5 font-mono">
+                        <span class="opacity-75">Created: {{ item.created.strftime('%b %d, %Y') }}</span>
+                        <span class="opacity-75">Modified: {{ item.modified.strftime('%b %d, %Y') }}</span>
+                    </div>
+                    <div class="flex gap-1 sm:gap-2">
+                        {% if item.is_dir %}
+                        <span class="px-1.5 md:px-2 py-0.5 md:py-1 bg-primary-900/60 text-primary-300 rounded-full text-xs font-medium uppercase tracking-wide border border-primary-700/30">
+                            folder
+                        </span>
+                        {% elif not item.is_markdown %}
+                        <span class="px-1.5 md:px-2 py-0.5 md:py-1 bg-gray-800/60 text-gray-300 rounded-full text-xs font-medium uppercase tracking-wide border border-gray-700/30">
+                            {{ item.file_type.replace('.', '') or 'file' }}
+                        </span>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,12 +103,12 @@
 </div>
 
 <!-- Hidden List View (for toggle) -->
-<div id="list-view-container" class="hidden mb-12 mt-8">
-    <div class="space-y-2">
+<div id="list-view-container" class="hidden mb-8 md:mb-12 mt-6 md:mt-8 px-4 sm:px-0">
+    <div class="space-y-1 md:space-y-2">
         {% for item in items %}
-        <div class="group flex items-center p-4 rounded-lg hover:bg-gray-800/70 transition-all duration-300 border border-transparent hover:border-gray-700 hover:border-primary-700/50 backdrop-blur-sm">
+        <div class="group flex items-center p-2 md:p-4 rounded-md md:rounded-lg hover:bg-gray-800/70 transition-all duration-300 border border-transparent hover:border-gray-700 hover:border-primary-700/50 backdrop-blur-sm">
             <!-- Item Icon -->
-            <div class="flex-shrink-0 w-10 text-center text-xl mr-4">
+            <div class="flex-shrink-0 w-8 md:w-10 text-center text-lg md:text-xl mr-2 md:mr-4">
                 {% if item.is_dir %}
                     <span class="text-primary-400">📁</span>
                 {% elif item.is_markdown %}
@@ -121,30 +121,33 @@
             </div>
             
             <!-- Item Content -->
-            <div class="flex-grow flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+            <div class="flex-grow flex flex-col gap-2">
                 <a href="{{ item.url_path }}" 
-                   class="text-lg font-medium {% if item.is_dir %}text-primary-300{% else %}text-gray-200 et-book{% endif %} hover:text-primary-400 transition-colors duration-200 group-hover:text-primary-300 tracking-wide">
+                   class="text-base md:text-lg font-medium {% if item.is_dir %}text-primary-300{% else %}text-gray-200 et-book{% endif %} hover:text-primary-400 transition-colors duration-200 group-hover:text-primary-300 tracking-wide break-words">
                     {{ item.display_name }}{% if item.is_dir %}/{% endif %}
                 </a>
                 
                 <!-- Item Meta -->
-                <div class="flex items-center gap-4 text-sm text-gray-400">
-                    <span class="font-mono">
-                        {{ item.modified.strftime('%b %d, %Y') }}
-                    </span>
-                    {% if item.is_dir %}
-                    <span class="px-2 py-1 bg-primary-900/60 text-primary-300 rounded-full text-xs font-medium uppercase tracking-wide border border-primary-700/30">
-                        folder
-                    </span>
-                    {% elif item.is_image %}
-                    <span class="px-2 py-1 bg-green-900/60 text-green-300 rounded-full text-xs font-medium uppercase tracking-wide border border-green-700/30">
-                        image
-                    </span>
-                    {% elif not item.is_markdown %}
-                    <span class="px-2 py-1 bg-gray-800/60 text-gray-300 rounded-full text-xs font-medium uppercase tracking-wide border border-gray-700/30">
-                        {{ item.file_type.replace('.', '') or 'file' }}
-                    </span>
-                    {% endif %}
+                <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-xs md:text-sm text-gray-400">
+                    <div class="flex flex-col gap-0.5 font-mono">
+                        <span class="opacity-75">Created: {{ item.created.strftime('%b %d, %Y') }}</span>
+                        <span class="opacity-75">Modified: {{ item.modified.strftime('%b %d, %Y') }}</span>
+                    </div>
+                    <div class="flex gap-1 sm:gap-2 flex-wrap">
+                        {% if item.is_dir %}
+                        <span class="px-1.5 md:px-2 py-0.5 md:py-1 bg-primary-900/60 text-primary-300 rounded-full text-xs font-medium uppercase tracking-wide border border-primary-700/30">
+                            folder
+                        </span>
+                        {% elif item.is_image %}
+                        <span class="px-1.5 md:px-2 py-0.5 md:py-1 bg-green-900/60 text-green-300 rounded-full text-xs font-medium uppercase tracking-wide border border-green-700/30">
+                            image
+                        </span>
+                        {% elif not item.is_markdown %}
+                        <span class="px-1.5 md:px-2 py-0.5 md:py-1 bg-gray-800/60 text-gray-300 rounded-full text-xs font-medium uppercase tracking-wide border border-gray-700/30">
+                            {{ item.file_type.replace('.', '') or 'file' }}
+                        </span>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
         </div>
@@ -154,11 +157,11 @@
 
 {% elif items %}
 <!-- Regular Directory Listing -->
-<div class="space-y-2 mb-12 mt-8">
+<div class="space-y-1 md:space-y-2 mb-8 md:mb-12 mt-6 md:mt-8 px-4 sm:px-0">
     {% for item in items %}
-    <div class="group flex items-center p-4 rounded-lg hover:bg-gray-800/70 transition-all duration-300 border border-transparent hover:border-gray-700 hover:border-primary-700/50 backdrop-blur-sm">
+    <div class="group flex items-center p-2 md:p-4 rounded-md md:rounded-lg hover:bg-gray-800/70 transition-all duration-300 border border-transparent hover:border-gray-700 hover:border-primary-700/50 backdrop-blur-sm">
         <!-- Item Icon -->
-        <div class="flex-shrink-0 w-10 text-center text-xl mr-4">
+        <div class="flex-shrink-0 w-8 md:w-10 text-center text-lg md:text-xl mr-2 md:mr-4">
             {% if item.is_dir %}
                 <span class="text-primary-400">📁</span>
             {% elif item.is_markdown %}
@@ -171,30 +174,33 @@
         </div>
         
         <!-- Item Content -->
-        <div class="flex-grow flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+        <div class="flex-grow flex flex-col gap-2">
                     <a href="{{ item.url_path }}" 
-                       class="text-lg font-medium {% if item.is_dir %}text-primary-300{% else %}text-gray-200 et-book{% endif %} hover:text-primary-400 transition-colors duration-200 group-hover:text-primary-300 tracking-wide">
+                       class="text-base md:text-lg font-medium {% if item.is_dir %}text-primary-300{% else %}text-gray-200 et-book{% endif %} hover:text-primary-400 transition-colors duration-200 group-hover:text-primary-300 tracking-wide break-words">
                         {{ item.display_name }}{% if item.is_dir %}/{% endif %}
                     </a>
             
             <!-- Item Meta -->
-            <div class="flex items-center gap-4 text-sm text-gray-400">
-                <span class="font-mono">
-                    {{ item.modified.strftime('%b %d, %Y') }}
-                </span>
-                {% if item.is_dir %}
-                <span class="px-2 py-1 bg-primary-900/60 text-primary-300 rounded-full text-xs font-medium uppercase tracking-wide border border-primary-700/30">
-                    folder
-                </span>
-                {% elif item.is_image %}
-                <span class="px-2 py-1 bg-green-900/60 text-green-300 rounded-full text-xs font-medium uppercase tracking-wide border border-green-700/30">
-                    image
-                </span>
-                {% elif not item.is_markdown %}
-                <span class="px-2 py-1 bg-gray-800/60 text-gray-300 rounded-full text-xs font-medium uppercase tracking-wide border border-gray-700/30">
-                    {{ item.file_type.replace('.', '') or 'file' }}
-                </span>
-                {% endif %}
+            <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-xs md:text-sm text-gray-400">
+                <div class="flex flex-col gap-0.5 font-mono">
+                    <span class="opacity-75">Created: {{ item.created.strftime('%b %d, %Y') }}</span>
+                    <span class="opacity-75">Modified: {{ item.modified.strftime('%b %d, %Y') }}</span>
+                </div>
+                <div class="flex gap-1 sm:gap-2 flex-wrap">
+                    {% if item.is_dir %}
+                    <span class="px-1.5 md:px-2 py-0.5 md:py-1 bg-primary-900/60 text-primary-300 rounded-full text-xs font-medium uppercase tracking-wide border border-primary-700/30">
+                        folder
+                    </span>
+                    {% elif item.is_image %}
+                    <span class="px-1.5 md:px-2 py-0.5 md:py-1 bg-green-900/60 text-green-300 rounded-full text-xs font-medium uppercase tracking-wide border border-green-700/30">
+                        image
+                    </span>
+                    {% elif not item.is_markdown %}
+                    <span class="px-1.5 md:px-2 py-0.5 md:py-1 bg-gray-800/60 text-gray-300 rounded-full text-xs font-medium uppercase tracking-wide border border-gray-700/30">
+                        {{ item.file_type.replace('.', '') or 'file' }}
+                    </span>
+                    {% endif %}
+                </div>
             </div>
         </div>
     </div>
@@ -202,9 +208,9 @@
 </div>
 {% else %}
 <!-- Empty Directory -->
-<div class="text-center py-16 bg-gray-800/20 rounded-lg backdrop-blur-sm">
-    <div class="text-6xl mb-6 opacity-40">📂</div>
-    <p class="text-xl text-gray-400 font-serif italic et-book tracking-wide">
+<div class="text-center py-12 md:py-16 bg-gray-800/20 rounded-lg backdrop-blur-sm mx-4 sm:mx-0">
+    <div class="text-4xl md:text-6xl mb-4 md:mb-6 opacity-40">📂</div>
+    <p class="text-lg md:text-xl text-gray-400 font-serif italic et-book tracking-wide px-4">
         This directory doesn't contain any files or folders yet.
     </p>
 </div>
