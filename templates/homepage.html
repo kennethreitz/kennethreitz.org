@@ -1,0 +1,294 @@
+{% extends "base.html" %}
+
+{% block title %}Kenneth Reitz - Creator of Requests & Cerifi{% endblock %}
+
+{% block extra_head %}
+<style>
+    .counter-digit {
+        transition: all 0.3s ease;
+        display: inline-block;
+        min-width: 1ch;
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+    
+    .gradient-text {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: gradient-shift 3s ease-in-out infinite alternate;
+    }
+    
+    @keyframes gradient-shift {
+        from { filter: hue-rotate(0deg); }
+        to { filter: hue-rotate(20deg); }
+    }
+    
+    .pulse-glow {
+        animation: pulse-glow 3s ease-in-out infinite alternate;
+    }
+    
+    @keyframes pulse-glow {
+        from { 
+            box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+            transform: scale(1);
+        }
+        to { 
+            box-shadow: 0 0 40px rgba(102, 126, 234, 0.6), 0 0 60px rgba(118, 75, 162, 0.4);
+            transform: scale(1.02);
+        }
+    }
+    
+    .stat-card {
+        background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+        border: 1px solid rgba(102, 126, 234, 0.3);
+        backdrop-filter: blur(15px);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .stat-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+        animation: shimmer 4s infinite;
+    }
+    
+    @keyframes shimmer {
+        0% { left: -100%; }
+        100% { left: 100%; }
+    }
+    
+    .counter-increment {
+        animation: counter-pop 0.5s ease-out;
+    }
+    
+    @keyframes counter-pop {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); color: #fbbf24; }
+        100% { transform: scale(1); }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+    <!-- Hero Section -->
+    <section class="text-center py-20">
+        <div class="mb-8">
+            <h1 class="text-6xl md:text-8xl font-bold mb-6 gradient-text">
+                Kenneth Reitz
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                Creator of <span class="text-blue-400 font-semibold">Requests</span> & 
+                <span class="text-green-400 font-semibold">Cerifi</span> — 
+                trusted by millions of developers worldwide
+            </p>
+        </div>
+
+        <!-- Download Statistics -->
+        <div class="mb-16">
+            <div class="stat-card rounded-2xl p-8 md:p-12 mx-4 md:mx-8 pulse-glow">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                    Downloads Today
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                    <!-- Requests Counter -->
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold text-blue-400 mb-4">Requests</h3>
+                        <div class="text-4xl md:text-6xl font-mono font-bold text-white mb-2">
+                            <span id="requests-counter">8,000,000</span>
+                        </div>
+                        <p class="text-gray-400">downloads today</p>
+                    </div>
+                    
+                    <!-- Cerifi Counter -->
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold text-green-400 mb-4">Cerifi</h3>
+                        <div class="text-4xl md:text-6xl font-mono font-bold text-white mb-2">
+                            <span id="cerifi-counter">8,000,000</span>
+                        </div>
+                        <p class="text-gray-400">downloads today</p>
+                    </div>
+                </div>
+                
+                <!-- Combined Total -->
+                <div class="border-t border-gray-600 pt-8">
+                    <h3 class="text-2xl font-semibold text-purple-400 mb-4">Combined Total</h3>
+                    <div class="text-5xl md:text-7xl font-mono font-bold text-white mb-2">
+                        <span id="total-counter">16,000,000</span>
+                    </div>
+                    <p class="text-gray-400 text-lg">downloads every single day</p>
+                    <p class="text-xs text-gray-500 mt-4 italic">
+                        * Live counter simulation based on actual PyPI download statistics
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Impact Statement -->
+        <div class="mb-16 px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <p class="text-lg md:text-xl text-gray-300 leading-relaxed mb-8">
+                    Every day, <span class="text-yellow-400 font-semibold">16 million</span> times, 
+                    developers around the world trust my libraries to power their applications. 
+                    From startups to Fortune 500 companies, from personal projects to critical infrastructure —
+                    <span class="text-blue-400 font-semibold">Requests</span> and 
+                    <span class="text-green-400 font-semibold">Cerifi</span> help make the internet work.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-400">
+                    <span class="bg-gray-800 px-3 py-1 rounded-full">🌍 Used worldwide</span>
+                    <span class="bg-gray-800 px-3 py-1 rounded-full">🚀 Production ready</span>
+                    <span class="bg-gray-800 px-3 py-1 rounded-full">🔒 Secure by default</span>
+                    <span class="bg-gray-800 px-3 py-1 rounded-full">💡 Developer friendly</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Personal Accomplishments -->
+        <div class="mb-16 px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="stat-card rounded-xl p-8 md:p-10">
+                    <p class="text-lg md:text-xl text-gray-300 leading-relaxed text-left">
+                        I've spent my career crafting tools that prioritize <span class="text-purple-400 font-semibold">simplicity over complexity</span>, 
+                        <span class="text-blue-400 font-semibold">elegance over efficiency</span>. When I created Requests, 
+                        the goal wasn't just to make HTTP requests easier — it was to make them <em>beautiful</em>. 
+                        "Simplicity is the ultimate sophistication," and I believe code should read like poetry.
+                    </p>
+                    <br>
+                    <p class="text-lg md:text-xl text-gray-300 leading-relaxed text-left">
+                        Beyond the millions of downloads, I'm proud to be an advocate for 
+                        <span class="text-green-400 font-semibold">open-source collaboration</span> and 
+                        <span class="text-yellow-400 font-semibold">mental health awareness</span> in tech. 
+                        I've learned that the most meaningful contributions aren't just about solving technical problems — 
+                        they're about fostering communities where developers can thrive as whole human beings. 
+                        <span class="text-pink-400 font-semibold">Everything's going to be okay.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto px-4">
+            <a href="/directory" class="stat-card rounded-xl p-6 hover:scale-105 transition-transform duration-300 text-center">
+                <div class="text-2xl mb-2">📁</div>
+                <h3 class="text-lg font-semibold text-white mb-2">Explore My Work</h3>
+                <p class="text-gray-400 text-sm">Browse my projects, writings, and ideas</p>
+            </a>
+            
+            <a href="/talks" class="stat-card rounded-xl p-6 hover:scale-105 transition-transform duration-300 text-center">
+                <div class="text-2xl mb-2">🎤</div>
+                <h3 class="text-lg font-semibold text-white mb-2">Talks & Presentations</h3>
+                <p class="text-gray-400 text-sm">Watch my conference talks and keynotes</p>
+            </a>
+            
+            <a href="/values" class="stat-card rounded-xl p-6 hover:scale-105 transition-transform duration-300 text-center">
+                <div class="text-2xl mb-2">💎</div>
+                <h3 class="text-lg font-semibold text-white mb-2">My Values</h3>
+                <p class="text-gray-400 text-sm">The principles that guide my work</p>
+            </a>
+        </div>
+    </section>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+// Download counter simulation with more realistic behavior
+let requestsBase = 8000000;
+let cerifiBase = 8000000;
+let startTime = Date.now();
+let lastRequestsCount = requestsBase;
+let lastCerifiCount = cerifiBase;
+
+function animateNumber(element, newValue, oldValue) {
+    if (newValue !== oldValue) {
+        element.classList.add('counter-increment');
+        setTimeout(() => {
+            element.classList.remove('counter-increment');
+        }, 500);
+    }
+}
+
+function updateCounters() {
+    // Simulate more realistic download patterns
+    const elapsed = (Date.now() - startTime) / 1000;
+    
+    // Base rate: ~185 downloads per second total, but with realistic variations
+    // Peak hours simulation (higher during business hours UTC)
+    const hour = new Date().getUTCHours();
+    const peakMultiplier = (hour >= 8 && hour <= 18) ? 1.3 : 0.8;
+    
+    // Add some randomness to simulate bursts and lulls
+    const variance = 0.7 + Math.random() * 0.6; // Random between 0.7 and 1.3
+    
+    const baseRate = 92.5 * peakMultiplier * variance;
+    
+    // Requests is slightly more popular than Cerifi
+    const requestsRate = baseRate * 1.1;
+    const cerifiRate = baseRate * 0.9;
+    
+    const requestsIncrement = Math.floor(elapsed * requestsRate);
+    const cerifiIncrement = Math.floor(elapsed * cerifiRate);
+    
+    const currentRequests = requestsBase + requestsIncrement;
+    const currentCerifi = cerifiBase + cerifiIncrement;
+    const total = currentRequests + currentCerifi;
+    
+    // Get DOM elements
+    const requestsEl = document.getElementById('requests-counter');
+    const cerifiEl = document.getElementById('cerifi-counter');
+    const totalEl = document.getElementById('total-counter');
+    
+    // Animate if numbers changed
+    animateNumber(requestsEl, currentRequests, lastRequestsCount);
+    animateNumber(cerifiEl, currentCerifi, lastCerifiCount);
+    
+    // Update displayed values
+    requestsEl.textContent = currentRequests.toLocaleString();
+    cerifiEl.textContent = currentCerifi.toLocaleString();
+    totalEl.textContent = total.toLocaleString();
+    
+    // Store current values for next comparison
+    lastRequestsCount = currentRequests;
+    lastCerifiCount = currentCerifi;
+}
+
+// Update counters more frequently for smoother animation
+setInterval(updateCounters, 500);
+
+// Initial update
+updateCounters();
+
+// Simulate occasional download spikes (popular libraries get featured, etc.)
+setInterval(() => {
+    if (Math.random() < 0.05) { // 5% chance every 10 seconds
+        const spike = Math.floor(Math.random() * 1000) + 500;
+        if (Math.random() < 0.6) {
+            requestsBase += spike; // Requests gets more spikes
+        } else {
+            cerifiBase += spike;
+        }
+    }
+}, 10000);
+
+// Add subtle page-wide effects
+document.addEventListener('DOMContentLoaded', function() {
+    // Add some interactive sparkle effect on counter hover
+    const counters = document.querySelectorAll('[id$="-counter"]');
+    counters.forEach(counter => {
+        counter.addEventListener('mouseenter', function() {
+            this.style.textShadow = '0 0 20px rgba(255, 255, 255, 0.8)';
+        });
+        counter.addEventListener('mouseleave', function() {
+            this.style.textShadow = '0 0 10px rgba(255, 255, 255, 0.3)';
+        });
+    });
+});
+</script>
+{% endblock %}

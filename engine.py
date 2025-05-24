@@ -130,8 +130,10 @@ def render_markdown_file(file_path):
 
 @app.route('/')
 def index():
-    """Homepage redirects to directory listing."""
-    return redirect('/directory')
+    """Homepage showcasing download statistics."""
+    return render_template('homepage.html', 
+                         current_year=datetime.now().year,
+                         title="Home")
 
 @app.route('/directory')
 def directory_index():
