@@ -6,9 +6,17 @@ I have been [fairly transparent](/essays/2016-01-mentalhealtherror_an_exception_
 
 First off, if this is your first time reading about mental health, I want to say that it's okay to not be okay. It's okay to be struggling. It's okay to be in pain. It's okay.
 
-- [MentalHealthError: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred)
-- [MentalHealthError: Three Years Later](/essays/2019-01-mentalhealtherror_three_years_later)
-- [The Reality of Developer Burnout](/essays/2017-01-the_reality_of_developer_burnout)
+**Recent Essays:**
+- [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care) *(2025)* - A practical guide to working with mental health providers as partners rather than authority figures
+- [On Mania](/essays/2024-01-on-mania) *(2024)* - Reflections on manic episodes and their impact
+
+**The MentalHealthError Series:**
+- [MentalHealthError: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred) *(2016)* - My first public writing about bipolar disorder in tech
+- [MentalHealthError: Three Years Later](/essays/2019-01-mentalhealtherror_three_years_later) *(2019)* - Updates on my journey and lessons learned
+
+**Related Essays:**
+- [The Reality of Developer Burnout](/essays/2017-01-the_reality_of_developer_burnout) *(2017)* - On burnout culture in the tech industry
+- [Understanding Empathy, Narcissism, and Mental Illness](/essays/2016-01-understanding_empathy_narcissism_and_mental_illness) *(2016)* - Exploring the intersection of personality and mental health
 
 Secondly, I want to say that I am not a doctor, and I am not qualified to give medical advice. I am just a person who has been through a lot of stuff, and I want to share my experiences with you.
 

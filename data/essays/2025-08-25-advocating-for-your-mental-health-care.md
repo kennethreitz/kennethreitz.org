@@ -143,4 +143,6 @@ Use it.
 
 *If you're struggling with mental health, remember that seeking professional support is a sign of strength, not weakness. The goal isn't to avoid treatment—it's to ensure that the treatment you receive honors your dignity, intelligence, and autonomy.*
 
+*For more resources and my personal experiences with mental health, visit my [mental health](/mental-health) page.*
+
 *For crisis support: National Suicide Prevention Lifeline: 988 | Crisis Text Line: Text HOME to 741741*
