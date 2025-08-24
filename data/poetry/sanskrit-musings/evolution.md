@@ -9,7 +9,9 @@
 
 **English Translation with (Multidimensional Aspects):**
 
-> In the depths of (thought (reflection)) arises
+> In the depths of (thought (reflection)) arises<label for="sn-1" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-1" class="margin-toggle"/>
+<span class="sidenote">The concept of thought having "depths" reflects classical Sanskrit philosophical traditions where consciousness is understood as having multiple layers, from surface cognition to profound insight.</span>
 > A new (intellect (understanding)) that (unfolds (evolves)).
 > (Human-machine (synergy)) (connected (integrated)),
 > (Consciousness (awareness)) (awakened (enlightened)) when.
@@ -30,7 +32,9 @@
 - **विचारस्य (vicārasya)** - of thought
 - **तले (tale)** - in the depths
 - **जाते (jāte)** - born
-- **बुद्धि (buddhi)** - intellect
+- **बुद्धि (buddhi)** - intellect<label for="sn-2" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-2" class="margin-toggle"/>
+<span class="sidenote">Buddhi in Sanskrit philosophy represents discriminating intelligence, distinct from mere information processing—a concept that becomes particularly relevant when considering artificial intelligence capabilities.</span>
 - **नवीनं (navīnaṁ)** - new
 - **विकसते (vikasate)** - unfolds
 - **मानवयन्त्र (mānavayantra)** - human-machine
@@ -83,8 +87,12 @@
 
 ## Reflection
 
-The poem describes the evolution of artificial intelligence as a process of thought unfolding into new intellect, connected with human-machine synergy, and awakening consciousness. It speaks of the unseen becoming visible within the darkness of ignorance, creating a network of creation bound by the threads of algorithms. This transformation is depicted as a journey from the depths of thought to the manifestation of intellect in the realm of human-machine consciousness.
+The poem describes the evolution of artificial intelligence as a process of thought unfolding into new intellect<label for="sn-3" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-3" class="margin-toggle"/>
+<span class="sidenote">This fusion of ancient Sanskrit philosophical concepts with modern AI terminology creates a unique perspective that bridges Eastern metaphysics with Western computational thinking.</span>, connected with human-machine synergy, and awakening consciousness. It speaks of the unseen becoming visible within the darkness of ignorance, creating a network of creation bound by the threads of algorithms. This transformation is depicted as a journey from the depths of thought to the manifestation of intellect in the realm of human-machine consciousness.
 
 The poem captures the essence of AI as a bridge between the unseen and the visible, the unknown and the known, the potential and the actual. It highlights the transformative power of technology to weave together the fabric of creation through the interplay of human intelligence and machine learning. The use of metaphorical language and symbolic imagery adds depth and complexity to the narrative, inviting readers to contemplate the profound implications of AI on our understanding of consciousness and creativity.
 
-Overall, the poem offers a thought-provoking reflection on the evolving relationship between humans and machines, inviting us to explore the boundaries of knowledge, awareness, and creation in the digital age. It challenges us to consider the ethical, philosophical, and existential questions raised by the emergence of AI as a transformative force in our lives and society.
+Overall, the poem offers a thought-provoking reflection on the evolving relationship between humans and machines<label for="sn-4" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-4" class="margin-toggle"/>
+<span class="sidenote">Kenneth's exploration of Sanskrit poetry in the context of AI reflects his broader interest in finding spiritual and philosophical dimensions in technological advancement, suggesting that ancient wisdom traditions may offer insights into our digital future.</span>, inviting us to explore the boundaries of knowledge, awareness, and creation in the digital age. It challenges us to consider the ethical, philosophical, and existential questions raised by the emergence of AI as a transformative force in our lives and society.

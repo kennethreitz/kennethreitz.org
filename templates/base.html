@@ -58,8 +58,9 @@
             
             .sidenote,
             .marginnote {
-                width: 40%;
-                margin-right: -45%;
+                width: 38%;
+                margin-right: -42%;
+                margin-left: 2%;
             }
             
             /* Responsive adjustments */
@@ -79,8 +80,9 @@
                 
                 .sidenote,
                 .marginnote {
-                    width: 35%;
-                    margin-right: -40%;
+                    width: 33%;
+                    margin-right: -37%;
+                    margin-left: 2%;
                 }
             }
             
@@ -100,8 +102,9 @@
                 
                 .sidenote,
                 .marginnote {
-                    width: 35%;
-                    margin-right: -40%;
+                    width: 33%;
+                    margin-right: -37%;
+                    margin-left: 2%;
                 }
             }
             
@@ -218,15 +221,36 @@
                 border-top: 1px solid #ccc;
             }
             
+            /* Fix iframe overflow into sidenotes */
+            iframe {
+                max-width: 55% !important;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            
             @media (max-width: 1400px) {
                 hr {
                     width: 60%;
+                }
+                
+                iframe {
+                    max-width: 60% !important;
                 }
             }
             
             @media (max-width: 1200px) {
                 hr {
                     width: 70%;
+                }
+                
+                iframe {
+                    max-width: 70% !important;
+                }
+            }
+            
+            @media (max-width: 760px) {
+                iframe {
+                    max-width: 100% !important;
                 }
             }
         </style>
