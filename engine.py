@@ -313,7 +313,7 @@ def api_search():
         return jsonify([])
     
     results = []
-    
+
     def search_node(node, path=""):
         # Check if the node itself matches
         node_name = node.get('name', '').lower()
@@ -353,9 +353,36 @@ def api_search():
         if 'children' in node:
             for child in node['children']:
                 search_node(child, display_path)
-    
-    # Start the search from the root data directory
-    search_node({'name': 'root', 'type': 'directory', 'path': '', 'children': []})
+    def build_tree(path: Path):
+        """Recursively build a node tree for the search index."""
+        # Determine basic node properties
+        is_root = path == DATA_DIR
+        node = {
+            'name': '' if is_root else path.name,
+            'type': 'directory' if path.is_dir() else 'file',
+            'path': '' if is_root else str(path.relative_to(DATA_DIR)),
+        }
+
+        if path.is_dir():
+            # Gather child nodes for directories
+            children = []
+            for item in sorted(path.iterdir()):
+                if item.name.startswith('.'):
+                    continue
+                children.append(build_tree(item))
+            node['children'] = children
+        else:
+            # Include file contents for relevance scoring when possible
+            if path.suffix == '.md':
+                try:
+                    node['content'] = path.read_text(encoding='utf-8')
+                except Exception:
+                    node['content'] = ''
+
+        return node
+
+    # Start the search from the actual data directory
+    search_node(build_tree(DATA_DIR))
     
     # Sort results by relevance
     results.sort(key=lambda x: x['relevance'], reverse=True)
