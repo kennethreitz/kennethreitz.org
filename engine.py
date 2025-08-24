@@ -311,55 +311,64 @@ def api_search():
     query = request.args.get('q', '').lower()
     if not query:
         return jsonify([])
-    
+
     results = []
-    
-    def search_node(node, path=""):
-        # Check if the node itself matches
-        node_name = node.get('name', '').lower()
-        node_path = node.get('path', '').lower()
-        node_content = node.get('content', '').lower()
-        
-        # Calculate path for display
-        display_path = path + '/' + node.get('name', '') if path else node.get('name', '')
-        
-        if query in node_name or query in node_path or query in node_content:
-            # Create a result object with relevant info
-            result = {
-                'name': node.get('name', ''),
-                'type': node.get('type', ''),
-                'path': node.get('path', ''),
-                'display_path': display_path,
-                'relevance': 0  # Will be calculated below
-            }
-            
-            # Calculate relevance score
-            relevance = 0
-            if query in node_name:
-                relevance += 10
-                if node_name.startswith(query):
-                    relevance += 5
-            if query in node_path:
-                relevance += 3
-            if query in node_content:
-                relevance += 1
-                # Extra points for each occurrence in content
-                relevance += node_content.count(query) * 0.1
-            
-            result['relevance'] = relevance
-            results.append(result)
-        
-        # Recursively search children
-        if 'children' in node:
-            for child in node['children']:
-                search_node(child, display_path)
-    
-    # Start the search from the root data directory
-    search_node({'name': 'root', 'type': 'directory', 'path': '', 'children': []})
-    
-    # Sort results by relevance
+
+    def search_path(current_path: Path, display_path: str = ""):
+        """Recursively search files and directories under ``current_path``.
+
+        This replaces the previous implementation that searched an in-memory
+        tree representation but never actually scanned the filesystem,
+        resulting in an empty search index. We now walk the ``data`` directory
+        directly so queries return real results.
+        """
+        for item in current_path.iterdir():
+            if item.name.startswith('.'):
+                continue
+
+            relative_path = str(item.relative_to(DATA_DIR))
+            node_name = item.name.lower()
+            node_path = relative_path.lower()
+            node_content = ""
+
+            if item.is_file() and item.suffix == '.md':
+                try:
+                    node_content = item.read_text(encoding='utf-8').lower()
+                except Exception:
+                    node_content = ""
+
+            item_display_path = f"{display_path}/{item.name}" if display_path else item.name
+
+            if query in node_name or query in node_path or query in node_content:
+                result = {
+                    'name': item.name,
+                    'type': 'directory' if item.is_dir() else ('article' if item.suffix == '.md' else 'file'),
+                    'path': relative_path,
+                    'display_path': item_display_path,
+                    'relevance': 0,
+                }
+
+                relevance = 0
+                if query in node_name:
+                    relevance += 10
+                    if node_name.startswith(query):
+                        relevance += 5
+                if query in node_path:
+                    relevance += 3
+                if query in node_content:
+                    relevance += 1
+                    relevance += node_content.count(query) * 0.1
+
+                result['relevance'] = relevance
+                results.append(result)
+
+            if item.is_dir():
+                search_path(item, item_display_path)
+
+    # Start searching from the data directory
+    search_path(DATA_DIR)
+
     results.sort(key=lambda x: x['relevance'], reverse=True)
-    
     return jsonify(results)
 
 
