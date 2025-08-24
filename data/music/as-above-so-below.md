@@ -12,7 +12,9 @@
 - It’s an exploration of sonic textures that evoke a sense of introspection and transcendence.
 
 ### Concept
-- "As Above, So Below" delves into themes of duality and the connection between the physical and spiritual realms.
+- "As Above, So Below" delves into themes of duality and the connection between the physical and spiritual realms<label for="sn-hermeticism" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-hermeticism" class="margin-toggle"/>
+<span class="sidenote">This principle from the Hermetic tradition, first articulated in the Emerald Tablet, suggests that patterns observed in the heavens are reflected in earthly phenomena—a foundational concept in esoteric philosophy.</span>.
 - The music mirrors this by oscillating between serene, meditative tracks and more dynamic, complex compositions.
 
 ### Key Tracks
@@ -21,12 +23,16 @@
 
 ### Production
 - The album’s production is meticulous, with each track carefully crafted to contribute to the overarching theme.
-- The use of analog synthesizers and digital effects creates a rich, immersive sound.
+- The use of analog synthesizers and digital effects<label for="sn-analog-digital" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-analog-digital" class="margin-toggle"/>
+<span class="sidenote">This hybrid approach combines the warmth and unpredictability of analog circuitry with the precision and flexibility of digital processing, a hallmark of contemporary ambient music production.</span> creates a rich, immersive sound.
 
 ## Listening Experience
 
 ### Atmosphere
-- The album is designed to be an immersive experience, ideal for deep listening sessions where the listener can fully engage with the music’s nuances and subtleties.
+- The album is designed to be an immersive experience, ideal for deep listening sessions<label for="sn-deep-listening" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-deep-listening" class="margin-toggle"/>
+<span class="sidenote">"Deep listening," a practice developed by composer Pauline Oliveros, involves sustained attention to sound environments, encouraging listeners to perceive subtle sonic details often overlooked in casual listening.</span> where the listener can fully engage with the music's nuances and subtleties.
 
 ### Emotion
 - Listeners are taken on an emotional journey that spans from introspective and contemplative to uplifting and expansive, reflecting the dual nature of existence that the album explores.

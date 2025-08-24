@@ -6,7 +6,7 @@
 ## Introduction to API Driven Development
 - **Presenter**: Kenneth Reitz
 - **Overview**: The talk focuses on API-driven development, highlighting how it benefits developers and enhances productivity.
-- **Heroku Introduction**: Heroku is introduced as a web platform that abstracts server management, making application deployment easier.
+- **Heroku Introduction**: Heroku is introduced as a web platform that abstracts server management<label for="sn-heroku-paas" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-heroku-paas" class="margin-toggle"/><span class="sidenote">Heroku pioneered the Platform-as-a-Service (PaaS) model, introducing concepts like git-based deployments and buildpacks that became industry standards.</span>, making application deployment easier.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JQBnopNPQEc?si=o27f_29E6RvEv9sN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -22,10 +22,10 @@
 
 ## Building for Developers
 - **APIs as First-Class Citizens**: APIs should be designed with developers in mind, treating them as first-class citizens in the development process.
-- **Readme-Driven Development**: Kenneth recommends starting development by writing a README file that outlines how the API will be used, allowing developers to think from a user’s perspective.
+- **Readme-Driven Development**: Kenneth recommends starting development by writing a README file<label for="sn-readme-driven" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-readme-driven" class="margin-toggle"/><span class="sidenote">This development philosophy, popularized by Tom Preston-Werner at GitHub, forces developers to think about user experience before implementation, often resulting in cleaner, more intuitive APIs.</span> that outlines how the API will be used, allowing developers to think from a user's perspective.
 
 ## Pragmatic Development
-- **Problem-Driven Development**: The best way to solve problems is by experiencing them firsthand. Kenneth shares examples, such as GitHub and 37signals, where products were developed to solve the founders' own problems.
+- **Problem-Driven Development**: The best way to solve problems is by experiencing them firsthand. Kenneth shares examples, such as GitHub and 37signals<label for="sn-37signals" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-37signals" class="margin-toggle"/><span class="sidenote">37signals (now Basecamp) famously built their project management tool to solve their own internal collaboration problems, embodying the "scratch your own itch" philosophy of software development.</span>, where products were developed to solve the founders' own problems.
 - **Simplicity Over Functionality**: Kenneth emphasizes that a simple, easy-to-use API is more valuable than one packed with complex features.
 
 ## Closing Thoughts

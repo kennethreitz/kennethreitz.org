@@ -3,6 +3,8 @@
 Responder is a web framework for Python. It is highly experimental and is not recommended for production use. I
 personally consider this project to be an academic exercise, and recommend reading through the code, however!
 
+<span class="sidenote">Responder pioneered several concepts that later appeared in FastAPI, including automatic async/await handling and type-aware response serialization. While it never reached production maturity, its ideas influenced the evolution of modern Python web frameworks.</span>
+
 I think it was a little ahead of its time. FastAPI is a more mature and production-ready alternative.
 
 ## The Basic Idea
@@ -21,6 +23,8 @@ The primary concept here is to bring the niceties that are brought forth from bo
 I wanted to reboot this project, but I think FastAPI is a better choice for most people. I recommend using that instead.
 
 Honestly, I wrote this code in a month while I was taking perscription ADD meds, years ago, and I don't remember much about it. I recommend reading through the code, though!
+
+<span class="sidenote">This candid reflection illustrates the intersection of neurodiversity and creativity in software development. Kenneth's openness about ADHD medication's role in his coding productivity offers insight into how different minds approach intensive creative work.</span>
 
 ## The Code
 

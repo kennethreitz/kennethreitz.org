@@ -32,7 +32,9 @@
 ## Arguments Against Inclusion
 
 - **Independence:**
-  - Requests’ value lies in its superiority over the standard library; inclusion would diminish its ability to innovate and quickly respond to security incidents or spec changes.
+  - Requests' value lies in its superiority over the standard library; inclusion would diminish its ability to innovate and quickly respond to security incidents or spec changes.
+
+<span class="sidenote">This argument proved prescient. The debate over Requests' standard library inclusion highlighted fundamental questions about Python's development philosophy and the role of third-party packages in a language ecosystem.</span>
 
 - **Flexibility:**
   - Inclusion in the standard library could limit the project’s ability to release updates and improvements promptly.

@@ -8,6 +8,8 @@ thread.
 I'm using it on this FastAPI application to run trivial background tasks,
 outside of the main event loop.
 
+<span class="sidenote">The `background` library demonstrates Kenneth's preference for simple, focused solutions over complex frameworks. Rather than requiring heavyweight task queues like Celery, it provides just enough functionality for common background processing needs.</span>
+
 
 ## Installation
 

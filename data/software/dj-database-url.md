@@ -4,6 +4,8 @@
 
 This need arose at my time at Heroku, where we allowed users to configure their Django application by setting an environment variable called `DATABASE_URL`.
 
+<span class="sidenote">This library emerged from Kenneth's work at Heroku, where the twelve-factor app methodology emphasized configuration through environment variables. The simple act of parsing database URLs became essential for cloud-native Django applications.</span>
+
 ## Installation
 
 Installing `dj-database-url` is simple:

@@ -2,6 +2,8 @@
 
 Maya is a Python library that simplifies working with datetimes. It provides a simple and intuitive interface for parsing, formatting, and manipulating dates and times, making it easier to work with temporal data in Python.
 
+<span class="sidenote">Maya was named after the Mayan calendar system, known for its sophisticated understanding of time cycles and astronomical precision. The library embodies this philosophy by making complex temporal operations accessible to everyday programmers.</span>
+
 ## Features
 
 - **Human-readable API**: Maya's API is designed to be easy to read and understand, making it simple to work with datetimes in Python.
@@ -9,6 +11,8 @@ Maya is a Python library that simplifies working with datetimes. It provides a s
 - **Parsing and formatting**: Maya provides functions for parsing datetimes from strings and formatting datetimes to strings, making it easy to work with date and time data.
 - **Manipulation**: Maya allows you to manipulate datetimes by adding or subtracting time intervals, such as days, hours, minutes, and seconds.
 - **Relative datetimes**: Maya supports working with relative datetimes, such as "tomorrow," "next week," or "last month," making it easy to work with dates in a human-friendly way.
+
+<span class="sidenote">The "for Humans" suffix follows the philosophy established by Requests, emphasizing developer experience over technical complexity. This branding became Kenneth's signature approach to API design, prioritizing intuitive interfaces over exhaustive functionality.</span>
 
 ## Installation
 
@@ -35,6 +39,8 @@ print(formatted_dt)
 ```
 
 This will output the current datetime in RFC 2822 format.
+
+<span class="sidenote">Maya's approach to datetime handling addressed Python's notoriously complex datetime and timezone APIs. By providing a unified interface that handles edge cases automatically, Maya made temporal programming accessible to developers who previously struggled with Python's built-in datetime module.</span>
 
 ## Links
 

@@ -2,6 +2,8 @@
 
 [`pytheory`](https://github.com/kennethreitz/pytheory) is a Python library that simplifies working with music theory concepts. It provides a simple and intuitive interface for representing musical elements such as notes, scales, chords, and intervals, making it easier to work with music theory in Python.
 
+<span class="sidenote">PyTheory represents the intersection of Kenneth's programming expertise and his passion for music composition. By bringing computational thinking to music theory, it enables algorithmic exploration of harmonic relationships that traditional notation makes cumbersome.</span>
+
 ## Features
 
 - **Note Representation**: PyTheory allows you to represent musical notes using the standard Western notation (`A`, `Bb`, `C#`, etc.), enabling you to work with notes in different formats.
@@ -41,3 +43,5 @@ Create a `Note` object:
 ```
 
 I'm not sure if this is useful, but it's fun to play with, and it has enhanced my understanding of music theory— especially the `symbolic` parameter.
+
+<span class="sidenote">The symbolic parameter demonstrates PyTheory's unique approach to music computation—rather than just calculating numeric frequencies, it can express pitch relationships as mathematical expressions, revealing the underlying mathematical beauty of musical harmony.</span>

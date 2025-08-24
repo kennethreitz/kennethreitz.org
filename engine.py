@@ -112,6 +112,14 @@ def render_markdown_file(file_path):
         # Process content to HTML
         html_content = markdown(content.strip())
         
+        # Post-processing for poetry line breaks
+        # Check if this is likely a poetry file based on file path
+        if file_path and 'poetry' in str(file_path):
+            # For poetry, convert single line breaks within paragraphs to <br> tags
+            html_content = re.sub(r'<p>(.*?)</p>', 
+                                lambda m: '<p>' + m.group(1).replace('\n', '<br>\n') + '</p>', 
+                                html_content, flags=re.DOTALL)
+        
         # Add classes to headers to prevent conflicts with page headers
         html_content = html_content.replace('<h1>', '<h1 class="content-header">')
         html_content = html_content.replace('<h2>', '<h2 class="content-header">')

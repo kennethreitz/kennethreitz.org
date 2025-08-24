@@ -4,6 +4,8 @@ Yoga (which means *union*) is a group of physical, mental, and spiritual practic
 
 I use the term *vedic* to encapsulate these various philosophies and understandings of the Eastern spiritual traditions. I find that the term *vedic* is a more accurate and respectful term to use when discussing these practices, as it is a term that is used by the practitioners themselves.
 
+<span class="sidenote">Kenneth's careful attention to terminology reflects his respect for Eastern traditions and awareness of cultural appropriation issues. His preference for "vedic" over generalized Western terms demonstrates the same precision he applies to technical documentation—using accurate language rather than convenient simplifications.</span>
+
 ## History
 
 The origins of yoga have been speculated to date back to pre-Vedic Indian traditions; it is mentioned in the Rigveda, but most likely developed around the sixth and fifth centuries BCE, in ancient India's ascetic and śramaṇa movements. The chronology of earliest texts describing yoga-practices is unclear, varyingly credited to the Upanishads. The Yoga Sutras of Patanjali date from the first half of the 1st millennium CE, but only gained prominence in the West in the 20th century. Hatha yoga texts emerged around the 11th century with origins in tantra.
@@ -23,6 +25,8 @@ There are four main paths of yoga:
 
 I consider myself to be a practitioner of Jnana Yoga, as I am primarily interested in the pursuit of knowledge and self-realization.
 
+<span class="sidenote">Jnana Yoga, the path of knowledge through inquiry and discernment, aligns perfectly with Kenneth's analytical programmer mindset. This path emphasizes understanding the nature of reality through direct experience and intellectual inquiry—similar to debugging code or designing elegant APIs.</span>
+
 ## Misappropriation of Yoga
 
 You can see the misappropriation of these practices in the Western world in the form of "yoga pants" and "yoga mats." These are not yoga, but rather the physical practice of yoga, which is only one small part of the larger spiritual tradition.
@@ -32,6 +36,8 @@ You can see the misappropriation of these practices in the Western world in the 
 Meditation is a practice where an individual uses a technique – such as mindfulness, or focusing the mind on a particular object, thought, or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state. Meditation is practiced in numerous religious traditions.
 
 **It is not universally good practice to meditate**. Meditation can be harmful to individuals with certain mental health conditions, such as PTSD or anxiety disorders. It is important to consult with a mental health professional before beginning a meditation practice.
+
+<span class="sidenote">This warning reflects Kenneth's responsible approach to sharing spiritual practices. Drawing from his own mental health experiences, he recognizes that meditation can sometimes exacerbate certain conditions—a nuanced perspective often missing from Western wellness culture's uncritical embrace of Eastern practices.</span>
 
 ## Resources
 

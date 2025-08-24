@@ -1,6 +1,8 @@
 # clint — CLI App Toolkit
 
-This is a very old project (one of my first), and I don't recommend using it. It's not maintained, and there are much better options available now.
+This is a very old project (one of my first)<label for="sn-early-cli" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-early-cli" class="margin-toggle"/>
+<span class="sidenote">Clint was created in the early 2010s when Python CLI tooling was far less mature, predating modern frameworks like Click (2014) and Typer (2019).</span>, and I don't recommend using it. It's not maintained, and there are much better options available now.
 
 Clint is a Python library that provides a set of utilities for building command-line applications. It simplifies the process of creating command-line interfaces (CLIs) by providing a high-level API for defining commands, arguments, and options.
 
@@ -20,10 +22,14 @@ Clint is a Python library that provides a set of utilities for building command-
 
 While Clint was a popular choice for building CLIs in Python, there are now better alternatives available that offer more features and better performance. Some popular CLI libraries include:
 
-- **Click:** A powerful and user-friendly CLI framework for Python.
+- **Click:** A powerful and user-friendly CLI framework for Python<label for="sn-click-influence" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-click-influence" class="margin-toggle"/>
+<span class="sidenote">Click, created by Armin Ronacher, revolutionized Python CLI development with its decorator-based approach and became the foundation for many modern Python applications.</span>.
 - **Typer:** A fast and modern CLI library built on top of Click.
 - **Docopt:** A command-line interface description language that generates parser code in Python.
 - **Argparse:** The standard library module for parsing command-line arguments in Python.
-- **Textual:** A modern and intuitive library for building interactive command-line applications.
+- **Textual:** A modern and intuitive library for building interactive command-line applications<label for="sn-textual-tui" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-textual-tui" class="margin-toggle"/>
+<span class="sidenote">Textual represents the evolution toward rich terminal user interfaces (TUIs), offering widget-based layouts and sophisticated interactivity that goes far beyond traditional CLI patterns.</span>.
 
 Thanks for reading!

@@ -6,8 +6,8 @@
 Kenneth Reitz contrasts Flask and Django, focusing on the benefits of Flask for building modular, maintainable web services.
 
 ### Key Concepts
-- **Django Overview**: While Django provides a robust framework with many built-in features, it often leads to tightly coupled, monolithic applications.
-- **Flask Overview**: Flask offers simplicity and flexibility, making it ideal for building small, composable services. It has fewer built-in features, but this allows for greater customization and modularity.
+- **Django Overview**: While Django provides a robust framework with many built-in features<label for="sn-django-batteries" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-django-batteries" class="margin-toggle"/><span class="sidenote">Django follows the "batteries included" philosophy, providing an ORM, admin interface, authentication system, and templating engine out of the box, which can be both a strength and a constraint.</span>, it often leads to tightly coupled, monolithic applications.
+- **Flask Overview**: Flask offers simplicity and flexibility, making it ideal for building small, composable services<label for="sn-microservices" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-microservices" class="margin-toggle"/><span class="sidenote">This philosophy aligns well with microservices architecture, where small, focused services communicate via APIs rather than being built as monolithic applications.</span>. It has fewer built-in features, but this allows for greater customization and modularity.
 
 ### Conclusion
 Flask is a powerful tool for developers who value simplicity and flexibility over the extensive, opinionated features of Django.

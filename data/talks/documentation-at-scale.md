@@ -6,10 +6,10 @@
 ### Key Concepts
 - **Communication Evolution**: From one-to-one to many-to-many, enabled by the internet.
 - **Power of Documentation**: Documentation extends ideas beyond individuals, allowing for collaborative growth and development.
-- **Tools for Scale**: Modern tools like GitHub and Read the Docs facilitate version-controlled, collaborative documentation.
+- **Tools for Scale**: Modern tools like GitHub and Read the Docs<label for="sn-rtd-revolution" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-rtd-revolution" class="margin-toggle"/><span class="sidenote">Read the Docs revolutionized documentation by automatically building and hosting docs from Git repositories, making it trivial to maintain up-to-date documentation alongside code.</span> facilitate version-controlled, collaborative documentation.
 
 ### Call to Action
-- **Expand Beyond Tech**: Use documentation to develop ideas in humanities, arts, and sciences.
+- **Expand Beyond Tech**: Use documentation to develop ideas in humanities, arts, and sciences<label for="sn-cross-disciplinary" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cross-disciplinary" class="margin-toggle"/><span class="sidenote">This vision anticipates platforms like GitBook, Notion, and Obsidian that democratize knowledge creation across disciplines, not just software development.</span>.
 - **Build and Improve Tools**: Encourage competition and innovation in documentation tools.
 
 [Explore More](http://Python-Guide.org)

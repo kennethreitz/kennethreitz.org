@@ -19,3 +19,5 @@ Falling quickly through: my time, my energy, my Psyché
 What.e.v.e.r.
 
 All hail the sacred Entropy LORDs!
+
+<span class="sidenote">This poem explores the intersection of programming and spirituality, treating code syntax as sacred text. Kenneth's unique perspective as both programmer and poet allows him to find divine meaning in technical precision, while "Entropy LORDs" suggests both chaos theory and the degradation programmers fight against.</span>

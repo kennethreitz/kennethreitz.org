@@ -2,6 +2,8 @@
 
 [Pipenv](https://pipenv.pypa.io/) is a tool for managing Python dependencies. It is a wrapper around pip and virtualenv.
 
+<span class="sidenote">Pipenv was created to solve the "works on my machine" problem that plagued Python development. Before Pipenv, managing dependencies and virtual environments required juggling multiple tools and manual processes, leading to inconsistent development environments across teams.</span>
+
 https://github.com/pypa/pipenv
 
 
@@ -13,6 +15,8 @@ https://github.com/pypa/pipenv
 
 - **Lockfiles for Deterministic Builds:** Pipenv uses a `Pipfile` to specify your dependencies and a `Pipfile.lock` to lock them down. This ensures that you and your team always install the exact same versions, minimizing the "works on my machine" problem.
 
+<span class="sidenote">The `Pipfile.lock` concept was inspired by similar approaches in other ecosystems like npm's package-lock.json and Ruby's Gemfile.lock. This deterministic approach to dependency management became a cornerstone of modern Python development practices.</span>
+
 - **Enhanced Security:** By leveraging hash verification, Pipenv ensures that the packages you install are secure and haven't been tampered with.
 
 - **Simplified Dependency Management:** Pipenv abstracts away the complexity of managing dependencies, making it easier for developers to focus on writing code instead of wrestling with dependency issues.
@@ -23,6 +27,8 @@ https://github.com/pypa/pipenv
 - **Automatic environment management:** Automatically create and manage a virtual environment for your project.
 - **Seamless integration:** Works perfectly with Python's `pip` and `virtualenv`, making it an easy transition for users familiar with these tools.
 - **Cross-platform support:** Pipenv works across all major platforms, ensuring a consistent experience for all developers.
+
+<span class="sidenote">Pipenv's adoption by the Python Packaging Authority (PyPA) as an official project marked a significant shift in Python's packaging ecosystem. This endorsement helped standardize dependency management practices across the Python community.</span>
 
 ## Get Started with Pipenv
 

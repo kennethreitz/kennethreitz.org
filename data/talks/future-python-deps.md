@@ -7,6 +7,8 @@
 
 - **Pipenv** is presented as the future of Python dependency management, offering a streamlined approach compared to traditional methods like `pip` and `virtualenv`.
 
+<span class="sidenote">This talk coincided with Pipenv's adoption as the officially recommended packaging tool by Python.org, marking a significant shift in Python's packaging landscape and validating Kenneth's vision for better dependency management.</span>
+
 ## History and Challenges of Python Packaging
 
 - **Initial Problems:**
@@ -36,6 +38,8 @@
 
 - **No Lockfile:**
   - Python lacked a lockfile for deterministic dependency management, unlike other communities (e.g., Node.js, PHP).
+
+<span class="sidenote">The introduction of lockfiles to Python represented Kenneth's broader philosophy of learning from other language ecosystems. Rather than accepting "that's just how Python works," he imported proven concepts from JavaScript and Ruby communities.</span>
 
 ## The Solution: Pipfile and Pipenv
 

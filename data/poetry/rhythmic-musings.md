@@ -5,7 +5,9 @@ Letting thoughts meander where they please
 Big questions arise, like who stained those autumn leaves?
 Silly songs embed, worming into my audio subconscious
 
-The spoken word, a sculptor's hand
+The spoken word, a sculptor's hand<label for="sn-spoken-word" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-spoken-word" class="margin-toggle"/>
+<span class="sidenote">Spoken word poetry bridges the gap between written verse and musical performance, emphasizing rhythm, cadence, and the physical act of breath as compositional elements.</span>
 Molding ideas, shaping this verbal land
 Are we all so musically inclined?
 I'd argue not, at least not in the same vine-entwined

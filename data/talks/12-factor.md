@@ -10,6 +10,8 @@ This talk recaps the 12 Factor App methodology, which is a set of best practices
 
 - **The Twelve-Factor App** is a methodology for building software-as-a-service (SaaS) applications that ensures consistency, scalability, and ease of deployment across different environments.
 
+<span class="sidenote">Kenneth's presentation of the 12-factor methodology at Heroku helped establish these principles as industry standards. The methodology codified practices that Heroku discovered through hosting thousands of applications, making implicit knowledge explicit.</span>
+
 ## I. Codebase
 
 - **Single Codebase:**
@@ -26,6 +28,8 @@ This talk recaps the 12 Factor App methodology, which is a set of best practices
 
 - **Environment-Based Configuration:**
   - Configuration, including database and service handles, should be stored in the environment, making it easy to manage different deployment environments.
+
+<span class="sidenote">The configuration principle fundamentally changed how developers think about application deployment. By externalizing configuration, applications became truly portable across environments, a concept that seems obvious now but was revolutionary when first articulated.</span>
 
 ## IV. Backing Services
 

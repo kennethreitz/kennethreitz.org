@@ -5,7 +5,7 @@
 
 ## Introduction
 
-- **Python 2.7: A Love Story** explores the emotional and practical challenges faced by the Python community during the transition from Python 2.7 to Python 3, emphasizing the importance of uniting these two versions.
+- **Python 2.7: A Love Story** explores the emotional and practical challenges faced by the Python community during the transition from Python 2.7 to Python 3<label for="sn-python3-transition" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-python3-transition" class="margin-toggle"/><span class="sidenote">The Python 2 to 3 transition, spanning over a decade (2008-2020), was one of the most challenging language migrations in programming history, involving breaking changes to fundamental language features.</span>, emphasizing the importance of uniting these two versions.
 
 ## Evolution of Communication
 
@@ -25,12 +25,12 @@
 
 - **Division and Fear:**
   - The transition from Python 2.7 to Python 3 created a division within the community, leading to fear and uncertainty among developers.
-  - Issues such as differences in string handling and the complexity of Unicode contributed to this fear.
+  - Issues such as differences in string handling and the complexity of Unicode<label for="sn-unicode-complexity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-unicode-complexity" class="margin-toggle"/><span class="sidenote">Python 3's strict separation of bytes and strings, while ultimately beneficial, required developers to explicitly handle encoding/decoding, exposing many hidden assumptions in Python 2 codebases.</span> contributed to this fear.
 
 ## The Great Separation
 
 - **Duality in the Community:**
-  - Python 2 and Python 3 coexisted, but this duality required library maintainers to support both versions, doubling their efforts.
+  - Python 2 and Python 3 coexisted, but this duality required library maintainers to support both versions<label for="sn-dual-support" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-dual-support" class="margin-toggle"/><span class="sidenote">Tools like six, 2to3, and eventually python-future emerged to help manage cross-version compatibility, but maintaining dual codebases remained a significant burden for maintainers.</span>, doubling their efforts.
   - This separation threatened to fragment the community and hinder the language’s progress.
 
 ## The Call to Action

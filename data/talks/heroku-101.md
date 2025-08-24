@@ -12,7 +12,7 @@
 - **Confusion as a Service:**
   - **SaaS (Software as a Service):** For software users, providing more features and transparent updates (e.g., Facebook, Trello).
   - **IaaS (Infrastructure as a Service):** For operations, offering on-demand machine resources (e.g., AWS, Digital Ocean).
-  - **PaaS (Platform as a Service):** For developers, offering transparent updates with no need to manage servers (e.g., Heroku, App Engine).
+  - **PaaS (Platform as a Service):** For developers, offering transparent updates with no need to manage servers<label for="sn-paas-evolution" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-paas-evolution" class="margin-toggle"/><span class="sidenote">PaaS represented a fundamental shift in developer workflow, abstracting away infrastructure concerns and enabling rapid prototyping and deployment that influenced the entire industry.</span> (e.g., Heroku, App Engine).
 
 ## Using Heroku with Python
 
@@ -27,7 +27,7 @@
 ## Understanding Dynos
 
 - **Dyno:**
-  - A Dyno is a lightweight process running in a container, not a traditional server or VM.
+  - A Dyno is a lightweight process running in a container<label for="sn-containerization" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-containerization" class="margin-toggle"/><span class="sidenote">Heroku's dyno model was an early implementation of containerization concepts that later evolved into Docker and Kubernetes orchestration patterns.</span>, not a traditional server or VM.
   - Dynos can be scaled to handle multi-process web applications using commands like `heroku scale`.
 
 ## Managing Applications
@@ -36,7 +36,7 @@
   - Heroku allows running various commands, such as database migrations or opening an interactive Python shell, using `heroku run`.
 
 - **Addon Services:**
-  - Heroku provides managed infrastructure resources like Postgres, Redis, and Kafka.
+  - Heroku provides managed infrastructure resources like Postgres, Redis, and Kafka<label for="sn-addon-ecosystem" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-addon-ecosystem" class="margin-toggle"/><span class="sidenote">The addon ecosystem pioneered the "marketplace" model for cloud services, allowing third-party providers to integrate seamlessly with the platform through standardized APIs.</span>.
   - Addons are easy to integrate and configure within your application.
 
 - **Application Configuration:**

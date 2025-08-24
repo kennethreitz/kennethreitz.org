@@ -7,6 +7,8 @@
 
 - **Growing Open Source Seeds** explores different approaches to open source projects, highlighting the evolution and challenges in the community, particularly focusing on the philosophy and sustainability of open source contributions.
 
+<span class="sidenote">This talk emerged from Kenneth's experience maintaining some of the most popular Python packages. His insights into open source sustainability predate many current discussions about maintainer burnout and funding, offering practical wisdom from someone who lived these challenges.</span>
+
 ## Public vs. Open Source
 
 - **Public Source:**
@@ -24,6 +26,8 @@
   - A "Benevolent Dictator For Life" (BDFL) manages the project, making all key decisions.
   - While community feedback is encouraged, there is no expectation that it will influence decisions.
   - Benefits include quick iteration and maintaining a strong vision, but it carries risks like low bus-factor and high burnout potential.
+
+<span class="sidenote">Kenneth's frank discussion of the BDFL model was controversial but honest. He recognized that while community-driven projects have benefits, sometimes a single vision is necessary to maintain coherence and prevent feature creep.</span>
 
 ## Lessons in Open Source
 
@@ -47,6 +51,8 @@
 - **Simplicity Over Functionality:**
   - Maintain simplicity by rejecting features or pull requests that add unnecessary complexity.
   - Simple code is easier to maintain, while complex code leads to technical debt and higher maintenance burdens.
+
+<span class="sidenote">The power of saying "no" became a central principle in Kenneth's approach to open source. This philosophy helped Requests maintain its elegant simplicity despite thousands of feature requests, proving that restraint can be more valuable than addition.</span>
 
 ## Conclusion
 

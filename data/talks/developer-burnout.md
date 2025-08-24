@@ -7,6 +7,8 @@
 ### Introduction
 Kenneth Reitz explores the pervasive issue of developer burnout, sharing his personal experiences and the impact of burnout on mental health and productivity.
 
+<span class="sidenote">This talk was groundbreaking for its time, openly addressing mental health in tech when such discussions were rare. Kenneth's vulnerability in sharing his personal struggles with burnout helped normalize mental health conversations in the developer community.</span>
+
 ### Key Points
 - **Burnout Symptoms**: Gradual onset, leading to a feeling of entrapment and dissatisfaction.
 - **Effects**: Depression, loss of motivation, and the entropy of goals.
@@ -16,6 +18,8 @@ Kenneth Reitz explores the pervasive issue of developer burnout, sharing his per
   - Engage in hobbies outside of work.
   - Reduce social media engagement by switching to a "publish-only" mode.
   - Take breaks when needed.
+
+<span class="sidenote">The "publish-only" social media strategy was particularly influential, offering a practical way for developers to maintain their professional presence while protecting their mental health from the toxicity and time drain of social media engagement.</span>
 
 ### Conclusion
 Focus on self-care, delegate tasks, and maintain a balanced lifestyle to mitigate burnout.

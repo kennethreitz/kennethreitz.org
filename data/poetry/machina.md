@@ -9,3 +9,5 @@ That's the future that I forsee.
 
 A place for yous and mes —
 The yes/no ends with maybe so.
+
+<span class="sidenote">This piece reflects Kenneth's vision of human-machine collaboration, where computers are neither overlords nor mere tools, but partners. The binary "yes/no" dissolving into "maybe so" suggests a future where AI systems embrace uncertainty and nuance rather than rigid logic.</span>

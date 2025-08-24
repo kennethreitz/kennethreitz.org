@@ -2,6 +2,8 @@
 
 Simplemind is a Python library that makes working with AI APIs straightforward and intuitive. It provides a unified interface to popular AI services like OpenAI, Anthropic, Google's Gemini, and others, letting you focus on building rather than wrestling with different API implementations. With its "for humans" philosophy, Simplemind handles the complexity while giving you a clean, consistent way to interact with AI capabilities.
 
+<span class="sidenote">Simplemind applies Kenneth's signature "for humans" approach to the rapidly evolving AI landscape. By providing a consistent interface across different AI providers, it addresses the fragmentation problem that developers face when integrating multiple AI services into their applications.</span>
+
 
 ```bash
 $ pip install simplemind
@@ -43,3 +45,5 @@ response = claude.generate_text("Hello!")
 ```
 
 Simplemind is open source under the Apache 2.0 License and welcomes contributions from the community. For more examples and documentation, visit the [GitHub repository](https://github.com/kennethreitz/simplemind).
+
+<span class="sidenote">Simplemind represents Kenneth's engagement with the AI revolution, bringing his decades of API design experience to bear on one of the most significant technological shifts of our time. The library reflects his understanding that great technology should be accessible to all developers, not just AI specialists.</span>

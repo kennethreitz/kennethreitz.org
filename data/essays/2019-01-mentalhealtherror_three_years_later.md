@@ -34,16 +34,16 @@
 
  ## Schizoaffective Disorder \& Borderline PTSD
 
- My diagnosis has changed from [Bipolar Disorder (Type 1\)](https://en.wikipedia.org/wiki/Bipolar_disorder) to a potentially more stigmatized [Schizoaffective Disorder (Bipolar subtype)](https://en.wikipedia.org/wiki/Schizoaffective_disorder). The key differentiator between these diagnoses is that a schizoaffective patient can experience delusions/hallucinations *all the time*, not only during periods of mania.
+ My diagnosis has changed from [Bipolar Disorder (Type 1\)](https://en.wikipedia.org/wiki/Bipolar_disorder) to a potentially more stigmatized [Schizoaffective Disorder (Bipolar subtype)](https://en.wikipedia.org/wiki/Schizoaffective_disorder).<label for="sn-diagnosis-change" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-diagnosis-change" class="margin-toggle"/><span class="sidenote">Diagnostic changes in mental health reflect evolving understanding of symptoms. Schizoaffective disorder combines features of schizophrenia and mood disorders, affecting approximately 0.3% of the population.</span> The key differentiator between these diagnoses is that a schizoaffective patient can experience delusions/hallucinations *all the time*, not only during periods of mania.
 
  Luckily, my psyche is relatively well\-controlled (most of the time), and I am able to recognize immediately when something that I perceive isn't based on real sensory data. Sometimes, hallucinations can be trans\-sensory, which is harder to detect, and causes a sort of self\-induced [synesthesia](https://en.wikipedia.org/wiki/Synesthesia) to present itself.
 
- My doctor informed me that *most people that have my diagnosis are homeless*.   
+ My doctor informed me that *most people that have my diagnosis are homeless*.<label for="sn-homelessness-statistics" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-homelessness-statistics" class="margin-toggle"/><span class="sidenote">Studies show that individuals with serious mental illness like schizoaffective disorder are significantly overrepresented in homeless populations, often due to inadequate community mental health services and support systems.</span>   
   
 I have also been diagnosed with “borderline” Post\-Traumatic Stress Disorder. I take gabapentin   
 (scheduled) for that.
 
- I have also switched medications from [Lithium](https://en.wikipedia.org/wiki/Lithium_(medication)) to [Abilify Maintaina](https://en.wikipedia.org/wiki/Aripiprazole) (a $2,000/mo injection, without insurance). It seems to work rather well for me, most of the time, with few side effects. Lithium was a horrible experience of side\-effects, and the pros didn't outweigh the cons.  
+ I have also switched medications from [Lithium](https://en.wikipedia.org/wiki/Lithium_(medication)) to [Abilify Maintaina](https://en.wikipedia.org/wiki/Aripiprazole) (a $2,000/mo injection, without insurance).<label for="sn-medication-costs" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-medication-costs" class="margin-toggle"/><span class="sidenote">The high cost of newer psychiatric medications highlights issues with healthcare accessibility. Long-acting injections like Abilify Maintena improve medication compliance but can be financially prohibitive without insurance coverage.</span> It seems to work rather well for me, most of the time, with few side effects. Lithium was a horrible experience of side\-effects, and the pros didn't outweigh the cons.  
   
 
 
