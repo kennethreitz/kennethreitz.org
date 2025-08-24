@@ -7,6 +7,7 @@ from datetime import datetime
 from urllib.parse import quote
 import json
 from functools import lru_cache
+import time
 from xml.sax.saxutils import escape
 
 app = Flask(__name__, template_folder='templates')
@@ -176,7 +177,7 @@ def extract_tags_from_content(content, metadata, file_path):
     return list(tags)[:5]
 
 
-@lru_cache(maxsize=16)
+@lru_cache(maxsize=128)
 def render_markdown_file(file_path):
     """Render a markdown file to HTML with caching for performance."""
     try:
@@ -780,8 +781,20 @@ def collect_blog_posts():
     return posts[:20]  # Return most recent 20 posts
 
 
-def collect_all_blog_posts():
-    """Collect all blog posts from essays and AI writings for archive pages."""
+# Cache with TTL
+_blog_posts_cache = {'data': None, 'timestamp': 0}
+CACHE_TTL = 300  # 5 minutes cache
+
+def _collect_all_blog_posts_cached():
+    """Internal cached function to collect all blog posts with TTL."""
+    current_time = time.time()
+    
+    # Check if cache is valid
+    if (_blog_posts_cache['data'] is not None and 
+        current_time - _blog_posts_cache['timestamp'] < CACHE_TTL):
+        return _blog_posts_cache['data']
+    
+    # Cache miss or expired - rebuild
     posts = []
     
     # Define blog post directories
@@ -910,7 +923,17 @@ def collect_all_blog_posts():
     # Sort by publication date (most recent first)
     posts.sort(key=lambda x: x['pub_date'], reverse=True)
     
-    return posts
+    # Update cache
+    result = tuple(posts)
+    _blog_posts_cache['data'] = result
+    _blog_posts_cache['timestamp'] = time.time()
+    
+    return result
+
+
+def collect_all_blog_posts():
+    """Public function to collect all blog posts - converts cached tuple back to list."""
+    return list(_collect_all_blog_posts_cached())
 
 
 def find_related_posts(current_post_path, limit=3):
