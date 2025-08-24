@@ -41,7 +41,7 @@ not mutually exclusive
 
 Writing with pencil — seems good to me
 writing with whatever— pressure sensitivity
-the devil's in teh details, they say
+the devil's in the details, they say
 therefore, the Angels are in the rhymes
 
 thinner writing — contemplating the meaning of it all
