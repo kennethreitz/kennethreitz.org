@@ -1,18 +1,28 @@
 Here is a list of some of my software projects.
 
-You can find more projects on my [GitHub profile](https://github.com/kennethreitz). I try to always be working on something new and exciting! That isn't always the case, though.
+You can find more projects on my [GitHub profile](https://github.com/kennethreitz).<label for="sn-github" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-github" class="margin-toggle"/>
+<span class="sidenote">My GitHub shows over 100+ repositories spanning Python libraries, web applications, and experimental projects dating back to 2008.</span> I try to always be working on something new and exciting! That isn't always the case, though.
 
 ## Motivations
 
-I write software for a variety of reasons. Sometimes, I write software to solve a problem that I have. Other times, I write software to learn something new. I also write software to help others solve their problems. I have found, however, that the most rewarding software projects are those that are written to help yourself.
+I write software for a variety of reasons. Sometimes, I write software to solve a problem that I have. Other times, I write software to learn something new. I also write software to help others solve their problems.<label for="sn-problems" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-problems" class="margin-toggle"/>
+<span class="sidenote">This "scratch your own itch" philosophy led to Requests (solving HTTP frustration), Certifi (certificate headaches), and Pipenv (workflow pain points).</span> I have found, however, that the most rewarding software projects are those that are written to help yourself.
 
-I have always had a fascination and love for software and the computers that ran them. It's strange, being in a modern world where software is so prevalent, and yet so few people understand how it works. I have always been drawn to the magic of software, and I love to share that magic with others.
+I have always had a fascination and love for software and the computers that ran them.<label for="sn-fascination" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-fascination" class="margin-toggle"/>
+<span class="sidenote">This began in childhood with BASIC programming on early computers, evolved through web development, and now includes exploring AI consciousness and digital creativity.</span> It's strange, being in a modern world where software is so prevalent, and yet so few people understand how it works. I have always been drawn to the magic of software, and I love to share that magic with others.
 
 ## Philosophy
 
-[PEP 8](/software/websites/pep8-org) is the style guide for Python code. It is a set of rules that help you write clean, readable code. It is a guide to writing code that is easy to understand and maintain. It is a guide to writing code that is easy to share with others.
+[PEP 8](/software/websites/pep8-org) is the style guide for Python code.<label for="sn-pep8" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-pep8" class="margin-toggle"/>
+<span class="sidenote">I maintain pep8.org as a clean, readable version of Python's official style guide, making it more accessible to developers worldwide.</span> It is a set of rules that help you write clean, readable code. It is a guide to writing code that is easy to understand and maintain. It is a guide to writing code that is easy to share with others.
 
-I love taking the *Zen of Python* philosophy and applying it to all areas of life.
+I love taking the *Zen of Python* philosophy<label for="sn-zen" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-zen" class="margin-toggle"/>
+<span class="sidenote">Tim Peters' "Zen of Python" (PEP 20) contains 19 guiding principles that influence not just code structure, but API design, documentation, and user experience.</span> and applying it to all areas of life.
 
 - Beautiful is better than ugly.
 - Explicit is better than implicit.

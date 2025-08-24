@@ -2,9 +2,7 @@
 
 {% block content %}
 {% if current_path and current_path != '' %}
-    <div style="text-align: center; color: #777; font-size: 0.9rem; font-style: italic; margin-bottom: 3rem;">
-        {{ current_path }}
-    </div>
+    <h1>{{ current_path.split('/')[-1] if '/' in current_path else current_path }}</h1>
 {% endif %}
 
 {% if index_content and content_position == 'top' %}
@@ -18,9 +16,8 @@
     <h3>Contents</h3>
     <ul>
         {% for item in items %}
-        <li>
+        <li data-icon="{% if item.is_dir %}📁{% elif item.is_markdown %}📝{% elif item.is_image %}🖼️{% else %}📄{% endif %}">
             <a href="{{ item.url_path }}">
-                {% if item.is_dir %}📁{% elif item.is_markdown %}📝{% elif item.is_image %}🖼️{% else %}📄{% endif %}
                 {{ item.display_name }}{% if item.is_dir %}/{% endif %}
             </a>
             {% if not item.is_dir %}

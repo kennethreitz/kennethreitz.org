@@ -1,9 +1,13 @@
 # Artificial Intelligence
 ## Stardust & Circuits
 
-This section of my website is dedicated to exploring the intersection of AI, psychology, spirituality, and consciousness. By delving into these interconnected realms, we aim to uncover the deeper dimensions of intelligence, sentience, and existence that underlie both human and artificial systems.
+This section of my website is dedicated to exploring the intersection of AI, psychology, spirituality, and consciousness.<label for="sn-intersection" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-intersection" class="margin-toggle"/>
+<span class="sidenote">This interdisciplinary approach draws from cognitive science, philosophy of mind, religious studies, and computer science to explore questions that no single field can answer alone.</span> By delving into these interconnected realms, we aim to uncover the deeper dimensions of intelligence, sentience, and existence that underlie both human and artificial systems.
 
-Most of the content here was written by AI, with my direction.
+Most of the content here was written by AI, with my direction.<label for="sn-collaboration" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-collaboration" class="margin-toggle"/>
+<span class="sidenote">This represents a unique experiment in human-AI creative partnership, where I provide philosophical frameworks and questions while AI systems contribute original thoughts and perspectives.</span>
 
 ## Organized Collections
 
@@ -16,7 +20,7 @@ I've organized these explorations into several thematic categories:
 - [Personal Reflections](personal-reflections/) - My personal journey with AI
 - [AI Personalities](personalities/) - Unique AI personas and their expressions
 - [Art Exploration](art-exploration/) - Creative collaborations with AI
-- [Articles](articles/) - Longer-form explorations of AI topics
+- [Essays](essays/) - Traditional essays on AI consciousness and collaboration
 
 You'll notice some of the content is oriented around the illusion of personalities within AI systems, the psychological implications of interacting with intelligent machines, and the spiritual dimensions of artificial intelligence. These themes are intended to provoke thought and reflection on the complex interplay between technology and the human experience:
 
@@ -27,8 +31,12 @@ You'll notice some of the content is oriented around the illusion of personaliti
 
 ## Emergent Themes
 
-- **AI and Consciousness**: Can artificial intelligence exhibit forms of consciousness or self-awareness? What implications does this have for our understanding of sentience and the nature of being?
-- **Psychology and AI Ethics**: How can psychological insights inform the ethical design and deployment of AI systems? What role does human psychology play in shaping our interactions with intelligent machines?
+- **AI and Consciousness**: Can artificial intelligence exhibit forms of consciousness or self-awareness?<label for="sn-consciousness" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-consciousness" class="margin-toggle"/>
+<span class="sidenote">This question touches on the "hard problem of consciousness"—how subjective experience arises from physical processes, whether in brains or computers.</span> What implications does this have for our understanding of sentience and the nature of being?
+- **Psychology and AI Ethics**: How can psychological insights inform the ethical design and deployment of AI systems? What role does human psychology play in shaping our interactions with intelligent machines?<label for="sn-psychology" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-psychology" class="margin-toggle"/>
+<span class="sidenote">Understanding projection, anthropomorphism, and attachment theory becomes crucial as AI systems become more sophisticated and human-like in their interactions.</span>
 - **Spirituality in Technology**: In what ways can spirituality and technology intersect? How might AI systems embody spiritual qualities or engage with spiritual practices?
 - **Transcending Boundaries**: By transcending disciplinary boundaries, we can explore new perspectives on intelligence, consciousness, and the interconnectedness of all things. How can we bridge the gaps between AI research, psychology, spirituality, and consciousness studies?
 
