@@ -2,649 +2,111 @@
 
 {% block title %}Kenneth Reitz{% endblock %}
 
-{% block extra_head %}
-<style>
-    /* Homepage-specific styles */
-    .hero {
-        text-align: center;
-        margin: 4rem 0 6rem;
-        border-bottom: 1px solid #ddd;
-        padding-bottom: 4rem;
-    }
-    
-    .hero h1 {
-        font-size: 3.8rem;
-        font-weight: 300;
-        margin-bottom: 1.5rem;
-        color: #111;
-        letter-spacing: -0.02em;
-    }
-    
-    .hero .tagline {
-        font-size: 1.6rem;
-        color: #555;
-        font-style: italic;
-        max-width: 45rem;
-        margin: 0 auto 2rem;
-        line-height: 1.6;
-        width: auto !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-    
-    .hero .stats {
-        font-size: 1rem;
-        color: #888;
-        margin-top: 2rem;
-        font-weight: 500;
-    }
-    
-    .hero .stats strong {
-        color: #444;
-        font-weight: 600;
-    }
-    
-    .manifesto {
-        max-width: 60rem;
-        margin: 0 auto 5rem;
-        font-size: 1.3rem;
-        line-height: 1.8;
-        text-align: center;
-        font-style: italic;
-        color: #444;
-        padding: 3rem 2rem;
-        background: #fafafa;
-        border-radius: 12px;
-        border-left: 4px solid #ddd;
-    }
-    
-    .intro {
-        max-width: 58rem;
-        margin: 0 auto 5rem;
-        font-size: 1.2rem;
-        line-height: 1.8;
-    }
-    
-    .intro p:first-child {
-        font-size: 1.4rem;
-        margin-bottom: 2.5rem;
-        font-weight: 400;
-    }
-    
-    .projects {
-        margin: 6rem 0;
-        border-top: 1px solid #eee;
-        padding-top: 5rem;
-    }
-    
-    .projects h2 {
-        font-size: 2.4rem;
-        margin-bottom: 3rem;
-        text-align: center;
-        color: #222;
-        font-weight: 300;
-    }
-    
-    .projects .section-intro {
-        text-align: center;
-        max-width: 50rem;
-        margin: 0 auto 4rem;
-        font-size: 1.2rem;
-        color: #666;
-        font-style: italic;
-    }
-    
-    .project-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        gap: 2.5rem;
-        margin: 4rem 0;
-    }
-    
-    .project-card {
-        padding: 2.5rem;
-        border: 1px solid #e8e8e8;
-        border-radius: 12px;
-        background: linear-gradient(135deg, #fafafa 0%, #ffffff 100%);
-        transition: all 0.3s ease;
-        position: relative;
-        overflow: hidden;
-    }
-    
-    .project-card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 3px;
-        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-        opacity: 0;
-        transition: opacity 0.3s ease;
-    }
-    
-    .project-card:hover {
-        border-color: #ccc;
-        background: #fff;
-        transform: translateY(-4px);
-        box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-    }
-    
-    .project-card:hover::before {
-        opacity: 1;
-    }
-    
-    .project-card h3 {
-        margin-top: 0;
-        margin-bottom: 1rem;
-        font-size: 1.5rem;
-        color: #222;
-        font-weight: 500;
-    }
-    
-    .project-card p {
-        color: #555;
-        line-height: 1.7;
-        margin-bottom: 2rem;
-        font-size: 1.1rem;
-    }
-    
-    .project-card .meta {
-        font-size: 0.9rem;
-        color: #888;
-        border-top: 1px solid #f0f0f0;
-        padding-top: 1.5rem;
-        margin-top: auto;
-        font-weight: 500;
-    }
-    
-    .philosophy {
-        margin: 6rem 0;
-        border-top: 1px solid #eee;
-        padding-top: 5rem;
-        background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
-        padding: 5rem 3rem;
-        border-radius: 16px;
-        text-align: center;
-    }
-    
-    .philosophy h2 {
-        font-size: 2.4rem;
-        margin-bottom: 2rem;
-        color: #222;
-        font-weight: 300;
-    }
-    
-    .philosophy-content {
-        max-width: 55rem;
-        margin: 0 auto;
-        font-size: 1.3rem;
-        line-height: 1.8;
-        color: #444;
-    }
-    
-    .philosophy blockquote {
-        font-size: 1.5rem;
-        font-style: italic;
-        color: #333;
-        border-left: 4px solid #ddd;
-        padding-left: 2rem;
-        margin: 3rem 0;
-        background: none;
-    }
-    
-    .recent-writing {
-        margin: 6rem 0;
-        border-top: 1px solid #eee;
-        padding-top: 5rem;
-    }
-    
-    .recent-writing h2 {
-        font-size: 2.4rem;
-        margin-bottom: 3rem;
-        text-align: center;
-        color: #222;
-        font-weight: 300;
-    }
-    
-    .writing-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 2rem;
-        margin: 3rem 0;
-    }
-    
-    .writing-card {
-        padding: 2rem;
-        border: 1px solid #f0f0f0;
-        border-radius: 8px;
-        background: #fafafa;
-        transition: all 0.2s ease;
-    }
-    
-    .writing-card:hover {
-        border-color: #ddd;
-        background: #fff;
-        transform: translateY(-2px);
-        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    }
-    
-    .writing-card h3 {
-        margin: 0 0 0.75rem 0;
-        font-size: 1.2rem;
-        font-weight: 500;
-    }
-    
-    .writing-card .desc {
-        color: #666;
-        font-style: italic;
-        margin: 0;
-        line-height: 1.6;
-    }
-    
-    .personal-touch {
-        margin: 6rem 0;
-        padding: 4rem 3rem;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        border-radius: 16px;
-        text-align: center;
-    }
-    
-    .personal-touch h2 {
-        color: white;
-        font-size: 2.2rem;
-        margin-bottom: 2rem;
-        font-weight: 300;
-    }
-    
-    .personal-touch p {
-        font-size: 1.2rem;
-        line-height: 1.7;
-        max-width: 50rem;
-        margin: 0 auto;
-        opacity: 0.95;
-    }
-    
-    .connect {
-        margin: 5rem 0 3rem;
-        text-align: center;
-        padding-top: 4rem;
-    }
-    
-    .connect h2 {
-        font-size: 2.2rem;
-        margin-bottom: 2rem;
-        color: #222;
-        font-weight: 300;
-    }
-    
-    .connect p {
-        font-size: 1.2rem;
-        color: #555;
-        max-width: 45rem;
-        margin: 0 auto;
-        line-height: 1.8;
-    }
-    
-    @media (max-width: 760px) {
-        .hero h1 {
-            font-size: 2.5rem;
-        }
-        
-        .hero .tagline {
-            font-size: 1.3rem;
-        }
-        
-        .manifesto {
-            font-size: 1.1rem;
-            padding: 2rem 1.5rem;
-            margin-left: 1rem;
-            margin-right: 1rem;
-        }
-        
-        .intro {
-            font-size: 1.1rem;
-        }
-        
-        .project-grid {
-            grid-template-columns: 1fr;
-            gap: 2rem;
-        }
-        
-        .project-card {
-            padding: 2rem;
-        }
-        
-        .philosophy, .personal-touch {
-            padding: 3rem 2rem;
-            margin-left: 1rem;
-            margin-right: 1rem;
-        }
-        
-        .writing-grid {
-            grid-template-columns: 1fr;
-        }
-    }
-</style>
-{% endblock %}
-
 {% block content %}
-<div class="hero">
-    <h1>Kenneth Reitz</h1>
-    <p class="tagline">
-        Python Alchemist. API Architect. Human-Centered Designer.<br>
-        Creator of <a href="https://requests.readthedocs.io/">Requests</a>, 
-        <a href="https://github.com/certifi/python-certifi">Certifi</a>, 
-        <a href="/software/pipenv">Pipenv</a>, <a href="/software/records">Records</a>, 
-        <a href="/software/maya">Maya</a> & more.
-    </p>
-    <div class="stats">
-        Over <strong>45 million downloads daily</strong> · Trusted by millions of developers worldwide
-    </div>
-    
-    <div class="pong-game">
-        <canvas id="pongCanvas" width="500" height="250" style="border: 2px solid #ddd; border-radius: 8px; background: #f8f9fa; margin: 2rem 0 0.5rem;"></canvas>
-        <p style="font-size: 0.8rem; color: #bbb; margin: 0.5rem 0 0;">Click game area, then use W/S keys to play</p>
-    </div>
-</div>
+<h1>Kenneth Reitz</h1>
 
-<div class="manifesto">
-    "Code should be beautiful. APIs should feel like magic. Technology should serve humans, not the other way around."
-</div>
+<p class="subtitle">Python Alchemist. API Architect. Human-Centered Designer.<br>
+Creator of <a href="https://requests.readthedocs.io/">Requests</a>, 
+<a href="https://github.com/certifi/python-certifi">Certifi</a>, 
+<a href="/software/pipenv">Pipenv</a>, <a href="/software/records">Records</a>, 
+<a href="/software/maya">Maya</a> & more.</p>
 
-<section class="intro">
-    <p>
-        I'm a believer in the profound power of elegant simplicity. When I set out to create Requests, 
-        I wasn't just solving HTTP in Python—I was making a statement about what software could be. 
-        Beautiful. Intuitive. Joyful to use.
-    </p>
-    
-    <p>
-        My journey through technology has taught me that the most impactful innovations don't just work—they 
-        <em>feel right</em>. From the first line of Requests to the architectural decisions in Certifi, 
-        every choice reflects a core belief: developers are humans first, and our tools should honor that humanity.
-    </p>
-    
-    <p>
-        Beyond the 45 million daily downloads and the libraries that power much of the modern web, I'm passionate 
-        about mental health awareness, the philosophy of consciousness, music production, and exploring how 
-        artificial intelligence might reshape our understanding of what it means to think and create.
-    </p>
+<section>
+    <blockquote>
+        <p>Code should be beautiful. APIs should feel like magic. Technology should serve humans, not the other way around.</p>
+    </blockquote>
 </section>
 
-<section class="projects">
+<section>
+    <p>I'm a believer in the profound power of elegant simplicity. When I set out to create Requests, 
+    I wasn't just solving HTTP in Python—I was making a statement about what software could be. 
+    Beautiful. Intuitive. Joyful to use.</p>
+    
+    <p>My journey through technology has taught me that the most impactful innovations don't just work—they 
+    <em>feel right</em>. From the first line of Requests to the architectural decisions in Certifi, 
+    every choice reflects a core belief: developers are humans first, and our tools should honor that humanity.</p>
+    
+    <p>Beyond the 45 million daily downloads and the libraries that power much of the modern web, I'm passionate 
+    about mental health awareness, the philosophy of consciousness, music production, and exploring how 
+    artificial intelligence might reshape our understanding of what it means to think and create.</p>
+</section>
+
+<section>
     <h2>The Work That Matters</h2>
-    <p class="section-intro">
-        Each project represents years of thoughtful iteration, community feedback, and an obsession with developer experience.
-    </p>
+    <p>Each project represents years of thoughtful iteration, community feedback, and an obsession with developer experience.</p>
     
-    <div class="project-grid">
-        <div class="project-card">
-            <h3><a href="https://requests.readthedocs.io/">Requests: HTTP for Humans™</a></h3>
-            <p>The library that redefined what HTTP could feel like in Python. Simple, elegant, powerful. "There are 9 million reasons to use Requests," and developers worldwide have discovered them.</p>
-            <div class="meta">~25M daily downloads · The gold standard for HTTP libraries</div>
-        </div>
-        
-        <div class="project-card">
-            <h3><a href="https://github.com/certifi/python-certifi">Certifi: Trust Database for Humans™</a></h3>
-            <p>The invisible guardian of internet security. A carefully curated collection of Root Certificates that validates the trust between your code and the rest of the world.</p>
-            <div class="meta">~20M daily downloads · Security infrastructure you can depend on</div>
-        </div>
-        
-        <div class="project-card">
-            <h3><a href="/software/pipenv">Pipenv: Python Packaging for Humans™</a></h3>
-            <p>Bringing sanity to Python dependency management. The official PyPA-recommended tool that finally made Python packaging feel natural and intuitive.</p>
-            <div class="meta">Official PyPA recommendation · Dependency management, simplified</div>
-        </div>
-        
-        <div class="project-card">
-            <h3><a href="https://python-guide.readthedocs.io/">The Hitchhiker's Guide to Python</a></h3>
-            <p>An opinionated guide to Python development that's become essential reading for developers worldwide. Best practices, project structure, and the Python philosophy, distilled.</p>
-            <div class="meta">Community treasure · Thousands of contributors · Essential reading</div>
-        </div>
-        
-        <div class="project-card">
-            <h3><a href="/software/records">Records: SQL for Humans™</a></h3>
-            <p>Database queries without the cognitive overhead. Raw SQL power with Python elegance—because sometimes you just want to write SQL and get results back.</p>
-            <div class="meta">Database abstraction · Beautifully simple</div>
-        </div>
-        
-        <div class="project-card">
-            <h3><a href="/software/maya">Maya: Datetimes for Humans™</a></h3>
-            <p>Time handling that doesn't make you want to scream. Intuitive datetime manipulation that finally makes working with time zones and intervals feel natural.</p>
-            <div class="meta">DateTime handling · Human-friendly API design</div>
-        </div>
-    </div>
+    <h3>Requests: HTTP for Humans™</h3>
+    <p>The library that redefined what HTTP could feel like in Python. Simple, elegant, powerful. "There are 9 million reasons to use Requests," and developers worldwide have discovered them.<label for="sn-requests" class="margin-toggle sidenote-number"></label>
+    <input type="checkbox" id="sn-requests" class="margin-toggle"/>
+    <span class="sidenote">~25M daily downloads · The gold standard for HTTP libraries</span></p>
+    
+    <h3>Certifi: Trust Database for Humans™</h3>
+    <p>The invisible guardian of internet security. A carefully curated collection of Root Certificates that validates the trust between your code and the rest of the world.<label for="sn-certifi" class="margin-toggle sidenote-number"></label>
+    <input type="checkbox" id="sn-certifi" class="margin-toggle"/>
+    <span class="sidenote">~20M daily downloads · Security infrastructure you can depend on</span></p>
+    
+    <h3>Pipenv: Python Packaging for Humans™</h3>
+    <p>Bringing sanity to Python dependency management. The official PyPA-recommended tool that finally made Python packaging feel natural and intuitive.<label for="sn-pipenv" class="margin-toggle sidenote-number"></label>
+    <input type="checkbox" id="sn-pipenv" class="margin-toggle"/>
+    <span class="sidenote">Official PyPA recommendation · Dependency management, simplified</span></p>
+    
+    <h3>The Hitchhiker's Guide to Python</h3>
+    <p>An opinionated guide to Python development that's become essential reading for developers worldwide. Best practices, project structure, and the Python philosophy, distilled.<label for="sn-guide" class="margin-toggle sidenote-number"></label>
+    <input type="checkbox" id="sn-guide" class="margin-toggle"/>
+    <span class="sidenote">Community treasure · Thousands of contributors · Essential reading</span></p>
+    
+    <h3>Records: SQL for Humans™</h3>
+    <p>Database queries without the cognitive overhead. Raw SQL power with Python elegance—because sometimes you just want to write SQL and get results back.</p>
+    
+    <h3>Maya: Datetimes for Humans™</h3>
+    <p>Time handling that doesn't make you want to scream. Intuitive datetime manipulation that finally makes working with time zones and intervals feel natural.</p>
 </section>
 
-<section class="philosophy">
+<section>
     <h2>Design Philosophy</h2>
-    <div class="philosophy-content">
-        <p>Every line of code I write is guided by a simple principle: technology should amplify human potential, not complicate it.</p>
-        
-        <blockquote>
-            "Simplicity is the ultimate sophistication." —Leonardo da Vinci
-        </blockquote>
-        
-        <p>This isn't just about clean APIs or elegant syntax. It's about recognizing that behind every <code>import requests</code> is a human being trying to solve a problem, build something meaningful, or maybe just get home to their family a little earlier.</p>
-        
-        <p>When millions of developers trust your code to power their applications, you carry a responsibility that goes beyond functionality. You're shaping how people think about problems, how they approach solutions, and ultimately, how they feel about their craft.</p>
-    </div>
+    <p>Every line of code I write is guided by a simple principle: technology should amplify human potential, not complicate it.</p>
+    
+    <blockquote>
+        <p><span class="newthought">Simplicity</span> is the ultimate sophistication.<label for="sn-da-vinci" class="margin-toggle sidenote-number"></label>
+        <input type="checkbox" id="sn-da-vinci" class="margin-toggle"/>
+        <span class="sidenote">Often attributed to Leonardo da Vinci, though the exact origin is disputed. The sentiment perfectly captures the essence of elegant design.</span></p>
+    </blockquote>
+    
+    <p>This isn't just about clean APIs or elegant syntax. It's about recognizing that behind every <code>import requests</code> is a human being trying to solve a problem, build something meaningful, or maybe just get home to their family a little earlier.</p>
+    
+    <p>When millions of developers trust your code to power their applications, you carry a responsibility that goes beyond functionality. You're shaping how people think about problems, how they approach solutions, and ultimately, how they feel about their craft.<label for="sn-responsibility" class="margin-toggle sidenote-number"></label>
+        <input type="checkbox" id="sn-responsibility" class="margin-toggle"/>
+        <span class="sidenote">This philosophy extends beyond code to documentation, community building, and the entire developer experience ecosystem.</span></p>
 </section>
 
-<section class="recent-writing">
+<section>
     <h2>Recent Explorations</h2>
-    <div class="writing-grid">
-        <div class="writing-card">
-            <h3><a href="/artificial-intelligence">AI & Digital Consciousness</a></h3>
-            <p class="desc">Deep dives into artificial intelligence, consciousness, and the evolving relationship between humans and machines</p>
-        </div>
-        
-        <div class="writing-card">
-            <h3><a href="/essays">Essays & Reflections</a></h3>
-            <p class="desc">Thoughts on technology, philosophy, mental health, and the craft of building software that matters</p>
-        </div>
-        
-        <div class="writing-card">
-            <h3><a href="/mental-health">Mental Health Journey</a></h3>
-            <p class="desc">Honest reflections on living with bipolar disorder, finding balance, and the intersection of creativity and mental wellness</p>
-        </div>
-        
-        <div class="writing-card">
-            <h3><a href="/values">Core Values</a></h3>
-            <p class="desc">The principles that guide my work: simplicity, accessibility, human-centered design, and authentic collaboration</p>
-        </div>
-        
-        <div class="writing-card">
-            <h3><a href="/talks">Conference Talks</a></h3>
-            <p class="desc">Presentations on Python, API design, developer experience, and building sustainable open source communities</p>
-        </div>
-        
-        <div class="writing-card">
-            <h3><a href="/music">Musical Explorations</a></h3>
-            <p class="desc">Electronic compositions and sonic experiments under the Infinite State moniker—where technology meets artistic expression</p>
-        </div>
-    </div>
+    
+    <p><strong><a href="/artificial-intelligence">AI & Digital Consciousness</a></strong><br>
+    Deep dives into artificial intelligence, consciousness, and the evolving relationship between humans and machines</p>
+    
+    <p><strong><a href="/essays">Essays & Reflections</a></strong><br>
+    Thoughts on technology, philosophy, mental health, and the craft of building software that matters</p>
+    
+    <p><strong><a href="/values">Core Values</a></strong><br>
+    The principles that guide my work: simplicity, accessibility, human-centered design, and authentic collaboration</p>
+    
+    <p><strong><a href="/talks">Conference Talks</a></strong><br>
+    Presentations on Python, API design, developer experience, and building sustainable open source communities</p>
+    
+    <p><strong><a href="/music">Musical Explorations</a></strong><br>
+    Electronic compositions and sonic experiments under the Infinite State moniker—where technology meets artistic expression</p>
 </section>
 
-<section class="personal-touch">
+<section>
     <h2>The Human Behind the Code</h2>
-    <p>
-        I believe in radical transparency, authentic vulnerability, and the power of community. 
-        Whether I'm debugging a gnarly HTTP edge case, crafting a new electronic track, or 
-        sharing my experiences with mental health, I approach everything with curiosity, 
-        empathy, and a deep respect for the humans I'm fortunate enough to serve through my work.
-    </p>
+    <p>I believe in radical transparency, authentic vulnerability, and the power of community. 
+    Whether I'm debugging a gnarly HTTP edge case, crafting a new electronic track, or 
+    sharing my experiences with mental health, I approach everything with curiosity, 
+    empathy, and a deep respect for the humans I'm fortunate enough to serve through my work.</p>
+    
+    <p>I'm always excited to connect with fellow creators, dreamers, and builders. 
+    Whether you want to discuss API design philosophy, share your latest project, 
+    or just say hello—I believe the best innovations emerge from authentic human connections.</p>
 </section>
-
-<section class="connect">
-    <h2>Let's Build Something Beautiful</h2>
-    <p>
-        I'm always excited to connect with fellow creators, dreamers, and builders. 
-        Whether you want to discuss API design philosophy, share your latest project, 
-        or just say hello—I believe the best innovations emerge from authentic human connections.
-    </p>
-</section>
-{% endblock %}
-
-{% block extra_scripts %}
-<script>
-    // Simple Pong Game
-    const canvas = document.getElementById('pongCanvas');
-    const ctx = canvas.getContext('2d');
-    
-    // Game state
-    let game = {
-        ball: {x: 250, y: 125, dx: 6, dy: 4, radius: 6},
-        player: {x: 15, y: 100, width: 12, height: 60, speed: 8},
-        ai: {x: 475, y: 100, width: 12, height: 60, speed: 6},
-        playerScore: 0,
-        aiScore: 0,
-        keys: {},
-        focused: false
-    };
-    
-    // Focus management to avoid scroll interference
-    canvas.addEventListener('click', () => {
-        game.focused = true;
-        canvas.focus();
-    });
-    
-    canvas.addEventListener('blur', () => {
-        game.focused = false;
-    });
-    
-    canvas.tabIndex = 0; // Make canvas focusable
-    
-    // Event listeners - only when canvas is focused
-    document.addEventListener('keydown', (e) => {
-        if (game.focused && (e.key === 'w' || e.key === 'W' || e.key === 's' || e.key === 'S')) {
-            e.preventDefault(); // Prevent any default behavior
-            game.keys[e.key.toLowerCase()] = true;
-        }
-    });
-    
-    document.addEventListener('keyup', (e) => {
-        if (game.focused) {
-            game.keys[e.key.toLowerCase()] = false;
-        }
-    });
-    
-    function update() {
-        // Player movement
-        if (game.keys['w'] && game.player.y > 0) {
-            game.player.y -= game.player.speed;
-        }
-        if (game.keys['s'] && game.player.y < canvas.height - game.player.height) {
-            game.player.y += game.player.speed;
-        }
-        
-        // AI movement (follows ball)
-        const aiCenter = game.ai.y + game.ai.height / 2;
-        if (aiCenter < game.ball.y - 10) {
-            game.ai.y += game.ai.speed;
-        } else if (aiCenter > game.ball.y + 10) {
-            game.ai.y -= game.ai.speed;
-        }
-        
-        // Constrain AI paddle
-        if (game.ai.y < 0) game.ai.y = 0;
-        if (game.ai.y > canvas.height - game.ai.height) game.ai.y = canvas.height - game.ai.height;
-        
-        // Ball movement
-        game.ball.x += game.ball.dx;
-        game.ball.y += game.ball.dy;
-        
-        // Ball collision with top/bottom
-        if (game.ball.y <= game.ball.radius || game.ball.y >= canvas.height - game.ball.radius) {
-            game.ball.dy = -game.ball.dy;
-        }
-        
-        // Ball collision with player paddle
-        if (game.ball.x <= game.player.x + game.player.width + game.ball.radius &&
-            game.ball.y >= game.player.y && game.ball.y <= game.player.y + game.player.height) {
-            game.ball.dx = Math.abs(game.ball.dx);
-            // Add some spin based on where ball hits paddle
-            const hitPos = (game.ball.y - game.player.y) / game.player.height;
-            game.ball.dy = (hitPos - 0.5) * 6;
-        }
-        
-        // Ball collision with AI paddle
-        if (game.ball.x >= game.ai.x - game.ball.radius &&
-            game.ball.y >= game.ai.y && game.ball.y <= game.ai.y + game.ai.height) {
-            game.ball.dx = -Math.abs(game.ball.dx);
-            const hitPos = (game.ball.y - game.ai.y) / game.ai.height;
-            game.ball.dy = (hitPos - 0.5) * 6;
-        }
-        
-        // Scoring
-        if (game.ball.x < 0) {
-            game.aiScore++;
-            resetBall();
-        }
-        if (game.ball.x > canvas.width) {
-            game.playerScore++;
-            resetBall();
-        }
-    }
-    
-    function resetBall() {
-        game.ball.x = canvas.width / 2;
-        game.ball.y = canvas.height / 2;
-        game.ball.dx = (Math.random() > 0.5 ? 1 : -1) * 6;
-        game.ball.dy = (Math.random() - 0.5) * 6;
-    }
-    
-    function draw() {
-        // Clear canvas
-        ctx.fillStyle = '#f8f9fa';
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-        
-        // Draw center line
-        ctx.strokeStyle = '#ddd';
-        ctx.setLineDash([5, 5]);
-        ctx.beginPath();
-        ctx.moveTo(canvas.width / 2, 0);
-        ctx.lineTo(canvas.width / 2, canvas.height);
-        ctx.stroke();
-        ctx.setLineDash([]);
-        
-        // Draw paddles
-        ctx.fillStyle = '#333';
-        ctx.fillRect(game.player.x, game.player.y, game.player.width, game.player.height);
-        ctx.fillRect(game.ai.x, game.ai.y, game.ai.width, game.ai.height);
-        
-        // Draw ball
-        ctx.beginPath();
-        ctx.arc(game.ball.x, game.ball.y, game.ball.radius, 0, Math.PI * 2);
-        ctx.fill();
-        
-        // Draw scores
-        ctx.font = '24px monospace';
-        ctx.textAlign = 'center';
-        ctx.fillStyle = '#666';
-        ctx.fillText(game.playerScore, canvas.width / 4, 35);
-        ctx.fillText(game.aiScore, (canvas.width * 3) / 4, 35);
-        
-        // Draw focus indicator
-        if (!game.focused) {
-            ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            ctx.fillStyle = '#fff';
-            ctx.font = '18px Inter, sans-serif';
-            ctx.textAlign = 'center';
-            ctx.fillText('Click to play', canvas.width / 2, canvas.height / 2);
-        }
-    }
-    
-    function gameLoop() {
-        update();
-        draw();
-        requestAnimationFrame(gameLoop);
-    }
-    
-    // Start the game
-    gameLoop();
-</script>
 {% endblock %}

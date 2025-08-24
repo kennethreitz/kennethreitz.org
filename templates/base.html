@@ -21,32 +21,47 @@
         <meta name="twitter:title" content="{% block twitter_title %}{{ title }} - Kenneth Reitz{% endblock %}" />
         <meta name="twitter:description" content="{% block twitter_description %}Creator of Requests and Certifi - libraries trusted by millions of developers worldwide{% endblock %}" />
 
-        <!-- Custom Typography & Styles -->
-        <link rel="stylesheet" href="/static/custom.css" />
-
-        <!-- Subtle page enhancements -->
+        <!-- Tufte CSS -->
+        <link rel="stylesheet" href="/static/tufte/tufte.css" />
+        
         <style>
-            /* Gentle fade-in animation */
-            article {
-                animation: fadeIn 0.3s ease-out;
+            /* Adjust content width for better sidenote spacing */
+            section > p,
+            section > footer,
+            section > table,
+            section > blockquote {
+                width: 65%;
             }
-
-            @keyframes fadeIn {
-                from {
-                    opacity: 0.7;
-                }
-                to {
-                    opacity: 1;
-                }
+            
+            section > dl,
+            section > ol,
+            section > ul {
+                width: 45%;
             }
-
-            /* Reduced motion preference */
-            @media (prefers-reduced-motion: reduce) {
-                article {
-                    animation: none;
+            
+            .sidenote,
+            .marginnote {
+                width: 45%;
+                margin-right: -50%;
+            }
+            
+            /* Responsive adjustments */
+            @media (max-width: 1200px) {
+                section > p,
+                section > footer,
+                section > table,
+                section > blockquote {
+                    width: 70%;
+                }
+                
+                .sidenote,
+                .marginnote {
+                    width: 40%;
+                    margin-right: -45%;
                 }
             }
         </style>
+
 
         {% block extra_head %}{% endblock %}
 
@@ -66,7 +81,7 @@
           })();
         </script>
     </head>
-    <body{% if request.endpoint == 'homepage' %} class="homepage"{% endif %}>
+    <body>
         <article>
             <header>
                 <nav>
