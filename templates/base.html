@@ -213,13 +213,11 @@
                 margin-top: 2.5rem;
             }
             
-            /* Fix HR lines intersecting with footnotes */
+            /* Hide HR lines to prevent sidenote interference */
             hr {
-                width: 55%;
-                margin: 2rem 0;
-                border: none;
-                border-top: 1px solid #ccc;
+                display: none;
             }
+            
             
             /* Fix iframe overflow into sidenotes */
             iframe {
@@ -229,20 +227,12 @@
             }
             
             @media (max-width: 1400px) {
-                hr {
-                    width: 60%;
-                }
-                
                 iframe {
                     max-width: 60% !important;
                 }
             }
             
             @media (max-width: 1200px) {
-                hr {
-                    width: 70%;
-                }
-                
                 iframe {
                     max-width: 70% !important;
                 }
@@ -253,6 +243,12 @@
                     max-width: 100% !important;
                 }
             }
+            
+            /* Footer spacing */
+            .footer-note {
+                margin-top: 3rem;
+            }
+            
         </style>
 
 
@@ -313,12 +309,6 @@
 
             <footer>
                 <div class="footer-content">
-                    <div class="footer-links">
-                        <a href="https://github.com/kennethreitz" target="_blank">GitHub</a>
-                        <a href="https://twitter.com/kennethreitz42" target="_blank">Twitter</a>
-                        <a href="mailto:me@kennethreitz.org">Contact</a>
-                        <a href="/sitemap">Sitemap</a>
-                    </div>
                     <div class="footer-note">
                         <p>&copy; {{ "now"|strftime("%Y") }} Kenneth Reitz. Made with <a href="https://kjvstudy.org/book/1%20Corinthians/chapter/13">love</a>.</p>
                     </div>

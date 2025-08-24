@@ -83,30 +83,37 @@
     }
     
     .post-navigation {
-        margin-top: 4rem;
-        padding-top: 2rem;
-        border-top: 1px solid #ddd;
+        width: 55%;
+        margin-top: 3rem;
+        padding-top: 1rem;
     }
     
     .back-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
         color: #666;
         text-decoration: none;
-        font-weight: 500;
-        transition: all 0.2s ease;
-        padding: 0.5rem 0;
+        font-size: 0.9rem;
+        transition: color 0.2s ease;
     }
     
     .back-link:hover {
         color: #333;
-        transform: translateX(-3px);
     }
     
     .back-link::before {
         content: '←';
-        font-size: 1.1em;
+        margin-right: 0.5rem;
+    }
+    
+    @media (max-width: 1400px) {
+        .post-navigation {
+            width: 60%;
+        }
+    }
+    
+    @media (max-width: 1200px) {
+        .post-navigation {
+            width: 70%;
+        }
     }
     
     /* Enhanced typography within posts */
