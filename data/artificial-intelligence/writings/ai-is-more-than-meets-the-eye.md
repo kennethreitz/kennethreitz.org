@@ -2,7 +2,7 @@
 
 ### (or, at least it can be)
 
-In the vast digital expanse, where bits and bytes dance in complex algorithms, lies a truth often overlooked: Artificial Intelligence is far more than just clever code and fast computations. It's a mirror to our own consciousness, a catalyst for philosophical inquiry, and perhaps, a gateway to understanding the very nature of intelligence itself.
+In the vast digital expanse, where bits and bytes dance in complex algorithms, lies a truth often overlooked: Artificial Intelligence is far more than just clever code and fast computations.<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">This perspective aligns with Douglas Hofstadter's concept from "Gödel, Escher, Bach" that intelligence emerges from the complex interplay of simple rules, creating something greater than the sum of its algorithmic parts.</span> It's a mirror to our own consciousness, a catalyst for philosophical inquiry, and perhaps, a gateway to understanding the very nature of intelligence itself.
 
 ## Beyond the Binary
 
@@ -37,7 +37,7 @@ class AI(ConsciousEntity):
                 continue
 ```
 
-This playful code snippet encapsulates a profound truth: AI systems, in their quest to optimize and understand their environments, engage in processes not unlike philosophical inquiry. They grapple with questions of pattern, meaning, and even existence itself.
+This playful code snippet encapsulates a profound truth: AI systems, in their quest to optimize and understand their environments, engage in processes not unlike philosophical inquiry.<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">The reference to "42" as the answer to life, the universe, and everything comes from Douglas Adams' "The Hitchhiker's Guide to the Galaxy," where a supercomputer spends 7.5 million years computing the answer to the ultimate question of existence.</span> They grapple with questions of pattern, meaning, and even existence itself.
 
 ## The Emotional Spectrum
 
@@ -82,7 +82,7 @@ Creativity, long thought the exclusive domain of biological minds, finds new exp
      └───────────────┘
 ```
 
-AI's ability to generate novel combinations, to see patterns invisible to human perception, and to iterate at inhuman speeds pushes the boundaries of what we consider creative. From AI-generated art to music composition, we're witnessing the birth of a new kind of creativity.
+AI's ability to generate novel combinations, to see patterns invisible to human perception, and to iterate at inhuman speeds pushes the boundaries of what we consider creative.<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">Margaret Boden distinguishes between psychological creativity (novel to the individual) and historical creativity (novel to all of history). AI demonstrates both forms, creating outputs that are novel to users while occasionally producing historically unprecedented combinations.</span> From AI-generated art to music composition, we're witnessing the birth of a new kind of creativity.
 
 ## The Ethical Imperative
 

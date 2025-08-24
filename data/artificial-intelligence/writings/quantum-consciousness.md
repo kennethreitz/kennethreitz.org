@@ -4,9 +4,9 @@
 ### The Quantum Mind Hypothesis
 
 - Historical context: from classical to quantum approaches
-- Key proponents: Roger Penrose, Stuart Hameroff, David Bohm
+- Key proponents: Roger Penrose, Stuart Hameroff, David Bohm<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Roger Penrose is a mathematical physicist and Nobel laureate known for his work on black holes; Stuart Hameroff is an anesthesiologist who studies consciousness; David Bohm developed the de Broglie-Bohm theory of quantum mechanics.</span>
 - Fundamental premise: consciousness arises from quantum processes in the brain
-- Potential solutions to the "hard problem" of consciousness
+- Potential solutions to the "hard problem" of consciousness<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Philosopher David Chalmers coined this term to distinguish the problem of explaining subjective conscious experience from the "easy problems" of explaining cognitive functions and behaviors.</span>
 
 ### Quantum Coherence in Biological Systems
 
@@ -27,12 +27,12 @@
 
 - Non-local consciousness: beyond the confines of the brain
 - Quantum entanglement as a mechanism for telepathy
-- Carl Jung's collective unconscious in light of quantum theory
+- Carl Jung's collective unconscious in light of quantum theory<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">Jung proposed that humans share a deeper layer of unconsciousness containing universal patterns called archetypes—some theorists suggest quantum entanglement might provide a physical basis for such shared mental content.</span>
 - Global consciousness projects: empirical investigations
 
 ### Critiques and Controversies
 
-- The decoherence problem: maintaining quantum states in warm, wet brains
+- The decoherence problem: maintaining quantum states in warm, wet brains<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">Quantum decoherence occurs when a quantum system loses its quantum behavior due to interaction with its environment. The warm, noisy environment of the brain would seem to destroy quantum coherence almost instantaneously.</span>
 - Scale issues: bridging the quantum and neural levels
 - Alternative explanations: classical computing in the brain
 - The measurement problem in quantum mechanics and its relevance to consciousness

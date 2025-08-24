@@ -2,15 +2,15 @@
 
 ## The Technological Singularity
 
-The concept of a technological singularity - a hypothetical future point when artificial intelligence surpasses human intelligence, leading to unfathomable changes in human civilization. This idea suggests that once AI reaches a level of intelligence greater than that of humans, it could lead to rapid advancements in technology and society, potentially transforming every aspect of our lives.
+The concept of a technological singularity - a hypothetical future point when artificial intelligence surpasses human intelligence, leading to unfathomable changes in human civilization.<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">The term was popularized by mathematician Vernor Vinge in his 1993 essay "The Coming Technological Singularity," though the concept has earlier roots in the work of statistician I.J. Good, who described an "intelligence explosion."</span> This idea suggests that once AI reaches a level of intelligence greater than that of humans, it could lead to rapid advancements in technology and society, potentially transforming every aspect of our lives.
 
 ## Potential Paths to Singularity
 
-Various routes through which we might achieve singularity, including AI, brain-computer interfaces, and genetic engineering. AI development is the most discussed path, with advancements in machine learning and neural networks pushing the boundaries of what machines can do. Brain-computer interfaces could merge human and machine intelligence, enhancing cognitive abilities and creating new forms of communication. Genetic engineering might enable us to enhance human intelligence biologically, potentially accelerating the path to singularity.
+Various routes through which we might achieve singularity, including AI, brain-computer interfaces, and genetic engineering. AI development is the most discussed path, with advancements in machine learning and neural networks pushing the boundaries of what machines can do. Brain-computer interfaces could merge human and machine intelligence, enhancing cognitive abilities and creating new forms of communication.<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Companies like Neuralink and research initiatives like DARPA's Neural Engineering System Design program are already making strides in this field, though current applications remain largely medical.</span> Genetic engineering might enable us to enhance human intelligence biologically, potentially accelerating the path to singularity.
 
 ## Post-Singularity Scenarios
 
-Speculative visions of what a post-singularity world might look like, from utopian to dystopian possibilities. In a utopian scenario, advanced AI could solve many of humanity's greatest challenges, such as disease, poverty, and environmental degradation. Conversely, a dystopian outcome might involve loss of human control over AI, leading to unforeseen consequences and potential existential risks.
+Speculative visions of what a post-singularity world might look like, from utopian to dystopian possibilities. In a utopian scenario, advanced AI could solve many of humanity's greatest challenges, such as disease, poverty, and environmental degradation. Conversely, a dystopian outcome might involve loss of human control over AI, leading to unforeseen consequences and potential existential risks.<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This "control problem" or "alignment problem" is a central concern in AI safety research, studied by organizations like the Machine Intelligence Research Institute and the Future of Humanity Institute.</span>
 
 ## Preparing for the Unpredictable
 
@@ -26,7 +26,7 @@ The critical importance of embedding ethical considerations into the development
 
 ## Singularity Skepticism
 
-Examining arguments against the likelihood or possibility of a technological singularity. Some experts argue that the singularity is unlikely due to the inherent complexities of human intelligence and the limitations of current AI technologies. Others believe that even if superintelligent AI is possible, it may not lead to the dramatic changes predicted by singularity proponents.
+Examining arguments against the likelihood or possibility of a technological singularity. Some experts argue that the singularity is unlikely due to the inherent complexities of human intelligence and the limitations of current AI technologies.<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">Critics include philosophers like Hubert Dreyfus and neuroscientist Gary Marcus, who argue that current AI approaches may hit fundamental limits before achieving human-level general intelligence.</span> Others believe that even if superintelligent AI is possible, it may not lead to the dramatic changes predicted by singularity proponents.
 
 ## Beyond the Singularity
 

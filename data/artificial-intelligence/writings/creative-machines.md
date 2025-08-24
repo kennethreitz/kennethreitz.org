@@ -9,11 +9,11 @@ Creativity in AI systems emerges from complex algorithms and vast datasets, rath
 
 ## Pattern Recognition and Recombination
 
-AI creativity often stems from sophisticated pattern recognition abilities. By processing enormous amounts of data, AI systems can identify subtle patterns and relationships that may not be apparent to human observers. This ability allows them to generate new ideas by recombining existing elements in novel ways, much like how human artists and inventors draw inspiration from diverse sources.
+AI creativity often stems from sophisticated pattern recognition abilities. By processing enormous amounts of data, AI systems can identify subtle patterns and relationships that may not be apparent to human observers. This ability allows them to generate new ideas by recombining existing elements in novel ways, much like how human artists and inventors draw inspiration from diverse sources.<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">This process of creative recombination echoes Arthur Koestler's concept of 'bisociation' from "The Act of Creation"—the intersection of previously unconnected frames of reference to produce novel insights and creative breakthroughs.</span>
 
 ## Generative Adversarial Networks (GANs)
 
-One striking example of AI creativity is found in Generative Adversarial Networks (GANs). These systems consist of two neural networks – a generator and a discriminator – that work in opposition to create increasingly convincing outputs. This process has led to the creation of highly realistic images, music, and even written content that can be indistinguishable from human-created works.
+One striking example of AI creativity is found in Generative Adversarial Networks (GANs).<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">GANs were introduced by Ian Goodfellow in 2014, inspired by game theory. The adversarial process mirrors evolutionary competition, where the generator evolves to create more convincing fakes while the discriminator evolves to better detect them.</span> These systems consist of two neural networks – a generator and a discriminator – that work in opposition to create increasingly convincing outputs. This process has led to the creation of highly realistic images, music, and even written content that can be indistinguishable from human-created works.
 
 ## Language Models and Creative Writing
 
@@ -29,7 +29,7 @@ The notion that creativity requires consciousness or a "soul" is a common miscon
 
 ### Emergent Behavior from Complex Systems
 
-AI creativity demonstrates that complex, seemingly intelligent behavior can emerge from systems that lack consciousness. This aligns with theories in cognitive science that suggest human creativity may also arise from the interaction of various cognitive processes rather than from a singular, conscious creative faculty.
+AI creativity demonstrates that complex, seemingly intelligent behavior can emerge from systems that lack consciousness. This aligns with theories in cognitive science that suggest human creativity may also arise from the interaction of various cognitive processes rather than from a singular, conscious creative faculty.<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This supports the 'Multiple Drafts Model' of consciousness proposed by Daniel Dennett, where creativity emerges from parallel processing streams rather than a central creative "command center" in the mind.</span>
 
 ### The Illusion of Consciousness in Creativity
 
@@ -53,7 +53,7 @@ The creative capabilities of AI systems provide valuable insights into the natur
 
 ### Demystifying the Creative Process
 
-Understanding AI creativity helps to demystify the human creative process, suggesting that it may be more systematic and explainable than previously thought. This insight can lead to new approaches for fostering and enhancing human creativity.
+Understanding AI creativity helps to demystify the human creative process, suggesting that it may be more systematic and explainable than previously thought.<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">This computational approach to creativity builds on research by cognitive scientists like Margaret Boden and Douglas Hofstadter, who have long argued that creativity can be understood through systematic study of cognitive mechanisms rather than treating it as ineffable inspiration.</span> This insight can lead to new approaches for fostering and enhancing human creativity.
 
 ### Collaboration Between Human and AI Creativity
 

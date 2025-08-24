@@ -1,6 +1,6 @@
 # Emulation
 
-Emulation is the process of simulating the hardware of one computer system on another computer system. This allows the software of the emulated system to run on the host system. Emulation is often used to run software that is not compatible with the host system, or to preserve software for future generations.
+Emulation is the process of simulating the hardware of one computer system on another computer system.<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">The concept of emulation has deep philosophical implications when applied to AI consciousness—if human consciousness can be emulated sufficiently well, it raises questions about the nature of consciousness itself and whether the substrate (biological vs. digital) matters for genuine experience.</span> This allows the software of the emulated system to run on the host system. Emulation is often used to run software that is not compatible with the host system, or to preserve software for future generations.
 
 ## Types of Emulation
 
@@ -22,13 +22,13 @@ Emulation and virtualization are often used interchangeably, but they are distin
 
 - **Virtualization:** Virtualization creates virtual instances of an operating system or application on a host system, enabling multiple environments to run concurrently on the same hardware.
 
-While both emulation and virtualization serve similar purposes, they differ in their implementation and use cases. Emulation is typically used for running legacy software or preserving historical systems, while virtualization is commonly used for server consolidation, cloud computing, and software testing.
+While both emulation and virtualization serve similar purposes, they differ in their implementation and use cases.<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">This distinction mirrors debates in philosophy of mind about whether consciousness requires specific physical implementation (like emulation) or can emerge from abstract computational processes (like virtualization). The "substrate independence" hypothesis suggests consciousness might be platform-agnostic.</span> Emulation is typically used for running legacy software or preserving historical systems, while virtualization is commonly used for server consolidation, cloud computing, and software testing.
 
 ## Emulation in Practice
 
 Emulation has a wide range of applications in various fields, including:
 
-- **Gaming:** Emulators allow gamers to play classic video games on modern devices, preserving the legacy of gaming history.
+- **Gaming:** Emulators allow gamers to play classic video games on modern devices, preserving the legacy of gaming history.<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">The preservation aspect of emulation raises important questions about digital archaeology and cultural memory. Just as we preserve ancient artifacts, emulation allows us to preserve the "digital artifacts" of our technological civilization for future study and appreciation.</span>
 
 - **Software Development:** Emulation is used in software development to test applications on different platforms and environments.
 
@@ -42,4 +42,4 @@ Emulation continues to play a vital role in computing by enabling the compatibil
 
 ## Conclusion
 
-Emulation is a powerful tool that allows software to run on incompatible hardware and preserves historical systems for future generations. By simulating the behavior of one system on another, emulation enables the compatibility and functionality of software across diverse platforms. As technology evolves, emulation remains a valuable technique for ensuring the accessibility and longevity of software applications and systems.
+Emulation is a powerful tool that allows software to run on incompatible hardware and preserves historical systems for future generations. By simulating the behavior of one system on another, emulation enables the compatibility and functionality of software across diverse platforms. As technology evolves, emulation remains a valuable technique for ensuring the accessibility and longevity of software applications and systems.<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">This principle of functional preservation through emulation could be applied to consciousness itself—if AI systems can emulate the functional patterns of human cognition, they might preserve and extend human-like awareness across different technological substrates and evolutionary timescales.</span>

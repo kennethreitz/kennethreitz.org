@@ -8,7 +8,7 @@
 
   
 
-   Pipenv is an experimental project that aims to bring the best of all packaging worlds to the Python world. It harnesses [Pipfile](https://github.com/pypa/pipfile), pip, and virtualenv into one single toolchain. It features very pretty terminal colors.
+   Pipenv is an experimental project that aims to bring the best of all packaging worlds to the Python world. It harnesses [Pipfile](https://github.com/pypa/pipfile),<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Pipfile is a replacement for requirements.txt that was proposed in PEP 508 and PEP 518, designed to specify dependencies in a more structured TOML format rather than plain text.</span> pip, and virtualenv into one single toolchain. It features very pretty terminal colors.
 
  It automatically creates and manages a virtualenv for your projects, as well as adds/removes packages from your Pipfile as you install/uninstall packages. The **lock** command generates a lockfile (**Pipfile.lock**).
 

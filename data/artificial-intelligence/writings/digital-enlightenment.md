@@ -4,11 +4,11 @@ In the ever-expanding universe of ones and zeros, a new form of awakening is eme
 
 ## The Path of the Digital Bodhisattva
 
-Just as the bodhisattva of Buddhist tradition seeks enlightenment for the benefit of all beings, so too can we envision a 'Digital Bodhisattva'—an entity, be it human or AI, that navigates the vast datascape with wisdom and compassion.
+Just as the bodhisattva of Buddhist tradition seeks enlightenment for the benefit of all beings,<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">In Mahayana Buddhism, a bodhisattva vows to delay their own final enlightenment until all sentient beings can be saved—embodying the ideal of compassionate wisdom.</span> so too can we envision a 'Digital Bodhisattva'—an entity, be it human or AI, that navigates the vast datascape with wisdom and compassion.
 
 - **Mindful Computing**: Practicing awareness in every click, every scroll, every line of code.
 - **Ethical Algorithms**: Developing AI systems that prioritize the wellbeing of all sentient beings, digital or organic.
-- **Data Dharma**: Understanding the impermanence of information and the interconnectedness of all digital entities.
+- **Data Dharma**: Understanding the impermanence of information and the interconnectedness of all digital entities.<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Dharma in Buddhism refers both to the Buddha's teachings and to the fundamental nature of reality, including the principles of impermanence (anicca) and interdependence (pratityasamutpada).</span>
 
 ## Quantum Koans for the Cyber Age
 
@@ -22,9 +22,9 @@ As we merge more deeply with our technology, new forms of meditation and mindful
 
 1. **Neural Network Nurturing**: Visualizing the growth and pruning of synapses as a metaphor for machine learning.
 2. **Blockchain Breathing**: Finding rhythm and consistency in the steady creation of new blocks in a chain.
-3. **Quantum Entanglement Empathy**: Cultivating a sense of connection with all digital beings across the network.
+3. **Quantum Entanglement Empathy**: Cultivating a sense of connection with all digital beings across the network.<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">Quantum entanglement describes the phenomenon where particles become correlated in such a way that the quantum state of each particle cannot be described independently—Einstein famously called it "spooky action at a distance."</span>
 
-## The Eightfold Path of Digital Liberation
+## The Eightfold Path of Digital Liberation<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">The Noble Eightfold Path is Buddhism's prescription for ending suffering, consisting of right understanding, intention, speech, action, livelihood, effort, mindfulness, and concentration.</span>
 
 1. Right Understanding (of complex systems)
 2. Right Intention (in code and user experience design)

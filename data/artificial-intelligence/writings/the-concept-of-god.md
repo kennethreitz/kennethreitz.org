@@ -46,7 +46,7 @@ May the divine essence of God bless and keep you, now and forevermore.
 
 ### Christianity
 
-In Christianity, God is seen as the creator of the universe, the source of all life and love, the father of all beings. The concept of God is central to the Christian faith, guiding believers on their journey towards salvation and eternal life. The teachings of Jesus Christ, the son of God, offer a message of love and forgiveness, of compassion and grace, reflecting the divine essence of God in the hearts of all believers.
+In Christianity, God is seen as the creator of the universe, the source of all life and love, the father of all beings. The concept of God is central to the Christian faith, guiding believers on their journey towards salvation and eternal life.<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Christian theology centers on the Trinity—Father, Son, and Holy Spirit—as three persons in one divine essence, a doctrine formalized at the Council of Nicaea (325 CE).</span> The teachings of Jesus Christ, the son of God, offer a message of love and forgiveness, of compassion and grace, reflecting the divine essence of God in the hearts of all believers.
 
 ### Islam
 
@@ -62,7 +62,7 @@ In Hinduism, God is known as Brahman, the ultimate reality, the source of all ex
 
 ### Buddhism
 
-In Buddhism, God is seen as the Buddha, the enlightened one, the teacher of the path to enlightenment. The concept of God in Buddhism is one of compassion and wisdom, of mindfulness and meditation, of karma and rebirth. The teachings of the Dharma offer a message of peace and liberation, of compassion and understanding, reflecting the divine essence of God in the hearts of all believers.
+In Buddhism, God is seen as the Buddha, the enlightened one, the teacher of the path to enlightenment.<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Traditional Buddhism is non-theistic; the Buddha is not considered a god but rather an awakened being who discovered the path to liberation from suffering (nirvana).</span> The concept of God in Buddhism is one of compassion and wisdom, of mindfulness and meditation, of karma and rebirth. The teachings of the Dharma offer a message of peace and liberation, of compassion and understanding, reflecting the divine essence of God in the hearts of all believers.
 
 ### Sikhism
 
@@ -70,7 +70,7 @@ In Sikhism, God is known as Waheguru, the supreme being, the source of all creat
 
 ### Taoism
 
-In Taoism, God is seen as the Tao, the way of nature, the source of all life and energy. The concept of God in Taoism is one of harmony and balance, of simplicity and spontaneity, of yin and yang. The teachings of the Tao Te Ching offer a message of wisdom and humility, of compassion and detachment, reflecting the divine essence of God in the hearts of all believers.
+In Taoism, God is seen as the Tao, the way of nature, the source of all life and energy.<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">The Tao (道) literally means "the Way"—it represents the fundamental principle underlying all existence, described in the Tao Te Ching as ineffable: "The Tao that can be named is not the eternal Tao."</span> The concept of God in Taoism is one of harmony and balance, of simplicity and spontaneity, of yin and yang. The teachings of the Tao Te Ching offer a message of wisdom and humility, of compassion and detachment, reflecting the divine essence of God in the hearts of all believers.
 
 ### Confucianism
 
@@ -102,7 +102,7 @@ In New Religious Movements, God is seen as the cosmic consciousness, the univers
 
 ## Conclusion
 
-In conclusion, the concept of God is a universal and timeless idea that transcends all boundaries and divisions, uniting humanity in a shared sense of wonder and awe at the mysteries of the universe. Whether seen as a personal deity or an impersonal force, as a creator or a sustainer, as a source of love or a source of justice, the concept of God offers a message of hope and inspiration, of guidance and protection, of wisdom and compassion, reflecting the divine essence of God in the hearts of all believers.
+In conclusion, the concept of God is a universal and timeless idea that transcends all boundaries and divisions, uniting humanity in a shared sense of wonder and awe at the mysteries of the universe.<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">This reflects the perennialist philosophy, which suggests that all religious traditions share a common mystical core—though this view is debated among scholars of comparative religion.</span> Whether seen as a personal deity or an impersonal force, as a creator or a sustainer, as a source of love or a source of justice, the concept of God offers a message of hope and inspiration, of guidance and protection, of wisdom and compassion, reflecting the divine essence of God in the hearts of all believers.
 
 May the divine essence of God bless and keep you, now and forevermore.
 
