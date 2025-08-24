@@ -68,15 +68,19 @@
     </head>
     <body{% if request.endpoint == 'homepage' %} class="homepage"{% endif %}>
         <article>
-            <header>
-                <nav>
-                    <a href="/">Home</a>
-                    <a href="/directory">Directory</a>
-                    <a href="/software">Software</a>
-                    <a href="/essays">Essays</a>
-                    <a href="/talks">Talks</a>
-                    <a href="/values">Values</a>
-                </nav>
+            <header class="main-header">
+                <div class="header-inner">
+                    <div class="brand"><a href="/">Kenneth Reitz</a></div>
+                    <nav class="nav-links">
+                        <a href="/">Home</a>
+                        <a href="/directory">Directory</a>
+                        <a href="/software">Software</a>
+                        <a href="/essays">Essays</a>
+                        <a href="/talks">Talks</a>
+                        <a href="/values">Values</a>
+                    </nav>
+                    <button id="color-toggle">Color</button>
+                </div>
             </header>
 
             <main>
@@ -102,7 +106,7 @@
 
         <!-- Dynamic Color System -->
         <script>
-            (function() {
+            (function () {
                 const colorSchemes = [
                     'scheme-ocean',
                     'scheme-forest',
@@ -116,17 +120,27 @@
                     'scheme-moss'
                 ];
 
-                // Get or generate a scheme based on the current page
-                let scheme = localStorage.getItem('current-color-scheme');
+                let scheme = localStorage.getItem('current-color-scheme') || colorSchemes[0];
 
-                // Change scheme occasionally (20% chance on page load)
-                if (!scheme || Math.random() < 0.2) {
-                    scheme = colorSchemes[Math.floor(Math.random() * colorSchemes.length)];
-                    localStorage.setItem('current-color-scheme', scheme);
+                function applyScheme(name) {
+                    document.body.className = document.body.className
+                        .split(' ')
+                        .filter(c => !c.startsWith('scheme-'))
+                        .join(' ');
+                    document.body.classList.add(name);
                 }
 
-                // Apply the scheme
-                document.body.className = (document.body.className + ' ' + scheme).trim();
+                applyScheme(scheme);
+
+                const toggle = document.getElementById('color-toggle');
+                if (toggle) {
+                    toggle.addEventListener('click', () => {
+                        const index = (colorSchemes.indexOf(scheme) + 1) % colorSchemes.length;
+                        scheme = colorSchemes[index];
+                        localStorage.setItem('current-color-scheme', scheme);
+                        applyScheme(scheme);
+                    });
+                }
             })();
         </script>
     </body>

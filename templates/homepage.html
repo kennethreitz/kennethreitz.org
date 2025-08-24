@@ -5,45 +5,6 @@
 {% block extra_head %}
 <style>
     /* Homepage-specific styles */
-    .hero {
-        text-align: center;
-        margin: 4rem 0 6rem;
-        border-bottom: 1px solid #ddd;
-        padding-bottom: 4rem;
-    }
-    
-    .hero h1 {
-        font-size: 3.8rem;
-        font-weight: 300;
-        margin-bottom: 1.5rem;
-        color: #111;
-        letter-spacing: -0.02em;
-    }
-    
-    .hero .tagline {
-        font-size: 1.6rem;
-        color: #555;
-        font-style: italic;
-        max-width: 45rem;
-        margin: 0 auto 2rem;
-        line-height: 1.6;
-        width: auto !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-    
-    .hero .stats {
-        font-size: 1rem;
-        color: #888;
-        margin-top: 2rem;
-        font-weight: 500;
-    }
-    
-    .hero .stats strong {
-        color: #444;
-        font-weight: 600;
-    }
-    
     .manifesto {
         max-width: 60rem;
         margin: 0 auto 5rem;
@@ -57,7 +18,7 @@
         border-radius: 12px;
         border-left: 4px solid #ddd;
     }
-    
+
     .intro {
         max-width: 58rem;
         margin: 0 auto 5rem;
@@ -288,14 +249,6 @@
     }
     
     @media (max-width: 760px) {
-        .hero h1 {
-            font-size: 2.5rem;
-        }
-        
-        .hero .tagline {
-            font-size: 1.3rem;
-        }
-        
         .manifesto {
             font-size: 1.1rem;
             padding: 2rem 1.5rem;
@@ -330,24 +283,13 @@
 {% endblock %}
 
 {% block content %}
-<div class="hero">
+<section class="hero-section">
     <h1>Kenneth Reitz</h1>
-    <p class="tagline">
-        Python Alchemist. API Architect. Human-Centered Designer.<br>
-        Creator of <a href="https://requests.readthedocs.io/">Requests</a>, 
-        <a href="https://github.com/certifi/python-certifi">Certifi</a>, 
-        <a href="/software/pipenv">Pipenv</a>, <a href="/software/records">Records</a>, 
-        <a href="/software/maya">Maya</a> & more.
+    <p>Python Alchemist. API Architect. Human-Centered Designer.<br>
+        Creator of <a href="https://requests.readthedocs.io/">Requests</a> and <a href="https://github.com/certifi/python-certifi">Certifi</a>.
     </p>
-    <div class="stats">
-        Over <strong>45 million downloads daily</strong> · Trusted by millions of developers worldwide
-    </div>
-    
-    <div class="pong-game">
-        <canvas id="pongCanvas" width="500" height="250" style="border: 2px solid #ddd; border-radius: 8px; background: #f8f9fa; margin: 2rem 0 0.5rem;"></canvas>
-        <p style="font-size: 0.8rem; color: #bbb; margin: 0.5rem 0 0;">Click game area, then use W/S keys to play</p>
-    </div>
-</div>
+    <a class="btn-primary" href="/directory">Explore my work</a>
+</section>
 
 <div class="manifesto">
     "Code should be beautiful. APIs should feel like magic. Technology should serve humans, not the other way around."
