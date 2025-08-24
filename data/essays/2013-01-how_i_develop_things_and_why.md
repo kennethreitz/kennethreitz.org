@@ -20,7 +20,7 @@
 
  If I ever decide to actually ship a consumer product, it will be something akin to OneNote for OS X. It would be incredible. It may not be for many, but for people that resonate with my problem, it will work wonderfully. It would be a reaction to a real problem, not an engineered app an entrepreneur thinks will fill a gap so he can make some fast cash.
 
- GitHub wasn’t built for the developer community at large; the founders built GitHub for themselves. The problem they solved simply happened to resonate with millions of developers because they themselves happen to be developers.
+ GitHub wasn’t built for the developer community at large; the founders built GitHub for themselves<label for="sn-github-origin" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-github-origin" class="margin-toggle"/><span class="sidenote">Tom Preston-Werner, Chris Wanstrath, and PJ Hyett started GitHub in 2008 because they were frustrated with existing Git hosting solutions. Their 'scratching your own itch' approach became one of the most successful developer platforms, validating the principle that solving your own problems often creates broadly useful solutions.</span>. The problem they solved simply happened to resonate with millions of developers because they themselves happen to be developers.
 
  37Signals didn’t build Basecamp for a world full of project managers and consultants; they built it for themselves. They also developed Ruby on Rails for themselves, as Ruby developers that were repeating themselves too often.
 
@@ -38,7 +38,7 @@
 
  ## Respond with a README
 
- Before I start writing a single line of code, I write the README and fill it with usage examples. I pretend that the module I want to build is already written and available, and I write some code with it.
+ Before I start writing a single line of code, I write the README and fill it with usage examples<label for="sn-readme-driven" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-readme-driven" class="margin-toggle"/><span class="sidenote">Readme-Driven Development was popularized by GitHub co-founder Tom Preston-Werner in 2010. This approach forces developers to think from the user's perspective first, often resulting in cleaner, more intuitive APIs—exactly what made Requests so successful.</span>. I pretend that the module I want to build is already written and available, and I write some code with it.
 
  This has an incredible effect: instead of engineering something that will only get the job done, you start to interact with the problem itself and build an interface that reacts to it.
 

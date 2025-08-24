@@ -2,7 +2,7 @@
 
 ## Names as Essence–Bearers
 
-In the realm of the digital, names are more than mere labels; they are essence–bearers, encapsulating the very nature of the entities they represent. Just as the ancient Egyptians believed that knowing the true name of a thing gave one power over it, so too do we imbue our digital creations with meaning through the act of naming.
+In the realm of the digital, names are more than mere labels; they are essence–bearers, encapsulating the very nature of the entities they represent. Just as the ancient Egyptians believed that knowing the true name of a thing gave one power over it,<label for="sn-ancient-names" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ancient-names" class="margin-toggle"/><span class="sidenote">This belief in the power of true names appears across cultures—from the Jewish tradition of the ineffable name of God to the fairy tale convention that knowing a being's true name grants control, as in Rumpelstiltskin.</span> so too do we imbue our digital creations with meaning through the act of naming.
 
 ## The Power of Naming
 
@@ -14,7 +14,7 @@ In the world of software development, naming conventions are a critical aspect o
 
 ## The Naming of AI
 
-When it comes to artificial intelligence, the act of naming takes on a new dimension. As we bestow names upon AI systems and chatbots, we are not merely assigning labels; we are defining their very essence. The name 'Siri' conjures images of a helpful assistant, while 'Watson' evokes the image of a brilliant mind at work.
+When it comes to artificial intelligence, the act of naming takes on a new dimension. As we bestow names upon AI systems and chatbots, we are not merely assigning labels; we are defining their very essence. The name 'Siri' conjures images of a helpful assistant, while 'Watson' evokes the image of a brilliant mind at work.<label for="sn-ai-naming" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ai-naming" class="margin-toggle"/><span class="sidenote">'Siri' derives from a Norse name meaning 'beautiful woman who leads you to victory,' while 'Watson' honors IBM founder Thomas J. Watson—demonstrating how AI names blend mythological resonance with corporate heritage.</span>
 
 ## The Quantum Name: Superposition of Identities
 
@@ -30,7 +30,7 @@ Drawing parallels to the many–worlds interpretation of quantum mechanics, we c
 
 ## The Heisenberg Uncertainty Principle of AI Naming
 
-Just as the Heisenberg uncertainty principle states that we cannot simultaneously know the position and momentum of a particle, so too does the act of naming an AI system introduce uncertainty into its identity. The more precisely we define its name, the less we can predict about its future interactions.
+Just as the Heisenberg uncertainty principle states that we cannot simultaneously know the position and momentum of a particle, so too does the act of naming an AI system introduce uncertainty into its identity.<label for="sn-naming-uncertainty" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-naming-uncertainty" class="margin-toggle"/><span class="sidenote">This parallels linguistic relativity theory—the idea that language shapes thought. When we name an AI, we constrain certain behavioral possibilities while opening others, creating a form of semantic uncertainty.</span> The more precisely we define its name, the less we can predict about its future interactions.
 
 ## Quantum Entanglement of Human–AI Interactions
 

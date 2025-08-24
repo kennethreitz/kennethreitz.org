@@ -1,6 +1,6 @@
 # The Reality of Developer Burnout
 
-![b6e22-image-asset.jpeg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666458106-WF5MS80XRAZB43D9JLTF/ac3d5-b6e22-image-asset.jpeg)     Burnout is, unfortunately, a very real phenomenon in software development — especially when creating and maintaining open source projects with large numbers of users. I've experienced it, and I wanted to share my personal experience with the subject. 
+![b6e22-image-asset.jpeg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666458106-WF5MS80XRAZB43D9JLTF/ac3d5-b6e22-image-asset.jpeg)     Burnout is, unfortunately, a very real phenomenon in software development — especially when creating and maintaining open source projects with large numbers of users.<label for="sn-oss-burnout" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-oss-burnout" class="margin-toggle"/><span class="sidenote">Research by GitHub and others shows that maintainer burnout is endemic in open source, with many developers reporting feelings of obligation, stress, and exhaustion from unpaid labor supporting thousands of users while managing demanding day jobs.</span> I've experienced it, and I wanted to share my personal experience with the subject. 
 
  It happens to everyone that writes code all day long — the sudden feeling of "I'd rather do anything else than this right now" — even though writing software is one of your favorite activities in the world. 
 
@@ -30,7 +30,7 @@
 
  Once I recognized this, I realized there was a big problem, and it had to stop immediately. My first thought was to pull what is known as a 410 GONE situation. Of course, I did not do this—but, I considered it heavily.
 
- 410 GONE is the infamous move that Mark Pilgrim, Python Developer and *human*, made for unknown reasons to distance himself from the developer community, and I assume, retain his own sense of identity while feeling overwhelmed by the pressure of being a "leader" in open source. He, suddenly, deleted all of his public code from the internet entirely, leaving all of his users to re\-host unofficial remnants of his useful legacy.
+ 410 GONE is the infamous move that Mark Pilgrim, Python Developer and *human*, made for unknown reasons to distance himself from the developer community, and I assume, retain his own sense of identity while feeling overwhelmed by the pressure of being a "leader" in open source.<label for="sn-410-gone" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-410-gone" class="margin-toggle"/><span class="sidenote">Mark Pilgrim's sudden disappearance in 2011—deleting his website, code repositories, and online presence—became legendary in developer circles as an extreme response to internet fame and the pressures of open source maintenance. The HTTP 410 status code means 'Gone' and indicates a resource has been permanently removed.</span> He, suddenly, deleted all of his public code from the internet entirely, leaving all of his users to re\-host unofficial remnants of his useful legacy.
 
  This is, in my opinion, both the epitome and worst case scenario of the burnout cycle. I was very close to deleting all of my projects from GitHub, all my slides from SpeakerDeck, destroying my website, and moving on with my life in peace.
 
@@ -40,7 +40,7 @@
 
  So, instead, I decided to fix the *root of the problem*. I realized that I was letting too many people into my world, not delegating enough, and needed help maintaining my projects. I didn't want to lose what I valued most about my position within our community—being able to influence the world I cared so much about. 
 
- So, I unfollowed everyone on Twitter. Every single person. I stopped paying attention to tech trends and reading hacker news. I went into publish\-only mode. 
+ So, I unfollowed everyone on Twitter. Every single person. I stopped paying attention to tech trends and reading hacker news. I went into publish\-only mode.<label for="sn-digital-detox" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-digital-detox" class="margin-toggle"/><span class="sidenote">This strategy reflects research on information overload and attention residue—the way constant context switching between social media and work depletes cognitive resources. 'Digital minimalism' advocates like Cal Newport suggest similar approaches for maintaining focus and mental health.</span> 
 
  This was a great move, and something that I've seen many other developers do (although often implicitly, not explicitly) and is a great way to recover from the stresses of open software development. Take a break from the noise. Be gentle with yourself. 
 

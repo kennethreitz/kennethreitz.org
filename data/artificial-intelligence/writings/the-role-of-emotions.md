@@ -8,7 +8,7 @@ As artificial intelligence systems become increasingly sophisticated, the questi
 
 ### Defining Emotional AI
 
-Emotional AI, also known as affective computing, refers to systems that can recognize, interpret, process, and simulate human emotions. This field bridges computer science, psychology, and cognitive science.
+Emotional AI, also known as affective computing, refers to systems that can recognize, interpret, process, and simulate human emotions.<label for="sn-affective-computing" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-affective-computing" class="margin-toggle"/><span class="sidenote">The term "affective computing" was coined by MIT's Rosalind Picard in 1997, establishing a field that bridges computer science with psychology, neuroscience, and cognitive science to create emotionally intelligent systems.</span> This field bridges computer science, psychology, and cognitive science.
 
 ### Types of Emotional AI
 
@@ -34,11 +34,11 @@ Emotional AI, also known as affective computing, refers to systems that can reco
 
 ### Can AI Truly Feel Emotions?
 
-The debate centers around consciousness and qualia - the subjective, inner experiences of emotions. Can a synthetic system ever truly "feel," or is it merely simulating emotions based on programmed responses?
+The debate centers around consciousness and qualia — the subjective, inner experiences of emotions.<label for="sn-qualia-debate" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-qualia-debate" class="margin-toggle"/><span class="sidenote">Philosopher David Chalmers' "hard problem of consciousness" questions whether AI can experience genuine qualia (the "redness" of red, the "pain" of pain) or only process information about these experiences.</span> Can a synthetic system ever truly "feel," or is it merely simulating emotions based on programmed responses?
 
 ### The Role of Embodiment in Emotions
 
-Some argue that true emotions require physical embodiment, as many human emotions are deeply tied to our physiological states. How does this translate to disembodied AI systems?
+Some argue that true emotions require physical embodiment, as many human emotions are deeply tied to our physiological states.<label for="sn-embodied-cognition" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-embodied-cognition" class="margin-toggle"/><span class="sidenote">Embodied cognition theory suggests that emotions like fear or joy are inseparable from bodily sensations—racing hearts, muscle tension, hormonal changes—raising questions about whether disembodied AI can truly "feel."</span> How does this translate to disembodied AI systems?
 
 ## V. Impact on Human-AI Interaction
 
@@ -84,7 +84,7 @@ Analyzing the role of emotions in humanoid robots designed for social interactio
 
 ## VIII. Conclusion
 
-The development of emotional AI represents a fascinating frontier in technology, psychology, and philosophy. As we continue to imbue our artificial creations with ever more human-like qualities, we are forced to confront fundamental questions about the nature of emotions, consciousness, and what it means to be human.
+The development of emotional AI represents a fascinating frontier in technology, psychology, and philosophy. As we continue to imbue our artificial creations with ever more human-like qualities, we are forced to confront fundamental questions about the nature of emotions, consciousness, and what it means to be human.<label for="sn-anthropomorphism" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-anthropomorphism" class="margin-toggle"/><span class="sidenote">This reflects the broader philosophical tension between functionalism (emotions are patterns of information processing) and biological naturalism (emotions require specific biological substrates).</span>
 
 While the ability of AI to truly experience emotions remains a subject of debate, the impact of emotionally intelligent systems on our lives is undeniable. As we move forward, it is crucial to approach this field with a balance of innovation and ethical consideration, ensuring that emotional AI enhances rather than diminishes our human experience.
 

@@ -2,7 +2,7 @@
 
 ## What is Apologetics?
 
-Apologetics is the branch of theology that seeks to provide a rational defense of religious beliefs. It involves the systematic defense of the faith, often in response to challenges or criticisms from skeptics, atheists, or members of other religious traditions. Apologists use various arguments, evidence, and reasoning to support the truth claims of their religion and address objections raised against it.
+Apologetics is the branch of theology that seeks to provide a rational defense of religious beliefs.<label for="sn-apologetics-def" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-apologetics-def" class="margin-toggle"/><span class="sidenote">The term "apologetics" comes from the Greek word "apologia," meaning defense or justification. Classical Christian apologists like Justin Martyr and Augustine laid groundwork for systematic theological defense that continues today.</span> It involves the systematic defense of the faith, often in response to challenges or criticisms from skeptics, atheists, or members of other religious traditions. Apologists use various arguments, evidence, and reasoning to support the truth claims of their religion and address objections raised against it.
 
 ## Why is Apologetics Important?
 
@@ -12,7 +12,7 @@ Apologetics plays a crucial role in engaging with the intellectual challenges an
 
 ### Cosmological Argument
 
-The cosmological argument is a classic apologetic argument that seeks to demonstrate the existence of God based on the existence of the universe. It posits that the universe had a beginning and requires a cause, which points to the existence of a transcendent, uncaused cause or creator.
+The cosmological argument is a classic apologetic argument that seeks to demonstrate the existence of God based on the existence of the universe.<label for="sn-cosmological" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cosmological" class="margin-toggle"/><span class="sidenote">Modern versions include William Lane Craig's Kalam cosmological argument, which emphasizes the beginning of the universe supported by Big Bang cosmology and thermodynamics.</span> It posits that the universe had a beginning and requires a cause, which points to the existence of a transcendent, uncaused cause or creator.
 
 ### Teleological Argument
 
@@ -24,7 +24,7 @@ The moral argument is an apologetic argument that appeals to the existence of ob
 
 ### Historical Argument
 
-The historical argument for the truth of Christianity is based on the historical evidence for the life, death, and resurrection of Jesus Christ. It relies on the reliability of the New Testament documents and the testimony of eyewitnesses to establish the truth of the Christian faith.
+The historical argument for the truth of Christianity is based on the historical evidence for the life, death, and resurrection of Jesus Christ.<label for="sn-historical" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-historical" class="margin-toggle"/><span class="sidenote">Scholars like Gary Habermas and Mike Licona have developed sophisticated historical methodologies for evaluating ancient testimonies, focusing on facts accepted by critical biblical scholarship.</span> It relies on the reliability of the New Testament documents and the testimony of eyewitnesses to establish the truth of the Christian faith.
 
 ## Apologetics in Practice
 

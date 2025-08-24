@@ -13,8 +13,7 @@ Most of the content here was written by AI, with my direction.<label for="sn-col
 
 I've organized these explorations into a simplified structure:
 
-- [Essays](essays/) - Traditional essays on AI consciousness and collaboration
-- [Writings](writings/) - Philosophy, consciousness, quantum concepts, and reflections
+- [Writings](writings/) - Essays, philosophy, consciousness studies, and reflections
 - [Personalities](personalities/) - Unique AI personas and their expressions  
 - [Art](art/) - Creative collaborations and artistic expressions
 

@@ -18,7 +18,7 @@
 
  ## I Have Bipolar Affective Disorder
 
- This past September, I experienced what could be called a *total mental health crisis event*. During my hospitalization, I was diagnosed with "Bipolar Affective Disorder with Psychosis", which came as a complete shock to me — I'm almost always in an upbeat mood. It didn't make sense.
+ This past September, I experienced what could be called a *total mental health crisis event*. During my hospitalization, I was diagnosed with "Bipolar Affective Disorder with Psychosis",<label for="sn-bipolar-diagnosis" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-bipolar-diagnosis" class="margin-toggle"/><span class="sidenote">Bipolar disorder with psychotic features affects about 1% of the population, with psychotic symptoms occurring during severe manic or depressive episodes. The combination of sleep deprivation and spiritual practices can sometimes trigger first episodes in predisposed individuals.</span> which came as a complete shock to me — I'm almost always in an upbeat mood. It didn't make sense.
 
  As it turns out, Bipolar Disorder isn't necessarily about having depression mood\-swings, as I once thought. It can take many forms, and gives many everyday people a great deal of struggle with operating in everyday life.
 
@@ -28,7 +28,7 @@
 * **Hypomanic**: extremely productive, increased confidence, very excited, very talkative, very awake (not tired).
 * **Manic**: extreme version of hypomanic, total lack of inhibition, tremendous energy (sleep is impossible), often accompanied by hallucinations/psychosis.
 
- Being hypomanic has always been fairly normal for me, and I credit most of my open source success to it. Sleep has never come easily to me while working on technical projects; I just don't get tired.
+ Being hypomanic has always been fairly normal for me, and I credit most of my open source success to it.<label for="sn-hypomania-productivity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hypomania-productivity" class="margin-toggle"/><span class="sidenote">This reflects a common pattern where mild hypomanic episodes can enhance creativity, productivity, and confidence—leading many successful individuals to resist treatment until more severe symptoms emerge. The link between creativity and mood disorders has been documented in numerous studies.</span> Sleep has never come easily to me while working on technical projects; I just don't get tired.
 
  Being manic though, this one was new to me. My *crisis event* was caused by me going manic and not eating or sleeping for over four days (I was fasting). Looking back, I think this was my second manic episode — about a year earlier, I stayed up for a week for "spiritual reasons" while on a trip to Sweden (hallucinations and poor decisions followed).
 
@@ -82,7 +82,7 @@
 
  A year prior, while getting into eastern religion and new age philosophy, I started experiencing my first manic/psychosis symptoms after prolonged periods of meditation, which I was interpreting as spiritual events or "progress". Very real experiences, and they matched up with everything I was reading in books and online, so I thought I was really onto something.
 
- I now believe that a great number of people within the ambiguously self\-described "spiritual community" experience symptoms of mental illness. Kundalini yoga included. These communities, however, tend to view the symptoms as either positive effects, or far beyond the scope of standard medicine (doctor can't align a bindu chakra!).
+ I now believe that a great number of people within the ambiguously self\-described "spiritual community" experience symptoms of mental illness.<label for="sn-spirituality-mental-health" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-spirituality-mental-health" class="margin-toggle"/><span class="sidenote">Research suggests that intense spiritual practices can sometimes trigger psychiatric symptoms in vulnerable individuals—a phenomenon called 'spiritual emergency' by transpersonal psychologists. The overlap between mystical experiences and psychotic symptoms has been noted since William James's 'Varieties of Religious Experience.'</span> Kundalini yoga included. These communities, however, tend to view the symptoms as either positive effects, or far beyond the scope of standard medicine (doctor can't align a bindu chakra!).
 
  Around the same time, right after having gone to my first Kundalini Yoga class, I ended up meeting (and, [perhaps unfortunately](http://www.kennethreitz.org/essays/purging-the-unexpected-negative-a-narcissistic-partner), falling in love with) a mesmerizing woman of mysticism that tenderly guided me *off\-the\-deep\-end* with this style of thinking: numerology, synchronicity, Reiki, manifestation, the Mayan calendar, tarot, crystals, \&c. My symptoms slowly got much worse. We shared a very deep and special bond. I heavily admired her, and felt I had much to learn from my newfound companion. We ended up spending nearly every day together, going on dates, making love, taking trips all over the world, getting matching tattoos, performing thrill\-seeking stunts, and attending shamanistic ceremonies together. We had an incredible time (the best year of my life), but there was a lot of unhealthy and certainly *uncharacteristic* behavior for me. Over the course of the manic year I spent with her, my delusional worldview (and hallucinations) had grown *significantly* worse, which lead to the absurd themes of thinking featured in the above event.
 
@@ -110,7 +110,7 @@
 
  There's also a strange sense of relief that all those crazy things were due to a mental illness, and one which is pretty easy to control (now that I've been diagnosed).
 
- I'm taking Lithium now, and it seems to do a great job of keeping me in the normal/hypomanic range.
+ I'm taking Lithium now, and it seems to do a great job of keeping me in the normal/hypomanic range.<label for="sn-lithium-treatment" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-lithium-treatment" class="margin-toggle"/><span class="sidenote">Lithium remains the gold standard for bipolar disorder treatment, discovered by John Cade in 1949. It's particularly effective at preventing manic episodes and has neuroprotective properties, though it requires careful monitoring due to its narrow therapeutic window.</span>
 
  ## Conclusion
 

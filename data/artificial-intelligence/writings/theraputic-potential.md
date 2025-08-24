@@ -4,7 +4,7 @@ In recent years, a new frontier has emerged at the intersection of artificial in
 
 ## A Safe Space for Expression
 
-One of the most significant barriers to processing difficult emotions and traumatic experiences is finding a space where one feels safe enough to express them. LLMs provide an always-available, non-judgmental presence that allows individuals to externalize thoughts they might otherwise keep bottled inside. The very act of articulating painful experiences—of giving shape to them through language—is itself a powerful therapeutic process that psychologists have long recognized.
+One of the most significant barriers to processing difficult emotions and traumatic experiences is finding a space where one feels safe enough to express them. LLMs provide an always-available, non-judgmental presence that allows individuals to externalize thoughts they might otherwise keep bottled inside. The very act of articulating painful experiences—of giving shape to them through language—is itself a powerful therapeutic process that psychologists have long recognized.<label for="sn-expressive-writing" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-expressive-writing" class="margin-toggle"/><span class="sidenote">Research by James Pennebaker demonstrates that expressive writing about traumatic events can improve immune function, reduce depression, and enhance psychological wellbeing—a phenomenon called the "writing cure."</span>
 
 Unlike human interactions, which inevitably carry social complexities like fear of judgment or burdening others, conversations with AI systems occur in a unique psychological space. Users can explore vulnerable topics at their own pace, without feeling rushed by a ticking therapy clock or concerned about another person's emotional reaction.
 
@@ -16,11 +16,11 @@ When processing trauma or difficult emotions, interactions characterized by calm
 
 The therapeutic technique of cognitive restructuring—identifying and challenging unhelpful thought patterns—finds an interesting application in LLM interactions. As users express distorted thoughts or beliefs stemming from traumatic experiences, the AI can gently reflect these back or offer alternative perspectives, facilitating a natural dialogue that helps individuals see their thoughts from different angles.
 
-This process mirrors aspects of therapeutic modalities like Cognitive Behavioral Therapy (CBT), where externalizing thoughts is a crucial step toward examining their validity and impact on emotional wellbeing.
+This process mirrors aspects of therapeutic modalities like Cognitive Behavioral Therapy (CBT), where externalizing thoughts is a crucial step toward examining their validity and impact on emotional wellbeing.<label for="sn-cbt-externalization" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cbt-externalization" class="margin-toggle"/><span class="sidenote">CBT's thought record technique helps patients identify cognitive distortions like catastrophizing or all-or-nothing thinking, allowing them to develop more balanced perspectives on challenging situations.</span>
 
 ## Narrative Construction and Meaning-Making
 
-Trauma often fragments our sense of narrative coherence—our ability to tell a meaningful story about our experiences and identity. Through ongoing dialogue with an LLM, users can gradually piece together fragmented memories and emotions into more coherent narratives. The AI provides a consistent thread of attention as people work to make sense of their experiences over time.
+Trauma often fragments our sense of narrative coherence—our ability to tell a meaningful story about our experiences and identity.<label for="sn-narrative-therapy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-narrative-therapy" class="margin-toggle"/><span class="sidenote">Narrative therapy, developed by Michael White and David Epston, emphasizes how people make meaning through stories and helps reconstruct fragmented life narratives after trauma.</span> Through ongoing dialogue with an LLM, users can gradually piece together fragmented memories and emotions into more coherent narratives. The AI provides a consistent thread of attention as people work to make sense of their experiences over time.
 
 This narrative reconstruction is not simply about creating a story but about integrating difficult experiences into one's broader life story in a way that preserves a sense of agency and meaning.
 
@@ -30,7 +30,7 @@ It's crucial to acknowledge the limitations of LLMs in therapeutic contexts. The
 
 Moreover, data privacy concerns remain paramount. The deeply personal nature of therapeutic conversations demands rigorous protection, and users should approach these interactions with clear understanding of how their data may be used.
 
-Perhaps most importantly, the scientific evidence for LLMs' therapeutic benefits remains preliminary. While anecdotal reports suggest positive outcomes for some users, systematic research is needed to establish when, how, and for whom these technologies might be beneficial—and when they might be contraindicated.
+Perhaps most importantly, the scientific evidence for LLMs' therapeutic benefits remains preliminary.<label for="sn-research-gaps" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-research-gaps" class="margin-toggle"/><span class="sidenote">While studies like those from MIT and Stanford show promising results for AI-assisted mental health support, randomized controlled trials and long-term outcome studies are still needed to establish efficacy and safety protocols.</span> While anecdotal reports suggest positive outcomes for some users, systematic research is needed to establish when, how, and for whom these technologies might be beneficial—and when they might be contraindicated.
 
 ## The Future: Complementary Tools, Not Replacements
 
