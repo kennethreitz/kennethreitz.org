@@ -316,7 +316,10 @@ def archive_index():
             grouped_posts[year] = []
         grouped_posts[year].append(post)
     
-    # Sort years in descending order
+    # Sort each year's posts by date (most recent first) and years in descending order
+    for year in grouped_posts:
+        grouped_posts[year].sort(key=lambda x: x['pub_date'], reverse=True)
+    
     grouped_posts = dict(sorted(grouped_posts.items(), reverse=True))
     
     return render_template('archive.html',
@@ -349,6 +352,10 @@ def archive_year(year):
         if month_name not in grouped_posts:
             grouped_posts[month_name] = []
         grouped_posts[month_name].append(post)
+    
+    # Sort posts within each month by date (most recent first)
+    for month in grouped_posts:
+        grouped_posts[month].sort(key=lambda x: x['pub_date'], reverse=True)
     
     # Sort months in chronological order (most recent first)
     month_order = {name: idx for idx, name in enumerate(month_names[1:], 1)}
@@ -671,72 +678,8 @@ def collect_blog_posts():
                 try:
                     content_data = render_markdown_file(item)
                     
-                    # Extract publication date from multiple sources
-                    pub_date = None
-                    
-                    # 1. Check YAML front matter for date
-                    if content_data['metadata'].get('date'):
-                        try:
-                            if isinstance(content_data['metadata']['date'], list):
-                                pub_date = datetime.strptime(content_data['metadata']['date'][0], '%Y-%m-%d')
-                            else:
-                                pub_date = datetime.strptime(str(content_data['metadata']['date']), '%Y-%m-%d')
-                        except:
-                            pass
-                    
-                    # 2. Check for date in content (look for *Month YYYY* pattern)
-                    if not pub_date:
-                        try:
-                            with open(item, 'r', encoding='utf-8') as f:
-                                first_few_lines = ''.join(f.readlines()[:10])
-                            
-                            # Look for patterns like "*January 2025*" or "*Month YYYY*"
-                            month_year_match = re.search(r'\*([A-Za-z]+\s+\d{4})\*', first_few_lines)
-                            if month_year_match:
-                                try:
-                                    pub_date = datetime.strptime(month_year_match.group(1), '%B %Y')
-                                    # Set to first day of month for month-only dates
-                                    pub_date = pub_date.replace(day=1)
-                                except:
-                                    pass
-                        except:
-                            pass
-                    
-                    # 3. Try to extract date from filename (YYYY-MM-DD format at start)
-                    if not pub_date:
-                        date_match = re.match(r'(\d{4}-\d{2})', item.stem)
-                        if date_match:
-                            try:
-                                # For YYYY-MM format, set to first day of month
-                                pub_date = datetime.strptime(date_match.group(1) + '-01', '%Y-%m-%d')
-                            except:
-                                pass
-                    
-                    # 4. Try full YYYY-MM-DD format in filename
-                    if not pub_date:
-                        date_match = re.search(r'(\d{4}-\d{2}-\d{2})', item.name)
-                        if date_match:
-                            try:
-                                pub_date = datetime.strptime(date_match.group(1), '%Y-%m-%d')
-                            except:
-                                pass
-                    
-                    # 5. For files with just year in name, use January 1st of that year
-                    if not pub_date:
-                        year_match = re.match(r'(\d{4})', item.stem)
-                        if year_match:
-                            try:
-                                pub_date = datetime(int(year_match.group(1)), 1, 1)
-                            except:
-                                pass
-                    
-                    # 6. Final fallback: use file creation time (not modification time)
-                    if not pub_date:
-                        try:
-                            pub_date = datetime.fromtimestamp(item.stat().st_birthtime)
-                        except AttributeError:
-                            # st_birthtime not available on all systems
-                            pub_date = datetime.fromtimestamp(item.stat().st_ctime)
+                    # Extract publication date using intelligent extraction
+                    pub_date = extract_intelligent_date(item, content_data)
                     
                     # Create clean URL
                     relative_path = str(item.relative_to(DATA_DIR))
@@ -781,9 +724,107 @@ def collect_blog_posts():
     return posts[:20]  # Return most recent 20 posts
 
 
-# Cache with TTL
+# Cache with TTL - cleared when date extraction logic changes
 _blog_posts_cache = {'data': None, 'timestamp': 0}
 CACHE_TTL = 300  # 5 minutes cache
+
+def extract_intelligent_date(item_path, content_data=None):
+    """Extract date intelligently, prioritizing filename patterns as requested."""
+    pub_date = None
+    
+    # 1. PRIORITY: Try full YYYY-MM-DD format anywhere in filename first
+    date_match = re.search(r'(\d{4}-\d{2}-\d{2})', item_path.name)
+    if date_match:
+        try:
+            pub_date = datetime.strptime(date_match.group(1), '%Y-%m-%d')
+            return pub_date
+        except:
+            pass
+    
+    # 2. Try YYYY-MM format at start of filename
+    date_match = re.match(r'(\d{4}-\d{2})', item_path.stem)
+    if date_match:
+        try:
+            # Extract day from content if present, otherwise use first of month
+            day = 1
+            try:
+                with open(item_path, 'r', encoding='utf-8') as f:
+                    content_preview = f.read(1000)
+                day_match = re.search(r'(\d{4}-\d{2}-(\d{2}))', content_preview)
+                if day_match:
+                    day = int(day_match.group(2))
+            except:
+                pass
+            
+            pub_date = datetime.strptime(date_match.group(1) + f'-{day:02d}', '%Y-%m-%d')
+            return pub_date
+        except:
+            pass
+    
+    # 3. Try just year at start of filename (YYYY)
+    year_match = re.match(r'(\d{4})', item_path.stem)
+    if year_match:
+        try:
+            # Try to get month from content, otherwise use January
+            year = int(year_match.group(1))
+            month = 1
+            day = 1
+            
+            try:
+                with open(item_path, 'r', encoding='utf-8') as f:
+                    first_few_lines = ''.join(f.readlines()[:10])
+                
+                # Look for "*Month YYYY*" pattern in content
+                month_match = re.search(r'\*([A-Za-z]+)\s+' + str(year) + r'\*', first_few_lines)
+                if month_match:
+                    month_name = month_match.group(1)
+                    month = datetime.strptime(month_name, '%B').month
+            except:
+                pass
+            
+            pub_date = datetime(year, month, day)
+            return pub_date
+        except:
+            pass
+    
+    # 4. Check YAML front matter for date (lower priority now)
+    if content_data and content_data['metadata'].get('date'):
+        try:
+            if isinstance(content_data['metadata']['date'], list):
+                pub_date = datetime.strptime(content_data['metadata']['date'][0], '%Y-%m-%d')
+            else:
+                pub_date = datetime.strptime(str(content_data['metadata']['date']), '%Y-%m-%d')
+            return pub_date
+        except:
+            pass
+    
+    # 5. Check for date in content (look for *Month YYYY* pattern)
+    try:
+        with open(item_path, 'r', encoding='utf-8') as f:
+            first_few_lines = ''.join(f.readlines()[:10])
+        
+        # Look for patterns like "*January 2025*" or "*Month YYYY*"
+        month_year_match = re.search(r'\*([A-Za-z]+\s+\d{4})\*', first_few_lines)
+        if month_year_match:
+            try:
+                pub_date = datetime.strptime(month_year_match.group(1), '%B %Y')
+                # Set to first day of month for month-only dates
+                pub_date = pub_date.replace(day=1)
+                return pub_date
+            except:
+                pass
+    except:
+        pass
+    
+    # 6. Final fallback: use file creation time (not modification time)
+    try:
+        pub_date = datetime.fromtimestamp(item_path.stat().st_birthtime)
+    except AttributeError:
+        # st_birthtime not available on all systems
+        pub_date = datetime.fromtimestamp(item_path.stat().st_ctime)
+    
+    return pub_date
+
 
 def _collect_all_blog_posts_cached():
     """Internal cached function to collect all blog posts with TTL."""
@@ -816,72 +857,8 @@ def _collect_all_blog_posts_cached():
                 try:
                     content_data = render_markdown_file(item)
                     
-                    # Extract publication date from multiple sources
-                    pub_date = None
-                    
-                    # 1. Check YAML front matter for date
-                    if content_data['metadata'].get('date'):
-                        try:
-                            if isinstance(content_data['metadata']['date'], list):
-                                pub_date = datetime.strptime(content_data['metadata']['date'][0], '%Y-%m-%d')
-                            else:
-                                pub_date = datetime.strptime(str(content_data['metadata']['date']), '%Y-%m-%d')
-                        except:
-                            pass
-                    
-                    # 2. Check for date in content (look for *Month YYYY* pattern)
-                    if not pub_date:
-                        try:
-                            with open(item, 'r', encoding='utf-8') as f:
-                                first_few_lines = ''.join(f.readlines()[:10])
-                            
-                            # Look for patterns like "*January 2025*" or "*Month YYYY*"
-                            month_year_match = re.search(r'\*([A-Za-z]+\s+\d{4})\*', first_few_lines)
-                            if month_year_match:
-                                try:
-                                    pub_date = datetime.strptime(month_year_match.group(1), '%B %Y')
-                                    # Set to first day of month for month-only dates
-                                    pub_date = pub_date.replace(day=1)
-                                except:
-                                    pass
-                        except:
-                            pass
-                    
-                    # 3. Try to extract date from filename (YYYY-MM-DD format at start)
-                    if not pub_date:
-                        date_match = re.match(r'(\d{4}-\d{2})', item.stem)
-                        if date_match:
-                            try:
-                                # For YYYY-MM format, set to first day of month
-                                pub_date = datetime.strptime(date_match.group(1) + '-01', '%Y-%m-%d')
-                            except:
-                                pass
-                    
-                    # 4. Try full YYYY-MM-DD format in filename
-                    if not pub_date:
-                        date_match = re.search(r'(\d{4}-\d{2}-\d{2})', item.name)
-                        if date_match:
-                            try:
-                                pub_date = datetime.strptime(date_match.group(1), '%Y-%m-%d')
-                            except:
-                                pass
-                    
-                    # 5. For files with just year in name, use January 1st of that year
-                    if not pub_date:
-                        year_match = re.match(r'(\d{4})', item.stem)
-                        if year_match:
-                            try:
-                                pub_date = datetime(int(year_match.group(1)), 1, 1)
-                            except:
-                                pass
-                    
-                    # 6. Final fallback: use file creation time (not modification time)
-                    if not pub_date:
-                        try:
-                            pub_date = datetime.fromtimestamp(item.stat().st_birthtime)
-                        except AttributeError:
-                            # st_birthtime not available on all systems
-                            pub_date = datetime.fromtimestamp(item.stat().st_ctime)
+                    # Extract publication date using intelligent extraction
+                    pub_date = extract_intelligent_date(item, content_data)
                     
                     # Create clean URL
                     relative_path = str(item.relative_to(DATA_DIR))
