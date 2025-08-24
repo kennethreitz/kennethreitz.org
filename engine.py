@@ -1,5 +1,5 @@
 import os
-import markdown
+import mistune
 from flask import Flask, render_template, abort, request, url_for, jsonify, redirect
 from pathlib import Path
 import re
@@ -81,10 +81,21 @@ def render_markdown_file(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
+        
+        # Extract YAML front matter if it exists
+        metadata = {}
+        yaml_pattern = r'^---\s*\n(.*?)\n---\s*\n'
+        yaml_match = re.match(yaml_pattern, content, re.DOTALL)
+        if yaml_match:
+            try:
+                import yaml
+                metadata = yaml.safe_load(yaml_match.group(1)) or {}
+                content = content[yaml_match.end():]
+            except:
+                pass
             
         # Extract first h1 header if it exists
         first_h1 = None
-        import re
         # Look for the first H1 at the start of the file (must be on first line or after blank line)
         h1_match = re.search(r'^# (.+?)$', content, re.MULTILINE)
         if h1_match:
@@ -92,20 +103,14 @@ def render_markdown_file(file_path):
             # Remove only the first h1 line from content to avoid duplication
             content = re.sub(r'^# .+?$', '', content, count=1, flags=re.MULTILINE)
         
-        # Configure markdown with extensions
-        md = markdown.Markdown(extensions=[
-            'meta',
-            'toc',
-            'codehilite',
-            'fenced_code',
-            'tables',
-            'footnotes',
-            'smarty',
-            'sane_lists'
-        ])
+        # Configure mistune renderer
+        markdown = mistune.create_markdown(
+            escape=False,
+            plugins=['strikethrough', 'footnotes', 'table', 'task_lists', 'def_list']
+        )
         
-        # Process content to add classes to headers for styling
-        html_content = md.convert(content.strip())
+        # Process content to HTML
+        html_content = markdown(content.strip())
         
         # Add classes to headers to prevent conflicts with page headers
         html_content = html_content.replace('<h1>', '<h1 class="content-header">')
@@ -115,16 +120,13 @@ def render_markdown_file(file_path):
         html_content = html_content.replace('<h5>', '<h5 class="content-header">')
         html_content = html_content.replace('<h6>', '<h6 class="content-header">')
         
-
-        
-        # Get metadata
-        metadata = getattr(md, 'Meta', {})
-        
         # Use the first h1 as title if available, otherwise fallback to metadata or filename
         if first_h1:
             title = first_h1
+        elif 'title' in metadata:
+            title = metadata['title']
         else:
-            title = metadata.get('title', [file_path.stem.replace('-', ' ').replace('_', ' ').title()])[0]
+            title = file_path.stem.replace('-', ' ').replace('_', ' ').title()
         
         return {
             'content': html_content,
