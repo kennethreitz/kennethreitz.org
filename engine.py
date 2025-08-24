@@ -691,6 +691,10 @@ def collect_blog_posts():
                     # Extract publication date using intelligent extraction
                     pub_date = extract_intelligent_date(item, content_data)
                     
+                    # Skip posts without determinable dates (no filename date, no YAML date, no content date)
+                    if pub_date is None:
+                        continue
+                    
                     # Create clean URL
                     relative_path = str(item.relative_to(DATA_DIR))
                     clean_url = '/' + relative_path[:-3]  # Remove .md extension
@@ -737,6 +741,10 @@ def collect_blog_posts():
 # Cache with TTL - cleared when date extraction logic changes
 _blog_posts_cache = {'data': None, 'timestamp': 0}
 CACHE_TTL = 300  # 5 minutes cache
+
+# Force cache invalidation for filename change
+import time
+_force_cache_clear = time.time()
 
 def extract_intelligent_date(item_path, content_data=None):
     """Extract date intelligently, prioritizing filename patterns as requested."""
@@ -826,14 +834,9 @@ def extract_intelligent_date(item_path, content_data=None):
     except:
         pass
     
-    # 6. Final fallback: use file creation time (not modification time)
-    try:
-        pub_date = datetime.fromtimestamp(item_path.stat().st_birthtime)
-    except AttributeError:
-        # st_birthtime not available on all systems
-        pub_date = datetime.fromtimestamp(item_path.stat().st_ctime)
-    
-    return pub_date
+    # 6. Final fallback: if no date found anywhere, return None
+    # (Removed file creation time fallback due to deployment issues)
+    return None
 
 
 def _collect_all_blog_posts_cached():
@@ -869,6 +872,10 @@ def _collect_all_blog_posts_cached():
                     
                     # Extract publication date using intelligent extraction
                     pub_date = extract_intelligent_date(item, content_data)
+                    
+                    # Skip posts without determinable dates (no filename date, no YAML date, no content date)
+                    if pub_date is None:
+                        continue
                     
                     # Create clean URL
                     relative_path = str(item.relative_to(DATA_DIR))
