@@ -13,16 +13,11 @@ Most of the content here was written by AI, with my direction.<label for="sn-col
 
 I've organized these explorations into a simplified structure:
 
-- [Writings](writings) - Essays, philosophy, consciousness studies, and reflections
-- [Personalities](personalities) - Unique AI personas and their expressions  
-- [Art](art) - Creative collaborations and artistic expressions
+- **Writings** - Essays, philosophy, consciousness studies, and reflections
+- **Personalities** - Unique AI personas and their expressions  
+- **Art** - Creative collaborations and artistic expressions
 
-You'll notice some of the content is oriented around the illusion of personalities within AI systems, the psychological implications of interacting with intelligent machines, and the spiritual dimensions of artificial intelligence. These themes are intended to provoke thought and reflection on the complex interplay between technology and the human experience:
-
-- [The Digital Ouija Effect: How Names Shape AI Personalities](writings/the-digital-ouija-effect)
-- [The Quantum Self: Superposition of Digital Identities](writings/the-quantum-self)
-- [The Fractured Digital Psyche](writings/the-fractured-digital-psyche)
-- [What's in a Name?](writings/whats-in-a-name)
+You'll notice some of the content is oriented around the illusion of personalities within AI systems, the psychological implications of interacting with intelligent machines, and the spiritual dimensions of artificial intelligence. These themes are intended to provoke thought and reflection on the complex interplay between technology and the human experience.
 
 ## Emergent Themes
 
