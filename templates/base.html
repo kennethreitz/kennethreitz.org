@@ -4,33 +4,33 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{% block title %}{{ title }} - Kenneth Reitz{% endblock %}</title>
-        
+
         <!-- SEO and Meta -->
         <meta name="description" content="{% block description %}Kenneth Reitz - Creator of Requests and Certifi, trusted by millions of developers worldwide. Thoughts on technology, philosophy, and building software for humans.{% endblock %}" />
         <meta name="author" content="Kenneth Reitz" />
-        
+
         <!-- OpenGraph -->
         <meta property="og:title" content="{% block og_title %}{{ title }} - Kenneth Reitz{% endblock %}" />
         <meta property="og:description" content="{% block og_description %}Creator of Requests and Certifi - libraries trusted by millions of developers worldwide{% endblock %}" />
         <meta property="og:type" content="{% block og_type %}website{% endblock %}" />
         <meta property="og:url" content="{% block og_url %}https://kennethreitz.org{% endblock %}" />
-        
+
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="@kennethreitz" />
         <meta name="twitter:title" content="{% block twitter_title %}{{ title }} - Kenneth Reitz{% endblock %}" />
         <meta name="twitter:description" content="{% block twitter_description %}Creator of Requests and Certifi - libraries trusted by millions of developers worldwide{% endblock %}" />
-        
+
         <!-- Custom Typography & Styles -->
         <link rel="stylesheet" href="/static/custom.css" />
-        
+
         <!-- Subtle page enhancements -->
         <style>
             /* Gentle fade-in animation */
             article {
                 animation: fadeIn 0.3s ease-out;
             }
-            
+
             @keyframes fadeIn {
                 from {
                     opacity: 0.7;
@@ -39,7 +39,7 @@
                     opacity: 1;
                 }
             }
-            
+
             /* Reduced motion preference */
             @media (prefers-reduced-motion: reduce) {
                 article {
@@ -47,9 +47,9 @@
                 }
             }
         </style>
-        
+
         {% block extra_head %}{% endblock %}
-        
+
         <!-- Analytics -->
         <script type="text/javascript">
           var _gauges = _gauges || [];
@@ -87,7 +87,7 @@
                 <div class="footer-content">
                     <div class="footer-links">
                         <a href="https://github.com/kennethreitz" target="_blank">GitHub</a>
-                        <a href="https://twitter.com/kennethreitz" target="_blank">Twitter</a>
+                        <a href="https://twitter.com/kennethreitz42" target="_blank">Twitter</a>
                         <a href="mailto:me@kennethreitz.org">Contact</a>
                         <a href="/sitemap">Sitemap</a>
                     </div>
@@ -99,13 +99,13 @@
         </article>
 
         {% block extra_scripts %}{% endblock %}
-        
+
         <!-- Dynamic Color System -->
         <script>
             (function() {
                 const colorSchemes = [
                     'scheme-ocean',
-                    'scheme-forest', 
+                    'scheme-forest',
                     'scheme-sunset',
                     'scheme-lavender',
                     'scheme-rose',
@@ -115,16 +115,16 @@
                     'scheme-wine',
                     'scheme-moss'
                 ];
-                
+
                 // Get or generate a scheme based on the current page
                 let scheme = localStorage.getItem('current-color-scheme');
-                
+
                 // Change scheme occasionally (20% chance on page load)
                 if (!scheme || Math.random() < 0.2) {
                     scheme = colorSchemes[Math.floor(Math.random() * colorSchemes.length)];
                     localStorage.setItem('current-color-scheme', scheme);
                 }
-                
+
                 // Apply the scheme
                 document.body.className = (document.body.className + ' ' + scheme).trim();
             })();
