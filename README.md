@@ -1,6 +1,6 @@
 # kennethreitz.org
 
-This is the repository for the website kennethreitz.org. It is built using FastAPI, Tailwind CSS, and Markdown.
+This is the repository for the website kennethreitz.org. It is built using Flask, Tailwind CSS, and Markdown.
 
 ## Features
 
@@ -19,7 +19,7 @@ This is the repository for the website kennethreitz.org. It is built using FastA
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.12 or higher
 - Node.js and npm (for Tailwind CSS)
 
 ### Installation
@@ -32,7 +32,7 @@ This is the repository for the website kennethreitz.org. It is built using FastA
 
 2. Install Python dependencies:
    ```bash
-   pip install -r requirements.txt
+   uv sync
    ```
 
 3. Install Node.js dependencies:
@@ -47,7 +47,7 @@ This is the repository for the website kennethreitz.org. It is built using FastA
 
 5. Run the development server:
    ```bash
-   python tuftedoc.py
+   uv run python engine.py
    ```
 
 ## Directory Structure
@@ -59,7 +59,7 @@ kennethreitz.org/
 │   ├── custom.css   # Generated CSS file
 │   └── tailwind-input.css  # Tailwind source CSS
 ├── templates/       # HTML templates
-├── tuftedoc.py      # The main application
+├── engine.py        # The main application
 ├── package.json     # Node.js dependencies
 └── tailwind.config.js  # Tailwind configuration
 ```
@@ -122,7 +122,7 @@ npm run watch:css
 To enable draft content and additional debugging:
 
 ```bash
-DEBUG=1 python tuftedoc.py
+DEBUG=1 uv run python engine.py
 ```
 
 ## Deployment
@@ -150,5 +150,6 @@ This project is personal work by Kenneth Reitz.
 
 ## Acknowledgments
 
-- Built with FastAPI and Tailwind CSS
+- Built with Flask and Tailwind CSS
 - Inspired by Tufte CSS design principles
+
