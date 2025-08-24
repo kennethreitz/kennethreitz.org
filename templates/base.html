@@ -299,6 +299,23 @@
                 }
             }
             
+            /* Mobile font fixes */
+            @media (max-width: 760px) {
+                body, p, h1, h2, h3, h4, h5, h6 {
+                    text-shadow: none !important;
+                    -webkit-text-stroke: 0 !important;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    text-rendering: optimizeLegibility;
+                }
+                
+                /* Ensure no double font rendering */
+                * {
+                    -webkit-transform: translateZ(0);
+                    transform: translateZ(0);
+                }
+            }
+            
             /* Print Styles for Tufte CSS */
             @media print {
                 * {

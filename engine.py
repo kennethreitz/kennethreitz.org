@@ -86,6 +86,7 @@ def calculate_reading_time(text):
     return reading_time, word_count
 
 
+
 def find_series_posts(metadata, current_path):
     """Find all posts in the same series as the current post."""
     series_posts = []
@@ -277,6 +278,7 @@ def timeline_page():
                          breadcrumbs=[],
                          current_year=datetime.now().year,
                          current_page='Timeline')
+
 
 @app.route('/search')
 def search_page():
