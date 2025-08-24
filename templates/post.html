@@ -55,6 +55,52 @@
         margin-top: 0.5rem;
     }
     
+    .reading-time {
+        color: #888;
+        font-weight: normal;
+    }
+    
+    .post-tags {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    .tag {
+        background: transparent;
+        color: #999;
+        padding: 0.1rem 0.3rem;
+        border-radius: 3px;
+        font-size: 0.85rem;
+        font-weight: 400;
+        font-family: 'SF Mono', Monaco, Inconsolata, 'Roboto Mono', Consolas, 'Courier New', monospace;
+        display: inline-block;
+        margin-right: 0.5rem;
+    }
+    
+    /* Reading Progress Indicator */
+    .reading-progress {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 3px;
+        background: linear-gradient(to right, #666, #999);
+        z-index: 100;
+        transition: width 0.1s ease-out;
+        opacity: 0;
+    }
+    
+    .reading-progress.visible {
+        opacity: 1;
+    }
+    
+    /* Only show progress bar for longer posts */
+    .reading-progress.long-post {
+        opacity: 1;
+    }
+    
     .post-content {
         max-width: 55rem;
         margin: 0 auto;
@@ -81,7 +127,7 @@
         font-style: italic;
         margin-top: 3rem;
         margin-bottom: 1.5rem;
-        margin-left: 2rem;
+        margin-left: 0;
         color: #333;
         letter-spacing: -0.01em;
         text-shadow: 0 1px 2px rgba(0,0,0,0.03);
@@ -100,6 +146,58 @@
         margin-top: 2rem;
         margin-bottom: 0.75rem;
         color: #444;
+        font-style: italic;
+    }
+    
+    .series-collection {
+        width: 55%;
+        margin: 3rem 0 2rem 0;
+        padding: 1.5rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        background: #fafafa;
+    }
+    
+    .series-collection h3 {
+        font-size: 1.2rem;
+        margin: 0 0 1rem 0;
+        color: #444;
+        font-style: italic;
+    }
+    
+    .series-collection p {
+        margin: 0 0 1.5rem 0;
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.5;
+    }
+    
+    .series-list {
+        margin: 0;
+        padding-left: 1.5rem;
+        list-style: decimal;
+    }
+    
+    .series-item {
+        margin: 1rem 0;
+        line-height: 1.5;
+    }
+    
+    .series-link {
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+        background: none;
+        text-shadow: none;
+    }
+    
+    .series-link:hover {
+        color: #666;
+    }
+    
+    .series-description {
+        color: #777;
+        font-size: 0.9rem;
         font-style: italic;
     }
     
@@ -134,6 +232,69 @@
         color: #666;
     }
     
+    .adjacent-posts {
+        width: 55%;
+        margin: 2rem 0;
+        padding: 1.5rem 0;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .prev-next-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    
+    .prev-post, .next-post {
+        flex: 1;
+        max-width: 48%;
+    }
+    
+    .prev-post {
+        text-align: left;
+    }
+    
+    .next-post {
+        text-align: right;
+    }
+    
+    .prev-link, .next-link {
+        display: block;
+        text-decoration: none;
+        color: #666;
+        background: none;
+        text-shadow: none;
+        transition: color 0.2s ease;
+        padding: 0.5rem 0;
+    }
+    
+    .prev-link:hover, .next-link:hover {
+        color: #333;
+    }
+    
+    .nav-label {
+        display: block;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 0.25rem;
+        color: #999;
+    }
+    
+    .nav-title {
+        display: block;
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #666;
+    }
+    
+    .prev-link:hover .nav-title, .next-link:hover .nav-title {
+        color: #333;
+    }
+    
     .post-navigation {
         width: 55%;
         margin-top: 3rem;
@@ -157,6 +318,10 @@
     }
     
     @media (max-width: 1400px) {
+        .series-collection {
+            width: 60%;
+        }
+        
         .related-posts {
             width: 60%;
         }
@@ -167,6 +332,10 @@
     }
     
     @media (max-width: 1200px) {
+        .series-collection {
+            width: 70%;
+        }
+        
         .related-posts {
             width: 70%;
         }
@@ -177,8 +346,26 @@
     }
     
     @media (max-width: 760px) {
+        .series-collection {
+            width: 100%;
+        }
+        
         .related-posts {
             width: 100%;
+        }
+        
+        .adjacent-posts {
+            width: 100%;
+        }
+        
+        .prev-next-container {
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .prev-post, .next-post {
+            max-width: 100%;
+            text-align: left;
         }
     }
     
@@ -258,19 +445,52 @@
 {% endblock %}
 
 {% block content %}
+<!-- Reading Progress Bar -->
+<div class="reading-progress" id="reading-progress"></div>
+
 <article>
     <div class="post-header">
         <h1>{{ title }}</h1>
         {% if metadata and metadata.date %}
             <div class="post-meta">
                 {{ metadata.date[0] }}
+                {% if reading_time %}
+                    <span class="reading-time"> • {{ reading_time }} min read</span>
+                {% endif %}
             </div>
+        {% elif reading_time %}
+            <div class="post-meta">
+                {{ reading_time }} min read
+            </div>
+        {% endif %}
+        
+        {% if tags %}
+        <div class="post-tags">
+            {% for tag in tags %}
+                <span class="tag">#{{ tag.lower() }}</span>
+            {% endfor %}
+        </div>
         {% endif %}
     </div>
 
     <div class="post-content">
         {{ content | safe }}
     </div>
+
+    {% if series_posts and series_name %}
+    <aside class="series-collection">
+        <h3>{{ series_name }} Series</h3>
+        <p>This post is part of a series on {{ series_name.lower() }}. Here are all the posts in this collection:</p>
+        <ol class="series-list">
+            {% for post in series_posts %}
+            <li class="series-item">
+                <a href="{{ post.url }}" class="series-link">{{ post.title }}</a>
+                {% if post.description %}<br><span class="series-description">{{ post.description }}</span>{% endif %}
+            </li>
+            {% endfor %}
+        </ol>
+    </aside>
+    {% endif %}
 
     {% if related_posts %}
     <aside class="related-posts">
@@ -280,6 +500,30 @@
             {% if post.description %}{{ post.description }}{% endif %}</p>
         {% endfor %}
     </aside>
+    {% endif %}
+
+    {% if prev_post or next_post %}
+    <nav class="adjacent-posts">
+        <div class="prev-next-container">
+            {% if prev_post %}
+            <div class="prev-post">
+                <a href="{{ prev_post.url }}" class="prev-link">
+                    <span class="nav-label">← Previous</span>
+                    <span class="nav-title">{{ prev_post.title }}</span>
+                </a>
+            </div>
+            {% endif %}
+            
+            {% if next_post %}
+            <div class="next-post">
+                <a href="{{ next_post.url }}" class="next-link">
+                    <span class="nav-label">Next →</span>
+                    <span class="nav-title">{{ next_post.title }}</span>
+                </a>
+            </div>
+            {% endif %}
+        </div>
+    </nav>
     {% endif %}
 
     <nav class="post-navigation">
@@ -292,4 +536,69 @@
         <a href="{{ parent_path }}" class="back-link">Back to Directory</a>
     </nav>
 </article>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const progressBar = document.getElementById('reading-progress');
+    const article = document.querySelector('article');
+    const readingTime = {{ reading_time or 0 }};
+    
+    // Only show progress bar for posts longer than 3 minutes
+    const isLongPost = readingTime >= 3;
+    
+    if (isLongPost) {
+        progressBar.classList.add('long-post');
+    }
+    
+    function updateProgress() {
+        const articleRect = article.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        const articleHeight = article.offsetHeight;
+        const articleTop = articleRect.top;
+        
+        // Calculate how much of the article has been scrolled past
+        let scrolled = 0;
+        
+        if (articleTop < 0) {
+            // Article has started scrolling past the top
+            const scrolledDistance = Math.abs(articleTop);
+            const scrollableDistance = articleHeight - windowHeight;
+            scrolled = Math.min(scrolledDistance / scrollableDistance, 1);
+        }
+        
+        // Update progress bar width
+        const progressPercent = scrolled * 100;
+        progressBar.style.width = progressPercent + '%';
+        
+        // Show/hide based on scroll position and post length
+        if (isLongPost && scrolled > 0.05) {
+            progressBar.classList.add('visible');
+        } else if (!isLongPost) {
+            progressBar.classList.remove('visible');
+        }
+        
+        if (scrolled >= 0.95) {
+            // Near the end, fade out
+            setTimeout(() => {
+                progressBar.classList.remove('visible');
+            }, 1000);
+        }
+    }
+    
+    // Update progress on scroll
+    let ticking = false;
+    window.addEventListener('scroll', function() {
+        if (!ticking) {
+            requestAnimationFrame(function() {
+                updateProgress();
+                ticking = false;
+            });
+            ticking = true;
+        }
+    });
+    
+    // Initial update
+    updateProgress();
+});
+</script>
 {% endblock %}

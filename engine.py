@@ -76,6 +76,105 @@ def get_directory_structure(path):
 
 
 
+def calculate_reading_time(text):
+    """Calculate estimated reading time based on word count."""
+    # Remove HTML tags for more accurate word count
+    clean_text = re.sub(r'<[^>]+>', '', text)
+    # Average reading speed is 200-250 words per minute, using 225 as middle ground
+    word_count = len(clean_text.split())
+    reading_time = max(1, round(word_count / 225))  # Minimum 1 minute
+    return reading_time, word_count
+
+
+def find_series_posts(metadata, current_path):
+    """Find all posts in the same series as the current post."""
+    series_posts = []
+    if not metadata.get('series'):
+        return series_posts
+    
+    series_name = metadata['series']
+    
+    # Search through all markdown files to find posts in the same series
+    for root, dirs, files in os.walk(DATA_DIR):
+        for file in files:
+            if file.endswith('.md') and file != 'index.md':
+                file_path = Path(root) / file
+                
+                # Skip the current file
+                if str(file_path) == str(current_path):
+                    continue
+                    
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                    
+                    # Extract metadata
+                    yaml_pattern = r'^---\s*\n(.*?)\n---\s*\n'
+                    yaml_match = re.match(yaml_pattern, content, re.DOTALL)
+                    if yaml_match:
+                        import yaml
+                        post_metadata = yaml.safe_load(yaml_match.group(1)) or {}
+                        
+                        if post_metadata.get('series') == series_name:
+                            # Create URL path for this post
+                            relative_path = str(file_path.relative_to(DATA_DIR))
+                            url_path = '/' + relative_path[:-3]  # Remove .md
+                            
+                            # Get title from metadata or filename
+                            title = post_metadata.get('title') or file_path.stem.replace('-', ' ').title()
+                            
+                            series_posts.append({
+                                'title': title,
+                                'url': url_path,
+                                'order': post_metadata.get('series_order', 999),
+                                'description': post_metadata.get('description', '')
+                            })
+                except:
+                    continue
+    
+    # Sort by series_order
+    series_posts.sort(key=lambda x: x['order'])
+    return series_posts
+
+def extract_tags_from_content(content, metadata, file_path):
+    """Extract tags from content and metadata for categorization."""
+    tags = set()
+    
+    # 1. From YAML front matter
+    if metadata.get('tags'):
+        if isinstance(metadata['tags'], list):
+            tags.update(tag.lower().strip() for tag in metadata['tags'])
+        else:
+            tags.update(tag.lower().strip() for tag in str(metadata['tags']).split(','))
+    
+    # 2. Auto-generate from file path
+    path_parts = str(file_path).split('/')
+    for part in path_parts:
+        if part in ['essays', 'artificial-intelligence', 'writings', 'consciousness', 'collaboration']:
+            tags.add(part.replace('-', ' '))
+    
+    # 3. Content-based tag detection (key phrases)
+    content_lower = content.lower()
+    
+    # Technology tags
+    tech_keywords = {
+        'python': ['python', 'requests', 'flask', 'django', 'pipenv'],
+        'ai': ['artificial intelligence', 'machine learning', 'consciousness', 'sentience'],
+        'mental health': ['bipolar', 'depression', 'mental health', 'burnout'],
+        'philosophy': ['philosophy', 'consciousness', 'existential', 'metaphysics'],
+        'api design': ['api', 'interface', 'design', 'usability', 'human-centered'],
+        'collaboration': ['collaboration', 'partnership', 'human-ai'],
+        'creativity': ['creativity', 'writing', 'art', 'expression']
+    }
+    
+    for tag, keywords in tech_keywords.items():
+        if any(keyword in content_lower for keyword in keywords):
+            tags.add(tag)
+    
+    # Limit to most relevant tags (max 5)
+    return list(tags)[:5]
+
+
 @lru_cache(maxsize=16)
 def render_markdown_file(file_path):
     """Render a markdown file to HTML with caching for performance."""
@@ -137,10 +236,24 @@ def render_markdown_file(file_path):
         else:
             title = file_path.stem.replace('-', ' ').replace('_', ' ').title()
         
+        # Calculate reading time
+        reading_time, word_count = calculate_reading_time(html_content)
+        
+        # Extract tags
+        tags = extract_tags_from_content(html_content, metadata, file_path)
+        
+        # Find series posts if this post is part of a series
+        series_posts = find_series_posts(metadata, file_path)
+        
         return {
             'content': html_content,
             'title': title,
-            'metadata': metadata
+            'metadata': metadata,
+            'reading_time': reading_time,
+            'word_count': word_count,
+            'tags': tags,
+            'series_posts': series_posts,
+            'series_name': metadata.get('series')
         }
     except Exception as e:
         return {
@@ -164,6 +277,18 @@ def search_page():
                          breadcrumbs=[],
                          current_year=datetime.now().year,
                          current_page='Search')
+
+
+@app.route('/random')
+def random_post():
+    """Redirect to a random blog post."""
+    posts = collect_all_blog_posts()
+    if not posts:
+        return redirect('/directory')
+    
+    import random
+    random_post = random.choice(posts)
+    return redirect(random_post['url'])
 
 
 @app.route('/archive')
@@ -380,8 +505,11 @@ def serve_path(path):
         
         # Find related posts for essays and AI writings
         related_posts = []
+        prev_post = None
+        next_post = None
         if 'essays' in path or ('artificial-intelligence' in path and 'writings' in path):
             related_posts = find_related_posts(str(full_path.relative_to(DATA_DIR)))
+            prev_post, next_post = find_adjacent_posts(str(full_path.relative_to(DATA_DIR)))
         
         return render_template('post.html',
                              content=content_data['content'],
@@ -391,7 +519,14 @@ def serve_path(path):
                              current_path=path,
                              current_year=datetime.now().year,
                              current_page=content_data['title'],
-                             related_posts=related_posts)
+                             related_posts=related_posts,
+                             reading_time=content_data.get('reading_time'),
+                             word_count=content_data.get('word_count'),
+                             prev_post=prev_post,
+                             next_post=next_post,
+                             tags=content_data.get('tags', []),
+                             series_posts=content_data.get('series_posts', []),
+                             series_name=content_data.get('series_name'))
     
     elif full_path.suffix.lower() in ['.jpg', '.jpeg', '.png', '.gif', '.webp']:
         # Image file - check if it's in a gallery directory
@@ -817,6 +952,28 @@ def find_related_posts(current_post_path, limit=3):
     # Sort by score and return top N
     related_posts.sort(key=lambda x: x[1], reverse=True)
     return [post for post, score in related_posts[:limit]]
+
+
+def find_adjacent_posts(current_post_path):
+    """Find next and previous posts chronologically."""
+    posts = collect_all_blog_posts()
+    current_post_url = '/' + current_post_path[:-3] if current_post_path.endswith('.md') else '/' + current_post_path
+    
+    # Find current post index
+    current_index = None
+    for i, post in enumerate(posts):
+        if post['url'] == current_post_url:
+            current_index = i
+            break
+    
+    if current_index is None:
+        return None, None
+    
+    # Get previous (newer) and next (older) posts
+    prev_post = posts[current_index - 1] if current_index > 0 else None
+    next_post = posts[current_index + 1] if current_index < len(posts) - 1 else None
+    
+    return prev_post, next_post
 
 
 def generate_sitemap_data():

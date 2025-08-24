@@ -1,5 +1,176 @@
 {% extends "base.html" %}
 
+{% block extra_head %}
+<style>
+/* Image Gallery Styles */
+.image-gallery {
+    margin: 2rem 0;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.gallery-item {
+    position: relative;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.gallery-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+
+.gallery-item:hover .gallery-thumbnail {
+    transform: scale(1.05);
+}
+
+/* Lightbox Styles */
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.lightbox.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lightbox-image {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.lightbox-title {
+    color: white;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: background 0.2s ease;
+}
+
+.lightbox-close:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: background 0.2s ease;
+}
+
+.lightbox-nav:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox-prev {
+    left: 20px;
+}
+
+.lightbox-next {
+    right: 20px;
+}
+
+@media (max-width: 760px) {
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 0.5rem;
+    }
+    
+    .lightbox-close {
+        top: 10px;
+        right: 10px;
+        width: 35px;
+        height: 35px;
+        font-size: 1.5rem;
+    }
+    
+    .lightbox-nav {
+        width: 45px;
+        height: 45px;
+        font-size: 1.5rem;
+    }
+    
+    .lightbox-prev {
+        left: 10px;
+    }
+    
+    .lightbox-next {
+        right: 10px;
+    }
+}
+</style>
+{% endblock %}
+
 {% block content %}
 {% if current_path and current_path != '' %}
     <h1>{{ current_path.split('/')[-1] if '/' in current_path else current_path }}</h1>
@@ -11,7 +182,39 @@
 </section>
 {% endif %}
 
-{% if items %}
+{% if is_image_gallery and image_items %}
+<section class="image-gallery">
+    <h3>Gallery</h3>
+    <div class="gallery-grid">
+        {% for item in image_items %}
+        <div class="gallery-item">
+            <img src="{{ item.static_path }}" alt="{{ item.display_name }}" class="gallery-thumbnail" data-full="{{ item.static_path }}" data-title="{{ item.display_name }}">
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+{% if items|length > image_items|length %}
+<section class="directory-listing">
+    <h3>Other Files</h3>
+    <ul>
+        {% for item in items %}
+        {% if not item.is_image %}
+        <li data-icon="{% if item.is_dir %}📁{% elif item.is_markdown %}📝{% else %}📄{% endif %}">
+            <a href="{{ item.url_path }}">
+                {{ item.display_name }}{% if item.is_dir %}/{% endif %}
+            </a>
+            {% if not item.is_dir %}
+                <span class="item-date">{{ item.modified.strftime('%Y-%m-%d') }}</span>
+            {% endif %}
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
+
+{% elif items %}
 <section class="directory-listing">
     <h3>Contents</h3>
     <ul>
@@ -39,4 +242,110 @@
     {{ index_content.content | safe }}
 </section>
 {% endif %}
+
+<!-- Lightbox HTML -->
+<div id="lightbox" class="lightbox">
+    <div class="lightbox-close" onclick="closeLightbox()">&times;</div>
+    <div class="lightbox-nav lightbox-prev" onclick="changeImage(-1)">&#8249;</div>
+    <div class="lightbox-nav lightbox-next" onclick="changeImage(1)">&#8250;</div>
+    <div class="lightbox-content">
+        <img id="lightbox-image" class="lightbox-image" src="" alt="">
+        <div id="lightbox-title" class="lightbox-title"></div>
+    </div>
+</div>
+
+<script>
+let currentImageIndex = 0;
+let images = [];
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize gallery if images exist
+    const galleryItems = document.querySelectorAll('.gallery-thumbnail');
+    
+    if (galleryItems.length > 0) {
+        // Build images array
+        images = Array.from(galleryItems).map(img => ({
+            src: img.dataset.full,
+            title: img.dataset.title,
+            alt: img.alt
+        }));
+        
+        // Add click handlers
+        galleryItems.forEach((img, index) => {
+            img.addEventListener('click', () => openLightbox(index));
+        });
+    }
+    
+    // Close lightbox on background click
+    document.getElementById('lightbox').addEventListener('click', function(e) {
+        if (e.target === this) {
+            closeLightbox();
+        }
+    });
+    
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+        const lightbox = document.getElementById('lightbox');
+        if (lightbox.classList.contains('active')) {
+            switch(e.key) {
+                case 'Escape':
+                    closeLightbox();
+                    break;
+                case 'ArrowLeft':
+                    changeImage(-1);
+                    break;
+                case 'ArrowRight':
+                    changeImage(1);
+                    break;
+            }
+        }
+    });
+});
+
+function openLightbox(index) {
+    currentImageIndex = index;
+    updateLightboxImage();
+    document.getElementById('lightbox').classList.add('active');
+    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+}
+
+function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('active');
+    document.body.style.overflow = ''; // Restore scrolling
+}
+
+function changeImage(direction) {
+    currentImageIndex += direction;
+    
+    if (currentImageIndex >= images.length) {
+        currentImageIndex = 0;
+    } else if (currentImageIndex < 0) {
+        currentImageIndex = images.length - 1;
+    }
+    
+    updateLightboxImage();
+}
+
+function updateLightboxImage() {
+    const image = images[currentImageIndex];
+    const lightboxImage = document.getElementById('lightbox-image');
+    const lightboxTitle = document.getElementById('lightbox-title');
+    
+    lightboxImage.src = image.src;
+    lightboxImage.alt = image.alt;
+    lightboxTitle.textContent = image.title;
+    
+    // Update navigation visibility
+    const prevBtn = document.querySelector('.lightbox-prev');
+    const nextBtn = document.querySelector('.lightbox-next');
+    
+    if (images.length <= 1) {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+    } else {
+        prevBtn.style.display = 'flex';
+        nextBtn.style.display = 'flex';
+    }
+}
+</script>
 {% endblock %}
