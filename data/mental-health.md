@@ -46,7 +46,7 @@ Here are some things that have helped me:
   - Taking things *one day at a time*.
   - Sometimes, *one hour at a time*.
 
-I find working on my website, listening to music, and playing video games to be helpful, as well as [cannabis](/software/websites/strainsdb). I also find that exercise is helpful, but I don't do it as much as I should.
+I find working on my website, listening to music, and playing video games to be helpful, as well as ~~[cannabis](/software/websites/strainsdb)~~ gabapentin (I no longer use cannabis). I also find that exercise is helpful, but I don't do it as much as I should.
 
 ## Resources for Others
 
