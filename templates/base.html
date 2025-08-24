@@ -309,6 +309,17 @@
                     text-rendering: optimizeLegibility;
                 }
                 
+                /* Fix Tufte's complex link underlines on mobile */
+                a, a:link, a:visited, 
+                .tufte-underline, 
+                .hover-tufte-underline:hover {
+                    text-shadow: none !important;
+                    background: none !important;
+                    text-decoration: underline !important;
+                    text-decoration-thickness: 1px !important;
+                    text-underline-offset: 2px !important;
+                }
+                
                 /* Ensure no double font rendering */
                 * {
                     -webkit-transform: translateZ(0);
