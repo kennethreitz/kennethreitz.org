@@ -530,10 +530,20 @@ def serve_path(path):
             related_posts = find_related_posts(str(full_path.relative_to(DATA_DIR)))
             prev_post, next_post = find_adjacent_posts(str(full_path.relative_to(DATA_DIR)))
         
+        # Generate description from content for social sharing
+        content_text = re.sub(r'<[^>]+>', '', content_data['content'])
+        content_text = content_text.strip()
+        description = ""
+        if content_text:
+            # Get first paragraph or first 200 chars
+            first_para = content_text.split('\n\n')[0]
+            description = first_para[:200] + '...' if len(first_para) > 200 else first_para
+        
         return render_template('post.html',
                              content=content_data['content'],
                              title=content_data['title'],
                              metadata=content_data['metadata'],
+                             description=description,
                              breadcrumbs=breadcrumbs,
                              current_path=path,
                              current_year=datetime.now().year,

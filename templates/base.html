@@ -14,12 +14,17 @@
         <meta property="og:description" content="{% block og_description %}Creator of Requests and Certifi - libraries trusted by millions of developers worldwide{% endblock %}" />
         <meta property="og:type" content="{% block og_type %}website{% endblock %}" />
         <meta property="og:url" content="{% block og_url %}https://kennethreitz.org{% endblock %}" />
+        <meta property="og:image" content="{% block og_image %}https://kennethreitz.org/static/images/social-card.jpg{% endblock %}" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="Kenneth Reitz" />
 
         <!-- Twitter Card -->
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:creator" content="@kennethreitz" />
+        <meta name="twitter:card" content="{% block twitter_card %}summary_large_image{% endblock %}" />
+        <meta name="twitter:creator" content="@kennethreitz42" />
         <meta name="twitter:title" content="{% block twitter_title %}{{ title }} - Kenneth Reitz{% endblock %}" />
         <meta name="twitter:description" content="{% block twitter_description %}Creator of Requests and Certifi - libraries trusted by millions of developers worldwide{% endblock %}" />
+        <meta name="twitter:image" content="{% block twitter_image %}https://kennethreitz.org/static/images/social-card.jpg{% endblock %}" />
 
         <!-- RSS Feed -->
         <link rel="alternate" type="application/rss+xml" title="Kenneth Reitz - Essays &amp; AI Writings" href="/feed.xml" />

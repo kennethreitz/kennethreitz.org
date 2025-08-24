@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
+{% block og_title %}{{ title }}{% endblock %}
+{% block og_description %}{% if description %}{{ description[:160] }}{% else %}{{ content | striptags | truncate(160) }}{% endif %}{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_url %}https://kennethreitz.org{{ request.path }}{% endblock %}
+
+{% block twitter_title %}{{ title }}{% endblock %}
+{% block twitter_description %}{% if description %}{{ description[:160] }}{% else %}{{ content | striptags | truncate(160) }}{% endif %}{% endblock %}
+
+{% block description %}{% if description %}{{ description }}{% else %}{{ content | striptags | truncate(200) }}{% endif %}{% endblock %}
+
 {% block schema_type %}Article{% endblock %}
 {% block schema_name %}{{ title }}{% endblock %}
 {% block schema_url %}{{ current_path }}{% endblock %}
