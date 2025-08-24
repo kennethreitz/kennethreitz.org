@@ -269,6 +269,15 @@ def index():
                          current_year=datetime.now().year,
                          title="Home")
 
+@app.route('/timeline')
+def timeline_page():
+    """Interactive timeline of Kenneth's work and projects."""
+    return render_template('timeline.html',
+                         title='Timeline',
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='Timeline')
+
 @app.route('/search')
 def search_page():
     """Search page with interactive search functionality."""
