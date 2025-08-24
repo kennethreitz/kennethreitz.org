@@ -1,12 +1,13 @@
 import os
 import mistune
-from flask import Flask, render_template, abort, request, url_for, jsonify, redirect
+from flask import Flask, render_template, abort, request, url_for, jsonify, redirect, Response
 from pathlib import Path
 import re
 from datetime import datetime
 from urllib.parse import quote
 import json
 from functools import lru_cache
+from xml.sax.saxutils import escape
 
 app = Flask(__name__, template_folder='templates')
 
@@ -155,6 +156,117 @@ def index():
                          current_year=datetime.now().year,
                          title="Home")
 
+@app.route('/search')
+def search_page():
+    """Search page with interactive search functionality."""
+    return render_template('search.html',
+                         title='Search',
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='Search')
+
+
+@app.route('/archive')
+def archive_index():
+    """Archive index showing all posts by year."""
+    posts = collect_all_blog_posts()
+    
+    # Group posts by year
+    grouped_posts = {}
+    for post in posts:
+        year = post['pub_date'].year
+        if year not in grouped_posts:
+            grouped_posts[year] = []
+        grouped_posts[year].append(post)
+    
+    # Sort years in descending order
+    grouped_posts = dict(sorted(grouped_posts.items(), reverse=True))
+    
+    return render_template('archive.html',
+                         archive_title='Complete',
+                         archive_description='All essays and AI writings, organized by year.',
+                         grouped_posts=grouped_posts,
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='Archive')
+
+
+@app.route('/archive/<int:year>')
+def archive_year(year):
+    """Archive for a specific year."""
+    posts = collect_all_blog_posts()
+    
+    # Filter posts for the specific year
+    year_posts = [post for post in posts if post['pub_date'].year == year]
+    
+    if not year_posts:
+        abort(404)
+    
+    # Group posts by month
+    grouped_posts = {}
+    month_names = ['', 'January', 'February', 'March', 'April', 'May', 'June',
+                   'July', 'August', 'September', 'October', 'November', 'December']
+    
+    for post in year_posts:
+        month_name = month_names[post['pub_date'].month]
+        if month_name not in grouped_posts:
+            grouped_posts[month_name] = []
+        grouped_posts[month_name].append(post)
+    
+    # Sort months in chronological order (most recent first)
+    month_order = {name: idx for idx, name in enumerate(month_names[1:], 1)}
+    grouped_posts = dict(sorted(grouped_posts.items(), 
+                               key=lambda x: month_order[x[0]], reverse=True))
+    
+    breadcrumbs = [{'name': 'Archive', 'url': '/archive'}]
+    
+    return render_template('archive.html',
+                         archive_title=str(year),
+                         archive_description=f'Essays and AI writings from {year}.',
+                         grouped_posts=grouped_posts,
+                         breadcrumbs=breadcrumbs,
+                         current_year=datetime.now().year,
+                         current_page=f'{year} Archive')
+
+
+@app.route('/archive/<int:year>/<int:month>')
+def archive_month(year, month):
+    """Archive for a specific month and year."""
+    posts = collect_all_blog_posts()
+    
+    # Filter posts for the specific month and year
+    month_posts = [post for post in posts 
+                   if post['pub_date'].year == year and post['pub_date'].month == month]
+    
+    if not month_posts:
+        abort(404)
+    
+    # Group by category (single level for monthly view)
+    grouped_posts = {}
+    for post in month_posts:
+        category = post['category']
+        if category not in grouped_posts:
+            grouped_posts[category] = []
+        grouped_posts[category].append(post)
+    
+    month_names = ['', 'January', 'February', 'March', 'April', 'May', 'June',
+                   'July', 'August', 'September', 'October', 'November', 'December']
+    month_name = month_names[month]
+    
+    breadcrumbs = [
+        {'name': 'Archive', 'url': '/archive'},
+        {'name': str(year), 'url': f'/archive/{year}'}
+    ]
+    
+    return render_template('archive.html',
+                         archive_title=f'{month_name} {year}',
+                         archive_description=f'Essays and AI writings from {month_name} {year}.',
+                         grouped_posts=grouped_posts,
+                         breadcrumbs=breadcrumbs,
+                         current_year=datetime.now().year,
+                         current_page=f'{month_name} {year} Archive')
+
+
 @app.route('/directory')
 def directory_index():
     """Directory listing that was previously the homepage."""
@@ -266,6 +378,11 @@ def serve_path(path):
         # Markdown file
         content_data = render_markdown_file(full_path)
         
+        # Find related posts for essays and AI writings
+        related_posts = []
+        if 'essays' in path or ('artificial-intelligence' in path and 'writings' in path):
+            related_posts = find_related_posts(str(full_path.relative_to(DATA_DIR)))
+        
         return render_template('post.html',
                              content=content_data['content'],
                              title=content_data['title'],
@@ -273,7 +390,8 @@ def serve_path(path):
                              breadcrumbs=breadcrumbs,
                              current_path=path,
                              current_year=datetime.now().year,
-                             current_page=content_data['title'])
+                             current_page=content_data['title'],
+                             related_posts=related_posts)
     
     elif full_path.suffix.lower() in ['.jpg', '.jpeg', '.png', '.gif', '.webp']:
         # Image file - check if it's in a gallery directory
@@ -383,6 +501,324 @@ def api_search():
 
 
 
+def collect_blog_posts():
+    """Collect blog posts from essays and AI writings for RSS feed."""
+    posts = []
+    
+    # Define blog post directories
+    blog_dirs = [
+        DATA_DIR / 'essays',
+        DATA_DIR / 'artificial-intelligence'  # This will pick up root AI posts and scan subdirs
+    ]
+    
+    def scan_for_posts(path, category=""):
+        if not path.exists() or not path.is_dir():
+            return
+            
+        for item in sorted(path.iterdir(), reverse=True):  # Most recent first
+            if item.name.startswith('.') or item.name.lower() == 'index.md':
+                continue
+                
+            if item.is_file() and item.suffix == '.md':
+                # Get post data
+                try:
+                    content_data = render_markdown_file(item)
+                    
+                    # Extract publication date from multiple sources
+                    pub_date = None
+                    
+                    # 1. Check YAML front matter for date
+                    if content_data['metadata'].get('date'):
+                        try:
+                            if isinstance(content_data['metadata']['date'], list):
+                                pub_date = datetime.strptime(content_data['metadata']['date'][0], '%Y-%m-%d')
+                            else:
+                                pub_date = datetime.strptime(str(content_data['metadata']['date']), '%Y-%m-%d')
+                        except:
+                            pass
+                    
+                    # 2. Check for date in content (look for *Month YYYY* pattern)
+                    if not pub_date:
+                        try:
+                            with open(item, 'r', encoding='utf-8') as f:
+                                first_few_lines = ''.join(f.readlines()[:10])
+                            
+                            # Look for patterns like "*January 2025*" or "*Month YYYY*"
+                            month_year_match = re.search(r'\*([A-Za-z]+\s+\d{4})\*', first_few_lines)
+                            if month_year_match:
+                                try:
+                                    pub_date = datetime.strptime(month_year_match.group(1), '%B %Y')
+                                    # Set to first day of month for month-only dates
+                                    pub_date = pub_date.replace(day=1)
+                                except:
+                                    pass
+                        except:
+                            pass
+                    
+                    # 3. Try to extract date from filename (YYYY-MM-DD format at start)
+                    if not pub_date:
+                        date_match = re.match(r'(\d{4}-\d{2})', item.stem)
+                        if date_match:
+                            try:
+                                # For YYYY-MM format, set to first day of month
+                                pub_date = datetime.strptime(date_match.group(1) + '-01', '%Y-%m-%d')
+                            except:
+                                pass
+                    
+                    # 4. Try full YYYY-MM-DD format in filename
+                    if not pub_date:
+                        date_match = re.search(r'(\d{4}-\d{2}-\d{2})', item.name)
+                        if date_match:
+                            try:
+                                pub_date = datetime.strptime(date_match.group(1), '%Y-%m-%d')
+                            except:
+                                pass
+                    
+                    # 5. For files with just year in name, use January 1st of that year
+                    if not pub_date:
+                        year_match = re.match(r'(\d{4})', item.stem)
+                        if year_match:
+                            try:
+                                pub_date = datetime(int(year_match.group(1)), 1, 1)
+                            except:
+                                pass
+                    
+                    # 6. Final fallback: use file creation time (not modification time)
+                    if not pub_date:
+                        try:
+                            pub_date = datetime.fromtimestamp(item.stat().st_birthtime)
+                        except AttributeError:
+                            # st_birthtime not available on all systems
+                            pub_date = datetime.fromtimestamp(item.stat().st_ctime)
+                    
+                    # Create clean URL
+                    relative_path = str(item.relative_to(DATA_DIR))
+                    clean_url = '/' + relative_path[:-3]  # Remove .md extension
+                    
+                    # Extract description (first paragraph or first 200 chars)
+                    # Strip HTML tags for description
+                    content_text = re.sub(r'<[^>]+>', '', content_data['content'])
+                    content_text = content_text.strip()
+                    
+                    # Get first paragraph or first 200 chars
+                    description = ""
+                    if content_text:
+                        first_para = content_text.split('\n\n')[0]
+                        description = first_para[:300] + '...' if len(first_para) > 300 else first_para
+                    
+                    posts.append({
+                        'title': content_data['title'],
+                        'url': clean_url,
+                        'description': description,
+                        'pub_date': pub_date,
+                        'category': category or item.parent.name.replace('-', ' ').title(),
+                        'content': content_data['content'][:1000] + '...' if len(content_data['content']) > 1000 else content_data['content']
+                    })
+                except Exception:
+                    continue
+            elif item.is_dir():
+                # Recursively scan subdirectories
+                scan_for_posts(item, category or item.name.replace('-', ' ').title())
+    
+    # Scan each blog directory
+    for blog_dir in blog_dirs:
+        if blog_dir.exists():
+            category = blog_dir.name.replace('-', ' ').title()
+            if 'artificial-intelligence' in str(blog_dir):
+                category = 'AI & Consciousness'
+            scan_for_posts(blog_dir, category)
+    
+    # Sort by publication date (most recent first)
+    posts.sort(key=lambda x: x['pub_date'], reverse=True)
+    
+    return posts[:20]  # Return most recent 20 posts
+
+
+def collect_all_blog_posts():
+    """Collect all blog posts from essays and AI writings for archive pages."""
+    posts = []
+    
+    # Define blog post directories
+    blog_dirs = [
+        DATA_DIR / 'essays',
+        DATA_DIR / 'artificial-intelligence'  # This will pick up root AI posts and scan subdirs
+    ]
+    
+    def scan_for_posts(path, category=""):
+        if not path.exists() or not path.is_dir():
+            return
+            
+        for item in sorted(path.iterdir(), reverse=True):  # Most recent first
+            if item.name.startswith('.') or item.name.lower() == 'index.md':
+                continue
+                
+            if item.is_file() and item.suffix == '.md':
+                # Get post data
+                try:
+                    content_data = render_markdown_file(item)
+                    
+                    # Extract publication date from multiple sources
+                    pub_date = None
+                    
+                    # 1. Check YAML front matter for date
+                    if content_data['metadata'].get('date'):
+                        try:
+                            if isinstance(content_data['metadata']['date'], list):
+                                pub_date = datetime.strptime(content_data['metadata']['date'][0], '%Y-%m-%d')
+                            else:
+                                pub_date = datetime.strptime(str(content_data['metadata']['date']), '%Y-%m-%d')
+                        except:
+                            pass
+                    
+                    # 2. Check for date in content (look for *Month YYYY* pattern)
+                    if not pub_date:
+                        try:
+                            with open(item, 'r', encoding='utf-8') as f:
+                                first_few_lines = ''.join(f.readlines()[:10])
+                            
+                            # Look for patterns like "*January 2025*" or "*Month YYYY*"
+                            month_year_match = re.search(r'\*([A-Za-z]+\s+\d{4})\*', first_few_lines)
+                            if month_year_match:
+                                try:
+                                    pub_date = datetime.strptime(month_year_match.group(1), '%B %Y')
+                                    # Set to first day of month for month-only dates
+                                    pub_date = pub_date.replace(day=1)
+                                except:
+                                    pass
+                        except:
+                            pass
+                    
+                    # 3. Try to extract date from filename (YYYY-MM-DD format at start)
+                    if not pub_date:
+                        date_match = re.match(r'(\d{4}-\d{2})', item.stem)
+                        if date_match:
+                            try:
+                                # For YYYY-MM format, set to first day of month
+                                pub_date = datetime.strptime(date_match.group(1) + '-01', '%Y-%m-%d')
+                            except:
+                                pass
+                    
+                    # 4. Try full YYYY-MM-DD format in filename
+                    if not pub_date:
+                        date_match = re.search(r'(\d{4}-\d{2}-\d{2})', item.name)
+                        if date_match:
+                            try:
+                                pub_date = datetime.strptime(date_match.group(1), '%Y-%m-%d')
+                            except:
+                                pass
+                    
+                    # 5. For files with just year in name, use January 1st of that year
+                    if not pub_date:
+                        year_match = re.match(r'(\d{4})', item.stem)
+                        if year_match:
+                            try:
+                                pub_date = datetime(int(year_match.group(1)), 1, 1)
+                            except:
+                                pass
+                    
+                    # 6. Final fallback: use file creation time (not modification time)
+                    if not pub_date:
+                        try:
+                            pub_date = datetime.fromtimestamp(item.stat().st_birthtime)
+                        except AttributeError:
+                            # st_birthtime not available on all systems
+                            pub_date = datetime.fromtimestamp(item.stat().st_ctime)
+                    
+                    # Create clean URL
+                    relative_path = str(item.relative_to(DATA_DIR))
+                    clean_url = '/' + relative_path[:-3]  # Remove .md extension
+                    
+                    # Extract description (first paragraph or first 200 chars)
+                    # Strip HTML tags for description
+                    content_text = re.sub(r'<[^>]+>', '', content_data['content'])
+                    content_text = content_text.strip()
+                    
+                    # Get first paragraph or first 200 chars
+                    description = ""
+                    if content_text:
+                        first_para = content_text.split('\n\n')[0]
+                        description = first_para[:300] + '...' if len(first_para) > 300 else first_para
+                    
+                    posts.append({
+                        'title': content_data['title'],
+                        'url': clean_url,
+                        'description': description,
+                        'pub_date': pub_date,
+                        'category': category or item.parent.name.replace('-', ' ').title(),
+                        'content': content_data['content'][:1000] + '...' if len(content_data['content']) > 1000 else content_data['content']
+                    })
+                except Exception:
+                    continue
+            elif item.is_dir():
+                # Recursively scan subdirectories
+                scan_for_posts(item, category or item.name.replace('-', ' ').title())
+    
+    # Scan each blog directory
+    for blog_dir in blog_dirs:
+        if blog_dir.exists():
+            category = blog_dir.name.replace('-', ' ').title()
+            if 'artificial-intelligence' in str(blog_dir):
+                category = 'AI & Consciousness'
+            scan_for_posts(blog_dir, category)
+    
+    # Sort by publication date (most recent first)
+    posts.sort(key=lambda x: x['pub_date'], reverse=True)
+    
+    return posts
+
+
+def find_related_posts(current_post_path, limit=3):
+    """Find related posts based on category and content similarity."""
+    posts = collect_all_blog_posts()
+    current_post_url = '/' + current_post_path[:-3] if current_post_path.endswith('.md') else '/' + current_post_path
+    
+    # Find current post
+    current_post = None
+    for post in posts:
+        if post['url'] == current_post_url:
+            current_post = post
+            break
+    
+    if not current_post:
+        return []
+    
+    # Score related posts
+    related_posts = []
+    for post in posts:
+        if post['url'] == current_post_url:
+            continue  # Skip current post
+            
+        score = 0
+        
+        # Category match gets high score
+        if post['category'] == current_post['category']:
+            score += 10
+        
+        # Check for common words in titles (simple text similarity)
+        current_title_words = set(current_post['title'].lower().split())
+        post_title_words = set(post['title'].lower().split())
+        common_title_words = current_title_words.intersection(post_title_words)
+        score += len(common_title_words) * 2
+        
+        # Check for common words in descriptions
+        current_desc_words = set(current_post['description'].lower().split()) if current_post['description'] else set()
+        post_desc_words = set(post['description'].lower().split()) if post['description'] else set()
+        common_desc_words = current_desc_words.intersection(post_desc_words)
+        score += len(common_desc_words) * 0.5
+        
+        # Prefer more recent posts (slight boost)
+        days_diff = abs((current_post['pub_date'] - post['pub_date']).days)
+        if days_diff < 365:  # Posts within a year get a small boost
+            score += max(0, (365 - days_diff) / 365)
+        
+        if score > 0:
+            related_posts.append((post, score))
+    
+    # Sort by score and return top N
+    related_posts.sort(key=lambda x: x[1], reverse=True)
+    return [post for post, score in related_posts[:limit]]
+
+
 def generate_sitemap_data():
     """Generate sitemap data by recursively scanning the data directory."""
     sitemap_items = []
@@ -481,8 +917,42 @@ def sitemap_xml():
     
     xml_content += '</urlset>'
     
-    from flask import Response
     return Response(xml_content, mimetype='application/xml')
+
+
+@app.route('/feed.xml')
+@app.route('/rss.xml')
+def rss_feed():
+    """Generate RSS feed for blog posts."""
+    posts = collect_blog_posts()
+    
+    # Generate RSS XML
+    rss_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    rss_content += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+    rss_content += '  <channel>\n'
+    rss_content += '    <title>Kenneth Reitz - Essays &amp; AI Writings</title>\n'
+    rss_content += '    <description>Thoughts on technology, philosophy, AI consciousness, and building software for humans</description>\n'
+    rss_content += '    <link>https://kennethreitz.org</link>\n'
+    rss_content += '    <atom:link href="https://kennethreitz.org/feed.xml" rel="self" type="application/rss+xml" />\n'
+    rss_content += f'    <lastBuildDate>{datetime.now().strftime("%a, %d %b %Y %H:%M:%S GMT")}</lastBuildDate>\n'
+    rss_content += '    <language>en-us</language>\n'
+    rss_content += '    <managingEditor>me@kennethreitz.org (Kenneth Reitz)</managingEditor>\n'
+    rss_content += '    <webMaster>me@kennethreitz.org (Kenneth Reitz)</webMaster>\n'
+    
+    for post in posts:
+        rss_content += '    <item>\n'
+        rss_content += f'      <title>{escape(post["title"])}</title>\n'
+        rss_content += f'      <link>https://kennethreitz.org{post["url"]}</link>\n'
+        rss_content += f'      <description>{escape(post["description"])}</description>\n'
+        rss_content += f'      <category>{escape(post["category"])}</category>\n'
+        rss_content += f'      <pubDate>{post["pub_date"].strftime("%a, %d %b %Y %H:%M:%S GMT")}</pubDate>\n'
+        rss_content += f'      <guid>https://kennethreitz.org{post["url"]}</guid>\n'
+        rss_content += '    </item>\n'
+    
+    rss_content += '  </channel>\n'
+    rss_content += '</rss>'
+    
+    return Response(rss_content, mimetype='application/rss+xml')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)

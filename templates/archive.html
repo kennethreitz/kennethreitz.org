@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+{% block title %}{{ archive_title }} Archive{% endblock %}
+
+{% block content %}
+<h1>{{ archive_title }} Archive</h1>
+
+{% if archive_description %}
+<p>{{ archive_description }}</p>
+{% endif %}
+
+{% if grouped_posts and archive_title == 'Complete' %}
+<nav class="year-picker">
+    <p><strong>Jump to year:</strong>
+    {% for year in grouped_posts.keys() %}
+        <a href="#year-{{ year }}">{{ year }}</a>{% if not loop.last %} • {% endif %}
+    {% endfor %}
+    </p>
+</nav>
+{% endif %}
+
+{% if grouped_posts %}
+    {% for group_name, posts in grouped_posts.items() %}
+        <section{% if archive_title == 'Complete' %} id="year-{{ group_name }}"{% endif %}>
+            <h2>{{ group_name }}</h2>
+            
+            {% for post in posts %}
+                <p><strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+                {% if post.pub_date %}
+                    <span class="post-date">{{ post.pub_date.strftime('%B %d, %Y') }}</span>
+                {% endif %}
+                <br>
+                {% if post.description %}
+                    {{ post.description }}
+                {% endif %}
+                </p>
+            {% endfor %}
+        </section>
+    {% endfor %}
+{% else %}
+    <p>No posts found in this archive.</p>
+    <p><a href="/essays">Browse Essays</a> • <a href="/artificial-intelligence">Browse AI Writings</a></p>
+{% endif %}
+
+<style>
+.year-picker {
+    background: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+    margin: 2rem 0;
+    width: 55%;
+}
+
+.year-picker p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.year-picker a {
+    color: #666;
+    text-decoration: none;
+    background: none;
+    text-shadow: none;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.year-picker a:hover {
+    color: #333;
+    background: #e8e8e8;
+}
+
+.post-date {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-left: 0.5rem;
+}
+
+section {
+    margin-bottom: 2.5rem;
+    scroll-margin-top: 2rem; /* Offset for smooth scrolling to anchors */
+}
+
+section h2 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+section p {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
+section p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1400px) {
+    .year-picker {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .year-picker {
+        width: 70%;
+    }
+}
+
+@media (max-width: 760px) {
+    .year-picker {
+        width: 100%;
+        padding: 0.8rem 1rem;
+    }
+    
+    .year-picker p {
+        font-size: 0.9rem;
+    }
+}
+</style>
+{% endblock %}

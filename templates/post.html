@@ -1,5 +1,26 @@
 {% extends "base.html" %}
 
+{% block schema_type %}Article{% endblock %}
+{% block schema_name %}{{ title }}{% endblock %}
+{% block schema_url %}{{ current_path }}{% endblock %}
+{% block schema_description %}{% if metadata.description %}{{ metadata.description }}{% else %}{{ title }} - An essay by Kenneth Reitz{% endif %}{% endblock %}
+
+{% block schema_extra %},
+            "headline": "{{ title }}",
+            "articleSection": "{% if 'artificial-intelligence' in current_path %}AI & Consciousness{% elif 'essays' in current_path %}Essays{% else %}Writing{% endif %}",
+            "wordCount": {{ (content | length / 5) | int }},
+            {% if metadata and metadata.date %}
+            "datePublished": "{{ metadata.date[0] if metadata.date is iterable and metadata.date is not string else metadata.date }}",
+            "dateModified": "{{ metadata.date[0] if metadata.date is iterable and metadata.date is not string else metadata.date }}",
+            {% endif %}
+            "keywords": [
+                "{% if 'artificial-intelligence' in current_path %}artificial intelligence, consciousness, philosophy{% elif 'mental-health' in current_path %}mental health, bipolar disorder, tech industry{% elif 'essays' in current_path %}technology, software development, python{% else %}writing, thoughts{% endif %}"
+            ],
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://kennethreitz.org{{ current_path }}"
+            }{% endblock %}
+
 {% block extra_head %}
 <style>
     /* Post-specific enhancements */
@@ -82,6 +103,37 @@
         font-style: italic;
     }
     
+    .related-posts {
+        width: 55%;
+        margin: 3rem 0 2rem 0;
+        padding: 1.5rem 0;
+        border-top: 1px solid #eee;
+    }
+    
+    .related-posts h3 {
+        font-size: 1.2rem;
+        margin: 0 0 1.5rem 0;
+        color: #555;
+        font-style: italic;
+    }
+    
+    .related-posts p {
+        margin: 1.2rem 0;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .related-posts a {
+        color: #333;
+        text-decoration: none;
+        background: none;
+        text-shadow: none;
+    }
+    
+    .related-posts a:hover {
+        color: #666;
+    }
+    
     .post-navigation {
         width: 55%;
         margin-top: 3rem;
@@ -105,14 +157,28 @@
     }
     
     @media (max-width: 1400px) {
+        .related-posts {
+            width: 60%;
+        }
+        
         .post-navigation {
             width: 60%;
         }
     }
     
     @media (max-width: 1200px) {
+        .related-posts {
+            width: 70%;
+        }
+        
         .post-navigation {
             width: 70%;
+        }
+    }
+    
+    @media (max-width: 760px) {
+        .related-posts {
+            width: 100%;
         }
     }
     
@@ -205,6 +271,16 @@
     <div class="post-content">
         {{ content | safe }}
     </div>
+
+    {% if related_posts %}
+    <aside class="related-posts">
+        <h3>Related Reading</h3>
+        {% for post in related_posts %}
+            <p><strong><a href="{{ post.url }}">{{ post.title }}</a></strong><br>
+            {% if post.description %}{{ post.description }}{% endif %}</p>
+        {% endfor %}
+    </aside>
+    {% endif %}
 
     <nav class="post-navigation">
         {% if breadcrumbs %}

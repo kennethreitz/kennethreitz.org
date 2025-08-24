@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+
+{% block title %}Search{% endblock %}
+
+{% block extra_head %}
+<style>
+    .search-container {
+        max-width: 55%;
+        margin: 2rem 0;
+    }
+    
+    .search-input {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        font-size: 1.1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        background-color: #fff;
+    }
+    
+    .search-input:focus {
+        outline: none;
+        border-color: #666;
+        box-shadow: 0 0 0 2px rgba(102, 102, 102, 0.1);
+    }
+    
+    .search-results {
+        margin-top: 2rem;
+    }
+    
+    .search-result {
+        padding: 1.5rem 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .search-result:last-child {
+        border-bottom: none;
+    }
+    
+    .search-result h3 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1.3rem;
+    }
+    
+    .search-result h3 a {
+        color: #333;
+        text-decoration: none;
+        background: none;
+        text-shadow: none;
+    }
+    
+    .search-result h3 a:hover {
+        color: #666;
+    }
+    
+    .search-result-meta {
+        color: #666;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .search-result-type {
+        display: inline-block;
+        background: #f0f0f0;
+        padding: 0.2rem 0.5rem;
+        border-radius: 3px;
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+    }
+    
+    .loading {
+        text-align: center;
+        color: #666;
+        font-style: italic;
+        padding: 2rem 0;
+    }
+    
+    .no-results {
+        text-align: center;
+        color: #666;
+        padding: 2rem 0;
+    }
+    
+    @media (max-width: 1400px) {
+        .search-container {
+            max-width: 60%;
+        }
+    }
+    
+    @media (max-width: 1200px) {
+        .search-container {
+            max-width: 70%;
+        }
+    }
+    
+    @media (max-width: 760px) {
+        .search-container {
+            max-width: 100%;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1>Search</h1>
+
+<div class="search-container">
+    <input type="text" class="search-input" id="search-input" placeholder="Search essays, AI writings, and more..." autocomplete="off">
+    
+    <div id="search-results" class="search-results" style="display: none;">
+        <div id="loading" class="loading" style="display: none;">
+            Searching...
+        </div>
+        <div id="results-container"></div>
+        <div id="no-results" class="no-results" style="display: none;">
+            No results found. Try different keywords or browse the <a href="/directory">directory</a>.
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+    const loading = document.getElementById('loading');
+    const resultsContainer = document.getElementById('results-container');
+    const noResults = document.getElementById('no-results');
+    let searchTimeout;
+    
+    // Get search query from URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialQuery = urlParams.get('q');
+    if (initialQuery) {
+        searchInput.value = initialQuery;
+        performSearch(initialQuery);
+    }
+    
+    searchInput.addEventListener('input', function() {
+        const query = this.value.trim();
+        
+        // Clear previous timeout
+        clearTimeout(searchTimeout);
+        
+        if (query.length === 0) {
+            searchResults.style.display = 'none';
+            return;
+        }
+        
+        // Show loading after short delay to avoid flickering
+        searchTimeout = setTimeout(() => {
+            performSearch(query);
+        }, 300);
+    });
+    
+    function performSearch(query) {
+        if (!query) return;
+        
+        searchResults.style.display = 'block';
+        loading.style.display = 'block';
+        resultsContainer.innerHTML = '';
+        noResults.style.display = 'none';
+        
+        // Update URL without reloading
+        const newUrl = new URL(window.location);
+        newUrl.searchParams.set('q', query);
+        window.history.replaceState({}, '', newUrl);
+        
+        fetch(`/api/search?q=${encodeURIComponent(query)}`)
+            .then(response => response.json())
+            .then(results => {
+                loading.style.display = 'none';
+                
+                if (results.length === 0) {
+                    noResults.style.display = 'block';
+                    return;
+                }
+                
+                results.forEach(result => {
+                    const resultElement = document.createElement('div');
+                    resultElement.className = 'search-result';
+                    
+                    const typeClass = result.type === 'article' ? 'article' : 
+                                     result.type === 'directory' ? 'directory' : 'file';
+                    const typeIcon = result.type === 'article' ? '📄' : 
+                                    result.type === 'directory' ? '📁' : '📎';
+                    
+                    // Create clean URL for the result
+                    let resultUrl = result.path;
+                    if (result.type === 'article' && resultUrl.endsWith('.md')) {
+                        resultUrl = '/' + resultUrl.slice(0, -3);
+                    } else if (result.type === 'directory') {
+                        resultUrl = '/' + resultUrl;
+                    } else {
+                        resultUrl = '/' + resultUrl;
+                    }
+                    
+                    resultElement.innerHTML = `
+                        <h3><a href="${resultUrl}">${result.name}</a></h3>
+                        <div class="search-result-meta">
+                            <span class="search-result-type">${typeIcon} ${result.type}</span>
+                            <span class="search-result-path">${result.display_path}</span>
+                        </div>
+                    `;
+                    
+                    resultsContainer.appendChild(resultElement);
+                });
+            })
+            .catch(error => {
+                loading.style.display = 'none';
+                console.error('Search error:', error);
+                resultsContainer.innerHTML = '<div class="no-results">Search error occurred. Please try again.</div>';
+            });
+    }
+});
+</script>
+{% endblock %}
