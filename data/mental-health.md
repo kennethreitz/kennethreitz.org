@@ -1,12 +1,12 @@
 # Mental Health
 
-I have been [fairly transparent](/essays/2016/mentalhealtherror_an_exception_occurred) about my mental health struggles over the years. I have been diagnosed with a number of things, primarily *Bipolar I* and *Schizoaffective Disorder*. A lot of people in my life are also bipolar, so I have a lot of experience with it.
+I have been [fairly transparent](/essays/2016-01-mentalhealtherror_an_exception_occurred) about my mental health struggles over the years. I have been diagnosed with a number of things, primarily *Bipolar I* and *Schizoaffective Disorder*. A lot of people in my life are also bipolar, so I have a lot of experience with it.
 
 First off, if this is your first time reading about mental health, I want to say that it's okay to not be okay. It's okay to be struggling. It's okay to be in pain. It's okay.
 
-- [MentalHealthError: An Exception Occurred](/essays/2016/mentalhealtherror_an_exception_occurred)
-- [MentalHealthError: Three Years Later](/essays/2019/mentalhealtherror_three_years_later)
-- [The Reality of Developer Burnout](/essays/2017/the_reality_of_developer_burnout)
+- [MentalHealthError: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred)
+- [MentalHealthError: Three Years Later](/essays/2019-01-mentalhealtherror_three_years_later)
+- [The Reality of Developer Burnout](/essays/2017-01-the_reality_of_developer_burnout)
 
 Secondly, I want to say that I am not a doctor, and I am not qualified to give medical advice. I am just a person who has been through a lot of stuff, and I want to share my experiences with you.
 

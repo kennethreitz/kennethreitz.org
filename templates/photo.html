@@ -1,249 +1,64 @@
 {% extends "base.html" %}
 
-{% block extra_head %}
-<style>
-    /* Modal styles that need to be in CSS for proper layering */
-    .photo-modal {
-        display: none;
-        position: fixed;
-        z-index: 1000;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.95);
-        cursor: zoom-out;
-        backdrop-filter: blur(4px);
-    }
-
-    .photo-modal-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 95%;
-        max-height: 95%;
-        border-radius: 12px;
-        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-    }
-
-    .photo-modal-close {
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-        color: white;
-        font-size: 2rem;
-        cursor: pointer;
-        z-index: 1001;
-        background: rgba(0,0,0,0.6);
-        border-radius: 50%;
-        width: 48px;
-        height: 48px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.2s ease;
-    }
-
-    .photo-modal-close:hover {
-        background: rgba(0,0,0,0.8);
-        transform: scale(1.1);
-    }
-</style>
-{% endblock %}
-
 {% block content %}
-<div class="max-w-6xl mx-auto">
-    <!-- Photo Header -->
-    <header class="text-center mb-12">
-        <h1 class="text-4xl font-bold text-gray-900 mb-4 tracking-tight">
-            {{ title }}
-        </h1>
-        <div class="text-lg text-gray-600">
-            <span class="inline-flex items-center gap-2">
-                <span class="text-primary-600">📸</span>
-                <span>Photo Gallery</span>
-            </span>
-            {% if gallery_images %}
-                <span class="mx-2 text-gray-400">•</span>
-                <span>{{ gallery_images | length }} image{{ 's' if gallery_images | length != 1 else '' }}</span>
-            {% endif %}
-        </div>
-    </header>
-
-    <!-- Main Photo -->
-    <div class="text-center mb-8">
-        <img src="{{ image_path }}" 
-             alt="{{ title }}" 
-             id="mainImage" 
-             onclick="openModal()"
-             class="max-w-full h-auto max-h-[80vh] rounded-2xl shadow-2xl cursor-zoom-in hover:scale-[1.02] transition-transform duration-300 mx-auto">
-    </div>
-
-    <!-- Photo Actions -->
-    <div class="flex justify-center gap-4 mb-12 flex-wrap">
-        <a href="{{ image_path }}" 
-           target="_blank"
-           class="inline-flex items-center gap-3 px-6 py-3 border-2 border-primary-600 text-primary-700 rounded-lg hover:bg-primary-600 hover:text-white transition-all duration-200 font-medium group">
-            <span class="text-xl">🔍</span>
-            <span>View Full Size</span>
-        </a>
-        <a href="{{ image_path }}" 
-           download
-           class="inline-flex items-center gap-3 px-6 py-3 border-2 border-green-600 text-green-700 rounded-lg hover:bg-green-600 hover:text-white transition-all duration-200 font-medium group">
-            <span class="text-xl">⬇️</span>
-            <span>Download</span>
-        </a>
-    </div>
-
-    {% if gallery_images and gallery_images | length > 1 %}
-    <!-- Gallery Section -->
-    <section class="mt-16 pt-8 border-t-2 border-gray-200">
-        <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">
-            Gallery
-        </h2>
-        
-        <!-- Navigation Buttons -->
-        <div class="flex flex-col lg:flex-row justify-between items-center mb-8 gap-4">
-            {% set current_index = namespace(value=-1) %}
-            {% for img in gallery_images %}
-                {% if img.is_current %}
-                    {% set current_index.value = loop.index0 %}
-                {% endif %}
-            {% endfor %}
-            
-            {% if current_index.value > 0 %}
-                <a href="{{ gallery_images[current_index.value - 1].url }}" 
-                   class="inline-flex items-center gap-3 px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-lg">
-                    <span>←</span>
-                    <span>Previous</span>
-                </a>
-            {% else %}
-                <span class="inline-flex items-center gap-3 px-6 py-3 bg-gray-300 text-gray-500 rounded-lg cursor-not-allowed font-medium">
-                    <span>←</span>
-                    <span>Previous</span>
-                </span>
-            {% endif %}
-
-            <div class="text-sm text-gray-600 font-mono bg-gray-100 px-4 py-2 rounded-full">
-                {{ current_index.value + 1 }} of {{ gallery_images | length }}
-            </div>
-
-            {% if current_index.value < (gallery_images | length - 1) %}
-                <a href="{{ gallery_images[current_index.value + 1].url }}" 
-                   class="inline-flex items-center gap-3 px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 hover:-translate-y-1 transition-all duration-200 font-medium shadow-lg">
-                    <span>Next</span>
-                    <span>→</span>
-                </a>
-            {% else %}
-                <span class="inline-flex items-center gap-3 px-6 py-3 bg-gray-300 text-gray-500 rounded-lg cursor-not-allowed font-medium">
-                    <span>Next</span>
-                    <span>→</span>
-                </span>
-            {% endif %}
-        </div>
-
-        <!-- Gallery Grid -->
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-8">
-            {% for img in gallery_images %}
-            <div class="relative aspect-square rounded-lg overflow-hidden shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300 group {% if img.is_current %}ring-4 ring-primary-500 shadow-primary-200{% endif %}">
-                {% if not img.is_current %}
-                    <a href="{{ img.url }}" class="block w-full h-full">
-                        <img src="{{ img.path }}" 
-                             alt="{{ img.name }}" 
-                             loading="lazy"
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
-                    </a>
-                {% else %}
-                    <img src="{{ img.path }}" 
-                         alt="{{ img.name }}" 
-                         loading="lazy"
-                         class="w-full h-full object-cover">
-                    <div class="absolute top-2 right-2 bg-primary-600 text-white px-2 py-1 rounded-md text-xs font-semibold">
-                        Current
-                    </div>
-                {% endif %}
-            </div>
-            {% endfor %}
-        </div>
-    </section>
-    {% endif %}
-
-    <!-- Back Navigation -->
-    <nav class="mt-16 pt-8 border-t border-gray-200">
-        {% if breadcrumbs %}
-            {% set parent_path = breadcrumbs[-1].url if breadcrumbs else '/directory' %}
-        {% else %}
-            {% set parent_path = '/directory' %}
-        {% endif %}
-        
-        <a href="{{ parent_path }}" 
-           class="inline-flex items-center gap-3 px-6 py-3 text-primary-700 border-2 border-primary-600 rounded-lg hover:bg-primary-600 hover:text-white transition-all duration-200 font-medium group">
-            <span class="transition-transform group-hover:-translate-x-1">←</span>
-            <span>Back to Directory</span>
-        </a>
-    </nav>
+<div style="text-align: center; margin-bottom: 3rem;">
+    <h1 style="margin-bottom: 0.5rem;">{{ title }}</h1>
+    <p class="subtitle">Photo</p>
 </div>
 
-<!-- Modal for full-screen view -->
-<div id="imageModal" class="photo-modal" onclick="closeModal()">
-    <span class="photo-modal-close" onclick="closeModal()">&times;</span>
-    <img class="photo-modal-content" id="modalImage">
-</div>
-{% endblock %}
+<figure class="fullwidth">
+    <img src="{{ image_path }}" alt="{{ title }}" />
+</figure>
 
-{% block extra_scripts %}
-<script>
-function openModal() {
-    const modal = document.getElementById('imageModal');
-    const modalImg = document.getElementById('modalImage');
-    const mainImg = document.getElementById('mainImage');
+<section>
+    <p><a href="{{ image_path }}" target="_blank">View Full Size</a> | 
+       <a href="{{ image_path }}" download>Download</a></p>
+</section>
+
+{% if gallery_images and gallery_images | length > 1 %}
+<section>
+    <h2>Gallery</h2>
     
-    modal.style.display = 'block';
-    modalImg.src = mainImg.src;
-}
-
-function closeModal() {
-    document.getElementById('imageModal').style.display = 'none';
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-    // Keyboard navigation
-    document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-            closeModal();
-        }
-        
-        // Arrow key navigation between images
-        {% if gallery_images and gallery_images | length > 1 %}
-        const currentIndex = {{ current_index.value if current_index is defined else 0 }};
-        const galleryImages = {{ gallery_images | tojson }};
-        
-        if (e.key === 'ArrowLeft' && currentIndex > 0) {
-            window.location.href = galleryImages[currentIndex - 1].url;
-        } else if (e.key === 'ArrowRight' && currentIndex < galleryImages.length - 1) {
-            window.location.href = galleryImages[currentIndex + 1].url;
-        }
+    {% set current_index = namespace(value=-1) %}
+    {% for img in gallery_images %}
+        {% if img.is_current %}
+            {% set current_index.value = loop.index0 %}
         {% endif %}
-    });
+    {% endfor %}
+    
+    <p>
+        {% if current_index.value > 0 %}
+            <a href="{{ gallery_images[current_index.value - 1].url }}">← Previous</a>
+        {% endif %}
+        
+        {{ current_index.value + 1 }} of {{ gallery_images | length }}
+        
+        {% if current_index.value < (gallery_images | length - 1) %}
+            <a href="{{ gallery_images[current_index.value + 1].url }}">Next →</a>
+        {% endif %}
+    </p>
+    
+    <ul>
+        {% for img in gallery_images %}
+        <li>
+            {% if not img.is_current %}
+                <a href="{{ img.url }}">{{ img.name }}</a>
+            {% else %}
+                <strong>{{ img.name }}</strong> (current)
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
 
-    // Preload adjacent images for faster navigation
-    {% if gallery_images and gallery_images | length > 1 %}
-    const currentIndex = {{ current_index.value if current_index is defined else 0 }};
-    const galleryImages = {{ gallery_images | tojson }};
-    
-    // Preload previous image
-    if (currentIndex > 0) {
-        const prevImg = new Image();
-        prevImg.src = galleryImages[currentIndex - 1].path;
-    }
-    
-    // Preload next image
-    if (currentIndex < galleryImages.length - 1) {
-        const nextImg = new Image();
-        nextImg.src = galleryImages[currentIndex + 1].path;
-    }
+<nav>
+    {% if breadcrumbs %}
+        {% set parent_path = breadcrumbs[-1].url if breadcrumbs else '/directory' %}
+    {% else %}
+        {% set parent_path = '/directory' %}
     {% endif %}
-});
-</script>
+    
+    <p><a href="{{ parent_path }}">← Back to Directory</a></p>
+</nav>
 {% endblock %}

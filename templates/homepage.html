@@ -1,632 +1,650 @@
 {% extends "base.html" %}
 
-{% block title %}Kenneth Reitz - Creator of Requests & Cerifi{% endblock %}
+{% block title %}Kenneth Reitz{% endblock %}
 
 {% block extra_head %}
 <style>
-    .counter-digit {
+    /* Homepage-specific styles */
+    .hero {
+        text-align: center;
+        margin: 4rem 0 6rem;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 4rem;
+    }
+    
+    .hero h1 {
+        font-size: 3.8rem;
+        font-weight: 300;
+        margin-bottom: 1.5rem;
+        color: #111;
+        letter-spacing: -0.02em;
+    }
+    
+    .hero .tagline {
+        font-size: 1.6rem;
+        color: #555;
+        font-style: italic;
+        max-width: 45rem;
+        margin: 0 auto 2rem;
+        line-height: 1.6;
+        width: auto !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    .hero .stats {
+        font-size: 1rem;
+        color: #888;
+        margin-top: 2rem;
+        font-weight: 500;
+    }
+    
+    .hero .stats strong {
+        color: #444;
+        font-weight: 600;
+    }
+    
+    .manifesto {
+        max-width: 60rem;
+        margin: 0 auto 5rem;
+        font-size: 1.3rem;
+        line-height: 1.8;
+        text-align: center;
+        font-style: italic;
+        color: #444;
+        padding: 3rem 2rem;
+        background: #fafafa;
+        border-radius: 12px;
+        border-left: 4px solid #ddd;
+    }
+    
+    .intro {
+        max-width: 58rem;
+        margin: 0 auto 5rem;
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+    
+    .intro p:first-child {
+        font-size: 1.4rem;
+        margin-bottom: 2.5rem;
+        font-weight: 400;
+    }
+    
+    .projects {
+        margin: 6rem 0;
+        border-top: 1px solid #eee;
+        padding-top: 5rem;
+    }
+    
+    .projects h2 {
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+        text-align: center;
+        color: #222;
+        font-weight: 300;
+    }
+    
+    .projects .section-intro {
+        text-align: center;
+        max-width: 50rem;
+        margin: 0 auto 4rem;
+        font-size: 1.2rem;
+        color: #666;
+        font-style: italic;
+    }
+    
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 2.5rem;
+        margin: 4rem 0;
+    }
+    
+    .project-card {
+        padding: 2.5rem;
+        border: 1px solid #e8e8e8;
+        border-radius: 12px;
+        background: linear-gradient(135deg, #fafafa 0%, #ffffff 100%);
         transition: all 0.3s ease;
-        display: inline-block;
-        min-width: 1ch;
-        text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-    }
-    
-    .gradient-text {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        animation: gradient-shift 3s ease-in-out infinite alternate;
-    }
-    
-    @keyframes gradient-shift {
-        from { filter: hue-rotate(0deg); }
-        to { filter: hue-rotate(20deg); }
-    }
-    
-    .pulse-glow {
-        animation: pulse-glow 3s ease-in-out infinite alternate;
-    }
-    
-    @keyframes pulse-glow {
-        from { 
-            box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
-            transform: scale(1);
-        }
-        to { 
-            box-shadow: 0 0 40px rgba(102, 126, 234, 0.6), 0 0 60px rgba(118, 75, 162, 0.4);
-            transform: scale(1.02);
-        }
-    }
-    
-    .stat-card {
-        background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
-        border: 1px solid rgba(102, 126, 234, 0.3);
-        backdrop-filter: blur(15px);
         position: relative;
         overflow: hidden;
     }
     
-    .stat-card::before {
+    .project-card::before {
         content: '';
         position: absolute;
         top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
-        animation: shimmer 4s infinite;
-    }
-    
-    @keyframes shimmer {
-        0% { left: -100%; }
-        100% { left: 100%; }
-    }
-    
-    .counter-increment {
-        animation: counter-pop 0.5s ease-out;
-    }
-    
-    @keyframes counter-pop {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.1); color: #fbbf24; }
-        100% { transform: scale(1); }
-    }
-    
-    .sacred-geometry {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        opacity: 0.25;
-        z-index: -1;
-        pointer-events: none;
-        transition: opacity 2s ease, transform 3s ease;
-    }
-    
-    .sacred-geometry:hover {
-        opacity: 0.4;
-        transform: translate(-50%, -50%) scale(1.05);
-    }
-    
-    .sacred-mandala {
-        animation: rotate-mandala 60s linear infinite;
-    }
-    
-    .sacred-inner {
-        animation: rotate-inner 40s linear infinite reverse;
-    }
-    
-    .sacred-petals {
-        animation: pulse-sacred 8s ease-in-out infinite alternate;
-    }
-    
-    .sacred-hexagon {
-        animation: rotate-hex 30s linear infinite;
-    }
-    
-    @keyframes rotate-mandala {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-    }
-    
-    @keyframes rotate-inner {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-    }
-    
-    @keyframes rotate-hex {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-    }
-    
-    @keyframes pulse-sacred {
-        from { opacity: 0.5; transform: scale(1); }
-        to { opacity: 0.9; transform: scale(1.08); }
-    }
-    
-    .sacred-breathe {
-        animation: breathe 12s ease-in-out infinite;
-    }
-    
-    .sacred-spiral {
-        animation: spiral-dance 45s linear infinite;
-    }
-    
-    .sacred-fibonacci {
-        animation: fibonacci-flow 25s ease-in-out infinite alternate;
-    }
-    
-    @keyframes breathe {
-        0%, 100% { opacity: 0.4; transform: scale(0.98); }
-        50% { opacity: 0.8; transform: scale(1.12); }
-    }
-    
-    @keyframes spiral-dance {
-        from { transform: rotate(0deg) scale(1); }
-        to { transform: rotate(360deg) scale(1.02); }
-    }
-    
-    @keyframes fibonacci-flow {
-        from { opacity: 0.4; transform: rotate(0deg); }
-        to { opacity: 0.7; transform: rotate(21.6deg); }
-    }
-    
-    .homepage-sacred-overlay {
-        position: fixed;
-        top: 0;
         left: 0;
-        width: 100vw;
-        height: 100vh;
-        pointer-events: none;
-        z-index: -2;
-        opacity: 0.15;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
     }
     
-    .stats-sacred {
-        position: absolute;
-        pointer-events: none;
-        z-index: -1;
-        opacity: 0.08;
-        animation: stats-pulse 20s ease-in-out infinite alternate;
+    .project-card:hover {
+        border-color: #ccc;
+        background: #fff;
+        transform: translateY(-4px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.12);
     }
     
-    @keyframes stats-pulse {
-        0%, 100% { opacity: 0.06; transform: scale(0.95) rotate(-2deg); }
-        25% { opacity: 0.12; transform: scale(1.03) rotate(1deg); }
-        50% { opacity: 0.08; transform: scale(1) rotate(0deg); }
-        75% { opacity: 0.10; transform: scale(1.02) rotate(-1deg); }
+    .project-card:hover::before {
+        opacity: 1;
     }
     
-    .sacred-geometry svg {
-        filter: drop-shadow(0 0 25px rgba(102, 126, 234, 0.2));
+    .project-card h3 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        color: #222;
+        font-weight: 500;
     }
     
-    .sacred-geometry:hover svg {
-        filter: drop-shadow(0 0 40px rgba(102, 126, 234, 0.5));
-        transition: filter 2s ease;
+    .project-card p {
+        color: #555;
+        line-height: 1.7;
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
     }
     
-    .cosmic-background {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        pointer-events: none;
-        z-index: -15;
-        opacity: 0.03;
-        background: radial-gradient(circle at 30% 20%, rgba(102, 126, 234, 0.1) 0%, transparent 50%),
-                    radial-gradient(circle at 70% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
-                    radial-gradient(circle at 20% 70%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
-        animation: cosmic-drift 120s linear infinite;
+    .project-card .meta {
+        font-size: 0.9rem;
+        color: #888;
+        border-top: 1px solid #f0f0f0;
+        padding-top: 1.5rem;
+        margin-top: auto;
+        font-weight: 500;
     }
     
-    @keyframes cosmic-drift {
-        0% { transform: rotate(0deg) scale(1); }
-        33% { transform: rotate(120deg) scale(1.02); }
-        66% { transform: rotate(240deg) scale(0.98); }
-        100% { transform: rotate(360deg) scale(1); }
+    .philosophy {
+        margin: 6rem 0;
+        border-top: 1px solid #eee;
+        padding-top: 5rem;
+        background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+        padding: 5rem 3rem;
+        border-radius: 16px;
+        text-align: center;
+    }
+    
+    .philosophy h2 {
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+        color: #222;
+        font-weight: 300;
+    }
+    
+    .philosophy-content {
+        max-width: 55rem;
+        margin: 0 auto;
+        font-size: 1.3rem;
+        line-height: 1.8;
+        color: #444;
+    }
+    
+    .philosophy blockquote {
+        font-size: 1.5rem;
+        font-style: italic;
+        color: #333;
+        border-left: 4px solid #ddd;
+        padding-left: 2rem;
+        margin: 3rem 0;
+        background: none;
+    }
+    
+    .recent-writing {
+        margin: 6rem 0;
+        border-top: 1px solid #eee;
+        padding-top: 5rem;
+    }
+    
+    .recent-writing h2 {
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+        text-align: center;
+        color: #222;
+        font-weight: 300;
+    }
+    
+    .writing-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin: 3rem 0;
+    }
+    
+    .writing-card {
+        padding: 2rem;
+        border: 1px solid #f0f0f0;
+        border-radius: 8px;
+        background: #fafafa;
+        transition: all 0.2s ease;
+    }
+    
+    .writing-card:hover {
+        border-color: #ddd;
+        background: #fff;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+    
+    .writing-card h3 {
+        margin: 0 0 0.75rem 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    .writing-card .desc {
+        color: #666;
+        font-style: italic;
+        margin: 0;
+        line-height: 1.6;
+    }
+    
+    .personal-touch {
+        margin: 6rem 0;
+        padding: 4rem 3rem;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 16px;
+        text-align: center;
+    }
+    
+    .personal-touch h2 {
+        color: white;
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+        font-weight: 300;
+    }
+    
+    .personal-touch p {
+        font-size: 1.2rem;
+        line-height: 1.7;
+        max-width: 50rem;
+        margin: 0 auto;
+        opacity: 0.95;
+    }
+    
+    .connect {
+        margin: 5rem 0 3rem;
+        text-align: center;
+        padding-top: 4rem;
+    }
+    
+    .connect h2 {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+        color: #222;
+        font-weight: 300;
+    }
+    
+    .connect p {
+        font-size: 1.2rem;
+        color: #555;
+        max-width: 45rem;
+        margin: 0 auto;
+        line-height: 1.8;
+    }
+    
+    @media (max-width: 760px) {
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        
+        .hero .tagline {
+            font-size: 1.3rem;
+        }
+        
+        .manifesto {
+            font-size: 1.1rem;
+            padding: 2rem 1.5rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        
+        .intro {
+            font-size: 1.1rem;
+        }
+        
+        .project-grid {
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+        
+        .project-card {
+            padding: 2rem;
+        }
+        
+        .philosophy, .personal-touch {
+            padding: 3rem 2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        
+        .writing-grid {
+            grid-template-columns: 1fr;
+        }
     }
 </style>
 {% endblock %}
 
 {% block content %}
-<!-- Cosmic Background -->
-<div class="cosmic-background"></div>
-
-<!-- Homepage Sacred Overlay -->
-<div class="homepage-sacred-overlay">
-    <svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
-        <!-- Large Sacred Mandalas -->
-        <g stroke="#667eea" stroke-width="0.8" fill="none" opacity="0.4">
-            <circle cx="300" cy="200" r="100"/>
-            <circle cx="300" cy="120" r="100"/>
-            <circle cx="300" cy="280" r="100"/>
-            <circle cx="213" cy="160" r="100"/>
-            <circle cx="387" cy="160" r="100"/>
-            <circle cx="213" cy="240" r="100"/>
-            <circle cx="387" cy="240" r="100"/>
-        </g>
-        
-        <g stroke="#8b5cf6" stroke-width="0.6" fill="none" opacity="0.3">
-            <circle cx="1620" cy="800" r="80"/>
-            <circle cx="1620" cy="740" r="80"/>
-            <circle cx="1620" cy="860" r="80"/>
-            <circle cx="1550" cy="770" r="80"/>
-            <circle cx="1690" cy="770" r="80"/>
-            <circle cx="1550" cy="830" r="80"/>
-            <circle cx="1690" cy="830" r="80"/>
-        </g>
-        
-        <!-- Sacred geometry network -->
-        <g stroke="#06d6a0" stroke-width="0.5" fill="none" opacity="0.4">
-            <polygon points="960,150 1060,200 1060,300 960,350 860,300 860,200"/>
-            <polygon points="480,600 580,650 580,750 480,800 380,750 380,650"/>
-            <polygon points="1440,500 1540,550 1540,650 1440,700 1340,650 1340,550"/>
-        </g>
-    </svg>
+<div class="hero">
+    <h1>Kenneth Reitz</h1>
+    <p class="tagline">
+        Python Alchemist. API Architect. Human-Centered Designer.<br>
+        Creator of <a href="https://requests.readthedocs.io/">Requests</a>, 
+        <a href="https://github.com/certifi/python-certifi">Certifi</a>, 
+        <a href="/software/pipenv">Pipenv</a>, <a href="/software/records">Records</a>, 
+        <a href="/software/maya">Maya</a> & more.
+    </p>
+    <div class="stats">
+        Over <strong>45 million downloads daily</strong> · Trusted by millions of developers worldwide
+    </div>
+    
+    <div class="pong-game">
+        <canvas id="pongCanvas" width="500" height="250" style="border: 2px solid #ddd; border-radius: 8px; background: #f8f9fa; margin: 2rem 0 0.5rem;"></canvas>
+        <p style="font-size: 0.8rem; color: #bbb; margin: 0.5rem 0 0;">Click game area, then use W/S keys to play</p>
+    </div>
 </div>
 
-<div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
-    <!-- Hero Section -->
-    <section class="text-center py-12 sm:py-16 md:py-20">
-        <div class="mb-6 sm:mb-8">
-            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold mb-4 sm:mb-6 gradient-text px-4">
-                Kenneth Reitz
-            </h1>
-            <p class="text-lg sm:text-xl md:text-2xl text-gray-300 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4">
-                Creator of <span class="text-blue-400 font-semibold">Requests</span> & 
-                <span class="text-green-400 font-semibold">Cerifi</span> — 
-                trusted by millions of developers worldwide
-            </p>
-        </div>
-
-        <!-- Download Statistics -->
-        <div class="mb-12 sm:mb-16">
-            <div class="stat-card rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 mx-2 sm:mx-4 md:mx-8 pulse-glow relative overflow-hidden">
-                <!-- Stats Sacred Geometry -->
-                <div class="stats-sacred hidden sm:block" style="top: 20px; left: 20px;">
-                    <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
-                        <g stroke="#667eea" stroke-width="1" fill="none">
-                            <circle cx="30" cy="30" r="25"/>
-                            <polygon points="30,8 52,30 30,52 8,30"/>
-                            <circle cx="30" cy="30" r="12"/>
-                        </g>
-                    </svg>
-                </div>
-                <div class="stats-sacred hidden sm:block" style="bottom: 20px; right: 20px;">
-                    <svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                        <g stroke="#8b5cf6" stroke-width="1" fill="none">
-                            <polygon points="25,5 45,20 45,35 25,45 5,35 5,20"/>
-                            <polygon points="25,15 35,25 25,35 15,25"/>
-                        </g>
-                    </svg>
-                </div>
-                <!-- Sacred Geometry Background -->
-                <div class="sacred-geometry">
-                    <svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
-                        <!-- Outer Mandala Ring -->
-                        <g class="sacred-mandala">
-                            <!-- Flower of Life Pattern -->
-                            <g stroke="#667eea" stroke-width="1" fill="none" opacity="0.4">
-                                <circle cx="400" cy="400" r="80"/>
-                                <circle cx="400" cy="320" r="80"/>
-                                <circle cx="400" cy="480" r="80"/>
-                                <circle cx="330.8" cy="360" r="80"/>
-                                <circle cx="469.2" cy="360" r="80"/>
-                                <circle cx="330.8" cy="440" r="80"/>
-                                <circle cx="469.2" cy="440" r="80"/>
-                                <circle cx="400" cy="280" r="80"/>
-                                <circle cx="400" cy="520" r="80"/>
-                                <circle cx="291.6" cy="320" r="80"/>
-                                <circle cx="508.4" cy="320" r="80"/>
-                                <circle cx="291.6" cy="480" r="80"/>
-                                <circle cx="508.4" cy="480" r="80"/>
-                            </g>
-                        </g>
-                        
-                        <!-- Inner Sacred Patterns -->
-                        <g class="sacred-inner">
-                            <!-- Hexagonal Grid -->
-                            <g class="sacred-hexagon" stroke="#764ba2" stroke-width="1.5" fill="none" opacity="0.3">
-                                <polygon points="400,300 450,325 450,375 400,400 350,375 350,325"/>
-                                <polygon points="400,200 500,250 500,350 400,400 300,350 300,250"/>
-                                <polygon points="400,150 550,225 550,375 400,450 250,375 250,225"/>
-                            </g>
-                            
-                            <!-- Sri Yantra inspired triangles -->
-                            <g stroke="#8b5cf6" stroke-width="1" fill="none" opacity="0.5">
-                                <polygon points="400,250 480,380 320,380"/>
-                                <polygon points="400,350 460,300 340,300"/>
-                                <polygon points="400,300 440,350 360,350"/>
-                                <polygon points="400,350 320,280 480,280"/>
-                            </g>
-                        </g>
-                        
-                        <!-- Petal Patterns -->
-                        <g class="sacred-petals">
-                            <!-- Lotus Petals -->
-                            <g stroke="#c084fc" stroke-width="0.8" fill="rgba(192, 132, 252, 0.1)" opacity="0.6">
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(0 400 400)"/>
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(30 400 400)"/>
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(60 400 400)"/>
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(90 400 400)"/>
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(120 400 400)"/>
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(150 400 400)"/>
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(180 400 400)"/>
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(210 400 400)"/>
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(240 400 400)"/>
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(270 400 400)"/>
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(300 400 400)"/>
-                                <ellipse cx="400" cy="250" rx="20" ry="60" transform="rotate(330 400 400)"/>
-                            </g>
-                        </g>
-                        
-                        <!-- Central Sacred Symbol -->
-                        <g stroke="#fbbf24" stroke-width="2" fill="none" opacity="0.4">
-                            <circle cx="400" cy="400" r="30"/>
-                            <circle cx="400" cy="400" r="15"/>
-                            <circle cx="400" cy="400" r="5"/>
-                            <!-- Om symbol inspired curves -->
-                            <path d="M 380 400 Q 400 380 420 400 Q 400 420 380 400"/>
-                        </g>
-                        
-                        <!-- Golden Ratio Spirals -->
-                        <g class="sacred-spiral" stroke="#fbbf24" stroke-width="1.5" fill="none" opacity="0.25">
-                            <path d="M 400 400 Q 450 350 500 400 Q 450 450 400 400"/>
-                            <path d="M 400 400 Q 350 450 300 400 Q 350 350 400 400"/>
-                            <path d="M 400 400 Q 425 375 450 400 Q 425 425 400 400"/>
-                            <path d="M 400 400 Q 375 425 350 400 Q 375 375 400 400"/>
-                        </g>
-                        
-                        <!-- Fibonacci Sequence Circles -->
-                        <g class="sacred-fibonacci" stroke="#10b981" stroke-width="1" fill="none" opacity="0.3">
-                            <circle cx="400" cy="400" r="8"/>
-                            <circle cx="400" cy="400" r="13"/>
-                            <circle cx="400" cy="400" r="21"/>
-                            <circle cx="400" cy="400" r="34"/>
-                            <circle cx="400" cy="400" r="55"/>
-                            <circle cx="400" cy="400" r="89"/>
-                            <circle cx="400" cy="400" r="144"/>
-                        </g>
-                        
-                        <!-- Breathing Sacred Vessels -->
-                        <g class="sacred-breathe" stroke="#ec4899" stroke-width="0.8" fill="none" opacity="0.4">
-                            <circle cx="400" cy="280" r="25"/>
-                            <circle cx="520" cy="360" r="25"/>
-                            <circle cx="520" cy="440" r="25"/>
-                            <circle cx="400" cy="520" r="25"/>
-                            <circle cx="280" cy="440" r="25"/>
-                            <circle cx="280" cy="360" r="25"/>
-                        </g>
-                        
-                        <!-- Merkaba (3D Star Tetrahedron) -->
-                        <g stroke="#a855f7" stroke-width="2" fill="none" opacity="0.35">
-                            <polygon points="400,320 460,400 340,400"/>
-                            <polygon points="400,480 340,400 460,400"/>
-                            <polygon points="370,340 430,340 400,280"/>
-                            <polygon points="370,460 400,520 430,460"/>
-                        </g>
-                        
-                        <!-- Sacred Seed of Life -->
-                        <g stroke="#06d6a0" stroke-width="1.2" fill="none" opacity="0.25">
-                            <circle cx="400" cy="400" r="40"/>
-                            <circle cx="400" cy="360" r="40"/>
-                            <circle cx="434.6" cy="380" r="40"/>
-                            <circle cx="434.6" cy="420" r="40"/>
-                            <circle cx="400" cy="440" r="40"/>
-                            <circle cx="365.4" cy="420" r="40"/>
-                            <circle cx="365.4" cy="380" r="40"/>
-                        </g>
-                        
-                        <!-- Platonic Solids Projections -->
-                        <g class="sacred-inner" stroke="#ffd60a" stroke-width="1.5" fill="none" opacity="0.2">
-                            <!-- Tetrahedron -->
-                            <polygon points="400,350 430,410 370,410"/>
-                            <!-- Cube -->
-                            <rect x="380" y="380" width="40" height="40" opacity="0.3"/>
-                            <!-- Octahedron -->
-                            <polygon points="400,370 420,400 400,430 380,400"/>
-                        </g>
-                        
-                        <!-- Outer Ring with Sacred Numbers -->
-                        <g stroke="#06b6d4" stroke-width="1" fill="none" opacity="0.3">
-                            <circle cx="400" cy="400" r="350"/>
-                            <circle cx="400" cy="400" r="320"/>
-                            <circle cx="400" cy="400" r="280"/>
-                        </g>
-                    </svg>
-                </div>
-                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-6">
-                    Downloads Today
-                </h2>
-                
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 mb-6 sm:mb-8">
-                    <!-- Requests Counter -->
-                    <div class="text-center">
-                        <h3 class="text-lg sm:text-xl font-semibold text-blue-400 mb-2 sm:mb-4">Requests</h3>
-                        <div class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-mono font-bold text-white mb-2">
-                            <span id="requests-counter">8,000,000</span>
-                        </div>
-                        <p class="text-gray-400">downloads today</p>
-                    </div>
-                    
-                    <!-- Cerifi Counter -->
-                    <div class="text-center">
-                        <h3 class="text-lg sm:text-xl font-semibold text-green-400 mb-2 sm:mb-4">Cerifi</h3>
-                        <div class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-mono font-bold text-white mb-2">
-                            <span id="cerifi-counter">8,000,000</span>
-                        </div>
-                        <p class="text-gray-400">downloads today</p>
-                    </div>
-                </div>
-                
-                <!-- Combined Total -->
-                <div class="border-t border-gray-600 pt-6 sm:pt-8">
-                    <h3 class="text-xl sm:text-2xl font-semibold text-purple-400 mb-3 sm:mb-4">Combined Total</h3>
-                    <div class="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-mono font-bold text-white mb-2">
-                        <span id="total-counter">16,000,000</span>
-                    </div>
-                    <p class="text-gray-400 text-lg">downloads every single day</p>
-                    <p class="text-xs text-gray-500 mt-4 italic">
-                        * Live counter simulation based on actual PyPI download statistics
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Impact Statement -->
-        <div class="mb-16 px-4">
-            <div class="max-w-4xl mx-auto text-center">
-                <p class="text-lg md:text-xl text-gray-300 leading-relaxed mb-8">
-                    Every day, <span class="text-yellow-400 font-semibold">16 million</span> times, 
-                    developers around the world trust my libraries to power their applications. 
-                    From startups to Fortune 500 companies, from personal projects to critical infrastructure —
-                    <span class="text-blue-400 font-semibold">Requests</span> and 
-                    <span class="text-green-400 font-semibold">Cerifi</span> help make the internet work.
-                </p>
-                <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-400">
-                    <span class="bg-gray-800 px-3 py-1 rounded-full">🌍 Used worldwide</span>
-                    <span class="bg-gray-800 px-3 py-1 rounded-full">🚀 Production ready</span>
-                    <span class="bg-gray-800 px-3 py-1 rounded-full">🔒 Secure by default</span>
-                    <span class="bg-gray-800 px-3 py-1 rounded-full">💡 Developer friendly</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Personal Accomplishments -->
-        <div class="mb-16 px-4">
-            <div class="max-w-4xl mx-auto">
-                <div class="stat-card rounded-xl p-8 md:p-10 relative overflow-hidden">
-                    <!-- Smaller Sacred Geometry for Accomplishments -->
-                    <div class="absolute top-4 right-4 opacity-0.05 pointer-events-none">
-                        <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                            <g class="sacred-breathe" stroke="#667eea" stroke-width="1" fill="none">
-                                <circle cx="100" cy="100" r="80"/>
-                                <circle cx="100" cy="100" r="60"/>
-                                <circle cx="100" cy="100" r="40"/>
-                                <circle cx="100" cy="100" r="20"/>
-                                <polygon points="100,40 140,80 140,120 100,160 60,120 60,80"/>
-                                <polygon points="100,60 120,80 120,120 100,140 80,120 80,80"/>
-                            </g>
-                        </svg>
-                    </div>
-                    <p class="text-lg md:text-xl text-gray-300 leading-relaxed text-left">
-                        I've spent my career crafting tools that prioritize <span class="text-purple-400 font-semibold">simplicity over complexity</span>, 
-                        <span class="text-blue-400 font-semibold">elegance over efficiency</span>. When I created Requests, 
-                        the goal wasn't just to make HTTP requests easier — it was to make them <em>beautiful</em>. 
-                        "Simplicity is the ultimate sophistication," and I believe code should read like poetry.
-                    </p>
-                    <br>
-                    <p class="text-lg md:text-xl text-gray-300 leading-relaxed text-left">
-                        Beyond the millions of downloads, I'm proud to be an advocate for 
-                        <span class="text-green-400 font-semibold">open-source collaboration</span> and 
-                        <span class="text-yellow-400 font-semibold">mental health awareness</span> in tech. 
-                        I've learned that the most meaningful contributions aren't just about solving technical problems — 
-                        they're about fostering communities where developers can thrive as whole human beings. 
-                        <span class="text-pink-400 font-semibold">Everything's going to be okay.</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Quick Links -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto px-4">
-            <a href="/directory" class="stat-card rounded-xl p-6 hover:scale-105 transition-transform duration-300 text-center">
-                <div class="text-2xl mb-2">📁</div>
-                <h3 class="text-lg font-semibold text-white mb-2">Explore My Work</h3>
-                <p class="text-gray-400 text-sm">Browse my projects, writings, and ideas</p>
-            </a>
-            
-            <a href="/talks" class="stat-card rounded-xl p-6 hover:scale-105 transition-transform duration-300 text-center">
-                <div class="text-2xl mb-2">🎤</div>
-                <h3 class="text-lg font-semibold text-white mb-2">Talks & Presentations</h3>
-                <p class="text-gray-400 text-sm">Watch my conference talks and keynotes</p>
-            </a>
-            
-            <a href="/values" class="stat-card rounded-xl p-6 hover:scale-105 transition-transform duration-300 text-center">
-                <div class="text-2xl mb-2">💎</div>
-                <h3 class="text-lg font-semibold text-white mb-2">My Values</h3>
-                <p class="text-gray-400 text-sm">The principles that guide my work</p>
-            </a>
-        </div>
-    </section>
+<div class="manifesto">
+    "Code should be beautiful. APIs should feel like magic. Technology should serve humans, not the other way around."
 </div>
+
+<section class="intro">
+    <p>
+        I'm a believer in the profound power of elegant simplicity. When I set out to create Requests, 
+        I wasn't just solving HTTP in Python—I was making a statement about what software could be. 
+        Beautiful. Intuitive. Joyful to use.
+    </p>
+    
+    <p>
+        My journey through technology has taught me that the most impactful innovations don't just work—they 
+        <em>feel right</em>. From the first line of Requests to the architectural decisions in Certifi, 
+        every choice reflects a core belief: developers are humans first, and our tools should honor that humanity.
+    </p>
+    
+    <p>
+        Beyond the 45 million daily downloads and the libraries that power much of the modern web, I'm passionate 
+        about mental health awareness, the philosophy of consciousness, music production, and exploring how 
+        artificial intelligence might reshape our understanding of what it means to think and create.
+    </p>
+</section>
+
+<section class="projects">
+    <h2>The Work That Matters</h2>
+    <p class="section-intro">
+        Each project represents years of thoughtful iteration, community feedback, and an obsession with developer experience.
+    </p>
+    
+    <div class="project-grid">
+        <div class="project-card">
+            <h3><a href="https://requests.readthedocs.io/">Requests: HTTP for Humans™</a></h3>
+            <p>The library that redefined what HTTP could feel like in Python. Simple, elegant, powerful. "There are 9 million reasons to use Requests," and developers worldwide have discovered them.</p>
+            <div class="meta">~25M daily downloads · The gold standard for HTTP libraries</div>
+        </div>
+        
+        <div class="project-card">
+            <h3><a href="https://github.com/certifi/python-certifi">Certifi: Trust Database for Humans™</a></h3>
+            <p>The invisible guardian of internet security. A carefully curated collection of Root Certificates that validates the trust between your code and the rest of the world.</p>
+            <div class="meta">~20M daily downloads · Security infrastructure you can depend on</div>
+        </div>
+        
+        <div class="project-card">
+            <h3><a href="/software/pipenv">Pipenv: Python Packaging for Humans™</a></h3>
+            <p>Bringing sanity to Python dependency management. The official PyPA-recommended tool that finally made Python packaging feel natural and intuitive.</p>
+            <div class="meta">Official PyPA recommendation · Dependency management, simplified</div>
+        </div>
+        
+        <div class="project-card">
+            <h3><a href="https://python-guide.readthedocs.io/">The Hitchhiker's Guide to Python</a></h3>
+            <p>An opinionated guide to Python development that's become essential reading for developers worldwide. Best practices, project structure, and the Python philosophy, distilled.</p>
+            <div class="meta">Community treasure · Thousands of contributors · Essential reading</div>
+        </div>
+        
+        <div class="project-card">
+            <h3><a href="/software/records">Records: SQL for Humans™</a></h3>
+            <p>Database queries without the cognitive overhead. Raw SQL power with Python elegance—because sometimes you just want to write SQL and get results back.</p>
+            <div class="meta">Database abstraction · Beautifully simple</div>
+        </div>
+        
+        <div class="project-card">
+            <h3><a href="/software/maya">Maya: Datetimes for Humans™</a></h3>
+            <p>Time handling that doesn't make you want to scream. Intuitive datetime manipulation that finally makes working with time zones and intervals feel natural.</p>
+            <div class="meta">DateTime handling · Human-friendly API design</div>
+        </div>
+    </div>
+</section>
+
+<section class="philosophy">
+    <h2>Design Philosophy</h2>
+    <div class="philosophy-content">
+        <p>Every line of code I write is guided by a simple principle: technology should amplify human potential, not complicate it.</p>
+        
+        <blockquote>
+            "Simplicity is the ultimate sophistication." —Leonardo da Vinci
+        </blockquote>
+        
+        <p>This isn't just about clean APIs or elegant syntax. It's about recognizing that behind every <code>import requests</code> is a human being trying to solve a problem, build something meaningful, or maybe just get home to their family a little earlier.</p>
+        
+        <p>When millions of developers trust your code to power their applications, you carry a responsibility that goes beyond functionality. You're shaping how people think about problems, how they approach solutions, and ultimately, how they feel about their craft.</p>
+    </div>
+</section>
+
+<section class="recent-writing">
+    <h2>Recent Explorations</h2>
+    <div class="writing-grid">
+        <div class="writing-card">
+            <h3><a href="/artificial-intelligence">AI & Digital Consciousness</a></h3>
+            <p class="desc">Deep dives into artificial intelligence, consciousness, and the evolving relationship between humans and machines</p>
+        </div>
+        
+        <div class="writing-card">
+            <h3><a href="/essays">Essays & Reflections</a></h3>
+            <p class="desc">Thoughts on technology, philosophy, mental health, and the craft of building software that matters</p>
+        </div>
+        
+        <div class="writing-card">
+            <h3><a href="/mental-health">Mental Health Journey</a></h3>
+            <p class="desc">Honest reflections on living with bipolar disorder, finding balance, and the intersection of creativity and mental wellness</p>
+        </div>
+        
+        <div class="writing-card">
+            <h3><a href="/values">Core Values</a></h3>
+            <p class="desc">The principles that guide my work: simplicity, accessibility, human-centered design, and authentic collaboration</p>
+        </div>
+        
+        <div class="writing-card">
+            <h3><a href="/talks">Conference Talks</a></h3>
+            <p class="desc">Presentations on Python, API design, developer experience, and building sustainable open source communities</p>
+        </div>
+        
+        <div class="writing-card">
+            <h3><a href="/music">Musical Explorations</a></h3>
+            <p class="desc">Electronic compositions and sonic experiments under the Infinite State moniker—where technology meets artistic expression</p>
+        </div>
+    </div>
+</section>
+
+<section class="personal-touch">
+    <h2>The Human Behind the Code</h2>
+    <p>
+        I believe in radical transparency, authentic vulnerability, and the power of community. 
+        Whether I'm debugging a gnarly HTTP edge case, crafting a new electronic track, or 
+        sharing my experiences with mental health, I approach everything with curiosity, 
+        empathy, and a deep respect for the humans I'm fortunate enough to serve through my work.
+    </p>
+</section>
+
+<section class="connect">
+    <h2>Let's Build Something Beautiful</h2>
+    <p>
+        I'm always excited to connect with fellow creators, dreamers, and builders. 
+        Whether you want to discuss API design philosophy, share your latest project, 
+        or just say hello—I believe the best innovations emerge from authentic human connections.
+    </p>
+</section>
 {% endblock %}
 
 {% block extra_scripts %}
 <script>
-// Download counter simulation with more realistic behavior
-let requestsBase = 8000000;
-let cerifiBase = 8000000;
-let startTime = Date.now();
-let lastRequestsCount = requestsBase;
-let lastCerifiCount = cerifiBase;
-
-function animateNumber(element, newValue, oldValue) {
-    if (newValue !== oldValue) {
-        element.classList.add('counter-increment');
-        setTimeout(() => {
-            element.classList.remove('counter-increment');
-        }, 500);
-    }
-}
-
-function updateCounters() {
-    // Simulate more realistic download patterns
-    const elapsed = (Date.now() - startTime) / 1000;
+    // Simple Pong Game
+    const canvas = document.getElementById('pongCanvas');
+    const ctx = canvas.getContext('2d');
     
-    // Base rate: ~185 downloads per second total, but with realistic variations
-    // Peak hours simulation (higher during business hours UTC)
-    const hour = new Date().getUTCHours();
-    const peakMultiplier = (hour >= 8 && hour <= 18) ? 1.3 : 0.8;
+    // Game state
+    let game = {
+        ball: {x: 250, y: 125, dx: 6, dy: 4, radius: 6},
+        player: {x: 15, y: 100, width: 12, height: 60, speed: 8},
+        ai: {x: 475, y: 100, width: 12, height: 60, speed: 6},
+        playerScore: 0,
+        aiScore: 0,
+        keys: {},
+        focused: false
+    };
     
-    // Add some randomness to simulate bursts and lulls
-    const variance = 0.7 + Math.random() * 0.6; // Random between 0.7 and 1.3
+    // Focus management to avoid scroll interference
+    canvas.addEventListener('click', () => {
+        game.focused = true;
+        canvas.focus();
+    });
     
-    const baseRate = 92.5 * peakMultiplier * variance;
+    canvas.addEventListener('blur', () => {
+        game.focused = false;
+    });
     
-    // Requests is slightly more popular than Cerifi
-    const requestsRate = baseRate * 1.1;
-    const cerifiRate = baseRate * 0.9;
+    canvas.tabIndex = 0; // Make canvas focusable
     
-    const requestsIncrement = Math.floor(elapsed * requestsRate);
-    const cerifiIncrement = Math.floor(elapsed * cerifiRate);
+    // Event listeners - only when canvas is focused
+    document.addEventListener('keydown', (e) => {
+        if (game.focused && (e.key === 'w' || e.key === 'W' || e.key === 's' || e.key === 'S')) {
+            e.preventDefault(); // Prevent any default behavior
+            game.keys[e.key.toLowerCase()] = true;
+        }
+    });
     
-    const currentRequests = requestsBase + requestsIncrement;
-    const currentCerifi = cerifiBase + cerifiIncrement;
-    const total = currentRequests + currentCerifi;
+    document.addEventListener('keyup', (e) => {
+        if (game.focused) {
+            game.keys[e.key.toLowerCase()] = false;
+        }
+    });
     
-    // Get DOM elements
-    const requestsEl = document.getElementById('requests-counter');
-    const cerifiEl = document.getElementById('cerifi-counter');
-    const totalEl = document.getElementById('total-counter');
-    
-    // Animate if numbers changed
-    animateNumber(requestsEl, currentRequests, lastRequestsCount);
-    animateNumber(cerifiEl, currentCerifi, lastCerifiCount);
-    
-    // Update displayed values
-    requestsEl.textContent = currentRequests.toLocaleString();
-    cerifiEl.textContent = currentCerifi.toLocaleString();
-    totalEl.textContent = total.toLocaleString();
-    
-    // Store current values for next comparison
-    lastRequestsCount = currentRequests;
-    lastCerifiCount = currentCerifi;
-}
-
-// Update counters more frequently for smoother animation
-setInterval(updateCounters, 500);
-
-// Initial update
-updateCounters();
-
-// Simulate occasional download spikes (popular libraries get featured, etc.)
-setInterval(() => {
-    if (Math.random() < 0.05) { // 5% chance every 10 seconds
-        const spike = Math.floor(Math.random() * 1000) + 500;
-        if (Math.random() < 0.6) {
-            requestsBase += spike; // Requests gets more spikes
-        } else {
-            cerifiBase += spike;
+    function update() {
+        // Player movement
+        if (game.keys['w'] && game.player.y > 0) {
+            game.player.y -= game.player.speed;
+        }
+        if (game.keys['s'] && game.player.y < canvas.height - game.player.height) {
+            game.player.y += game.player.speed;
+        }
+        
+        // AI movement (follows ball)
+        const aiCenter = game.ai.y + game.ai.height / 2;
+        if (aiCenter < game.ball.y - 10) {
+            game.ai.y += game.ai.speed;
+        } else if (aiCenter > game.ball.y + 10) {
+            game.ai.y -= game.ai.speed;
+        }
+        
+        // Constrain AI paddle
+        if (game.ai.y < 0) game.ai.y = 0;
+        if (game.ai.y > canvas.height - game.ai.height) game.ai.y = canvas.height - game.ai.height;
+        
+        // Ball movement
+        game.ball.x += game.ball.dx;
+        game.ball.y += game.ball.dy;
+        
+        // Ball collision with top/bottom
+        if (game.ball.y <= game.ball.radius || game.ball.y >= canvas.height - game.ball.radius) {
+            game.ball.dy = -game.ball.dy;
+        }
+        
+        // Ball collision with player paddle
+        if (game.ball.x <= game.player.x + game.player.width + game.ball.radius &&
+            game.ball.y >= game.player.y && game.ball.y <= game.player.y + game.player.height) {
+            game.ball.dx = Math.abs(game.ball.dx);
+            // Add some spin based on where ball hits paddle
+            const hitPos = (game.ball.y - game.player.y) / game.player.height;
+            game.ball.dy = (hitPos - 0.5) * 6;
+        }
+        
+        // Ball collision with AI paddle
+        if (game.ball.x >= game.ai.x - game.ball.radius &&
+            game.ball.y >= game.ai.y && game.ball.y <= game.ai.y + game.ai.height) {
+            game.ball.dx = -Math.abs(game.ball.dx);
+            const hitPos = (game.ball.y - game.ai.y) / game.ai.height;
+            game.ball.dy = (hitPos - 0.5) * 6;
+        }
+        
+        // Scoring
+        if (game.ball.x < 0) {
+            game.aiScore++;
+            resetBall();
+        }
+        if (game.ball.x > canvas.width) {
+            game.playerScore++;
+            resetBall();
         }
     }
-}, 10000);
-
-// Add subtle page-wide effects
-document.addEventListener('DOMContentLoaded', function() {
-    // Add some interactive sparkle effect on counter hover
-    const counters = document.querySelectorAll('[id$="-counter"]');
-    counters.forEach(counter => {
-        counter.addEventListener('mouseenter', function() {
-            this.style.textShadow = '0 0 20px rgba(255, 255, 255, 0.8)';
-        });
-        counter.addEventListener('mouseleave', function() {
-            this.style.textShadow = '0 0 10px rgba(255, 255, 255, 0.3)';
-        });
-    });
-});
+    
+    function resetBall() {
+        game.ball.x = canvas.width / 2;
+        game.ball.y = canvas.height / 2;
+        game.ball.dx = (Math.random() > 0.5 ? 1 : -1) * 6;
+        game.ball.dy = (Math.random() - 0.5) * 6;
+    }
+    
+    function draw() {
+        // Clear canvas
+        ctx.fillStyle = '#f8f9fa';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+        // Draw center line
+        ctx.strokeStyle = '#ddd';
+        ctx.setLineDash([5, 5]);
+        ctx.beginPath();
+        ctx.moveTo(canvas.width / 2, 0);
+        ctx.lineTo(canvas.width / 2, canvas.height);
+        ctx.stroke();
+        ctx.setLineDash([]);
+        
+        // Draw paddles
+        ctx.fillStyle = '#333';
+        ctx.fillRect(game.player.x, game.player.y, game.player.width, game.player.height);
+        ctx.fillRect(game.ai.x, game.ai.y, game.ai.width, game.ai.height);
+        
+        // Draw ball
+        ctx.beginPath();
+        ctx.arc(game.ball.x, game.ball.y, game.ball.radius, 0, Math.PI * 2);
+        ctx.fill();
+        
+        // Draw scores
+        ctx.font = '24px monospace';
+        ctx.textAlign = 'center';
+        ctx.fillStyle = '#666';
+        ctx.fillText(game.playerScore, canvas.width / 4, 35);
+        ctx.fillText(game.aiScore, (canvas.width * 3) / 4, 35);
+        
+        // Draw focus indicator
+        if (!game.focused) {
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = '#fff';
+            ctx.font = '18px Inter, sans-serif';
+            ctx.textAlign = 'center';
+            ctx.fillText('Click to play', canvas.width / 2, canvas.height / 2);
+        }
+    }
+    
+    function gameLoop() {
+        update();
+        draw();
+        requestAnimationFrame(gameLoop);
+    }
+    
+    // Start the game
+    gameLoop();
 </script>
 {% endblock %}

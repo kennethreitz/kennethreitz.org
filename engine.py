@@ -10,6 +10,16 @@ from functools import lru_cache
 
 app = Flask(__name__, template_folder='templates')
 
+# Add custom Jinja2 filters
+@app.template_filter('strftime')
+def strftime_filter(date, fmt='%Y-%m-%d'):
+    """Format a datetime object using strftime."""
+    if date is None:
+        return ''
+    if isinstance(date, str) and date.lower() == 'now':
+        date = datetime.now()
+    return date.strftime(fmt)
+
 DATA_DIR = Path('data')
 
 def get_directory_structure(path):
@@ -22,7 +32,7 @@ def get_directory_structure(path):
     dirs = []
     files = []
     
-    for item in sorted(path.iterdir()):
+    for item in sorted(path.iterdir(), reverse=True):
         if item.name.startswith('.') or item.name.lower() == 'index.md':
             continue
             
@@ -65,7 +75,7 @@ def get_directory_structure(path):
 
 
 
-@lru_cache(maxsize=128)
+@lru_cache(maxsize=16)
 def render_markdown_file(file_path):
     """Render a markdown file to HTML with caching for performance."""
     try:
@@ -75,12 +85,12 @@ def render_markdown_file(file_path):
         # Extract first h1 header if it exists
         first_h1 = None
         import re
-        # Look for the first H1 at the start of the file or after metadata
-        h1_match = re.search(r'(?:^|\n\n)# (.+?)(?:\n|$)', content)
+        # Look for the first H1 at the start of the file (must be on first line or after blank line)
+        h1_match = re.search(r'^# (.+?)$', content, re.MULTILINE)
         if h1_match:
             first_h1 = h1_match.group(1).strip()
-            # Remove the first h1 from content to avoid duplication
-            content = content.replace(h1_match.group(0), '', 1)
+            # Remove only the first h1 line from content to avoid duplication
+            content = re.sub(r'^# .+?$', '', content, count=1, flags=re.MULTILINE)
         
         # Configure markdown with extensions
         md = markdown.Markdown(extensions=[
@@ -91,7 +101,6 @@ def render_markdown_file(file_path):
             'tables',
             'footnotes',
             'smarty',
-            'nl2br',
             'sane_lists'
         ])
         

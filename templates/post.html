@@ -2,683 +2,211 @@
 
 {% block extra_head %}
 <style>
-    /* Custom Tufte-inspired styles with Kenneth's brand colors */
-    
-    /* Post Sacred Geometry Styles */
-    .post-sacred-overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        pointer-events: none;
-        z-index: -5;
-        opacity: 0.04;
+    /* Post-specific enhancements */
+    .post-header {
+        margin-bottom: 3rem;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 2rem;
     }
     
-    .post-sacred-margin {
-        position: absolute;
-        pointer-events: none;
-        z-index: -2;
-        opacity: 0.06;
-        animation: margin-breathe 30s ease-in-out infinite alternate;
-    }
-    
-    @keyframes margin-breathe {
-        0%, 100% { opacity: 0.04; transform: scale(0.98) rotate(-1deg); }
-        50% { opacity: 0.08; transform: scale(1.02) rotate(1deg); }
-    }
-    
-    .reading-sacred {
-        position: fixed;
-        pointer-events: none;
-        z-index: -3;
-        opacity: 0.03;
-        animation: reading-flow 45s linear infinite;
-    }
-    
-    @keyframes reading-flow {
-        0% { transform: translateY(100vh) rotate(0deg); }
-        100% { transform: translateY(-100px) rotate(360deg); }
-    }
-    
-    /* Override some Tufte defaults with Kenneth's branding */
-    .tufte-content {
-        margin: 0 auto;
-        padding: 0;
-        width: 87.5%;
-        max-width: 1400px;
-        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    }
-    
-    h1, h2, h3, h4, h5, h6 {
-        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-        color: #4e3979;
-    }
-    
-    h1 {
-        font-weight: 400;
-        margin-top: 2rem;
+    .post-header h1 {
+        font-family: 'Crimson Pro', 'Times New Roman', 'Noto Serif', Georgia, serif;
+        font-size: clamp(2.25rem, 5vw, 3.25rem);
+        font-weight: 500;
+        font-style: italic;
         margin-bottom: 1.5rem;
-        font-size: 3.2rem;
-        line-height: 1;
+        margin-left: 3rem;
+        line-height: 1.15;
+        color: #0a0a0a;
+        letter-spacing: -0.02em;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        text-wrap: balance;
+        
+        /* Advanced font features */
+        font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "swsh" 1, "clig" 1;
+        font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
     }
     
-    h2 {
-        font-style: italic;
-        font-weight: 400;
-        margin-top: 2.5rem;
-        margin-bottom: 0;
-        font-size: 2.2rem;
-        line-height: 1;
-    }
-    
-    h3 {
-        font-style: italic;
-        font-weight: 400;
-        font-size: 1.7rem;
-        margin-top: 2rem;
-        margin-bottom: 0;
-        line-height: 1;
-    }
-    
-    /* Links with Kenneth's branding */
-    a:link, a:visited {
-        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-        color: #4e3979;
-        text-decoration: none;
-        background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(#4e3979, #4e3979);
-        background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-        background-repeat: no-repeat, no-repeat, repeat-x;
-        text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
-        background-position: 0% 93%, 100% 93%, 0% 93%;
-        transition: color 0.2s ease;
-    }
-    
-    a:hover {
-        color: #6f52b0;
-    }
-    
-    /* Sidenotes and margin notes styling with Kenneth's color scheme */
-    .sidenote, .marginnote { 
-        float: right;
-        clear: right;
-        margin-right: -60%;
-        width: 50%;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 1.1rem;
-        line-height: 1.3;
-        vertical-align: baseline;
-        position: relative;
-        color: #5c4394;
-        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-        font-style: italic;
-    }
-    
-    .sidenote-number {
-        color: #4e3979;
-    }
-    
-    /* Blockquotes with Kenneth's branding */
-    blockquote {
-        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-        font-size: 1.4rem;
-        margin: 2rem 0;
-        padding-left: 2rem;
-        border-left: 3px solid #9b86d3;
-        font-style: italic;
-        line-height: 1.75;
-    }
-    
-    /* Figure and caption styling */
-    figure {
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-        max-width: 85%;
-        -webkit-margin-start: 0;
-        -webkit-margin-end: 0;
-        margin: 0 0 3em 0;
-    }
-    
-    /* Figure and caption styling */
-    figcaption {
-        float: right;
-        clear: right;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 1.1rem;
-        line-height: 1.6;
-        vertical-align: baseline;
-        position: relative;
-        max-width: 40%;
-        color: #5c4394;
-        font-style: italic;
-        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    }
-    
-    /* Code styling with Kenneth's branding */
-    code {
-        font-family: 'JetBrains Mono', Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    .post-meta {
+        color: #777;
         font-size: 0.9rem;
-        line-height: 1.6;
-        background-color: #e3e0f4;
-        padding: 0.2rem 0.4rem;
-        border-radius: 3px;
-        color: #4e3979;
+        font-style: italic;
+        margin-top: 0.5rem;
     }
     
-    pre {
+    .post-content {
+        max-width: 55rem;
+        margin: 0 auto;
+    }
+    
+    .post-content > *:first-child {
+        margin-top: 0;
+    }
+    
+    .post-content h1,
+    .post-content h2,
+    .post-content h3,
+    .post-content h4,
+    .post-content h5,
+    .post-content h6 {
+        max-width: none; /* Allow full width within the content container */
+        width: 100%; /* Ensure they fill the content container */
+    }
+    
+    .post-content h1 {
+        font-family: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+        font-size: 2.2rem;
+        font-weight: 600;
+        font-style: italic;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        margin-left: 2rem;
+        color: #333;
+        letter-spacing: -0.01em;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    }
+    
+    .post-content h2 {
+        font-size: 1.8rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        color: #333;
+        font-style: italic;
+    }
+    
+    .post-content h3 {
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        margin-bottom: 0.75rem;
+        color: #444;
+        font-style: italic;
+    }
+    
+    .post-navigation {
+        margin-top: 4rem;
+        padding-top: 2rem;
+        border-top: 1px solid #ddd;
+    }
+    
+    .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #666;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        padding: 0.5rem 0;
+    }
+    
+    .back-link:hover {
+        color: #333;
+        transform: translateX(-3px);
+    }
+    
+    .back-link::before {
+        content: '←';
+        font-size: 1.1em;
+    }
+    
+    /* Enhanced typography within posts */
+    .post-content p {
+        font-size: 1.15rem;
+        line-height: 1.7;
+        margin: 1.8rem 0;
+        color: #333;
+    }
+    
+    .post-content li {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin: 0.6rem 0;
+    }
+    
+    /* Table of contents styling if present */
+    .toc {
+        background: #f8f8f8;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
         padding: 1.5rem;
         margin: 2rem 0;
-        background-color: #faf9fd;
-        border: 1px solid #d0c8ec;
-        border-radius: 5px;
-        overflow-x: auto;
+        font-size: 0.95rem;
     }
     
-    pre code {
-        background-color: transparent;
-        padding: 0;
-    }
-    
-    /* Full width figures/tables */
-    .fullwidth {
-        max-width: 100%;
-        clear: both;
-    }
-    
-    /* Table styling */
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        border-spacing: 0;
-        margin: 2rem 0;
+    .toc h3 {
+        margin-top: 0;
+        margin-bottom: 1rem;
         font-size: 1.1rem;
-        font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        color: #555;
     }
     
-    th {
-        padding: 0.75rem 1rem;
-        font-weight: 600;
-        text-align: left;
-        border-bottom: 2px solid #4e3979;
-        color: #4e3979;
+    .toc ul {
+        margin: 0;
+        padding-left: 1.5rem;
     }
     
-    td {
-        padding: 0.75rem 1rem;
-        border-bottom: 1px solid #d0c8ec;
+    .toc li {
+        margin: 0.4rem 0;
+        line-height: 1.4;
     }
     
-    tr:nth-child(even) {
-        background-color: #f8f7fd;
+    .toc a {
+        color: #666;
+        text-decoration: none;
     }
     
-    /* Copy button for code blocks */
-    .code-block-container {
-        position: relative;
-    }
-
-    .copy-button {
-        position: absolute;
-        top: 0.75rem;
-        right: 0.75rem;
-        background: #4e3979;
-        color: white;
-        border: none;
-        padding: 0.375rem 0.75rem;
-        border-radius: 0.375rem;
-        font-size: 0.75rem;
-        cursor: pointer;
-        opacity: 0;
-        transition: opacity 0.2s ease;
-        font-family: 'Inter', sans-serif;
-        font-weight: 500;
-    }
-
-    .code-block-container:hover .copy-button {
-        opacity: 1;
-    }
-
-    .copy-button:hover {
-        background: #5c4394;
+    .toc a:hover {
+        color: #333;
     }
     
-    /* Adjustments for mobile responsive design */
     @media (max-width: 760px) {
-        body {
-            width: 84%;
-            padding-left: 8%;
-            padding-right: 8%;
-            font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        .post-header h1 {
+            font-size: 2rem;
+            line-height: 1.2;
         }
         
-        .tufte-content {
-            width: 100%;
+        .post-content p {
+            font-size: 1.05rem;
         }
         
-        hr, section > p, section > footer, section > table {
-            width: 100%;
+        .post-content h1 {
+            font-size: 1.8rem;
         }
         
-        pre {
-            width: 97%;
+        .post-content h2 {
+            font-size: 1.5rem;
         }
         
-        .sidenote, .marginnote {
-            display: none;
-        }
-        
-        .margin-toggle:checked + .sidenote,
-        .margin-toggle:checked + .marginnote {
-            display: block;
-            float: left;
-            left: 1rem;
-            clear: both;
-            width: 95%;
-            margin: 1rem 2.5%;
-            vertical-align: baseline;
-            position: relative;
+        .post-content h3 {
+            font-size: 1.3rem;
         }
     }
 </style>
 {% endblock %}
 
 {% block content %}
-<!-- Post Sacred Geometry Overlay -->
-<div class="post-sacred-overlay">
-    <svg width="100%" height="100%" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
-        <!-- Reading Flow Patterns -->
-        <g stroke="#667eea" stroke-width="0.6" fill="none" opacity="0.4">
-            <!-- Margin Sacred Geometry -->
-            <circle cx="100" cy="200" r="30"/>
-            <circle cx="100" cy="400" r="25"/>
-            <circle cx="100" cy="600" r="35"/>
-            <circle cx="100" cy="800" r="28"/>
-            
-            <circle cx="1820" cy="250" r="32"/>
-            <circle cx="1820" cy="450" r="27"/>
-            <circle cx="1820" cy="650" r="30"/>
-            <circle cx="1820" cy="850" r="33"/>
-        </g>
-        
-        <!-- Sacred Text Flow Lines -->
-        <g stroke="#8b5cf6" stroke-width="0.4" fill="none" opacity="0.3">
-            <path d="M 50 100 Q 200 150 350 100 Q 500 50 650 100"/>
-            <path d="M 50 300 Q 200 350 350 300 Q 500 250 650 300"/>
-            <path d="M 50 500 Q 200 550 350 500 Q 500 450 650 500"/>
-            <path d="M 50 700 Q 200 750 350 700 Q 500 650 650 700"/>
-        </g>
-        
-        <!-- Corner Sacred Symbols -->
-        <g stroke="#10b981" stroke-width="0.8" fill="none" opacity="0.4">
-            <polygon points="50,50 100,75 100,125 50,150 0,125 0,75"/>
-            <polygon points="1870,50 1920,75 1920,125 1870,150 1820,125 1820,75"/>
-            <polygon points="50,1030 100,1055 100,1105 50,1130 0,1105 0,1055"/>
-            <polygon points="1870,1030 1920,1055 1920,1105 1870,1130 1820,1105 1820,1055"/>
-        </g>
-    </svg>
-</div>
-
-<!-- Reading Sacred Flow Elements -->
-<div class="reading-sacred" style="left: 5%; animation-delay: 0s;">
-    <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
-        <g stroke="#764ba2" stroke-width="0.6" fill="none">
-            <circle cx="12.5" cy="12.5" r="10"/>
-            <circle cx="12.5" cy="12.5" r="5"/>
-        </g>
-    </svg>
-</div>
-
-<div class="reading-sacred" style="right: 8%; animation-delay: -15s;">
-    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-        <g stroke="#a855f7" stroke-width="0.6" fill="none">
-            <polygon points="10,2 18,10 10,18 2,10"/>
-        </g>
-    </svg>
-</div>
-
-<div class="reading-sacred" style="left: 15%; animation-delay: -30s;">
-    <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-        <g stroke="#06b6d4" stroke-width="0.6" fill="none">
-            <polygon points="15,3 27,15 15,27 3,15"/>
-            <circle cx="15" cy="15" r="6"/>
-        </g>
-    </svg>
-</div>
-
-<article class="post">
-    <!-- Post Header -->
-    <header class="mb-12 pb-8 border-b-2 border-primary-200">
-        <h1 class="text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight page-title">
-            {{ title }}
-        </h1>
-        
-        {% if metadata %}
-        <div class="flex flex-wrap gap-6 text-sm text-gray-600">
-            {% if metadata.author %}
-            <div class="flex items-center gap-2">
-                <span class="text-primary-600">👤</span>
-                <span class="font-medium">{{ metadata.author[0] }}</span>
+<article>
+    <div class="post-header">
+        <h1>{{ title }}</h1>
+        {% if metadata and metadata.date %}
+            <div class="post-meta">
+                {{ metadata.date[0] }}
             </div>
-            {% endif %}
-            {% if metadata.date %}
-            <div class="flex items-center gap-2">
-                <span class="text-primary-600">📅</span>
-                <span>{{ metadata.date[0] }}</span>
-            </div>
-            {% endif %}
-            {% if metadata.tags %}
-            <div class="flex items-center gap-2">
-                <span class="text-primary-600">🏷️</span>
-                <span>{{ metadata.tags | join(', ') }}</span>
-            </div>
-            {% endif %}
-        </div>
         {% endif %}
-    </header>
-
-    <!-- Post Content with Tufte Typography -->
-    <div class="et-book">
-        <!-- Left Margin Sacred Geometry -->
-        <div class="post-sacred-margin" style="left: -60px; top: 100px;">
-            <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <g stroke="#667eea" stroke-width="0.8" fill="none">
-                    <circle cx="20" cy="20" r="15"/>
-                    <polygon points="20,8 32,20 20,32 8,20"/>
-                </g>
-            </svg>
-        </div>
-        
-        <div class="post-sacred-margin" style="right: -60px; top: 200px;">
-            <svg width="35" height="35" viewBox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
-                <g stroke="#8b5cf6" stroke-width="0.8" fill="none">
-                    <polygon points="17.5,3 32,17.5 17.5,32 3,17.5"/>
-                    <circle cx="17.5" cy="17.5" r="8"/>
-                </g>
-            </svg>
-        </div>
-        
-        <div class="post-sacred-margin" style="left: -50px; top: 400px;">
-            <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-                <g stroke="#10b981" stroke-width="0.8" fill="none">
-                    <circle cx="15" cy="15" r="12"/>
-                    <circle cx="15" cy="15" r="8"/>
-                    <circle cx="15" cy="15" r="4"/>
-                </g>
-            </svg>
-        </div>
-        
-        <div class="post-sacred-margin" style="right: -55px; top: 500px;">
-            <svg width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
-                <g stroke="#ec4899" stroke-width="0.8" fill="none">
-                    <polygon points="19,5 33,12 33,26 19,33 5,26 5,12"/>
-                    <polygon points="19,12 26,19 19,26 12,19"/>
-                </g>
-            </svg>
-        </div>
-        
-        <div class="font-serif content-section">
-            {{ content | safe }}
-        </div>
-        <style>
-            /* Style for page title to distinguish from content headers */
-            .page-title {
-                color: #4e3979 !important;
-                font-family: 'Inter', system-ui, sans-serif !important;
-                border-bottom: none !important;
-            }
-            
-            /* Ensure proper bullet point display in Markdown content */
-            .content-section h1,
-            .content-section h2,
-            .content-section h3,
-            .content-section h4,
-            .content-section h5,
-            .content-section h6 {
-                color: #5c4394 !important;
-                border-bottom: none !important;
-                font-family: et-book, 'Crimson Text', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif !important;
-            }
-        
-            .content-section h1 {
-                font-size: 2.5rem !important;
-                margin-top: 2.5rem !important;
-            }
-        
-            .content-section h2 {
-                font-size: 2.0rem !important;
-                margin-top: 2.2rem !important;
-            }
-        
-            .content-section h3 {
-                font-size: 1.6rem !important;
-                margin-top: 1.8rem !important;
-            }
-        
-            .content-section ul {
-                list-style-type: disc !important;
-                padding-left: 2.5rem !important;
-                margin: 1rem 0 !important;
-            }
-        
-            .content-section ol {
-                list-style-type: decimal !important;
-                padding-left: 2.5rem !important;
-                margin: 1rem 0 !important;
-            }
-        
-            .content-section ul ul {
-                list-style-type: circle !important;
-            }
-        
-            .content-section ul ol {
-                list-style-type: lower-alpha !important;
-            }
-        
-            .content-section ol ul {
-                list-style-type: circle !important;
-            }
-        
-            .content-section ol ol {
-                list-style-type: lower-alpha !important;
-            }
-        
-            .content-section li {
-                display: list-item !important;
-                margin-bottom: 0.5rem !important;
-            }
-        
-            @media (max-width: 760px) {
-                .content-section ul,
-                .content-section ol {
-                    width: 100% !important;
-                    padding-left: 1.5rem !important;
-                }
-            }
-        </style>
     </div>
 
-    <!-- Post Navigation -->
-    <nav class="mt-16 pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+    <div class="post-content">
+        {{ content | safe }}
+    </div>
+
+    <nav class="post-navigation">
         {% if breadcrumbs %}
             {% set parent_path = breadcrumbs[-1].url if breadcrumbs else '/directory' %}
         {% else %}
             {% set parent_path = '/directory' %}
         {% endif %}
         
-        <a href="{{ parent_path }}" 
-           class="inline-flex items-center gap-3 px-6 py-3 text-primary-700 border-2 border-primary-600 rounded-lg hover:bg-primary-600 hover:text-white transition-all duration-200 font-medium group">
-            <span class="transition-transform group-hover:-translate-x-1">←</span>
-            <span>Back to Directory</span>
-        </a>
-        
-        <div class="text-sm text-gray-500 font-medium">
-            Markdown Document
-        </div>
+        <a href="{{ parent_path }}" class="back-link">Back to Directory</a>
     </nav>
 </article>
-{% endblock %}
-
-{% block extra_scripts %}
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Smooth scrolling for anchor links
-    const anchorLinks = document.querySelectorAll('.content-section a[href^="#"]');
-    anchorLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-        });
-    });
-
-    // Add copy button to code blocks
-    const codeBlocks = document.querySelectorAll('.content-section pre code');
-    codeBlocks.forEach(block => {
-        const pre = block.parentElement;
-        
-        // Wrap pre in container for positioning
-        const container = document.createElement('div');
-        container.className = 'code-block-container';
-        pre.parentNode.insertBefore(container, pre);
-        container.appendChild(pre);
-        
-        // Create copy button
-        const button = document.createElement('button');
-        button.textContent = 'Copy';
-        button.className = 'copy-button';
-        
-        container.appendChild(button);
-        
-        button.addEventListener('click', async () => {
-            try {
-                await navigator.clipboard.writeText(block.textContent);
-                button.textContent = 'Copied!';
-                button.style.background = '#10b981';
-                setTimeout(() => {
-                    button.textContent = 'Copy';
-                    button.style.background = '#4e3979';
-                }, 2000);
-            } catch (err) {
-                console.error('Failed to copy: ', err);
-            }
-        });
-    });
-
-    // Add reading progress indicator
-    const progressBar = document.createElement('div');
-    progressBar.style.cssText = `
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 0%;
-        height: 3px;
-        background: linear-gradient(90deg, #4e3979, #6f52b0);
-        z-index: 9999;
-        transition: width 0.2s ease;
-    `;
-    document.body.appendChild(progressBar);
-
-    window.addEventListener('scroll', () => {
-        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        const scrolled = (winScroll / height) * 100;
-        progressBar.style.width = scrolled + '%';
-    });
-
-    // Enhance image viewing
-    const images = document.querySelectorAll('.content-section img');
-    images.forEach(img => {
-        // Create figure and figcaption for Tufte-style
-        if (!img.parentElement.matches('figure')) {
-            const figure = document.createElement('figure');
-            img.parentNode.insertBefore(figure, img);
-            figure.appendChild(img);
-            
-            // Add caption if alt text exists
-            if (img.alt && !img.alt.startsWith('_')) {
-                const figcaption = document.createElement('figcaption');
-                figcaption.textContent = img.alt;
-                figure.appendChild(figcaption);
-            }
-        }
-        
-        img.style.cursor = 'pointer';
-        img.addEventListener('click', () => {
-            // Simple lightbox effect
-            const overlay = document.createElement('div');
-            overlay.style.cssText = `
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(0, 0, 0, 0.9);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                z-index: 10000;
-                cursor: pointer;
-            `;
-            
-            const enlargedImg = img.cloneNode();
-            enlargedImg.style.cssText = `
-                max-width: 90%;
-                max-height: 90%;
-                object-fit: contain;
-                border-radius: 8px;
-                box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-            `;
-            
-            overlay.appendChild(enlargedImg);
-            document.body.appendChild(overlay);
-            
-            overlay.addEventListener('click', () => {
-                document.body.removeChild(overlay);
-            });
-        });
-    });
-    
-    // Transform blockquotes with attribution to Tufte style
-    document.querySelectorAll('.content-section blockquote').forEach(blockquote => {
-        const lastP = blockquote.querySelector('p:last-child');
-        if (lastP && lastP.textContent.startsWith('—')) {
-            lastP.classList.add('attribution');
-            lastP.style.textAlign = 'right';
-            lastP.style.marginTop = '0.5rem';
-        }
-    });
-    
-    // Add margin toggle buttons for sidenotes in mobile view
-    document.querySelectorAll('.content-section .sidenote, .content-section .marginnote').forEach((note, i) => {
-        const id = 'sidenote-' + i;
-        
-        // Create the toggle
-        const toggle = document.createElement('label');
-        toggle.setAttribute('for', id);
-        toggle.className = 'margin-toggle sidenote-number';
-        toggle.textContent = (i + 1);
-        
-        // Create the checkbox
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.id = id;
-        checkbox.className = 'margin-toggle';
-        
-        // Insert them before the note
-        note.parentNode.insertBefore(toggle, note);
-        note.parentNode.insertBefore(checkbox, note);
-    });
-});
-</script>
 {% endblock %}

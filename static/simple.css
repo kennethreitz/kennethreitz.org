@@ -1,0 +1,505 @@
+/* Elegant, professional styles for Kenneth Reitz's website */
+
+/* Base typography enhancements - Override Tufte CSS body */
+body {
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    line-height: 1.6;
+    color: #333;
+    font-size: 1.1rem;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    /* Override Tufte CSS body positioning - Center everything */
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding-left: 0 !important;
+    max-width: 65rem !important;
+    padding: 0 2rem !important;
+    text-align: center !important;
+}
+
+/* Force all content to align properly by overriding Tufte CSS width constraints */
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, pre, hr, section > *, article > * {
+    width: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+/* Center specific content containers */
+section, article, div, main {
+    text-align: center !important;
+}
+
+/* Force proper list display - override Tufte CSS completely */
+ul, ol, section > ul, section > ol {
+    display: inline-block !important;
+    list-style-position: outside !important;
+    list-style-type: disc !important;
+    width: auto !important;
+    -webkit-padding-start: 2rem !important;
+    padding-left: 2rem !important;
+    box-sizing: content-box !important;
+    text-align: left !important;
+    margin: 1.5rem auto !important;
+}
+
+ol, section > ol {
+    list-style-type: decimal !important;
+}
+
+ul ul, section ul ul {
+    list-style-type: circle !important;
+    padding-left: 1.5rem !important;
+    -webkit-padding-start: 1.5rem !important;
+    display: block !important;
+    margin: 0.5rem 0 !important;
+}
+
+ul ul ul, section ul ul ul {
+    list-style-type: square !important;
+    display: block !important;
+}
+
+/* Enhanced headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-style: italic;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #444;
+}
+
+/* Beautiful paragraph spacing */
+p {
+    margin: 1.5rem 0;
+    max-width: 55rem;
+}
+
+p:first-child {
+    margin-top: 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+/* Enhanced navigation */
+nav {
+    margin: 2rem 0 3rem;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border-radius: 50px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+    border: 1px solid #e8e8e8;
+}
+
+nav a {
+    margin: 0 1.2rem;
+    color: #555;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #fff;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+/* Active/current page styling */
+nav a.current {
+    color: #fff;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+/* Elegant links */
+a {
+    color: #333;
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    text-underline-offset: 0.2em;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    text-decoration-color: #666;
+}
+
+/* Enhanced lists */
+ul, ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+li {
+    margin: 0.8rem 0;
+    line-height: 1.6;
+}
+
+/* Nested lists */
+ul ul, ol ol, ul ol, ol ul {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+ul ul li, ol ol li, ul ol li, ol ul li {
+    margin: 0.4rem 0;
+    font-size: 0.95em;
+}
+
+/* Better spacing for nested list items */
+li > ul, li > ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Different bullet styles for nested lists */
+ul ul {
+    list-style-type: circle;
+}
+
+ul ul ul {
+    list-style-type: square;
+}
+
+/* Subtle emphasis */
+em {
+    font-style: italic;
+    color: #444;
+}
+
+strong {
+    font-weight: 600;
+    color: #222;
+}
+
+/* Elegant blockquotes */
+blockquote {
+    margin: 2.5rem 0;
+    padding: 1.5rem 2rem;
+    border-left: 3px solid #ddd;
+    background: #fafafa;
+    font-style: italic;
+    color: #555;
+    border-radius: 0 4px 4px 0;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+/* Code styling */
+code {
+    background: #f5f5f5;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+    color: #d14;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+pre {
+    background: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    border: 1px solid #e8e8e8;
+    margin: 2rem 0;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: #333;
+}
+
+/* Beautiful footer */
+footer {
+    margin-top: 6rem;
+    padding-top: 3rem;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* Utility classes */
+.subtitle {
+    font-style: italic;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+/* Directory listings */
+.directory-listing {
+    margin: 2.5rem auto;
+    text-align: center;
+}
+
+.directory-listing h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.directory-listing ul {
+    list-style: none;
+    padding: 0;
+    max-width: 55rem;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.directory-listing li {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f5f5f5;
+    transition: background 0.2s ease;
+}
+
+.directory-listing li:hover {
+    background: #fafafa;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+.directory-listing li:last-child {
+    border-bottom: none;
+}
+
+.directory-listing a {
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.directory-listing a:hover {
+    color: #000;
+}
+
+.item-date {
+    font-size: 0.85rem;
+    color: #999;
+    font-family: 'Monaco', 'Menlo', monospace;
+    margin-left: 1rem;
+    flex-shrink: 0;
+}
+
+.empty-directory {
+    text-align: center;
+    margin: 4rem 0;
+    color: #666;
+    font-style: italic;
+}
+
+.directory-intro,
+.directory-description {
+    margin: 3rem 0;
+    padding: 2rem 0;
+}
+
+.directory-intro {
+    border-bottom: 1px solid #eee;
+}
+
+.directory-description {
+    border-top: 1px solid #eee;
+    background: #fafafa;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    margin-top: 4rem;
+}
+
+/* Photo template enhancements */
+figure {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+figure img:hover {
+    transform: scale(1.02);
+}
+
+figcaption {
+    margin-top: 1rem;
+    color: #666;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/* Enhanced responsiveness */
+@media (max-width: 1200px) {
+    p {
+        max-width: 50rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        padding: 0 1.5rem !important;
+    }
+    
+    p {
+        max-width: 45rem;
+    }
+}
+
+@media (max-width: 760px) {
+    body {
+        font-size: 1rem;
+        padding: 0 1rem !important;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    nav {
+        padding: 1rem;
+        margin: 1.5rem 0 2rem;
+        border-radius: 20px;
+    }
+    
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+        padding: 0.75rem 1rem;
+        border-radius: 15px;
+        font-size: 1rem;
+    }
+    
+    .directory-listing li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .item-date {
+        margin-left: 0;
+    }
+    
+    blockquote {
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+    
+    pre {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 0 0.75rem !important;
+    }
+    
+    h1 {
+        font-size: 1.75rem;
+    }
+    
+    nav {
+        margin: 1.5rem 0 2rem;
+    }
+    
+    .directory-description {
+        padding: 2rem 1rem;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
+}
+
+/* Smooth transitions for interactions */
+* {
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Focus states for accessibility */
+a:focus,
+button:focus {
+    outline: 2px solid #4A90E2;
+    outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+        color: #000;
+    }
+    
+    nav,
+    footer {
+        display: none;
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+    
+    a[href]:after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        color: #666;
+    }
+}
