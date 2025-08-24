@@ -249,6 +249,42 @@
                 margin-top: 3rem;
             }
             
+            /* Fix excessive right padding on mobile */
+            @media (max-width: 760px) {
+                body {
+                    padding-left: 8% !important;
+                    padding-right: 8% !important;
+                    width: 84% !important;
+                }
+                
+                /* Hide sidenotes on narrow screens */
+                .sidenote,
+                .marginnote {
+                    display: none;
+                }
+                
+                /* Make content full width when sidenotes are hidden */
+                section > p,
+                section > footer,
+                section > table,
+                section > blockquote,
+                p,
+                blockquote,
+                .post-content > p,
+                .post-content > blockquote,
+                .post-content > ul,
+                .post-content > ol {
+                    width: 100%;
+                }
+                
+                section > dl,
+                section > ol,
+                section > ul,
+                .post-content > dl {
+                    width: 100%;
+                }
+            }
+            
         </style>
 
 

@@ -1,6 +1,6 @@
 # Messengers Rising
 
-*Messengers Rising* is a 2017 album I wrote and produced using Ableton Life, and a suite of analog synthesizers. The album is a collection of 14 tracks, each with its own unique sound and style. The album is available on Spotify, Apple Music, and other streaming platforms.
+*Messengers Rising* is a 2017 album I wrote and produced using Ableton Live, and a suite of analog synthesizers. The album is a collection of 14 tracks, each with its own unique sound and style. The album is available on Spotify, Apple Music, and other streaming platforms.
 
 <span class="sidenote">The title "Messengers Rising" suggests communication from higher realms or consciousness states, reflecting Kenneth's interest in spiritual themes. The blend of Ableton Live's digital precision with analog synthesizers creates a bridge between technological and organic soundscapes.</span>
 
