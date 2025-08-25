@@ -303,11 +303,6 @@ def random_post():
     return redirect(random_post['url'])
 
 
-@app.route('/constellation')
-def constellation():
-    """Interactive constellation visualization of ideas and connections."""
-    return render_template('constellation.html')
-
 @app.route('/archive')
 def archive_index():
     """Archive index showing all posts by year."""
