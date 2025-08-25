@@ -58,6 +58,8 @@ Jonathan Schwarz articulated this perfectly: "The people who control institution
 
 Watch what happens when a community leader's position depends on there being problems to solve. Suddenly, problems become very hard to solve. The Code of Conduct committee that needs violations to justify their existence. The working group that creates more working groups. The board member more interested in their board seat than the community itself.
 
+You know what's fun? Watching these same leaders give keynotes about empathy while actively ignoring maintainer burnout in their own projects.
+
 This isn't conscious villainy. It's structural incentive. When your position in a community depends on fighting dragons, you'll always find dragons to fight — or create them.<label for="sn-dragons" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-dragons" class="margin-toggle"/>
 <span class="sidenote">This is why I'm skeptical when any group claims they need "permanent" positions to address "systemic" issues. If the issue is truly systemic, why would your job exist to solve it? The incentives are backwards from the start.</span>
@@ -86,7 +88,7 @@ A member asked, in good faith, about the practical implications of abolishing pr
 
 The bitter irony: the banned member was a formerly incarcerated person trying to understand how abolition frameworks addressed their own complex experiences with violence.<label for="sn-irony" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-irony" class="margin-toggle"/>
-<span class="sidenote">This one still makes me angry. The person with the most lived experience of the system being discussed was excluded for not already knowing the "correct" academic language to discuss it. That's not justice — it's gatekeeping.</span>
+<span class="sidenote">This one still makes me angry. The person with the most lived experience of the system being discussed was excluded for not already knowing the "correct" academic language to discuss it. That's not justice — it's gatekeeping by people who've never seen the inside of a cell but have strong opinions about those who have.</span>
 
 ### The Kind Open-Source Project
 
@@ -105,6 +107,8 @@ A tech company launched an ambitious "Psychological Safety" initiative. Consulta
 Six months later, an engineer raised concerns about a technical decision in a very psychologically safe way — using "I" statements, assuming positive intent, focusing on impact. Their manager's response? Mark them as "not a team player" in their performance review for "creating conflict."
 
 The initiative had become a checkbox exercise. Managers attended the trainings, mouthed the words, but when push came to shove, protecting hierarchy mattered more than living the values.
+
+Oh, and that engineer? They were later let go for "culture fit." The manager who retaliated? Promoted. Psychological safety, indeed.
 
 ## The Steelman: Why This Matters Anyway
 

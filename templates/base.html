@@ -33,6 +33,26 @@
         <link rel="stylesheet" href="/static/tufte/tufte.css" />
         
         <style>
+            /* Fix for ET Book font bold-italic rendering issues */
+            /* ET Book doesn't have a true bold-italic variant, so we disable faux bold */
+            strong em, em strong, b i, i b, 
+            .subtitle strong em, .subtitle em strong,
+            .subtitle b i, .subtitle i b,
+            nav strong em, nav em strong,
+            h1 strong em, h1 em strong,
+            h2 strong em, h2 em strong,
+            h3 strong em, h3 em strong {
+                font-weight: normal !important;
+                font-style: italic !important;
+            }
+            
+            /* For better readability, you could also use the semi-bold variant */
+            /* which ET Book does support, though still no bold-italic */
+            .subtitle em, .subtitle i,
+            nav em, nav i {
+                font-weight: 500; /* semi-bold instead of bold for italics */
+            }
+            
             /* Adjust content width for better sidenote spacing */
             section > p,
             section > footer,
