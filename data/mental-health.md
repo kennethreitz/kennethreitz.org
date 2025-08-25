@@ -41,7 +41,7 @@ Here are some things that have helped me:
   - Maintaining these relationships, and the complexities that come with them, is a full-time job.
 - **Medication:**
   - It took me a long time to find the right medication. I had to try a lot of different things, sometimes multiple times.
-  - [Abilify](https://www.abilify.com) is my saving grace, these days. I take it once a month as an injectable.
+  - [Abilify](https://www.abilify.com) is my saving grace, these days. ~~I take it once a month as an injectable~~ I now take it as daily pills because I got tired of getting poked with needles.
 - **Slowing Down:**
   - Taking things *one day at a time*.
   - Sometimes, *one hour at a time*.
