@@ -205,10 +205,10 @@ def render_markdown_file(file_path):
             # Remove only the first h1 line from content to avoid duplication
             content = re.sub(r'^# .+?$', '', content, count=1, flags=re.MULTILINE)
         
-        # Configure mistune renderer
+        # Configure mistune renderer with URL plugin for bare links
         markdown = mistune.create_markdown(
             escape=False,
-            plugins=['strikethrough', 'footnotes', 'table', 'task_lists', 'def_list']
+            plugins=['strikethrough', 'footnotes', 'table', 'task_lists', 'def_list', 'url']
         )
         
         # Process content to HTML
