@@ -2,7 +2,7 @@
 
 This talk recaps the 12 Factor App methodology, which is a set of best practices for building scalable, maintainable, and portable web applications.
 
-<iframe class="speakerdeck-iframe" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 50%; height: auto; aspect-ratio: 560 / 420;" frameborder="0" src="https://speakerdeck.com/player/4f22cc6da0a84d0022028725" title="The 12 Factor App." allowfullscreen="true" data-ratio="1.3333333333333333"></iframe>
+<iframe class="speakerdeck-iframe" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 420;" frameborder="0" src="https://speakerdeck.com/player/4f22cc6da0a84d0022028725" title="The 12 Factor App." allowfullscreen="true" data-ratio="1.3333333333333333"></iframe>
 
 
 

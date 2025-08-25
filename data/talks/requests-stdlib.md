@@ -1,6 +1,6 @@
 # Python, Requests, & The Standard Library
 
-<iframe class="speakerdeck-iframe" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 50%; height: auto; aspect-ratio: 560 / 420;" frameborder="0" src="https://speakerdeck.com/player/68f22f0841734d848315c618111b13ea" title="Python, Requests, &amp; The Standard Library" allowfullscreen="true" data-ratio="1.3333333333333333"></iframe>
+<iframe class="speakerdeck-iframe" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 420;" frameborder="0" src="https://speakerdeck.com/player/68f22f0841734d848315c618111b13ea" title="Python, Requests, &amp; The Standard Library" allowfullscreen="true" data-ratio="1.3333333333333333"></iframe>
 
 
 ## Introduction

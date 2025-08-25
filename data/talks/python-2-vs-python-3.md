@@ -1,6 +1,6 @@
 # Python 2 vs Python 3: A Sacred Love Story
 
-<iframe class="speakerdeck-iframe" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 50%; height: auto; aspect-ratio: 560 / 420;" frameborder="0" src="https://speakerdeck.com/player/c5b0ff40c2a801314e2706393c0335dc" title="Python 2.7 and Python 3: A Sacred Love Story" allowfullscreen="true" data-ratio="1.3333333333333333"></iframe>
+<iframe class="speakerdeck-iframe" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 420;" frameborder="0" src="https://speakerdeck.com/player/c5b0ff40c2a801314e2706393c0335dc" title="Python 2.7 and Python 3: A Sacred Love Story" allowfullscreen="true" data-ratio="1.3333333333333333"></iframe>
 
 
 ## Introduction
