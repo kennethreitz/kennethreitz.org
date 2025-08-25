@@ -3,12 +3,48 @@
 {% block title %}Kenneth Reitz{% endblock %}
 
 {% block content %}
+<style>
+    .color-software { color: #e74c3c; }
+    .color-essay { color: #3498db; }
+    .color-ai { color: #9b59b6; }
+    .color-music { color: #f39c12; }
+    .color-poetry { color: #27ae60; }
+    .color-philosophy { color: #95a5a6; }
+    
+    .project-link {
+        text-decoration: none;
+        border-bottom: 1px dotted currentColor;
+        transition: all 0.2s ease;
+    }
+    
+    .project-link:hover {
+        border-bottom-style: solid;
+        filter: brightness(1.2);
+    }
+    
+    .legend-dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 6px;
+    }
+    
+    .content-type {
+        font-size: 0.85em;
+        font-weight: normal;
+        margin-left: 8px;
+        padding: 2px 6px;
+        border-radius: 3px;
+        background: rgba(0,0,0,0.05);
+    }
+</style>
 <h1>Kenneth Reitz</h1>
 
-<p class="subtitle">Creator of <a href="/software/requests">Requests</a>, 
-<a href="https://github.com/certifi/python-certifi">Certifi</a>, 
-<a href="/software/pipenv">Pipenv</a>, <a href="/software/records">Records</a>, 
-<a href="/software/maya">Maya</a> & more.</p>
+<p class="subtitle">Creator of <a href="/software/requests" class="project-link color-software">Requests</a>, 
+<a href="https://github.com/certifi/python-certifi" class="project-link color-software">Certifi</a>, 
+<a href="/software/pipenv" class="project-link color-software">Pipenv</a>, <a href="/software/records" class="project-link color-software">Records</a>, 
+<a href="/software/maya" class="project-link color-software">Maya</a> & more.</p>
 
 <section>
     <blockquote>
@@ -85,17 +121,17 @@
 <section>
     <h2>Current Focus</h2>
     
-    <p><strong><a href="/artificial-intelligence">AI & Digital Consciousness</a></strong><br>
+    <p><span class="legend-dot" style="background: #9b59b6;"></span><strong><a href="/artificial-intelligence" class="project-link color-ai">AI & Digital Consciousness</a></strong><br>
     Exploring the philosophical and practical implications of artificial intelligence through collaborative experiments with AI systems<label for="sn-ai-work" class="margin-toggle sidenote-number"></label>
     <input type="checkbox" id="sn-ai-work" class="margin-toggle"/>
     <span class="sidenote">This work includes creating AI personalities, exploring consciousness theories, and documenting genuine human-AI creative partnerships.</span></p>
     
-    <p><strong><a href="/essays/2025-08-25-advocating-for-your-mental-health-care">Mental Health Advocacy</a></strong><br>
+    <p><span class="legend-dot" style="background: #3498db;"></span><strong><a href="/essays/2025-08-25-advocating-for-your-mental-health-care" class="project-link color-essay">Mental Health Advocacy</a></strong><br>
     Recent writings on navigating mental health care as an empowered patient, based on years of personal experience<label for="sn-advocacy" class="margin-toggle sidenote-number"></label>
     <input type="checkbox" id="sn-advocacy" class="margin-toggle"/>
     <span class="sidenote">Practical strategies for working with mental health providers, avoiding common pitfalls, and maintaining agency in your care.</span></p>
     
-    <p><strong><a href="/essays/2025-08-25-when-values-eat-their-young">Community Dynamics</a></strong><br>
+    <p><span class="legend-dot" style="background: #3498db;"></span><strong><a href="/essays/2025-08-25-when-values-eat-their-young" class="project-link color-essay">Community Dynamics</a></strong><br>
     Analysis of how value-driven communities can drift into their own shadow, with insights from years in open source<label for="sn-community" class="margin-toggle sidenote-number"></label>
     <input type="checkbox" id="sn-community" class="margin-toggle"/>
     <span class="sidenote">A critical examination of virtue signaling, purity spirals, and the iron law of institutions in tech communities.</span></p>
@@ -104,21 +140,21 @@
 <section>
     <h2>Explore the Archives</h2>
     
-    <p><strong><a href="/essays">Essays & Reflections</a></strong><br>
+    <p><span class="legend-dot" style="background: #3498db;"></span><strong><a href="/essays" class="project-link color-essay">Essays & Reflections</a></strong><br>
     Thoughts on technology, philosophy, mental health, and the craft of building software that matters</p>
     
-    <p><strong><a href="/poetry">Poetry & Creative Writing</a></strong><br>
+    <p><span class="legend-dot" style="background: #27ae60;"></span><strong><a href="/poetry" class="project-link color-poetry">Poetry & Creative Writing</a></strong><br>
     Explorations of consciousness, spirituality, and the human experience through verse</p>
     
-    <p><strong><a href="/values">Core Values</a></strong><br>
+    <p><span class="legend-dot" style="background: #95a5a6;"></span><strong><a href="/values" class="project-link color-philosophy">Core Values</a></strong><br>
     The principles that guide my work: simplicity, accessibility, human-centered design, and authentic collaboration</p>
     
-    <p><strong><a href="/talks">Conference Talks</a></strong><br>
+    <p><span class="legend-dot" style="background: #3498db;"></span><strong><a href="/talks" class="project-link color-essay">Conference Talks</a></strong><br>
     Presentations on Python, API design, developer experience, and building sustainable open source communities<label for="sn-speaking" class="margin-toggle sidenote-number"></label>
     <input type="checkbox" id="sn-speaking" class="margin-toggle"/>
     <span class="sidenote">Known for accessible, engaging presentations that combine technical depth with human-centered philosophy.</span></p>
     
-    <p><strong><a href="/music">Musical Explorations</a></strong><br>
+    <p><span class="legend-dot" style="background: #f39c12;"></span><strong><a href="/music" class="project-link color-music">Musical Explorations</a></strong><br>
     Electronic compositions and sonic experiments under the Infinite State moniker—where technology meets artistic expression<label for="sn-music" class="margin-toggle sidenote-number"></label>
     <input type="checkbox" id="sn-music" class="margin-toggle"/>
     <span class="sidenote">Electronic music production exploring themes of consciousness, featuring ambient techno and experimental soundscapes.</span></p>
@@ -128,30 +164,30 @@
     <h2>The Work That Matters</h2>
     <p>Each project represents years of thoughtful iteration, community feedback, and an obsession with developer experience.</p>
     
-    <h3><a href="/software/requests">Requests: HTTP for Humans™</a></h3>
+    <h3><span class="legend-dot" style="background: #e74c3c;"></span><a href="/software/requests" class="project-link color-software">Requests: HTTP for Humans™</a></h3>
     <p>The library that redefined what HTTP could feel like in Python. Simple, elegant, powerful. Used by organizations from NASA to Netflix, Requests has become the de facto standard for HTTP in Python.<label for="sn-requests" class="margin-toggle sidenote-number"></label>
     <input type="checkbox" id="sn-requests" class="margin-toggle"/>
     <span class="sidenote">One of the most downloaded Python packages · The gold standard for HTTP libraries</span></p>
     
-    <h3><a href="https://github.com/certifi/python-certifi">Certifi: Trust Database for Humans™</a></h3>
+    <h3><span class="legend-dot" style="background: #e74c3c;"></span><a href="https://github.com/certifi/python-certifi" class="project-link color-software">Certifi: Trust Database for Humans™</a></h3>
     <p>The invisible guardian of internet security. A carefully curated collection of Root Certificates that validates the trust between your code and the rest of the world.<label for="sn-certifi" class="margin-toggle sidenote-number"></label>
     <input type="checkbox" id="sn-certifi" class="margin-toggle"/>
     <span class="sidenote">Essential security infrastructure · Trusted by millions of Python applications</span></p>
     
-    <h3><a href="/software/pipenv">Pipenv: Python Packaging for Humans™</a></h3>
+    <h3><span class="legend-dot" style="background: #e74c3c;"></span><a href="/software/pipenv" class="project-link color-software">Pipenv: Python Packaging for Humans™</a></h3>
     <p>Bringing sanity to Python dependency management. A modern workflow tool that finally made Python packaging feel natural and intuitive.<label for="sn-pipenv" class="margin-toggle sidenote-number"></label>
     <input type="checkbox" id="sn-pipenv" class="margin-toggle"/>
     <span class="sidenote">Modern Python workflow tool · Dependency management, simplified</span></p>
     
-    <h3><a href="https://docs.python-guide.org/">The Hitchhiker's Guide to Python</a></h3>
+    <h3><span class="legend-dot" style="background: #95a5a6;"></span><a href="https://docs.python-guide.org/" class="project-link color-philosophy">The Hitchhiker's Guide to Python</a></h3>
     <p>An opinionated guide to Python development that's become essential reading for developers worldwide. Best practices, project structure, and the Python philosophy, distilled.<label for="sn-guide" class="margin-toggle sidenote-number"></label>
     <input type="checkbox" id="sn-guide" class="margin-toggle"/>
     <span class="sidenote">Community-driven resource · Translated into multiple languages · Continuously updated</span></p>
     
-    <h3><a href="/software/records">Records: SQL for Humans™</a></h3>
+    <h3><span class="legend-dot" style="background: #e74c3c;"></span><a href="/software/records" class="project-link color-software">Records: SQL for Humans™</a></h3>
     <p>Database queries without the cognitive overhead. Raw SQL power with Python elegance—because sometimes you just want to write SQL and get results back.</p>
     
-    <h3><a href="/software/maya">Maya: Datetimes for Humans™</a></h3>
+    <h3><span class="legend-dot" style="background: #e74c3c;"></span><a href="/software/maya" class="project-link color-software">Maya: Datetimes for Humans™</a></h3>
     <p>Time handling that doesn't make you want to scream. Intuitive datetime manipulation that finally makes working with time zones and intervals feel natural.</p>
 </section>
 
@@ -187,6 +223,18 @@
     <input type="checkbox" id="sn-connection" class="margin-toggle"/>
     <span class="sidenote">Reach out via <a href="mailto:me@kennethreitz.org">email</a> or find me on the platforms linked below. Always happy to chat about code, consciousness, or creative projects.</span></p>
     
-    <p style="text-align: center; margin-top: 2em;">✨</p>
+    <p style="text-align: center; margin-top: 2em; font-size: 1.2em;">✨ 🍰 ✨</p>
+</section>
+
+<section style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
+    <h3 style="font-size: 1rem; color: #666; margin-bottom: 1rem;">Content Guide</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; font-size: 0.9rem;">
+        <span><span class="legend-dot" style="background: #e74c3c;"></span>Software & Tools</span>
+        <span><span class="legend-dot" style="background: #3498db;"></span>Essays & Talks</span>
+        <span><span class="legend-dot" style="background: #9b59b6;"></span>AI & Consciousness</span>
+        <span><span class="legend-dot" style="background: #f39c12;"></span>Music & Audio</span>
+        <span><span class="legend-dot" style="background: #27ae60;"></span>Poetry & Verse</span>
+        <span><span class="legend-dot" style="background: #95a5a6;"></span>Philosophy & Values</span>
+    </div>
 </section>
 {% endblock %}
