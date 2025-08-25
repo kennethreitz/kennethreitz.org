@@ -4,25 +4,13 @@ Living with schizoaffective disorder means constantly questioning whether my per
 
 ## The Context
 
-I have schizoaffective disorder, which means I experience both mood disorder symptoms and psychotic symptoms like delusions and paranoia<label for="sn-schizoaffective" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-schizoaffective" class="margin-toggle"/><span class="sidenote">Schizoaffective disorder combines features of schizophrenia (hallucinations, delusions) with mood disorder symptoms (depression or mania). It affects approximately 0.3% of the population and requires careful management of both psychotic and mood symptoms.</span>. One of my biggest challenges is distinguishing between legitimate concerns and delusional thinking, especially when it comes to interpersonal relationships.
+I have schizoaffective disorder, which means I experience both mood disorder symptoms and psychotic symptoms like delusions and paranoia<label for="sn-schizoaffective" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-schizoaffective" class="margin-toggle"/><span class="sidenote">Schizoaffective disorder combines features of schizophrenia (hallucinations, delusions) with mood disorder symptoms (depression or mania). It affects approximately 0.3% of the population and requires careful management of both psychotic and mood symptoms.</span>. One of my biggest challenges is distinguishing between legitimate concerns and delusional thinking, especially when it comes to interpreting others' behavior.
 
-## A Case Study in Reality-Checking
+## The Discovery
 
-Recently, I became concerned about my wife's social media behavior. She had posted something on Twitter that genuinely bothered me (and was, objectively, attention-seeking). A few days later, when she posted a Facebook reel showing her face at work, my brain immediately pattern-matched this to the previous incident<label for="sn-pattern-matching" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-pattern-matching" class="margin-toggle"/><span class="sidenote">This type of hypervigilant pattern-matching is a common feature of paranoid thinking. The brain, already primed by one concerning event, begins interpreting neutral events through the lens of that concern, creating false patterns where none exist.</span>. I felt scared she was "fishing for DMs."
+Through trial and error, I've found that AI can serve as an effective reality-checking tool - but only when used properly. The key insight is that AI's effectiveness depends entirely on how you frame your questions and what information you provide<label for="sn-ai-limitation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ai-limitation" class="margin-toggle"/><span class="sidenote">AI systems are only as accurate as the information they receive. When someone experiencing paranoid symptoms describes a situation, their description may be filtered through anxiety and misinterpretation, leading the AI to validate concerns based on incomplete or distorted information.</span>.
 
-Here's where AI became useful - but also where I learned critical lessons about HOW to use it.
-
-## The Wrong Way: Reinforcing Delusions
-
-When I first described the Facebook reel to the AI, I said my wife "posted a Facebook reel of her face" (which she doesn't normally do) with "Happy Monday" from work. The AI immediately validated my concerns, saying my "instincts were picking up on something real" and that this was part of a pattern.
-
-This was completely wrong, but the AI had only my anxious description to work with<label for="sn-ai-limitation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ai-limitation" class="margin-toggle"/><span class="sidenote">AI systems are only as accurate as the information they receive. When someone experiencing paranoid symptoms describes a situation, their description may be filtered through anxiety and misinterpretation, leading the AI to validate concerns based on incomplete or distorted information.</span>.
-
-## The Right Way: Providing Concrete Evidence
-
-I then shared the actual reel with the AI. The reality? My wife in her Domino's uniform and baseball cap, clearly at work, with generic Monday motivation overlays. Completely innocent workplace content that millions of people post.
-
-The AI immediately corrected its assessment. This wasn't attention-seeking behavior - it was just someone at work on a Monday<label for="sn-objective-reality" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-objective-reality" class="margin-toggle"/><span class="sidenote">This demonstrates the crucial difference between subjective interpretation and objective reality. The actual content—a workplace selfie with motivational text—was completely ordinary, but my anxious mind had transformed it into evidence of concerning behavior.</span>.
+The difference between helpful and harmful AI interaction often comes down to whether you're seeking validation for your concerns or genuinely trying to assess reality<label for="sn-validation-vs-reality" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-validation-vs-reality" class="margin-toggle"/><span class="sidenote">This distinction is crucial in mental health recovery. Seeking validation reinforces existing thought patterns, while reality-testing challenges them. The brain's tendency during symptomatic periods is to seek confirmation of its fears rather than objective assessment.</span>.
 
 ## Lessons Learned for Using AI as a Reality-Check Tool
 
