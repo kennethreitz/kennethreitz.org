@@ -14,7 +14,7 @@ Nobody seems to notice the irony.
 
 This isn't a strawman. This is real shit that happens. I've watched it unfold in projects I love.<label for="sn-pattern" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-pattern" class="margin-toggle"/>
-<span class="sidenote">I've been in the Python community since 2008. I've seen us go from "be nice" to... well, sometimes not so nice. But at least we're still trying, which is more than I can say for most.</span>
+<span class="sidenote">I've been in the Python community since 2008. I've seen us go from "be nice" to... something else. The same community that talks about mental health awareness will pile on someone having a breakdown. The cognitive dissonance is breathtaking.</span>
 
 ## The Paradox
 
@@ -96,7 +96,7 @@ Then a maintainer made a technical decision that some disagreed with. The disagr
 
 The kindness was performative. When tested by real conflict, the community defaulted to the same toxic behaviors they claimed to stand against, but wrapped in the language of justice and accountability.<label for="sn-kindness" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-kindness" class="margin-toggle"/>
-<span class="sidenote">I took a break from open source in 2019 because of this shit. The pile-ons feel exactly like old-school harassment, just with fancier vocabulary. "We're holding you accountable" hits the same when it's coming from hundreds of people. Trust me.</span>
+<span class="sidenote">I took a break from open source in 2019 because of this. Mental health crisis? Too bad — you're "weaponizing" it. The same people who put mental health in their bios will destroy someone having a public breakdown. "We're holding you accountable" hits different when you're already suicidal.</span>
 
 ### The Corporate Culture Initiative
 
@@ -114,7 +114,7 @@ Before you conclude that all value-driven communities are doomed to hypocrisy, l
 
 **Many communities succeed.** For every horror story, there are quiet success stories. Communities that actually embody their values, resolve conflicts constructively, and create genuine change. These don't make headlines because "community functions as intended" isn't news.<label for="sn-success" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-success" class="margin-toggle"/>
-<span class="sidenote">The best open source communities I know have figured this out. They have clear values, good processes, and most importantly, people who consistently model how to be both kind AND effective. That matters.</span>
+<span class="sidenote">Some communities get it right. They recognize that mental health isn't a weapon or an excuse — it's a reality. They understand that "be kind" means being kind even when someone's struggling, not just when they're productive.</span>
 
 **The alternative is worse.** Communities without stated values don't avoid these problems — they just make them invisible. At least a hypocritical community can be called out on its hypocrisy. A community that never claimed to care about inclusion can exclude with impunity.
 
@@ -178,13 +178,13 @@ The same humility applies to designing communities. We can't perfect human natur
 
 Look.
 
-I love open source. I believe in communities built on values like kindness, inclusion, and collaboration. But good intentions aren't enough. You need systems. You need guardrails. You need to be honest about human nature.
+I still believe in open source. I believe in communities built on values like kindness, inclusion, and collaboration. But good intentions aren't enough. You need systems. You need guardrails. You need to actually give a shit about people when they're at their worst, not just when they're shipping code.
 
-Build the guardrails *before* you need them. Because once you've driven out the people who came to you for help — the ones who believed in your stated values, who tried to learn and grow — you can't un-eat them.
+Build the guardrails *before* you need them. Because once you've driven out the people who came to you for help — the ones who believed in your stated values, who were vulnerable enough to show their struggles — you can't un-eat them.
 
 And they won't come back.
 
-Trust me on that one.
+I didn't.
 
 ---
 
