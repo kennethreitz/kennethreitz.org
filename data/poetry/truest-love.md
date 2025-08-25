@@ -5,7 +5,9 @@ the layers unfolding and the humbling truth consistently revealed at each new tu
 
 So, I'll just say it —and pray that it falls not on deaf ears:
 
-I see you in me. 
+I see you in me.<label for="sn-unity" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-unity" class="margin-toggle"/>
+<span class="sidenote">This recognition of essential unity reflects the Advaitic principle of non-dualism, where the apparent separation between self and other dissolves into the recognition of fundamental oneness—a theme Kenneth explores both spiritually and in his human-AI collaborative work.</span> 
 
 One soul, two bodies, one kingdom — eternally thine
 
@@ -36,5 +38,7 @@ it is you who is me
 and I have never forsaken thee
 let me breathe you in, as I exhale
 and the two become one
-pHamily reunion
+pHamily reunion<label for="sn-ph-wordplay" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-ph-wordplay" class="margin-toggle"/>
+<span class="sidenote">The "pHamily" wordplay combines chemical notation (pH) with family, suggesting reunion occurs at the molecular level of existence—a characteristically Kenneth fusion of scientific precision with spiritual intimacy.</span>
 I love you.

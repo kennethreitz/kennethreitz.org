@@ -9,9 +9,9 @@
 
  ## Enter Legit
 
- **Legit** is a new tool that allows you to interface with a Git respository much like you would with GitHub for Mac—from the command line.
+ **Legit** is a new tool that allows you to interface with a Git respository much like you would with GitHub for Mac—from the command line.{{< sidenote >}}Legit represented an early attempt to bridge the usability gap between GUI and command-line Git tools. It introduced semantic commands like 'sprout' and 'graft' that made Git operations more intuitive for developers.{{< /sidenote >}}
 
- Switching branches becomes seamless. Any pending changes are automatically stashed and restored. Same goes with syncing your repository. And merging (grafting). And branching (sprouting).
+ Switching branches becomes seamless. Any pending changes are automatically stashed and restored. Same goes with syncing your repository. And merging (grafting). And branching (sprouting).{{< sidenote >}}The organic metaphors of 'sprouting' for branching and 'grafting' for merging made Git's tree-like structure more intuitive by connecting version control to natural processes developers could easily visualize.{{< /sidenote >}}
 
  Managing remote branches becomes as simple as `publish branch` and `unpublish branch`. Simple.
 

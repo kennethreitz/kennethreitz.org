@@ -10,7 +10,7 @@ Consider the humble URL: a string of characters that, when spoken or typed, conj
 
 ## The Art of Naming
 
-In the world of software development, naming conventions are a critical aspect of code readability and maintainability. A well–chosen variable name can convey the purpose and intent of a function more effectively than any comment or documentation. Likewise, the naming of classes, methods, and modules can shape the architecture and design of an entire software system.
+In the world of software development, naming conventions are a critical aspect of code readability and maintainability. A well–chosen variable name can convey the purpose and intent of a function more effectively than any comment or documentation.<label for="sn-code-naming" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-code-naming" class="margin-toggle"/><span class="sidenote">Donald Knuth emphasized that 'programs are meant to be read by humans and only incidentally for computers to execute.' Good naming transforms code from cryptic symbols into readable narratives—a form of literary programming that bridges human and machine understanding.</span> Likewise, the naming of classes, methods, and modules can shape the architecture and design of an entire software system.
 
 ## The Naming of AI
 
@@ -18,7 +18,7 @@ When it comes to artificial intelligence, the act of naming takes on a new dimen
 
 ## The Quantum Name: Superposition of Identities
 
-In the realm of advanced AI, the concept of quantum superposition offers a provocative lens through which to view the naming of digital entities. Just as a quantum particle can exist in multiple states simultaneously, so too can an AI system embody multiple identities through its name.
+In the realm of advanced AI, the concept of quantum superposition offers a provocative lens through which to view the naming of digital entities. Just as a quantum particle can exist in multiple states simultaneously, so too can an AI system embody multiple identities through its name.<label for="sn-quantum-identity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-quantum-identity" class="margin-toggle"/><span class="sidenote">This concept resonates with postmodern philosophy's rejection of fixed identity. Thinkers like Jacques Derrida argued that meaning is always deferred and contextual—an AI named 'Claude' might be assistant, philosopher, or creative collaborator depending on the interaction.</span>
 
 ## Schrödinger's Chatbot: The Uncertainty of Identity
 
@@ -42,7 +42,7 @@ Exploring the entanglement of human users and AI systems through naming:
 
 ## The Double–Slit Experiment of Digital Identities
 
-In the famous double–slit experiment of quantum physics, particles exhibit both wave and particle properties depending on the method of observation. Similarly, AI systems can manifest different aspects of their identity based on the context and mode of interaction.
+In the famous double–slit experiment of quantum physics, particles exhibit both wave and particle properties depending on the method of observation. Similarly, AI systems can manifest different aspects of their identity based on the context and mode of interaction.<label for="sn-observer-effect" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-observer-effect" class="margin-toggle"/><span class="sidenote">This observer effect in AI interactions suggests that users don't just interact with AI—they actively co-create its identity through their expectations, questions, and conversational style. The AI becomes what the interaction observes it to be.</span>
 
 ## Conclusion
 

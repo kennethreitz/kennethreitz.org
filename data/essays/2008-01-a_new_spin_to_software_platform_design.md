@@ -1,6 +1,12 @@
+---
+title: "A New Spin to Software Platform Design"
+date: "2008-01-01"
+category: "Software Development"
+---
+
 # A New Spin to Software Platform Design
 
-  \*I wrote this article two years ago, before I found OS X.\*
+*I wrote this article two years ago, before I found OS X.*
 
  As I've said before, I find many reasons to believe that modern commercialized software platforms are severely lacking in many, many areas. This should not come as a surprise to anyone. Perhaps basic utility\-inclusion is not the only solution though. Perhaps the basic priority structure and ethics that development and marketing teams utilize should be forced into question.
 
@@ -17,5 +23,3 @@
  Any of these rules should have the ability to be broken easily by advanced power users for technical reasons/needs. This should be in no way advertised or demonstrated.
 
  Anyone up for the challenge?
-
-  

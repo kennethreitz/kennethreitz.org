@@ -7,7 +7,9 @@ Babel's trumpets have sounded<label for="sn-babel" class="margin-toggle sidenote
 <span class="sidenote">The Tower of Babel represents humanity's attempt to reach the divine, resulting in confusion of tongues—a metaphor for the fragmentation of communication and understanding.</span>, the churchbells have sung,
 The rules, a new, greet us with a fresh perspective.
 
-The labyrinth, a maze of the mind,
+The labyrinth, a maze of the mind,<label for="sn-compartmentalized" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-compartmentalized" class="margin-toggle"/>
+<span class="sidenote">The psychological concept of compartmentalization—separating conflicting thoughts or experiences into mental "boxes"—becomes literal in the labyrinth metaphor, suggesting both protection and isolation.</span>
 We're all compartmentalized, you and I.
 
 The walls are high, and the path is long,

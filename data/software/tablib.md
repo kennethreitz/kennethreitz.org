@@ -7,10 +7,15 @@ Tablib is a format-agnostic tabular dataset library, written in Python. It allow
 ## Features
 
 - **Format Agnostic**: Tablib supports a variety of formats, including Excel, CSV, JSON, and YAML, allowing you to work with data in different file types.
+
+<span class="sidenote">Format agnosticism reflects a core design philosophy: software should adapt to users' workflows rather than forcing users to adapt to the software. This principle would become central to the "for Humans" philosophy in Kenneth's later projects.</span>
+
 - **Data Manipulation**: The library provides functions for sorting, filtering, and transforming data sets, enabling you to perform common data operations.
 - **Import and Export**: Tablib allows you to import data from files or URLs, and export data to different formats, making it easy to work with data from various sources.
 
 This was one of my first open source projects. The [documentation](https://tablib.readthedocs.io/en/stable/) is extensive and covers all aspects of the library. It was my passion project for a long time.
+
+<span class="sidenote">The emphasis on comprehensive documentation became a hallmark of Kenneth's open source philosophy. This commitment to clear, extensive documentation would later distinguish Requests as "HTTP for Humans" by making complex functionality accessible through intuitive documentation.</span>
 
 <span class="sidenote">Tablib's development occurred during Kenneth's formative years as an open source developer. The extensive documentation and thoughtful API design established patterns he would later apply to Requests and other successful projects.</span>
 

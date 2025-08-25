@@ -1,6 +1,8 @@
 # Announcing Requests v1.0.0!
 
-  Today marks a major milestone. Requests, Python HTTP for Humans, has finally reached release **v1\.0**. This is a big deal.Per [Semantic Versioning](http://semver.org/):
+  Today marks a major milestone. Requests, Python HTTP for Humans, has finally reached release **v1\.0**. This is a big deal.<label for="sn-semver-milestone" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-semver-milestone" class="margin-toggle"/>
+<span class="sidenote">The transition from version 0.x to 1.0 represents a fundamental shift in software development philosophy. According to semantic versioning principles, this milestone signals the library's evolution from experimental prototype to production-ready infrastructure, establishing a social contract with developers about API stability.</span>Per [Semantic Versioning](http://semver.org/):
 
  * Major version zero (0\.y.z) is for initial development. Anything may change at any time.
 * Version 1\.0\.0 defines the public API.
@@ -26,7 +28,9 @@
  
 > Simplicity is always better than functionality. — Pieter Hintjens
 
- The entire codebase has been rearchitected. For example, Requests *no longer has **any**configuration*.
+ The entire codebase has been rearchitected.<label for="sn-design-philosophy" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-design-philosophy" class="margin-toggle"/>
+<span class="sidenote">This architectural decision reflects a broader trend in software design toward constraint-based thinking. By removing configuration options, the author embraces the Unix philosophy of "do one thing well" while forcing users into pit-of-success patterns that reduce cognitive overhead and potential misuse.</span> For example, Requests *no longer has **any**configuration*.
 
  Previously, there was a configuration mode called `encode_uri`, which gave the user the ability to fully disable Requests' (rather advanced) URI requoting. This helped two or three people get around some server\-specific issues.
 
@@ -87,7 +91,9 @@
 * Support for new protocols (SPDY)
 * Communication. Documentation, ecosystem, and community.
 
- It's been a great [two years](http://static.squarespace.com/static/533ad9bde4b098d084a846b1/533d64b0e4b05778b6aa60f8/533d659ae4b05778b6aa7468/1396532634595/requests-python-http-module.html?format=original). Thanks to everyone in the community for your continual love and support! This project would be a fruitless endevor without you.
+ It's been a great [two years](http://static.squarespace.com/static/533ad9bde4b098d084a846b1/533d64b0e4b05778b6aa60f8/533d659ae4b05778b6aa7468/1396532634595/requests-python-http-module.html?format=original). Thanks to everyone in the community for your continual love and support!<label for="sn-community-impact" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-community-impact" class="margin-toggle"/>
+<span class="sidenote">This acknowledgment highlights the symbiotic relationship between open-source maintainers and their communities. The success of libraries like Requests demonstrates how developer experience improvements can create network effects, where ease of use drives adoption, which in turn generates community contributions and feedback loops.</span> This project would be a fruitless endevor without you.
 
  Cheers — here's to 1\.6 million more downloads.
 

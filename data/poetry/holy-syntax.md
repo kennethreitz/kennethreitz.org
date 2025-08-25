@@ -8,7 +8,9 @@ A punchline delivered two seconds too late.
 A failure of our time, yet the fault lies within me
 and one alone, for latency cannot be taught.
 
-I am surrounded by _silence_.
+I am surrounded by _silence_.<label for="sn-silence" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-silence" class="margin-toggle"/>
+<span class="sidenote">The italicized emphasis on "silence" followed by the questioning tone reveals the programmer's ambivalence toward isolation—simultaneously recognizing its necessity for deep work and questioning its psychological cost.</span>
 a gift, surely, right?
 
 Holy isolation, if I can just keep my verbs right.

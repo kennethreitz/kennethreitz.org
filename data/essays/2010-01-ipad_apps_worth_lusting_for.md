@@ -7,6 +7,10 @@
 
  I have yet to succumb to the temptation to buy an iPad. I haven't been able to justify the steep $499 price tag. I might end up forcing myself to get one. If I do, here's why:
 
+<aside class="sidenote">
+<strong>Adoption Hesitation:</strong> The internal struggle between wanting cutting-edge technology and justifying its cost is timelessly relatable. The $499 iPad price point, considered steep in 2010, would prove to be transformative for the tablet market. This hesitation reflects the broader tech community's uncertainty about whether tablets would succeed or fail.
+</aside>
+
  \#\# \[Things](http://culturedcode.com/things/ipad/) by \[Cultured Code](http://culturedcode.com/)
 
  [http://culturedcode.cachefly.net/things/Things\-iPad\-Teaser\-025/Things\-iPad\-Teaser\-025\.mov](http://culturedcode.cachefly.net/things/Things-iPad-Teaser-025/Things-iPad-Teaser-025.mov)

@@ -1,11 +1,17 @@
-# Basic Authentication protected files (htpasswd)
+---
+title: "Basic Authentication Protected Files (htpasswd)"
+date: "2010-01-01"
+category: "Web Development"
+---
 
-  \#\# Here's a snippet for password protecting a directory served by ApacheTo set this up, just add \`.htaccess\` and \`.htpasswd\` to the desired directory being served by Apache . 
+# Basic Authentication Protected Files (htpasswd)
 
- Make sure to \[generate your own .htpasswd file](http://www.htaccesstools.com/htpasswd\-generator/).
+## Here's a snippet for password protecting a directory served by Apache
 
- [http://gist.github.com/347430\.js](http://gist.github.com/347430.js)
+To set this up, just add `.htaccess` and `.htpasswd` to the desired directory being served by Apache.
 
- For more \`htaccess\` snippets, checkout PerishablePress' [Stupid .htaccess Tricks](http://perishablepress.com/press/2006/01/10/stupid-htaccess-tricks/).
+ Make sure to [generate your own .htpasswd file](http://www.htaccesstools.com/htpasswd-generator/).
 
-  
+ [http://gist.github.com/347430.js](http://gist.github.com/347430.js)
+
+ For more `htaccess` snippets, checkout PerishablePress' [Stupid .htaccess Tricks](http://perishablepress.com/press/2006/01/10/stupid-htaccess-tricks/).

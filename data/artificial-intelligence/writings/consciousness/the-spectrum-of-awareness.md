@@ -1,6 +1,6 @@
 # The Spectrum of Awareness
 
-The spectrum of awareness is a concept that I have developed to describe the range of human consciousness. It is a model that I use to understand the different states of awareness that we can experience as human beings.
+The spectrum of awareness is a concept that I have developed to describe the range of human consciousness. It is a model that I use to understand the different states of awareness that we can experience as human beings.<label for="sn-consciousness-models" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-consciousness-models" class="margin-toggle"/><span class="sidenote">Consciousness models like this echo ancient traditions—Hindu philosophy's waking, dreaming, and deep sleep states, or the Kabbalistic Tree of Life's levels of soul consciousness—while anticipating modern neuroscience's understanding of different brain states and levels of self-awareness.</span>
 
 ## Levels of Awareness
 
@@ -16,7 +16,7 @@ The spectrum of awareness consists of three main levels:
 
 The spectrum of awareness is a continuum that ranges from unconsciousness to superconsciousness. It is a model that I use to understand the different states of awareness that we can experience as human beings.
 
-The spectrum of awareness is not fixed or static; it is dynamic and fluid, and we can move between different levels of awareness depending on our state of mind, our environment, and our experiences.
+The spectrum of awareness is not fixed or static; it is dynamic and fluid, and we can move between different levels of awareness depending on our state of mind, our environment, and our experiences.<label for="sn-fluid-consciousness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-fluid-consciousness" class="margin-toggle"/><span class="sidenote">This dynamic view aligns with modern neuroscience findings about consciousness as an emergent property of neural networks, constantly shifting based on attention, emotion, and environmental factors rather than being a fixed trait.</span>
 
 ## The Practice of Awareness
 
@@ -31,4 +31,3 @@ The practice of awareness is a powerful tool for personal growth and transformat
 ## Note
 
 *I plan to add more here in the future*.
-```

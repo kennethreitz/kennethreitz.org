@@ -4,9 +4,13 @@ I love music. I listen to it all the time. I play it all the time.
 
 My music client of choice is [Apple Music](https://music.apple.com), mostly because of seamless integration with my devices, as well as the lossless quality that is a big deal for me.
 
+<span class="sidenote">The preference for lossless quality reflects an audiophile sensibility—the same attention to fidelity and precision that characterizes Kenneth's approach to software engineering. Quality in audio, like quality in code, often lies in what isn't compromised.</span>
+
 ## Favorite Artists
 
 I listen to a lot of hip-hop and rock, mostly. As I get older, I'm finding that I'm listening to more and more to electronic music as well. The energy and wide audio spectrum of rock is more taxing to my ears, I've noticed as I get older.
+
+<span class="sidenote">This evolution in musical taste reflects a broader pattern in creative professionals—the gradual shift from intensity-focused to subtlety-focused art forms as one's capacity for processing complexity deepens with experience.</span>
 
 **Hip-Hop**
 
@@ -58,6 +62,8 @@ I'm not going to list them all, but here are a few of my favorite albums of all 
 - *Under Pressure* by Logic
 - *My Beautiful Dark Twisted Fantasy* by Kanye West
 - *Life of Pablo* by Kanye West
+
+<span class="sidenote">This album selection reveals deep appreciation for concept albums and artistic ambition—from Pink Floyd's meditation on absence and presence to Tool's exploration of consciousness and spiral dynamics. These are works that reward repeated listening and deeper engagement.</span>
 
 I'll expand upon this list more in the future.
 
@@ -114,6 +120,8 @@ Here is a selection of my top 50 songs in iTunes:
 | Moon                                         | 2:36     | Kanye West                             | Donda                                                           |
 | Wash Us in the Blood (feat. Travis Scott)    | 3:10     | Kanye West                             | Wash Us in the Blood (feat. Travis Scott) - Single              |
 | Consistent Inconsistency                     | 4:50     | Kenneth Reitz                          | Unmastered Impulses                                             |
+
+<span class="sidenote">The appearance of Kenneth's own musical creation among his top tracks suggests a deeply personal relationship with creative expression—the programmer as artist, finding harmony between technical precision and emotional authenticity.</span>
 | When I Talk (feat. Kx5)                      | 3:28     | deadmau5, Kaskade & Elderbrook         | When I Talk (feat. Kx5) - Single                                |
 | 10 Bands                                     | 2:58     | Drake                                  | If You're Reading This It's Too Late                            |
 | Chicago Freestyle                            | 3:40     | Drake & GIVĒON                         | Dark Lane Demo Tapes                                            |

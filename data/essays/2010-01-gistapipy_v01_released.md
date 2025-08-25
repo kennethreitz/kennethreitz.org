@@ -1,17 +1,27 @@
+---
+title: "GistAPI.py v0.1 Released"
+date: "2010-01-01"
+category: "Python"
+---
+
 # GistAPI.py v0.1 Released
 
-  Today I released GistAPI.py v0\.1\.2\. It features a highly\-optimized Gist object model and API wrapper which allows you to consume Gists in your next Python application.
+Today I released GistAPI.py v0.1.2. It features a highly-optimized Gist object model and API wrapper which allows you to consume Gists in your next Python application.
 
- GitHub just rolled out a miniature pre\-release of the \[Gist API](http://develop.github.com/p/gist.html) last month, so API functionality is pretty limited at the moment. More features will be added as soon as the API is updated.
+ GitHub just rolled out a miniature pre-release of the [Gist API](http://develop.github.com/p/gist.html) last month, so API functionality is pretty limited at the moment. More features will be added as soon as the API is updated.
 
- \#\# Usage
+ ## Usage
 
-  from gistapi import \*
+```python
+from gistapi import *
 
-  gist \= Gist('d4507e882a07ac6f9f92')
+gist = Gist('d4507e882a07ac6f9f92')
 
-  gist.description \# 'Example Gist for gist.py'gist.created\_at \# '2010/05/16 10:51:15 \-0700'gist.public \# Falsegist.filenames \# \['exampleEmptyFile', 'exampleFile']gist.files\['exampleFile'] \# 'Example file content.'
+gist.description # 'Example Gist for gist.py'
+gist.created_at # '2010/05/16 10:51:15 -0700'
+gist.public # False
+gist.filenames # ['exampleEmptyFile', 'exampleFile']
+gist.files['exampleFile'] # 'Example file content.'
+```
 
- \[Source on GitHub](http://github.com/kennethreitz/gistapi.py/)
-
-  
+ [Source on GitHub](http://github.com/kennethreitz/gistapi.py/)

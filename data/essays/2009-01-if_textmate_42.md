@@ -28,4 +28,8 @@
 
  **}**
 
+---
+
+> **2025 Note**: This passionate ode to TextMate captures a pivotal moment in editor history - when GUI editors began challenging terminal-based vim/emacs dominance among developers. The title's "42" reference (Douglas Adams' "answer to everything") reflects TextMate's perceived perfection at the time. The breathless enthusiasm, typos ("strait" for "straight"), and evangelistic tone ("Your life will never be the same") showcase the genuine excitement TextMate generated. This post predates VS Code by 6 years and represents when a single Mac-only editor could inspire such devotion. The vim-to-TextMate conversion story became common among Mac-adopting developers in this era.
+
   

@@ -12,7 +12,9 @@ Molding ideas, shaping this verbal land
 Are we all so musically inclined?
 I'd argue not, at least not in the same vine-entwined
 
-Music was the oasis of my upbringing
+Music was the oasis of my upbringing<label for="sn-oasis" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-oasis" class="margin-toggle"/>
+<span class="sidenote">The metaphor of music as "oasis" suggests not just refuge but life-sustaining nourishment—music as essential resource in an otherwise arid emotional landscape.</span>
 A sanctuary where my soul took wing
 Perhaps Sarah and I, we heard the tune more clearly
 The rhythmic whispers of hip-hop, symphony so earthy

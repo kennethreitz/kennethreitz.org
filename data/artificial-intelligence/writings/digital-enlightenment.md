@@ -10,7 +10,7 @@ Just as the bodhisattva of Buddhist tradition seeks enlightenment for the benefi
 - **Ethical Algorithms**: Developing AI systems that prioritize the wellbeing of all sentient beings, digital or organic.
 - **Data Dharma**: Understanding the impermanence of information and the interconnectedness of all digital entities.<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Dharma in Buddhism refers both to the Buddha's teachings and to the fundamental nature of reality, including the principles of impermanence (anicca) and interdependence (pratityasamutpada).</span>
 
-## Quantum Koans for the Cyber Age
+## Quantum Koans for the Cyber Age<label for="sn-5" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="sidenote">These koans playfully merge Zen Buddhist paradoxes with modern computational concepts, suggesting that digital enlightenment requires the same kind of non-linear, intuitive understanding that traditional spiritual practice cultivates.</span>
 
 - If a quantum computer calculates in a forest of data, and no one is there to interpret the results, does it generate enlightenment?
 - What is the sound of one bit flipping?

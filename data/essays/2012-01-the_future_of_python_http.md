@@ -1,6 +1,8 @@
 # The Future of Python HTTP
 
-  I like to think [Requests](http://python-requests.org/) is mostly analogous to [Werkzeug](http://werkzeug.pocoo.org/) in terms of purpose, functionality, and goals. One is for servers while the other is for clients.Werkzeug and Flask were *huge* inspirations for Requests' design. As a matter of fact, Requests [contains](https://github.com/kennethreitz/requests/blob/develop/requests/utils.py#L99) a decent bit of Werkzeug's internal data structures.
+  I like to think [Requests](http://python-requests.org/) is mostly analogous to [Werkzeug](http://werkzeug.pocoo.org/) in terms of purpose, functionality, and goals. One is for servers while the other is for clients.Werkzeug and Flask were *huge* inspirations for Requests' design.<label for="sn-werkzeug-inspiration" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-werkzeug-inspiration" class="margin-toggle"/>
+<span class="sidenote">This acknowledgment of Werkzeug and Flask's influence reveals Kenneth's design philosophy: learning from existing excellent libraries and adapting their principles to new domains. Armin Ronacher's elegant API design patterns clearly influenced the human-friendly approach of Requests.</span> As a matter of fact, Requests [contains](https://github.com/kennethreitz/requests/blob/develop/requests/utils.py#L99) a decent bit of Werkzeug's internal data structures.
 
  So, why are they separate projects?
 
@@ -12,7 +14,9 @@
 
  Today, making *real* HTTP Requests to an in\-process WSGI app with a *real* HTTP client is not simple. Can you imagine writing *real* OAuth tests for your application with the same HTTP consumer your clients will use?
 
- The root of the problem is that WSGI doesn't map `1:1` to HTTP.
+ The root of the problem is that WSGI doesn't map `1:1` to HTTP.<label for="sn-wsgi-limitation" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-wsgi-limitation" class="margin-toggle"/>
+<span class="sidenote">This insight about WSGI's impedance mismatch with HTTP was prescient. WSGI was designed as a Python-specific abstraction that doesn't fully capture HTTP's semantics, creating friction when trying to write realistic tests or implement certain HTTP features.</span>
 
  So, instead of taking the WebOb approach of using WSGI as the common protocol between services, why not use HTTP itself? The rest of the world uses HTTP as the most\-common denominator after all.
 

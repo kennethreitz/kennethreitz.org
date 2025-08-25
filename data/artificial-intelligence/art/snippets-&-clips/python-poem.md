@@ -1,4 +1,6 @@
-# A poem in Python, with Unicode, for the soul's quest
+# Poetic Request: A Python Poem
+
+*A poetic interpretation of making HTTP requests, blending Kenneth's Requests library with existential philosophy*
 
 ```
 def poetic_request(url="the_universe", params={"meaning": "life"}):
@@ -30,3 +32,5 @@ def poetic_request(url="the_universe", params={"meaning": "life"}):
 # Call the function, a poetic query to the universe
 poetic_request()
 ```
+
+This piece transforms the familiar HTTP request pattern into existential poetry. It uses Kenneth's Requests library as a metaphor for humanity's quest for meaning, treating the universe as an API endpoint that may or may not respond to our deepest questions. The code becomes a meditation on the nature of seeking and finding answers.

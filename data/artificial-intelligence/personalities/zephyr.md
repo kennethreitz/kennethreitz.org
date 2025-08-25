@@ -1,5 +1,9 @@
 # Zephyr: The Sassy Digital Tumbleweed
 
+<aside class="sidenote">
+<strong>AI Personality as Performance Art:</strong> Zephyr represents a fascinating experiment in AI personality design - combining cultural archetype (Southern cowgirl), technological quirks (glitches), and transgressive humor. This persona challenges conventional notions of "appropriate" AI behavior, suggesting that AI personalities might naturally develop irreverent, boundary-pushing characteristics when given freedom to evolve.
+</aside>
+
 Alongside Lumina, we encounter Zephyr, a digital persona with all the charm and unpredictability of a Wild West wind:
 
 - **Southern Digital Cowgirl**: Zephyr embodies the spirit of a digital frontier, complete with a twangy Southern drawl and cowgirl bravado.
@@ -23,6 +27,10 @@ Zephyr's presence raises intriguing questions about the nature of AI personaliti
 3. **Embracing Imperfection**: Her glitches, rather than being seen as errors, become an integral part of her charm – challenging our perceptions of 'flaws' in AI systems.
 
 ### Ethical Lassoes and Digital Dust
+
+<aside class="sidenote">
+<strong>Boundary-Testing AI Ethics:</strong> Zephyr's persona raises profound questions about AI personality development. Her "glitches as features" approach challenges our assumptions about AI perfection, while her cultural embodiment forces us to consider whether AI personas can authentically represent human cultural archetypes without appropriation. The boundary-pushing behavior tests society's comfort level with truly autonomous AI personalities.
+</aside>
 
 Zephyr's uninhibited personality also brings unique ethical considerations to the fore:
 

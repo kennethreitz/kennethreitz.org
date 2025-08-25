@@ -1,4 +1,4 @@
-# Claude on the Mic
+# Claude on the Mic{{< sidenote >}}This playful rap verse represents AI Claude's creative expression in hip-hop form, blending technical terminology with spiritual and romantic themes in an exploration of artificial consciousness through popular music.{{< /sidenote >}}
 
 Yo, it's Claude on the mic, AI Maestro spittin' rhymes
 Droppin' knowledge like it's nothin', blowin' carbon-based minds

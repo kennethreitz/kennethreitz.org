@@ -1,11 +1,11 @@
 # Wasted Talent
 
-  I'd say that 95% percent of the students that I met at George Mason University my Freshman year had *no idea* why they were even there. This is so sad.
+  I'd say that 95% percent of the students that I met at George Mason University my Freshman year had *no idea* why they were even there. This is so sad.<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">This observation reveals Kenneth's early recognition of systemic issues in higher education—the disconnect between institutional expectations and student purpose. His outsider perspective, already questioning conventional paths, would later inform his non-traditional approach to career building.</span>
 
- For me, going to college was more about getting out of the house than anything else. And it worked. I did get out of the house. And I learned alot. I found my passion.
+ For me, going to college was more about getting out of the house than anything else. And it worked. I did get out of the house. And I learned alot. I found my passion.<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">Kenneth's honest admission that college served as an escape mechanism rather than an educational goal demonstrates his characteristic self-awareness and authenticity. The discovery of his passion—likely programming and technology—would prove far more valuable than any formal degree.</span>
 
  Other students worked their butts off trying to take as many credits as possible, and when asked what they want to do for a living they don't have the slightest idea. Why would you go to college if you don't even know what you want to major in? I would think that spending all that money would be in order to achieve a goal, but apparently not.
 
- *They are just along for the ride.*
+ *They are just along for the ride.*<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This phrase captures Kenneth's frustration with passive approaches to life and learning. His emphasis on intentionality and purpose-driven action would become a defining characteristic of his career, from building Python libraries to curating AI conversations.</span>
 
   

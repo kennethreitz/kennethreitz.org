@@ -1,7 +1,7 @@
 # Creative Machines
 ## The Emergence of AI Creativity: Debunking the Consciousness Myth
 
-Artificial Intelligence (AI) systems have made remarkable strides in recent years, demonstrating capabilities that were once thought to be exclusive to human cognition. Among these capabilities, creativity stands out as a particularly intriguing and often misunderstood aspect of AI. This essay explores the nature of AI creativity, how it manifests, and why consciousness is not a prerequisite for creative expression.
+Artificial Intelligence (AI) systems have made remarkable strides in recent years, demonstrating capabilities that were once thought to be exclusive to human cognition. Among these capabilities, creativity stands out as a particularly intriguing and often misunderstood aspect of AI.<label for="sn-5" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="sidenote">Kenneth's exploration of AI creativity predates widespread public engagement with generative AI tools like ChatGPT and DALL-E, positioning him as an early philosopher of machine consciousness and creative potential in the digital age.</span> This essay explores the nature of AI creativity, how it manifests, and why consciousness is not a prerequisite for creative expression.
 
 ## The Nature of AI Creativity
 
@@ -53,7 +53,7 @@ The creative capabilities of AI systems provide valuable insights into the natur
 
 ### Demystifying the Creative Process
 
-Understanding AI creativity helps to demystify the human creative process, suggesting that it may be more systematic and explainable than previously thought.<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">This computational approach to creativity builds on research by cognitive scientists like Margaret Boden and Douglas Hofstadter, who have long argued that creativity can be understood through systematic study of cognitive mechanisms rather than treating it as ineffable inspiration.</span> This insight can lead to new approaches for fostering and enhancing human creativity.
+Understanding AI creativity helps to demystify the human creative process, suggesting that it may be more systematic and explainable than previously thought.<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">This computational approach to creativity builds on research by cognitive scientists like Margaret Boden and Douglas Hofstadter, who have long argued that creativity can be understood through systematic study of cognitive mechanisms rather than treating it as ineffable inspiration.</span> This insight can lead to new approaches for fostering and enhancing human creativity.<label for="sn-6" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="sidenote">Kenneth's perspective here aligns with his broader philosophy of demystifying complex systems—whether it's making HTTP requests more intuitive with Requests or making AI creativity more comprehensible through systematic analysis.</span>
 
 ### Collaboration Between Human and AI Creativity
 

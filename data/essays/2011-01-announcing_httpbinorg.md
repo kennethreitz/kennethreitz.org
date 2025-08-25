@@ -1,6 +1,8 @@
 # Announcing Httpbin.org
 
-  The development of [Requests](https://python-requests.org/), the Python HTTP Module for Humans, led to some annoying testing practices. Relying on random websites and services in order to test different capabilities of the HTTP client became annoying quickly.[PostBin.org](http://postbin.org/) was perfect for testing POST request behavior, but is usless for other situations. I was hoping to extend its functionality to other request types, but it turns out that PostBin runs on the Google App Engine platform. No.
+  The development of [Requests](https://python-requests.org/), the Python HTTP Module for Humans, led to some annoying testing practices. Relying on random websites and services in order to test different capabilities of the HTTP client became annoying quickly.<label for="sn-testing-problem" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-testing-problem" class="margin-toggle"/>
+<span class="sidenote">This practical frustration with HTTP testing reflects a broader problem in software development: the dependency on external services makes tests fragile and unreliable. Kenneth's solution demonstrates the "scratch your own itch" principle that drives many successful open source projects.</span>[PostBin.org](http://postbin.org/) was perfect for testing POST request behavior, but is usless for other situations. I was hoping to extend its functionality to other request types, but it turns out that PostBin runs on the Google App Engine platform. No.
 
  Thus, [httpbin.org](http://httpbin.org/) was born.
 
@@ -26,7 +28,9 @@
 ```
 {"args": {},"headers": {"Accept": "*/*","Connection": "close","Content-Length": "","Content-Type": "","Host": "httpbin.org","User-Agent": "curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3","X-Forwarded-For": "::ffff:24.127.96.129","X-Forwarded-Protocol": ""},"origin": "::ffff:24.127.96.129","url": "http://httpbin.org/get"}
 ```
- `$ curl -I http://httpbin.org/status/418` :
+ `$ curl -I http://httpbin.org/status/418` :<label for="sn-teapot" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-teapot" class="margin-toggle"/>
+<span class="sidenote">HTTP status code 418 "I'm a teapot" comes from RFC 2324, an April Fools' Day RFC about the Hyper Text Coffee Pot Control Protocol. Including this whimsical status code in HTTPBin demonstrates Kenneth's appreciation for the playful side of internet protocols.</span>
 
  
 ```

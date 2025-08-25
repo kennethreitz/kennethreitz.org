@@ -1,6 +1,12 @@
+---
+title: "The FBI Releases Code Challenge to Hackers"
+date: "2008-01-01"
+category: "Security"
+---
+
 # The FBI Releases Code Challenge to Hackers
 
-  The Federal Bureau of Investigation, that's right, the FBI, has just released a [Code Challenge](http://www.networkworld.com/community/node/36704) for hackers around the world! Here are the details:
+The Federal Bureau of Investigation, that's right, the FBI, has just released a [Code Challenge](http://www.networkworld.com/community/node/36704) for hackers around the world! Here are the details:
 
  
 > A relatively basic form of substitution cipher is the Caesar Cipher, named for its Roman origins. The Caesar Cipher involves writing two alphabets, one above the other. The lower alphabet is shifted by one or more characters to the right or left and is used as the cipher text to represent the plain text letter in the alphabet above it.
@@ -36,5 +42,3 @@
  Is this a ploy to get the hacker community back to its roots? Most certainly we seem to loose touch to what this is all about. Or perhaps just an elaborate way to recruit future employees due to the inability to advertise for positions?
 
  What do you think?
-
-  

@@ -1,6 +1,8 @@
 # Your Degree Is Worthless; Collaborate.
 
-  I’ve always been a self\-motivated learner as well as a free thinker. I was never one to get involved in cliques or social ladders. Despite the fact that I was raised being constantly told that grades were the single most important thing in my life, I could never accept that. So I didn’t. I just did enough to get by. I didn’t pay attention much in class. I had no reason to. Class was beyond boring. So I’d spend all hours of the night hacking away on my computer, soaking in all I could, and most of the school day sleeping during class when I could get away with it. When there was a test, I’d try my hardest to stay awake, answer the questions as best I could – typically earning a low C in my Honors/AP Classes, and a low B in my “Ordinary” Classes. I found a good balance. Why would I study for 30 hours a week to get better grades when I could get by with 0 hours?
+  I’ve always been a self\-motivated learner as well as a free thinker. I was never one to get involved in cliques or social ladders. Despite the fact that I was raised being constantly told that grades were the single most important thing in my life, I could never accept that. So I didn’t. I just did enough to get by. I didn’t pay attention much in class. I had no reason to. Class was beyond boring. So I’d spend all hours of the night hacking away on my computer, soaking in all I could, and most of the school day sleeping during class when I could get away with it. When there was a test, I’d try my hardest to stay awake, answer the questions as best I could – typically earning a low C in my Honors/AP Classes, and a low B in my “Ordinary” Classes. I found a good balance. Why would I study for 30 hours a week to get better grades when I could get by with 0 hours?<label for="sn-optimization" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-optimization" class="margin-toggle"/>
+<span class="sidenote">This reveals an early entrepreneurial mindset—optimizing for outcomes rather than inputs, questioning established systems, and seeking efficiency over conformity. The same thinking that would later drive his approach to software development.</span>
 
  So, I graduated. And I did the next logical thing: I went to college. Ahh, college. The most important decision you could ever make in your life. The time to “make it or break it”. Where every young man goes to be become a man. So I went. While high\-school never engaged me, I assumed that courses about career\-relevant subjects would interest me in a university setting. I was wrong. I was very, very wrong.
 
@@ -22,7 +24,9 @@
 
  ## Collaboration is Everything.
 
- For the first time in my life, I was meeting interesting people with awesome experience, willing to share and collaborate what they have learned with me. And I did the same. I soaked in endless amounts of information. One simple room full of a few people turned on some switch in me that the education system had failed to do year after year after year: teach me something.
+ For the first time in my life, I was meeting interesting people with awesome experience, willing to share and collaborate what they have learned with me. And I did the same. I soaked in endless amounts of information. One simple room full of a few people turned on some switch in me that the education system had failed to do year after year after year: teach me something.<label for="sn-peer-learning" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-peer-learning" class="margin-toggle"/>
+<span class="sidenote">This illustrates the power of peer-to-peer learning environments versus hierarchical educational structures—when knowledge flows multidirectionally between equals rather than top-down from authority figures, engagement and retention often increase dramatically.</span>
 
  I was finally engaged. *Fully* engaged.
 
@@ -30,7 +34,9 @@
 
  ## In Conclusion
 
- Looking back, I’m comfortable saying that dropping out of college has been the best decision I’ve ever made. If I would have gone through the entire education program, what would I have to show for it? $150,000 in debt, a piece of paper, and four years less of your life. No real experience. No connections. Just a piece of paper. And nothing more.
+ Looking back, I’m comfortable saying that dropping out of college has been the best decision I’ve ever made. If I would have gone through the entire education program, what would I have to show for it? $150,000 in debt, a piece of paper, and four years less of your life. No real experience. No connections. Just a piece of paper. And nothing more.<label for="sn-credentialism" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-credentialism" class="margin-toggle"/>
+<span class="sidenote">This critique of credentialism—valuing credentials over competence—reflects broader debates about education's purpose in the digital age, where practical skills and demonstrable abilities often matter more than formal qualifications in technology fields.</span>
 
  Please bear these things in mind before you decide to spend $150,000 on a bachelor’s degree in a field you’re not so certain about. Personally, I’d rather spend that money on something that will actually benefit me: like a house.
 

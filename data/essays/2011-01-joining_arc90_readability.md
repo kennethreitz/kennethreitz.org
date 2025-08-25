@@ -1,6 +1,6 @@
 # Joining Arc90 + Readability
 
-  I'm extremely happy to announce that I am joining the [Arc90](http://arc90.com/) team to work on Readabilty!Arc90 is a NYC\-based software consultancy firm, r\&d lab, and product incubator. The company is a design\-driven group, built around skills rather than hierarchy. They strive to create the *best software possible*; passion and design pours out of everything they ship. I love that.
+  I'm extremely happy to announce that I am joining the [Arc90](http://arc90.com/) team to work on Readabilty!{{< sidenote >}}Arc90 was best known for creating Readability, one of the first successful reader mode services. The company pioneered the concept of clean, distraction-free reading experiences that would later be adopted by major browsers.{{< /sidenote >}}Arc90 is a NYC\-based software consultancy firm, r\&d lab, and product incubator. The company is a design\-driven group, built around skills rather than hierarchy. They strive to create the *best software possible*; passion and design pours out of everything they ship. I love that.
 
  As a self\-professed software aficionado, I couldn't have picked a more inspiring group of people to work with. I immediately accepted their offer without any hesitation.
 
@@ -16,7 +16,7 @@
 
  Let's say, you encounter a thought\-provoking article hosted on the typical ad\-ridden website with terrible typography. Activate the Readability browser addon (or bookmarklet) and the page is transformed into a typographically elegant version of the page, containing only the article content. You can then happily read the content of the article or save for later enjoyment.
 
- Users pay a self\-set monthly subscription fee ($5\+). 70% of your subscription is distributed amongst the creators of the content you have saved. The remaining 30% goes back to Readability. Users receive an incredible reading experience, and the content creators get generously reimbursed for their hard work.
+ Users pay a self\-set monthly subscription fee ($5\+). 70% of your subscription is distributed amongst the creators of the content you have saved. The remaining 30% goes back to Readability.{{< sidenote >}}This innovative revenue-sharing model was ahead of its time, attempting to create a sustainable ecosystem for online content creators while providing value to readers. It predated many modern subscription and creator economy models.{{< /sidenote >}} Users receive an incredible reading experience, and the content creators get generously reimbursed for their hard work.
 
  Beautiful.
 

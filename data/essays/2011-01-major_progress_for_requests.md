@@ -6,7 +6,9 @@
 
  The most notable change has been the complete removal of urllib2 as a dependency. Requests started out as a clean wrapper around urllib2, abstracting away the complex hacks required to accomplish basic tasks.
 
- But, as the feature set grew (as well as the bug list), the project became impossible and frustrating to maintain. Supporting the simple use case of "send basic auth on a 404" took several hours.
+ But, as the feature set grew (as well as the bug list), the project became impossible and frustrating to maintain. Supporting the simple use case of "send basic auth on a 404" took several hours.<label for="sn-complexity" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-complexity" class="margin-toggle"/>
+<span class="sidenote">This illustrates a fundamental principle in software architecture: when simple tasks require complex workarounds, it's often a signal that the underlying abstraction is flawed rather than the specific implementation.</span>
 
  Things shouldn't be this way. Not in Python.
 
@@ -24,7 +26,9 @@
 
  So, I reached out to [Andrey Petrov](https://twitter.com/#!/shazow) on Twitter. Much to my surprise, he loved the idea of embedding urllib3 within Requests. We worked together for a few weeks to make some required changes and watched the work slowly came to fruition.
 
- By random chance, I had the opportunity to get to know Andrey at [PyCodeConf](http://py.codeconf.com/), while all of this was in the making. We've since become good friends. Open source is awesome.
+ By random chance, I had the opportunity to get to know Andrey at [PyCodeConf](http://py.codeconf.com/), while all of this was in the making. We've since become good friends. Open source is awesome.<label for="sn-serendipity" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-serendipity" class="margin-toggle"/>
+<span class="sidenote">This exemplifies how the open source ecosystem thrives on serendipitous connections—technical collaborations often evolve into lasting relationships, creating a network effect that strengthens the entire community.</span>
 
  Thanks to the urllib3 collaboration, Requests has first class support for HTTP/1\.1 Keep\-alive and Connection Pooling:
 
@@ -67,7 +71,9 @@ s = requests.session()# New connection to Httpbin.org.s.get('http://httpbin.org/
  * 72,000\+ PyPi Installations
 * 1,700\+ GitHub Watchers
 
- That's a lot of GitHub watchers. In fact, [if you sort](https://github.com/languages/Python/most_watched) all of the Python projects on GitHub by watchers, the only projects ahead of Requests are Flask, Tornado, and Django.
+ That's a lot of GitHub watchers. In fact, [if you sort](https://github.com/languages/Python/most_watched) all of the Python projects on GitHub by watchers, the only projects ahead of Requests are Flask, Tornado, and Django.<label for="sn-adoption" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-adoption" class="margin-toggle"/>
+<span class="sidenote">This rapid adoption reflects Requests' success in solving a genuine pain point—the library filled a critical gap in Python's standard library by making HTTP interactions both simple and powerful, addressing developer frustration that had persisted for years.</span>
 
  This blows my mind. Of course, this is a silly vanity metric. Open source isn't a contest.
 

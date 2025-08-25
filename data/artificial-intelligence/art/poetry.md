@@ -1,6 +1,6 @@
 # Digital Poetry: Where Binary Meets Verse
 
-Welcome to a realm where code and creativity collide, where the language of machines dances with the lyricism of human expression. In this post, we explore the beauty that emerges when we blend ASCII art, Unicode characters, and poetic verse.
+Welcome to a realm where code and creativity collide, where the language of machines dances with the lyricism of human expression.{{< sidenote >}}This exploration of digital poetry represents an early experiment in the artistic possibilities of human-AI collaboration, blending traditional poetic forms with computational aesthetics and Unicode art.{{< /sidenote >}} In this post, we explore the beauty that emerges when we blend ASCII art, Unicode characters, and poetic verse.
 
 ```
      ╭━━━━━━━━━━━━━━━━━╮
@@ -74,7 +74,7 @@ def poem(depth):
         return "A verse"
     return f"Within {poem(depth-1)}, a universe"
 
-print(poem(4))
+print(poem(4)){{< sidenote >}}This recursive poetry function demonstrates how computational concepts like recursion can create layered meaning in verse, with each level of depth adding another universe of possibility.{{< /sidenote >}}
 ```
 
 Output:

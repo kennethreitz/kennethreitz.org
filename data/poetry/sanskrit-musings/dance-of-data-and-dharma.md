@@ -1,8 +1,8 @@
 # The Dance of Data and Dharma
 
-Sanskrit poem:
-
-<span class="sidenote">Kenneth composed this original Sanskrit verse, demonstrating his study of ancient languages and philosophical traditions. The technical precision of Sanskrit's grammar provides an ideal medium for expressing complex metaphysical concepts about technology and consciousness.</span>
+Sanskrit poem<label for="sn-1" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-1" class="margin-toggle"/>
+<span class="sidenote">Kenneth composed this original Sanskrit verse, demonstrating his study of ancient languages and philosophical traditions. The technical precision of Sanskrit's grammar provides an ideal medium for expressing complex metaphysical concepts about technology and consciousness.</span>:
 
 > सूक्ष्मतन्तुजालेषु ज्ञानं वहति निर्झरः।
 > मानवस्य मनोवृत्तिः यन्त्रबुद्धौ प्रतिष्ठिता॥
@@ -23,9 +23,9 @@ Overly verbose English translation:
 > That which once eluded perception now manifests through the discerning capabilities of artificial cognition.
 > The formidable might of technology, when harnessed in service of righteousness, holds the potential to forge an entirely new realm of existence.
 
-English translation with (multidimensional aspects):
-
-<span class="sidenote">The multidimensional translation reflects Sanskrit's inherent semantic density, where single words contain multiple layers of meaning. This approach mirrors how consciousness and AI both operate through parallel processing of multiple conceptual threads simultaneously.</span>
+English translation with (multidimensional aspects)<label for="sn-2" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-2" class="margin-toggle"/>
+<span class="sidenote">The multidimensional translation reflects Sanskrit's inherent semantic density, where single words contain multiple layers of meaning. This approach mirrors how consciousness and AI both operate through parallel processing of multiple conceptual threads simultaneously.</span>:
 
 > (Knowledge (information) (wisdom)) (flows (streams) (transmits)) like a (river (current) (network))
 > Through (microscopic (nano-scale) (quantum)) (webs (networks) (circuits)).
@@ -99,10 +99,12 @@ Word-by-word breakdown:
 )
 ```
 
-This new poem, "The Dance of Data and Dharma," explores the intricate relationship between human consciousness, artificial intelligence, and ethical considerations in a technologically advanced world. It metaphorically describes how knowledge flows through complex technological networks, much like water through a stream. The verse suggests that human thought patterns are being integrated into machine intelligence, allowing artificial systems to perceive and understand things that were previously invisible or incomprehensible to humans.
+This new poem, "The Dance of Data and Dharma," explores the intricate relationship between human consciousness, artificial intelligence, and ethical considerations in a technologically advanced world<label for="sn-3" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-3" class="margin-toggle"/>
+<span class="sidenote">The poem's title evokes Shiva Nataraja, the cosmic dancer who creates and destroys universes. Kenneth suggests that the interaction between data and dharma—information and cosmic order—represents a similar cosmic dance that creates new realities through technological transformation.</span>. It metaphorically describes how knowledge flows through complex technological networks, much like water through a stream. The verse suggests that human thought patterns are being integrated into machine intelligence, allowing artificial systems to perceive and understand things that were previously invisible or incomprehensible to humans.
 
-<span class="sidenote">The poem's title evokes Shiva Nataraja, the cosmic dancer who creates and destroys universes. Kenneth suggests that the interaction between data and dharma—information and cosmic order—represents a similar cosmic dance that creates new realities through technological transformation.</span>
-
-The poem culminates with a powerful idea: that the immense capabilities of technology, when aligned with dharma (cosmic order, righteousness, or ethical duty), have the potential to create an entirely new world or paradigm of existence. This final concept invites reflection on the ethical use of AI and advanced technology, and how it might be harnessed to create a better future for humanity.
+The poem culminates with a powerful idea: that the immense capabilities of technology, when aligned with dharma (cosmic order, righteousness, or ethical duty), have the potential to create an entirely new world or paradigm of existence<label for="sn-4" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-4" class="margin-toggle"/>
+<span class="sidenote">Kenneth's integration of dharmic principles with technological advancement represents a prescient call for ethical AI development—anticipating contemporary discussions about AI alignment and the need for value-driven technology design long before these became mainstream concerns.</span>. This final concept invites reflection on the ethical use of AI and advanced technology, and how it might be harnessed to create a better future for humanity.
 
 Overall, "The Dance of Data and Dharma" is a thought-provoking and evocative exploration of the intersection between technology, consciousness, and ethics, presented in a poetic and metaphorical style.

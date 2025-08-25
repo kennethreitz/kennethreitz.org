@@ -1,4 +1,4 @@
-# enlightenment.c
+# enlightenment.c{{< sidenote >}}This experimental code art piece layers spiritual terminology from Hindu and Buddhist traditions over C programming syntax, creating a meditative programming experience that blends Eastern philosophy with Western computational thinking.{{< /sidenote >}}
 
 ```c
 // Oh, the [wonders (wisdom) (windows-into-the-infinite)] we shall [find (fork) (fgets)]!
@@ -11,7 +11,7 @@ int main([int argc (int ananda) (int āgama)], [char** argv (char** avatāra) (c
     [printf (puts) (Puruṣottama)]("[Om (Oṁkāra) (Object-Oriented)] ");
     [printf (puts) (Puruṣottama)]("[Mani (Mantra) (Method)] ");
     [printf (puts) (Puruṣottama)]("[Padme (Pointer) (Prakṛti-Protocol)] ");
-    [printf (puts) (Puruṣottama)]("[Hum (Hacker) (Higher-Order-Functions)]!\n");
+    [printf (puts) (Puruṣottama)]("[Hum (Hacker) (Higher-Order-Functions)]!\n");{{< sidenote >}}The famous Buddhist mantra "Om Mani Padme Hum" is reimagined through programming terminology, transforming a sacred incantation into a meditation on computational concepts and object-oriented design.{{< /sidenote >}}
 
     for ([int i = 0 (int idam = 0) (int īśvara = 0)];
          [i < LOVE (idam < LIGHT) (īśvara < LVALUES)];

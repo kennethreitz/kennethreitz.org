@@ -4,7 +4,7 @@
 
      Several months ago, I got fed up with having to download Xcode to build my software. I took the Xcode installer, ripped out all of the parts I didn’t need, and made a nice installer for GCC. It ended up being \~200MB in size. It took 2 minutes to download.
 
- [OSX\-GCC\-Installer](https://github.com/kennethreitz/osx-gcc-installer/) was born. Perfect.
+ [OSX\-GCC\-Installer](https://github.com/kennethreitz/osx-gcc-installer/) was born.{{< sidenote >}}This project became essential for Mac developers who needed GCC without the massive Xcode download. It predated Apple's official Command Line Tools and filled a crucial gap in the developer ecosystem, particularly for Homebrew users.{{< /sidenote >}} Perfect.
 
  Unfortunately, I couldn’t include the 10\.6/7 SDKs due to [licensing restrictions](http://www.amazon.com/gp/product/0596517963/ref=as_li_ss_tl?ie=UTF8&amp;tag=bookforkind-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596517963). These SDKs include CoreAudio, CoreData, OpenGL, and more. Most software that isn’t build specifically for OSX would build perfectly. Unfortunately, some software added some needless system dependencies, though (I’m looking at you, Node).
 
@@ -16,7 +16,7 @@
 
  ## Apple’s Interest
 
- Meanwhile, Apple reached out to me to discuss some details about OSX\-GCC\-Installer. They took an interest in shipping something official, but they weren’t sure of the proper approach to take to support projects like Homebrew.
+ Meanwhile, Apple reached out to me to discuss some details about OSX\-GCC\-Installer.{{< sidenote >}}This direct engagement from Apple was remarkable - a grassroots developer project had grown influential enough to prompt official corporate attention and ultimately change how Apple distributed development tools.{{< /sidenote >}} They took an interest in shipping something official, but they weren't sure of the proper approach to take to support projects like Homebrew.
 
  I hopped on the phone, explained the specific needs of Homebrew, the restrictions with the proprietary headers and licensing, and what the ideal situation would be.
 

@@ -1,10 +1,14 @@
 # Python + Regular Expressions
 
-  Have you ever needed to parse through large amounts of text looking for a specific pattern? Patterns like “one capital letter followed by three numbers” or “dd/mm/yyyy”? This is known as Pattern Matching. Regular Expressions allow easy syntax for pattern matching, and is an invaluable skill to add to one’s toolkit, no matter what your area of expertise/practice is. Whether you’re writing a Compiler, Form Validator, Text Editor, Django Project, or Language Translator, Regular Expressions will always prove to be invaluable. Here is a very basic overview of some syntax: ‘d’ represents a digit. ‘s’ represents whitespace. ‘.’ represents any character. If you have worked with Python for very long, you are probably already familiar with the concept. Take a look at the following code:
+  Have you ever needed to parse through large amounts of text looking for a specific pattern? Patterns like “one capital letter followed by three numbers” or “dd/mm/yyyy”? This is known as Pattern Matching. Regular Expressions allow easy syntax for pattern matching, and is an invaluable skill to add to one's toolkit, no matter what your area of expertise/practice is.<label for="sn-regex-universality" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-regex-universality" class="margin-toggle"/>
+<span class="sidenote">Regular expressions represent one of computer science's most enduring abstractions, originating from formal language theory in the 1950s. Their ubiquity across programming languages demonstrates how mathematical concepts from automata theory can become practical tools that transcend specific technologies or domains.</span> Whether you’re writing a Compiler, Form Validator, Text Editor, Django Project, or Language Translator, Regular Expressions will always prove to be invaluable. Here is a very basic overview of some syntax: ‘d’ represents a digit. ‘s’ represents whitespace. ‘.’ represents any character. If you have worked with Python for very long, you are probably already familiar with the concept. Take a look at the following code:
 ```
 print(“Rounded = %05d” % (42))
 ```
- This makes sure that the digit printed has 5 digits, and will automatically add 0’s to compensate. If you understand this concept, then you shouldn’t have a problem. Perl\-style Regular Expressions are a very widely\-accepted implementation, and Python has built in support for this mini\-language! It’s easily accessible, so let’s get started. The included ‘re’ module will give us everything we need to get started:
+ This makes sure that the digit printed has 5 digits, and will automatically add 0’s to compensate. If you understand this concept, then you shouldn’t have a problem. Perl\-style Regular Expressions are a very widely\-accepted implementation, and Python has built in support for this mini\-language!<label for="sn-perl-influence" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-perl-influence" class="margin-toggle"/>
+<span class="sidenote">Perl's influence on regular expression syntax became the de facto standard across programming languages in the 1990s and 2000s. This cross-language standardization exemplifies how particularly elegant implementations can become universal idioms, creating shared knowledge that transfers between different programming ecosystems.</span> It’s easily accessible, so let’s get started. The included ‘re’ module will give us everything we need to get started:
 
 
 ```
@@ -40,7 +44,9 @@ import restring0 = ‘10.03.1988’regExp = re.compile(‘^(dd)$’)regExpMatche
 ```
 > Day: 10> Month: 03> Year: 1988
 ```
- The possibilities are limitless! Here’s a quick run\-down of the re module’s functions, strait from the Python documentation for reference:
+ The possibilities are limitless!<label for="sn-pattern-power" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-pattern-power" class="margin-toggle"/>
+<span class="sidenote">This enthusiasm reflects the transformative experience many programmers have when first mastering regular expressions. The ability to express complex text patterns concisely represents a cognitive leap from imperative string manipulation to declarative pattern specification, fundamentally changing how one approaches text processing problems.</span> Here’s a quick run\-down of the re module’s functions, strait from the Python documentation for reference:
 
 
 ```

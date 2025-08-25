@@ -1,7 +1,9 @@
 # Suggestive Subconscious
 
 constantly evolving
-the thrill of seeking subsides
+the thrill of seeking subsides<label for="sn-seeking" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-seeking" class="margin-toggle"/>
+<span class="sidenote">This opening captures the paradox of creative pursuit—the simultaneous hunger for discovery and yearning for rest that defines the artist's condition.</span>
 and i can finally rest my mind
 inside
 
@@ -32,7 +34,9 @@ verily, verily, i say unto thee
 a peace that passeth understanding
 not mutually exclusive
 
-### **what is not saught is rarely found**
+### **what is not saught is rarely found**<label for="sn-sought" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-sought" class="margin-toggle"/>
+<span class="sidenote">This central axiom echoes the Buddhist concept of right intention—that conscious seeking is prerequisite to discovery, whether in meditation or creative expression.</span>
 
 
 
@@ -49,7 +53,9 @@ the pleasure, the toil, the mercy of the fall
 
 subconcious communications — stifled by pride
 ...or simply getting older...
-or antipsychotic medications, making me complacently
+or antipsychotic medications, making me complacently<label for="sn-medication" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-medication" class="margin-toggle"/>
+<span class="sidenote">This candid reflection on medication's dual nature—providing stability while potentially muting the intensity that fuels creativity—highlights the complex negotiations many artists must make with their mental health.</span>
 reciting old dreams and visions into a tablet computer
 
 the love begins to fade
