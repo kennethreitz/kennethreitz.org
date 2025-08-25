@@ -1,7 +1,7 @@
 # Contact Kenneth Reitz
 
 <div class="contact-info-item">
-  <span>📱 Phone:</span> <code>+15405508939</code>
+  <span>📱 Phone:</span> <code>+1-540-514-5712</code>
 </div>
 
 <div class="contact-info-item">
