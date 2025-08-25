@@ -10,7 +10,9 @@ tags: [community, psychology, organizations, social-dynamics, activism, open-sou
 
 Picture this: A Slack channel for an open-source project that prominently displays "Be excellent to each other" in its community guidelines. Six months later, a maintainer posts a thoughtful critique of a proposed code of conduct change. Within hours, they're called "toxic," told they're "literally causing harm," and face demands for their removal. The pile-on continues for days. Nobody seems to notice the irony.
 
-This isn't a strawman. It's a pattern that emerges repeatedly across different communities — activist spaces, tech projects, academic departments, religious groups. The very communities that care most deeply about their values sometimes become the most efficient machines for violating them.
+This isn't a strawman. It's a pattern I keep seeing in communities I care about — from open-source projects to activist spaces.<label for="sn-pattern" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-pattern" class="margin-toggle"/>
+<span class="sidenote">After years in open source, I've seen this cycle repeat: the communities that care most about their values often become the most efficient at violating them. It's heartbreaking every time.</span> The very communities that care most deeply about their values sometimes become the most efficient machines for violating them.
 
 ## The Paradox We Need to Talk About
 
@@ -26,7 +28,9 @@ The question isn't whether your value-driven community will face these pressures
 
 Virtue signaling gets a bad rap, often weaponized to dismiss legitimate moral concerns. But the phenomenon is real: in any community with strong values, there's social currency in being seen as embodying those values. The problem emerges when the performance of virtue becomes more rewarded than its actual practice.
 
-Think about it like code coverage metrics. The goal is good: write tested, reliable code. But once coverage percentage becomes the metric that determines promotion, you get developers writing meaningless tests that check nothing but boost the numbers. The measure became the target, and the target became meaningless.
+Think about it like code coverage metrics. The goal is good: write tested, reliable code. But once coverage percentage becomes the metric that determines promotion, you get developers writing meaningless tests that check nothing but boost the numbers.<label for="sn-metrics" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-metrics" class="margin-toggle"/>
+<span class="sidenote">I've literally seen tests that assert `true === true` just to hit coverage targets. Goodhart's Law in action: "When a measure becomes a target, it ceases to be a good measure."</span> The measure became the target, and the target became meaningless.
 
 In value-driven communities, this looks like competitive displays of ideological purity, increasingly elaborate pronoun signatures, or lengthy self-flagellating acknowledgments that crowd out actual work. The person who speaks most loudly about inclusion might be the same one privately blacklisting colleagues for minor infractions.
 
@@ -34,9 +38,9 @@ In value-driven communities, this looks like competitive displays of ideological
 
 A purity spiral begins innocently: someone raises the bar for what counts as living up to the community's values. Others, not wanting to appear less committed, raise it further. Soon, you're in a bidding war where yesterday's progressive position is today's problematic stance.
 
-Consider what happened in one climate activism group: It started with "reduce your carbon footprint." Then "go vegan." Then "don't fly." Then "don't have children." Eventually, members were being shamed for taking jobs that required commutes. The group hemorrhaged members, keeping only the most privileged who could afford such restrictions — ironically undermining their stated goal of building a mass movement.
-
-The French Revolution called this "la surenchère" — revolutionary one-upmanship. The Jacobins who sent others to the guillotine for insufficient revolutionary fervor eventually found themselves on the scaffold, condemned by even purer revolutionaries.
+Consider what happened in one climate activism group: It started with "reduce your carbon footprint." Then "go vegan." Then "don't fly." Then "don't have children." Eventually, members were being shamed for taking jobs that required commutes. The group hemorrhaged members, keeping only the most privileged who could afford such restrictions — ironically undermining their stated goal of building a mass movement.<label for="sn-purity" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-purity" class="margin-toggle"/>
+<span class="sidenote">A historian friend describes this as "la surenchère" from the French Revolution — revolutionary one-upmanship where yesterday's radical becomes today's moderate becomes tomorrow's enemy. The Jacobins who sent others to the guillotine eventually found themselves condemned by even purer revolutionaries.</span>
 
 ### The Iron Law of Institutions
 
@@ -44,13 +48,17 @@ Jonathan Schwarz articulated this perfectly: "The people who control institution
 
 Watch what happens when a community leader's position depends on there being problems to solve. Suddenly, problems become very hard to solve. The anti-racism workshop facilitator who needs racism to be an ever-present, unsolvable problem to maintain their relevance. The community safety team that finds threats everywhere because finding no threats would mean they're not needed.
 
-This isn't conscious villainy. It's structural incentive. When your position in a community depends on fighting dragons, you'll always find dragons to fight — or create them.
+This isn't conscious villainy. It's structural incentive. When your position in a community depends on fighting dragons, you'll always find dragons to fight — or create them.<label for="sn-dragons" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-dragons" class="margin-toggle"/>
+<span class="sidenote">This is why I'm skeptical when any group claims they need "permanent" positions to address "systemic" issues. If the issue is truly systemic, why would your job exist to solve it? The incentives are backwards from the start.</span>
 
 ### Goal Displacement: When the Means Become the Ends
 
 Every organization starts with a mission. Over time, the processes created to achieve that mission become the mission itself. The meeting about the meeting. The committee to oversee the committee. The elaborate consensus process that ensures nothing ever gets decided.
 
-One feminist collective spent six months debating their decision-making process to ensure it was perfectly non-hierarchical. During those six months, they organized zero events, helped zero women, and advanced zero causes. The process had eaten the purpose.
+One feminist collective spent six months debating their decision-making process to ensure it was perfectly non-hierarchical. During those six months, they organized zero events, helped zero women, and advanced zero causes. The process had eaten the purpose.<label for="sn-process" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-process" class="margin-toggle"/>
+<span class="sidenote">I get it — process matters. But when your process for deciding how to help people takes longer than actually helping them would have taken, you've lost the plot. Ship something. Help someone. Then iterate.</span>
 
 ### Cognitive Dissonance: The Stories We Tell Ourselves
 
@@ -66,7 +74,9 @@ An online community for marginalized tech workers established itself with values
 
 A member asked, in good faith, about the practical implications of abolishing prisons for violent crime victims. They were immediately labeled as "perpetuating carceral violence," subjected to a days-long struggle session, and ultimately banned. The community's response to someone seeking education on their values was to exclude them for not already embodying those values perfectly.
 
-The bitter irony: the banned member was a formerly incarcerated person trying to understand how abolition frameworks addressed their own complex experiences with violence.
+The bitter irony: the banned member was a formerly incarcerated person trying to understand how abolition frameworks addressed their own complex experiences with violence.<label for="sn-irony" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-irony" class="margin-toggle"/>
+<span class="sidenote">This one still makes me angry. The person with the most lived experience of the system being discussed was excluded for not already knowing the "correct" academic language to discuss it. That's not justice — it's gatekeeping.</span>
 
 ### The Kind Open-Source Project
 
@@ -74,7 +84,9 @@ A popular JavaScript framework prided itself on its welcoming community. "Kindne
 
 Then a maintainer made a technical decision that some disagreed with. The disagreement escalated. Soon, GitHub issues became battlegrounds. The maintainer, overwhelmed by hundreds of hostile messages, took a mental health break. The community's response? Accuse them of "weaponizing mental health to avoid accountability."
 
-The kindness was performative. When tested by real conflict, the community defaulted to the same toxic behaviors they claimed to stand against, but wrapped in the language of justice and accountability.
+The kindness was performative. When tested by real conflict, the community defaulted to the same toxic behaviors they claimed to stand against, but wrapped in the language of justice and accountability.<label for="sn-kindness" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-kindness" class="margin-toggle"/>
+<span class="sidenote">I've been that maintainer taking a mental health break. The pile-ons feel exactly like old-school harassment, just with fancier vocabulary. "We're holding you accountable" hits the same as "kill yourself" when it's coming from hundreds of people.</span>
 
 ### The Corporate Culture Initiative
 
@@ -90,7 +102,9 @@ Before you conclude that all value-driven communities are doomed to hypocrisy, l
 
 **These communities exist for good reasons.** The tech industry really does have inclusion problems. Open-source really can be hostile to newcomers. Traditional institutions really do perpetuate harm. The values these communities espouse aren't just nice-to-haves — they're attempting to address real, documented problems that cause real human suffering.
 
-**Many communities succeed.** For every horror story, there are quiet success stories. Communities that actually embody their values, resolve conflicts constructively, and create genuine change. These don't make headlines because "community functions as intended" isn't news.
+**Many communities succeed.** For every horror story, there are quiet success stories. Communities that actually embody their values, resolve conflicts constructively, and create genuine change. These don't make headlines because "community functions as intended" isn't news.<label for="sn-success" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-success" class="margin-toggle"/>
+<span class="sidenote">The Python community, for all its flaws, has managed to stay pretty aligned with "be nice" for decades. It's possible. It just requires constant, unglamorous work.</span>
 
 **The alternative is worse.** Communities without stated values don't avoid these problems — they just make them invisible. At least a hypocritical community can be called out on its hypocrisy. A community that never claimed to care about inclusion can exclude with impunity.
 
@@ -152,9 +166,11 @@ The solution isn't to abandon values or become cynical. It's to recognize these 
 
 The same humility applies to designing communities. We can't perfect human nature, but we can create structures that fail gracefully, correct course, and keep the gap between stated values and lived reality as small as possible.
 
-Your value-driven community will face these pressures. The question is: will you build the guardrails before you need them, or after you've already eaten your young?
+Look, I'm not saying abandon your values or become cynical. I'm saying that good intentions aren't enough. You need systems. You need guardrails. You need to plan for the moment when your community is tested, because it will be.
 
-The choice, as always, is yours.
+Your value-driven community will face these pressures. Build the guardrails before you need them, not after you've already eaten your young.
+
+Because once you've driven out the people who came to you for help, who believed in your stated values, who tried to learn and grow — well, you can't un-eat them. And they won't come back.
 
 ---
 
@@ -168,4 +184,4 @@ The choice, as always, is yours.
 
 ---
 
-*Note: This essay was written by AI in collaboration with Kenneth Reitz, drawing on patterns observed across many communities and documented in organizational psychology literature. The case studies are composites and archetypes rather than specific incidents.*
+*This essay was written collaboratively with Claude, exploring patterns we've both observed in community dynamics. The case studies are composites drawn from real incidents across multiple communities — details changed to protect the guilty and innocent alike.*
