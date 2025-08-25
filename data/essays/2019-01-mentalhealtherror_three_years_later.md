@@ -1,6 +1,6 @@
 # MentalHealthError: three years later
 
-  About three years ago, I authored an essay entitled: [*MentalHealthError: an exception occurred*](https://www.kennethreitz.org/essays/mentalhealtherror-an-exception-occurred). In this essay, I "came out of the closet", so to speak, to my community about being diagnosed with bipolar disorder. In the post, I detail the dramatic unfolding of how I came to be diagnosed, and my (fairly psychedelic) experiences and perspectives held while under the care of the behavioral health services unit of the local hospital.
+  About three years ago, I authored an essay entitled: [*MentalHealthError: an exception occurred*](/essays/2016-01-mentalhealtherror_an_exception_occurred). In this essay, I "came out of the closet", so to speak, to my community about being diagnosed with bipolar disorder. In the post, I detail the dramatic unfolding of how I came to be diagnosed, and my (fairly psychedelic) experiences and perspectives held while under the care of the behavioral health services unit of the local hospital.
 
  Over 150,000 people read that essay the weekend it was published, and I was overwhelmed with the outpouring of love and support that the community expressed towards me.
 
