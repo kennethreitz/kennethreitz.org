@@ -4,7 +4,9 @@ This site is my digital garden, my brain dump, my attempt to own my own words on
 
 ## The Stack
 
-- **Framework:** Flask, because Django is overkill for a personal site and I know Flask like the back of my hand
+- **Framework:** Flask, because Django is overkill for a personal site and I know Flask like the back of my hand<label for="sn-fastapi" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-fastapi" class="margin-toggle"/>
+<span class="sidenote">Was using FastAPI in 2024, then switched back to Flask. No good reason. Sometimes you just want the familiar comfort of `@app.route()` instead of thinking about async and type hints for a simple site.</span>
 - **Markdown:** Mistune, naturally — fast, clean, does what it needs to do
 - **Typography:** Tufte CSS, because Edward Tufte understood that margins are for thinking
 - **Hosting:** Fly.io (used to be Heroku, but, well... you know)
