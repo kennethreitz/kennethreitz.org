@@ -8,31 +8,41 @@ tags: [community, psychology, organizations, social-dynamics, activism, open-sou
 
 ## The Vignette
 
-Picture this: A Slack channel for an open-source project that prominently displays "Be excellent to each other" in its community guidelines. Six months later, a maintainer posts a thoughtful critique of a proposed code of conduct change. Within hours, they're called "toxic," told they're "literally causing harm," and face demands for their removal. The pile-on continues for days. Nobody seems to notice the irony.
+Picture this: A Slack channel for an open-source project that prominently displays "Be excellent to each other" in its community guidelines. Six months later, a maintainer posts a thoughtful critique of a proposed code of conduct change. Within hours, they're called "toxic," told they're "literally causing harm," and face demands for their removal. The pile-on continues for days. 
 
-This isn't a strawman. It's a pattern I keep seeing in communities I care about — from open-source projects to activist spaces.<label for="sn-pattern" class="margin-toggle sidenote-number"></label>
+Nobody seems to notice the irony.
+
+This isn't a strawman. This is real shit that happens. I've watched it unfold in projects I love.<label for="sn-pattern" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-pattern" class="margin-toggle"/>
-<span class="sidenote">After years in open source, I've seen this cycle repeat: the communities that care most about their values often become the most efficient at violating them. It's heartbreaking every time.</span> The very communities that care most deeply about their values sometimes become the most efficient machines for violating them.
+<span class="sidenote">I've been in the Python community since 2008. I've seen us go from "be nice" to... well, sometimes not so nice. But at least we're still trying, which is more than I can say for most.</span>
 
-## The Paradox We Need to Talk About
+## The Paradox
 
-Here's the uncomfortable truth: The more a community cares about its values, the more vulnerable it becomes to betraying them. Not because the values are wrong, and not because the people are bad, but because human social dynamics create predictable failure modes that turn principles into their opposite.
+The more a community cares about its values, the more vulnerable it becomes to betraying them.
+
+Not because the values are wrong. Not because the people are bad. But because human social dynamics create predictable failure modes that turn principles into their opposite.
 
 > "Every great cause begins as a movement, becomes a business, and eventually degenerates into a racket." — Eric Hoffer
 
-The question isn't whether your value-driven community will face these pressures. It will. The question is whether you'll build guardrails before you need them.
+Your community will face these pressures. The question is whether you'll build guardrails before you need them.
 
 ## The Machinery of Inversion
 
 ### Virtue Signaling: When Performance Replaces Practice
 
-Virtue signaling gets a bad rap, often weaponized to dismiss legitimate moral concerns. But the phenomenon is real: in any community with strong values, there's social currency in being seen as embodying those values. The problem emerges when the performance of virtue becomes more rewarded than its actual practice.
+Virtue signaling gets a bad rap, often weaponized to dismiss legitimate moral concerns. But the phenomenon is real. In any community with strong values, there's social currency in being seen as embodying those values. 
+
+The problem? Performance gets rewarded more than practice.
 
 Think about it like code coverage metrics. The goal is good: write tested, reliable code. But once coverage percentage becomes the metric that determines promotion, you get developers writing meaningless tests that check nothing but boost the numbers.<label for="sn-metrics" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-metrics" class="margin-toggle"/>
 <span class="sidenote">I've literally seen tests that assert `true === true` just to hit coverage targets. Goodhart's Law in action: "When a measure becomes a target, it ceases to be a good measure."</span> The measure became the target, and the target became meaningless.
 
-In value-driven communities, this looks like competitive displays of ideological purity, increasingly elaborate pronoun signatures, or lengthy self-flagellating acknowledgments that crowd out actual work. The person who speaks most loudly about inclusion might be the same one privately blacklisting colleagues for minor infractions.
+In value-driven communities, this looks like competitive displays of ideological purity. Increasingly elaborate pronoun signatures. Lengthy self-flagellating acknowledgments that crowd out actual work.<label for="sn-land" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-land" class="margin-toggle"/>
+<span class="sidenote">When your project README is 90% virtue signaling and 10% documentation, you've lost the plot. Users need to know how to use your software, not your politics.</span>
+
+The person who speaks most loudly about inclusion might be the same one privately blacklisting colleagues for minor infractions.
 
 ### Purity Spirals: The Revolution Eating Its Children
 
@@ -46,7 +56,7 @@ Consider what happened in one climate activism group: It started with "reduce yo
 
 Jonathan Schwarz articulated this perfectly: "The people who control institutions care first and foremost about their power within the institution rather than the power of the institution itself."
 
-Watch what happens when a community leader's position depends on there being problems to solve. Suddenly, problems become very hard to solve. The anti-racism workshop facilitator who needs racism to be an ever-present, unsolvable problem to maintain their relevance. The community safety team that finds threats everywhere because finding no threats would mean they're not needed.
+Watch what happens when a community leader's position depends on there being problems to solve. Suddenly, problems become very hard to solve. The Code of Conduct committee that needs violations to justify their existence. The working group that creates more working groups. The board member more interested in their board seat than the community itself.
 
 This isn't conscious villainy. It's structural incentive. When your position in a community depends on fighting dragons, you'll always find dragons to fight — or create them.<label for="sn-dragons" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-dragons" class="margin-toggle"/>
@@ -56,9 +66,9 @@ This isn't conscious villainy. It's structural incentive. When your position in 
 
 Every organization starts with a mission. Over time, the processes created to achieve that mission become the mission itself. The meeting about the meeting. The committee to oversee the committee. The elaborate consensus process that ensures nothing ever gets decided.
 
-One feminist collective spent six months debating their decision-making process to ensure it was perfectly non-hierarchical. During those six months, they organized zero events, helped zero women, and advanced zero causes. The process had eaten the purpose.<label for="sn-process" class="margin-toggle sidenote-number"></label>
+One collective I observed spent six months perfecting their decision-making process. During those six months, they accomplished exactly zero of their actual goals.<label for="sn-process" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-process" class="margin-toggle"/>
-<span class="sidenote">I get it — process matters. But when your process for deciding how to help people takes longer than actually helping them would have taken, you've lost the plot. Ship something. Help someone. Then iterate.</span>
+<span class="sidenote">Process matters, but when your process for deciding how to help people takes longer than actually helping them would have taken, you've lost the plot. Ship something. Help someone. Then iterate.</span>
 
 ### Cognitive Dissonance: The Stories We Tell Ourselves
 
@@ -86,7 +96,7 @@ Then a maintainer made a technical decision that some disagreed with. The disagr
 
 The kindness was performative. When tested by real conflict, the community defaulted to the same toxic behaviors they claimed to stand against, but wrapped in the language of justice and accountability.<label for="sn-kindness" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-kindness" class="margin-toggle"/>
-<span class="sidenote">I've been that maintainer taking a mental health break. The pile-ons feel exactly like old-school harassment, just with fancier vocabulary. "We're holding you accountable" hits the same as "kill yourself" when it's coming from hundreds of people.</span>
+<span class="sidenote">I took a break from open source in 2019 because of this shit. The pile-ons feel exactly like old-school harassment, just with fancier vocabulary. "We're holding you accountable" hits the same when it's coming from hundreds of people. Trust me.</span>
 
 ### The Corporate Culture Initiative
 
@@ -104,7 +114,7 @@ Before you conclude that all value-driven communities are doomed to hypocrisy, l
 
 **Many communities succeed.** For every horror story, there are quiet success stories. Communities that actually embody their values, resolve conflicts constructively, and create genuine change. These don't make headlines because "community functions as intended" isn't news.<label for="sn-success" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-success" class="margin-toggle"/>
-<span class="sidenote">The Python community, for all its flaws, has managed to stay pretty aligned with "be nice" for decades. It's possible. It just requires constant, unglamorous work.</span>
+<span class="sidenote">The best open source communities I know have figured this out. They have clear values, good processes, and most importantly, people who consistently model how to be both kind AND effective. That matters.</span>
 
 **The alternative is worse.** Communities without stated values don't avoid these problems — they just make them invisible. At least a hypocritical community can be called out on its hypocrisy. A community that never claimed to care about inclusion can exclude with impunity.
 
@@ -166,11 +176,15 @@ The solution isn't to abandon values or become cynical. It's to recognize these 
 
 The same humility applies to designing communities. We can't perfect human nature, but we can create structures that fail gracefully, correct course, and keep the gap between stated values and lived reality as small as possible.
 
-Look, I'm not saying abandon your values or become cynical. I'm saying that good intentions aren't enough. You need systems. You need guardrails. You need to plan for the moment when your community is tested, because it will be.
+Look.
 
-Your value-driven community will face these pressures. Build the guardrails before you need them, not after you've already eaten your young.
+I love open source. I believe in communities built on values like kindness, inclusion, and collaboration. But good intentions aren't enough. You need systems. You need guardrails. You need to be honest about human nature.
 
-Because once you've driven out the people who came to you for help, who believed in your stated values, who tried to learn and grow — well, you can't un-eat them. And they won't come back.
+Build the guardrails *before* you need them. Because once you've driven out the people who came to you for help — the ones who believed in your stated values, who tried to learn and grow — you can't un-eat them.
+
+And they won't come back.
+
+Trust me on that one.
 
 ---
 
@@ -184,4 +198,4 @@ Because once you've driven out the people who came to you for help, who believed
 
 ---
 
-*This essay was written collaboratively with Claude, exploring patterns we've both observed in community dynamics. The case studies are composites drawn from real incidents across multiple communities — details changed to protect the guilty and innocent alike.*
+*Written with Claude. We're talking about real patterns here, folks. If you think this is about you or your community... well, maybe sit with that feeling for a bit.*
