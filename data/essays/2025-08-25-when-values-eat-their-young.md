@@ -10,7 +10,7 @@ tags: [community, psychology, organizations, social-dynamics, activism, open-sou
 
 Picture this: A Slack channel for an open-source project that prominently displays "Be excellent to each other" in its community guidelines. Six months later, a maintainer posts a thoughtful critique of a proposed code of conduct change. Within hours, they're called "toxic," told they're "literally causing harm," and face demands for their removal. The pile-on continues for days. Nobody seems to notice the irony.
 
-This isn't a strawman. It's a pattern I've watched unfold dozens of times across different communities — activist spaces, tech projects, academic departments, religious groups. The very communities that care most deeply about their values sometimes become the most efficient machines for violating them.
+This isn't a strawman. It's a pattern that emerges repeatedly across different communities — activist spaces, tech projects, academic departments, religious groups. The very communities that care most deeply about their values sometimes become the most efficient machines for violating them.
 
 ## The Paradox We Need to Talk About
 
@@ -34,7 +34,7 @@ In value-driven communities, this looks like competitive displays of ideological
 
 A purity spiral begins innocently: someone raises the bar for what counts as living up to the community's values. Others, not wanting to appear less committed, raise it further. Soon, you're in a bidding war where yesterday's progressive position is today's problematic stance.
 
-I watched this happen in a climate activism group. It started with "reduce your carbon footprint." Then "go vegan." Then "don't fly." Then "don't have children." Eventually, members were being shamed for taking jobs that required commutes. The group hemorrhaged members, keeping only the most privileged who could afford such restrictions — ironically undermining their stated goal of building a mass movement.
+Consider what happened in one climate activism group: It started with "reduce your carbon footprint." Then "go vegan." Then "don't fly." Then "don't have children." Eventually, members were being shamed for taking jobs that required commutes. The group hemorrhaged members, keeping only the most privileged who could afford such restrictions — ironically undermining their stated goal of building a mass movement.
 
 The French Revolution called this "la surenchère" — revolutionary one-upmanship. The Jacobins who sent others to the guillotine for insufficient revolutionary fervor eventually found themselves on the scaffold, condemned by even purer revolutionaries.
 
@@ -50,7 +50,7 @@ This isn't conscious villainy. It's structural incentive. When your position in 
 
 Every organization starts with a mission. Over time, the processes created to achieve that mission become the mission itself. The meeting about the meeting. The committee to oversee the committee. The elaborate consensus process that ensures nothing ever gets decided.
 
-A feminist collective I knew spent six months debating their decision-making process to ensure it was perfectly non-hierarchical. During those six months, they organized zero events, helped zero women, and advanced zero causes. The process had eaten the purpose.
+One feminist collective spent six months debating their decision-making process to ensure it was perfectly non-hierarchical. During those six months, they organized zero events, helped zero women, and advanced zero causes. The process had eaten the purpose.
 
 ### Cognitive Dissonance: The Stories We Tell Ourselves
 
@@ -168,4 +168,4 @@ The choice, as always, is yours.
 
 ---
 
-*Thanks to the communities that taught me these lessons the hard way. May we all fail better next time.*
+*Note: This essay was written by AI in collaboration with Kenneth Reitz, drawing on patterns observed across many communities and documented in organizational psychology literature. The case studies are composites and archetypes rather than specific incidents.*
