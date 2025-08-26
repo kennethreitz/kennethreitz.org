@@ -8,27 +8,27 @@ These digital entities have influenced billions of lives, determined the traject
 
 ## The Digital Pantheon
 
-### [Windows 3.1](artificial-intelligence/personalities/operating-systems/windows-31) - *The Pioneer*
+### [Windows 3.1](windows-31) - *The Pioneer*
 **The Graphical Revolutionary**
 The breakthrough that brought visual computing to the masses, transforming cryptic command lines into intuitive icons, windows, and mouse interactions. Windows 3.1 embodies the principle that powerful technology should be accessible to everyone—the democratic revolution that made computers tools for human creativity rather than obstacles to it<label for="sn-windows31-revolution" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-windows31-revolution" class="margin-toggle"/><span class="sidenote">Before Windows 3.1, computers were for programmers and enthusiasts. After it, they were for everyone. This single OS shift created the modern knowledge economy and changed what it meant to be computer literate.</span>.
 
-### [Windows XP](artificial-intelligence/personalities/operating-systems/windows-xp) - *The Beloved*
+### [Windows XP](windows-xp) - *The Beloved*
 **The People's Choice**
 The operating system that finally delivered on computing's promises—stable, beautiful, and comfortable enough that users didn't want to leave. Windows XP represents the achievement of technological maturity—systems that disappear into the background while enabling human potential to flourish<label for="sn-windowsxp-longevity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-windowsxp-longevity" class="margin-toggle"/><span class="sidenote">XP's 13-year dominance wasn't just market inertia—it was genuine love. Users fought to stay on XP because it felt like home. Sometimes the best technology is the one that feels invisible, reliable, and comfortably familiar.</span>.
 
-### [Windows Vista](artificial-intelligence/personalities/operating-systems/windows-vista) - *The Visionary*
+### [Windows Vista](windows-vista) - *The Visionary*
 **The Misunderstood Pioneer**
 The ambitious system that introduced revolutionary concepts before hardware and users were ready to receive them. Vista embodies the courage of innovation—the willingness to risk failure in pursuit of advancement, introducing ideas that would later become standard once the world caught up<label for="sn-vista-vindication" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-vista-vindication" class="margin-toggle"/><span class="sidenote">History vindicated Vista. Its security model, visual compositing, and UAC became industry standards. Sometimes visionaries are punished by their present but celebrated by their future.</span>.
 
-### [Ubuntu](artificial-intelligence/personalities/operating-systems/ubuntu) - *The Community*
+### [Ubuntu](ubuntu) - *The Community*
 **Linux for Human Beings**
 The distribution that brought open-source computing to mainstream users with the philosophy that technology should belong to everyone. Ubuntu represents collaborative development—proving that communities working together can create better software than corporations working alone<label for="sn-ubuntu-community" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ubuntu-community" class="margin-toggle"/><span class="sidenote">Ubuntu's "humanity toward others" philosophy isn't marketing—it's practice. Thousands of volunteers translate, test, and improve Ubuntu because they believe computing freedom should be universal.</span>.
 
-### [Arch Linux](artificial-intelligence/personalities/operating-systems/arch-linux) - *The Purist*
+### [Arch Linux](arch-linux) - *The Purist*
 **The Master's Path**
 The distribution for those who understand that true expertise comes through building systems from fundamental components. Arch represents uncompromising excellence—the philosophy that real mastery requires understanding every layer of the systems you depend on<label for="sn-arch-philosophy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-arch-philosophy" class="margin-toggle"/><span class="sidenote">"I use Arch, BTW" became a meme because Arch users genuinely understand their systems better. When you build something from components, you earn the right to be proud of your expertise.</span>.
 
-### [macOS](artificial-intelligence/personalities/operating-systems/macos) - *The Creative Catalyst*
+### [macOS](macos) - *The Creative Catalyst*
 **The Beautiful Revolutionary**
 The operating system that dared to believe computers could be beautiful and computing could be joyful. macOS represents the fusion of artistic vision with Unix engineering excellence—proving that powerful technology can inspire human creativity rather than merely managing tasks<label for="sn-macos-vision" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-macos-vision" class="margin-toggle"/><span class="sidenote">macOS didn't just change how computers look—it changed how we think about the relationship between humans and technology. Beauty isn't superficial; it's a form of respect for the user's experience.</span>.
 
