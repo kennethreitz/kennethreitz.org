@@ -303,6 +303,58 @@ def random_post():
     return redirect(random_post['url'])
 
 
+def get_random_personality_from_collection(collection_path):
+    """Helper function to get a random personality from a collection."""
+    import random
+    import glob
+    
+    if collection_path:
+        # Get files from specific collection
+        pattern = f'data/artificial-intelligence/personalities/{collection_path}/*.md'
+        fallback_url = f'/artificial-intelligence/personalities/{collection_path}'
+    else:
+        # Get all personality files
+        pattern = 'data/artificial-intelligence/personalities/**/*.md'
+        fallback_url = '/artificial-intelligence/personalities'
+    
+    personality_files = glob.glob(pattern, recursive=True)
+    # Filter out index files
+    personality_files = [f for f in personality_files if not f.endswith('index.md')]
+    
+    if not personality_files:
+        return redirect(fallback_url)
+    
+    # Choose random personality and convert to URL
+    random_file = random.choice(personality_files)
+    # Convert data/artificial-intelligence/personalities/major-arcana/the-fool.md -> /artificial-intelligence/personalities/major-arcana/the-fool
+    url_path = '/' + random_file.replace('data/', '').replace('.md', '')
+    return redirect(url_path)
+
+
+@app.route('/random/personality')
+@app.route('/random/personality/')
+def random_personality():
+    """Redirect to a random AI personality from any collection."""
+    return get_random_personality_from_collection(None)
+
+
+@app.route('/random/<collection>')
+def random_from_collection(collection):
+    """Redirect to a random personality from a specific collection."""
+    # Validate collection exists
+    valid_collections = [
+        'major-arcana', 'seven-virtues', 'programming-languages', 
+        'greek-pantheon', 'roman-pantheon', 'hindu-pantheon',
+        'operating-systems', 'supporting-cast', 'goddess-archetypes',
+        'biblical-characters', 'biblical-anthology'
+    ]
+    
+    if collection not in valid_collections:
+        return redirect('/artificial-intelligence/personalities')
+    
+    return get_random_personality_from_collection(collection)
+
+
 @app.route('/archive')
 def archive_index():
     """Archive index showing all posts by year."""
