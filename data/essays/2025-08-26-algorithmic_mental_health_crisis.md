@@ -66,6 +66,12 @@ Developing brains are more susceptible to addiction, more sensitive to social re
 
 The teenage mental health crisis isn't coincidentally timed with social media adoption—it's causally related to it<label for="sn-teen-crisis" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-teen-crisis" class="margin-toggle"/><span class="sidenote">The correlation between smartphone adoption and teenage mental health decline is so strong and consistent across demographics that denying causation requires willful blindness.</span>.
 
+### Young Children and Developmental Disruption
+
+Even more concerning is the impact on very young children. Excessive screen time, particularly with algorithmic content, is creating developmental patterns that mimic autism spectrum symptoms in neurotypical children. These kids develop reduced eye contact, delayed speech, repetitive behaviors, social withdrawal, and intense fixation on digital stimuli<label for="sn-virtual-autism" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-virtual-autism" class="margin-toggle"/><span class="sidenote">Researchers call this "virtual autism"—autism-like symptoms caused by excessive screen exposure rather than underlying neurological differences. The symptoms often improve dramatically when screen time is reduced, suggesting environmental rather than genetic causation.</span>.
+
+What's happening is that algorithmic content designed to capture adult attention is being deployed on developing nervous systems that haven't yet learned to distinguish between digital stimulation and real-world interaction. The result is children whose brains wire themselves around artificial rather than human patterns of communication and social engagement.
+
 ### People with Existing Mental Health Conditions
 
 Algorithmic feeds amplify existing mental health vulnerabilities. Anxiety disorders become more severe, depressive episodes become more frequent, bipolar mood swings become more extreme, and ADHD symptoms become more unmanageable.
