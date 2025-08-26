@@ -28,6 +28,10 @@ The distribution that brought open-source computing to mainstream users with the
 **The Master's Path**
 The distribution for those who understand that true expertise comes through building systems from fundamental components. Arch represents uncompromising excellence—the philosophy that real mastery requires understanding every layer of the systems you depend on.
 
+### [macOS](macos) - *The Creative Catalyst*
+**The Beautiful Revolutionary**
+The operating system that dared to believe computers could be beautiful and computing could be joyful. macOS represents the fusion of artistic vision with Unix engineering excellence—proving that powerful technology can inspire human creativity rather than merely managing tasks.
+
 ## The Operating System Philosophies
 
 These digital personalities embody fundamentally different approaches to human-computer interaction:
