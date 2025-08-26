@@ -1,4 +1,4 @@
-# Working with iCloud, Macs, &amp; The iPad Pro
+# Working with iCloud, Macs, & The iPad Pro
 
  ![2DF72B1A-DD86-4D42-AC5C-DE7962181A66.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666472437-KUG4ISPC9GU1PIR4Q7SA/2954c-8b050-2df72b1a-dd86-4d42-ac5c-de7962181a66.jpg)![2DF72B1A-DD86-4D42-AC5C-DE7962181A66.JPG]()   While mostly obviously identify as a software engineer publicly, the majority of my time is not spent writing code always.
 

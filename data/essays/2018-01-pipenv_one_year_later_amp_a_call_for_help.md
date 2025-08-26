@@ -1,4 +1,4 @@
-# ​Pipenv: One Year Later &amp; a Call for Help
+# Pipenv: One Year Later & a Call for Help
 
  ![IMG_0340.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666519911-3D1JAT0I745BLJOOV2D3/dc4d1-b0c31-img_0340.jpg)![IMG_0340.JPG]()   Last Friday marked the one year anniversary of my latest project, [**Pipenv**](https://docs.pipenv.org/), which is now the [officially recommended](https://packaging.python.org/tutorials/managing-dependencies/) packaging tool for the Python community from Python.org.
 

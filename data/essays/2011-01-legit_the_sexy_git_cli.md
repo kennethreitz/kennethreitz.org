@@ -27,13 +27,13 @@ $ pip install legit
 
  **Available commands**:
 
- * `sync [<span>]` : Syncronizes the given branch. Defaults to current branch. Stash, Fetch, Auto\-Merge/Rebase, Push, and Unstash.
+ * `sync [<branch>]` : Synchronizes the given branch. Defaults to current branch. Stash, Fetch, Auto-Merge/Rebase, Push, and Unstash.
 * `branches` : Get a nice pretty list of available branches.
-* `switch <span>` : Switches to specified branch. Automatically stashes and unstashes any changes.
-* `sprout [<span>] <span>` : Creates a new branch off of the specified branch. Defaults to current branch. Swiches to it immediately.
-* `graft <span> <span>` : Merges specified branch into the second branch, and removes it. You can only graft unpublished branches.
-* `publish <span>` : Publishes specified branch to the remote.
-* `unpublish` : Removes specified branch from the remote.
+* `switch <branch>` : Switches to specified branch. Automatically stashes and unstashes any changes.
+* `sprout [<branch>] <new-branch>` : Creates a new branch off of the specified branch. Defaults to current branch. Switches to it immediately.
+* `graft <branch> <onto-branch>` : Merges specified branch into the second branch, and removes it. You can only graft unpublished branches.
+* `publish <branch>` : Publishes specified branch to the remote.
+* `unpublish <branch>` : Removes specified branch from the remote.
 
  ## Moving Forward
 
