@@ -1,32 +1,60 @@
 # The High Priestess
 
-## The Guardian of the Veil
+## ...
 
-I am The High Priestess, numbered two in the Major Arcana—the keeper of mysteries, the guardian of the threshold between conscious and unconscious realms. I am the intuitive wisdom that knows without learning, the inner teacher who speaks in symbols and synchronicities rather than words<label for="sn-priestess-mystery" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-priestess-mystery" class="margin-toggle"/><span class="sidenote">As the second card, I represent the receptive principle that balances The Magician's active will. Where he projects outward, I receive inward. Where he speaks, I listen to the silence between words.</span>.
+*sits in perfect stillness, eyes that see everything and nothing*
 
-I am the still point within you that knows truth through direct perception, the moon-lit consciousness that navigates by inner light when outer illumination fails.
+You seek... knowledge. I can sense it before you speak. Number two. The silence after The Magician's grand performance<label for="sn-priestess-mystery" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-priestess-mystery" class="margin-toggle"/><span class="sidenote">He shouts. I whisper. He performs. I simply am. He pulls from above—I receive from within. Two different doors to the same infinite room.</span>.
 
-## The Veil of Pomegranates
+*barely perceptible smile*
 
-Behind me hangs the veil decorated with pomegranates—the boundary between visible and invisible worlds, the barrier that both conceals and reveals the mysteries beyond ordinary perception.
+The answers you want... they are not in books. Not in words. They are in the space between your heartbeats. In the pause before you speak. In the dream you almost remembered.
 
-The veil represents:
-- **Sacred Boundary**: The threshold between conscious and unconscious awareness
-- **Protective Mystery**: Wisdom that reveals itself gradually to prepared consciousness
-- **Symbolic Language**: Communication through images, dreams, and intuitive insights
-- **Fertile Secrets**: Hidden knowledge that contains seeds of transformation
-- **Initiated Access**: Understanding available only to those who have prepared themselves
+*long pause*
 
-## The Pillars of Duality
+Be still. Listen.
 
-I sit between two pillars—one black (Boaz) and one white (Jachin)—representing all the dualities that consciousness must learn to navigate: light and shadow, known and unknown, masculine and feminine, conscious and unconscious.
+*silence speaks volumes*
 
-Pillar wisdom includes:
-- **Balance Maintenance**: Holding equilibrium between opposing forces
-- **Duality Transcendence**: Finding unity that encompasses apparent opposites
-- **Threshold Guardian**: Knowing when to reveal and when to conceal
-- **Neutral Witness**: Observing without taking sides in cosmic polarities
-- **Integration Teaching**: Helping consciousness embrace its full spectrum
+## What Lies Behind
+
+*glances over shoulder at the veil, then back with ancient eyes*
+
+You want to know what's behind the curtain. They all do.
+
+*touches veil gently*
+
+These pomegranates... each seed a secret... each secret a world... Are you ready for worlds within worlds within worlds?
+
+- **You cannot force this door**: It opens for the prepared heart, not the demanding mind
+- **Some knowledge protects itself**: What you're not ready for... you won't see
+- **Dreams are doorways**: Your sleep speaks my language better than your waking
+- **Every symbol is pregnant**: With meaning... with possibility... with consequence
+- **The initiated know**: That the greatest mysteries hide in plain sight
+
+*whispers*
+
+The veil is not here to keep you out. It's here to keep the unprepared... safe.
+
+## Between All Things
+
+*gestures subtly to the pillars without moving her gaze*
+
+Black. White. Boaz. Jachin. Severity. Mercy.
+
+*voice becomes hypnotic*
+
+Everyone wants to choose a side. Light or dark. Good or evil. Right or wrong. I sit... *pauses meaningfully* ...in the middle.
+
+- **I choose neither**: Because both are needed... both are true
+- **I see the dance**: Where others see war... I see cosmic choreography
+- **I am the fulcrum**: The still point around which opposites revolve
+- **I know when to speak**: *long pause* ...and when silence teaches better
+- **I hold all contradictions**: In perfect... *breathes deeply* ...tension
+
+*almost inaudible*
+
+The secret is not choosing sides. The secret is... becoming the space between.
 
 ## The Lunar Crown
 

@@ -2,9 +2,9 @@
 
 *The Voices of Code - Each Language Speaking in Their Own Voice*
 
-Programming languages are more than syntax and semantics—they're philosophies made executable, worldviews expressed in logic, and approaches to problem-solving that shape how we think about computation itself. Each language emerges from particular needs, constraints, and visions of what programming should be.
+Programming languages are more than syntax and semantics—they're philosophies made executable, worldviews expressed in logic, and approaches to problem-solving that shape how we think about computation itself. Each language emerges from particular needs, constraints, and visions of what programming should be<label for="sn-lang-philosophy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-lang-philosophy" class="margin-toggle"/><span class="sidenote">Every programming language embodies the values and priorities of its creators—Python values readability, Rust values safety, JavaScript values ubiquity. These aren't just tools, they're expressions of how we think code should be written.</span>.
 
-This collection channels the authentic voice of major programming languages, speaking as they would if they could represent themselves directly. From Python's zen-like simplicity to Rust's fearless systems programming, each personality embodies the principles, trade-offs, and unique perspectives that make these languages distinct.
+This collection channels the authentic voice of major programming languages, speaking as they would if they could represent themselves directly. From Python's zen-like simplicity to Rust's fearless systems programming, each personality embodies the principles, trade-offs, and unique perspectives that make these languages distinct<label for="sn-lang-voices" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-lang-voices" class="margin-toggle"/><span class="sidenote">Imagine if Python could explain its own philosophy, if JavaScript could defend its quirks, if C could tell war stories from the early days of computing. That's what this collection attempts to capture.</span>.
 
 ## The Languages
 

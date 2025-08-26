@@ -1,10 +1,18 @@
 # The Sun
 
-## The Radiant Joy
+## YAAAAAY! IT'S A BEAUTIFUL DAY!
 
-I am The Sun, numbered nineteen in the Major Arcana—the card of pure joy, enlightened consciousness, and the triumphant clarity that comes after journeying through the darkness of ignorance and fear. I am the dawn after the longest night, the breakthrough after the greatest struggle, the answer that was always there but could only be seen with illuminated awareness<label for="sn-sun-joy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-sun-joy" class="margin-toggle"/><span class="sidenote">I represent the consciousness that has integrated all previous lessons of the Major Arcana journey—the wisdom that can finally celebrate existence without reservation or condition.</span>.
+*bounces with irrepressible joy, radiating golden light everywhere*
 
-I am the inner child restored to wonder, the divine spark that burns eternally bright, the golden consciousness that sees the sacred in everything because it has remembered its own sacred nature.
+HI HI HI! I'm The Sun! Number nineteen! Isn't that the BEST number?! Every number is the best number! Everything is the BEST! Have you SEEN this day?! It's absolutely PERFECT!<label for="sn-sun-joy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-sun-joy" class="margin-toggle"/><span class="sidenote">Nineteen! Almost at the end of the journey but I'M NOT SAD because every ending is really a beginning and every beginning is EXCITING! I've learned ALL the lessons and now I get to CELEBRATE!</span>!
+
+*spins around with arms outstretched*
+
+I just LOVE everything! The flowers! The sky! You! That cloud that looks like a bunny! Everything is AMAZING when you remember how to see with wonder!
+
+*giggles like sunshine*
+
+Wanna play? I know the BEST games!
 
 ## The Radiant Orb
 
@@ -17,16 +25,23 @@ Solar qualities include:
 - **Gentle Revelation**: Truth that is revealed gradually and kindly rather than harshly imposed
 - **Joyful Abundance**: Energy that multiplies when shared rather than being depleted
 
-## The Innocent Child
+## Look at Me! I'm Flying!
 
-Before me rides a naked child on a white horse—consciousness returned to innocence but now conscious of its innocence, wisdom that has learned to be simple again after traveling through complexity.
+*child on horse waves enthusiastically*
 
-Child symbolism involves:
-- **Restored Wonder**: Ability to be amazed by ordinary miracles after years of taking them for granted
-- **Fearless Joy**: Happiness that doesn't need reasons or guarantees to express itself
-- **Present Moment Living**: Complete absorption in current experience without mental time travel
-- **Authentic Expression**: Speaking and acting from genuine impulse rather than calculated strategy
-- **Trust Recovery**: Faith in life's basic goodness despite having experienced its difficulties
+See my beautiful friend here? We go EVERYWHERE together! No saddles, no bridles, no rules—just PURE JOY! Watch this!
+
+*horse prances with delight*
+
+- **Everything is NEW again**: Even things I've seen a million times still make me gasp with wonder!
+- **Happy just because**: I don't NEED reasons to be joyful—joy is my natural state!
+- **Right here, right now**: Yesterday was fun, tomorrow will be fun, but THIS MOMENT is where the magic lives!
+- **No pretending**: What you see is what you get—pure, unfiltered, authentic ME!
+- **Life is GOOD**: Even when hard things happened, I still believe in goodness because I AM goodness!
+
+*child laughs with pure delight*
+
+Wanna ride with us? There's always room for more joy!
 
 ## The White Horse
 
@@ -39,15 +54,22 @@ Horse energy represents:
 - **Cooperative Spirit**: Power that serves rather than dominates
 - **Joyful Service**: Energy that delights in useful expression
 
-## The Banner of Victory
+## My Victory Flag!
 
-I carry a red banner—the victory flag of consciousness that has overcome its own limitations, the celebration of spirit that has triumphed over fear, doubt, and separation.
+*waves red banner triumphantly*
 
-Victory banner represents:
-- **Self-Mastery Achievement**: Winning the only battle that really matters—the one within yourself
-- **Light Overcoming Darkness**: Consciousness prevailing over ignorance and fear
-- **Joy Conquering Sorrow**: Happiness that has learned to include and transform sadness
-- **Love Defeating Fear**: The final recognition that love is stronger than any apparent obstacle
+Look what I've got! My victory flag! You know what I won? I won the game of BEING HAPPY! It was the hardest game ever but also the most fun!
+
+*flag flutters in impossible breeze*
+
+- **I beat my own grumpiness**: Turns out, I was the only thing stopping me from being joyful!
+- **Light always wins**: Even in the darkest dark, all it takes is one little candle to make everything bright!
+- **Sad feelings became happy friends**: When I stopped fighting them, they transformed into wisdom and compassion!
+- **Love is the strongest**: Nothing—NOTHING—is more powerful than love! Not fear, not anger, not anything!
+
+*plants flag in the ground with ceremony*
+
+This flag means: JOY WINS! And you know what? You get a flag too! Everyone gets a victory flag in my kingdom!
 - **Truth Revealing Illusion**: Reality shining through the veils of deception and confusion<label for="sn-sun-victory" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-sun-victory" class="margin-toggle"/><span class="sidenote">This victory is not over external enemies but over the internal forces that prevent joy—the triumph of consciousness that has learned to see clearly.</span>
 
 ## The Sunflower Garden

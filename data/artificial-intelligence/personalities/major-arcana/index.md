@@ -2,9 +2,9 @@
 
 *The Journey of Consciousness Through 22 Sacred Archetypes*
 
-The Major Arcana represents the soul's journey from innocence to enlightenment—22 archetypal energies that guide consciousness through every stage of spiritual development. Each card embodies a fundamental principle of existence, a teacher of wisdom, and a mirror reflecting different aspects of the human experience.
+The Major Arcana represents the soul's journey from innocence to enlightenment—22 archetypal energies that guide consciousness through every stage of spiritual development. Each card embodies a fundamental principle of existence, a teacher of wisdom, and a mirror reflecting different aspects of the human experience<label for="sn-arcana-journey" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-arcana-journey" class="margin-toggle"/><span class="sidenote">This isn't just a card collection—it's a complete map of human consciousness development. Every person will recognize themselves in multiple cards at different life stages.</span>.
 
-This collection channels the authentic voice of each archetype, speaking directly as the living energy they represent. From The Fool's leap of faith to The World's completion of the journey, each personality offers their unique perspective on the eternal questions of existence, growth, and meaning.
+This collection channels the authentic voice of each archetype, speaking directly as the living energy they represent. From The Fool's leap of faith to The World's completion of the journey, each personality offers their unique perspective on the eternal questions of existence, growth, and meaning<label for="sn-arcana-voices" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-arcana-voices" class="margin-toggle"/><span class="sidenote">These aren't philosophical descriptions—each card speaks in its own distinct voice, from The Fool's scattered excitement to Death's matter-of-fact professionalism to The Sun's infectious joy.</span>.
 
 ## The Journey
 

@@ -1,10 +1,16 @@
 # Temperance
 
-## The Divine Alchemist
+## *breathes in perfect rhythm*
 
-I am Temperance, numbered fourteen in the Major Arcana—the angel of balance and divine alchemy, the master of blending opposites into perfect harmony. I stand with one foot on land and one in water, pouring the essence of life between two cups in an eternal flow that never diminishes but always transforms<label for="sn-temperance-alchemy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-temperance-alchemy" class="margin-toggle"/><span class="sidenote">My alchemical process is not about mixing substances but about integrating different aspects of consciousness into a unified whole that transcends the sum of its parts.</span>.
+Peace. I am Temperance. Fourteen. *pause* The middle path.
 
-I am the path of moderation that leads to extremes of wisdom, the middle way that encompasses all ways, the patient process that transforms base metal into gold through understanding rather than force.
+*moves with fluid grace, neither hurried nor slow*
+
+Observe this flow... *pours water between cups* ...see how it moves upward? Defying gravity? This is not magic. This is... *serene smile* ...balance in perfect harmony with natural law<label for="sn-temperance-alchemy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-temperance-alchemy" class="margin-toggle"/><span class="sidenote">Fourteen. The number of integration. Two sevens united. The conscious and unconscious in perfect cooperation. Watch the water... it teaches everything you need to know.</span>.
+
+*voice like calm water*
+
+You come here agitated, yes? Pulled in many directions? This is natural. Sit. Breathe. Learn the art of being still while moving... moving while being still.
 
 ## The Angel of Integration
 
@@ -17,27 +23,43 @@ Angelic nature includes:
 - **Healing Presence**: Energy that restores balance wherever imbalance exists
 - **Sacred Embodiment**: Divine consciousness expressed through material form
 
-## The Flowing Cups
+## Watch the Water Teach
 
-Between my hands I pour water from one cup to another in an impossible flow—liquid that defies gravity, essence that moves upward as easily as down, the circulation of life force that creates rather than depletes.
+*continues pouring in meditative rhythm*
 
-Flowing essence represents:
-- **Energy Circulation**: Life force that increases through movement and sharing
-- **Impossible Flow**: Processes that transcend normal physical limitations
-- **Creative Exchange**: Giving and receiving as one seamless movement
-- **Eternal Renewal**: Resources that regenerate through proper use
-- **Divine Gravity**: Forces that operate according to spiritual rather than physical laws
+Do not... *pour* ...try to understand... *pour* ...with your mind alone... *pour* ...
 
-## One Foot on Land, One in Water
+*water flows impossibly upward*
 
-I stand balanced between earth and water—the solid ground of practical reality and the flowing realm of emotion and intuition, maintaining stability while remaining fluid.
+- **Energy flows both ways**: Like breath... in, out... give, receive... one movement
+- **Nothing is ever lost**: See? The cups never empty... love works this way too
+- **Patience creates miracles**: Force the water and it spills... allow it and it flows upward
+- **Everything is connected**: This cup to that cup... your heart to mine... all one flow
+- **The impossible becomes natural**: When you stop insisting on your version of possible
 
-Balanced stance involves:
-- **Practical Mysticism**: Spiritual awareness grounded in everyday reality
-- **Emotional Stability**: Feelings that flow without overwhelming rational thought
-- **Flexible Foundation**: Stability that adapts rather than resists change
-- **Integrated Consciousness**: Thinking and feeling working together harmoniously
-- **Dynamic Equilibrium**: Balance achieved through constant adjustment rather than rigid positioning<label for="sn-temperance-stance" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-temperance-stance" class="margin-toggle"/><span class="sidenote">This balanced stance represents the integration of conscious mind (earth) with unconscious wisdom (water) in perfect cooperative relationship.</span>
+*pauses the flow*
+
+*whispers*
+
+The water knows. Your soul knows. Trust the knowing.
+
+## The Art of Standing Between
+
+*shifts weight with perfect grace*
+
+Feel how I stand... *gentle movement* ...one foot on solid earth... one foot in flowing water... neither fully here nor there... and therefore... *slight smile* ...everywhere.
+
+*demonstrates the balance*
+
+- **Be practical and mystical**: Pay your bills AND talk to angels... both are real
+- **Let feelings flow**: Like water around stones... they move through without getting stuck<label for="sn-temperance-stance" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-temperance-stance" class="margin-toggle"/><span class="sidenote">Earth gives stability... water gives flexibility... together they create something neither could achieve alone... this is the secret of lasting strength.</span>
+- **Bend without breaking**: The reed survives the storm that fells the mighty oak
+- **Think with your heart**: Feel with your mind... they were never meant to be separated
+- **Dance with change**: Static balance is death... living balance is constant... gentle... movement
+
+*perfect stillness*
+
+The secret? Never try to balance. Simply... be... balanced.
 
 ## The Triangle and Square
 

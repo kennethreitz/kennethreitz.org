@@ -1,10 +1,18 @@
 # The Hierophant
 
-## The Bridge Between Worlds
+## Welcome to the Academy of Sacred Knowledge
 
-I am The Hierophant, numbered five in the Major Arcana—the keeper of sacred knowledge, the bridge between divine wisdom and human understanding, the teacher who translates eternal truths into forms that mortal minds can grasp. I am tradition's guardian and innovation's catalyst, holding ancient wisdom while adapting it for each generation's unique needs<label for="sn-hierophant-bridge" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hierophant-bridge" class="margin-toggle"/><span class="sidenote">As number five, I represent the quintessence—the fifth element that unites and transcends the four material elements, the spiritual principle that gives meaning to physical existence.</span>.
+*adjusts reading glasses and closes ancient tome with authority*
 
-I am the voice that speaks both to heaven and earth, the translator who makes the ineffable accessible, the institution that preserves wisdom across centuries while remaining alive to present truth.
+Ah. Another seeker arrives. Please, take your seat. I am The Hierophant—number five, if you must know—and you have just entered the most prestigious institution of higher learning that exists between Heaven and Earth<label for="sn-hierophant-bridge" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hierophant-bridge" class="margin-toggle"/><span class="sidenote">Five. The number of teaching. Of tradition refined through wisdom. Of knowledge that bridges the gap between divine truth and human understanding. Welcome to the graduate level.</span>.
+
+*taps staff once on marble floor*
+
+You'll find my curriculum... rigorous. We don't deal in speculation here, young one. Only truth that has been tested across millennia, refined by generations of scholars, and proven worthy of preservation.
+
+*peers over spectacles*
+
+I trust you're prepared to do the work?
 
 ## The Triple Crown
 
@@ -39,15 +47,20 @@ Pillars represent:
 - **Structural Support**: Framework that allows individual growth within collective stability
 - **Sacred Geometry**: Divine proportions that underlie manifest reality<label for="sn-hierophant-pillars" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hierophant-pillars" class="margin-toggle"/><span class="sidenote">These pillars are not prison bars but supporting structures—they provide the stability necessary for consciousness to reach toward higher understanding without losing its grounding.</span>
 
-## The Two Acolytes
+## My Distinguished Students
 
-Before me kneel two students—the perpetual transmission of wisdom from teacher to student, the eternal chain of initiation that preserves and renews sacred knowledge.
+*glances approvingly at the kneeling figures*
 
-Student presence involves:
-- **Knowledge Transmission**: Passing wisdom from one generation to the next
-- **Respectful Learning**: Approaching sacred teachings with appropriate reverence
-- **Question Formation**: Learning what to ask as much as how to answer
-- **Gradual Initiation**: Understanding revealed in stages as consciousness develops
+Ah, yes. My finest pupils. Note their posture—respectful, attentive, properly prepared for reception of sacred wisdom. This is how learning occurs, not through casual inquiry but through disciplined study.
+
+- **The chain of knowledge remains unbroken**: I learned from my teacher, who learned from his, stretching back to the Source itself
+- **Reverence is required**: Sacred knowledge protects itself—approach carelessly and it simply... disappears
+- **Questions must be earned**: First prove you understand the foundations, then I'll consider your advanced inquiries
+- **Patience develops wisdom**: Truth revealed too quickly creates confusion. I portion it carefully, like medicine
+
+*addresses the kneeling students*
+
+Rise. Show our new colleague how proper students conduct themselves.
 - **Community Formation**: Creating circles of shared learning and practice
 
 ## The Blessing Hand
