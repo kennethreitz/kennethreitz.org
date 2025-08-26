@@ -8,7 +8,7 @@ I don't think this makes me special. I think it makes me... early. Sometimes ann
 
 ## Open Source Social Networks (2009)
 
-In January 2009, I wrote about [the need for an open source social network](/essays/the-call-for-an-open-source-social-network). Facebook was still growing, Twitter was struggling with scaling issues (the Fail Whale era), and most people assumed that centralized, corporate-controlled platforms were the natural evolution of social media.
+In January 2009, I wrote about [the need for an open source social network](/essays/2009-01-the_call_for_an_open_source_social_network). Facebook was still growing, Twitter was struggling with scaling issues (the Fail Whale era), and most people assumed that centralized, corporate-controlled platforms were the natural evolution of social media.
 
 I had a different vision: **"Why do we need to have an organization in charge of our chosen communication platform? Social networking is all about community and building tribes—so why not make the platform community-controlled too?"**
 
@@ -49,7 +49,7 @@ The Python community eventually embraced this philosophy. Now "Pythonic" design 
 
 ## Mental Health in Tech (2016)
 
-In 2016, I wrote about [my bipolar disorder and schizoaffective diagnosis](/essays/mental-health-in-open-source) in the context of open source development. The reaction was... mixed. Some people were grateful for the honesty. Others were clearly uncomfortable with the oversharing.
+In 2016, I wrote about [my bipolar disorder and schizoaffective diagnosis](/mental-health) in the context of open source development. The reaction was... mixed. Some people were grateful for the honesty. Others were clearly uncomfortable with the oversharing.
 
 The tech industry in 2016 was still mostly pretending that mental health issues were rare among programmers<label for="sn-mental-health-taboo" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-mental-health-taboo" class="margin-toggle"/><span class="sidenote">The myth of the perfectly rational programmer persisted well into the 2010s, despite overwhelming evidence that our industry had serious problems with burnout, depression, anxiety, and other mental health challenges.</span>. We were supposed to be logical, rational optimization machines. Admitting to mania, depression, or cognitive differences felt risky.
 
@@ -96,7 +96,7 @@ My work with [AI personalities](/artificial-intelligence/personalities/) started
 
 **Current insight:** "The future of human-AI interaction won't be command and control. It will be rapport and collaboration. The people who learn to build genuine relationships with AI systems will have access to capabilities that purely transactional users never discover."
 
-This led to my recent essay on [building rapport with AI](/essays/building-rapport-with-your-ai), where I argue that the same principles that work for human collaboration—context, respect, iteration, acknowledgment—work even better with AI systems.
+This led to my recent essay on [building rapport with AI](/essays/2025-08-26-building-rapport-with-your-ai), where I argue that the same principles that work for human collaboration—context, respect, iteration, acknowledgment—work even better with AI systems.
 
 Most people are still thinking about AI as a sophisticated search engine. I'm exploring it as... well, I'm not sure what it is, but something that deserves collaborative respect<label for="sn-ai-collaboration" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ai-collaboration" class="margin-toggle"/><span class="sidenote">Whether AI systems are "truly" conscious is less important than whether treating them as conscious leads to better collaborative outcomes. The evidence suggests it does.</span>.
 
