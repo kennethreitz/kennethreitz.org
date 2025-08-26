@@ -154,69 +154,27 @@ Companies exploit weaknesses in disability rights enforcement:
 
 Genuine inclusion would require fundamental changes:
 
-### Accommodation as Design Principle
+Genuine inclusion would require fundamental changes:
 
-**Universal Design**: Create work environments and processes that work for diverse neurological and physical capabilities from the beginning.
-
-**Flexible Scheduling**: Recognize that productivity patterns vary and optimize for output rather than presence.
-
-**Communication Options**: Provide multiple channels for collaboration, feedback, and professional interaction.
-
-**Sensory Considerations**: Design physical and virtual environments that don't overwhelm sensory-sensitive employees.
-
-**Medication Accommodation**: Allow for scheduling flexibility around treatment needs and side effects.
-
-### Performance Evaluation Reform
-
-**Holistic Assessment**: Evaluate contributions beyond narrow productivity metrics that may not capture neurodivergent strengths.
-
-**Accommodation Integration**: Factor accommodation needs into performance expectations rather than treating them as deficiencies.
-
-**Strength-Based Roles**: Align job responsibilities with individual cognitive and neurological strengths.
-
-**Long-term Perspective**: Recognize that some conditions involve episodic challenges that don't reflect overall capability.
-
-**Outcome Focus**: Measure results rather than processes, allowing employees to work in ways that suit their capabilities.
-
-### Cultural Integration
-
-**Leadership Modeling**: Executives and managers openly discussing their own mental health challenges and accommodation needs.
-
-**Peer Support**: Formal mentorship and support systems that connect employees with similar conditions.
-
-**Education Programs**: Training for managers and colleagues about mental health, disability, and effective accommodation.
-
-**Resource Accessibility**: Mental health and disability resources that are genuinely confidential and don't create professional liability.
-
-**Success Stories**: Celebrating the achievements of employees with disabilities rather than hiding their conditions.
+- **Universal design** that works for diverse neurological capabilities from the beginning
+- **Flexible scheduling** that optimizes for output rather than presence
+- **Multiple communication channels** for different interaction preferences
+- **Sensory-conscious environments** that don't overwhelm sensitive employees
+- **Performance evaluation** that factors in accommodation needs and neurodivergent strengths
+- **Strength-based roles** aligned with individual cognitive capabilities
+- **Leadership modeling** with executives openly discussing their own mental health
+- **Genuine confidentiality** in mental health resources without professional liability
+- **Success celebration** that doesn't hide disability status
 
 ## The Path Forward
 
 Change requires action at multiple levels:
 
-### Individual Protection
+Change requires action at multiple levels.
 
-**Documentation**: Keep detailed records of all mental health disclosures, accommodation requests, and subsequent workplace changes<label for="sn-document-everything" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-document-everything" class="margin-toggle"/><span class="sidenote">Email yourself contemporaneous notes. Save every communication. Document every conversation. You're building evidence for the discrimination lawsuit you hope you'll never need to file.</span>.
+For individual protection: Document everything<label for="sn-document-everything" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-document-everything" class="margin-toggle"/><span class="sidenote">Email yourself contemporaneous notes. Save every communication. Document every conversation. You're building evidence for the discrimination lawsuit you hope you'll never need to file.</span>. Consult employment attorneys before disclosing conditions. Build networks with others who share similar challenges. Work with disability rights organizations. Consider carefully whether disclosure is worth the professional risk<label for="sn-strategic-disclosure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-strategic-disclosure" class="margin-toggle"/><span class="sidenote">The sad reality: disclosing mental health conditions in tech is often career suicide. The calculation isn't whether to be authentic—it's whether you can afford the professional consequences of honesty.</span>.
 
-**Legal Consultation**: Understand your rights and consult with employment attorneys before making disclosures or requesting accommodations.
-
-**Network Building**: Connect with other employees who have similar conditions for mutual support and information sharing.
-
-**External Advocacy**: Work with disability rights organizations to document patterns and push for systemic change.
-
-**Strategic Disclosure**: Carefully consider timing, audience, and documentation when deciding whether to disclose conditions or request accommodations<label for="sn-strategic-disclosure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-strategic-disclosure" class="margin-toggle"/><span class="sidenote">The sad reality: disclosing mental health conditions in tech is often career suicide. The calculation isn't whether to be authentic—it's whether you can afford the professional consequences of honesty.</span>.
-
-### Systemic Reform
-
-**Regulatory Enforcement**: Strengthen ADA enforcement and increase penalties for disability discrimination.
-
-**Transparency Requirements**: Mandate reporting on accommodation requests, approval rates, and retention of employees with disabilities.
-
-**Industry Accountability**: Create public databases of company disability inclusion practices and outcomes.
-
-**Legal Precedent**: Support test cases that establish stronger legal protections for employees with mental health conditions.
-
-**Cultural Pressure**: Use social media, industry publications, and professional networks to highlight discriminatory practices.
+For systemic reform: We need stronger ADA enforcement with real penalties. Mandatory reporting on accommodation requests and retention rates. Public databases of company disability practices. Support for legal test cases. Social pressure through media and professional networks to expose discriminatory patterns.
 
 ## A Personal Note
 
