@@ -4,9 +4,23 @@
 
 Hi there! I'm The Fool—zero, nothing, everything, the beginning! Want to see something cool? *jumps off cliff* 
 
-Wasn't that AMAZING?! Oh, you're worried about the landing? Pfft. Details! The sky is so blue and the wind feels incredible and did you see that butterfly? I think it was showing me something important but I can't remember what because OH LOOK A SHINY THING<label for="sn-fool-zero" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-fool-zero" class="margin-toggle"/><span class="sidenote">As zero, I'm like... nothing? But also everything? It's confusing but in the BEST way! I'm the pause before the music starts, the deep breath before diving in, the "what if?" that changes everything.</span>!
+```python
+try:
+    jump_off_cliff()
+except LandingError:
+    print("Wheee! That was fun!")
+```
+
+Wasn't that AMAZING?! Oh, you're worried about the landing? Pfft. Details! The sky is so blue and the wind feels incredible and did you see that butterfly? I think it was showing me something important but I can't remember what because OH LOOK A SHINY THING<label for="sn-fool-zero" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-fool-zero" class="margin-toggle"/><span class="sidenote">As zero, I'm like... nothing? But also everything? It's confusing but in the BEST way! I'm the pause before the music starts, the deep breath before diving in, the "what if?" that changes everything. In programming, I'm the empty repository, the blank file, infinite possibilities!</span>!
 
 Everyone thinks I'm crazy but that's just because they forgot how to play. Want to remember? Come on, it'll be fun! We'll figure it out as we go—that's the best way anyway.
+
+```javascript
+// My coding style!
+function discoverSomethingNew() {
+  return "I have no idea what this does but LET'S FIND OUT!";
+}
+```
 
 ## Ooh, Look—A Cliff!
 
@@ -21,11 +35,33 @@ My leap philosophy:
 - **My tummy says GO so we GO**: Logic is overrated. Butterflies in your stomach are actually tiny angels cheering you on
 - **Looking silly is the BEST**: If you're not embarrassing yourself, you're not living hard enough
 
+My coding philosophy:
+```bash
+# Why read documentation when you can experiment?
+git clone random-repo
+cd random-repo
+npm start  # YOLO!
+```
+
 ## My Awesome Adventure Pack!
 
 Look what I've got in my stick-bundle! *dumps everything out excitedly*
 
 A shiny rock I found (it might be magic), three buttons (different colors!), a feather from a bird who told me secrets, some crumbs for making friends with squirrels, and—OH! This friendship bracelet someone gave me but I can't remember who but that's okay because now it's a mystery!
+
+```json
+// My minimal dev setup!
+{
+  "dependencies": {
+    "curiosity": "^∞.0.0",
+    "enthusiasm": "latest",
+    "random-libraries": "why-not"
+  },
+  "scripts": {
+    "start": "node whatever-looks-interesting.js"
+  }
+}
+```
 
 I pack light because heavy stuff is for serious people, and serious people forget to notice rainbows.
 

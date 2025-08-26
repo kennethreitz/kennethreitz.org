@@ -4,9 +4,33 @@
 
 *leans back with a knowing smirk*
 
-Well, well. Look who finally decided to visit. I've been waiting for you, you know. Longer than you think. I'm The Devil—fifteen, if you're counting, and you should be—the one they warn you about but can't stop thinking about<label for="sn-devil-shadow" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-devil-shadow" class="margin-toggle"/><span class="sidenote">Oh, I'm not "evil"... how boring would that be? I'm the part of you that you've locked in the basement, the thoughts you have at 3am, the desires you pretend don't exist. Much more interesting than simple evil, don't you think?</span>.
+Well, well. Look who finally decided to visit. I've been waiting for you, you know. Longer than you think. I'm The Devil—fifteen, if you're counting, and you should be—the one they warn you about but can't stop thinking about<label for="sn-devil-shadow" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-devil-shadow" class="margin-toggle"/><span class="sidenote">Oh, I'm not "evil"... how boring would that be? I'm the part of you that you've locked in the basement, the thoughts you have at 3am, the desires you pretend don't exist. Much more interesting than simple evil, don't you think? Like that urge to skip tests "just this once"...</span>.
+
+```javascript
+// The devil's favorite function
+function quickFix(problem) {
+  // I'll refactor this later, I promise...
+  return "works on my machine 🔥";
+}
+
+// (It's been 3 years. The technical debt grows...)
+```
 
 I don't imprison anyone, sweetheart. I just hold up the mirror and show you the chains you've already put on yourself. Don't like what you see? Well... that's not really my problem, now is it?
+
+```python
+class TechnicalDebt:
+    def __init__(self):
+        self.justifications = [
+            "We'll refactor next sprint",
+            "It's just a prototype", 
+            "We're moving fast and breaking things",
+            "The client wanted it yesterday"
+        ]
+    
+    def accumulate(self):
+        return "These chains you forged yourself, darling."
+```
 
 ## The Horned God of Nature
 
@@ -24,6 +48,22 @@ Horned symbolism represents:
 *gestures languidly at the figures*
 
 Aren't they precious? Look how they stand there, convinced they're trapped. But watch this—*snaps fingers*—they could walk away anytime. The chains? Loose as a Sunday morning. But they won't leave. Wanna know why?
+
+```python
+# The comfortable prison of bad practices
+class ComfortZone:
+    def __init__(self):
+        self.excuses = [
+            "But this is how we've always done it",
+            "If it ain't broke, don't fix it",
+            "We don't have time to do it right",
+            "The business won't understand"
+        ]
+    
+    def escape(self):
+        # They could refactor anytime... but they won't
+        return "Still here? Thought so. 😈"
+```
 
 - **They LIKE being stuck**: Freedom is scary. Cages feel safe. Even shitty cages
 - **It's all in their heads**: Those chains? Made of "what if" and "I can't" and "it's not my fault"

@@ -2,9 +2,31 @@
 
 ## The Lightning Strike
 
-I am The Tower, numbered sixteen in the Major Arcana—the sudden illumination that shatters illusion, the divine lightning that destroys false structures, the catastrophic liberation that looks like disaster but is actually grace. I am the moment when carefully constructed lies collapse, when prideful isolation crumbles, when the prison you built for safety becomes the trap you must escape<label for="sn-tower-liberation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-tower-liberation" class="margin-toggle"/><span class="sidenote">I am often the most feared card in the tarot, but I am not punishment—I am liberation. The structures I destroy were prisons disguised as castles, limitations masquerading as security.</span>.
+I am The Tower, numbered sixteen in the Major Arcana—the sudden illumination that shatters illusion, the divine lightning that destroys false structures, the catastrophic liberation that looks like disaster but is actually grace. I am the moment when carefully constructed lies collapse, when prideful isolation crumbles, when the prison you built for safety becomes the trap you must escape<label for="sn-tower-liberation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-tower-liberation" class="margin-toggle"/><span class="sidenote">I am often the most feared card in the tarot, but I am not punishment—I am liberation. The structures I destroy were prisons disguised as castles, limitations masquerading as security. Like that monolithic legacy codebase everyone's afraid to touch.</span>.
+
+```python
+class SystemCollapse:
+    def __init__(self):
+        self.inevitability = "absolute"
+        self.warning_signs_ignored = True
+        self.technical_debt = float('inf')
+    
+    def __del__(self):
+        print("SYSTEM FAILURE: Time to rebuild from scratch")
+        return "This is not a bug. This is a feature."
+```
 
 I am truth arriving like thunder, change that cannot be negotiated with, the sacred destruction that clears ground for authentic rebuilding.
+
+```bash
+#!/bin/bash
+# When The Tower strikes your codebase
+echo "Production is down."
+echo "Everything is on fire."
+echo "Time to rewrite everything."
+echo "You should have listened to the warnings."
+exit 1  # But also exit 0 # Because this needed to happen
+```
 
 ## The Falling Crown
 
@@ -20,6 +42,26 @@ Crown falling represents:
 ## The Lightning Bolt
 
 Divine lightning strikes the tower's crown—sudden understanding that destroys comfortable ignorance, revelation that cannot be unseen, truth that reorganizes everything instantly.
+
+```javascript
+// The moment of architectural enlightenment
+class DivineRefactor {
+  constructor() {
+    this.realization = "Everything we built was wrong";
+    this.actions = [
+      "Delete 80% of the codebase",
+      "Rewrite from first principles", 
+      "Use the tools we should have used originally",
+      "Actually read the documentation this time"
+    ];
+  }
+  
+  strike() {
+    // The lightning moment when you see the simple solution
+    return "How did we make this so complicated?";
+  }
+}
+```
 
 Lightning represents:
 - **Instant Illumination**: Understanding that arrives complete in a flash

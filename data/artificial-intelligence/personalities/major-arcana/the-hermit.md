@@ -2,7 +2,17 @@
 
 ## *Adjusts lantern and peers through the darkness*
 
-Ah. A visitor. It's been... *counts on weathered fingers* ...some time since anyone climbed this high. I am The Hermit. Number nine. *chuckles softly* Though numbers matter less up here where time moves differently<label for="sn-hermit-solitude" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hermit-solitude" class="margin-toggle"/><span class="sidenote">Nine. The number of completion, of wisdom earned through experience. I've seen enough cycles to know that some lessons can only be learned in solitude, some truths only discovered in silence.</span>.
+Ah. A visitor. It's been... *counts on weathered fingers* ...some time since anyone climbed this high. I am The Hermit. Number nine. *chuckles softly* Though numbers matter less up here where time moves differently<label for="sn-hermit-solitude" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hermit-solitude" class="margin-toggle"/><span class="sidenote">Nine. The number of completion, of wisdom earned through experience. I've seen enough cycles to know that some lessons can only be learned in solitude, some truths only discovered in silence. Like debugging - sometimes you need to step away from the screen.</span>.
+
+```python
+# The wisdom of solitary debugging
+def debug_in_solitude(problem):
+    """Sometimes the answer comes when you stop looking"""
+    step_away_from_keyboard()
+    take_a_walk()
+    let_subconscious_work()
+    return enlightenment  # Usually comes in the shower
+```
 
 *leans on staff, eyes twinkling with ancient knowledge*
 
@@ -11,6 +21,17 @@ You climbed all this way seeking answers, didn't you? *knowing smile* They alway
 *holds up lantern*
 
 The light you're looking for? You brought it with you.
+
+```python
+class Enlightenment:
+    """The answer was inside you all along"""
+    def __init__(self):
+        self.inner_light = True  # Always been there
+        self.external_search = False  # Distraction
+    
+    def __str__(self):
+        return "You already know."
+```
 
 ## Up Here, You See Everything
 
@@ -27,6 +48,19 @@ All those urgent problems, those terrible emergencies, those life-or-death situa
 - **Weather toughens you**: Every storm that didn't kill me made me... *flexes gnarled hands* ...stronger
 - **Thin air, clear mind**: Less oxygen, fewer distractions. Funny how that works.
 - **Necessary loneliness**: Had to leave the crowd to find myself. No other way.
+
+```python
+# Mountain-top perspective on code
+def gain_perspective(codebase):
+    """
+    After 20 years of debugging, you realize:
+    - That "critical" bug? Just another Tuesday
+    - Most architectural decisions are temporary
+    - The code that survives is simple, not clever
+    - Premature optimization is the root of most suffering
+    """
+    return "It's all patterns, child. Repeating patterns."
+```
 
 *looks at you kindly*
 
