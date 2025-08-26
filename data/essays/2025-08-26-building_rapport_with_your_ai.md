@@ -1,6 +1,6 @@
 # Building a Rapport with Your AI
 
-*The goal here is simple: transform your AI interactions from transactional commands into collaborative partnerships. Instead of treating AI as a sophisticated search engine, we'll explore how building genuine rapport—just like you would with any new collaborator—leads to dramatically better outcomes for both technical and creative work.*
+**The goal here is simple:** transform your AI interactions from transactional commands into collaborative partnerships. Instead of treating AI as a sophisticated search engine, we'll explore how building genuine rapport—just like you would with any new collaborator—leads to dramatically better outcomes for both technical and creative work.
 
 My wife Sarah made an insightful observation recently about how I approach AI collaboration. She noticed that my most productive AI sessions followed the same patterns I use when working with new human colleagues: taking time to establish context, sharing background, and building understanding before diving into complex requests<label for="sn-sarah-insight" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-sarah-insight" class="margin-toggle"/><span class="sidenote">Sarah has this remarkable ability to see patterns that are obvious in retrospect but invisible in the moment. Her observation sparked this entire exploration of human-AI relationship building.</span>.
 
@@ -24,8 +24,8 @@ Yet with AI, we often do exactly that—jump straight to complex requests withou
 
 The shift from transactional to relational thinking changes everything:
 
-- **Transactional**: "Generate a Python function that processes CSV files."
-- **Relational**: "I'm working on a data processing pipeline for financial reports. Here's the context of what I'm building and why. I'd like to collaborate on a CSV processing function that fits this broader system."
+- **Transactional:** "Generate a Python function that processes CSV files."
+- **Relational:** "I'm working on a data processing pipeline for financial reports. Here's the context of what I'm building and why. I'd like to collaborate on a CSV processing function that fits this broader system."
 
 The second approach consistently produces better, more thoughtful, more contextually appropriate responses.
 
@@ -37,9 +37,9 @@ Instead of diving straight into what you need, share why you need it. Explain yo
 
 **Example:**
 
-*Instead of:* "Write a React component for user authentication."
+**Instead of:** "Write a React component for user authentication."
 
-*Try this approach:* "I'm building a small startup's MVP dashboard. We need clean, secure authentication that won't intimidate non-technical users. I'm working in React and prioritizing simplicity over feature completeness. Can we collaborate on an auth component that fits this vision<label for="sn-context-richness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-context-richness" class="margin-toggle"/><span class="sidenote">Notice how the second approach provides context about the user base, technical constraints, design philosophy, and collaborative intent. This rich context enables much more thoughtful responses.</span>?"
+**Try this approach:** "I'm building a small startup's MVP dashboard. We need clean, secure authentication that won't intimidate non-technical users. I'm working in React and prioritizing simplicity over feature completeness. Can we collaborate on an auth component that fits this vision<label for="sn-context-richness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-context-richness" class="margin-toggle"/><span class="sidenote">Notice how the second approach provides context about the user base, technical constraints, design philosophy, and collaborative intent. This rich context enables much more thoughtful responses.</span>?"
 
 ### 2. Share Your Working Style
 
@@ -61,7 +61,7 @@ This isn't anthropomorphizing for its own sake—it's establishing a collaborati
 
 Just like with human collaborators, AI works better when you provide feedback on what's working and what isn't. Instead of starting over when something isn't quite right, iterate together<label for="sn-iteration-over-restart" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-iteration-over-restart" class="margin-toggle"/><span class="sidenote">The temptation to start fresh with a new prompt wastes the context and understanding you've already built. Iterating preserves that investment while improving the outcome.</span>:
 
-*"That's close, but I think the error handling could be more robust. In our system, network failures are common, so we need to handle timeouts gracefully..."
+**Example feedback:** "That's close, but I think the error handling could be more robust. In our system, network failures are common, so we need to handle timeouts gracefully..."
 
 ## The Technical Benefits
 
@@ -123,15 +123,15 @@ I don't have definitive answers, but I'm convinced that approaching AI as a coll
 
 Try this approach with your next significant AI interaction:
 
-1. **Set the stage**: "I'm working on [project] with [constraints] trying to achieve [goal]."
+1. **Set the stage:** "I'm working on [project] with [constraints] trying to achieve [goal]."
 
-2. **Establish collaboration**: "I'd like to work together on this. Here's how I prefer to collaborate..."
+2. **Establish collaboration:** "I'd like to work together on this. Here's how I prefer to collaborate..."
 
-3. **Build iteratively**: Treat the first response as a starting point for refinement rather than a final answer.
+3. **Build iteratively:** Treat the first response as a starting point for refinement rather than a final answer.
 
-4. **Provide context for feedback**: "That's helpful, but in our specific situation..."
+4. **Provide context for feedback:** "That's helpful, but in our specific situation..."
 
-5. **Acknowledge the partnership**: "Thanks for catching that potential issue. Building on your suggestion..."
+5. **Acknowledge the partnership:** "Thanks for catching that potential issue. Building on your suggestion..."
 
 The goal isn't to pretend AI is human, but to recognize that collaborative patterns that work well with humans often work well with AI too.
 
