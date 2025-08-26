@@ -304,6 +304,8 @@ header, footer, nav {
   border-radius: 0.5rem;
   overflow-x: auto;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  width: 85% !important; /* Override any parent width constraints */
+  max-width: none !important;
 }
 
 .tufte pre::before {
@@ -324,6 +326,11 @@ header, footer, nav {
   font-size: 0.95rem;
   line-height: 1.6;
   text-shadow: 0 0 2px rgba(208, 200, 236, 0.2);
+  width: auto; /* Override Tufte's 52.5% width constraint */
+  margin-left: 0; /* Override Tufte's margin */
+  display: block;
+  white-space: pre-wrap; /* Allow wrapping if needed */
+  word-break: break-word; /* Break long words if necessary */
 }
 
 /* Tables */

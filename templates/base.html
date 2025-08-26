@@ -136,6 +136,30 @@
                 }
             }
             
+            /* Code blocks - extend wider but respect content margin */
+            section > pre,
+            .post-content > pre,
+            .tufte pre,
+            pre {
+                width: calc(87.5vw - 2rem) !important;
+                max-width: 1200px !important;
+                margin-left: 0 !important;
+                margin-right: auto !important;
+                position: relative;
+                box-sizing: border-box;
+            }
+            
+            /* Responsive adjustments for code blocks */
+            @media (max-width: 768px) {
+                section > pre,
+                .post-content > pre,
+                .tufte pre,
+                pre {
+                    width: calc(100vw - 2rem) !important;
+                    margin-left: -1rem !important;
+                }
+            }
+            
             /* Breadcrumb styling */
             .breadcrumbs {
                 font-size: 0.875rem;
@@ -470,6 +494,15 @@
                 pre {
                     white-space: pre-wrap;
                     page-break-inside: avoid;
+                }
+                
+                /* Override width constraints for code blocks */
+                section > pre,
+                .post-content > pre,
+                pre {
+                    width: 85% !important;
+                    max-width: none !important;
+                    margin-left: 0 !important;
                 }
                 
                 /* Tables */
