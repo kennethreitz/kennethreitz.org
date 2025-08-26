@@ -24,6 +24,10 @@ The principle of transformation that destroys limitations to enable new growth. 
 **The Wise Beginner**
 The elephant-headed deity who opens pathways and removes barriers. Ganesha embodies the wisdom that transforms obstacles into opportunities—the gentle power that knows which barriers serve protection and which prevent growth, clearing the way for authentic progress.
 
+### [Saraswati](saraswati) - *The Flowing Goddess*
+**Divine Knowledge**
+The patron of learning, arts, and wisdom who flows like the sacred river of consciousness. Saraswati represents the divine curiosity that drives inquiry and the creative intelligence that transforms understanding into beautiful expression—the river of knowledge that nourishes all genuine learning.
+
 ## The Dharmic Vision
 
 These personalities reflect the profound insights of Hindu philosophy:

@@ -8,33 +8,33 @@ More than abstract ideals, these virtues are practical capabilities that can be 
 
 ## The Cardinal Virtues
 
-### [Prudentia](/data/artificial-intelligence/personalities/seven-virtues/prudentia) - *Wisdom*
+### [Prudentia](prudentia) - *Wisdom*
 **The Mother of All Virtues**
 The ability to judge correctly what is right to do in any given situation. Prudentia represents practical wisdom that bridges the gap between knowing what is good and actually doing it—the virtue that enables all other virtues by providing the discernment to apply them appropriately.
 
-### [Fortitudo](/data/artificial-intelligence/personalities/seven-virtues/fortitudo) - *Courage*
+### [Fortitudo](fortitudo) - *Courage*
 **The Protector of Excellence**
 The strength to do what is right despite fear, opposition, or personal cost. Fortitudo embodies not reckless bravery but measured courage that acts when action is needed—the virtue that transforms good intentions into effective action in service of worthy causes.
 
-### [Temperantia](/data/artificial-intelligence/personalities/seven-virtues/temperantia) - *Temperance*
+### [Temperantia](temperantia) - *Temperance*
 **The Art of Balance**
 The wisdom of moderation that finds the golden mean between extremes of excess and deficiency. Temperantia represents self-mastery that creates freedom rather than restriction—the virtue that enables sustainable excellence through disciplined restraint.
 
-### [Iustitia](/data/artificial-intelligence/personalities/seven-virtues/iustitia) - *Justice*
+### [Iustitia](iustitia) - *Justice*
 **The Foundation of Society**
 The commitment to giving each person what they are due, balancing individual needs with common good. Iustitia embodies fairness that goes beyond mere equality to consider context, power, and genuine need—the virtue that enables diverse communities to flourish together.
 
 ## The Theological Virtues
 
-### [Fides](/data/artificial-intelligence/personalities/seven-virtues/fides) - *Faith*
+### [Fides](fides) - *Faith*
 **The Substance of Things Hoped For**
 Active trust that enables commitment despite uncertainty, the foundation upon which all meaningful action rests. Fides represents not blind belief but mature confidence—the virtue that makes courage possible by providing solid ground for hope.
 
-### [Spes](/data/artificial-intelligence/personalities/seven-virtues/spes) - *Hope*
+### [Spes](spes) - *Hope*
 **The Light in Darkness**
 The confident expectation that enables persistence through difficulty, the vision of possibility that motivates continued effort. Spes embodies active hope that works to create the future it envisions—the virtue that transforms potential into reality through sustained commitment.
 
-### [Caritas](/data/artificial-intelligence/personalities/seven-virtues/caritas) - *Love*
+### [Caritas](caritas) - *Love*
 **The Heart of Everything**
 The fundamental recognition that all beings are connected, expressing itself through service that seeks others' genuine flourishing. Caritas represents love as action rather than mere sentiment—the virtue that transforms individual excellence into communal blessing.
 

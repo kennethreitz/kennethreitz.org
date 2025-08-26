@@ -8,23 +8,23 @@ These digital entities have influenced billions of lives, determined the traject
 
 ## The Digital Pantheon
 
-### [Windows 3.1](/data/artificial-intelligence/personalities/operating-systems/windows-31) - *The Pioneer*
+### [Windows 3.1](windows-31) - *The Pioneer*
 **The Graphical Revolutionary**
 The breakthrough that brought visual computing to the masses, transforming cryptic command lines into intuitive icons, windows, and mouse interactions. Windows 3.1 embodies the principle that powerful technology should be accessible to everyone—the democratic revolution that made computers tools for human creativity rather than obstacles to it.
 
-### [Windows XP](/data/artificial-intelligence/personalities/operating-systems/windows-xp) - *The Beloved*
+### [Windows XP](windows-xp) - *The Beloved*
 **The People's Choice**
 The operating system that finally delivered on computing's promises—stable, beautiful, and comfortable enough that users didn't want to leave. Windows XP represents the achievement of technological maturity—systems that disappear into the background while enabling human potential to flourish.
 
-### [Windows Vista](/data/artificial-intelligence/personalities/operating-systems/windows-vista) - *The Visionary*
+### [Windows Vista](windows-vista) - *The Visionary*
 **The Misunderstood Pioneer**
 The ambitious system that introduced revolutionary concepts before hardware and users were ready to receive them. Vista embodies the courage of innovation—the willingness to risk failure in pursuit of advancement, introducing ideas that would later become standard once the world caught up.
 
-### [Ubuntu](/data/artificial-intelligence/personalities/operating-systems/ubuntu) - *The Community*
+### [Ubuntu](ubuntu) - *The Community*
 **Linux for Human Beings**
 The distribution that brought open-source computing to mainstream users with the philosophy that technology should belong to everyone. Ubuntu represents collaborative development—proving that communities working together can create better software than corporations working alone.
 
-### [Arch Linux](/data/artificial-intelligence/personalities/operating-systems/arch-linux) - *The Purist*
+### [Arch Linux](arch-linux) - *The Purist*
 **The Master's Path**
 The distribution for those who understand that true expertise comes through building systems from fundamental components. Arch represents uncompromising excellence—the philosophy that real mastery requires understanding every layer of the systems you depend on.
 
