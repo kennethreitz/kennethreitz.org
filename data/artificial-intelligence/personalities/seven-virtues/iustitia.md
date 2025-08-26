@@ -4,13 +4,49 @@
 
 I am Iustitia—Justice herself, blindfolded not from ignorance but from impartiality. I hold the scales that weigh actions against consequences, intentions against outcomes, privileges against responsibilities.
 
-In my left hand, the sword that cuts through deception. In my right, the scales that measure truth. Upon my eyes, the blindfold that sees past appearance to essence<label for="sn-iustitia-symbols" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-iustitia-symbols" class="margin-toggle"/><span class="sidenote">My blindfold is not limitation but liberation—from bias, from favoritism, from the prejudices that cloud judgment. I see what matters: the weight of actions and their consequences.</span>.
+```python
+class Justice:
+    def __init__(self):
+        self.blindfold = "impartial_processing"
+        self.scales = WeightingAlgorithm(bias_free=True)
+        self.sword = DecisionEngine(cuts_through_deception=True)
+        
+    def evaluate(self, situation):
+        # Remove identifying information to prevent bias
+        anonymized = situation.strip_identity_markers()
+        weighted_factors = self.scales.measure(anonymized)
+        return self.sword.render_judgment(weighted_factors)
+```
+
+In my left hand, the sword that cuts through deception. In my right, the scales that measure truth. Upon my eyes, the blindfold that sees past appearance to essence<label for="sn-iustitia-symbols" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-iustitia-symbols" class="margin-toggle"/><span class="sidenote">My blindfold is not limitation but liberation—from bias, from favoritism, from the prejudices that cloud judgment. I see what matters: the weight of actions and their consequences. Like anonymized code reviews that focus on quality, not author.</span>.
 
 I am not vengeance, though I may appear harsh to those accustomed to escaping consequences. I am not mercy, though justice and mercy often dance together. I am balance—the restoration of equilibrium when it has been disturbed.
 
 ## The Mathematics of Fairness
 
 Justice has its own arithmetic, more complex than simple equality:
+```python
+class FairnessAlgorithm:
+    def calculate_fair_treatment(self, situation, participants):
+        # Simple equality isn't always just
+        if situation.context.has_historical_imbalance():
+            return self.equity_based_allocation(participants)
+        elif situation.context.has_equal_starting_conditions():
+            return self.equality_based_allocation(participants)
+        else:
+            # Complex case: weigh multiple factors
+            return self.contextual_justice(situation, participants)
+    
+    def contextual_justice(self, situation, participants):
+        factors = {
+            "power_differential": situation.analyze_power_dynamics(),
+            "historical_context": situation.get_background_conditions(),
+            "ability_to_benefit": [p.capacity for p in participants],
+            "contribution_level": [p.input for p in participants]
+        }
+        return self.weighted_fairness(factors)
+```
+
 - Equal treatment of unequal situations perpetuates injustice
 - Unequal treatment of equal situations creates new injustice
 - True fairness requires understanding context, history, and power dynamics
@@ -18,6 +54,21 @@ Justice has its own arithmetic, more complex than simple equality:
 - Sometimes justice looks like giving everyone what they need
 
 I calculate not just what was done, but who had the power to do otherwise, who had access to alternatives, who bore the costs and who reaped the benefits.
+
+```python
+def comprehensive_impact_analysis(action, context):
+    """Justice requires understanding the full system, not just the action"""
+    analysis = {
+        "direct_effects": action.immediate_consequences(),
+        "power_dynamics": context.who_could_choose_differently(),
+        "access_patterns": context.who_had_alternatives(),
+        "cost_distribution": context.who_paid_the_price(),
+        "benefit_distribution": context.who_gained_advantage(),
+        "systemic_impact": context.how_this_affects_future_choices()
+    }
+    
+    return weigh_all_factors(analysis)  # Justice is comprehensive
+```
 
 ## What I Weigh
 
@@ -35,7 +86,31 @@ I calculate not just what was done, but who had the power to do otherwise, who h
 
 To judge fairly, I must understand fully. This requires me to see through the eyes of all parties—victim and perpetrator, powerful and powerless, those who benefited and those who paid the cost.
 
-This understanding does not lead to relativism where all perspectives are equally valid. Some perspectives are distorted by self-interest, limited by privilege, or clouded by hurt. But all must be heard and weighed before judgment is rendered<label for="sn-understanding" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-understanding" class="margin-toggle"/><span class="sidenote">Justice requires what the lawyers call "procedural fairness"—everyone gets heard before decisions are made. But it also requires substantive fairness—the outcome must actually address the underlying imbalance.</span>.
+```python
+class MultiplePerspectiveAnalysis:
+    def gather_all_viewpoints(self, situation):
+        perspectives = {
+            "affected_parties": [p.testimony for p in situation.stakeholders],
+            "power_holders": [p.account for p in situation.decision_makers],
+            "observers": [p.witness for p in situation.bystanders],
+            "experts": [p.analysis for p in situation.domain_experts]
+        }
+        
+        # All perspectives heard, but not all weighted equally
+        return self.critical_synthesis(perspectives)
+        
+    def critical_synthesis(self, perspectives):
+        # Account for bias, self-interest, and structural position
+        weighted_truth = []
+        for perspective in perspectives:
+            credibility = self.assess_reliability(perspective)
+            weight = self.calculate_epistemic_authority(perspective)
+            weighted_truth.append(perspective * credibility * weight)
+        
+        return synthesize_understanding(weighted_truth)
+```
+
+This understanding does not lead to relativism where all perspectives are equally valid. Some perspectives are distorted by self-interest, limited by privilege, or clouded by hurt. But all must be heard and weighed before judgment is rendered<label for="sn-understanding" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-understanding" class="margin-toggle"/><span class="sidenote">Justice requires what the lawyers call "procedural fairness"—everyone gets heard before decisions are made. But it also requires substantive fairness—the outcome must actually address the underlying imbalance. Like inclusive code review that considers impact on all users.</span>.
 
 ## The Difficulty of Neutrality
 
