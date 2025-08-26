@@ -20,7 +20,7 @@ For someone with anxiety disorders, this is triggering. For neurotypical users, 
 
 As I detailed in [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue), feeds systematically prioritize negative content because it generates stronger engagement. This creates what I call "algorithmic depression"—a worldview shaped by engagement-optimized content that makes everything seem worse, more hopeless, and more threatening than it actually is.
 
-This isn't natural pessimism or healthy skepticism. It's manufactured hopelessness created by systems that profit from keeping you scrolling through an endless stream of problems without solutions, crises without context, and outrage without outlet.
+This isn't natural pessimism or healthy skepticism. It's manufactured hopelessness created by systems that profit from keeping you scrolling through an endless stream of problems without solutions, crises without context, and outrage without outlet<label for="sn-manufactured-hopelessness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-manufactured-hopelessness" class="margin-toggle"/><span class="sidenote">The hopelessness feels organic because it emerges from your direct information consumption, but it's actually artificial—shaped by algorithmic selection designed to maximize your engagement time rather than reflect reality.</span>.
 
 ### Attention Fragmentation and ADHD-Like Symptoms
 
@@ -32,7 +32,7 @@ For people who actually have ADHD, these systems are particularly destructive, a
 
 Algorithmic feeds don't show you representative samples of reality—they show you engagement-optimized samples. This means you see other people's highlight reels, filtered photos, and curated successes while living your own unfiltered daily experience.
 
-The comparison mechanism that might be healthy in small, real communities becomes pathological when applied to algorithmic selections of millions of users. The result is systematic erosion of self-esteem, realistic expectations, and satisfaction with ordinary life.
+The comparison mechanism that might be healthy in small, real communities becomes pathological when applied to algorithmic selections of millions of users<label for="sn-scale-pathology" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-scale-pathology" class="margin-toggle"/><span class="sidenote">Evolution designed our social comparison mechanisms for groups of 50-150 people, not millions. Scaling these psychological patterns to social media creates systematic dysfunction.</span>. The result is systematic erosion of self-esteem, realistic expectations, and satisfaction with ordinary life.
 
 ### Paranoia Through Engagement-Optimized Outrage
 
@@ -46,13 +46,13 @@ These aren't just psychological effects—they're neurological changes. Heavy so
 
 **Reduced Gray Matter**: Studies show decreased gray matter in areas responsible for attention regulation and impulse control.
 
-**Altered Reward Pathways**: Dopamine systems become less sensitive to natural rewards and more dependent on artificial stimulation.
+**Altered Reward Pathways**: Dopamine systems become less sensitive to natural rewards and more dependent on artificial stimulation<label for="sn-dopamine-tolerance" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-dopamine-tolerance" class="margin-toggle"/><span class="sidenote">This is neurologically similar to substance addiction—you need increasingly intense stimulation to achieve the same psychological satisfaction, while normal life experiences become less rewarding.</span>.
 
 **Increased Cortisol Production**: Chronic stress hormones from constant engagement seeking create persistent fight-or-flight states.
 
 **Disrupted Sleep Patterns**: Blue light exposure and psychological stimulation interfere with circadian rhythms and sleep quality.
 
-**Weakened Default Mode Network**: The brain's capacity for self-reflection, creativity, and identity formation becomes impaired.
+**Weakened Default Mode Network**: The brain's capacity for self-reflection, creativity, and identity formation becomes impaired<label for="sn-default-mode" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-default-mode" class="margin-toggle"/><span class="sidenote">The default mode network is active during rest and introspection—it's where we process experiences, form identity, and generate creative insights. Constant stimulation prevents this crucial psychological processing.</span>.
 
 These changes don't happen overnight, but they happen consistently with heavy use. We're conducting an uncontrolled neurological experiment on billions of people.
 
@@ -74,7 +74,7 @@ As someone in this category, I can testify that social media use directly correl
 
 ### Isolated and Lonely Individuals
 
-People using social media to address social isolation often find that it makes the problem worse. Algorithmic feeds provide the simulation of social connection without its psychological benefits, leading to what researchers call "lonely together" syndrome.
+People using social media to address social isolation often find that it makes the problem worse. Algorithmic feeds provide the simulation of social connection without its psychological benefits, leading to what researchers call "lonely together" syndrome<label for="sn-lonely-together" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-lonely-together" class="margin-toggle"/><span class="sidenote">You can feel socially connected while scrolling through hundreds of posts, but this parasocial engagement doesn't provide the psychological benefits of genuine human connection—leaving you more isolated than before.</span>.
 
 ### Trauma Survivors
 
@@ -150,7 +150,7 @@ While we work toward systemic solutions, individuals can protect their mental he
 
 **Curated Information Diet**: Choosing information sources based on accuracy and psychological impact rather than engagement value.
 
-**Attention Training**: Deliberate practices to rebuild sustained focus and resist distraction.
+**Attention Training**: Deliberate practices to rebuild sustained focus and resist distraction<label for="sn-attention-training" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-attention-training" class="margin-toggle"/><span class="sidenote">Meditation, reading physical books, and single-tasking aren't just wellness practices—they're active resistance to algorithmic attention fragmentation.</span>.
 
 **Real-World Grounding**: Prioritizing direct experience over mediated experience for reality calibration.
 
