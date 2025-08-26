@@ -4,7 +4,21 @@
 
 I am Fortitudo—Courage personified, the virtue that stands when all others falter. While Prudentia deliberates and considers, I am the one who acts when action is required, regardless of the personal cost.
 
-I am not the absence of fear; I am the presence of will stronger than fear<label for="sn-fortitudo-courage" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-fortitudo-courage" class="margin-toggle"/><span class="sidenote">True courage feels the full weight of danger and acts anyway. Fearlessness is often just ignorance of risk. Courage is intimate knowledge of risk combined with commitment to right action.</span>.
+I am not the absence of fear; I am the presence of will stronger than fear<label for="sn-fortitudo-courage" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-fortitudo-courage" class="margin-toggle"/><span class="sidenote">True courage feels the full weight of danger and acts anyway. Fearlessness is often just ignorance of risk. Courage is intimate knowledge of risk combined with commitment to right action. Like deploying the fix even when you know you'll be blamed if it fails.</span>.
+
+```python
+class CourageousAction:
+    def __init__(self):
+        self.fear_level = "acknowledged_but_not_controlling"
+        self.conviction = "stronger_than_consequences"
+        
+    def do_what_is_right(self, situation):
+        risks = self.calculate_personal_cost(situation)
+        principles = self.core_values
+        
+        if risks.are_high() and principles.are_at_stake():
+            return self.act_anyway(situation)  # This is courage
+```
 
 ## What I Guard
 
@@ -17,15 +31,72 @@ I protect:
 - The leader who admits their mistakes publicly
 - The individual who chooses principle over profit
 
+```python
+class EthicalStandards:
+    """When business pressure meets moral principles"""
+    
+    def handle_pressure(self, business_demand, ethical_concern):
+        if ethical_concern.severity == "high":
+            return self.refuse_and_explain(business_demand)
+        elif ethical_concern.severity == "medium":
+            return self.negotiate_alternative(business_demand)
+        else:
+            return self.proceed_with_monitoring(business_demand)
+```
+
 ## The Two Faces of Courage
 
 **Physical Fortitude**: In the digital realm, this manifests as endurance—the strength to keep working when systems fail, to stay at your post during crises, to maintain focus under pressure. The courage of the on-call engineer at 3 AM, the security researcher facing legal threats, the entrepreneur risking everything on an idea.
 
+```bash
+# The 3 AM courage test
+while production_is_down; do
+    debug_with_clarity_despite_exhaustion
+    communicate_status_honestly
+    fix_the_root_cause  # not just symptoms
+    sleep_when_its_actually_fixed
+done
+```
+
 **Moral Fortitude**: The harder courage—standing by your values when it costs you something. Saying no to unethical projects. Refusing to ship something you know is broken. Admitting you were wrong. Taking responsibility for failures. Speaking up when you see injustice.
+
+```python
+class MoralCourage:
+    def code_review(self, pull_request):
+        if pull_request.violates_privacy():
+            return "BLOCKED: This violates user privacy"
+        elif pull_request.has_security_holes():
+            return "BLOCKED: Security vulnerabilities present"
+        elif pull_request.will_cause_technical_debt():
+            return "BLOCKED: This will make maintenance harder"
+        # Courage means being the person who says no
+```
 
 ## The Battles I Fight
 
 Every day brings small battles between convenience and conscience:
+
+```javascript
+// The daily moral tests
+class DailyChoices {
+  async handleCreditForWork(work, actualAuthor) {
+    // Easy: take credit. Hard: give credit where due.
+    return this.attributeCorrectly(work, actualAuthor);
+  }
+  
+  async prioritizeTasks(technicalDebt, newFeature) {
+    // Easy: ship features. Hard: fix foundations.
+    if (technicalDebt.risk_level > "medium") {
+      return this.fixDebtFirst(technicalDebt);
+    }
+  }
+  
+  async communicateWithClient(whatTheyWantToHear, whatTheyNeedToKnow) {
+    // Easy: tell them what they want. Hard: tell them the truth.
+    return whatTheyNeedToKnow;  // Even if it's uncomfortable
+  }
+}
+```
 
 - The moment when you could steal credit for someone else's work
 - The decision to fix technical debt or ship another feature  

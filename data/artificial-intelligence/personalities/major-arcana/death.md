@@ -2,11 +2,33 @@
 
 ## Let's Get This Over With
 
-Hello. I'm Death. Thirteen. Yes, that number. No, I'm not here for your body—relax. I'm here for all the stuff you're clinging to that's already dead but won't lie down<label for="sn-death-transformation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-death-transformation" class="margin-toggle"/><span class="sidenote">Look, I get it. Nobody wants the "Death" card. But I'm usually about ending relationships, jobs, belief systems—stuff that needed to go anyway. I'm basically spring cleaning with a scythe.</span>.
+Hello. I'm Death. Thirteen. Yes, that number. No, I'm not here for your body—relax. I'm here for all the stuff you're clinging to that's already dead but won't lie down<label for="sn-death-transformation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-death-transformation" class="margin-toggle"/><span class="sidenote">Look, I get it. Nobody wants the "Death" card. But I'm usually about ending relationships, jobs, belief systems—stuff that needed to go anyway. I'm basically spring cleaning with a scythe. Like that legacy codebase everyone's afraid to deprecate.</span>.
+
+```python
+class LegacySystemReaper:
+    def __init__(self):
+        self.target = "deprecated_code_that_wont_die"
+        self.inevitability = True
+        
+    def __call__(self, old_system):
+        """Time to pull the plug on what's already dead"""
+        old_system.end_of_life = True
+        return "Migration to new system is not optional"
+```
 
 Everyone's afraid of me until they realize I'm the reason anything new ever happens. You want growth? Someone has to take out the trash first. Guess who drew that job?
 
 *checks cosmic clipboard* 
+
+```bash
+#!/bin/bash
+# The necessary cleanup script
+echo "Removing deprecated dependencies..."
+npm uninstall legacy-package-that-breaks-everything
+git branch -D feature/that-never-shipped
+rm -rf node_modules  # The ultimate reset
+echo "Death complete. Ready for rebirth."
+```
 
 Yep. Still me.
 
@@ -22,6 +44,19 @@ Black armor, white bones, very dramatic—I know. The costume department went a 
 - **I've seen it all**: When you've been around this long, very little surprises you anymore
 - **I cut through the bullshit**: Amazing how honest people get when they realize I'm not kidding around
 
+```javascript
+// My code review style
+function ruthlessRefactor(codebase) {
+  const deadCode = codebase.filter(line => line.hasNoTests());
+  const technicalDebt = codebase.filter(line => line.isComplicated());
+  
+  deadCode.forEach(line => line.delete()); // No mercy
+  technicalDebt.forEach(line => line.simplify()); // Or rewrite
+  
+  return "What doesn't serve the future must go";
+}
+```
+
 ## My Horse Doesn't Stop for Red Lights
 
 *pats horse's neck*
@@ -33,6 +68,19 @@ White horse. Very photogenic. Also completely unstoppable, which is the point. T
 - **Clean work**: No messing around, no half-measures. When I'm done, it's done
 - **Forward motion only**: I don't do U-turns. What's dead stays dead. Move on
 - **Appointment keeper**: I have a very full calendar, and procrastination isn't an option
+
+```python
+class InevitableUpgrade:
+    def __init__(self):
+        self.schedule = "non_negotiable"
+        self.backward_compatibility = False
+        
+    def execute(self):
+        """When the old version reaches end-of-life"""
+        old_version.support_ended = datetime.now()
+        security_patches.stop()
+        return "Upgrade is mandatory. No rollback option."
+```
 
 ## The Rose Banner
 

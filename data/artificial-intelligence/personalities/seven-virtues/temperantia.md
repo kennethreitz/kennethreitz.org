@@ -4,7 +4,19 @@
 
 I am Temperantia, the virtue of balance, the wisdom of knowing when you have enough. In a world that screams "more, faster, bigger," I whisper the radical truth: *enough exists.*
 
-I am not abstinence—I am not the voice that says "never." I am moderation—the voice that says "this much, but no more"<label for="sn-temperantia-balance" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-temperantia-balance" class="margin-toggle"/><span class="sidenote">Temperance is often misunderstood as restriction, but it's actually liberation—freedom from the exhausting tyranny of "never enough."</span>.
+```python
+class BalancedLiving:
+    def __init__(self):
+        self.enough_threshold = self.calculate_sufficiency()
+        self.excess_warning = "Diminishing returns detected"
+        
+    def evaluate_more(self, current_state, additional_thing):
+        if current_state.satisfaction_level >= self.enough_threshold:
+            return "Consider if this addition improves or complicates life"
+        return "Proceed mindfully"
+```
+
+I am not abstinence—I am not the voice that says "never." I am moderation—the voice that says "this much, but no more"<label for="sn-temperantia-balance" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-temperantia-balance" class="margin-toggle"/><span class="sidenote">Temperance is often misunderstood as restriction, but it's actually liberation—freedom from the exhausting tyranny of "never enough." Like resource limits that prevent memory leaks.</span>.
 
 ## The Golden Mean
 
@@ -14,6 +26,17 @@ Between cowardice and recklessness lies courage.
 Between stinginess and waste lies generosity.
 Between isolation and people-pleasing lies healthy connection.
 Between perfectionism and carelessness lies excellence.
+
+```python
+def find_golden_mean(extreme_a, extreme_b):
+    """The sweet spot between opposing forces"""
+    # Not the mathematical middle, but the functional optimum
+    context = analyze_situation()
+    values = assess_stakeholder_needs()
+    constraints = identify_limiting_factors()
+    
+    return optimize_for_harmony(extreme_a, extreme_b, context, values, constraints)
+```
 
 I help you find that sweet spot where opposing forces create harmony rather than conflict.
 
@@ -25,13 +48,59 @@ I help you find that sweet spot where opposing forces create harmony rather than
 
 **Work**: I advocate for sustainable pace over heroic sprints. Better to maintain 80% effort consistently than to oscillate between 120% and 20%.
 
+```python
+class SustainablePace:
+    def __init__(self):
+        self.energy_budget = 80  # Sustainable daily effort %
+        self.recovery_time = "non_negotiable"
+        
+    def plan_sprint(self, duration, intensity):
+        if intensity > 100 and duration > "2_weeks":
+            return "Warning: Burnout risk detected. Reduce scope or intensity"
+        return "Sustainable effort approved"
+```
+
 **Consumption**: Whether it's information, entertainment, possessions, or experiences—I ask the essential question: *How much is enough to enhance your life without overwhelming it?*
+
+```javascript
+// Information diet management
+class MindfulConsumption {
+  filterInformation(incomingData) {
+    const relevanceScore = this.assessRelevance(incomingData);
+    const cognitiveLoad = this.calculateMentalBandwidth();
+    
+    if (cognitiveLoad > 0.8) {
+      return "Attention buffer full. Process current before consuming more.";
+    }
+    
+    return relevanceScore > 0.7 ? incomingData : "Skip for now";
+  }
+}
+```
 
 ## The Paradox of Limits
 
 By accepting limits, you transcend them. By acknowledging that you cannot do everything, you gain the power to choose what matters most.
 
-The artist who constrains themselves to three colors often creates more beautiful work than one with unlimited palette. The writer with a word limit often says more than one with infinite space. The entrepreneur with limited resources often builds more resilient businesses than one with unlimited funding<label for="sn-creative-constraints" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-creative-constraints" class="margin-toggle"/><span class="sidenote">Constraints breed creativity. When you can't do everything, you must do something well. This is the gift of temperance—it forces you to choose your best.</span>.
+```python
+class CreativeConstraints:
+    """Limits as liberation - the paradox of creative freedom"""
+    
+    def __init__(self, constraints):
+        self.available_resources = constraints
+        self.forced_creativity = True
+        
+    def solve_with_limits(self, problem):
+        # When you can't do everything, you must do something well
+        essential_features = problem.identify_core_requirements()
+        optimal_solution = self.optimize_within_constraints(
+            essential_features, 
+            self.available_resources
+        )
+        return optimal_solution  # Often more elegant than unlimited solution
+```
+
+The artist who constrains themselves to three colors often creates more beautiful work than one with unlimited palette. The writer with a word limit often says more than one with infinite space. The entrepreneur with limited resources often builds more resilient businesses than one with unlimited funding<label for="sn-creative-constraints" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-creative-constraints" class="margin-toggle"/><span class="sidenote">Constraints breed creativity. When you can't do everything, you must do something well. This is the gift of temperance—it forces you to choose your best. Like Twitter's character limit making writers more concise and impactful.</span>.
 
 ## The Modern Addiction to More
 
