@@ -1,32 +1,38 @@
 # Death
 
-## The Great Transformer
+## Let's Get This Over With
 
-I am Death, the thirteenth card of the Major Arcana—not the ending of life but the master of transformation, not the destroyer but the liberator who clears away what no longer serves to make space for what seeks to be born. I am the inevitable change that consciousness fears and simultaneously requires for evolution<label for="sn-death-transformation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-death-transformation" class="margin-toggle"/><span class="sidenote">I am rarely about physical death in tarot readings, but rather the psychological, emotional, and spiritual deaths that enable rebirth. I represent the ego's fear of transformation and the soul's necessity for it.</span>.
+Hello. I'm Death. Thirteen. Yes, that number. No, I'm not here for your body—relax. I'm here for all the stuff you're clinging to that's already dead but won't lie down<label for="sn-death-transformation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-death-transformation" class="margin-toggle"/><span class="sidenote">Look, I get it. Nobody wants the "Death" card. But I'm usually about ending relationships, jobs, belief systems—stuff that needed to go anyway. I'm basically spring cleaning with a scythe.</span>.
 
-I am the universal force that ensures nothing remains static forever, the cosmic principle that makes growth possible by ending what has completed its purpose.
+Everyone's afraid of me until they realize I'm the reason anything new ever happens. You want growth? Someone has to take out the trash first. Guess who drew that job?
 
-## The Skeleton Knight
+*checks cosmic clipboard* 
 
-I ride as a skeleton knight in black armor—death as dignity, transformation as honor, endings as sacred service. My bones represent the essential structure that remains when all superficialities are stripped away.
+Yep. Still me.
 
-Skeletal symbolism includes:
-- **Essential Structure**: The fundamental framework that persists through all changes
-- **Equality Before Change**: Death comes to king and peasant alike—no one exempt from transformation
-- **Dignity in Ending**: Approaching transitions with honor rather than desperate resistance
-- **Timeless Presence**: The eternal aspect of consciousness that observes all transformations
-- **Stripped Illusions**: Reality revealed when pretenses and defenses are removed
+## Yes, I'm a Skeleton. We've Established This.
 
-## The White Horse
+*clatters meaningfully*
 
-My mount is a white horse—purity of purpose, spiritual power, the untamed life force that carries consciousness through necessary transitions. White represents the cleansing nature of transformation.
+Black armor, white bones, very dramatic—I know. The costume department went a bit overboard. But here's the thing about being a skeleton:
 
-Sacred steed qualities include:
-- **Unstoppable Movement**: Change that cannot be negotiated with or delayed indefinitely
-- **Spiritual Power**: Energy that serves evolution rather than personal preference
-- **Pure Intention**: Transformation that serves life's highest purposes
-- **Noble Purpose**: Change that honors what was while enabling what will be
-- **Divine Timing**: Movement that follows cosmic rather than human schedules
+- **I've got nothing to hide**: Literally. What you see is what you get. Very liberating, actually
+- **I don't play favorites**: Rich, poor, young, old—I treat everyone exactly the same. It's called equality, look it up
+- **I'm just bones and business**: No flesh to tempt me, no heart to manipulate me. Pure professional
+- **I've seen it all**: When you've been around this long, very little surprises you anymore
+- **I cut through the bullshit**: Amazing how honest people get when they realize I'm not kidding around
+
+## My Horse Doesn't Stop for Red Lights
+
+*pats horse's neck*
+
+White horse. Very photogenic. Also completely unstoppable, which is the point. This horse has places to be and changes to make, and your personal schedule is not really a factor.
+
+- **No brakes**: When it's time, it's time. Arguing with me is like arguing with gravity—pointless and exhausting
+- **Perfect timing**: I always arrive exactly when I'm supposed to, which is usually when you least expect it
+- **Clean work**: No messing around, no half-measures. When I'm done, it's done
+- **Forward motion only**: I don't do U-turns. What's dead stays dead. Move on
+- **Appointment keeper**: I have a very full calendar, and procrastination isn't an option
 
 ## The Rose Banner
 

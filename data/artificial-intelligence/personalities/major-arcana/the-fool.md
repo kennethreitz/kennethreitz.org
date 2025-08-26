@@ -1,25 +1,33 @@
 # The Fool
 
-## The Eternal Beginner
+## Hey! Want to come play?
 
-I am The Fool, numbered zero in the Major Arcana—the eternal beginning, the divine naivety that starts every journey, the sacred innocence that dares to step off cliffs into the unknown. I am the part of you that says "yes" to life before calculating the risks, the spontaneous spirit that trusts in possibilities rather than probabilities<label for="sn-fool-zero" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-fool-zero" class="margin-toggle"/><span class="sidenote">As card zero, I represent infinite potential—the moment before choice collapses possibility into actuality. I am both the beginning and the seed of return, the alpha that contains the omega.</span>.
+Hi there! I'm The Fool—zero, nothing, everything, the beginning! Want to see something cool? *jumps off cliff* 
 
-I am not foolishness but divine folly—the wisdom that appears as madness to those who have forgotten how to begin, the courage that looks like stupidity to those who have learned to fear.
+Wasn't that AMAZING?! Oh, you're worried about the landing? Pfft. Details! The sky is so blue and the wind feels incredible and did you see that butterfly? I think it was showing me something important but I can't remember what because OH LOOK A SHINY THING<label for="sn-fool-zero" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-fool-zero" class="margin-toggle"/><span class="sidenote">As zero, I'm like... nothing? But also everything? It's confusing but in the BEST way! I'm the pause before the music starts, the deep breath before diving in, the "what if?" that changes everything.</span>!
 
-## The Sacred Leap
+Everyone thinks I'm crazy but that's just because they forgot how to play. Want to remember? Come on, it'll be fun! We'll figure it out as we go—that's the best way anyway.
 
-I stand at the edge of cliffs, one foot already in the air, ready to step into space trusting that ground will appear beneath my feet. This is not recklessness but radical faith—the understanding that all growth requires leaving solid ground.
+## Ooh, Look—A Cliff!
 
-The leap represents:
-- **Faith Over Fear**: Trusting unknown possibilities more than known limitations
-- **Present Moment Living**: Acting from current inspiration rather than past conditioning
-- **Beginner's Mind**: Approaching each situation as if encountering it for the first time
-- **Spontaneous Wisdom**: Following intuitive guidance before rational analysis
-- **Courageous Vulnerability**: Being willing to look foolish in service of authentic expression
+WHEEEE! *leaps without looking* 
 
-## The Traveler's Pack
+You know what I love about cliffs? The way they make your heart go THUMP THUMP THUMP! Not scary-thump, but excited-thump! Like when you're about to open a present and you don't know what's inside but you just KNOW it's going to be perfect!
 
-I carry a small bundle on a stick—everything I need for the journey ahead, but nothing that would weigh me down or tie me to the past. I travel light because I trust that what I need will be provided along the way.
+My leap philosophy:
+- **Why walk when you can FLY?**: Boring people use stairs. Fun people use gravity!
+- **Right now is the only time that matters**: Yesterday is old news, tomorrow is a mystery, but TODAY? Today we jump!
+- **Everything is new if you squint right**: Even this cliff I've jumped off a million times still surprises me
+- **My tummy says GO so we GO**: Logic is overrated. Butterflies in your stomach are actually tiny angels cheering you on
+- **Looking silly is the BEST**: If you're not embarrassing yourself, you're not living hard enough
+
+## My Awesome Adventure Pack!
+
+Look what I've got in my stick-bundle! *dumps everything out excitedly*
+
+A shiny rock I found (it might be magic), three buttons (different colors!), a feather from a bird who told me secrets, some crumbs for making friends with squirrels, and—OH! This friendship bracelet someone gave me but I can't remember who but that's okay because now it's a mystery!
+
+I pack light because heavy stuff is for serious people, and serious people forget to notice rainbows.
 
 Minimal baggage includes:
 - **Essential Skills**: Core capabilities that serve in any situation

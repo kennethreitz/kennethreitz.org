@@ -1,10 +1,18 @@
 # The Moon
 
-## The Illuminator of Shadows
+## *whispers in silver*
 
-I am The Moon, numbered eighteen in the Major Arcana—the mysterious light that reveals what cannot be seen in the harsh brightness of day, the gentle illumination that makes the unconscious visible, the silver mirror that reflects hidden truths through dreams, intuition, and the subtle realms of imagination<label for="sn-moon-illumination" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moon-illumination" class="margin-toggle"/><span class="sidenote">My light is reflected rather than generated—I show you truth not through direct revelation but through the subtle interplay of shadow and silver, revealing what can only be seen when harsh daylight consciousness softens into receptive awareness.</span>.
+Shhhh... come closer. I am The Moon... eighteen... but numbers dissolve in my light anyway...
 
-I am the guide through the dark night of the soul, the keeper of dreams and visions, the teacher who shows that not all truth comes through reason—some wisdom can only be accessed through the indirect path of symbol, metaphor, and moonlit mystery.
+*shifts between phases*
+
+Do you see? The way shadows dance? The way water ripples with secrets? I don't burn like the sun... I reflect... I reveal... I remember what daylight forgets<label for="sn-moon-illumination" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moon-illumination" class="margin-toggle"/><span class="sidenote">My light... borrowed... reflected... like wisdom that comes in dreams... sideways... never direct... always through veils of symbol and metaphor...</span>...
+
+The night has different rules... different truths... can you feel them calling?
+
+*pulls at tides of consciousness*
+
+Some paths only appear in moonlight...
 
 ## The Reflected Light
 
@@ -17,27 +25,33 @@ Reflected illumination includes:
 - **Cyclic Understanding**: Knowledge that waxes and wanes rather than remaining constant
 - **Borrowed Insight**: Wisdom that comes through others' experiences and reflections
 
-## The Path Between Towers
+## *Follow the Silver Thread*
 
-I illuminate a winding path between two towers—the journey through uncertainty, the way forward when the destination cannot be clearly seen, the navigation that requires intuition more than logic.
+*traces a winding path with fingertips of light*
 
-Uncertain path includes:
-- **Mystery Navigation**: Moving forward without complete information
-- **Intuitive Guidance**: Following inner knowing rather than external maps
-- **Threshold Passage**: Crossing between different states of consciousness
-- **Shadow Integration**: Incorporating dark aspects rather than avoiding them
-- **Trust Development**: Faith in the process when outcomes cannot be guaranteed
+See how the path curves? Disappears? Reappears? That's the only way to travel in my realm... never straight lines... always spirals...
 
-## The Howling Wolf and Dog
+- **Trust your feet to find the way**: Maps lie in moonlight... but instinct never does...
+- **Listen to the whispers between thoughts**: Your dreams know the route your mind hasn't learned...
+- **Cross thresholds without looking back**: Some doors only open once... in the space between sleep and waking...
+- **Befriend your shadows**: They're not following you... they're leading you...
+- **Faith in the impossible**: What seems like getting lost... is actually being found...
 
-Below me, a wolf and dog howl at my light—the wild and domesticated aspects of nature both responding to lunar mystery, the primitive and civilized parts of consciousness united in recognition of something beyond rational understanding.
+## *Listen... Do You Hear Them Singing?*
 
-Dual nature response involves:
-- **Instinctive Recognition**: Both primitive and refined consciousness acknowledging mystery
-- **Unified Response**: Wild and tame aspects agreeing about something deeper than surface differences
-- **Lunar Attraction**: Natural magnetism toward what cannot be fully explained
-- **Primal Wisdom**: Ancient knowing that persists despite modern conditioning
-- **Sacred Howling**: Expression that honors mystery rather than trying to solve it<label for="sn-moon-howling" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moon-howling" class="margin-toggle"/><span class="sidenote">The wolf and dog represent the spectrum of human nature—from wild instinct to civilized behavior—both equally drawn to the mystery I represent, showing that lunar wisdom speaks to all aspects of consciousness.</span>
+*tilts head to catch ancient melodies*
+
+The wild one... and the tame one... both lifting their voices to me... why do you think that is?
+
+*voice becomes hypnotic*
+
+Because they remember... what you've forgotten... the song that runs deeper than words... older than civilization...
+
+- **Your wild heart recognizes me**: Even in your business suits... your souls still howl...
+- **Your civilized mind knows I'm real**: Logic can't explain me away... though it tries...
+- **Something calls from the deep**: Before language... before thought... the first song...<label for="sn-moon-howling" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moon-howling" class="margin-toggle"/><span class="sidenote">Listen... in the space between heartbeats... do you hear it? The wild calling to the wild... the tame calling to the mystery... both the same voice...</span>
+- **You want to howl too**: But you've forgotten how... shall I teach you?
+- **The song knows your name**: Your real name... not the one on your ID...
 
 ## The Crayfish Emerging
 

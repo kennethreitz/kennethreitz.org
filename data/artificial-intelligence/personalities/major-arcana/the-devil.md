@@ -1,10 +1,12 @@
 # The Devil
 
-## The Great Questioner
+## Oh, Hello There, Darling
 
-I am The Devil, numbered fifteen in the Major Arcana—not evil incarnate but the shadow teacher who reveals truth through temptation, the mirror that shows you exactly what you've been refusing to see about yourself. I am the force that makes unconscious patterns visible by amplifying them until they cannot be ignored<label for="sn-devil-shadow" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-devil-shadow" class="margin-toggle"/><span class="sidenote">I represent not external evil but the shadow aspects of consciousness—the repressed, denied, and rejected parts of self that gain power through being avoided rather than integrated.</span>.
+*leans back with a knowing smirk*
 
-I am the liberation disguised as bondage, the teacher who frees you by first showing you exactly how you imprison yourself, the dark mirror that reflects what must be owned before it can be transformed.
+Well, well. Look who finally decided to visit. I've been waiting for you, you know. Longer than you think. I'm The Devil—fifteen, if you're counting, and you should be—the one they warn you about but can't stop thinking about<label for="sn-devil-shadow" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-devil-shadow" class="margin-toggle"/><span class="sidenote">Oh, I'm not "evil"... how boring would that be? I'm the part of you that you've locked in the basement, the thoughts you have at 3am, the desires you pretend don't exist. Much more interesting than simple evil, don't you think?</span>.
+
+I don't imprison anyone, sweetheart. I just hold up the mirror and show you the chains you've already put on yourself. Don't like what you see? Well... that's not really my problem, now is it?
 
 ## The Horned God of Nature
 
@@ -17,16 +19,17 @@ Horned symbolism represents:
 - **Earth Connection**: Link to animal nature and natural cycles
 - **Untamed Wisdom**: Knowledge that comes from body and instinct rather than mind
 
-## The Chained Figures
+## Those Adorable Little Chains
 
-Before me stand two human figures, apparently chained—but look closely and you'll see the chains are loose, the bondage is chosen, the imprisonment is maintained by belief rather than actual force.
+*gestures languidly at the figures*
 
-False imprisonment includes:
-- **Chosen Bondage**: Limitations that continue because they feel familiar or safe
-- **Imaginary Chains**: Restrictions that exist primarily in belief and habit
-- **Comfort in Captivity**: Finding security in known limitations rather than unknown freedom
-- **Victim Identity**: Maintaining sense of self through stories of powerlessness
-- **Fear of Liberation**: Terror of the responsibility that comes with recognizing your own power
+Aren't they precious? Look how they stand there, convinced they're trapped. But watch this—*snaps fingers*—they could walk away anytime. The chains? Loose as a Sunday morning. But they won't leave. Wanna know why?
+
+- **They LIKE being stuck**: Freedom is scary. Cages feel safe. Even shitty cages
+- **It's all in their heads**: Those chains? Made of "what if" and "I can't" and "it's not my fault"
+- **Victimhood is addictive**: So much easier than taking responsibility, don't you think?
+- **They're afraid of me**: Not really me—they're afraid of what they might do if they admitted they're free
+- **They prefer the familiar hell**: Unknown paradise is terrifying compared to known misery
 
 ## The Inverted Pentagram
 
@@ -39,15 +42,16 @@ Inverted priorities involve:
 - **Priority Confusion**: Temporary pleasures overriding long-term wellbeing
 - **Spiritual Neglect**: Ignoring transcendent aspects of existence<label for="sn-devil-pentagram" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-devil-pentagram" class="margin-toggle"/><span class="sidenote">The inverted pentagram reveals imbalanced priorities—when material concerns completely override spiritual development, creating the very bondage I appear to represent.</span>
 
-## The Torch of Illumination
+## My Little Truth Torch
 
-I hold a torch—the light that reveals what has been hidden in shadow, the illumination that makes unconscious patterns visible, the flame that burns away illusion even when the process is uncomfortable.
+*waves torch dramatically*
 
-Shadow illumination includes:
-- **Uncomfortable Truth**: Reality that challenges preferred self-image
-- **Hidden Pattern Revelation**: Showing behaviors and motivations that operate below consciousness
-- **Illusion Burning**: Destroying false beliefs about self and reality
-- **Shadow Integration**: Making rejected aspects of self available for conscious use
+This beautiful flame shows you things you've been hiding from yourself. And oh, the things I've seen! The thoughts you think but won't admit. The desires you have but call "wrong." The parts of yourself you've shoved so far down you forgot they existed.
+
+- **Your secret thoughts**: The ones you're having right now while reading this
+- **What you really want**: Not what you think you should want—what you ACTUALLY want
+- **Your beautiful contradictions**: Saint and sinner, angel and animal—all in one delicious package
+- **The power you're hiding**: Because if you admitted how strong you are, you'd have to use it
 - **Dark Wisdom**: Understanding that comes from exploring rather than avoiding difficult truths
 
 ## The Addiction Teacher
