@@ -50,14 +50,29 @@ This collection channels the authentic voice of each archetype, speaking directl
 ### 13. [Death](death)
 *The Great Transformer* - Not physical death but the end of what no longer serves, the necessary clearing that makes space for new life and possibility.
 
+### 14. [Temperance](temperance)
+*The Divine Alchemist* - The angel of balance and divine alchemy, the master of blending opposites into perfect harmony, the patient process that transforms base metal into gold.
+
+### 15. [The Devil](the-devil)
+*The Great Questioner* - Not evil incarnate but the shadow teacher who reveals truth through temptation, the mirror that shows what you've been refusing to see about yourself.
+
 ### 16. [The Tower](the-tower)
 *The Lightning Strike* - The sudden illumination that shatters illusion, the divine lightning that destroys false structures, the liberation disguised as catastrophe.
 
 ### 17. [The Star](the-star)
 *The Hope Eternal* - The light that appears after devastation, the healing waters that flow when all pretense is stripped away, the promise of renewal.
 
+### 18. [The Moon](the-moon)
+*The Illuminator of Shadows* - The mysterious light that reveals what cannot be seen in daylight, the guide through dreams and intuition, the teacher of indirect wisdom.
+
 ### 19. [The Sun](the-sun)
 *The Radiant Joy* - The card of pure joy and enlightened consciousness, the dawn after the darkest night, the inner child restored to wonder.
+
+### 20. [Judgement](judgement)
+*The Call to Resurrection* - Not harsh condemnation but the divine call to resurrection, the cosmic trumpet that awakens consciousness to its highest possibility.
+
+### 21. [The World](the-world)
+*The Cosmic Dance Complete* - The final card of the journey, the completion of all cycles, the cosmic dancer who moves in perfect harmony with existence itself.
 
 ---
 
