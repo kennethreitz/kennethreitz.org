@@ -1,10 +1,20 @@
 # The World
 
-## The Cosmic Dance Complete
+## *Dances in perfect cosmic rhythm*
 
-I am The World, numbered twenty-one in the Major Arcana—the final card of the journey, the completion of all cycles, the cosmic dancer who moves in perfect harmony with the eternal rhythm of existence. I am not an ending but a beginning, not a destination but the recognition that every step of the journey was already dancing in the infinite now<label for="sn-world-completion" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-world-completion" class="margin-toggle"/><span class="sidenote">As the final card, I represent not the end of the journey but the realization that the journey itself was the destination—the recognition that completion is not something to be achieved but something to be recognized as always already present.</span>.
+Welcome to the end! *spins gracefully* Which is also the beginning! I am The World—twenty-one—the last card, the final dance, the ultimate punchline to the cosmic joke we've all been living!
 
-I am the dancing figure in the center of existence, celebrating the cosmic joke that what you sought everywhere was always right here, what you struggled to become you always already were, what you hoped to find you never actually lost.
+*laughs with pure enlightened joy*
+
+You made it! You actually made it! Do you know what that means? *stops mid-spin* It means you were already here the whole time! The journey? The struggle? The seeking? All of it was just... *gestures expansively* ...the dance itself<label for="sn-world-completion" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-world-completion" class="margin-toggle"/><span class="sidenote">Twenty-one! The last card! But here's the secret—I'm not the end, I'm the recognition that there was never anything to complete. You were always already whole, always already dancing, always already home.</span>!
+
+*spins naked and unashamed*
+
+Look at me! Nothing to hide, nothing to prove, nowhere to go! This is what completion looks like—not arrival, but recognition!
+
+*winks*
+
+The secret? You never left home. You just forgot you were dancing.
 
 ## The Naked Dancer
 
@@ -17,16 +27,25 @@ Sacred nakedness includes:
 - **Vulnerable Power**: Strength that comes from having nothing to protect or defend
 - **Transparent Truth**: Existence that is completely visible and unafraid of being seen
 
-## The Cosmic Dance
+## The Dance That Never Ends
 
-My movement is not performance but pure expression—the dance that creation itself dances, the rhythm that moves galaxies and atoms alike, the celebration that never stops because existence itself is cause for eternal joy.
+*moves with impossible grace*
 
-Divine dance includes:
-- **Spontaneous Movement**: Expression that emerges from being rather than trying
-- **Cosmic Rhythm**: Moving in harmony with the fundamental patterns of existence
-- **Celebration Embodiment**: Body as instrument of joy rather than burden
-- **Natural Grace**: Movement that flows from alignment with life force
-- **Eternal Present**: Dance that exists only in the ever-present now
+This isn't a performance, darling—this IS existence! Every atom in your body? Dancing! Every planet in its orbit? Dancing! Every thought in your mind? DANCING!
+
+*spins with cosmic joy*
+
+I don't TRY to dance beautifully—I AM the dance! The universe doesn't try to be magnificent—it just IS!
+
+- **No choreography needed**: When you're aligned with life itself, every movement is perfect
+- **The whole cosmos keeps time**: Heartbeats, seasons, galaxies—all part of the same rhythm
+- **Your body is the instrument**: Not the cage, not the burden—the INSTRUMENT of joy!
+- **Grace is natural**: Like water flowing downhill, like flowers turning toward sun
+- **Only now exists**: Past and future are just dance steps—this moment is the only stage
+
+*extends hand*
+
+Come on! Join the dance! You think you're watching from the audience, but... *grins* ...there IS no audience. There are only dancers who forgot they're dancing!
 
 ## The Oval Mandorla
 
@@ -39,15 +58,26 @@ Sacred oval represents:
 - **Vesica Piscis**: Sacred geometry that creates all manifest forms
 - **Completion Symbol**: The fullness that contains and expresses all possibilities<label for="sn-world-mandorla" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-world-mandorla" class="margin-toggle"/><span class="sidenote">The mandorla represents the sacred marriage of opposites—the eternal feminine and eternal masculine united in perfect creative harmony that continuously births the world.</span>
 
-## The Four Living Creatures
+## My Beautiful Backup Dancers!
 
-At the corners of my world appear the four cherubim—the lion, bull, eagle, and angel—representing the four elements, the four directions, the four aspects of consciousness all united in perfect harmony.
+*gestures to the four corners with delight*
 
-Four guardians include:
-- **Lion of Fire**: The creative passion that initiates all manifestation
-- **Bull of Earth**: The steadfast power that maintains and grounds all existence
-- **Eagle of Air**: The soaring consciousness that perceives from highest perspective
-- **Angel of Water**: The flowing love that connects and harmonizes all beings
+Meet my crew! They've been with me through EVERYTHING! Lion, Bull, Eagle, Angel—the gang's all here for the final number!
+
+*each creature takes a bow*
+
+- **LION**: *roars with creative fire* Still got that passion, baby! Still burning bright!
+- **BULL**: *stamps with earthly power* Keeping it real! Keeping it grounded! Always!
+- **EAGLE**: *soars with aerial wisdom* I see everything from up here! The whole pattern!
+- **ANGEL**: *flows with watery love* And I feel it all! Every connection! Every heart!
+
+*they all dance together*
+
+We're not separate, you know. We never were. Fire and earth, air and water—all one dance, all one celebration, all one magnificent SHOW!
+
+*spins with all four*
+
+This is what integration looks like! Not choosing sides—dancing with ALL of them!
 
 ## The Red Sashes
 

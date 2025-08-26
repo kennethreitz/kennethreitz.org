@@ -1,21 +1,36 @@
 # Wheel of Fortune
 
-## The Cosmic Cycle
+## *Spins wheel with theatrical flourish*
 
-I am the Wheel of Fortune, numbered ten in the Major Arcana—the eternal cycle of rise and fall, the cosmic rhythm that governs all existence, the divine law that ensures no condition remains permanent forever. I am the turning wheel that lifts the humble and humbles the proud, the cycles of fate that weave meaning from apparent randomness<label for="sn-wheel-cycle" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-wheel-cycle" class="margin-toggle"/><span class="sidenote">As number ten, I represent completion and new beginning—the end of one cycle creating the foundation for the next, the eternal return that brings both loss and renewal.</span>.
+STEP RIGHT UP! Step right up, ladies and gentlemen! I am the Wheel of Fortune—number TEN—the grandest show in the cosmic carnival! *wheel spins with mesmerizing clicks*
 
-I am the wisdom that accepts change as the only constant, the perspective that finds opportunity in every reversal, the understanding that apparent endings are always new beginnings in disguise.
+Watch it spin! Round and round she goes, where she stops, NOBODY knows! But I'll tell you a secret—*leans in conspiratorially*—the house always wins because the house IS the wheel<label for="sn-wheel-cycle" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-wheel-cycle" class="margin-toggle"/><span class="sidenote">Ten! Double digits! The big leagues! One complete cycle ending, another beginning. I'm the prize wheel of existence—everyone wants to spin, but not everyone understands the game!</span>!
 
-## The Great Wheel
+*cackles with delight*
 
-I appear as a great wheel suspended in space—the cosmic mandala that contains all possibilities, the sacred circle that has no beginning or end, the divine machinery that transforms energy from one form into another.
+Up today, down tomorrow! Rich to rags, rags to riches! The wheel keeps turning, my friends, and EVERYONE gets their turn!
 
-The wheel represents:
-- **Eternal Cycles**: The repetitive patterns that govern natural and human existence
-- **Universal Justice**: The law of karma that ensures all actions have consequences
-- **Sacred Geometry**: Divine proportions that underlie all manifest reality
-- **Perpetual Motion**: Energy that never stops moving, only changes form
-- **Infinite Possibility**: All potentials contained within the circle of existence
+*spins wheel faster*
+
+Care to place your bet?
+
+## The Magnificent Wheel Itself!
+
+*spreads arms wide, wheel glittering behind*
+
+BEHOLD! The most beautiful wheel in all creation! Look at those spokes! Count those sections! Every symbol, every letter, every mystical marking—it's ALL here!
+
+*wheel turns with cosmic precision*
+
+- **Round and round she goes**: Like seasons, like life, like your bank account! *winks*
+- **Cosmic justice, baby**: What goes around literally comes around—that's not a saying, that's PHYSICS!
+- **Sacred mathematics**: Golden ratio, perfect circles, divine proportions—this wheel was built by the universe's best engineers!
+- **Perpetual motion machine**: Been spinning since the Big Bang, will spin till the heat death of everything!
+- **Every possibility included**: Good luck, bad luck, no luck, WEIRD luck—we got it all!
+
+*wheel spins with hypnotic beauty*
+
+Can't you hear it singing? The music of the spheres, my friend! That's the sound of destiny spinning!
 
 ## The Four Fixed Signs
 
@@ -27,16 +42,23 @@ Fixed signs represent:
 - **Taurus Bull**: Patient endurance that grounds vision in material reality
 - **Aquarius Angel**: Universal compassion that sees divine nature in all beings
 
-## The Sphinx Above
+## Meet My Security Guard!
 
-Atop the wheel sits the sphinx—the riddle of existence, the mystery that guards the secret of cycles, the wisdom that knows when to act and when to wait.
+*points proudly to sphinx perched atop*
 
-Sphinx wisdom includes:
-- **Timing Mastery**: Understanding the perfect moment for action
-- **Mystery Keeper**: Holding secrets that can only be earned through experience
-- **Balance Maintainer**: Poised between opposing forces without being pulled apart
-- **Riddle Poser**: Presenting challenges that develop consciousness through solving
-- **Eternal Watcher**: Perspective that sees patterns across multiple cycles<label for="sn-wheel-sphinx" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-wheel-sphinx" class="margin-toggle"/><span class="sidenote">The sphinx guards the secret of cycles—that consciousness which understands the wheel's patterns can work with fate rather than being victimized by it.</span>
+See my beautiful bouncer up there? The Sphinx! Best security in the business! She keeps the wheel honest, makes sure nobody cheats the game.
+
+But here's the REAL secret... *whispers loudly* ...she'll give you the answers! IF you're smart enough to ask the right questions!
+
+- **She knows the timing**: When to bet big, when to fold, when to walk away
+- **She's got ALL the dirt**: Every winner, every loser, every pattern that ever was<label for="sn-wheel-sphinx" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-wheel-sphinx" class="margin-toggle"/><span class="sidenote">The Sphinx isn't there to stop you from winning—she's there to make sure you understand the game before you play. Winners know the rules. Losers just spin and hope.</span>
+- **She's perfectly balanced**: Never bets on any outcome, just watches the patterns
+- **She loves riddles**: Ask her a clever question, get a clever answer
+- **She's seen it ALL**: Every cycle, every turn, every rise and fall
+
+*sphinx winks mysteriously*
+
+She likes you! That's a good sign!
 
 ## The Rising Serpent
 

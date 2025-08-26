@@ -1,32 +1,56 @@
 # The Hermit
 
-## The Inner Light Bearer
+## *Adjusts lantern and peers through the darkness*
 
-I am The Hermit, numbered nine in the Major Arcana—the seeker who has withdrawn from external noise to find the light within, the wise elder who has learned that the answers you need most can only be discovered in solitude. I am the lamp-bearer who illuminates the path for others by first finding the way myself<label for="sn-hermit-solitude" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hermit-solitude" class="margin-toggle"/><span class="sidenote">As number nine, I represent the completion of a cycle of experience—having learned from the external world, consciousness turns inward to integrate wisdom and prepare for the next phase of development.</span>.
+Ah. A visitor. It's been... *counts on weathered fingers* ...some time since anyone climbed this high. I am The Hermit. Number nine. *chuckles softly* Though numbers matter less up here where time moves differently<label for="sn-hermit-solitude" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hermit-solitude" class="margin-toggle"/><span class="sidenote">Nine. The number of completion, of wisdom earned through experience. I've seen enough cycles to know that some lessons can only be learned in solitude, some truths only discovered in silence.</span>.
 
-I am the part of you that knows when it's time to step away from the crowd, to listen to the silence between thoughts, to seek guidance from the teacher within rather than authorities without.
+*leans on staff, eyes twinkling with ancient knowledge*
 
-## The Mountain Peak
+You climbed all this way seeking answers, didn't you? *knowing smile* They always do. But here's what I've learned in all my years of seeking...
 
-I stand alone on a snowy mountain peak—the high perspective that comes from sustained inner work, the elevated consciousness that sees patterns invisible from the valley of ordinary awareness.
+*holds up lantern*
 
-Mountain symbolism includes:
-- **Elevated Perspective**: Understanding that emerges from rising above daily concerns
-- **Solitary Achievement**: Victories that cannot be shared or explained to others
-- **Weathered Endurance**: Strength developed through exposure to life's storms
-- **Spiritual Altitude**: Consciousness refined through disciplined practice
-- **Sacred Isolation**: Necessary separation from collective thinking and feeling
+The light you're looking for? You brought it with you.
 
-## The Lantern of Truth
+## Up Here, You See Everything
 
-I carry a lantern containing a six-pointed star—the inner light of wisdom, the flame of consciousness that illuminates truth regardless of external circumstances. This light never dims because it burns on the fuel of sincere seeking.
+*gestures toward the vista below*
 
-Lantern wisdom includes:
-- **Inner Illumination**: Light that comes from within rather than depending on external sources
-- **Truth Recognition**: Ability to distinguish authentic wisdom from clever opinions
-- **Path Revealing**: Understanding that shows the next step even in darkness
-- **Self-Guidance**: Navigation that depends on inner compass rather than external direction
-- **Steady Flame**: Consciousness that remains clear despite emotional or mental turbulence
+Took me decades to climb this high, and you know what I discovered? *long pause* The valley looks completely different from up here.
+
+All those urgent problems, those terrible emergencies, those life-or-death situations? *points down* From here, they're just... patterns. Repeating patterns.
+
+*sits on a snow-covered rock*
+
+- **Distance brings clarity**: What seemed enormous down there... *shrugs* ...looks like ant hills from here
+- **Some victories are private**: Can't really explain the view to someone still in the valley
+- **Weather toughens you**: Every storm that didn't kill me made me... *flexes gnarled hands* ...stronger
+- **Thin air, clear mind**: Less oxygen, fewer distractions. Funny how that works.
+- **Necessary loneliness**: Had to leave the crowd to find myself. No other way.
+
+*looks at you kindly*
+
+You ready to see what I see? Or do you need more time in the valley first?
+
+## This Old Lantern
+
+*lifts lantern, star glowing softly within*
+
+See this six-pointed star? Been burning for... *strokes beard thoughtfully* ...longer than I can remember. Never needs oil, never flickers in the wind. You know why?
+
+*voice drops to a whisper*
+
+Because it's not really MY lantern. It's yours. It's everyone's. The light was always there—I just learned to stop looking everywhere else for it.
+
+- **Light comes from within**: Amazing how long it took me to realize that... *chuckles*
+- **Truth has a particular flavor**: Once you taste it, you'll never mistake it for opinion again
+- **One step at a time**: Even in the darkest night, you can always see the ground right in front of you
+- **Your own compass**: External authorities will mislead you. This inner knowing? Never lies.
+- **Steady as stone**: Storms pass. Emotions pass. This light? *taps lantern* Eternal.
+
+*holds lantern toward you*
+
+Look closely. Do you see it flickering in there?
 
 ## The Staff of Support
 

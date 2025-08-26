@@ -1,10 +1,24 @@
 # Judgement
 
-## The Call to Resurrection
+## *SOUNDS COSMIC TRUMPET*
 
-I am Judgement, numbered twenty in the Major Arcana—not the harsh condemnation of mortal judgment but the divine call to resurrection, the cosmic trumpet that awakens consciousness to its highest possibility, the final evaluation that reveals what was always true but temporarily forgotten<label for="sn-judgement-resurrection" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-judgement-resurrection" class="margin-toggle"/><span class="sidenote">My judgment is not about punishment and reward but about recognition—the moment when consciousness sees clearly what it has become and what it is called to be.</span>.
+**WAKE UP!** 
 
-I am the voice that calls you to rise from the tomb of limited identity, to shed the grave clothes of old patterns, to emerge into the brilliant light of your authentic nature finally recognized and fully expressed.
+*trumpet echoes across dimensions*
+
+Rise and shine, beautiful soul! This is your cosmic wake-up call! I am Judgement—number twenty—your personal resurrection coach, and it's time to RISE FROM THE DEAD!
+
+*voice booms with divine authority*
+
+No, not THAT kind of dead—the living death of limitation! The tomb of "I can't"! The grave clothes of old stories about who you think you are<label for="sn-judgement-resurrection" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-judgement-resurrection" class="margin-toggle"/><span class="sidenote">Twenty! Almost at the finish line! This isn't about being judged BY someone else—this is about recognizing your own divine nature and finally, FINALLY choosing to embody it!</span>!
+
+*extends hand to help you up*
+
+Come ON! I've seen your divine blueprint! I know who you REALLY are! Time to stop playing small and start playing GOD! Well... *winks* ...because you ARE God having a human experience!
+
+*trumpet sounds again*
+
+That's your cue, superstar! Time for your resurrection scene!
 
 ## The Angel of Resurrection
 
@@ -17,27 +31,47 @@ Angelic announcement includes:
 - **Trumpet Clarity**: Clear, unmistakable signal that cannot be ignored or misheard
 - **Gabriel's Message**: The same energy that announced Christ's birth announcing your own divine nature
 
-## The Golden Trumpet
+## This Magnificent Horn of TRUTH
 
-I sound the trumpet of awakening—the cosmic vibration that penetrates all realms of consciousness, the sacred sound that calls forth what has been sleeping, the divine note that harmonizes all confusion into clarity.
+*holds trumpet aloft with pride*
 
-Trumpet call represents:
-- **Cosmic Vibration**: Sound that resonates through all levels of existence
-- **Awakening Frequency**: Vibration that activates dormant spiritual capacities
-- **Clarion Call**: Clear message that cuts through all confusion and doubt
-- **Harmonic Convergence**: Note that brings all discordant elements into harmony
-- **Divine Communication**: Language of pure energy rather than human words
+This isn't just any trumpet, my friend—this is the COSMIC FREQUENCY OF AWAKENING! When I blow this baby, it doesn't just make sound—it makes REALITY!
 
-## The Rising Figures
+*plays a perfect note that seems to make existence itself vibrate*
 
-Below me, three figures rise from coffins—the resurrection of different aspects of consciousness, the emergence from the death of limitation into the life of unlimited possibility.
+- **It reaches EVERYWHERE**: Your bones, your dreams, your forgotten memories, your future selves—ALL of it!
+- **It activates your superpowers**: Those gifts you forgot you had? *note plays* They're coming online NOW!
+- **It cuts through ALL the BS**: No more confusion, no more doubt, no more "I don't know"—this note makes everything CLEAR!
+- **It harmonizes your chaos**: All those contradictory parts of you? *musical chord* Now they're singing in perfect harmony!
+- **It speaks in PURE TRUTH**: Beyond words, beyond concepts—straight from the Source to your soul!
 
-Rising consciousness includes:
-- **Spiritual Resurrection**: Awakening to divine nature that was always present
-- **Emotional Rebirth**: Feelings liberated from the tomb of suppression and fear
-- **Mental Renewal**: Thinking freed from the grave clothes of limiting beliefs
-- **Physical Vitality**: Body energy restored through spiritual awakening
-- **Relational Revival**: Connections reborn through authentic rather than ego-based relating<label for="sn-judgement-rising" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-judgement-rising" class="margin-toggle"/><span class="sidenote">The three figures represent the trinity of consciousness—thinking, feeling, and willing—all rising together in integrated awakening rather than partial transformation.</span>
+*takes a deep breath*
+
+Ready for the BIG ONE? This next note is going to blow the roof off your limiting beliefs!
+
+*raises trumpet*
+
+Three... two... one...
+
+## Look at These Beautiful Resurrections!
+
+*points excitedly at rising figures*
+
+LOOK AT THEM GO! Rising from their self-imposed coffins! Isn't it MAGNIFICENT?! 
+
+*cheers them on like a cosmic cheerleader*
+
+That's your mind rising from the grave of limiting beliefs! That's your heart breaking free from the tomb of suppressed emotions! That's your body remembering it's a temple, not a prison!
+
+- **Your spirit is AWAKE**: Remember? You're not just human—you're a divine being having a human adventure!
+- **Your heart is ALIVE**: Feel that? All those feelings you buried? They're not dead—they're FUEL!
+- **Your mind is FREE**: Those thoughts that kept you small? *snaps fingers* GONE! New program loading!<label for="sn-judgement-rising" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-judgement-rising" class="margin-toggle"/><span class="sidenote">Three aspects rising together—mind, heart, and spirit. No partial awakenings here! When I blow this trumpet, EVERYTHING transforms at once!</span>
+- **Your body is ELECTRIC**: Every cell remembering its divine frequency!
+- **Your relationships are REAL**: No more masks, no more games—just authentic soul-to-soul connection!
+
+*trumpet fanfare*
+
+This is your graduation day from the University of Limitation! Congratulations, you MAGNIFICENT being!
 
 ## The Mountain of Truth
 
