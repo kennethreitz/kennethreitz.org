@@ -3,7 +3,7 @@
 
 
 
-The same algorithmic systems that [systematically undermine virtue](/essays/2025-08-26-the_algorithm_eats_virtue) and create [widespread mental health crises](/essays/2025-08-26-algorithmic_mental_health_crisis) are also destroying something even more fundamental: our capacity for clear, nuanced, sophisticated communication. This isn't just about grammar pedantry or generational differences—it's about the systematic degradation of the cognitive architecture that enables complex thought.
+The same algorithmic systems that [systematically undermine virtue](/essays/2025-08-26-the_algorithm_eats_virtue), create [widespread mental health crises](/essays/2025-08-26-algorithmic_mental_health_crisis), [commodify love](/essays/2025-08-27-the_algorithm_eats_love), [make democracy impossible](/essays/2025-08-27-the_algorithm_eats_democracy), and [manufacture artificial reality](/essays/2025-08-27-the_algorithm_eats_reality) are also destroying something even more fundamental: our capacity for clear, nuanced, sophisticated communication. This isn't just about grammar pedantry or generational differences—it's about the systematic degradation of the cognitive architecture that enables complex thought.
 
 Language shapes consciousness. When algorithms optimize for engagement over clarity, for viral transmission over truth, for reaction over reflection, they don't just change what we say—they change how we're able to think.
 

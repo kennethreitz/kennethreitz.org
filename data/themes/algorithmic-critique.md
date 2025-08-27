@@ -28,6 +28,10 @@ The same algorithmic mechanisms that drive engagement on social platforms—vari
 - [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How engagement optimization destroys the cognitive conditions necessary for democratic discourse
 - **Core insight**: Algorithmic systems systematically reward fragmentation and extremism while punishing the nuanced understanding required for collective governance
 
+### Reality Manipulation
+- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification and coordinated inauthentic behavior manufacture consensus and fracture shared understanding
+- **Core insight**: Modern influence operations exploit engagement optimization to weaponize our basic capacity to distinguish authentic human expression from manufactured manipulation
+
 ## Interconnected Patterns
 
 These essays reveal the same underlying mechanism across different domains:
