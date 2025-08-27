@@ -92,13 +92,13 @@ The pattern of discrimination I've experienced isn't unique—it's systematic. P
 
 Real inclusion means:
 
-**Healthcare providers** who approach patients with schizoaffective disorder as partners in care rather than subjects to be managed. It means recognizing that insight into one's condition is a strength, not a manipulation, and that people with lived experience often understand their needs better than external observers.
+• **Healthcare providers** who approach patients with schizoaffective disorder as partners in care rather than subjects to be managed. It means recognizing that insight into one's condition is a strength, not a manipulation, and that people with lived experience often understand their needs better than external observers.
 
-**Professional environments** that provide actual accommodation rather than performative awareness. This means flexible work arrangements during symptom management, understanding that medication changes affect performance temporarily, and recognizing that mental health disclosure should be met with support rather than suspicion.
+• **Professional environments** that provide actual accommodation rather than performative awareness. This means flexible work arrangements during symptom management, understanding that medication changes affect performance temporarily, and recognizing that mental health disclosure should be met with support rather than suspicion.
 
-**Communities** that welcome the full spectrum of neurodiversity, including conditions that make people uncomfortable. The Python community, and tech culture generally, must move beyond celebrating abstract diversity toward actually including people whose neurodifference challenges social norms.
+• **Communities** that welcome the full spectrum of neurodiversity, including conditions that make people uncomfortable. The Python community, and tech culture generally, must move beyond celebrating abstract diversity toward actually including people whose neurodifference challenges social norms.
 
-**Personal relationships** based on understanding rather than fear. This requires education about schizoaffective disorder, recognition that mental illness doesn't define personality or worth, and commitment to inclusion even when it requires emotional labor.
+• **Personal relationships** based on understanding rather than fear. This requires education about schizoaffective disorder, recognition that mental illness doesn't define personality or worth, and commitment to inclusion even when it requires emotional labor.
 
 ## Moving Forward
 
