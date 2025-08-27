@@ -154,8 +154,6 @@ Companies exploit weaknesses in disability rights enforcement:
 
 Genuine inclusion would require fundamental changes:
 
-Genuine inclusion would require fundamental changes:
-
 - **Universal design** that works for diverse neurological capabilities from the beginning
 - **Flexible scheduling** that optimizes for output rather than presence
 - **Multiple communication channels** for different interaction preferences
