@@ -29,19 +29,19 @@ def get_directory_structure(path):
     items = []
     if not path.exists() or not path.is_dir():
         return items
-    
+
     # Separate directories and files for better organization
     dirs = []
     files = []
-    
+
     for item in sorted(path.iterdir(), reverse=True):
         if item.name.startswith('.') or item.name.lower() == 'index.md':
             continue
-            
+
         # Create display name without extension for files
         display_name = item.stem if item.is_file() and item.suffix else item.name
         display_name = display_name.replace('-', ' ').replace('_', ' ').title()
-        
+
         # Create clean URL path without .md extension
         if item.is_dir():
             url_path = '/' + str(item.relative_to(DATA_DIR)) + '/'
@@ -51,7 +51,7 @@ def get_directory_structure(path):
             url_path = '/' + relative_path[:-3]  # Remove .md extension
         else:
             url_path = '/' + str(item.relative_to(DATA_DIR))
-        
+
         item_info = {
             'name': item.name,
             'display_name': display_name,
@@ -66,12 +66,12 @@ def get_directory_structure(path):
             'file_type': item.suffix.lower() if item.is_file() else 'directory',
             'static_path': f"/static/data/{item.relative_to(DATA_DIR)}" if not item.is_dir() else None
         }
-        
+
         if item.is_dir():
             dirs.append(item_info)
         else:
             files.append(item_info)
-    
+
     # Return directories first, then files
     return dirs + files
 
@@ -93,38 +93,38 @@ def find_series_posts(metadata, current_path):
     series_posts = []
     if not metadata.get('series'):
         return series_posts
-    
+
     series_name = metadata['series']
-    
+
     # Search through all markdown files to find posts in the same series
     for root, dirs, files in os.walk(DATA_DIR):
         for file in files:
             if file.endswith('.md') and file != 'index.md':
                 file_path = Path(root) / file
-                
+
                 # Skip the current file
                 if str(file_path) == str(current_path):
                     continue
-                    
+
                 try:
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read()
-                    
+
                     # Extract metadata
                     yaml_pattern = r'^---\s*\n(.*?)\n---\s*\n'
                     yaml_match = re.match(yaml_pattern, content, re.DOTALL)
                     if yaml_match:
                         import yaml
                         post_metadata = yaml.safe_load(yaml_match.group(1)) or {}
-                        
+
                         if post_metadata.get('series') == series_name:
                             # Create URL path for this post
                             relative_path = str(file_path.relative_to(DATA_DIR))
                             url_path = '/' + relative_path[:-3]  # Remove .md
-                            
+
                             # Get title from metadata or filename
                             title = post_metadata.get('title') or file_path.stem.replace('-', ' ').title()
-                            
+
                             series_posts.append({
                                 'title': title,
                                 'url': url_path,
@@ -133,7 +133,7 @@ def find_series_posts(metadata, current_path):
                             })
                 except:
                     continue
-    
+
     # Sort by series_order
     series_posts.sort(key=lambda x: x['order'])
     return series_posts
@@ -141,23 +141,23 @@ def find_series_posts(metadata, current_path):
 def extract_tags_from_content(content, metadata, file_path):
     """Extract tags from content and metadata for categorization."""
     tags = set()
-    
+
     # 1. From YAML front matter
     if metadata.get('tags'):
         if isinstance(metadata['tags'], list):
             tags.update(tag.lower().strip() for tag in metadata['tags'])
         else:
             tags.update(tag.lower().strip() for tag in str(metadata['tags']).split(','))
-    
+
     # 2. Auto-generate from file path
     path_parts = str(file_path).split('/')
     for part in path_parts:
         if part in ['essays', 'artificial-intelligence', 'writings', 'consciousness', 'collaboration']:
             tags.add(part.replace('-', ' '))
-    
+
     # 3. Content-based tag detection (key phrases)
     content_lower = content.lower()
-    
+
     # Technology tags
     tech_keywords = {
         'python': ['python', 'requests', 'flask', 'django', 'pipenv'],
@@ -168,11 +168,11 @@ def extract_tags_from_content(content, metadata, file_path):
         'collaboration': ['collaboration', 'partnership', 'human-ai'],
         'creativity': ['creativity', 'writing', 'art', 'expression']
     }
-    
+
     for tag, keywords in tech_keywords.items():
         if any(keyword in content_lower for keyword in keywords):
             tags.add(tag)
-    
+
     # Limit to most relevant tags (max 5)
     return list(tags)[:5]
 
@@ -183,7 +183,7 @@ def render_markdown_file(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
-        
+
         # Extract YAML front matter if it exists
         metadata = {}
         yaml_pattern = r'^---\s*\n(.*?)\n---\s*\n'
@@ -195,7 +195,7 @@ def render_markdown_file(file_path):
                 content = content[yaml_match.end():]
             except:
                 pass
-            
+
         # Extract first h1 header if it exists
         first_h1 = None
         # Look for the first H1 at the start of the file (must be on first line or after blank line)
@@ -204,24 +204,24 @@ def render_markdown_file(file_path):
             first_h1 = h1_match.group(1).strip()
             # Remove only the first h1 line from content to avoid duplication
             content = re.sub(r'^# .+?$', '', content, count=1, flags=re.MULTILINE)
-        
+
         # Configure mistune renderer with URL plugin for bare links
         markdown = mistune.create_markdown(
             escape=False,
             plugins=['strikethrough', 'footnotes', 'table', 'task_lists', 'def_list', 'url']
         )
-        
+
         # Process content to HTML
         html_content = markdown(content.strip())
-        
+
         # Post-processing for poetry line breaks
         # Check if this is likely a poetry file based on file path
         if file_path and 'poetry' in str(file_path):
             # For poetry, convert single line breaks within paragraphs to <br> tags
-            html_content = re.sub(r'<p>(.*?)</p>', 
-                                lambda m: '<p>' + m.group(1).replace('\n', '<br>\n') + '</p>', 
+            html_content = re.sub(r'<p>(.*?)</p>',
+                                lambda m: '<p>' + m.group(1).replace('\n', '<br>\n') + '</p>',
                                 html_content, flags=re.DOTALL)
-        
+
         # Add classes to headers to prevent conflicts with page headers
         html_content = html_content.replace('<h1>', '<h1 class="content-header">')
         html_content = html_content.replace('<h2>', '<h2 class="content-header">')
@@ -229,7 +229,7 @@ def render_markdown_file(file_path):
         html_content = html_content.replace('<h4>', '<h4 class="content-header">')
         html_content = html_content.replace('<h5>', '<h5 class="content-header">')
         html_content = html_content.replace('<h6>', '<h6 class="content-header">')
-        
+
         # Use the first h1 as title if available, otherwise fallback to metadata or filename
         if first_h1:
             title = first_h1
@@ -237,16 +237,16 @@ def render_markdown_file(file_path):
             title = metadata['title']
         else:
             title = file_path.stem.replace('-', ' ').replace('_', ' ').title()
-        
+
         # Calculate reading time
         reading_time, word_count = calculate_reading_time(html_content)
-        
+
         # Extract tags
         tags = extract_tags_from_content(html_content, metadata, file_path)
-        
+
         # Find series posts if this post is part of a series
         series_posts = find_series_posts(metadata, file_path)
-        
+
         return {
             'content': html_content,
             'title': title,
@@ -267,18 +267,9 @@ def render_markdown_file(file_path):
 @app.route('/')
 def index():
     """Homepage showcasing download statistics."""
-    return render_template('homepage.html', 
+    return render_template('homepage.html',
                          current_year=datetime.now().year,
                          title="Home")
-
-@app.route('/timeline')
-def timeline_page():
-    """Interactive timeline of Kenneth's work and projects."""
-    return render_template('timeline.html',
-                         title='Timeline',
-                         breadcrumbs=[],
-                         current_year=datetime.now().year,
-                         current_page='Timeline')
 
 
 @app.route('/search')
@@ -297,7 +288,7 @@ def random_post():
     posts = collect_all_blog_posts()
     if not posts:
         return redirect('/directory')
-    
+
     import random
     random_post = random.choice(posts)
     return redirect(random_post['url'])
@@ -307,7 +298,7 @@ def get_random_personality_from_collection(collection_path):
     """Helper function to get a random personality from a collection."""
     import random
     import glob
-    
+
     if collection_path:
         # Get files from specific collection
         pattern = f'data/artificial-intelligence/personalities/{collection_path}/*.md'
@@ -316,14 +307,14 @@ def get_random_personality_from_collection(collection_path):
         # Get all personality files
         pattern = 'data/artificial-intelligence/personalities/**/*.md'
         fallback_url = '/artificial-intelligence/personalities'
-    
+
     personality_files = glob.glob(pattern, recursive=True)
     # Filter out index files
     personality_files = [f for f in personality_files if not f.endswith('index.md')]
-    
+
     if not personality_files:
         return redirect(fallback_url)
-    
+
     # Choose random personality and convert to URL
     random_file = random.choice(personality_files)
     # Convert data/artificial-intelligence/personalities/major-arcana/the-fool.md -> /artificial-intelligence/personalities/major-arcana/the-fool
@@ -343,15 +334,15 @@ def random_from_collection(collection):
     """Redirect to a random personality from a specific collection."""
     # Validate collection exists
     valid_collections = [
-        'major-arcana', 'seven-virtues', 'programming-languages', 
+        'major-arcana', 'seven-virtues', 'programming-languages',
         'greek-pantheon', 'roman-pantheon', 'hindu-pantheon',
         'operating-systems', 'supporting-cast', 'goddess-archetypes',
         'biblical-characters', 'biblical-anthology'
     ]
-    
+
     if collection not in valid_collections:
         return redirect('/artificial-intelligence/personalities')
-    
+
     return get_random_personality_from_collection(collection)
 
 
@@ -359,7 +350,7 @@ def random_from_collection(collection):
 def archive_index():
     """Archive index showing all posts by year."""
     posts = collect_all_blog_posts()
-    
+
     # Group posts by year
     grouped_posts = {}
     for post in posts:
@@ -367,13 +358,13 @@ def archive_index():
         if year not in grouped_posts:
             grouped_posts[year] = []
         grouped_posts[year].append(post)
-    
+
     # Sort each year's posts by date (most recent first) and years in descending order
     for year in grouped_posts:
         grouped_posts[year].sort(key=lambda x: x['pub_date'], reverse=True)
-    
+
     grouped_posts = dict(sorted(grouped_posts.items(), reverse=True))
-    
+
     return render_template('archive.html',
                          archive_title='Complete',
                          archive_description='All essays and AI writings, organized by year.',
@@ -387,35 +378,35 @@ def archive_index():
 def archive_year(year):
     """Archive for a specific year."""
     posts = collect_all_blog_posts()
-    
+
     # Filter posts for the specific year
     year_posts = [post for post in posts if post['pub_date'].year == year]
-    
+
     if not year_posts:
         abort(404)
-    
+
     # Group posts by month
     grouped_posts = {}
     month_names = ['', 'January', 'February', 'March', 'April', 'May', 'June',
                    'July', 'August', 'September', 'October', 'November', 'December']
-    
+
     for post in year_posts:
         month_name = month_names[post['pub_date'].month]
         if month_name not in grouped_posts:
             grouped_posts[month_name] = []
         grouped_posts[month_name].append(post)
-    
+
     # Sort posts within each month by date (most recent first)
     for month in grouped_posts:
         grouped_posts[month].sort(key=lambda x: x['pub_date'], reverse=True)
-    
+
     # Sort months in chronological order (most recent first)
     month_order = {name: idx for idx, name in enumerate(month_names[1:], 1)}
-    grouped_posts = dict(sorted(grouped_posts.items(), 
+    grouped_posts = dict(sorted(grouped_posts.items(),
                                key=lambda x: month_order[x[0]], reverse=True))
-    
+
     breadcrumbs = [{'name': 'Archive', 'url': '/archive'}]
-    
+
     return render_template('archive.html',
                          archive_title=str(year),
                          archive_description=f'Essays and AI writings from {year}.',
@@ -429,14 +420,14 @@ def archive_year(year):
 def archive_month(year, month):
     """Archive for a specific month and year."""
     posts = collect_all_blog_posts()
-    
+
     # Filter posts for the specific month and year
-    month_posts = [post for post in posts 
+    month_posts = [post for post in posts
                    if post['pub_date'].year == year and post['pub_date'].month == month]
-    
+
     if not month_posts:
         abort(404)
-    
+
     # Group by category (single level for monthly view)
     grouped_posts = {}
     for post in month_posts:
@@ -444,16 +435,16 @@ def archive_month(year, month):
         if category not in grouped_posts:
             grouped_posts[category] = []
         grouped_posts[category].append(post)
-    
+
     month_names = ['', 'January', 'February', 'March', 'April', 'May', 'June',
                    'July', 'August', 'September', 'October', 'November', 'December']
     month_name = month_names[month]
-    
+
     breadcrumbs = [
         {'name': 'Archive', 'url': '/archive'},
         {'name': str(year), 'url': f'/archive/{year}'}
     ]
-    
+
     return render_template('archive.html',
                          archive_title=f'{month_name} {year}',
                          archive_description=f'Essays and AI writings from {month_name} {year}.',
@@ -467,31 +458,31 @@ def archive_month(year, month):
 def directory_index():
     """Directory listing that was previously the homepage."""
     items = get_directory_structure(DATA_DIR)
-    
+
     # Check for index.md in the root data directory
     index_file = DATA_DIR / 'index.md'
     index_content = None
     content_position = 'top'  # Default position
     if index_file.exists():
         index_content = render_markdown_file(index_file)
-        
+
         # Determine content position based on length
         # Count words in the HTML content (after stripping HTML tags)
         content_text = re.sub(r'<[^>]+>', '', index_content['content'])
         word_count = len(content_text.split())
-        
+
         # If content is longer than 150 words, put it at the bottom
         if word_count > 150:
             content_position = 'bottom'
-    
+
     # Check if root directory is an image gallery
     image_items = [item for item in items if item['is_image']]
     total_files = [item for item in items if not item['is_dir']]
     is_image_gallery = len(image_items) >= 3 and len(total_files) > 0 and (len(image_items) / len(total_files)) >= 0.5
-    
-    return render_template('directory.html', 
-                         items=items, 
-                         current_path='', 
+
+    return render_template('directory.html',
+                         items=items,
+                         current_path='',
                          title='Kenneth Reitz',
                          breadcrumbs=[],
                          index_content=index_content,
@@ -504,7 +495,7 @@ def directory_index():
 def serve_path(path):
     """Serve files and directories from the data folder."""
     full_path = DATA_DIR / path
-    
+
     # If the path doesn't exist, try adding .md extension for markdown files
     if not full_path.exists():
         md_path = DATA_DIR / (path + '.md')
@@ -512,7 +503,7 @@ def serve_path(path):
             full_path = md_path
         else:
             abort(404)
-    
+
     # Generate breadcrumbs
     # For clean URLs, we need to handle the case where path might not include .md
     original_path = path
@@ -521,7 +512,7 @@ def serve_path(path):
         path_parts = path.split('/')
     else:
         path_parts = path.split('/')
-    
+
     breadcrumbs = []
     current = ''
     for part in path_parts[:-1]:  # Exclude the current page
@@ -530,36 +521,36 @@ def serve_path(path):
             'name': part.replace('-', ' ').replace('_', ' ').title(),
             'url': f"/{current}"
         })
-    
+
     if full_path.is_dir():
         # Directory listing
         items = get_directory_structure(full_path)
-        
+
         # Check if this is an image gallery (50% or more images)
         image_items = [item for item in items if item['is_image']]
         total_files = [item for item in items if not item['is_dir']]
         is_image_gallery = len(image_items) >= 3 and len(total_files) > 0 and (len(image_items) / len(total_files)) >= 0.5
-        
+
         # Check for index.md in the directory
         index_file = full_path / 'index.md'
         index_content = None
         content_position = 'top'  # Default position
         if index_file.exists():
             index_content = render_markdown_file(index_file)
-            
+
             # Determine content position based on length
             # Count words in the HTML content (after stripping HTML tags)
             content_text = re.sub(r'<[^>]+>', '', index_content['content'])
             word_count = len(content_text.split())
-            
+
             # If content is longer than 150 words, put it at the bottom
             if word_count > 150:
                 content_position = 'bottom'
-        
+
         title = path_parts[-1].replace('-', ' ').replace('_', ' ').title()
-        
-        return render_template('directory.html', 
-                             items=items, 
+
+        return render_template('directory.html',
+                             items=items,
                              current_path=original_path,
                              title=title,
                              breadcrumbs=breadcrumbs,
@@ -569,11 +560,11 @@ def serve_path(path):
                              image_items=image_items,
                              current_year=datetime.now().year,
                              current_page=title)
-    
+
     elif full_path.suffix == '.md':
         # Markdown file
         content_data = render_markdown_file(full_path)
-        
+
         # Find related posts for essays and AI writings
         related_posts = []
         prev_post = None
@@ -581,7 +572,7 @@ def serve_path(path):
         if 'essays' in path or ('artificial-intelligence' in path and 'writings' in path):
             related_posts = find_related_posts(str(full_path.relative_to(DATA_DIR)))
             prev_post, next_post = find_adjacent_posts(str(full_path.relative_to(DATA_DIR)))
-        
+
         # Generate description from content for social sharing
         content_text = re.sub(r'<[^>]+>', '', content_data['content'])
         content_text = content_text.strip()
@@ -590,7 +581,7 @@ def serve_path(path):
             # Get first paragraph or first 200 chars
             first_para = content_text.split('\n\n')[0]
             description = first_para[:200] + '...' if len(first_para) > 200 else first_para
-        
+
         return render_template('post.html',
                              content=content_data['content'],
                              title=content_data['title'],
@@ -608,12 +599,12 @@ def serve_path(path):
                              tags=content_data.get('tags', []),
                              series_posts=content_data.get('series_posts', []),
                              series_name=content_data.get('series_name'))
-    
+
     elif full_path.suffix.lower() in ['.jpg', '.jpeg', '.png', '.gif', '.webp']:
         # Image file - check if it's in a gallery directory
         parent_dir = full_path.parent
         gallery_images = []
-        
+
         if parent_dir.exists():
             for img in sorted(parent_dir.iterdir()):
                 if img.suffix.lower() in ['.jpg', '.jpeg', '.png', '.gif', '.webp']:
@@ -623,7 +614,7 @@ def serve_path(path):
                         'url': f"/{img.relative_to(DATA_DIR)}",
                         'is_current': img == full_path
                     })
-        
+
         return render_template('photo.html',
                              image_path=f"/static/data/{path}",
                              title=full_path.stem.replace('-', ' ').replace('_', ' ').title(),
@@ -632,7 +623,7 @@ def serve_path(path):
                              current_path=path,
                              current_year=datetime.now().year,
                              current_page=full_path.stem.replace('-', ' ').replace('_', ' ').title())
-    
+
     else:
         # Other files - serve directly
         from flask import send_file
@@ -720,48 +711,48 @@ def api_search():
 def collect_blog_posts():
     """Collect blog posts from essays and AI writings for RSS feed."""
     posts = []
-    
+
     # Define blog post directories
     blog_dirs = [
         DATA_DIR / 'essays',
         DATA_DIR / 'artificial-intelligence'  # This will pick up root AI posts and scan subdirs
     ]
-    
+
     def scan_for_posts(path, category=""):
         if not path.exists() or not path.is_dir():
             return
-            
+
         for item in sorted(path.iterdir(), reverse=True):  # Most recent first
             if item.name.startswith('.') or item.name.lower() == 'index.md':
                 continue
-                
+
             if item.is_file() and item.suffix == '.md':
                 # Get post data
                 try:
                     content_data = render_markdown_file(item)
-                    
+
                     # Extract publication date using intelligent extraction
                     pub_date = extract_intelligent_date(item, content_data)
-                    
+
                     # Skip posts without determinable dates (no filename date, no YAML date, no content date)
                     if pub_date is None:
                         continue
-                    
+
                     # Create clean URL
                     relative_path = str(item.relative_to(DATA_DIR))
                     clean_url = '/' + relative_path[:-3]  # Remove .md extension
-                    
+
                     # Extract description (first paragraph or first 200 chars)
                     # Strip HTML tags for description
                     content_text = re.sub(r'<[^>]+>', '', content_data['content'])
                     content_text = content_text.strip()
-                    
+
                     # Get first paragraph or first 200 chars
                     description = ""
                     if content_text:
                         first_para = content_text.split('\n\n')[0]
                         description = first_para[:300] + '...' if len(first_para) > 300 else first_para
-                    
+
                     posts.append({
                         'title': content_data['title'],
                         'url': clean_url,
@@ -775,7 +766,7 @@ def collect_blog_posts():
             elif item.is_dir():
                 # Recursively scan subdirectories
                 scan_for_posts(item, category or item.name.replace('-', ' ').title())
-    
+
     # Scan each blog directory
     for blog_dir in blog_dirs:
         if blog_dir.exists():
@@ -783,10 +774,10 @@ def collect_blog_posts():
             if 'artificial-intelligence' in str(blog_dir):
                 category = 'AI & Consciousness'
             scan_for_posts(blog_dir, category)
-    
+
     # Sort by publication date (most recent first)
     posts.sort(key=lambda x: x['pub_date'], reverse=True)
-    
+
     return posts[:20]  # Return most recent 20 posts
 
 
@@ -801,7 +792,7 @@ _force_cache_clear = time.time()
 def extract_intelligent_date(item_path, content_data=None):
     """Extract date intelligently, prioritizing filename patterns as requested."""
     pub_date = None
-    
+
     # 1. PRIORITY: Try full YYYY-MM-DD format anywhere in filename first
     date_match = re.search(r'(\d{4}-\d{2}-\d{2})', item_path.name)
     if date_match:
@@ -810,7 +801,7 @@ def extract_intelligent_date(item_path, content_data=None):
             return pub_date
         except:
             pass
-    
+
     # 2. Try YYYY-MM format at start of filename
     date_match = re.match(r'(\d{4}-\d{2})', item_path.stem)
     if date_match:
@@ -825,12 +816,12 @@ def extract_intelligent_date(item_path, content_data=None):
                     day = int(day_match.group(2))
             except:
                 pass
-            
+
             pub_date = datetime.strptime(date_match.group(1) + f'-{day:02d}', '%Y-%m-%d')
             return pub_date
         except:
             pass
-    
+
     # 3. Try just year at start of filename (YYYY)
     year_match = re.match(r'(\d{4})', item_path.stem)
     if year_match:
@@ -839,11 +830,11 @@ def extract_intelligent_date(item_path, content_data=None):
             year = int(year_match.group(1))
             month = 1
             day = 1
-            
+
             try:
                 with open(item_path, 'r', encoding='utf-8') as f:
                     first_few_lines = ''.join(f.readlines()[:10])
-                
+
                 # Look for "*Month YYYY*" pattern in content
                 month_match = re.search(r'\*([A-Za-z]+)\s+' + str(year) + r'\*', first_few_lines)
                 if month_match:
@@ -851,12 +842,12 @@ def extract_intelligent_date(item_path, content_data=None):
                     month = datetime.strptime(month_name, '%B').month
             except:
                 pass
-            
+
             pub_date = datetime(year, month, day)
             return pub_date
         except:
             pass
-    
+
     # 4. Check YAML front matter for date (lower priority now)
     if content_data and content_data['metadata'].get('date'):
         try:
@@ -867,12 +858,12 @@ def extract_intelligent_date(item_path, content_data=None):
             return pub_date
         except:
             pass
-    
+
     # 5. Check for date in content (look for *Month YYYY* pattern)
     try:
         with open(item_path, 'r', encoding='utf-8') as f:
             first_few_lines = ''.join(f.readlines()[:10])
-        
+
         # Look for patterns like "*January 2025*" or "*Month YYYY*"
         month_year_match = re.search(r'\*([A-Za-z]+\s+\d{4})\*', first_few_lines)
         if month_year_match:
@@ -885,7 +876,7 @@ def extract_intelligent_date(item_path, content_data=None):
                 pass
     except:
         pass
-    
+
     # 6. Final fallback: if no date found anywhere, return None
     # (Removed file creation time fallback due to deployment issues)
     return None
@@ -894,56 +885,56 @@ def extract_intelligent_date(item_path, content_data=None):
 def _collect_all_blog_posts_cached():
     """Internal cached function to collect all blog posts with TTL."""
     current_time = time.time()
-    
+
     # Check if cache is valid
-    if (_blog_posts_cache['data'] is not None and 
+    if (_blog_posts_cache['data'] is not None and
         current_time - _blog_posts_cache['timestamp'] < CACHE_TTL):
         return _blog_posts_cache['data']
-    
+
     # Cache miss or expired - rebuild
     posts = []
-    
+
     # Define blog post directories
     blog_dirs = [
         DATA_DIR / 'essays',
         DATA_DIR / 'artificial-intelligence'  # This will pick up root AI posts and scan subdirs
     ]
-    
+
     def scan_for_posts(path, category=""):
         if not path.exists() or not path.is_dir():
             return
-            
+
         for item in sorted(path.iterdir(), reverse=True):  # Most recent first
             if item.name.startswith('.') or item.name.lower() == 'index.md':
                 continue
-                
+
             if item.is_file() and item.suffix == '.md':
                 # Get post data
                 try:
                     content_data = render_markdown_file(item)
-                    
+
                     # Extract publication date using intelligent extraction
                     pub_date = extract_intelligent_date(item, content_data)
-                    
+
                     # Skip posts without determinable dates (no filename date, no YAML date, no content date)
                     if pub_date is None:
                         continue
-                    
+
                     # Create clean URL
                     relative_path = str(item.relative_to(DATA_DIR))
                     clean_url = '/' + relative_path[:-3]  # Remove .md extension
-                    
+
                     # Extract description (first paragraph or first 200 chars)
                     # Strip HTML tags for description
                     content_text = re.sub(r'<[^>]+>', '', content_data['content'])
                     content_text = content_text.strip()
-                    
+
                     # Get first paragraph or first 200 chars
                     description = ""
                     if content_text:
                         first_para = content_text.split('\n\n')[0]
                         description = first_para[:300] + '...' if len(first_para) > 300 else first_para
-                    
+
                     posts.append({
                         'title': content_data['title'],
                         'url': clean_url,
@@ -957,7 +948,7 @@ def _collect_all_blog_posts_cached():
             elif item.is_dir():
                 # Recursively scan subdirectories
                 scan_for_posts(item, category or item.name.replace('-', ' ').title())
-    
+
     # Scan each blog directory
     for blog_dir in blog_dirs:
         if blog_dir.exists():
@@ -965,15 +956,15 @@ def _collect_all_blog_posts_cached():
             if 'artificial-intelligence' in str(blog_dir):
                 category = 'AI & Consciousness'
             scan_for_posts(blog_dir, category)
-    
+
     # Sort by publication date (most recent first)
     posts.sort(key=lambda x: x['pub_date'], reverse=True)
-    
+
     # Update cache
     result = tuple(posts)
     _blog_posts_cache['data'] = result
     _blog_posts_cache['timestamp'] = time.time()
-    
+
     return result
 
 
@@ -986,49 +977,49 @@ def find_related_posts(current_post_path, limit=3):
     """Find related posts based on category and content similarity."""
     posts = collect_all_blog_posts()
     current_post_url = '/' + current_post_path[:-3] if current_post_path.endswith('.md') else '/' + current_post_path
-    
+
     # Find current post
     current_post = None
     for post in posts:
         if post['url'] == current_post_url:
             current_post = post
             break
-    
+
     if not current_post:
         return []
-    
+
     # Score related posts
     related_posts = []
     for post in posts:
         if post['url'] == current_post_url:
             continue  # Skip current post
-            
+
         score = 0
-        
+
         # Category match gets high score
         if post['category'] == current_post['category']:
             score += 10
-        
+
         # Check for common words in titles (simple text similarity)
         current_title_words = set(current_post['title'].lower().split())
         post_title_words = set(post['title'].lower().split())
         common_title_words = current_title_words.intersection(post_title_words)
         score += len(common_title_words) * 2
-        
+
         # Check for common words in descriptions
         current_desc_words = set(current_post['description'].lower().split()) if current_post['description'] else set()
         post_desc_words = set(post['description'].lower().split()) if post['description'] else set()
         common_desc_words = current_desc_words.intersection(post_desc_words)
         score += len(common_desc_words) * 0.5
-        
+
         # Prefer more recent posts (slight boost)
         days_diff = abs((current_post['pub_date'] - post['pub_date']).days)
         if days_diff < 365:  # Posts within a year get a small boost
             score += max(0, (365 - days_diff) / 365)
-        
+
         if score > 0:
             related_posts.append((post, score))
-    
+
     # Sort by score and return top N
     related_posts.sort(key=lambda x: x[1], reverse=True)
     return [post for post, score in related_posts[:limit]]
@@ -1038,38 +1029,38 @@ def find_adjacent_posts(current_post_path):
     """Find next and previous posts chronologically."""
     posts = collect_all_blog_posts()
     current_post_url = '/' + current_post_path[:-3] if current_post_path.endswith('.md') else '/' + current_post_path
-    
+
     # Find current post index
     current_index = None
     for i, post in enumerate(posts):
         if post['url'] == current_post_url:
             current_index = i
             break
-    
+
     if current_index is None:
         return None, None
-    
+
     # Get previous (newer) and next (older) posts
     prev_post = posts[current_index - 1] if current_index > 0 else None
     next_post = posts[current_index + 1] if current_index < len(posts) - 1 else None
-    
+
     return prev_post, next_post
 
 
 def generate_sitemap_data():
     """Generate sitemap data by recursively scanning the data directory."""
     sitemap_items = []
-    
+
     def scan_directory(path, url_path=""):
         if not path.exists() or not path.is_dir():
             return
-            
+
         for item in sorted(path.iterdir()):
             if item.name.startswith('.'):
                 continue
-                
+
             item_url_path = f"{url_path}/{item.name}" if url_path else item.name
-            
+
             if item.is_dir():
                 # Add directory to sitemap
                 sitemap_items.append({
@@ -1083,7 +1074,7 @@ def generate_sitemap_data():
             elif item.suffix == '.md':
                 # Remove .md extension for clean URLs
                 clean_url_path = item_url_path[:-3] if item_url_path.endswith('.md') else item_url_path
-                
+
                 # Get title from file content
                 title = item.stem.replace('-', ' ').replace('_', ' ').title()
                 try:
@@ -1091,31 +1082,31 @@ def generate_sitemap_data():
                     title = content_data['title']
                 except:
                     pass
-                
+
                 sitemap_items.append({
                     'url': f"/{clean_url_path}",
                     'title': title,
                     'type': 'article',
                     'modified': datetime.fromtimestamp(item.stat().st_mtime)
                 })
-    
+
     # Start scanning from data directory
     scan_directory(DATA_DIR)
-    
+
     # Add static pages
     static_pages = [
         {'url': '/', 'title': 'Kenneth Reitz - Digital Mind Map', 'type': 'homepage'},
         {'url': '/directory', 'title': 'File Explorer', 'type': 'directory'},
         {'url': '/sitemap', 'title': 'Site Map', 'type': 'sitemap'}
     ]
-    
+
     return static_pages + sitemap_items
 
 @app.route('/sitemap')
 def sitemap():
     """Show the site sitemap."""
     sitemap_data = generate_sitemap_data()
-    
+
     # Group by type
     grouped_sitemap = {
         'homepage': [],
@@ -1123,12 +1114,12 @@ def sitemap():
         'article': [],
         'sitemap': []
     }
-    
+
     for item in sitemap_data:
         item_type = item.get('type', 'article')
         if item_type in grouped_sitemap:
             grouped_sitemap[item_type].append(item)
-    
+
     return render_template('sitemap.html',
                          title='Site Map',
                          sitemap_data=grouped_sitemap,
@@ -1141,19 +1132,19 @@ def sitemap():
 def sitemap_xml():
     """Generate XML sitemap for search engines."""
     sitemap_data = generate_sitemap_data()
-    
+
     xml_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml_content += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    
+
     for item in sitemap_data:
         xml_content += '  <url>\n'
         xml_content += f'    <loc>https://kennethreitz.org{escape(item["url"])}</loc>\n'
         if 'modified' in item:
             xml_content += f'    <lastmod>{item["modified"].strftime("%Y-%m-%d")}</lastmod>\n'
         xml_content += '  </url>\n'
-    
+
     xml_content += '</urlset>'
-    
+
     return Response(xml_content, mimetype='application/xml')
 
 
@@ -1162,7 +1153,7 @@ def sitemap_xml():
 def rss_feed():
     """Generate RSS feed for blog posts."""
     posts = collect_blog_posts()
-    
+
     # Generate RSS XML
     rss_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
     rss_content += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
@@ -1175,7 +1166,7 @@ def rss_feed():
     rss_content += '    <language>en-us</language>\n'
     rss_content += '    <managingEditor>me@kennethreitz.org (Kenneth Reitz)</managingEditor>\n'
     rss_content += '    <webMaster>me@kennethreitz.org (Kenneth Reitz)</webMaster>\n'
-    
+
     for post in posts:
         rss_content += '    <item>\n'
         rss_content += f'      <title>{escape(post["title"])}</title>\n'
@@ -1185,10 +1176,10 @@ def rss_feed():
         rss_content += f'      <pubDate>{post["pub_date"].strftime("%a, %d %b %Y %H:%M:%S GMT")}</pubDate>\n'
         rss_content += f'      <guid>https://kennethreitz.org{post["url"]}</guid>\n'
         rss_content += '    </item>\n'
-    
+
     rss_content += '  </channel>\n'
     rss_content += '</rss>'
-    
+
     return Response(rss_content, mimetype='application/rss+xml')
 
 if __name__ == '__main__':
