@@ -19,6 +19,11 @@ Comprehensive exploration of human-centered design principles that prioritize de
 
 **Key topics**: Human-centered design, API philosophy, constraints as creativity, README-driven development, empathy as engineering skill
 
+### [Algorithmic Critique: When Engagement Optimization Destroys Human Flourishing](/themes/algorithmic-critique)
+Systematic analysis of how algorithmic systems designed for engagement maximization systematically undermine virtue, mental health, language, and human connection.
+
+**Key topics**: Algorithm ethics, engagement optimization critique, virtue destruction, mental health crisis, language degradation, dating app commodification
+
 ### [Open Source & Community: Building Technology That Serves Everyone](/themes/open-source-and-community)
 Building inclusive technical communities that embody their values, from early visions of decentralized social networks to community anti-patterns and solutions.
 
