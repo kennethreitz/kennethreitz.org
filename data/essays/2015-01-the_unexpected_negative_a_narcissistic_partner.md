@@ -45,11 +45,17 @@ But the instability is the point. It keeps you off-balance, always trying to reg
 
 ## The Unraveling
 
-The relationship began to deteriorate as my mental health challenges emerged. Instead of support during my most vulnerable period, I experienced additional psychological pressure when I most needed stability and understanding.
+The relationship began to deteriorate as my mental health challenges emerged. Instead of support during my most vulnerable period, I experienced abandonment and gaslighting when I most needed stability and understanding.
 
-It became clear that my value in the relationship was tied to what I could provide—emotional support, validation, creative inspiration, even career advancement opportunities—rather than who I was as a person. When mental health challenges made me less able to serve these functions, the mask began to slip.
+When I received my mental health diagnosis, she dismissed it entirely, insisting I was just "more sensitive to the moon" and that my psychological struggles were spiritual rather than medical<label for="sn-medical-gaslighting" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-medical-gaslighting" class="margin-toggle"/><span class="sidenote">Medical gaslighting—dismissing or reframing someone's legitimate health conditions—is a particularly dangerous form of manipulation that can prevent people from getting necessary treatment and support.</span>. This mystical reframing of my documented mental health condition was perhaps the most insidious form of gaslighting I experienced.
 
-The final months were characterized by increasingly obvious manipulation tactics: threats of self-harm when I tried to establish boundaries, accusations that I was "abandoning" them during their crises, and claims that my mental health treatment was making me "different" and "less loving."
+It became clear that my value in the relationship was tied to what I could provide—affection, admiration, validation, sex, and money—rather than who I was as a person. When mental health challenges made me less able to serve these functions, her interest waned dramatically.
+
+The end came suddenly but tellingly. Despite everything, I still believed in the relationship enough to propose marriage again. Her response was brutally clear: "Kenneth, that is never going to happen."
+
+That moment of stark honesty revealed everything. She was willing to continue extracting what she needed from me indefinitely, but she had no intention of making a genuine commitment. The relationship had always been transactional from her perspective, even when it felt cosmic from mine.
+
+I walked away that day<label for="sn-walking-away" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-walking-away" class="margin-toggle"/><span class="sidenote">Sometimes the moment of clarity comes not from gradual realization but from a single sentence that strips away all illusions. The willingness to continue using someone while explicitly rejecting deeper commitment reveals the true nature of the dynamic.</span>.
 
 ## Recognition and Recovery
 
