@@ -1,6 +1,6 @@
 # The Inclusion Illusion: How Tech Companies Quietly Eliminate "Liabilities"
 
-**The uncomfortable truth about diversity in tech:** companies that loudly celebrate neurodiversity, mental health awareness, and inclusive hiring practices often quietly eliminate employees who actually need accommodations or disclose mental health conditions. The rainbow logos and mental health benefit announcements are performative inclusion designed to attract talent and improve public image—but when employees actually use these resources or need support, they mysteriously find themselves "reorganized" out of existence.
+**The uncomfortable truth about diversity in tech:** companies that loudly celebrate neurodiversity, mental health awareness, and inclusive hiring practices often quietly eliminate employees who actually need accommodations. The rainbow logos and mental health benefit announcements are performative inclusion designed to attract talent and improve public image—but when employees actually use these resources, they mysteriously find themselves "reorganized" out of existence.
 
 I've been watching this pattern for over a decade, since I first wrote about [living with bipolar disorder in tech](/mental-health) in 2016. The responses were telling: public praise for "brave transparency," private warnings about career suicide, and a consistent pattern of people reaching out to share their own stories of discrimination they couldn't speak about publicly<label for="sn-whisper-network" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-whisper-network" class="margin-toggle"/><span class="sidenote">There's an entire underground network of tech workers sharing stories about disability discrimination—people who can't speak publicly because they're still trying to work in an industry that punishes authenticity about mental health and chronic illness.</span>.
 
@@ -168,9 +168,21 @@ Genuine inclusion would require fundamental changes:
 
 Change requires action at multiple levels:
 
-For individual protection: Document everything<label for="sn-document-everything" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-document-everything" class="margin-toggle"/><span class="sidenote">Email yourself contemporaneous notes. Save every communication. Document every conversation. You're building evidence for the discrimination lawsuit you hope you'll never need to file.</span>. Consult employment attorneys before disclosing conditions. Build networks with others who share similar challenges. Work with disability rights organizations. Consider carefully whether disclosure is worth the professional risk<label for="sn-strategic-disclosure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-strategic-disclosure" class="margin-toggle"/><span class="sidenote">The sad reality: disclosing mental health conditions in tech is often career suicide. The calculation isn't whether to be authentic—it's whether you can afford the professional consequences of honesty.</span>.
+### Individual Protection
 
-For systemic reform: We need stronger ADA enforcement with real penalties. Mandatory reporting on accommodation requests and retention rates. Public databases of company disability practices. Support for legal test cases. Social pressure through media and professional networks to expose discriminatory patterns.
+- **Document everything**<label for="sn-document-everything" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-document-everything" class="margin-toggle"/><span class="sidenote">Email yourself contemporaneous notes. Save every communication. Document every conversation. You're building evidence for the discrimination lawsuit you hope you'll never need to file.</span> - communications, meetings, performance feedback, and accommodation requests
+- **Consult employment attorneys** before disclosing conditions or making formal requests
+- **Build networks** with others who share similar challenges and experiences
+- **Work with disability rights organizations** for support and resources
+- **Consider carefully** whether disclosure is worth the professional risk<label for="sn-strategic-disclosure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-strategic-disclosure" class="margin-toggle"/><span class="sidenote">The sad reality: disclosing mental health conditions in tech is often career suicide. The calculation isn't whether to be authentic—it's whether you can afford the professional consequences of honesty.</span>
+
+### Systemic Reform
+
+- **Stronger ADA enforcement** with real penalties for violating companies
+- **Mandatory reporting** on accommodation requests, approvals, and retention rates
+- **Public databases** of company disability practices and discrimination records
+- **Support for legal test cases** that establish stronger precedents
+- **Social pressure** through media and professional networks to expose patterns
 
 ## A Personal Note
 
@@ -182,15 +194,32 @@ This article isn't speculation—it's documentation of patterns I've observed, e
 
 My sensitivity to these discrimination patterns was heightened by [previous experience with systematic psychological manipulation](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner)—recognizing how institutions, like individuals, can exploit trust and vulnerability for their own purposes while maintaining plausible deniability about their actions.
 
-## The Inclusion Imperative
+## The Choice Before Us
 
-Tech companies cannot continue to claim commitment to diversity and inclusion while systematically eliminating employees who actually represent neurodiversity and mental health awareness. The current practice is morally bankrupt and strategically counterproductive.
+Tech companies cannot continue claiming commitment to diversity while systematically eliminating employees who actually need accommodation. The current practice is morally bankrupt and strategically counterproductive.
 
-Real inclusion requires more than benefit packages and awareness campaigns. It requires fundamental changes to how we evaluate performance, design work environments, and treat colleagues who think and function differently.
+Real inclusion requires more than benefit packages and awareness campaigns—it demands fundamental changes to performance evaluation, work environment design, and how we treat colleagues who think differently.
 
-The choice is clear: either commit to genuine inclusion that accommodates real human differences, or stop pretending that diversity matters to you<label for="sn-moral-choice" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moral-choice" class="margin-toggle"/><span class="sidenote">The pretense is almost worse than open discrimination. At least honest bigotry doesn't gaslight you into believing you're safe before destroying your career.</span>. The current performance of inclusion while practicing elimination is worse than honest discrimination—it's systematic betrayal of the most vulnerable people who were brave enough to trust your public commitments<label for="sn-moral-clarity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moral-clarity" class="margin-toggle"/><span class="sidenote">The betrayal is worse than outright hostility because it weaponizes trust and hope against the people who need support most. It's systematic gaslighting disguised as corporate social responsibility.</span>.
+The choice is clear: either commit to genuine inclusion that accommodates real human differences, or stop the pretense<label for="sn-moral-choice" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moral-choice" class="margin-toggle"/><span class="sidenote">The pretense is almost worse than open discrimination. At least honest bigotry doesn't gaslight you into believing you're safe before destroying your career.</span>. Performing inclusion while practicing elimination is systematic betrayal of the most vulnerable people who trusted your public commitments<label for="sn-moral-clarity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moral-clarity" class="margin-toggle"/><span class="sidenote">The betrayal is worse than outright hostility because it weaponizes trust and hope against the people who need support most. It's systematic gaslighting disguised as corporate social responsibility.</span>.
 
-We can build a tech industry that genuinely includes and supports neurodivergent thinking, mental health differences, and disability accommodation. But first, we have to stop pretending that rainbow logos and mental health benefits constitute inclusion while quietly eliminating the people who need them.
+We can build a tech industry that genuinely supports neurodivergent thinking and mental health differences. But first, we must stop pretending that rainbow logos constitute inclusion while quietly eliminating the people who need what we claim to offer.
+
+## Related Reading
+
+### On This Site
+- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - How technology systematically exploits psychological vulnerabilities
+- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - Engagement optimization's destruction of human character
+- [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young) - How ideal-driven groups betray their stated principles
+- [The Unexpected Negative: A Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) - Personal manipulation patterns that scale to institutional behavior
+- [Mental Health Journey](/mental-health) - Personal experience with mental health disclosure in tech
+- [Mental Health & Technology](/themes/mental-health-and-technology) - Complete thematic collection
+
+### External Resources
+- *Nothing About Us, Without Us* by James Charlton - Disability rights and self-advocacy
+- *Neurotribes* by Steve Silberman - History and understanding of autism and neurodiversity
+- *The Body Keeps the Score* by Bessel van der Kolk - Trauma's impact on workplace and relationships
+- *Crip Theory* by Robert McRuer - Cultural studies of disability and discrimination
+- Americans with Disabilities Act (ADA) resources and complaint processes
 
 ---
 
