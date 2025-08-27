@@ -153,11 +153,12 @@ The algorithm doesn't have to eat virtue. We can choose to feed it something els
 
 ### On This Site
 - [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Clinical analysis of psychological damage from algorithmic systems
+- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How engagement optimization degrades communication
+- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify human connection
+- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms undermine democratic discourse
+- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
+- [Algorithmic Critique](/themes/algorithmic-critique) - Complete series examining engagement optimization's costs
 - [The Seven Virtues](/artificial-intelligence/personalities/seven-virtues/) - The classical framework for human excellence explored in this essay
-- [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young) - How ideal-driven communities betray their stated values
-- [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion) - Tech's systemic discrimination patterns
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Alternative models for human-AI collaboration
-- [Mental Health & Technology](/themes/mental-health-and-technology) - Complete thematic collection
 
 ### External Resources
 - *The Tech Wise Family* by Andy Crouch - Practical wisdom for living with technology intentionally

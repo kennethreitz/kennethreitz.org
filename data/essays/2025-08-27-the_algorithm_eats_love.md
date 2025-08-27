@@ -85,6 +85,24 @@ While this path may be slower and yield fewer initial contacts, research suggest
 
 Love is not a numbers game. As I explored in [my reflections on 1 Corinthians 13](/essays/2018-01-on_love), love is patient, kind, and endures all things. It doesn't insist on its own way—unlike algorithmic systems designed to maximize engagement at any cost. The fact that we need to be reminded of love's true nature shows how profoundly these systems have distorted our understanding of human connection.
 
+## Related Reading
+
+### On This Site
+- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization systematically undermines human character
+- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Clinical analysis of psychological damage from algorithmic systems
+- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade communication capacity
+- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How engagement optimization destroys democratic discourse
+- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
+- [On Love](/essays/2018-01-on_love) - Reflections on 1 Corinthians 13 and the true nature of love
+- [The Unexpected Negative: a Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) - Personal experience with manipulative relationship patterns
+- [Algorithmic Critique](/themes/algorithmic-critique) - Complete series examining engagement optimization's costs
+
+### External Resources
+- *Modern Romance* by Aziz Ansari - Sociological research on how dating has changed
+- *The All-or-Nothing Marriage* by Eli Finkel - How expectations of marriage have evolved
+- *Attached* by Amir Levine and Rachel Heller - Attachment theory in adult relationships
+- *Why We Love* by Helen Fisher - Neuroscience of romantic attraction and attachment
+
 ---
 
 *"Dating apps are shopping for humans with a return policy."*  

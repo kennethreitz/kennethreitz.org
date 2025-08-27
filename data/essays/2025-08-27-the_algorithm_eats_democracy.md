@@ -154,6 +154,7 @@ The choice isn't between different political outcomes. It's between preserving t
 - [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - The psychological damage that makes democratic participation difficult
 - [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade the communication capacity democracy requires
 - [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - Parallel systems of commodification destroying human connection
+- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification manufactures fake consensus
 - [Algorithmic Critique](/themes/algorithmic-critique) - Complete thematic collection examining engagement optimization's societal costs
 - [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Design principles that serve rather than exploit human nature
 
