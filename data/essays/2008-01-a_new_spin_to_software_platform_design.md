@@ -6,7 +6,7 @@ category: "Software Development"
 
 # A New Spin to Software Platform Design
 
-*I wrote this article two years ago, before I found OS X.*
+*I wrote this article two years ago, before I found OS X.*<label for="sn-osx-discovery" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-osx-discovery" class="margin-toggle"/><span class="sidenote">The irony is that OS X already embodied most of the principles I was advocating for here. Sometimes the future we envision already exists—we just haven't discovered it yet.</span>
 
  As I've said before, I find many reasons to believe that modern commercialized software platforms are severely lacking in many, many areas. This should not come as a surprise to anyone. Perhaps basic utility\-inclusion is not the only solution though. Perhaps the basic priority structure and ethics that development and marketing teams utilize should be forced into question.
 
@@ -18,7 +18,7 @@ category: "Software Development"
 
  Second, the user interface should be very well thought out and planned, with ample room for improvement down the road. Its purpose should first be a place of usability, workflow, and creativity. Task\-related workflow and presentation customization, accessible to all types of users, is crucial to the success of the UI. Second, the User Interface should be a mode of personal expression and aesthetic preference. This should never take precedence over the overall stability, usability, or general usefulness of a desktop system, for any given reason.
 
- Lastly, the user application platform system needs to be designed. A centralized repository of applications is an incredibly efficient method for application distribution. This repository would be a dynamic, centralized database of application software and packages that are intended for different groups of people. Most major Linux distributions use this heavily, as well as Apple for it's iPod and iPhone applications, and it has been proven to work well.
+ Lastly, the user application platform system needs to be designed. A centralized repository of applications is an incredibly efficient method for application distribution<label for="sn-app-store" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-app-store" class="margin-toggle"/><span class="sidenote">Written in 2008, this predicted the App Store revolution that would transform software distribution. Apple launched the iOS App Store later that same year, validating this vision of centralized, curated software repositories.</span>. This repository would be a dynamic, centralized database of application software and packages that are intended for different groups of people. Most major Linux distributions use this heavily, as well as Apple for it's iPod and iPhone applications, and it has been proven to work well.
 
  Any of these rules should have the ability to be broken easily by advanced power users for technical reasons/needs. This should be in no way advertised or demonstrated.
 
