@@ -1,7 +1,5 @@
 ---
 *August 2025*
-
-tags: [community, psychology, organizations, social-dynamics, activism, open-source]
 ---
 
 # When Values Eat Their Young: How Ideal-Driven Groups Drift into Their Own Shadow
