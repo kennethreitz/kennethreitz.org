@@ -26,7 +26,7 @@
 
  ### Heroku's Values
 
- I've always found myself attracted to beautiful and elegant architectures and APIs. Heroku is a natural perfect fit. They're inspiring as both a Product, a Platform, and a Company. Here are a few selections of team marketing:
+ I've always found myself attracted to beautiful and elegant architectures and APIs. Heroku is a natural perfect fit. They're inspiring as both a Product, a Platform, and a Company—embodying the values that would later crystallize into [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice). Here are a few selections of team marketing:
 
  On craft:
 

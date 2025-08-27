@@ -4,7 +4,7 @@
 
  Account security is something that I’ve always considered myself to be rather pragmatic about — I use randomly generated passwords for extremely important accounts and services, like GitHub, especially if they are likely to be subject to systematic intrusion attempts. 
 
- In this instance, though, the attack vector was DNS. My account at the not\-so\-incredibly\-common [DNSimple.com](https://dnsimple.com/r/125ca47dda0551) did not use a highly secure password. I didn’t think it was necessary, as in my mind, the only reason that the security of an account like that would be at risk would be if I was the explicit target of an attack. [Once again](http://www.kennethreitz.org/essays/mentalhealtherror-an-exception-occurred), I thought to myself “That’s something that only happens to *other* people”.
+ In this instance, though, the attack vector was DNS. My account at the not\-so\-incredibly\-common [DNSimple.com](https://dnsimple.com/r/125ca47dda0551) did not use a highly secure password. I didn't think it was necessary, as in my mind, the only reason that the security of an account like that would be at risk would be if I was the explicit target of an attack. [Once again](/essays/2016-01-mentalhealtherror_an_exception_occurred), I thought to myself "That's something that only happens to *other* people".
 
  ## What happened?
 

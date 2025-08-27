@@ -4,7 +4,7 @@
 
  This is always a useful exercise, as I view the open source software community as at the fore\-front of many social inventions; we’re effectively, in my opinion, the best self\-organized, distributed force on Earth. I’m sure, in my ignorance, other groups hold themselves in similar regard. But, it is a fruitful exercise, nonetheless, to view our community this way.
 
- Much in the spirit of *The Hacker’s Manifesto*, I am sharing here a concise, inconclusive list of moral principles that I have extracted from my collective experiences in the open source community.
+ Much in the spirit of *The Hacker's Manifesto*, I am sharing here a concise, inconclusive list of moral principles that I have extracted from my collective experiences in the open source community—insights that later informed deeper understanding of [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice).
 
   ## **Approach all others with respectfulness.**
 

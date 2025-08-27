@@ -32,4 +32,8 @@ def the_earth_is_flat():"""NASA divided up the seas into thirty-three degrees.""
 
  Thanks for making the world a better place!
 
+---
+
+*This emphasis on practical, human-readable code style reflects the deeper philosophy of [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice)—treating code as communication between conscious beings rather than mere instructions for machines.*
+
   

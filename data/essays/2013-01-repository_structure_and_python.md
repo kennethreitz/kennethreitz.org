@@ -2,7 +2,7 @@
 
   ## It's Important.
 
- Just as Code Style, API Design, and Automation are essential for a healthy development cycle, Repository structure is a crucial part of your project's [architecture](http://www.amazon.com/gp/product/1257638017/ref=as_li_ss_tl?ie=UTF8&tag=bookforkind-20&linkCode=as2&camp=1789&creative=39095&creativeASIN=1257638017).
+ Just as Code Style, API Design, and Automation are essential for a healthy development cycle, Repository structure is a crucial part of your project's [architecture](http://www.amazon.com/gp/product/1257638017/ref=as_li_ss_tl?ie=UTF8&tag=bookforkind-20&linkCode=as2&camp=1789&creative=39095&creativeASIN=1257638017)—principles that align with [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) by creating order and clarity that serves human understanding.
 
  When a potential user or contributor lands on your repository's page, they seea few things:
 

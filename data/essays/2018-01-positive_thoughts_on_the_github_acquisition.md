@@ -6,7 +6,7 @@
 
  ## This Will Be Good
 
- Microsoft is a good company, now. They’ve been showing a lot of good–will towards both the developer community and specifically the open source community over the past several years. Their releases of SQL Server for Linux, .NET Core, Linux support on Azure, VSCode, and other projects (like financially supporting Requests!) have done nothing but prove to me that:
+ Microsoft is a good company, now. They've been showing a lot of good–will towards both the developer community and specifically the open source community over the past several years. Their releases of SQL Server for Linux, .NET Core, Linux support on Azure, VSCode, and other projects (like financially supporting Requests!) have done nothing but prove to me that—demonstrating the evolution that [sometimes I was ahead of my time in recognizing](/essays/2025-08-26-ahead_of_my_time_i_think):
 
  1. Microsoft understands that the world wants open source.
 2. Microsoft understands the ethos of open source software, and doesn’t want to capitalize upon it by changing it.

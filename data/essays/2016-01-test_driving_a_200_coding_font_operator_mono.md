@@ -32,7 +32,7 @@
 
  This is a designer typeface from the most influential and prestigious type foundry in the world. Much like an [Hermès Edition Apple Watch](http://www.apple.com/shop/buy-watch/apple-watch-hermes/silver-stainless-steel-feu-single-tour?preSelect=false&product=MNQ22LL/A&step=detail#), it is an entirely unnecessary expense that may bring great subjective joy to your life.
 
- To me, that's all that really matters. 
+ To me, that's all that really matters—part of understanding [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) where the tools and environment we choose shape our consciousness and creative expression. 
 
   
 

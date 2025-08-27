@@ -8,7 +8,7 @@
 
  I made the decision to start losing weight in November of 2013\.
 
- Inspired by a debilitating persistent migraine ([NDPH](https://en.wikipedia.org/wiki/New_daily_persistent_headache)) that I was determined to conquer, I decided to start optimizing all facets of my lifestyle—diet, habits, \&c. It was almost like a hobby, but with ending chronic pain as the end\-goal. I started practicing yoga daily and deep meditation ([perhaps a bit too deep](http://www.kennethreitz.org/essays/mentalhealtherror-an-exception-occurred)). 
+ Inspired by a debilitating persistent migraine ([NDPH](https://en.wikipedia.org/wiki/New_daily_persistent_headache)) that I was determined to conquer, I decided to start optimizing all facets of my lifestyle—diet, habits, \&c. It was almost like a hobby, but with ending chronic pain as the end\-goal. I started practicing yoga daily and deep meditation ([perhaps a bit too deep](/essays/2016-01-mentalhealtherror_an_exception_occurred)). This holistic approach to health became foundational to understanding [how technology affects mental and physical wellbeing](/essays/2025-08-26-algorithmic_mental_health_crisis). 
 
  When I started to re\-evaluate my diet, my primary goal was to improve that state of my brain and mind. I wanted to rid myself of this horrible migraine. The only useful tool I had at the time was a new prescription for Topamax—an excellent medication used for migraine prevention, and often, weight\-loss. So, this seemed like a good time to kill two birds with one stone. 
 

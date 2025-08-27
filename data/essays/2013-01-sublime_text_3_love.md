@@ -127,4 +127,8 @@ alias mate=’subl -w’
 
  Happy hacking!
 
+---
+
+*This passion for editor optimization and development aesthetics reflects deeper themes about [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice)—creating environments that support consciousness and flow state.*
+
   

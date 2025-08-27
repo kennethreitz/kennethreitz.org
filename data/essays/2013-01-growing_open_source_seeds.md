@@ -32,7 +32,7 @@
 
  ## Requests: HTTP for Humans
 
- Requests is a surprisingly popular open source project that I created. It’s been downloaded 3,300,000 times and I receive dozens upon dozens of emails about it every day. The project is very much developed in the open and there have been thousands of contributions by hundreds of people.
+ Requests is a surprisingly popular open source project that I created. It's been downloaded 3,300,000 times and I receive dozens upon dozens of emails about it every day. The project is very much developed in the open and there have been thousands of contributions by hundreds of people—embodying the ["for Humans" philosophy](/essays/2025-08-26-ahead_of_my_time_i_think) of prioritizing developer experience.
 
  However, there’s one key difference between Requests and Gittip or Python. While I develop Requests in the open and have a thriving community built around it, zero of the project’s decisions are made by the community — they are made by me.
 
@@ -89,4 +89,4 @@
 
  The easiest way to accomplish this is to document the project’s goals and intensions. When someone sends a crazy pull request, kindly thank them for their contribution, point them to the guidelines in the documentation, and encourage them to send another pull request.
 
- Open source makes the world a better place. Don’t make it complicated.
+ Open source makes the world a better place. Don't make it complicated—principles that evolved into understanding [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice), treating code development as conscious service to human flourishing.
