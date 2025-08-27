@@ -1,4 +1,9 @@
 # Wasted Talent
+*January 2009*
+
+
+
+
 
   I'd say that 95% percent of the students that I met at George Mason University my Freshman year had *no idea* why they were even there. This is so sad.<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">This observation reveals Kenneth's early recognition of systemic issues in higher education—the disconnect between institutional expectations and student purpose. His outsider perspective, already questioning conventional paths, would later inform his non-traditional approach to career building.</span>
 

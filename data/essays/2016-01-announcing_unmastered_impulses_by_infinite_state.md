@@ -1,4 +1,9 @@
 # Announcing: "Unmastered Impulses" by Infinite State!
+*January 2016*
+
+
+
+
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666487441-Q3F1Z10W43EMVB8UWXV1/6e2ef-img.jpg)      ![6c129-img_0149_2.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666457502-JFD5ZAUZ2CFY093VJIFD/26a7a-6c129-img_0149_2.jpg)    ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666494224-1OUIN94SV3QD7XX7BUAJ/836a6-4e846-image-asset.jpeg)   As you may or may not know, a primary personal focus of mine is on electronic music production. I have a deep love for analog synthesizers, drum machines, audio software, and the creation of music. Music is an excellent medium for crafting an image of certain facets of my inner world in a way that I am unable through other avenues, e.g. writing, code, and photography.
 
@@ -8,7 +13,7 @@
 
  Today, I'm happy to announce that I have released my first album, *[Unmastered Impulses](http://www.kennethreitz.org/unmastered-impulses),* a sonic journal of my journey into bipolar mania.
 
-  View fullsize ![Available on Spotify ,&nbsp; TIDAL , and SoundCloud .&nbsp;](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666489302-RQID2RIZ8DFI8VEB93CZ/74cd6-326ac-image-asset.jpeg)![Available on Spotify ,&nbsp; TIDAL , and SoundCloud .&nbsp;]()
+  ![Available on Spotify ,&nbsp; TIDAL , and SoundCloud .&nbsp;](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666489302-RQID2RIZ8DFI8VEB93CZ/74cd6-326ac-image-asset.jpeg)
 
   *Available on [Spotify](https://open.spotify.com/album/1ejOTrNLk9qTzF6uuPn6xw), [TIDAL](http://tidal.com/album/63034611), and [SoundCloud](https://soundcloud.com/infinitestate/sets/unmastered-impulses).*
 

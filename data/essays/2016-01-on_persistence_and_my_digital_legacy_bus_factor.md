@@ -1,6 +1,11 @@
 # On Persistence and My Digital Legacy (Bus Factor)
+*January 2016*
 
-   View fullsize ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666458901-ZK1KGIF47ZHJZP5BKFIS/00124-28a51-image-asset.jpeg)![]()   My life primarily revolves around creating things—digital things—for others to consume. This content is an embodiment of who I am, and is of great value to me (and hopefully others). 
+
+
+
+
+   ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666458901-ZK1KGIF47ZHJZP5BKFIS/00124-28a51-image-asset.jpeg)   My life primarily revolves around creating things—digital things—for others to consume. This content is an embodiment of who I am, and is of great value to me (and hopefully others). 
 
  All of my work, *including this post*, is made available via services which could disappear at any moment, disable my account, lose my content, or become unable to charge my debit card. 
 

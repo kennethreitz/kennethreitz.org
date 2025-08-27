@@ -1,4 +1,9 @@
 # Django Remote Development Server
+*January 2009*
+
+
+
+
 
   ![](http://media.kennethreitz.com/images/django-logo.png) If you've worked with Django much at all, I'm sure you've had this problem: wanting to access the built\-in development webserver remotely<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>

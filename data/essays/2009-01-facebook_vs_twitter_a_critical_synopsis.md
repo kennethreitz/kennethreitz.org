@@ -1,4 +1,9 @@
 # Facebook vs Twitter: A Critical Synopsis
+*January 2009*
+
+
+
+
 
 For the sake of us all, lets take a look at two major social networks on the web today: [Facebook](http://facebook.com "Facebook") and [Twitter](http://twitter.com/kennethreitz).<label for="sn-social-2009" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-social-2009" class="margin-toggle"/><span class="sidenote">Written in 2009, this comparison captures a pivotal moment when Twitter was still emerging as a major platform, before its role in political movements, before Facebook's massive scale, and before the attention economy concerns that would later dominate social media discourse.</span>
 

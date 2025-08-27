@@ -1,4 +1,9 @@
 # On the Progression of Brand Trust (Over Time)
+*January 2019*
+
+
+
+
 
   Over the years, there are a number of brands that I've discovered/placed a lot of *value* with/in. Some of these brands, which I'll call, here, "Trusted Brands", are: Samsung, Sony, Olympus, Nite\-Ize, Leica, Walmart (new), Heroku, Apple (ossilates). 
 

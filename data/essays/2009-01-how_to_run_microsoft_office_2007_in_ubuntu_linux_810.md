@@ -1,4 +1,9 @@
 # How to Run Microsoft Office 2007 in Ubuntu Linux 8.10
+*January 2009*
+
+
+
+
 
   ![ms-office-2007](http://www.programmerfish.com/wp-content/uploads/2009/03/msoffice2007.gif) Wouldn't it be lovely to have a nice, clean installation of Microsoft's Office 2007 Suite to run on your Ubuntu Linux Distribution? For some people, this is the only thing that truly holds them back from an all\-Linux environment... But not anymore! We have compiled a nice, concise set of instructions to help guide you along. ### Install Wine:
 

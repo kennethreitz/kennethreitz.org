@@ -1,4 +1,9 @@
 # Building a Rapport with Your AI
+*August 2025*
+
+
+
+
 
 **The goal here is simple:** transform your AI interactions from transactional commands into collaborative partnerships. Instead of treating AI as a sophisticated search engine, we'll explore how building genuine rapport—just like you would with any new collaborator—leads to dramatically better outcomes for both technical and creative work.
 

@@ -1,6 +1,11 @@
 # Pro–Level Camera Recommendations for 2018
+*January 2018*
 
- ![L1001798.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666483318-ID36AJJ8DI6OERUU7BO5/5b924-3e5df-l1001798.jpg)![L1001798.jpg]()   I’ve compiled a list, for a coworker, of professional\-level cameras I recommend at this point in time, at various budgets.
+
+
+
+
+  ![L1001798.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666483318-ID36AJJ8DI6OERUU7BO5/5b924-3e5df-l1001798.jpg)   I’ve compiled a list, for a coworker, of professional\-level cameras I recommend at this point in time, at various budgets.
 
 
  Things these cameras all have in common, and why I recommend them:

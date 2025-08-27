@@ -1,4 +1,9 @@
 # Dear Borders: I hate you
+*January 2009*
+
+
+
+
 
   Dear Borders (and Starbucks subidary Seattle's Best Coffee), You have a lovely book store. Quite lovely<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>

@@ -1,4 +1,9 @@
 # Crossing Over to the Dark Side
+*January 2009*
+
+
+
+
 
   Well, I've done it. I've crossed over. To .NET.I will continue to be a complete open\-source junkie of course, butduring the work hours, I will no longer be working with PHP and Python.I will now be working with .NET and SharePoint.
 

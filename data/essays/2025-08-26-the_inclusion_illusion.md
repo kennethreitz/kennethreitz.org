@@ -1,4 +1,9 @@
 # The Inclusion Illusion: How Tech Companies Quietly Eliminate "Liabilities"
+*August 2025*
+
+
+
+
 
 **The uncomfortable truth about diversity in tech:** companies that loudly celebrate neurodiversity, mental health awareness, and inclusive hiring practices often quietly eliminate employees who actually need accommodations. The rainbow logos and mental health benefit announcements are performative inclusion designed to attract talent and improve public image—but when employees actually use these resources, they mysteriously find themselves "reorganized" out of existence.
 

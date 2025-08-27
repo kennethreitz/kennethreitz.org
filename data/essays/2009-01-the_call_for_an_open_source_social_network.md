@@ -1,4 +1,9 @@
 # The Call for an Open Source Social Network
+*January 2009*
+
+
+
+
 
   Lately, I've been tossing some ideas around that I feel would benefit the Social Web as a whole. It’s been going through some rough times lately, and I think it’s time for a change. Or so I thought.My first idea was to create a site that was rather decentralized, allowing all of your content to exist on other sites, but still allowing for you to interact without locking a user in. As it turns out, this site already exists. It is called [FriendFeed](http://friendfeed.com/kennethreitz). *[I love FriendFeed](http://kennethreitz.com/blog/friendfeed-is-awesome/)*. About a week after I decided that I wanted to get into it, [Facebook decided to purchase it](http://kennethreitz.com/blog/friendfeed-is-awesome/). How sad. They claim that it will still be up and running, but we’ll see if that proves to be the case (I have my fingers crossed). Pownce (which was powered by Python / Django) was shut down when it was purchased. I pray this not be the case.
 

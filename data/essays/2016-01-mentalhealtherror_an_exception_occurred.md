@@ -1,6 +1,11 @@
 # MentalHealthError: an exception occurred.
+*January 2016*
 
-![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666513098-RSCJJ3L6G8GR6FS625EJ/c7b18-44282-image-asset.jpeg)![]()
+
+
+
+
+ ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666513098-RSCJJ3L6G8GR6FS625EJ/c7b18-44282-image-asset.jpeg)
 
  The programming community has been opening up over the past few years about mental health issues, so, I want to take this opportunity to open up about my own. This transparency about [mental health in tech](/mental-health) was uncommon in 2016 but has become increasingly important as we recognize the [systematic psychological damage](/essays/2025-08-26-algorithmic_mental_health_crisis) that our industry's products can create.
 

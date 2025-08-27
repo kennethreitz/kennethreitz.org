@@ -52,6 +52,9 @@ A comprehensive exploration of human-centered design principles that prioritize 
 ### Algorithmic Manipulation
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - When systems optimize against human flourishing
 - [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Technology designed to exploit rather than serve
+- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How engagement optimization degrades communication
+- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - Dating apps as anti-human relationship systems
+- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms destroy democratic discourse
 
 ### Discrimination & Exclusion
 - [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion) - When "human-centered" becomes gatekeeping

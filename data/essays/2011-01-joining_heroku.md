@@ -1,4 +1,9 @@
 # Joining Heroku!
+*January 2011*
+
+
+
+
 
   I am extremely happy to announce that I am joining the [Heroku](http://heroku.com/) team!If you aren't familiar, Heroku is a Polyglot Platform as a Service for hosting web applications. The product is executed so well that they are responsible for an entire micro\-industry of PaaS platforms for different languages (Python included). Company after company strives to become the "Heroku for *x*".
 

@@ -1,4 +1,9 @@
 # Winter Solstice
+*January 2013*
+
+
+
+
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666522541-7UXEDM44HL07IGQNMJQ9/e906e-img.jpg)      ![16140-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666453925-7BZ42WVOA2HVCELC9SZE/6d144-16140-img.jpg)    ![L1021731](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666530205-W94PA958KE0CGNCH0DLT/ff173-56f49-l1021731.jpg)   Winter has fallen upon the Shenandoah Valley, and 2014 is fast approaching.To commemorate the occasion, I created a sonic reflection of the year'sjourneys.
 

@@ -1,4 +1,9 @@
 # Sublime Text 3 Love
+*January 2013*
+
+
+
+
 
   I’m happy to announce that [Sublime Text 2](http://www.sublimetext.com/2) \[**edit:** post valid for Sublime Text 3] was officially released today! This is awesome news. I’ve spend 12\+ hours a day for the past year and a half in Sublime Text 2\. It is indeed sublime.
 

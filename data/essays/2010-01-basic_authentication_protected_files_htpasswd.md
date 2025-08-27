@@ -1,4 +1,9 @@
 ---
+*January 2010*
+
+
+
+
 title: "Basic Authentication Protected Files (htpasswd)"
 date: "2010-01-01"
 category: "Web Development"

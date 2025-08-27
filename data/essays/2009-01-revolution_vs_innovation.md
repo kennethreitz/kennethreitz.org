@@ -1,4 +1,9 @@
 # Revolution vs. Innovation
+*January 2009*
+
+
+
+
 
   I've been thinking alot about this cloud\-computing "movement" that has been a buzz word for the past year and half or so. Being able to access anything from anywhere? Awesome, but I can do that now.I don't really get it why everyone's like "oh this will totally change computing as we know it". I beg to differ. Perhaps it will change the way we develop, or organize. But not how Desktops sell. Or eliminate the need for desktop software. The desktop is not going to die. Not from Azure, at least.
 

@@ -1,4 +1,9 @@
 # Joining Arc90 + Readability
+*January 2011*
+
+
+
+
 
   I'm extremely happy to announce that I am joining the [Arc90](http://arc90.com/) team to work on Readabilty!{{< sidenote >}}Arc90 was best known for creating Readability, one of the first successful reader mode services. The company pioneered the concept of clean, distraction-free reading experiences that would later be adopted by major browsers.{{< /sidenote >}}Arc90 is a NYC\-based software consultancy firm, r\&d lab, and product incubator. The company is a design\-driven group, built around skills rather than hierarchy. They strive to create the *best software possible*; passion and design pours out of everything they ship. I love that.
 

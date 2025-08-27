@@ -1,4 +1,9 @@
 # New Years Resolutions for Startups
+*January 2010*
+
+
+
+
 
   Here's a small list of 2009 *New Year's Resolutions* for your startup.
 

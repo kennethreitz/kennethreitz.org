@@ -1,4 +1,6 @@
 ---
+*August 2025*
+
 tags: [community, psychology, organizations, social-dynamics, activism, open-source]
 ---
 

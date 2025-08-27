@@ -1,4 +1,9 @@
 # The Power of a Clean API
+*January 2009*
+
+
+
+
 
   The folks over at [Mozilla Labs](http://mozillalabs.com/) never cease to amaze me with their unique ideas. They strive to transform the way users interact with the web forever.
 

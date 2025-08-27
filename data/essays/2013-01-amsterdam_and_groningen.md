@@ -1,4 +1,9 @@
 # Amsterdam and Groningen
+*January 2013*
+
+
+
+
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666511942-8OQI0I98ONDVUWC9ZYM9/c45b9-img.jpg)      ![bb6df-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666448914-NTEWN1OF76KDH77FHH5R/c090d-bb6df-img.jpg)    ![Street Art_8716312973_o](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666493405-LRLFVFF5UH8HPJNPC3N2/825ef-dd069-street-art_8716312973_o.jpg)   I just returned on a lovely trip to the Netherlands. I landed remarkably early in the morning (8am) and had to spend several hours walking around the city. Early morning Amsterdam was incredibly desolate and beautiful.
 

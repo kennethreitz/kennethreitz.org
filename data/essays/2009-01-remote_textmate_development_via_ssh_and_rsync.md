@@ -1,4 +1,9 @@
 # Remote TextMate Development via SSH and Rsync
+*January 2009*
+
+
+
+
 
   I am a huge fan of [TextMate](http://kennethreitz.com/blog/if-textmate-42/ "TextMate is God"). In my opinion, it is by far the greatest text editor ever conceived by mankind.<label for="sn-textmate-era" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-textmate-era" class="margin-toggle"/><span class="sidenote">TextMate defined the modern code editor experience with innovations like snippets, bundles, and fuzzy file searching—features now standard in editors like VS Code and Sublime Text. This 2009 perspective captures the pre-cloud development era when local tooling was paramount.</span> It has a couple of shortcomings, however. One of which is that it has no built\-in FTP or SFTP support. Remote file editing is a bit of a bear here if you like to view folders in the project drawer on the side.![](http://media.kennethreitz.com/images/textmate-logo.png)
 

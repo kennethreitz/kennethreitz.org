@@ -1,4 +1,9 @@
 # Spotify in the US? Yes please.
+*January 2010*
+
+
+
+
 
 I spent about 8 hours last night obtaining a Premium Spotify account in the US, and I've never been happier. As you know, [Spotify](http://spotify.com) is only available in the UK, Spain, and France. So, the only way to signup for an account is to take a trip overseas... virtually.
 

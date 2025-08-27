@@ -1,4 +1,9 @@
 # Migraines, Color Film, and San Francisco
+*January 2014*
+
+
+
+
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666497546-V5MO5HVYRPSFMJBBFPEJ/97b7f-img.jpg)      ![1c9fb-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666454011-E7F27LE4QWFK3AZK60VE/1b434-1c9fb-img.jpg)    ![scan0004](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666459616-EQP8LG0UYV1ETEA0DA4X/02b62-d7581-scan0004.jpg)   I've made some major experience changes to my life recently (which I'll write about soon). I seem to have found myself with a newfound appreciation for color. I've been subtly adding more color to my wardrobe, buying brighter colored flowers for around the home, and I even purchased a brightly colored doormat to greet myself every time I come home. Of course, this raises some interesting questions about my photography. I shoot black and white exclusively with a camera that does the same. Should I re\-broaden my horizons?
 

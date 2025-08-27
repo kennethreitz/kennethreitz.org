@@ -1,4 +1,9 @@
 # Rework by 37 Signals » Note I
+*January 2010*
+
+
+
+
 
 > **Book Review Format**: This represents an early form of "live" book annotation, predating social reading platforms. The promise of "sporadic commentary" reflects a more organic, unstructured approach to literary criticism.
 

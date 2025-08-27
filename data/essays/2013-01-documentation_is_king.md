@@ -1,4 +1,9 @@
 # Documentation is King
+*January 2013*
+
+
+
+
 
   As a member of the development community, I have the unique opportunity to take part of a powerful social movement, creating the tools that are fundamentally changing the world around us. Open source has found itself to be the crux of my professional, personal, and social life. There's something special about it.
 

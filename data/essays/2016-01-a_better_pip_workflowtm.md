@@ -1,6 +1,11 @@
 # A Better Pip Workflow™
+*January 2016*
 
- ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666505620-LTX0VK215AWQYODQ8CPK/b285e-0c681-image-asset.jpeg)![]()   **Update:** I developed Pipenv to solve these problems. [Check it out](http://pipenv.org/).
+
+
+
+
+  ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666505620-LTX0VK215AWQYODQ8CPK/b285e-0c681-image-asset.jpeg)   **Update:** I developed Pipenv to solve these problems. [Check it out](http://pipenv.org/).
 
 
 

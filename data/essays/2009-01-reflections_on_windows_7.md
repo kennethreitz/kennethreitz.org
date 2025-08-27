@@ -1,4 +1,9 @@
 # Reflections on Windows 7
+*January 2009*
+
+
+
+
 
   While I have not had the opportunity to try the latest Windows 7 Release Candidate, I have done a bit of reading on the subject. In my research, I have made the following observances [^1]
 

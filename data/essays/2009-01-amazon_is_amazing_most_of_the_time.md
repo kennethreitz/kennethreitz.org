@@ -1,4 +1,9 @@
 # Amazon is Amazing... Most of the Time
+*January 2009*
+
+
+
+
 
   ![](http://media.amazonwebservices.com/logo_aws.gif)Again and again I'm really amazed at Amazon. I discovered [Amazon S3](http://aws.amazon.com/s3/ "Amazon S3 - Elastic Storage!") a few months ago, and was really impressed with the service<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>

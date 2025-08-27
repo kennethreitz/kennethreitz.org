@@ -1,4 +1,9 @@
 # Facebook Plugin for WordPress
+*January 2009*
+
+
+
+
 
 > **Development Era Context**: This post from 2009 represents the early days of social media integration with content management systems. The casual mention of developers creating their own solutions reflects how nascent the ecosystem was - before official APIs and standardized social plugins.
 

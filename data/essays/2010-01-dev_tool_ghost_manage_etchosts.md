@@ -1,4 +1,9 @@
 # Dev Tool: Ghost   #manage /etc/hosts
+*January 2010*
+
+
+
+
 
 <aside class="sidenote">
 <strong>Historical Context:</strong> In 2010, managing local development environments was significantly more manual and error-prone than today. The /etc/hosts file was a critical but tedious piece of the development workflow, and Ruby's ecosystem was pioneering developer productivity tools that would later become standard across all programming languages.

@@ -1,4 +1,9 @@
 # Cloud Computing: Yin and Yang
+*January 2009*
+
+
+
+
 
   Cloud computing enables us. Amazon's EC2 allows anyone in the world to have instant access to incredibly powerful high\-end servers that would usually cost tens of thousands of dollars for pennies on the dollar.
 

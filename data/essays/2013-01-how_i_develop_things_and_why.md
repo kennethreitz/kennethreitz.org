@@ -1,4 +1,9 @@
 # How I Develop Things and Why
+*January 2013*
+
+
+
+
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666483641-7NHNZCJH48KS4EMH5UO5/5c154-img.jpg)      ![0065b-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666449238-OL06YQ83TJDBV1J6RB4Y/2188c-0065b-img.jpg)     I’ve always considered myself a bit of a software junkie. Nothing excites me more than a great piece of new software. Some of my best childhood memories are our trips to Grandma’s house, where I’d have access to a computer with a dial\-up connection that I’d use to obtain freeware and shareware. I’d bring 4 or 5 floppies with me and try to cram all the games, waveform editors, and utilities that I could sneaker\-net home.
 

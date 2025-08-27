@@ -1,4 +1,9 @@
 # Getting Started with Python
+*January 2010*
+
+
+
+
 
   \#\# For the past couple of weeks, I've been working on a Python tutorial series for beginners.<label for="sn-python-education" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-python-education" class="margin-toggle"/>

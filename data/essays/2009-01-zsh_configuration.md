@@ -1,4 +1,9 @@
 # Zsh Configuration
+*January 2009*
+
+
+
+
 
   \#\#In case you don't know, Zsh is the greatest command prompt of all time<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>

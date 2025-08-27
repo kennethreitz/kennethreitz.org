@@ -1,4 +1,9 @@
 # Programming as Spiritual Practice
+*August 2025*
+
+
+
+
 
 **The path toward conscious code:** In a world where [algorithmic systems systematically destroy human virtue](/essays/2025-08-26-the_algorithm_eats_virtue) and [create widespread psychological harm](/essays/2025-08-26-algorithmic_mental_health_crisis), we need a fundamentally different approach to building technology. Not just better engineering practices or stricter ethical guidelines, but a complete reorientation of programming as a spiritual discipline—a practice that serves human consciousness rather than exploiting it.
 

@@ -1,4 +1,9 @@
 # Sublime Text 3 Heaven
+*January 2017*
+
+
+
+
 
   I decided to revisit my editor configuration the other night, and experimented with every possible editor I could think of / imagine. I heavily configured vim (neovim), PyCharm, Eclipse, Emacs (Spacemacs), VSCode, Atom, Textual, and more. I knew I was going to stay put with my choice of Sublime Text 3 (which I have been using for 5\+ years), but it's nice to have validation.
 
@@ -8,7 +13,7 @@
 
  ## **Sublime UI Theme**: Material
 
-  View fullsize ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666487594-21G8NNQU1B2K770ELYPL/6e6e5-ab993-image-asset.png)
+  ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666487594-21G8NNQU1B2K770ELYPL/6e6e5-ab993-image-asset.png)
 
 ### Sublime Text Extensions:
 

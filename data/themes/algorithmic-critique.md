@@ -24,6 +24,10 @@ The same algorithmic mechanisms that drive engagement on social platforms—vari
 - [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps have transformed courtship into optimization problems
 - **Core insight**: Love becomes impossible when human connection is mediated by systems designed to keep you searching rather than finding
 
+### Democratic Deterioration
+- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How engagement optimization destroys the cognitive conditions necessary for democratic discourse
+- **Core insight**: Algorithmic systems systematically reward fragmentation and extremism while punishing the nuanced understanding required for collective governance
+
 ## Interconnected Patterns
 
 These essays reveal the same underlying mechanism across different domains:
@@ -70,6 +74,7 @@ This critique emerges from lived experience with both technological innovation a
 ### Human-Centered Design
 - [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Design principles that serve human nature rather than exploit it
 - [Python for Humans](/talks/python-for-humans) - API design that matches mental models
+- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Collaborative technology relationships
 
 ## The Path Forward
 

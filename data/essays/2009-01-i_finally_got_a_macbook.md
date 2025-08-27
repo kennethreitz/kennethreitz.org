@@ -1,4 +1,9 @@
 # I Finally Got a MacBook
+*January 2009*
+
+
+
+
 
   Yesterday I stopped by the Apple store in Fair Oaks Shopping Center in Fairfax, VA and finally purchased a MacBook. I've been wanting one for quite a while – ever since I fell deeply in love with OS X after adopting an old 12" G4 PowerBook I've been using for the past 5 months.
 

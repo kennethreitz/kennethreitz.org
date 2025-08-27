@@ -1,4 +1,9 @@
 # Do You Develop Software or Experiences?
+*January 2009*
+
+
+
+
 
   I read an \[interesting article](http://www.antipope.org/charlie/blog\-static/2009/12/21st\_century\_phone.html) today on Apple's marketing strategy. A certain section stood out to me, regarding their hardware manufacturing:<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">This early insight into Apple's "experience-first" philosophy presaged the revolutionary success of the iPhone (launched two years earlier) and iPad (still a year away). Kenneth recognized a fundamental shift from feature-driven to experience-driven product development.</span>
 

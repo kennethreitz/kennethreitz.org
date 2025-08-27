@@ -1,6 +1,11 @@
 # If I Could Amend PEP 8
+*January 2017*
 
-   View fullsize ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666528096-QMWD0T1YVAYCWYYKU494/fa211-b1a9d-image-asset.jpeg)![]()   [PEP 8](http://pep8.org) is an excellent coding standard for the Python community, and one of its greatest strengths. There are a few things in it that I dislike, however — so I thought I'd share them with you here. 
+
+
+
+
+   ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666528096-QMWD0T1YVAYCWYYKU494/fa211-b1a9d-image-asset.jpeg)   [PEP 8](http://pep8.org) is an excellent coding standard for the Python community, and one of its greatest strengths. There are a few things in it that I dislike, however — so I thought I'd share them with you here. 
 
  If you look at the [Requests documentation](http://docs.python-requests.org/en/master/dev/contributing/#kenneth-reitz-s-code-style), I have made a few personal amendments to PEP 8, that the project adheres to. They are as follows:
 

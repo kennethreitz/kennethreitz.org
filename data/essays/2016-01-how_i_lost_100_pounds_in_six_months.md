@@ -1,10 +1,15 @@
 # How I Lost 100 Pounds in Six Months
+*January 2016*
 
-   View fullsize ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666467811-BFX9P0CZGYGC6CH0LV6L/19769-790ad-image-asset.jpeg)![]()   If you go searching for images or videos of me speaking at conferences online, you may notice something strange. I seem to be available in two sizes—[thick and thin](http://www.collegedaily.cn/blog/1153/) (scroll down).
+
+
+
+
+   ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666467811-BFX9P0CZGYGC6CH0LV6L/19769-790ad-image-asset.jpeg)   If you go searching for images or videos of me speaking at conferences online, you may notice something strange. I seem to be available in two sizes—[thick and thin](http://www.collegedaily.cn/blog/1153/) (scroll down).
 
  I was overweight for approximately five years. At my heaviest, **I weighed upwards of 255 pounds** (August of 2013\). At this moment, **I weigh 151** pounds. My weight has been in the 150's since April of 2014, 2\.3 years ago.
 
-   [![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666483227-6RYG5O8VKEWHLDB2OZ5I/5b156-7f6ee-image-asset.png)![]()](http://amzn.to/2abygC2)   ## **Making a Change**
+   [ ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666483227-6RYG5O8VKEWHLDB2OZ5I/5b156-7f6ee-image-asset.png)](http://amzn.to/2abygC2)   ## **Making a Change**
 
  I made the decision to start losing weight in November of 2013\.
 

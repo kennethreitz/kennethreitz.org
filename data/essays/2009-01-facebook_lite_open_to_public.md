@@ -1,4 +1,9 @@
 # Facebook Lite Open to Public!
+*January 2009*
+
+
+
+
 
 > **Historical Context**: This post captures a pivotal moment in social media evolution - the launch of Facebook Lite in 2009. At this time, mobile internet was still expensive and slow for most users, making lightweight alternatives essential. The author's excitement reflects how significant this was for users on limited connections.
 

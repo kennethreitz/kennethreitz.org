@@ -1,4 +1,9 @@
 # The Truth of Facebook's FriendFeed Aquisition
+*January 2009*
+
+
+
+
 
   As I'm sure most of you know, [Facebook](http://facebook.com) decided today that it was going to buy [FriendFeed](http://friendfeed.com/kennethreitz). [^1]
 

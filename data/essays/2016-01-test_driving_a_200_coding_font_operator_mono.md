@@ -1,6 +1,11 @@
 # Test-Driving a $200 Coding Font: Operator Mono
+*January 2016*
 
-   View fullsize ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666481336-SGV2PCSID8BGOGQ3B1R0/5261d-88d1a-image-asset.png)![]()   As programmers, typefaces surround us — everything we do, build, manage, and orchestrate is typically encoded with a pleasant and comforting monospace typeface emanating from our console or editor of choice. 
+
+
+
+
+   ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666481336-SGV2PCSID8BGOGQ3B1R0/5261d-88d1a-image-asset.png)   As programmers, typefaces surround us — everything we do, build, manage, and orchestrate is typically encoded with a pleasant and comforting monospace typeface emanating from our console or editor of choice. 
 
  ## Which Typeface to Use?
 
@@ -38,7 +43,7 @@
 
  ***P.S.** This blog post was written entirely with pen and ink—surprisingly fun.*
 
-  View fullsize ![fullsizeoutput_26cb.jpeg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666496339-2T1Z4IYBGNCLYGA9I0PH/945fc-7088f-fullsizeoutput_26cb.jpeg)![fullsizeoutput_26cb.jpeg]()    
+  ![fullsizeoutput_26cb.jpeg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666496339-2T1Z4IYBGNCLYGA9I0PH/945fc-7088f-fullsizeoutput_26cb.jpeg)    
 
  ## Relevant Links
 

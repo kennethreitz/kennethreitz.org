@@ -1,4 +1,9 @@
 # GitHub + Strategy
+*January 2009*
+
+
+
+
 
   GitHub is currently [down](http://github.com). And that is very sad. However, they have an [Awesome Angry Unicorn](http://github.com/images/error/angry_unicorn.png "Unicorn is angry.").<label for="sn-github-early-days" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-github-early-days" class="margin-toggle"/><span class="sidenote">This captures GitHub in its early days when outages were more common and the "Angry Unicorn" error page became iconic. Kenneth was clearly an early adopter, recognizing GitHub's importance when it was still a startup struggling with infrastructure challenges.</span>And this unicorn makes me smile, even though I can't get to any of my projects.
 

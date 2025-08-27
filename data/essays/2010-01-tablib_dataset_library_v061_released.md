@@ -1,4 +1,9 @@
 # Tablib Dataset Library v0.6.1 Released!
+*January 2010*
+
+
+
+
 
 I'm pleased to announce a new Python module: [Tablib](http://github.com/kennethreitz/tablib). Tablib is a simple module for working with tabular datasets. It allows you create tables of data using standard Python datatypes, manipulate them, and easily export to Excel, JSON, YAML, and CSV.
 

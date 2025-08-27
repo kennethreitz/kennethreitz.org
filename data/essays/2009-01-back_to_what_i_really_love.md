@@ -1,4 +1,9 @@
 # Back to What I Really Love
+*January 2009*
+
+
+
+
 
 > **Note**: This early career reflection from 2009 shows Kenneth's commitment to working with technologies he finds meaningful rather than pursuing purely financial opportunities. The essay demonstrates his early understanding that professional fulfillment comes from alignment between personal values and technical work. This principle would later influence his approach to open source development and community building.
 

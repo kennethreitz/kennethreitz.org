@@ -1,4 +1,6 @@
 # From HTTP to Consciousness: The Evolution of "For Humans"
+*August 2025*
+
 
 *August 2025*
 

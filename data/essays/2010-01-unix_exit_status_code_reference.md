@@ -1,4 +1,9 @@
 # Unix Exit Status Code Reference
+*January 2010*
+
+
+
+
 
   I always find myself constantly Googling the list of unix status codes (typically defined in \`sysexits.h\`).{{< sidenote >}}These exit codes, standardized in BSD's sysexits.h, provide consistent return values for system programs. The tradition of using 0 for success and non-zero for various error conditions dates back to early Unix design principles.{{< /sidenote >}}
 

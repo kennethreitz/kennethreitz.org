@@ -1,4 +1,9 @@
 ---
+*January 2009*
+
+
+
+
 title: "CSS With a Hint of DRY"
 date: "2009-01-01"
 category: "Web Development"

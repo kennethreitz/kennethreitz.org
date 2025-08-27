@@ -1,6 +1,11 @@
 # A (Public) Journal
+*January 2017*
 
- ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666466302-7Q2U11ZDWXNF0WG3WHHN/162ef-956ca-image-asset.jpeg)![]()   I recently decided to build a small [Flask app](https://github.com/kennethreitz/journal) this weekend to serve a new purpose — sharing a public journal with the internet.
+
+
+
+
+  ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666466302-7Q2U11ZDWXNF0WG3WHHN/162ef-956ca-image-asset.jpeg)   I recently decided to build a small [Flask app](https://github.com/kennethreitz/journal) this weekend to serve a new purpose — sharing a public journal with the internet.
 
  Blog posts aren't the right place for some more candid content, so this new portion of my website exists to share some of my inner thoughts and feelings about the world. If you read it, please enjoy!
 

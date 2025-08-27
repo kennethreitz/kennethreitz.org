@@ -1,6 +1,11 @@
 # Introducing Maya: Datetimes for Humans™
+*January 2016*
 
-   View fullsize ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666510800-GD7347N0GKG9N1UAKHKB/c1627-c0bcb-image-asset.jpeg)![]()   Datetimes are a headache to deal with in Python, especially when dealing with timezones, especially when dealing with different machines with different locales. 
+
+
+
+
+   ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666510800-GD7347N0GKG9N1UAKHKB/c1627-c0bcb-image-asset.jpeg)   Datetimes are a headache to deal with in Python, especially when dealing with timezones, especially when dealing with different machines with different locales. 
 
  [Maya](https://github.com/kennethreitz/maya) exists to do all the hard work for you, so you can focus on what you're trying to do — import or export simple datetime data in known human and machine\-readable formats. This continues the ["for Humans" design philosophy](/essays/2025-08-26-ahead_of_my_time_i_think) of making complex technical tasks accessible through intuitive APIs. 
 

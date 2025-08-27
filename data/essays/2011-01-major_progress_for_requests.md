@@ -1,4 +1,9 @@
 # Major Progress for Requests
+*January 2011*
+
+
+
+
 
   Requests has changes a lot over the past few months. An update is long overdue.In case you aren't familiar, Requests is Python [HTTP for Humans](http://docs.python-requests.org/).
 

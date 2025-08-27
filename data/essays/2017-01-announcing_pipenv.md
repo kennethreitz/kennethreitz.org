@@ -1,8 +1,13 @@
 # Announcing Pipenv!
+*January 2017*
+
+
+
+
 
   I wrote a new tool this weekend, called [pipenv](https://github.com/kennethreitz/pipenv). Check it out [on GitHub](https://github.com/kennethreitz/pipenv)!
 
-   [![Pipenv in action.](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666481609-H8X1V6B2ZMD2FPW71GWE/57b01-0b889-image-asset.gif)![Pipenv in action.]()](https://github.com/kennethreitz/pipenv)  
+   [ ![Pipenv in action.](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666481609-H8X1V6B2ZMD2FPW71GWE/57b01-0b889-image-asset.gif)](https://github.com/kennethreitz/pipenv)  
 
   Pipenv in action.
 

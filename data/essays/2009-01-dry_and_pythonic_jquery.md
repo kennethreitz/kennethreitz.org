@@ -1,4 +1,9 @@
 # DRY and Pythonic jQuery?
+*January 2009*
+
+
+
+
 
 Apparently, **groovy:spring:java** as **jabs:jquery:javascript**. As if jQuery wasn't short enough already.<label for="sn-jabs" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-jabs" class="margin-toggle"/><span class="sidenote">This 2009 post captures the era's fascination with domain-specific languages and syntactic sugar—an impulse that would later manifest in CoffeeScript, TypeScript, and modern JavaScript transpilation tools.</span>
 

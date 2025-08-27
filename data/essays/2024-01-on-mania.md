@@ -1,4 +1,9 @@
 # On Mania
+*January 2024*
+
+
+
+
 
 About once a year, I get manic. I don't know why, but it happens.<label for="sn-mania-cycle" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-mania-cycle" class="margin-toggle"/><span class="sidenote">Seasonal patterns in mood episodes are common in bipolar disorder, often triggered by changes in light exposure, sleep patterns, or stress levels. Research suggests that circadian rhythm disruptions may play a significant role in mood cycling.</span> I'm not sure if it's a chemical imbalance, or if it's just a part of who I am. But it happens, and it's not fun.
 

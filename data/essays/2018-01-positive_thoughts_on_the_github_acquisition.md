@@ -1,6 +1,11 @@
 # ​Positive Thoughts on the GitHub Acquisition
+*January 2018*
 
- ![05EB4CE5-8100-4DFC-96DE-0E56F8F4923D.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666529911-H2K4LYHY9S8VUZYPIUGD/feb42-20197-05eb4ce5-8100-4dfc-96de-0e56f8f4923d.jpg)![05EB4CE5-8100-4DFC-96DE-0E56F8F4923D.JPG]()   I met (and became friends with) the GitHub crew when they were merely 8 employees, hacking away on their newly popular product. I’ve followed the team/product extremely closely over the years, with keen interest, and maintain relationships with some of the founders.
+
+
+
+
+  ![05EB4CE5-8100-4DFC-96DE-0E56F8F4923D.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666529911-H2K4LYHY9S8VUZYPIUGD/feb42-20197-05eb4ce5-8100-4dfc-96de-0e56f8f4923d.jpg)   I met (and became friends with) the GitHub crew when they were merely 8 employees, hacking away on their newly popular product. I’ve followed the team/product extremely closely over the years, with keen interest, and maintain relationships with some of the founders.
 
  I’m also one of the top users on GitHub (depending on how you measure) — so I feel as though my opinion on this acquisition is worth sharing to the community.
 

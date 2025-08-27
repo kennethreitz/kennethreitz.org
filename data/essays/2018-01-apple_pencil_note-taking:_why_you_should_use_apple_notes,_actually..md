@@ -1,4 +1,9 @@
 # Apple Pencil Note-Taking: Why You Should Use Apple Notes, actually.
+*January 2018*
+
+
+
+
 
   I'm a bit of a digital ink snob. I've been writing actively with digital ink for over 10 years, and there's a lot of things that most developers get *wrong* when developing note\-taking apps. There's a plethora of them available for the iPad Pro \& Pencil — only two of which I find to have acceptable inking implementations.
 
@@ -54,7 +59,7 @@
 * **The marker tool is not a marker, it's a highlighter.** It renders its strokes *beneath*any ink that has been laid down, and is clearly not a marker after all, but a highlighter.
 * **Color constraints**. Apple Notes, in the default "Handwritten Note" mode, gives you an option of five (5\) colors. There are no other colors. You cannot change them. This is excellent — let me tell you why. The color selection is as follows: black, blue, green, yellow, and red. The red is not the tone of red I typically invoke, and this bothered me at first, until I took a closer look at it's relation to the other available colors. It's a shade of red that both opposes the shade of blue and green available, as well as compliments the yellow shade. These colors were very carefully thought out and designed, and I'm very impressed — even the order in which they are presented in the UI is clearly carefully thought out. Let me show you what I mean:.
 
-![Pasted Graphic 21.png](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666509837-3FF96IKUSULXYP8MG34Z/be984-4803e-pastedgraphic21.png)![Pasted Graphic 21.png]()   These are not five random tones. These are tools for thought exploration that interweave and interact with each–other, in subtle ways. Apple Notes is a seriously well–engineered application for inking, and the best one available today
+ ![Pasted Graphic 21.png](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666509837-3FF96IKUSULXYP8MG34Z/be984-4803e-pastedgraphic21.png)   These are not five random tones. These are tools for thought exploration that interweave and interact with each–other, in subtle ways. Apple Notes is a seriously well–engineered application for inking, and the best one available today
 
  ## **The Downsides**
 
@@ -77,4 +82,4 @@
 
  P.S. Here are my (sloppy to you, organized to me) notes for creating this blog post, if you're interested. Note the use of the pencil to embellish and augment the pen ink. Also the occasional use of those opposing/complimentary color tones.
 
-![page1image1797120.png](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666463695-4FISBXZZ87RZAVMW9K13/11427-abc00-page1image1797120.png)![page1image1797120.png]()
+ ![page1image1797120.png](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666463695-4FISBXZZ87RZAVMW9K13/11427-abc00-page1image1797120.png)

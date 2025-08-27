@@ -1,4 +1,9 @@
 # The Setup
+*January 2010*
+
+
+
+
 
 I'm Kenneth Reitz, one of the two co-founders of Züm Hosting. I'm a passionate Python developer for [NetApp](http://netapp.com). I typically spend my nights developing a number of open source projects, and my weekends architecting the web.
 

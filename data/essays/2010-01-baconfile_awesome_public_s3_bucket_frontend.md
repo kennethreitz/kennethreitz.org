@@ -1,4 +1,9 @@
 # Baconfile: Awesome Public S3 Bucket Frontend
+*January 2010*
+
+
+
+
 
 Amazon S3 is a fantastic data storage platform — I use it for everything.
 

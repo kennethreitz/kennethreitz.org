@@ -1,4 +1,6 @@
 # The Collaborative Mind: On Human-AI Partnership and the Evolution of Thought
+*January 2025*
+
 
 *January 2025*
 

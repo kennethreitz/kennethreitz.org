@@ -1,4 +1,11 @@
 # The Unexpected Negative: a Narcissistic Partner
+*January 2015*
+
+
+*January 2015*
+
+
+
 
  ![41c8d-image-asset.jpeg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666455305-N3HX12IWXVQECJJPTAEH/298da-41c8d-image-asset.jpeg)     Both my essays and general outlook on life are typically quite positive and idealistic. This attitude has served me very well over the years. However, if you take a look at my [core ideals and values](/values), you'll see one very important line item that I've been forced to revisit lately:
 

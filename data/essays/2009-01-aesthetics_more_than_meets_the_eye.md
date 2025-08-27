@@ -1,4 +1,9 @@
 # Aesthetics: More Than Meets the Eye
+*January 2009*
+
+
+
+
 
   I was doing some routine poking around the [TextMate Wiki](http://wiki.macromates.com/Main/HomePage) tonight, and I came across an [amazing mod](http://jason-evers.com/code/code-like-i-do). Amazing.<label for="sn-textmate-era" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-textmate-era" class="margin-toggle"/><span class="sidenote">This captures the 2009 era when TextMate was the editor of choice for Mac developers, before the rise of Sublime Text and VSCode. Kenneth's excitement about customization themes reflects the broader hacker culture's emphasis on personalizing development environments.</span> After installing it, my favorite editor looked brand new, and I started hacking away at code for hours.
 

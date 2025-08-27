@@ -1,4 +1,9 @@
 # OSX + MAMP + Python + PHP + MySQL
+*January 2009*
+
+
+
+
 
    If you're a web developer who uses MAMP in conjunction with anything other than PHP,   
 I'm sure you've had quite a large bit of frustration involving multiple MyQL instances.

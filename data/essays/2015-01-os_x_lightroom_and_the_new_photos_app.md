@@ -1,4 +1,9 @@
 # OS X, Lightroom, and the new Photos App
+*January 2015*
+
+
+
+
 
   Earlier this week, OS X 10\.10\.3 was released, which includes the much\-anticipated new Photos app — Apple’s full replacement for both iPhoto and Aperture. 
 
@@ -28,7 +33,7 @@
 
  Once the fully rendered JPEGs are available, I import these files into Photos App, where each Album has a nice home based on the type of photos it contains. 
 
-![Screen Shot 2015-04-17 at 3.34.46 PM.jpg](http://static1.squarespace.com/static/665498111876725f7613f1e6/t/6680065e1022a0098af05aaf/1719666270667/9e46f-20e5b-screenshot2015-04-17at3.34.46pm.jpg.46pm.jpg.46pm.jpg.46pm.jpg?format=original)![Screen Shot 2015-04-17 at 3.34.46 PM.jpg]()
+ ![Screen Shot 2015-04-17 at 3.34.46 PM.jpg](http://static1.squarespace.com/static/665498111876725f7613f1e6/t/6680065e1022a0098af05aaf/1719666270667/9e46f-20e5b-screenshot2015-04-17at3.34.46pm.jpg.46pm.jpg.46pm.jpg.46pm.jpg?format=original)
 
  ### Step 3: Publish!
 

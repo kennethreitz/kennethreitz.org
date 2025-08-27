@@ -1,4 +1,9 @@
 # The Future of Python HTTP
+*January 2012*
+
+
+
+
 
   I like to think [Requests](http://python-requests.org/) is mostly analogous to [Werkzeug](http://werkzeug.pocoo.org/) in terms of purpose, functionality, and goals. One is for servers while the other is for clients.Werkzeug and Flask were *huge* inspirations for Requests' design.<label for="sn-werkzeug-inspiration" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-werkzeug-inspiration" class="margin-toggle"/>

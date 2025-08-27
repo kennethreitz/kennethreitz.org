@@ -1,4 +1,9 @@
 # Israel: Tel Aviv & Jerusalem
+*January 2013*
+
+
+
+
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666498142-IFEW2VW4GUGHECMTVWRN/98856-img.jpg)      ![61fcf-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666449726-8YQG1EN02PVYKX2ZP11I/5dad5-61fcf-img.jpg)    ![8477989339_7d696fb1ba_h](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666468339-YDJQ2WHE1UHQ8FS5ET3W/21128-414b0-8477989339_7d696fb1ba_h.jpg)   I recently returned from Israel for a conference, DevCon TLV.
 

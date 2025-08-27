@@ -1,4 +1,9 @@
 # The Universal Flaw in Commercial-Based OS's
+*January 2009*
+
+
+
+
 
   Designers and Developers around the world, I present to you the flaw prevalent in all of today's commercial operating systems. This is not a security hole, nor is it a CPU\-capping bug. It's more of a world\-view. We're simply looking at things the wrong way.**What ever happened to the days when a computer was a *tool*, rather than an *experience*?**<label for="sn-tool-vs-experience" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-tool-vs-experience" class="margin-toggle"/><span class="sidenote">This distinction between tools and experiences was remarkably ahead of its time. Kenneth was critiquing the early stages of what would become the "platform economy" and subscription software model, where users become products rather than craftspeople using tools.</span> 
 

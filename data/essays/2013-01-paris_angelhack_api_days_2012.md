@@ -1,4 +1,9 @@
 # Paris, AngelHack, API Days 2012
+*January 2013*
+
+
+
+
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666484841-DR8IKQXGXAFG9BW5HFOE/5e66e-img.jpg)      ![102ec-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666449010-SVGEJ9KYR72P8SDR6IHG/de8f5-102ec-img.jpg)    ![8241038176_f35609da67_c](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666461705-TIUUE9NK0OMUMCYLU0BM/050c4-eb9dd-8241038176_f35609da67_c.jpg)   I just returned from a lovely trip to Paris, France. I was there for a Heroku\-sponsored hackathon: AngelHack:Paris.
 

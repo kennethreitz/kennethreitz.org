@@ -1,4 +1,9 @@
 # Your Degree Is Worthless; Collaborate.
+*January 2009*
+
+
+
+
 
   I’ve always been a self\-motivated learner as well as a free thinker. I was never one to get involved in cliques or social ladders. Despite the fact that I was raised being constantly told that grades were the single most important thing in my life, I could never accept that. So I didn’t. I just did enough to get by. I didn’t pay attention much in class. I had no reason to. Class was beyond boring. So I’d spend all hours of the night hacking away on my computer, soaking in all I could, and most of the school day sleeping during class when I could get away with it. When there was a test, I’d try my hardest to stay awake, answer the questions as best I could – typically earning a low C in my Honors/AP Classes, and a low B in my “Ordinary” Classes. I found a good balance. Why would I study for 30 hours a week to get better grades when I could get by with 0 hours?<label for="sn-optimization" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-optimization" class="margin-toggle"/>

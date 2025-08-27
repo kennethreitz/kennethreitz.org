@@ -1,4 +1,9 @@
 # Software Development vs. Computer Science
+*January 2009*
+
+
+
+
 
   Most developer job applications that I see have a "BS in Computer Science or equivalent experience" requirement.
 

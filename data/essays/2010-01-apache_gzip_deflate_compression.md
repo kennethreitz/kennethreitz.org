@@ -1,4 +1,9 @@
 # Apache GZip Deflate Compression
+*January 2010*
+
+
+
+
 
   Here's a quick Apache \`.htaccess\` file for adding server\-side data compression<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>

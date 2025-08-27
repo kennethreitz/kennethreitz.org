@@ -1,4 +1,9 @@
 # Mint.com: Money Management 2.0
+*January 2009*
+
+
+
+
 
   There are a few things in life that I am naturally not good at. Some people fail at communication skills, while others [get angry and lash out at others for no reason](http://jwhsband.tripod.com/). I, however, like to spend all of my money. ALL of it. Every paycheck.
 

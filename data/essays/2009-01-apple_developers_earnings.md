@@ -1,4 +1,9 @@
 # Apple + Developers = Earnings
+*January 2009*
+
+
+
+
 
   **Apple, Inc** reported their [highest earnings ever](http://www.businessweek.com/technology/ByteOfTheApple/blog/archives/2009/10/apple_stock_hit.html) today<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>

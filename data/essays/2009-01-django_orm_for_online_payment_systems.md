@@ -1,4 +1,9 @@
 # Django ORM for Online Payment Systems?
+*January 2009*
+
+
+
+
 
   I've been spending an increasingly large amount of time with some rapid development frameworks, primarily Django (Python!), Grails (Groovy / Java), and Symfony (PHP)<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>

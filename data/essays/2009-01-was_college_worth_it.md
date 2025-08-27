@@ -1,4 +1,9 @@
 # Was College Worth It?
+*January 2009*
+
+
+
+
 
   George Mason University (at which I'm currently a non\-studying student) is a fantastic environment for a student in their 20's.<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Kenneth's description of himself as a "non-studying student" reveals his unconventional approach to higher education—using the institution for its resources and environment while pursuing his own learning path. This reflects his broader philosophy of extracting value from systems without being constrained by their intended purposes.</span> Never before have I felt so *enabled*. The campus allowed me to have a completely restriction\-free place to live with peers of my own age, and millions of resources an average American could only dream of having free access to:
 

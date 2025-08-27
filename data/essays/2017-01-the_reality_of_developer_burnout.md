@@ -1,4 +1,9 @@
 # The Reality of Developer Burnout
+*January 2017*
+
+
+
+
 
 ![b6e22-image-asset.jpeg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666458106-WF5MS80XRAZB43D9JLTF/ac3d5-b6e22-image-asset.jpeg)     Burnout is, unfortunately, a very real phenomenon in software development — especially when creating and maintaining open source projects with large numbers of users.<label for="sn-oss-burnout" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-oss-burnout" class="margin-toggle"/><span class="sidenote">Research by GitHub and others shows that maintainer burnout is endemic in open source, with many developers reporting feelings of obligation, stress, and exhaustion from unpaid labor supporting thousands of users while managing demanding day jobs.</span> I've experienced it, and I wanted to share my personal experience with the subject. 
 

@@ -1,4 +1,9 @@
 # Static Sites on Heroku Cedar
+*January 2011*
+
+
+
+
 
   Heroku's excellent Cedar Stack has first\-class support for Python, Ruby, Node.js, Java, Clojure, and Scala applications. Unfortunately, there's no obvious way to serve static sites without first fronting them with a Rack or WSGI application. The Cedar stack has unofficial support for Custom Build Packs, which allow you to compile your own language runtime on top of Cedar. My plan was to build an custom nginx build pack for Cedar, but that turned out to be completely unnecessary.
 

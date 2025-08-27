@@ -1,4 +1,9 @@
 # What's In a Design?
+*January 2009*
+
+
+
+
 
   Disclaimer: I am **not** an Apple fanboy.Apple makes a fortune off of [speeple](http://www.squidoo.com/sheeple).
 

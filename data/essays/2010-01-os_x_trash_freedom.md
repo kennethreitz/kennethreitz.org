@@ -1,4 +1,9 @@
 # OS X Trash Freedom
+*January 2010*
+
+
+
+
 
 > **UX Philosophy**: This hack represents a fundamental tension in user interface design: the balance between safety (trash as a safety net) and efficiency (direct deletion). The 120GiB accumulation demonstrates how "helpful" features can become counterproductive without active management.
 

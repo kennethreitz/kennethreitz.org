@@ -1,4 +1,9 @@
 # Python + Regular Expressions
+*January 2009*
+
+
+
+
 
   Have you ever needed to parse through large amounts of text looking for a specific pattern? Patterns like “one capital letter followed by three numbers” or “dd/mm/yyyy”? This is known as Pattern Matching. Regular Expressions allow easy syntax for pattern matching, and is an invaluable skill to add to one's toolkit, no matter what your area of expertise/practice is.<label for="sn-regex-universality" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-regex-universality" class="margin-toggle"/>

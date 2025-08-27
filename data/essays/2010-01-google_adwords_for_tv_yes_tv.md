@@ -1,4 +1,9 @@
 # Google AdWords for TV. Yes, TV.
+*January 2010*
+
+
+
+
 
   Today, Google unveiled their latest technology: \[AdWords for TV](http://www.google.com/adwords/tvads/index\-b.html) and \[AdSense for TV](https://www.google.com/adsense/www/en\_US/tv/).This totally blows my mind. They are about to totally revolutionize the television industry.
 

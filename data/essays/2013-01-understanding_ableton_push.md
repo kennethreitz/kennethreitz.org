@@ -1,4 +1,9 @@
 # Understanding Ableton Push
+*January 2013*
+
+
+
+
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666528644-BOZYFZX5APSX9DQ8712F/fc9ca-img.jpg)      ![fd25d-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666449460-BWDUQ2T0HVY62IB3EYJW/80ccb-fd25d-img.jpg)    ![Push and Cans_8935067194_o](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666462700-YSVN9CGVU229GWWDVZ73/06b5d-50b70-push-and-cans_8935067194_o.jpg)   Since I was a young child, I’ve loved music. I became a percussionist early on and dedicated over a decade of my life to my beloved drum kit. Today, I own a growing number of synths and keyboards, but my musical mind continues to gravitate around the concepts of rhythm and geometry. I find myself constrained and occasionally frustrated by the layout of a standard keyboard.
 

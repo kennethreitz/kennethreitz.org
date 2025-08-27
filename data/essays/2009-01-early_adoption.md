@@ -1,4 +1,9 @@
 # Early Adoption
+*January 2009*
+
+
+
+
 
   The world is full of people who wait for people to tell them what to use next. Especially on the internet.<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Written in 2009, this observation predates the rise of social media influencers and the entire "recommendation economy." Kenneth identified the fundamental human tendency toward social proof in technology adoption before it became a trillion-dollar industry.</span>
 

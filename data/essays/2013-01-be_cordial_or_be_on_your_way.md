@@ -1,4 +1,9 @@
 # Be Cordial or Be on Your Way
+*January 2013*
+
+
+
+
 
   Contributing to Open Source can be stressful. By opening a Pull Request to a popular project, you're inviting the maintainers and all of their users to analyze and scrutinize your code. Often, they will.<label for="sn-vulnerability" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-vulnerability" class="margin-toggle"/>

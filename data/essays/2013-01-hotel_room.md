@@ -1,4 +1,9 @@
 # Hotel Room
+*January 2013*
+
+
+
+
 
 > **Sidenote**: This photographic essay represents a departure from Kenneth's typical technical writing—using visual storytelling to explore the psychological landscape of travel and solitude. The hotel room becomes a metaphor for temporary spaces of possibility, reflecting the nomadic lifestyle often associated with the tech industry.
 

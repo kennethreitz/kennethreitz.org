@@ -1,4 +1,9 @@
 # Legit: The Sexy Git CLI
+*January 2011*
+
+
+
+
 
   [GitHub for Mac](http://mac.github.com/) is not just a Git client. This [comment](http://www.hackerne.ws/item?id=2684483) on Hacker News says it best:
 

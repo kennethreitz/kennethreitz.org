@@ -1,4 +1,9 @@
 # Google Docs Now Supports All Filetypes
+*January 2010*
+
+
+
+
 
 <aside class="sidenote">
 <strong>Cloud Storage Evolution:</strong> This post captures a pivotal moment in cloud storage history. In 2010, file synchronization was still nascent - Dropbox had just launched in 2008, and the idea of storing "any filetype" in the cloud was revolutionary. Google's move into general file storage would eventually lead to Google Drive, fundamentally changing how we think about file management.

@@ -1,4 +1,9 @@
 ---
+*January 2008*
+
+
+
+
 title: "A New Spin to Software Platform Design"
 date: "2008-01-01"
 category: "Software Development"

@@ -1,4 +1,9 @@
 # Google Launches Public DNS Service
+*January 2009*
+
+
+
+
 
   Google just launched a [Public DNS Service](http://code.google.com/speed/public-dns/), much like OpenDNS.<label for="sn-google-dns" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-google-dns" class="margin-toggle"/><span class="sidenote">Google's DNS launch in 2009 was a strategic infrastructure play that complemented their web dominance. By providing faster, more reliable DNS resolution, Google could improve overall internet performance—benefiting their own services while gathering valuable usage data.</span>\#\#\#Let me Try!
 

@@ -1,4 +1,9 @@
 # Growing Open Source Seeds
+*January 2013*
+
+
+
+
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521848-GM6AL9IP5T7VKA5UB2I1/e7fcb-img.jpg)      ![327a7-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666450559-S9M77EY5UXSBE5TVLOJD/7f6f3-327a7-img.jpg)    ![Image 2013.07.13 8-09-28 PM](http://static1.squarespace.com/static/665498111876725f7613f1e6/t/6680065e1022a0098af05aa8/1719666270410/c284a-f5085-image-2013.07.13-8-09-28-pm.jpeg.13-8-09-28-pm.jpeg.13-8-09-28-pm.jpeg.13-8-09-28-pm.jpeg?format=original)   ## The Facebook Story
 

@@ -1,4 +1,9 @@
 # Announcing Requests v1.0.0!
+*January 2013*
+
+
+
+
 
   Today marks a major milestone. Requests, Python HTTP for Humans, has finally reached release **v1\.0**. This is a big deal.<label for="sn-semver-milestone" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-semver-milestone" class="margin-toggle"/>

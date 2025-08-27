@@ -1,4 +1,9 @@
 # User Interface: Content vs. MetaContent
+*January 2009*
+
+
+
+
 
   Trey of lopsa.org wrote a  [fantastic article](http://lopsa.org/node/1566) on the the techie vs. non\-techie divide.<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Kenneth's early recognition of the content vs. metadata divide anticipates fundamental UX design principles that would become central to successful consumer technology. This insight predates the iPhone's revolutionary approach to hiding system complexity from users.</span> If you are in the user\-interface market, I suggest you read this. It sheds some wonderful light on this great divide.\#\# In ShortOrdinary Users only see and understand content in a system. Developers and Techies implicitly understand the Metadata that surrounds that content at such an intimate level that they build systems that subconsciously further the divide.<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">This observation reveals Kenneth's systems thinking approach—understanding how technical creators' implicit knowledge can inadvertently create barriers for end users. This philosophy would later inform his design of Python libraries that hide complexity while maintaining power.</span>
 

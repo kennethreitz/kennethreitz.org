@@ -1,4 +1,9 @@
 # Introducing Flask-Sockets
+*January 2013*
+
+
+
+
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666505947-ZIU1Q7IC5K18GY6EJIIY/b6254-img.jpg)      ![c9ea9-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666453199-ECQ3LQ1HSKOT0SZ24LP4/4da6b-c9ea9-img.jpg)    ![L1021006](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666491703-UY6RHN24DJ8RCM4A2BUU/80748-4d711-l1021006.jpg)   The state of [WebSockets](http://websocket.org) in Python is unfortunate — there's no obvious way to do it. Twisted \+ Autobhan? Node.js \+ HAProxy? Diesel.io? Nothing feels right. Let's create a WebSocket echo endpoint.
 

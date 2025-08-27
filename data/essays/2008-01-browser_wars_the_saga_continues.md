@@ -1,4 +1,9 @@
 # Browser Wars: The Saga Continues
+*January 2008*
+
+
+
+
 
 Every computer\-savvy technocrat is partial to their own web browser of choice. I've used every major one out there, and have to come to the conclusion that there is no one\-for\-all browser that everyone should use.<label for="sn-browser-wars" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-browser-wars" class="margin-toggle"/><span class="sidenote">Written in 2008, this essay captures the browser landscape at a pivotal moment—Chrome had just launched, Firefox was ascendant, and Internet Explorer still dominated despite being widely criticized by developers.</span> That should go without saying though.
 

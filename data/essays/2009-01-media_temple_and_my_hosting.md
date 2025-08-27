@@ -1,4 +1,9 @@
 # Media Temple and My Hosting
+*January 2009*
+
+
+
+
 
   While I haven't used many hosting services, I must admit that I cannot imagine any being much better than Media Temple.
 

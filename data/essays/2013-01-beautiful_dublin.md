@@ -1,4 +1,9 @@
 # Beautiful Dublin
+*January 2013*
+
+
+
+
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666508044-QQKB4ODKZZ6U6VN98BD4/bcaed-img.jpg)      ![5d72c-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666453811-CJPJ6KKTLVBRC5JH820S/cbf12-5d72c-img.jpg)    ![10358968286_c8dd9bd603_h](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666526897-7F5I3J0YGYUNKCBDHQOV/f9338-f77e3-10358968286_c8dd9bd603_h.jpg)   I recently returned from a trip to one of my favorite European cities — Dublin. ![view](http://farm8.staticflickr.com/7370/10359139473_9ec8654474_b.jpg)
 

@@ -1,4 +1,9 @@
 # Getting Started in Open Source
+*January 2013*
+
+
+
+
 
   Go get a GitHub account. Lurk. Find a project or two that you're interested in. The GitHub Blog is a great place to find new and interesting projects.
 

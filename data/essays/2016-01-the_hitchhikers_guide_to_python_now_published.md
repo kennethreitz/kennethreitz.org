@@ -1,6 +1,11 @@
 # The Hitchhiker's Guide to Python, Now Published!
+*January 2016*
 
-   View fullsize ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521201-DGM3DCKREYPGTII4TACA/df14b-0a85f-image-asset.jpeg)![]()   In March of 2011, I started a project known as *The Hitchhiker's Guide to Python*, a documentation website (available at [python\-guide.org](http://python-guide.org/)) designed to document much of the collective tribal knowledge from various sectors of the Python community. It intends to serve as both a guidebook for newcomers to Python and an excellent reference for seasoned veterans. 
+
+
+
+
+   ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521201-DGM3DCKREYPGTII4TACA/df14b-0a85f-image-asset.jpeg)   In March of 2011, I started a project known as *The Hitchhiker's Guide to Python*, a documentation website (available at [python\-guide.org](http://python-guide.org/)) designed to document much of the collective tribal knowledge from various sectors of the Python community. It intends to serve as both a guidebook for newcomers to Python and an excellent reference for seasoned veterans. 
 
  The project was, and continues to be, a big success for the Python community. Today, the website receives between **6,000–13,000 individual visitors every day**. Community contributions, which are encouraged and responsible for the majority of the content, have been made by *over 100 individuals.* 
 
@@ -22,7 +27,7 @@
 
 ---
 
-   [![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666506601-0MRBR17W6UN6YA09GNSG/b6ea9-89ea5-image-asset.jpeg)![]()](http://amzn.to/2cWQ2u6)   And, because the goal of this project has always been to serve the wonderful Python community, **all proceeds from sales are being donated directly to the** [**Django Girls Foundation**](https://djangogirls.org/foundation/)!
+   [ ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666506601-0MRBR17W6UN6YA09GNSG/b6ea9-89ea5-image-asset.jpeg)](http://amzn.to/2cWQ2u6)   And, because the goal of this project has always been to serve the wonderful Python community, **all proceeds from sales are being donated directly to the** [**Django Girls Foundation**](https://djangogirls.org/foundation/)!
 
  
 
@@ -33,7 +38,7 @@
  
 > *The **Django Girls Foundation** is a Charitable Incorporated Organization (“the CIO”). The goal of the foundation is to advance the education of the public in particular but not exclusively women in the subject of computer science by providing or assisting in the provision of programming workshops and educational material.*
 
-   [![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666481095-2OYF3JOF7G35FUJ13PKA/51480-e6b3f-image-asset.png)![]()](https://djangogirls.org/foundation/)   I considered many different organizations to support through this avenue, ranging from the Python Software Foundation to various non\-profit mental health organizations, but decided that the Django Girls Foundation is an ideal fit, as the goal of the organization perfectly matches to that of this project:
+   [ ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666481095-2OYF3JOF7G35FUJ13PKA/51480-e6b3f-image-asset.png)](https://djangogirls.org/foundation/)   I considered many different organizations to support through this avenue, ranging from the Python Software Foundation to various non\-profit mental health organizations, but decided that the Django Girls Foundation is an ideal fit, as the goal of the organization perfectly matches to that of this project:
 
  ## **Lowering the barrier to entry.**
 

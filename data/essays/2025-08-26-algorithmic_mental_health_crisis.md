@@ -1,6 +1,11 @@
 # The Algorithmic Mental Health Crisis
+*August 2025*
 
-**The uncomfortable truth about engagement optimization:** the same systems that [systematically destroy human virtue](/essays/2025-08-26-the_algorithm_eats_virtue) also systematically destroy mental health. This isn't coincidence—virtue and psychological wellbeing are intimately connected. When you engineer systems that reward the inverse of wisdom, courage, temperance, and love, you inevitably engineer systems that generate anxiety, depression, addiction, and despair. These same mechanisms also [degrade our language and thinking capabilities](/essays/2025-08-27-the_algorithm_eats_language), creating a comprehensive assault on human cognitive and emotional functioning.
+
+
+
+
+**The uncomfortable truth about engagement optimization:** the same systems that [systematically destroy human virtue](/essays/2025-08-26-the_algorithm_eats_virtue) also systematically destroy mental health. This isn't coincidence—virtue and psychological wellbeing are intimately connected. When you engineer systems that reward the inverse of wisdom, courage, temperance, and love, you inevitably engineer systems that generate anxiety, depression, addiction, and despair. These same mechanisms also [degrade our language and thinking capabilities](/essays/2025-08-27-the_algorithm_eats_language), [commodify romantic relationships](/essays/2025-08-27-the_algorithm_eats_love), and [destroy democratic discourse](/essays/2025-08-27-the_algorithm_eats_democracy), creating a comprehensive assault on human cognitive and emotional functioning.
 
 As someone who has lived with [bipolar disorder and schizoaffective symptoms](/mental-health) for years, I recognize the patterns. The cognitive distortions, the emotional dysregulation, the reality distortion, the social isolation—algorithmic feeds systematically induce the same psychological states that characterize serious mental health conditions<label for="sn-lived-experience" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-lived-experience" class="margin-toggle"/><span class="sidenote">Having experienced these states clinically gives me a reference point for recognizing them when they're artificially induced. The difference is that algorithmic systems create these conditions at scale, affecting billions of people who don't have frameworks for understanding what's happening to them.</span>.
 

@@ -1,4 +1,9 @@
 # Joining DigitalOcean!
+*January 2018*
+
+
+
+
 
 ![DO_Logo_Horizontal_Blue.png](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666503802-NS1QU3FWSK89LIOPG524/aa5dd-17d5d-do_logo_horizontal_blue.png)!
 

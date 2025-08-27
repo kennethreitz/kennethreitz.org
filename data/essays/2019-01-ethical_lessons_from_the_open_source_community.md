@@ -1,4 +1,9 @@
 # Ethical lessons from the open source community
+*January 2019*
+
+
+
+
 
   Since \~2011, I’ve focused the majority of my time on open source software. Only sometimes, lately, do I take a moment to sit back and reflect on lessons learned (often the hard way).
 

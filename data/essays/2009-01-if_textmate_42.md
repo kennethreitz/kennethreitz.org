@@ -1,4 +1,9 @@
 # if (TextMate == 42)
+*January 2009*
+
+
+
+
 
   **{**I've had some pretty extensive experience using every major OS for various forms of development and end\-user work. And just like every other programmer in the world, I certainly have my opinions, likes, and dislikes of every platform (some are a lot closer to perfection than others of course). Text editors are the same way. Everyone loves one or two, and hates all the others.
 

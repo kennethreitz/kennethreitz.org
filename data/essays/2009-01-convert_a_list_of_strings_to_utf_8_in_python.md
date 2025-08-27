@@ -1,4 +1,9 @@
 # Convert a List of Strings to UTF-8 in Python
+*January 2009*
+
+
+
+
 
   If you'd like to learn more about programming, [contact me](/contact-me/) for a one\-on\-one lesson.
 

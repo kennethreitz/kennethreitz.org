@@ -1,4 +1,9 @@
 # On Heroku and 2012
+*January 2012*
+
+
+
+
 
   Alas, 2012 is quickly coming to a close.This has been an absolutely incredible year — easily the best of the mere twenty\-four I've experienced so far. I became a member of the Python Software Foundation, traveled all over the world, met several thousand inspiring software developers, and collaborated on dozens of incredible projects.
 

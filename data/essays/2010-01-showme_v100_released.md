@@ -1,4 +1,9 @@
 # ShowMe v1.0.0 Released
+*January 2010*
+
+
+
+
 
 > **Development Philosophy**: This announcement reflects the era of rapid Python library development, where individual developers could create and distribute debugging tools with minimal friction. The focus on "easy diagnosis" anticipates modern observability practices.
 

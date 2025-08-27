@@ -1,4 +1,9 @@
 # Semantic Versioning
+*January 2010*
+
+
+
+
 
   While listening to this week's episode of \[The Changelog](http://thechangelog.com), I came across Tom Preston\-Werner's \[Semantic Versioning Specification](http://semver.org/). I love what I found.For many years, the open source community has been plagued with version number dystonia.<label for="sn-dystonia" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-dystonia" class="margin-toggle"/>

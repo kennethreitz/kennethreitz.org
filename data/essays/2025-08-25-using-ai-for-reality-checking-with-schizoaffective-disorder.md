@@ -1,4 +1,9 @@
 # AI Reality-Checking with Schizoaffective Disorder
+*August 2025*
+
+
+
+
 
 Living with schizoaffective disorder means constantly questioning whether my perceptions and interpretations of reality are accurate. Recently, I discovered an unexpected tool in this ongoing battle: AI assistants. Here's what I've learned about using AI effectively (and ineffectively) for reality-checking.
 

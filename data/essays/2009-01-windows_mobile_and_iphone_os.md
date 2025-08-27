@@ -1,4 +1,9 @@
 # Windows Mobile and iPhone OS
+*January 2009*
+
+
+
+
 
   I've owned about 5 WIndows Mobile devices, 3 Palm Devices, and 1 iPhone<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>
