@@ -30,7 +30,7 @@ Here's how modern sociological manipulation works:
 
 ## The Psychology of Artificial Amplification
 
-What makes this manipulation so effective is how it exploits the same psychological mechanisms that drive genuine social behavior:
+What makes this manipulation so effective is how it exploits the same psychological mechanisms that drive genuine social behavior—the same vulnerabilities that [create widespread mental health crises](/essays/2025-08-26-algorithmic_mental_health_crisis) when exploited by engagement optimization:
 
 ### Availability Heuristic Weaponization
 
@@ -104,7 +104,7 @@ The challenge in combating artificial amplification is that sophisticated operat
 
 ## The Broader Implications
 
-Artificial amplification of division represents a fundamental attack on democratic discourse itself. Democracy requires citizens capable of distinguishing between authentic grassroots sentiment and manufactured manipulation, between genuine disagreement and artificially amplified division.
+Artificial amplification of division represents a fundamental attack on [democratic discourse itself](/essays/2025-08-27-the_algorithm_eats_democracy). Democracy requires citizens capable of distinguishing between authentic grassroots sentiment and manufactured manipulation, between genuine disagreement and artificially amplified division.
 
 When artificial networks can successfully manufacture apparent consensus, several democratic foundations erode:
 
