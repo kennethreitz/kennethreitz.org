@@ -59,3 +59,7 @@
 - **Open Source Philosophy:**
   - Open source should make the world a better place without adding unnecessary complexity.
   - Focus on simplicity, sustainability, and maintaining a clear vision to ensure long-term success in open source projects.
+
+---
+
+*These principles of ethical open source development evolved into deeper understanding of [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice), treating code creation as conscious service to human flourishing rather than mere technical achievement.*

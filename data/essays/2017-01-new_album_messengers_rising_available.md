@@ -2,7 +2,7 @@
 
   I have a (somewhat) new album available, called *Messengers Rising*.
 
- It was mostly inspired by a previous relationship of mine, as well as coping with being diagnosed with bipolar disorder.
+ It was mostly inspired by a previous relationship of mine, as well as coping with being diagnosed with bipolar disorder—experiences explored in depth in [my mental health advocacy writing](/mental-health) and understanding [the complexity of relationships with manipulative partners](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner).
 
  You can stream it for free on all major services.
 

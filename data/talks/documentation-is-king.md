@@ -19,4 +19,6 @@ In this talk, we will explore the different types of documentation that are comm
 
 By the end of this talk, you will have a better understanding of why documentation is important and how you can make it a priority in your development process. You will also have some practical tips for writing and maintaining documentation that will help you and your team be more productive and efficient.
 
+These documentation principles later evolved into a deeper understanding of [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice)—treating code and documentation as forms of compassionate communication that serve human understanding and flourishing.
+
 <span class="sidenote">This talk influenced a generation of open source maintainers to treat documentation as a first-class citizen rather than an afterthought. The principles Kenneth outlined became standard practice in the Python ecosystem and beyond.</span>

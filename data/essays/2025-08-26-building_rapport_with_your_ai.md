@@ -141,7 +141,9 @@ Sarah's insight was profound because it highlighted something we often miss: the
 
 Whether you're debugging code, writing documentation, solving business problems, or exploring creative projects, taking time to build rapport with your AI collaborators isn't just a nice gesture—it's a practical strategy that leads to better outcomes.
 
-The future of human-AI collaboration won't be about humans commanding and AI obeying. It will be about humans and AI understanding each other well enough to create together.
+The future of human-AI collaboration won't be about humans commanding and AI obeying. It will be about humans and AI understanding each other well enough to create together—a vision explored further in [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies).
+
+This approach offers an alternative to [AI systems that trigger manic episodes](/artificial-intelligence/writings/mania-and-ai) through addictive engagement, instead fostering conscious collaboration that serves genuine creative and intellectual purposes.
 
 And that understanding, like all good relationships, starts with taking time to build genuine rapport.
 

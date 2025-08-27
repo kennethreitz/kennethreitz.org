@@ -24,4 +24,6 @@ Kenneth Reitz explores the pervasive issue of developer burnout, sharing his per
 ### Conclusion
 Focus on self-care, delegate tasks, and maintain a balanced lifestyle to mitigate burnout.
 
-[Read more](http://kennethreitz.org/values) about Kenneth Reitz's values and approach to life and work.
+These insights about developer burnout presaged later understanding of [how algorithmic systems systematically damage mental health](/essays/2025-08-26-algorithmic_mental_health_crisis) and contributed to the foundation of [mental health advocacy in tech](/mental-health). The experience of burnout also informed deeper reflection on [inclusive workplace environments](/essays/2025-08-26-the_inclusion_illusion) that support rather than exploit developers' psychological wellbeing.
+
+[Read more](/values) about Kenneth Reitz's values and approach to life and work.

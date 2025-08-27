@@ -46,4 +46,8 @@
 
  Flickr sets for this trip are available: [Amsterdam](http://www.flickr.com/photos/kennethreitz/sets/72157633447625802/detail/) and [Groningen](http://www.flickr.com/photos/kennethreitz/sets/72157633470180315/detail/). I also[wrote a song](https://soundcloud.com/kennethreitz/amsterdam-experiment) about it.
 
- Many thanks to the PyGrunn team for putting on an excellent conference! I’m looking forward to returning when given the opportunity.
+ Many thanks to the PyGrunn team for putting on an excellent conference! I'm looking forward to returning when given the opportunity.
+
+---
+
+*This travel experience was part of the European adventures that preceded the [awareness of self journey](/talks/awareness-of-self) and mental health challenges, representing a time of creative exploration and openness to new experiences.*

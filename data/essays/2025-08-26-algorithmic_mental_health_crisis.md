@@ -192,6 +192,8 @@ As someone who has struggled with mental health challenges, I can say with certa
 
 We can build technology that supports human flourishing instead of exploiting human psychology. But first, we have to acknowledge that the current systems are causing massive psychological harm at unprecedented scale.
 
+This crisis extends beyond individual psychological effects to encompass [systematic discrimination against those who need mental health support](/essays/2025-08-26-the_inclusion_illusion) and demands a fundamental reorientation toward [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) that serves consciousness rather than exploiting it.
+
 The algorithm doesn't just eat virtue—it eats sanity, peace, and hope. We can choose to feed it something else, but only if we first admit what it's currently consuming.
 
 ---
