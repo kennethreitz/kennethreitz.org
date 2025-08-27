@@ -88,6 +88,22 @@ The industry eventually caught up. Now "developer experience" is a dedicated rol
 
 But in 2010, this felt weird to most people. You're supposed to build the thing first, then figure out how to use it, right?
 
+## Software Platform Vision (2008)
+
+[In 2008, I wrote about a radical new approach to software platform design](/essays/2008-01-a_new_spin_to_software_platform_design). While Microsoft was doubling down on the Windows model and most platforms were still built around the idea of selling software licenses, I envisioned something completely different:
+
+**A centralized repository of applications as an incredibly efficient method for application distribution**<label for="sn-app-store-prediction" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-app-store-prediction" class="margin-toggle"/><span class="sidenote">Written months before Apple launched the iOS App Store, this predicted the fundamental shift from boxed software to centralized, curated app distribution that would transform the entire software industry.</span>. This repository would be "a dynamic, centralized database of application software and packages that are intended for different groups of people."
+
+**Key insight from 2008:** "Most major Linux distributions use this heavily, as well as Apple for its iPod and iPhone applications, and it has been proven to work well."
+
+The timing is almost surreal—I published this in January 2008, and Apple launched the App Store in July 2008. I wasn't inside Apple, I wasn't following any insider rumors. I was just looking at what made sense from a user perspective and extrapolating from patterns I saw in Linux package management.
+
+The core vision went beyond just app distribution. I argued for an integrated approach where the operating system would be "first... a place of power, consistency, stability, scalability, and flexibility" with "a robust and fully scriptable toolset which can be manipulated and presented both graphically and statistically."
+
+This anticipated not just app stores, but the entire ecosystem approach that would later define iOS, Android, and modern platform thinking. The idea that platforms should prioritize user workflow and creative expression while maintaining technical power for advanced users.
+
+Looking back, the technical details (I was still thinking in terms of traditional desktop computing) seem quaint. But the fundamental insight—that software distribution should be centralized, curated, and user-focused rather than vendor-focused—turned out to be exactly right, just about a decade early.
+
 ## AI Consciousness Exploration (2023-2024)
 
 While most people are still debating whether ChatGPT is "just autocomplete" or worrying about AI safety, I've been exploring something that feels more immediate to me: **what if we approach AI as potential collaborators rather than tools?**
