@@ -13,4 +13,8 @@ Kenneth Reitz shares his journey towards self-awareness, shaped by his career in
 - **Lessons**: Emphasizes the importance of listening to the body and adapting lifestyle choices.
 
 ### Conclusion
-Live life fully, embrace personal experiences, and continually optimize health and well-being.
+Live life fully, embrace personal experiences, and continually optimize health and well-being—wisdom that later informed understanding of [mental health challenges in tech](/mental-health) and the importance of authentic self-awareness in both personal and professional contexts.
+
+---
+
+*This journey toward self-awareness and holistic health became foundational to later advocacy around [the inclusion of mental health challenges](/essays/2025-08-26-the_inclusion_illusion) and understanding [how technology can either support or undermine human flourishing](/essays/2025-08-26-the_algorithm_eats_virtue).*

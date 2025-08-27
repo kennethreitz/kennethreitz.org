@@ -107,4 +107,4 @@ The poem culminates with a powerful idea: that the immense capabilities of techn
 <input type="checkbox" id="sn-4" class="margin-toggle"/>
 <span class="sidenote">Kenneth's integration of dharmic principles with technological advancement represents a prescient call for ethical AI development—anticipating contemporary discussions about AI alignment and the need for value-driven technology design long before these became mainstream concerns.</span>. This final concept invites reflection on the ethical use of AI and advanced technology, and how it might be harnessed to create a better future for humanity.
 
-Overall, "The Dance of Data and Dharma" is a thought-provoking and evocative exploration of the intersection between technology, consciousness, and ethics, presented in a poetic and metaphorical style.
+Overall, "The Dance of Data and Dharma" is a thought-provoking and evocative exploration of the intersection between technology, consciousness, and ethics, presented in a poetic and metaphorical style—themes later expanded in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice).

@@ -76,7 +76,7 @@ The Seven Virtues are developed through conscious cultivation<label for="sn-cons
 
 ## The Contemporary Relevance
 
-Though ancient in origin, the Seven Virtues address current challenges<label for="sn-contemporary-relevance" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-contemporary-relevance" class="margin-toggle"/><span class="sidenote">These patterns are timeless because human nature is consistent. The technology changes, but the fundamental challenges of working together, making good decisions, and building meaningful things remain the same.</span>:
+Though ancient in origin, the Seven Virtues address current challenges<label for="sn-contemporary-relevance" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-contemporary-relevance" class="margin-toggle"/><span class="sidenote">These patterns are timeless because human nature is consistent. The technology changes, but the fundamental challenges of working together, making good decisions, and building meaningful things remain the same.</span>—particularly urgent as [algorithmic systems systematically undermine virtue](/essays/2025-08-26-the_algorithm_eats_virtue) by optimizing for engagement over character development:
 
 **Decision Complexity**: Prudentia helps navigate moral choices in rapidly changing circumstances.
 

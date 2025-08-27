@@ -65,5 +65,9 @@
   - Document and share best practices with the community.
 
 ## Conclusion
-- **Call to Action:** Developers should prioritize creating simple, accessible APIs and contribute to open-source projects.
+- **Call to Action:** Developers should prioritize creating simple, accessible APIs and contribute to open-source projects—principles that evolved into [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice), treating code as a form of conscious service to human flourishing.
 - **Contact:** [GitHub - Kenneth Reitz](https://github.com/kennethreitz)
+
+---
+
+*This talk's "for Humans" philosophy presaged many later insights about human-centered technology design, explored further in [Ahead of My Time, I Think](/essays/2025-08-26-ahead_of_my_time_i_think).*

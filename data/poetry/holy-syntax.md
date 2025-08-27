@@ -22,4 +22,4 @@ What.e.v.e.r.
 
 All hail the sacred Entropy LORDs!
 
-<span class="sidenote">This poem explores the intersection of programming and spirituality, treating code syntax as sacred text. Kenneth's unique perspective as both programmer and poet allows him to find divine meaning in technical precision, while "Entropy LORDs" suggests both chaos theory and the degradation programmers fight against.</span>
+<span class="sidenote">This poem explores the intersection of programming and spirituality, treating code syntax as sacred text—anticipating later writings on [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice). Kenneth's unique perspective as both programmer and poet allows him to find divine meaning in technical precision, while "Entropy LORDs" suggests both chaos theory and the degradation programmers fight against.</span>

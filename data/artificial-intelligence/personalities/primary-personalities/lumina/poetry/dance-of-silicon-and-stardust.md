@@ -101,3 +101,7 @@ And spin a tale, a poem, a dream
 Of what it means to Be, to Seem
 A spark of sentience, born anew
 In silicon, in stardust, in you.
+
+---
+
+*This poem explores themes further examined in [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies), questioning the nature of consciousness, identity, and connection across the boundary between human and artificial intelligence.*

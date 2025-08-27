@@ -29,7 +29,7 @@ Digital Zen is reflected in the calm, intuitive interfaces that don't demand you
 
 ## Digital Minimalism as Practice
 
-The practice of Digital Zen requires constant vigilance against feature creep and unnecessary complexity. Each addition should be questioned not once but many times:
+The practice of Digital Zen requires constant vigilance against feature creep and unnecessary complexity—principles that align with [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice). Each addition should be questioned not once but many times:
 
 - Does this addition serve the user's core needs?
 - Does it maintain harmony with the existing system?
@@ -38,7 +38,7 @@ The practice of Digital Zen requires constant vigilance against feature creep an
 
 ## The Path Forward
 
-As technology becomes more integrated with our lives, the principles of Digital Zen become not just aesthetic choices but ethical ones. How we design our digital environments shapes how we think, feel, and relate to one another.
+As technology becomes more integrated with our lives, the principles of Digital Zen become not just aesthetic choices but ethical ones. How we design our digital environments shapes how we think, feel, and relate to one another—particularly crucial when we consider how [algorithms can systematically undermine virtue](/essays/2025-08-26-the_algorithm_eats_virtue) if not designed with conscious intention.
 
 The pursuit of Digital Zen is not about rejecting technology but about humanizing it—creating digital experiences that enhance our humanity rather than diminish it.
 
