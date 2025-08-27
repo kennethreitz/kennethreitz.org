@@ -106,13 +106,13 @@ Artificial amplification of division represents a fundamental attack on democrat
 
 When artificial networks can successfully manufacture apparent consensus, several democratic foundations erode:
 
-**Legitimate Representation**: Politicians and institutions lose the ability to distinguish between authentic public concerns and artificially amplified demands, leading to policies that serve manipulation campaigns rather than actual constituents.
+- **Legitimate Representation**: Politicians and institutions lose the ability to distinguish between authentic public concerns and artificially amplified demands, leading to policies that serve manipulation campaigns rather than actual constituents
 
-**Constructive Compromise**: The space for productive disagreement collapses when artificial amplification makes extreme positions seem mainstream while making moderate bridge-building appear naive or unpopular.
+- **Constructive Compromise**: The space for productive disagreement collapses when artificial amplification makes extreme positions seem mainstream while making moderate bridge-building appear naive or unpopular
 
-**Shared Reality**: The common factual foundation necessary for democratic deliberation dissolves when artificial networks can make any position appear to have widespread passionate support.
+- **Shared Reality**: The common factual foundation necessary for democratic deliberation dissolves when artificial networks can make any position appear to have widespread passionate support
 
-**Civic Engagement**: Citizens withdraw from democratic participation when they can't distinguish between authentic grassroots movements and professionally manufactured astroturfing<label for="sn-democratic-participation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-democratic-participation" class="margin-toggle"/><span class="sidenote">The irony is that artificial amplification often drives away genuine civic engagement. When people suspect that online political discourse is largely artificial, they stop participating, leaving the field to professional manipulation operations.</span>.
+- **Civic Engagement**: Citizens withdraw from democratic participation when they can't distinguish between authentic grassroots movements and professionally manufactured astroturfing<label for="sn-democratic-participation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-democratic-participation" class="margin-toggle"/><span class="sidenote">The irony is that artificial amplification often drives away genuine civic engagement. When people suspect that online political discourse is largely artificial, they stop participating, leaving the field to professional manipulation operations.</span>
 
 ## A Personal Reflection
 
