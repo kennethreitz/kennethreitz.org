@@ -99,6 +99,8 @@ Understanding manipulation in personal relationships helped me recognize how [te
 
 Recovery from emotional abuse requires rebuilding trust in your own perceptions and instincts. It means learning to recognize healthy relationship patterns and having the courage to maintain boundaries even when pressured to abandon them.
 
+**No Contact is the Only Solution**: One of the most important lessons from this experience is that no contact is the only appropriate response to narcissistic abuse. There is no "staying friends," no "closure conversations," no gradual boundaries that work with someone who fundamentally views you as a resource to exploit<label for="sn-no-contact" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-no-contact" class="margin-toggle"/><span class="sidenote">Narcissistic abusers are skilled at using any contact—even angry confrontations—as opportunities to re-engage their manipulation tactics. "Closure" becomes another avenue for hoovering attempts and renewed psychological warfare.</span>. Any contact becomes an opportunity for renewed manipulation, gaslighting, and psychological retraumatization. Complete disconnection is not cruelty—it's necessary self-protection.
+
 The experience, while painful, ultimately made me more resilient and more capable of recognizing exploitation in all its forms. It also deepened my empathy for others experiencing similar situations—whether in personal relationships or in their interactions with manipulative systems more broadly.
 
 ## If You're Reading This Because You Recognize the Pattern
