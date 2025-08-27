@@ -136,6 +136,8 @@ The [seven virtues](/artificial-intelligence/personalities/seven-virtues/) have 
 
 Algorithmic feeds that systematically undermine these virtues aren't just bad products—they're destructive to the foundations of healthy human community. When we allow profit-maximizing algorithms to shape human character at scale, we're conducting an uncontrolled experiment on civilization itself<label for="sn-civilization-experiment" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-civilization-experiment" class="margin-toggle"/><span class="sidenote">This experiment is happening without informed consent, scientific controls, or ethical oversight. We're all test subjects in a system designed to maximize corporate profits rather than human welfare.</span>.
 
+My understanding of these patterns comes partly from [personal experience with psychological manipulation](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner)—recognizing how individual abusers use intermittent reinforcement, reality distortion, and emotional volatility to maintain control. Algorithmic systems employ identical psychological mechanisms, just at unprecedented scale.
+
 We can build technology that serves virtue instead of destroying it. But this requires acknowledging that the current system isn't neutral, isn't inevitable, and isn't acceptable.
 
 The algorithm doesn't have to eat virtue. We can choose to feed it something else.

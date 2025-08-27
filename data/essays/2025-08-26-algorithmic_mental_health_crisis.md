@@ -64,6 +64,10 @@ While algorithmic feeds damage everyone's mental health, certain populations are
 
 Developing brains are more susceptible to addiction, more sensitive to social rejection, and less capable of self-regulation. Introducing engagement-optimized systems during critical developmental periods can cause lasting psychological damage.
 
+### People with Existing Trauma
+
+Having experienced [psychological manipulation in personal relationships](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner), I can attest that algorithmic systems exploit the same psychological vulnerabilities that abusers target—the need for validation, the fear of abandonment, the confusion that comes from reality distortion. For trauma survivors, these platforms can retrigger familiar patterns of emotional dysregulation and compulsive seeking behavior.
+
 The teenage mental health crisis isn't coincidentally timed with social media adoption—it's causally related to it<label for="sn-teen-crisis" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-teen-crisis" class="margin-toggle"/><span class="sidenote">The correlation between smartphone adoption and teenage mental health decline is so strong and consistent across demographics that denying causation requires willful blindness.</span>.
 
 ### Young Children and Developmental Disruption

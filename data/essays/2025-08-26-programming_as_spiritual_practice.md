@@ -247,6 +247,8 @@ We can continue [building systems that eat virtue](/essays/2025-08-26-the_algori
 
 The choice isn't just technical or economic—it's spiritual. It's about whether we approach our enormous power as programmers with wisdom and compassion or with unconscious ambition and blind optimization.
 
+This understanding comes partly from [direct experience with how systematic manipulation works](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner)—recognizing the psychological mechanisms that can be used to exploit rather than serve human consciousness. Programming as spiritual practice means building technology that heals rather than harms, that supports growth rather than dependency, that serves authentic human needs rather than manufactured desires.
+
 The world needs programmers who code like bodhisattvas, debug like meditators, and architect systems like sages building temples for future generations. The technical skills you already have; the spiritual framework is available for cultivation.
 
 What you create next could serve liberation rather than bondage, consciousness rather than distraction, love rather than exploitation.

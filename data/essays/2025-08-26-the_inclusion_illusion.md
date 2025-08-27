@@ -182,6 +182,8 @@ The negative responses were more subtle but more systematic—fewer speaking opp
 
 This article isn't speculation—it's documentation of patterns I've observed, experienced, and had reported to me by dozens of people over nearly a decade of mental health advocacy in tech.
 
+My sensitivity to these discrimination patterns was heightened by [previous experience with systematic psychological manipulation](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner)—recognizing how institutions, like individuals, can exploit trust and vulnerability for their own purposes while maintaining plausible deniability about their actions.
+
 ## The Inclusion Imperative
 
 Tech companies cannot continue to claim commitment to diversity and inclusion while systematically eliminating employees who actually represent neurodiversity and mental health awareness. The current practice is morally bankrupt and strategically counterproductive.
