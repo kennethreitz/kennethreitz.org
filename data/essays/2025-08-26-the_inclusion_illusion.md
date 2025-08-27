@@ -168,8 +168,6 @@ Genuine inclusion would require fundamental changes:
 
 Change requires action at multiple levels:
 
-Change requires action at multiple levels.
-
 For individual protection: Document everything<label for="sn-document-everything" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-document-everything" class="margin-toggle"/><span class="sidenote">Email yourself contemporaneous notes. Save every communication. Document every conversation. You're building evidence for the discrimination lawsuit you hope you'll never need to file.</span>. Consult employment attorneys before disclosing conditions. Build networks with others who share similar challenges. Work with disability rights organizations. Consider carefully whether disclosure is worth the professional risk<label for="sn-strategic-disclosure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-strategic-disclosure" class="margin-toggle"/><span class="sidenote">The sad reality: disclosing mental health conditions in tech is often career suicide. The calculation isn't whether to be authentic—it's whether you can afford the professional consequences of honesty.</span>.
 
 For systemic reform: We need stronger ADA enforcement with real penalties. Mandatory reporting on accommodation requests and retention rates. Public databases of company disability practices. Support for legal test cases. Social pressure through media and professional networks to expose discriminatory patterns.
