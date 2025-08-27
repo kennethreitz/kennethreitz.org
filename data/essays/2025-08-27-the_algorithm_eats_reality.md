@@ -84,11 +84,15 @@ The algorithm doesn't just eat our attention—it's being weaponized to eat our 
 - [The Unexpected Negative: a Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) - Personal manipulation patterns that scale to technological systems
 
 ### External Resources
+- *The Age of Surveillance Capitalism* by Shoshana Zuboff - The foundational analysis of data extraction as psychological manipulation
 - *LikeWar* by P.W. Singer and Emerson Brooking - How social media became a weapon of war
-- *The Age of Surveillance Capitalism* by Shoshana Zuboff - The business model that enables psychological manipulation
+- *The Filter Bubble* by Eli Pariser - Early analysis of algorithmic reality fragmentation
 - *Network Propaganda* by Yochai Benkler, Robert Faris, and Hal Roberts - How asymmetric polarization distorts American politics
 - *The Chaos Machine* by Max Fisher - How social media rewires our minds and our world
+- *The Social Dilemma* (Netflix documentary) - Tech insiders reveal manipulation by design
 - *Active Measures* (documentary) - Investigation of Russian information warfare campaigns
+- "The Rise of Social Bots" by Ferrara et al. - Academic research on coordinated inauthentic behavior
+- "Exploitation of Vulnerability Through Personalised Marketing" - Internet Policy Review analysis of targeted manipulation
 
 ---
 
