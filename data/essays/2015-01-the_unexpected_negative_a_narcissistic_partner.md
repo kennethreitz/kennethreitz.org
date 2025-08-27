@@ -105,15 +105,11 @@ The experience, while painful, ultimately made me more resilient and more capabl
 
 If something in this account resonates with your current situation:
 
-**Trust your instincts**. If this article feels familiar, there's probably a reason.
-
-**Document your reality**. Keep a journal of conversations and events. Gaslighting works by making you doubt your memory.
-
-**Maintain connections** with friends and family, even if your partner discourages it.
-
-**Seek professional support**. Therapists trained in trauma and abuse can help you process what's happening and develop strategies for protection or escape.
-
-**Remember that leaving is a process, not an event**. It often takes multiple attempts to fully disengage from these relationships.
+- **Trust your instincts** - If this article feels familiar, there's probably a reason
+- **Document your reality** - Keep a journal of conversations and events. Gaslighting works by making you doubt your memory
+- **Maintain connections** - Stay in touch with friends and family, even if your partner discourages it
+- **Seek professional support** - Therapists trained in trauma and abuse can help you process what's happening and develop strategies for protection or escape
+- **Remember that leaving is a process, not an event** - It often takes multiple attempts to fully disengage from these relationships
 
 You deserve to be treated with genuine respect, kindness, and consideration. If someone's love comes with conditions that require you to diminish yourself, question your reality, or accept treatment you wouldn't tolerate from a stranger, it's not love—it's control.
 
