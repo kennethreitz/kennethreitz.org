@@ -80,7 +80,7 @@ When people can't tell what's real anymore, several things happen:
 
 - **Reality Nihilism**: Some develop a cynical assumption that all social media engagement is fake, all grassroots movements are astroturfed, and all expressions of political passion are performed rather than felt
 
-- **Authoritarian Appeal**: When shared reality becomes obviously fractured, people become more attracted to leaders who promise simple answers and claim exclusive access to truth<label for="sn-authoritarian-vulnerability" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-authoritarian-vulnerability" class="margin-toggle"/><span class="sidenote">This is perhaps the most dangerous outcome—when people lose faith in their ability to distinguish truth from manipulation through democratic discourse, they become vulnerable to authoritarian claims of special insight or access to hidden truth.</span>
+- **Authoritarian Appeal**: When shared reality becomes obviously fractured, people become more attracted to leaders who promise simple answers and claim exclusive access to truth
 
 ## Detection and Resistance
 
