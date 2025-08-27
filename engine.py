@@ -1147,7 +1147,7 @@ def sitemap_xml():
     
     for item in sitemap_data:
         xml_content += '  <url>\n'
-        xml_content += f'    <loc>https://kennethreitz.org{item["url"]}</loc>\n'
+        xml_content += f'    <loc>https://kennethreitz.org{escape(item["url"])}</loc>\n'
         if 'modified' in item:
             xml_content += f'    <lastmod>{item["modified"].strftime("%Y-%m-%d")}</lastmod>\n'
         xml_content += '  </url>\n'
