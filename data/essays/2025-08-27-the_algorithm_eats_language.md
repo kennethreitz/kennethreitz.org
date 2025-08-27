@@ -297,6 +297,7 @@ The question is whether we will recognize what we're losing in time to build som
 ### On This Site
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization destroys human character
 - [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Systematic psychological damage from current platforms
+- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify romantic connection
 - [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness) - The evolution of human-centered technology philosophy
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Conscious technology development
 - [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Design that serves rather than exploits human nature
