@@ -44,6 +44,8 @@ Perhaps most devastating is how mental health disclosure affects personal relati
 
 I've lost friendships when people learned my diagnosis, with former friends suddenly finding excuses to avoid contact. I've had romantic relationships end when partners realized that dating someone with schizoaffective disorder meant occasional difficult conversations about symptoms, medication, and hospitalization risks. I've been excluded from social gatherings where my presence might make others "uncomfortable."
 
+But there are exceptions that prove the rule—people like Sarah, whose response to learning about my condition was to educate herself, offer genuine support, and treat me as a complete person rather than a diagnosis. These relationships are rare enough to be remarkable, which itself illustrates the problem.
+
 The isolation is profound. The very condition that most requires social support becomes the barrier to accessing it.
 
 ## The Fear Behind the Discrimination
