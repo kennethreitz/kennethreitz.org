@@ -29,7 +29,7 @@ I consider myself to be a practitioner of Jnana Yoga, as I am primarily interest
 
 ## Misappropriation of Yoga
 
-You can see the misappropriation of these practices in the Western world in the form of "yoga pants" and "yoga mats." These are not yoga, but rather the physical practice of yoga, which is only one small part of the larger spiritual tradition.
+You can see the misappropriation of these practices in the Western world in the form of "yoga pants" and "yoga mats." These are not yoga, but rather the physical practice of yoga, which is only one small part of the larger spiritual tradition<label for="sn-true-yoga" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-true-yoga" class="margin-toggle"/><span class="sidenote">Traditional yoga encompasses eight limbs (*ashtanga*): ethical guidelines (*yamas*), personal observances (*niyamas*), physical postures (*asanas*), breath control (*pranayama*), withdrawal of senses (*pratyahara*), concentration (*dharana*), meditation (*dhyana*), and union (*samadhi*). Western "yoga" typically focuses only on *asanas* (postures), stripping away the philosophical, ethical, and spiritual dimensions that form the true foundation of the practice. This commercialization transforms a comprehensive spiritual discipline into physical exercise, often missing the point entirely.</span>.
 
 ## Meditation
 
