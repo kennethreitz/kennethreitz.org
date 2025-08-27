@@ -14,7 +14,7 @@
 
  ## Operator Mono for Programming
 
- I find that different typefaces (as well as [color schemes](https://www.kennethreitz.org/essays/sublime-text-2-love)) both set the mood for my development environment, as well as offer utility in the way that I parse programmable text. 
+ I find that different typefaces (as well as [color schemes](/essays/sublime-text-2-love)) both set the mood for my development environment, as well as offer utility in the way that I parse programmable text. 
 
  While using *Operator Mono*, I found that I scan entire words as I read code more easily; while in other typefaces, my parsing style is often more letter\-by\-letter. 
 

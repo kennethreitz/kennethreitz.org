@@ -42,7 +42,7 @@
 
  My name is Kenneth Reitz, and I'm truly in love with my camera.
 
- In case you missed the memo, [Love is all you need](http://www.kennethreitz.org/essays/all-about-love). 
+ In case you missed the memo, [Love is all you need](/essays/all-about-love). 
 
 
 

@@ -8,7 +8,7 @@
 
   ## **Approach all others with respectfulness.**
 
- [Be cordial or be on your way](https://www.kennethreitz.org/essays/be-cordial-or-be-on-your-way).  
+ [Be cordial or be on your way](/essays/be-cordial-or-be-on-your-way).  
 
 
  ## **Never expect anything, in return.**
@@ -20,7 +20,7 @@
 
  ## **Access to information (e.g. documentation) allows our efforts to scale, more so than any other factor.**
 
- [I gave a talk about this](https://www.kennethreitz.org/talks#/documentation-is-king/).
+ [I gave a talk about this](/talks/documentation-is-king/).
 
   ## **The needs of the collective are (usually)more important than the needs of yourself**.
 

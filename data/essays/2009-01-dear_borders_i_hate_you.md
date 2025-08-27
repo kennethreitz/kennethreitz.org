@@ -8,7 +8,7 @@
 
  You seem to have forgotten one key demographic, however.
 
- If a tech\-savvy web developer wants to go and play with his newly\-developed web design skills he obtained from books out of your technology section, he is free to bring his laptop into your lovely café. Awesome. You even offer power outlets. All the sweeter.
+ If a tech-savvy web developer wants to go and play with his newly-developed web design skills he obtained from books out of your technology section, he is free to bring his laptop into your lovely café. Awesome. You even offer power outlets. All the sweeter.
 
  So, he decides to bring his laptop in one day to play with his newly purchased python web development book<label for="sn-2" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-2" class="margin-toggle"/>

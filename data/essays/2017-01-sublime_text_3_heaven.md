@@ -8,7 +8,9 @@
 
  ## **Sublime UI Theme**: Material
 
-  View fullsize ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666487594-21G8NNQU1B2K770ELYPL/6e6e5-ab993-image-asset.png)![]()   ### Sublime Text Extensions:
+  View fullsize ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666487594-21G8NNQU1B2K770ELYPL/6e6e5-ab993-image-asset.png)
+
+### Sublime Text Extensions:
 
  * **Anaconda** — fantastic Python "IDE" support for Sublime Text. Just works, does everything you'd want it to do, including code completion and PEP8 checking.
 * **Color Highlighter** — highlights colors present in code as the value provided (great for css).
@@ -31,7 +33,7 @@
 
  ### Syntax Packages:
 
- * **Tomorrow Night Italics Color Scheme** — italics for code comments, for [Operator Mono](https://www.kennethreitz.org/essays/test-driving-a-200-programming-font-operator-mono).
+ * **Tomorrow Night Italics Color Scheme** — italics for code comments, for [Operator Mono](/essays/test-driving-a-200-programming-font-operator-mono).
 * **fish\-shell** — syntax highlighting for fish scripts.
 * **Jinja2** — syntax hilighting and snippets for jinjia2 templates**.**
 * **RestructuredText Improved** —syntax highlighting for RST files.

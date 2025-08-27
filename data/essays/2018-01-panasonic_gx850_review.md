@@ -1,6 +1,8 @@
 # Panasonic GX850 Review
 
-![09DDFA14-8558-465A-A134-2E4C533B4314.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666467921-GZ2WDJUX7H4KGNIJD1TY/19d69-bdad1-09ddfa14-8558-465a-a134-2e4c533b4314.jpg)![09DDFA14-8558-465A-A134-2E4C533B4314.JPG]()   I recently decided to [switch cameras (again)](http://journal.kennethreitz.org/entry/switching-cameras). This is something I do every few years, out of boredom, mostly, and it always inspires me as a photographer.
+![09DDFA14-8558-465A-A134-2E4C533B4314.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666467921-GZ2WDJUX7H4KGNIJD1TY/19d69-bdad1-09ddfa14-8558-465a-a134-2e4c533b4314.jpg)
+
+I recently decided to switch cameras (again). This is something I do every few years, out of boredom, mostly, and it always inspires me as a photographer.
 
 
 ![2D9CC37B-2B8E-4889-9A88-B54087D4780C.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666463332-U95BO1C3SM2S89P5L1Q8/0d352-294c5-2d9cc37b-2b8e-4889-9a88-b54087d4780c.jpg)![2D9CC37B-2B8E-4889-9A88-B54087D4780C.JPG]()   I usually end up switching between Leica and Fujifilm cameras, but this time is different — I decided to pick up my first Micro–Four–Thirds camera — [the smallest one on the market](http://amzn.to/2FHEaeU). One that’s so small, it even lacks a viewfinder.
