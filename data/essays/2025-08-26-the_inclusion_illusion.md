@@ -212,6 +212,7 @@ We can build a tech industry that genuinely supports neurodivergent thinking and
 ## Related Reading
 
 ### On This Site
+- [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency) - Personal experience of systematic discrimination across healthcare, employment, and communities
 - [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - How technology systematically exploits psychological vulnerabilities
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - Engagement optimization's destruction of human character
 - [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young) - How ideal-driven groups betray their stated principles

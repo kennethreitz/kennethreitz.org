@@ -12,6 +12,7 @@ A curated exploration of the intersection between mental health, technology, and
 ### Trauma and Recovery
 - [Narcissistic Manipulation](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) - Understanding psychological manipulation patterns
 - [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion) - Tech's betrayal of neurodiversity and mental health
+- [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency) - Personal experience of systematic discrimination for living openly with schizoaffective disorder
 
 ## Systemic Critique
 
@@ -22,6 +23,7 @@ A curated exploration of the intersection between mental health, technology, and
 
 ### Discrimination and Exclusion
 - [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion) - Systemic discrimination against people with illnesses in tech companies
+- [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency) - Lived experience of discrimination across healthcare, employment, and communities
 - [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young) - Community dynamics that exclude the vulnerable
 
 ## Technology as Healing
