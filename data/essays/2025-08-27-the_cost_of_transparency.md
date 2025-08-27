@@ -48,6 +48,18 @@ But there are exceptions that prove the rule—people like Sarah, whose response
 
 The isolation is profound. The very condition that most requires social support becomes the barrier to accessing it.
 
+## The Stakes: Life and Death Statistics
+
+The discrimination I'm documenting isn't just about hurt feelings or career setbacks—it has life-and-death consequences for people with schizoaffective disorder:
+
+**Life Expectancy**: People with schizoaffective disorder live 8-17.5 years less than the general population, with women facing even greater mortality risk than men<label for="sn-life-expectancy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-life-expectancy" class="margin-toggle"/><span class="sidenote">A 2011 study found average life expectancy of 64.1-69.4 years for people with schizoaffective disorder, compared to normal life expectancy. The gap is primarily attributed to cardiovascular disease, diabetes, respiratory problems, and suicide risk.</span>.
+
+**Homelessness**: Among homeless populations, schizoaffective disorder affects 11-28% of individuals—a rate roughly 15-40 times higher than in the general population<label for="sn-homelessness-stats" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-homelessness-stats" class="margin-toggle"/><span class="sidenote">Recent studies show only 5% of homeless individuals are diagnosed with schizoaffective disorder at admission, but 28% receive this diagnosis by discharge, suggesting massive underdiagnosis in this vulnerable population.</span>. People with the condition experience longer psychiatric hospitalizations and more frequent healthcare crises.
+
+**Healthcare System Failure**: The homeless population with schizoaffective disorder suffers from "diagnostic variability" and frequent emergency room visits, often cycling through multiple diagnoses without achieving clinical remission or therapeutic goals<label for="sn-healthcare-failure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-healthcare-failure" class="margin-toggle"/><span class="sidenote">The diagnostic instability reflects both the complexity of the condition and systemic failures in providing consistent care to people experiencing homelessness and severe mental illness.</span>.
+
+These aren't abstract statistics—they represent the human cost of the systematic exclusion I've experienced. When healthcare discriminates, when employers eliminate us, when communities ostracize us, people with schizoaffective disorder literally die younger and more often become homeless.
+
 ## The Fear Behind the Discrimination
 
 What drives this systematic exclusion is fear—fear of the unknown, fear of mental illness, and particularly fear of schizoaffective disorder's association with psychosis. People can intellectually support mental health awareness while being viscerally uncomfortable with conditions that challenge their assumptions about consciousness, reality, and social functioning.
