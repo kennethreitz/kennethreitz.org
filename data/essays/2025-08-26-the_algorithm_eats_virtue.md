@@ -93,15 +93,11 @@ This transformation illustrates a crucial point: algorithmic influence operates 
 
 The virtue inversions documented above aren't products of individual moral failure but emerge from specific design patterns embedded in engagement-optimized systems. Understanding these mechanisms is essential for developing effective responses:
 
-• **Addictive Architecture**: Variable reward schedules, infinite scroll mechanics, and streak systems directly implement gambling psychology research findings.
-
-• **Emotional Optimization**: Systems preferentially amplify high-arousal emotions (anger, fear, outrage) over low-arousal states (contentment, reflection) due to engagement correlation.
-
-• **Attention Fragmentation**: Continuous content streams prevent sustained focus necessary for deep cognition, relationship formation, and character development.
-
-• **Comparison Distortion**: Algorithmic selection amplifies extremes—exceptional successes and failures—creating unrealistic social baselines.
-
-• **Reality Sampling Bias**: Non-representative content selection creates systematic worldview distortion<label for="sn-reality-distortion" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-reality-distortion" class="margin-toggle"/><span class="sidenote">This distortion follows predictable patterns: negativity bias, extremity bias, and emotional provocation consistently outperform representative content in engagement metrics.</span>.
+- **Addictive Architecture**: Variable reward schedules, infinite scroll mechanics, and streak systems directly implement gambling psychology research findings.
+- **Emotional Optimization**: Systems preferentially amplify high-arousal emotions (anger, fear, outrage) over low-arousal states (contentment, reflection) due to engagement correlation.
+- **Attention Fragmentation**: Continuous content streams prevent sustained focus necessary for deep cognition, relationship formation, and character development.
+- **Comparison Distortion**: Algorithmic selection amplifies extremes—exceptional successes and failures—creating unrealistic social baselines.
+- **Reality Sampling Bias**: Non-representative content selection creates systematic worldview distortion<label for="sn-reality-distortion" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-reality-distortion" class="margin-toggle"/><span class="sidenote">This distortion follows predictable patterns: negativity bias, extremity bias, and emotional provocation consistently outperform representative content in engagement metrics.</span>.
 
 ## Ethical Analysis: From Virtue Ethics to Platform Design
 
@@ -127,15 +123,11 @@ These aren't utopian fantasies—they're design choices. Every algorithm embeds 
 
 Addressing algorithmic character deformation requires intervention at multiple levels:
 
-**Individual Action**: Conscious consumption of information, deliberate practices to counteract algorithmic influence, and community-building that happens outside engagement-optimized platforms.
-
-**Regulatory Intervention**: Policies that require algorithmic transparency, mandate user control over recommendation systems, or prohibit certain manipulative design patterns.
-
-**Platform Reformation**: Pressure on existing platforms to adopt business models compatible with human flourishing rather than addiction maximization.
-
-**Alternative Development**: Creating new platforms explicitly designed to cultivate virtue rather than maximize engagement, even if this means slower growth and lower profits.
-
-**Digital Literacy**: Education about how algorithmic systems work and how they influence cognition, emotion, and behavior.
+- **Individual Action** — Conscious consumption of information, deliberate practices to counteract algorithmic influence, and community-building that happens outside engagement-optimized platforms.
+- **Regulatory Intervention** — Policies that require algorithmic transparency, mandate user control over recommendation systems, or prohibit certain manipulative design patterns.
+- **Platform Reformation** — Pressure on existing platforms to adopt business models compatible with human flourishing rather than addiction maximization.
+- **Alternative Development** — Creating new platforms explicitly designed to cultivate virtue rather than maximize engagement, even if this means slower growth and lower profits.
+- **Digital Literacy** — Education about how algorithmic systems work and how they influence cognition, emotion, and behavior.
 
 ## Conclusion: The Stakes of Algorithmic Character Formation
 
