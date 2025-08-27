@@ -113,19 +113,13 @@ Platforms claim neutrality, but every algorithm embeds values. Optimizing for en
 
 Consider how platforms might function if designed around virtue cultivation:
 
-• **Wisdom-Optimized Feeds** — Prioritizing content that provides context, nuance, and multiple perspectives over hot takes and reactive responses. Rewarding users who change their minds when presented with evidence.
-
-• **Courage-Promoting Algorithms** — Amplifying voices that take principled stands despite social pressure rather than those that perform bravado for viral attention. Supporting authentic vulnerability over performative strength.
-
-• **Temperance-Supporting Design** — Tools that help users moderate their consumption, natural stopping points in feeds, and metrics that prioritize user well-being over time spent on platform.
-
-• **Justice-Centered Recommendations** — Algorithms designed to expose users to diverse perspectives, challenge their assumptions, and connect them with people unlike themselves in constructive ways.
-
-• **Faith-Building Content** — Prioritizing stories of human cooperation, problem-solving, and resilience over catastrophe and conflict. Highlighting progress and solutions alongside problems.
-
-• **Hope-Generating Systems** — Feeds that balance awareness of challenges with examples of effective action, personal agency, and positive change.
-
-• **Love-Cultivating Networks** — Platforms that reward empathy, understanding, and bridge-building over tribal loyalty and out-group hostility.
+- **Wisdom-Optimized Feeds** — Prioritizing content that provides context, nuance, and multiple perspectives over hot takes and reactive responses. Rewarding users who change their minds when presented with evidence.
+- **Courage-Promoting Algorithms** — Amplifying voices that take principled stands despite social pressure rather than those that perform bravado for viral attention. Supporting authentic vulnerability over performative strength.
+- **Temperance-Supporting Design** — Tools that help users moderate their consumption, natural stopping points in feeds, and metrics that prioritize user well-being over time spent on platform.
+- **Justice-Centered Recommendations** — Algorithms designed to expose users to diverse perspectives, challenge their assumptions, and connect them with people unlike themselves in constructive ways.
+- **Faith-Building Content** — Prioritizing stories of human cooperation, problem-solving, and resilience over catastrophe and conflict. Highlighting progress and solutions alongside problems.
+- **Hope-Generating Systems** — Feeds that balance awareness of challenges with examples of effective action, personal agency, and positive change.
+- **Love-Cultivating Networks** — Platforms that reward empathy, understanding, and bridge-building over tribal loyalty and out-group hostility.
 
 These aren't utopian fantasies—they're design choices. Every algorithm embeds values, whether consciously chosen or accidentally emergent<label for="sn-values-in-code" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-values-in-code" class="margin-toggle"/><span class="sidenote">The idea that technology is value-neutral is a dangerous myth. Every algorithm makes choices about what to prioritize, and those choices inevitably reflect and shape human values.</span>.
 
