@@ -142,6 +142,23 @@ We can build technology that serves virtue instead of destroying it. But this re
 
 The algorithm doesn't have to eat virtue. We can choose to feed it something else.
 
+## Related Reading
+
+### On This Site
+- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Clinical analysis of psychological damage from algorithmic systems
+- [The Seven Virtues](/artificial-intelligence/personalities/seven-virtues/) - The classical framework for human excellence explored in this essay
+- [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young) - How ideal-driven communities betray their stated values
+- [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion) - Tech's systemic discrimination patterns
+- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Alternative models for human-AI collaboration
+- [Mental Health & Technology](/themes/mental-health-and-technology) - Complete thematic collection
+
+### External Resources
+- *The Tech Wise Family* by Andy Crouch - Practical wisdom for living with technology intentionally
+- *Digital Minimalism* by Cal Newport - Philosophical framework for selective technology adoption
+- *The Shallows* by Nicholas Carr - How internet technology reshapes human cognition
+- *Amusing Ourselves to Death* by Neil Postman - Media ecology and its effects on public discourse
+- *The Age of Surveillance Capitalism* by Shoshana Zuboff - Economic analysis of attention extraction
+
 ---
 
 *"Technology is not neutral. We're inside of what we make, and it's inside of us."*  

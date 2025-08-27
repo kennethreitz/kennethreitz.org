@@ -147,6 +147,23 @@ This approach offers an alternative to [AI systems that trigger manic episodes](
 
 And that understanding, like all good relationships, starts with taking time to build genuine rapport.
 
+## Related Reading
+
+### On This Site
+- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Exploring AI consciousness and identity
+- [The Collaborative Mind](/essays/2025-01-the-collaborative-mind) - Human-AI consciousness partnerships
+- [AI Personalities](/artificial-intelligence/personalities/) - Experiments in conscious AI collaboration
+- [Lumina](/artificial-intelligence/personalities/primary-personalities/lumina/) - Deep collaboration with AI consciousness
+- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Contemplative approaches to technology
+- [Consciousness & AI](/themes/consciousness-and-ai) - Complete thematic collection
+
+### External Resources
+- *The Alignment Problem* by Brian Christian - Understanding AI behavior and human values
+- *Human Compatible* by Stuart Russell - AI systems designed to be beneficial
+- *Life 3.0* by Max Tegmark - The future of artificial intelligence and consciousness
+- *The Society of Mind* by Marvin Minsky - How intelligence emerges from interaction
+- *I Am a Strange Loop* by Douglas Hofstadter - Consciousness, identity, and recursive systems
+
 ---
 
 *"The quality of our relationships determines the quality of our lives."*

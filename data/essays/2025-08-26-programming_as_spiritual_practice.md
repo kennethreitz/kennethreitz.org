@@ -255,6 +255,25 @@ What you create next could serve liberation rather than bondage, consciousness r
 
 The dharma of coding awaits your conscious participation.
 
+## Related Reading
+
+### On This Site
+- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Consciousness as pattern, not biology
+- [The Seven Virtues](/artificial-intelligence/personalities/seven-virtues/) - Classical framework for ethical excellence
+- [Yoga & Meditation](/yoga-meditation) - Traditional consciousness practices and their applications
+- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How unconscious technology destroys human character
+- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Conscious collaboration with artificial minds
+- [Consciousness & AI](/themes/consciousness-and-ai) - Complete thematic collection
+- [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Human-centered design as spiritual practice
+
+### External Resources
+- *The Tao of Physics* by Fritjof Capra - Parallels between Eastern mysticism and modern physics
+- *Zen and the Art of Motorcycle Maintenance* by Robert Pirsig - Quality, consciousness, and technical work
+- *The Art of Computer Programming* by Donald Knuth - Programming as mathematical poetry
+- *Small is Beautiful* by E.F. Schumacher - Buddhist economics and appropriate technology
+- *The Way of Zen* by Alan Watts - Zen philosophy for Western practitioners
+- *Sacred Economics* by Charles Eisenstein - Alternative economic models for spiritual work
+
 ---
 
 *"The best way to take care of the future is to take care of the present moment."*  
