@@ -2,7 +2,6 @@
 *August 2025*
 
 
-*August 2025*
 
 The same algorithmic systems that [systematically undermine virtue](/essays/2025-08-26-the_algorithm_eats_virtue) and create [widespread mental health crises](/essays/2025-08-26-algorithmic_mental_health_crisis) are also destroying something even more fundamental: our capacity for clear, nuanced, sophisticated communication. This isn't just about grammar pedantry or generational differences—it's about the systematic degradation of the cognitive architecture that enables complex thought.
 

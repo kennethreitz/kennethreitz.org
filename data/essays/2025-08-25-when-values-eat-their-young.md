@@ -6,7 +6,6 @@ tags: [community, psychology, organizations, social-dynamics, activism, open-sou
 
 # When Values Eat Their Young: How Ideal-Driven Groups Drift into Their Own Shadow
 
-*August 2025*
 
 ## The Vignette
 
@@ -204,4 +203,3 @@ I didn't.
 
 ---
 
-*Written with Claude. We're talking about real patterns here, folks. If you think this is about you or your community... well, maybe sit with that feeling for a bit.*

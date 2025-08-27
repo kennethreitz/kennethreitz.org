@@ -1,9 +1,6 @@
 # The Algorithm Eats Democracy
 *August 2025*
 
-
-*August 2025*
-
 Democracy requires something that algorithmic feeds systematically destroy: the capacity for nuanced public discourse. The same engagement optimization mechanisms that [undermine human virtue](/essays/2025-08-26-the_algorithm_eats_virtue), [damage mental health](/essays/2025-08-26-algorithmic_mental_health_crisis), [degrade language](/essays/2025-08-27-the_algorithm_eats_language), and [commodify love](/essays/2025-08-27-the_algorithm_eats_love) also make democratic governance increasingly impossible.
 
 This isn't about partisan politics or media bias—it's about how algorithmic systems reward exactly the kind of communication patterns that make collective problem-solving impossible.

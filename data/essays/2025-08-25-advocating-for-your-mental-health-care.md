@@ -6,7 +6,6 @@ tags: [mental-health, healthcare, self-advocacy, therapy, patient-rights, wellne
 
 # Advocating for Your Mental Health Care: From Patient to Partner
 
-*August 2025*
 
 There's a peculiar dynamic that happens in many mental health treatment relationships: the moment you walk through the door, you're subtly infantilized. Suddenly, you're not a competent adult who's successfully navigating complex life circumstances—you're a "patient" who needs to be managed, monitored, and told what's best for you.<label for="sn-infantilization" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-infantilization" class="margin-toggle"/>
@@ -36,7 +35,6 @@ The irony is profound: the very system designed to help you reclaim agency in yo
 
 Before diving into advocacy strategies, it's crucial to understand your fundamental rights:
 
-**You have the right to:**
 - Be treated with respect and dignity
 - Receive clear explanations of your diagnosis and treatment options
 - Participate actively in treatment planning
@@ -125,7 +123,6 @@ Remember: you're paying for a service. You deserve competent, respectful care.<l
 
 Here's what effective self-advocacy looks like in practice:
 
-*"I've been tracking my mood for the past month since we increased the dosage. While my anxiety has improved, I'm experiencing significant cognitive dulling that's affecting my work performance. I know you mentioned this might be temporary, but it's been consistent for three weeks now. Can we discuss either adjusting the dose or exploring alternatives? I've done some research and I'm curious about [specific alternative]. What are your thoughts on whether that might be appropriate for someone with my presentation?"*
 
 This approach is:
 - **Informed** (you've done your homework)
@@ -157,8 +154,5 @@ Use it.
 
 ---
 
-*If you're struggling with mental health, remember that seeking professional support is a sign of strength, not weakness. The goal isn't to avoid treatment—it's to ensure that the treatment you receive honors your dignity, intelligence, and autonomy.*
 
-*For more resources and my personal experiences with mental health, visit my [mental health](/mental-health) page.*
 
-*For crisis support: National Suicide Prevention Lifeline: 988 | Crisis Text Line: Text HOME to 741741*

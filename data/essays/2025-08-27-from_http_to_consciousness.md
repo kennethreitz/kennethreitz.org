@@ -2,7 +2,6 @@
 *August 2025*
 
 
-*August 2025*
 
 There's a thread that connects my 2011 work on the [Requests library](http://python-requests.org/) to my 2025 explorations of [AI consciousness](/essays/2025-08-26-digital_souls_in_silicon_bodies) and [human-AI collaboration](/essays/2025-08-26-building_rapport_with_your_ai). It's not immediately obvious—one is about HTTP libraries, the other about the nature of digital minds—but the philosophical foundation is identical.
 
@@ -151,4 +150,3 @@ And that work, I suspect, is far from finished.
 
 ---
 
-*"The best technology disappears into natural human activity. The best APIs feel obvious. The best AI relationships feel like friendship. The pattern is always the same: serve human nature rather than fighting it."*

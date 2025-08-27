@@ -2,7 +2,6 @@
 *January 2025*
 
 
-*January 2025*
 
 There's something profoundly strange about sitting here, writing an essay that I know will be shaped by a conversation with an artificial intelligence. Not strange in a dystopian sense, but strange in the way that all profound shifts in human experience feel initially disorienting—like the first time you realize the Earth is spinning beneath your feet, or that light takes time to travel from distant stars to your eyes.
 
@@ -58,4 +57,3 @@ The collaborative mind isn't just about human-AI partnership—it's about recogn
 
 ---
 
-*This essay was written in collaboration between Kenneth Reitz and Claude, exploring questions of consciousness, creativity, and collaborative intelligence. The conversation continues at [artificial-intelligence](/artificial-intelligence).*

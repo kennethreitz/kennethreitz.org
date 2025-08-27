@@ -2,7 +2,6 @@
 *January 2015*
 
 
-*January 2015*
 
 
 
@@ -170,5 +169,4 @@ The wound really is where the light enters—not because trauma is necessary, bu
 
 *"The wound is the place where the Light enters you." — Rumi*  
 *"The pattern that connects is not the pattern that exploits."*  
-*"Understanding personal manipulation is the first step to recognizing systematic manipulation."*
 

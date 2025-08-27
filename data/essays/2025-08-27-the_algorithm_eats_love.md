@@ -2,7 +2,6 @@
 *August 2025*
 
 
-*August 2025*
 
 Dating apps have fundamentally broken how humans connect romantically. The same algorithmic systems that are [destroying our character](/essays/2025-08-26-the_algorithm_eats_virtue), [creating widespread mental health crises](/essays/2025-08-26-algorithmic_mental_health_crisis), [degrading our language and communication](/essays/2025-08-27-the_algorithm_eats_language), and [making democratic discourse impossible](/essays/2025-08-27-the_algorithm_eats_democracy) have also commodified love itself. We've transformed the most beautiful, messy, inefficient human experience into an optimization problem.
 
@@ -90,4 +89,3 @@ Love is not a numbers game. As I explored in [my reflections on 1 Corinthians 13
 
 *"Dating apps are shopping for humans with a return policy."*  
 *"The opposite of love isn't hate—it's algorithms."*  
-*"We optimized the humanity out of human connection."*
