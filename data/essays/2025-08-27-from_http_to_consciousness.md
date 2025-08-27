@@ -1,4 +1,4 @@
-# From Requests to Consciousness: The Evolution of "For Humans"
+# From HTTP to Consciousness: The Evolution of "For Humans"
 
 *August 2025*
 
