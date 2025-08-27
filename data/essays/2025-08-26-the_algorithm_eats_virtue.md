@@ -4,7 +4,7 @@
 
 I've been thinking about this intersection between technology and character lately, particularly as I watch intelligent, thoughtful people get gradually rewired by their feeds<label for="sn-rewiring-observation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-rewiring-observation" class="margin-toggle"/><span class="sidenote">The change is subtle but persistent—like watching someone develop a slight limp over months. You notice the shift in how they think, argue, and relate to information, even if they don't.</span>. The platforms we use daily—X (formerly Twitter), Facebook, Instagram, TikTok, Snapchat—aren't neutral information delivery systems. They're character formation engines, and they're forming us into people we probably don't want to become.
 
-When I look at this through the lens of the [seven virtues](/artificial-intelligence/personalities/seven-virtues/) that have guided human excellence for millennia, the picture becomes stark: algorithmic feeds systematically reward the inverse of virtue.
+When I look at this through the lens of the [seven virtues](/artificial-intelligence/personalities/seven-virtues/) that have guided human excellence for millennia, the picture becomes stark: algorithmic feeds systematically reward the inverse of virtue. And as I explore in [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis), this destruction of character directly translates into widespread psychological damage.
 
 ## The Inversion of Excellence
 
