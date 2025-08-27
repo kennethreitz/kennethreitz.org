@@ -114,7 +114,7 @@ When artificial networks can successfully manufacture apparent consensus, severa
 
 - **Shared Reality**: The common factual foundation necessary for democratic deliberation dissolves when artificial networks can make any position appear to have widespread passionate support
 
-- **Civic Engagement**: Citizens withdraw from democratic participation when they can't distinguish between authentic grassroots movements and professionally manufactured astroturfing<label for="sn-democratic-participation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-democratic-participation" class="margin-toggle"/><span class="sidenote">The irony is that artificial amplification often drives away genuine civic engagement. When people suspect that online political discourse is largely artificial, they stop participating, leaving the field to professional manipulation operations.</span>
+- **Civic Engagement**: Citizens withdraw from democratic participation when they can't distinguish between authentic grassroots movements and professionally manufactured astroturfing
 
 ## A Personal Reflection
 
