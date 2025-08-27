@@ -89,11 +89,9 @@ This experience taught me crucial lessons that extended far beyond romantic rela
 
 ## The Broader Implications
 
-Years later, this experience provided crucial insight into how manipulation works at scale. The same psychological mechanisms that enable individual narcissistic abuse also power algorithmic systems designed to exploit human psychology for engagement and profit.
+This experience taught me that manipulation follows predictable patterns regardless of scale. The psychological mechanisms that enable individual abuse - intermittent reinforcement, reality distortion, isolation, exploitation of empathy - appear across all contexts where power imbalances exist.
 
-The love bombing phase resembles how social platforms initially provide validation and connection. The isolation mirrors how algorithmic feeds create echo chambers. The gaslighting parallels how engagement optimization distorts reality. The trauma bonding reflects how variable reward schedules create addictive usage patterns.
-
-Understanding manipulation in personal relationships helped me recognize how [technology platforms systematically exploit the same psychological vulnerabilities](/essays/2025-08-26-algorithmic_mental_health_crisis).
+Understanding these patterns in personal relationships becomes transferable wisdom for recognizing exploitation in business situations, community dynamics, and [technological systems that systematically exploit psychological vulnerabilities](/essays/2025-08-26-algorithmic_mental_health_crisis).
 
 ## Moving Forward
 
@@ -137,11 +135,7 @@ If sharing this story helps even one person recognize an unhealthy dynamic and t
 
 ## A Final Reflection on Pattern Recognition
 
-Writing this account years later, I'm struck by how this experience of individual manipulation became a key to understanding systematic manipulation at larger scales. The same intermittent reinforcement that kept me hooked in a toxic relationship powers the engagement algorithms that [systematically undermine virtue](/essays/2025-08-26-the_algorithm_eats_virtue) and create [widespread mental health crises](/essays/2025-08-26-algorithmic_mental_health_crisis).
-
-The gaslighting that made me question my own diagnosis mirrors how [technological systems dismiss and distort human agency](/essays/2025-08-26-the_inclusion_illusion) in favor of engagement optimization. The isolation tactics that cut me off from reality checks parallel how algorithmic echo chambers separate people from diverse perspectives and authentic community.
-
-Understanding Kimberly Moon's manipulation taught me to recognize exploitation wherever it appears—whether in personal relationships, corporate cultures, or the technological systems that increasingly mediate human connection.
+Writing this account years later, I'm struck by how understanding individual manipulation became a key to recognizing systematic exploitation at larger scales. The psychological mechanisms are remarkably consistent across contexts - what changes is the scale and sophistication of delivery.
 
 This pattern recognition has become one of my most valuable skills, informing everything from [community building](/themes/open-source-and-community) to [conscious technology development](/essays/2025-08-26-programming_as_spiritual_practice). Sometimes our most painful personal experiences become our most powerful tools for serving collective healing.
 
