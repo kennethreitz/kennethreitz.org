@@ -6,11 +6,9 @@ Tracing the progression from technical insights to philosophical frameworks to s
 
 The journey began with practical frustration and technical curiosity, laying groundwork for later philosophical development.
 
-- **[Fallibilism](/essays/2009-fallibilism)** - Early recognition that embracing error enables growth.
-- **[The Golden Rule Evolved](/essays/2009-the-golden-rule)** - Applying ethical principles to technical work.
-- **[Early Adoption vs Pattern Recognition](/essays/2009-early-adoption)** - Seeing patterns others miss.
-- **[Platform Predictions](/essays/2008-platform-predictions)** - Early warnings about centralization.
-- **[Repository Structure](/essays/2009-repository-structure-tutorial)** - Organization as consciousness expression.
+- **[Fallibilism](/essays/2009-01-fallibilism)** - Early recognition that embracing error enables growth.
+- **[Early Adoption vs Pattern Recognition](/essays/2009-01-early_adoption)** - Seeing patterns others miss.
+- **[Platform Design Vision](/essays/2008-01-a_new_spin_to_software_platform_design)** - Early predictions about app stores and user-centered distribution.
 
 ## The "For Humans" Revolution (2011-2015)
 
@@ -26,7 +24,7 @@ A simple API design principle evolved into comprehensive philosophy about techno
 Personal challenges became catalysts for deeper understanding of consciousness, manipulation, and resilience.
 
 - **[The Unexpected Negative](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner)** - Education in manipulation patterns.
-- **[Mental Health Error](/essays/2016-the-reality-of-developer-burnout-mental-health)** - The cost of transparency.
+- **[Mental Health Error](/essays/2016-01-mentalhealtherror_an_exception_occurred)** - The cost of transparency.
 - **[Spiritual Exploration](/yoga-meditation)** - Seeking healing through contemplative practice.
 - **Recovery and Integration** - Transforming crisis into wisdom.
 
