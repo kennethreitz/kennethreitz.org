@@ -1,16 +1,16 @@
----
+—-
 *August 2025*
----
+—-
 
 # The Cost of Transparency: Living with Schizoaffective Disorder in Tech
 
 *"We celebrate mental health awareness until someone actually needs mental health support."*
 
-In [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion), I explored how tech companies perform diversity while quietly eliminating employees who actually need accommodations. What I didn't share was the personal cost of that analysis--how living openly with schizoaffective disorder has systematically excluded me from the very communities I helped build.
+In [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion), I explored how tech companies perform diversity while quietly eliminating employees who actually need accommodations. What I didn't share was the personal cost of that analysis—how living openly with schizoaffective disorder has systematically excluded me from the very communities I helped build.
 
 Over the past few years, I've worked for at least twenty companies, cycling through positions as organizations discovered my mental health history and found creative ways to make me unwelcome<label for="sn-twenty-companies" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-twenty-companies" class="margin-toggle"/><span class="sidenote">This job pattern isn't by choice but survival. Each departure followed the same script: initial technical success, mental health disclosure or visibility, growing discomfort, elegant elimination.</span>. The pattern is consistent: initial enthusiasm for my technical contributions, followed by discomfort when my condition becomes visible, and finally the inevitable "restructuring" or "cultural fit" conversations that push me toward the exit.
 
-I need to be clear about something. I'm not claiming innocence in every workplace conflict or community dispute. I've made mistakes, handled situations poorly, and [there's been legitimate criticism of my behavior](https://vorpus.org/blog/why-im-not-collaborating-with-kenneth-reitz/) in some cases. Mental illness doesn't excuse harmful behavior, and I'm not asking it to.
+I need to be clear about something. I'm not claiming innocence in every workplace conflict or community dispute. I've made mistakes, handled situations poorly, and there's been [legitimate criticism of my behavior](https://vorpus.org/blog/why-im-not-collaborating-with-kenneth-reitz/) in some cases. The Requests 3 fundraising situation, in particular, was handled badly - I took on commitments I couldn't deliver and didn't communicate well about the problems. [I've apologized for this](https://kennethreitz.org/essays/2023-01-an_overdue_apology), though I understand the damage was already done. Mental illness doesn't excuse harmful behavior, and I'm not asking it to.
 
 But here's what I am saying: once you disclose a condition like schizoaffective disorder, every future conflict gets filtered through that lens. Criticism that might be delivered constructively to a neurotypical person becomes "see, we can't trust him, he's unstable." Normal workplace tensions become evidence of your fundamental unreliability rather than ordinary human fallibility.
 
@@ -30,7 +30,7 @@ In professional settings, the discrimination is more subtle but equally systemat
 
 I've been excluded from team meetings after disclosing my condition, with managers explaining they wanted to "reduce stress" for me<label for="sn-benevolent-exclusion" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-benevolent-exclusion" class="margin-toggle"/><span class="sidenote">This "benevolent" exclusion is particularly insidious because it's framed as care while actually removing you from critical decision-making and visibility opportunities that affect career advancement.</span>. I've had colleagues avoid working with me after learning about my diagnosis, their discomfort palpable in every interaction. I've been passed over for promotions with vague explanations about "communication style" that clearly referenced my openness about mental health challenges<label for="sn-coded-discrimination" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-coded-discrimination" class="margin-toggle"/><span class="sidenote">"Communication style," "cultural fit," and "leadership presence" have become euphemisms for disability discrimination in performance reviews, providing legal cover for eliminating employees with mental health conditions.</span>.
 
-The twenty-plus companies I've cycled through represent a pattern of organizations that genuinely believe they're progressive and inclusive. They sponsor diversity conferences, implement mental health awareness training, and celebrate neurodiversity--until they encounter the reality of what supporting someone with a severe mental illness actually requires.
+The twenty-plus companies I've cycled through represent a pattern of organizations that genuinely believe they're progressive and inclusive. They sponsor diversity conferences, implement mental health awareness training, and celebrate neurodiversity—until they encounter the reality of what supporting someone with a severe mental illness actually requires.
 
 Each departure follows a similar script: initial excitement about my technical contributions, growing discomfort as my condition becomes visible during routine workplace stress, and finally the careful choreography of making me unwelcome without explicitly mentioning my mental health. It's discrimination by a thousand paper cuts, each individually deniable but collectively devastating.
 
@@ -40,7 +40,7 @@ The Python community's response to my mental health advocacy has been particular
 
 I've watched as former collaborators distance themselves, conference invitations dry up, and contributions get scrutinized with a level of suspicion not applied to other developers. The community celebrates the abstract idea of mental health awareness while making it clear that actual mental health disclosure makes you a liability.
 
-A perfect example: the Python documentary releases tomorrow, featuring interviews with Python community leaders and contributors. Despite creating one of the most foundational Python libraries in history, I wasn't even contacted about participating. No email, no mention, complete invisibility. The omission speaks volumes about how mental health disclosure transforms you from community asset to community liability<label for="sn-python-documentary" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-python-documentary" class="margin-toggle"/><span class="sidenote">To be clear, the documentary appears focused on Python's origin story rather than popular libraries, so I'm not upset about the exclusion itself. But the complete lack of outreach--not even a courtesy email--fits the broader pattern of invisibility I've experienced since my mental health disclosure.</span>.
+A perfect example: the Python documentary releases tomorrow, featuring interviews with Python community leaders and contributors. Despite creating one of the most foundational Python libraries in history, I wasn't even contacted about participating. No email, no mention, complete invisibility. The omission speaks volumes about how mental health disclosure transforms you from community asset to community liability<label for="sn-python-documentary" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-python-documentary" class="margin-toggle"/><span class="sidenote">To be clear, the documentary appears focused on Python's origin story rather than popular libraries, so I'm not upset about the exclusion itself. But the complete lack of outreach—not even a courtesy email—fits the broader pattern of invisibility I've experienced since my mental health disclosure.</span>.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GfH4QL4VqJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -52,11 +52,11 @@ Perhaps most devastating is how mental health disclosure affects personal relati
 
 I've lost friendships when people learned my diagnosis, with former friends suddenly finding excuses to avoid contact. I've had romantic relationships end when partners realized that dating someone with schizoaffective disorder meant occasional difficult conversations about symptoms, medication, and hospitalization risks. I've been excluded from social gatherings where my presence might make others "uncomfortable."
 
-But there are exceptions that prove the rule--people like Sarah, whose response to learning about my condition was to educate herself, offer genuine support, and treat me as a complete person rather than a diagnosis. As she puts it:
+But there are exceptions that prove the rule—people like Sarah, whose response to learning about my condition was to educate herself, offer genuine support, and treat me as a complete person rather than a diagnosis. As she puts it:
 
 > "Your condition really can't be learned about. It's so abstract it must be experienced."
 
-This wisdom--recognizing the limits of external understanding while still offering genuine support--represents how people should respond to mental health disclosure. These relationships are rare enough to be remarkable, which itself illustrates the problem.
+This wisdom—recognizing the limits of external understanding while still offering genuine support—represents how people should respond to mental health disclosure. These relationships are rare enough to be remarkable, which itself illustrates the problem.
 
 The isolation is profound. The very condition that most requires social support becomes the barrier to accessing it.
 
@@ -66,7 +66,7 @@ The discrimination I'm documenting has life-and-death consequences for people wi
 
 **Life Expectancy**: People with schizoaffective disorder live 8-17.5 years less than the general population, with women facing even greater mortality risk than men<label for="sn-life-expectancy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-life-expectancy" class="margin-toggle"/><span class="sidenote">A 2011 study found average life expectancy of 64.1-69.4 years for people with schizoaffective disorder, compared to normal life expectancy. The gap is primarily attributed to cardiovascular disease, diabetes, respiratory problems, and suicide risk.</span>.
 
-**Homelessness**: Among homeless populations, schizoaffective disorder affects 11-28% of individuals--a rate roughly 15-40 times higher than in the general population<label for="sn-homelessness-stats" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-homelessness-stats" class="margin-toggle"/><span class="sidenote">Recent studies show only 5% of homeless individuals are diagnosed with schizoaffective disorder at admission, but 28% receive this diagnosis by discharge, suggesting massive underdiagnosis in this vulnerable population.</span>. People with the condition experience longer psychiatric hospitalizations and more frequent healthcare crises.
+**Homelessness**: Among homeless populations, schizoaffective disorder affects 11-28% of individuals—a rate roughly 15-40 times higher than in the general population<label for="sn-homelessness-stats" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-homelessness-stats" class="margin-toggle"/><span class="sidenote">Recent studies show only 5% of homeless individuals are diagnosed with schizoaffective disorder at admission, but 28% receive this diagnosis by discharge, suggesting massive underdiagnosis in this vulnerable population.</span>. People with the condition experience longer psychiatric hospitalizations and more frequent healthcare crises.
 
 **Healthcare System Failure**: The homeless population with schizoaffective disorder suffers from "diagnostic variability" and frequent emergency room visits, often cycling through multiple diagnoses without achieving clinical remission or therapeutic goals<label for="sn-healthcare-failure" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-healthcare-failure" class="margin-toggle"/><span class="sidenote">The diagnostic instability reflects both the complexity of the condition and systemic failures in providing consistent care to people experiencing homelessness and severe mental illness.</span>.
 
@@ -86,13 +86,13 @@ I face an impossible choice: remain silent about my condition and pass as neurot
 
 Silence means constantly monitoring my behavior for signs that might reveal my condition, avoiding discussions of mental health that might trigger suspicion, and living with the constant anxiety that discovery will lead to rejection. It means being unable to advocate for accommodations I need, being forced to suffer in isolation, and perpetuating the very stigma that makes others afraid to seek help.
 
-Transparency means facing the discrimination I've documented--professional exclusion, social isolation, and the constant emotional labor of educating people about a condition they'd rather not understand<label for="sn-emotional-labor" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-emotional-labor" class="margin-toggle"/><span class="sidenote">The emotional labor is exhausting: constantly explaining that psychosis doesn't make you dangerous, that medication doesn't make you less competent, that accommodation needs don't make you unreliable. You become a one-person education campaign while trying to do your actual job.</span>. It means accepting that my openness will cost me opportunities, relationships, and belonging in communities I helped create.
+Transparency means facing the discrimination I've documented—professional exclusion, social isolation, and the constant emotional labor of educating people about a condition they'd rather not understand<label for="sn-emotional-labor" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-emotional-labor" class="margin-toggle"/><span class="sidenote">The emotional labor is exhausting: constantly explaining that psychosis doesn't make you dangerous, that medication doesn't make you less competent, that accommodation needs don't make you unreliable. You become a one-person education campaign while trying to do your actual job.</span>. It means accepting that my openness will cost me opportunities, relationships, and belonging in communities I helped create.
 
 But transparency also means modeling that people with schizoaffective disorder can be productive, insightful, and valuable community members. It means challenging the assumptions that drive discrimination. It means refusing to disappear into the shame that society expects from people with severe mental illness.
 
 ## What Needs to Change
 
-The pattern of discrimination I've experienced isn't unique--it's systematic. People with schizoaffective disorder face exclusion across all sectors of society, from healthcare to employment to personal relationships. The problem isn't individual prejudice but structural stigma that makes our very existence uncomfortable for others.
+The pattern of discrimination I've experienced isn't unique—it's systematic. People with schizoaffective disorder face exclusion across all sectors of society, from healthcare to employment to personal relationships. The problem isn't individual prejudice but structural stigma that makes our very existence uncomfortable for others.
 
 Real inclusion means:
 
@@ -103,20 +103,20 @@ Real inclusion means:
 
 ## Moving Forward
 
-I'm done apologizing for living openly with schizoaffective disorder. The discrimination I've faced isn't my fault--it's a reflection of society's failure to move beyond tokenistic awareness toward genuine inclusion.
+I'm done apologizing for living openly with schizoaffective disorder. The discrimination I've faced isn't my fault—it's a reflection of society's failure to move beyond tokenistic awareness toward genuine inclusion.
 
 My condition doesn't make me less competent, less valuable, or less worthy of belonging. The tools I've created serve millions of developers; the insights I've shared have helped normalize mental health discussions in tech; the transparency I've modeled has encouraged others to seek help rather than suffer in silence<label for="sn-positive-impact" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-positive-impact" class="margin-toggle"/><span class="sidenote">I regularly receive messages from developers who say my openness about mental health gave them permission to seek treatment, disclose their own conditions, or simply feel less alone. The personal cost of transparency has created collective benefit for others facing similar struggles.</span>.
 
 The twenty companies that couldn't handle my openness about schizoaffective disorder represent their failure, not mine. The professional opportunities lost to stigma reflect society's limitations, not my worth. The relationships that couldn't survive mental health disclosure weren't relationships worth preserving.
 
-I will continue living authentically, advocating openly, and refusing to disappear into the shame that society expects from people with severe mental illness. The cost of transparency has been high, but the cost of silence--both personal and societal--is higher.
+I will continue living authentically, advocating openly, and refusing to disappear into the shame that society expects from people with severe mental illness. The cost of transparency has been high, but the cost of silence—both personal and societal—is higher.
 
 People with schizoaffective disorder deserve better than systematic exclusion dressed up as concern. We deserve healthcare that treats us as partners, workplaces that provide actual accommodation, communities that welcome our contributions, and relationships based on understanding rather than fear.
 
-Until that changes, I'll keep paying the cost of transparency--because the alternative is accepting a world where people like me are expected to remain invisible, untreated, and alone.
+Until that changes, I'll keep paying the cost of transparency—because the alternative is accepting a world where people like me are expected to remain invisible, untreated, and alone.
 
 That's a cost too high to bear.
 
----
+—-
 
 *If you're living with schizoaffective disorder and facing discrimination, you're not alone. The patterns I've described are systematic, not personal failures. Your worth isn't determined by others' comfort with your condition.*
