@@ -1,15 +1,12 @@
 ---
-*January 2008*
-
-
-
-
 title: "A New Spin to Software Platform Design"
 date: "2008-01-01"
 category: "Software Development"
 ---
 
 # A New Spin to Software Platform Design
+
+*January 2008*
 
 *I wrote this article two years ago, before I found OS X.*<label for="sn-osx-discovery" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-osx-discovery" class="margin-toggle"/><span class="sidenote">The irony is that OS X already embodied most of the principles I was advocating for here. Sometimes the future we envision already exists—we just haven't discovered it yet.</span>
 
