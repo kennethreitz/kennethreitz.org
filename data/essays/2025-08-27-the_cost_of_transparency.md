@@ -1,6 +1,4 @@
-—-
 *August 2025*
-—-
 
 # The Cost of Transparency: Living with Schizoaffective Disorder in Tech
 
