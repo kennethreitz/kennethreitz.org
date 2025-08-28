@@ -17,27 +17,21 @@ Let's examine the gap between what tech companies say and what they do:
 
 ### The Public Performance
 
-**Diversity & Inclusion Statements**: Companies proudly announce their commitment to neurodiversity, mental health support, and creating inclusive environments for employees with disabilities.
+Tech companies have perfected the art of performative inclusion. They proudly announce their commitment to neurodiversity, mental health support, and creating inclusive environments for employees with disabilities. Comprehensive therapy coverage sits alongside mental health days, meditation apps, wellness programs, and on-site counseling services—a suite of benefits designed to signal progressive values.
 
-**Mental Health Benefits**: Comprehensive therapy coverage, mental health days, meditation apps, wellness programs, and on-site counseling services.
+During Mental Health Awareness Month, leadership speaks eloquently about psychological safety while HR departments roll out suicide prevention resources and employee assistance programs. Specialized neurodiversity hiring programs promise ADHD-friendly work arrangements and accommodations for various learning differences. Employee resource groups create visible support networks for people with disabilities, mental health conditions, and chronic illnesses.
 
-**Awareness Campaigns**: Mental Health Awareness Month posts, suicide prevention resources, and leadership speaking about the importance of psychological safety.
-
-**Neurodiversity Hiring**: Specialized programs to recruit autistic employees, ADHD-friendly work arrangements, and accommodations for various learning differences.
-
-**Employee Resource Groups**: Support networks for employees with disabilities, mental health conditions, and chronic illnesses.
+The messaging is consistent and compelling: we celebrate different minds, we support human struggles, we recognize that mental health is health. The public face projects genuine commitment to inclusion.
 
 ### The Private Practice
 
-**Performance Review Weaponization**: Employees who disclose mental health conditions or request accommodations often see their performance reviews become more critical, focusing on productivity metrics that don't account for their condition<label for="sn-performance-weaponization" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-performance-weaponization" class="margin-toggle"/><span class="sidenote">This is systemic gaslighting—making employees question whether their illness is affecting their work or whether the company is manufacturing reasons to eliminate them. The ambiguity is intentional.</span>.
+Behind the public messaging lies a different reality. Employees who disclose mental health conditions or request accommodations often find their performance reviews becoming more critical, focusing on productivity metrics that conveniently ignore the impact of their conditions<label for="sn-performance-weaponization" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-performance-weaponization" class="margin-toggle"/><span class="sidenote">This is systemic gaslighting—making employees question whether their illness is affecting their work or whether the company is manufacturing reasons to eliminate them. The ambiguity is intentional.</span>. What was once considered acceptable work suddenly requires improvement.
 
-**Accommodation Resistance**: Requests for reasonable accommodations are met with bureaucratic delays, questions about "business necessity," and subtle pressure to "figure out another way" to meet standard requirements.
+Requests for reasonable accommodations meet bureaucratic resistance disguised as thoroughness. Managers ask probing questions about "business necessity" while suggesting employees "figure out another way" to meet standard requirements. The message is clear: your needs are burdensome.
 
-**Social Isolation**: Colleagues and managers begin treating employees differently after mental health disclosures, creating professional isolation that makes collaborative work increasingly difficult.
+Social dynamics shift after mental health disclosures. Colleagues and managers begin treating employees differently—not with obvious hostility, but with the subtle distance that makes collaborative work increasingly difficult. Professional isolation becomes the new normal.
 
-**"Reorganization" Targeting**: Layoffs and team restructures disproportionately affect employees who have disclosed mental health conditions or requested accommodations, disguised as business decisions.
-
-**Documentation Manipulation**: Companies create paper trails suggesting performance issues while ignoring the impact of untreated or under-accommodated conditions on work quality.
+When layoffs and restructures arrive, they disproportionately affect employees who have disclosed conditions or requested accommodations. These eliminations are carefully disguised as business decisions, complete with paper trails suggesting performance issues while ignoring how untreated or under-accommodated conditions affected work quality.
 
 ## The Mechanisms of Quiet Elimination
 
@@ -45,40 +39,23 @@ The process is sophisticated and deniable:
 
 ### The Setup
 
-1. **Encourage Disclosure**: Create psychological safety that encourages employees to be "authentic" and seek help
-2. **Gather Information**: Document mental health conditions, medication needs, therapy schedules, and accommodation requests
-3. **Monitor Performance**: Begin tracking productivity metrics more closely, looking for any decline correlated with treatment or episodes
-4. **Build the Case**: Create documentation suggesting the employee is struggling professionally
+The process begins with creating an atmosphere of psychological safety that encourages employees to be "authentic" and seek help. This isn't accidental—companies need disclosure to identify potential liabilities. Once employees reveal mental health conditions, medication needs, therapy schedules, or accommodation requests, this information gets carefully documented. Performance tracking intensifies, with managers looking for any decline correlated with treatment or episodes. Simultaneously, the company begins building a case that suggests the employee is struggling professionally.
 
 ### The Execution
 
-1. **Performance Improvement Plans**: PIPs that set unrealistic goals while the employee is dealing with mental health challenges
-2. **Role Changes**: Reassigning employees to positions that are poorly suited to their condition or accommodation needs
-3. **Team Restructures**: Eliminating positions during "reorganizations" that coincidentally affect employees with disclosed conditions
-4. **Voluntary Resignation**: Creating work environments so hostile or unsustainable that employees quit rather than fight
+Armed with documentation, companies deploy targeted pressure. Performance Improvement Plans arrive with unrealistic goals timed precisely when employees are dealing with mental health challenges. Role changes reassign people to positions poorly suited to their conditions or accommodation needs. Team restructures eliminate positions during "reorganizations" that coincidentally affect employees with disclosed conditions. When direct termination seems risky, companies create work environments so hostile or unsustainable that employees quit rather than fight.
 
 ### The Cover
 
-1. **Legal Compliance**: Ensure all actions have plausible business justifications that would survive legal scrutiny
-2. **Narrative Control**: Frame departures as performance issues, cultural fit problems, or business necessities
-3. **Reputation Protection**: Maintain public image as inclusive employer while privately eliminating "liability" employees
-4. **Deterrent Effect**: Discourage other employees from disclosing conditions by demonstrating consequences
+Every action includes plausible business justifications that would survive legal scrutiny. Departures get framed as performance issues, cultural fit problems, or business necessities—never discrimination. Companies maintain their public image as inclusive employers while privately eliminating "liability" employees. The process serves a dual purpose: removing perceived risks while discouraging other employees from disclosing conditions by demonstrating consequences.
 
 ## The Personal Cost
 
 The impact on individuals is devastating:
 
-**Career Destruction**: Years of experience and professional relationships destroyed because someone sought help or needed accommodation.
+The personal toll extends far beyond job loss. Years of professional experience and carefully built relationships get destroyed simply because someone sought help or needed accommodation. Financial devastation strikes precisely when medical expenses and treatment costs are highest, while job loss often means insurance loss, interrupting critical mental health treatment during the most vulnerable periods<label for="sn-treatment-interruption" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-treatment-interruption" class="margin-toggle"/><span class="sidenote">This creates a cruel cycle: seeking treatment leads to job loss, which leads to treatment interruption, which worsens symptoms, which makes finding new employment harder.</span>.
 
-**Financial Devastation**: Loss of income precisely when medical expenses and treatment costs are highest.
-
-**Medical Interruption**: Job loss often means insurance loss, interrupting critical mental health treatment during vulnerable periods<label for="sn-treatment-interruption" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-treatment-interruption" class="margin-toggle"/><span class="sidenote">This creates a cruel cycle: seeking treatment leads to job loss, which leads to treatment interruption, which worsens symptoms, which makes finding new employment harder.</span>.
-
-**Psychological Trauma**: The betrayal of trust, gaslighting, and professional isolation compound existing mental health challenges.
-
-**Industry Blacklisting**: Word spreads through professional networks, making it harder to find new positions in an industry that values "cultural fit" and network references.
-
-**Internalized Shame**: Employees begin believing they're actually inadequate rather than recognizing systemic discrimination.
+Psychological trauma compounds existing challenges as betrayal of trust, systematic gaslighting, and professional isolation layer new wounds onto old ones. Industry blacklisting follows as word spreads through professional networks, making new positions harder to secure in an industry obsessed with "cultural fit" and network references. Perhaps most damaging, employees begin internalizing shame, believing they're actually inadequate rather than recognizing systemic discrimination designed to make them feel exactly this way.
 
 ## The Systemic Patterns
 
@@ -86,58 +63,29 @@ This isn't isolated incidents—it's systematic discrimination disguised as busi
 
 ### The Vulnerability Assessment
 
-Companies identify employees who represent potential "liability":
-- Those who disclose mental health conditions
-- Employees requesting FMLA or disability accommodations  
-- People whose medication affects their availability or productivity
-- Workers with chronic illnesses requiring ongoing treatment
-- Neurodivergent employees who need environmental modifications
+Companies systematically identify employees who represent potential "liability"—those who disclose mental health conditions, request FMLA or disability accommodations, take medication that affects availability or productivity, require ongoing treatment for chronic illnesses, or need environmental modifications for neurodivergent conditions. These employees become marked in systems that track accommodation costs and management overhead.
 
 ### The Risk Calculation
 
-HR departments weigh the cost of accommodation against the cost of elimination:
-- Legal fees for wrongful termination vs. discrimination lawsuits
-- Accommodation expenses vs. severance and replacement costs
-- Productivity concerns vs. diversity and inclusion reputation
-- Management burden vs. public relations benefits
+HR departments conduct cold calculations weighing accommodation costs against elimination expenses. They compare legal fees for wrongful termination versus discrimination lawsuits, accommodation expenses versus severance and replacement costs, productivity concerns versus diversity and inclusion reputation, management burden versus public relations benefits. When elimination appears cheaper or less risky than accommodation, the process begins.
 
 ### The Business Justification
 
-Every elimination is packaged as legitimate business decision:
-- "Performance issues" that ignore accommodation needs
-- "Cultural fit" concerns that pathologize neurological differences
-- "Business restructuring" that coincidentally affects disabled employees
-- "Productivity requirements" that don't account for reasonable modifications
+Every elimination gets packaged as a legitimate business decision. "Performance issues" ignore accommodation needs while focusing on productivity metrics. "Cultural fit" concerns pathologize neurological differences as personality problems. "Business restructuring" coincidentally affects disabled employees during convenient reorganizations. "Productivity requirements" refuse to account for reasonable modifications, creating impossible standards designed to justify removal.
 
 ## The Industry-Wide Impact
 
 This systematic discrimination has profound effects on tech culture:
 
-**Talent Loss**: Companies lose experienced, capable employees whose conditions don't actually impair their technical abilities.
+The systematic discrimination creates cascading damage across the industry. Companies lose experienced, capable employees whose conditions don't actually impair their technical abilities, while simultaneously reducing innovation by eliminating neurodivergent thinking patterns that often drive creative problem-solving and breakthrough approaches. The industry becomes more cognitively and neurologically homogeneous, trading diversity of thought for false comfort.
 
-**Innovation Reduction**: Neurodivergent thinking patterns often contribute to creative problem-solving and innovative approaches.
-
-**Homogenization**: The industry becomes more cognitively and neurologically homogeneous, reducing diversity of thought and approach.
-
-**Trust Erosion**: Employees learn not to trust company mental health resources or diversity statements<label for="sn-trust-erosion" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-trust-erosion" class="margin-toggle"/><span class="sidenote">The EAP (Employee Assistance Program) that's supposed to help you becomes the documentation system that's used against you. Mental health days become performance issues. Every resource becomes a trap.</span>.
-
-**Underground Networks**: People with conditions learn to hide them, creating shadow support systems and reducing authentic workplace relationships<label for="sn-masking-culture" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-masking-culture" class="margin-toggle"/><span class="sidenote">Masking mental health conditions and disabilities becomes a survival skill in tech, creating enormous psychological stress and preventing people from getting the support they need to do their best work.</span>.
-
-**Legal Precedent**: Successful elimination of employees with disabilities emboldens other companies to adopt similar practices.
+Trust erodes as employees learn not to trust company mental health resources or diversity statements<label for="sn-trust-erosion" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-trust-erosion" class="margin-toggle"/><span class="sidenote">The EAP (Employee Assistance Program) that's supposed to help you becomes the documentation system that's used against you. Mental health days become performance issues. Every resource becomes a trap.</span>. People with conditions learn to hide them, creating underground support networks and reducing authentic workplace relationships<label for="sn-masking-culture" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-masking-culture" class="margin-toggle"/><span class="sidenote">Masking mental health conditions and disabilities becomes a survival skill in tech, creating enormous psychological stress and preventing people from getting the support they need to do their best work.</span>. Each successful elimination emboldens other companies to adopt similar practices, spreading the discrimination across the entire ecosystem.
 
 ## The Contradiction
 
 Here's what's particularly infuriating: many of the conditions tech companies discriminate against are precisely what make people excellent programmers, designers, and technologists:
 
-**ADHD Hyperfocus**: The same condition that makes meetings difficult often enables the deep focus required for complex technical problem-solving.
-
-**Autism Spectrum Traits**: Pattern recognition, attention to detail, and systematic thinking are core strengths in software development.
-
-**Depression and Anxiety**: Often correlate with heightened sensitivity to user experience, edge cases, and potential system failures.
-
-**Bipolar Creativity**: Manic episodes can generate breakthrough insights and innovative solutions that benefit entire organizations.
-
-**OCD Precision**: Obsessive attention to detail and systematic approaches often produce higher quality, more reliable code.
+The irony deepens when examining what companies actually eliminate. ADHD hyperfocus—the same trait that makes meetings unbearable—often enables the sustained concentration required for complex technical problem-solving. Autism spectrum traits like pattern recognition, attention to detail, and systematic thinking represent core strengths in software development. Depression and anxiety frequently correlate with heightened sensitivity to user experience, edge cases, and potential system failures—exactly the kind of anticipatory thinking that prevents disasters. Bipolar creativity can generate breakthrough insights during manic episodes that benefit entire organizations, while OCD precision produces higher quality, more reliable code through obsessive attention to detail and systematic approaches.
 
 But instead of designing work environments that leverage these strengths while accommodating the challenges, companies eliminate the people entirely<label for="sn-neurodiversity-advantage" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-neurodiversity-advantage" class="margin-toggle"/><span class="sidenote">The tech industry's loss of neurodivergent talent isn't just morally wrong—it's strategically stupid. Many breakthrough innovations come from thinking patterns that are pathologized in traditional corporate environments.</span>.
 
@@ -145,15 +93,9 @@ But instead of designing work environments that leverage these strengths while a
 
 Companies exploit weaknesses in disability rights enforcement:
 
-**ADA Limitations**: The Americans with Disabilities Act provides protection but enforcement is complaint-driven and expensive for individual employees.
+Companies exploit systematic weaknesses in disability rights enforcement. While the Americans with Disabilities Act provides theoretical protection, enforcement remains complaint-driven and expensive for individual employees who must prove discrimination while companies control both documentation and narrative. The "business necessity" defense allows companies to justify almost any decision if documented properly<label for="sn-business-necessity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-business-necessity" class="margin-toggle"/><span class="sidenote">"Business necessity" is a legal magic phrase that transforms discrimination into legitimate decision-making. Courts rarely question it if the paperwork looks right.</span>—a legal magic phrase that transforms discrimination into legitimate decision-making.
 
-**Burden of Proof**: Employees must prove discrimination while companies control documentation and narrative.
-
-**Business Necessity Defense**: Companies can justify almost any decision as "business necessity" if they document it properly<label for="sn-business-necessity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-business-necessity" class="margin-toggle"/><span class="sidenote">"Business necessity" is a legal magic phrase that transforms discrimination into legitimate decision-making. Courts rarely question it if the paperwork looks right.</span>.
-
-**At-Will Employment**: Most states allow termination for any reason that isn't explicitly protected, leaving wide latitude for discrimination.
-
-**Settlement Culture**: Most cases settle privately with NDAs, preventing public awareness of discrimination patterns<label for="sn-nda-silence" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-nda-silence" class="margin-toggle"/><span class="sidenote">NDAs ensure that discrimination patterns remain invisible. Each victim thinks they're alone because previous victims are legally prohibited from warning them. The silence is enforced by law.</span>.
+At-will employment laws in most states permit termination for any reason that isn't explicitly protected, leaving wide latitude for creative discrimination. When cases do arise, settlement culture ensures they resolve privately with NDAs that prevent public awareness of discrimination patterns<label for="sn-nda-silence" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-nda-silence" class="margin-toggle"/><span class="sidenote">NDAs ensure that discrimination patterns remain invisible. Each victim thinks they're alone because previous victims are legally prohibited from warning them. The silence is enforced by law.</span>. Each victim believes they're alone because previous victims are legally prohibited from warning them.
 
 ## What Real Inclusion Would Look Like
 
