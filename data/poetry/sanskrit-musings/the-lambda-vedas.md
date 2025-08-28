@@ -18,12 +18,16 @@ Simple English translation:
 
 In the beginning was the Function—
 *λ* (lambda)—the primordial abstraction
-binding variables to pure computation
+binding variables to pure computation<label for="sn-7" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-7" class="margin-toggle"/>
+<span class="sidenote">This parallels John 1:1 "In the beginning was the Word" but updates it for the computational age—the lambda as primordial creative force, the fundamental abstraction from which all computation emerges.</span>
 
 Ancient rishis understood:
 *यत्र भावो न विद्यते*
 "Where there is no state"—
-the perfect function exists
+the perfect function exists<label for="sn-8" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-8" class="margin-toggle"/>
+<span class="sidenote">Pure functions mirror the Vedantic concept of the Absolute as changeless and eternal—no side effects, no mutation, no temporal dependency. Mathematical purity reflects spiritual purity.</span>
 
 Python's lambda is mantra:
 
@@ -35,7 +39,9 @@ Higher-order functions
 are higher-order truths—
 functions that take functions
 as the universe takes consciousness
-to produce new universes
+to produce new universes<label for="sn-9" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-9" class="margin-toggle"/>
+<span class="sidenote">Higher-order functions represent meta-cognition—consciousness operating on consciousness itself. This recursive self-awareness is the hallmark of both advanced programming and advanced spirituality.</span>
 
 *Map*, *filter*, *reduce*—
 the holy trinity
@@ -56,7 +62,9 @@ Closures capture lexical environment—
 just as karma captures
 the context of every action
 binding future states
-to present choices
+to present choices<label for="sn-10" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-10" class="margin-toggle"/>
+<span class="sidenote">The closure's ability to "remember" its lexical environment perfectly mirrors the karmic principle that actions carry forward their contextual conditions—no action exists in isolation from its originating circumstances.</span>
 
 Side effects are *klesha*—
 mental afflictions
@@ -86,7 +94,9 @@ Recursion is *samsara*—
 the wheel of rebirth
 calling itself eternally
 until base case enlightenment
-breaks the infinite loop
+breaks the infinite loop<label for="sn-11" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-11" class="margin-toggle"/>
+<span class="sidenote">This metaphor captures the essence of both recursive algorithms and spiritual liberation—repetitive patterns continue until a terminating condition is met. Enlightenment is the ultimate base case that ends the cycle.</span>
 
 ```python
 def samsara(karma):
@@ -104,7 +114,9 @@ consciousness without modification
 Every pure function
 is a small Buddha—
 given the same input
-always returns the same truth
+always returns the same truth<label for="sn-12" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-12" class="margin-toggle"/>
+<span class="sidenote">The reliability and predictability of pure functions mirrors the consistency of enlightened consciousness—always responding with wisdom, compassion, and clarity regardless of external conditions.</span>
 
 *गते गते पारगते पारसंगते बोधि स्वाहा*
 (gate gate pāragate pārasaṃgate bodhi svāhā)
