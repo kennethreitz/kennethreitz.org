@@ -101,7 +101,7 @@
 
  Before, I was completely undiagnosed and had no idea there was even a problem. Going so long without a diagnosis also caused some very serious delusions to build, over time. That is unlikely to happen again, but I now know how to recognize any odd thought patterns and avoid psychological sinkholes if it does come up.
 
- I also learned to rely on my family and friends to keep me in check and generally support my health as much as possible. I was a bit too self\-sufficient before.
+ I also learned to rely on my family and friends to keep me in check and generally support my health as much as possible. I was a bit too self\-sufficient before. This understanding of the need for external reality-checking would later inform my approach to [using AI for reality-checking with schizoaffective disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder), recognizing that multiple perspectives—whether human or artificial—help maintain grounded thinking.
 
  Now that I have a diagnosis, I have a much deeper understanding into the way my mind works, and know how to prevent another episode from occurring in the future.
 
@@ -122,6 +122,8 @@
  I wanted to share this story with you mostly because I thought you'd find it *surprising*. I haven't shared much, if anything, about this publicly, and I doubt others who have had similar experiences have either.
 
  I want to be a testament that this can happen to *anyone* you know, even you. It potentially already has. But, if so, you'll be fine in the end :)
+
+Looking back nearly a decade later, I can see how this early transparency about mental health—radical for the tech industry in 2016—would eventually lead to [systematic professional discrimination](/essays/2025-08-27-the_cost_of_transparency) as I became more open about living with schizoaffective disorder. The very openness that I hoped would help normalize mental health discussions ended up making me a liability in the communities I helped build.
 
  ## Personal Takeaways
 

@@ -49,13 +49,15 @@
 
  You discover it. You respond to it.
 
- Great sculptures aren’t manufactured — they’re discovered. The sculptor studies and listens to the slab of marble. He identifies with the stone. Then, he responds. He enables the marble to speak for itself, setting free something beautiful that hidden was inside all along.
+ Great sculptures aren't manufactured — they're discovered. The sculptor studies and listens to the slab of marble. He identifies with the stone. Then, he responds. He enables the marble to speak for itself, setting free something beautiful that hidden was inside all along.
 
  He responds.
 
- This is what responsive design is all about. It’s not merely a method to engineer a web design that will function on a phone, tablet, and desktop.
+ This is what responsive design is all about. It's not merely a method to engineer a web design that will function on a phone, tablet, and desktop.
 
- Beware lest you lose the substance by grasping at the shadow. Responsive design is about making a design that identifies and understands itself enough to respond to the environment it’s placed in. It is about setting your design free from arbitrary constraints. It is setting free something beautiful that was inside all along.
+ Beware lest you lose the substance by grasping at the shadow. Responsive design is about making a design that identifies and understands itself enough to respond to the environment it's placed in. It is about setting your design free from arbitrary constraints. It is setting free something beautiful that was inside all along.
+
+The sculptural metaphor here reflects what I would later recognize as fundamentally contemplative—the same kind of patient attention and responsive creation that characterizes [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice). Whether working with marble, code, or consciousness, the process is one of deep listening and conscious response.
 
  This is known as Readme\-Driven Development. I call it **Responsive API Design**.
 
@@ -80,3 +82,5 @@
 
 
 > Build tools for others that you want to be built for you.
+
+This ethical foundation—treating users with the same respect and care you'd want from the tools you use—would eventually expand into a comprehensive approach to [conscious technology development](/essays/2025-08-26-programming_as_spiritual_practice) that recognizes every line of code as an act of service to human flourishing.

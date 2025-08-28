@@ -7,6 +7,8 @@
 
 Living with schizoaffective disorder means constantly questioning whether my perceptions and interpretations of reality are accurate. Recently, I discovered an unexpected tool in this ongoing battle: AI assistants. Here's what I've learned about using AI effectively (and ineffectively) for reality-checking.
 
+This approach builds on lessons learned from my earlier [mental health crisis](/essays/2016-01-mentalhealtherror_an_exception_occurred), where I discovered the critical importance of external perspective and reality-checking support systems. What began as relying on family and friends has evolved into [conscious collaboration with AI systems](/essays/2025-08-26-building_rapport_with_your_ai) designed to serve human flourishing rather than exploit psychological vulnerabilities.
+
 ## The Context
 
 I have schizoaffective disorder, which means I experience both mood disorder symptoms and psychotic symptoms like delusions and paranoia<label for="sn-schizoaffective" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-schizoaffective" class="margin-toggle"/><span class="sidenote">Schizoaffective disorder combines features of schizophrenia (hallucinations, delusions) with mood disorder symptoms (depression or mania). It affects approximately 0.3% of the population and requires careful management of both psychotic and mood symptoms.</span>. One of my biggest challenges is distinguishing between legitimate concerns and delusional thinking, especially when it comes to interpreting others' behavior.

@@ -16,4 +16,6 @@
 
  \*\*Develop your software/experience for the masses\*\*. Make the geeks love it, but make them find it on their own. Just a thought.<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This philosophy would later influence Kenneth's approach with Python libraries like Requests—creating tools so elegantly simple that they appealed to both novices and experts, with the technical depth emerging organically rather than being marketed upfront.</span>
 
+This early insight about designing for human experience over technical specifications would eventually evolve into a broader understanding: whether we're [building APIs that serve developers](/essays/2025-08-27-from_http_to_consciousness) or [creating AI collaboration patterns](/essays/2025-08-26-building_rapport_with_your_ai), the principles remain constant—prioritize human understanding, reduce cognitive friction, and let technical sophistication emerge naturally from elegant design.
+
   

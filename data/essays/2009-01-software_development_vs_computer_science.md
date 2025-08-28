@@ -25,4 +25,6 @@
 <input type="checkbox" id="sn-4" class="margin-toggle"/>
 <span class="sidenote">Kenneth's shift from theoretical math to practical software development and design fundamentals shaped his later success. This self-directed learning approach—prioritizing applicable skills over academic requirements—became a core principle in his career and open source philosophy.</span>.
 
+Fifteen years later, this intuition about the mismatch between computer science education and practical software development proved prescient. The same focus on human-centered design over academic abstraction that led me to abandon calculus for color theory would eventually inform [the 'for humans' philosophy](/themes/for-humans-philosophy) and my understanding of [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice)—recognizing that the most profound technical work serves human flourishing rather than algorithmic elegance.
+
   

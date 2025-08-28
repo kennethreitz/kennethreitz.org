@@ -11,4 +11,6 @@
 
  Just a thought.<label for="sn-philosophy-simplicity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-philosophy-simplicity" class="margin-toggle"/><span class="sidenote">Even in this brief early essay, we see Kenneth's emerging philosophy that aesthetics aren't superficial but fundamental to how we experience and interact with technology. This theme would later permeate his approach to API design and user experience in his open source work.</span>
 
+This early recognition—that aesthetic choices shape our relationship to technology and our capacity for productive work—would evolve into a deeper understanding: whether designing [APIs for humans](/themes/for-humans-philosophy), [building rapport with AI systems](/essays/2025-08-26-building_rapport_with_your_ai), or approaching [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice), the quality of our interfaces shapes the quality of our consciousness.
+
   
