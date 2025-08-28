@@ -9,27 +9,27 @@ The same algorithmic mechanisms that drive engagement on social platforms—vari
 ## The Algorithm Eats Series
 
 ### Foundation: Character Destruction
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization systematically rewards the inverse of classical virtues
+- **[The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue)** - How engagement optimization systematically rewards the inverse of classical virtues
 - **Core insight**: Feeds that optimize for engagement necessarily optimize against wisdom, courage, temperance, justice, faith, hope, and love
 
 ### Psychological Impact
-- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Clinical analysis of psychological damage from algorithmic systems
+- **[The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis)** - Clinical analysis of psychological damage from algorithmic systems
 - **Core insight**: The same systems that destroy virtue also create anxiety, depression, attention disorders, and social dysfunction at scale
 
 ### Communication Breakdown
-- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How engagement optimization degrades grammar, punctuation, and complex thought
+- **[The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language)** - How engagement optimization degrades grammar, punctuation, and complex thought
 - **Core insight**: Viral content rewards linguistic shortcuts that systematically erode our capacity for nuanced communication
 
 ### Romantic Commodification  
-- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps have transformed courtship into optimization problems
+- **[The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love)** - How dating apps have transformed courtship into optimization problems
 - **Core insight**: Love becomes impossible when human connection is mediated by systems designed to keep you searching rather than finding
 
 ### Democratic Deterioration
-- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How engagement optimization destroys the cognitive conditions necessary for democratic discourse
+- **[The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy)** - How engagement optimization destroys the cognitive conditions necessary for democratic discourse
 - **Core insight**: Algorithmic systems systematically reward fragmentation and extremism while punishing the nuanced understanding required for collective governance
 
 ### Reality Manipulation
-- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification and coordinated inauthentic behavior manufacture consensus and fracture shared understanding
+- **[The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality)** - How artificial amplification and coordinated inauthentic behavior manufacture consensus and fracture shared understanding
 - **Core insight**: Modern influence operations exploit engagement optimization to weaponize our basic capacity to distinguish authentic human expression from manufactured manipulation
 
 ## Interconnected Patterns
