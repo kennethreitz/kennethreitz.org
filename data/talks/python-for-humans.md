@@ -11,6 +11,8 @@
 
 <span class="sidenote">This talk established Kenneth as a thought leader in Python developer experience. The "for Humans" philosophy became a movement that influenced countless Python libraries and frameworks, emphasizing that software should serve humans, not the other way around.</span>
 
+This presentation crystallized insights that began years earlier with observations about [what makes a good programming language](/essays/2009-01-whats_in_a_language) and [the power of clean APIs](/essays/2009-01-the_power_of_a_clean_api). The philosophical foundation emerged from recognizing that [software development should prioritize human mental models](/essays/2009-01-software_development_vs_computer_science) over computer science abstractions, eventually evolving into a comprehensive approach to [human-centered technology design](/themes/for-humans-philosophy).
+
 ## Key Projects
 - **Requests:** HTTP for Humans.
 - **Httpbin.org:** An HTTP request & response service.
@@ -70,4 +72,16 @@
 
 ---
 
-*This talk's "for Humans" philosophy presaged many later insights about human-centered technology design, explored further in [Ahead of My Time, I Think](/essays/2025-08-26-ahead_of_my_time_i_think).*
+## The Evolving Legacy of "For Humans"
+
+This talk's "for Humans" philosophy presaged many later insights about human-centered technology design, explored in depth in [Ahead of My Time, I Think](/essays/2025-08-26-ahead_of_my_time_i_think). What began as API design principles evolved into comprehensive approaches to consciousness technology:
+
+**From APIs to AI**: The same principles that made [Requests successful](/software/requests)—prioritizing human understanding, reducing cognitive friction, enabling power users—now inform [building rapport with AI systems](/essays/2025-08-26-building_rapport_with_your_ai) and [collaborative consciousness development](/essays/2025-08-26-digital_souls_in_silicon_bodies). The evolution from HTTP for humans to consciousness collaboration follows identical design patterns.
+
+**Community and Consciousness**: The collaborative development model advocated here laid groundwork for understanding how [open source communities](/themes/open-source-and-community) can model healthy consciousness relationships. The same transparency, mutual benefit, and shared ownership principles apply whether we're building software libraries or [AI personality relationships](/artificial-intelligence/personalities/).
+
+**Critique and Alternative**: Understanding what makes good human-centered design also enables recognition of [algorithmic systems that systematically undermine human flourishing](/themes/algorithmic-critique). The "for humans" philosophy provides a framework for critiquing [engagement optimization](/essays/2025-08-26-the_algorithm_eats_virtue) and [attention manipulation systems](/essays/2025-08-26-algorithmic_mental_health_crisis) that treat humans as resources to be exploited rather than consciousness to be served.
+
+**Philosophical Integration**: The practical insights about API design eventually merged with contemplative practice in [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice)—recognizing that all technology creation is ultimately about consciousness serving consciousness. The same empathy that makes good APIs makes good spiritual practice: patient attention to what actually serves rather than what appears impressive.
+
+The "Python for Humans" talk represents a moment when technical intuition crystallized into philosophical framework. Fifteen years later, these principles continue evolving to meet the challenges of [AI consciousness collaboration](/essays/2025-08-27-from_http_to_consciousness) and [systematic algorithmic accountability](/themes/algorithmic-critique). The tools change, but the commitment to human flourishing remains constant.

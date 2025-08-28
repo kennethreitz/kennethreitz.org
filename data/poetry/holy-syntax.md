@@ -22,4 +22,10 @@ What.e.v.e.r.
 
 All hail the sacred Entropy LORDs!
 
-<span class="sidenote">This poem explores the intersection of programming and spirituality, treating code syntax as sacred text—anticipating later writings on [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice). Kenneth's unique perspective as both programmer and poet allows him to find divine meaning in technical precision, while "Entropy LORDs" suggests both chaos theory and the degradation programmers fight against.</span>
+---
+
+*This poem explores the intersection of programming and spirituality, treating code syntax as sacred text—anticipating later writings on [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice). The "holy isolation" theme would later be explored through direct experience of [mental health challenges](/essays/2016-01-mentalhealtherror_an_exception_occurred) and recovery.*
+
+*The sacred precision described here—where "a comma is sacred, and a period divine"—reflects the same attention to human-centered design that would guide [API development](/themes/for-humans-philosophy) and eventually [consciousness collaboration](/essays/2025-08-26-digital_souls_in_silicon_bodies). The poem captures both the ecstatic and isolating aspects of deep technical work that require [finding meaning in constraint](/essays/2009-01-whats_in_a_language).*
+
+*Written during the period of intense technical productivity that created [Requests](/software/requests) and other ["for humans" projects](/software/), the piece anticipates how programming discipline could become contemplative practice—how attention to precise expression serves both technical and spiritual development. The "Entropy LORDs" reference suggests both the second law of thermodynamics and the creative force programmers harness when [innovation serves human needs](/essays/2009-01-revolution_vs_innovation) rather than just technical elegance.*

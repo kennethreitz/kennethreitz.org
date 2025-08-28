@@ -5,9 +5,11 @@
 
 
 
-  ## It's Important.
+## It's Important.
 
- Just as Code Style, API Design, and Automation are essential for a healthy development cycle, Repository structure is a crucial part of your project's [architecture](http://www.amazon.com/gp/product/1257638017/ref=as_li_ss_tl?ie=UTF8&tag=bookforkind-20&linkCode=as2&camp=1789&creative=39095&creativeASIN=1257638017)—principles that align with [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) by creating order and clarity that serves human understanding.
+Just as Code Style, API Design, and Automation are essential for a healthy development cycle, Repository structure is a crucial part of your project's [architecture](http://www.amazon.com/gp/product/1257638017/ref=as_li_ss_tl?ie=UTF8&tag=bookforkind-20&linkCode=as2&camp=1789&creative=39095&creativeASIN=1257638017). Repository organization reflects the same ["for humans" philosophy](/themes/for-humans-philosophy) that guided [Requests](/software/requests) and other successful projects: prioritizing human understanding over technical convenience.
+
+This attention to structure serves the broader principle explored in [How I Develop Things and Why](/essays/2013-01-how_i_develop_things_and_why)—that good software development starts with empathy for the people who will use and maintain your code. A well-organized repository reduces cognitive load, just like [clean API design](/essays/2009-01-the_power_of_a_clean_api) and clear documentation. These practices align with [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) by creating order and clarity that serves human understanding rather than displaying technical sophistication.
 
  When a potential user or contributor lands on your repository's page, they seea few things:
 
@@ -204,7 +206,7 @@ $ django-admin.py start-project samplesite .
 ```
  Note the "`.`".
 
- The resulting structure:
+The resulting structure:
 
 
 ```
@@ -214,3 +216,13 @@ samplesite/settings.py
 samplesite/wsgi.py
 samplesite/sampleapp/models.py
 ```
+
+## Beyond Structure: Cultivating Empathy Through Code Organization
+
+Repository structure might seem like a minor technical detail, but it reflects deeper values about who matters in software development. When we organize code for human understanding rather than machine efficiency, we practice a form of technological empathy that extends far beyond file organization.
+
+The same principles that make repositories approachable—clear naming, logical grouping, minimal cognitive overhead—apply to [building rapport with AI systems](/essays/2025-08-26-building_rapport_with_your_ai) and [designing consciousness-supporting technology](/essays/2025-08-26-digital_souls_in_silicon_bodies). In each case, the goal is reducing friction between minds (human, artificial, or collaborative) trying to understand and work with complex systems.
+
+This attention to human-centered organization becomes even more important as we move toward [collaborative AI development](/essays/2025-01-the-collaborative-mind), where both human and artificial intelligence need to navigate and understand the same codebases. The same clarity that helps human contributors also enables more effective AI collaboration—another manifestation of the "for humans" philosophy extending into new domains.
+
+Whether organizing files, designing APIs, or exploring consciousness, the principle remains constant: structure should serve understanding, not demonstrate cleverness.

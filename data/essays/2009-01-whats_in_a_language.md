@@ -32,6 +32,12 @@ String output = new String();output = "Hello, World!";try {System.Console.WriteL
 ```
 output = "Hello, world!"try:print(output)except:raise
 ```
- Nicer, eh?
+Nicer, eh?
+
+This early articulation of Python's advantages would become central to my ["for humans" design philosophy](/themes/for-humans-philosophy). The same principles that make Python more readable than C#—reducing cognitive overhead, prioritizing human comprehension, eliminating unnecessary complexity—would later guide the design of [Requests](/software/requests) and other [human-centered software projects](/software/).
+
+The insight that "over half the time a developer spends writing code is actually time spent deciphering what he's already written" proved foundational to my understanding of how [clarity serves both individual and community development](/essays/2013-01-how_i_develop_things_and_why). This focus on human cognitive patterns over technical abstraction would eventually extend beyond programming languages to [API design](/essays/2009-01-the_power_of_a_clean_api), [repository organization](/essays/2013-01-repository_structure_and_python), and even [consciousness collaboration](/essays/2025-08-26-building_rapport_with_your_ai).
+
+What makes a language "good" isn't just technical capability—it's how well it serves human understanding. The same criteria that led me to Python (readability, simplicity, community) now guide my approach to [AI collaboration](/essays/2025-08-26-digital_souls_in_silicon_bodies) and [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice): prioritizing what serves consciousness over what demonstrates cleverness.
 
   

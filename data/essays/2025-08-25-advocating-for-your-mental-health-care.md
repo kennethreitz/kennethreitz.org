@@ -13,6 +13,8 @@ There's a peculiar dynamic that happens in many mental health treatment relation
 
 This paternalistic approach isn't just condescending—it's counterproductive. Recovery and mental wellness require agency, self-knowledge, and collaborative partnership. Yet too many providers default to a model where they're the expert with all the answers, and you're the passive recipient of their wisdom.
 
+This advocacy approach emerges from hard-earned experience navigating mental health systems since my [initial crisis and bipolar diagnosis in 2016](/essays/2016-01-mentalhealtherror_an_exception_occurred), and more recently living with schizoaffective disorder while maintaining professional effectiveness. The infantilization problem becomes particularly acute when providers can't reconcile high-functioning capability with genuine mental health needs—leading to either dismissal of symptoms or inappropriate treatment that ignores the person's actual life context and goals.
+
 It doesn't have to be this way.
 
 ## The Problem with Paternalistic Care
@@ -59,6 +61,8 @@ Your subjective experience is valid data. Start tracking:
 - **Medication effects** (both positive and negative)
 - **Life stressors and their timing**
 - **What actually helps** when you're struggling
+
+This data-driven approach applies the same principles that guide [effective software development](/essays/2013-01-how_i_develop_things_and_why)—start with actual user needs (your experience) rather than theoretical best practices (diagnostic categories). Like the ["for humans" design philosophy](/themes/for-humans-philosophy) that prioritizes human understanding over technical elegance, effective mental health advocacy prioritizes your lived experience over clinical assumptions. In my case, tracking has been essential for [using AI systems for reality-checking](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) and maintaining professional effectiveness while managing thought disorders.
 
 Apps, journals, or simple notes all work. The key is having concrete information to share rather than vague generalizations.<label for="sn-tracking-tools" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-tracking-tools" class="margin-toggle"/>
@@ -142,7 +146,7 @@ Neither perspective is sufficient alone. Both are essential.<label for="sn-partn
 
 When you advocate effectively for yourself, you're not just improving your own care—you're modeling a healthier dynamic that benefits everyone. Providers who work collaboratively tend to have better outcomes, higher job satisfaction, and more engaged patients.
 
-You're also pushing back against a system that too often treats mental health struggles as evidence of incompetence rather than as challenges that competent people sometimes face.
+You're also pushing back against a system that too often treats mental health struggles as evidence of incompetence rather than as challenges that competent people sometimes face. This connects to broader patterns of [institutional discrimination](/essays/2025-08-27-the_cost_of_transparency) where mental health transparency leads to professional exclusion—and how [inclusive values can systematically exclude](/essays/2025-08-25-when-values-eat-their-young) the people they claim to support. Effective self-advocacy helps challenge these discriminatory assumptions by demonstrating that competence and mental health challenges frequently coexist.
 
 ## Moving Forward
 
