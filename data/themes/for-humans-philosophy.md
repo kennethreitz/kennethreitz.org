@@ -39,7 +39,7 @@ A comprehensive exploration of human-centered design principles that prioritize 
 
 ## Beyond Code: Human-Centered Everything
 
-### Photography & Constraints
+### Photography & Creative Constraints
 - [Photography: The Navigation of Choice](/essays/2014-01-photography_the_navigation_of_choice) - How elegant constraints foster creativity
 - [The Leica Monochrom](/essays/2013-01-the_misunderstood_leica_monochrom) - Understanding minimalist design philosophy
 - [Camera recommendations](/essays/2018-01-prolevel_camera_recommendations_for_2018) - Matching tools to human creative needs

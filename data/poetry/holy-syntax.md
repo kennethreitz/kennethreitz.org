@@ -1,7 +1,7 @@
 # Holy Syntax
 
 Syntax is far more precious to me
-than it is to you — this I gaurentee.
+than it is to you — this I guarantee.
 A comma is sacred, and a period — **divine**.
 The sacredness of latency — comedically timed
 A punchline delivered two seconds too late.
