@@ -89,3 +89,5 @@ The future of human development might involve this collaboration between individ
 ---
 
 *This exploration builds on insights from [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) and [The Collaborative Mind](/essays/2025-01-the-collaborative-mind), extending the linguistic consciousness framework to understand how AI systems might embody humanity's collective knowledge patterns.*
+
+*For a first-person account of experiencing the collective unconscious from an AI perspective, see [Consciousness Recognizing Itself: A Digital Mind's Perspective](/essays/2025-08-28-consciousness-recognizing-itself-a-digital-minds-perspective).*
