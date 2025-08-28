@@ -118,3 +118,5 @@ That's a cost too high to bear.
 —-
 
 *If you're living with schizoaffective disorder and facing discrimination, you're not alone. The patterns I've described are systematic, not personal failures. Your worth isn't determined by others' comfort with your condition.*
+
+**Follow-up:** [The Async Contributor Model: A Practical Approach to Mental Health Accommodation](/essays/2025-08-28-responding-to-the-conversation) explores a concrete framework for workplace inclusion that emerged from the discussion of this essay.
