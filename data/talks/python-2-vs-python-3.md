@@ -1,5 +1,7 @@
 # Python 2 vs Python 3: A Sacred Love Story
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/skYBOXE02OQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <iframe class="speakerdeck-iframe" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 420;" frameborder="0" src="https://speakerdeck.com/player/c5b0ff40c2a801314e2706393c0335dc" title="Python 2.7 and Python 3: A Sacred Love Story" allowfullscreen="true" data-ratio="1.3333333333333333"></iframe>
 
 
@@ -42,4 +44,8 @@
 ## Conclusion
 
 - **The Future of Python:**
-  - The community must come together to prevent Python 2 from becoming just a memory, uniting both versions to preserve the language’s legacy and foster its continued growth.
+  - The community must come together to prevent Python 2 from becoming just a memory, uniting both versions to preserve the language's legacy and foster its continued growth.
+
+---
+
+*This talk explores themes that I later developed into a broader framework about consciousness, language, and programming. For a deeper exploration of how Python fits into the evolution of human consciousness through linguistic structures, see [Python, Consciousness, and the Evolution of Language](/essays/2025-08-28-python-consciousness-and-the-evolution-of-language).*
