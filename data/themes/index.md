@@ -29,6 +29,21 @@ Building inclusive technical communities that embody their values, from early vi
 
 **Key topics**: Community building, open source ethics, anti-drift mechanisms, platform responsibility, collaborative development
 
+### [Spiritual Practice & Technology: The Contemplative Path Through Code](/themes/spiritual-practice-and-technology)
+Exploring how programming, technology creation, and spiritual practice intersect to create conscious approaches to building systems. Code as meditation, debugging as self-inquiry.
+
+**Key topics**: Programming as spiritual practice, Sanskrit and sacred language, consciousness through technology, contemplative coding, integration of technical and spiritual
+
+### [Pattern Recognition & Manipulation: From Personal to Civilizational](/themes/pattern-recognition-and-manipulation)
+How recognizing manipulation patterns at the personal level enables understanding of systematic exploitation at societal scale. From narcissistic abuse to algorithmic manipulation.
+
+**Key topics**: Manipulation mechanics, scaling patterns, institutional exploitation, algorithmic abuse, defense strategies, personal to systematic
+
+### [Evolution of Ideas: 15 Years of Intellectual Development](/themes/evolution-of-ideas)
+Tracing the progression from technical insights to philosophical frameworks to systematic critique across a decade and a half of exploration. The journey from urllib2 to consciousness.
+
+**Key topics**: Technical foundations, "For Humans" revolution, consciousness turn, systematic critique, intellectual evolution, idea development
+
 ## The Interconnected Journey
 
 What emerges from fifteen years of writing is a web of interconnected insights where personal experience informs systemic analysis, technical intuitions evolve into philosophical frameworks, and individual struggles illuminate collective challenges.
