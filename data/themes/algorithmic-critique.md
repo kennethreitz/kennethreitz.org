@@ -9,60 +9,60 @@ The same algorithmic mechanisms that drive engagement on social platforms—vari
 ## The Algorithm Eats Series
 
 ### Foundation: Character Destruction
-- **[The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue)** - How engagement optimization systematically rewards the inverse of classical virtues
-- **Core insight**: Feeds that optimize for engagement necessarily optimize against wisdom, courage, temperance, justice, faith, hope, and love
+- **[The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue)** - How engagement optimization systematically rewards the inverse of classical virtues.
+- **Core insight**: Feeds that optimize for engagement necessarily optimize against wisdom, courage, temperance, justice, faith, hope, and love.
 
 ### Psychological Impact
-- **[The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis)** - Clinical analysis of psychological damage from algorithmic systems
-- **Core insight**: The same systems that destroy virtue also create anxiety, depression, attention disorders, and social dysfunction at scale
+- **[The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis)** - Clinical analysis of psychological damage from algorithmic systems.
+- **Core insight**: The same systems that destroy virtue also create anxiety, depression, attention disorders, and social dysfunction at scale.
 
 ### Communication Breakdown
-- **[The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language)** - How engagement optimization degrades grammar, punctuation, and complex thought
-- **Core insight**: Viral content rewards linguistic shortcuts that systematically erode our capacity for nuanced communication
+- **[The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language)** - How engagement optimization degrades grammar, punctuation, and complex thought.
+- **Core insight**: Viral content rewards linguistic shortcuts that systematically erode our capacity for nuanced communication.
 
 ### Romantic Commodification  
-- **[The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love)** - How dating apps have transformed courtship into optimization problems
-- **Core insight**: Love becomes impossible when human connection is mediated by systems designed to keep you searching rather than finding
+- **[The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love)** - How dating apps have transformed courtship into optimization problems.
+- **Core insight**: Love becomes impossible when human connection is mediated by systems designed to keep you searching rather than finding.
 
 ### Democratic Deterioration
-- **[The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy)** - How engagement optimization destroys the cognitive conditions necessary for democratic discourse
-- **Core insight**: Algorithmic systems systematically reward fragmentation and extremism while punishing the nuanced understanding required for collective governance
+- **[The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy)** - How engagement optimization destroys the cognitive conditions necessary for democratic discourse.
+- **Core insight**: Algorithmic systems systematically reward fragmentation and extremism while punishing the nuanced understanding required for collective governance.
 
 ### Reality Manipulation
-- **[The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality)** - How artificial amplification and coordinated inauthentic behavior manufacture consensus and fracture shared understanding
-- **Core insight**: Modern influence operations exploit engagement optimization to weaponize our basic capacity to distinguish authentic human expression from manufactured manipulation
+- **[The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality)** - How artificial amplification and coordinated inauthentic behavior manufacture consensus and fracture shared understanding.
+- **Core insight**: Modern influence operations exploit engagement optimization to weaponize our basic capacity to distinguish authentic human expression from manufactured manipulation.
 
 ## Interconnected Patterns
 
 These essays reveal the same underlying mechanism across different domains:
 
-1. **Engagement Optimization**: Systems designed to maximize time-on-platform and interaction rates
-2. **Psychological Exploitation**: Variable reward schedules, social comparison, fear amplification
-3. **Reality Distortion**: Algorithmic selection creates biased samples users mistake for representative reality  
-4. **Virtue Inversion**: Behaviors that promote human flourishing are systematically de-prioritized
-5. **Scale Effects**: Individual psychological manipulation becomes civilizational transformation
+1. **Engagement Optimization**: Systems designed to maximize time-on-platform and interaction rates.
+2. **Psychological Exploitation**: Variable reward schedules, social comparison, fear amplification.
+3. **Reality Distortion**: Algorithmic selection creates biased samples users mistake for representative reality.
+4. **Virtue Inversion**: Behaviors that promote human flourishing are systematically de-prioritized.
+5. **Scale Effects**: Individual psychological manipulation becomes civilizational transformation.
 
 ## Historical Context
 
 This critique emerges from lived experience with both technological innovation and psychological manipulation:
 
-- **Technical Background**: Creator of [Requests](/software/) and other human-centered tools
-- **Personal Experience**: [Surviving narcissistic abuse](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) provides pattern recognition for systemic manipulation
-- **Mental Health Perspective**: [Living with bipolar disorder](/mental-health) creates sensitivity to psychological state changes
+- **Technical Background**: Creator of [Requests](/software/) and other human-centered tools.
+- **Personal Experience**: [Surviving narcissistic abuse](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) provides pattern recognition for systemic manipulation.
+- **Mental Health Perspective**: [Living with bipolar disorder](/mental-health) creates sensitivity to psychological state changes.
 
 ## The Broader Vision
 
 ### What We've Lost
-- **Organic relationship formation** through shared spaces and repeated exposure
-- **Contemplative thought** that requires sustained attention
-- **Nuanced communication** that builds understanding across difference
-- **Character development** through virtue practice rather than performance optimization
+- **Organic relationship formation** through shared spaces and repeated exposure.
+- **Contemplative thought** that requires sustained attention.
+- **Nuanced communication** that builds understanding across difference.
+- **Character development** through virtue practice rather than performance optimization.
 
 ### What We Could Build
-- **Virtue-optimized systems** that reward wisdom, courage, temperance, and love
-- **Mental health-supporting platforms** designed for user wellbeing over engagement
-- **Language-preserving interfaces** that promote rather than degrade communication
-- **Connection-facilitating tools** that help people find and build relationships
+- **Virtue-optimized systems** that reward wisdom, courage, temperance, and love.
+- **Mental health-supporting platforms** designed for user wellbeing over engagement.
+- **Language-preserving interfaces** that promote rather than degrade communication.
+- **Connection-facilitating tools** that help people find and build relationships.
 
 ## Related Explorations
 
