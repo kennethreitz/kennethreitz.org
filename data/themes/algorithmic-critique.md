@@ -121,4 +121,6 @@ But first we have to acknowledge what the current systems are actually doing to 
 
 *"We're not users of social media; we're the product being optimized."*
 
+So yeah, the robots aren't coming for our jobs—they already took our attention spans.
+
 *"Technology is not neutral. We're inside of what we make, and it's inside of us."*
