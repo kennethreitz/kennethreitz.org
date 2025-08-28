@@ -4,7 +4,7 @@
 
 Yesterday I shared [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency)—my experience of systematic workplace exclusion after disclosing schizoaffective disorder. The [Hacker News discussion](https://news.ycombinator.com/item?id=45051584) that followed was predictably messy, but it surfaced something valuable: a practical accommodation model that actually works.
 
-Buried in the criticism and debate, one commenter proposed a solution I've been using successfully for years but never formalized. It's worth extracting and expanding because it offers a concrete alternative to the usual "how much accommodation is too much?" debates.
+Buried in the criticism and debate, one commenter proposed a solution I've been using successfully for years but never formalized. Rather than getting lost in abstract debates about accommodation limits, let's examine what this concrete alternative looks like in practice.
 
 ## The Core Solution: What One Commenter Got Right
 
@@ -37,27 +37,27 @@ Here's how to structure these arrangements for maximum success:
 ### What This Actually Looks Like
 
 **For the Organization:**
-- Identify a 2-4 week project that's been sitting in your backlog
-- Assign one experienced team member as the single point of contact
+- Identify a 2-4 week backlog project
+- Assign one experienced team member as single point of contact
 - Write detailed requirements and acceptance criteria upfront
-- Set realistic deadlines with 50% buffer time built in
-- Plan for written-only communication via email or project management tools
-- Budget as you would for a specialized consultant or contractor
+- Set realistic deadlines with 50% buffer time
+- Use written-only communication (email/project management tools)
+- Budget as specialized consultant/contractor
 
 **For the Contributor:**
-- Receive a complete project brief with clear deliverables and success metrics
-- Work during your optimal hours without daily check-ins or status meetings
-- Communicate progress and questions through written updates (weekly or bi-weekly)
-- Deliver working code/documentation with clear handoff instructions
-- Handle feedback iterations through the same async communication channels
-- Get paid upon successful delivery, not hours logged
+- Receive complete project brief with clear deliverables
+- Work during optimal hours without daily check-ins
+- Provide written progress updates (weekly or bi-weekly)
+- Deliver working code/documentation with handoff instructions
+- Handle feedback through async communication channels
+- Get paid upon delivery, not hours logged
 
 **For the Team:**
 - No accommodation overhead or daily management responsibility
 - Clear integration points and handoff procedures
-- Work continues regardless of the contributor's daily availability
-- Receive high-quality deliverables without meeting coordination
-- Benefit from fresh perspective on challenging technical problems
+- Work continues regardless of contributor's availability
+- Receive deliverables without meeting coordination
+- Benefit from fresh perspective on technical challenges
 
 ### Core Components
 
@@ -118,7 +118,7 @@ What started as a mental health accommodation becomes a model for more effective
 
 ## The Practical Path Forward
 
-The HN discussion, for all its messiness, demonstrated something valuable: people are ready to think practically about accommodation when presented with concrete models rather than abstract principles.
+The discussion demonstrated something valuable: people are ready to think practically about accommodation when presented with concrete models rather than abstract principles.
 
 The async contributor framework offers a starting point. It's not the only solution, but it's one that works within existing business structures while providing meaningful opportunity for people typically excluded from traditional employment.
 
