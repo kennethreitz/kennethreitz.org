@@ -10,7 +10,7 @@ Over the past few years, I've worked for at least twenty companies, cycling thro
 
 **I need to be clear about something.** I'm not claiming innocence in every workplace conflict or community dispute. I've made mistakes, handled situations poorly, and there's been [legitimate criticism of my behavior](https://vorpus.org/blog/why-im-not-collaborating-with-kenneth-reitz/) in some cases. The Requests 3 fundraising situation, in particular, was handled badly - I took on commitments I couldn't deliver and didn't communicate well about the problems. [I've apologized for this](https://kennethreitz.org/essays/2023-01-an_overdue_apology), though I understand the damage was already done. Mental illness doesn't excuse harmful behavior, and I'm not asking it to.
 
-But here's what I am saying: once you disclose a condition like schizoaffective disorder, every future conflict gets filtered through that lens. Criticism that might be delivered constructively to a neurotypical person becomes "see, we can't trust him, he's unstable." Normal workplace tensions become evidence of your fundamental unreliability rather than ordinary human fallibility.
+**But here's what I am saying:** once you disclose a condition like schizoaffective disorder, every future conflict gets filtered through that lens. Criticism that might be delivered constructively to a neurotypical person becomes "see, we can't trust him, he's unstable." Normal workplace tensions become evidence of your fundamental unreliability rather than ordinary human fallibility.
 
 The discrimination isn't being held accountable for actual mistakes. It's that those mistakes become proof of permanent unfitness rather than ordinary human fallibility to learn from and move past.
 
