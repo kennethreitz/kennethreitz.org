@@ -126,8 +126,6 @@ Most importantly, it focuses on what people can contribute rather than what they
 
 ---
 
-**Interested in async contributor arrangements? I'd love to hear from both organizations and potential contributors about implementation experiences. These models improve through iteration and feedback.**
-
 Aaron Swartz famously advised "don't read the comments"—sage wisdom for preserving mental health online. But sometimes the comment section, messy as it is, surfaces insights that formal institutions miss. The async contributor model emerged from exactly this kind of crowdsourced problem-solving that happens when real experiences meet practical minds.
 
 Turns out the internet comment section provided better solutions than most inclusion committees.
