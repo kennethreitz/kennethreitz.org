@@ -42,8 +42,8 @@ Technology creation isn't separate from spiritual development—it's a contempla
 ## Warnings and Wisdom
 
 - **[On Yoga and Meditation](/yoga-meditation)** - The dangers of ungrounded spiritual practice.
-- **[Mental Health Error](/essays/2016-the-reality-of-developer-burnout-mental-health)** - When spiritual exploration meets psychological vulnerability.
-- **[Early Fallibilism](/essays/2009-fallibilism)** - The spiritual necessity of embracing error.
+- **[Mental Health Error](/essays/2016-01-mentalhealtherror_an_exception_occurred)** - When spiritual exploration meets psychological vulnerability.
+- **[Early Fallibilism](/essays/2009-01-fallibilism)** - The spiritual necessity of embracing error.
 
 ## Integration and Application
 
