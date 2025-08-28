@@ -83,4 +83,4 @@ The sculptural metaphor here reflects what I would later recognize as fundamenta
 
 > Build tools for others that you want to be built for you.
 
-This ethical foundation—treating users with the same respect and care you'd want from the tools you use—would eventually expand into a comprehensive approach to [conscious technology development](/essays/2025-08-26-programming_as_spiritual_practice) that recognizes every line of code as an act of service to human flourishing.
+> This ethical foundation—treating users with the same respect and care you'd want from the tools you use—would eventually expand into a comprehensive approach to [conscious technology development](/essays/2025-08-26-programming_as_spiritual_practice) that recognizes every line of code as an act of service to human flourishing.

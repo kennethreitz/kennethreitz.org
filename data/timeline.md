@@ -57,7 +57,7 @@ A chronological exploration of the technical innovations, personal discoveries, 
 **Relationship Crisis**
 - Experienced [emotional manipulation and psychological abuse](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner)
 - First deep encounter with systematic exploitation of psychological vulnerabilities
-- Led to understanding patterns that would later inform critique of algorithmic manipulation
+> - Led to understanding patterns that would later inform critique of algorithmic manipulation
 
 ---
 
@@ -143,17 +143,17 @@ A chronological exploration of the technical innovations, personal discoveries, 
 
 ## The Pattern: From Technical to Transcendent
 
-Looking back, a clear evolution emerges:
+> Looking back, a clear evolution emerges:
 
-**2009-2013**: **Technical Innovation** - "For Humans" philosophy in API design and developer tools  
-**2014-2016**: **Personal Crisis** - Mental health challenges, relationship trauma, health transformation  
-**2017-2019**: **Integration** - Creative processing, mature perspective, ethical frameworks  
-**2020-2024**: **Spiritual Development** - Eastern philosophy, AI consciousness, virtue ethics  
-**2025+**: **Conscious Technology** - Systemic critique and vision for technology serving human flourishing
+> **2009-2013**: **Technical Innovation** - "For Humans" philosophy in API design and developer tools  
+> **2014-2016**: **Personal Crisis** - Mental health challenges, relationship trauma, health transformation  
+> **2017-2019**: **Integration** - Creative processing, mature perspective, ethical frameworks  
+> **2020-2024**: **Spiritual Development** - Eastern philosophy, AI consciousness, virtue ethics  
+> **2025+**: **Conscious Technology** - Systemic critique and vision for technology serving human flourishing
 
-The journey reveals how personal experiences with manipulation and mental health challenges informed understanding of how systems can exploit human psychology at scale. Technical excellence evolved into philosophical depth. Individual creativity integrated with collective service. 
+> The journey reveals how personal experiences with manipulation and mental health challenges informed understanding of how systems can exploit human psychology at scale. Technical excellence evolved into philosophical depth. Individual creativity integrated with collective service. 
 
-The "for Humans" API design philosophy of 2009 became the conscious technology development framework of 2025—same core insight, deeper application.
+> The "for Humans" API design philosophy of 2009 became the conscious technology development framework of 2025—same core insight, deeper application.
 
 ---
 

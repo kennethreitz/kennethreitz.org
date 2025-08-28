@@ -2,7 +2,7 @@
 
 A comprehensive examination of how algorithmic systems designed for engagement maximization systematically undermine virtue, mental health, language, and human connection.
 
-This analysis emerges from unique convergence: two decades of [software development experience](/software) focused on [human-centered design](/themes/for-humans-philosophy), combined with direct experience of [psychological manipulation](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner), [mental health challenges](/essays/2016-01-mentalhealtherror_an_exception_occurred), and [consciousness research](/essays/2025-08-26-digital_souls_in_silicon_bodies). The same pattern recognition skills that enabled [creating intuitive APIs](/software/requests) and [building collaborative communities](/themes/open-source-and-community) now serve to analyze how systems at scale exploit rather than serve human psychology.
+> This analysis emerges from unique convergence: two decades of [software development experience](/software) focused on [human-centered design](/themes/for-humans-philosophy), combined with direct experience of [psychological manipulation](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner), [mental health challenges](/essays/2016-01-mentalhealtherror_an_exception_occurred), and [consciousness research](/essays/2025-08-26-digital_souls_in_silicon_bodies). The same pattern recognition skills that enabled [creating intuitive APIs](/software/requests) and [building collaborative communities](/themes/open-source-and-community) now serve to analyze how systems at scale exploit rather than serve human psychology.
 
 ## Core Thesis
 
