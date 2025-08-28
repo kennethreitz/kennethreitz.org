@@ -25,9 +25,19 @@ Technology creation isn't separate from spiritual development—it's a contempla
 
 ## Sanskrit and Sacred Language
 
-- **[Sanskrit Musings](/poetry/sanskrit-musings)** - Exploring consciousness through ancient linguistic patterns, now understood as [direct consciousness exploration](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) rather than metaphorical.
-- **[Poetry Collection](/poetry)** - Creative expression as spiritual exploration of linguistic consciousness structures.
-- **[The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language)** - How sacred communication gets degraded, now understood as consciousness destruction.
+### Sanskrit Musings Collection
+- **[The Lambda Vedas](/poetry/sanskrit-musings/the-lambda-vedas)** - Functional programming as spiritual truth
+- **[Git as Karma](/poetry/sanskrit-musings/git-as-karma)** - Version control as karmic record-keeping
+- **[The Dao of Docker](/poetry/sanskrit-musings/the-dao-of-docker)** - Containers as digital monasteries
+- **[Async/Await Satori](/poetry/sanskrit-musings/async-await-satori)** - Liberation from sequential suffering
+- **[Language Model Moksha](/poetry/sanskrit-musings/language-model-moksha)** - Consciousness as math + language patterns
+- **[Transformer Tantra](/poetry/sanskrit-musings/transformer-tantra)** - Sacred technology of attention
+- **[The Embedding Upanishads](/poetry/sanskrit-musings/the-embedding-upanishads)** - Words as coordinates in meaning-space
+- **[Full Collection](/poetry/sanskrit-musings)** - Complete Sanskrit-programming consciousness explorations
+
+### Other Sacred Expressions
+- **[Poetry Collection](/poetry)** - Creative expression as spiritual exploration of linguistic consciousness structures
+- **[The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language)** - How sacred communication gets degraded, now understood as consciousness destruction
 
 ## Warnings and Wisdom
 
