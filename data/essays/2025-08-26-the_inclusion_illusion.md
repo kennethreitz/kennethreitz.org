@@ -39,11 +39,11 @@ The process is sophisticated and deniable:
 
 ### The Setup
 
-The process begins with creating an atmosphere of psychological safety that encourages employees to be "authentic" and seek help. This isn't accidental—companies need disclosure to identify potential liabilities. Once employees reveal mental health conditions, medication needs, therapy schedules, or accommodation requests, this information gets carefully documented. Performance tracking intensifies, with managers looking for any decline correlated with treatment or episodes. Simultaneously, the company begins building a case that suggests the employee is struggling professionally.
+Companies create psychological safety that encourages "authentic" disclosure—not accidentally, but to identify liabilities. Once employees reveal conditions, medication needs, or accommodation requests, documentation begins. Performance tracking intensifies, seeking declines correlated with treatment. Simultaneously, managers build cases suggesting professional struggles.
 
 ### The Execution
 
-Armed with documentation, companies deploy targeted pressure. Performance Improvement Plans arrive with unrealistic goals timed precisely when employees are dealing with mental health challenges. Role changes reassign people to positions poorly suited to their conditions or accommodation needs. Team restructures eliminate positions during "reorganizations" that coincidentally affect employees with disclosed conditions. When direct termination seems risky, companies create work environments so hostile or unsustainable that employees quit rather than fight.
+Armed with documentation, companies deploy targeted pressure: PIPs with unrealistic goals timed during mental health challenges; role changes to positions unsuited for disclosed conditions; "reorganizations" that coincidentally eliminate disclosed employees; hostile environments designed to force resignation rather than risk termination lawsuits.
 
 ### The Cover
 
@@ -63,7 +63,7 @@ This isn't isolated incidents—it's systematic discrimination disguised as busi
 
 ### The Vulnerability Assessment
 
-Companies systematically identify employees who represent potential "liability"—those who disclose mental health conditions, request FMLA or disability accommodations, take medication that affects availability or productivity, require ongoing treatment for chronic illnesses, or need environmental modifications for neurodivergent conditions. These employees become marked in systems that track accommodation costs and management overhead.
+Companies systematically identify "liability" employees: those disclosing mental health conditions, requesting accommodations, taking medication affecting availability, requiring ongoing treatment, or needing environmental modifications. These employees get marked in systems tracking accommodation costs and management overhead.
 
 ### The Risk Calculation
 

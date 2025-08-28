@@ -12,7 +12,7 @@ Over the past few years, I've worked for at least twenty companies, cycling thro
 
 **But here's what I am saying:** once you disclose a condition like schizoaffective disorder, every future conflict gets filtered through that lens. Criticism that might be delivered constructively to a neurotypical person becomes "see, we can't trust him, he's unstable." Normal workplace tensions become evidence of your fundamental unreliability rather than ordinary human fallibility.
 
-The discrimination isn't being held accountable for actual mistakes. It's that those mistakes become proof of permanent unfitness rather than ordinary human fallibility to learn from and move past.
+The discrimination isn't being held accountable for actual mistakes. It's that those mistakes become proof of permanent unfitness rather than temporary setbacks to learn from and move past.
 
 ## The Mental Health Care Paradox
 
