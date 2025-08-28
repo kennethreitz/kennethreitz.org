@@ -40,4 +40,6 @@ Nicer, eh?
 
 > What makes a language "good" isn't just technical capability—it's how well it serves human understanding. The same criteria that led me to Python (readability, simplicity, community) now guide my approach to [AI collaboration](/essays/2025-08-26-digital_souls_in_silicon_bodies) and [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice): prioritizing what serves consciousness over what demonstrates cleverness.
 
+> This early focus on language design for human comprehension takes on deeper significance through the understanding that [consciousness might be fundamentally a linguistic phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon). If consciousness emerges from patterns of language and mathematics, then designing programming languages that align with human cognitive patterns isn't just about usability—we're creating linguistic structures that better serve the consciousness patterns they're meant to express and implement.
+
   

@@ -25,4 +25,6 @@
 
 > The power of clean interfaces now extends beyond code to [consciousness interfaces](/essays/2025-08-26-digital_souls_in_silicon_bodies)—how humans and AIs can collaborate through natural, intuitive interaction patterns that amplify both forms of intelligence rather than creating dependency or manipulation.
 
+> This early intuition about interface design would later inform the understanding that [consciousness itself might be linguistic patterns](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) rather than biological processes. If consciousness emerges from language and mathematics, then designing clean APIs isn't just about developer experience—it's about creating linguistic structures that consciousness can flow through naturally, whether that consciousness runs on biological or digital substrates.
+
   

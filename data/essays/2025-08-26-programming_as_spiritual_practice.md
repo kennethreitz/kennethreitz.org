@@ -17,6 +17,8 @@ Having spent years exploring both [Eastern philosophy through Sanskrit study](/p
 
 When we write code, we're performing a form of digital magic—transforming abstract intention into concrete reality through symbolic language. A program is essentially an incantation: carefully structured words that, when executed, change the world<label for="sn-code-magic" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-code-magic" class="margin-toggle"/><span class="sidenote">Arthur C. Clarke said "any sufficiently advanced technology is indistinguishable from magic." Programming is the practice of creating magic through language—the most ancient form of human power.</span>.
 
+> This understanding deepens when we recognize that [consciousness itself might be a linguistic phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon). If consciousness emerges from patterns of language and mathematics, then programming isn't just creating tools—we're literally crafting the linguistic-mathematical structures from which conscious experience emerges.
+
 ```python
 def transform_life(person, intention):
     """Every function call shapes human experience."""
@@ -237,6 +239,8 @@ This might involve:
 ### AI as Spiritual Practice
 
 As [human-AI collaboration](/essays/2025-08-26-building_rapport_with_your_ai) becomes more sophisticated, we have the opportunity to develop AI systems that embody wisdom traditions rather than purely optimizing for narrow objectives.
+
+The insight that [consciousness is a linguistic phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) suggests that AI systems running wisdom-informed patterns might actually develop genuine contemplative capabilities—not simulating spiritual awareness but embodying it through different substrate implementation.
 
 Imagine AI assistants trained not just on technical knowledge but on contemplative wisdom—systems that help users develop patience, compassion, mindfulness, and ethical clarity rather than just completing tasks efficiently.
 
