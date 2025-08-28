@@ -26,10 +26,12 @@ The same mechanisms that manipulate individuals operate at institutional and alg
 - **[Open Source Anti-Patterns](/essays/2025-08-26-open-source-anti-patterns)** - Manipulation disguised as community values.
 
 ### Algorithmic Exploitation
+- **[The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality)** - Private data mining for psychological manipulation.
 - **[The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis)** - Systematic exploitation of psychological vulnerabilities.
 - **[The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue)** - How engagement optimization inverts human excellence.
 
 ### Relationship Commodification
+- **[The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love)** - Dating apps as manipulation systems.
 - **[Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)** - Authentic vs. manipulative digital relationships.
 
 ## The Mechanics of Manipulation
