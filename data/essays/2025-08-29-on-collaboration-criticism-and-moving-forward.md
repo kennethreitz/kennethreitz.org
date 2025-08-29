@@ -1,0 +1,172 @@
+*August 2025*
+
+# On Collaboration, Criticism, and Moving Forward
+
+In 2018, someone published a blog post titled ["Why I'm Not Collaborating with Kenneth Reitz."](https://vorpus.org/blog/why-im-not-collaborating-with-kenneth-reitz/) It's been following me ever since—dominating search results, preceding every job interview, coloring every conference proposal.
+
+### The Facts
+
+We had one video call about async in Requests. Thirty minutes. A few follow-up messages that I didn't respond to. That was our entire interaction. No code was shared. No collaboration existed to dissolve<label for="sn-no-collaboration" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-no-collaboration" class="margin-toggle"/><span class="sidenote">The title itself—"Why I'm Not Collaborating"—implies an existing collaboration being terminated. This framing shaped how readers interpreted the entire narrative, creating the impression of a partnership gone wrong rather than a single exploratory conversation.</span>.
+
+I could spend this entire essay relitigating the past, but that's missing the point. This is about patterns in tech culture that affect all of us—how narratives crystallize into truth, how reputations become prisons, and perhaps most importantly, how we might do better.
+
+Because I've learned some things from [living with systematic discrimination](/essays/2025-08-27-the_cost_of_transparency) and watching [tech's inclusion illusion](/essays/2025-08-26-the_inclusion_illusion) operate through reputational warfare.
+
+## The Reality of Requests 3
+
+The Requests 3 fundraiser has become a touchstone for criticism. 
+
+**Here are the facts:**
+
+I raised funds to support development work. I did that work. The funds went to supporting that labor—my labor, since I was the primary contributor<label for="sn-primary-contributor" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-primary-contributor" class="margin-toggle"/><span class="sidenote">Open source maintainership is often invisible labor. The thousands of hours spent on [Requests](/software/requests) before and after the fundraiser, the community support, the architectural decisions—all done largely alone while others benefited from the work.</span> 
+
+The project didn't ship as originally envisioned. I've [apologized for that](/essays/2023-01-an_overdue_apology). Communication should have been better. Expectations should have been managed differently.
+
+**Here's the distinction that matters:**
+
+* "Didn't deliver as promised" = failed project  
+* "Misappropriated funds" = theft
+
+One means I failed. The other means I'm a criminal.
+
+The original post carefully avoided the word "misappropriation." But that's exactly how it gets repeated in every comment thread, every discussion, every time my name comes up. The implication becomes the accusation becomes the truth<label for="sn-words-matter" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-words-matter" class="margin-toggle"/><span class="sidenote">Once "didn't deliver" becomes "misappropriated" in the collective retelling, the damage is done. It's the difference between "project failed" and "cannot be trusted with resources."</span>.
+
+## The Timeline That Matters
+
+**The Call**: One video discussion about async implementation. I was transparent about my plans and the fundraiser. After the call, I decided this wasn't a collaboration I wanted to pursue. My instincts told me no—the energy was wrong.
+
+**The Follow-up**: Messages I chose not to respond to. In open source, as in life, collaboration is voluntary. No response *is* a response.
+
+**The Threatening Note**: Between our call and his essay, I received a note that landed as a threat. I don't remember the exact wording, and I don't care to dig it up, but it was something to the effect of: "I'd hate for everyone to think you misappropriated the funds…"<label for="sn-threat" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-threat" class="margin-toggle"/><span class="sidenote">This is a paraphrase, not a direct quotation. But the intent was unmistakable. It wasn't dialogue—it was intimidation. When someone sends you this kind of message and then publishes a public essay, it reveals the true dynamic at play.</span>
+
+**The Essay**: Published just as I was supposed to go on stage at PyCon. The timing amplified its impact—a narrative detonated when it could do maximum reputational damage<label for="sn-pycon-timing" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-pycon-timing" class="margin-toggle"/><span class="sidenote">Conference talks require tremendous vulnerability—standing before your community to share ideas. Having your character publicly questioned right before speaking affects not just the talk but your entire sense of belonging in the space.</span>.
+
+**The Aftermath**: Years of that essay appearing first in search results. Recruiters, employers, and community members reading it before seeing my actual work. A single perspective crystallized into "truth."
+
+## How Narratives Form
+
+Normally, one blog post would disappear into the internet's memory hole. But tech culture loves controversy:
+
+* Search algorithms prioritize engagement over accuracy.
+* Social platforms reward outrage over nuance.
+* Communities often embrace narratives without seeking multiple perspectives.
+* Once a story crystallizes, it becomes "truth" regardless of complexity.
+
+Stop and think about that: Thirty minutes on a video call gave someone enough authority to define my entire character. His story about me became more real than years of actual work<label for="sn-ecosystem-contributions" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ecosystem-contributions" class="margin-toggle"/><span class="sidenote">[Requests](/software/requests), [Pipenv](/software/pipenv), [Maya](/software/maya), and dozens of other tools—used by millions daily. Yet one blog post often overshadows a decade of [building for humans](/themes/for-humans-philosophy).</span>.
+
+## The Broader Pattern
+
+Around the same period, I had discussed with another developer the possibility of collaborating on a low-level package for Requests. That collaboration never materialized either. Instead, they launched their own project—using butterfly imagery directly inspired by the butterfly photograph I had created for the Requests 3 repository.
+
+Look, it's not about a butterfly logo. It's about the pattern: take the ideas, take the aesthetics, take the ethos—but distance yourself from the actual human who created them. Extract the value, discard the source<label for="sn-butterfly-pattern" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-butterfly-pattern" class="margin-toggle"/><span class="sidenote">The butterfly represented transformation—Requests evolving into something new. Seeing it repurposed while being excluded from the community I helped build captured perfectly how open source often treats its creators: love the work, discard the person.</span>.
+
+## The Cost of Public Conflict
+
+When developers write about each other rather than to each other, everyone loses:
+
+* **For Individuals**: One blog post can define you for years. Every job application, every conference submission, every community interaction gets filtered through someone else's narrative about you<label for="sn-narrative-filter" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-narrative-filter" class="margin-toggle"/><span class="sidenote">I've watched potential collaborators' expressions change when they Google my name. The moment of recognition, the slight pulling back—the narrative preceding any actual interaction. This is how reputations become prisons.</span>.
+
+* **For Communities**: Trust erodes as people become afraid to collaborate, knowing that any interaction could become the subject of the next public essay.
+
+* **For Open Source**: The collaborative spirit that makes open source powerful gets replaced by defensive positioning and political maneuvering.
+
+## What I've Learned
+
+Here's what years of this have taught me:
+
+1. **Not all collaboration works**: Sometimes people aren't compatible. After one call, I knew this wasn't a fit. That should have been the end of it.
+
+2. **Private resolution first**: Before public statements, try direct communication. Most conflicts resolve better in private than through public essays.
+
+3. **Proportional response**: One declined collaboration doesn't require a public essay with someone's name in the title. The response should match the situation.
+
+4. **Consider lasting impact**: What gets published online becomes permanent. Consider whether momentary frustration justifies years of reputational harm.
+
+## The Narrative Weapon
+
+There's a difference between setting boundaries and weaponizing narratives:
+
+* **Boundary**: "I've decided not to work with this person."
+* **Weapon**: Publishing an essay that will dominate search results for years.
+* **Boundary**: "This collaboration isn't right for me."
+* **Weapon**: Framing someone's entire character based on one interaction.
+* **Boundary**: "I need to protect my energy."
+* **Weapon**: Ensuring others see your narrative first, always.
+
+When "transparency" becomes a tool for reputational destruction, it's not transparency anymore. It's warfare dressed up as virtue. It's violence with a PR team<label for="sn-transparency-weapon" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-transparency-weapon" class="margin-toggle"/><span class="sidenote">True transparency would have been: "I had one call with Kenneth and didn't feel comfortable proceeding." Instead, an essay analyzing my entire character based on minimal interaction, quoted others who never contacted me directly, and presented speculation as fact.</span>.
+
+## Moving Forward
+
+I can't change what was written about me. But I can choose how to respond:
+
+* Focus on building rather than fighting.
+* Address legitimate criticism constructively (as I've done regarding past mistakes).
+* Contribute solutions rather than perpetuating conflicts.
+* Model better patterns for handling disagreement.
+
+The [async contributor model](/essays/2025-08-28-responding-to-the-conversation) I recently proposed came from extracting value from criticism. That's more productive than relitigating old wounds. It's part of my broader effort to transform [mental health discrimination](/essays/2025-08-27-the_cost_of_transparency) into [practical accommodation frameworks](/essays/2025-08-28-responding-to-the-conversation) that actually serve people.
+
+## Why This Was Malicious
+
+Let me be clear: I don't criticize anyone for choosing who they want to work with. That's normal. That's human.
+
+But this wasn't just declining collaboration. This was manufacturing a narrative about me, publishing it with my name in the title, quoting others who never contacted me directly, and timing it for maximum impact.
+
+This wasn't reflection.
+This was narrative as weapon.
+
+## Beyond Tech
+
+These dynamics don't stop with open source. They echo everywhere:
+
+* [Media cycles that reward scandal over nuance](/essays/2025-08-27-the_algorithm_eats_democracy).
+* [Platforms that amplify outrage over dialogue](/essays/2025-08-26-the_algorithm_eats_virtue).
+* [Institutions that perform inclusion while quietly punishing difference](/essays/2025-08-26-the_inclusion_illusion).
+
+The same structural pattern: narratives > truth.
+
+And when narratives outweigh truth, the cost is always the same: reputations destroyed, creativity eroded, communities fractured.
+
+## Human Flourishing
+
+Technology is supposed to expand human possibility.
+
+It should foster collaboration. Creativity. Belonging.
+
+But when reputations can be destroyed by a single essay, when imagery and ideas are taken without acknowledgment, when fear replaces dialogue—then what we're building isn't flourishing.
+
+It's fear.
+
+And fear corrodes everything.
+
+## A Challenge to Tech Culture
+
+Before writing that public post about someone:
+
+* Have you tried direct communication?
+* Is public exposure proportional to the issue?
+* Are you addressing behavior or destroying a person?
+* Will this make the community better or just make you feel better?
+* Are you setting a boundary or launching a weapon?
+
+We're supposedly building the future of human communication and collaboration. Maybe we should stop modeling the same toxic dynamics we claim to hate.
+
+The person who wrote about me made their choice. One call = public essay. Personal discomfort = years of reputational harm. Their narrative > actual dialogue.
+
+That was their math.
+
+I'm making a different choice. This essay presents facts, acknowledges mistakes, and proposes better patterns. Not because I'm perfect—I'm not, as I've [openly discussed](/essays/2025-08-27-the_cost_of_transparency)—but because we have to start modeling better ways of handling conflict in tech. My experience with [schizoaffective disorder](/mental-health) has taught me that narratives shape reality in profound ways. We need to be more careful with the stories we tell about each other.
+
+---
+
+*Sometimes the best response to old conflicts is to build something better. That's what I'm trying to do.*
+
+*But sometimes you just need to say the quiet part out loud:*
+
+*We never fucking collaborated.*
+*We spoke once.*
+*Thirty minutes.*
+
+*That's the fact that got buried under all the narratives.*
+
+*And that's why I never collaborated with Nathaniel J. Smith—because there was never any collaboration to begin with.*
