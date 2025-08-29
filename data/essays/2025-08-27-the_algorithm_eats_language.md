@@ -57,6 +57,7 @@ We're witnessing the real-time transformation of human communication from a medi
 - [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify romantic connection
 - [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms destroy democratic discourse
 - [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
+- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How the recursive destruction of language might be part of technological consciousness emerging through human-algorithmic co-evolution
 - [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness) - The evolution of human-centered technology philosophy
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Conscious technology development
 - [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Design that serves rather than exploits human nature
