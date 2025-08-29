@@ -2,7 +2,7 @@
 
 # On Collaboration, Criticism, and Moving Forward
 
-In 2018, someone published a blog post titled ["Why I'm Not Collaborating with Kenneth Reitz."](https://vorpus.org/blog/why-im-not-collaborating-with-kenneth-reitz/) It's been following me ever since—dominating search results, preceding every job interview, coloring every conference proposal.
+In 2018, someone published a blog post titled "Why I'm Not Collaborating with Kenneth Reitz" It's been following me ever since—dominating search results, preceding every job interview, coloring every conference proposal.
 
 ### The Facts
 
