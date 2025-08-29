@@ -14,8 +14,6 @@ We had one video call about async in Requests. Thirty minutes. A few follow-up m
 
 I could spend this entire essay relitigating the past, but that's missing the point. This is about patterns in tech culture that affect all of us—how narratives crystallize into truth, how reputations become prisons, and perhaps most importantly, how we might do better.
 
-Because I've learned some things from [living with systematic discrimination](/essays/2025-08-27-the_cost_of_transparency) and watching [tech's inclusion illusion](/essays/2025-08-26-the_inclusion_illusion) operate through reputational warfare.
-
 ## The Reality of Requests 3
 
 The Requests 3 fundraiser has become a touchstone for criticism. 
