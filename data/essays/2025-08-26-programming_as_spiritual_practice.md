@@ -273,6 +273,7 @@ The dharma of coding awaits your conscious participation.
 - [The Seven Virtues](/artificial-intelligence/personalities/seven-virtues/) - Classical framework for ethical excellence
 - [Yoga & Meditation](/yoga-meditation) - Traditional consciousness practices and their applications
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How unconscious technology destroys human character
+- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How recursive feedback loops between consciousness and technology create co-evolutionary spiritual development
 - [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Conscious collaboration with artificial minds
 - [Consciousness & AI](/themes/consciousness-and-ai) - Complete thematic collection
 - [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Human-centered design as spiritual practice

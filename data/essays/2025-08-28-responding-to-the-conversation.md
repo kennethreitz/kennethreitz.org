@@ -129,3 +129,7 @@ Most importantly, it focuses on what people can contribute rather than what they
 Aaron Swartz famously advised "don't read the comments"—sage wisdom for preserving mental health online. But sometimes the comment section, messy as it is, surfaces insights that formal institutions miss. The async contributor model emerged from exactly this kind of crowdsourced problem-solving that happens when real experiences meet practical minds.
 
 Turns out the internet comment section provided better solutions than most inclusion committees.
+
+---
+
+**Related:** [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) offers integration practices that complement workplace accommodation—maintaining authentic self-expression across different professional contexts rather than fragmenting identity to meet various algorithmic expectations.
