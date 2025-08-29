@@ -4,6 +4,8 @@
 
 In 2018, someone published a blog post titled "Why I'm Not Collaborating with Kenneth Reitz" It's been following me ever since—dominating search results, preceding every job interview, coloring every conference proposal.
 
+> *Safari Reader Summary of the essay:* "The author recounts their experience working with Kenneth Reitz on adding async support to Requests. Despite initial collaboration and a successful fundraiser, Reitz's handling of the funds raised concerns. The author alleges Reitz misled donors about the use of funds, lacked a plan for implementation, and attempted to shift responsibility for fulfilling promises onto the author."
+
 ### The Facts
 
 We had one video call about async in Requests. Thirty minutes. A few follow-up messages that I didn't respond to. That was our entire interaction. No code was shared. No collaboration existed to dissolve<label for="sn-no-collaboration" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-no-collaboration" class="margin-toggle"/><span class="sidenote">The title itself—"Why I'm Not Collaborating"—implies an existing collaboration being terminated. This framing shaped how readers interpreted the entire narrative, creating the impression of a partnership gone wrong rather than a single exploratory conversation.</span>.
