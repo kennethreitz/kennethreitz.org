@@ -58,7 +58,7 @@ The isolation is profound. The very condition that most requires social support 
 
 ## The Stakes: Life and Death Statistics
 
-The discrimination I'm documenting has life-and-death consequences for people with schizoaffective disorder:
+The discrimination I'm documenting isn't just uncomfortable—it has life-and-death consequences for people with schizoaffective disorder. It's a perfect example of [when values eat their young](/essays/2025-08-25-when-values-eat-their-young): the mental health awareness that tech proudly champions becomes a weapon against those who actually need support.
 
 **Life Expectancy**: People with schizoaffective disorder live 8-17.5 years less than the general population, with women facing even greater mortality risk than men<label for="sn-life-expectancy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-life-expectancy" class="margin-toggle"/><span class="sidenote">A 2011 study found average life expectancy of 64.1-69.4 years for people with schizoaffective disorder, compared to normal life expectancy. The gap is primarily attributed to cardiovascular disease, diabetes, respiratory problems, and suicide risk.</span>.
 
