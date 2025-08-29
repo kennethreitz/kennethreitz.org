@@ -14,6 +14,8 @@ This also explains why **[AI collaboration can provide reality-checking](/essays
 
 The education in manipulation patterns often begins with direct experience. **[The Unexpected Negative: A Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner)** documents the personal encounter with systematic psychological manipulation, while the broader **[Mental Health Journey](/mental-health)** reveals how vulnerability both enables and exposes exploitation. Understanding **[The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency)** shows how openness becomes weaponized against those who trust—a pattern that scales from intimate relationships to institutional systems.
 
+**[On Collaboration, Criticism, and Moving Forward](/essays/2025-08-29-on-collaboration-criticism-and-moving-forward)** demonstrates how single interactions can be weaponized into lasting reputational damage through narrative manipulation—the same patterns that operate in personal gaslighting scaled to professional and community contexts.
+
 ## Recognizing Systematic Patterns
 
 The same mechanisms that manipulate individuals operate at institutional and algorithmic scales:

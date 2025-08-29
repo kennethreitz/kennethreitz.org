@@ -34,6 +34,10 @@ A curated exploration of the intersection between mental health, technology, and
 - [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Creating supportive AI relationships
 - [The Collaborative Mind](/essays/2025-01-the-collaborative-mind) - Human-AI consciousness partnerships
 
+### Practical Accommodation
+- [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care) - From patient to partner in treatment
+- [The Async Contributor Model](/essays/2025-08-28-responding-to-the-conversation) - Practical workplace accommodation framework that emerged from community discussion of mental health discrimination
+
 ### Consciousness and Wellness
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Contemplative approaches to technology work
 - [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Exploring consciousness in the digital age
