@@ -64,6 +64,8 @@ But here's the deeper issue: his perspective treats a single exploratory phone c
 
 The reality was simpler: we had one conversation, I decided I didn't want to work together, and that should have been the end of it. Everything else—the fundraiser, the project, the money—was my responsibility to handle, not his business to police.
 
+This is how tech takedowns work: an exaggerated frame, a sticky headline, and an incentive structure that rewards one person's frustration while erasing another person's humanity.
+
 ## The Broader Pattern
 
 Around the same period, I had discussed with another developer the possibility of collaborating on a low-level package for Requests. That collaboration never materialized either. Instead, they launched their own project—using butterfly imagery directly inspired by the butterfly photograph I had created for the Requests 3 repository.
