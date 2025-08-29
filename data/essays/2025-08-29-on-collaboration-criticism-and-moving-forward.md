@@ -108,8 +108,6 @@ I can't change what was written about me. But I can choose how to respond:
 * Contribute solutions rather than perpetuating conflicts.
 * Model better patterns for handling disagreement.
 
-The [async contributor model](/essays/2025-08-28-responding-to-the-conversation) I recently proposed came from extracting value from criticism. That's more productive than relitigating old wounds. It's part of my broader effort to transform [mental health discrimination](/essays/2025-08-27-the_cost_of_transparency) into [practical accommodation frameworks](/essays/2025-08-28-responding-to-the-conversation) that actually serve people.
-
 ## Why This Was Malicious
 
 Let me be clear: I don't criticize anyone for choosing who they want to work with. That's normal. That's human.
