@@ -5,7 +5,7 @@
 
 
 
- ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666511942-8OQI0I98ONDVUWC9ZYM9/c45b9-img.jpg)      ![bb6df-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666448914-NTEWN1OF76KDH77FHH5R/c090d-bb6df-img.jpg)    ![Street Art_8716312973_o](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666493405-LRLFVFF5UH8HPJNPC3N2/825ef-dd069-street-art_8716312973_o.jpg)   I just returned on a lovely trip to the Netherlands. I landed remarkably early in the morning (8am) and had to spend several hours walking around the city. Early morning Amsterdam was incredibly desolate and beautiful.
+ ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666511942-8OQI0I98ONDVUWC9ZYM9/c45b9-img.jpg) I just returned on a lovely trip to the Netherlands. I landed remarkably early in the morning (8am) and had to spend several hours walking around the city. Early morning Amsterdam was incredibly desolate and beautiful.
 
  ![](https://d233eq3e3p3cv0.cloudfront.net/max/2048/0*bd5bYS7tKwjZ-KAv.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/2048/0*Qs1EOFP9F2FNRpIs.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/2048/0*Fo3AZ7J43L5X73oA.jpeg)
 
