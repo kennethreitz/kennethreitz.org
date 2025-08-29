@@ -118,7 +118,7 @@ These dynamics don't stop with open source. They echo everywhere:
 
 The same structural pattern: narratives > truth.
 
-And when narratives outweigh truth, the cost is always the same: reputations destroyed, creativity eroded, communities fractured.
+And when narratives outweigh truth, the cost is always the same: reputations destroyed, creativity eroded, communities fractured. It's another example of [when values eat their young](/essays/2025-08-25-when-values-eat-their-young)—the very values tech claims to uphold becoming weapons against the people who embody them.
 
 ## Human Flourishing
 
