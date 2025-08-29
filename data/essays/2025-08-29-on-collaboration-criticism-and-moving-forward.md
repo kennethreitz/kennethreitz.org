@@ -99,15 +99,6 @@ There's a difference between setting boundaries and weaponizing narratives:
 
 When "transparency" becomes a tool for reputational destruction, it's not transparency anymore. It's warfare dressed up as virtue. It's violence with a PR team<label for="sn-transparency-weapon" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-transparency-weapon" class="margin-toggle"/><span class="sidenote">True transparency would have been: "I had one call with Kenneth and didn't feel comfortable proceeding." Instead, an essay analyzing my entire character based on minimal interaction, quoted others who never contacted me directly, and presented speculation as fact.</span>.
 
-## Moving Forward
-
-I can't change what was written about me. But I can choose how to respond:
-
-* Focus on building rather than fighting.
-* Address legitimate criticism constructively (as I've done regarding past mistakes).
-* Contribute solutions rather than perpetuating conflicts.
-* Model better patterns for handling disagreement.
-
 ## Why This Was Malicious
 
 Let me be clear: I don't criticize anyone for choosing who they want to work with. That's normal. That's human.
