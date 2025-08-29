@@ -26,6 +26,8 @@ Organizations master the art of performing values they don't practice. **[The In
 
 Digital platforms have industrialized psychological manipulation through data-driven targeting. **[The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality)** reveals how private data mining enables unprecedented psychological manipulation, while **[The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis)** documents the systematic exploitation of psychological vulnerabilities for engagement. Most insidiously, **[The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue)** shows how engagement optimization actively inverts human excellence, rewarding destructive behaviors over constructive ones.
 
+**[Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves)** exposes how platforms manipulate us into fragmenting different aspects of our identity across different systems, preventing the integration necessary for authentic self-knowledge and making us more vulnerable to manipulation.
+
 ### Relationship Commodification
 
 Even intimate human connections become extraction targets. **[The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love)** exposes how dating apps function as manipulation systems rather than connection facilitators. In contrast, **[Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)** explores the possibility of authentic rather than manipulative digital relationships.

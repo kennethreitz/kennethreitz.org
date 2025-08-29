@@ -19,6 +19,7 @@ A curated exploration of the intersection between mental health, technology, and
 ### How Technology Harms Mental Health
 - [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - The psychological damage of current platforms
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization destroys human character
+- [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) - How we fragment different aspects of identity across platforms, creating psychological imbalance and disconnection from authentic self
 - [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young) - How ideal-driven groups drift into their shadow
 
 ### Discrimination and Exclusion
