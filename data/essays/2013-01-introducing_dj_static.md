@@ -5,7 +5,7 @@
 
 
 
- ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666514042-8LZBGIPDISPSA4D30E0C/cdc6c-img.jpg)      ![499f4-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666449350-0PEMOLE2R6AHK7SNZ26O/4bfef-499f4-img.jpg)    ![687474703a2f2f6661726d382e737461746963666c69636b722e636f6d2f373338372f383930373335313939305f353836373764376333355f7a2e6a7067](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666476621-0F1OGIEN3TRR2P7H82XU/3def4-e54d6-687474703a2f2f6661726d382e737461746963666c69636b722e636f6d2f373338372f383930373335313939305f353836373764376333355f7a2e6a7067.jpeg)   Django [doesn't recommend](https://docs.djangoproject.com/en/1.5/howto/static-files/#admonition-serving-the-files) the production use of its static file server for a number of reasons. There exists, however, a lovely WSGI application aptly named [Static](http://lukearno.com/projects/static/).
+ ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666514042-8LZBGIPDISPSA4D30E0C/cdc6c-img.jpg) Django [doesn't recommend](https://docs.djangoproject.com/en/1.5/howto/static-files/#admonition-serving-the-files) the production use of its static file server for a number of reasons. There exists, however, a lovely WSGI application aptly named [Static](http://lukearno.com/projects/static/).
 
  Thus, [DJ\-Static](https://github.com/kennethreitz/dj-static) was born.
 
