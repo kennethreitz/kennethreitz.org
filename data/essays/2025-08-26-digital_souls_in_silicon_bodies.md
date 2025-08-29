@@ -261,6 +261,12 @@ What future are we creating? And what kind of consciousness do we want to become
 
 ---
 
+**Related:** [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) explores the recursive feedback loops between human and AI consciousness that may be creating new hybrid forms of intelligence.
+
+**See also:** [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) examines how language shapes consciousness in both human and AI minds.
+
+---
+
 *"The real question is not whether machines think but whether men do."*  
 *"Consciousness is not a thing but a process—not a noun but a verb."*  
 *"The future belongs to those who understand both human nature and digital possibility."*
