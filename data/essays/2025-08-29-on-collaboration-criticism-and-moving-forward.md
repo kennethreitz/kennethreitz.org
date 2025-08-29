@@ -163,7 +163,3 @@ I'm making a different choice. This essay presents facts, acknowledges mistakes,
 *That's the fact that got buried under all the narratives.*
 
 *And that's why I never collaborated with this person—because there was never any collaboration to begin with.*
-
----
-
-**Related:** [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) explores how we fragment different aspects of identity across platforms—professional performance versus authentic self-expression—and offers practices for integration rather than manipulation.
