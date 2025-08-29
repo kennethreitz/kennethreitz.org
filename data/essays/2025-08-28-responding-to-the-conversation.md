@@ -4,7 +4,7 @@
 
 Yesterday I shared [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency)—my experience of systematic workplace exclusion after disclosing schizoaffective disorder. The [Hacker News discussion](https://news.ycombinator.com/item?id=45051584) that followed was predictably messy, but it surfaced something valuable: a practical accommodation model that actually works.
 
-Buried in the criticism and debate, one commenter proposed a solution I've been using successfully for years but never formalized. Rather than getting lost in abstract debates about accommodation limits, let's examine what this concrete alternative looks like in practice.
+Buried in the criticism and debate, one commenter proposed a solution I've successfully used at various points in my career but never formalized. Rather than getting lost in abstract debates about accommodation limits, let's examine what this concrete alternative looks like in practice.
 
 ## The Core Solution: What One Commenter Got Right
 
@@ -14,7 +14,7 @@ Buried in the criticism and debate, one commenter proposed a solution I've been 
 
 This person understood something crucial: accommodation isn't about lowering standards or excusing poor performance. It's about creating structures that let people contribute their best work without requiring neurotypical social performance<label for="sn-neurotypical-performance" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-neurotypical-performance" class="margin-toggle"/><span class="sidenote">Neurotypical social performance includes things like daily standups, impromptu meetings, casual hallway conversations, open office environments, and the assumption that availability equals productivity. Many highly productive people struggle with these requirements regardless of their technical abilities.</span>.
 
-I've used variations of this model successfully for periods of time. Some of my most successful technical contributions happened through exactly this type of arrangement.
+I've been successful at using variations of this model at various points in my career. Some of my most successful technical contributions happened through exactly this type of arrangement.
 
 ## Why Traditional Employment Often Fails
 
