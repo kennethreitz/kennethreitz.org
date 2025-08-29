@@ -40,7 +40,7 @@ To be clear: I've made mistakes in the Python community. The Requests 3 fundrais
 
 I've watched as former collaborators distance themselves, conference invitations dry up, and contributions get scrutinized with a level of suspicion not applied to other developers. The community celebrates the abstract idea of mental health awareness while making it clear that actual mental health disclosure makes you a liability.
 
-The message from open source leadership is unmistakable: you can advocate for mental health in general terms, but if you make your own struggles visible, you become too uncomfortable to include. The very transparency that helped normalize mental health discussions in tech has made me persona non grata in spaces I helped create.
+The message from open source leadership is unmistakable: you can advocate for mental health in general terms, but if you make your own struggles visible, you become too uncomfortable to include. The very transparency that helped normalize mental health discussions in tech has made me persona non grata in spaces I helped foster.
 
 ## Personal Relationship Casualties
 
