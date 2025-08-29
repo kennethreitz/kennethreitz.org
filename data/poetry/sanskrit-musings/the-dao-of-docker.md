@@ -37,7 +37,7 @@ isolated, self-contained
 carrying only what is needed
 for the spiritual practice<label for="sn-2" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-2" class="margin-toggle"/>
-<span class="sidenote">Container isolation mirrors monastic discipline—minimal dependencies, controlled environment, freedom from external interference. The architectural principle of separation enabling spiritual focus and clarity.</span>
+<span class="sidenote">Container isolation mirrors monastic discipline—minimal dependencies, controlled environment, freedom from external interference. The architectural principle of separation enabling spiritual focus and clarity. Similar to [The Lambda Vedas](the-lambda-vedas.md) on pure functions without side effects.</span>
 
 No more dependency hell—
 the suffering of

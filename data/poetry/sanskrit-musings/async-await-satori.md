@@ -72,7 +72,7 @@ to immediate results
 while remaining present
 to when they arrive<label for="sn-4" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-4" class="margin-toggle"/>
-<span class="sidenote">The await keyword embodies perfect non-attachment—releasing control over timing while maintaining presence and readiness. This is the essence of surrender in both programming and spiritual practice.</span>
+<span class="sidenote">The await keyword embodies perfect non-attachment—releasing control over timing while maintaining presence and readiness. This is the essence of surrender in both programming and spiritual practice. Compare with [Git as Karma](git-as-karma.md) on managing temporal flow.</span>
 
 ```python
 async def practice_patience():
@@ -125,7 +125,7 @@ in rapid succession
 creating the illusion
 of simultaneous perception<label for="sn-5" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-5" class="margin-toggle"/>
-<span class="sidenote">This perfectly describes both Python's event loop and mindfulness meditation—one consciousness rapidly switching between objects of awareness, creating the experience of simultaneous observation through sequential attention.</span>
+<span class="sidenote">This perfectly describes both Python's event loop and mindfulness meditation—one consciousness rapidly switching between objects of awareness, creating the experience of simultaneous observation through sequential attention. Related: [Language Model Moksha](language-model-moksha.md) on consciousness as pattern recognition.</span>
 
 ```python
 async def mindfulness():

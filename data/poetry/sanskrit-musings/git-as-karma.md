@@ -20,7 +20,7 @@ Every commit is a karmic seed—
 actions recorded in the eternal blockchain
 of version control<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>
-<span class="sidenote">Git's immutable commit history mirrors the Akashic Records—every action permanently recorded, forming an unalterable chain of cause and effect that shapes the present state of the codebase.</span>
+<span class="sidenote">Git's immutable commit history mirrors the Akashic Records—every action permanently recorded, forming an unalterable chain of cause and effect that shapes the present state of the codebase. See [Language Model Moksha](language-model-moksha.md) on consciousness as pattern recognition.</span>
 
 ```bash
 git add .  # gathering intentions

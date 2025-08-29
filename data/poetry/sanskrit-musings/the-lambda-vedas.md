@@ -64,7 +64,7 @@ the context of every action
 binding future states
 to present choices<label for="sn-10" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-10" class="margin-toggle"/>
-<span class="sidenote">The closure's ability to "remember" its lexical environment perfectly mirrors the karmic principle that actions carry forward their contextual conditions—no action exists in isolation from its originating circumstances.</span>
+<span class="sidenote">The closure's ability to "remember" its lexical environment perfectly mirrors the karmic principle that actions carry forward their contextual conditions—no action exists in isolation from its originating circumstances. See [Git as Karma](git-as-karma.md) for more on version control consciousness.</span>
 
 Side effects are *klesha*—
 mental afflictions
