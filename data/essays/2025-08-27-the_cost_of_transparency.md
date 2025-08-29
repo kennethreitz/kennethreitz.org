@@ -4,7 +4,7 @@
 
 *"We celebrate mental health awareness until someone actually needs mental health support."*
 
-In [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion), I explored how tech companies perform diversity while quietly eliminating employees who actually need accommodations. What I didn't share was the personal cost of that analysis—how living openly with schizoaffective disorder has systematically excluded me from the very communities I helped build.
+In [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion), I explored how tech companies perform diversity while quietly eliminating employees who actually need accommodations. What I didn't share was the personal cost of that analysis—how living openly with schizoaffective disorder has systematically excluded me from the very communities I helped foster.
 
 Over the past few years, I've worked for at least twenty companies, cycling through positions as organizations discovered my mental health history and found creative ways to make me unwelcome<label for="sn-twenty-companies" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-twenty-companies" class="margin-toggle"/><span class="sidenote">This job pattern isn't by choice but survival. Each departure followed the same script: initial technical success, mental health disclosure or visibility, growing discomfort, elegant elimination.</span>. The pattern is consistent: initial enthusiasm for my technical contributions, followed by discomfort when my condition becomes visible, and finally the inevitable "restructuring" or "cultural fit" conversations that push me toward the exit.
 
