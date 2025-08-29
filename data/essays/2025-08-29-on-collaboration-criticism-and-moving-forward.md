@@ -4,7 +4,9 @@
 
 In 2018, someone published a blog post titled "Why I'm Not Collaborating with Kenneth Reitz" It's been following me ever since—dominating search results, preceding every job interview, coloring every conference proposal.
 
-> *Safari Reader Summary of the essay:* "The author recounts their experience working with Kenneth Reitz on adding async support to Requests. Despite initial collaboration and a successful fundraiser, Reitz's handling of the funds raised concerns. The author alleges Reitz misled donors about the use of funds, lacked a plan for implementation, and attempted to shift responsibility for fulfilling promises onto the author."
+Safari Reader summary of the essay:
+
+> "The author recounts their experience working with Kenneth Reitz on adding async support to Requests. Despite initial collaboration and a successful fundraiser, Reitz's handling of the funds raised concerns. The author alleges Reitz misled donors about the use of funds, lacked a plan for implementation, and attempted to shift responsibility for fulfilling promises onto the author."
 
 ### The Facts
 
