@@ -22,7 +22,7 @@ The Requests 3 fundraiser has become a touchstone for criticism.
 
 **Here are the facts:**
 
-I raised funds to support development work. I did that work. The funds went to supporting that labor—my labor, since I was the primary contributor<label for="sn-primary-contributor" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-primary-contributor" class="margin-toggle"/><span class="sidenote">Open source maintainership is often invisible labor. The thousands of hours spent on [Requests](/software/requests) before the fundraiser, the community support, the architectural decisions—all done largely alone while others benefited from the work.</span> 
+I raised funds to support development work. I did that work. The funds went to supporting that labor—my labor, since I was the primary contributor<label for="sn-primary-contributor" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-primary-contributor" class="margin-toggle"/><span class="sidenote">While Requests had dedicated core contributors handling maintenance, none were interested in working on the major architectural changes planned for Requests 3. The fundraiser was specifically for that new development work.</span> 
 
 The project didn't ship as originally envisioned. I've [apologized for that](/essays/2023-01-an_overdue_apology). Communication should have been better. Expectations should have been managed differently.
 
