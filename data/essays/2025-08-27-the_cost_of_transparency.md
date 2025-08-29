@@ -38,10 +38,6 @@ The Python community's response to my mental health advocacy has been particular
 
 I've watched as former collaborators distance themselves, conference invitations dry up, and contributions get scrutinized with a level of suspicion not applied to other developers. The community celebrates the abstract idea of mental health awareness while making it clear that actual mental health disclosure makes you a liability.
 
-A perfect example: the Python documentary releases tomorrow, featuring interviews with Python community leaders and contributors. Despite creating one of the most foundational Python libraries in history, I wasn't even contacted about participating. No email, no mention, complete invisibility. The omission speaks volumes about how mental health disclosure transforms you from community asset to community liability<label for="sn-python-documentary" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-python-documentary" class="margin-toggle"/><span class="sidenote">To be clear, the documentary appears focused on Python's origin story rather than popular libraries, so I'm not upset about the exclusion itself. But the complete lack of outreach—not even a courtesy email—fits the broader pattern of invisibility I've experienced since my mental health disclosure.</span>.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GfH4QL4VqJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 The message from open source leadership is unmistakable: you can advocate for mental health in general terms, but if you make your own struggles visible, you become too uncomfortable to include. The very transparency that helped normalize mental health discussions in tech has made me persona non grata in spaces I helped create.
 
 ## Personal Relationship Casualties
