@@ -56,6 +56,10 @@ Normally, one blog post would disappear into the internet's memory hole. But tec
 
 Stop and think about that: Thirty minutes on a video call gave someone enough authority to define my entire character. His story about me became more real than years of actual work<label for="sn-ecosystem-contributions" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ecosystem-contributions" class="margin-toggle"/><span class="sidenote">[Requests](/software/requests), [Pipenv](/software/pipenv), [Maya](/software/maya), and dozens of other tools—used by millions daily. Yet one blog post often overshadows a decade of [building for humans](/themes/for-humans-philosophy).</span>.
 
+But here's the deeper issue: his perspective treats a single exploratory phone call as if it created obligations, expectations, and a relationship that justified years of reputational damage. He presents himself as betrayed by someone he barely knew, over work he wasn't doing, funded by money that wasn't his.
+
+The reality was simpler: we had one conversation, I decided I didn't want to work together, and that should have been the end of it. Everything else—the fundraiser, the project, the money—was my responsibility to handle, not his business to police.
+
 ## The Broader Pattern
 
 Around the same period, I had discussed with another developer the possibility of collaborating on a low-level package for Requests. That collaboration never materialized either. Instead, they launched their own project—using butterfly imagery directly inspired by the butterfly photograph I had created for the Requests 3 repository.
