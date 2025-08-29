@@ -35,7 +35,7 @@ The original post carefully avoided the word "misappropriation." But that's exac
 
 ## The Timeline That Matters
 
-**The Call**: One video discussion about async implementation. I was transparent about my plans and the fundraiser. After the call, I decided this wasn't a collaboration I wanted to pursue. My instincts told me no—the energy was wrong.
+**The Call**: One video discussion about async implementation. I was transparent about my plans and the fundraiser. After the call, I decided this wasn't a collaboration I wanted to pursue. My instincts told me no—the vibe was way off.
 
 **The Follow-up**: Messages I chose not to respond to. In open source, as in life, collaboration is voluntary. No response *is* a response.
 
