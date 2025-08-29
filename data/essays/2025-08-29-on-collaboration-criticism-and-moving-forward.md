@@ -175,4 +175,4 @@ I'm making a different choice. This essay presents facts, acknowledges mistakes,
 
 *That's the fact that got buried under all the narratives.*
 
-*And that's why I never collaborated with Nathaniel J. Smith—because there was never any collaboration to begin with.*
+*And that's why I never collaborated with this person—because there was never any collaboration to begin with.*
