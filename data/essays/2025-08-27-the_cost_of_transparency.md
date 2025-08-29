@@ -1,6 +1,6 @@
 *August 2025*
 
-# The Cost of Transparency: Living with Schizoaffective Disorder in Tech
+# The Cost of Transparency: Living with Schizoaffective Disorder
 
 *"We celebrate mental health awareness until someone actually needs mental health support."*
 
