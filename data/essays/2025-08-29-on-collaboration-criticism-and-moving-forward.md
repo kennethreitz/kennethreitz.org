@@ -66,12 +66,6 @@ The reality was simpler: we had one conversation, I decided I didn't want to wor
 
 This is how tech takedowns work: an exaggerated frame, a sticky headline, and an incentive structure that rewards one person's frustration while erasing another person's humanity.
 
-## The Broader Pattern
-
-Around the same period, I had discussed with another developer the possibility of collaborating on a low-level package for Requests. That collaboration never materialized either. Instead, they launched their own project—using butterfly imagery directly inspired by the butterfly photograph I had created for the Requests 3 repository.
-
-Look, it's not about a butterfly logo. It's about the pattern: take the ideas, take the aesthetics, take the ethos—but distance yourself from the actual human who created them. Extract the value, discard the source<label for="sn-butterfly-pattern" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-butterfly-pattern" class="margin-toggle"/><span class="sidenote">The butterfly represented transformation—Requests evolving into something new. Seeing it repurposed while being excluded from the community I helped build captured perfectly how open source often treats its creators: love the work, discard the person.</span>.
-
 ## The Cost of Public Conflict
 
 When developers write about each other rather than to each other, everyone loses:
