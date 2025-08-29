@@ -26,7 +26,7 @@ I raised funds to support development work. I did that work. The funds went to s
 
 The project didn't ship as originally envisioned. I've [apologized for that](/essays/2023-01-an_overdue_apology). Communication should have been better. Expectations should have been managed differently.
 
-I removed myself from Requests on PyPI. Of my own accord. Because it was the right thing to do for the project's future.
+I removed myself from Requests on PyPI. [Of my own accord](https://youtu.be/HwaIaXOMlA8?si=dk2oqiWbKAsKA-Nc&t=2412). Because it was the right thing to do for the project's future.
 
 **Here's the distinction that matters:**
 
