@@ -157,6 +157,7 @@ We can build a tech industry that genuinely supports neurodivergent thinking and
 - [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency) - Personal experience of systematic discrimination across healthcare, employment, and communities
 - [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - How technology systematically exploits psychological vulnerabilities
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - Engagement optimization's destruction of human character
+- [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) - How we fragment identity across platforms, performing different aspects of ourselves while losing integration
 - [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young) - How ideal-driven groups betray their stated principles
 - [The Unexpected Negative: A Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) - Personal manipulation patterns that scale to institutional behavior
 - [Mental Health Journey](/mental-health) - Personal experience with mental health disclosure in tech
