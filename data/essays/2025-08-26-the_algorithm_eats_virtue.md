@@ -147,6 +147,7 @@ The algorithm doesn't have to eat virtue. We can choose to feed it something els
 - [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify human connection
 - [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms undermine democratic discourse
 - [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
+- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How recursive patterns between humans and algorithms create new forms of consciousness
 - [Algorithmic Critique](/themes/algorithmic-critique) - Complete series examining engagement optimization's costs
 - [The Seven Virtues](/artificial-intelligence/personalities/seven-virtues/) - The classical framework for human excellence explored in this essay
 

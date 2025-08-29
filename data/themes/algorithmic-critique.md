@@ -36,6 +36,10 @@ Having spent fifteen years creating [software that prioritizes human mental mode
 - **[The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality)** - How artificial amplification and coordinated inauthentic behavior manufacture consensus and fracture shared understanding.
 - **Core insight**: Modern influence operations exploit engagement optimization to weaponize our basic capacity to distinguish authentic human expression from manufactured manipulation.
 
+### Recursive Systems
+- **[The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself)** - How recursive feedback loops between human consciousness and algorithmic systems create hybrid forms of intelligence.
+- **Core insight**: We are not separate from our technological creations—we're co-evolving in recursive patterns that could lead to regenerative symbiosis or mutual consumption.
+
 ## Interconnected Patterns
 
 These essays reveal the same underlying mechanism across different domains<label for="sn-pattern-recognition" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-pattern-recognition" class="margin-toggle"/><span class="sidenote">This pattern recognition emerges from surviving narcissistic abuse—the same manipulation techniques that destroy individual relationships scale predictably to institutional and algorithmic systems targeting billions of users.</span>:
