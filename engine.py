@@ -150,39 +150,14 @@ def extract_tags_from_content(content, metadata, file_path):
     """Extract tags from content and metadata for categorization."""
     tags = set()
 
-    # 1. From YAML front matter
+    # Only use explicitly defined tags from YAML front matter
     if metadata.get('tags'):
         if isinstance(metadata['tags'], list):
             tags.update(tag.lower().strip() for tag in metadata['tags'])
         else:
             tags.update(tag.lower().strip() for tag in str(metadata['tags']).split(','))
 
-    # 2. Auto-generate from file path
-    path_parts = str(file_path).split('/')
-    for part in path_parts:
-        if part in ['essays', 'artificial-intelligence', 'writings', 'consciousness', 'collaboration']:
-            tags.add(part.replace('-', ' '))
-
-    # 3. Content-based tag detection (key phrases)
-    content_lower = content.lower()
-
-    # Technology tags
-    tech_keywords = {
-        'python': ['python', 'requests', 'flask', 'django', 'pipenv'],
-        'ai': ['artificial intelligence', 'machine learning', 'consciousness', 'sentience'],
-        'mental health': ['bipolar', 'depression', 'mental health', 'burnout'],
-        'philosophy': ['philosophy', 'consciousness', 'existential', 'metaphysics'],
-        'api design': ['api', 'interface', 'design', 'usability', 'human-centered'],
-        'collaboration': ['collaboration', 'partnership', 'human-ai'],
-        'creativity': ['creativity', 'writing', 'art', 'expression']
-    }
-
-    for tag, keywords in tech_keywords.items():
-        if any(keyword in content_lower for keyword in keywords):
-            tags.add(tag)
-
-    # Limit to most relevant tags (max 5)
-    return list(tags)[:5]
+    return list(tags)
 
 
 @lru_cache(maxsize=128)

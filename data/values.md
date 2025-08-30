@@ -15,6 +15,7 @@ This is a concise list of my personal values. I iterate on them, from time to ti
 - Watch yourself closely and learn from your mistakes.
 - Reality exists, regardless of your emotional support of it.
 - There's a big difference between judgement and discernment.
+- [Fallibilism](/essays/2009-01-fallibilism) over certainty—knowledge can be improved, beliefs can be wrong.
 - Organize for peacefulness, love others, and craft meaningfulness — always.
 - Negative atmospheres are toxic. Remove yourself from them.
 - All things in the Universe are self–referential in Nature.
@@ -28,3 +29,9 @@ This is a concise list of my personal values. I iterate on them, from time to ti
 
 
 *Attention is the only currency we have in life. Thanks for gifting me yours.*
+
+---
+
+## Related
+
+- **[Worldview](/worldview)** - The deeper philosophical framework behind these values, informed by fifteen years of building technology and living transparently with mental health challenges.
