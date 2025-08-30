@@ -39,7 +39,7 @@ What looks like innovation from inside the tech industry often looks like chaos 
 
 ### Technical Debt as Social Debt
 
-Every rewrite, every migration to the new framework, every adoption of the revolutionary database creates work that doesn't directly serve users. The months spent moving from Angular to React to Vue could have been spent improving accessibility. Fixing performance issues. Adding features users actually requested.
+Every rewrite, every migration to the new framework, every adoption of the revolutionary database creates work that doesn't directly serve users. The months spent moving from Angular to React to Vue could have been spent improving accessibility. Fixing performance issues. Adding features users actually needed.
 
 This technical churn becomes social debt when products become less reliable, more complex, or harder to maintain because teams are constantly rebuilding foundations instead of improving the house. The instability we create in our codebases creates instability in the products people depend on.
 
