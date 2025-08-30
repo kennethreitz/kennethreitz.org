@@ -59,9 +59,9 @@ The seasonal nature of programming amplifies this mismatch. By constantly chasin
 
 ## The Simple Tools Alternative
 
-Ted Dziuba made this point brilliantly in his essay on ["Taco Bell Programming"](http://widgetsandshit.com/teddziuba/2010/10/taco-bell-programming.html): most complex problems can be solved by combining a small set of well-understood tools in clever ways, just like how Taco Bell creates dozens of menu items from the same basic ingredients.
+Ted Dziuba made this point brilliantly in his essay on ["Taco Bell Programming"](http://widgetsandshit.com/teddziuba/2010/10/taco-bell-programming.html): most complex problems can be solved by combining a small set of well-understood tools in clever ways, just like how Taco Bell builds their entire menu from six basic ingredients.
 
-The same principle works for programming. Need to download millions of web pages? The trendy answer involves distributed crawlers, message queues, and cloud orchestration. The simple answer? `xargs` and `wget`. Need to process those pages? Skip the Hadoop cluster—`find` and `xargs` with parallel processing will handle most workloads with a fraction of the complexity.
+The same principle works for programming. Need to transform data across millions of files? The trendy answer involves Apache Spark clusters and distributed computing frameworks. The simple answer? `awk`, `sed`, and `parallel`. Need to monitor system performance? Skip the observability platform—`top`, `iostat`, and `grep` through logs will tell you what's actually wrong. Need to sync files across servers? Before you deploy that distributed filesystem, try `rsync` and `cron`.
 
 Every new service or framework you introduce creates potential failure points. Basic Unix tools have been battle-tested for decades. They fail in predictable ways. They have manuals. They don't require learning new APIs or fighting with dependency management. Most importantly, they don't wake you up at 3 AM with mysterious errors.
 
