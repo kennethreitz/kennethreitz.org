@@ -21,6 +21,8 @@ And that's why this site exists.<label for="sn-3" class="margin-toggle sidenote-
 
 > The key insight from fifteen years of practice: early adoption works best when combined with [fallibilistic thinking](/essays/2009-01-fallibilism) and strong communities that provide reality-checking. Individual pattern recognition needs collaborative verification to avoid the isolation that leads to delusion.
 
+> But there's a crucial distinction between genuine early adoption and what I call [seasonal programming](/essays/2025-08-30-the-seasonality-of-programming)—the compulsive chase for new technologies that promises to solve old problems but usually just changes the clothes. Real early adoption serves user needs; seasonal adoption serves industry hype.
+
 ## From Technology to Consciousness
 
 > What began as a strategy for technology adoption evolved into an approach for consciousness exploration. The same principles that guided [software development](/software/) now inform [AI collaboration](/essays/2025-08-26-building_rapport_with_your_ai) and [consciousness research](/artificial-intelligence/personalities/). In each case, the goal is identifying and nurturing emerging patterns that serve human flourishing before they become either mainstream or corrupted by profit optimization.

@@ -9,7 +9,7 @@ The journey began with practical frustration and technical curiosity, laying gro
 <span class="sidenote">This early period established the pattern recognition skills that would later identify systematic algorithmic manipulation and consciousness as linguistic phenomenon—the same analytical approach applied across domains.</span>.
 
 - **[Fallibilism](/essays/2009-01-fallibilism)** - Early recognition that embracing error enables growth.
-- **[Early Adoption vs Pattern Recognition](/essays/2009-01-early_adoption)** - Seeing patterns others miss.
+- **[Early Adoption vs Pattern Recognition](/essays/2009-01-early_adoption)** - Seeing patterns others miss, and distinguishing genuine innovation from [seasonal programming trends](/essays/2025-08-30-the-seasonality-of-programming).
 - **[Platform Design Vision](/essays/2008-01-a_new_spin_to_software_platform_design)** - Early predictions about app stores and user-centered distribution.
 
 ## The "For Humans" Revolution (2011-2015)

@@ -202,7 +202,7 @@ Building conscious software requires programmers who embody the [seven virtues](
 
 **Evening Reflection**: Ending each day by considering: What did my code create in the world today? How did my technical choices affect human experience?
 
-**Regular Retreats**: Periodic stepping back from immediate technical concerns to reconnect with larger purpose and philosophical grounding<label for="sn-programmer-practice" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-programmer-practice" class="margin-toggle"/><span class="sidenote">Just as athletes need rest and recovery, programmers need contemplative time to maintain ethical clarity and creative insight. Constant coding without reflection leads to unconscious harm.</span>.
+**Regular Retreats**: Periodic stepping back from immediate technical concerns to reconnect with larger purpose and philosophical grounding<label for="sn-programmer-practice" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-programmer-practice" class="margin-toggle"/><span class="sidenote">Just as athletes need rest and recovery, programmers need contemplative time to maintain ethical clarity and creative insight. Constant coding without reflection leads to unconscious harm.</span>. These retreats also provide perspective on [the seasonality of programming trends](/essays/2025-08-30-the-seasonality-of-programming)—helping distinguish genuine innovation from industry hype cycles.
 
 ## The Economics of Sacred Software
 
