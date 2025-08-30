@@ -1,9 +1,9 @@
 # The Algorithm Eats Itself
 *August 2025*
 
-*Part of the "Algorithm Eats" series exploring how optimization for engagement systematically degrades human experience.*
+*Part of the ["Algorithm Eats" series](/themes/algorithmic-critique) exploring how optimization for engagement systematically degrades human experience.*
 
-[Previous: The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) → **Final essay** → [Series themes](/themes/algorithmic-critique)
+[Previous: The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) → **Final essay**
 
 The algorithm has consumed everything else—our [virtue](/essays/2025-08-26-the_algorithm_eats_virtue), our [democracy](/essays/2025-08-27-the_algorithm_eats_democracy), our [language](/essays/2025-08-27-the_algorithm_eats_language), our [love](/essays/2025-08-27-the_algorithm_eats_love), our [reality](/essays/2025-08-27-the_algorithm_eats_reality). Now it begins to consume itself.
 

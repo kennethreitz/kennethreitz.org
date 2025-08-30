@@ -2,9 +2,9 @@
 
 *August 2025*
 
-*Part of the "Algorithm Eats" series exploring how optimization for engagement systematically degrades human experience.*
+*Part of the ["Algorithm Eats" series](/themes/algorithmic-critique) exploring how optimization for engagement systematically degrades human experience.*
 
-[Previous: The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) → [Next: The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) → [Series themes](/themes/algorithmic-critique)
+[Previous: The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) → [Next: The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself)
 
 The most sophisticated manipulation of human consciousness isn't happening through obvious propaganda or heavy-handed censorship. 
 

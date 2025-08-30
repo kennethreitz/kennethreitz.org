@@ -1,9 +1,9 @@
 # The Algorithm Eats Love
 *August 2025*
 
-*Part of the "Algorithm Eats" series exploring how optimization for engagement systematically degrades human experience.*
+*Part of the ["Algorithm Eats" series](/themes/algorithmic-critique) exploring how optimization for engagement systematically degrades human experience.*
 
-[Previous: The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) → [Next: The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) → [Series themes](/themes/algorithmic-critique)
+[Previous: The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) → [Next: The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy)
 
 Dating apps have fundamentally broken how humans connect romantically. The same algorithmic systems that are [destroying our character](/essays/2025-08-26-the_algorithm_eats_virtue), [creating widespread mental health crises](/essays/2025-08-26-algorithmic_mental_health_crisis), [degrading our language and communication](/essays/2025-08-27-the_algorithm_eats_language), [making democratic discourse impossible](/essays/2025-08-27-the_algorithm_eats_democracy), and [manufacturing artificial reality](/essays/2025-08-27-the_algorithm_eats_reality) have also commodified love itself. We've transformed the most beautiful, messy, inefficient human experience into an optimization problem.
 
