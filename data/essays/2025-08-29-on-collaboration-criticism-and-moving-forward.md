@@ -2,8 +2,6 @@
 
 # On Collaboration, Criticism, and Moving Forward
 
-> *Author’s note (Aug 30, 2025):* This is my personal account as I remember it; if I misstate anything, I’ll correct it.
-
 In 2018, someone published a blog post titled "Why I'm Not Collaborating with Kenneth Reitz". It's been following me ever since—dominating search results, preceding every job interview, coloring every conference proposal.
 
 Here's a Safari Reader summary of this person's essay:
