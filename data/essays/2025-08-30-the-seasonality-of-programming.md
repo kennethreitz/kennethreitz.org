@@ -17,7 +17,7 @@ Most problems we're solving in programming have been solved before. Multiple tim
 
 The solutions weren't glamorous. They were written in Java or C# or COBOL. They ran on application servers with names like WebSphere and WebLogic. They used patterns like Model-View-Controller and Service-Oriented Architecture. Built by people in suits. People who went home at 5 PM and didn't tweet about their code.
 
-But they worked. They processed billions of transactions, handled millions of users, and kept critical systems running for years without significant outages. The techniques they used—connection pooling, caching strategies, load balancing, graceful degradation—weren't revolutionary. They were just competent engineering applied consistently over time.
+But it worked. They processed billions of transactions, handled millions of users, and kept critical systems running for years without significant outages. The techniques they used—connection pooling, caching strategies, load balancing, graceful degradation—weren't revolutionary. They were just competent engineering applied consistently over time.
 
 ## Why We Keep Reinventing
 
