@@ -3,8 +3,6 @@
 
 *Part of the ["Algorithm Eats" series](/themes/algorithmic-critique) exploring how optimization for engagement systematically degrades human experience.*
 
-[Previous: The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) → [Next: The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy)
-
 Dating apps have fundamentally broken how humans connect romantically. The same algorithmic systems that are [destroying our character](/essays/2025-08-26-the_algorithm_eats_virtue), [creating widespread mental health crises](/essays/2025-08-26-algorithmic_mental_health_crisis), [degrading our language and communication](/essays/2025-08-27-the_algorithm_eats_language), [making democratic discourse impossible](/essays/2025-08-27-the_algorithm_eats_democracy), and [manufacturing artificial reality](/essays/2025-08-27-the_algorithm_eats_reality) have also commodified love itself. We've transformed the most beautiful, messy, inefficient human experience into an optimization problem.
 
 "It's a numbers game." This phrase reveals everything wrong with modern romance. Love isn't a numbers game—it's not about optimizing match rates or A/B testing opening lines<label for="sn-ab-testing" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ab-testing" class="margin-toggle"/><span class="sidenote">Yes, people actually A/B test their dating app messages now. There are entire forums dedicated to optimizing "opener success rates" as if romance were email marketing.</span>. But Silicon Valley has successfully transformed courtship into a conversion funnel, complete with engagement metrics and retention optimization.

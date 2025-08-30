@@ -3,8 +3,6 @@
 
 *Part of the ["Algorithm Eats" series](/themes/algorithmic-critique) exploring how optimization for engagement systematically degrades human experience.*
 
-**Start here** → [Next: The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language)
-
 **The uncomfortable truth about social media:** the algorithmic systems that determine what billions of people see every day are systematically undermining the character qualities that enable human flourishing. This isn't a side effect—it's the inevitable result of optimizing for engagement over virtue.
 
 ## The Algorithmic Character Crisis
