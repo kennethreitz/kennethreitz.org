@@ -57,13 +57,13 @@ Most critically, we optimize for metrics that matter to us—developer experienc
 
 The seasonal nature of programming amplifies this mismatch. By constantly chasing new tools and techniques, we avoid reckoning with the consequences of how we've been building software. The next framework will fix everything, so we don't need to examine whether our current approach serves human flourishing.
 
-## The Taco Bell Alternative
+## The Simple Tools Alternative
 
-Ted Dziuba captured this perfectly in his essay on ["Taco Bell Programming"](http://widgetsandshit.com/teddziuba/2010/10/taco-bell-programming.html): every item on the Taco Bell menu is just a different configuration of roughly eight ingredients. With this simple periodic table of meat and produce, the company pulled down $1.9 billion.
+Ted Dziuba made this point brilliantly in his essay on ["Taco Bell Programming"](http://widgetsandshit.com/teddziuba/2010/10/taco-bell-programming.html): most complex problems can be solved by combining a small set of well-understood tools in clever ways, just like how Taco Bell creates dozens of menu items from the same basic ingredients.
 
-The same principle applies to software. You can achieve most desired functionality with clever reconfigurations of basic Unix tools. Need to download millions of web pages? The cool-kids answer is a distributed crawler in some trendy language running on the cloud. The Taco Bell answer? `xargs` and `wget`. Need to process those pages? Skip Hadoop—just use `find crawl_dir/ -type f -print0 | xargs -n1 -0 -P32 ./process` for 32 concurrent processes with zero bullshit to manage.
+The same principle works for programming. Need to download millions of web pages? The trendy answer involves distributed crawlers, message queues, and cloud orchestration. The simple answer? `xargs` and `wget`. Need to process those pages? Skip the Hadoop cluster—`find` and `xargs` with parallel processing will handle most workloads with a fraction of the complexity.
 
-Every time you introduce new code or third-party services, you're introducing failure points. Dziuba trusts `xargs` more than Hadoop. Hell, he trusts `xargs` more than himself to write multithreaded processors. This isn't just about technical elegance—it's about keeping your pager quiet at night.
+Every new service or framework you introduce creates potential failure points. Basic Unix tools have been battle-tested for decades. They fail in predictable ways. They have manuals. They don't require learning new APIs or fighting with dependency management. Most importantly, they don't wake you up at 3 AM with mysterious errors.
 
 ## The Enterprise Wisdom
 
