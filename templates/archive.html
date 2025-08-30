@@ -31,7 +31,7 @@
                 {% endif %}
                 <br>
                 {% if post.description %}
-                    {{ post.description }}
+                    {{ post.description | unescape }}
                 {% endif %}
                 </p>
             {% endfor %}

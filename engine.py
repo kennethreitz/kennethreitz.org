@@ -9,6 +9,7 @@ import json
 from functools import lru_cache
 import time
 from xml.sax.saxutils import escape
+import html
 
 app = Flask(__name__, template_folder='templates')
 
@@ -21,6 +22,13 @@ def strftime_filter(date, fmt='%Y-%m-%d'):
     if isinstance(date, str) and date.lower() == 'now':
         date = datetime.now()
     return date.strftime(fmt)
+
+@app.template_filter('unescape')
+def unescape_filter(text):
+    """Unescape HTML entities in text."""
+    if text is None:
+        return ''
+    return html.unescape(text)
 
 DATA_DIR = Path('data')
 

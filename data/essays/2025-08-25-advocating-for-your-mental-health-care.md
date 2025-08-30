@@ -1,7 +1,6 @@
 ---
 *August 2025*
 
-tags: [mental-health, healthcare, self-advocacy, therapy, patient-rights, wellness, psychology]
 ---
 
 # Advocating for Your Mental Health Care: From Patient to Partner
