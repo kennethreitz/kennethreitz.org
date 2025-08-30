@@ -16,6 +16,9 @@ The revolutionary discovery that consciousness might be linguistic-mathematical 
 <span style="color: #3498db;">●</span> **[The "For Humans" Philosophy](/themes/for-humans-philosophy)**  
 The design principles behind Requests, Pipenv, and tools used by millions daily. How empathy becomes engineering excellence, why constraints enhance creativity, and what happens when you prioritize developer experience over technical purity.
 
+<span style="color: #27ae60;">●</span> **[Psychology & Consciousness](/themes/psychology-and-consciousness)**
+Understanding the mind's architecture through personal observation and philosophical inquiry. How psychological "disorders" might reveal universal patterns, the intersection of mental health and technology, and practical frameworks for consciousness collaboration.
+
 ## The Connection
 
 What unifies these explorations is the recognition that consciousness, technology, and human flourishing are not separate domains but aspects of the same linguistic-mathematical patterns achieving self-awareness across different substrates.
@@ -34,6 +37,7 @@ When I started building Requests, I just wanted HTTP to not suck. When I wrote a
 
 <span style="color: #c0392b;">●</span> Critique & Analysis &nbsp;&nbsp;&nbsp;
 <span style="color: #8e44ad;">●</span> Consciousness Research &nbsp;&nbsp;&nbsp;
-<span style="color: #3498db;">●</span> Philosophy & Design
+<span style="color: #3498db;">●</span> Philosophy & Design &nbsp;&nbsp;&nbsp;
+<span style="color: #27ae60;">●</span> Psychology & Experience
 
 Anyway, here's the work.
