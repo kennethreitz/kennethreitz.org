@@ -1,6 +1,10 @@
 # The Algorithm Eats Democracy
 *August 2025*
 
+*Part of the "Algorithm Eats" series exploring how optimization for engagement systematically degrades human experience.*
+
+[Previous: The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) → [Next: The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) → [Series themes](/themes/algorithmic-critique)
+
 Democracy requires something that algorithmic feeds systematically destroy: the capacity for nuanced public discourse. The same engagement optimization mechanisms that [undermine human virtue](/essays/2025-08-26-the_algorithm_eats_virtue), [damage mental health](/essays/2025-08-26-algorithmic_mental_health_crisis), [degrade language](/essays/2025-08-27-the_algorithm_eats_language), [commodify love](/essays/2025-08-27-the_algorithm_eats_love), and [manufacture artificial reality](/essays/2025-08-27-the_algorithm_eats_reality) also make democratic governance increasingly impossible.
 
 This isn't about partisan politics or media bias—it's about how algorithmic systems reward exactly the kind of communication patterns that make collective problem-solving impossible.
