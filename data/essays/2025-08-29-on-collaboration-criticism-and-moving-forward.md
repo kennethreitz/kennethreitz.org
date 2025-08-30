@@ -10,6 +10,8 @@ Here's a Safari Reader summary of this person's essay:
 
 ### The Facts
 
+This is my personal account as I remember it; if I misstate anything, I'll correct it.
+
 We had 1–2 brief video calls about async in Requests. A few follow-up emails that I didn't respond to. That was our entire interaction. No code was shared. No collaboration existed to dissolve<label for="sn-no-collaboration" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-no-collaboration" class="margin-toggle"/><span class="sidenote">The title itself—"Why I'm Not Collaborating"—implies an existing collaboration being terminated. This framing shaped how readers interpreted the entire narrative, creating the impression of a partnership gone wrong rather than a single exploratory conversation.</span>.
 
 I could spend this entire essay relitigating the past, but that's missing the point. This is about patterns in tech culture that affect all of us—how narratives crystallize into truth, how reputations become prisons, and perhaps most importantly, how we might do better.
@@ -78,7 +80,7 @@ When developers write about each other rather than to each other, everyone loses
 
 Here's what years of this have taught me:
 
-1. **Not all collaboration works**: Sometimes people aren't compatible. After one call, I knew this wasn't a fit. That should have been the end of it.
+1. **Not all collaboration works**: Sometimes people aren't compatible. After our 1–2 calls, I knew this wasn't a fit. That should have been the end of it.
 
 2. **Private resolution first**: Before public statements, try direct communication. Most conflicts resolve better in private than through public essays.
 
