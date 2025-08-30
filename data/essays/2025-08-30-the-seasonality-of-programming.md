@@ -3,11 +3,11 @@
 
 Every few years, the programming world discovers fire again.
 
-Ruby on Rails would make web development effortless. Node.js would unify frontend and backend. React would make UIs predictable. Docker would solve deployment. Kubernetes would orchestrate everything. Now it's AI that will write our code for us.
+Rails was going to make web development effortless. Node.js would finally unify frontend and backend. React would make UIs predictable (this time for real). Docker would solve deployment hell. Kubernetes would orchestrate everything beautifully. Now it's AI that will write our code for us.
 
-Each time, we get excited about the new framework that will finally solve state management. The database that will revolutionize how we store data. The architecture pattern that will make our code maintainable forever.
+Each time, we get genuinely excited. This framework will finally solve state management! This database will revolutionize how we store data! This architecture pattern will make our code maintainable forever!
 
-Then, quietly, we discover the same problems that plagued the last solution. Performance issues. Complexity creep. Vendor lock-in. The learning curve that seemed manageable becomes a mountain. The community fragments. Enthusiasm wanes.
+Then reality hits. Performance issues crop up. Complexity creeps in. Vendor lock-in appears. That manageable learning curve? It's actually a mountain. The community starts arguing. Enthusiasm dies.
 
 By then, the next fire has been discovered.
 
@@ -21,17 +21,17 @@ But they worked. They processed billions of transactions, handled millions of us
 
 ## Why We Keep Reinventing
 
-The seasonality of programming isn't accidental. It serves psychological and economic needs that have little to do with technical necessity.
+This cycle isn't accidental. It serves psychological and economic needs that have nothing to do with actually solving problems.
 
-**Novelty bias** makes new solutions seem more attractive than existing ones, regardless of merit. We assume newer means better. That the latest framework learned from all previous mistakes. The psychological reward of learning something new beats the mundane satisfaction of mastering something old<label for="sn-dopamine" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-dopamine" class="margin-toggle"/><span class="sidenote">The tech industry's addiction to novelty mirrors social media's dopamine feedback loops—both optimize for engagement over depth, creating cycles of shallow learning and constant searching for the next hit.</span>.
+**We're addicted to novelty.** New solutions always look better than existing ones, regardless of whether they actually are. We assume newer means better. That this framework learned from all previous mistakes. The dopamine hit of learning something shiny beats the boring satisfaction of mastering something that works<label for="sn-dopamine" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-dopamine" class="margin-toggle"/><span class="sidenote">The tech industry's addiction to novelty mirrors social media's dopamine feedback loops—both optimize for engagement over depth, creating cycles of shallow learning and constant searching for the next hit.</span>.
 
-**Career anxiety** drives adoption of trending technologies. Résumés with React and Kubernetes get more callbacks than ones with jQuery and monoliths, even when the latter might be more appropriate. We learn new tools not because they solve problems better, but because they signal that we're keeping up.
+**We're terrified of being left behind.** Résumés with React and Kubernetes get callbacks. Résumés with jQuery and monoliths get ignored, even when those technologies would be better for the job. We learn new tools not because they solve problems better, but because they prove we're not dinosaurs.
 
-**Venture capital** funds the hype cycles that drive technology seasons. Investment flows toward companies promising to revolutionize established categories—"the Uber of X," "the blockchain-based Y." These companies need to justify their valuations by convincing developers that existing solutions are fundamentally inadequate.
+**VCs fund the hype.** Money flows to companies promising to "revolutionize" boring, working solutions. "We're the Uber of databases!" "Blockchain-powered email!" These companies need to justify their valuations by convincing everyone that perfectly good existing tools are garbage.
 
-**Conference economics** depend on having new content to present. You can't give the same talk about database normalization for ten years, even if database normalization remains important. The conference circuit needs fresh ideas, revolutionary approaches, paradigm shifts to sell tickets and maintain relevance.
+**Conferences need content.** You can't give the same talk about database normalization for ten years, even though database normalization is still important and most people still don't understand it. The conference circuit needs "fresh" ideas and "revolutionary" approaches to sell tickets.
 
-None of this is inherently malicious. But it creates systemic pressure to treat proven solutions as obsolete and experimental technologies as mature.
+Nobody's trying to be evil here. But the result is that we treat battle-tested solutions as obsolete and half-baked experiments as production-ready.
 
 ## The Hidden Costs of Seasonal Programming
 
@@ -39,9 +39,9 @@ What looks like innovation from inside the tech industry often looks like chaos 
 
 ### Technical Debt as Social Debt
 
-Every rewrite, every migration to the new framework, every adoption of the revolutionary database creates work that doesn't directly serve users. The months spent moving from Angular to React to Vue could have been spent improving accessibility. Fixing performance issues. Adding features users actually needed.
+Every rewrite creates work that doesn't help users. The months we spent migrating from Angular to React to Vue? That could have been spent making the site faster. More accessible. Adding features people actually asked for.
 
-This technical churn becomes social debt when products become less reliable, more complex, or harder to maintain because teams are constantly rebuilding foundations instead of improving the house. The instability we create in our codebases creates instability in the products people depend on.
+This churn becomes social debt. Products get buggier and more complex because we're constantly rebuilding foundations instead of fixing the roof. The instability we create in our code becomes instability in the things people depend on.
 
 ### Complexity as Barrier
 
