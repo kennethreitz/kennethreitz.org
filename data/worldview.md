@@ -18,11 +18,11 @@ This conviction led me to understand [programming as spiritual practice](/essays
 
 ## What I've Learned About Relationships
 
-**Success in mental health struggles looks different for everyone.** Some people need medication, others need therapy, some need both, some find other paths entirely. There's no universal template for recovery—only the shared reality that everyone's on a different step of their journey.
+**Success in mental health struggles looks different for everyone.** Some people need medication. Others therapy. Some both, some find other paths entirely. There's no universal template—just the reality that everyone's somewhere different on their journey.
 
-**Meet people where they are, not where you think they should be.** When someone needs different conditions to participate—whether mental health accommodations, accessibility needs, or different communication styles—meeting those needs creates better outcomes for everyone. This isn't charity; it's recognizing that human diversity is practical wisdom.
+**Meet people where they are, not where you think they should be.** When someone needs different conditions to participate—mental health accommodations, accessibility needs, different communication styles—meeting those needs creates better outcomes for everyone. This isn't charity. It's recognizing that human diversity is practical wisdom.
 
-**Intimacy requires risk, performance prevents it.** The deeper relationships in my life happened when I stopped trying to be impressive and started being honest. Mental health disclosure teaches you this quickly: people who can handle your reality are worth keeping; people who need you to be different aren't.
+**Intimacy requires risk, performance prevents it.** The deeper relationships in my life happened when I stopped trying to be impressive and started being honest. Mental health disclosure teaches you this quickly. People who can handle your reality are worth keeping. People who need you to be different aren't.
 
 **Conflict is information, not failure.** The healthiest relationships I have are ones where we can disagree without threatening the relationship itself. This requires talking about how we talk, setting boundaries explicitly, and choosing repair over being right.
 
@@ -33,10 +33,10 @@ This conviction led me to understand [programming as spiritual practice](/essays
 The same patterns that create healthy relationships and sustainable mental health also create good technology, communities, and creative work.
 
 ### Design for Your Worst Day
-I build things assuming people are stressed, distracted, or having mental health episodes because that's often when tools matter most. If it works when you're struggling, it works for everyone. Simple interfaces, clear error messages, obvious next steps—this isn't just good design, it's basic human compassion.
+I build things assuming people are stressed, distracted, or having mental health episodes. That's when tools matter most. If it works when you're struggling, it works for everyone. Simple interfaces. Clear error messages. Obvious next steps. This isn't just good design—it's basic human compassion.
 
 ### Make the Right Path Easy
-Ethics and ergonomics should align. If doing the right thing requires extra effort, most people won't do it—not because they're bad, but because they're human. Good design makes virtue convenient and harm difficult. This applies to API defaults, notification systems, and how communities handle conflict.
+Ethics and ergonomics should align. If doing the right thing requires extra effort, most people won't do it. Not because they're bad—because they're human. Good design makes virtue convenient and harm difficult. This applies to API defaults, notification systems, how communities handle conflict.
 
 ### Optimize for Outcomes, Not Metrics
 When success is defined by engagement or growth metrics, systems inevitably start optimizing humans for the metrics rather than optimizing for human wellbeing. [The algorithm eats virtue](/essays/2025-08-26-the_algorithm_eats_virtue), then [democracy](/essays/2025-08-27-the_algorithm_eats_democracy), then [language itself](/essays/2025-08-27-the_algorithm_eats_language).
