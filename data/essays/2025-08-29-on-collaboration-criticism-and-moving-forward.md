@@ -156,7 +156,7 @@ I'm making a different choice. This essay presents facts, acknowledges mistakes,
 
 *But sometimes you just need to say the quiet part out loud:*
 
-*We never fucking collaborated.*
+*We never actually collaborated.*
 *We spoke once.*
 *Thirty minutes.*
 
