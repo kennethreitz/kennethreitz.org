@@ -10,17 +10,17 @@ Here's a Safari Reader summary of this person's essay:
 
 ### The Facts
 
-We had one video call about async in Requests. Thirty minutes. A few follow-up messages that I didn't respond to. That was our entire interaction. No code was shared. No collaboration existed to dissolve<label for="sn-no-collaboration" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-no-collaboration" class="margin-toggle"/><span class="sidenote">The title itself—"Why I'm Not Collaborating"—implies an existing collaboration being terminated. This framing shaped how readers interpreted the entire narrative, creating the impression of a partnership gone wrong rather than a single exploratory conversation.</span>.
+We had 1–2 brief video calls about async in Requests. A few follow-up emails that I didn't respond to. That was our entire interaction. No code was shared. No collaboration existed to dissolve<label for="sn-no-collaboration" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-no-collaboration" class="margin-toggle"/><span class="sidenote">The title itself—"Why I'm Not Collaborating"—implies an existing collaboration being terminated. This framing shaped how readers interpreted the entire narrative, creating the impression of a partnership gone wrong rather than a single exploratory conversation.</span>.
 
 I could spend this entire essay relitigating the past, but that's missing the point. This is about patterns in tech culture that affect all of us—how narratives crystallize into truth, how reputations become prisons, and perhaps most importantly, how we might do better.
 
 ## The Reality of Requests 3
 
-The Requests 3 fundraiser has become a touchstone for criticism. 
+The Requests 3 fundraiser has become a touchstone for criticism.
 
 **Here are the facts:**
 
-I raised funds to support development work. I did that work. The funds went to supporting that labor—my labor, since I was the primary contributor<label for="sn-primary-contributor" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-primary-contributor" class="margin-toggle"/><span class="sidenote">While Requests had dedicated core contributors handling maintenance, none were interested in working on the major architectural changes planned for Requests 3. The fundraiser was specifically for that new development work.</span> 
+I raised funds to support development work. I did that work. The funds went to supporting that labor—my labor, since I was the primary contributor<label for="sn-primary-contributor" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-primary-contributor" class="margin-toggle"/><span class="sidenote">While Requests had dedicated core contributors handling maintenance, none were interested in working on the major architectural changes planned for Requests 3. The fundraiser was specifically for that new development work.</span>
 
 The project didn't ship as originally envisioned. I've [apologized for that](/essays/2023-01-an_overdue_apology). Communication should have been better. Expectations should have been managed differently.
 
@@ -28,7 +28,7 @@ I removed myself from Requests on PyPI of my own accord. Because it was the righ
 
 **Here's the distinction that matters:**
 
-* "Didn't deliver as promised" = failed project  
+* "Didn't deliver as promised" = failed project
 * "Misappropriated funds" = theft
 
 One means I failed. The other means I'm a criminal.
@@ -37,7 +37,7 @@ The original post carefully avoided the word "misappropriation." But that's exac
 
 ## The Timeline That Matters
 
-**The Call**: One video discussion about async implementation. I was transparent about my plans and the fundraiser. After the call, I decided this wasn't a collaboration I wanted to pursue. My instincts told me no—the vibe was way off.
+**The Calls**: 1–2 brief video discussions about async implementation. I was transparent about my plans and the fundraiser. After these calls, I decided this wasn't a collaboration I wanted to pursue. My instincts told me no—the vibe was way off.
 
 **The Follow-up**: Messages I chose not to respond to. In open source, as in life, collaboration is voluntary. No response *is* a response.
 
@@ -56,11 +56,11 @@ Normally, one blog post would disappear into the internet's memory hole. But tec
 * Communities often embrace narratives without seeking multiple perspectives.
 * Once a story crystallizes, it becomes "truth" regardless of complexity.
 
-Stop and think about that: Thirty minutes on a video call gave someone enough authority to define my entire character. His story about me became more real than years of actual work<label for="sn-ecosystem-contributions" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ecosystem-contributions" class="margin-toggle"/><span class="sidenote">[Requests](/software/requests), [Pipenv](/software/pipenv), [Maya](/software/maya), and dozens of other tools—used by millions daily. Yet one blog post often overshadows a decade of [building for humans](/themes/for-humans-philosophy).</span>.
+Stop and think about that: A couple of brief video calls gave someone enough authority to define my entire character. His story about me became more real than years of actual work<label for="sn-ecosystem-contributions" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ecosystem-contributions" class="margin-toggle"/><span class="sidenote">[Requests](/software/requests), [Pipenv](/software/pipenv), [Maya](/software/maya), and dozens of other tools—used by millions daily. Yet one blog post often overshadows a decade of [building for humans](/themes/for-humans-philosophy).</span>.
 
-But here's the deeper issue: his perspective treats a single exploratory phone call as if it created obligations, expectations, and a relationship that justified years of reputational damage. He presents himself as betrayed by someone he barely knew, over work he wasn't doing, funded by money that wasn't his.
+But here's the deeper issue: his perspective treats exploratory calls as if they created obligations, expectations, and a relationship that justified years of reputational damage. He presents himself as betrayed by someone he barely knew, over work he wasn't doing, funded by money that wasn't his.
 
-The reality was simpler: we had one conversation, I decided I didn't want to work together, and that should have been the end of it. Everything else—the fundraiser, the project, the money—was my responsibility to handle, not his business to police.
+The reality was simpler: we had a couple of brief conversations, I decided I didn't want to work together, and that should have been the end of it. Everything else—the fundraiser, the project, the money—was my responsibility to handle, not his business to police.
 
 This is how tech takedowns work: an exaggerated frame, a sticky headline, and an incentive structure that rewards one person's frustration while erasing another person's humanity.
 
@@ -144,7 +144,7 @@ Before writing that public post about someone:
 
 We're supposedly building the future of human communication and collaboration. Maybe we should stop modeling the same toxic dynamics we claim to hate.
 
-The person who wrote about me made their choice. One call = public essay. Personal discomfort = years of reputational harm. Their narrative > actual dialogue.
+The person who wrote about me made their choice. Brief exploratory calls = public essay. Personal discomfort = years of reputational harm. Their narrative > actual dialogue.
 
 That was their math.
 
@@ -157,8 +157,7 @@ I'm making a different choice. This essay presents facts, acknowledges mistakes,
 *But sometimes you just need to say the quiet part out loud:*
 
 *We never actually collaborated.*
-*We spoke once.*
-*Thirty minutes.*
+*We spoke briefly.*
 
 *That's the fact that got buried under all the narratives.*
 
