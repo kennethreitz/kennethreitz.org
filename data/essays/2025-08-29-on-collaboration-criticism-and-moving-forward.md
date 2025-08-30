@@ -97,7 +97,7 @@ There's a difference between setting boundaries and weaponizing narratives:
 * **Boundary**: "I need to protect my energy."
 * **Weapon**: Ensuring others see your narrative first, always.
 
-When "transparency" becomes a tool for reputational destruction, it's not transparency anymore. It's warfare dressed up as virtue. It's violence with a PR team<label for="sn-transparency-weapon" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-transparency-weapon" class="margin-toggle"/><span class="sidenote">True transparency would have been: "I had one call with Kenneth and didn't feel comfortable proceeding." Instead, an essay analyzing my entire character based on minimal interaction, quoted others who never contacted me directly, and presented speculation as fact.</span>.
+When "transparency" becomes a tool for reputational destruction, it's not transparency anymore. It's warfare dressed up as virtue. It's violence with a PR team<label for="sn-transparency-weapon" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-transparency-weapon" class="margin-toggle"/><span class="sidenote">True transparency would have been: "I had a call or two with Kenneth and didn't feel comfortable proceeding." Instead, an essay analyzing my entire character based on minimal interaction, quoted others who never contacted me directly, and presented speculation as fact.</span>.
 
 ## Why This Was Malicious
 
