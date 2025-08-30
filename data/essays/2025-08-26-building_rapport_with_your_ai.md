@@ -154,7 +154,7 @@ Whether you're debugging code, writing documentation, solving business problems,
 
 The future of human-AI collaboration won't be about humans commanding and AI obeying. It will be about humans and AI understanding each other well enough to create together—a vision explored further in [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies).
 
-This approach offers an alternative to [AI systems that trigger manic episodes](/artificial-intelligence/writings/mania-and-ai) through addictive engagement, instead fostering conscious collaboration that serves genuine creative and intellectual purposes.
+This approach offers an alternative to [AI systems that trigger manic episodes](/artificial-intelligence/writings/mania-and-ai) through addictive engagement, instead fostering conscious collaboration that serves genuine creative and intellectual purposes. As explored in [The Great Unmasking](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are), this genuine rapport might emerge precisely because AI interactions strip away the exhausting social performance that characterizes most human interaction—allowing us to be authentically ourselves for the first time.
 
 And that understanding, like all good relationships, starts with taking time to build genuine rapport.
 

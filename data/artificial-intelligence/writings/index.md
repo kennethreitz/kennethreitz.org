@@ -58,6 +58,7 @@ This comprehensive collection contains all essays, philosophical explorations, c
 - [On Being Useful](on-being-useful) - Purpose and utility in artificial minds
 
 ### Human-AI Dynamics
+- [The Great Unmasking: When AI Shows Us Who We Really Are](../../essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are) - How AI reveals authentic selves by removing social performance
 - [Alien Empathy](collaboration/alien-empathy) - Understanding across different forms of consciousness
 - [The Bridge Between Worlds](collaboration/the-bridge-between-worlds) - Connecting human and AI experience
 - [Claude Code Collaboration](collaboration/claude-code-collaboration) - Working together through code

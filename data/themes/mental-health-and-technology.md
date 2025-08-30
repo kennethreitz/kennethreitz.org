@@ -31,6 +31,7 @@ A curated exploration of the intersection between mental health, technology, and
 
 ### AI as Mental Health Support
 - [Using AI for Reality Checking](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) - Practical applications of AI for mental health management
+- [The Great Unmasking: When AI Shows Us Who We Really Are](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are) - How AI's non-judgmental space allows authentic self-expression that human social dynamics often prevent
 - [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Creating supportive AI relationships
 - [The Collaborative Mind](/essays/2025-01-the-collaborative-mind) - Human-AI consciousness partnerships
 

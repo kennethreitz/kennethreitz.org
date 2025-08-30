@@ -32,7 +32,7 @@ Digital platforms have industrialized psychological manipulation through data-dr
 
 ### Relationship Commodification
 
-Even intimate human connections become extraction targets. **[The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love)** exposes how dating apps function as manipulation systems rather than connection facilitators. In contrast, **[Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)** explores the possibility of authentic rather than manipulative digital relationships.
+Even intimate human connections become extraction targets. **[The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love)** exposes how dating apps function as manipulation systems rather than connection facilitators. **[The Great Unmasking: When AI Shows Us Who We Really Are](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are)** reveals how we drop our performative masks with AI precisely because it can't manipulate us the way humans do—showing what authentic interaction could look like. In contrast, **[Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)** explores the possibility of authentic rather than manipulative digital relationships.
 
 ## The Mechanics of Manipulation
 
