@@ -126,6 +126,16 @@ Remember: you're paying for a service. You deserve competent, respectful care.<l
 
 Here's what effective self-advocacy looks like in practice:
 
+**The Advocacy Process:**
+
+1. **Track & Document** → Document symptoms & alternatives (2-4 weeks)
+2. **Collaborative Discussion** → "I've noticed X, can we explore Y?"
+3. **Provider Response Decision Point:**
+   - **Collaborative** → Work together on new plan → Monitor & reassess
+   - **Dismissive** → Request rationale → Still dismissive?
+     - **Yes** → Find new provider
+     - **No** → Back to collaborative approach
+4. **Continuous Loop** → Monitor results and repeat as needed
 
 This approach is:
 - **Informed** (you've done your homework)
