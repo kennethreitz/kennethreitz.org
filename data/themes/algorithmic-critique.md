@@ -1,4 +1,4 @@
-# The Algorithm Eats Everything
+# The Algorithm Eats
 
 A comprehensive examination of how algorithmic systems designed for engagement maximization systematically undermine virtue, mental health, language, and human connection.
 
