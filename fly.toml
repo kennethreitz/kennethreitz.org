@@ -18,5 +18,5 @@ processes = ['app']
 
 [[vm]]
 memory = '2gb'
-cpu_kind = 'dedicated'
+cpu_kind = 'performance'
 cpus = 1
