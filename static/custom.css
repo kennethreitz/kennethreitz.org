@@ -819,6 +819,15 @@ p, li, blockquote {
     }
 }
 
+/* Remove drop shadows from all links */
+a:link, a:visited, 
+.tufte-underline, 
+.hover-tufte-underline:hover,
+.tufte a:link, .tufte a:visited,
+.tufte a:hover {
+    text-shadow: none !important;
+}
+
 /* Print styles */
 @media print {
     * {
