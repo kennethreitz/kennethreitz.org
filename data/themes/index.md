@@ -6,7 +6,7 @@ These collections trace the threads that connect [consciousness research](/theme
 
 ## Featured Collections
 
-<span style="color: #c0392b;">●</span> **[Algorithmic Critique](/themes/algorithmic-critique)**
+<span style="color: #c0392b;">●</span> **[The Algorithm Eats Everything](/themes/algorithmic-critique)**
 
 How engagement optimization destroys virtue, mental health, language, democracy, and love. The complete "Algorithm Eats Everything" series—systematic analysis of how platforms exploit billions simultaneously through the same psychological manipulation techniques that destroy individual relationships. Not speculation. Documentation.
 
