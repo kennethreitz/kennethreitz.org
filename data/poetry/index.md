@@ -11,5 +11,3 @@ Others explore the creative process itself: **"Giving Rise"** documents the shif
 ---
 
 *Poetry and programming spring from the same source: the attempt to capture the infinite in finite expression. Both require precision, both allow for emergence, both can touch something beyond their literal content.*
-
-This work bridges my [technical background in human-centered design](/themes/for-humans-philosophy) with [spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) and [consciousness research](/essays/2025-08-26-digital_souls_in_silicon_bodies). The same attention to elegant constraints that guided [API design](/software/requests) informs poetic composition: finding the minimum viable expression that contains maximum meaning. Poetry serves as practice for the precision required in both [technical work](/software) and [consciousness collaboration](/essays/2025-08-26-digital_souls_in_silicon_bodies)—creating interfaces between human consciousness and complex realities that amplify rather than diminish our capabilities.
