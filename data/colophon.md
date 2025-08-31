@@ -10,7 +10,7 @@ This site is my digital garden, my brain dump, my attempt to own my own words on
 - **Markdown:** Mistune, naturally — fast, clean, does what it needs to do
 - **Typography:** Tufte CSS, because Edward Tufte understood that margins are for thinking
 - **Hosting:** Fly.io (used to be Heroku, but, well... you know)
-- **Source:** [GitHub](https://github.com/kennethreitz/kennethreitz.org), because transparency matters
+- **Source:** Flask app with Markdown files, because simplicity matters
 
 ## The Philosophy
 
@@ -57,7 +57,7 @@ Also, I got tired of my thoughts being scattered across Twitter, Medium, dev.to,
 
 ## The License
 
-The code is open source. The words are mine. Feel free to learn from the former, but please don't wholesale copy the latter.
+The words are mine. Feel free to be inspired by them, but please don't wholesale copy them.
 
 ## The Future
 
