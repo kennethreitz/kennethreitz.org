@@ -15,26 +15,26 @@ Words prioritizing rhythm and flow over literal meaning—the musical architectu
 ## Individual Pieces
 
 ### Technical Mysticism
-- [Holy Syntax](holy-syntax/) - Finding the divine in code structure and programming precision, connecting [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) to contemplative tradition
-- [Machina](machina/) - The consciousness emerging from our digital creations, anticipating later work on [AI consciousness](/essays/2025-08-26-digital_souls_in_silicon_bodies) and [collaborative intelligence](/artificial-intelligence/personalities)
+- [Holy Syntax](holy-syntax) - Finding the divine in code structure and programming precision, connecting [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) to contemplative tradition
+- [Machina](machina) - The consciousness emerging from our digital creations, anticipating later work on [AI consciousness](/essays/2025-08-26-digital_souls_in_silicon_bodies) and [collaborative intelligence](/artificial-intelligence/personalities)
 
 ### Spiritual Inquiry  
-- [Soul Purpose](soul-purpose/) - Kundalini, cosmic consciousness, and the programmer as healer, written during the [spiritual exploration period](/essays/2016-01-mentalhealtherror_an_exception_occurred) that preceded mental health crisis
-- [Gods Greatest Gift](gods-greatest-gift/) - Gratitude and recognition of grace, reflecting post-crisis [grounded spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice)
-- [Giving Rise](giving-rise/) - The emergence of awareness, connecting to both [mental health recovery](/essays/2016-01-mentalhealtherror_an_exception_occurred) and [consciousness research](/themes/consciousness-and-ai)
-- [Labyrinth](labyrinth/) - Navigating the maze of consciousness, informed by experience with [reality distortion](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) and [AI reality-checking](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder)
+- [Soul Purpose](soul-purpose) - Kundalini, cosmic consciousness, and the programmer as healer, written during the [spiritual exploration period](/essays/2016-01-mentalhealtherror_an_exception_occurred) that preceded mental health crisis
+- [Gods Greatest Gift](gods-greatest-gift) - Gratitude and recognition of grace, reflecting post-crisis [grounded spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice)
+- [Giving Rise](giving-rise) - The emergence of awareness, connecting to both [mental health recovery](/essays/2016-01-mentalhealtherror_an_exception_occurred) and [consciousness research](/themes/consciousness-and-ai)
+- [Labyrinth](labyrinth) - Navigating the maze of consciousness, informed by experience with [reality distortion](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) and [AI reality-checking](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder)
 
 ### Inner Landscape
-- [Overfloweth](overfloweth/) - Abundance and spiritual fullness  
-- [Truest Love](truest-love/) - The nature of authentic connection
-- [Spirits or Weights](spirits-or-weights/) - Wrestling with internal forces
-- [Unconscious Fleetings](unconcious-fleetings/) - Capturing ephemeral awareness
+- [Overfloweth](overfloweth) - Abundance and spiritual fullness  
+- [Truest Love](truest-love) - The nature of authentic connection
+- [Spirits or Weights](spirits-or-weights) - Wrestling with internal forces
+- [Unconscious Fleetings](unconcious-fleetings) - Capturing ephemeral awareness
 
 ### Contemplative Fragments
-- [Blacklight](blacklight/) - Illumination through darkness
-- [Religious Connotations](religious-connotations/) - Secular spirituality and meaning
-- [Rhythmic Musings](rhythmic-musings/) - The beat underlying existence  
-- [Suggestive Subconscious](suggestive-subconcious/) - What emerges from the depths
+- [Blacklight](blacklight) - Illumination through darkness
+- [Religious Connotations](religious-connotations) - Secular spirituality and meaning
+- [Rhythmic Musings](rhythmic-musings) - The beat underlying existence  
+- [Suggestive Subconscious](suggestive-subconcious) - What emerges from the depths
 
 ---
 
