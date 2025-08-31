@@ -24,26 +24,24 @@ That's it. Three commands, two pipes, one result. The data flows naturally from 
 Now try the same thing in Python:
 
 ```python
-import os
-import re
+from pathlib import Path
 
 count = 0
 
-# Walk through all directories.
-for root, dirs, files in os.walk('.'):
-    for file in files:
-        # Check if it's a Python file.
-        if file.endswith('.py'):
-            filepath = os.path.join(root, file)
-            try:
-                # Open and search each file.
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    for line in f:
-                        if 'import requests' in line:
-                            count += 1
-            except (IOError, UnicodeDecodeError):
-                # Handle files we can't read.
-                pass
+# Find all Python files recursively.
+for py_file in Path('.').rglob('*.py'):
+    
+    try:
+        # Read file and count matching lines.
+        content = py_file.read_text(encoding='utf-8')
+        
+        for line in content.splitlines():
+            if 'import requests' in line:
+                count += 1
+                
+    except (IOError, UnicodeDecodeError):
+        # Handle files we can't read.
+        pass
 
 if __name__ == "__main__":
     print(count)
