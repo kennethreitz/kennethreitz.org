@@ -25,36 +25,31 @@ Now try the same thing in Python:
 
 ```python
 import os
-import subprocess
+import re
 
-# First, find all Python files.
-result = subprocess.run(
-    ["find", ".", "-name", "*.py"],
-    capture_output=True,
-    text=True
-)
-files = result.stdout.strip().split('\n')
-
-# Then grep each file.
 count = 0
-for f in files:
-    # Check for empty strings.
-    if f:
-        grep_result = subprocess.run(
-            ["grep", "import requests", f],
-            capture_output=True,
-            text=True
-        )
-        if grep_result.stdout:
-            count += len(grep_result.stdout.strip().split('\n'))
-        else:
-            count += 0
+
+# Walk through all directories.
+for root, dirs, files in os.walk('.'):
+    for file in files:
+        # Check if it's a Python file.
+        if file.endswith('.py'):
+            filepath = os.path.join(root, file)
+            try:
+                # Open and search each file.
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        if 'import requests' in line:
+                            count += 1
+            except (IOError, UnicodeDecodeError):
+                # Handle files we can't read.
+                pass
 
 if __name__ == "__main__":
     print(count)
 ```
 
-The Python version is more "proper" programming, but it's also more verbose, more error-prone, and honestly, more complex for what should be a simple task. We've taken something that flows naturally and turned it into a state management problem.
+The Python version is more "proper" programming, but it's also more verbose, more error-prone, and honestly, more complex for what should be a simple task. We need explicit encoding handling, exception management for unreadable files, path joining logic. We've taken something that flows naturally and turned it into a state management problem.
 
 ## The Misunderstood Language
 
