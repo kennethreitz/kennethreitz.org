@@ -1,4 +1,4 @@
-# Algorithmic Critique: When Engagement Optimization Destroys Human Flourishing
+# The Algorithm Eats Everything
 
 A comprehensive examination of how algorithmic systems designed for engagement maximization systematically undermine virtue, mental health, language, and human connection.
 
