@@ -764,7 +764,7 @@ def collect_blog_posts():
 
 # Cache with TTL - cleared when date extraction logic changes
 _blog_posts_cache = {'data': None, 'timestamp': 0}
-CACHE_TTL = 300  # 5 minutes cache
+CACHE_TTL = 36000  # 10 hours cache
 
 # Force cache invalidation for filename change
 import time
@@ -952,6 +952,15 @@ def _collect_all_blog_posts_cached():
 def collect_all_blog_posts():
     """Public function to collect all blog posts - converts cached tuple back to list."""
     return list(_collect_all_blog_posts_cached())
+
+
+def preload_blog_posts():
+    """Preload blog posts cache at startup for faster initial page loads."""
+    print("Preloading blog posts cache...")
+    start_time = time.time()
+    posts = _collect_all_blog_posts_cached()
+    load_time = time.time() - start_time
+    print(f"Loaded {len(posts)} posts in {load_time:.2f}s")
 
 
 def find_related_posts(current_post_path, limit=3):
@@ -1164,4 +1173,6 @@ def rss_feed():
     return Response(rss_content, mimetype='application/rss+xml')
 
 if __name__ == '__main__':
+    # Preload blog posts cache for faster initial page loads
+    preload_blog_posts()
     app.run(debug=True, host='0.0.0.0', port=8000)
