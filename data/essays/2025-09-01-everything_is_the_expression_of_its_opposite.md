@@ -117,7 +117,7 @@ This isn't just abstract philosophizing. Understanding reality as expressed thro
 
 **For AI Development**: Stop trying to create intelligence by modeling what intelligence is. Model what it isn't. The negative space might be more important than the positive.
 
-**For Mental Health**: Depression isn't the absence of happiness—it's its own positive state that exists in opposition. You can't remove depression without understanding what it's opposing<label for="sn-depression-duality" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-depression-duality" class="margin-toggle"/><span class="sidenote">This is why simple "think positive" approaches fail. Depression and happiness aren't opposites—they're complex states that define aspects of each other. Sometimes depression is the psyche's way of opposing something unbearable.</span>.
+**For Problem-Solving**: Sometimes the solution isn't adding something—it's removing what opposes the desired state. Debugging works by eliminating what shouldn't be there, not by adding more code.
 
 **For System Design**: Build systems that embrace opposition rather than trying to eliminate it. Conflict, properly channeled, creates resilience. This is why [diverse open source communities](/themes/open-source-and-community) often produce better code than harmonious corporate teams.
 
