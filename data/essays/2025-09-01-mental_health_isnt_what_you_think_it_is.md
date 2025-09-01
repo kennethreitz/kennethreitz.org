@@ -31,6 +31,7 @@ This sanitized approach to mental health creates real harm in workplace and prof
 - **Performance reviews** that penalize the attention fragmentation caused by anxiety or depression, while offering mindfulness apps as a solution.
 - **"Open door" policies** for mental health discussions that become grounds for questioning someone's ability to handle responsibility.
 - **Wellness initiatives** that focus on stress management while maintaining work environments that systematically generate psychological distress.
+- **Mandatory meditation or wellness team-building** that can trigger manic episodes or dissociative states in certain individuals, with no consideration for how these practices affect different neurological conditions.
 - **Accommodation requests** treated as personal failings rather than necessary adjustments for neurological differences.
 
 The wellness version of mental health allows organizations to claim they're supportive while avoiding the harder work of creating environments that don't actively undermine psychological functioning. It's much easier to offer meditation apps than to examine whether your sprint planning process creates artificial urgency that triggers anxiety disorders.
@@ -39,16 +40,15 @@ The wellness version of mental health allows organizations to claim they're supp
 
 ## The Messier Reality
 
-Actual mental health involves things like:
-- **Reality testing**: Can you distinguish between what's actually happening and what your anxiety is telling you is happening? This is harder than it sounds when your brain is optimized for threat detection rather than accuracy.
+Actual mental health involves **reality testing**—can you distinguish between what's actually happening and what your anxiety is telling you is happening? This is harder than it sounds when your brain is optimized for threat detection rather than accuracy.
 
-- **Emotional regulation**: Not "staying positive," but learning to work with emotional systems that often operate independently of rational thought. Sometimes you feel terrible for no reason your conscious mind can identify.
+It involves **emotional regulation**—not "staying positive," but learning to work with emotional systems that often operate independently of rational thought. Sometimes you feel terrible for no reason your conscious mind can identify.
 
-- **Identity coherence**: Maintaining some stable sense of who you are across different contexts, moods, and time periods. This is particularly challenging when your brain chemistry changes or when external circumstances shift rapidly.
+It requires **identity coherence**—maintaining some stable sense of who you are across different contexts, moods, and time periods. This is particularly challenging when your brain chemistry changes or when external circumstances shift rapidly.
 
-- **Decision-making under uncertainty**: Making choices when your brain is providing unreliable information about risks, rewards, and consequences. Depression makes everything seem pointless; anxiety makes everything seem dangerous.
+Mental health means **decision-making under uncertainty**—making choices when your brain is providing unreliable information about risks, rewards, and consequences. Depression makes everything seem pointless; anxiety makes everything seem dangerous.
 
-- **Social functioning**: Navigating relationships when your internal experience doesn't match what others can observe. Learning to communicate about internal states that have no direct external correlates.
+And it involves **social functioning**—navigating relationships when your internal experience doesn't match what others can observe. Learning to communicate about internal states that have no direct external correlates.
 
 The real version is about debugging human consciousness in real-time, often with incomplete information and unreliable internal feedback systems.
 
