@@ -13,4 +13,4 @@ RUN uv pip install .
 WORKDIR /app
 
 COPY . .
-CMD ["uv", "run", "engine.py"]
+CMD ["uv", "run", "gunicorn", "--bind", "0.0.0.0:8000", "--workers", "2", "--threads", "4", "--timeout", "60", "engine:app"]
