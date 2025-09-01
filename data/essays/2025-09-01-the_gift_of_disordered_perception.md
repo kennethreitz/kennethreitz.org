@@ -30,16 +30,16 @@ The intense focus that sometimes gets characterized as obsessive can be valuable
 There's an important distinction that sometimes gets conflated in discussions of criticism: the difference between clinical paranoia and accurate pattern recognition.
 
 **Clinical Paranoia:**
-- Believes in persecution without evidence
-- Sees malicious intent where none exists
-- Cannot integrate contradictory evidence
-- Impairs functioning across multiple domains
+- Believes in persecution without evidence.
+- Sees malicious intent where none exists.
+- Cannot integrate contradictory evidence.
+- Impairs functioning across multiple domains.
 
 **Accurate Pattern Recognition:**
-- Documents evidence of problematic behavior
-- Distinguishes between individual malice and systemic dysfunction
-- Updates beliefs when presented with new information
-- Maintains effective functioning while analyzing systems
+- Documents evidence of problematic behavior.
+- Distinguishes between individual malice and systemic dysfunction.
+- Updates beliefs when presented with new information.
+- Maintains effective functioning while analyzing systems.
 
 The key difference? Paranoia believes everyone's out to get you. Pattern recognition identifies which specific systems actually are.
 
