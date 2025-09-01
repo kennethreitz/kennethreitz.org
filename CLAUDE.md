@@ -30,6 +30,7 @@ This is Kenneth Reitz's personal website and digital garden. When working on thi
 - Link to related themes and other essays where appropriate
 - Use concrete examples from Kenneth's experience building software and managing mental health
 - If using a bulleted list, end with a period for consistency.
+- Use varying setence length, generally.
 
 ### Poetry
 - Two main collections: Sanskrit Musings (AI-generated Sanskrit with translations) and Flowetry (rhythm-focused)
