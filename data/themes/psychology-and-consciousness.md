@@ -17,6 +17,7 @@ An exploration of psychological phenomena, consciousness studies, and the inters
 ## Mental Health & Personal Experience
 
 ### Living with Mental Health Conditions
+- **[The Gift of Disordered Perception](/essays/2025-09-01-the_gift_of_disordered_perception)** - How conditions that distort reality can reveal consciousness mechanics invisible to typical perception
 - **[The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency)** - Personal experience of systematic discrimination for living openly with schizoaffective disorder
 - **[Using AI for Reality Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder)** - Innovative approaches to mental health support through AI collaboration
 - **[Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care)** - Moving from patient to partner in treatment
