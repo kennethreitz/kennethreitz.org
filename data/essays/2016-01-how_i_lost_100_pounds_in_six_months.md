@@ -25,7 +25,9 @@
 
  The video below had resonated with me for years — it's a very human\-friendly technical talk that pitches fructose as being a literal toxin. I took this information quite seriously, integrated it into my diet, and found it to not be untrue. *At all*.
 
- <iframe width="640" height="480" src="https://www.youtube.com/embed/dBnniua6-oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> **tl;dw**: An obscene amount of fructose is in almost all processed foods in America. When not consumed with an appropriate amount of dietary fiber (which is normally removed intentionally to improve shelf\-life), your liver gets overloaded. It effectively does not have enough chemical bandwidth to process the incoming fructose. The end result is an effect on the system nearly identical to that of ethanol, while causing the body's appetite system to grossly misbehave. By definition, a toxic substance. 
+<iframe width="640" height="480" src="https://www.youtube.com/embed/dBnniua6-oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**tl;dw**: An obscene amount of fructose is in almost all processed foods in America. When not consumed with an appropriate amount of dietary fiber (which is normally removed intentionally to improve shelf\-life), your liver gets overloaded. It effectively does not have enough chemical bandwidth to process the incoming fructose. The end result is an effect on the system nearly identical to that of ethanol, while causing the body's appetite system to grossly misbehave. By definition, a toxic substance. 
 
  **Removing excessive sugar from my diet was the only thing I needed to do** **to lose 100 pounds in 6 months.** *I did not specifically exercise.*
 
