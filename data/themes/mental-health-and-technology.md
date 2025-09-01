@@ -6,6 +6,7 @@ A curated exploration of the intersection between mental health, technology, and
 
 ### Living with Mental Health in Tech
 - [Mental Health Journey](/mental-health) - Personal experience with bipolar disorder and schizoaffective diagnosis in the tech world
+- [The Gift of Disordered Perception](/essays/2025-09-01-the_gift_of_disordered_perception) - Why neurodivergent minds often see truths that "normal" perception misses
 - [Using AI for Reality Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) - Innovative approaches to mental health support
 - [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care) - From patient to partner in treatment
 
