@@ -73,13 +73,6 @@ Collaboration with [AI systems](/artificial-intelligence/) offers unique opportu
 
 For neurodivergent researchers, AI collaboration provides external validation of observed patterns without social judgment. It offers access to alternative processing methodologies that complement rather than attempt to "correct" neurodivergent analytical approaches. This collaboration facilitates organization and presentation of findings in formats accessible to neurotypical audiences while preserving essential insights.
 
-## The Institutional Imperative
-
-Neurodivergent perspectives provide essential value to society precisely because they illuminate truths that consensus reality mechanisms systematically obscure. The cognitive characteristics often pathologized—intense focus, heightened sensitivity to injustice, resistance to authority, alternative information processing—constitute necessary components of healthy institutional oversight.
-
-Current medical frameworks emphasize deficits over capabilities, focusing on pathological correction rather than recognizing how neurodivergent traits confer specific advantages in particular contexts.<label for="sn-medical" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-medical" class="margin-toggle"/>
-<span class="sidenote">This isn't to dismiss the genuine challenges of neurodivergent conditions or the need for appropriate treatment, but rather to recognize that traits like intense focus, emotional sensitivity, and nonconformity can be assets in specific contexts, particularly for systems analysis and social critique.</span> Rather than attempting to normalize these minds completely, we should develop structures that harness their unique capabilities while providing appropriate support for associated challenges.
 
 ## Practical Applications
 
