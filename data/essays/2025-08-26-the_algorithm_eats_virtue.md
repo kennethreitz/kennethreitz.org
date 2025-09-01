@@ -140,9 +140,8 @@ The algorithm doesn't have to eat virtue. We can choose to feed it something els
 ## Related Reading
 
 ### On This Site
-- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Clinical analysis of psychological damage from algorithmic systems
-- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How engagement optimization degrades communication
-- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify human connection
+- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade human communication capacity
+- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify romantic connection
 - [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms undermine democratic discourse
 - [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
 - [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How engagement optimization destroys natural temporal rhythms and deep attention

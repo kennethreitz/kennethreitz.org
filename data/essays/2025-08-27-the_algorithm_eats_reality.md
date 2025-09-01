@@ -87,9 +87,9 @@ Anyway, turns out reality is just another optimization target.
 
 ### On This Site
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization systematically rewards vice over virtue
-- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms undermine democratic discourse 
-- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Psychological manipulation through engagement optimization
 - [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade communication itself
+- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify human connection
+- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms undermine democratic discourse
 - [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How temporal manipulation creates constant urgency around manufactured realities
 - [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How the artificial manufacture of reality reflects the recursive feedback loops between human consciousness and algorithmic systems that might be creating hybrid forms of intelligence
 - [Algorithmic Critique](/themes/algorithmic-critique) - Complete thematic collection on engagement optimization's costs
