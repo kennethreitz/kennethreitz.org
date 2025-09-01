@@ -25,7 +25,7 @@ This version treats mental health like physical fitness—something you can opti
 ## The Messier Reality
 
 Actual mental health involves things like:
-- **Reality testing**: Can you distinguish between what's actually happening and what your anxiety is telling you is happening? This is harder than it sounds when your brain is optimized for threat detection rather than accuracy<label for="sn-reality-testing" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-reality-testing" class="margin-toggle"/><span class="sidenote">In [Mental Health Error Checking](/essays/2025-08-26-mental_health_error_checking), I wrote about applying debugging techniques to consciousness: "Your brain is a system running complex code. Sometimes that code has bugs."</span>.
+- **Reality testing**: Can you distinguish between what's actually happening and what your anxiety is telling you is happening? This is harder than it sounds when your brain is optimized for threat detection rather than accuracy.
 
 - **Emotional regulation**: Not "staying positive," but learning to work with emotional systems that often operate independently of rational thought. Sometimes you feel terrible for no reason your conscious mind can identify.
 
