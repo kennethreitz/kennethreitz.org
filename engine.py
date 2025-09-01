@@ -6,7 +6,6 @@ import re
 from datetime import datetime
 from urllib.parse import quote
 import json
-from functools import lru_cache
 import time
 from xml.sax.saxutils import escape
 import html
@@ -160,9 +159,8 @@ def extract_tags_from_content(content, metadata, file_path):
     return list(tags)
 
 
-@lru_cache(maxsize=128)
 def render_markdown_file(file_path):
-    """Render a markdown file to HTML with caching for performance."""
+    """Render a markdown file to HTML."""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
