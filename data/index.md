@@ -10,7 +10,7 @@ The collection reflects a journey from purely technical concerns toward deeper q
 
 • **[Poetry](/poetry)** — Creative writing where abstract concepts find concrete expression. Whether exploring consciousness through Sanskrit-influenced verse or collaborating with AI systems on generative poetry, these pieces attempt to bridge the analytical and the intuitive, the technical and the spiritual.
 
-• **[Software](/software)** — Tools designed around the "For Humans" philosophy—the belief that technology should amplify rather than complicate human potential. From Requests to Pipenv, these projects demonstrate how technical excellence and empathetic design can create tools that millions of developers trust and enjoy using.
+• **[Software](/software)** — Tools designed around the "For Humans" philosophy—the belief that technology should amplify rather than complicate human potential. From [Requests](/software/requests) to [Certifi](/software/certifi) to [Pipenv](/software/pipenv), these projects demonstrate how technical excellence and empathetic design can create tools that millions of developers trust and enjoy using.
 
 • **[Mental Health](/mental-health)** — Personal reflections documenting the ongoing relationship between creativity, technology, and psychological well-being. These pieces attempt honest exploration of living with bipolar disorder while building systems that others depend on—the intersection of vulnerability and responsibility.
 

@@ -8,7 +8,7 @@ You can find more projects on my [GitHub profile](https://github.com/kennethreit
 
 I write software for a variety of reasons. Sometimes, I write software to solve a problem that I have. Other times, I write software to learn something new. I also write software to help others solve their problems.<label for="sn-problems" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-problems" class="margin-toggle"/>
-<span class="sidenote">This "scratch your own itch" philosophy led to Requests (solving HTTP frustration), Certifi (certificate headaches), and Pipenv (workflow pain points).</span> I have found, however, that the most rewarding software projects are those that are written to help yourself.
+<span class="sidenote">This "scratch your own itch" philosophy led to Requests (solving HTTP frustration), [Certifi](/software/certifi) (certificate headaches), and Pipenv (workflow pain points).</span> I have found, however, that the most rewarding software projects are those that are written to help yourself.
 
 I have always had a fascination and love for software and the computers that ran them.<label for="sn-fascination" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-fascination" class="margin-toggle"/>
