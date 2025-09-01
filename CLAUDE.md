@@ -29,6 +29,7 @@ This is Kenneth Reitz's personal website and digital garden. When working on thi
 - Focus on the intersection of technology, consciousness, and human wellbeing
 - Link to related themes and other essays where appropriate
 - Use concrete examples from Kenneth's experience building software and managing mental health
+- If using a bulleted list, end with a period for consistency.
 
 ### Poetry
 - Two main collections: Sanskrit Musings (AI-generated Sanskrit with translations) and Flowetry (rhythm-focused)
@@ -53,7 +54,7 @@ This is Kenneth Reitz's personal website and digital garden. When working on thi
 3. Make changes that enhance clarity without losing depth
 
 **When creating new content:**
-1. Check related essays/themes for cross-linking opportunities  
+1. Check related essays/themes for cross-linking opportunities
 2. Use Kenneth's established voice and philosophical framework
 3. Ground abstract concepts in concrete experience
 
