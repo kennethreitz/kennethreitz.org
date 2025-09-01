@@ -58,6 +58,7 @@ Pattern recognition matured into comprehensive analysis of how technological sys
 - **[Love](/essays/2025-08-27-the_algorithm_eats_love)** - Commodified connection.
 - **[Democracy](/essays/2025-08-27-the_algorithm_eats_democracy)** - Impossible discourse.
 - **[Reality](/essays/2025-08-27-the_algorithm_eats_reality)** - Manufactured consensus.
+- **[Time](/essays/2025-09-01-the_algorithm_eats_time)** - Temporal colonization and fragmented attention.
 
 ### Institutional Analysis
 - **[The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion)** - Performative diversity.
