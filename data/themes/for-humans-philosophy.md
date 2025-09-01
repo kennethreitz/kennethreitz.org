@@ -50,6 +50,7 @@ A comprehensive exploration of human-centered design principles that prioritize 
 ### Writing & Communication
 - Clear, direct communication over technical jargon
 - Empathy as engineering skill
+- [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) - Honest discourse about consciousness maintenance versus wellness culture
 - [Mental Health](/mental-health) - Honest, human communication about struggle
 - [MentalHealthError](/essays/2016-01-mentalhealtherror_an_exception_occurred) - Vulnerability as service to community
 - [The Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) - Pattern recognition through personal disclosure
