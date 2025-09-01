@@ -72,6 +72,8 @@ The Hermetic Principle of Polarity—"everything is dual; everything has poles; 
 
 Whether you're looking at DNA base pairs, neural network activations, quantum spin states, or consciousness distinguishing self from not-self, the same fundamental pattern emerges: meaningful information requires opposition.
 
+This connects to my earlier work on [consciousness as linguistic phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon)—if consciousness is fundamentally patterns of language and mathematics, then it makes sense that it would follow the same binary opposition patterns we see everywhere else in information systems.
+
 ## Consciousness as Self-Negation
 
 This is where it gets weird. Consciousness might be the universe's way of experiencing its own opposite. We are the not-universe observing the universe. The subject exists only because there's an object. The self exists only because there's everything that's not-self.
