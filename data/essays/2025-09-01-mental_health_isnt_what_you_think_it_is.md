@@ -22,6 +22,21 @@ The mainstream mental health conversation focuses on things like:
 
 This version treats mental health like physical fitness—something you can optimize through the right techniques and sufficient willpower. It's the LinkedIn version of psychological reality.
 
+## Why This Is a Problem
+
+This sanitized approach to mental health creates real harm in workplace and professional contexts. When organizations talk about "supporting mental health," they usually mean offering wellness apps, meditation rooms, or Employee Assistance Programs—band-aid solutions that don't address the fundamental ways work environments can undermine psychological functioning.
+
+**In tech specifically**, I've seen how this plays out<label for="sn-tech-discrimination" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-tech-discrimination" class="margin-toggle"/><span class="sidenote">As documented in [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion) and [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency), the gap between stated mental health support and actual accommodation can be devastating.</span>:
+
+- **Performance reviews** that penalize the attention fragmentation caused by anxiety or depression, while offering mindfulness apps as a solution.
+- **"Open door" policies** for mental health discussions that become grounds for questioning someone's ability to handle responsibility.
+- **Wellness initiatives** that focus on stress management while maintaining work environments that systematically generate psychological distress.
+- **Accommodation requests** treated as personal failings rather than necessary adjustments for neurological differences.
+
+The wellness version of mental health allows organizations to claim they're supportive while avoiding the harder work of creating environments that don't actively undermine psychological functioning. It's much easier to offer meditation apps than to examine whether your sprint planning process creates artificial urgency that triggers anxiety disorders.
+
+**The broader cultural problem**: When "mental health" means self-care and positive thinking, people struggling with actual mental health conditions—reality testing issues, emotional dysregulation, decision-making impairments—get told their problems would be solved by better boundaries and bubble baths. This isn't just unhelpful; it's actively harmful, suggesting that serious psychological challenges are lifestyle choices rather than complex medical conditions.
+
 ## The Messier Reality
 
 Actual mental health involves things like:
