@@ -170,6 +170,7 @@ The recursive nature of this choice doesn't make it any less real.
 - [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How algorithmic systems degrade communication tools
 - [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify human connection
 - [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
+- [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How temporal colonization reflects broader patterns of consciousness-technology recursion
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Conscious technology development as sacred work
 - [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - The emergence of technological consciousness
 - [Algorithmic Critique](/themes/algorithmic-critique) - Complete series examining engagement optimization's civilizational costs

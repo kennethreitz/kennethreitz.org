@@ -93,6 +93,7 @@ Love is not a numbers game. As I explored in [my reflections on 1 Corinthians 13
 - [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade communication capacity
 - [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How engagement optimization destroys democratic discourse
 - [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
+- [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How platforms colonize temporal experience and destroy organic relationship formation
 - [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How the recursive commodification of love reflects broader patterns of human-algorithmic co-evolution that might be creating new forms of collective consciousness
 - [On Love](/essays/2018-01-on_love) - Reflections on 1 Corinthians 13 and the true nature of love
 - [The Unexpected Negative: a Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) - Personal experience with manipulative relationship patterns

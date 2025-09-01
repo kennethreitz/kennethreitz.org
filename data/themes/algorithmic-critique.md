@@ -35,6 +35,10 @@ Having spent fifteen years creating [software that prioritizes human mental mode
 - **[The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality)** - How artificial amplification and coordinated inauthentic behavior manufacture consensus and fracture shared understanding.
 - **Core insight**: Modern influence operations exploit engagement optimization to weaponize our basic capacity to distinguish authentic human expression from manufactured manipulation.
 
+### Temporal Colonization
+- **[The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time)** - How engagement optimization destroys our natural relationship with time, patience, and presence.
+- **Core insight**: Algorithms fragment temporal experience into notification-sized chunks, creating chronic temporal anxiety and destroying our capacity for deep, sustained attention.
+
 ### Recursive Systems
 - **[The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself)** - How recursive feedback loops between human consciousness and algorithmic systems create hybrid forms of intelligence.
 - **Core insight**: We are not separate from our technological creations—we're co-evolving in recursive patterns that could lead to regenerative symbiosis or mutual consumption.
@@ -73,6 +77,7 @@ The psychological sensitivity to recognize these patterns developed through pers
 
 ### What We've Lost
 - **Organic relationship formation** through shared spaces and repeated exposure, replaced by [algorithmic matching that optimizes for engagement rather than compatibility](/essays/2025-08-27-the_algorithm_eats_love)<label for="sn-organic-relationships" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-organic-relationships" class="margin-toggle"/><span class="sidenote">Traditional courtship involved repeated low-stakes interactions that allowed compatibility assessment without optimization pressure. Dating apps gamify human connection, creating psychological pressure that inhibits the vulnerability necessary for genuine bonding.</span>
+- **Natural temporal rhythms** and the ability to inhabit present moments, replaced by [chronic temporal anxiety and fragmented attention spans](/essays/2025-09-01-the_algorithm_eats_time)
 - **Contemplative thought** that requires sustained attention, replaced by [attention fragmentation systems](/essays/2025-08-26-the_algorithm_eats_virtue) designed to prevent deep focus<label for="sn-contemplation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-contemplation" class="margin-toggle"/><span class="sidenote">Contemplation requires what psychologists call "sustained voluntary attention"—the ability to focus on chosen objects of thought for extended periods. Algorithmic systems deliberately fragment attention through variable reward schedules that make sustained focus feel cognitively uncomfortable.</span>
 - **Nuanced communication** that builds understanding across difference, replaced by [engagement optimization that rewards inflammatory oversimplification](/essays/2025-08-27-the_algorithm_eats_language)
 - **Character development** through virtue practice, replaced by [performance optimization for algorithmic visibility](/essays/2025-08-26-the_algorithm_eats_virtue)

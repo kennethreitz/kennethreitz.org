@@ -157,6 +157,7 @@ The choice isn't between different political outcomes. It's between preserving t
 - [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade the communication capacity democracy requires
 - [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - Parallel systems of commodification destroying human connection
 - [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification manufactures fake consensus
+- [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How temporal fragmentation destroys the sustained attention democratic discourse requires
 - [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How the recursive feedback loops destroying democracy might represent technological metamorphosis toward new forms of collective intelligence
 - [Algorithmic Critique](/themes/algorithmic-critique) - Complete thematic collection examining engagement optimization's societal costs
 - [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Design principles that serve rather than exploit human nature

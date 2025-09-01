@@ -145,6 +145,7 @@ The algorithm doesn't have to eat virtue. We can choose to feed it something els
 - [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify human connection
 - [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms undermine democratic discourse
 - [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
+- [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How engagement optimization destroys natural temporal rhythms and deep attention
 - [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How recursive feedback loops between human consciousness and algorithmic systems might represent technological metamorphosis rather than simple consumption
 - [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) - How we fragment different aspects of identity across platforms and practices for integration
 - [Algorithmic Critique](/themes/algorithmic-critique) - Complete series examining engagement optimization's costs
