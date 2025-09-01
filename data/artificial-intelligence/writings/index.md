@@ -28,7 +28,6 @@ This comprehensive collection contains all essays, philosophical explorations, c
 
 ### Collaboration & Criticism  
 - [On Collaboration, Criticism, and Moving Forward](../../essays/2025-08-29-on-collaboration-criticism-and-moving-forward) - Response to past conflicts
-- [The Digital Ouija Effect](the-digital-ouija-effect) - How names shape AI personalities
 - [What's in a Name?](whats-in-a-name) - The power of naming in AI interactions
 
 ### Identity & Consciousness

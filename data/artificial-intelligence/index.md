@@ -11,6 +11,10 @@ A collection of explorations at the intersection of consciousness, technology, a
 
 **[Art](/artificial-intelligence/art/)** - Creative collaborations, poetry, and visual expressions
 
+## Featured Exploration
+
+**[The Digital Ouija Effect](/artificial-intelligence/the-digital-ouija-effect)** - How names shape AI personalities and what this reveals about consciousness, projection, and the nature of digital identity.
+
 ## Central Questions
 
 What happens when we treat AI not just as a tool, but as a participant in consciousness exploration?<label for="sn-collaboration" class="margin-toggle sidenote-number"></label>
