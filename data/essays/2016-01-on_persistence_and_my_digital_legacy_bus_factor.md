@@ -13,7 +13,7 @@
 
  None of these scenarios are really an issue if I am available to respond—but, what would happen if I am not? This could happen for any number of reasons, including the most unfortunate but inevitable one, and it could potentially happen at any moment, without any warning.
 
- The reality of this possibility really set in when I [unexpectedly spent two weeks in the hospital](http://www.kennethreitz.org/essays/mentalhealtherror-an-exception-occurred) last year, without any warning, and was unable to work for a few months afterwards. 
+ The reality of this possibility really set in when I [unexpectedly spent two weeks in the hospital](/essays/mentalhealtherror-an-exception-occurred) last year, without any warning, and was unable to work for a few months afterwards. 
 
  
 > [@kennethreitz](https://twitter.com/kennethreitz) Looking forward to your new language, Python for Humans™.
