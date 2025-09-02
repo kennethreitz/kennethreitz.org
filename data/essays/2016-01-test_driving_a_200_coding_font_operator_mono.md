@@ -11,17 +11,17 @@
 
  I've invested a lot of time in optimizing my development environment and workspace — and typefaces are a large part of that. 
 
- Over the years, I've cascaded through a number of monospaced typefaces for coding, including— Monaco, MS Consalas, Inconsolas, Inconsolata\-dz, and Ubuntu Mono.
+ Over the years, I've cascaded through a number of monospaced typefaces for coding, including— Monaco, MS Consalas, Inconsolas, Inconsolata-dz, and Ubuntu Mono.
 
  [Ubuntu Mono](http://font.ubuntu.com) was my favorite monospaced typeface, used longer than any other, until I started using Operator Mono about six months ago.
 
- The *Hoefler \& Co.* type foundry released [Operator Mono](http://www.typography.com/blog/introducing-operator) around this time—a very thoughtfully handcrafted typeface inspired by the pica\-ruled days of typewriters. It is beautiful, and I have found it to be a pleasure to use.
+ The *Hoefler & Co.* type foundry released [Operator Mono](http://www.typography.com/blog/introducing-operator) around this time—a very thoughtfully handcrafted typeface inspired by the pica-ruled days of typewriters. It is beautiful, and I have found it to be a pleasure to use.
 
  ## Operator Mono for Programming
 
  I find that different typefaces (as well as [color schemes](/essays/sublime-text-2-love)) both set the mood for my development environment, as well as offer utility in the way that I parse programmable text. 
 
- While using *Operator Mono*, I found that I scan entire words as I read code more easily; while in other typefaces, my parsing style is often more letter\-by\-letter. 
+ While using *Operator Mono*, I found that I scan entire words as I read code more easily; while in other typefaces, my parsing style is often more letter-by-letter. 
 
  This observation could be written off as a subjective one, but I am all about the subjective, above all else — especially when it comes to my environments. 
 
@@ -47,9 +47,9 @@
 
  ## Relevant Links
 
- * [*Introducing Operator* by Hoefler \& Co.](http://www.typography.com/blog/introducing-operator)
+ * [*Introducing Operator* by Hoefler & Co.](http://www.typography.com/blog/introducing-operator)
 * [*Operator ScreenSmart Mono* on Typography.com](http://www.typography.com/fonts/operator/styles/operatorscreensmartpro) (*1 computer* license)
-* [pep8\.org](http://pep8.org/) utilizes this typeface throughout (code examples)
+* [pep8.org](http://pep8.org/) utilizes this typeface throughout (code examples)
 
  ## Bonus Integration Quirks
 

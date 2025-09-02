@@ -35,7 +35,7 @@ The internet is an untrusted place. Every HTTP request you make should have veri
 
  This project takes several different forms:
 
- * Prepared \& Processed [Raw CA Bundle](https://certifi-bundles.s3.amazonaws.com/latest.pem), containing latest Root Certificates.
+ * Prepared & Processed [Raw CA Bundle](https://certifi-bundles.s3.amazonaws.com/latest.pem), containing latest Root Certificates.
 * Distribution packages for [Python](https://pypi.python.org/pypi/certifi/), [Ruby](https://rubygems.org/gems/certifi), [Node](https://www.npmjs.org/package/certifi), and [Go](https://github.com/certifi/gocertifi).
 * An [email notification service](https://tinyletter.com/certifi) for root certificate changes.
 * Spreading educational service, love, and awareness into the world.
@@ -50,11 +50,11 @@ The internet is an untrusted place. Every HTTP request you make should have veri
 
  ॐ
 
- ## Moving Forward \& Getting Involved
+ ## Moving Forward & Getting Involved
 
  It would be great to get lots of helpful content up on [certifi.io](http://certifi.io) for all things related to trust, the web, and the future of this thing we're working together on. Send some pull requests! 
 
- **Hyper\-Links™**
+ **Hyper-Links™**
 
  * <http://certifi.io>
 * <https://github.com/certifi>

@@ -15,32 +15,32 @@ If you've been following me for any length of time, you have more than likely no
 
  One month, I will be convinced that one particular camera will be the only camera I will ever need for the rest of my life. The next month, I find it a weighty burden that I never want to be bothered with again.
 
- I, for one, welcome these ossilations. While it may appear that I “waste” a lot of time/energy/money on these shifts, I find these tides to bring some of my greatest bursts of creativity, art, joy, and happiness. So… time to change things up! 
+ I, for one, welcome these oscillations. While it may appear that I “waste” a lot of time/energy/money on these shifts, I find these tides to bring some of my greatest bursts of creativity, art, joy, and happiness. So… time to change things up! 
 
  ## Setting the Leica Aside
 
- Something lately has been pulling me away from my beloved Leica M. At first, I thought it was the much stuffer focus pull of my **[35 Summilux ASPH LFE](https://www.amazon.com/Leica-35mm-1-4-ASPH-Summilux-M/dp/B004GZ3AHU/ref=as_sl_pc_ss_til?tag=bookforkind-20&linkCode=w01&linkId=A4ZMVW6BRUQR7ZGM&creativeASIN=B004GZ3AHU)**. So, I exchanged it for a very lovely chrome version of my all-time favorite lens, the **[35 Summicron ASPH](http://www.amazon.com/gp/product/B0000AGAWV/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0000AGAWV&linkCode=as2&tag=bookforkind-20&linkId=7RTUNQFZSXLB4RFA)**. I also invested in a lovely new **[silk short\-neck strap by Artisan \& Artist](https://www.amazon.com/Artisan-Artist-Braided-Camera-Strap/dp/B005GXVJVU/ref=as_sl_pc_ss_til?tag=bookforkind-20&linkCode=w01&linkId=PYZEAGNALCEUPIUX&creativeASIN=B005GXVJVU)**. 
+ Something lately has been pulling me away from my beloved Leica M. At first, I thought it was the much stuffer focus pull of my **[35 Summilux ASPH LFE](https://www.amazon.com/Leica-35mm-1-4-ASPH-Summilux-M/dp/B004GZ3AHU/ref=as_sl_pc_ss_til?tag=bookforkind-20&linkCode=w01&linkId=A4ZMVW6BRUQR7ZGM&creativeASIN=B004GZ3AHU)**. So, I exchanged it for a very lovely chrome version of my all-time favorite lens, the **[35 Summicron ASPH](http://www.amazon.com/gp/product/B0000AGAWV/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0000AGAWV&linkCode=as2&tag=bookforkind-20&linkId=7RTUNQFZSXLB4RFA)**. I also invested in a lovely new **[silk short-neck strap by Artisan & Artist](https://www.amazon.com/Artisan-Artist-Braided-Camera-Strap/dp/B005GXVJVU/ref=as_sl_pc_ss_til?tag=bookforkind-20&linkCode=w01&linkId=PYZEAGNALCEUPIUX&creativeASIN=B005GXVJVU)**. 
 
- Both of these changes to my Leica setup proved to be fantastic improvements. I went on a two\-week long journey to Egypt with this rig, and I was very happy with the results. However, something was still missing. 
+ Both of these changes to my Leica setup proved to be fantastic improvements. I went on a two-week long journey to Egypt with this rig, and I was very happy with the results. However, something was still missing. 
 
  I simply don’t want to carry the camera around with me all the time. I ended up leaving it at home rather often, and it often felt like a burden to bring it out with me. What a strange phenomena!
 
  I’m still not sure why I feel this way. My current working theories are as follows: 
 
- * I’m tired of being forced to focus manually (iffy, I’ve been doing so for \*years\*).
+ * I’m tired of being forced to focus manually (iffy, I’ve been doing so for *years*).
 * It just weights too much (plausible, the M240 is the largest/heaviest Leica to date).
 
  But, at the end of the day, I don’t need to justify my feelings.  I just want to roll with them :)
 
  ## Upgrading to the Fujifilm x100t
 
- So — I decided to go “back to my roots” and return to my all\-time favorite camera sustem — the Fuji x100 series. In this case, the new **[black\-edition Fuji x100t](http://www.amazon.com/gp/product/B00NF6ZHNG/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NF6ZHNG&linkCode=as2&tag=bookforkind-20&linkId=UGZZ473TOKGFN36X).** 
+ So — I decided to go “back to my roots” and return to my all\-time favorite camera sustem — the Fuji x100 series. In this case, the new **[black-edition Fuji x100t](http://www.amazon.com/gp/product/B00NF6ZHNG/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NF6ZHNG&linkCode=as2&tag=bookforkind-20&linkId=UGZZ473TOKGFN36X).** 
 
 ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666516596-MICPWJEZO2RL7IDYO02Z/d0c42-7f0e5-image-asset.jpeg)
 
-Honestly, I’ve never been happier as a photographer as when I’ve been using a Fujifilm x100 exclusively as my camera. It’s truly the perfect system. Something seems to always pull me away from it though — the allure of the luxury, exlucisibity, and elitism of the Leica M is likely to blame. Of course, the glass the Leica offers simply cannot be beat, but is it worth the effort and the price (especially to someone that “shouldn’t” afford it?). Who’s to say. 
+Honestly, I’ve never been happier as a photographer as when I’ve been using a Fujifilm x100 exclusively as my camera. It’s truly the perfect system. Something seems to always pull me away from it though — the allure of the luxury, exclusivity, and elitism of the Leica M is likely to blame. Of course, the glass the Leica offers simply cannot be beat, but is it worth the effort and the price (especially to someone that “shouldn’t” afford it?). Who’s to say. 
 
- Regardless, the new **[Fujifilm x100t](http://www.amazon.com/gp/product/B00NF6ZHNG/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NF6ZHNG&linkCode=as2&tag=bookforkind-20&linkId=UGZZ473TOKGFN36X)** is the perfect camera for me. Mine just arrived a day ago! And much like my x100 and x100s before it, I have instantly fallen head over heals for this beautiful, excusitely designed camera. 
+ Regardless, the new **[Fujifilm x100t](http://www.amazon.com/gp/product/B00NF6ZHNG/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NF6ZHNG&linkCode=as2&tag=bookforkind-20&linkId=UGZZ473TOKGFN36X)** is the perfect camera for me. Mine just arrived a day ago! And much like my x100 and x100s before it, I have instantly fallen head over heals for this beautiful, exquisitely designed camera. 
 
 
 
@@ -84,7 +84,7 @@ Fuji has soul. 
 
  ## What’s Next?
 
- I’m holding onto the Leica M for a while. I may sell it, trade it for a Leica M2 \+ cash, ossilate back into Leica land, etc. Who knows, maybe it will make a perfect “once\-in\-a\-lifetime” gift for someone special one day :)
+ I’m holding onto the Leica M for a while. I may sell it, trade it for a Leica M2 + cash, oscillate back into Leica land, etc. Who knows, maybe it will make a perfect “once-in-a-lifetime” gift for someone special one day :)
 
  ## Relevant Links
 

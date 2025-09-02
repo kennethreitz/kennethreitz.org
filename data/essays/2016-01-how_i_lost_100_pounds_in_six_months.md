@@ -13,21 +13,21 @@
 
  I made the decision to start losing weight in November of 2013\.
 
- Inspired by a debilitating persistent migraine ([NDPH](https://en.wikipedia.org/wiki/New_daily_persistent_headache)) that I was determined to conquer, I decided to start optimizing all facets of my lifestyle—diet, habits, \&c. It was almost like a hobby, but with ending chronic pain as the end\-goal. I started practicing yoga daily and deep meditation ([perhaps a bit too deep](/essays/2016-01-mentalhealtherror_an_exception_occurred)). This holistic approach to health became foundational to understanding [how technology affects mental and physical wellbeing](/essays/2025-08-26-algorithmic_mental_health_crisis). 
+ Inspired by a debilitating persistent migraine ([NDPH](https://en.wikipedia.org/wiki/New_daily_persistent_headache)) that I was determined to conquer, I decided to start optimizing all facets of my lifestyle—diet, habits, &c. It was almost like a hobby, but with ending chronic pain as the end-goal. I started practicing yoga daily and deep meditation ([perhaps a bit too deep](/essays/2016-01-mentalhealtherror_an_exception_occurred)). This holistic approach to health became foundational to understanding [how technology affects mental and physical wellbeing](/essays/2025-08-26-algorithmic_mental_health_crisis). 
 
- When I started to re\-evaluate my diet, my primary goal was to improve that state of my brain and mind. I wanted to rid myself of this horrible migraine. The only useful tool I had at the time was a new prescription for Topamax—an excellent medication used for migraine prevention, and often, weight\-loss. So, this seemed like a good time to kill two birds with one stone. 
+ When I started to re-evaluate my diet, my primary goal was to improve that state of my brain and mind. I wanted to rid myself of this horrible migraine. The only useful tool I had at the time was a new prescription for Topamax—an excellent medication used for migraine prevention, and often, weight-loss. So, this seemed like a good time to kill two birds with one stone. 
 
- I experimented with a large handful of elimination diets, most of which were non\-conclusive. The most interesting elimination discovery was that of alcohol. My body absolutely hates alcohol nowadays, for some reason.
+ I experimented with a large handful of elimination diets, most of which were non-conclusive. The most interesting elimination discovery was that of alcohol. My body absolutely hates alcohol nowadays, for some reason.
 
  I was surprised to find that the most extreme elimination diet that I experimented with would completely change my life—**sugar**. Fructose, specifically. I removed it from my diet entirely.
 
  ## **Eliminating Sugar**
 
- The video below had resonated with me for years — it's a very human\-friendly technical talk that pitches fructose as being a literal toxin. I took this information quite seriously, integrated it into my diet, and found it to not be untrue. *At all*.
+ The video below had resonated with me for years — it's a very human-friendly technical talk that pitches fructose as being a literal toxin. I took this information quite seriously, integrated it into my diet, and found it to not be untrue. *At all*.
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/dBnniua6-oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**tl;dw**: An obscene amount of fructose is in almost all processed foods in America. When not consumed with an appropriate amount of dietary fiber (which is normally removed intentionally to improve shelf\-life), your liver gets overloaded. It effectively does not have enough chemical bandwidth to process the incoming fructose. The end result is an effect on the system nearly identical to that of ethanol, while causing the body's appetite system to grossly misbehave. By definition, a toxic substance. 
+**tl;dw**: An obscene amount of fructose is in almost all processed foods in America. When not consumed with an appropriate amount of dietary fiber (which is normally removed intentionally to improve shelf-life), your liver gets overloaded. It effectively does not have enough chemical bandwidth to process the incoming fructose. The end result is an effect on the system nearly identical to that of ethanol, while causing the body's appetite system to grossly misbehave. By definition, a toxic substance. 
 
  **Removing excessive sugar from my diet was the only thing I needed to do** **to lose 100 pounds in 6 months.** *I did not specifically exercise.*
 
@@ -39,7 +39,7 @@
 
  Once things got going, I consumed \<5g of carbohydrates a day. Magically, the weight just started to fall off. Eventually, losing weight became a game that I started optimizing (at one point, I was losing 2\+ pounds in a single day). I achieved this level of optimization through portion control. 
 
- Example of portion control: A rice/bean\-less burrito bowl from Chipotle (something that I eat almost daily now) would not be a single meal, but two (or sometimes three). 
+ Example of portion control: A rice/bean-less burrito bowl from Chipotle (something that I eat almost daily now) would not be a single meal, but two (or sometimes three). 
 
  ## **Dihydrogen Monoxide**
 
@@ -53,7 +53,7 @@
 
  I am much a happier person. I was a very happy person before, but I had no idea what a truly negative impact all that weight had on me, emotionally, until it was gone. I do not want it to return. 
 
- I eat a pretty standard diet now, although I do my best to avoid carb\-heavy foods. My body can handle carbs in moderate amounts without any issues now, it seems more\-so than before. I am always mindful of my carb consumption.
+ I eat a pretty standard diet now, although I do my best to avoid carb-heavy foods. My body can handle carbs in moderate amounts without any issues now, it seems more-so than before. I am always mindful of my carb consumption.
 
  I would hate to have to go to the store again one day to buy 38" jeans (I wear 32" now). 
 
@@ -61,7 +61,7 @@
 
  I'd like to note, if anyone takes inspiration from this, that according to medical science, this is a dangerously rapid rate of weight loss, particularly because of the strain it can put on the gall bladder. I personally did a lot of medical research and took some extra dietary precautions that I believed would help avoid any issues—but it was quite risky. A safe rate of weight loss is considered to be 2–8 pounds per month.
 
- Topamax is also prescribed as an anti\-addiction medication. It may have helped me change eating habits. 
+ Topamax is also prescribed as an anti-addiction medication. It may have helped me change eating habits. 
 
  It also seems as though I may have a speculated [genetic advantage \[](http://media.kennethreitz.com.s3.amazonaws.com/genome/promethease.html)[gs282](http://www.snpedia.com/index.php/gs282)[]](http://media.kennethreitz.com.s3.amazonaws.com/genome/promethease.html) in [my open source genome](https://github.com/kennethreitz/genome); one that allows me to lose weight with *any* type of exercise. This may or may not be remotely accurate.
 
