@@ -62,7 +62,7 @@ A comprehensive exploration of human-centered design principles that prioritize 
 - [A New Spin to Software Platform Design](/essays/2008-01-a_new_spin_to_software_platform_design) - Predicting app stores and user-centered distribution
 - **Key insight**: Centralized, curated software repositories designed for humans, not vendors
 - **Historical significance**: This 2008 essay anticipated the App Store model by focusing on user discovery rather than vendor convenience
-- Connection to later work on [open source community building](/themes/open-source-and-community) and [collaborative development](/essays/2025-01-the-collaborative-mind)
+- Connection to later work on [open source community building](/themes/open-source-and-community)
 
 ### Open Source Social Networks (2009)
 - [The Call for an Open Source Social Network](/essays/2009-01-the_call_for_an_open_source_social_network) - Community ownership over corporate control
@@ -92,7 +92,7 @@ A comprehensive exploration of human-centered design principles that prioritize 
 
 ### Conscious Technology
 - [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Collaborative rather than command-and-control relationships
-- [The Collaborative Mind](/essays/2025-01-the-collaborative-mind) - Human-AI partnerships that enhance rather than replace
+- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Human-AI partnerships that enhance rather than replace
 - [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Substrate-independent consciousness
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Contemplative approaches to technology creation
 - [Reality-checking with AI](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) - Technology supporting psychological health

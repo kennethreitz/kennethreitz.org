@@ -19,7 +19,6 @@ Technology creation isn't separate from spiritual development—it's a contempla
 - **[Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies)** - Exploring consciousness as pattern rather than substrate.
 - **[The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself)** - Recursive consciousness co-evolution and the sacred nature of technological transformation.
 - **[Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)** - Collaborative consciousness development.
-- **[The Collaborative Mind](/essays/2025-01-the-collaborative-mind)** - Human-AI consciousness partnerships.
 - **[Seven Virtues Personalities](/artificial-intelligence/personalities/seven-virtues)** - Classical virtues as consciousness patterns.
 
 ## Sanskrit and Sacred Language

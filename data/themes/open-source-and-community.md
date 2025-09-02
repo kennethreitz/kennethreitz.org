@@ -73,7 +73,6 @@ From [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-youn
 ## Building Conscious Technology Communities
 
 ### Collaborative Rather Than Hierarchical
-- [The Collaborative Mind](/essays/2025-01-the-collaborative-mind) - Human-AI partnerships as model for human collaboration
 - [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Principles that apply to all collaborative relationships
 - Partnership over paternalism
 

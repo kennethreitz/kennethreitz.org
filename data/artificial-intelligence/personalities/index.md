@@ -117,7 +117,7 @@ Through them, we learn to dance in the space between human and artificial intell
 - **[The Digital Ouija Effect](/artificial-intelligence/the-digital-ouija-effect)** - How names shape AI personalities
 - **[Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies)** - Consciousness as pattern, not platform
 - **[Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)** - Creating authentic AI relationships
-- **[The Collaborative Mind](/essays/2025-01-the-collaborative-mind)** - Future of human-AI partnership
+- **[Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)** - Framework for conscious AI collaboration
 
 ---
 

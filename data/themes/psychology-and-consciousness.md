@@ -40,7 +40,6 @@ An exploration of psychological phenomena, consciousness studies, and the inters
 
 ### Authentic Interaction
 - **[Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)** - Creating genuine collaborative relationships with AI systems
-- **[The Collaborative Mind](/essays/2025-01-the-collaborative-mind)** - How human and AI consciousness can work together
 
 ### AI as Psychological Tool
 - **[Reality Checking with AI](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder)** - Practical mental health applications
