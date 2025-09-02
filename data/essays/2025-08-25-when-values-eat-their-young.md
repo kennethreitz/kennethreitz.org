@@ -108,7 +108,7 @@ The kindness was performative. When tested by real conflict, the community defau
 
 I experienced this firsthand. I worked for a search API company that proudly championed neurodiversity—it was all over their hiring materials, their company values. They knew about my schizoaffective disorder when they hired me. They said they valued different types of minds.
 
-Then I had an actual episode. Made an embarrassing, disturbing comment on GitHub during a manic phase—clearly unwell, clearly delusional. Within 24 hours, I was fired. No discussion of accommodation. No recognition that this was literally the neurodivergence they claimed to value. Just gone.
+Then I had an actual episode. Made an embarrassing, disturbing comment on GitHub during a manic phase triggered by a new medication—clearly unwell, clearly delusional. Within 24 hours, I was fired. No discussion of accommodation. No recognition that this was literally the neurodivergence they claimed to value. Just gone.
 
 Neurodiversity was a recruiting tool, not a real commitment.
 
