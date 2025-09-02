@@ -348,7 +348,7 @@ def archive_index():
 
     return render_template('archive.html',
                          archive_title='Complete',
-                         archive_description='All essays and AI writings, organized by year.',
+                         archive_description=None,
                          grouped_posts=grouped_posts,
                          breadcrumbs=[],
                          current_year=datetime.now().year,
@@ -1141,15 +1141,15 @@ def sitemap_xml():
 @app.route('/feed.xml')
 @app.route('/rss.xml')
 def rss_feed():
-    """Generate RSS feed for blog posts."""
-    posts = collect_blog_posts()
+    """Generate RSS feed with full article content."""
+    posts = collect_all_blog_posts()  # Use all posts like the archive page
 
-    # Generate RSS XML
+    # Generate RSS XML with full content
     rss_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    rss_content += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+    rss_content += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">\n'
     rss_content += '  <channel>\n'
     rss_content += '    <title>Kenneth Reitz - Essays &amp; AI Writings</title>\n'
-    rss_content += '    <description>Thoughts on technology, philosophy, AI consciousness, and building software for humans</description>\n'
+    rss_content += '    <description>Complete archive with full articles - Essays, AI consciousness research, and philosophical explorations</description>\n'
     rss_content += '    <link>https://kennethreitz.org</link>\n'
     rss_content += '    <atom:link href="https://kennethreitz.org/feed.xml" rel="self" type="application/rss+xml" />\n'
     rss_content += f'    <lastBuildDate>{datetime.now().strftime("%a, %d %b %Y %H:%M:%S GMT")}</lastBuildDate>\n'
@@ -1158,10 +1158,23 @@ def rss_feed():
     rss_content += '    <webMaster>me@kennethreitz.org (Kenneth Reitz)</webMaster>\n'
 
     for post in posts:
+        # Get full content for this post
+        try:
+            # Find the actual file to get full content
+            file_path = DATA_DIR / (post['url'][1:] + '.md')  # Remove leading / and add .md
+            if file_path.exists():
+                full_content_data = render_markdown_file(file_path)
+                full_content = full_content_data['content']
+            else:
+                full_content = post.get('content', post['description'])
+        except:
+            full_content = post.get('content', post['description'])
+        
         rss_content += '    <item>\n'
         rss_content += f'      <title>{escape(post["title"])}</title>\n'
         rss_content += f'      <link>https://kennethreitz.org{post["url"]}</link>\n'
         rss_content += f'      <description>{escape(post["description"])}</description>\n'
+        rss_content += f'      <content:encoded><![CDATA[{full_content}]]></content:encoded>\n'
         rss_content += f'      <category>{escape(post["category"])}</category>\n'
         rss_content += f'      <pubDate>{post["pub_date"].strftime("%a, %d %b %Y %H:%M:%S GMT")}</pubDate>\n'
         rss_content += f'      <guid>https://kennethreitz.org{post["url"]}</guid>\n'
@@ -1171,6 +1184,8 @@ def rss_feed():
     rss_content += '</rss>'
 
     return Response(rss_content, mimetype='application/rss+xml')
+
+
 
 if __name__ == '__main__':
     # Preload blog posts cache for faster initial page loads
