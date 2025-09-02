@@ -381,19 +381,11 @@
     }
     
     /* Enhanced typography within posts */
-    .post-content p {
+    .post-content p:not(.sidenote):not(.marginnote) {
         font-size: 1.4rem;
         line-height: 2rem;
         margin: 1.4rem 0;
         color: #333;
-        text-align: justify;
-        text-justify: inter-word;
-        hyphens: auto;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-        hyphenate-limit-chars: 6 3 2;
-        hyphenate-limit-lines: 2;
-        hyphenate-limit-zone: 8%;
     }
     
     .post-content li {
@@ -403,7 +395,19 @@
     }
     
     .post-content > ul, .post-content > ol {
-        width: 90%;
+        width: 50%;
+        -webkit-padding-start: 5%;
+        list-style-position: outside;
+        box-sizing: border-box;
+    }
+    
+    .sidenote, .marginnote {
+        text-align: left;
+        font-size: 1.1rem !important;
+        line-height: 1.3 !important;
+        margin: 0.3rem 0 0 0 !important;
+        width: 60% !important;
+        margin-right: -70% !important;
     }
     
     /* Table of contents styling if present */
