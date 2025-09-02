@@ -2,15 +2,13 @@
 
 *August 2025*
 
-*Part of the ["Algorithm Eats" series](/themes/algorithmic-critique) exploring how optimization for engagement systematically degrades human experience.*
-
 The most sophisticated manipulation of human consciousness isn't happening through obvious propaganda or heavy-handed censorship. 
 
 It's happening through coordinated networks that analyze private messages and behavioral data to identify psychological vulnerabilities, then deploy targeted content designed to exploit those specific weaknesses.
 
 Think link farms, but for human psychology instead of search rankings.
 
-We're witnessing the industrialization of personalized psychological manipulation. The same algorithmic engagement optimization that [systematically destroys human virtue](/essays/2025-08-26-the_algorithm_eats_virtue), [creates mental health crises](/essays/2025-08-26-algorithmic_mental_health_crisis), [degrades our language](/essays/2025-08-27-the_algorithm_eats_language), [commodifies love](/essays/2025-08-27-the_algorithm_eats_love), and [makes democracy impossible](/essays/2025-08-27-the_algorithm_eats_democracy) has become something worse: 
+We're witnessing the industrialization of personalized psychological manipulation. The same algorithmic engagement optimization explored throughout the [Algorithm Eats series](/themes/algorithmic-critique) has become something worse: 
 
 The delivery system for coordinated attacks on individual vulnerabilities, designed to fracture not just our shared understanding of reality, but our individual capacity to think clearly and trust our own judgment.
 

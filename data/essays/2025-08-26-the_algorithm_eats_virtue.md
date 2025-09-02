@@ -1,8 +1,6 @@
 # The Algorithm Eats Virtue
 *August 2025*
 
-*Part of the ["Algorithm Eats" series](/themes/algorithmic-critique) exploring how optimization for engagement systematically degrades human experience.*
-
 **The uncomfortable truth about social media:** the algorithmic systems that determine what billions of people see every day are systematically undermining the character qualities that enable human flourishing. This isn't a side effect—it's the inevitable result of optimizing for engagement over virtue.
 
 ## The Algorithmic Character Crisis
@@ -11,7 +9,7 @@ We are witnessing an unprecedented transformation in how human character is form
 
 The platforms we use daily—X (formerly Twitter), Facebook, Instagram, TikTok, Snapchat—aren't neutral information delivery systems. They're character formation engines operating at civilizational scale<label for="sn-rewiring-observation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-rewiring-observation" class="margin-toggle"/><span class="sidenote">The change is subtle but persistent—like watching someone develop a slight limp over months. You notice the shift in how they think, argue, and relate to information, even if they don't.</span>. When examined through the framework of classical virtue ethics—specifically the [seven cardinal virtues](/artificial-intelligence/personalities/seven-virtues/) that have guided human excellence across cultures—a disturbing pattern emerges: algorithmic feeds systematically reward behaviors that oppose traditional virtues.
 
-The virtue destruction documented here operates through the same mechanisms that systematically [damage mental health](/essays/2025-08-26-algorithmic_mental_health_crisis), [degrade our capacity for nuanced communication](/essays/2025-08-27-the_algorithm_eats_language), [commodify romantic connection](/essays/2025-08-27-the_algorithm_eats_love), [make democratic discourse impossible](/essays/2025-08-27-the_algorithm_eats_democracy), and [fracture our shared understanding of reality itself](/essays/2025-08-27-the_algorithm_eats_reality). Understanding how engagement optimization inverts virtue provides the foundation for recognizing these broader patterns of civilizational damage.
+The virtue destruction documented here operates through the same mechanisms explored throughout the [Algorithm Eats series](/themes/algorithmic-critique). Understanding how engagement optimization inverts virtue provides the foundation for recognizing these broader patterns of civilizational damage.
 
 ## Virtue Inversion: A Systematic Analysis
 

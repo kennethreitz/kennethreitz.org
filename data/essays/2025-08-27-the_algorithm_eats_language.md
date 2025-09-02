@@ -2,9 +2,7 @@
 
 *August 2025*
 
-*Part of the ["Algorithm Eats" series](/themes/algorithmic-critique) exploring how optimization for engagement systematically degrades human experience.*
-
-The same algorithmic systems that [systematically undermine virtue](/essays/2025-08-26-the_algorithm_eats_virtue), create [widespread mental health crises](/essays/2025-08-26-algorithmic_mental_health_crisis), [commodify love](/essays/2025-08-27-the_algorithm_eats_love), [make democracy impossible](/essays/2025-08-27-the_algorithm_eats_democracy), and [manufacture artificial reality](/essays/2025-08-27-the_algorithm_eats_reality) are also destroying something even more fundamental: our capacity for clear, nuanced, sophisticated communication.
+The same algorithmic systems explored throughout the [Algorithm Eats series](/themes/algorithmic-critique) are also destroying something even more fundamental: our capacity for clear, nuanced, sophisticated communication.
 
 Language shapes consciousness. When algorithms optimize for engagement over clarity, for viral transmission over truth, they don't just change what we say—they change how we're able to think.
 

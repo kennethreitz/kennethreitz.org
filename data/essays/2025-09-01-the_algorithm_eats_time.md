@@ -1,9 +1,7 @@
 # The Algorithm Eats Time
 *September 2025*
 
-*Part of the ["Algorithm Eats" series](/themes/algorithmic-critique) exploring how optimization for engagement systematically degrades human experience.*
-
-Time used to belong to us. We had mornings that unfolded slowly, afternoons that stretched into evenings, moments when we could be fully present without the anxiety of missing something happening somewhere else. The same algorithmic systems that are [systematically destroying human virtue](/essays/2025-08-26-the_algorithm_eats_virtue), [creating widespread mental health crises](/essays/2025-08-26-algorithmic_mental_health_crisis), [degrading our language](/essays/2025-08-27-the_algorithm_eats_language), [commodifying love](/essays/2025-08-27-the_algorithm_eats_love), [making democracy impossible](/essays/2025-08-27-the_algorithm_eats_democracy), and [manufacturing artificial reality](/essays/2025-08-27-the_algorithm_eats_reality) have also stolen something even more fundamental: our natural relationship with time itself.
+Time used to belong to us. We had mornings that unfolded slowly, afternoons that stretched into evenings, moments when we could be fully present without the anxiety of missing something happening somewhere else. The same algorithmic systems explored throughout this [Algorithm Eats series](/themes/algorithmic-critique) have also stolen something even more fundamental: our natural relationship with time itself.
 
 We live in a constant state of temporal anxiety. Always behind, always catching up, always feeling like we're missing the optimal moment to engage, post, respond, or consume. The algorithm has trained us to experience time as a series of micro-deadlines rather than a natural flow we can inhabit.
 
