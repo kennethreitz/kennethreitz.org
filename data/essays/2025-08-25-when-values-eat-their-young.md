@@ -118,6 +118,8 @@ This isn't just a tech problem. I attended a church for years that preached abou
 
 The irony? A significant portion of the congregation left in response to his firing. The growth-obsessed board destroyed the actual growth they had. They prioritized metrics over mission and lost both.
 
+## Why This Matters Anyway
+
 Before you conclude that all value-driven communities are doomed to hypocrisy, let's acknowledge some crucial truths:
 
 **These communities exist for good reasons.** The tech industry really does have inclusion problems. Open-source really can be hostile to newcomers. Traditional institutions really do perpetuate harm. The values these communities espouse aren't just nice-to-haves—they're attempting to address real, documented problems that cause real human suffering.
