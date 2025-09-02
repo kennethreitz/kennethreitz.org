@@ -5,7 +5,7 @@
 
 
 
-  ![076C7D2B-B828-4945-A17A-50C79849C377.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666470310-X9HR817ZQTD8D0WZA7J4/253aa-e6dc4-076c7d2b-b828-4945-a17a-50c79849c377.jpg)   I have [written previously](http://www.kennethreitz.org/essays/purging-the-unexpected-negative-a-narcissistic-partner) about my experience with a traumatic relationship with a narcissist. I am currently in a very good place regarding this relationship—all loose ends tied and closed, good relations present, no communication. No other relationship I've had in life, so far, has taught me directly quite as much about human experience—so, now that I've healed from the relationship, I can say that I am thankful for it.
+  ![076C7D2B-B828-4945-A17A-50C79849C377.JPG](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666470310-X9HR817ZQTD8D0WZA7J4/253aa-e6dc4-076c7d2b-b828-4945-a17a-50c79849c377.jpg)   I have [written previously](/essays/purging-the-unexpected-negative-a-narcissistic-partner) about my experience with a traumatic relationship with a narcissist. I am currently in a very good place regarding this relationship—all loose ends tied and closed, good relations present, no communication. No other relationship I've had in life, so far, has taught me directly quite as much about human experience—so, now that I've healed from the relationship, I can say that I am thankful for it.
 
  ## Lack of Empathy
 
@@ -18,7 +18,7 @@
 
  ## A Change in Perspective
 
- This is quite fascinating to me, and understanding this fully enabled me to go back, re\-evaluate all of the abusive behavior that I experienced, and actually approach it with understanding, empathy, and compassion.<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">This reflects post-traumatic growth—a psychological concept where individuals develop enhanced personal strength, relationships, and life appreciation following adversity, identified by researchers like Richard Tedeschi and Lawrence Calhoun.</span> This person was often telling me the truth (what seemed nonsensical at the time), through the lens of a single\-person emotional painting of the world.<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This describes a form of egocentrism—the cognitive inability to differentiate between one's own perspective and others'. While normal in children, it can persist in certain personality disorders and developmental conditions.</span> Their behavior was still abusive, but it helped me come to peace with what happened, holding forgiveness, reduce blame and confusion, and increased my own understanding of [how mental illnesses can manifest](http://www.kennethreitz.org/essays/mentalhealtherror-an-exception-occurred). 
+ This is quite fascinating to me, and understanding this fully enabled me to go back, re\-evaluate all of the abusive behavior that I experienced, and actually approach it with understanding, empathy, and compassion.<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">This reflects post-traumatic growth—a psychological concept where individuals develop enhanced personal strength, relationships, and life appreciation following adversity, identified by researchers like Richard Tedeschi and Lawrence Calhoun.</span> This person was often telling me the truth (what seemed nonsensical at the time), through the lens of a single\-person emotional painting of the world.<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This describes a form of egocentrism—the cognitive inability to differentiate between one's own perspective and others'. While normal in children, it can persist in certain personality disorders and developmental conditions.</span> Their behavior was still abusive, but it helped me come to peace with what happened, holding forgiveness, reduce blame and confusion, and increased my own understanding of [how mental illnesses can manifest](/essays/mentalhealtherror-an-exception-occurred). 
 
  ## In Closing
 
@@ -28,5 +28,5 @@
 
  ## Related Posts
 
- * [Purging the Negative: a Narcissistic Partner](http://www.kennethreitz.org/essays/purging-the-unexpected-negative-a-narcissistic-partner)
-* [MentalHealthError: an exception occurred.](http://www.kennethreitz.org/essays/mentalhealtherror-an-exception-occurred)
+ * [Purging the Negative: a Narcissistic Partner](/essays/purging-the-unexpected-negative-a-narcissistic-partner)
+* [MentalHealthError: an exception occurred.](/essays/mentalhealtherror-an-exception-occurred)
