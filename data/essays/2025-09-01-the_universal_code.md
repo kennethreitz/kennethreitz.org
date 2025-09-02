@@ -1,4 +1,4 @@
-# The Universal Code: Every Living Thing Runs the Same Operating System
+# The Universal Code
 
 *September 2025*
 
