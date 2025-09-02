@@ -93,7 +93,7 @@ h3 {
 hr {
     display: block;
     height: 1px;
-    width: 75%;
+    width: 55%;
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
@@ -170,12 +170,12 @@ blockquote {
 }
 
 blockquote p {
-    width: 75%;
+    width: 55%;
     margin-right: 40px;
 }
 
 blockquote footer {
-    width: 75%;
+    width: 55%;
     font-size: 1.1rem;
     text-align: right;
 }
@@ -183,7 +183,7 @@ blockquote footer {
 section > p,
 section > footer,
 section > table {
-    width: 75%;
+    width: 55%;
 }
 
 /* 50 + 5 == 55, to be the same width as paragraph */
@@ -192,25 +192,11 @@ section > ol,
 section > ul {
     width: 50%;
     -webkit-padding-start: 5%;
-    list-style-position: outside;
-    box-sizing: border-box;
-}
-
-section > ul {
-    list-style-type: disc;
-}
-
-section > ol {
-    list-style-type: decimal;
 }
 
 dt:not(:first-child),
 li:not(:first-child) {
     margin-top: 0.25rem;
-}
-
-li {
-    display: list-item;
 }
 
 figure {
@@ -219,7 +205,7 @@ figure {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    max-width: 75%;
+    max-width: 55%;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     margin: 0 0 3em 0;
@@ -241,46 +227,11 @@ figure.fullwidth figcaption {
     margin-right: 24%;
 }
 
-/* Links: replicate underline that clears descenders */
 a:link,
 a:visited {
     color: inherit;
-}
-
-.no-tufte-underline:link {
-    background: unset;
-    text-shadow: unset;
-}
-
-a:link, .tufte-underline, .hover-tufte-underline:hover {
-    text-decoration: none;
-    background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
-    background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor);
-    -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    background-repeat: no-repeat, no-repeat, repeat-x;
-    text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
-    background-position: 0% 93%, 100% 93%, 0% 93%;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    a:link, .tufte-underline, .hover-tufte-underline:hover {
-        background-position-y: 87%, 87%, 87%;
-    }
-}
-
-/* Adds dark mode */
-@media (prefers-color-scheme: dark) {
-    a:link, .tufte-underline, .hover-tufte-underline:hover {
-        text-shadow: 0.03em 0 #151515, -0.03em 0 #151515, 0 0.03em #151515, 0 -0.03em #151515, 0.06em 0 #151515, -0.06em 0 #151515, 0.09em 0 #151515, -0.09em 0 #151515, 0.12em 0 #151515, -0.12em 0 #151515, 0.15em 0 #151515, -0.15em 0 #151515;
-    }
-}
-
-a:link::selection,
-a:link::-moz-selection {
-    text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
-    background: #b4d5fe;
+    text-underline-offset: 0.1em;
+    text-decoration-thickness: 0.05em;
 }
 
 /* Sidenotes, margin notes, figures, captions */
@@ -442,7 +393,6 @@ label.margin-toggle:not(.sidenote-number) {
     section > ol,
     section > ul {
         width: 90%;
-        padding-inline-start: 1.5rem;
     }
 
     figure {
