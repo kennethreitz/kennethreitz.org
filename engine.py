@@ -1158,17 +1158,21 @@ def rss_feed():
     rss_content += '    <webMaster>me@kennethreitz.org (Kenneth Reitz)</webMaster>\n'
 
     for post in posts:
-        # Get full content for this post
+        # Get full content for this post by re-reading the file
         try:
-            # Find the actual file to get full content
-            file_path = DATA_DIR / (post['url'][1:] + '.md')  # Remove leading / and add .md
+            # Build the file path - post['url'] is like '/essays/2025-09-01-something'
+            relative_path = post['url'][1:]  # Remove leading /
+            file_path = DATA_DIR / (relative_path + '.md')
+            
             if file_path.exists():
                 full_content_data = render_markdown_file(file_path)
                 full_content = full_content_data['content']
             else:
+                # Fallback to stored content (truncated)
                 full_content = post.get('content', post['description'])
-        except:
-            full_content = post.get('content', post['description'])
+        except Exception as e:
+            # Debug: use description with error info
+            full_content = f"{post['description']} <!-- Error loading full content: {str(e)} -->"
         
         rss_content += '    <item>\n'
         rss_content += f'      <title>{escape(post["title"])}</title>\n'
