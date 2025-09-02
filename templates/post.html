@@ -386,12 +386,24 @@
         line-height: 2rem;
         margin: 1.4rem 0;
         color: #333;
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphenate-limit-chars: 6 3 2;
+        hyphenate-limit-lines: 2;
+        hyphenate-limit-zone: 8%;
     }
     
     .post-content li {
         font-size: 1.4rem;
         line-height: 2rem;
         margin: 0.25rem 0;
+    }
+    
+    .post-content > ul, .post-content > ol {
+        width: 90%;
     }
     
     /* Table of contents styling if present */
