@@ -85,9 +85,7 @@ The Tech Workers Coalition, founded in 2014 with values of "radical inclusion" a
 
 A member asked, in good faith, about the practical implications of abolishing prisons for violent crime victims. They were immediately labeled as "perpetuating carceral violence," subjected to a days-long struggle session, and ultimately banned. The community's response to someone seeking education on their values was to exclude them for not already embodying those values perfectly.
 
-The bitter irony: the banned member was a formerly incarcerated person trying to understand how abolition frameworks addressed their own complex experiences with violence.<label for="sn-irony" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-irony" class="margin-toggle"/>
-<span class="sidenote">This one still makes me angry. The person with the most lived experience of the system being discussed was excluded for not already knowing the "correct" academic language to discuss it. That's not justice — it's gatekeeping by people who've never seen the inside of a cell but have strong opinions about those who have.</span>
+The bitter irony: the banned member was a formerly incarcerated person trying to understand how abolition frameworks addressed their own complex experiences with violence.
 
 ### The Kind Open-Source Project
 
