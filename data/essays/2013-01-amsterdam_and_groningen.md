@@ -7,7 +7,11 @@
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666511942-8OQI0I98ONDVUWC9ZYM9/c45b9-img.jpg) I just returned on a lovely trip to the Netherlands. I landed remarkably early in the morning (8am) and had to spend several hours walking around the city. Early morning Amsterdam was incredibly desolate and beautiful.
 
- ![](https://d233eq3e3p3cv0.cloudfront.net/max/2048/0*bd5bYS7tKwjZ-KAv.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/2048/0*Qs1EOFP9F2FNRpIs.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/2048/0*Fo3AZ7J43L5X73oA.jpeg)
+ ![](https://d233eq3e3p3cv0.cloudfront.net/max/2048/0*bd5bYS7tKwjZ-KAv.jpeg)
+
+![](https://d233eq3e3p3cv0.cloudfront.net/max/2048/0*Qs1EOFP9F2FNRpIs.jpeg)
+
+![](https://d233eq3e3p3cv0.cloudfront.net/max/2048/0*Fo3AZ7J43L5X73oA.jpeg)
 
  As the day wore on, more interesting characters started to show up.
 
@@ -17,11 +21,23 @@
 
  As the afternoon began to kick in, you could feel the mood of the city changing.
 
- ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*zTa_ZhTHUPCmS50E.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*y4rDVZPoLkVCoEUa.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*ioAXM6mkNblM7D7z.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*jRIT0jrhrZyxy8Vk.jpeg)
+ ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*zTa_ZhTHUPCmS50E.jpeg)
+
+![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*y4rDVZPoLkVCoEUa.jpeg)
+
+![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*ioAXM6mkNblM7D7z.jpeg)
+
+![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*jRIT0jrhrZyxy8Vk.jpeg)
 
  The city is filled with beautiful art, often in unexpected places.
 
- ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*irPUne6xNPbfOiNE.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*lztTr3G3nE4NgNH6.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*VSKhGNl8JKGhsjmF.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*svlmkgoQqKejIeE2.jpeg)
+ ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*irPUne6xNPbfOiNE.jpeg)
+
+![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*lztTr3G3nE4NgNH6.jpeg)
+
+![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*VSKhGNl8JKGhsjmF.jpeg)
+
+![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*svlmkgoQqKejIeE2.jpeg)
 
  An asian couple giggling at the wide selection of dutch condoms.
 
@@ -29,7 +45,9 @@
 
  Things are very different in Amsterdam.
 
- ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*EzYaInEtxhJzkj84.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*O5NjGfE194dma5uR.jpeg)
+ ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*EzYaInEtxhJzkj84.jpeg)
+
+![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*O5NjGfE194dma5uR.jpeg)
 
  ## Groningen: Dutch College Town
 
@@ -47,7 +65,9 @@
 
  ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*EGMyOevIv19Gw3wE.jpeg) Groningen is a city of subtle culture.Sometimes.
 
- ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*Z9sYsfiQ6mfhInpy.jpeg) ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*ztLW_fFdjhYXdCgS.jpeg)
+ ![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*Z9sYsfiQ6mfhInpy.jpeg)
+
+![](https://d233eq3e3p3cv0.cloudfront.net/max/700/0*ztLW_fFdjhYXdCgS.jpeg)
 
  Flickr sets for this trip are available: [Amsterdam](http://www.flickr.com/photos/kennethreitz/sets/72157633447625802/detail/) and [Groningen](http://www.flickr.com/photos/kennethreitz/sets/72157633470180315/detail/). I also[wrote a song](https://soundcloud.com/kennethreitz/amsterdam-experiment) about it.
 
