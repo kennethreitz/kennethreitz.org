@@ -131,7 +131,7 @@ tests/test_advanced.py
 ```
  Obviously, these test modules must import your packaged module to test it. Youcan do this a few ways:
 
- * Expect the package to be installed in site\-packages.
+ * Expect the package to be installed in site-packages.
 * Use a simple (but *explicit*) path modification to resolve the package properly.
 
  I highly recommend the latter. Requiring a developer to run[setup.py](http://setup.py) develop to test an actively changing codebase alsorequires them to have an isolated environment setup for each instance of thecodebase.
@@ -155,7 +155,7 @@ from .context import sample
 ```
  This will always work as expected, regardless of installation method.
 
- Some people will assert that you should distribute your tests within yourmodule itself \-\- I disagree. It often increases complexity for your users;many test suites often require additional dependencies and runtime contexts.
+ Some people will assert that you should distribute your tests within your module itself -- I disagree. It often increases complexity for your users;many test suites often require additional dependencies and runtime contexts.
 
  ## Makefile
 
