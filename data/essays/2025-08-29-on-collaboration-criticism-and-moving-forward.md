@@ -66,9 +66,9 @@ This is how tech takedowns work: an exaggerated frame, a sticky headline, and an
 
 ## The Cost of Public Conflict
 
-When developers write about each other rather than to each other, everyone loses:
+When developers write about each other rather than to each other, everyone loses<label for="sn-narrative-filter" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-narrative-filter" class="margin-toggle"/><span class="sidenote">I've watched potential collaborators' expressions change when they Google my name. The moment of recognition, the slight pulling back—the narrative preceding any actual interaction. This is how reputations become prisons.</span>:
 
-* **For Individuals**: One blog post can define you for years. Every job application, every conference submission, every community interaction gets filtered through someone else's narrative about you<label for="sn-narrative-filter" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-narrative-filter" class="margin-toggle"/><span class="sidenote">I've watched potential collaborators' expressions change when they Google my name. The moment of recognition, the slight pulling back—the narrative preceding any actual interaction. This is how reputations become prisons.</span>.
+* **For Individuals**: One blog post can define you for years. Every job application, every conference submission, every community interaction gets filtered through someone else's narrative about you.
 
 * **For Communities**: Trust erodes as people become afraid to collaborate, knowing that any interaction could become the subject of the next public essay.
 
@@ -97,7 +97,7 @@ There's a difference between setting boundaries and weaponizing narratives:
 * **Boundary**: "I need to protect my energy."
 * **Weapon**: Ensuring others see your narrative first, always.
 
-When "transparency" becomes a tool for reputational destruction, it's not transparency anymore. It's warfare dressed up as virtue. It's violence with a PR team<label for="sn-transparency-weapon" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-transparency-weapon" class="margin-toggle"/><span class="sidenote">True transparency would have been: "I had a call or two with Kenneth and didn't feel comfortable proceeding." Instead, an essay analyzing my entire character based on minimal interaction, quoted others who never contacted me directly, and presented speculation as fact.</span>.
+When "transparency" becomes a tool for reputational destruction, it's not transparency anymore. It's warfare dressed up as virtue. It's violence with a PR team.
 
 ## Why This Was Malicious
 

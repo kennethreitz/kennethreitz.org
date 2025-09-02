@@ -85,10 +85,16 @@
             }
             
             .sidenote,
-            .marginnote {
-                width: 38%;
-                margin-right: -42%;
-                margin-left: 2%;
+            .marginnote,
+            section .sidenote,
+            section .marginnote,
+            article .sidenote,
+            article .marginnote {
+                width: 35% !important;
+                margin-right: -39% !important;
+                margin-left: 6% !important;
+                overflow-wrap: break-word !important;
+                word-wrap: break-word !important;
             }
             
             /* Responsive adjustments */
@@ -107,10 +113,14 @@
                 }
                 
                 .sidenote,
-                .marginnote {
-                    width: 33%;
-                    margin-right: -37%;
-                    margin-left: 2%;
+                .marginnote,
+                section .sidenote,
+                section .marginnote,
+                article .sidenote,
+                article .marginnote {
+                    width: 32% !important;
+                    margin-right: -36% !important;
+                    margin-left: 6% !important;
                 }
             }
             
@@ -129,10 +139,14 @@
                 }
                 
                 .sidenote,
-                .marginnote {
-                    width: 33%;
-                    margin-right: -37%;
-                    margin-left: 2%;
+                .marginnote,
+                section .sidenote,
+                section .marginnote,
+                article .sidenote,
+                article .marginnote {
+                    width: 30% !important;
+                    margin-right: -34% !important;
+                    margin-left: 6% !important;
                 }
             }
             
@@ -369,6 +383,44 @@
                 font-size: 1.3rem !important;
                 width: 70% !important;
             }
+            
+            /* Make blockquote paragraphs wider */
+            .post-content blockquote p,
+            article .post-content blockquote p,
+            section .post-content blockquote p,
+            blockquote .post-content p,
+            blockquote p,
+            blockquote,
+            .post-content blockquote,
+            article blockquote,
+            section blockquote,
+            main blockquote,
+            body blockquote {
+                width: 75% !important;
+            }
+            
+            /* Make list item paragraphs wider */
+            ol li p,
+            ul li p,
+            .post-content ol li p,
+            .post-content ul li p {
+                width: 75% !important;
+            }
+            
+            /* Adjust heading sizes */
+            h2 {
+                font-size: 2.1rem !important;
+            }
+            
+            h3 {
+                font-size: 1.7rem !important;
+            }
+            
+            /* Reduce article padding */
+            article {
+                padding: 3rem 0rem !important;
+            }
+            
             
             
             /* Fix excessive right padding on mobile */

@@ -1,0 +1,92 @@
+/* SAVED CUSTOMIZATIONS - All the custom CSS we added */
+
+/* Sidenote adjustments */
+.sidenote,
+.marginnote,
+section .sidenote,
+section .marginnote,
+article .sidenote,
+article .marginnote {
+    width: 35% !important;
+    margin-right: -39% !important;
+    margin-left: 6% !important;
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+}
+
+/* Responsive sidenote adjustments */
+@media (max-width: 1400px) {
+    .sidenote,
+    .marginnote,
+    section .sidenote,
+    section .marginnote,
+    article .sidenote,
+    article .marginnote {
+        width: 32% !important;
+        margin-right: -36% !important;
+        margin-left: 6% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sidenote,
+    .marginnote,
+    section .sidenote,
+    section .marginnote,
+    article .sidenote,
+    article .marginnote {
+        width: 30% !important;
+        margin-right: -34% !important;
+        margin-left: 6% !important;
+    }
+}
+
+/* Make article paragraphs slightly smaller */
+.post-content p:not(.sidenote):not(.marginnote) {
+    font-size: 1.3rem !important;
+    width: 70% !important;
+}
+
+/* Mobile override for paragraphs */
+@media (max-width: 760px) {
+    .post-content p:not(.sidenote):not(.marginnote) {
+        width: 100% !important;
+    }
+}
+
+/* Make blockquote paragraphs wider */
+.post-content blockquote p,
+article .post-content blockquote p,
+section .post-content blockquote p,
+blockquote .post-content p,
+blockquote p,
+blockquote,
+.post-content blockquote,
+article blockquote,
+section blockquote,
+main blockquote,
+body blockquote {
+    width: 75% !important;
+}
+
+/* Make list item paragraphs wider */
+ol li p,
+ul li p,
+.post-content ol li p,
+.post-content ul li p {
+    width: 75% !important;
+}
+
+/* Adjust heading sizes */
+h2 {
+    font-size: 2.1rem !important;
+}
+
+h3 {
+    font-size: 1.7rem !important;
+}
+
+/* Reduce article padding */
+article {
+    padding: 3rem 0rem !important;
+}
