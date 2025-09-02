@@ -31,11 +31,11 @@
 
         <!-- Tufte CSS -->
         <link rel="stylesheet" href="/static/tufte/tufte.css" />
-        
+
         <style>
             /* Fix for ET Book font bold-italic rendering issues */
             /* ET Book doesn't have a true bold-italic variant, so we disable faux bold */
-            strong em, em strong, b i, i b, 
+            strong em, em strong, b i, i b,
             .subtitle strong em, .subtitle em strong,
             .subtitle b i, .subtitle i b,
             nav strong em, nav em strong,
@@ -45,14 +45,14 @@
                 font-weight: normal !important;
                 font-style: italic !important;
             }
-            
+
             /* For better readability, you could also use the semi-bold variant */
             /* which ET Book does support, though still no bold-italic */
             .subtitle em, .subtitle i,
             nav em, nav i {
                 font-weight: 500; /* semi-bold instead of bold for italics */
             }
-            
+
             /* Adjust content width for better sidenote spacing */
             section > p,
             section > footer,
@@ -66,14 +66,14 @@
             .post-content > ol {
                 width: 55%;
             }
-            
+
             section > dl,
             section > ol,
             section > ul,
             .post-content > dl {
                 width: 50%;
             }
-            
+
             /* Override for full-width elements when needed */
             .post-content > h1,
             .post-content > h2,
@@ -83,7 +83,7 @@
             .post-content > h6 {
                 width: 100%;
             }
-            
+
             .sidenote,
             .marginnote,
             section .sidenote,
@@ -96,7 +96,7 @@
                 overflow-wrap: break-word !important;
                 word-wrap: break-word !important;
             }
-            
+
             /* Responsive adjustments */
             @media (max-width: 1400px) {
                 section > p,
@@ -111,7 +111,7 @@
                 .post-content > ol {
                     width: 60%;
                 }
-                
+
                 .sidenote,
                 .marginnote,
                 section .sidenote,
@@ -123,7 +123,7 @@
                     margin-left: 6% !important;
                 }
             }
-            
+
             @media (max-width: 1200px) {
                 section > p,
                 section > footer,
@@ -137,7 +137,7 @@
                 .post-content > ol {
                     width: 70%;
                 }
-                
+
                 .sidenote,
                 .marginnote,
                 section .sidenote,
@@ -149,7 +149,7 @@
                     margin-left: 6% !important;
                 }
             }
-            
+
             /* Code blocks - extend wider but respect content margin */
             section > pre,
             .post-content > pre,
@@ -162,12 +162,12 @@
                 position: relative;
                 box-sizing: border-box;
             }
-            
+
             /* Copy button for code blocks */
             .code-block-wrapper {
                 position: relative;
             }
-            
+
             .copy-button {
                 position: absolute;
                 top: 8px;
@@ -183,44 +183,44 @@
                 z-index: 10;
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
             }
-            
+
             .code-block-wrapper:hover .copy-button,
             .copy-button:focus {
                 opacity: 1;
             }
-            
+
             .copy-button:hover {
                 background: rgba(255, 255, 255, 1);
                 border-color: #999;
             }
-            
+
             .copy-button:active {
                 background: rgba(240, 240, 240, 1);
             }
-            
+
             .copy-button.copied {
                 background: rgba(76, 175, 80, 0.9);
                 color: white;
                 border-color: #4CAF50;
             }
-            
+
             @media (prefers-color-scheme: dark) {
                 .copy-button {
                     background: rgba(50, 50, 50, 0.9);
                     color: white;
                     border-color: #555;
                 }
-                
+
                 .copy-button:hover {
                     background: rgba(70, 70, 70, 1);
                     border-color: #777;
                 }
-                
+
                 .copy-button:active {
                     background: rgba(30, 30, 30, 1);
                 }
             }
-            
+
             /* Responsive adjustments for code blocks */
             @media (max-width: 768px) {
                 section > pre,
@@ -231,7 +231,7 @@
                     margin-left: -1rem !important;
                 }
             }
-            
+
             /* Breadcrumb styling */
             .breadcrumbs {
                 font-size: 0.875rem;
@@ -239,55 +239,55 @@
                 margin: 1rem 0 2rem 0;
                 font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
             }
-            
+
             .breadcrumbs a {
                 color: #666;
                 text-decoration: none;
                 background: none;
                 text-shadow: none;
             }
-            
+
             .breadcrumbs a:hover {
                 color: #111;
             }
-            
+
             .breadcrumb-separator {
                 margin: 0 0.5rem;
                 color: #999;
             }
-            
-            
+
+
             /* Mobile breadcrumb adjustments */
             @media (max-width: 760px) {
                 .breadcrumbs {
                     font-size: 0.8rem;
                     margin: 0.75rem 0 1.5rem 0;
                 }
-                
+
                 .breadcrumb-separator {
                     margin: 0 0.25rem;
                 }
             }
-            
+
             /* Homepage subtitle spacing adjustment */
             p.subtitle {
                 line-height: 1.6;
             }
-            
+
             /* Navigation spacing adjustment */
             header nav a {
                 margin-right: 1rem;
             }
-            
+
             header nav a:last-child {
                 margin-right: 0;
             }
-            
+
             /* Random post button styling */
             .random-link {
                 font-size: 1.1rem;
             }
-            
+
             /* Directory listing styling */
             .directory-listing ul {
                 list-style: none;
@@ -295,14 +295,14 @@
                 font-size: 0.95rem;
                 line-height: 1.8;
             }
-            
+
             .directory-listing li {
                 margin-bottom: 0.75rem;
                 padding-left: 2rem;
                 position: relative;
                 font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
             }
-            
+
             .directory-listing li::before {
                 content: attr(data-icon);
                 position: absolute;
@@ -310,7 +310,7 @@
                 color: #666;
                 font-size: 0.9rem;
             }
-            
+
             .directory-listing a {
                 color: #444;
                 text-decoration: none;
@@ -319,11 +319,11 @@
                 text-shadow: none;
                 transition: color 0.2s ease;
             }
-            
+
             .directory-listing a:hover {
                 color: #111;
             }
-            
+
             .item-date {
                 font-size: 0.8rem;
                 color: #888;
@@ -332,7 +332,7 @@
                 font-variant: small-caps;
                 letter-spacing: 0.02em;
             }
-            
+
             .directory-listing h3 {
                 font-size: 1.3rem;
                 color: #333;
@@ -341,49 +341,49 @@
                 margin-bottom: 1.5rem;
                 margin-top: 2.5rem;
             }
-            
+
             /* Hide HR lines to prevent sidenote interference */
             hr {
                 display: none;
             }
-            
-            
+
+
             /* Fix iframe overflow into sidenotes */
             iframe {
                 max-width: 55% !important;
                 width: 100%;
                 box-sizing: border-box;
             }
-            
+
             @media (max-width: 1400px) {
                 iframe {
                     max-width: 60% !important;
                 }
             }
-            
+
             @media (max-width: 1200px) {
                 iframe {
                     max-width: 70% !important;
                 }
             }
-            
+
             @media (max-width: 760px) {
                 iframe {
                     max-width: 100% !important;
                 }
             }
-            
+
             /* Footer spacing */
             .footer-note {
                 margin-top: 3rem;
             }
-            
+
             /* Make article paragraphs slightly smaller */
             .post-content p:not(.sidenote):not(.marginnote) {
                 font-size: 1.3rem !important;
                 width: 70% !important;
             }
-            
+
             /* Make blockquote paragraphs wider */
             .post-content blockquote p,
             article .post-content blockquote p,
@@ -398,7 +398,7 @@
             body blockquote {
                 width: 75% !important;
             }
-            
+
             /* Make list item paragraphs wider */
             ol li p,
             ul li p,
@@ -406,56 +406,57 @@
             .post-content ul li p {
                 width: 75% !important;
             }
-            
+
             /* Adjust heading sizes */
             h2 {
                 font-size: 2.1rem !important;
             }
-            
+
             h3 {
                 font-size: 1.7rem !important;
+                font-weight: 500 !important;
             }
-            
+
             /* Reduce article padding */
             article {
                 padding: 3rem 0rem !important;
             }
-            
+
             /* === PREMIUM TYPOGRAPHY ENHANCEMENTS === */
-            
+
             /* Advanced font rendering */
             html {
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
                 text-rendering: optimizeLegibility;
             }
-            
+
             body {
                 font-kerning: normal;
                 text-rendering: optimizeLegibility;
                 font-weight: 420;
             }
-            
+
             /* Enhanced link rendering */
             a {
                 text-decoration-skip-ink: auto;
             }
-            
+
             /* Beautiful text selection */
             ::selection {
                 background: rgba(0, 0, 0, 0.1);
                 color: inherit;
                 text-shadow: none;
             }
-            
+
             ::-moz-selection {
                 background: rgba(0, 0, 0, 0.1);
                 color: inherit;
                 text-shadow: none;
             }
-            
+
             /* === SUBTLE CODE SYNTAX HIGHLIGHTING === */
-            
+
             /* Make comments lighter in code blocks */
             pre code .hljs-comment,
             pre .hljs-comment,
@@ -464,7 +465,7 @@
                 color: #888 !important;
                 font-style: italic;
             }
-            
+
             /* Handle various comment patterns */
             pre code:has-text("//"),
             pre code:has-text("#"),
@@ -472,14 +473,14 @@
             pre code:has-text("<!--") {
                 /* Base styling handled by specific selectors below */
             }
-            
+
             /* Simple regex-based comment highlighting for common patterns */
             pre {
                 /* This will be handled by JavaScript for dynamic highlighting */
             }
-            
-            
-            
+
+
+
             /* Fix excessive right padding on mobile */
             @media (max-width: 760px) {
                 .post-content p:not(.sidenote):not(.marginnote) {
@@ -490,13 +491,13 @@
                     padding-right: 8% !important;
                     width: 84% !important;
                 }
-                
+
                 /* Hide sidenotes on narrow screens */
                 .sidenote,
                 .marginnote {
                     display: none;
                 }
-                
+
                 /* Make content full width when sidenotes are hidden */
                 section > p,
                 section > footer,
@@ -510,7 +511,7 @@
                 .post-content > ol {
                     width: 100%;
                 }
-                
+
                 section > dl,
                 section > ol,
                 section > ul,
@@ -518,7 +519,7 @@
                     width: 100%;
                 }
             }
-            
+
             /* Mobile font fixes */
             @media (max-width: 760px) {
                 body, p, h1, h2, h3, h4, h5, h6 {
@@ -528,10 +529,10 @@
                     -moz-osx-font-smoothing: grayscale;
                     text-rendering: optimizeLegibility;
                 }
-                
+
                 /* Fix Tufte's complex link underlines on mobile */
-                a, a:link, a:visited, 
-                .tufte-underline, 
+                a, a:link, a:visited,
+                .tufte-underline,
                 .hover-tufte-underline:hover {
                     text-shadow: none !important;
                     background: none !important;
@@ -539,14 +540,14 @@
                     text-decoration-thickness: 1px !important;
                     text-underline-offset: 2px !important;
                 }
-                
+
                 /* Ensure no double font rendering */
                 * {
                     -webkit-transform: translateZ(0);
                     transform: translateZ(0);
                 }
             }
-            
+
             /* Print Styles for Tufte CSS */
             @media print {
                 * {
@@ -555,7 +556,7 @@
                     box-shadow: none !important;
                     text-shadow: none !important;
                 }
-                
+
                 body {
                     font-size: 12pt;
                     line-height: 1.3;
@@ -566,7 +567,7 @@
                     width: 100% !important;
                     max-width: none !important;
                 }
-                
+
                 /* Hide navigation and non-essential elements */
                 header nav,
                 .breadcrumbs,
@@ -576,7 +577,7 @@
                 .search-container {
                     display: none !important;
                 }
-                
+
                 /* Optimize content for print */
                 section > p,
                 section > footer,
@@ -591,45 +592,45 @@
                     width: 100% !important;
                     max-width: none !important;
                 }
-                
+
                 section > dl,
                 section > ol,
                 section > ul,
                 .post-content > dl {
                     width: 100% !important;
                 }
-                
+
                 /* Convert sidenotes to footnotes for print */
                 .sidenote,
                 .marginnote {
                     display: none !important;
                 }
-                
+
                 /* Show sidenote content as footnotes at bottom */
                 .sidenote::before {
                     content: "["counter(sidenote-counter) "] ";
                     counter-increment: sidenote-counter;
                 }
-                
+
                 /* Print-specific typography */
                 h1 {
                     font-size: 18pt;
                     margin: 24pt 0 12pt 0;
                     page-break-after: avoid;
                 }
-                
+
                 h2 {
                     font-size: 16pt;
                     margin: 20pt 0 10pt 0;
                     page-break-after: avoid;
                 }
-                
+
                 h3 {
                     font-size: 14pt;
                     margin: 16pt 0 8pt 0;
                     page-break-after: avoid;
                 }
-                
+
                 p {
                     font-size: 12pt;
                     margin: 12pt 0;
@@ -637,19 +638,19 @@
                     orphans: 3;
                     widows: 3;
                 }
-                
+
                 /* Print links with URLs */
                 a[href]:after {
                     content: " (" attr(href) ")";
                     font-size: 10pt;
                     color: #666;
                 }
-                
+
                 a[href^="#"]:after,
                 a[href^="/"]:after {
                     content: "";
                 }
-                
+
                 /* Blockquotes */
                 blockquote {
                     margin: 12pt 24pt;
@@ -658,7 +659,7 @@
                     border-left: 2pt solid #ccc;
                     padding-left: 12pt;
                 }
-                
+
                 /* Code blocks */
                 pre, code {
                     font-family: "Courier New", Courier, monospace;
@@ -667,12 +668,12 @@
                     border: 1pt solid #ccc;
                     padding: 6pt;
                 }
-                
+
                 pre {
                     white-space: pre-wrap;
                     page-break-inside: avoid;
                 }
-                
+
                 /* Override width constraints for code blocks */
                 section > pre,
                 .post-content > pre,
@@ -681,74 +682,74 @@
                     max-width: none !important;
                     margin-left: 0 !important;
                 }
-                
+
                 /* Tables */
                 table {
                     border-collapse: collapse;
                     width: 100%;
                     font-size: 10pt;
                 }
-                
+
                 th, td {
                     border: 1pt solid #ccc;
                     padding: 6pt;
                     text-align: left;
                 }
-                
+
                 th {
                     background: #f0f0f0;
                     font-weight: bold;
                 }
-                
+
                 /* Images */
                 img {
                     max-width: 100%;
                     height: auto;
                     page-break-inside: avoid;
                 }
-                
+
                 /* Page breaks */
                 .page-break {
                     page-break-before: always;
                 }
-                
+
                 /* Hide toggle inputs for sidenotes */
                 input[type="checkbox"].margin-toggle {
                     display: none !important;
                 }
-                
+
                 label.margin-toggle {
                     display: none !important;
                 }
-                
+
                 /* Header styling for print */
                 header h1 {
                     font-size: 20pt;
                     margin-bottom: 6pt;
                 }
-                
+
                 .subtitle {
                     font-size: 14pt;
                     margin-bottom: 20pt;
                     font-style: italic;
                 }
-                
+
                 /* Ensure proper spacing */
                 section {
                     margin-bottom: 20pt;
                 }
-                
+
                 /* Lists */
                 ul, ol {
                     margin: 12pt 0;
                     padding-left: 20pt;
                 }
-                
+
                 li {
                     margin: 6pt 0;
                 }
             }
-            
+
         </style>
 
 
@@ -819,7 +820,7 @@
                     <a href="/search">[search]</a>
                     <a href="/random" class="random-link">[random]</a>
                 </nav>
-                
+
                 {% if current_path or breadcrumbs %}
                 <div class="breadcrumbs">
                     <a href="/">Home</a>
@@ -862,39 +863,39 @@
                     background-color: rgb(255, 255, 248) !important;
                     color: #111 !important;
                 }
-                
+
                 h1, h2, h3, h4, h5, h6 {
                     color: #333 !important;
                 }
-                
+
                 a {
                     color: #111 !important;
                 }
-                
+
                 /* Force light backgrounds on all elements */
                 * {
                     background-color: transparent !important;
                     color: inherit !important;
                 }
-                
+
                 /* Override any dark mode styling */
                 body, html {
                     background: rgb(255, 255, 248) !important;
                     color: #111 !important;
                 }
             }
-            
+
             /* Mobile-specific light mode enforcement */
             @media (max-width: 760px) {
                 body {
                     background-color: rgb(255, 255, 248) !important;
                     color: #111 !important;
                 }
-                
+
                 * {
                     background-color: transparent !important;
                 }
-                
+
                 body, html {
                     background: rgb(255, 255, 248) !important;
                     color: #111 !important;
@@ -908,7 +909,7 @@
                 // Check if user prefers light mode or is on mobile
                 const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
                 const isMobile = window.innerWidth <= 760;
-                
+
                 // Force light mode on mobile or if user prefers dark (override their dark preference)
                 if (isMobile || prefersDark) {
                     document.body.style.backgroundColor = 'rgb(255, 255, 248)';
@@ -939,62 +940,62 @@
                 document.body.className = (document.body.className + ' ' + scheme).trim();
             })();
         </script>
-        
+
         <script>
             // Add copy buttons to code blocks and subtle syntax highlighting
             document.addEventListener('DOMContentLoaded', function() {
                 // Find all pre elements (code blocks)
                 const codeBlocks = document.querySelectorAll('pre');
-                
+
                 // Function to add subtle comment highlighting
                 function highlightComments(pre) {
                     const code = pre.querySelector('code') || pre;
                     let html = code.innerHTML;
-                    
+
                     // Python/Shell comments (# comment)
                     html = html.replace(/^(\s*)(#.*)$/gm, '$1<span style="color: #888; font-style: italic;">$2</span>');
-                    
+
                     // Python docstrings (""" or ''')
                     html = html.replace(/("""[\s\S]*?""")/g, '<span style="color: #888; font-style: italic;">$1</span>');
                     html = html.replace(/('''[\s\S]*?''')/g, '<span style="color: #888; font-style: italic;">$1</span>');
-                    
+
                     // JavaScript/C++/Java comments (// comment)
                     html = html.replace(/(\s*\/\/.*)$/gm, '<span style="color: #888; font-style: italic;">$1</span>');
-                    
+
                     // CSS/C/Java block comments (/* comment */)
                     html = html.replace(/(\/\*[\s\S]*?\*\/)/g, '<span style="color: #888; font-style: italic;">$1</span>');
-                    
+
                     // HTML comments (<!-- comment -->)
                     html = html.replace(/(&lt;!--[\s\S]*?--&gt;)/g, '<span style="color: #888; font-style: italic;">$1</span>');
-                    
+
                     code.innerHTML = html;
                 }
-                
+
                 codeBlocks.forEach(function(pre) {
                     // Add subtle comment highlighting first
                     highlightComments(pre);
-                    
+
                     // Skip if already wrapped
                     if (pre.parentElement.classList.contains('code-block-wrapper')) {
                         return;
                     }
-                    
+
                     // Create wrapper div
                     const wrapper = document.createElement('div');
                     wrapper.className = 'code-block-wrapper';
-                    
+
                     // Create copy button
                     const copyButton = document.createElement('button');
                     copyButton.className = 'copy-button';
                     copyButton.textContent = 'Copy';
                     copyButton.setAttribute('aria-label', 'Copy code to clipboard');
-                    
+
                     // Add click handler
                     copyButton.addEventListener('click', async function() {
                         try {
                             // Get the text content of the pre element
                             const codeText = pre.textContent || pre.innerText;
-                            
+
                             // Use modern clipboard API if available
                             if (navigator.clipboard && window.isSecureContext) {
                                 await navigator.clipboard.writeText(codeText);
@@ -1011,20 +1012,20 @@
                                 document.execCommand('copy');
                                 textArea.remove();
                             }
-                            
+
                             // Show feedback
                             const originalText = copyButton.textContent;
                             copyButton.textContent = 'Copied!';
                             copyButton.classList.add('copied');
-                            
+
                             setTimeout(function() {
                                 copyButton.textContent = originalText;
                                 copyButton.classList.remove('copied');
                             }, 2000);
-                            
+
                         } catch (err) {
                             console.error('Failed to copy code: ', err);
-                            
+
                             // Show error feedback
                             const originalText = copyButton.textContent;
                             copyButton.textContent = 'Failed';
@@ -1033,7 +1034,7 @@
                             }, 2000);
                         }
                     });
-                    
+
                     // Wrap the pre element and add the button
                     pre.parentNode.insertBefore(wrapper, pre);
                     wrapper.appendChild(pre);
