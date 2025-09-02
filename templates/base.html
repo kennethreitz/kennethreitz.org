@@ -421,6 +421,63 @@
                 padding: 3rem 0rem !important;
             }
             
+            /* === PREMIUM TYPOGRAPHY ENHANCEMENTS === */
+            
+            /* Advanced font rendering */
+            html {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                text-rendering: optimizeLegibility;
+            }
+            
+            body {
+                font-kerning: normal;
+                text-rendering: optimizeLegibility;
+                font-weight: 420;
+            }
+            
+            /* Enhanced link rendering */
+            a {
+                text-decoration-skip-ink: auto;
+            }
+            
+            /* Beautiful text selection */
+            ::selection {
+                background: rgba(0, 0, 0, 0.1);
+                color: inherit;
+                text-shadow: none;
+            }
+            
+            ::-moz-selection {
+                background: rgba(0, 0, 0, 0.1);
+                color: inherit;
+                text-shadow: none;
+            }
+            
+            /* === SUBTLE CODE SYNTAX HIGHLIGHTING === */
+            
+            /* Make comments lighter in code blocks */
+            pre code .hljs-comment,
+            pre .hljs-comment,
+            code .comment,
+            pre .comment {
+                color: #888 !important;
+                font-style: italic;
+            }
+            
+            /* Handle various comment patterns */
+            pre code:has-text("//"),
+            pre code:has-text("#"),
+            pre code:has-text("/*"),
+            pre code:has-text("<!--") {
+                /* Base styling handled by specific selectors below */
+            }
+            
+            /* Simple regex-based comment highlighting for common patterns */
+            pre {
+                /* This will be handled by JavaScript for dynamic highlighting */
+            }
+            
             
             
             /* Fix excessive right padding on mobile */
@@ -884,12 +941,39 @@
         </script>
         
         <script>
-            // Add copy buttons to code blocks
+            // Add copy buttons to code blocks and subtle syntax highlighting
             document.addEventListener('DOMContentLoaded', function() {
                 // Find all pre elements (code blocks)
                 const codeBlocks = document.querySelectorAll('pre');
                 
+                // Function to add subtle comment highlighting
+                function highlightComments(pre) {
+                    const code = pre.querySelector('code') || pre;
+                    let html = code.innerHTML;
+                    
+                    // Python/Shell comments (# comment)
+                    html = html.replace(/^(\s*)(#.*)$/gm, '$1<span style="color: #888; font-style: italic;">$2</span>');
+                    
+                    // Python docstrings (""" or ''')
+                    html = html.replace(/("""[\s\S]*?""")/g, '<span style="color: #888; font-style: italic;">$1</span>');
+                    html = html.replace(/('''[\s\S]*?''')/g, '<span style="color: #888; font-style: italic;">$1</span>');
+                    
+                    // JavaScript/C++/Java comments (// comment)
+                    html = html.replace(/(\s*\/\/.*)$/gm, '<span style="color: #888; font-style: italic;">$1</span>');
+                    
+                    // CSS/C/Java block comments (/* comment */)
+                    html = html.replace(/(\/\*[\s\S]*?\*\/)/g, '<span style="color: #888; font-style: italic;">$1</span>');
+                    
+                    // HTML comments (<!-- comment -->)
+                    html = html.replace(/(&lt;!--[\s\S]*?--&gt;)/g, '<span style="color: #888; font-style: italic;">$1</span>');
+                    
+                    code.innerHTML = html;
+                }
+                
                 codeBlocks.forEach(function(pre) {
+                    // Add subtle comment highlighting first
+                    highlightComments(pre);
+                    
                     // Skip if already wrapped
                     if (pre.parentElement.classList.contains('code-block-wrapper')) {
                         return;
