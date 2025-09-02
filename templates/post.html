@@ -386,16 +386,24 @@
         line-height: 2rem;
         margin: 1.4rem 0;
         color: #333;
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphenate-limit-chars: 6 3 2;
+        hyphenate-limit-lines: 2;
+        hyphenate-limit-zone: 8%;
     }
     
     .post-content li {
-        font-size: 1.4rem;
-        line-height: 2rem;
+        font-size: 1.3rem;
+        line-height: 1.9rem;
         margin: 0.25rem 0;
     }
     
     .post-content > ul, .post-content > ol {
-        width: 50%;
+        width: 60%;
         -webkit-padding-start: 5%;
         list-style-position: outside;
         box-sizing: border-box;
@@ -428,6 +436,32 @@
         margin: 0.3rem 0 0 0 !important;
         width: 50% !important;
         margin-right: -60% !important;
+    }
+    
+    .post-content blockquote p {
+        width: 75% !important;
+    }
+    
+    /* Better sidenote positioning from lists */
+    .post-content li .sidenote,
+    .post-content li .marginnote {
+        margin-top: -0.5rem;
+    }
+    
+    /* Adjust sidenote positioning to be more flexible */
+    .sidenote, .marginnote {
+        position: relative !important;
+        top: -0.2rem;
+        margin-bottom: 1rem !important;
+        clear: right !important;
+    }
+    
+    /* Prevent sidenote overlaps by ensuring proper spacing */
+    .sidenote + .sidenote,
+    .marginnote + .marginnote,
+    .sidenote + .marginnote,
+    .marginnote + .sidenote {
+        margin-top: 1.5rem !important;
     }
     
     /* Table of contents styling if present */
