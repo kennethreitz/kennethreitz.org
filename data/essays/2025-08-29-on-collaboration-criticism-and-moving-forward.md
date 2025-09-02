@@ -10,7 +10,7 @@ Here's a Safari Reader summary of this person's essay:
 
 ### The Facts
 
-We had 1–2 brief video calls about async in Requests. A few follow-up emails that I didn't respond to. That was our entire interaction. No code was shared. No collaboration existed to dissolve<label for="sn-no-collaboration" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-no-collaboration" class="margin-toggle"/><span class="sidenote">The title itself—"Why I'm Not Collaborating"—implies an existing collaboration being terminated. This framing shaped how readers interpreted the entire narrative, creating the impression of a partnership gone wrong rather than a single exploratory conversation.</span>.
+We had 1–2 brief video calls about async in Requests. A few follow-up emails that I didn't respond to. That was our entire interaction. No code was shared. No collaboration existed to dissolve<label for="sn-no-collaboration" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-no-collaboration" class="margin-toggle"/><span class="sidenote">The title itself—"Why I'm Not Collaborating"—implies an existing collaboration being terminated. This framing shaped how readers interpreted the entire narrative, creating the impression of a partnership gone wrong rather than a simple exploratory conversation.</span>.
 
 I could spend this entire essay relitigating the past, but that's missing the point. This is about patterns in tech culture that affect all of us—how narratives crystallize into truth, how reputations become prisons, and perhaps most importantly, how we might do better.
 
