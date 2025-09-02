@@ -5,7 +5,13 @@
 
 
 
- ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521244-CB274HKKRV8TKXMXTN79/e44c8-img.jpg)      ![87fe8-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666457399-LVQPUG8L3BGBS81NW7AE/2f778-87fe8-img.jpg)      ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666472797-RH5Y7RNOZNEH49S6KSW2/2ab21-6d868-image-asset.jpeg)   Records is a very simple, but powerful, library for making raw SQLqueries to Postgres databases.
+![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521244-CB274HKKRV8TKXMXTN79/e44c8-img.jpg)
+
+![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666457399-LVQPUG8L3BGBS81NW7AE/2f778-87fe8-img.jpg)
+
+![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666472797-RH5Y7RNOZNEH49S6KSW2/2ab21-6d868-image-asset.jpeg)
+
+Records is a very simple, but powerful, library for making raw SQLqueries to Postgres databases.
 
  This common task can be surprisingly difficult with the standard toolsavailable. This library strives to make this workflow as simple aspossible, while providing an elegant interface to work with your queryresults—continuing the "for Humans" design philosophy explored in [Ahead of My Time, I Think](/essays/2025-08-26-ahead_of_my_time_i_think).
 

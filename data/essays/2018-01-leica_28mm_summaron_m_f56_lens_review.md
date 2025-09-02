@@ -19,7 +19,7 @@
 
  *This is the ultimate street photography lens.*
 
- \[vimeo 275075352 w\=640 h\=360] ![Selfie (taken indoors) with the new limited Leica 28mm Summaron-M f/5.6.](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666461219-5602851WT4PRZ6BBMZHS/0501e-c931f-l1001557.jpg)
+ *[Video review available on Vimeo]* ![Selfie (taken indoors) with the new limited Leica 28mm Summaron-M f/5.6.](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666461219-5602851WT4PRZ6BBMZHS/0501e-c931f-l1001557.jpg)
 
   Selfie (taken indoors) with the new limited Leica 28mm Summaron\-M f/5\.6\.
 

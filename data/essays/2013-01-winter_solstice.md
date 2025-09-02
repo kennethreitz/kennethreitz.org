@@ -7,7 +7,7 @@
 
  ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666522541-7UXEDM44HL07IGQNMJQ9/e906e-img.jpg) Winter has fallen upon the Shenandoah Valley, and 2014 is fast approaching. To commemorate the occasion, I created a sonic reflection of the year's journeys.
 
- \[soundcloud url\="https://api.soundcloud.com/tracks/125913455" params\="color\=ff6600\&auto\_play\=false\&show\_artwork\=true" width\="100%" height\="166" iframe\="true" /] The brief transition from autumn into winter is stark, concise, and profound. These seasonal harmonies made a great opportunity to experiment with film.
+ *[Audio track available on SoundCloud]* The brief transition from autumn into winter is stark, concise, and profound. These seasonal harmonies made a great opportunity to experiment with film.
 
  ![harmonies](http://farm8.staticflickr.com/7385/11317710804_949c32ddea_b.jpg)
 

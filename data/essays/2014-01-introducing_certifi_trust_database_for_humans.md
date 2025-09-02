@@ -5,7 +5,13 @@
 
 
 
- ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666480948-AX4X1ZV8G9NHLZB6GX0Y/4d1eb-img.jpg)      ![ff070-l1003886.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666454123-IJU8ZW6ZC7ZQDKXNOSW3/67a45-ff070-l1003886.jpg)       [![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666467200-WFP2XGWODEY4K4IJRFV5/18bf1-bace4-image-asset.jpeg)](/stockholm-2014)   The internet is an untrusted place. Every HTTP request you make should have verification on by default. This happens every time you access a website with your web browser, without any knowledge to the user — there’s no reason your code should be any different.
+![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666480948-AX4X1ZV8G9NHLZB6GX0Y/4d1eb-img.jpg)
+
+![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666454123-IJU8ZW6ZC7ZQDKXNOSW3/67a45-ff070-l1003886.jpg)
+
+[![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666467200-WFP2XGWODEY4K4IJRFV5/18bf1-bace4-image-asset.jpeg)](/stockholm-2014)
+
+The internet is an untrusted place. Every HTTP request you make should have verification on by default. This happens every time you access a website with your web browser, without any knowledge to the user — there’s no reason your code should be any different.
 
  [Certifi](http://certifi.io/en/latest/) is here, for everyone, to make this possible.
 
