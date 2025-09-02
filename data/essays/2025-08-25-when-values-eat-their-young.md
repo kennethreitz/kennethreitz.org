@@ -103,13 +103,6 @@ The kindness was performative. When tested by real conflict, the community defau
 <input type="checkbox" id="sn-kindness" class="margin-toggle"/>
 <span class="sidenote">Multiple maintainers documented similar experiences. See Nolan Lawson's "What it feels like to be an open-source maintainer" (2017) and André Staltz's "Software below the poverty line" (2019). The same people who put mental health in their bios will destroy someone having a public breakdown.</span>
 
-### The Corporate Culture Initiative
-
-Google's own data reveals this pattern. Despite pioneering "psychological safety" research through Project Aristotle (2012-2014), multiple former Googlers have documented retaliation for raising concerns. The 2019 walkout organizers—Claire Stapleton and Meredith Whittaker—both reported systematic retaliation after organizing protests about the company's handling of sexual harassment.<label for="sn-google" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-google" class="margin-toggle"/>
-<span class="sidenote">Stapleton wrote in The Guardian (2019): "I was told I would be demoted, that I'd lose half my reports, and that a project that was approved was no longer on the table." Whittaker was told to abandon her work on AI ethics. Both eventually left Google.</span>
-
-The pattern repeats across tech: Amazon's "Leadership Principles" include "Have Backbone; Disagree and Commit" yet the New York Times documented (2015) employees crying at their desks. Facebook champions "Be Bold" while whistleblower Frances Haugen testified to Congress (2021) about internal suppression of safety concerns.
 
 ### Personal Experience
 
