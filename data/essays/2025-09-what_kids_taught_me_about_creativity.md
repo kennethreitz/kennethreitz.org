@@ -7,6 +7,8 @@ I cared deeply about these objects. I was an artist, and these were my instrumen
 
 But then I had children, and everything I thought I knew about the sacred was wrong.
 
+## When Time Was Infinite
+
 Without kids (without real responsibility), I could afford to optimize for the theoretical rather than the practical.<label for="sn-time-luxury" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-time-luxury" class="margin-toggle"/><span class="sidenote">Time was a luxury I didn't realize I had until it was gone.</span> I could spend months researching the perfect camera, the ideal synthesizer, the most elegant cable management system. Time was infinite, money felt renewable, and the gap between "having the right tools" and "actually creating something" remained conveniently invisible.
 
 Children have a way of burning away these comfortable delusions. They force you to confront what's actually sacred.
