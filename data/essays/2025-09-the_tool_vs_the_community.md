@@ -99,7 +99,7 @@ For developers who love these principles but struggle with community participati
 
 ## A Call to Builders
 
-If you're reading this and recognizing yourself in these patterns, **consider this**: the Python ecosystem needs more builders and fewer talkers. It needs people who care more about solving problems than about social positioning. It needs developers who judge code by its clarity and effectiveness, not by the social status of who wrote it.
+If you're reading this and recognizing yourself in these patterns, **consider this**: the Python ecosystem needs more people focused on building than on talking about building. It needs people who care more about solving problems than about social positioning. It needs developers who judge code by its clarity and effectiveness, not by the social status of who wrote it.
 
 The most valuable contributions often come from people working quietly on specific problems. The developer who creates a library that elegantly solves a common pain point contributes more than someone who gives keynote talks about the importance of contribution. The programmer who writes clear documentation that helps beginners understand complex concepts matters more than committee members debating governance structures.
 
