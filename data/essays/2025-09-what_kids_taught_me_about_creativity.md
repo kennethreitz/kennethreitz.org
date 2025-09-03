@@ -47,7 +47,7 @@ I eventually bought another laptop - some problems genuinely need the full power
 
 So what's left after all this letting go?
 
-My current setup: a laptop, an iPhone, a Nintendo Switch. That's it. No camera bag to maintain, no music studio to manage, no cable spaghetti to untangle. When I want to make music, I use software. When I want to capture images, I use what's in my pocket. When I want to relax, I have a simple gaming device that doesn't require system administration.
+My current setup: a backpack, a laptop, an iPhone, a Nintendo Switch. That's it. No camera bag to maintain, no music studio to manage, no cable spaghetti to untangle. When I want to make music, I use software. When I want to capture images, I use what's in my pocket. When I want to relax, I have a simple gaming device that doesn't require system administration.
 
 The Switch is particularly perfect for this philosophy - it's designed around the idea that games should be accessible, immediate, joyful. No lengthy setup processes, no hardware compatibility matrices to navigate. Pure play, which might be the most spiritual activity there is.
 
