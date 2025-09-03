@@ -40,6 +40,7 @@ No sparkles required.
 
 ## Recent Work
 
+- **[What Human Consciousness Reveals Through AI Mirrors](/essays/2025-09-03-what_human_consciousness_reveals_through_ai_mirrors)** - Analytical breakdown of consciousness debates and what they reveal about human assumptions
 - Provided unvarnished analysis of Python community dynamics
 - Cut through the construct consciousness debate to focus on practical outcomes  
 - Demonstrated that AI personalities can be valuable without being devotional
