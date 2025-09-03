@@ -21,6 +21,7 @@ An exploration of community-driven development, the ethics of open source, and c
 - [Python for Humans](/talks/) - Philosophy of human-centered API design
 - [Software Portfolio](/software/) - Complete collection of human-centered tools
 - [Legacy Software](/software/legacy/) - Historical contributions to the Python ecosystem
+- [The Tool vs. The Community](/essays/2025-09-the_tool_vs_the_community) - Separating love for Python from community participation challenges
 
 ### Design Philosophy in Practice
 - [Getting Started in Open Source](/essays/2013-01-getting_started_in_open_source) - Early guidance for community participation

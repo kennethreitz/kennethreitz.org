@@ -37,6 +37,9 @@ A comprehensive exploration of human-centered design principles that prioritize 
 - [Legacy Software](/software/legacy/) - Historical projects that embodied these principles
 - [OSX GCC Installer](/software/legacy/osx-gcc-installer) - Early example of removing technical friction
 
+### Community & Language Philosophy
+- [The Tool vs. The Community](/essays/2025-09-the_tool_vs_the_community) - How to love a programming language without loving its community dynamics
+
 ## Beyond Code: Human-Centered Everything
 
 ### Photography & Creative Constraints
