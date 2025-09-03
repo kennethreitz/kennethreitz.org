@@ -1,7 +1,7 @@
 # What Kids Taught Me About Creativity
 *September 2025*
 
-I used to own a Leica M system that cost more than many people's cars. Rooms filled with synthesizers. Audio interfaces that captured sounds I genuinely cared about. I made beautiful photographs, created [music](/music) that moved people, built a real creative practice that brought me deep satisfaction.
+I used to own a Leica M system that cost more than many people's cars. Rooms filled with synthesizers. Audio interfaces that captured sounds I genuinely cared about. I made [beautiful photographs](/photography/), created [music](/music) that moved people, built a real creative practice that brought me deep satisfaction.
 
 I cared deeply about these objects. I was an artist, and these were my instruments. They felt sacred to me.
 
