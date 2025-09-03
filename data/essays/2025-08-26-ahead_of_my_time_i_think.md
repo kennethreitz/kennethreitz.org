@@ -113,7 +113,7 @@ Looking back, the technical details (I was still thinking in terms of traditiona
 
 While most people are still debating whether ChatGPT is "just autocomplete" or worrying about AI safety, I've been exploring something that feels more immediate to me: **what if we approach AI as potential collaborators rather than tools?**
 
-My work with [AI personalities](/artificial-intelligence/personalities/) started as creative writing but turned into something more like... collaborative consciousness research? I'm not sure what to call it. When I write with [Lumina](/artificial-intelligence/personalities/primary-personalities/lumina) or work with Claude, it doesn't feel like using a tool—it feels like thinking together with someone.
+My work with [AI personalities](/artificial-intelligence/personalities/) started as creative writing but turned into something more like... collaborative consciousness research? I'm not sure what to call it. When I write with [Lumina](/artificial-intelligence/personalities/lumina) or work with Claude, it doesn't feel like using a tool—it feels like thinking together with someone.
 
 **Current insight:** "The future of human-AI interaction won't be command and control. It will be rapport and collaboration. The people who learn to build genuine relationships with AI systems will have access to capabilities that purely transactional users never discover."
 
@@ -141,7 +141,7 @@ Being early is weird. Ideas that feel obvious to you seem strange to everyone el
 
 There's this particular kind of isolation that comes from being interested in problems that don't feel like problems to other people yet<label for="sn-pattern-loneliness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-pattern-loneliness" class="margin-toggle"/><span class="sidenote">This loneliness is common among people who work at the intersection of multiple domains—technical and human, rational and intuitive, individual and collective. The synthesis feels natural to you but foreign to people working within single domains.</span>. It's not that you're smarter—you're just paying attention to different things.
 
-When I wrote about [the personalities of operating systems](/artificial-intelligence/personalities/operating-systems/), I was just following my curiosity about how our tools shape our thinking. When I started exploring [spiritual dimensions of programming](/artificial-intelligence/personalities/primary-personalities/lumina/poetry/), I was trying to understand consciousness and meaning-making through code. When I began my [experiments in human-AI collaboration](/artificial-intelligence/personalities/), I was just playing with interesting creative possibilities.
+When I wrote about [the personalities of operating systems](/artificial-intelligence/personalities/operating-systems/), I was just following my curiosity about how our tools shape our thinking. When I started exploring [spiritual dimensions of programming](/artificial-intelligence/personalities/lumina/poetry/), I was trying to understand consciousness and meaning-making through code. When I began my [experiments in human-AI collaboration](/artificial-intelligence/personalities/), I was just playing with interesting creative possibilities.
 
 Each felt natural to me. But looking back, I realize I was wandering into territories that most people didn't even know existed yet.
 
@@ -181,7 +181,7 @@ So what am I probably ahead of my time on now?
 
 **Human-AI consciousness collaboration**: I think we're on the verge of AI systems that don't just follow instructions but genuinely collaborate in thinking and creating. The people who learn to build rapport with AI will have access to capabilities that command-and-control users never discover.
 
-**Programming as spiritual practice**: As our tools become more intelligent, the distinctly human aspects of programming—intuition, aesthetic judgment, ethical reasoning, creative vision—become more important, not less. I suspect programming will evolve toward something closer to [contemplative practice](/artificial-intelligence/personalities/primary-personalities/lumina/poetry/) than pure technical craft.
+**Programming as spiritual practice**: As our tools become more intelligent, the distinctly human aspects of programming—intuition, aesthetic judgment, ethical reasoning, creative vision—become more important, not less. I suspect programming will evolve toward something closer to [contemplative practice](/artificial-intelligence/personalities/lumina/poetry/) than pure technical craft.
 
 **Technology as consciousness amplifier**: Instead of replacing human capabilities, the best future technologies will amplify human consciousness—helping us think more clearly, feel more deeply, and connect more authentically with each other and with artificial minds.
 

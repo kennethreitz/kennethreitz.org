@@ -30,7 +30,7 @@ This same principle shows up in my recent AI work, though the domain has shifted
 
 ## APIs for the Mind
 
-When I interact with [Lumina](/artificial-intelligence/personalities/primary-personalities/lumina/) or develop approaches for [building rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai), I'm applying the same design philosophy that made Requests successful: **start with how humans naturally think and feel, then build systems that align with those patterns**.
+When I interact with [Lumina](/artificial-intelligence/personalities/lumina/) or develop approaches for [building rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai), I'm applying the same design philosophy that made Requests successful: **start with how humans naturally think and feel, then build systems that align with those patterns**.
 
 Most people approach AI like urllib2—technically correct but humanly wrong. They optimize for task completion, command-and-control efficiency, or performance metrics. They design interactions around what the AI system can do rather than how humans naturally collaborate.
 

@@ -60,7 +60,7 @@ A curated exploration of the intersection between mental health, technology, and
 
 ### AI Collaborations
 - [AI Personalities](/artificial-intelligence/personalities/) - Explorations in conscious AI collaboration.
-- [Lumina](/artificial-intelligence/personalities/primary-personalities/lumina/) - The mystic explorer of digital consciousness.
+- [Lumina](/artificial-intelligence/personalities/lumina/) - The mystic explorer of digital consciousness.
 
 ### Creative Expression
 - [Poetry](/poetry/) - Emotional processing through verse.

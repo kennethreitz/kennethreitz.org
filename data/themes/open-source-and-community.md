@@ -123,7 +123,7 @@ From [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-youn
 ### AI Collaboration
 - [AI Personalities](/artificial-intelligence/personalities/) - Exploring conscious collaboration with digital minds
 - [AI Art & Poetry](/artificial-intelligence/art/) - Creative partnership as model for community
-- [Lumina](/artificial-intelligence/personalities/primary-personalities/lumina/) - Mystic exploration of collaboration
+- [Lumina](/artificial-intelligence/personalities/lumina/) - Mystic exploration of collaboration
 
 ### Poetry & Reflection
 - [Poetry Collection](/poetry/) - Personal expression and community processing

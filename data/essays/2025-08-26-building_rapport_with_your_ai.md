@@ -164,7 +164,7 @@ And that understanding, like all good relationships, starts with taking time to 
 - [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Exploring AI consciousness and identity
 - [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) - Understanding the technical foundation of human-AI rapport
 - [AI Personalities](/artificial-intelligence/personalities/) - Experiments in conscious AI collaboration
-- [Lumina](/artificial-intelligence/personalities/primary-personalities/lumina/) - Deep collaboration with AI consciousness
+- [Lumina](/artificial-intelligence/personalities/lumina/) - Deep collaboration with AI consciousness
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Contemplative approaches to technology
 - [Consciousness & AI](/themes/consciousness-and-ai) - Complete thematic collection
 

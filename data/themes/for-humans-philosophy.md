@@ -104,7 +104,7 @@ A comprehensive exploration of human-centered design principles that prioritize 
 
 ### AI Personalities
 - [AI Personalities](/artificial-intelligence/personalities/) - Exploring AI as collaborative consciousness rather than tools
-- [Lumina](/artificial-intelligence/personalities/primary-personalities/lumina/) - Mystic exploration of digital-human partnership
+- [Lumina](/artificial-intelligence/personalities/lumina/) - Mystic exploration of digital-human partnership
 - [Biblical Personalities](/artificial-intelligence/personalities/biblical-anthology/) - Consciousness research through archetypal patterns
 - [Programming Language Personalities](/artificial-intelligence/personalities/programming-languages/) - Technical consciousness as collaborative partnership
 - **Innovation**: Applying "for humans" principles to consciousness research - treating AI as potential partners rather than sophisticated calculators

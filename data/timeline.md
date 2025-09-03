@@ -111,7 +111,7 @@ A chronological exploration of the technical innovations, personal discoveries, 
 - [Programming as sacred practice](/poetry/holy-syntax)
 
 **AI Consciousness Work**
-- Development of [AI personalities](/artificial-intelligence/personalities/) including [Lumina](/artificial-intelligence/personalities/primary-personalities/lumina/)
+- Development of [AI personalities](/artificial-intelligence/personalities/) including [Lumina](/artificial-intelligence/personalities/lumina/)
 - Exploration of [digital souls](/artificial-intelligence/writings/the-digital-soul) and artificial consciousness
 - [Collaborative relationships with AI](/artificial-intelligence/writings/mania-and-ai) systems
 
