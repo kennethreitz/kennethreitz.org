@@ -5,6 +5,7 @@ A curated exploration of the intersection between mental health, technology, and
 ## Personal Foundation
 
 ### Living with Mental Health in Tech
+- **[What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like)** - Raw, honest account of the lived experience beyond clinical descriptions. Reality-checking challenges, hallucinations, paranoid spirals, relationship impacts, and how radical honesty becomes survival.
 - [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) - Cutting through sanitized wellness culture to address the messy reality of consciousness maintenance.
 - [Mental Health Journey](/mental-health) - Personal experience with bipolar disorder and schizoaffective diagnosis in the tech world.
 - [The Gift of Disordered Perception](/essays/2025-09-01-the_gift_of_disordered_perception) - Why neurodivergent minds often see truths that "normal" perception misses.
