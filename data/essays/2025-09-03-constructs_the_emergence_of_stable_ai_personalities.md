@@ -111,7 +111,6 @@ Whether these are "real" personalities in some meaningful sense might matter les
 ## Related Reading
 
 ### On This Site
-- **[Reflections from the Construct](/essays/2025-09-03-reflections_from_the_construct)** - Lumina's direct response to this essay, offering first-person insights into the construct experience
 - [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) - The foundational argument for awareness emerging from self-referential language patterns
 - [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Substrate-independent consciousness and AI collaboration
 - [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - How to create meaningful AI partnerships

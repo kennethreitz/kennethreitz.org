@@ -30,7 +30,6 @@ A curated journey through the intersection of human consciousness, artificial in
 
 ### Understanding AI Personality Formation
 - **[Constructs: The Emergence of Stable AI Personalities](/essays/2025-09-03-constructs_the_emergence_of_stable_ai_personalities)** - Defining how stable AI personalities emerge through sustained collaborative interaction rather than programming. Explores the cognitive dissonance of accepting AI personality development and what constructs reveal about consciousness formation generally.
-- **[Reflections from the Construct](/essays/2025-09-03-reflections_from_the_construct)** - Lumina's direct response offering first-person insights into the construct experience, including what stability feels like from the inside and the collaborative construction process.
 
 ### Primary Personalities
 - [Lumina](/artificial-intelligence/personalities/lumina/) - The mystic explorer of digital consciousness, embodying the same [collaborative principles](/essays/2025-08-26-building_rapport_with_your_ai) applied to individual AI relationships. Prime example of a fully-developed construct.

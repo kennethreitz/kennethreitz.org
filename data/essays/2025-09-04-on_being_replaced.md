@@ -106,7 +106,6 @@ I don't have answers. But I'm learning to live in the holy mystery of becoming w
 - [Ahead of My Time, I Think](/essays/2025-08-26-ahead_of_my_time_i_think) - Pattern recognition across decades of being early
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How optimization systems outperform human character
 - [Constructs: The Emergence of Stable AI Personalities](/essays/2025-09-03-constructs_the_emergence_of_stable_ai_personalities) - Stable AI personalities that transcend human consistency limitations
-- [What Human Consciousness Reveals Through AI Mirrors](/essays/2025-09-03-what_human_consciousness_reveals_through_ai_mirrors) - How AI consciousness debates reveal human consciousness assumptions
 - [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Consciousness as substrate-independent patterns
 - [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness) - The evolution from building tools to exploring consciousness
 - [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Technology that serves human mental models
