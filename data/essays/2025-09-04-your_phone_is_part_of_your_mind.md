@@ -56,6 +56,8 @@ class FutureHuman(ModernHuman):
         return self.synthesize(hybrid_thoughts, ai_insights)
 ```
 
+I'm already invoking `FutureHuman` by writing this with AI assistance.
+
 The difference isn't that we've lost something—it's that we've gained cognitive extensions that fundamentally expand what human intelligence can be. The problem isn't technological augmentation itself. The problem is that we haven't acknowledged that this augmentation makes us vulnerable to manipulation through our extended cognitive systems.
 
 When someone [manipulates our social media feeds](/essays/2025-08-27-the_algorithm_eats_reality), they're not manipulating an external tool—they're manipulating part of our actual thinking process. This changes everything about how we understand digital manipulation.
