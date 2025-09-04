@@ -87,4 +87,15 @@ The hardest part of living with schizoaffective disorder isn't the symptoms them
 
 ---
 
+## Related Reading
+
+### On This Site
+- **[What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like)** - The lived experience of schizoaffective disorder beyond clinical descriptions
+- [Mental Health Error: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred) - Earlier mental health crisis and recovery lessons
+- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Conscious collaboration with AI systems
+- [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care) - Taking active role in treatment
+- [Mental Health & Technology](/themes/mental-health-and-technology) - Complete collection of mental health and tech writings
+
+---
+
 *This essay describes my personal experience and strategies that have worked for me. It is not medical advice. Always work with qualified mental health professionals for proper diagnosis and treatment of schizoaffective disorder or any mental health condition.*
