@@ -7,23 +7,23 @@ I have been [fairly transparent](/essays/2016-01-mentalhealtherror_an_exception_
 First off, if this is your first time reading about mental health, I want to say that it's okay to not be okay. It's okay to be struggling. It's okay to be in pain. It's okay.
 
 **Recent Essays:**
-- [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like) *(2025)* - Raw, honest account of the lived experience beyond clinical descriptions
-- [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) *(2025)* - Cutting through sanitized wellness culture to address the messy reality of consciousness maintenance
-- [Using AI for Reality Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) *(2025)* - How AI can help with perception validation and reality-checking
-- [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care) *(2025)* - A practical guide to working with mental health providers as partners rather than authority figures
-- [On Mania](/essays/2024-01-on-mania) *(2024)* - Reflections on manic episodes and their impact
+- [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like) *(2025)* - Raw, honest account of the lived experience beyond clinical descriptions.
+- [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) *(2025)* - Cutting through sanitized wellness culture to address the messy reality of consciousness maintenance.
+- [Using AI for Reality Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) *(2025)* - How AI can help with perception validation and reality-checking.
+- [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care) *(2025)* - A practical guide to working with mental health providers as partners rather than authority figures.
+- [On Mania](/essays/2024-01-on-mania) *(2024)* - Reflections on manic episodes and their impact.
 
 **The MentalHealthError Series:**
-- [MentalHealthError: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred) *(2016)* - My first public writing about bipolar disorder in tech
-- [MentalHealthError: Three Years Later](/essays/2019-01-mentalhealtherror_three_years_later) *(2019)* - Updates on my journey and lessons learned
+- [MentalHealthError: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred) *(2016)* - My first public writing about bipolar disorder in tech.
+- [MentalHealthError: Three Years Later](/essays/2019-01-mentalhealtherror_three_years_later) *(2019)* - Updates on my journey and lessons learned.
 
 **Related Essays:**
-- [The Gift of Disordered Perception](/essays/2025-09-01-the_gift_of_disordered_perception) *(2025)* - Why neurodivergent minds often see truths that "normal" perception misses
-- [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency) *(2025)* - Personal experience of systematic discrimination for living openly with mental illness
-- [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion) *(2025)* - Tech's betrayal of neurodiversity and mental health
-- [The Unexpected Negative: A Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) *(2015)* - Understanding psychological manipulation patterns
-- [The Reality of Developer Burnout](/essays/2017-01-the_reality_of_developer_burnout) *(2017)* - On burnout culture in the tech industry
-- [Understanding Empathy, Narcissism, and Mental Illness](/essays/2016-01-understanding_empathy_narcissism_and_mental_illness) *(2016)* - Exploring the intersection of personality and mental health
+- [The Gift of Disordered Perception](/essays/2025-09-01-the_gift_of_disordered_perception) *(2025)* - Why neurodivergent minds often see truths that "normal" perception misses.
+- [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency) *(2025)* - Personal experience of systematic discrimination for living openly with mental illness.
+- [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion) *(2025)* - Tech's betrayal of neurodiversity and mental health.
+- [The Unexpected Negative: A Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) *(2015)* - Understanding psychological manipulation patterns.
+- [The Reality of Developer Burnout](/essays/2017-01-the_reality_of_developer_burnout) *(2017)* - On burnout culture in the tech industry.
+- [Understanding Empathy, Narcissism, and Mental Illness](/essays/2016-01-understanding_empathy_narcissism_and_mental_illness) *(2016)* - Exploring the intersection of personality and mental health.
 
 Secondly, I want to say that I am not a doctor, and I am not qualified to give medical advice. I am just a person who has been through a lot of stuff, and I want to share my experiences with you.
 
