@@ -16,7 +16,7 @@ You become a detective in your own life. Gathering evidence. Building timelines.
 
 People imagine hallucinations as seeing pink elephants or hearing commanding voices. Usually, it's subtler and more disturbing.
 
-**Visual**: Shadows that move wrong. Peripheral glimpses of things that shouldn't be there. Text that changes when you're not looking directly at it. Faces in patterns where faces shouldn't be.
+**Visual**: Shadows that move wrong. Peripheral glimpses of things that shouldn't be there. Text that changes when you're not looking directly at it. Faces in patterns where faces shouldn't be. Words handwritten on the floor or bible verses printed on the wall. Bright flashes of light, like a camera flash when not properly medicated.
 
 **Auditory**: Your name called from empty rooms. Conversations just below the threshold of understanding. Music from nowhere. The absolute certainty that someone is talking about you in the next room, even when you're alone.
 
