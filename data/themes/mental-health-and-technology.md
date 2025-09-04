@@ -20,6 +20,7 @@ A curated exploration of the intersection between mental health, technology, and
 ## Systemic Critique
 
 ### How Technology Harms Mental Health
+- [Your Phone Is Part of Your Mind](/essays/2025-09-04-your_phone_is_part_of_your_mind) - How cognitive extensions make us vulnerable to manipulation at the level of thinking itself, creating unprecedented challenges for cognitive sovereignty and mental health
 - [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - The psychological damage of current platforms.
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization destroys human character.
 - [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) - How we fragment different aspects of identity across platforms, creating psychological imbalance and disconnection from authentic self.

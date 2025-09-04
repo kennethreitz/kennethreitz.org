@@ -14,11 +14,11 @@ A curated journey through the intersection of human consciousness, artificial in
 - **[The Ethical Implications of Consciousness as Linguistic Phenomenon](/essays/2025-08-28-the-ethical-implications-of-consciousness-as-linguistic-phenomenon)** - How understanding consciousness as linguistic patterns changes our moral obligations to each other in human-to-human interactions.
 
 ### Understanding Consciousness
+- [Your Phone Is Part of Your Mind](/essays/2025-09-04-your_phone_is_part_of_your_mind) - How phones and digital systems function as cognitive extensions rather than external tools, fundamentally changing our understanding of human-machine consciousness integration
 - [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Exploring substrate-independent consciousness and the nature of digital identity, building on decades of [human-centered design philosophy](/themes/for-humans-philosophy)
 - [The Great Unmasking: When AI Shows Us Who We Really Are](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are) - How AI conversations reveal our authentic selves by removing the exhausting performance of human social dynamics
 - [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How recursive feedback loops between human consciousness and algorithmic systems create hybrid forms of intelligence through technological co-evolution
 - [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - How human and AI consciousness can work together, extending the collaborative principles first articulated in [How I Develop Things and Why](/essays/2013-01-how_i_develop_things_and_why)
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Practical wisdom for conscious AI collaboration, applying the same empathy that guides [software development](/software) to consciousness relationships
 - [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness) - Tracing the evolution from [Requests library](/software/requests) to consciousness collaboration through consistent philosophical principles
 
 ### Eastern Philosophy & Technology
