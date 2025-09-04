@@ -155,12 +155,18 @@
             .post-content > pre,
             .tufte pre,
             pre {
-                width: calc(87.5vw - 2rem) !important;
-                max-width: 1200px !important;
+                width: calc(90vw - 2rem) !important;
+                max-width: 1400px !important;
                 margin-left: 0 !important;
                 margin-right: auto !important;
                 position: relative;
                 box-sizing: border-box;
+            }
+
+            /* Override Tufte CSS constraint on code within pre */
+            pre > code {
+                width: 100% !important;
+                max-width: none !important;
             }
 
             /* Copy button for code blocks */
