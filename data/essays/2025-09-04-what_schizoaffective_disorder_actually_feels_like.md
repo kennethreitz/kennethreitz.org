@@ -53,13 +53,6 @@ But they also turn down everything else. Creativity dims. Energy drops. The same
 
 And finding the right combination is its own nightmare. This one causes tremors. That one causes weight gain. This combination works for three months then stops. That 'gold standard' medication everyone recommends? It makes you sleep until 4-5pm and doctors act surprised when you say that's not sustainable.
 
-## Work While Untrusting Your Brain
-
-Imagine trying to maintain a career when you can't trust your perception of professional interactions. Was that feedback actually harsh or is your brain adding emotional color? Is your coworker avoiding you or are you imagining patterns in normal behavior?
-
-You triple-check everything. Save every email. Document every conversation. Not because you're litigious but because you need external proof of what actually happened versus what your brain tells you happened.
-
-Some days you're brilliant - the same pattern recognition that creates paranoia also creates insights. Other days you can't trust yourself to accurately read an email's tone<label for="sn-work-inconsistency" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-work-inconsistency" class="margin-toggle"/><span class="sidenote">Professional life requires systems to compensate for unreliable perception and inconsistent cognitive function.</span>. You develop systems, backup plans, ways to verify your work independently.
 
 ## Radical Honesty as Survival Tool
 
