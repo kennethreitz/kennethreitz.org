@@ -2,13 +2,13 @@
 
 *September 2025*
 
-You're staring at a text message trying to determine if the tone is off or if your brain is manufacturing threats that don't exist. You read it again. The words haven't changed but their meaning keeps shifting. Friendly becomes suspicious becomes hostile becomes friendly again. This is your brain on schizoaffective disorder.
+You're staring at a text message trying to determine if the tone is off or if your brain is manufacturing threats that don't exist. You read it again. The words haven't changed but their meaning keeps shifting. Friendly becomes suspicious becomes hostile becomes friendly again. This is your brain on schizoaffective disorder<label for="sn-text-analysis" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-text-analysis" class="margin-toggle"/><span class="sidenote">The exhausting reality of constantly analyzing communication for hidden meanings or threats that may not exist.</span>.
 
 ## The Paranoid Spiral
 
 It starts with pattern recognition gone haywire. A conversation that felt wrong. A schedule change that seems suspicious. Someone's mood that doesn't match what you expected. Your brain takes these seeds and grows them into elaborate networks of connection and conspiracy.
 
-The cruel part is that humans actually do lie, deceive, and betray. So you can never fully dismiss the paranoia as "just symptoms." Sometimes you're right. Sometimes that suspicious feeling was accurate. This validation makes it impossible to simply ignore the alarm bells, even when they're ringing for no reason.
+The cruel part is that humans actually do lie, deceive, and betray. So you can never fully dismiss the paranoia as "just symptoms." Sometimes you're right. Sometimes that suspicious feeling was accurate. This validation makes it impossible to simply ignore the alarm bells, even when they're ringing for no reason<label for="sn-validation-trap" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-validation-trap" class="margin-toggle"/><span class="sidenote">Occasional accuracy makes paranoid thoughts impossible to dismiss - the 5% that's real validates the 95% that isn't.</span>.
 
 You become a detective in your own life. Gathering evidence. Building timelines. Looking for proof of... something. You're not even sure what. Just that feeling that something is wrong, hidden, deliberately obscured.
 
@@ -20,7 +20,7 @@ People imagine hallucinations as seeing pink elephants or hearing commanding voi
 
 **Auditory**: Your name called from empty rooms. Conversations just below the threshold of understanding. Music from nowhere. The absolute certainty that someone is talking about you in the next room, even when you're alone.
 
-**Tactile**: This is the worst. Phantom vibrations from your wife's phone in the middle of the night. You look over, see her moving around in the darkness, only to realize she's dead asleep when you look closer. Your body insisting on a physical reality that your eyes can't confirm. You can dismiss a shadow. You can't dismiss the feeling of something that isn't there.
+**Tactile**: This is the worst. Phantom vibrations from your wife's phone in the middle of the night. You look over, see her moving around in the darkness, only to realize she's dead asleep when you look closer<label for="sn-tactile-reality" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-tactile-reality" class="margin-toggle"/><span class="sidenote">Combined tactile and visual hallucinations create false realities your body insists are real.</span>. Your body insisting on a physical reality that your eyes can't confirm. You can dismiss a shadow. You can't dismiss the feeling of something that isn't there.
 
 These aren't constant. They come in waves, usually when stress is high or medication needs adjustment. But once you've experienced your senses lying to you, you never fully trust them again.
 
@@ -30,7 +30,7 @@ Mania feels like finally waking up. Everything makes sense. The patterns are obv
 
 During manic episodes, the world becomes a puzzle you've suddenly solved. Every conversation has subtext you now understand. Every coincidence is meaningful. Every thought feels profound. You write constantly because these insights feel too important to lose.
 
-Later, reading those notes is heartbreaking. Pages of connections that don't connect. Profound insights that are word salad. The absolute certainty you felt dissolves into embarrassment and confusion.
+Later, reading those notes is heartbreaking. Pages of connections that don't connect. Profound insights that are word salad. The absolute certainty you felt dissolves into embarrassment and confusion<label for="sn-manic-writing" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-manic-writing" class="margin-toggle"/><span class="sidenote">Manic insights feel profound in the moment but often reveal themselves as incoherent when reviewed during stability.</span>.
 
 The confidence during mania is intoxicating. You feel capable of anything. You understand everything. You make decisions that seem brilliant but are actually destructive. You say things that feel true but are actually symptoms.
 
@@ -43,13 +43,13 @@ You develop checking behaviors:
 - "When you said X, did you mean Y?"
 - "Are we okay? Are you sure? Are you really sure?"
 
-The constant need for reassurance exhausts everyone. But without it, you're alone with a brain that generates false realities. You need other people to be your reality testing, but that burden eventually breaks relationships.
+The constant need for reassurance exhausts everyone. But without it, you're alone with a brain that generates false realities. You need other people to be your reality testing, but that burden eventually breaks relationships<label for="sn-reality-testing" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-reality-testing" class="margin-toggle"/><span class="sidenote">Needing others to verify basic reality creates unsustainable relationship dynamics.</span>.
 
 ## The Medication Balancing Act
 
 The pills help but they're not magic. They turn the volume down on symptoms without eliminating them. Paranoia becomes suspicion. Hallucinations become "tricks of the light." Mania becomes hypomania - still elevated but less destructive.
 
-But they also turn down everything else. Creativity dims. Energy drops. The same medication that stops you from seeing patterns that aren't there also makes it harder to see patterns that are. You trade acute madness for chronic fog.
+But they also turn down everything else. Creativity dims. Energy drops. The same medication that stops you from seeing patterns that aren't there also makes it harder to see patterns that are. You trade acute madness for chronic fog<label for="sn-medication-trade" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-medication-trade" class="margin-toggle"/><span class="sidenote">Psychiatric medication often involves trading dramatic symptoms for dulled cognitive function.</span>.
 
 And finding the right combination is its own nightmare. This one causes tremors. That one causes weight gain. This combination works for three months then stops. That 'gold standard' medication everyone recommends? It makes you sleep until 4-5pm and doctors act surprised when you say that's not sustainable.
 
@@ -59,7 +59,7 @@ Imagine trying to maintain a career when you can't trust your perception of prof
 
 You triple-check everything. Save every email. Document every conversation. Not because you're litigious but because you need external proof of what actually happened versus what your brain tells you happened.
 
-Some days you're brilliant - the same pattern recognition that creates paranoia also creates insights. Other days you can't trust yourself to accurately read an email's tone. You develop systems, backup plans, ways to verify your work independently.
+Some days you're brilliant - the same pattern recognition that creates paranoia also creates insights. Other days you can't trust yourself to accurately read an email's tone<label for="sn-work-inconsistency" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-work-inconsistency" class="margin-toggle"/><span class="sidenote">Professional life requires systems to compensate for unreliable perception and inconsistent cognitive function.</span>. You develop systems, backup plans, ways to verify your work independently.
 
 ## Radical Honesty as Survival Tool
 
@@ -77,13 +77,13 @@ Not every day is crisis. There are clear days, weeks, sometimes months where you
 
 These periods are precious. You try to make big decisions during them. Have important conversations. Do the work that requires nuanced judgment. Build up reserves of stability for when the fog rolls back in.
 
-But you also can't fully trust the clear periods. Is this clarity or is this a different kind of altered state? Are you actually stable or is this the prelude to an episode? The vigilance never fully stops.
+But you also can't fully trust the clear periods. Is this clarity or is this a different kind of altered state? Are you actually stable or is this the prelude to an episode? The vigilance never fully stops<label for="sn-hypervigilance" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hypervigilance" class="margin-toggle"/><span class="sidenote">Even stability feels uncertain when you've learned your brain can't be trusted.</span>.
 
 ## What I've Learned
 
 Living with schizoaffective disorder means accepting that your brain is both brilliant and broken. The same mind that sees connections others miss also sees connections that don't exist. The same perception that offers unique insights also generates false realities.
 
-You learn to hold reality lightly. To consider multiple interpretations. To act on provisional truth while staying open to being wrong. To forgive yourself for the times paranoia was wrong and protect yourself for the times it was right.
+You learn to hold reality lightly. To consider multiple interpretations. To act on provisional truth while staying open to being wrong<label for="sn-provisional-reality" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-provisional-reality" class="margin-toggle"/><span class="sidenote">Living with uncertainty about basic reality requires a philosophical approach to truth and perception.</span>. To forgive yourself for the times paranoia was wrong and protect yourself for the times it was right.
 
 You develop systems:
 - External verification for important decisions
@@ -102,7 +102,7 @@ Some days I can't trust my senses. Some days I solve problems others can't see. 
 
 This is my brain. This is my life. Beautiful and broken, brilliant and unreliable, always questioning its own questions.
 
-Living with schizoaffective disorder isn't about getting better. It's about getting real - even when reality itself is negotiable.
+Living with schizoaffective disorder isn't about getting better. It's about getting real - even when reality itself is negotiable<label for="sn-negotiable-reality" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-negotiable-reality" class="margin-toggle"/><span class="sidenote">Recovery means learning to function when your perception of reality is inherently unreliable.</span>.
 
 ---
 
