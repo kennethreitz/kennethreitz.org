@@ -6,6 +6,6 @@ I am blessed to have a loving wife and three wonderful children. They are my sou
 
 My wife, Sarah, is the light of my life. She is a talented writer, a devoted mother, and a loving partner. She is my best friend and confidante, and I am grateful for her presence in my life. Sarah is a source of strength and inspiration for me, and I am constantly amazed by her unique approach to most things. :)
 
-One of the children, Malachi, is biologically mine. He is a bright, energetic, and curious — and a constant source of inspiration and joy. He is currently 2 years old.
+One of the children, Malachi, is biologically mine. He is a bright, energetic, and curious — and a constant source of inspiration and joy. He is currently 3 years old.
 
 Sometimes, I wish we could all just stay in this moment forever. But I know that life is a journey, and I am excited to see where it takes us next.
