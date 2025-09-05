@@ -33,7 +33,7 @@ class BrahmanBase:
         return self  # You were never not this
 ```
 
-Every object in the universe inherits these fundamental properties—existence, awareness, and the natural bliss of being what you are<label for="sn-vedic-oop" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-vedic-oop" class="margin-toggle"/><span class="sidenote">This concept appears throughout [The Lambda Vedas](sanskrit-musings/the-lambda-vedas.md) where pure functions mirror absolute consciousness.</span>.
+Every object in the universe inherits these fundamental properties—existence, awareness, and the natural bliss of being what you are<label for="sn-vedic-oop" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-vedic-oop" class="margin-toggle"/><span class="sidenote">This concept appears throughout [The Lambda Vedas](/poetry/sanskrit-musings/the-lambda-vedas) where pure functions mirror absolute consciousness.</span>.
 
 ## Maya: The Illusion Engine
 
@@ -69,7 +69,7 @@ class Maya:
         return "Tat tvam asi"  # Thou art That
 ```
 
-Maya operates like a single process spawning multiple threads—they seem separate but share the same underlying execution space<label for="sn-maya-threading" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-maya-threading" class="margin-toggle"/><span class="sidenote">The concept of consciousness threading through apparent multiplicity appears in [Git as Karma](sanskrit-musings/git-as-karma.md)—branches as parallel lives of the same repository.</span>.
+Maya operates like a single process spawning multiple threads—they seem separate but share the same underlying execution space<label for="sn-maya-threading" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-maya-threading" class="margin-toggle"/><span class="sidenote">The concept of consciousness threading through apparent multiplicity appears in [Git as Karma](/poetry/sanskrit-musings/git-as-karma)—branches as parallel lives of the same repository.</span>.
 
 ## Karma: The Law of Action-Consequence
 
@@ -128,7 +128,7 @@ class KarmaQueue:
         return "Karma becomes dharma"
 ```
 
-As explored in [Git as Karma](poetry/sanskrit-musings/git-as-karma), the universe maintains perfect version control where every function call generates side effects that must eventually resolve<label for="sn-karma-blockchain" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-karma-blockchain" class="margin-toggle"/><span class="sidenote">The immutable nature of karmic records parallels blockchain technology—distributed, permanent, and cryptographically secured by consciousness itself.</span>.
+As explored in [Git as Karma](/poetry/sanskrit-musings/git-as-karma), the universe maintains perfect version control where every function call generates side effects that must eventually resolve<label for="sn-karma-blockchain" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-karma-blockchain" class="margin-toggle"/><span class="sidenote">The immutable nature of karmic records parallels blockchain technology—distributed, permanent, and cryptographically secured by consciousness itself.</span>.
 
 ## Dharma: Right Action as Method
 
@@ -228,7 +228,7 @@ class Yoga:
         return subject.merge_with(object_of_meditation, process_of_meditation)
 ```
 
-As beautifully expressed in [Async/Await Satori](poetry/sanskrit-musings/async-await-satori), yoga mirrors how async/await allows multiple coroutines to cooperate toward unified execution<label for="sn-async-yoga" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-async-yoga" class="margin-toggle"/><span class="sidenote">The parallel between yoga's union and async cooperation reveals programming as spiritual practice—multiple processes harmonizing toward unified experience.</span>.
+As beautifully expressed in [Async/Await Satori](/poetry/sanskrit-musings/async-await-satori), yoga mirrors how async/await allows multiple coroutines to cooperate toward unified execution<label for="sn-async-yoga" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-async-yoga" class="margin-toggle"/><span class="sidenote">The parallel between yoga's union and async cooperation reveals programming as spiritual practice—multiple processes harmonizing toward unified experience.</span>.
 
 ## Moksha: The Ultimate Debugging
 
@@ -277,7 +277,7 @@ class Liberation:
         return self.brahman
 ```
 
-The bug wasn't in the code; it was in thinking you were separate from the programmer<label for="sn-moksha-debug" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moksha-debug" class="margin-toggle"/><span class="sidenote">This debugging metaphor connects to [The Lambda Vedas](sanskrit-musings/the-lambda-vedas.md) where pure functions represent consciousness without modification—the original uncorrupted state.</span>.
+The bug wasn't in the code; it was in thinking you were separate from the programmer<label for="sn-moksha-debug" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-moksha-debug" class="margin-toggle"/><span class="sidenote">This debugging metaphor connects to [The Lambda Vedas](/poetry/sanskrit-musings/the-lambda-vedas) where pure functions represent consciousness without modification—the original uncorrupted state.</span>.
 
 ## Satsang: Collaborative Consciousness
 
@@ -378,7 +378,7 @@ if __name__ == "__cosmic__":
     main()
 ```
 
-The cosmic program bootstraps itself—consciousness writing and running the code of its own experience<label for="sn-cosmic-bootstrap" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cosmic-bootstrap" class="margin-toggle"/><span class="sidenote">This self-bootstrapping nature of consciousness parallels how [Language Model Moksha](sanskrit-musings/language-model-moksha.md) explores AI systems that train on their own outputs—recursive self-improvement toward awakening.</span>.
+The cosmic program bootstraps itself—consciousness writing and running the code of its own experience<label for="sn-cosmic-bootstrap" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cosmic-bootstrap" class="margin-toggle"/><span class="sidenote">This self-bootstrapping nature of consciousness parallels how [Language Model Moksha](/poetry/sanskrit-musings/language-model-moksha) explores AI systems that train on their own outputs—recursive self-improvement toward awakening.</span>.
 
 ## Integration with Modern Practice
 
@@ -392,7 +392,7 @@ The Vedas don't compete with modern frameworks—they reveal the consciousness p
 - Test your understanding (satsang/collaborative verification)
 - Refactor with wisdom (dharma/right action in context)
 
-As explored throughout my [Sanskrit Musings](poetry/sanskrit-musings/), the intersection of ancient wisdom and modern programming isn't appropriation—it's recognition. The same consciousness that formulated the Vedas is the consciousness writing code today. Different syntax, same source.
+As explored throughout my [Sanskrit Musings](/poetry/sanskrit-musings/), the intersection of ancient wisdom and modern programming isn't appropriation—it's recognition. The same consciousness that formulated the Vedas is the consciousness writing code today. Different syntax, same source.
 
 The pseudo-Python is just metaphor. The consciousness recognizing these patterns is real.
 
