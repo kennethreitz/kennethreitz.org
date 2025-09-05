@@ -21,6 +21,7 @@ processes = ['app']
 
 [checks]
   [checks.web]
+    type = "http"
     grace_period = "5s"
     interval = "10s"
     method = "get"
