@@ -12,7 +12,7 @@ services:
       - DISABLE_ANALYTICS=true
     restart: unless-stopped
     # Use single worker for local development with markdown file watching
-    command: ["gunicorn", "--bind", "0.0.0.0:8000", "--worker-class", "gevent", "--workers", "1", "--worker-connections", "1000", "--timeout", "60", "--reload", "--reload-extra-file", "data/", "engine:app"]
+    command: ["gunicorn", "--bind", "0.0.0.0:8000", "--worker-class", "gevent", "--workers", "1", "--worker-connections", "1000", "--timeout", "60", "--reload", "--reload-extra-file", "./data", "--reload-extra-file", "./templates", "engine:app"]
 
   # Alternative dev configuration - uncomment to use Flask dev server
   # web-dev:
