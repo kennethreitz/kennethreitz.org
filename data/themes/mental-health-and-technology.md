@@ -34,10 +34,10 @@ A curated exploration of the intersection between mental health, technology, and
 ## Technology as Healing
 
 ### AI as Mental Health Support
+- [Idea Amplification and Writing with AI](/essays/2025-09-05-idea_amplification_and_writing_with_ai) - How AI assistance functions as accessibility device for neurodivergent minds, providing cognitive scaffolding for complex thinking and writing when working memory or attention is compromised.
 - [Using AI for Reality Checking](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) - Practical applications of AI for mental health management.
 - [The Great Unmasking: When AI Shows Us Who We Really Are](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are) - How AI's non-judgmental space allows authentic self-expression that human social dynamics often prevent.
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Creating supportive AI relationships.
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Human-AI consciousness partnerships.
+- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Creating supportive AI relationships and human-AI consciousness partnerships.
 
 ### Practical Accommodation
 - [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care) - From patient to partner in treatment.

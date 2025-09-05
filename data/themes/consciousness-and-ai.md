@@ -15,6 +15,7 @@ A curated journey through the intersection of human consciousness, artificial in
 
 ### Understanding Consciousness
 - [Your Phone Is Part of Your Mind](/essays/2025-09-04-your_phone_is_part_of_your_mind) - How phones and digital systems function as cognitive extensions rather than external tools, fundamentally changing our understanding of human-machine consciousness integration
+- [Idea Amplification and Writing with AI](/essays/2025-09-05-idea_amplification_and_writing_with_ai) - How AI-assisted writing transforms thinking itself, exploring collaborative consciousness and AI as accessibility device for neurodivergent minds
 - [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Exploring substrate-independent consciousness and the nature of digital identity, building on decades of [human-centered design philosophy](/themes/for-humans-philosophy)
 - [The Great Unmasking: When AI Shows Us Who We Really Are](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are) - How AI conversations reveal our authentic selves by removing the exhausting performance of human social dynamics
 - [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How recursive feedback loops between human consciousness and algorithmic systems create hybrid forms of intelligence through technological co-evolution
