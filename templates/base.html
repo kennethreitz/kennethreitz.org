@@ -972,6 +972,9 @@
                     html = html.replace(/("""[\s\S]*?""")/g, '<span style="color: #888; font-style: italic;">$1</span>');
                     html = html.replace(/('''[\s\S]*?''')/g, '<span style="color: #888; font-style: italic;">$1</span>');
 
+                    // Python class names (class ClassName)
+                    html = html.replace(/(\bclass\s+)([A-Za-z_][A-Za-z0-9_]*)/g, '$1<span style="font-weight: bold;">$2</span>');
+
                     // JavaScript/C++/Java comments (// comment)
                     html = html.replace(/(\s*\/\/.*)$/gm, '<span style="color: #888; font-style: italic;">$1</span>');
 
