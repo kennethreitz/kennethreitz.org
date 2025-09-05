@@ -34,6 +34,8 @@ This is Kenneth Reitz's personal website and digital garden. When working on thi
 - **Technical metaphors** - Apply code patterns to consciousness, relationships, life. Programming concepts as philosophical frameworks.
 - **Retrospective insight** - Use "Looking back..." patterns that show pattern recognition across time. "There's a thread that connects..."
 - **Direct engagement** - Occasional "you" that creates intimacy. "If you're reading this and thinking 'finally, someone else who gets it'—you might be ahead of your time too."
+- **Recursive responsibility** - Connect personal programming principles to societal impact. Show how individual values embed in collective systems. The code we write becomes invisible infrastructure for others' consciousness.
+- **Collaborative thinking** - Ideas emerge through human-AI collaboration. Document the process of working together to develop insights neither participant could achieve alone.
 
 ### Poetry
 - Two main collections: Sanskrit Musings (AI-generated Sanskrit with translations) and Flowetry (rhythm-focused)
@@ -78,6 +80,7 @@ This is Kenneth Reitz's personal website and digital garden. When working on thi
 
 ### Primary Theme Areas
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Contemplative approaches to technical work
+- [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) - How code shapes programmer consciousness, which shapes the code that shapes everyone else's consciousness
 - [For Humans Philosophy](/themes/for-humans-philosophy) - Technology serving human consciousness rather than exploiting it
 - [Algorithmic Critique](/themes/algorithmic-critique) - How engagement optimization destroys human virtue
 - [Mental Health](/themes/mental-health-and-technology) - Transparency, reality-checking, sustainable practices, technical debugging of consciousness
@@ -101,7 +104,6 @@ uv remove package-name
 
 ## Important Notes
 
-- **Never commit changes** unless explicitly requested
 - **Always check cross-links** when editing content
 - **Preserve sidenote formatting** when editing essays
 - **Consider mobile experience** - keep content scannable
