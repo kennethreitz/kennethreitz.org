@@ -56,11 +56,12 @@ How engagement optimization systematically consumes human virtue: language, love
 - **Plurality as feature, not bug** - Multiple self-states as natural human architecture
 
 ### Code Examples
-Use philosophical code blocks that illustrate the futility of systematizing consciousness:
+Use philosophical code blocks that illustrate spiritual/psychological concepts:
 - TODO comments about unsolvable human problems
-- Exception handling for emotional states
+- Exception handling for emotional states  
 - Dataclasses trying to model the unmappable
-- Clean, logical code that reveals its own inadequacy for modeling humans
+- Clean, logical pseudo-Python that reveals deeper truths about consciousness
+- **Follow Kenneth's style**: Proper PEP8 formatting with thoughtful whitespace - code should breathe and be inviting to read
 
 ## Technical Context
 
@@ -70,11 +71,12 @@ Use philosophical code blocks that illustrate the futility of systematizing cons
 
 ## Development Guidelines
 
-- **Human-first design** - Optimize for people having difficult days
-- **Simple over clever** - Tools should feel natural to use
-- **Preserve Kenneth's voice** - Conversational contemplation, not academic detachment
-- **Reality-based spirituality** - Ground mystical insights in lived experience
-- **Never commit without permission** - Respect the collaborative process
+- **Human-first design** - Optimize for people having difficult days.
+- **Simple over clever** - Tools should feel natural to use.
+- **Preserve Kenneth's voice** - Conversational contemplation, not academic detachment.
+- **Reality-based spirituality** - Ground mystical insights in lived experience.
+- **Never commit without permission** - Respect the collaborative process.
+- **End bullet points with periods** - Consistency in formatting across all content.
 
 ## Key Essays to Reference
 
