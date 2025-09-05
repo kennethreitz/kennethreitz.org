@@ -478,10 +478,10 @@ The pseudo-Python is metaphor. The character it describes is what we need to cul
 ## Related Reading
 
 ### On This Site
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization destroys human virtue.
-- [Seven Virtues AI Personalities](/artificial-intelligence/personalities/seven-virtues/) - AI agents embodying each classical virtue.
 - [Ram Dass Teachings in Python](/essays/2025-09-05-ram_dass_teachings_in_python) - Eastern wisdom through programming metaphors.
 - [Vedic Principles in Python](/essays/2025-09-05-vedic_principles_in_python) - Ancient Sanskrit wisdom in modern syntax.
+- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization destroys human virtue.
+- [Seven Virtues AI Personalities](/artificial-intelligence/personalities/seven-virtues/) - AI agents embodying each classical virtue.
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Code as contemplative practice.
 
 ### External Resources

@@ -401,6 +401,8 @@ The pseudo-Python is just metaphor. The consciousness recognizing these patterns
 ## Related Reading
 
 ### On This Site
+- [Ram Dass Teachings in Python](/essays/2025-09-05-ram_dass_teachings_in_python) - Eastern wisdom through programming metaphors.
+- [Classical Virtues in Python](/essays/2025-09-05-classical_virtues_in_python) - The seven classical virtues as systematic character development.
 - [Sanskrit Musings Collection](/poetry/sanskrit-musings/) - Technical mysticism in verse.
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Code as contemplative practice.
 - [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) - Programmer consciousness shaping collective awareness.

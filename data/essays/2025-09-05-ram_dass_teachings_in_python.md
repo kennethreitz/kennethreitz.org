@@ -220,6 +220,8 @@ The Python is just metaphor. The love is real.
 ## Related Reading
 
 ### On This Site
+- [Vedic Principles in Python](/essays/2025-09-05-vedic_principles_in_python) - Ancient Sanskrit wisdom in modern syntax.
+- [Classical Virtues in Python](/essays/2025-09-05-classical_virtues_in_python) - The seven classical virtues as systematic character development.
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Contemplative approaches to technical work.
 - [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) - How consciousness shapes what we create.
 
