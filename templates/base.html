@@ -805,6 +805,7 @@
         {% block extra_head %}{% endblock %}
 
         <!-- Analytics -->
+        {% if not (config.get('DISABLE_ANALYTICS') or request.environ.get('DISABLE_ANALYTICS')) %}
         <script type="text/javascript">
           var _gauges = _gauges || [];
           (function() {
@@ -819,6 +820,7 @@
             s.parentNode.insertBefore(t, s);
           })();
         </script>
+        {% endif %}
     </head>
     <body>
         <article>

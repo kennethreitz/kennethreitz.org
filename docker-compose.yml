@@ -8,10 +8,11 @@ services:
     volumes:
       - .:/app
     environment:
-      - FLASK_ENV=production
+      - FLASK_ENV=development
+      - DISABLE_ANALYTICS=true
     restart: unless-stopped
-    # Use Gunicorn with gevent workers for better async performance
-    command: ["gunicorn", "--bind", "0.0.0.0:8000", "--worker-class", "gevent", "--workers", "4", "--worker-connections", "1000", "--timeout", "60", "engine:app"]
+    # Use single worker for local development
+    command: ["gunicorn", "--bind", "0.0.0.0:8000", "--worker-class", "gevent", "--workers", "1", "--worker-connections", "1000", "--timeout", "60", "--reload", "engine:app"]
 
   # Alternative dev configuration - uncomment to use Flask dev server
   # web-dev:

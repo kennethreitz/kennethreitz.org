@@ -12,6 +12,9 @@ import html
 
 app = Flask(__name__, template_folder='templates')
 
+# Configuration
+app.config['DISABLE_ANALYTICS'] = os.environ.get('DISABLE_ANALYTICS', 'false').lower() == 'true'
+
 # Add custom Jinja2 filters
 @app.template_filter('strftime')
 def strftime_filter(date, fmt='%Y-%m-%d'):
