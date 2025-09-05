@@ -12,7 +12,7 @@ But the deeper dynamic is collective: the code we create becomes invisible archi
 
 **"Beautiful is better than ugly"** applies to everything from API design to relationship communication. Clunky solutions, whether in code or conversation, signal that a more elegant approach exists.
 
-**"Explicit is better than implicit"** transformed my communication style. Hidden assumptions create bugs in code and resentment in relationships. Direct needs beat subtle signals: "I'm struggling and could use company" works better than hoping someone notices withdrawal. This extends to [living openly with mental health conditions](/essays/2016-01-mentalhealtherror_an_exception_occurred)—making visible what others keep hidden.
+**"Explicit is better than implicit"** transformed my communication style. Hidden assumptions create bugs in code and resentment in relationships. Direct needs beat subtle signals: "I'm struggling and could use company" works better than hoping someone notices withdrawal. This extends to living openly with mental health conditions—making visible what others keep hidden.
 
 **"Simple is better than complex"** guided the philosophy behind Requests and applies to daily decisions. Optimize for common scenarios, not edge cases. The principle is simple; the execution isn't always.
 
