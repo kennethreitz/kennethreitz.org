@@ -498,10 +498,15 @@
                     width: 84% !important;
                 }
 
-                /* Hide sidenotes on narrow screens */
+                /* Hide sidenotes and their labels on narrow screens */
                 .sidenote,
                 .marginnote {
                     display: none;
+                }
+                
+                .margin-toggle,
+                label.margin-toggle {
+                    display: none !important;
                 }
 
                 /* Make content full width when sidenotes are hidden */
