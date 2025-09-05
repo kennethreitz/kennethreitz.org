@@ -30,6 +30,8 @@ Ram Dass discovered this through psychedelics first (which I don't recommend usi
 
 ## The Witness
 
+Ram Dass taught that consciousness has two aspects: the experiencer and the witness. Most of the time we're identified as the experiencer—caught up in emotions, thoughts, and dramas. But there's another part of us that can step back and simply observe what's happening without getting swept away. The witness is pure awareness—it sees without judging, observes without reacting.
+
 ```python
 class Witness:
     """The part of you that observes without getting caught."""
@@ -61,6 +63,8 @@ The witness isn't detachment or dissociation—it's the most intimate relationsh
 
 ## Loving Awareness
 
+This was perhaps Ram Dass's most revolutionary teaching: you don't have to fix yourself to be spiritual. Instead of trying to eliminate difficult emotions or experiences, you practice loving whatever arises. This isn't passive acceptance but active compassion—meeting anger with love, greeting fear with kindness, embracing confusion with patience.
+
 ```python
 def loving_awareness(difficult_situation):
     """Ram Dass's core practice."""
@@ -85,6 +89,8 @@ def loving_awareness(difficult_situation):
 This was Ram Dass's revolution<label for="sn-fierce-grace" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-fierce-grace" class="margin-toggle"/><span class="sidenote">His documentary "Fierce Grace" shows this beautifully.</span>: you don't have to fix yourself to be spiritual. You practice loving whatever arises—the anxiety, the anger, the confusion. This loving awareness, refined through insight meditation, becomes both the method and the goal.
 
 ## Attachment and Letting Go
+
+Buddhism teaches that attachment is the root of suffering, but letting go can't be forced—that just creates attachment to non-attachment. Ram Dass learned this through personal loss: his academic career, his image as the articulate teacher, eventually his physical capabilities. True letting go happens through grace, not willpower.
 
 ```python
 class Attachment:
@@ -123,6 +129,8 @@ Ram Dass learned this the hard way—first through losing his academic identity 
 
 ## Service as Love in Action
 
+Ram Dass's life transformed when he shifted from seeking experiences for himself to asking "How can I help?" This wasn't self-sacrifice but recognition—when you serve others from love rather than ego, it becomes a practice that deepens your own awakening. Service and spiritual development become the same process.
+
 ```python
 def how_can_i_help():
     """The question that transforms everything."""
@@ -145,6 +153,8 @@ def how_can_i_help():
 His transformation from Harvard psychology professor to spiritual teacher to caregiver for his stroke-affected self revealed the same truth: service isn't sacrifice—it's love recognizing itself everywhere.
 
 ## Ego Death and Rebirth
+
+"Die before you die" was Ram Dass's way of describing the ultimate spiritual practice: releasing identification with all the roles and stories we think we are. This doesn't mean physical death but the death of the separate self—discovering what remains when you're no longer defined by your achievements, your roles, your personality.
 
 ```python
 def die_before_you_die():
@@ -171,6 +181,8 @@ def die_before_you_die():
 His stroke was forced ego death—the articulate teacher became someone who struggled with words, the independent man became dependent on caregivers<label for="sn-stroke-teaching" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-stroke-teaching" class="margin-toggle"/><span class="sidenote">Students said his post-stroke teachings were more powerful—pure love remained.</span>. But what emerged wasn't diminishment; it was essence.
 
 ## The Pathless Path
+
+Ram Dass experienced every level of spiritual seeking—from academic psychology to psychedelic exploration to guru devotion to independent teaching to facing mortality. Each stage felt complete until it revealed its limitations. The pathless path means recognizing that every understanding is preparation for deeper understanding, yet each level is perfect in itself.
 
 ```python
 def spiritual_journey():
