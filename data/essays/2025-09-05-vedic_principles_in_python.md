@@ -204,6 +204,21 @@ class Yoga:
                 self.separated = False
                 return "Lover merges with Beloved"
     
+    async def jnana_yoga(self):
+        """Union through knowledge and inquiry."""
+        
+        while self.practitioner.believes_in_separation():
+            # The four statements of truth
+            await self.contemplate("I am not the body")
+            await self.contemplate("I am not the mind") 
+            await self.contemplate("I am not the ego")
+            await self.contemplate("I am pure consciousness")
+            
+            # Self-inquiry: Who am I?
+            identity = await self.practitioner.investigate_self()
+            if identity == "Pure awareness itself":
+                return "Tat tvam asi" # Thou art That
+    
     async def raja_yoga(self):
         """Union through meditation."""
         
