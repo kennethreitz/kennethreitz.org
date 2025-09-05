@@ -965,8 +965,8 @@
                     const code = pre.querySelector('code') || pre;
                     let html = code.innerHTML;
 
-                    // Python/Shell comments (# comment)
-                    html = html.replace(/^(\s*)(#.*)$/gm, '$1<span style="color: #888; font-style: italic;">$2</span>');
+                    // Python/Shell comments (# comment) - both line start and inline
+                    html = html.replace(/(^|\s+)(#.*)$/gm, '$1<span style="color: #888; font-style: italic;">$2</span>');
 
                     // Python docstrings (""" or ''')
                     html = html.replace(/("""[\s\S]*?""")/g, '<span style="color: #888; font-style: italic;">$1</span>');

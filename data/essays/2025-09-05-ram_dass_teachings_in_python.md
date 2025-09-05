@@ -42,9 +42,9 @@ class Witness:
         # Key insight: don't try to change what you witness
         return {
             'content': experience,
-            'judgment': None,  # Witnessing is judgment-free
-            'story': None,     # Pure awareness, no narrative
-            'reaction': None   # Observer doesn't get hooked
+            'judgment': None,    # Witnessing is judgment-free
+            'story': None,       # Pure awareness, no narrative
+            'reaction': None     # Observer doesn't get hooked
         }
     
     def step_back(self, emotional_storm):
