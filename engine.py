@@ -1194,7 +1194,8 @@ def rss_feed():
 
 
 
+# Preload blog posts cache for faster initial page loads (works with both direct run and Gunicorn)
+preload_blog_posts()
+
 if __name__ == '__main__':
-    # Preload blog posts cache for faster initial page loads
-    preload_blog_posts()
     app.run(debug=True, host='0.0.0.0', port=8000)
