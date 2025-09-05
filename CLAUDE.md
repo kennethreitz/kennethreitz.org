@@ -73,10 +73,6 @@ This is Kenneth Reitz's personal website and digital garden. When working on thi
 
 ## Key Themes to Reference
 
-### Core Philosophy Evolution
-- **"For Humans" Philosophy** - From HTTP libraries to AI collaboration: technology serving human mental models
-- **Pattern Recognition Across Time** - Being "ahead of time" with ideas that later become mainstream
-- **Human-Centered Design Applied to Consciousness** - Same principles from API design extended to mental health and AI relationships
 
 ### Primary Theme Areas
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Contemplative approaches to technical work
