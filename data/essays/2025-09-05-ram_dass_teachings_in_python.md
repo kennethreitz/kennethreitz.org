@@ -8,6 +8,8 @@ Below are some of his core insights translated into pseudo-Python—not because 
 
 ## Be Here Now
 
+Ram Dass's foundational teaching comes from recognizing that consciousness only ever operates in the present moment. Past exists as memory, future as projection—but all experience happens now. Most suffering comes from mentally living elsewhere: regretting the past, worrying about the future, anywhere but the eternal present where life actually unfolds.
+
 ```python
 import time
 
