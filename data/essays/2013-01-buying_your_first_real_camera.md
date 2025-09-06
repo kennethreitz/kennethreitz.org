@@ -13,7 +13,8 @@ A friend of mine approached me recently, looking for camera advice. She has been
 
  The most important factor when camera shopping is your own intentions. The first thing you should do is ask yourself what you really want out of a camera.
 
- * Lots of zoom. \- Lots of megapixels.
+ * Lots of zoom.
+ * Lots of megapixels.
 
  Did you tell yourself you wanted this? I bet you don't.
 
@@ -47,7 +48,13 @@ A friend of mine approached me recently, looking for camera advice. She has been
 
  The [Fujifilm X100](http://www.amazon.com/gp/product/B0043RS864/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0043RS864&linkCode=as2&tag=bookforkind-20) is easily one of my favorite cameras in production today. This beautiful, compact camera blew the photography world away when it was released last year.
 
- * A wonderful 35mm\-equivalent prime lens with a fast maximum aperture (f/2\.0\). This is considered by many to be the most universally useful focal length. It's all I shoot. \- Great low\-light performance for the price. \- Integrated ND Filter (sunglasses for your lens) for bright environments. \- Hybrid Optical and Electronic Viewfinder, gives you the best of both worlds. \- Classic controls. Every setting you need has a physical dial. No menu\-diving. \- Same sensor found in entry\-level SLRs, in a compact body. \- Elegant design, inspired by the legendary Leica M3
+ * A wonderful 35mm-equivalent prime lens with a fast maximum aperture (f/2.0). This is considered by many to be the most universally useful focal length. It's all I shoot.
+ * Great low-light performance for the price.
+ * Integrated ND Filter (sunglasses for your lens) for bright environments.
+ * Hybrid Optical and Electronic Viewfinder, gives you the best of both worlds.
+ * Classic controls. Every setting you need has a physical dial. No menu-diving.
+ * Same sensor found in entry-level SLRs, in a compact body.
+ * Elegant design, inspired by the legendary Leica M3.
 
  I only recommend this camera to people that really want to get "into" photography. Within a month, this camera will teach you more about composition, exposure, and depth of field than the typical hobbyist camera (and its image quality will be miles ahead). Fuji has always been an expert lens\-maker, and this camera is really showing that off.
 
@@ -61,7 +68,11 @@ A friend of mine approached me recently, looking for camera advice. She has been
 
  If you aren't sure that you want to get "into" photography, and want a small camera that will fit into your pocket, you should consider the [Sony RX100](http://www.amazon.com/gp/product/B00889ST2G/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00889ST2G&linkCode=as2&tag=bookforkind-20),
 
- * Fast lens (f/1\.8!), with a great zoom range. This is extremely rare in pocket cameras. \- Dial around lens is configurable for any parameter (aperture, shutter speed, exposure compensation, etc). \- Impressive low\-light performance. \- Great battery life, recharges over USB. \- Top\-knotch build quality.
+ * Fast lens (f/1.8!), with a great zoom range. This is extremely rare in pocket cameras.
+ * Dial around lens is configurable for any parameter (aperture, shutter speed, exposure compensation, etc).
+ * Impressive low-light performance.
+ * Great battery life, recharges over USB.
+ * Top-notch build quality.
 
  I don't think this camera will make you better photographer, but if you just want a high\-end replacement for your existing pocket camera, the [Sony RX100](http://www.amazon.com/gp/product/B00889ST2G/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00889ST2G&linkCode=as2&tag=bookforkind-20) is a perfect choice.
 
@@ -69,7 +80,10 @@ A friend of mine approached me recently, looking for camera advice. She has been
 
  If you really have your heart set on an inter\-changeable lens system, you can't go wrong with the [Olympus OM\-D](http://www.amazon.com/gp/product/B00CHJO49A/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00CHJO49A&linkCode=as2&tag=bookforkind-20). This beautiful camera has a steep price tag, but you really get what you pay for.
 
- * Integrated Electronic Viewfinder (EVF) is extremely responsive, feels like a glass window. \- Micro four\-thirds lens system is considered by many to be the future of accessible photography, despite its smaller sensor size. \- Great feel in the hand and control ergonomics. \- Very portable, without compromising image quality.
+ * Integrated Electronic Viewfinder (EVF) is extremely responsive, feels like a glass window.
+ * Micro four-thirds lens system is considered by many to be the future of accessible photography, despite its smaller sensor size.
+ * Great feel in the hand and control ergonomics.
+ * Very portable, without compromising image quality.
 
  Best of all, the [Olympus OM\-D](http://www.amazon.com/gp/product/B00CHJO49A/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00CHJO49A&linkCode=as2&tag=bookforkind-20) has some excellent glass available.
 
@@ -81,4 +95,7 @@ A friend of mine approached me recently, looking for camera advice. She has been
 
  #### References
 
- * [Kenneth Reitz's 500px](http://500px.com/kennethreitz) \- [Fujifilm X100](http://www.amazon.com/gp/product/B0043RS864/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0043RS864&linkCode=as2&tag=bookforkind-20) on Amazon \- [Sony RX100](http://www.amazon.com/gp/product/B00889ST2G/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00889ST2G&linkCode=as2&tag=bookforkind-20) on Amazon \- [Olympus OM\-D](http://www.amazon.com/gp/product/B00CHJO49A/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00CHJO49A&linkCode=as2&tag=bookforkind-20) on Amazon
+ * [Kenneth Reitz's 500px](http://500px.com/kennethreitz)
+ * [Fujifilm X100](http://www.amazon.com/gp/product/B0043RS864/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0043RS864&linkCode=as2&tag=bookforkind-20) on Amazon
+ * [Sony RX100](http://www.amazon.com/gp/product/B00889ST2G/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00889ST2G&linkCode=as2&tag=bookforkind-20) on Amazon
+ * [Olympus OM-D](http://www.amazon.com/gp/product/B00CHJO49A/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00CHJO49A&linkCode=as2&tag=bookforkind-20) on Amazon
