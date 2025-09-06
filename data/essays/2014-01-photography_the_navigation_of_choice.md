@@ -5,7 +5,9 @@
 
 
 
- ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666486042-POGZDVGRXM9805E0DLOI/63776-img.jpg)      ![f372f-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666454735-VNNAG20D494A69TKFCL4/eba54-f372f-img.jpg)    ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666488974-X6S1SXAY83D33M75QYM4/71275-dcc20-image-asset.jpeg)   Photography is all about choices. 
+![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666486042-POGZDVGRXM9805E0DLOI/63776-img.jpg)
+
+Photography is all about choices. 
 
  As the photographer discovers himself, they encounter a number of polarities that they feel they must chose between. These simple decisions have a dramatic impact on the **set and setting** of the observer capturing the moment. 
 
