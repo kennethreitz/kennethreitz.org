@@ -202,7 +202,7 @@ def render_markdown_file(file_path):
         def add_heading_anchor_ids(html_content):
             def replace_heading(match):
                 tag = match.group(1)  # h1, h2, etc.
-                level = tag[1]  # 1, 2, etc.
+                level = int(tag[1])  # 1, 2, etc.
                 classes = match.group(2) or ''  # existing classes if any
                 text = match.group(3)
                 
