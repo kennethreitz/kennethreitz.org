@@ -5,7 +5,9 @@
 
 
 
- ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666469848-VPGMZWK1NYPB8RQRM3BY/24205-img.jpg)      ![ff6d3-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666453105-1CATA9UJ2LL770H9LZY0/5b456-ff6d3-img.jpg)    ![1048327_10151706383320132_1618854113_o](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666464014-OMCT9621VMU6HIZZ6ZOQ/140f3-075b4-1048327_10151706383320132_1618854113_o.jpg)   My camera of choice is the [**Leica M Monochrom**](http://www.amazon.com/gp/product/B0082ES6HA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0082ES6HA&linkCode=as2&tag=bookforkind-20). This digital black\-and\-white rangefinder camera is my most prized possession and the source of a great deal of inspiration. My beloved camera, unfortunately, has a tendency to polarize people. Instead of being perceived purely as a quality instrument of art and expression, it is often criticized for being an useless object of excess.
+![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666469848-VPGMZWK1NYPB8RQRM3BY/24205-img.jpg)
+
+My camera of choice is the [**Leica M Monochrom**](http://www.amazon.com/gp/product/B0082ES6HA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0082ES6HA&linkCode=as2&tag=bookforkind-20). This digital black-and-white rangefinder camera is my most prized possession and the source of a great deal of inspiration. My beloved camera, unfortunately, has a tendency to polarize people. Instead of being perceived purely as a quality instrument of art and expression, it is often criticized for being an useless object of excess.
 
  Common objections include:
 
