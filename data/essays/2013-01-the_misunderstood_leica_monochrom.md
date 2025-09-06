@@ -39,7 +39,11 @@ My camera of choice is the [**Leica M Monochrom**](http://www.amazon.com/gp/prod
 
  Its impressive features included:
 
- * Modern bayonet lens mount system, replacing the old screw mounts. \* Hybrid rangefinder and frameline system with automatic parallax. \* Automatically selected, parallax\-corrected framelines. \* Double stroke film advancer. \* Ten second self\-timer.
+ * Modern bayonet lens mount system, replacing the old screw mounts.
+ * Hybrid rangefinder and frameline system with automatic parallax.
+ * Automatically selected, parallax-corrected framelines.
+ * Double stroke film advancer.
+ * Ten second self-timer.
 
  Pretty standard feature\-set, right? Believe it or not, In 1954 most of these features were unheard of. This revolutionary camera took the market by storm, causing most camera manufacturers to follow in Leica's footsteps until the unfortunate introduction of the SLR.
 
@@ -61,25 +65,15 @@ My camera of choice is the [**Leica M Monochrom**](http://www.amazon.com/gp/prod
 
  Here are some real\-world images I captured with the Monochrom over the past few months.
 
-   [ ![IMG_0193_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521683-XQL3FQKLAYBXIGGMY1OQ/e732c-0408c-img_0193_2.jpg)](http://500px.com/photo/37684704)
+ [![IMG_0193_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521683-XQL3FQKLAYBXIGGMY1OQ/e732c-0408c-img_0193_2.jpg)](http://500px.com/photo/37684704)
 
- IMG\_0193\_2
+ [![L1018407](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666515298-YCG7NF2VRBHSRQI685K4/cf4aa-d77c8-l1018407.jpg)](http://500px.com/photo/40224696)
 
-     [ ![L1018407](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666515298-YCG7NF2VRBHSRQI685K4/cf4aa-d77c8-l1018407.jpg)](http://500px.com/photo/40224696)
+ [![IMG_0187_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666471218-EABC0PUL5JV69SMO4TTZ/2767a-2c51d-img_0187_2.jpg)](http://500px.com/photo/36478426)
 
- L1018407
+ [![L1018400](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666503301-DT6M9BCPPGPT85IP6K5M/a74af-ea9b3-l10184001.jpg)](http://500px.com/photo/39957788)
 
-     [ ![IMG_0187_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666471218-EABC0PUL5JV69SMO4TTZ/2767a-2c51d-img_0187_2.jpg)](http://500px.com/photo/36478426)
-
- IMG\_0187\_2
-
-     [ ![L1018400](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666503301-DT6M9BCPPGPT85IP6K5M/a74af-ea9b3-l10184001.jpg)](http://500px.com/photo/39957788)
-
- L1018400
-
-     [ ![IMG_0179_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666523710-3H4TZDC3I26KCF7TW7MX/e94ed-f6e48-img_0179_2.jpg)](http://500px.com/photo/36478422)
-
- IMG\_0179\_2
+ [![IMG_0179_2](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666523710-3H4TZDC3I26KCF7TW7MX/e94ed-f6e48-img_0179_2.jpg)](http://500px.com/photo/36478422)
 
    ## In Conclusion
 
@@ -87,7 +81,13 @@ My camera of choice is the [**Leica M Monochrom**](http://www.amazon.com/gp/prod
 
  The [**M Monochrom**](http://www.amazon.com/gp/product/B0082ES6HA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0082ES6HA&linkCode=as2&tag=bookforkind-20) is an exceptional camera in many areas:
 
- * Dynamic Range \* Resolving Power \* High ISO performance (ISO 8000\+) \* Size and Portability \* Inconspicuousness \* Craftsmanship \* Mechanics
+ * Dynamic Range
+ * Resolving Power
+ * High ISO performance (ISO 8000+)
+ * Size and Portability
+ * Inconspicuousness
+ * Craftsmanship
+ * Mechanics
 
  I think you can also get fantastic B\&W results out of the new [Leica M240](http://www.amazon.com/gp/product/B009FQSXYA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009FQSXYA&linkCode=as2&tag=bookforkind-20), especially when compared to the M9\. However, you will be sacrificing some amount of the dynamic range, resolving power, and interface simplicity of the MM.
 
