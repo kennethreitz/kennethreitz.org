@@ -120,14 +120,11 @@ Here is a selection of my top 50 songs in iTunes:
 | Moon                                         | 2:36     | Kanye West                             | Donda                                                           |
 | Wash Us in the Blood (feat. Travis Scott)    | 3:10     | Kanye West                             | Wash Us in the Blood (feat. Travis Scott) - Single              |
 | Consistent Inconsistency                     | 4:50     | Kenneth Reitz                          | Unmastered Impulses                                             |
-
-<span class="sidenote">The appearance of Kenneth's own musical creation among his top tracks suggests a deeply personal relationship with creative expression—the programmer as artist, finding harmony between technical precision and emotional authenticity.</span>
 | When I Talk (feat. Kx5)                      | 3:28     | deadmau5, Kaskade & Elderbrook         | When I Talk (feat. Kx5) - Single                                |
 | 10 Bands                                     | 2:58     | Drake                                  | If You're Reading This It's Too Late                            |
 | Chicago Freestyle                            | 3:40     | Drake & GIVĒON                         | Dark Lane Demo Tapes                                            |
 | Family Matters                               | 7:37     | Drake                                  | Family Matters - Single                                         |
 
-
------------------
+---
 
 I hope you enjoyed this little snippet of my music tastes. I'll expand upon this in the future.
