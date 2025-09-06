@@ -166,22 +166,6 @@ Someone could build "Git for Humans" - version control that helps writers track 
 
 ---
 
-## Related Reading
-
-### On This Site
-- [Ram Dass Teachings in Python](/essays/2025-09-05-ram_dass_teachings_in_python) - Eastern wisdom through programming metaphors.
-- [Vedic Principles in Python](/essays/2025-09-05-vedic_principles_in_python) - Ancient Sanskrit wisdom in modern syntax.
-- [Classical Virtues in Python](/essays/2025-09-05-classical_virtues_in_python) - The seven classical virtues as systematic character development.
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Code as contemplative practice.
-- [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) - Programmer consciousness shaping collective awareness.
-
-### External Resources
-- *Pro Git* by Scott Chacon - Deep dive into Git's architecture and philosophy.
-- *Version Control with Git* by Jon Loeliger - Understanding Git's model of change.
-- The Git source code - The implementation of these concepts in C.
-
----
-
 *"Time is the fire in which we burn, but version control is the phoenix that rises from the ashes of every destroyed file."*
 
 *"In Git, nothing is lost, everything is transformed, and all possibilities coexist until the moment of checkout."*
