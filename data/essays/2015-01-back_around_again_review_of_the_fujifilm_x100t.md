@@ -85,4 +85,4 @@ Fuji has soul. 
  ## Relevant Links
 
  * [Kenneth Reitz on Flickr](https://www.flickr.com/photos/kennethreitz/)
-* [Fujifilm x100t on Amazon](http://www.amazon.com/gp/product/B00NF6ZHNG/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NF6ZHNG&linkCode=as2&tag=bookforkind-20&linkId=UGZZ473TOKGFN36X)
+ * [Fujifilm x100t on Amazon](http://www.amazon.com/gp/product/B00NF6ZHNG/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NF6ZHNG&linkCode=as2&tag=bookforkind-20&linkId=UGZZ473TOKGFN36X)

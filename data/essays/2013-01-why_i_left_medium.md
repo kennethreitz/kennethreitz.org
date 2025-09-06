@@ -5,7 +5,7 @@
 
 
 
- ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666470442-3JY6Z7FYN2V0NRK80T6C/26178-img.jpg)      ![09f83-img.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666449097-0CU7VF0Y1E2S5LATMD8O/6c2d6-09f83-img.jpg)    ![Praying for Land_8386426833_o.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666493653-J2DVSKAKKG0R4K0QGTJI/8309e-6ee3d-prayingforland_8386426833_o.jpg)   A few months ago, I decided to move all of my content over to Medium. If you aren't aware, [Medium](http://medium.com) is a new content platform designed for readers and writers. Its main draw is an elegant writing interface combined with the ability to comment on specific pieces of text, instead of on an article as a whole.
+![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666470442-3JY6Z7FYN2V0NRK80T6C/26178-img.jpg)   A few months ago, I decided to move all of my content over to Medium. If you aren't aware, [Medium](http://medium.com) is a new content platform designed for readers and writers. Its main draw is an elegant writing interface combined with the ability to comment on specific pieces of text, instead of on an article as a whole.
 
  I was finding myself a bit frustrated with my online presence — torn between voices of code, travel, photography, and music. I was originally going to dive head\-first into a content\-negotiated [BlackBox](https://github.com/kennethreitz/blackbox)\-driven experience where all of my content was indexed, searchable, and archived automatically on Archive.org.
 
@@ -27,7 +27,12 @@
 
  — Marco Arment (@marcoarment) July 31, 2013
 
- * I couldn't embed any content in a post. Not even that tweet. \- I couldn't track referrers to know where my readers are coming from. \- I couldn't search Twitter for my posts because of the massively shared domain. \- I couldn't even use [gaug.es](http://gaug.es/). \- I couldn't pick my own URLs. \- I couldn't do anything but keep writing.
+ * I couldn't embed any content in a post. Not even that tweet.
+ * I couldn't track referrers to know where my readers are coming from.
+ * I couldn't search Twitter for my posts because of the massively shared domain.
+ * I couldn't even use [gaug.es](http://gaug.es/).
+ * I couldn't pick my own URLs.
+ * I couldn't do anything but keep writing.
 
  I felt dead inside.
 
