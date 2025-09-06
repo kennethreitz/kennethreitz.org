@@ -64,7 +64,7 @@
             .post-content > blockquote,
             .post-content > ul,
             .post-content > ol {
-                width: 55%;
+                width: 80% !important;
             }
 
             section > dl,
@@ -109,7 +109,7 @@
                 .post-content > blockquote,
                 .post-content > ul,
                 .post-content > ol {
-                    width: 60%;
+                    width: 80%;
                 }
 
                 .sidenote,
@@ -135,7 +135,7 @@
                 .post-content > blockquote,
                 .post-content > ul,
                 .post-content > ol {
-                    width: 70%;
+                    width: 80%;
                 }
 
                 .sidenote,
@@ -388,6 +388,26 @@
             .post-content p:not(.sidenote):not(.marginnote) {
                 font-size: 1.3rem !important;
                 width: 70% !important;
+            }
+
+            /* Make lists wider for better readability */
+            .post-content > ul,
+            .post-content > ol {
+                width: 90% !important;
+            }
+
+            @media (max-width: 1400px) {
+                .post-content > ul,
+                .post-content > ol {
+                    width: 90% !important;
+                }
+            }
+
+            @media (max-width: 1200px) {
+                .post-content > ul,
+                .post-content > ol {
+                    width: 90% !important;
+                }
             }
 
             /* Make blockquote paragraphs wider */
