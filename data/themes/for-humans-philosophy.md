@@ -56,6 +56,7 @@ A comprehensive exploration of human-centered design principles that prioritize 
 ### Writing & Communication
 - Clear, direct communication over technical jargon
 - Empathy as engineering skill
+- **[The Gift of Attention](/essays/2025-09-06-the_gift_of_attention)** - Ethics of asking for consciousness in an attention economy: cultural approaches, honorable communication, and treating attention as sacred currency.
 - [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) - Honest discourse about consciousness maintenance versus wellness culture
 - [Mental Health](/mental-health) - Honest, human communication about struggle
 - [MentalHealthError](/essays/2016-01-mentalhealtherror_an_exception_occurred) - Vulnerability as service to community
