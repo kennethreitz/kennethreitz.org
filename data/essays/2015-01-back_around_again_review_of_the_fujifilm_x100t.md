@@ -7,10 +7,6 @@
 
 ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666489952-SKWOGLSPSUPWR6M19D9S/769a0-img.jpg)
 
-![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666454803-84J6JJ8UJKMPUTXGSNEJ/40493-251f0-img.jpg)
-
-![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666494897-FSUQ7240M2F57QGA0SEL/87b03-5dc19-image-asset.jpeg)
-
 If you've been following me for any length of time, you have more than likely noticed: I change my mind a lot. 
 
  One month, I will be convinced that one particular camera will be the only camera I will ever need for the rest of my life. The next month, I find it a weighty burden that I never want to be bothered with again.
@@ -27,8 +23,8 @@ If you've been following me for any length of time, you have more than likely no
 
  I’m still not sure why I feel this way. My current working theories are as follows: 
 
- * I’m tired of being forced to focus manually (iffy, I’ve been doing so for *years*).
-* It just weights too much (plausible, the M240 is the largest/heaviest Leica to date).
+ * I'm tired of being forced to focus manually (iffy, I've been doing so for *years*).
+ * It just weights too much (plausible, the M240 is the largest/heaviest Leica to date).
 
  But, at the end of the day, I don’t need to justify my feelings.  I just want to roll with them :)
 
@@ -73,10 +69,10 @@ Fuji has soul. 
  So far, my favorite improvements over the Leica M are:
 
  * Color. Fantastic colors, 100% accurate white balance.
-* Portability. Size and weight are fantastic.
-* Price. A Fuji is replacable. A Leica is not.
-* Autofocus. A given, but wow what a change!
-* Battery recharge over USB.
+ * Portability. Size and weight are fantastic.
+ * Price. A Fuji is replaceable. A Leica is not.
+ * Autofocus. A given, but wow what a change!
+ * Battery recharge over USB.
 
  In general, this Fuji is simply a better camera in nearly every measurable way — I'm [not alone](http://www.kenrockwell.com/fuji/x100t.htm) in thinking this either. I've always had "something else" that pulled me towards the Leica anyway — and that's simply inspiration — Leica's inspire. Somehow, that inspiration seems to fade within me, over time. Perhaps the cycle will never end. Perhaps it just did. 
 
