@@ -197,6 +197,30 @@ def render_markdown_file(file_path):
 
         # Process content to HTML
         html_content = markdown(content.strip())
+        
+        # Add anchor IDs to headings using post-processing on HTML
+        def add_heading_anchor_ids(html_content):
+            def replace_heading(match):
+                tag = match.group(1)  # h1, h2, etc.
+                level = tag[1]  # 1, 2, etc.
+                classes = match.group(2) or ''  # existing classes if any
+                text = match.group(3)
+                
+                # Generate anchor ID from heading text (remove HTML tags first)
+                clean_text = re.sub(r'<[^>]+>', '', text)
+                anchor_id = re.sub(r'[^\w\s-]', '', clean_text.lower()).replace(' ', '-')
+                anchor_id = re.sub(r'-+', '-', anchor_id).strip('-')  # Clean up multiple dashes
+                
+                # Add id attribute, preserving any existing classes
+                if classes:
+                    return f'<{tag} id="{anchor_id}"{classes}>{text}</{tag}>'
+                else:
+                    return f'<{tag} id="{anchor_id}">{text}</{tag}>'
+            
+            # Match h1-h6 tags with optional class attributes
+            return re.sub(r'<(h[1-6])(\s+[^>]*)?>([^<]+)</h[1-6]>', replace_heading, html_content)
+        
+        html_content = add_heading_anchor_ids(html_content)
 
         # Post-processing for poetry line breaks
         # Check if this is likely a poetry file based on file path
