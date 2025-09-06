@@ -54,6 +54,7 @@ An exploration of psychological phenomena, consciousness studies, and the inters
 ### Integration and Growth  
 - **[From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness)** - Tracing philosophical evolution from early software work to consciousness studies
 - **[Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies)** - Exploring substrate-independent consciousness and digital identity
+- **[The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds)** - How programmer consciousness shapes collective awareness through the systems we create, and the psychological feedback loops between technical choices and social reality
 
 ## Therapeutic and Practical Applications
 

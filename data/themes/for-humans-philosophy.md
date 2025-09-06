@@ -27,6 +27,9 @@ A comprehensive exploration of human-centered design principles that prioritize 
 - [Documentation is King](/talks/documentation-is-king) - Human-centered documentation as core design practice
 - [Growing Open Source Seeds](/talks/growing-open-source-seeds) - Community-centered development philosophy
 
+### Beyond Code: Systems for Humans
+- **[Version Control as Filesystem](/essays/2025-09-05-version_control_as_filesystem)** - Reimagining filesystems to serve human thinking: files as streams of change, parallel realities through branching, and the unrealized potential of "Git for Humans."
+
 ### "For Humans" Projects
 - **[Requests](/software/requests)** - HTTP for Humans (most influential implementation)
 - [Records](/software/records) - SQL for Humans

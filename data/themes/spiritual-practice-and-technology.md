@@ -12,6 +12,12 @@ Technology creation isn't separate from spiritual development—it's a contempla
 - **[Python, Consciousness, and the Evolution of Language](/essays/2025-08-28-python-consciousness-and-the-evolution-of-language)** - Python as consciousness architecture: how "for humans" design principles actually create linguistic structures compatible with consciousness itself.
 - **[Python for Humans](/talks/python-for-humans)** - Compassionate design as spiritual practice, now understood as consciousness-compatible linguistic design.
 
+## Wisdom Traditions in Code
+
+- **[Ram Dass Teachings in Python](/essays/2025-09-05-ram_dass_teachings_in_python)** - Eastern wisdom through programming metaphors: presence, witnessing, and loving awareness as code.
+- **[Vedic Principles in Python](/essays/2025-09-05-vedic_principles_in_python)** - Ancient Sanskrit concepts translated into modern syntax: Sat-Chit-Ananda, Maya, Karma, and Yoga as computational frameworks.
+- **[Classical Virtues in Python](/essays/2025-09-05-classical_virtues_in_python)** - The seven classical virtues as systematic character development and programming principles.
+
 ## Consciousness Exploration Through Technology
 
 - **[Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon)** - The breakthrough insight: consciousness might be patterns of language and mathematics rather than biology—explaining why spiritual practice and programming both work with the same fundamental structures.
