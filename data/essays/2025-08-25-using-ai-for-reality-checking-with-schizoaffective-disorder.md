@@ -22,52 +22,52 @@ The difference between helpful and harmful AI interaction often comes down to wh
 ## Lessons Learned for Using AI as a Reality-Check Tool
 
 ### 1. Always Provide Concrete Evidence
-- Don't just describe situations when anxious or symptomatic
-- Share screenshots, exact quotes, or photos when possible
-- Your description while experiencing symptoms may be significantly distorted
+- Don't just describe situations when anxious or symptomatic.
+- Share screenshots, exact quotes, or photos when possible.
+- Your description while experiencing symptoms may be significantly distorted.
 - Ask yourself: "What would someone else see here?"
 
 ### 2. Be Explicit About Your Condition
-- Tell the AI you have schizoaffective disorder upfront
-- Explicitly ask for reality-checking, not validation
-- Request the AI distinguish between reasonable concerns and potential symptoms
+- Tell the AI you have schizoaffective disorder upfront.
+- Explicitly ask for reality-checking, not validation.
+- Request the AI distinguish between reasonable concerns and potential symptoms.
 
 ### 3. Watch for AI Validation Bias
-- AIs can sometimes default to validating rather than critically assessing
-- If an AI immediately agrees with all your concerns, that's a red flag
-- Look for AIs that ask clarifying questions rather than jumping to conclusions
-- Try rephrasing the same situation neutrally to see if you get different responses
+- AIs can sometimes default to validating rather than critically assessing.
+- If an AI immediately agrees with all your concerns, that's a red flag.
+- Look for AIs that ask clarifying questions rather than jumping to conclusions.
+- Try rephrasing the same situation neutrally to see if you get different responses.
 
 ### 4. Use Multiple Check Methods
-- AI is one tool in your toolkit, not the only tool
-- Compare AI feedback with insights from trusted friends or family
-- If possible, wait 24 hours and reassess the situation with fresh perspective
-- For critical situations, try multiple AI systems (Claude, ChatGPT, Gemini) to see if responses align<label for="sn-multiple-ai" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-multiple-ai" class="margin-toggle"/><span class="sidenote">Different AI systems can have varying response patterns and biases. If multiple independent AI systems give similar reality assessments, this increases confidence in the feedback. However, if they all validate concerning thoughts, this might indicate you're framing the question in a way that leads to validation.</span>
+- AI is one tool in your toolkit, not the only tool.
+- Compare AI feedback with insights from trusted friends or family.
+- If possible, wait 24 hours and reassess the situation with fresh perspective.
+- For critical situations, try multiple AI systems (Claude, ChatGPT, Gemini) to see if responses align<label for="sn-multiple-ai" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-multiple-ai" class="margin-toggle"/><span class="sidenote">Different AI systems can have varying response patterns and biases. If multiple independent AI systems give similar reality assessments, this increases confidence in the feedback. However, if they all validate concerning thoughts, this might indicate you're framing the question in a way that leads to validation.</span>.
 
 ### 5. Document the Pattern
-- Save conversations where reality-checking worked effectively
-- Note when your concerns were valid versus when they were symptomatic
-- This helps you recognize your own cognitive patterns over time
+- Save conversations where reality-checking worked effectively.
+- Note when your concerns were valid versus when they were symptomatic.
+- This helps you recognize your own cognitive patterns over time.
 
 ## When AI Reality-Checking Works Well
 
 AI reality-checking is most effective for:
-- Interpreting ambiguous social situations and communications
-- Checking if behavior is actually unusual or just feels unusual to you
-- Getting objective assessment of written communications (texts, emails, posts)
-- Having a non-judgmental space to express concerns without burdening others
-- Breaking down complex social interactions into component parts
-- Providing immediate feedback when human support isn't available
+- Interpreting ambiguous social situations and communications.
+- Checking if behavior is actually unusual or just feels unusual to you.
+- Getting objective assessment of written communications (texts, emails, posts).
+- Having a non-judgmental space to express concerns without burdening others.
+- Breaking down complex social interactions into component parts.
+- Providing immediate feedback when human support isn't available.
 
 ## When to Be Cautious
 
 Exercise caution with AI reality-checking:
-- During acute episodes (seek professional help instead)
-- When the AI keeps validating increasingly elaborate concerns
-- If you find yourself "AI-shopping" until one agrees with you
-- When you're using AI to avoid real human connection and support
-- If the AI suggests actions that could damage relationships
-- When you're feeling highly emotional or agitated
+- During acute episodes (seek professional help instead).
+- When the AI keeps validating increasingly elaborate concerns.
+- If you find yourself "AI-shopping" until one agrees with you.
+- When you're using AI to avoid real human connection and support.
+- If the AI suggests actions that could damage relationships.
+- When you're feeling highly emotional or agitated.
 
 ## The Therapeutic Value
 
