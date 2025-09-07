@@ -781,46 +781,6 @@
                 }
             }
 
-            /* Heading anchor links */
-            h1, h2, h3, h4, h5, h6 {
-                position: relative;
-            }
-
-            .heading-anchor {
-                position: absolute;
-                left: -1.2em;
-                top: 0;
-                opacity: 0;
-                color: #ccc;
-                text-decoration: none;
-                font-weight: normal;
-                font-style: italic;
-                cursor: pointer;
-                user-select: none;
-                padding: 0 0.2em;
-            }
-
-            .heading-anchor:hover {
-                color: #999;
-                text-decoration: none;
-            }
-
-            h1:hover .heading-anchor,
-            h2:hover .heading-anchor,
-            h3:hover .heading-anchor,
-            h4:hover .heading-anchor,
-            h5:hover .heading-anchor,
-            h6:hover .heading-anchor {
-                opacity: 1;
-            }
-
-            /* Mobile adjustments for anchor links */
-            @media (max-width: 768px) {
-                .heading-anchor {
-                    left: -0.8em;
-                    font-size: 0.9em;
-                }
-            }
 
         </style>
 
@@ -1119,60 +1079,6 @@
                 });
             });
 
-            // Add heading anchor links
-            document.addEventListener('DOMContentLoaded', function() {
-                const headings = document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
-                
-                headings.forEach(function(heading) {
-                    const anchor = document.createElement('a');
-                    anchor.className = 'heading-anchor';
-                    anchor.innerHTML = '#';
-                    anchor.href = '#' + heading.id;
-                    anchor.title = 'Copy link to this heading';
-                    
-                    // Handle click to copy URL with anchor
-                    anchor.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        const url = window.location.protocol + '//' + window.location.host + window.location.pathname + '#' + heading.id;
-                        
-                        // Copy to clipboard
-                        if (navigator.clipboard && navigator.clipboard.writeText) {
-                            navigator.clipboard.writeText(url).then(function() {
-                                // Briefly show feedback
-                                const originalText = anchor.innerHTML;
-                                anchor.innerHTML = '✓';
-                                anchor.style.color = '#4CAF50';
-                                setTimeout(function() {
-                                    anchor.innerHTML = originalText;
-                                    anchor.style.color = '';
-                                }, 1000);
-                            });
-                        } else {
-                            // Fallback for older browsers
-                            const textArea = document.createElement('textarea');
-                            textArea.value = url;
-                            document.body.appendChild(textArea);
-                            textArea.select();
-                            document.execCommand('copy');
-                            document.body.removeChild(textArea);
-                            
-                            // Show feedback
-                            const originalText = anchor.innerHTML;
-                            anchor.innerHTML = '✓';
-                            anchor.style.color = '#4CAF50';
-                            setTimeout(function() {
-                                anchor.innerHTML = originalText;
-                                anchor.style.color = '';
-                            }, 1000);
-                        }
-                        
-                        // Also update the URL in the browser
-                        window.history.replaceState({}, '', url);
-                    });
-                    
-                    heading.insertBefore(anchor, heading.firstChild);
-                });
-            });
         </script>
     </body>
 </html>
