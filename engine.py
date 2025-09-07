@@ -193,8 +193,16 @@ def render_markdown_file(file_path):
         date_match = re.search(r'^\*(.+?)\*\s*$', content, re.MULTILINE)
         if date_match and not metadata.get('date'):
             date_text = date_match.group(1).strip()
-            metadata['date'] = date_text
-            # Remove the date line from content
+            # Skip only if it's "January 2025" (current year placeholder)
+            if not (date_text.lower().startswith('january') and '2025' in date_text):
+                # Format "January YYYY" (not 2025) as just "YYYY" for cleaner display
+                if re.match(r'^january\s+(\d{4})$', date_text.lower()) and '2025' not in date_text:
+                    year_match = re.search(r'(\d{4})', date_text)
+                    if year_match:
+                        date_text = year_match.group(1)
+                # Keep other months like "August 2025" as full format
+                metadata['date'] = date_text
+            # Remove the date line from content regardless
             content = re.sub(r'^\*(.+?)\*\s*$', '', content, count=1, flags=re.MULTILINE)
 
         # Configure mistune renderer with URL plugin for bare links
