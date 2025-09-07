@@ -35,23 +35,25 @@
 <style>
     /* Post-specific enhancements */
     .post-header {
-        margin-bottom: 3rem;
-        border-bottom: 1px solid #eee;
-        padding-bottom: 2rem;
+        margin-bottom: 4rem;
+        border-bottom: 1px solid #e8e8e8;
+        padding-bottom: 3rem;
+        position: relative;
     }
     
     .post-header h1 {
-        font-family: 'Crimson Pro', 'Times New Roman', 'Noto Serif', Georgia, serif;
-        font-size: clamp(2.25rem, 5vw, 3.25rem);
-        font-weight: 500;
+        font-family: et-book, 'Times New Roman', Georgia, serif;
+        font-size: clamp(2.5rem, 5.5vw, 3.5rem);
+        font-weight: 400;
         font-style: italic;
-        margin-bottom: 1.5rem;
-        margin-left: 3rem;
-        line-height: 1.15;
-        color: #0a0a0a;
-        letter-spacing: -0.02em;
+        margin-bottom: 1.8rem;
+        margin-left: 0;
+        line-height: 1.1;
+        color: #1a1a1a;
+        letter-spacing: -0.025em;
         text-shadow: none;
         text-wrap: balance;
+        max-width: 90%;
         
         /* Advanced font features */
         font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "swsh" 1, "clig" 1;
@@ -59,10 +61,13 @@
     }
     
     .post-meta {
-        color: #777;
-        font-size: 0.9rem;
-        font-style: italic;
-        margin-top: 0.5rem;
+        color: #888;
+        font-size: 0.95rem;
+        font-style: normal;
+        margin-top: 0.8rem;
+        font-variant: small-caps;
+        letter-spacing: 0.02em;
+        font-weight: 400;
     }
     
     .reading-time {
@@ -145,28 +150,35 @@
     }
     
     .post-content h2 {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
+        font-weight: 500;
+        margin-top: 3rem;
+        margin-bottom: 1.2rem;
+        color: #222;
+        font-style: italic;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+    }
+    
+    .post-content h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
         margin-top: 2.5rem;
         margin-bottom: 1rem;
         color: #333;
         font-style: italic;
-    }
-    
-    .post-content h3 {
-        font-size: 1.4rem;
-        margin-top: 2rem;
-        margin-bottom: 0.75rem;
-        color: #444;
-        font-style: italic;
+        line-height: 1.3;
+        letter-spacing: -0.005em;
     }
     
     .series-collection {
-        width: 55%;
+        width: 65%;
         margin: 3rem 0 2rem 0;
-        padding: 1.5rem;
-        border: 1px solid #e0e0e0;
-        border-radius: 6px;
-        background: #fafafa;
+        padding: 2rem;
+        border: 1px solid #e8e8e8;
+        border-radius: 8px;
+        background: #fbfbfb;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
     
     .series-collection h3 {
@@ -213,10 +225,10 @@
     }
     
     .related-posts {
-        width: 55%;
+        width: 65%;
         margin: 3rem 0 2rem 0;
-        padding: 1.5rem 0;
-        border-top: 1px solid #eee;
+        padding: 2rem 0;
+        border-top: 1px solid #e8e8e8;
     }
     
     .related-posts h3 {
@@ -245,31 +257,39 @@
     
 
     .adjacent-posts {
-        width: 55%;
+        width: 65%;
         margin: 2rem 0;
-        padding: 1.5rem 0;
-        border-top: 1px solid #eee;
-        border-bottom: 1px solid #eee;
+        padding: 2rem 0;
+        border-top: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
     }
     
     .prev-next-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: flex-start;
         gap: 2rem;
     }
     
+    .nav-spacer {
+        display: flex;
+        align-items: center;
+        color: #ccc;
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+    
     .prev-post, .next-post {
-        flex: 1;
-        max-width: 48%;
+        flex: 0 0 auto;
+        max-width: 40%;
     }
     
     .prev-post {
-        text-align: left;
+        text-align: center;
     }
     
     .next-post {
-        text-align: right;
+        text-align: center;
     }
     
     .prev-link, .next-link {
@@ -308,7 +328,7 @@
     }
     
     .post-navigation {
-        width: 55%;
+        width: 65%;
         margin-top: 3rem;
         padding-top: 1rem;
     }
@@ -331,30 +351,40 @@
     
     @media (max-width: 1400px) {
         .series-collection {
-            width: 60%;
+            width: 75%;
         }
         
         .related-posts {
-            width: 60%;
+            width: 75%;
         }
         
         .post-navigation {
-            width: 60%;
+            width: 75%;
         }
+        
+        .adjacent-posts {
+            width: 75%;
+        }
+        
     }
     
     @media (max-width: 1200px) {
         .series-collection {
-            width: 70%;
+            width: 85%;
         }
         
         .related-posts {
-            width: 70%;
+            width: 85%;
         }
         
         .post-navigation {
-            width: 70%;
+            width: 85%;
         }
+        
+        .adjacent-posts {
+            width: 85%;
+        }
+        
     }
     
     @media (max-width: 760px) {
@@ -379,14 +409,15 @@
             max-width: 100%;
             text-align: left;
         }
+        
     }
     
     /* Enhanced typography within posts */
     .post-content p:not(.sidenote):not(.marginnote) {
-        font-size: 1.4rem;
-        line-height: 2rem;
-        margin: 1.4rem 0;
-        color: #333;
+        font-size: 1.35rem;
+        line-height: 1.9rem;
+        margin: 1.5rem 0;
+        color: #2a2a2a;
         text-align: justify;
         text-justify: inter-word;
         hyphens: auto;
@@ -395,6 +426,8 @@
         hyphenate-limit-chars: 6 3 2;
         hyphenate-limit-lines: 2;
         hyphenate-limit-zone: 8%;
+        font-weight: 400;
+        width: 75% !important;
     }
     
     .post-content li {
@@ -437,11 +470,13 @@
     
     .sidenote, .marginnote {
         text-align: left;
-        font-size: 1.1rem !important;
-        line-height: 1.3 !important;
-        margin: 0.3rem 0 0 0 !important;
-        width: 50% !important;
-        margin-right: -60% !important;
+        font-size: 1.05rem !important;
+        line-height: 1.4 !important;
+        margin: 0.2rem 0 1rem 0 !important;
+        width: 32% !important;
+        margin-right: -37% !important;
+        margin-left: 3% !important;
+        color: #333 !important;
     }
     
     .post-content blockquote p {
@@ -506,6 +541,8 @@
         color: #333;
     }
     
+    
+    
     @media (max-width: 760px) {
         .post-header h1 {
             font-size: 2rem;
@@ -513,6 +550,12 @@
             text-shadow: none !important;
             -webkit-text-stroke: 0;
             text-rendering: optimizeLegibility;
+        }
+        
+        .post-content p:not(.sidenote):not(.marginnote) {
+            width: 100% !important;
+            padding-right: 0 !important;
+            margin-right: 0 !important;
         }
         
         .post-content p {
@@ -596,15 +639,6 @@
     </aside>
     {% endif %}
 
-    {% if related_posts %}
-    <aside class="related-posts">
-        <h3>Related Reading</h3>
-        {% for post in related_posts %}
-            <p><strong><a href="{{ post.url }}">{{ post.title }}</a></strong><br>
-            {% if post.description %}{{ post.description }}{% endif %}</p>
-        {% endfor %}
-    </aside>
-    {% endif %}
 
     {% if prev_post or next_post %}
     <nav class="adjacent-posts">
@@ -616,6 +650,10 @@
                     <span class="nav-title">{{ prev_post.title }}</span>
                 </a>
             </div>
+            {% endif %}
+            
+            {% if prev_post and next_post %}
+            <div class="nav-spacer"></div>
             {% endif %}
             
             {% if next_post %}
