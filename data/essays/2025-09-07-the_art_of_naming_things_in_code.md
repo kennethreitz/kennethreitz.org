@@ -94,7 +94,7 @@ There's an art to choosing names that are specific enough to be meaningful but g
 
 ## Creating Shared Understanding
 
-Every programmer has their Adam moment when creating primary abstractions. When you name a class `PaymentProcessor`, future developers will ask: "Where does the PaymentProcessor handle refunds?" rather than "Where do we handle refunds?" The name shapes the questions, which shapes the thinking.
+In the Genesis story, Adam's first job was naming the animals—bringing order to chaos through language. Every programmer has their own Adam moment when creating primary abstractions. When you name a class `PaymentProcessor`, future developers will ask: "Where does the PaymentProcessor handle refunds?" rather than "Where do we handle refunds?" The name shapes the questions, which shapes the thinking.
 
 You're not just labeling—you're creating the conceptual framework through which others will navigate complexity.
 
