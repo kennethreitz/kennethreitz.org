@@ -1,22 +1,28 @@
 # The Art of Naming Things in Code
 *September 2025*
 
-There are only two hard things in Computer Science: cache invalidation and naming things. The first one will eventually be solved by smarter algorithms and faster hardware. The second one? That's fundamentally about consciousness, language, and the strange responsibility of creating shared meaning in an indifferent universe.
+There are only two hard things in Computer Science: cache invalidation and naming things. 
 
-I learned this when I was building what would become the Requests library.
+I mean, that's the joke, right? But I keep thinking about why naming is actually hard. It's not just about picking words. It's about consciousness, language, and this weird responsibility we have to create shared meaning.
+
+Every time I stare at a blank function definition, cursor blinking after `def `, I'm reminded of this. What do you call something that doesn't quite exist yet? It's like trying to describe a dream while you're still dreaming it.
 
 ## From Frustration to Philosophy
 
-The original name wasn't "HTTP for Humans"—it was "HTTP for Python that doesn't suck." Charming, right? The name captured my frustration, but it defined the project by what it opposed rather than what it aspired to create.
+So, funny story. The original name for what became Requests wasn't "HTTP for Humans"—it was "HTTP for Python that doesn't suck." 
+
+Charming, right?
+
+Looking back, that name captured my frustration perfectly. But it was defining the project by what it opposed rather than what it wanted to become. Classic teenage rebellion energy: loud, accurate, and ultimately limiting.
 
 
-It took a few tries to arrive at "HTTP for Humans"<label for="sn-naming-evolution" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-naming-evolution" class="margin-toggle"/><span class="sidenote">This evolution mirrors how consciousness develops—from reactive opposition to proactive vision. First we know what we don't want, then we discover what we do want, then we learn to name it clearly enough that others can want it too.</span>. That shift wasn't just better branding—it was a different way of thinking about the problem.
+It took a few tries to arrive at "HTTP for Humans". That shift wasn't just better branding—it was a different way of seeing the problem entirely.
 
-"For humans" centered the human rather than the technology, and that naming choice shaped everything else. The name wasn't just describing what the code did—it was declaring what we cared about.
+"For humans" centered the human rather than the technology. And that naming choice shaped everything that followed: API design, documentation philosophy, community culture. The name wasn't just describing what the code did—it was declaring what we cared about.
 
 ## How Names Shape Thinking
 
-Here's the thing about naming in code: it's a recursive system where language shapes thought, programmers shape code, and code shapes how millions of other programmers think about problems.
+Here's what I've noticed about naming in code: it's this recursive thing where language shapes thought, programmers shape code, and code shapes how millions of other programmers think about problems.
 
 Consider the difference between these function names:
 
@@ -30,15 +36,15 @@ def profile_url():
     pass
 ```
 
-Same functionality, completely different philosophies embedded in the names. The first is verbose and procedural—it tells you exactly what steps it's taking. The second is clean and declarative—it trusts you to understand that accessing `profile_url()` will give you what you need.
+Same functionality, completely different philosophies. The first is verbose and procedural—it tells you exactly what steps it's taking. The second is clean and declarative—it trusts you to understand that `profile_url()` will give you what you need. One assumes you need hand-holding; the other assumes you're intelligent.
 
 When thousands of developers use your API, they're not just calling your functions—they're thinking with your thoughts. The names you choose become the concepts they use to understand their problem space. You're not just writing code; you're writing the language future programmers will think in<label for="sn-recursive-thinking" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-recursive-thinking" class="margin-toggle"/><span class="sidenote">This connects to the broader theme of [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds)—programmer consciousness shapes collective consciousness through the interfaces and abstractions we create.</span>.
 
+This is why naming feels so hard sometimes. You're not just solving a local labeling problem—you're creating the mental architecture through which other minds will navigate complexity.
+
 ## Why Names Matter More Than We Think
 
-Douglas Adams understood something profound about language: the act of naming creates reality rather than merely describing it. In *The Hitchhiker's Guide to the Galaxy*, the Babel fish doesn't just translate languages—it reveals that "the Universe is a lot more complicated than you might think, even if you start from a position of thinking it's pretty damn complicated."
-
-Naming in code has this same ontological weight. When you name something, you're not just creating a reference—you're defining what kind of thing it is, how it relates to other things, and what operations make sense to perform on it.
+Douglas Adams understood something profound about language: naming creates reality rather than describing it. When you name something in code, you're not just creating a reference—you're defining what kind of thing it is, how it relates to other things, and what operations make sense to perform on it.
 
 Take the simple act of choosing between `user`, `person`, `human`, or `individual`:
 
@@ -68,7 +74,7 @@ def proc_usr_auth_req(uid, pwd_hash):
     return auth_err_resp()
 
 # Human-optimized naming  
-def authenticate_person(email, password_hash):
+def authenticate_user(email, password_hash):
     """Verify someone's identity and create a session."""
     if credentials_are_valid(email, password_hash):
         return create_session_for(email)
@@ -117,6 +123,8 @@ Naming things is the practice of consciousness creating shared meaning. Every na
 The recursive loop continues: better names enable clearer thinking, clearer thinking produces better code, better code creates more intuitive abstractions. And in that accessibility lies the real magic: technology that serves human consciousness rather than exploiting it.
 
 As Douglas Adams might say, we're capable of building bridges of understanding across the incomprehensible spaces between minds. Sometimes, those bridges are made of nothing more than perfectly chosen words.
+
+But hey, I could be wrong. :)
 
 ---
 

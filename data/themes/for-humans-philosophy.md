@@ -40,6 +40,9 @@ A comprehensive exploration of human-centered design principles that prioritize 
 - [Legacy Software](/software/legacy/) - Historical projects that embodied these principles
 - [OSX GCC Installer](/software/legacy/osx-gcc-installer) - Early example of removing technical friction
 
+### Design Philosophy in Practice
+- **[The Art of Naming Things in Code](/essays/2025-09-07-the_art_of_naming_things_in_code)** - How naming choices shape thinking and create shared meaning through human-centered interface design
+
 ### Community & Language Philosophy
 - [The Tool vs. The Community](/essays/2025-09-the_tool_vs_the_community) - How to love a programming language without loving its community dynamics
 

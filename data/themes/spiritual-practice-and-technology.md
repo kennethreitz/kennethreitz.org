@@ -9,6 +9,7 @@ Technology creation isn't separate from spiritual development—it's a contempla
 ## Programming as Contemplative Practice
 
 - **[Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice)** - How code creation becomes a path to understanding consciousness and reality.
+- **[The Art of Naming Things in Code](/essays/2025-09-07-the_art_of_naming_things_in_code)** - How naming becomes the contemplative practice of consciousness creating shared meaning through careful attention to language and thought.
 - **[Python, Consciousness, and the Evolution of Language](/essays/2025-08-28-python-consciousness-and-the-evolution-of-language)** - Python as consciousness architecture: how "for humans" design principles actually create linguistic structures compatible with consciousness itself.
 - **[Python for Humans](/talks/python-for-humans)** - Compassionate design as spiritual practice, now understood as consciousness-compatible linguistic design.
 
