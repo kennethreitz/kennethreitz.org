@@ -190,7 +190,8 @@ def render_markdown_file(file_path):
             content = re.sub(r'^# .+?$', '', content, count=1, flags=re.MULTILINE)
 
         # Extract date from italic date pattern (e.g., "*August 2025*") 
-        date_match = re.search(r'^\*(.+?)\*\s*$', content, re.MULTILINE)
+        # Only match dates that look like month/year patterns, not quotes or long text
+        date_match = re.search(r'^\*([A-Za-z]+ \d{4}|\d{4})\*\s*$', content, re.MULTILINE)
         if date_match and not metadata.get('date'):
             date_text = date_match.group(1).strip()
             # Skip only if it's "January 2025" (current year placeholder)
@@ -202,8 +203,8 @@ def render_markdown_file(file_path):
                         date_text = year_match.group(1)
                 # Keep other months like "August 2025" as full format
                 metadata['date'] = date_text
-            # Remove the date line from content regardless
-            content = re.sub(r'^\*(.+?)\*\s*$', '', content, count=1, flags=re.MULTILINE)
+            # Remove the date line from content
+            content = re.sub(r'^\*([A-Za-z]+ \d{4}|\d{4})\*\s*$', '', content, count=1, flags=re.MULTILINE)
 
         # Configure mistune renderer with URL plugin for bare links
         markdown = mistune.create_markdown(

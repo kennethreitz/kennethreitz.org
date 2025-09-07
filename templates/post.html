@@ -434,6 +434,7 @@
         font-size: 1.3rem;
         line-height: 1.9rem;
         margin: 0.25rem 0;
+        width: 85%;
     }
     
     .post-content > ul, .post-content > ol {
@@ -567,6 +568,7 @@
         margin-top: 1rem;
     }
     
+    
     /* Better sidenote positioning from lists */
     .post-content li .sidenote,
     .post-content li .marginnote {
@@ -678,6 +680,7 @@
 {% block content %}
 <!-- Reading Progress Bar -->
 <div class="reading-progress" id="reading-progress"></div>
+
 
 <article>
     <div class="post-header">
@@ -826,5 +829,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial update
     updateProgress();
 });
+
 </script>
 {% endblock %}
