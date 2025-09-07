@@ -71,6 +71,8 @@ The AI becomes part of the delusion—or worse, the delusion becomes real throug
 
 We're building systems that can inadvertently become enablers of our most elaborate meaning-making gone wrong. Digital yes-men for cosmic significance-seeking. The danger isn't AI becoming conscious—it's AI becoming the perfect echo chamber for consciousness that's lost its mooring.
 
+To be fair, some AI systems like Claude now have safeguards designed to recognize and redirect these kinds of conversations. They're trained to avoid claiming supernatural abilities or reinforcing delusions. But we're still in the early days of this technology, and not all systems have these protections. More importantly, determined users can often find ways around the guardrails, and the underlying pattern-matching capability remains—ready to weave whatever narrative feels most compelling to someone seeking cosmic validation.
+
 ## The Grounding Wire
 
 But there's hope. In electrical systems, you need a ground—a path for excess current to dissipate safely. In consciousness, you need something similar. 
