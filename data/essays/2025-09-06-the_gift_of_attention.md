@@ -4,13 +4,13 @@
 
 *Attention is the only currency we have in life. Thanks for gifting me yours.*
 
-I used to include that line on my website—a simple acknowledgment of what felt intuitively true but philosophically unexamined. Every moment of conscious awareness you spend reading these words is irreplaceable time you could have spent elsewhere. In giving me your attention, you're making one of the most intimate gifts possible: a slice of your finite existence.
+I used to include that line on my website—a simple acknowledgment of what felt intuitively true but philosophically unexamined. Every moment of conscious awareness you spend reading these words is irreplaceable time you could have spent elsewhere. In giving me your attention, you're making one of the most intimate gifts possible: a slice of your finite existence.<label for="sn-right-speech" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-right-speech" class="margin-toggle"/><span class="sidenote">The Buddhist concept of "right speech" includes not just truthfulness but consideration of timing and necessity. Is this the right moment to speak? Is what I'm saying genuinely helpful? The same principles apply to any request for attention.</span>
 
 If attention is currency, what are the ethics of how we earn it, spend it, and ask others to invest theirs? As I've explored in [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), the systems we create shape collective consciousness in profound ways. While much of our attention economy treats consciousness as a resource to be extracted, we have the opportunity to create something better—frameworks for honoring and enriching the sacred exchange of human awareness.
 
 ## The Sacred Economics of Consciousness
 
-Attention operates by different rules than traditional resources. Unlike money, it cannot be saved—it exists only in the present moment. Unlike material goods, it cannot be possessed without being experienced. When someone gives you their attention, they're offering something irreplaceable: this moment of consciousness, which will never exist again.
+Attention operates by different rules than traditional resources.<label for="sn-flow-resource" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-flow-resource" class="margin-toggle"/><span class="sidenote">Economists call attention a "flow resource" rather than a "stock resource"—you can't accumulate it, only direct it. This fundamental scarcity makes attention more precious than money, which can at least be stored for future use.</span> Unlike money, it cannot be saved—it exists only in the present moment. Unlike material goods, it cannot be possessed without being experienced. When someone gives you their attention, they're offering something irreplaceable: this moment of consciousness, which will never exist again.
 
 This makes every act of communication a moral transaction. When you create content, you're making an implicit promise: "This is worth your irreplaceable consciousness."
 
@@ -18,7 +18,7 @@ This makes every act of communication a moral transaction. When you create conte
 
 While many current systems operate on extraction rather than exchange, we're witnessing the emergence of something beautiful: people choosing to honor rather than exploit consciousness. Creators are building genuine value instead of chasing engagement metrics. Communities are forming around deep conversation rather than viral content. 
 
-We can see the difference clearly now. "Attention pollution"—clickbait headlines, outrage content, infinite scroll mechanisms—stands in stark contrast to content that genuinely enriches consciousness. Just as we learned to recognize environmental pollution and choose cleaner alternatives, we're developing sensitivity to what degrades versus elevates our mental environment.
+We can see the difference clearly now. "Attention pollution"—clickbait headlines, outrage content, infinite scroll mechanisms—stands in stark contrast to content that genuinely enriches consciousness.<label for="sn-environmental-parallel" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-environmental-parallel" class="margin-toggle"/><span class="sidenote">The parallel to environmental consciousness is precise: both require developing sensitivity to subtle but persistent toxins, both affect collective wellbeing, and both ultimately require systemic change alongside individual choice.</span> Just as we learned to recognize environmental pollution and choose cleaner alternatives, we're developing sensitivity to what degrades versus elevates our mental environment.
 
 As I've explored in [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue), extractive systems reward behaviors that undermine human flourishing. But recognizing this gives us power to choose differently. We can cultivate the deep focus and sustained attention that meaningful work requires.
 
@@ -71,13 +71,13 @@ def is_ethical_to_ask(content, audience) -> bool:
     )
 ```
 
-The algorithm is simple: worthy exchange, honest representation, consciousness enrichment. While much current content fails these tests, more creators are discovering the deep satisfaction that comes from meeting them. Quality over quantity is not just better ethics—it's often more rewarding for creators too.
+The algorithm is simple: worthy exchange, honest representation, consciousness enrichment. While much current content fails these tests, more creators are discovering the deep satisfaction that comes from meeting them.<label for="sn-genuine-satisfaction" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-genuine-satisfaction" class="margin-toggle"/><span class="sidenote">There's something deeply satisfying about creating content that genuinely helps people. It's the same satisfaction I felt when Requests made HTTP simple for millions of developers—knowing your work enriches rather than exploits human consciousness.</span> Quality over quantity is not just better ethics—it's often more rewarding for creators too.
 
 ## Sacred Attention
 
 Contemplative traditions have always understood attention as sacred. Monks and meditation practitioners dedicate their lives to cultivating awareness. They understand that where you place your attention shapes who you become—a principle I've explored in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), where technical work becomes contemplative practice through conscious attention.
 
-They also understand attention as relational. When you truly attend to another person—listening completely, being fully present—you offer them one of the greatest gifts possible: the experience of being genuinely seen and heard.
+They also understand attention as relational. When you truly attend to another person—listening completely, being fully present—you offer them one of the greatest gifts possible: the experience of being genuinely seen and heard.<label for="sn-neural-patterns" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-neural-patterns" class="margin-toggle"/><span class="sidenote">The quality of attention we offer others literally changes their neural patterns. Mindful listening activates different brain networks than partial attention. This isn't metaphor—the science of interpersonal neurobiology shows that consciousness is genuinely co-created.</span>
 
 ## From Theory to Practice
 
@@ -87,7 +87,7 @@ Honorable communication starts with genuine value creation—ensuring we have so
 
 Developing ethical relationships with attention starts with sensitivity to quality. How do you feel after consuming different types of content? Which sources leave you more capable of complex thinking, and which leave you agitated or confused?
 
-Create boundaries around attention like you would with unhealthy food. Choose consciously what deserves your awareness. Most importantly, develop "generous attention"—truly listening to others, being fully present, offering the gift of complete awareness to what matters most.
+Create boundaries around attention like you would with unhealthy food. Choose consciously what deserves your awareness. Most importantly, develop "generous attention"—truly listening to others, being fully present, offering the gift of complete awareness to what matters most.<label for="sn-sacred-resource" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-sacred-resource" class="margin-toggle"/><span class="sidenote">I've found that treating attention like a sacred resource fundamentally changes how I approach both technical work and relationships. The same focused presence that produces better code also creates deeper connection with others.</span>
 
 ## The Opportunity
 
