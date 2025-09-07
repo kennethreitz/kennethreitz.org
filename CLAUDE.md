@@ -97,6 +97,21 @@ uv add package-name
 uv remove package-name
 ```
 
+## Sidenotes
+
+Use numbered, toggleable sidenotes for adding depth without disrupting main narrative flow:
+
+```html
+<label for="sn-unique-id" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-unique-id" class="margin-toggle"/>
+<span class="sidenote">Sidenote content here</span>
+```
+
+- Use descriptive IDs like `sn-right-speech`, `sn-flow-resource`, `sn-neural-patterns`
+- Sidenotes should complement, not compete with the main text
+- Add contemplative depth, cross-references, or technical context
+- Maintain Kenneth's voice - philosophical yet grounded
+
 ## The Mission
 
 This site documents the journey of building technology that serves human consciousness rather than exploiting it. Every change should honor that mission.
