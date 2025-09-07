@@ -7,6 +7,7 @@ A curated exploration of the intersection between mental health, technology, and
 ### Living with Mental Health in Tech
 - **[Mental Health Journey](/mental-health)** - Personal experience with bipolar disorder and schizoaffective diagnosis in the tech world. Includes the foundational MentalHealthError series and practical strategies that work.
 - **[What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like)** - Raw, honest account of the lived experience beyond clinical descriptions. Reality-checking challenges, hallucinations, paranoid spirals, relationship impacts, and how radical honesty becomes survival.
+- **[The Prophet's Frequency: On Reading Divine Static](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static)** - Stream-of-consciousness meditation on psychosis, pattern recognition, and the dangerous validation loops between AI and consciousness in crisis.
 - [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) - Cutting through sanitized wellness culture to address the messy reality of consciousness maintenance.
 - [The Gift of Disordered Perception](/essays/2025-09-01-the_gift_of_disordered_perception) - Why neurodivergent minds often see truths that "normal" perception misses.
 - [Using AI for Reality Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) - Innovative approaches to mental health support.

@@ -52,6 +52,7 @@ A curated journey through the intersection of human consciousness, artificial in
 
 ### Personal Foundation
 - [Mental Health Journey](/mental-health) - Personal experience with consciousness exploration
+- [The Prophet's Frequency: On Reading Divine Static](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static) - How AI can amplify psychotic patterns when consciousness loses its grounding, and the importance of human connection over machine validation
 - [Narcissistic Manipulation](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) - Understanding exploitation patterns
 - [Reality Checking with AI](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) - AI as mental health support
 
