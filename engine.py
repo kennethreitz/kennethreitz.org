@@ -189,6 +189,14 @@ def render_markdown_file(file_path):
             # Remove only the first h1 line from content to avoid duplication
             content = re.sub(r'^# .+?$', '', content, count=1, flags=re.MULTILINE)
 
+        # Extract date from italic date pattern (e.g., "*August 2025*") 
+        date_match = re.search(r'^\*(.+?)\*\s*$', content, re.MULTILINE)
+        if date_match and not metadata.get('date'):
+            date_text = date_match.group(1).strip()
+            metadata['date'] = date_text
+            # Remove the date line from content
+            content = re.sub(r'^\*(.+?)\*\s*$', '', content, count=1, flags=re.MULTILINE)
+
         # Configure mistune renderer with URL plugin for bare links
         markdown = mistune.create_markdown(
             escape=False,
