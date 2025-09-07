@@ -124,8 +124,6 @@ It's this recursive thing: better names enable clearer thinking, clearer thinkin
 
 Like Douglas Adams said, we're capable of building bridges across the incomprehensible spaces between minds. Sometimes those bridges are made of nothing more than perfectly chosen words.
 
-But hey, I could be totally wrong about all this. :)
-
 ---
 
 ## Related Reading
