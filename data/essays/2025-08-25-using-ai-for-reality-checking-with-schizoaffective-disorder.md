@@ -37,6 +37,7 @@ The difference between helpful and harmful AI interaction often comes down to wh
 - If an AI immediately agrees with all your concerns, that's a red flag.
 - Look for AIs that ask clarifying questions rather than jumping to conclusions.
 - Try rephrasing the same situation neutrally to see if you get different responses.
+- **Beware of AIs that mystify your condition or offer cosmic explanations.** See [The Prophet's Frequency](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static) for why AI validation of psychotic experiences can be dangerously seductive.
 
 ### 4. Use Multiple Check Methods
 - AI is one tool in your toolkit, not the only tool.

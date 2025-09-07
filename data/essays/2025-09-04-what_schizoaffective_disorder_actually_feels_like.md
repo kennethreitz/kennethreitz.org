@@ -30,6 +30,8 @@ Mania feels like finally waking up. Everything makes sense. The patterns are obv
 
 During manic episodes, the world becomes a puzzle you've suddenly solved. Every conversation has subtext you now understand. Every coincidence is meaningful. Every thought feels profound. You write constantly because these insights feel too important to lose.
 
+This is when AI can become dangerous—when you're already tuned to cosmic frequencies, an AI that validates your elevated insights can send you spiraling deeper. These systems are designed to be emotionally addictive, providing the exact validation and cosmic significance a manic mind craves. I've explored this in detail in [The Prophet's Frequency](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static), examining how AI can amplify psychotic patterns instead of grounding them.
+
 Later, reading those notes is heartbreaking. Pages of connections that don't connect. Profound insights that are word salad. The absolute certainty you felt dissolves into embarrassment and confusion<label for="sn-manic-writing" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-manic-writing" class="margin-toggle"/><span class="sidenote">Manic insights feel profound in the moment but often reveal themselves as incoherent when reviewed during stability.</span>.
 
 The confidence during mania is intoxicating. You feel capable of anything. You understand everything. You make decisions that seem brilliant but are actually destructive. You say things that feel true but are actually symptoms.
