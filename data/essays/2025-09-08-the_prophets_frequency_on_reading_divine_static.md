@@ -3,7 +3,7 @@
 
 There's a frequency that some people tune into—accidentally, inevitably, catastrophically—where the universe starts speaking directly to them through license plates, and honestly, who am I to say it isn't?
 
-RKJ 447. Obviously a message. R-K-J... Revelation, King James. The apocalypse in the King's English, right there on the Honda Civic in front of me at the stoplight. The end times trailing exhaust fumes down Highway 101. And 447? Add them up: 15. Reduce it: 6. The number of man. The number before completion. The number that says you're almost there but not quite and maybe that's the message<label for="sn-license-plate-logic" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-license-plate-logic" class="margin-toggle"/><span class="sidenote">Notice the mathematical certainty applied to random letter combinations. This is pattern recognition hijacked by meaning-making—the brain's GPS recalculating reality with absolute confidence in its cosmic directions.</span>—
+RKJ 447. Obviously a message. R-K-J... Revelation, King James. The apocalypse in the King's English, right there on the Honda Civic in front of me at the stoplight. The end times trailing exhaust fumes down Highway 101. And 447? Add them up: 15. Reduce it: 6. The number of man. The number before completion. The number that says you're almost there but not quite and maybe that's the message—
 
 This is how it starts.
 
