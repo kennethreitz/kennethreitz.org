@@ -153,7 +153,7 @@ We're all tuning in to something. The question is whether we can change the chan
 ### On This Site
 - [The Plural Self: What DID Reveals About All Consciousness](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) - Multiple realities, multiple selves
 - [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - The importance of reality-checking in AI relationships
-- [Mental Health in the Age of Algorithms](/essays/2025-08-30-mental_health_in_the_age_of_algorithms) - How technology shapes our reality testing
+- [Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - How algorithms exploit mental health vulnerabilities
 
 ### External Resources
 - *The Center Cannot Hold* by Elyn Saks - A profound memoir of schizophrenia from someone who recovered
