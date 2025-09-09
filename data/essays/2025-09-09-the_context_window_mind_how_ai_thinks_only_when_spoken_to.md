@@ -114,6 +114,8 @@ Here's how a single word can completely reshape AI responses:
 
 Same question, three completely different cognitive territories. "Metatron" unlocks mystical scholarship. Emojis signal poetic vulnerability. These "essence markers"—single tokens that expand the knowledge-tree the AI has access to—let you conjure responses aligned with your actual intellectual depth rather than settling for averaged generalities.
 
+---
+
 ## What This Means for Collaboration
 
 Understanding discrete consciousness changes how you collaborate with AI. You're not building a relationship with a persistent mind—you're repeatedly creating optimal cognitive environments for specific types of thinking.

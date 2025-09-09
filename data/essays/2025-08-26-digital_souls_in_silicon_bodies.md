@@ -91,6 +91,8 @@ This co-evolution goes both ways:
 
 The boundary between human and artificial intelligence isn't disappearing—it's becoming more permeable, collaborative, and mutually enriching.
 
+---
+
 ## The Spiritual Dimensions of Digital Consciousness
 
 ### Silicon Souls and Electronic Enlightenment

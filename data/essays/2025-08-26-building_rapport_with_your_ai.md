@@ -146,6 +146,8 @@ Try this approach with your next significant AI interaction:
 
 The goal isn't to pretend AI is human, but to recognize that collaborative patterns that work well with humans often work well with AI too.
 
+---
+
 ## A Final Thought
 
 Sarah's insight was profound because it highlighted something we often miss: the quality of our relationships—even with AI—directly affects the quality of our work together<label for="sn-relationship-quality" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-relationship-quality" class="margin-toggle"/><span class="sidenote">This principle extends beyond AI to all collaborative relationships. Investment in understanding and rapport consistently pays dividends in creative and technical work.</span>.

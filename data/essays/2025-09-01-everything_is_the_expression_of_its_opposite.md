@@ -113,6 +113,8 @@ def consciousness_emerges(system):
 
 The complexity isn't in the parts—it's in the opposition relationships. Remove any opposition and the whole system collapses. This might be why consciousness can't be reduced to simpler components. It's not the neurons, it's the pattern of inhibition and excitation. Not the code, but the if/else branches. Not the thing, but thing-and-opposite as an irreducible unit.
 
+---
+
 ## The Practical Implications
 
 This isn't just abstract philosophizing. Understanding reality as expressed through opposition has practical implications:
