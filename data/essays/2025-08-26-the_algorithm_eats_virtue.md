@@ -101,6 +101,8 @@ The virtue ethics framework reveals a profound moral crisis: profit-driven algor
 
 Platforms claim neutrality, but every algorithm embeds values. Optimizing for engagement over virtue constitutes an ethical choice about human development and social structure. The current model commodifies attention and treats psychology as an optimization target—a fundamentally dehumanizing approach<label for="sn-dehumanization" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-dehumanization" class="margin-toggle"/><span class="sidenote">Dehumanization here doesn't mean cruelty—it means treating humans as optimization targets rather than as conscious beings deserving of moral consideration.</span>.
 
+---
+
 ## Alternative Models: Virtue-Supporting Architecture
 
 Consider how platforms might function if designed around virtue cultivation:

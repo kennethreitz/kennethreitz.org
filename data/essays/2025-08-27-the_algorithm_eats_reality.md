@@ -56,6 +56,8 @@ Here's the crucial insight: artificial amplification succeeds because it aligns 
 
 The manipulation succeeds because it gives algorithms exactly what they want: engagement, retention, and viral spread. Anxious, paranoid, and emotionally dysregulated people interact more with content, generating more data and ad revenue. The psychological harm isn't a bug—it's the feature that drives the entire system.
 
+---
+
 ## What You Can Do
 
 The most reliable defense is recognizing the pattern: if social media consistently makes you feel worse about yourself or more convinced that your situation is hopeless, you're likely being targeted based on your private data profile.

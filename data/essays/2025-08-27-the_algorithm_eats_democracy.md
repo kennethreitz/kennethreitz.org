@@ -87,6 +87,8 @@ We're seeing:
 
 This isn't just American political dysfunction—it's a global pattern affecting every democracy with high social media penetration.
 
+---
+
 ## What Democratic Algorithms Would Look Like
 
 Imagine social platforms designed to enhance rather than undermine democratic discourse:

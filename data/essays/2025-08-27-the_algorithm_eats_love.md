@@ -73,6 +73,8 @@ This isn't just making people sad (though it is). It's breaking society. Birth r
 
 We're creating a generation that knows how to curate a profile but not how to be vulnerable. That can calculate message timing but can't hold eye contact. That has hundreds of matches but zero ability to actually connect.
 
+---
+
 ## Alternative Pathways to Connection
 
 The systematic failures of algorithmic romance suggest a need to return to pre-digital relationship formation patterns. Organic connection through shared activities, interests, and repeated exposure allows attraction to develop naturally without optimization pressure.

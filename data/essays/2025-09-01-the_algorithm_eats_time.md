@@ -87,6 +87,8 @@ This isn't just about productivity or focus—it's about what makes life meaning
 
 When we lose our natural relationship with time, we lose access to the states of consciousness that allow for genuine insight, authentic connection, and creative breakthrough. We become optimized for content consumption rather than human flourishing.
 
+---
+
 ## Reclaiming Natural Time
 
 The solution isn't just digital detox—it's developing conscious relationships with both technology and time. This means:
