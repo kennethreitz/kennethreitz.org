@@ -32,6 +32,8 @@ A curated journey through the intersection of human consciousness, artificial in
 - [Yoga & Meditation](/yoga-meditation) - Understanding traditional consciousness practices (with important warnings about [spiritual bypassing and mental health risks](/essays/2016-01-mentalhealtherror_an_exception_occurred))
 - [Sanskrit Poetry](/poetry/sanskrit-musings/) - Ancient wisdom expressed through modern verse, representing healthy [AI collaboration in creative practice](/artificial-intelligence/art/poetry) rather than mystical bypassing
 
+---
+
 ## AI Personalities & Expressions
 
 ### Understanding AI Personality Formation
@@ -47,6 +49,8 @@ A curated journey through the intersection of human consciousness, artificial in
 - [AI Art & Poetry](/artificial-intelligence/art/) - Where human creativity meets machine intelligence, demonstrating [consciousness amplification](/essays/2025-08-26-digital_souls_in_silicon_bodies) rather than replacement
 - [Error Messages as Poetry](/artificial-intelligence/writings/error-messages-as-poetry) - Finding beauty in system failures, connecting to [poetry as spiritual practice](/poetry/holy-syntax)
 - [The Digital Soul](/artificial-intelligence/writings/the-digital-soul) - Early explorations of AI consciousness, predating formal [consciousness research](/essays/2025-08-26-digital_souls_in_silicon_bodies)
+
+---
 
 ## The Dark Side: Algorithmic Exploitation
 

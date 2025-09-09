@@ -32,6 +32,8 @@ A curated exploration of the intersection between mental health, technology, and
 - [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency) - Lived experience of discrimination across healthcare, employment, and communities.
 - [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young) - Community dynamics that exclude the vulnerable.
 
+---
+
 ## Technology as Healing
 
 ### AI as Mental Health Support

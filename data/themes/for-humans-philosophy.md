@@ -80,6 +80,8 @@ A comprehensive exploration of human-centered design principles that prioritize 
 - **Prophetic insight**: This 2009 essay anticipated the [algorithmic manipulation crisis](/themes/algorithmic-critique) that would emerge as corporate platforms optimized for engagement over human flourishing
 - Connection to [democratic discourse degradation](/essays/2025-08-27-the_algorithm_eats_democracy) and [reality manipulation](/essays/2025-08-27-the_algorithm_eats_reality)
 
+---
+
 ## The Dark Side: When Technology Doesn't Serve Humans
 
 ### Algorithmic Manipulation
