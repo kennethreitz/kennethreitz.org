@@ -1,8 +1,6 @@
----
-*August 2025*
----
-
 # When Values Eat Their Young: How Ideal-Driven Groups Drift into Their Own Shadow
+
+*August 2025*
 
 
 **Picture this:** A Slack channel for an open-source project that prominently displays "Be excellent to each other" in its community guidelines. Six months later, a maintainer posts a thoughtful critique of a proposed code of conduct change. Within hours, they're called "toxic," told they're "literally causing harm," and face demands for their removal. The pile-on continues for days.
@@ -132,6 +130,8 @@ Before you conclude that all value-driven communities are doomed to hypocrisy, l
 
 **Structural forces are real.** Social media algorithms reward outrage. Venture capital demands growth over health. Academic incentives favor publication over practice. These aren't excuses, but they are context that explains why even well-intentioned communities struggle.
 
+---
+
 ## The Anti-Drift Checklist (For Humans)
 
 Here's your practical playbook for keeping your community from eating its young:
@@ -202,8 +202,6 @@ And they won't come back.
 
 I didn't.
 
----
-
 ## Further Reading
 
 - *The Righteous Mind* by Jonathan Haidt (2012)—moral psychology and why good people divide
@@ -216,6 +214,4 @@ I didn't.
 - *How to Blow Up a Pipeline* by Andreas Malm (2021)—purity spirals in climate movements
 - Project Aristotle findings, Google (2014)—psychological safety research
 - Frances Haugen Congressional Testimony (2021)—Facebook's internal culture
-
----
 
