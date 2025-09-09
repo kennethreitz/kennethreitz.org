@@ -190,6 +190,8 @@ The solution isn't to abandon values or become cynical. It's to recognize these 
 
 The same humility applies to designing communities. We can't perfect human nature, but we can create structures that fail gracefully, correct course, and keep the gap between stated values and lived reality as small as possible.
 
+---
+
 ## Conclusion
 
 Look.
