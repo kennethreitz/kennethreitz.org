@@ -350,20 +350,25 @@
 
             /* Style HR lines as ornamental asterisks */
             hr {
-                display: block;
                 border: none;
+                margin: 4rem auto;
+                padding: 0;
+                width: 65%;
+                height: 20px;
                 text-align: center;
-                margin: 4rem 0;
-                overflow: visible;
-                height: auto;
+                position: relative;
+                display: block;
             }
             
-            hr::before {
+            hr::after {
                 content: "⁂";
-                font-size: 1.5em;
+                font-size: 1.4em;
                 color: #999;
-                position: relative;
-                top: -0.5em;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                line-height: 1;
             }
 
 

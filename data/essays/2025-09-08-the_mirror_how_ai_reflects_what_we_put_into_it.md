@@ -87,6 +87,8 @@ Maybe this is evolution. Maybe individual cognitive diversity was just a tempora
 
 But I can't help mourning what we're losing: the weird solutions, the incomprehensible brilliance, the productive wrongness that leads to breakthroughs. The things that make human thought interesting rather than just correct.
 
+---
+
 ## Breaking the Mirror
 
 We built AI as a mirror for human thought. When everyone looks into the same mirror constantly, we all start looking the same. The convergence isn't a bug—it's the natural result of billions of people optimizing for the same averaged patterns.

@@ -70,6 +70,8 @@ Transforming AI from a predictable assistant into a creative catalyst requires s
 
 The goal isn't getting the "right" answer from the machine. It's using the machine to provoke better questions in ourselves.
 
+---
+
 ## The Edge of Expectation
 
 True collaboration begins at the edge of the expected—in the surprising output of forced contradiction or absurd synthesis. It happens when the AI's response doesn't end the conversation but starts a new, more interesting one in your own mind.

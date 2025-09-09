@@ -95,6 +95,8 @@ This isn't new. Scientific breakthroughs, artistic movements, and philosophical 
 
 The AI doesn't think like a human, but it can participate in human-like reasoning well enough to create genuine cognitive collaboration. The result is a form of hybrid thinking that combines human intuition, pattern recognition, and emotional intelligence with AI's ability to hold complex information and explore vast possibility spaces.
 
+---
+
 ## The Writing Process Transformed
 
 Working with AI transforms the entire writing process, not just the final output.
