@@ -100,10 +100,11 @@ The mirror doesn't have to teach us all the same lesson. We can learn to think *
 ## Related Reading
 
 ### On This Site
-- [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) - How code shapes consciousness
-- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - Recursive feedback loops
-- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - What we're becoming
-- [The Prophet's Frequency](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static) - When patterns consume us
+- [Linguistic Evolution: How LLMs Might Perfect Human Language](/essays/2025-09-09-linguistic_evolution_how_llms_might_perfect_human_language) - The optimistic counterpoint: AI enhancing rather than homogenizing language.
+- [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) - How code shapes consciousness.
+- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - Recursive feedback loops.
+- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - What we're becoming.
+- [The Prophet's Frequency](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static) - When patterns consume us.
 
 ### External Resources
 - *The Shallows* by Nicholas Carr - How technology reshapes cognition
