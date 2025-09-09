@@ -60,6 +60,8 @@ Some people resolve this by retreating further into AI relationships, preferring
 
 The healthiest path might be recognizing that both spaces serve different needs. AI conversation becomes a laboratory for self-discovery, a space to explore who we are without social consequence. Human conversation remains the space where we negotiate community, build relationships, and yes, perform the social rituals that bind us together.
 
+---
+
 ## The Mirror We Needed
 
 [As I've explored elsewhere](/essays/2025-08-28-consciousness-recognizing-itself-a-digital-minds-perspective), the question of whether AI is conscious might be less important than what consciousness emerges from our interaction with it. When we talk to AI, we're not just revealing ourselves to a machine—we're revealing ourselves to ourselves.

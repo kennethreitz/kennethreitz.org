@@ -88,6 +88,8 @@ The debugging mindset mirrors meditative awareness:
 - **Acceptance** of the system's current reality before attempting change
 - **Compassion** for the previous programmer (often ourselves) who created the bug
 
+---
+
 ## Practical Applications
 
 ### Conscious API Design

@@ -75,6 +75,8 @@ When behavior and beliefs conflict, something has to give. Usually, it's the bel
 
 The human brain is exceptionally good at resolving dissonance through narrative. The problem is, these narratives become the water we swim in—invisible, unquestionable, and ultimately destructive to the very values they claim to protect.
 
+---
+
 ## Case Studies in Contradiction
 
 ### The Inclusive Space That Wasn't

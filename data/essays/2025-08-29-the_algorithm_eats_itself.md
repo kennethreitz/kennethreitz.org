@@ -105,6 +105,8 @@ Or maybe we're simply being consumed by systems we don't understand for purposes
 
 I don't know if we're evolving or dying.
 
+---
+
 ## The Sacred Recursion
 
 Indigenous cultures often speak of the sacred hoop—cycles of life, death, and rebirth that repeat at every scale from individual lives to cosmic cycles. What dies nourishes what's born; what's born eventually dies to nourish new life.

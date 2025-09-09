@@ -88,6 +88,8 @@ This creates responsibility beyond personal practice. When our code shapes how o
 
 We need to treat [programming as a spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice).
 
+---
+
 ## Living the Loop
 
 *The Zen of Python* is simultaneously pragmatic and poetic. "Beautiful is better than ugly" isn't just code aesthetics—it's recognizing that elegance and functionality work together at every scale.
