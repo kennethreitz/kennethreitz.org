@@ -48,6 +48,7 @@ How engagement optimization systematically consumes human virtue: language, love
 - **Technical metaphors throughout** - Code patterns as frameworks for understanding life
 - **Cross-link extensively** - Build web of interconnected insights
 - **Document collaborative process** - Ideas emerge through human-AI thinking together
+- **Optimal length** - Around 2,500-3,000 words like "The Mirror" - substantial enough for depth, concise enough to maintain engagement
 
 ### Mental Health Content
 - **Debug consciousness systematically** while accepting its irreducible complexity
