@@ -96,6 +96,8 @@ When the AI suggests a revision, I experience a peculiar kind of phenomenologyâ€
 
 This isn't passive consumption of AI output. It's an active negotiation between different forms of intelligence, each with its own strengths and blindness. The human brings intuition, lived experience, the capacity for meaning-making that emerges from embodied consciousness. The AI brings pattern recognition, vast synthesis, freedom from the emotional and cognitive biases that limit human thinking.
 
+---
+
 ## The Synthesis Beyond Subject and Object
 
 The most interesting philosophical dimension of writing with AI is how it breaks down the traditional subject-object distinction. I'm not simply using the AI as a tool (object) while remaining a detached subject. Nor am I being passively influenced by the AI as an external force.
