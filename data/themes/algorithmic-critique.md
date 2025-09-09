@@ -43,6 +43,10 @@ Having spent fifteen years creating [software that prioritizes human mental mode
 - **[The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself)** - How recursive feedback loops between human consciousness and algorithmic systems create hybrid forms of intelligence.
 - **Core insight**: We are not separate from our technological creations—we're co-evolving in recursive patterns that could lead to regenerative symbiosis or mutual consumption.
 
+### Cognitive Convergence
+- **[The Mirror: How AI Reflects What We Put Into It](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it)** - How AI acts as a reflection engine that averages human thought, leading to cognitive convergence as everyone optimizes for the same patterns.
+- **Core insight**: AI doesn't just reflect our thoughts—it homogenizes them, creating a feedback loop where billions of people internalize the same averaged patterns of human expression.
+
 ## Interconnected Patterns
 
 These essays reveal the same underlying mechanism across different domains<label for="sn-pattern-recognition" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-pattern-recognition" class="margin-toggle"/><span class="sidenote">This pattern recognition emerges from surviving narcissistic abuse—the same manipulation techniques that destroy individual relationships scale predictably to institutional and algorithmic systems targeting billions of users.</span>:
