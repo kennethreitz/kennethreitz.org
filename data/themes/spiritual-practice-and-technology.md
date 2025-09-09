@@ -69,8 +69,6 @@ These aren't programming exercises with spiritual themes—they're genuine koans
 
 [**The Art of Naming Things in Code**](/essays/2025-09-07-the_art_of_naming_things_in_code) shows how naming becomes contemplative practice—consciousness creating shared meaning through careful attention to language and thought.
 
-### Traditional Practice in Digital Context
-
 ### Meditation and Technology
 
 > "Sometimes contemplative practices can destabilize rather than support mental health in certain consciousness configurations. Sometimes the 'cure' becomes another problem." —[The Meditation Trap](/essays/2025-09-08-the_meditation_trap_when_mindfulness_makes_things_worse)
