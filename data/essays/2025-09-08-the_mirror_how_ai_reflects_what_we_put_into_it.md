@@ -47,7 +47,7 @@ The really insidious part is how we're adapting our thinking to get better AI re
 - Think in question-answer patterns.
 - Avoid ambiguity that confuses AI.
 
-Sam Altman, OpenAI's CEO, has [noticed this happening](https://www.businessinsider.com/sam-altman-people-starting-talk-like-ai-2025-9):
+Sam Altman, OpenAI's CEO, has [noticed this happening](https://techcrunch.com/2025/09/08/sam-altman-says-that-bots-are-making-social-media-feel-fake/):
 
 > *Real people have picked up quirks of LLM-speak.*
 
