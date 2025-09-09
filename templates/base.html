@@ -348,9 +348,22 @@
                 margin-top: 2.5rem;
             }
 
-            /* Hide HR lines to prevent sidenote interference */
+            /* Style HR lines as ornamental asterisks */
             hr {
-                display: none;
+                display: block;
+                border: none;
+                text-align: center;
+                margin: 4rem 0;
+                overflow: visible;
+                height: auto;
+            }
+            
+            hr::before {
+                content: "⁂";
+                font-size: 1.5em;
+                color: #999;
+                position: relative;
+                top: -0.5em;
             }
 
 
@@ -470,14 +483,14 @@
 
             /* Beautiful text selection */
             ::selection {
-                background: rgba(0, 0, 0, 0.1);
-                color: inherit;
+                background: rgba(255, 235, 59, 0.85);
+                color: #333;
                 text-shadow: none;
             }
 
             ::-moz-selection {
-                background: rgba(0, 0, 0, 0.1);
-                color: inherit;
+                background: rgba(255, 235, 59, 0.85);
+                color: #333;
                 text-shadow: none;
             }
 

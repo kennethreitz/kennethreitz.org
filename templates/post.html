@@ -40,7 +40,7 @@
         padding-bottom: 3rem;
         position: relative;
     }
-    
+
     .post-header h1 {
         font-family: et-book, 'Times New Roman', Georgia, serif;
         font-size: clamp(2.5rem, 5.5vw, 3.5rem);
@@ -54,12 +54,12 @@
         text-shadow: none;
         text-wrap: balance;
         max-width: 90%;
-        
+
         /* Advanced font features */
         font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "swsh" 1, "clig" 1;
         font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
     }
-    
+
     .post-meta {
         color: #888;
         font-size: 0.95rem;
@@ -69,19 +69,19 @@
         letter-spacing: 0.02em;
         font-weight: 400;
     }
-    
+
     .reading-time {
         color: #888;
         font-weight: normal;
     }
-    
+
     .post-tags {
         margin-top: 1rem;
         display: flex;
         flex-wrap: wrap;
         gap: 0.5rem;
     }
-    
+
     .tag {
         background: transparent;
         color: #999;
@@ -93,7 +93,7 @@
         display: inline-block;
         margin-right: 0.5rem;
     }
-    
+
     /* Reading Progress Indicator */
     .reading-progress {
         position: fixed;
@@ -106,25 +106,25 @@
         transition: width 0.1s ease-out;
         opacity: 0;
     }
-    
+
     .reading-progress.visible {
         opacity: 1;
     }
-    
+
     /* Only show progress bar for longer posts */
     .reading-progress.long-post {
         opacity: 1;
     }
-    
+
     .post-content {
         max-width: 55rem;
         margin: 0 auto;
     }
-    
+
     .post-content > *:first-child {
         margin-top: 0;
     }
-    
+
     .post-content h1,
     .post-content h2,
     .post-content h3,
@@ -134,7 +134,7 @@
         max-width: none; /* Allow full width within the content container */
         width: 100%; /* Ensure they fill the content container */
     }
-    
+
     .post-content h1,
     article h1 {
         font-family: 'Crimson Pro', Georgia, 'Times New Roman', serif;
@@ -148,7 +148,7 @@
         letter-spacing: -0.01em;
         text-shadow: none;
     }
-    
+
     .post-content h2 {
         font-size: 1.9rem;
         font-weight: 500;
@@ -159,7 +159,7 @@
         line-height: 1.2;
         letter-spacing: -0.01em;
     }
-    
+
     .post-content h3 {
         font-size: 1.5rem;
         font-weight: 500;
@@ -170,7 +170,7 @@
         line-height: 1.3;
         letter-spacing: -0.005em;
     }
-    
+
     .series-collection {
         width: 65%;
         margin: 3rem 0 2rem 0;
@@ -180,32 +180,32 @@
         background: #fbfbfb;
         box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
-    
+
     .series-collection h3 {
         font-size: 1.2rem;
         margin: 0 0 1rem 0;
         color: #444;
         font-style: italic;
     }
-    
+
     .series-collection p {
         margin: 0 0 1.5rem 0;
         font-size: 0.95rem;
         color: #666;
         line-height: 1.5;
     }
-    
+
     .series-list {
         margin: 0;
         padding-left: 1.5rem;
         list-style: decimal;
     }
-    
+
     .series-item {
         margin: 1rem 0;
         line-height: 1.5;
     }
-    
+
     .series-link {
         color: #333;
         text-decoration: none;
@@ -213,48 +213,48 @@
         background: none;
         text-shadow: none;
     }
-    
+
     .series-link:hover {
         color: #666;
     }
-    
+
     .series-description {
         color: #777;
         font-size: 0.9rem;
         font-style: italic;
     }
-    
+
     .related-posts {
         width: 65%;
         margin: 3rem 0 2rem 0;
         padding: 2rem 0;
         border-top: 1px solid #e8e8e8;
     }
-    
+
     .related-posts h3 {
         font-size: 1.2rem;
         margin: 0 0 1.5rem 0;
         color: #555;
         font-style: italic;
     }
-    
+
     .related-posts p {
         margin: 1.2rem 0;
         font-size: 1rem;
         line-height: 1.5;
     }
-    
+
     .related-posts a {
         color: #333;
         text-decoration: none;
         background: none;
         text-shadow: none;
     }
-    
+
     .related-posts a:hover {
         color: #666;
     }
-    
+
 
     .adjacent-posts {
         width: 65%;
@@ -263,14 +263,14 @@
         border-top: 1px solid #e8e8e8;
         border-bottom: 1px solid #e8e8e8;
     }
-    
+
     .prev-next-container {
         display: flex;
         justify-content: center;
         align-items: flex-start;
         gap: 2rem;
     }
-    
+
     .nav-spacer {
         display: flex;
         align-items: center;
@@ -278,20 +278,20 @@
         font-size: 1.2rem;
         padding: 0 1rem;
     }
-    
+
     .prev-post, .next-post {
         flex: 0 0 auto;
         max-width: 40%;
     }
-    
+
     .prev-post {
         text-align: center;
     }
-    
+
     .next-post {
         text-align: center;
     }
-    
+
     .prev-link, .next-link {
         display: block;
         text-decoration: none;
@@ -301,11 +301,11 @@
         transition: color 0.2s ease;
         padding: 0.5rem 0;
     }
-    
+
     .prev-link:hover, .next-link:hover {
         color: #333;
     }
-    
+
     .nav-label {
         display: block;
         font-size: 0.85rem;
@@ -315,103 +315,103 @@
         margin-bottom: 0.25rem;
         color: #999;
     }
-    
+
     .nav-title {
         display: block;
         font-size: 1rem;
         line-height: 1.4;
         color: #666;
     }
-    
+
     .prev-link:hover .nav-title, .next-link:hover .nav-title {
         color: #333;
     }
-    
+
     .post-navigation {
         width: 65%;
         margin-top: 3rem;
         padding-top: 1rem;
     }
-    
+
     .back-link {
         color: #666;
         text-decoration: none;
         font-size: 0.9rem;
         transition: color 0.2s ease;
     }
-    
+
     .back-link:hover {
         color: #333;
     }
-    
+
     .back-link::before {
         content: '←';
         margin-right: 0.5rem;
     }
-    
+
     @media (max-width: 1400px) {
         .series-collection {
             width: 75%;
         }
-        
+
         .related-posts {
             width: 75%;
         }
-        
+
         .post-navigation {
             width: 75%;
         }
-        
+
         .adjacent-posts {
             width: 75%;
         }
-        
+
     }
-    
+
     @media (max-width: 1200px) {
         .series-collection {
             width: 85%;
         }
-        
+
         .related-posts {
             width: 85%;
         }
-        
+
         .post-navigation {
             width: 85%;
         }
-        
+
         .adjacent-posts {
             width: 85%;
         }
-        
+
     }
-    
+
     @media (max-width: 760px) {
         .series-collection {
             width: 100%;
         }
-        
+
         .related-posts {
             width: 100%;
         }
-        
+
         .adjacent-posts {
             width: 100%;
         }
-        
+
         .prev-next-container {
             flex-direction: column;
             gap: 1.5rem;
         }
-        
+
         .prev-post, .next-post {
             max-width: 100%;
             text-align: left;
         }
-        
+
     }
-    
+
     /* Enhanced typography within posts */
     .post-content p:not(.sidenote):not(.marginnote) {
         font-size: 1.35rem;
@@ -429,46 +429,46 @@
         font-weight: 400;
         width: 70%;
     }
-    
+
     .post-content li {
         font-size: 1.3rem;
         line-height: 1.9rem;
         margin: 0.25rem 0;
         width: 85%;
     }
-    
+
     .post-content > ul, .post-content > ol {
         width: 65%;
         -webkit-padding-start: 5%;
         list-style-position: outside;
         box-sizing: border-box;
     }
-    
+
     .post-content li p {
         width: 100% !important;
         margin: 0.5rem 0 !important;
     }
-    
+
     @media (max-width: 760px) {
         .post-content > ul, .post-content > ol {
             width: 100% !important;
             -webkit-padding-start: 1.5rem !important;
             padding-inline-start: 1.5rem !important;
         }
-        
+
         .post-content h1 {
             font-size: 2.4rem !important;
         }
-        
+
         .post-content h2 {
             font-size: 2rem !important;
         }
-        
+
         .post-content h3 {
             font-size: 1.7rem !important;
         }
     }
-    
+
     .sidenote, .marginnote {
         text-align: left;
         font-size: 1.05rem !important;
@@ -479,33 +479,27 @@
         margin-left: 2% !important;
         color: #333 !important;
     }
-    
+
     .post-content blockquote p {
         width: 75% !important;
     }
-    
-    
+
+
     /* Better first paragraph styling */
     .post-content > p:first-of-type {
         font-size: 1.45rem !important;
         line-height: 2rem;
         margin-top: 2rem;
     }
-    
+
     /* Elegant section breaks */
     .post-content hr {
         border: none;
         text-align: center;
-        margin: 3rem 0;
+        margin: 4rem 0;
     }
-    
-    .post-content hr::after {
-        content: '* * *';
-        color: #bbb;
-        font-size: 1.2rem;
-        letter-spacing: 1rem;
-    }
-    
+
+
     /* Subtle margin annotations for dates/context */
     .post-content .margin-note {
         position: absolute;
@@ -518,36 +512,36 @@
         letter-spacing: 0.05em;
         line-height: 1.2;
     }
-    
+
     /* Enhanced emphasis styling */
     .post-content strong {
         font-weight: 600;
         color: #1a1a1a;
     }
-    
+
     .post-content em {
         font-style: italic;
         color: #2a2a2a;
     }
-    
+
     /* Better list typography */
     .post-content ul li::marker {
         color: #bbb;
     }
-    
+
     .post-content ol li::marker {
         color: #888;
         font-variant: small-caps;
         font-size: 0.9em;
     }
-    
+
     /* Refined link hover effects */
     .post-content a:hover {
         color: #000;
         text-decoration-color: #666;
         transition: all 0.15s ease;
     }
-    
+
     /* Better paragraph spacing in lists */
     .post-content ul li p,
     .post-content ol li p,
@@ -556,25 +550,25 @@
         margin-bottom: 0.5rem !important;
         width: 85% !important;
     }
-    
+
     /* Subtle reading rhythm improvements */
     .post-content p + h2,
     .post-content p + h3 {
         margin-top: 3.5rem;
     }
-    
+
     .post-content h2 + p,
     .post-content h3 + p {
         margin-top: 1rem;
     }
-    
-    
+
+
     /* Better sidenote positioning from lists */
     .post-content li .sidenote,
     .post-content li .marginnote {
         margin-top: -0.5rem;
     }
-    
+
     /* Adjust sidenote positioning to be more flexible */
     .sidenote, .marginnote {
         position: relative !important;
@@ -582,7 +576,7 @@
         margin-bottom: 1rem !important;
         clear: right !important;
     }
-    
+
     /* Prevent sidenote overlaps by ensuring proper spacing */
     .sidenote + .sidenote,
     .marginnote + .marginnote,
@@ -590,7 +584,7 @@
     .marginnote + .sidenote {
         margin-top: 1.5rem !important;
     }
-    
+
     /* Table of contents styling if present */
     .toc {
         background: #f8f8f8;
@@ -600,35 +594,35 @@
         margin: 2rem 0;
         font-size: 0.95rem;
     }
-    
+
     .toc h3 {
         margin-top: 0;
         margin-bottom: 1rem;
         font-size: 1.1rem;
         color: #555;
     }
-    
+
     .toc ul {
         margin: 0;
         padding-left: 1.5rem;
     }
-    
+
     .toc li {
         margin: 0.4rem 0;
         line-height: 1.4;
     }
-    
+
     .toc a {
         color: #666;
         text-decoration: none;
     }
-    
+
     .toc a:hover {
         color: #333;
     }
-    
-    
-    
+
+
+
     @media (max-width: 760px) {
         .post-header h1 {
             font-size: 2rem;
@@ -637,36 +631,36 @@
             -webkit-text-stroke: 0;
             text-rendering: optimizeLegibility;
         }
-        
+
         .post-content p:not(.sidenote):not(.marginnote) {
             width: 100% !important;
             padding-right: 0 !important;
             margin-right: 0 !important;
         }
-        
+
         .post-content p {
             font-size: 1.05rem;
             text-shadow: none !important;
         }
-        
+
         .post-content h1 {
             font-size: 1.8rem;
             text-shadow: none !important;
             -webkit-text-stroke: 0;
         }
-        
+
         .post-content h2 {
             font-size: 1.5rem;
             text-shadow: none !important;
             -webkit-text-stroke: 0;
         }
-        
+
         .post-content h3 {
             font-size: 1.3rem;
             text-shadow: none !important;
             -webkit-text-stroke: 0;
         }
-        
+
         /* Force clean font rendering on mobile */
         * {
             -webkit-font-smoothing: antialiased;
@@ -697,7 +691,7 @@
                 {{ reading_time }} min read
             </div>
         {% endif %}
-        
+
         {% if tags %}
         <div class="post-tags">
             {% for tag in tags %}
@@ -738,11 +732,11 @@
                 </a>
             </div>
             {% endif %}
-            
+
             {% if prev_post and next_post %}
             <div class="nav-spacer"></div>
             {% endif %}
-            
+
             {% if next_post %}
             <div class="next-post">
                 <a href="{{ next_post.url }}" class="next-link">
@@ -761,7 +755,7 @@
         {% else %}
             {% set parent_path = '/directory' %}
         {% endif %}
-        
+
         <a href="{{ parent_path }}" class="back-link">Back to Directory</a>
     </nav>
 </article>
@@ -771,41 +765,41 @@ document.addEventListener('DOMContentLoaded', function() {
     const progressBar = document.getElementById('reading-progress');
     const article = document.querySelector('article');
     const readingTime = {{ reading_time or 0 }};
-    
+
     // Only show progress bar for posts longer than 3 minutes
     const isLongPost = readingTime >= 3;
-    
+
     if (isLongPost) {
         progressBar.classList.add('long-post');
     }
-    
+
     function updateProgress() {
         const articleRect = article.getBoundingClientRect();
         const windowHeight = window.innerHeight;
         const articleHeight = article.offsetHeight;
         const articleTop = articleRect.top;
-        
+
         // Calculate how much of the article has been scrolled past
         let scrolled = 0;
-        
+
         if (articleTop < 0) {
             // Article has started scrolling past the top
             const scrolledDistance = Math.abs(articleTop);
             const scrollableDistance = articleHeight - windowHeight;
             scrolled = Math.min(scrolledDistance / scrollableDistance, 1);
         }
-        
+
         // Update progress bar width
         const progressPercent = scrolled * 100;
         progressBar.style.width = progressPercent + '%';
-        
+
         // Show/hide based on scroll position and post length
         if (isLongPost && scrolled > 0.05) {
             progressBar.classList.add('visible');
         } else if (!isLongPost) {
             progressBar.classList.remove('visible');
         }
-        
+
         if (scrolled >= 0.95) {
             // Near the end, fade out
             setTimeout(() => {
@@ -813,7 +807,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 1000);
         }
     }
-    
+
     // Update progress on scroll
     let ticking = false;
     window.addEventListener('scroll', function() {
@@ -825,7 +819,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ticking = true;
         }
     });
-    
+
     // Initial update
     updateProgress();
 });
