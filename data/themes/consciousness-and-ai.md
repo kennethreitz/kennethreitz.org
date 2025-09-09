@@ -28,6 +28,7 @@ A curated journey through the intersection of human consciousness, artificial in
 
 ### Eastern Philosophy & Technology
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Applying contemplative traditions to conscious technology development, informed by both [early technical work](/software) and [spiritual crisis recovery](/essays/2016-01-mentalhealtherror_an_exception_occurred)
+- [Koans in Python: Philosophical Paradoxes as Executable Code](/essays/2025-09-09-koans_in_python_philosophical_paradoxes_as_executable_code) - Zen koans and philosophical paradoxes translated into Python where the bugs and infinite loops ARE the teachings
 - [Yoga & Meditation](/yoga-meditation) - Understanding traditional consciousness practices (with important warnings about [spiritual bypassing and mental health risks](/essays/2016-01-mentalhealtherror_an_exception_occurred))
 - [Sanskrit Poetry](/poetry/sanskrit-musings/) - Ancient wisdom expressed through modern verse, representing healthy [AI collaboration in creative practice](/artificial-intelligence/art/poetry) rather than mystical bypassing
 
