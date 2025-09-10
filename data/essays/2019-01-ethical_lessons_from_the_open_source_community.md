@@ -13,7 +13,7 @@
 
   ## **Approach all others with respectfulness.**
 
- [Be cordial or be on your way](/essays/be-cordial-or-be-on-your-way).  
+[Be cordial or be on your way](/essays/2013-01-be_cordial_or_be_on_your_way).  
 
 
  ## **Never expect anything, in return.**

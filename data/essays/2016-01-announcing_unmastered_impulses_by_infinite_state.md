@@ -11,7 +11,7 @@
 
  ## **Unmastered Impulses by Infinite State**
 
- Today, I'm happy to announce that I have released my first album, *[Unmastered Impulses](/unmastered-impulses),* a sonic journal of my journey into bipolar mania.
+ Today, I'm happy to announce that I have released my first album, *[Unmastered Impulses](/music/unmastered-impulses),* a sonic journal of my journey into bipolar mania.
 
   ![Available on Spotify ,&nbsp; TIDAL , and SoundCloud .&nbsp;](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666489302-RQID2RIZ8DFI8VEB93CZ/74cd6-326ac-image-asset.jpeg)
 
@@ -19,11 +19,11 @@
 
 
 
-   ***Unmastered Impulses* byInfinite State** contains 13 tracks inspired by esoteric spiritual and philosophical concepts, explorations into the dream state, [bipolar disorder](/essays/mentalhealtherror-an-exception-occurred), and [a traumatic relationship](/essays/purging-the-unexpected-negative-a-narcissistic-partner).
+  ***Unmastered Impulses* byInfinite State** contains 13 tracks inspired by esoteric spiritual and philosophical concepts, explorations into the dream state, [bipolar disorder](/essays/2016-01-mentalhealtherror_an_exception_occurred), and [a traumatic relationship](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner).
 
  I found it quite difficult to limit myself to the time\-length of a physical [Red Book](https://en.wikipedia.org/wiki/Compact_Disc_Digital_Audio#Standard) CD, and a handful of excellent and important tracks (including one I consider to be my best work) had to be left out of this release, unfortunately. However, this is a blessing in disguise—it means that I'm already pretty far along with this album's successor!
 
- [Listen Now](/unmastered-impulses) ## **Where to Get It**
+ [Listen Now](/music/unmastered-impulses) ## **Where to Get It**
 
  The album is intended to be completely free, and should be entirely available on all major streaming services and online music stores. Here are a few links to the most common ones:
 

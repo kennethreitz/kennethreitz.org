@@ -67,7 +67,7 @@ wine pathToCD/setup.exe
 
  If you have any problems, ask, and we'll try to help you out as much as possible!
 
- UPDATE: Lost your CD? [Download the installer](/blog/free-direct-download-microsoft-office-2007) for free!
+ UPDATE: Lost your CD? [Download the installer](/essays/2009-01-free_direct_download_microsoft_office_2007) for free!
 
 ---
 

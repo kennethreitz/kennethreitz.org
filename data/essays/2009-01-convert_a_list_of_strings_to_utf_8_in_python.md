@@ -5,7 +5,7 @@
 
 
 
-  If you'd like to learn more about programming, [contact me](/contact-me/) for a one\-on\-one lesson.
+  If you'd like to learn more about programming, [contact me](/contact) for a one\-on\-one lesson.
 
 ```python
 def utf8ify(list):

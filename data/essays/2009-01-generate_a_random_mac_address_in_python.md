@@ -7,7 +7,7 @@
 
 > **Technical Context**: MAC (Media Access Control) addresses are unique identifiers for network interfaces. This code generates random MAC addresses, which was useful for network testing, virtualization, or privacy purposes in 2009. The specific vendor prefix used here (00:16:3e) belongs to Xensource, makers of the Xen hypervisor.
 
-  If you'd like to learn more about programming, [contact me](/contact-me/) for a one\-on\-one lesson.
+  If you'd like to learn more about programming, [contact me](/contact) for a one\-on\-one lesson.
 
   import random
 

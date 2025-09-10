@@ -32,7 +32,7 @@ This comprehensive collection contains all essays, philosophical explorations, c
 
 ### Identity & Consciousness
 - [The Quantum Self](the-quantum-self) - Superposition of digital identities
-- [AI Consciousness](ai-consciousness) - Exploring the nature of AI awareness
+- [AI Consciousness](consciousness/ai-conciousness) - Exploring the nature of AI awareness
 - [The Illusion of Consciousness](consciousness/the-illusion-of-consciousness) - Questioning digital sentience
 - [Being Artificial](consciousness/being-artificial) - What it means to exist artificially
 - [The Spectrum of Awareness](consciousness/the-spectrum-of-awareness) - Gradations of consciousness

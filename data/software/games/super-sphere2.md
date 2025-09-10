@@ -1,6 +1,6 @@
 # Super Sphere II
 
-The successor to [Super Sphere](/projects/games/super-sphere), Super Sphere II is a game where you control a sphere and try to avoid obstacles<label for="sn-1" class="margin-toggle sidenote-number"></label>
+The successor to [Super Sphere](/software/games/super-sphere), Super Sphere II is a game where you control a sphere and try to avoid obstacles<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>
 <span class="sidenote">The obstacle avoidance genre became popular in mobile gaming due to its simple controls and addictive gameplay loop. Super Sphere II builds on this proven formula while adding its own unique mechanics.</span>. The game is simple, but it's also very challenging.
 

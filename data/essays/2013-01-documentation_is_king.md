@@ -7,7 +7,7 @@
 
   As a member of the development community, I have the unique opportunity to take part of a powerful social movement, creating the tools that are fundamentally changing the world around us. Open source has found itself to be the crux of my professional, personal, and social life. There's something special about it.
 
- However, it's also not the only activity that I give my attention to. I'm also [a photographer](/photo/). My camera never leaves my side.
+ However, it's also not the only activity that I give my attention to. I'm also [a photographer](/photography/). My camera never leaves my side.
 
  It's crucial to have an analog balance in our digital world. No digital interface will ever replicate the feeling of a manually focused rangefinder camera,<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">Rangefinder cameras like the Leica M series use a separate optical viewfinder with a focusing mechanism that requires manual alignment of two images—a tactile, meditative process that contrasts sharply with digital autofocus systems.</span> or the attention to detail and craftsmanship of a mechanical watch. It's all about context and perspective.
 

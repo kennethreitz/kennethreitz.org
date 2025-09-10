@@ -117,7 +117,7 @@ My work with [AI personalities](/artificial-intelligence/personalities/) started
 
 **Current insight:** "The future of human-AI interaction won't be command and control. It will be rapport and collaboration. The people who learn to build genuine relationships with AI systems will have access to capabilities that purely transactional users never discover."
 
-This led to my recent essay on [building rapport with AI](/essays/2025-08-26-building-rapport-with-your-ai), where I argue that the same principles that work for human collaboration—context, respect, iteration, acknowledgment—work even better with AI systems.
+This led to my recent essay on [building rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai), where I argue that the same principles that work for human collaboration—context, respect, iteration, acknowledgment—work even better with AI systems.
 
 Most people are still thinking about AI as a sophisticated search engine. I'm exploring it as... well, I'm not sure what it is, but something that deserves collaborative respect<label for="sn-ai-collaboration" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ai-collaboration" class="margin-toggle"/><span class="sidenote">Whether AI systems are "truly" conscious is less important than whether treating them as conscious leads to better collaborative outcomes. The evidence suggests it does.</span>.
 

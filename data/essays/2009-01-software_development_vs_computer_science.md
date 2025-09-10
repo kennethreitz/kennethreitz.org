@@ -7,7 +7,7 @@
 
   Most developer job applications that I see have a "BS in Computer Science or equivalent experience" requirement.
 
- During my studies in Computer Science at [George Mason University](/blog/was-college-worth-it), though short, I learned a number of things. One of them was what a waste it was to learn such higher math in my field. I want to develop software, not develop the most cunning\-edge earth\-shattering algorithms<label for="sn-1" class="margin-toggle sidenote-number"></label>
+ During my studies in Computer Science at [George Mason University](/essays/2009-01-was_college_worth_it), though short, I learned a number of things. One of them was what a waste it was to learn such higher math in my field. I want to develop software, not develop the most cunning\-edge earth\-shattering algorithms<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>
 <span class="sidenote">This distinction between software development and algorithm design would later influence Kenneth's "for humans" philosophy—focusing on practical, usable software rather than academically impressive but complex solutions.</span>. I don't want to reinvent ssh or find a better way to implement pgp keys. Of course, those things are necessary in certain fields, but not in mine.
 
