@@ -103,8 +103,7 @@ That's a much more interesting and useful conversation than whether you're pract
 ## Related Reading
 
 ### On This Site
-- [Mental Health Error Checking](/essays/2025-08-26-mental_health_error_checking) - Applying debugging techniques to consciousness maintenance
-- [Building rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai) - AI collaboration in mental health support and reality-checking
+ - [Building rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai) - AI collaboration in mental health support and reality-checking
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Technical approaches to consciousness and contemplative work
 - [The Unexpected Negative](/essays/2025-08-27-the_unexpected_negative_healing_the_wounds_of_narcissistic_love) - Individual healing within larger systemic patterns
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How technological systems systematically undermine psychological well-being
