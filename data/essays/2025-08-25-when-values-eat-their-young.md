@@ -136,7 +136,7 @@ Before you conclude that all value-driven communities are doomed to hypocrisy, l
 
 Here's your practical playbook for keeping your community from eating its young:
 
-**Encourage disagreement.** Make it someone's job to argue the other side. Ask "what would change our mind?" before major decisions. Reward people who surface problems, not just those who maintain harmony.
+**Encourage disagreement.** Make it someone's job to argue the other side (*e.g.* each meeting could have a 'devil's advocate' designated role). Ask "what would change our mind?" before major decisions. Reward people who surface problems, not just those who maintain harmony.
 
 **Define kindness in behavior.** "Kindness" means responding to crisis with support, not pile-ons. Track who gets second chances and who doesn't—this reveals your real values. Pay attention to who's leaving, not just who's joining.
 
