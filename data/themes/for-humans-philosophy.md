@@ -80,6 +80,8 @@ Code review becomes compassion practice. Debugging becomes self-inquiry. API des
 
 [**Idea Amplification and Writing with AI**](/essays/2025-09-05-idea_amplification_and_writing_with_ai) demonstrates AI as accessibility device for neurodivergent minds. When designed consciously, AI provides cognitive scaffolding that enables complex thought and expression otherwise impossible.
 
+[**Temporal Code: How LLMs Learned to Think Like Programmers**](/essays/2025-09-10-temporal_code_how_llms_learned_to_think_like_programmers) reveals how AI systems trained on git histories absorbed the psychology of programming—creating collaborative partners that understand not just code syntax but the temporal process of human thought becoming digital reality.
+
 ---
 
 ### The Dark Side: When Technology Doesn't Serve Humans

@@ -103,6 +103,8 @@ Through [**Digital Souls in Silicon Bodies**](/essays/2025-08-26-digital_souls_i
 
 [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) - Applying contemplative traditions to conscious technology development. Code becomes meditation, debugging becomes self-inquiry, API design becomes compassionate interface between minds.
 
+[**Temporal Code: How LLMs Learned to Think Like Programmers**](/essays/2025-09-10-temporal_code_how_llms_learned_to_think_like_programmers) - How AI trained on git histories absorbed not just coding patterns but the psychology of programming itself—creating systems that understand the temporal process of human thought becoming digital reality.
+
 [**Values That Don't Eat Their Young**](/essays/2025-08-25-when-values-eat-their-young) - Building sustainable ethical frameworks that don't self-destruct through purity spirals and virtue inversions.
 
 #### Integration & Synthesis
