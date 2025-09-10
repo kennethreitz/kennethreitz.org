@@ -136,35 +136,15 @@ Before you conclude that all value-driven communities are doomed to hypocrisy, l
 
 Here's your practical playbook for keeping your community from eating its young:
 
-### Build in Healthy Conflict
-- **Rotate devil's advocates**—make disagreement someone's actual job, not a personality trait
-- **Ask "what would change our mind?"** before every major decision—if nothing would, you're already lost
-- **Reward people who surface problems**—not just those who maintain harmony
-- **Create structured dissent channels**—places where criticism is explicitly invited
+**Encourage disagreement.** Make it someone's job to argue the other side. Ask "what would change our mind?" before major decisions. Reward people who surface problems, not just those who maintain harmony.
 
-### Make Values Measurable
-- **Define what success looks like in behavior, not just outcomes**—"kindness" means responding to crisis with support, not pile-ons
-- **Document your edge cases**—what do you do when someone is both victim and perpetrator?
-- **Track who gets second chances**—and who doesn't (this will reveal your real values)
-- **Measure who's leaving, not just who's joining**—exit interviews tell truth
+**Define kindness in behavior.** "Kindness" means responding to crisis with support, not pile-ons. Track who gets second chances and who doesn't—this reveals your real values. Pay attention to who's leaving, not just who's joining.
 
-### Prevent Purity Spirals
-- **Explicitly value "good enough"**—perfectionism is the enemy of inclusion
-- **Celebrate people who admit they were wrong**—make course correction high-status
-- **Ban comparative suffering**—no "more oppressed than thou" competitions
-- **Set maximum consequences**—if everything is a firing offense, nothing is
+**Value "good enough."** Celebrate people who admit they were wrong. Ban comparative suffering competitions. Set maximum consequences—if everything is a firing offense, nothing is.
 
-### Reality-Check Your Rhetoric
-- **Compare your About page to your last three decisions**—do they match?
-- **Ask newcomers what values they observe** (not what you claim)—fresh eyes see clearly
-- **Check if your heroes would be welcome**—would your community's founders survive your current rules?
-- **Review your greatest hits and worst moments**—which better represents who you really are?
+**Reality-check regularly.** Compare your stated values to your last three decisions. Ask newcomers what they actually observe. Would your community's founders survive your current rules?
 
-### Design for Human Frailty
-- **Build systems that assume people will have bad days**—including leadership
-- **Create restoration paths, not just punishment**—how does someone come back from a mistake?
-- **Acknowledge that hurt people hurt people**—trauma explains but doesn't excuse
-- **Plan for mental health crises**—they will happen, especially in communities that attract vulnerable people
+**Design for bad days.** Build systems that assume people will struggle—including leadership. Create paths back from mistakes, not just punishment. Plan for mental health crises; they will happen.
 
 ## Common Failure Modes
 
