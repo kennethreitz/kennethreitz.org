@@ -351,24 +351,50 @@
             /* Style HR lines as ornamental asterisks */
             hr {
                 border: none;
-                margin: 4rem auto;
+                margin: 3rem auto;
                 padding: 0;
-                width: 65%;
-                height: 20px;
+                width: 100%;
+                height: auto;
                 text-align: center;
-                position: relative;
                 display: block;
+                overflow: visible;
+                position: relative;
             }
             
-            hr::after {
+            hr::before {
                 content: "⁂";
+                display: inline-block;
                 font-size: 1.4em;
                 color: #999;
-                position: absolute;
-                left: 50%;
-                top: 50%;
-                transform: translate(-50%, -50%);
                 line-height: 1;
+                position: relative;
+            }
+            
+            /* Constrain hr to match content width but keep centered */
+            main hr {
+                margin: 3rem auto;
+                width: 100%;
+                max-width: 100%;
+            }
+            
+            /* Article hr should use full article width */
+            article hr {
+                width: 100%;
+                max-width: 100%;
+            }
+            
+            @media (max-width: 1400px) {
+                main hr {
+                    width: 65%;
+                    max-width: 65%;
+                }
+            }
+            
+            @media (max-width: 760px) {
+                main hr {
+                    width: 100%;
+                    max-width: 100%;
+                }
             }
 
 

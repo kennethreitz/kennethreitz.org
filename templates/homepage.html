@@ -3,6 +3,7 @@
 {% block title %}Kenneth Reitz{% endblock %}
 
 {% block content %}
+<article>
 <style>
     .color-software { color: #e74c3c; }
     .color-essay { color: #3498db; }
@@ -15,6 +16,7 @@
         text-decoration: none;
         border-bottom: 1px dotted currentColor;
         transition: all 0.2s ease;
+        display: inline;
     }
     
     .project-link:hover {
@@ -38,7 +40,10 @@
         border-radius: 3px;
         background: rgba(0,0,0,0.05);
     }
+    
 </style>
+
+<div class="post-content">
 <h1>Kenneth Reitz</h1>
 
 <p class="subtitle">Creator of <a href="/software/requests" class="project-link color-software">Requests</a>, 
@@ -64,7 +69,7 @@
     <h2>Mental Health & Technology</h2>
     <p>Beyond the <a href="/essays/2025-09-01-mental_health_isnt_what_you_think_it_is" class="project-link color-essay">sanitized wellness culture</a> lies the messy technical reality of consciousness maintenance in digital environments. This work exposes the gap between mental health awareness theater and the brutal reality of living with serious psychiatric conditions in tech.</p>
     
-    <p>These essays expose how technological systems exploit psychological vulnerabilities: <a href="/essays/2025-08-27-the_cost_of_transparency" class="project-link color-essay"><strong>the professional cost of honesty</strong></a>, <a href="/essays/2025-08-26-algorithmic_mental_health_crisis" class="project-link color-essay"><strong>algorithmic psychological damage</strong></a>, <a href="/essays/2025-08-25-when-values-eat-their-young" class="project-link color-essay"><strong>how communities betray their vulnerable</strong></a>, <a href="/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder" class="project-link color-essay">AI <strong>reality-checking</strong></a>, and <a href="/essays/2016-01-mentalhealtherror_an_exception_occurred" class="project-link color-essay"><strong>MentalHealthError</strong></a>.</p>
+    <p>These essays expose how technological systems exploit psychological vulnerabilities: <a href="/essays/2025-08-27-the_cost_of_transparency" class="project-link color-essay"><strong>the professional cost of honesty</strong></a>, <a href="/essays/2025-08-26-algorithmic_mental_health_crisis" class="project-link color-essay"><strong>algorithmic psychological damage</strong></a>, <a href="/essays/2025-08-25-when-values-eat-their-young" class="project-link color-essay"><strong>how communities betray their vulnerable</strong></a>, <a href="/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder" class="project-link color-essay"><strong>AI reality-checking</strong></a>, and <a href="/essays/2016-01-mentalhealtherror_an_exception_occurred" class="project-link color-essay"><strong>MentalHealthError</strong></a>.</p>
     
     <p><a href="/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like" class="project-link color-essay"><strong>What Schizoaffective Disorder Actually Feels Like</strong></a> cuts through clinical descriptions to document the raw lived experience of psychosis, paranoid spirals, and reality-checking challenges.</p>
 </section>
@@ -168,4 +173,7 @@
         <span><span class="legend-dot" style="background: #95a5a6;"></span>Philosophy & Values</span>
     </div>
 </section>
+
+</div><!-- end post-content -->
+</article>
 {% endblock %}
