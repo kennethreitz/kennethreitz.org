@@ -172,8 +172,6 @@ The same humility applies to designing communities. We can't perfect human natur
 
 ---
 
-## Conclusion
-
 Look.
 
 I still believe in open source. I believe in communities built on values like kindness, inclusion, and collaboration. But good intentions aren't enough. You need systems. You need guardrails. You need to actually give a shit about people when they're at their worst, not just when they're shipping code.
