@@ -38,7 +38,7 @@
 
  ### Syntax Packages:
 
- * **Tomorrow Night Italics Color Scheme** — italics for code comments, for [Operator Mono](/essays/test-driving-a-200-programming-font-operator-mono).
+* **Tomorrow Night Italics Color Scheme** — italics for code comments, for [Operator Mono](/essays/2016-01-test_driving_a_200_coding_font_operator_mono).
 * **fish\-shell** — syntax highlighting for fish scripts.
 * **Jinja2** — syntax hilighting and snippets for jinjia2 templates**.**
 * **RestructuredText Improved** —syntax highlighting for RST files.

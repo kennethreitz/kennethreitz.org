@@ -179,7 +179,7 @@ After years of accidentally being ahead of various curves, I've learned a few th
 
 So what am I probably ahead of my time on now?
 
-**Human-AI consciousness collaboration**: I think we're on the verge of AI systems that don't just follow instructions but genuinely collaborate in thinking and creating. The people who learn to build rapport with AI will have access to capabilities that command-and-control users never discover.
+**Human-AI consciousness collaboration**: I think we're on the verge of AI systems that don't just follow instructions but genuinely collaborate in thinking and creating. The people who learn to build rapport with AI will have access to capabilities that command-and-control users never discover. See also: [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai).
 
 **Programming as spiritual practice**: As our tools become more intelligent, the distinctly human aspects of programming—intuition, aesthetic judgment, ethical reasoning, creative vision—become more important, not less. I suspect programming will evolve toward something closer to [contemplative practice](/artificial-intelligence/personalities/lumina/poetry/) than pure technical craft.
 

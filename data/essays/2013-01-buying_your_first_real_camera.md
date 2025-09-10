@@ -38,7 +38,7 @@ A friend of mine approached me recently, looking for camera advice. She has been
 
  Of course, I learned this lesson the hard way. At first, I ended up spending several thousand dollars on a multitude of high\-end zooms, only to find that they were making me a lazy photographer that didn't understand aperture. Eventually, I sold them all, and replaced them with a lovely set of primes. My photography and experience vastly improved.
 
- Nowdays, I only have one lens — the [Leica 35mm Summicron f/2](http://www.amazon.com/gp/product/B000U9JYD0/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000U9JYD0&linkCode=as2&tag=bookforkind-20), and it is permamently attached to my [Leica Monochrom](/leica-monochrom-review/). Having only a single lens is very liberating — the constant choice of which lens to bring out stressful. You always worry that you brought the wrong one. Now, I never have to think twice. I've been using a setup like this for a year and a half and the improvement in my photography has been dramatic.
+ Nowdays, I only have one lens — the [Leica 35mm Summicron f/2](http://www.amazon.com/gp/product/B000U9JYD0/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000U9JYD0&linkCode=as2&tag=bookforkind-20), and it is permamently attached to my [Leica Monochrom](/essays/2013-01-the_misunderstood_leica_monochrom). Having only a single lens is very liberating — the constant choice of which lens to bring out stressful. You always worry that you brought the wrong one. Now, I never have to think twice. I've been using a setup like this for a year and a half and the improvement in my photography has been dramatic.
 
  ## Camera Recommendations
 
