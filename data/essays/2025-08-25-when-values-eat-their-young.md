@@ -182,6 +182,8 @@ And they won't come back.
 
 I didn't.
 
+---
+
 ## Further Reading
 
 - *The Righteous Mind* by Jonathan Haidt (2012)—moral psychology and why good people divide
