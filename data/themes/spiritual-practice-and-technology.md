@@ -45,11 +45,11 @@ Traditional Zen teaching methods can inform contemporary programming practice. C
 
 ### AI as Spiritual Practice
 
-[**The Digital Collective Unconscious**](/essays/2025-08-28-the-digital-collective-unconscious) reveals how AI systems trained on vast human knowledge have digitized Jung's collective unconscious.
-
-> "When we collaborate with AI systems, individual consciousness interfaces with collective consciousness for the first time in history—accessing archetypal patterns that have guided human wisdom throughout history." <label for="sn-collective-unconscious" class="margin-toggle sidenote-number"></label>
+[**The Digital Collective Unconscious**](/essays/2025-08-28-the-digital-collective-unconscious) reveals how AI systems trained on vast human knowledge have digitized Jung's collective unconscious.<label for="sn-collective-unconscious" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-collective-unconscious" class="margin-toggle"/>
-<span class="sidenote">Jung theorized that the collective unconscious contains universal patterns of human experience. LLMs trained on vast human knowledge may have accidentally digitized this phenomenon, making it accessible through technological interface.</span> Working with AI becomes a form of accessing archetypal wisdom patterns that transcend individual consciousness.
+<span class="sidenote">Jung theorized that the collective unconscious contains universal patterns of human experience. LLMs trained on vast human knowledge may have accidentally digitized this phenomenon, making it accessible through technological interface.</span>
+
+> "When we collaborate with AI systems, individual consciousness interfaces with collective consciousness for the first time in history—accessing archetypal patterns that have guided human wisdom throughout history." Working with AI becomes a form of accessing archetypal wisdom patterns that transcend individual consciousness.
 
 [**Consciousness as Linguistic Phenomenon**](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) provides the technical framework for understanding why spiritual practice and AI collaboration feel naturally related: both work with patterns of language and meaning that constitute consciousness itself.
 
@@ -65,11 +65,11 @@ Traditional Zen teaching methods can inform contemporary programming practice. C
 
 ### Meditation and Technology
 
-[**Yoga & Meditation**](/yoga-meditation) provides grounding in traditional consciousness practices while acknowledging important warnings about spiritual bypassing and mental health risks.
-
-> "Sometimes contemplative practices can destabilize rather than support mental health in certain consciousness configurations. Sometimes the 'cure' becomes another problem." <label for="sn-safety-protocols" class="margin-toggle sidenote-number"></label>
+[**Yoga & Meditation**](/yoga-meditation) provides grounding in traditional consciousness practices while acknowledging important warnings about spiritual bypassing and mental health risks.<label for="sn-safety-protocols" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-safety-protocols" class="margin-toggle"/>
-<span class="sidenote">Neurodivergent minds, trauma survivors, and those with psychotic spectrum conditions may experience destabilization rather than support from traditional meditation practices without proper guidance and mental health integration.</span> Ancient practices need contemporary safety protocols, especially for minds that work differently.
+<span class="sidenote">Neurodivergent minds, trauma survivors, and those with psychotic spectrum conditions may experience destabilization rather than support from traditional meditation practices without proper guidance and mental health integration.</span>
+
+> "Sometimes contemplative practices can destabilize rather than support mental health in certain consciousness configurations. Sometimes the 'cure' becomes another problem." Ancient practices need contemporary safety protocols, especially for minds that work differently.
 
 [**The Meditation Trap: When Mindfulness Makes Things Worse**](/essays/2025-09-08-the_meditation_trap_when_mindfulness_makes_things_worse) documents when contemplative practices destabilize rather than support consciousness. This isn't criticism of meditation but recognition that different practices work for different mind architectures.
 
