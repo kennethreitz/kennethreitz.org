@@ -9,17 +9,15 @@ That philosophy has evolved into something broader: a recognition that every tec
 
 ### The Original Insight: Requests and Human-Centered Design
 
-> "Complex operations should be simple for humans to understand and use, even if that means more complexity on the implementation side. The burden of complexity should fall on the system, not the user." —[The Philosophy Behind Requests](/software/requests)
+[**Requests: HTTP for Humans**](/software/requests) emerged from frustration with Python's standard library—powerful but requiring users to think like HTTP protocol implementers rather than people trying to accomplish tasks.
 
-[**Requests: HTTP for Humans**](/software/requests) emerged from frustration with Python's standard library—powerful but requiring users to think like HTTP protocol implementers rather than people trying to accomplish tasks. Instead of expecting humans to understand connection pooling, authentication schemes, and encoding details, Requests handled the complexity internally while exposing simple, intuitive methods.
+> "Complex operations should be simple for humans to understand and use, even if that means more complexity on the implementation side. The burden of complexity should fall on the system, not the user." Instead of expecting humans to understand connection pooling, authentication schemes, and encoding details, Requests handled the complexity internally while exposing simple, intuitive methods.
 
 This design philosophy—**make the simple things simple and the complex things possible**—became a template for thinking about all human-technology interfaces. The library's adoption wasn't just about better code; it was about a fundamentally different relationship between human intention and machine capability.
 
 [**Ahead of My Time, I Think**](/essays/2025-08-26-ahead_of_my_time_i_think) traces how this "for humans" approach anticipated broader patterns: the importance of cognitive accessibility, the value of hiding implementation complexity, the recognition that good tools enhance rather than constrain human agency.
 
-### The Philosophy Expands: Beyond Code to Consciousness
-
-### API Design as Moral Framework
+### The Philosophy Expands: API Design as Moral Framework
 
 [**How I Develop Things and Why**](/essays/2013-01-how_i_develop_things_and_why) articulates the deeper principles: tools should reduce cognitive load, enhance capability, and respect human mental models. Every interface choice is a choice about whether to serve or exploit human psychology.
 
@@ -60,15 +58,13 @@ This 2008 essay predicted how software distribution would evolve by applying "fo
 
 ### Open Source Social Networks (2009)
 
-> "Why do we need organizations in charge of our communication platforms? What would social networking look like if designed to serve human connection rather than corporate engagement metrics?" —[The Call for an Open Source Social Network](/essays/2009-01-the_call_for_an_open_source_social_network)
+[**The Call for an Open Source Social Network**](/essays/2009-01-the_call_for_an_open_source_social_network) anticipated the [algorithmic manipulation crisis](/themes/algorithmic-critique) by recognizing that corporate control of communication infrastructure inevitably leads to exploitation of human psychology.
 
-[**The Call for an Open Source Social Network**](/essays/2009-01-the_call_for_an_open_source_social_network) anticipated the [algorithmic manipulation crisis](/themes/algorithmic-critique) by recognizing that corporate control of communication infrastructure inevitably leads to exploitation of human psychology. <label for="sn-platform-control" class="margin-toggle sidenote-number"></label>
+> "Why do we need organizations in charge of our communication platforms? What would social networking look like if designed to serve human connection rather than corporate engagement metrics?" <label for="sn-platform-control" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-platform-control" class="margin-toggle"/>
 <span class="sidenote">When communication platforms optimize for corporate metrics rather than human connection, they systematically undermine the very relationships they claim to facilitate—turning social bonds into engagement data.</span>
 
 This 2009 essay asked the crucial question: why should profit-driven corporations control the tools humans use to connect with each other? The "for humans" principle demanded community ownership over corporate optimization.
-
-### The Philosophy Applied: Programming and Consciousness
 
 ### Code as Spiritual Practice
 
@@ -90,9 +86,9 @@ Code review becomes compassion practice. Debugging becomes self-inquiry. API des
 
 ### Algorithmic Exploitation
 
-> "Instead of reducing cognitive load, these systems increase it. Instead of serving user goals, they exploit user psychology. Instead of enhancing human capability, they fragment it into profitable data points." —[The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue)
+[**The Algorithm Eats Virtue**](/essays/2025-08-26-the_algorithm_eats_virtue) reveals the precise inversion: engagement optimization violates every principle of "for humans" design.
 
-[**The Algorithm Eats Virtue**](/essays/2025-08-26-the_algorithm_eats_virtue) reveals the precise inversion: engagement optimization violates every principle of "for humans" design. These systems optimize for platform benefit rather than user flourishing, exploit rather than serve human psychology, and fragment rather than enhance human capability.
+> "Instead of reducing cognitive load, these systems increase it. Instead of serving user goals, they exploit user psychology. Instead of enhancing human capability, they fragment it into profitable data points." These systems optimize for platform benefit rather than user flourishing, exploit rather than serve human psychology, and fragment rather than enhance human capability.
 
 [**The Algorithmic Mental Health Crisis**](/essays/2025-08-26-algorithmic_mental_health_crisis) documents the psychological consequences when technology is designed to exploit rather than serve human consciousness. Anxiety, depression, and attention fragmentation emerge predictably from systems that violate "for humans" principles.
 
@@ -103,8 +99,6 @@ Code review becomes compassion practice. Debugging becomes self-inquiry. API des
 [**The Inclusion Illusion**](/essays/2025-08-26-the_inclusion_illusion) exposes how tech's supposed diversity initiatives become sophisticated discrimination. True "for humans" design would accommodate neurodivergent minds rather than demanding conformity to neurotypical optimization.
 
 [**When Values Eat Their Young**](/essays/2025-08-25-when-values-eat-their-young) reveals how even well-intentioned communities can systematically exclude the vulnerable when they optimize for ideological purity rather than human flourishing.
-
-### The Path Forward: Technology as Conscious Creation
 
 ### Principles for Human-Centered Design
 

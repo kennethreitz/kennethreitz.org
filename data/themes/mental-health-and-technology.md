@@ -9,9 +9,9 @@ This collection documents both sides: the systematic ways technology undermines 
 
 ### Personal Foundation: The Lived Experience
 
-> "This isn't some brave confession or inspiration porn. It's debugging documentation. When systems fail—whether they're code systems or consciousness systems—understanding the failure modes helps everyone build better ones." —[Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is)
+[**Mental Health Journey**](/mental-health) - The foundation of everything else: living openly with bipolar disorder, trauma recovery, and complex consciousness architecture.
 
-[**Mental Health Journey**](/mental-health) - The foundation of everything else: living openly with bipolar disorder, trauma recovery, and complex consciousness architecture. This isn't inspiration—it's system documentation. <label for="sn-system-documentation" class="margin-toggle sidenote-number"></label>
+> "This isn't some brave confession or inspiration porn. It's debugging documentation. When systems fail—whether they're code systems or consciousness systems—understanding the failure modes helps everyone build better ones." This isn't inspiration—it's system documentation. <label for="sn-system-documentation" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-system-documentation" class="margin-toggle"/>
 <span class="sidenote">Approaching mental health as system administration rather than personal failure enables more practical, technical approaches to consciousness maintenance and community support.</span> When consciousness systems fail, understanding the failure modes helps everyone build more resilient ones.
 
@@ -23,9 +23,9 @@ This collection documents both sides: the systematic ways technology undermines 
 
 ### The Dark Side: Systematic Exploitation
 
-> "The same algorithmic mechanisms that drive engagement on social platforms—variable reward schedules, outrage amplification, attention fragmentation—systematically destroy the foundations of human flourishing. This isn't accidental; it's the inevitable result of optimizing for metrics rather than wellbeing." —[The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis)
+[**The Algorithmic Mental Health Crisis**](/essays/2025-08-26-algorithmic_mental_health_crisis) - Clinical analysis of how engagement optimization creates anxiety, depression, attention fragmentation, and social dysfunction at scale.
 
-[**The Algorithmic Mental Health Crisis**](/essays/2025-08-26-algorithmic_mental_health_crisis) - Clinical analysis of how engagement optimization creates anxiety, depression, attention fragmentation, and social dysfunction at scale. <label for="sn-variable-schedules" class="margin-toggle sidenote-number"></label>
+> "The same algorithmic mechanisms that drive engagement on social platforms—variable reward schedules, outrage amplification, attention fragmentation—systematically destroy the foundations of human flourishing. This isn't accidental; it's the inevitable result of optimizing for metrics rather than wellbeing." <label for="sn-variable-schedules" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-variable-schedules" class="margin-toggle"/>
 <span class="sidenote">Variable reward schedules—the same mechanism that makes gambling addictive—are built into every notification system, creating pathological checking behaviors that fragment sustained attention.</span> These aren't individual failures—they're predictable outcomes of systems designed to exploit psychological vulnerabilities.
 
@@ -43,13 +43,11 @@ This collection documents both sides: the systematic ways technology undermines 
 
 ---
 
-### Technology as Healing: Conscious Approaches
-
-> "AI assistance functions as accessibility device for neurodivergent minds, providing cognitive scaffolding for complex thinking and writing when working memory or attention is compromised." —[Idea Amplification and Writing with AI](/essays/2025-09-05-idea_amplification_and_writing_with_ai)
-
 ### AI as Mental Health Support
 
-[**Using AI for Reality Checking**](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) - Practical applications of AI for mental health management while maintaining human agency. <label for="sn-human-agency" class="margin-toggle sidenote-number"></label>
+[**Using AI for Reality Checking**](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) - Practical applications of AI for mental health management while maintaining human agency.
+
+> "AI assistance functions as accessibility device for neurodivergent minds, providing cognitive scaffolding for complex thinking and writing when working memory or attention is compromised." <label for="sn-human-agency" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-human-agency" class="margin-toggle"/>
 <span class="sidenote">The crucial distinction: AI as cognitive scaffolding that enhances human judgment rather than replacement that eliminates human decision-making. Dependency destroys the very agency that mental health recovery requires.</span> How to use AI systems for perspective without becoming dependent on technological validation.
 
@@ -73,8 +71,6 @@ This collection documents both sides: the systematic ways technology undermines 
 
 [**Yoga & Meditation**](/yoga-meditation) - Traditional consciousness practices with important warnings about spiritual bypassing and mental health risks. Sometimes ancient wisdom needs contemporary safety protocols.
 
-### Community and Culture: Building Sustainable Support
-
 ### Creating Healthier Tech Communities
 
 [**When Values Eat Their Young**](/essays/2025-08-25-when-values-eat-their-young) - Building anti-drift mechanisms for communities so they don't systematically exclude the vulnerable while claiming to support them. Practical frameworks for sustainable ethical communities.
@@ -86,8 +82,6 @@ This collection documents both sides: the systematic ways technology undermines 
 [**Ahead of My Time, I Think**](/essays/2025-08-26-ahead_of_my_time_i_think) - Finding meaning in being early to patterns others don't see yet. How pattern recognition itself becomes a mental health practice when consciousness works differently.
 
 [**The Gift of Disordered Perception**](/essays/2025-09-01-the_gift_of_disordered_perception) - Reframing neurodivergent consciousness as feature rather than bug. Different doesn't mean broken—it means different optimization for different problems.
-
-### Resources & Creative Expression
 
 ### AI Collaborations
 

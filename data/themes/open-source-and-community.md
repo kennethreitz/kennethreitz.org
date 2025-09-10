@@ -11,9 +11,9 @@ Having spent over a decade building tools used by millions while trying to creat
 
 ### Decentralization Before It Was Cool (2009)
 
-> "Why do we need organizations in charge of our communication platforms? What would social networking look like if designed to serve human connection rather than corporate engagement metrics?" —[The Call for an Open Source Social Network](/essays/2009-01-the_call_for_an_open_source_social_network)
+[**The Call for an Open Source Social Network**](/essays/2009-01-the_call_for_an_open_source_social_network) anticipated by fifteen years what we now recognize as the [algorithmic manipulation crisis](/themes/algorithmic-critique).
 
-[**The Call for an Open Source Social Network**](/essays/2009-01-the_call_for_an_open_source_social_network) anticipated by fifteen years what we now recognize as the [algorithmic manipulation crisis](/themes/algorithmic-critique). In 2009, it was already clear that corporate control of communication infrastructure would inevitably lead to exploitation of human psychology for profit.
+> "Why do we need organizations in charge of our communication platforms? What would social networking look like if designed to serve human connection rather than corporate engagement metrics?" In 2009, it was already clear that corporate control of communication infrastructure would inevitably lead to exploitation of human psychology for profit.
 
 The essay asked the crucial question: what would platforms look like if designed to serve human connection rather than engagement metrics? The answer became more urgent as we watched social media systematically undermine [virtue](/essays/2025-08-26-the_algorithm_eats_virtue), [language](/essays/2025-08-27-the_algorithm_eats_language), [love](/essays/2025-08-27-the_algorithm_eats_love), and [democracy](/essays/2025-08-27-the_algorithm_eats_democracy) itself.
 
@@ -27,9 +27,9 @@ This early pattern recognition would prove prophetic: the future belonged to pla
 
 ### Requests: HTTP for Humans
 
-> "Complex operations should be simple for humans to understand and use, even if that means more complexity on the implementation side. The burden of complexity should fall on the system, not the user." —[The Philosophy Behind Requests](/software/requests)
+[**Requests: HTTP for Humans**](/software/requests) became the template for human-centered open source design.
 
-[**Requests: HTTP for Humans**](/software/requests) became the template for human-centered open source design. Instead of expecting developers to understand HTTP protocol implementation details, Requests handled complexity internally while exposing intuitive methods that matched how people actually think about web requests.
+> "Complex operations should be simple for humans to understand and use, even if that means more complexity on the implementation side. The burden of complexity should fall on the system, not the user." Instead of expecting developers to understand HTTP protocol implementation details, Requests handled complexity internally while exposing intuitive methods that matched how people actually think about web requests.
 
 The library's adoption wasn't just about better code—it demonstrated a fundamentally different relationship between human intention and machine capability. This "for humans" philosophy would influence entire ecosystems of tools that prioritized developer experience over implementation elegance.
 
