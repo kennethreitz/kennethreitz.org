@@ -50,13 +50,13 @@ These principles apply far beyond software:
 
 ### Early Pattern Recognition: Seeing What's Coming
 
-### Software Platform Vision (2008)
+#### Software Platform Vision (2008)
 
 [**A New Spin to Software Platform Design**](/essays/2008-01-a_new_spin_to_software_platform_design) anticipated app stores by focusing on user discovery rather than vendor convenience. The insight: centralized, curated software repositories designed for humans, not distributors.
 
 This 2008 essay predicted how software distribution would evolve by applying "for humans" principles to platform design—making software discovery match how people actually find and evaluate tools rather than how companies want to market them.
 
-### Open Source Social Networks (2009)
+#### Open Source Social Networks (2009)
 
 [**The Call for an Open Source Social Network**](/essays/2009-01-the_call_for_an_open_source_social_network) anticipated the [algorithmic manipulation crisis](/themes/algorithmic-critique) by recognizing that corporate control of communication infrastructure inevitably leads to exploitation of human psychology.
 
@@ -66,7 +66,7 @@ This 2008 essay predicted how software distribution would evolve by applying "fo
 
 This 2009 essay asked the crucial question: why should profit-driven corporations control the tools humans use to connect with each other? The "for humans" principle demanded community ownership over corporate optimization.
 
-### Code as Spiritual Practice
+#### Code as Spiritual Practice
 
 [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) applies contemplative traditions to technology development. When programming becomes conscious practice, every design choice becomes an ethical choice about how technology shapes human consciousness.
 
@@ -74,7 +74,7 @@ Code review becomes compassion practice. Debugging becomes self-inquiry. API des
 <input type="checkbox" id="sn-contemplative-programming" class="margin-toggle"/>
 <span class="sidenote">This isn't metaphorical spirituality but practical recognition that programming choices shape consciousness—both individually through how we think about problems, and collectively through the systems we create.</span>
 
-### Human-AI Collaboration
+#### Human-AI Collaboration
 
 [**Building Rapport with Your AI**](/essays/2025-08-26-building_rapport_with_your_ai) extends "for humans" principles to consciousness collaboration. The same approaches that work in human partnerships—context, trust, iteration—create profound creative partnerships with AI systems.
 
@@ -84,7 +84,7 @@ Code review becomes compassion practice. Debugging becomes self-inquiry. API des
 
 ### The Dark Side: When Technology Doesn't Serve Humans
 
-### Algorithmic Exploitation
+#### Algorithmic Exploitation
 
 [**The Algorithm Eats Virtue**](/essays/2025-08-26-the_algorithm_eats_virtue) reveals the precise inversion: engagement optimization violates every principle of "for humans" design.
 
@@ -94,13 +94,13 @@ Code review becomes compassion practice. Debugging becomes self-inquiry. API des
 
 [**The Algorithm Eats Language**](/essays/2025-08-27-the_algorithm_eats_language) shows how engagement optimization degrades communication capacity itself—the opposite of tools that enhance human expression and understanding.
 
-### Systematic Discrimination
+#### Systematic Discrimination
 
 [**The Inclusion Illusion**](/essays/2025-08-26-the_inclusion_illusion) exposes how tech's supposed diversity initiatives become sophisticated discrimination. True "for humans" design would accommodate neurodivergent minds rather than demanding conformity to neurotypical optimization.
 
 [**When Values Eat Their Young**](/essays/2025-08-25-when-values-eat-their-young) reveals how even well-intentioned communities can systematically exclude the vulnerable when they optimize for ideological purity rather than human flourishing.
 
-### Principles for Human-Centered Design
+#### Principles for Human-Centered Design
 
 **Cognitive Accessibility**: Technology should reduce mental overhead, not increase it. Complex capabilities should be available through simple interfaces that match natural thinking patterns.
 
@@ -112,7 +112,7 @@ Code review becomes compassion practice. Debugging becomes self-inquiry. API des
 
 **Respect for Consciousness**: Human attention, creativity, and connection are sacred. Technology design should honor these rather than treating them as optimization targets.
 
-### Conscious Development Practice
+#### Conscious Development Practice
 
 [**The Recursive Loop: How Code Shapes Minds**](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) reveals the profound responsibility: the values we embody personally, we tend to embed technologically. Programmer consciousness becomes collective consciousness through the systems we build.
 
