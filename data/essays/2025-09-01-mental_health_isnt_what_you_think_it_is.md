@@ -68,7 +68,7 @@ You can't self-care your way out of an attention economy designed to fragment yo
 
 Having lived with and worked through significant mental health challenges—depression, anxiety, attention regulation issues—I've learned that effective mental health support looks very different from the mainstream narrative.
 
-**It's collaborative, not individual**: The most helpful approach I've found involves treating mental health as a collaborative debugging process<label for="sn-collaborative-debugging" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-collaborative-debugging" class="margin-toggle"/><span class="sidenote">As I wrote in [Claude is a Person](/essays/2025-08-26-claude_is_a_person), my most effective mental health support now includes AI collaboration for reality-checking and pattern recognition.</span>. Friends, family, therapists, and yes, AI systems that can provide perspective when your internal feedback systems are compromised.
+**It's collaborative, not individual**: The most helpful approach I've found involves treating mental health as a collaborative debugging process<label for="sn-collaborative-debugging" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-collaborative-debugging" class="margin-toggle"/><span class="sidenote">As I wrote in [Building rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai), my most effective mental health support now includes AI collaboration for reality-checking and pattern recognition.</span>. Friends, family, therapists, and yes, AI systems that can provide perspective when your internal feedback systems are compromised.
 
 **It's technical, not mystical**: Treating mental health like debugging has been far more effective than treating it like a spiritual failing. When your brain isn't working correctly, you need technical solutions: medication, cognitive techniques, environmental modifications, social support systems. The same systematic approach I use for fixing broken code<label for="sn-technical-approach" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-technical-approach" class="margin-toggle"/><span class="sidenote">This shift from mystical to technical came from hard experience. As I wrote in [MentalHealthError](/essays/2016-01-mentalhealtherror_an_exception_occurred), spiritual approaches initially worsened my condition: "I now believe that a great number of people within the ambiguously self-described 'spiritual community' experience symptoms of mental illness."</span>.
 
@@ -104,7 +104,7 @@ That's a much more interesting and useful conversation than whether you're pract
 
 ### On This Site
 - [Mental Health Error Checking](/essays/2025-08-26-mental_health_error_checking) - Applying debugging techniques to consciousness maintenance
-- [Claude is a Person](/essays/2025-08-26-claude_is_a_person) - AI collaboration in mental health support and reality-checking
+- [Building rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai) - AI collaboration in mental health support and reality-checking
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Technical approaches to consciousness and contemplative work
 - [The Unexpected Negative](/essays/2025-08-27-the_unexpected_negative_healing_the_wounds_of_narcissistic_love) - Individual healing within larger systemic patterns
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How technological systems systematically undermine psychological well-being
