@@ -5,7 +5,7 @@
 
 
 
-  ![alchemical-divorce.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666519697-4P3WV2L1E40ZXEXQS6MH/db3a3-b85a8-alchemical-divorce.jpg)   I have released my most conscise and direct album to date — [*Alchemical Divorce*](/alchemical-divorce/).
+  ![alchemical-divorce.jpg](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666519697-4P3WV2L1E40ZXEXQS6MH/db3a3-b85a8-alchemical-divorce.jpg)   I have released my most conscise and direct album to date — [*Alchemical Divorce*](/music/alchemical-divorce).
 
  The music, track names, album title, and album art speak for themselves—representing the creative processing of [experiences with psychological manipulation](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) and the ongoing journey of [mental health recovery](/mental-health).
 
