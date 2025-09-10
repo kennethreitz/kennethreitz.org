@@ -49,11 +49,9 @@ This approach influenced how I think about community building: the same principl
 
 ### The Dark Side: When Communities Betray Their Values
 
-### Values Eating Their Young
-
-> "Communities drift predictably from their stated values toward their shadow opposites through identifiable mechanisms: purity spirals, virtue signaling, competitive suffering, and goal displacement. Understanding these patterns is essential for building anti-drift mechanisms." —[When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young)
-
 [**When Values Eat Their Young**](/essays/2025-08-25-when-values-eat-their-young) reveals the systematic ways ideal-driven groups drift into their own shadow. Communities that preach kindness practice cruelty. Organizations that champion inclusion exclude the vulnerable. Projects that celebrate innovation punish experimentation.
+
+> "Communities drift predictably from their stated values toward their shadow opposites through identifiable mechanisms: purity spirals, virtue signaling, competitive suffering, and goal displacement. Understanding these patterns is essential for building anti-drift mechanisms."
 
 This isn't hypocrisy—it's predictable system dynamics. The same psychological mechanisms that create strong community bonds can become oppressive when unchecked by conscious anti-drift measures.
 
