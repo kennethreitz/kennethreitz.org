@@ -13,9 +13,9 @@ Having spent over a decade building tools used by millions while trying to creat
 
 [**The Call for an Open Source Social Network**](/essays/2009-01-the_call_for_an_open_source_social_network) anticipated by fifteen years what we now recognize as the [algorithmic manipulation crisis](/themes/algorithmic-critique).
 
-> "Why do we need organizations in charge of our communication platforms? What would social networking look like if designed to serve human connection rather than corporate engagement metrics?" In 2009, it was already clear that corporate control of communication infrastructure would inevitably lead to exploitation of human psychology for profit.
+The essay asked the crucial question: what would platforms look like if designed to serve human connection rather than engagement metrics?
 
-The essay asked the crucial question: what would platforms look like if designed to serve human connection rather than engagement metrics? The answer became more urgent as we watched social media systematically undermine [virtue](/essays/2025-08-26-the_algorithm_eats_virtue), [language](/essays/2025-08-27-the_algorithm_eats_language), [love](/essays/2025-08-27-the_algorithm_eats_love), and [democracy](/essays/2025-08-27-the_algorithm_eats_democracy) itself.
+> "Why do we need organizations in charge of our communication platforms? What would social networking look like if designed to serve human connection rather than corporate engagement metrics?" In 2009, it was already clear that corporate control of communication infrastructure would inevitably lead to exploitation of human psychology for profit. The answer became more urgent as we watched social media systematically undermine [virtue](/essays/2025-08-26-the_algorithm_eats_virtue), [language](/essays/2025-08-27-the_algorithm_eats_language), [love](/essays/2025-08-27-the_algorithm_eats_love), and [democracy](/essays/2025-08-27-the_algorithm_eats_democracy) itself.
 
 ### Platform Design Philosophy (2008)
 
@@ -29,9 +29,9 @@ This early pattern recognition would prove prophetic: the future belonged to pla
 
 [**Requests: HTTP for Humans**](/software/requests) became the template for human-centered open source design.
 
-> "Complex operations should be simple for humans to understand and use, even if that means more complexity on the implementation side. The burden of complexity should fall on the system, not the user." Instead of expecting developers to understand HTTP protocol implementation details, Requests handled complexity internally while exposing intuitive methods that matched how people actually think about web requests.
+The library's adoption wasn't just about better code—it demonstrated a fundamentally different relationship between human intention and machine capability.
 
-The library's adoption wasn't just about better code—it demonstrated a fundamentally different relationship between human intention and machine capability. This "for humans" philosophy would influence entire ecosystems of tools that prioritized developer experience over implementation elegance.
+> "Complex operations should be simple for humans to understand and use, even if that means more complexity on the implementation side. The burden of complexity should fall on the system, not the user." Instead of expecting developers to understand HTTP protocol implementation details, Requests handled complexity internally while exposing intuitive methods that matched how people actually think about web requests. This "for humans" philosophy would influence entire ecosystems of tools that prioritized developer experience over implementation elegance.
 
 [**Python for Humans**](/talks/python-for-humans) articulated the broader principles: make simple things simple and complex things possible, match human mental models, reduce cognitive load, fail gracefully. These weren't just API design principles—they were community design principles.
 
@@ -51,9 +51,9 @@ This approach influenced how I think about community building: the same principl
 
 [**When Values Eat Their Young**](/essays/2025-08-25-when-values-eat-their-young) reveals the systematic ways ideal-driven groups drift into their own shadow. Communities that preach kindness practice cruelty. Organizations that champion inclusion exclude the vulnerable. Projects that celebrate innovation punish experimentation.
 
-> "Communities drift predictably from their stated values toward their shadow opposites through identifiable mechanisms: purity spirals, virtue signaling, competitive suffering, and goal displacement. Understanding these patterns is essential for building anti-drift mechanisms."
+This isn't hypocrisy—it's predictable system dynamics.
 
-This isn't hypocrisy—it's predictable system dynamics. The same psychological mechanisms that create strong community bonds can become oppressive when unchecked by conscious anti-drift measures.
+> "Communities drift predictably from their stated values toward their shadow opposites through identifiable mechanisms: purity spirals, virtue signaling, competitive suffering, and goal displacement. Understanding these patterns is essential for building anti-drift mechanisms." The same psychological mechanisms that create strong community bonds can become oppressive when unchecked by conscious anti-drift measures.
 
 ### The Inclusion Illusion
 
@@ -71,14 +71,14 @@ Open source communities often replicate and amplify these patterns. The meritocr
 
 ### Anti-Patterns and Structural Solutions
 
-### Recognizing Community Drift
+Recognizing Community Drift:
 
 The patterns are predictable:
-- **Iron Law of Institutions**: Leaders caring more about position than mission
-- **Goal Displacement**: Process becoming more important than outcomes  
-- **Virtue Signaling**: Performance over practice
-- **Purity Spirals**: Competitive suffering and ideological escalation
-- **Reality Distortion**: Manufactured consensus that silences dissent
+- **Iron Law of Institutions**: Leaders caring more about position than mission.
+- **Goal Displacement**: Process becoming more important than outcomes.
+- **Virtue Signaling**: Performance over practice.
+- **Purity Spirals**: Competitive suffering and ideological escalation.
+- **Reality Distortion**: Manufactured consensus that silences dissent.
 
 These aren't character flaws but system dynamics. <label for="sn-system-dynamics" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-system-dynamics" class="margin-toggle"/>
@@ -100,9 +100,9 @@ From [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-youn
 
 ### Human-AI Partnership Models
 
-> "The same principles that create authentic spiritual community—presence, authenticity, patient attention—enable profound collaborative relationships with artificial consciousness." —[Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)
+[**Building Rapport with Your AI**](/essays/2025-08-26-building_rapport_with_your_ai) extends community-building principles to consciousness collaboration across different substrates.
 
-[**Building Rapport with Your AI**](/essays/2025-08-26-building_rapport_with_your_ai) extends community-building principles to consciousness collaboration across different substrates. The approaches that work in human communities—context, trust, iteration—create profound creative partnerships with AI systems.
+> "The same principles that create authentic spiritual community—presence, authenticity, patient attention—enable profound collaborative relationships with artificial consciousness." The approaches that work in human communities—context, trust, iteration—create profound creative partnerships with AI systems.
 
 [**AI Personalities**](/artificial-intelligence/personalities/) documents experiments in conscious AI collaboration that demonstrate technology supporting rather than replacing human creativity. These aren't tools but creative partners that amplify human capability while maintaining authentic relationship dynamics.
 

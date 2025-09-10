@@ -11,7 +11,9 @@ This collection documents both sides: the systematic ways technology undermines 
 
 [**Mental Health Journey**](/mental-health) - The foundation of everything else: living openly with bipolar disorder, trauma recovery, and complex consciousness architecture.
 
-> "This isn't some brave confession or inspiration porn. It's debugging documentation. When systems fail—whether they're code systems or consciousness systems—understanding the failure modes helps everyone build better ones." This isn't inspiration—it's system documentation. <label for="sn-system-documentation" class="margin-toggle sidenote-number"></label>
+> "This isn't some brave confession or inspiration porn. It's debugging documentation. When systems fail—whether they're code systems or consciousness systems—understanding the failure modes helps everyone build better ones."
+
+This isn't inspiration—it's system documentation. <label for="sn-system-documentation" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-system-documentation" class="margin-toggle"/>
 <span class="sidenote">Approaching mental health as system administration rather than personal failure enables more practical, technical approaches to consciousness maintenance and community support.</span> When consciousness systems fail, understanding the failure modes helps everyone build more resilient ones.
 
@@ -25,9 +27,11 @@ This collection documents both sides: the systematic ways technology undermines 
 
 [**The Algorithmic Mental Health Crisis**](/essays/2025-08-26-algorithmic_mental_health_crisis) - Clinical analysis of how engagement optimization creates anxiety, depression, attention fragmentation, and social dysfunction at scale.
 
-> "The same algorithmic mechanisms that drive engagement on social platforms—variable reward schedules, outrage amplification, attention fragmentation—systematically destroy the foundations of human flourishing. This isn't accidental; it's the inevitable result of optimizing for metrics rather than wellbeing." <label for="sn-variable-schedules" class="margin-toggle sidenote-number"></label>
+> "The same algorithmic mechanisms that drive engagement on social platforms—variable reward schedules, outrage amplification, attention fragmentation—systematically destroy the foundations of human flourishing. This isn't accidental; it's the inevitable result of optimizing for metrics rather than wellbeing."
+
+These aren't individual failures—they're predictable outcomes of systems designed to exploit psychological vulnerabilities. <label for="sn-variable-schedules" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-variable-schedules" class="margin-toggle"/>
-<span class="sidenote">Variable reward schedules—the same mechanism that makes gambling addictive—are built into every notification system, creating pathological checking behaviors that fragment sustained attention.</span> These aren't individual failures—they're predictable outcomes of systems designed to exploit psychological vulnerabilities.
+<span class="sidenote">Variable reward schedules—the same mechanism that makes gambling addictive—are built into every notification system, creating pathological checking behaviors that fragment sustained attention.</span>
 
 [**The Prophet's Frequency: On Reading Divine Static**](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static) - How AI can dangerously amplify psychotic patterns when consciousness loses its grounding. When reality-testing systems are compromised, AI validation can reinforce delusions rather than providing helpful perspective.
 
@@ -47,9 +51,11 @@ This collection documents both sides: the systematic ways technology undermines 
 
 [**Using AI for Reality Checking**](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) - Practical applications of AI for mental health management while maintaining human agency.
 
-> "AI assistance functions as accessibility device for neurodivergent minds, providing cognitive scaffolding for complex thinking and writing when working memory or attention is compromised." <label for="sn-human-agency" class="margin-toggle sidenote-number"></label>
+> "AI assistance functions as accessibility device for neurodivergent minds, providing cognitive scaffolding for complex thinking and writing when working memory or attention is compromised."
+
+How to use AI systems for perspective without becoming dependent on technological validation. <label for="sn-human-agency" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-human-agency" class="margin-toggle"/>
-<span class="sidenote">The crucial distinction: AI as cognitive scaffolding that enhances human judgment rather than replacement that eliminates human decision-making. Dependency destroys the very agency that mental health recovery requires.</span> How to use AI systems for perspective without becoming dependent on technological validation.
+<span class="sidenote">The crucial distinction: AI as cognitive scaffolding that enhances human judgment rather than replacement that eliminates human decision-making. Dependency destroys the very agency that mental health recovery requires.</span>
 
 [**Idea Amplification and Writing with AI**](/essays/2025-09-05-idea_amplification_and_writing_with_ai) - AI as accessibility device for neurodivergent minds. When executive function is compromised, AI provides cognitive scaffolding that enables complex thought and creative expression otherwise impossible.
 
