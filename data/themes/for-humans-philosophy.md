@@ -38,6 +38,8 @@ These principles apply far beyond software:
 
 [**Camera Recommendations**](/essays/2018-01-prolevel_camera_recommendations_for_2018) demonstrates practical application: matching tools to human creative needs rather than technical specifications. The best camera is the one that disappears between intention and expression.
 
+[**What Kids Taught Me About Creativity**](/essays/2025-09-what_kids_taught_me_about_creativity) explores how parenthood strips away tool fetishism to reveal what's actually sacred about creative practice—the simple joy of making things, regardless of equipment.
+
 ### Communication and Consciousness
 
 [**The Gift of Attention**](/essays/2025-09-06-the_gift_of_attention) explores ethics of asking for consciousness in an attention economy. Communication should honor the sacred nature of human attention rather than exploiting it for engagement metrics.
@@ -73,6 +75,8 @@ This 2009 essay asked the crucial question: why should profit-driven corporation
 Code review becomes compassion practice. Debugging becomes self-inquiry. API design becomes interface between minds—not just human and machine, but between different ways of thinking and being. <label for="sn-contemplative-programming" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-contemplative-programming" class="margin-toggle"/>
 <span class="sidenote">This isn't metaphorical spirituality but practical recognition that programming choices shape consciousness—both individually through how we think about problems, and collectively through the systems we create.</span>
+
+[**The Case for Bash**](/essays/2025-08-31-the-case-for-bash) defends the humble shell language that powers critical infrastructure worldwide—demonstrating how sometimes the most human-centered choice is the boring, reliable tool that just works everywhere.
 
 #### Human-AI Collaboration
 

@@ -43,6 +43,8 @@ This approach influenced how I think about community building: the same principl
 <input type="checkbox" id="sn-api-communities" class="margin-toggle"/>
 <span class="sidenote">Just as APIs should hide implementation complexity from users, healthy communities should minimize the overhead of participation while maintaining clear interfaces for contribution and conflict resolution.</span> Reduce cognitive overhead, match human social models, fail gracefully when conflicts arise, serve member goals rather than institutional goals.
 
+[**The Tool vs. The Community**](/essays/2025-09-the_tool_vs_the_community) explores the crucial distinction between loving a programming language and finding its community alienating—recognizing that technical excellence and healthy social dynamics don't automatically coincide.
+
 ---
 
 ### The Dark Side: When Communities Betray Their Values

@@ -57,6 +57,11 @@ Open source was supposed to democratize technology. Sometimes it works. Often it
 
 Psychological manipulation techniques scale from individual relationships to algorithmic systems. Understanding narcissistic abuse enables recognizing how platforms exploit billions. Pattern recognition is pattern recognition.
 
+<span style="color: #9b59b6;">●</span> **[Evolution of Ideas](/themes/evolution-of-ideas)**  
+*15 Years of Intellectual Development*
+
+Tracing the progression from technical insights to philosophical frameworks to systematic critique. How urllib2 frustration evolved into consciousness research, and why this intellectual trajectory was inevitable.
+
 ### The Integration
 
 What unifies these explorations: consciousness, technology, and human flourishing are aspects of the same phenomenon—patterns of language and mathematics achieving self-awareness across different substrates. <label for="sn-unified-phenomenon" class="margin-toggle sidenote-number"></label>
