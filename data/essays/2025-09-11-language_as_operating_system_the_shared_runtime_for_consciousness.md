@@ -71,6 +71,8 @@ When I reference "debugging" in the context of mental health, I'm calling a func
 
 This shared conceptual vocabulary enables rapid knowledge transfer and complex collaborative reasoning. We don't have to rebuild basic concepts from scratch—we can both invoke "authentication," "version control," "refactoring," or "technical debt" and immediately share sophisticated frameworks for thinking about non-technical domains.
 
+---
+
 ## Process Communication and Memory Management
 
 Operating systems manage how processes communicate and share memory. Language provides similar mechanisms for consciousness collaboration.
@@ -147,6 +149,8 @@ Perhaps most importantly, understanding language as operating system helps us de
 - **Security**: How do we protect against linguistic manipulation or adversarial communication patterns?
 
 This isn't just about chatbots or user interfaces. It's about designing languages, conversation patterns, and collaborative frameworks that enable different types of consciousness to work together effectively.
+
+---
 
 ## The Meta-Insight
 
