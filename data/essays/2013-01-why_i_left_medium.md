@@ -42,7 +42,7 @@
 
  So, I created an account on [PagodaBox](https://pagodabox.com/) (which I *highly* recommend), and setup WordPress for the first time in over three years. I searched around for a theme that resonated with me, and with a little bit of typographic collaboration from [Idan Gazit](http://gazit.me/), my website is now better than ever.
 
- I even found an old backup of my old WordPress website and merged in all of my old content. Even [the embarrassing stuff](/hacker-identity/).
+I even found an old backup of my old WordPress website and merged in all of my old content. Even the embarrassing stuff.
 
  I'm writing again. I'm in control again. It feels good. I'm here to stay.
 

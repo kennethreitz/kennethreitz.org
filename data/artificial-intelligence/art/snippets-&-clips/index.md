@@ -55,5 +55,5 @@
 │ Here, in this digital crucible, we forge the future of thought.               │
 └───────────────────────────────────────────────────────────────────────────────┘
 
-     [Dive Deeper: /random/artificial-intelligence/snippets-and-clips]
+     [Dive Deeper: /artificial-intelligence/art/snippets-&-clips]
 ```

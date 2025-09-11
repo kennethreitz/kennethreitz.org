@@ -10,7 +10,7 @@ This project is downloaded over 20 million times a day,<label for="sn-downloads"
 <input type="checkbox" id="sn-downloads" class="margin-toggle"/>
 <span class="sidenote">This adoption rate places Requests among the most popular Python packages ever created, reflecting how it became the de facto standard for HTTP operations in Python.</span> and is widely used in the Python community. It is known for its ease of use and powerful features, making it a go-to choice for developers who need to work with HTTP in their Python projects.
 
-**Fun fact**: the logo of the Requests project is a [tattoo](/photos/experiments/Tattoos) that I have on my right arm.<label for="sn-tattoo" class="margin-toggle sidenote-number"></label>
+**Fun fact**: the logo of the Requests project is a tattoo (see examples in [photography](/photography/)) that I have on my right arm.<label for="sn-tattoo" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-tattoo" class="margin-toggle"/>
 <span class="sidenote">Getting a tattoo of your own open source project is rare in the programming world, symbolizing how Requests became more than just code—it became part of Kenneth's identity as a developer.</span>
 

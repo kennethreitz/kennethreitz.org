@@ -33,7 +33,7 @@ Photography is all about choices. 
 
   ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666528231-22X6MYQHX4OMW85YFFL9/fa987-c67b9-image-asset.jpeg)    ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666514996-S3FJZIUAWWAFJCX9G9T3/ce08f-df9a7-image-asset.jpeg)   ## Making the Switch
 
- Eventually, I sold it all (including the Fuji) and made the move to the [Leica M System](/camera-equipment).  This was one of the boldest and best decisions I've ever made as a photographer. 
+ Eventually, I sold it all (including the Fuji) and made the move to the Leica M System.  This was one of the boldest and best decisions I've ever made as a photographer. 
 
   ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666490504-13CK1UY5ORGUWI39X7QA/7a565-be0cd-image-asset.jpeg)   I now have a single camera and a single lens. When I go out to shoot, there's no question of *"do I have the right lens with me"*? I always have the perfect lens with me, because there is no choice. I always have the perfect camera, because there is no other option. 
 
@@ -55,4 +55,4 @@ Photography is all about choices. 
 
 ---
 
- Want more? Check out my [camera equipment and recommendations](/camera-equipment) page.
+ Want more? Check out my [photography](/photography/) page.
