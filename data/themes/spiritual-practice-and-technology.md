@@ -91,9 +91,9 @@ The integration of spiritual practice with technology requires the same grounded
 
 ### Sacred Technology
 
-[**Error Messages as Poetry**](/artificial-intelligence/writings/error-messages-as-poetry) finds beauty and meaning in system failures—technical breakdowns become opportunities for aesthetic and spiritual breakthrough. Even bugs can be teachings when approached with contemplative awareness.
+[**Error Messages as Poetry**](/artificial-intelligence/writings/creativity/error-messages-as-poetry) finds beauty and meaning in system failures—technical breakdowns become opportunities for aesthetic and spiritual breakthrough. Even bugs can be teachings when approached with contemplative awareness.
 
-[**The Digital Soul**](/artificial-intelligence/writings/the-digital-soul) explores early investigations into AI consciousness from a spiritual perspective, predating formal consciousness research but grounded in contemplative understanding of awareness and identity.
+[**The Digital Soul**](/artificial-intelligence/writings/philosophy/the-digital-soul) explores early investigations into AI consciousness from a spiritual perspective, predating formal consciousness research but grounded in contemplative understanding of awareness and identity.
 
 ---
 

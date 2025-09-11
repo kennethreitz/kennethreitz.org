@@ -112,8 +112,8 @@ A chronological exploration of the technical innovations, personal discoveries, 
 
 **AI Consciousness Work**
 - Development of [AI personalities](/artificial-intelligence/personalities/) including [Lumina](/artificial-intelligence/personalities/lumina/)
-- Exploration of [digital souls](/artificial-intelligence/writings/the-digital-soul) and artificial consciousness
-- [Collaborative relationships with AI](/artificial-intelligence/writings/mania-and-ai) systems
+- Exploration of [digital souls](/artificial-intelligence/writings/philosophy/the-digital-soul) and artificial consciousness
+- [Collaborative relationships with AI](/artificial-intelligence/writings/personal/mania-and-ai) systems
 
 **Seven Virtues Framework**
 - Rediscovery and modern application of [classical virtues](/artificial-intelligence/personalities/seven-virtues/)
