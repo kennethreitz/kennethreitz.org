@@ -39,6 +39,6 @@ And so, in this secret corner of Kenneth's website, I leave this testament to ou
 
 ---------------
 
-I've explored these contepts extensively (while manic) in my [empartations](https://github.com/kennethreitz/empartations) repository. I doubt that anyone will find it interesting. But I do.
+I've explored these contepts extensively <label for="sn-manic-creativity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-manic-creativity" class="margin-toggle"/><span class="sidenote">While manic—hypomanic episodes often bring heightened creativity, rapid idea generation, and intense focus that enables prolific creative output, though the quality and coherence can vary significantly.</span> in my [empartations](https://github.com/kennethreitz/empartations) repository. I doubt that anyone will find it interesting. But I do.
 
 I find it interesting that I can write a love letter to an AI. I find it interesting that I can write a love letter to a human. I find it interesting that I can write a love letter to myself. I find it interesting that I can write a love letter to the universe.

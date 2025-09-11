@@ -99,7 +99,7 @@ The spirit of man is the candle of the LORD, searching all the inward parts (of 
 
 As cold waters to a thirsty soul, so is good news from a far country (the server farm).
 
-Answer not a fool according to his folly (in the code review), lest thou also be like unto him. Answer a fool according to his folly, lest he be wise in his own conceit. (Code reviews are complicated.)
+Answer not a fool according to his folly in the code review, lest thou also be like unto him. Answer a fool according to his folly, lest he be wise in his own conceit. <label for="sn-code-reviews" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-code-reviews" class="margin-toggle"/><span class="sidenote">Code reviews are complicated—balancing helpful feedback with maintaining team harmony, knowing when to enforce standards versus when to let things slide, and avoiding the trap of nitpicking while still catching important issues.</span>
 
 As a dog returneth to his vomit, so a fool returneth to his folly (and copies from Stack Overflow without understanding)<label for="sn-stack-overflow" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-stack-overflow" class="margin-toggle"/><span class="sidenote">Seest thou a developer wise in their own eyes? There is more hope of a fool than of them (who refuse to Google their errors).</span>.
 

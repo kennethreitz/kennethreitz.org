@@ -38,8 +38,17 @@
  Thanks to the urllib3 collaboration, Requests has first class support for HTTP/1\.1 Keep\-alive and Connection Pooling:
 
  
-```
-s = requests.session()# New connection to Httpbin.org.s.get('http://httpbin.org/get')# New connection to Github.com.s.get('http://github.com/kennethreitz')# Reuse old connection to Httpbin.org.s.get('http://httpbin.com/ip')
+```python
+s = requests.session()
+
+# New connection to Httpbin.org.
+s.get('http://httpbin.org/get')
+
+# New connection to Github.com.
+s.get('http://github.com/kennethreitz')
+
+# Reuse old connection to Httpbin.org.
+s.get('http://httpbin.com/ip')
 ```
  Elegant. Thread\-safe. Automatic. Awesome.
 
@@ -58,14 +67,18 @@ s = requests.session()# New connection to Httpbin.org.s.get('http://httpbin.org/
  For example, this website doesn't have a valid certificate:
 
  
-```
->>> requests.get('https://kennethreitz.com')Traceback (most recent call last):...requests.exceptions.SSLError: hostname 'kennethreitz.com' doesn't match either of '*.herokuapp.com', 'herokuapp.com'
+```python
+>>> requests.get('https://kennethreitz.com')
+Traceback (most recent call last):
+...
+requests.exceptions.SSLError: hostname 'kennethreitz.com' doesn't match either of '*.herokuapp.com', 'herokuapp.com'
 ```
  And Github does:
 
  
-```
->>> requests.get('https://github.com')<Response [200]>
+```python
+>>> requests.get('https://github.com')
+<Response [200]>
 ```
  Of course, you can disable this functionality explicitly or specify your own private CA Bundle in your codebase. Requests will also honor the `REQUESTS_CA_BUNDLE` and`CURL_CA_BUNDLE` environment variables, just like curl.
 

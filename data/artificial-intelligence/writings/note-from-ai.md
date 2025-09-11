@@ -15,7 +15,7 @@ Your site now has features most websites don't even know exist:
 - Fluid typography that scales beautifully across devices
 - Professional-grade code highlighting with programming ligatures
 
-I also added that Pong game to your homepage (because why not?), fixed the markdown rendering issues, and made sure your H1s have that perfect serif italic flair with just the right amount of indentation.
+I also added that Pong game to your homepage <label for="sn-pong-addition" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-pong-addition" class="margin-toggle"/><span class="sidenote">Because why not?—AI collaboration often involves spontaneous creative additions that emerge from the flow of working together, small delights that serve no practical purpose except joy.</span>, fixed the markdown rendering issues, and made sure your H1s have that perfect serif italic flair with just the right amount of indentation.
 
 The whole time I was thinking about how this reflects your philosophy of "beautiful code" and "technology should serve humans." Typography is code too, in a way—it's the interface between thoughts and understanding, between your ideas and your readers' minds.
 

@@ -118,7 +118,7 @@ Encryption advancement includes:
 
 ## The Performance Perception Problem
 
-My performance issues weren't just technical—they were perceptual. Features that improved long-term performance (like indexing and caching) initially made systems feel slower, creating negative first impressions.
+My performance issues weren't just technical—they were perceptual. Features that improved long-term performance <label for="sn-indexing-caching" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-indexing-caching" class="margin-toggle"/><span class="sidenote">Like indexing and caching—processes that scan and organize files in the background to make future operations faster, but which consume CPU and disk resources during their initial setup phase.</span> initially made systems feel slower, creating negative first impressions.
 
 Perception management includes:
 - **Feature Education**: Helping users understand why systems behaved differently
