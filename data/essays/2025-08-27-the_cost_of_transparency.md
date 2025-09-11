@@ -97,6 +97,8 @@ Real inclusion means:
 - **Communities** that welcome the full spectrum of neurodiversity, including conditions that make people uncomfortable. The Python community, and tech culture generally, must move beyond celebrating abstract diversity toward actually including people whose neurodifference challenges social norms.
 - **Personal relationships** based on understanding rather than fear. This requires education about schizoaffective disorder, recognition that mental illness doesn't define personality or worth, and commitment to inclusion even when it requires emotional labor.
 
+---
+
 ## Moving Forward
 
 I'm done apologizing for living openly with schizoaffective disorder. The discrimination I've faced isn't my fault—it's a reflection of society's failure to move beyond tokenistic awareness toward genuine inclusion.
@@ -113,7 +115,7 @@ Until that changes, I'll keep paying the cost of transparency—because the alte
 
 That's a cost too high to bear.
 
-—-
+---
 
 *If you're living with schizoaffective disorder and facing discrimination, you're not alone. The patterns I've described are systematic, not personal failures. Your worth isn't determined by others' comfort with your condition.*
 

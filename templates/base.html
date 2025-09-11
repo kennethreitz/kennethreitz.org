@@ -370,24 +370,23 @@
                 position: relative;
             }
             
-            /* Constrain hr to match content width but keep centered */
+            /* Default hr styling - match paragraph width */
             main hr {
                 margin: 3rem auto;
-                width: 100%;
-                max-width: 100%;
+                width: 65%;
+                max-width: 65%;
             }
             
-            /* Article hr should use full article width */
+            /* Article hr (posts) should use full article width */
             article hr {
                 width: 100%;
                 max-width: 100%;
             }
             
-            @media (max-width: 1400px) {
-                main hr {
-                    width: 65%;
-                    max-width: 65%;
-                }
+            /* Post content hr should match paragraph width */
+            .post-content hr {
+                width: 65%;
+                max-width: 65%;
             }
             
             @media (max-width: 760px) {
