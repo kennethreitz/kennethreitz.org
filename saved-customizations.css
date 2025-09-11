@@ -90,3 +90,15 @@ h3 {
 article {
     padding: 3rem 0rem !important;
 }
+
+/* Fix hr alignment with content */
+hr {
+    width: 70% !important;
+}
+
+/* Mobile override for hr */
+@media (max-width: 760px) {
+    hr {
+        width: 100% !important;
+    }
+}
