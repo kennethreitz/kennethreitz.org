@@ -115,27 +115,9 @@ Time belongs to us. We can take it back.
 
 ---
 
-## Related Reading
+*This essay examines how algorithmic systems colonize and fragment temporal experience, destroying natural rhythms and the capacity for sustained attention required for meaningful work and relationships. It's part of the algorithm's broader consumption of [virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—undermining character through engagement optimization, human psychology through [fragmented attention damage](/essays/2025-08-26-algorithmic_mental_health_crisis), [language](/essays/2025-08-27-the_algorithm_eats_language)—degrading communication capacity, [love](/essays/2025-08-27-the_algorithm_eats_love)—commodifying romantic connection, [democracy](/essays/2025-08-27-the_algorithm_eats_democracy)—destroying collective discourse, and [reality](/essays/2025-08-27-the_algorithm_eats_reality)—fracturing shared understanding. The recursive patterns emerge in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) offers conscious approaches to temporal relationship in technical work. The complete [Algorithmic Critique](/themes/algorithmic-critique) series examines all costs of engagement optimization.*
 
-### On This Site
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization systematically undermines human character
-- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Clinical analysis of psychological damage from algorithmic systems
-- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade communication capacity
-- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify romantic connection
-- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms destroy democratic discourse
-- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
-- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How recursive feedback loops between human consciousness and algorithmic systems create unexpected patterns of technological evolution
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Conscious approaches to temporal relationship in technical work
-- [Algorithmic Critique](/themes/algorithmic-critique) - Complete series examining engagement optimization's costs
-
-### External Resources
-- *The Shallows* by Nicholas Carr - How internet technology fragments attention and disrupts deep thinking
-- *Digital Minimalism* by Cal Newport - Philosophical framework for intentional technology use and time protection
-- *Deep Work* by Cal Newport - Strategies for sustained focus in a distracted world
-- *The Tech Wise Family* by Andy Crouch - Practical approaches to technology boundaries and natural time
-- *Irresistible* by Adam Alter - How technology companies design addictive systems that capture time
-- *The Distracted Mind* by Larry Rosen - Neuroscience of attention fragmentation and multitasking
-- *Present Shock* by Douglas Rushkoff - How digital culture collapses temporal experience into eternal now
+*For practical strategies, see The Shallows by Nicholas Carr on attention fragmentation's cognitive impact, Digital Minimalism by Cal Newport on intentional technology use and time protection, Deep Work by Cal Newport on sustained focus strategies, The Tech Wise Family by Andy Crouch on technology boundaries and natural time, Irresistible by Adam Alter on addictive system design, The Distracted Mind by Larry Rosen on multitasking neuroscience, and Present Shock by Douglas Rushkoff on digital culture's temporal collapse.*
 
 ---
 

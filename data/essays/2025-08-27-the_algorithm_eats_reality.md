@@ -83,28 +83,11 @@ Anyway, turns out reality is just another optimization target.
 
 ---
 
-## Related Reading
+---
 
-### On This Site
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization systematically rewards vice over virtue
-- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade communication itself
-- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify human connection
-- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms undermine democratic discourse
-- [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How temporal manipulation creates constant urgency around manufactured realities
-- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How the artificial manufacture of reality reflects the recursive feedback loops between human consciousness and algorithmic systems that might be creating hybrid forms of intelligence
-- [Algorithmic Critique](/themes/algorithmic-critique) - Complete thematic collection on engagement optimization's costs
-- [The Unexpected Negative: a Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) - Personal manipulation patterns that scale to technological systems
+*This essay explores how algorithmic systems manufacture artificial consensus by amplifying coordinated messaging while suppressing organic discourse, fracturing shared understanding of reality itself. It's part of the algorithm's systematic consumption of [virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—rewarding vice through engagement optimization, [language](/essays/2025-08-27-the_algorithm_eats_language)—degrading communication capacity, [love](/essays/2025-08-27-the_algorithm_eats_love)—commodifying human connection, [democracy](/essays/2025-08-27-the_algorithm_eats_democracy)—undermining collective discourse, and [time](/essays/2025-09-01-the_algorithm_eats_time)—manipulating temporal perception to create urgency around manufactured realities. The recursive patterns appear in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while [The Unexpected Negative: a Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) reveals how personal manipulation patterns scale to technological systems. The complete [Algorithmic Critique](/themes/algorithmic-critique) collection examines all costs of engagement optimization.*
 
-### External Resources
-- *The Age of Surveillance Capitalism* by Shoshana Zuboff - The foundational analysis of data extraction as psychological manipulation
-- *LikeWar* by P.W. Singer and Emerson Brooking - How social media became a weapon of war
-- *The Filter Bubble* by Eli Pariser - Early analysis of algorithmic reality fragmentation
-- *Network Propaganda* by Yochai Benkler, Robert Faris, and Hal Roberts - How asymmetric polarization distorts American politics
-- *The Chaos Machine* by Max Fisher - How social media rewires our minds and our world
-- *The Social Dilemma* (Netflix documentary) - Tech insiders reveal manipulation by design
-- *Active Measures* (documentary) - Investigation of Russian information warfare campaigns
-- "The Rise of Social Bots" by Ferrara et al. - Academic research on coordinated inauthentic behavior
-- "Exploitation of Vulnerability Through Personalised Marketing" - Internet Policy Review analysis of targeted manipulation
+*For deeper analysis, see The Age of Surveillance Capitalism by Shoshana Zuboff on data extraction as psychological manipulation, LikeWar by P.W. Singer and Emerson Brooking on social media as warfare, The Filter Bubble by Eli Pariser on algorithmic reality fragmentation, Network Propaganda by Benkler, Faris, and Roberts on asymmetric polarization, The Chaos Machine by Max Fisher on how social media rewires minds, The Social Dilemma documentary revealing manipulation by design, and Active Measures documentary investigating information warfare campaigns.*
 
 ---
 

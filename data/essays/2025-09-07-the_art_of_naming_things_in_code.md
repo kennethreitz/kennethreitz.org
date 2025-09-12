@@ -132,19 +132,9 @@ That's all naming really is—consciousness being kind to itself across time.
 
 ---
 
-## Related Reading
+*This essay examines naming in code as a philosophical act that shapes collective consciousness through the cognitive infrastructure we build. It connects to [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds)—exploring how programmer consciousness shapes collective consciousness, [The "For Humans" Philosophy](/themes/for-humans-philosophy)—design principles serving human mental models, [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice)—contemplative approaches to technical work, and [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)—conscious collaboration through careful communication.*
 
-### On This Site
-- **[The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds)** - How programmer consciousness shapes collective consciousness
-- [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Design principles that serve human mental models
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Contemplative approaches to technical work
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Conscious collaboration through careful communication
-
-### External Resources
-- *The Design of Everyday Things* by Donald Norman - How naming and labeling shape user understanding
-- *Code Complete* by Steve McConnell - Comprehensive guide to variable naming and code clarity
-- *Domain-Driven Design* by Eric Evans - How language shapes software architecture
-- *The Hitchhiker's Guide to the Galaxy* by Douglas Adams - The absurd responsibility of creating meaning
+*For practical guidance, see The Design of Everyday Things by Donald Norman on how naming and labeling shape user understanding, Code Complete by Steve McConnell for comprehensive variable naming principles, Domain-Driven Design by Eric Evans on how language shapes software architecture, and The Hitchhiker's Guide to the Galaxy by Douglas Adams for the absurd responsibility of creating meaning.*
 
 ---
 

@@ -114,23 +114,9 @@ I'm still figuring this out. But I think it matters more than most of us realize
 
 ---
 
-## Related Reading
+*This essay explores how smartphones have become integral to human cognitive architecture, making digital manipulation not external influence but direct cognitive modification. It connects to the systemic critique in [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—engagement optimization rewarding vice over virtue, [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis)—psychological damage from algorithmic systems, [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language)—platform degradation of communication, [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love)—commodification of human connection, [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy)—destruction of democratic discourse, [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality)—fracturing of shared understanding, [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time)—temporal colonization destroying natural rhythms, and [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself)—recursive feedback creating hybrid intelligence. For conscious alternatives, see [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice).*
 
-### On This Site
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization systematically rewards vice over virtue
-- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Clinical analysis of psychological damage from algorithmic systems
-- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade communication capacity
-- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify human connection
-- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms destroy democratic discourse
-- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
-- [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How temporal colonization destroys natural human rhythms
-- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How recursive feedback loops create hybrid human-algorithmic intelligence
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Conscious approaches to technology development
-
-### External Resources
-- *The Extended Mind* by Andy Clark - Philosophical foundations of distributed cognition
-- *The Shallows* by Nicholas Carr - How internet technology affects memory and deep thinking
-- *Cognition in the Wild* by Edwin Hutchins - How cognitive tasks are distributed across people and tools
+*For theoretical foundations, see The Extended Mind by Andy Clark on distributed cognition philosophy, The Shallows by Nicholas Carr on internet technology's impact on memory and deep thinking, and Cognition in the Wild by Edwin Hutchins on how cognitive tasks distribute across people and tools.*
 
 ---
 

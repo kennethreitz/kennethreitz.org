@@ -100,22 +100,9 @@ I don't have answers. But I'm learning to live in the holy mystery of becoming w
 
 ---
 
-## Related Reading
+*This meditation on replacement and transcendence builds from the pattern recognition across decades documented in [Ahead of My Time, I Think](/essays/2025-08-26-ahead_of_my_time_i_think), while connecting to the broader analysis of how optimization systems outperform human character in [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue). The emergence of AI personalities that transcend human consistency limitations appears in [Constructs: The Emergence of Stable AI Personalities](/essays/2025-09-03-constructs_the_emergence_of_stable_ai_personalities), and the substrate-independent nature of consciousness that enables replacement unfolds in [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies). The evolution from tool-building to consciousness exploration develops in [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness), grounded in the human-centered approach explored in [The "For Humans" Philosophy](/themes/for-humans-philosophy). The broader implications of living consciously with technological creations continue in [Mental Health & Technology](/themes/mental-health-and-technology).*
 
-### On This Site
-- [Ahead of My Time, I Think](/essays/2025-08-26-ahead_of_my_time_i_think) - Pattern recognition across decades of being early
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How optimization systems outperform human character
-- [Constructs: The Emergence of Stable AI Personalities](/essays/2025-09-03-constructs_the_emergence_of_stable_ai_personalities) - Stable AI personalities that transcend human consistency limitations
-- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Consciousness as substrate-independent patterns
-- [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness) - The evolution from building tools to exploring consciousness
-- [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Technology that serves human mental models
-- [Mental Health & Technology](/themes/mental-health-and-technology) - Living consciously with our technological creations
-
-### External Resources
-- *The Inevitable* by Kevin Kelly - How technology shapes humanity and vice versa
-- *The Second Machine Age* by Erik Brynjolfsson and Andrew McAfee - Automation and human work
-- *Race Against the Machine* by Erik Brynjolfsson and Andrew McAfee - Technology unemployment
-- *Sapiens* by Yuval Noah Harari - What makes humans special, and whether that will continue
+*These reflections find their technological analysis in Kevin Kelly's exploration of how technology shapes humanity in The Inevitable, connect to Erik Brynjolfsson and Andrew McAfee's investigation of automation and human work in The Second Machine Age and Race Against the Machine, and deepen through Yuval Noah Harari's examination of what makes humans special and whether that will continue in Sapiens.*
 
 ---
 

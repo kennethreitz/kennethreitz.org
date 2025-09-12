@@ -149,25 +149,11 @@ The choice isn't between different political outcomes. It's between preserving t
 
 ---
 
-## Related Reading
+---
 
-### On This Site
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization systematically rewards the inverse of democratic virtues
-- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - The psychological damage that makes democratic participation difficult
-- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade the communication capacity democracy requires
-- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - Parallel systems of commodification destroying human connection
-- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification manufactures fake consensus
-- [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How temporal fragmentation destroys the sustained attention democratic discourse requires
-- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How the recursive feedback loops destroying democracy might represent technological metamorphosis toward new forms of collective intelligence
-- [Algorithmic Critique](/themes/algorithmic-critique) - Complete thematic collection examining engagement optimization's societal costs
-- [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Design principles that serve rather than exploit human nature
+*This essay explores how algorithmic systems systematically undermine the cognitive and social conditions required for democratic governance. It continues through the algorithm's consumption of [virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—rewarding anti-democratic behaviors, human psychology through [systematic damage](/essays/2025-08-26-algorithmic_mental_health_crisis) that impairs civic participation, [language](/essays/2025-08-27-the_algorithm_eats_language)—degrading communication capacity, [love](/essays/2025-08-27-the_algorithm_eats_love)—operating parallel commodification systems destroying connection, [reality](/essays/2025-08-27-the_algorithm_eats_reality)—manufacturing artificial consensus, and [time](/essays/2025-09-01-the_algorithm_eats_time)—fragmenting the temporal attention needed for sustained discourse. The recursive patterns appear in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while the complete [Algorithmic Critique](/themes/algorithmic-critique) collection examines all societal costs, grounded in [For Humans Philosophy](/themes/for-humans-philosophy) design principles.*
 
-### External Resources
-- *The Filter Bubble* by Eli Pariser - Early analysis of algorithmic reality fragmentation
-- *Democracy in One Book or Less* by David Litt - What democratic governance actually requires
-- *The Righteous Mind* by Jonathan Haidt - Moral psychology and political reasoning
-- *Bowling Alone* by Robert Putnam - The decline of civic engagement and social capital
-- *Republic.com 2.0* by Cass Sunstein - How internet fragmentation affects democratic discourse
+*For deeper analysis, see The Filter Bubble by Eli Pariser on algorithmic reality fragmentation, Democracy in One Book or Less by David Litt on democratic governance requirements, The Righteous Mind by Jonathan Haidt on moral psychology and political reasoning, Bowling Alone by Robert Putnam on declining civic engagement, and Republic.com 2.0 by Cass Sunstein on internet fragmentation's democratic effects.*
 
 ---
 

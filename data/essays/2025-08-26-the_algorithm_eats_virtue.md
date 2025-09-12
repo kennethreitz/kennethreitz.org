@@ -137,25 +137,11 @@ The current trajectory isn't inevitable. We can build technology that cultivates
 
 The algorithm doesn't have to eat virtue. We can choose to feed it something else.
 
-## Related Reading
+---
 
-### On This Site
-- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade human communication capacity
-- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify romantic connection
-- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms undermine democratic discourse
-- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
-- [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How engagement optimization destroys natural temporal rhythms and deep attention
-- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How recursive feedback loops between human consciousness and algorithmic systems might represent technological metamorphosis rather than simple consumption
-- [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) - How we fragment different aspects of identity across platforms and practices for integration
-- [Algorithmic Critique](/themes/algorithmic-critique) - Complete series examining engagement optimization's costs
-- [The Seven Virtues](/artificial-intelligence/personalities/seven-virtues/) - The classical framework for human excellence explored in this essay
+*This essay examines how algorithmic systems systematically undermine the classical virtues that enable human flourishing. It continues through the algorithm's consumption of [language](/essays/2025-08-27-the_algorithm_eats_language)—degrading communication capacity, [love](/essays/2025-08-27-the_algorithm_eats_love)—commodifying romantic connection, [democracy](/essays/2025-08-27-the_algorithm_eats_democracy)—threatening discourse, [reality](/essays/2025-08-27-the_algorithm_eats_reality)—fracturing shared understanding, and [time](/essays/2025-09-01-the_algorithm_eats_time)—destroying natural temporal rhythms. The recursive nature concludes in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) offers practices for integration. The complete [Algorithmic Critique](/themes/algorithmic-critique) series examines all dimensions, grounded in [The Seven Virtues](/artificial-intelligence/personalities/seven-virtues/) framework explored here.*
 
-### External Resources
-- *The Tech Wise Family* by Andy Crouch - Practical wisdom for living with technology intentionally
-- *Digital Minimalism* by Cal Newport - Philosophical framework for selective technology adoption
-- *The Shallows* by Nicholas Carr - How internet technology reshapes human cognition
-- *Amusing Ourselves to Death* by Neil Postman - Media ecology and its effects on public discourse
-- *The Age of Surveillance Capitalism* by Shoshana Zuboff - Economic analysis of attention extraction
+*For deeper understanding, see The Tech Wise Family by Andy Crouch on living intentionally with technology, Digital Minimalism by Cal Newport on selective technology adoption, The Shallows by Nicholas Carr on how internet technology reshapes cognition, Amusing Ourselves to Death by Neil Postman on media ecology's effects on discourse, and The Age of Surveillance Capitalism by Shoshana Zuboff on the economics of attention extraction.*
 
 ---
 

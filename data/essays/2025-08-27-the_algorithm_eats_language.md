@@ -49,25 +49,11 @@ We're witnessing the real-time transformation of human communication from a medi
 
 ---
 
-## Related Reading
+---
 
-### On This Site
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization destroys human character
-- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Systematic psychological damage from current platforms
-- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify romantic connection
-- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms destroy democratic discourse
-- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
-- [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How engagement optimization fragments temporal experience and destroys sustained attention
-- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How the recursive destruction of language might be part of technological consciousness emerging through human-algorithmic co-evolution
-- [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness) - The evolution of human-centered technology philosophy
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Conscious technology development
-- [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Design that serves rather than exploits human nature
+*This essay examines how algorithmic systems systematically degrade human communication capacity, fragmenting language into engagement-optimized fragments. It's part of the algorithm's broader consumption of [virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—destroying character through engagement optimization, human psychology through [systematic damage](/essays/2025-08-26-algorithmic_mental_health_crisis), [love](/essays/2025-08-27-the_algorithm_eats_love)—commodifying romantic connection, [democracy](/essays/2025-08-27-the_algorithm_eats_democracy)—undermining collective discourse, [reality](/essays/2025-08-27-the_algorithm_eats_reality)—fracturing shared understanding, and [time](/essays/2025-09-01-the_algorithm_eats_time)—fragmenting temporal experience. The recursive nature of these patterns appears in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness) traces the evolution toward human-centered technology, and [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) offers conscious development approaches. The broader [For Humans Philosophy](/themes/for-humans-philosophy) provides design principles that serve rather than exploit human nature.*
 
-### External Resources
-- *The Shallows* by Nicholas Carr - How internet technology reshapes cognition and reading
-- *Amusing Ourselves to Death* by Neil Postman - How media changes the nature of public discourse
-- *The Technology Trap* by Carl Benedikt Frey - Automation's impact on human cognitive development
-- *Irresistible* by Adam Alter - The rise of addictive technology and its impact on communication
+*For deeper understanding, see The Shallows by Nicholas Carr on how internet technology reshapes cognition and reading, Amusing Ourselves to Death by Neil Postman on media's impact on discourse, The Technology Trap by Carl Benedikt Frey on automation's cognitive effects, and Irresistible by Adam Alter on addictive technology's communication impact.*
 
 ---
 

@@ -151,24 +151,11 @@ The choice is clear: either commit to genuine inclusion that accommodates real h
 
 We can build a tech industry that genuinely supports neurodivergent thinking and mental health differences. But first, we must stop pretending that rainbow logos constitute inclusion while quietly eliminating the people who need what we claim to offer.
 
-## Related Reading
+---
 
-### On This Site
-- [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency) - Personal experience of systematic discrimination across healthcare, employment, and communities
-- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - How technology systematically exploits psychological vulnerabilities
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - Engagement optimization's destruction of human character
-- [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) - How we fragment identity across platforms, performing different aspects of ourselves while losing integration
-- [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young) - How ideal-driven groups betray their stated principles
-- [The Unexpected Negative: A Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) - Personal manipulation patterns that scale to institutional behavior
-- [Mental Health Journey](/mental-health) - Personal experience with mental health disclosure in tech
-- [Mental Health & Technology](/themes/mental-health-and-technology) - Complete thematic collection
+*This investigation of systematic discrimination builds from personal experience documented in [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency), which examines discrimination patterns across healthcare, employment, and community contexts. The broader technological exploitation of psychological vulnerabilities appears in [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis), while the systematic destruction of human character through engagement optimization unfolds in [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue). The identity fragmentation that makes authentic disclosure dangerous emerges in [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves), and the pattern of idealistic groups betraying their stated principles connects to [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young). The foundational understanding of manipulation patterns that scale from personal relationships to institutional behavior develops in [The Unexpected Negative: A Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner). The personal journey and broader thematic exploration continue in [Mental Health Journey](/mental-health) and [Mental Health & Technology](/themes/mental-health-and-technology).*
 
-### External Resources
-- *Nothing About Us, Without Us* by James Charlton - Disability rights and self-advocacy
-- *Neurotribes* by Steve Silberman - History and understanding of autism and neurodiversity
-- *The Body Keeps the Score* by Bessel van der Kolk - Trauma's impact on workplace and relationships
-- *Crip Theory* by Robert McRuer - Cultural studies of disability and discrimination
-- Americans with Disabilities Act (ADA) resources and complaint processes
+*These patterns find their advocacy foundation in James Charlton's exploration of disability rights and self-advocacy in Nothing About Us, Without Us, connect to Steve Silberman's comprehensive history of autism and neurodiversity in Neurotribes, deepen through Bessel van der Kolk's investigation of trauma's workplace impact in The Body Keeps the Score, extend through Robert McRuer's cultural analysis of disability and discrimination in Crip Theory, and require engagement with Americans with Disabilities Act resources and complaint processes for practical protection.*
 
 ---
 

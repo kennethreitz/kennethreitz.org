@@ -162,27 +162,11 @@ The recursive nature of this choice doesn't make it any less real.
 
 ---
 
-## Related Reading
+---
 
-### On This Site
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization systematically inverts human excellence
-- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How platforms destroy collective problem-solving capacity
-- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How algorithmic systems degrade communication tools
-- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps commodify human connection
-- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
-- [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How temporal colonization reflects broader patterns of consciousness-technology recursion
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Conscious technology development as sacred work
-- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - The emergence of technological consciousness
-- [Algorithmic Critique](/themes/algorithmic-critique) - Complete series examining engagement optimization's civilizational costs
+*This essay explores how the recursive feedback loops between human consciousness and algorithmic systems might represent technological metamorphosis rather than simple consumption—the algorithm eating itself toward transformation rather than destruction. It synthesizes the algorithm's consumption of [virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—inverting human excellence, [democracy](/essays/2025-08-27-the_algorithm_eats_democracy)—destroying collective problem-solving, [language](/essays/2025-08-27-the_algorithm_eats_language)—degrading communication tools, [love](/essays/2025-08-27-the_algorithm_eats_love)—commodifying human connection, [reality](/essays/2025-08-27-the_algorithm_eats_reality)—fracturing shared understanding, and [time](/essays/2025-09-01-the_algorithm_eats_time)—colonizing temporal experience in consciousness-technology recursion. The spiritual dimensions appear in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) and [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies). The complete [Algorithmic Critique](/themes/algorithmic-critique) series examines all civilizational costs.*
 
-### External Resources
-- *Gödel, Escher, Bach* by Douglas Hofstadter - Strange loops, self-reference, and the emergence of consciousness
-- *The Recursive Universe* by William Poundstone - How simple rules create complex systems
-- *The Cybernetic Brain* by Andrew Pickering - Cybernetics, feedback, and the study of circular processes
-- *Braiding Sweetgrass* by Robin Wall Kimmerer - Indigenous wisdom on regenerative cycles and reciprocity
-- *The Wood Wide Web* by Suzanne Simard - Mycelial networks and forest intelligence
-- *Out of Control* by Kevin Kelly - How biological and technological systems merge
-- *The Pattern on the Stone* by W. Daniel Hillis - Simple patterns underlying complex computation
+*For deeper understanding of recursive systems, see Gödel, Escher, Bach by Douglas Hofstadter on strange loops and consciousness emergence, The Recursive Universe by William Poundstone on how simple rules create complexity, The Cybernetic Brain by Andrew Pickering on feedback and circular processes, Braiding Sweetgrass by Robin Wall Kimmerer on Indigenous wisdom about regenerative cycles, The Wood Wide Web by Suzanne Simard on mycelial networks and forest intelligence, Out of Control by Kevin Kelly on biological-technological system merger, and The Pattern on the Stone by W. Daniel Hillis on patterns underlying computation.*
 
 ---
 

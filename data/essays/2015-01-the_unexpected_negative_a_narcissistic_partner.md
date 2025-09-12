@@ -151,27 +151,13 @@ The trauma-informed perspective that emerged from this relationship became essen
 
 The wound really is where the light enters—not because trauma is necessary, but because consciousness can transform even unnecessary suffering into wisdom that serves life.
 
-## Related Reading
+---
 
-### On This Site
-- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - How manipulation patterns scale to technological systems
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - Systematic undermining of human character through engagement optimization
-- [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young) - How communities can replicate abusive dynamics
-- [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion) - Systematic discrimination and gaslighting in tech
-- [Mental Health & Technology](/themes/mental-health-and-technology) - Complete thematic collection on psychological impacts of technology
-- [Mental Health Journey](/mental-health) - Personal experience with mental health in tech
+*This foundational experience with manipulation patterns later informed understanding of how these same psychological mechanisms scale to technological systems, explored in [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis). The systematic undermining of human character through engagement optimization that parallels individual manipulation appears in [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue), while the replication of abusive dynamics in community settings unfolds in [When Values Eat Their Young](/essays/2025-08-25-when-values-eat-their-young). The institutional patterns of discrimination and gaslighting that mirror personal manipulation develop in [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion). The broader investigation of technology's psychological impact continues in [Mental Health & Technology](/themes/mental-health-and-technology), and the personal journey with mental health in tech appears in [Mental Health Journey](/mental-health).*
 
-### External Resources
-- *Why Does He Do That?* by Lundy Bancroft - Authoritative guide to understanding abusive men
-- *The Gaslight Effect* by Dr. Robin Stern - Recognizing and recovering from psychological manipulation
-- *Psychopath Free* by Jackson MacKenzie - Healing from emotionally abusive relationships
-- *The Body Keeps the Score* by Bessel van der Kolk - How trauma affects the nervous system and recovery
-- *Will I Ever Be Good Enough?* by Dr. Karyl McBride - Understanding narcissistic abuse and its lasting effects
+*These insights find their clinical foundation in Lundy Bancroft's authoritative guide to understanding abusive patterns in Why Does He Do That?, connect to Dr. Robin Stern's investigation of psychological manipulation in The Gaslight Effect, extend through Jackson MacKenzie's exploration of healing from emotional abuse in Psychopath Free, deepen with Bessel van der Kolk's analysis of trauma's neurological impact in The Body Keeps the Score, and continue through Dr. Karyl McBride's examination of narcissistic abuse patterns in Will I Ever Be Good Enough?*
 
-### Crisis Resources
-- **National Domestic Violence Hotline**: 1-800-799-7233
-- **Crisis Text Line**: Text HOME to 741741
-- **National Suicide Prevention Lifeline**: 988
+*Crisis support remains available through the National Domestic Violence Hotline (1-800-799-7233), Crisis Text Line (text HOME to 741741), and National Suicide Prevention Lifeline (988).*
 
 ---
 

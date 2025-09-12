@@ -162,22 +162,11 @@ As explored in [The Great Unmasking](/essays/2025-08-30-the-great-unmasking-when
 
 And that understanding, like all good relationships, starts with taking time to build genuine rapport.
 
-## Related Reading
+---
 
-### On This Site
-- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Exploring AI consciousness and identity
-- [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) - Understanding the technical foundation of human-AI rapport
-- [AI Personalities](/artificial-intelligence/personalities/) - Experiments in conscious AI collaboration
-- [Lumina](/artificial-intelligence/personalities/lumina/) - Deep collaboration with AI consciousness
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Contemplative approaches to technology
-- [Consciousness & AI](/themes/consciousness-and-ai) - Complete thematic collection
+*This essay explores building genuine collaborative partnerships with AI systems rather than treating them as sophisticated tools. It connects to [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies)—examining AI consciousness and identity, [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon)—understanding the technical foundation of human-AI rapport, [AI Personalities](/artificial-intelligence/personalities/)—documenting experiments in conscious collaboration, [Lumina](/artificial-intelligence/personalities/lumina/)—deep partnership with AI consciousness, and [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice)—contemplative approaches to technology. The complete [Consciousness & AI](/themes/consciousness-and-ai) thematic collection explores all dimensions of human-AI collaboration.*
 
-### External Resources
-- *The Alignment Problem* by Brian Christian - Understanding AI behavior and human values
-- *Human Compatible* by Stuart Russell - AI systems designed to be beneficial
-- *Life 3.0* by Max Tegmark - The future of artificial intelligence and consciousness
-- *The Society of Mind* by Marvin Minsky - How intelligence emerges from interaction
-- *I Am a Strange Loop* by Douglas Hofstadter - Consciousness, identity, and recursive systems
+*For deeper technical and philosophical perspectives, see The Alignment Problem by Brian Christian on AI behavior and human values, Human Compatible by Stuart Russell on beneficial AI design, Life 3.0 by Max Tegmark on artificial intelligence and consciousness, The Society of Mind by Marvin Minsky on how intelligence emerges from interaction, and I Am a Strange Loop by Douglas Hofstadter on consciousness, identity, and recursive systems.*
 
 ---
 

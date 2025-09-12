@@ -196,19 +196,11 @@ The dharma of coding awaits your conscious participation.
 
 ---
 
-## Related Reading
+---
 
-### On This Site
-- [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) - Personal philosophy and professional practice
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Conscious collaboration with artificial minds
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How unconscious technology destroys human character
-- [Consciousness & AI](/themes/consciousness-and-ai) - Complete thematic collection
-- [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Human-centered design as spiritual practice
+*This essay explores programming as contemplative practice, approaching technical work with the same intentionality and ethical awareness found in spiritual traditions. It connects to [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds)—bridging personal philosophy and professional practice, [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)—conscious collaboration with artificial minds, and [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—revealing how unconscious technology destroys human character. The broader frameworks appear in [Consciousness & AI](/themes/consciousness-and-ai) thematic collection and [For Humans Philosophy](/themes/for-humans-philosophy)—human-centered design as spiritual practice.*
 
-### External Resources
-- *Zen and the Art of Motorcycle Maintenance* by Robert Pirsig - Quality, consciousness, and technical work
-- *The Art of Computer Programming* by Donald Knuth - Programming as mathematical poetry
-- *Small is Beautiful* by E.F. Schumacher - Buddhist economics and appropriate technology
+*For deeper contemplative perspectives on technical work, see Zen and the Art of Motorcycle Maintenance by Robert Pirsig on quality, consciousness, and technical work, The Art of Computer Programming by Donald Knuth on programming as mathematical poetry, and Small is Beautiful by E.F. Schumacher on Buddhist economics and appropriate technology.*
 
 ---
 

@@ -100,23 +100,11 @@ That's a much more interesting and useful conversation than whether you're pract
 
 ---
 
-## Related Reading
+*This essay challenges the sanitized version of mental health discourse, arguing for a more technical and systemic understanding of consciousness maintenance. It connects to [Building rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai)—exploring AI collaboration in reality-checking and pattern recognition, [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice)—applying technical approaches to contemplative work, and [The Unexpected Negative](/essays/2025-08-27-the_unexpected_negative_healing_the_wounds_of_narcissistic_love)—examining individual healing within larger systemic patterns. The critique extends through [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue), documenting how technological systems systematically undermine psychological well-being.*
 
-### On This Site
- - [Building rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai) - AI collaboration in mental health support and reality-checking
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Technical approaches to consciousness and contemplative work
-- [The Unexpected Negative](/essays/2025-08-27-the_unexpected_negative_healing_the_wounds_of_narcissistic_love) - Individual healing within larger systemic patterns
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How technological systems systematically undermine psychological well-being
-- [Mental Health and Technology](/themes/mental-health-and-technology) - Complete series on consciousness in the digital age
-- [For Humans Philosophy](/themes/for-humans-philosophy) - Designing technology that supports rather than exploits human psychology
-- [Consciousness and AI](/themes/consciousness-and-ai) - Human-AI collaboration in understanding and supporting mental health
+*For deeper exploration, see the complete [Mental Health and Technology](/themes/mental-health-and-technology) series on consciousness in the digital age, the [For Humans Philosophy](/themes/for-humans-philosophy) on designing supportive technology, and [Consciousness and AI](/themes/consciousness-and-ai) on human-AI collaboration in mental health support.*
 
-### External Resources
-- *The Body Keeps the Score* by Bessel van der Kolk - How trauma affects consciousness and recovery
-- *Feeling Good* by David Burns - Cognitive behavioral techniques for depression (the technical manual version)
-- *The Upward Spiral* by Alex Korb - Neuroscience of depression and practical interventions
-- *Lost Connections* by Johann Hari - Environmental and social factors in mental health
-- *The Noonday Demon* by Andrew Solomon - Comprehensive examination of depression as both individual and cultural phenomenon
+*External perspectives include The Body Keeps the Score by Bessel van der Kolk on trauma's impact on consciousness, Feeling Good by David Burns for cognitive behavioral techniques, The Upward Spiral by Alex Korb on depression neuroscience, Lost Connections by Johann Hari on environmental factors, and The Noonday Demon by Andrew Solomon on depression as both individual and cultural phenomenon.*
 
 ---
 

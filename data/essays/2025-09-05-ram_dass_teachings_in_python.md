@@ -231,18 +231,9 @@ The Python is just metaphor. The love is real.
 
 ---
 
-## Related Reading
+*This computational exploration of Ram Dass's teachings connects to the broader Sanskrit wisdom translation work in [Vedic Principles in Python](/essays/2025-09-05-vedic_principles_in_python), while the virtue-as-algorithm approach parallels systematic character development explored in [Classical Virtues in Python](/essays/2025-09-05-classical_virtues_in_python). These spiritual programming metaphors illuminate the contemplative approaches discussed in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), and connect to insights about consciousness shaping technology in [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds).*
 
-### On This Site
-- [Vedic Principles in Python](/essays/2025-09-05-vedic_principles_in_python) - Ancient Sanskrit wisdom in modern syntax.
-- [Classical Virtues in Python](/essays/2025-09-05-classical_virtues_in_python) - The seven classical virtues as systematic character development.
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Contemplative approaches to technical work.
-- [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) - How consciousness shapes what we create.
-
-### External Resources
-- *Be Here Now* by Ram Dass - The foundational text on presence.
-- *Be Love Now* by Ram Dass - Integrating spiritual practice with embodied life.
-- *Polishing the Mirror* by Ram Dass - Loving awareness as spiritual path.
+*For readers seeking deeper engagement with Ram Dass's actual teachings, Be Here Now remains the foundational text on presence, Be Love Now explores integrating spiritual practice with embodied life, and Polishing the Mirror presents loving awareness as spiritual path.*
 
 ---
 

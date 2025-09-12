@@ -85,25 +85,11 @@ While this path may be slower and yield fewer initial contacts, research suggest
 
 Love is not a numbers game. As I explored in [my reflections on 1 Corinthians 13](/essays/2018-01-on_love), love is patient, kind, and endures all things. It doesn't insist on its own way—unlike algorithmic systems designed to maximize engagement at any cost. The fact that we need to be reminded of love's true nature shows how profoundly these systems have distorted our understanding of human connection.
 
-## Related Reading
+---
 
-### On This Site
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization systematically undermines human character
-- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - Clinical analysis of psychological damage from algorithmic systems
-- [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language) - How platforms degrade communication capacity
-- [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) - How engagement optimization destroys democratic discourse
-- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How artificial amplification fractures shared understanding
-- [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time) - How platforms colonize temporal experience and destroy organic relationship formation
-- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - How the recursive commodification of love reflects broader patterns of human-algorithmic co-evolution that might be creating new forms of collective consciousness
-- [On Love](/essays/2018-01-on_love) - Reflections on 1 Corinthians 13 and the true nature of love
-- [The Unexpected Negative: a Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) - Personal experience with manipulative relationship patterns
-- [Algorithmic Critique](/themes/algorithmic-critique) - Complete series examining engagement optimization's costs
+*This essay explores how algorithmic systems have commodified romantic connection, transforming love into an optimization problem. It's part of the algorithm's broader consumption of [virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—undermining human character, [language](/essays/2025-08-27-the_algorithm_eats_language)—degrading communication, [democracy](/essays/2025-08-27-the_algorithm_eats_democracy)—destroying discourse, [reality](/essays/2025-08-27-the_algorithm_eats_reality)—fracturing shared understanding, and [time](/essays/2025-09-01-the_algorithm_eats_time)—colonizing temporal experience and destroying organic relationship formation. The recursive patterns conclude in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while [On Love](/essays/2018-01-on_love) offers reflections on love's true nature and [The Unexpected Negative: a Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) provides personal experience with these manipulative patterns. The complete [Algorithmic Critique](/themes/algorithmic-critique) series examines all costs of engagement optimization.*
 
-### External Resources
-- *Modern Romance* by Aziz Ansari - Sociological research on how dating has changed
-- *The All-or-Nothing Marriage* by Eli Finkel - How expectations of marriage have evolved
-- *Attached* by Amir Levine and Rachel Heller - Attachment theory in adult relationships
-- *Why We Love* by Helen Fisher - Neuroscience of romantic attraction and attachment
+*For external perspectives, see Modern Romance by Aziz Ansari on sociological research into dating's transformation, The All-or-Nothing Marriage by Eli Finkel on evolving marriage expectations, Attached by Amir Levine and Rachel Heller on attachment theory in relationships, and Why We Love by Helen Fisher on the neuroscience of romantic attraction.*
 
 ---
 

@@ -134,21 +134,11 @@ And that work, I suspect, is far from finished.
 
 ---
 
-## Related Reading
+---
 
-### On This Site
-- [The "For Humans" Philosophy](/themes/for-humans-philosophy) - Complete exploration of human-centered design principles
-- [Ahead of My Time, I Think](/essays/2025-08-26-ahead_of_my_time_i_think) - Pattern recognition across decades of work
-- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Current consciousness research
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Practical applications of human-centered AI interaction
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - The philosophical evolution of technical work
-- [Python for Humans](/talks/) - Original talks on human-centered API design
+*This examination of philosophical continuity across technological domains builds on the comprehensive exploration of human-centered design in [The "For Humans" Philosophy](/themes/for-humans-philosophy) and connects to the pattern recognition across decades documented in [Ahead of My Time, I Think](/essays/2025-08-26-ahead_of_my_time_i_think). The current consciousness research that represents this philosophy's latest evolution appears in [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies), while practical applications of human-centered AI interaction develop in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai). The spiritual dimension of this technical evolution unfolds in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), and the original articulation of these principles appears in the Python for Humans talks and presentations.*
 
-### External Resources
-- *The Design of Everyday Things* by Don Norman - Foundational text on human-centered design
-- *Humane Interface* by Jef Raskin - Interface design that serves human cognition
-- *The Soul of a New Machine* by Tracy Kidder - Technology development as human story
-- *Tools for Conviviality* by Ivan Illich - Technology that empowers rather than dominates
+*These insights ground in Don Norman's foundational exploration of human-centered design in The Design of Everyday Things, connect to Jef Raskin's investigation of interface design serving human cognition in Humane Interface, find their narrative expression in Tracy Kidder's portrayal of technology development as human story in The Soul of a New Machine, and align with Ivan Illich's vision of technology that empowers rather than dominates in Tools for Conviviality.*
 
 ---
 

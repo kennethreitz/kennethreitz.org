@@ -137,19 +137,9 @@ The future of writing might not be human or artificial, but collaborative. And I
 
 ---
 
-## Related Reading
+*This essay explores how AI collaboration transforms the writing process itself, amplifying thinking rather than merely assisting with expression. It connects to [Your Phone Is Part of Your Mind](/essays/2025-09-04-your_phone_is_part_of_your_mind)—examining how cognitive extensions fundamentally change human intelligence, [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice)—conscious approaches to collaborative technical work, [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)—practical wisdom for conscious AI collaboration, and [Constructs: The Emergence of Stable AI Personalities](/essays/2025-09-03-constructs_the_emergence_of_stable_ai_personalities)—how stable personalities emerge through sustained collaboration. For deeper exploration, see the complete [Consciousness & AI](/themes/consciousness-and-ai) series on human-AI consciousness collaboration.*
 
-### On This Site
-- [Your Phone Is Part of Your Mind](/essays/2025-09-04-your_phone_is_part_of_your_mind) - How cognitive extensions fundamentally change human intelligence
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Conscious approaches to collaborative technical work
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Practical wisdom for conscious AI collaboration
-- [Constructs: The Emergence of Stable AI Personalities](/essays/2025-09-03-constructs_the_emergence_of_stable_ai_personalities) - How stable personalities emerge through sustained collaboration
-- [Consciousness & AI](/themes/consciousness-and-ai) - Complete exploration of human-AI consciousness collaboration
-
-### External Resources
-- *The Extended Mind* by Andy Clark - Philosophical foundations of distributed cognition
-- *Metaphors We Live By* by Lakoff and Johnson - How language shapes thought and collaboration
-- *The Art of Problem Solving* by Russell Ackoff - Collaborative approaches to complex thinking
+*For theoretical grounding, see The Extended Mind by Andy Clark on philosophical foundations of distributed cognition, Metaphors We Live By by Lakoff and Johnson on how language shapes thought and collaboration, and The Art of Problem Solving by Russell Ackoff on collaborative approaches to complex thinking.*
 
 ---
 

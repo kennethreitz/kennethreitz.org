@@ -101,21 +101,9 @@ Living with schizoaffective disorder isn't about getting better. It's about gett
 
 ---
 
-## Related Reading
+*This essay provides a lived account of schizoaffective disorder, exploring the daily realities of paranoia, hallucinations, mania, and the challenges of maintaining relationships when perception is unreliable. It connects to [Using AI for Reality Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder)—exploring AI collaboration for perception validation, [Mental Health Error: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred)—earlier reflections on living with mental illness, and [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care)—fighting for proper treatment and support. This essay is part of the broader [Mental Health & Technology](/themes/mental-health-and-technology) collection, which includes [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis)—examining how social media algorithms exploit mental health vulnerabilities.*
 
-### On This Site
-- [Using AI for Reality Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) - How AI collaboration helps with perception validation
-- [Mental Health Error: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred) - Earlier reflections on living with mental illness
-- [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care) - Fighting for proper treatment and support
-- [Mental Health & Technology](/themes/mental-health-and-technology) - Complete collection of mental health writings
-- [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - How social media algorithms exploit mental health vulnerabilities
-
-### External Resources
-- National Alliance on Mental Illness (NAMI) - Support and education for mental health conditions
-- Crisis Text Line - Text HOME to 741741 for crisis support
-- SAMHSA National Helpline - 1-800-662-4357 for treatment referrals and information
-- *The Center Cannot Hold* by Elyn Saks - Memoir of living with schizophrenia in academia
-- *An Unquiet Mind* by Kay Redfield Jamison - Classic memoir about bipolar disorder
+*For support resources, see National Alliance on Mental Illness (NAMI) for education and advocacy, Crisis Text Line (text HOME to 741741), and SAMHSA National Helpline (1-800-662-4357). For parallel experiences, read The Center Cannot Hold by Elyn Saks on living with schizophrenia in academia and An Unquiet Mind by Kay Redfield Jamison on bipolar disorder.*
 
 ---
 

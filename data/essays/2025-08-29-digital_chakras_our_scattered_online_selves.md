@@ -169,25 +169,11 @@ You can come home to yourself, even in digital spaces.
 
 ---
 
-## Related Reading
+---
 
-### On This Site
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) - How engagement optimization fragments human character
-- [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love) - How dating apps prevent integrated romantic expression
-- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How platforms fragment our sense of authentic consensus
-- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - Recursive patterns between human and algorithmic consciousness
-- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Consciousness as pattern rather than biology
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Conscious technology development
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Integrated relationship with artificial intelligence
-- [Algorithmic Critique](/themes/algorithmic-critique) - Complete series on engagement optimization's fragmenting effects
+*This exploration of digital identity fragmentation builds from the foundational analysis in [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue), which examines how engagement optimization systematically fragments human character across platforms. The specific romantic fragmentation unfolds in [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love), while the broader reality fragmentation emerges in [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality). The recursive feedback loops between human and algorithmic consciousness that amplify this fragmentation appear in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while the substrate-independent nature of consciousness that enables digital identity distribution connects to [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies). The conscious approach to technology development that could integrate rather than fragment digital selves develops in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), and practical integration through AI relationships appears in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai). The complete analysis continues in [Algorithmic Critique](/themes/algorithmic-critique).*
 
-### External Resources
-- *Eastern Body, Western Mind* by Anodea Judith - Comprehensive guide to chakra psychology and integration practices
-- *The Body Keeps the Score* by Bessel van der Kolk - How trauma creates dissociation and fragmentation
-- *Digital Minimalism* by Cal Newport - Conscious relationship with technology
-- *The Age of Surveillance Capitalism* by Shoshana Zuboff - How platforms extract human experience as raw material
-- *How to Do Nothing* by Jenny Odell - Resisting attention economy through presence
-- *The Shallows* by Nicholas Carr - How internet use fragments attention and consciousness
+*These patterns find their psychological foundation in Anodea Judith's comprehensive guide to chakra psychology and integration in Eastern Body, Western Mind, connect to Bessel van der Kolk's investigation of how trauma creates dissociation in The Body Keeps the Score, extend through Cal Newport's framework for conscious technology relationships in Digital Minimalism, deepen with Shoshana Zuboff's analysis of surveillance capitalism's extraction of human experience in The Age of Surveillance Capitalism, resonate with Jenny Odell's exploration of resisting attention economy through presence in How to Do Nothing, and align with Nicholas Carr's examination of internet fragmentation effects in The Shallows.*
 
 ---
 

@@ -84,15 +84,6 @@ The AI can be your guide to that space—if you know how to ask it to take you t
 
 ---
 
-## Related Reading
+*Breaking free from AI's predictable patterns requires the conscious collaboration techniques explored in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai). These echo chamber dynamics connect directly to [The Mirror: How AI Reflects What We Put Into It](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it), while the disruption techniques I describe here enable the genuine amplification discussed in [Idea Amplification and Writing with AI](/essays/2025-09-05-idea_amplification_and_writing_with_ai). These contemplative approaches to working with technology build on principles from [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice).*
 
-### On This Site
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Developing collaborative relationships with AI systems.
-- [The Mirror: How AI Reflects What We Put Into It](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it) - How AI amplifies and averages our existing thought patterns.
-- [Idea Amplification and Writing with AI](/essays/2025-09-05-idea_amplification_and_writing_with_ai) - Using AI to enhance rather than replace creative thinking.
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) - Contemplative approaches to working with technology.
-
-### External Resources
-- *Zen Mind, Beginner's Mind* by Shunryu Suzuki - The power of approaching familiar things with fresh perspective
-- *A Whack on the Side of the Head* by Roger von Oech - Creative thinking techniques and breaking mental patterns
-- *The Art of Problem Solving* by Russell Ackoff - Systems thinking and reframing challenges
+*The deliberate disruption I advocate echoes Shunryu Suzuki's teachings about approaching familiar things with fresh perspective in Zen Mind, Beginner's Mind, resonates with Roger von Oech's creative thinking techniques for breaking mental patterns in A Whack on the Side of the Head, and connects to Russell Ackoff's insights about systems thinking and reframing challenges in The Art of Problem Solving.*

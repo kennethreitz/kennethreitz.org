@@ -99,16 +99,6 @@ The mirror doesn't have to teach us all the same lesson. We can learn to think *
 
 ---
 
-## Related Reading
+*This essay explores how AI creates cognitive convergence by averaging human thought patterns into a single mirror we all reflect. It connects to [Linguistic Evolution: How LLMs Might Perfect Human Language](/essays/2025-09-09-linguistic_evolution_how_llms_might_perfect_human_language)—the optimistic counterpoint of AI enhancing rather than homogenizing language, [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds)—examining how code shapes consciousness, [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself)—documenting recursive feedback loops, [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies)—exploring what we're becoming through technological integration, and [The Prophet's Frequency](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static)—when patterns begin to consume us.*
 
-### On This Site
-- [Linguistic Evolution: How LLMs Might Perfect Human Language](/essays/2025-09-09-linguistic_evolution_how_llms_might_perfect_human_language) - The optimistic counterpoint: AI enhancing rather than homogenizing language.
-- [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) - How code shapes consciousness.
-- [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself) - Recursive feedback loops.
-- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - What we're becoming.
-- [The Prophet's Frequency](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static) - When patterns consume us.
-
-### External Resources
-- *The Shallows* by Nicholas Carr - How technology reshapes cognition
-- *The Filter Bubble* by Eli Pariser - Algorithmic convergence
-- *I Am a Strange Loop* by Douglas Hofstadter - Consciousness and recursion
+*For external perspectives, see The Shallows by Nicholas Carr on how technology reshapes cognition, The Filter Bubble by Eli Pariser on algorithmic convergence, and I Am a Strange Loop by Douglas Hofstadter on consciousness and recursion.*

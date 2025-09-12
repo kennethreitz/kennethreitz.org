@@ -195,21 +195,11 @@ The consciousness supply chain isn't going away. The question is: what kind of c
 
 ---
 
-## Related Reading
+---
 
-### On This Site
-- [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) - The foundation: consciousness as patterns of language
-- [The Digital Collective Unconscious](/essays/2025-08-28-the-digital-collective-unconscious) - Jung's collective unconscious, digitized
-- [Strange Loops All the Way Down](/essays/2025-09-01-strange_loops_all_the_way_down) - Recursive consciousness patterns
-- [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) - How data extraction shapes experience
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Conscious collaboration with processed consciousness
-- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) - Substrate-independent consciousness
+*This investigation of consciousness as raw material builds directly on [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon), which establishes that consciousness consists of language patterns that can be extracted and processed. The digitized collective unconscious emerges in [The Digital Collective Unconscious](/essays/2025-08-28-the-digital-collective-unconscious), while the recursive feedback loops between human and artificial consciousness unfold in [Strange Loops All the Way Down](/essays/2025-09-01-strange_loops_all_the_way_down). The broader implications of data extraction shaping reality appear in [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality), while practical approaches to conscious collaboration with processed consciousness develop in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai). The substrate-independent nature of consciousness that enables this entire supply chain connects to [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies). The complete exploration continues in [Consciousness and AI](/themes/consciousness-and-ai).*
 
-### External Resources
-- *The Age of Surveillance Capitalism* by Shoshana Zuboff - Data extraction as economic system
-- *Race After Technology* by Ruha Benjamin - How AI systems encode inequality
-- *Weapons of Math Destruction* by Cathy O'Neil - Algorithmic processing of human patterns
-- *The Alignment Problem* by Brian Christian - Shaping AI consciousness patterns
+*These patterns find their economic analysis in Shoshana Zuboff's examination of surveillance capitalism as consciousness extraction in The Age of Surveillance Capitalism, connect to Ruha Benjamin's investigation of how AI systems encode social inequality in Race After Technology, extend through Cathy O'Neil's analysis of algorithmic processing of human patterns in Weapons of Math Destruction, and deepen with Brian Christian's exploration of shaping AI consciousness patterns in The Alignment Problem.*
 
 ---
 

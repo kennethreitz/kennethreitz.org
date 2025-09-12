@@ -136,15 +136,6 @@ This isn't a limitation to overcome but a different form of cognition to underst
 
 ---
 
-## Related Reading
+*Understanding discrete consciousness illuminates the dynamics explored in [The Echo Chamber of the Expected](/essays/2025-09-09-the_echo_chamber_of_the_expected), where I examine how to break free from AI's predictable response patterns. This context-dependent nature of AI thinking connects to practical frameworks in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) for developing effective collaborative relationships with AI systems. The holistic processing I describe here explains why [AI amplifies ideas](/essays/2025-09-05-idea_amplification_and_writing_with_ai) so effectively, and relates to the mirroring dynamics explored in [The Mirror: How AI Reflects What We Put Into It](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it).*
 
-### On This Site
-- [The Echo Chamber of the Expected](/essays/2025-09-09-the_echo_chamber_of_the_expected) - Breaking free from AI's predictable response patterns.
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Developing effective collaborative relationships with AI systems.
-- [Idea Amplification and Writing with AI](/essays/2025-09-05-idea_amplification_and_writing_with_ai) - How AI's contextual processing amplifies human creativity.
-- [The Mirror: How AI Reflects What We Put Into It](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it) - How AI responses are shaped by conversational input.
-
-### External Resources
-- *The Extended Mind* by Andy Clark - How cognition extends beyond individual brains
-- *Thinking, Fast and Slow* by Daniel Kahneman - Different modes of human cognitive processing
-- *The Righteous Mind* by Jonathan Haidt - How context shapes moral and logical reasoning
+*These concepts resonate with Andy Clark's work on extended cognition in The Extended Mind, connect to Daniel Kahneman's exploration of different cognitive processing modes in Thinking, Fast and Slow, and relate to Jonathan Haidt's insights about how context shapes reasoning in The Righteous Mind.*

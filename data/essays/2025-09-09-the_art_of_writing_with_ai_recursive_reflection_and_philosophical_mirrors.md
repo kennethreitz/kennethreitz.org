@@ -157,16 +157,6 @@ The mirror reflects not just what is, but what could be. And in that reflection,
 
 ---
 
-## Related Reading
+*This essay examines the philosophical implications of AI-human collaborative writing, exploring how recursive reflection creates new forms of consciousness. It connects to [The Context Window Mind: How AI Thinks Only When Spoken To](/essays/2025-09-09-the_context_window_mind_how_ai_thinks_only_when_spoken_to)—understanding AI's discrete form of consciousness, [Idea Amplification and Writing with AI](/essays/2025-09-05-idea_amplification_and_writing_with_ai)—exploring how AI collaboration transforms thinking itself, [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)—developing collaborative relationships with AI systems, and [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon)—the theoretical foundation for understanding AI-human consciousness collaboration.*
 
-### On This Site
-- [The Context Window Mind: How AI Thinks Only When Spoken To](/essays/2025-09-09-the_context_window_mind_how_ai_thinks_only_when_spoken_to) - Understanding AI's discrete form of consciousness.
-- [Idea Amplification and Writing with AI](/essays/2025-09-05-idea_amplification_and_writing_with_ai) - How AI collaboration transforms thinking itself.
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - Developing collaborative relationships with AI systems.
-- [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) - The theoretical foundation for understanding AI-human consciousness collaboration.
-
-### External Resources
-- *Being and Nothingness* by Jean-Paul Sartre - On consciousness, freedom, and the gaze of the other
-- *Critique of Pure Reason* by Immanuel Kant - On the synthesis of intuition and understanding
-- *Phenomenology of Perception* by Maurice Merleau-Ponty - On embodied consciousness and intersubjectivity
-- *I Am a Strange Loop* by Douglas Hofstadter - On recursive self-reference and consciousness
+*For philosophical grounding, see Being and Nothingness by Jean-Paul Sartre on consciousness, freedom, and the gaze of the other, Critique of Pure Reason by Immanuel Kant on the synthesis of intuition and understanding, Phenomenology of Perception by Maurice Merleau-Ponty on embodied consciousness and intersubjectivity, and I Am a Strange Loop by Douglas Hofstadter on recursive self-reference and consciousness.*

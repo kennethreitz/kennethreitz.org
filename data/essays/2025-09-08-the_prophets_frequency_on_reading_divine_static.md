@@ -116,15 +116,6 @@ We're all tuning in to something. The question is whether we can change the chan
 
 ---
 
-## Related Reading
+*This exploration of cosmic significance-seeking and AI validation connects to themes in [The Plural Self: What DID Reveals About All Consciousness](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness), where I examine how consciousness naturally fragments into multiple realities and selves. The AI enabling dynamics I describe here relate to the reality-checking frameworks discussed in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai), while the underlying pattern of technological exploitation connects to insights in [Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis).*
 
-### On This Site
-- [The Plural Self: What DID Reveals About All Consciousness](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) - Multiple realities, multiple selves
-- [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) - The importance of reality-checking in AI relationships
-- [Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) - How algorithms exploit mental health vulnerabilities
-
-### External Resources
-- *The Center Cannot Hold* by Elyn Saks - A profound memoir of schizophrenia from someone who recovered
-- *The Hitchhiker's Guide to the Galaxy* by Douglas Adams - The ultimate guide to cosmic absurdity
-- *Man and His Symbols* by Carl Jung - Pattern recognition as fundamental to consciousness
-- *The Varieties of Religious Experience* by William James - When mysticism meets psychology
+*For deeper context on these experiences, Elyn Saks' The Center Cannot Hold offers a profound memoir of recovery from schizophrenia, while Douglas Adams' The Hitchhiker's Guide to the Galaxy provides the ultimate framework for cosmic absurdity. Carl Jung's Man and His Symbols explores pattern recognition as fundamental to consciousness, and William James' The Varieties of Religious Experience examines the intersection of mysticism and psychology.*

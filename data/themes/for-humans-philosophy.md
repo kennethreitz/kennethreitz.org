@@ -62,11 +62,11 @@ This 2008 essay predicted how software distribution would evolve by applying "fo
 
 [**The Call for an Open Source Social Network**](/essays/2009-01-the_call_for_an_open_source_social_network) anticipated the [algorithmic manipulation crisis](/themes/algorithmic-critique) by recognizing that corporate control of communication infrastructure inevitably leads to exploitation of human psychology.
 
-> "Why do we need organizations in charge of our communication platforms? What would social networking look like if designed to serve human connection rather than corporate engagement metrics?" <label for="sn-platform-control" class="margin-toggle sidenote-number"></label>
+> "Why do we need organizations in charge of our communication platforms? What would social networking look like if designed to serve human connection rather than corporate engagement metrics?"
+
+This 2009 essay asked the crucial question: why should profit-driven corporations control the tools humans use to connect with each other? The "for humans" principle demanded community ownership over corporate optimization. <label for="sn-platform-control" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-platform-control" class="margin-toggle"/>
 <span class="sidenote">When communication platforms optimize for corporate metrics rather than human connection, they systematically undermine the very relationships they claim to facilitate—turning social bonds into engagement data.</span>
-
-This 2009 essay asked the crucial question: why should profit-driven corporations control the tools humans use to connect with each other? The "for humans" principle demanded community ownership over corporate optimization.
 
 #### Code as Spiritual Practice
 

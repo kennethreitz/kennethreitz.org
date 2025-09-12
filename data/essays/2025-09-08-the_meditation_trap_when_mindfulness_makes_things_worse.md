@@ -110,15 +110,6 @@ Sometimes the most mindful thing you can do is not meditate.
 
 ---
 
-## Related Reading
+*This critique of universalized meditation connects to themes in [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is), where I cut through sanitized wellness culture to examine actual lived experience. The hypervigilance and pattern-seeking problems I describe here relate directly to the cosmic significance-seeking explored in [The Prophet's Frequency](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static), while the specific challenges of dissociation and reality distortion connect to insights shared in [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like). For comprehensive resources on these topics, see the complete [Mental Health](/mental-health) collection.*
 
-### On This Site
-- [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) - Cutting through sanitized wellness culture
-- [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like) - The lived experience of mental health conditions
-- [The Prophet's Frequency](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static) - When pattern recognition goes wrong
-- [Mental Health](/mental-health) - Complete mental health resource collection
-
-### External Resources
-- *Altered Traits* by Daniel Goleman & Richard Davidson - Science-based look at meditation research
-- *Buddha's Brain* by Rick Hanson - Neuroscience of contemplative practices
-- *The Trauma of Everyday Life* by Mark Epstein - Buddhism and psychological suffering
+*For readers interested in the science behind these concerns, Daniel Goleman & Richard Davidson's Altered Traits provides research-based analysis of meditation's effects, while Rick Hanson's Buddha's Brain explores neuroscience of contemplative practices. Mark Epstein's The Trauma of Everyday Life offers valuable perspective on integrating Buddhist wisdom with psychological suffering.*
