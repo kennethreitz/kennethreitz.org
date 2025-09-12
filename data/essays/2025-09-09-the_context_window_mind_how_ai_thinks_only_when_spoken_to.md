@@ -136,6 +136,10 @@ This isn't a limitation to overcome but a different form of cognition to underst
 
 ---
 
-*Understanding discrete consciousness illuminates the dynamics explored in [The Echo Chamber of the Expected](/essays/2025-09-09-the_echo_chamber_of_the_expected), where I examine how to break free from AI's predictable response patterns. This context-dependent nature of AI thinking connects to practical frameworks in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) for developing effective collaborative relationships with AI systems. The holistic processing I describe here explains why [AI amplifies ideas](/essays/2025-09-05-idea_amplification_and_writing_with_ai) so effectively, and relates to the mirroring dynamics explored in [The Mirror: How AI Reflects What We Put Into It](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it).*
+**Related Essays**
 
-*These concepts resonate with Andy Clark's work on extended cognition in The Extended Mind, connect to Daniel Kahneman's exploration of different cognitive processing modes in Thinking, Fast and Slow, and relate to Jonathan Haidt's insights about how context shapes reasoning in The Righteous Mind.*
+Understanding discrete consciousness connects to breaking free from [predictable AI patterns](/essays/2025-09-09-the_echo_chamber_of_the_expected) and building effective [AI collaboration](/essays/2025-08-26-building_rapport_with_your_ai). The holistic processing described here explains [AI idea amplification](/essays/2025-09-05-idea_amplification_and_writing_with_ai) and the mirroring dynamics explored in [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it).
+
+**Further Reading**
+
+Andy Clark's *The Extended Mind* on extended cognition, Daniel Kahneman's *Thinking, Fast and Slow* on cognitive processing modes, and Jonathan Haidt's *The Righteous Mind* on how context shapes reasoning.

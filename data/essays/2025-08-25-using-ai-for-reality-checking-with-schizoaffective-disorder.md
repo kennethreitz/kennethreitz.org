@@ -88,7 +88,7 @@ The hardest part of living with schizoaffective disorder isn't the symptoms them
 
 ---
 
-*This essay explores practical strategies for using AI as a reality-checking tool when living with schizoaffective disorder, emphasizing the importance of objective evidence and conscious collaboration. It connects to [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like)—the lived experience beyond clinical descriptions, [Mental Health Error: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred)—earlier mental health crisis and recovery lessons, [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)—conscious collaboration with AI systems, and [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care)—taking an active role in treatment. This essay is part of the broader [Mental Health & Technology](/themes/mental-health-and-technology) collection exploring consciousness in the digital age.*
+*This essay explores practical strategies for using AI as a reality-checking tool when living with schizoaffective disorder, emphasizing objective evidence and conscious collaboration. It connects to [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like) on lived experience, [Mental Health Error: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred) on recovery lessons, [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) on AI collaboration, and [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care) on treatment advocacy.*
 
 ---
 

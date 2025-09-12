@@ -1,9 +1,6 @@
----
-*August 2025*
-
----
-
 # Advocating for Your Mental Health Care: From Patient to Partner
+
+*August 2025*
 
 
 There's a peculiar dynamic that happens in many mental health treatment relationships: the moment you walk through the door, you're subtly infantilized. Suddenly, you're not a competent adult who's successfully navigating complex life circumstances—you're a "patient" who needs to be managed, monitored, and told what's best for you.<label for="sn-infantilization" class="margin-toggle sidenote-number"></label>

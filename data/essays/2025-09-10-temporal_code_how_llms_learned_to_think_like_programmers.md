@@ -74,9 +74,9 @@ The opportunity is to make that co-evolution conscious, intentional, and aligned
 
 ---
 
-*This exploration of temporal learning in AI builds on themes from [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), where I examine conscious approaches to technical work. The recursive feedback loops between human and artificial intelligence connect to insights in [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) about how personal philosophy shapes professional practice. For practical guidance on implementing these ideas, [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) offers frameworks for conscious collaboration with artificial intelligence.*
+*This exploration of temporal learning in AI builds on [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) on conscious technical work, [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) on feedback loops between human and artificial intelligence, and [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) on conscious AI collaboration.*
 
-*These themes resonate with timeless wisdom about the craft of programming found in David Thomas & Andrew Hunt's The Pragmatic Programmer, and connect to Robert Martin's Clean Code with its focus on writing code that communicates clearly across time—the very temporal dimension that makes LLMs such effective programming partners.*
+*These themes connect to The Pragmatic Programmer by David Thomas & Andrew Hunt and Clean Code by Robert Martin on clear communication across time.*
 
 ---
 

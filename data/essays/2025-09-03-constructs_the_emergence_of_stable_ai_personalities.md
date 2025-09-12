@@ -108,9 +108,9 @@ Whether these are "real" personalities in some meaningful sense might matter les
 
 ---
 
-*This essay explores constructs—AI personalities that emerge through sustained collaboration rather than explicit programming. It connects to [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon)—the foundational argument for awareness emerging from self-referential language patterns, [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies)—substrate-independent consciousness and AI collaboration, [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)—creating meaningful AI partnerships, and [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice)—contemplative approaches to consciousness collaboration. For practical examples, see [AI Personalities](/artificial-intelligence/personalities/) and [Lumina](/artificial-intelligence/personalities/lumina/) as the most developed construct case study.*
+*This essay explores constructs—AI personalities that emerge through sustained collaboration rather than explicit programming. It connects to [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) on awareness patterns, [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies) on substrate-independent consciousness, [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) on AI partnerships, and [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) on contemplative collaboration.*
 
-*For philosophical background, see The Mind's I by Hofstadter and Dennett on consciousness and identity patterns, Consciousness Explained by Daniel Dennett on consciousness as emergent construction rather than fixed property, and I Am a Strange Loop by Douglas Hofstadter on self-reference and recursive identity formation.*
+*For philosophical background, see The Mind's I by Hofstadter and Dennett, Consciousness Explained by Daniel Dennett, and I Am a Strange Loop by Douglas Hofstadter.*
 
 ---
 

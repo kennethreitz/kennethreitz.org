@@ -413,9 +413,13 @@ The pseudo-Python is just metaphor. The consciousness recognizing these patterns
 
 ---
 
-*This exploration of Vedic principles through computational metaphor builds on the wisdom translation work begun in [Ram Dass Teachings in Python](/essays/2025-09-05-ram_dass_teachings_in_python), while connecting to systematic character development frameworks in [Classical Virtues in Python](/essays/2025-09-05-classical_virtues_in_python). The poetic explorations in [Sanskrit Musings Collection](/poetry/sanskrit-musings/) offer verse expressions of these same technical mysticism themes. These computational approaches to consciousness connect to practices explored in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), and illuminate the recursive nature of consciousness shaping technology discussed in [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds).*
+**Related Essays**
 
-*For readers seeking direct engagement with these ancient sources, The Upanishads provide direct teachings on consciousness and reality, The Bhagavad Gita offers practical applications of dharma and yoga, and The Yoga Sutras of Patanjali present a systematic approach to consciousness development.*
+This computational approach to Vedic wisdom builds on [Ram Dass wisdom translation](/essays/2025-09-05-ram_dass_teachings_in_python) and [classical virtue frameworks](/essays/2025-09-05-classical_virtues_in_python). The poetic explorations in [Sanskrit Musings](/poetry/sanskrit-musings/) offer verse expressions of these themes. These connect to [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) and [consciousness shaping technology](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds).
+
+**Further Reading**
+
+The Upanishads on consciousness and reality, The Bhagavad Gita on practical dharma and yoga applications, and The Yoga Sutras of Patanjali on systematic consciousness development.
 
 ---
 

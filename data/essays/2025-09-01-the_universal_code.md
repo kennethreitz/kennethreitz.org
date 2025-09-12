@@ -109,9 +109,13 @@ It's the most successful open source project in the history of the universe. And
 
 ---
 
-*This exploration of biological information systems builds naturally from [Everything Is the Expression of Its Opposite](/essays/2025-09-01-everything_is_the_expression_of_its_opposite), where DNA's complementary base pairing exemplifies the universal duality patterns that create meaning through opposition. The self-referential patterns in both biological systems and consciousness connect to [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon), while the substrate-independent nature of information patterns unfolds in [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies). The spiritual dimensions of programming that parallel nature's own programming appear in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), and the design principles that serve human understanding rather than forcing adaptation to machine logic develop in [For Humans Philosophy](/themes/for-humans-philosophy). The complete investigation continues in [Consciousness and AI](/themes/consciousness-and-ai).*
+**Related Essays**
 
-*These insights find their historical development in Walter Isaacson's chronicle of CRISPR discovery in The Code Breaker, connect to Matthew Cobb's exploration of cracking the genetic code in Life's Greatest Secret, and deepen through Siddhartha Mukherjee's investigation of genetic understanding in The Gene. The transparency principle extends to my own open source genetic information available in the genome data repository.*
+This exploration of biological information systems builds from [DNA's complementary base pairing as universal duality](/essays/2025-09-01-everything_is_the_expression_of_its_opposite) and connects to [consciousness as linguistic phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon). The substrate-independent information patterns unfold in [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies), while programming parallels appear in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice). See [For Humans Philosophy](/themes/for-humans-philosophy) and the complete [Consciousness and AI](/themes/consciousness-and-ai) investigation.
+
+**Further Reading**
+
+Walter Isaacson's *The Code Breaker* on CRISPR discovery, Matthew Cobb's *Life's Greatest Secret* on cracking the genetic code, and Siddhartha Mukherjee's *The Gene* on genetic understanding. The transparency principle extends to my own [open source genetic information](https://github.com/kennethreitz/context/tree/master/dna).
 
 ---
 

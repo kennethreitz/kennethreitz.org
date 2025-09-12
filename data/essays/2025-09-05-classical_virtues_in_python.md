@@ -481,9 +481,9 @@ The pseudo-Python is metaphor. The character it describes is what we need to cul
 
 ---
 
-*This essay translates the seven classical virtues into Python code to reveal timeless patterns for human flourishing through contemporary metaphors. It connects to [Ram Dass Teachings in Python](/essays/2025-09-05-ram_dass_teachings_in_python)—Eastern wisdom through programming metaphors, [Vedic Principles in Python](/essays/2025-09-05-vedic_principles_in_python)—ancient Sanskrit wisdom in modern syntax, and [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—examining how engagement optimization destroys human virtue. This approach builds on [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice)—code as contemplative practice. For practical implementation, see [Seven Virtues AI Personalities](/artificial-intelligence/personalities/seven-virtues/)—AI agents embodying each classical virtue.*
+*This essay translates the seven classical virtues into Python code to reveal timeless patterns for human flourishing through contemporary metaphors. It connects to [Ram Dass Teachings in Python](/essays/2025-09-05-ram_dass_teachings_in_python) on Eastern wisdom, [Vedic Principles in Python](/essays/2025-09-05-vedic_principles_in_python) on Sanskrit wisdom, [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) on virtue destruction, and [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) on contemplative coding.*
 
-*For philosophical foundations, see Aristotle's Nicomachean Ethics as the foundational text on virtue ethics, Thomas Aquinas's Summa Theologica for the integration of classical and Christian virtue, and Alasdair MacIntyre's After Virtue for modern critique and defense of virtue ethics.*
+*For philosophical foundations, see Aristotle's Nicomachean Ethics, Thomas Aquinas's Summa Theologica, and Alasdair MacIntyre's After Virtue.*
 
 ---
 

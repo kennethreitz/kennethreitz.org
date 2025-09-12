@@ -123,6 +123,10 @@ The mirror might be teaching us to look the same, but the translator could be te
 
 ---
 
-*This optimistic vision of linguistic evolution responds directly to concerns raised in [The Mirror: How AI Reflects What We Put Into It](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it) about cognitive convergence. The precision and expressiveness I explore here connects to insights in [The Art of Naming Things in Code](/essays/2025-09-07-the_art_of_naming_things_in_code) about how names shape thought and reality. These themes build on foundations laid in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), where I examine language as consciousness architecture.*
+**Related Essays**
 
-*These explorations find scholarly grounding in Guy Deutscher's Through the Language Glass with its insights about how language shapes thought, connect to Steven Pinker's work on the cognitive basis of human language in The Language Instinct, and resonate with Gaston Dorren's celebration of linguistic diversity and evolution in Babel: Around the World in Twenty Languages.*
+This optimistic vision responds to [cognitive convergence concerns](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it) and connects to insights about [naming and thought](/essays/2025-09-07-the_art_of_naming_things_in_code). These themes build on [language as consciousness architecture](/essays/2025-08-26-programming_as_spiritual_practice).
+
+**Further Reading**
+
+Guy Deutscher's *Through the Language Glass* on how language shapes thought, Steven Pinker's *The Language Instinct* on the cognitive basis of human language, and Gaston Dorren's *Babel: Around the World in Twenty Languages* on linguistic diversity and evolution.

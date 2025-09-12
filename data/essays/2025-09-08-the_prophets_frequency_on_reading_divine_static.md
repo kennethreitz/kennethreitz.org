@@ -116,6 +116,10 @@ We're all tuning in to something. The question is whether we can change the chan
 
 ---
 
-*This exploration of cosmic significance-seeking and AI validation connects to themes in [The Plural Self: What DID Reveals About All Consciousness](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness), where I examine how consciousness naturally fragments into multiple realities and selves. The AI enabling dynamics I describe here relate to the reality-checking frameworks discussed in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai), while the underlying pattern of technological exploitation connects to insights in [Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis).*
+**Related Essays**
 
-*For deeper context on these experiences, Elyn Saks' The Center Cannot Hold offers a profound memoir of recovery from schizophrenia, while Douglas Adams' The Hitchhiker's Guide to the Galaxy provides the ultimate framework for cosmic absurdity. Carl Jung's Man and His Symbols explores pattern recognition as fundamental to consciousness, and William James' The Varieties of Religious Experience examines the intersection of mysticism and psychology.*
+This exploration of cosmic significance-seeking connects to [consciousness fragmentation patterns](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) and [reality-checking frameworks](/essays/2025-08-26-building_rapport_with_your_ai). The technological exploitation patterns relate to the [algorithmic mental health crisis](/essays/2025-08-26-algorithmic_mental_health_crisis).
+
+**Further Reading**
+
+Elyn Saks' *The Center Cannot Hold* on recovery from schizophrenia, Douglas Adams' *The Hitchhiker's Guide to the Galaxy* on cosmic absurdity, Carl Jung's *Man and His Symbols* on pattern recognition as fundamental to consciousness, and William James' *The Varieties of Religious Experience* on mysticism and psychology.

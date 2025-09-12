@@ -101,4 +101,4 @@ The mirror doesn't have to teach us all the same lesson. We can learn to think *
 
 *This essay explores how AI creates cognitive convergence by averaging human thought patterns into a single mirror. It connects to broader themes of [linguistic evolution](/essays/2025-09-09-linguistic_evolution_how_llms_might_perfect_human_language), [recursive consciousness loops](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), and [digital identity formation](/essays/2025-08-26-digital_souls_in_silicon_bodies). The pattern recognition extends into [algorithmic self-consumption](/essays/2025-08-29-the_algorithm_eats_itself) and [cosmic significance-seeking](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static).*
 
-*For external perspectives, see Nicholas Carr's *The Shallows*, Eli Pariser's *The Filter Bubble*, and Douglas Hofstadter's *I Am a Strange Loop*.*
+*For external perspectives, see Nicholas Carr's The Shallows, Eli Pariser's The Filter Bubble, and Douglas Hofstadter's I Am a Strange Loop.*
