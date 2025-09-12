@@ -610,21 +610,19 @@ pre .comment {
         text-rendering: optimizeLegibility;
     }
 
-    /* Ensure legend dots are visible on mobile - more aggressive approach */
+    /* Ensure legend dots are visible on mobile - proper sizing */
     .legend-dot {
         display: inline-block !important;
-        width: 14px !important;
-        height: 14px !important;
+        width: 10px !important;
+        height: 10px !important;
         border-radius: 50% !important;
-        margin-right: 8px !important;
+        margin-right: 6px !important;
         flex-shrink: 0 !important;
         vertical-align: middle !important;
-        min-width: 14px !important;
-        min-height: 14px !important;
+        min-width: 10px !important;
+        min-height: 10px !important;
         position: relative !important;
         z-index: 10 !important;
-        border: 1px solid rgba(255,255,255,0.1) !important;
-        box-shadow: 0 0 0 1px rgba(0,0,0,0.1) !important;
     }
 
     /* Force specific colors for mobile - override inline styles */
