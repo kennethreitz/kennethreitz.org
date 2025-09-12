@@ -617,8 +617,36 @@ pre .comment {
         height: 12px !important;
         border-radius: 50% !important;
         margin-right: 8px !important;
-        flex-shrink: 0;
-        vertical-align: middle;
+        flex-shrink: 0 !important;
+        vertical-align: middle !important;
+        min-width: 12px !important;
+        min-height: 12px !important;
+        position: relative !important;
+        z-index: 1 !important;
+    }
+
+    /* Specific fixes for mobile flexbox layout */
+    div[style*="display: flex"] .legend-dot {
+        margin-right: 6px !important;
+    }
+
+    /* Ensure spans containing legend dots don't collapse - fallback for older browsers */
+    .legend-dot + * {
+        display: inline !important;
+    }
+
+    /* More specific mobile fixes for content guide section */
+    section div[style*="flex"] {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 1rem !important;
+    }
+
+    section div[style*="flex"] span {
+        display: inline-flex !important;
+        align-items: center !important;
+        white-space: nowrap !important;
+        margin-bottom: 0.5rem !important;
     }
 
     /* Fix Tufte's complex link underlines on mobile */
