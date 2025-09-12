@@ -42,20 +42,25 @@
  Now, you can cleanly create your own `Request` instances.
 
  
-```
->>> req = requests.Request(method='GET', url=…, data=…)<Request [GET]>
+```python
+>>> req = requests.Request(method='GET', url=…, data=…)
+<Request [GET]>
 ```
  And let Requests do all the hard work.
 
  
-```
->>> prep = req.prepare()<PreparedRequest [GET]>>>> prep.bodyb'…'
+```python
+>>> prep = req.prepare()
+<PreparedRequest [GET]>
+>>> prep.body
+b'…'
 ```
  Have a problem with the exact value of `url` or `data`? Change them yourself.
 
  
-```
->>> prep.url = '…/obscure-cornercase.html'>>> prep.body = b'exact-bytes-required'
+```python
+>>> prep.url = '…/obscure-cornercase.html'
+>>> prep.body = b'exact-bytes-required'
 ```
  Who needs configuration?
 
@@ -66,22 +71,31 @@
  Now, you can send your `PreparedRequest` through a session's connection. Of course, Requests comes with a perfect adapter already: `HTTPAdapter`. It seamlessly supports connection pooling, proxies, timeouts, etc. Just like you know and love :)
 
  
-```
->>> s = requests.Session()>>> s.send(prep)<Response [200]>
+```python
+>>> s = requests.Session()
+>>> s.send(prep)
+<Response [200]>
 ```
  No need for a session? Send it straight through your own connection. Trade them like Pokémon cards!
 
  
-```
->>> from requests.adapters import HTTPAdapter>>> conn = HTTPAdapter()>>> conn.send(prep)<Response [200]>
+```python
+>>> from requests.adapters import HTTPAdapter
+>>> conn = HTTPAdapter()
+>>> conn.send(prep)
+<Response [200]>
 ```
  A Connection Adapter is a simple class that lets you declare a connection, its persitience, and how to turn a `PreparedRequest` into a `Response`. You can register Connection Adapters in a `Session`, and requests will automatically be sent through the proper adapter.
 
  For example, we could now send requests through a theoretical `WSGIAdapter`:
 
  
-```
->>> from fakemodule import WSGIAdapter>>> s = requests.Session()>>> s.mount('http://staging/', WSGIAdapter())>>> s.get('http://staging/index.html')<Response [200]>
+```python
+>>> from fakemodule import WSGIAdapter
+>>> s = requests.Session()
+>>> s.mount('http://staging/', WSGIAdapter())
+>>> s.get('http://staging/index.html')
+<Response [200]>
 ```
  Beautiful.
 
