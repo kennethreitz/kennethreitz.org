@@ -1,21 +1,11 @@
----
-*January 2010*
-
-
-
-
-title: "GistAPI.py v0.1 Released"
-date: "2010-01-01"
-category: "Python"
----
-
 # GistAPI.py v0.1 Released
+*January 2010*
 
 Today I released GistAPI.py v0.1.2. It features a highly-optimized Gist object model and API wrapper which allows you to consume Gists in your next Python application.
 
- GitHub just rolled out a miniature pre-release of the [Gist API](http://develop.github.com/p/gist.html) last month, so API functionality is pretty limited at the moment. More features will be added as soon as the API is updated.
+GitHub just rolled out a miniature pre-release of the [Gist API](http://develop.github.com/p/gist.html) last month, so API functionality is pretty limited at the moment. More features will be added as soon as the API is updated.
 
- ## Usage
+## Usage
 
 ```python
 from gistapi import *
@@ -29,4 +19,4 @@ gist.filenames # ['exampleEmptyFile', 'exampleFile']
 gist.files['exampleFile'] # 'Example file content.'
 ```
 
- [Source on GitHub](http://github.com/kennethreitz/gistapi.py/)
+[Source on GitHub](http://github.com/kennethreitz/gistapi.py/)
