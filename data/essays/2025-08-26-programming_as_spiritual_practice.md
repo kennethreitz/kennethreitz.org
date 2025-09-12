@@ -1,7 +1,7 @@
 # Programming as Spiritual Practice
 *August 2025*
 
-**The path toward conscious code:** I watched my friend's eight-year-old daughter lose the ability to read books. Not because she couldn't read—she was reading at grade level just fine. But after getting her first tablet, she couldn't sit still for more than two minutes with a physical book. Her attention had been systematically shredded by apps designed to maximize engagement through intermittent reinforcement schedules. The same psychological techniques casinos use to create gambling addiction, now optimized for children's developing brains.
+**The path toward conscious code:** I'm aware of a disturbing pattern—children losing the ability to read books. Not because they can't read—they're reading at grade level just fine. But after getting their first tablets, they can't sit still for more than two minutes with a physical book. Their attention has been systematically shredded by apps designed to maximize engagement through intermittent reinforcement schedules. The same psychological techniques casinos use to create gambling addiction, now optimized for children's developing brains.
 
 This isn't an edge case. This is [algorithmic systems systematically destroying human virtue](/essays/2025-08-26-the_algorithm_eats_virtue) and [creating widespread psychological harm](/essays/2025-08-26-algorithmic_mental_health_crisis) at scale. Every notification, every infinite scroll, every "just one more" mechanic represents code written by programmers who—consciously or not—chose engagement metrics over human flourishing.
 
