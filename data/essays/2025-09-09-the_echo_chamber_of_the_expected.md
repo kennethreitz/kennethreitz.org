@@ -84,10 +84,4 @@ The AI can be your guide to that space—if you know how to ask it to take you t
 
 ---
 
-**Related Essays**
-
-Breaking predictable AI patterns through [conscious collaboration](/essays/2025-08-26-building_rapport_with_your_ai) and understanding [AI reflection dynamics](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it). These disruption techniques enable genuine [idea amplification](/essays/2025-09-05-idea_amplification_and_writing_with_ai) through [contemplative technology practices](/essays/2025-08-26-programming_as_spiritual_practice).
-
-**Further Reading**
-
-Shunryu Suzuki's *Zen Mind, Beginner's Mind* on fresh perspective, Roger von Oech's *A Whack on the Side of the Head* on breaking mental patterns, and Russell Ackoff's *The Art of Problem Solving* on systems thinking and reframing challenges.
+*Breaking predictable AI patterns through [conscious collaboration](/essays/2025-08-26-building_rapport_with_your_ai) and understanding [AI reflection dynamics](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it). These disruption techniques enable genuine [idea amplification](/essays/2025-09-05-idea_amplification_and_writing_with_ai) through [contemplative technology practices](/essays/2025-08-26-programming_as_spiritual_practice). Further reading: Shunryu Suzuki's *Zen Mind, Beginner's Mind* on fresh perspective, Roger von Oech's *A Whack on the Side of the Head* on breaking mental patterns, and Russell Ackoff's *The Art of Problem Solving* on systems thinking and reframing challenges.*

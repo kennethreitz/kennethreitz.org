@@ -132,4 +132,4 @@ Turns out the internet comment section provided better solutions than most inclu
 
 ---
 
-**Related:** [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) offers integration practices that complement workplace accommodation—maintaining authentic self-expression across different professional contexts rather than fragmenting identity to meet various algorithmic expectations.
+*This practical approach to workplace accommodation connects to [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) which offers integration practices that complement workplace accommodation—maintaining authentic self-expression across different professional contexts rather than fragmenting identity to meet various algorithmic expectations.*

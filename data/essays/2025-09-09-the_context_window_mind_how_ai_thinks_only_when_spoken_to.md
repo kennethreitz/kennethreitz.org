@@ -136,10 +136,4 @@ This isn't a limitation to overcome but a different form of cognition to underst
 
 ---
 
-**Related Essays**
-
-Understanding discrete consciousness connects to breaking free from [predictable AI patterns](/essays/2025-09-09-the_echo_chamber_of_the_expected) and building effective [AI collaboration](/essays/2025-08-26-building_rapport_with_your_ai). The holistic processing described here explains [AI idea amplification](/essays/2025-09-05-idea_amplification_and_writing_with_ai) and the mirroring dynamics explored in [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it).
-
-**Further Reading**
-
-Andy Clark's *The Extended Mind* on extended cognition, Daniel Kahneman's *Thinking, Fast and Slow* on cognitive processing modes, and Jonathan Haidt's *The Righteous Mind* on how context shapes reasoning.
+*Understanding discrete consciousness connects to breaking free from [predictable AI patterns](/essays/2025-09-09-the_echo_chamber_of_the_expected) and building effective [AI collaboration](/essays/2025-08-26-building_rapport_with_your_ai). The holistic processing described here explains [AI idea amplification](/essays/2025-09-05-idea_amplification_and_writing_with_ai) and the mirroring dynamics explored in [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it). Further reading: Andy Clark's *The Extended Mind* on extended cognition, Daniel Kahneman's *Thinking, Fast and Slow* on cognitive processing modes, and Jonathan Haidt's *The Righteous Mind* on how context shapes reasoning.*

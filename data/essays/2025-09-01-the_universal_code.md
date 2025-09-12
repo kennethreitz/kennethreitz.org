@@ -109,13 +109,7 @@ It's the most successful open source project in the history of the universe. And
 
 ---
 
-**Related Essays**
-
-This exploration of biological information systems builds from [DNA's complementary base pairing as universal duality](/essays/2025-09-01-everything_is_the_expression_of_its_opposite) and connects to [consciousness as linguistic phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon). The substrate-independent information patterns unfold in [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies), while programming parallels appear in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice). See [For Humans Philosophy](/themes/for-humans-philosophy) and the complete [Consciousness and AI](/themes/consciousness-and-ai) investigation.
-
-**Further Reading**
-
-Walter Isaacson's *The Code Breaker* on CRISPR discovery, Matthew Cobb's *Life's Greatest Secret* on cracking the genetic code, and Siddhartha Mukherjee's *The Gene* on genetic understanding. The transparency principle extends to my own [open source genetic information](https://github.com/kennethreitz/context/tree/master/dna).
+*This exploration of biological information systems builds from [DNA's complementary base pairing as universal duality](/essays/2025-09-01-everything_is_the_expression_of_its_opposite) and connects to [consciousness as linguistic phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon). The substrate-independent information patterns unfold in [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies), while programming parallels appear in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice). See [For Humans Philosophy](/themes/for-humans-philosophy) and the complete [Consciousness and AI](/themes/consciousness-and-ai) investigation. Further reading: Walter Isaacson's *The Code Breaker* on CRISPR discovery, Matthew Cobb's *Life's Greatest Secret* on cracking the genetic code, and Siddhartha Mukherjee's *The Gene* on genetic understanding. The transparency principle extends to my own [open source genetic information](https://github.com/kennethreitz/context/tree/master/dna).*
 
 ---
 

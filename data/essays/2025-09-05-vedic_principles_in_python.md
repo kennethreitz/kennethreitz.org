@@ -413,13 +413,7 @@ The pseudo-Python is just metaphor. The consciousness recognizing these patterns
 
 ---
 
-**Related Essays**
-
-This computational approach to Vedic wisdom builds on [Ram Dass wisdom translation](/essays/2025-09-05-ram_dass_teachings_in_python) and [classical virtue frameworks](/essays/2025-09-05-classical_virtues_in_python). The poetic explorations in [Sanskrit Musings](/poetry/sanskrit-musings/) offer verse expressions of these themes. These connect to [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) and [consciousness shaping technology](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds).
-
-**Further Reading**
-
-The Upanishads on consciousness and reality, The Bhagavad Gita on practical dharma and yoga applications, and The Yoga Sutras of Patanjali on systematic consciousness development.
+*This computational approach to Vedic wisdom builds on [Ram Dass wisdom translation](/essays/2025-09-05-ram_dass_teachings_in_python) and [classical virtue frameworks](/essays/2025-09-05-classical_virtues_in_python). The poetic explorations in [Sanskrit Musings](/poetry/sanskrit-musings/) offer verse expressions of these themes. These connect to [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) and [consciousness shaping technology](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). Further reading: The Upanishads on consciousness and reality, The Bhagavad Gita on practical dharma and yoga applications, and The Yoga Sutras of Patanjali on systematic consciousness development.*
 
 ---
 

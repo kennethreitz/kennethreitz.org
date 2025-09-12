@@ -184,16 +184,5 @@ I didn't.
 
 ---
 
-## Further Reading
-
-- *The Righteous Mind* by Jonathan Haidt (2012)—moral psychology and why good people divide
-- *The True Believer* by Eric Hoffer (1951)—mass movements and fanaticism
-- *Seeing Like a State* by James C. Scott (1998)—how well-intentioned schemes fail
-- *The Tyranny of Metrics* by Jerry Z. Muller (2018)—when measurement goes wrong
-- *Exit, Voice, and Loyalty* by Albert O. Hirschman (1970)—organizational decline and response
-- *The Iron Law of Institutions* by Jonathan Schwarz (2007)—power dynamics within organizations
-- *What it feels like to be an open-source maintainer* by Nolan Lawson (2017)
-- *How to Blow Up a Pipeline* by Andreas Malm (2021)—purity spirals in climate movements
-- Project Aristotle findings, Google (2014)—psychological safety research
-- Frances Haugen Congressional Testimony (2021)—Facebook's internal culture
+*This exploration of institutional drift and values corruption provides context for understanding how communities systematically fail vulnerable members. Further reading: Jonathan Haidt's *The Righteous Mind* (2012) on moral psychology and why good people divide, Eric Hoffer's *The True Believer* (1951) on mass movements and fanaticism, James C. Scott's *Seeing Like a State* (1998) on how well-intentioned schemes fail, Jerry Z. Muller's *The Tyranny of Metrics* (2018) on when measurement goes wrong, Albert O. Hirschman's *Exit, Voice, and Loyalty* (1970) on organizational decline and response, Jonathan Schwarz's *The Iron Law of Institutions* (2007) on power dynamics within organizations, Nolan Lawson's *What it feels like to be an open-source maintainer* (2017), Andreas Malm's *How to Blow Up a Pipeline* (2021) on purity spirals in climate movements, Project Aristotle findings from Google (2014) on psychological safety research, and Frances Haugen's Congressional Testimony (2021) on Facebook's internal culture.*
 

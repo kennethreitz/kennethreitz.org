@@ -110,10 +110,4 @@ Sometimes the most mindful thing you can do is not meditate.
 
 ---
 
-**Related Essays**
-
-This meditation critique connects to [authentic mental health experience](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) and [cosmic significance-seeking patterns](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static). The dissociation challenges relate to insights in [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like). See the complete [Mental Health](/mental-health) collection for more resources.
-
-**Further Reading**
-
-Daniel Goleman & Richard Davidson's *Altered Traits* on meditation research, Rick Hanson's *Buddha's Brain* on neuroscience of contemplative practices, and Mark Epstein's *The Trauma of Everyday Life* on integrating Buddhist wisdom with psychological suffering.
+*This meditation critique connects to [authentic mental health experience](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) and [cosmic significance-seeking patterns](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static). The dissociation challenges relate to insights in [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like). See the complete [Mental Health](/mental-health) collection for more resources. Further reading: Daniel Goleman & Richard Davidson's *Altered Traits* on meditation research, Rick Hanson's *Buddha's Brain* on neuroscience of contemplative practices, and Mark Epstein's *The Trauma of Everyday Life* on integrating Buddhist wisdom with psychological suffering.*

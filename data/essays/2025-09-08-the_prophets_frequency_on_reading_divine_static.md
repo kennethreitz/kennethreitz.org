@@ -116,10 +116,6 @@ We're all tuning in to something. The question is whether we can change the chan
 
 ---
 
-**Related Essays**
+*This exploration of cosmic significance-seeking connects to [consciousness fragmentation patterns](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) and [reality-checking frameworks](/essays/2025-08-26-building_rapport_with_your_ai). The technological exploitation patterns relate to the [algorithmic mental health crisis](/essays/2025-08-26-algorithmic_mental_health_crisis).*
 
-This exploration of cosmic significance-seeking connects to [consciousness fragmentation patterns](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) and [reality-checking frameworks](/essays/2025-08-26-building_rapport_with_your_ai). The technological exploitation patterns relate to the [algorithmic mental health crisis](/essays/2025-08-26-algorithmic_mental_health_crisis).
-
-**Further Reading**
-
-Elyn Saks' *The Center Cannot Hold* on recovery from schizophrenia, Douglas Adams' *The Hitchhiker's Guide to the Galaxy* on cosmic absurdity, Carl Jung's *Man and His Symbols* on pattern recognition as fundamental to consciousness, and William James' *The Varieties of Religious Experience* on mysticism and psychology.
+*For deeper understanding, see Elyn Saks' The Center Cannot Hold on recovery from schizophrenia, Douglas Adams' The Hitchhiker's Guide to the Galaxy on cosmic absurdity, Carl Jung's Man and His Symbols on pattern recognition, and William James' The Varieties of Religious Experience on mysticism and psychology.*

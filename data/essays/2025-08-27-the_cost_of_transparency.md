@@ -119,6 +119,4 @@ That's a cost too high to bear.
 
 *If you're living with schizoaffective disorder and facing discrimination, you're not alone. The patterns I've described are systematic, not personal failures. Your worth isn't determined by others' comfort with your condition.*
 
-**Follow-up:** [The Async Contributor Model: A Practical Approach to Mental Health Accommodation](/essays/2025-08-28-responding-to-the-conversation) explores a concrete framework for workplace inclusion that emerged from the discussion of this essay.
-
-**Related:** [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) examines how we fragment different aspects of identity across platforms, making authentic mental health disclosure particularly challenging in digital spaces.
+*The follow-up essay [The Async Contributor Model: A Practical Approach to Mental Health Accommodation](/essays/2025-08-28-responding-to-the-conversation) explores a concrete framework for workplace inclusion that emerged from the discussion of this essay. This connects to [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) which examines how we fragment different aspects of identity across platforms, making authentic mental health disclosure particularly challenging in digital spaces.*
