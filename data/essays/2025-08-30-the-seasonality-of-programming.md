@@ -109,8 +109,6 @@ The seasons will change. The question is what we choose to plant, and what we're
 
 ---
 
----
-
 *This examination of cyclical technology adoption builds from early insights in [Early Adoption](/essays/2009-01-early_adoption), which explores pattern recognition and distinguishes genuine innovation from trend-following. The human costs of optimization choices unfold in [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue), where engagement optimization systematically undermines flourishing, while the fragmentation of collective decision-making emerges in [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy). The alternative approach of conscious technology development appears in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), and the broader analysis of optimization's impact on human values continues in [Algorithmic Critique](/themes/algorithmic-critique).*
 
 *These patterns find their business analysis in Clayton Christensen's examination of why successful companies struggle with disruption in The Innovator's Dilemma, connect to Geoffrey Moore's investigation of adoption cycles in Crossing the Chasm, ground in Don Norman's user-centered design principles that transcend technological trends in The Design of Everyday Things, and extend through Nadia Eghbal's exploration of open source community dynamics in Working in Public.*

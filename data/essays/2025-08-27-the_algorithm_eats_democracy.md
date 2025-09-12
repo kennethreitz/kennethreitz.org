@@ -149,8 +149,6 @@ The choice isn't between different political outcomes. It's between preserving t
 
 ---
 
----
-
 *This essay explores how algorithmic systems systematically undermine the cognitive and social conditions required for democratic governance. It continues through the algorithm's consumption of [virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—rewarding anti-democratic behaviors, human psychology through [systematic damage](/essays/2025-08-26-algorithmic_mental_health_crisis) that impairs civic participation, [language](/essays/2025-08-27-the_algorithm_eats_language)—degrading communication capacity, [love](/essays/2025-08-27-the_algorithm_eats_love)—operating parallel commodification systems destroying connection, [reality](/essays/2025-08-27-the_algorithm_eats_reality)—manufacturing artificial consensus, and [time](/essays/2025-09-01-the_algorithm_eats_time)—fragmenting the temporal attention needed for sustained discourse. The recursive patterns appear in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while the complete [Algorithmic Critique](/themes/algorithmic-critique) collection examines all societal costs, grounded in [For Humans Philosophy](/themes/for-humans-philosophy) design principles.*
 
 *For deeper analysis, see The Filter Bubble by Eli Pariser on algorithmic reality fragmentation, Democracy in One Book or Less by David Litt on democratic governance requirements, The Righteous Mind by Jonathan Haidt on moral psychology and political reasoning, Bowling Alone by Robert Putnam on declining civic engagement, and Republic.com 2.0 by Cass Sunstein on internet fragmentation's democratic effects.*

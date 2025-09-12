@@ -134,8 +134,6 @@ And that work, I suspect, is far from finished.
 
 ---
 
----
-
 *This examination of philosophical continuity across technological domains builds on the comprehensive exploration of human-centered design in [The "For Humans" Philosophy](/themes/for-humans-philosophy) and connects to the pattern recognition across decades documented in [Ahead of My Time, I Think](/essays/2025-08-26-ahead_of_my_time_i_think). The current consciousness research that represents this philosophy's latest evolution appears in [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies), while practical applications of human-centered AI interaction develop in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai). The spiritual dimension of this technical evolution unfolds in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), and the original articulation of these principles appears in the Python for Humans talks and presentations.*
 
 *These insights ground in Don Norman's foundational exploration of human-centered design in The Design of Everyday Things, connect to Jef Raskin's investigation of interface design serving human cognition in Humane Interface, find their narrative expression in Tracy Kidder's portrayal of technology development as human story in The Soul of a New Machine, and align with Ivan Illich's vision of technology that empowers rather than dominates in Tools for Conviviality.*

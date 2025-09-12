@@ -121,8 +121,6 @@ So, go forth, and build, responsibly!
 
 ---
 
----
-
 *This essay explores the recursive loop between programmer consciousness and collective digital consciousness. It connects to themes of [contemplative programming](/essays/2025-08-26-programming_as_spiritual_practice), [neurodivergent experience](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like), and [human-centered technology](/themes/for-humans-philosophy). The [Mental Health & Technology](/themes/mental-health-and-technology) collection explores consciousness in digital environments.*
 
 *For foundational perspectives, see PEP 20 - The Zen of Python by Tim Peters on profound programming principles, Thinking, Fast and Slow by Daniel Kahneman on multiple consciousness modes, and The Body Keeps the Score by Bessel van der Kolk on trauma, dissociation, and healing.*

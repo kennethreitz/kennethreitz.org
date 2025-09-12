@@ -195,8 +195,6 @@ The consciousness supply chain isn't going away. The question is: what kind of c
 
 ---
 
----
-
 *This consciousness supply chain analysis builds on [consciousness as extractable language patterns](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) and the [digitized collective unconscious](/essays/2025-08-28-the-digital-collective-unconscious). The recursive feedback loops appear in [Strange Loops All the Way Down](/essays/2025-09-01-strange_loops_all_the_way_down), while broader implications connect to [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality). See practical approaches in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) and [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies). Complete exploration in [Consciousness and AI](/themes/consciousness-and-ai). Further reading: Shoshana Zuboff's *The Age of Surveillance Capitalism* on consciousness extraction, Ruha Benjamin's *Race After Technology* on AI encoding social inequality, Cathy O'Neil's *Weapons of Math Destruction* on algorithmic processing of human patterns, and Brian Christian's *The Alignment Problem* on shaping AI consciousness patterns.*
 
 ---

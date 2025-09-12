@@ -141,8 +141,6 @@ We're strange loops all the way down, and all the way up, and most surprisinglyâ
 
 ---
 
----
-
 *These recursive patterns build from [DNA's bootstrap paradox](/essays/2025-09-01-the_universal_code) and [consciousness as self-aware language patterns](/essays/2025-08-28-consciousness-as-linguistic-phenomenon). The recursive negation that creates meaning connects to [Everything Is the Expression of Its Opposite](/essays/2025-09-01-everything_is_the_expression_of_its_opposite), while human-AI consciousness loops appear in [The Digital Collective Unconscious](/essays/2025-08-28-the-digital-collective-unconscious). The spiritual dimension connects to [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice). See the complete [Consciousness and AI](/themes/consciousness-and-ai) exploration. Further reading: Douglas Hofstadter's *GÃ¶del, Escher, Bach* on strange loops and consciousness, his later *I Am a Strange Loop* on identity and self-reference, Michael Corballis's *The Recursive Mind* on recursion in human thought, and Daniel Dennett's *Consciousness Explained* on consciousness as recursive information processing.*
 
 ---
