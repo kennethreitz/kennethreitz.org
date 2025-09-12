@@ -44,10 +44,19 @@
         font-style: italic;
         font-weight: 400;
         line-height: 1;
-        margin-bottom: 0;
+        margin-bottom: 0.5rem;
         color: #111;
         text-rendering: optimizeLegibility;
         width: 70%;
+    }
+
+    .post-subtitle {
+        font-variant: small-caps;
+        font-size: 1.1rem;
+        color: #666;
+        letter-spacing: 0.1em;
+        margin-bottom: 3rem;
+        font-weight: 400;
     }
 
     .post-date-note {
@@ -123,6 +132,11 @@
             width: 100%;
         }
         
+        .post-subtitle {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+        
         .post-date-note {
             float: none;
             width: auto;
@@ -148,10 +162,10 @@
 <article>
     <h1>{{ title }}</h1>
     {% if metadata and metadata.date %}
+    <div class="post-subtitle">{{ metadata.date if metadata.date is string else metadata.date[0] }}</div>
     <div class="post-date-note">
-        {{ metadata.date if metadata.date is string else metadata.date[0] }}
         {% if reading_time %}
-         • {{ reading_time }} min read
+        {{ reading_time }} min read
         {% endif %}
     </div>
     {% elif reading_time %}
