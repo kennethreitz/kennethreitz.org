@@ -17,13 +17,13 @@ It doesn't have to be this way.
 
 Mental health treatment often mirrors outdated medical models where "doctor knows best" and patient compliance is the primary goal. This manifests in several ways:
 
-- **Medication decisions made without meaningful consultation**<label for="sn-medication" class="margin-toggle sidenote-number"></label>
+- **Medication decisions made without meaningful consultation.**<label for="sn-medication" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-medication" class="margin-toggle"/>
 <span class="sidenote">This is particularly problematic in psychiatry, where medication effects are highly individual and subjective. Only you can report how a medication affects your sleep, creativity, emotional range, or sexual function.</span>
-- **Treatment goals set by the provider rather than collaboratively**
-- **Dismissal of your own insights about your mental health patterns**
-- **Rigid adherence to diagnostic categories over individual experience**
-- **Lack of transparency about treatment rationale or alternatives**
+- **Treatment goals set by the provider rather than collaboratively.**
+- **Dismissal of your own insights about your mental health patterns.**
+- **Rigid adherence to diagnostic categories over individual experience.**
+- **Lack of transparency about treatment rationale or alternatives.**
 
 The irony is profound: the very system designed to help you reclaim agency in your life often begins by stripping it away.<label for="sn-system-irony" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-system-irony" class="margin-toggle"/>
@@ -33,14 +33,14 @@ The irony is profound: the very system designed to help you reclaim agency in yo
 
 Before diving into advocacy strategies, it's crucial to understand your fundamental rights:
 
-- Be treated with respect and dignity
-- Receive clear explanations of your diagnosis and treatment options
-- Participate actively in treatment planning
-- Ask questions and receive honest answers
-- Seek second opinions
-- Refuse or discontinue treatment
-- Access your medical records
-- Be informed of medication side effects and alternatives
+- Be treated with respect and dignity.
+- Receive clear explanations of your diagnosis and treatment options.
+- Participate actively in treatment planning.
+- Ask questions and receive honest answers.
+- Seek second opinions.
+- Refuse or discontinue treatment.
+- Access your medical records.
+- Be informed of medication side effects and alternatives.
 
 These aren't privileges—they're rights. And exercising them doesn't make you a "difficult patient."<label for="sn-difficult-patient" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-difficult-patient" class="margin-toggle"/>
@@ -52,11 +52,11 @@ These aren't privileges—they're rights. And exercising them doesn't make you a
 
 Your subjective experience is valid data. Start tracking:
 
-- **Mood patterns** and potential triggers
-- **Sleep quality and patterns**
-- **Medication effects** (both positive and negative)
-- **Life stressors and their timing**
-- **What actually helps** when you're struggling
+- **Mood patterns** and potential triggers.
+- **Sleep quality and patterns.**
+- **Medication effects** (both positive and negative).
+- **Life stressors and their timing.**
+- **What actually helps** when you're struggling.
 
 This data-driven approach applies the same principles that guide [effective software development](/essays/2013-01-how_i_develop_things_and_why)—start with actual user needs (your experience) rather than theoretical best practices (diagnostic categories). Like the ["for humans" design philosophy](/themes/for-humans-philosophy) that prioritizes human understanding over technical elegance, effective mental health advocacy prioritizes your lived experience over clinical assumptions. In my case, tracking has been essential for [using AI systems for reality-checking](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) and maintaining professional effectiveness while managing thought disorders.
 
@@ -107,13 +107,13 @@ When you encounter condescending treatment, address it directly:
 
 Some behaviors are dealbreakers:
 
-- **Dismissing your concerns or experiences**
-- **Refusing to explain treatment rationale**
-- **Becoming defensive when you ask questions**
-- **Making unilateral decisions about your care**
-- **Using shame or guilt to encourage compliance**
-- **Demonstrating ignorance about medication side effects**
-- **Showing unwillingness to collaborate or consider alternatives**
+- **Dismissing your concerns or experiences.**
+- **Refusing to explain treatment rationale.**
+- **Becoming defensive when you ask questions.**
+- **Making unilateral decisions about your care.**
+- **Using shame or guilt to encourage compliance.**
+- **Demonstrating ignorance about medication side effects.**
+- **Showing unwillingness to collaborate or consider alternatives.**
 
 Remember: you're paying for a service. You deserve competent, respectful care.<label for="sn-service-consumer" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-service-consumer" class="margin-toggle"/>
