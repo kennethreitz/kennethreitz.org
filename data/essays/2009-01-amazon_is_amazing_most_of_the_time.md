@@ -16,9 +16,11 @@
 <span class="sidenote">Kenneth's description of EC2 as "every Hacker's dream come true" captures the revolutionary impact of on-demand computing. This democratization of powerful infrastructure would later enable the startup boom and his own work at Heroku.</span>. All I can say is about this is this is every Hacker's dream come true. I mean seriously. I can instantly command 500 Xeon\-powered linux machines to do whatever I like for an hour, and then suddenly have them all disappear off the grid and it will cost me a total of about $10\. Seriously. Wow.
 
  
-> All excuses are now gone. The possibilities are **limitless**<label for="sn-3" class="margin-toggle sidenote-number"></label>
+> All excuses are now gone. The possibilities are **limitless**. Why aren't more people taking advantage of this wonderful service?
+
+<label for="sn-3" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-3" class="margin-toggle"/>
-<span class="sidenote">This prophetic statement from 2009 captures the essence of the cloud revolution. Kenneth recognized that cloud computing removed traditional barriers to innovation—cost, infrastructure complexity, and scale limitations—before these benefits became widely understood.</span>. Why aren't more people taking advantage of this wonderful service?
+<span class="sidenote">This prophetic statement from 2009 captures the essence of the cloud revolution. Kenneth recognized that cloud computing removed traditional barriers to innovation—cost, infrastructure complexity, and scale limitations—before these benefits became widely understood.</span>
 
  I then was introduced to their Affiliate program. If you provide a link to an Amazon.com sales listing, and someone purchases something from your link, you will receive a percentage of that sale. Genius! Screw using Google Adwords, this is a great idea. I did a few tests on Twitter. I posted one link, and within about 15 minutes, I had over 100 clicks to the Amazon listing.
 
