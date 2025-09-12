@@ -1,15 +1,5 @@
----
-*January 2009*
-
-
-
-
-title: "CSS With a Hint of DRY"
-date: "2009-01-01"
-category: "Web Development"
----
-
 # CSS With a Hint of DRY
+*January 2009*
 
 I am a DRY (*Don't Repeat Yourself*) programmer. I'm not positive, but I most likely inherited my love for this concept from my intensive Python immersion. I'm so grateful for it. Anyway, DRY is an essential stage of any developer's workflow. It drastically enforces good structure, and significantly increases your logical skills. As with everything in life, there's a time and place for DRY. Object oriented programming is one of those places.
 
