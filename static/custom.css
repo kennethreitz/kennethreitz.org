@@ -610,19 +610,55 @@ pre .comment {
         text-rendering: optimizeLegibility;
     }
 
-    /* Ensure legend dots are visible on mobile */
+    /* Ensure legend dots are visible on mobile - more aggressive approach */
     .legend-dot {
         display: inline-block !important;
-        width: 12px !important;
-        height: 12px !important;
+        width: 14px !important;
+        height: 14px !important;
         border-radius: 50% !important;
         margin-right: 8px !important;
         flex-shrink: 0 !important;
         vertical-align: middle !important;
-        min-width: 12px !important;
-        min-height: 12px !important;
+        min-width: 14px !important;
+        min-height: 14px !important;
         position: relative !important;
-        z-index: 1 !important;
+        z-index: 10 !important;
+        border: 1px solid rgba(255,255,255,0.1) !important;
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.1) !important;
+    }
+
+    /* Force specific colors for mobile - override inline styles */
+    .legend-dot[style*="#e74c3c"] {
+        background: #e74c3c !important;
+    }
+    .legend-dot[style*="#3498db"] {
+        background: #3498db !important;
+    }
+    .legend-dot[style*="#9b59b6"] {
+        background: #9b59b6 !important;
+    }
+    .legend-dot[style*="#f39c12"] {
+        background: #f39c12 !important;
+    }
+    .legend-dot[style*="#27ae60"] {
+        background: #27ae60 !important;
+    }
+    .legend-dot[style*="#95a5a6"] {
+        background: #95a5a6 !important;
+    }
+
+    /* Ultimate fallback - ensure any legend dot has SOME color */
+    .legend-dot:not([style*="background"]) {
+        background: #666 !important;
+    }
+
+    /* iOS Safari specific fixes */
+    @supports (-webkit-touch-callout: none) {
+        .legend-dot {
+            -webkit-appearance: none !important;
+            background-clip: padding-box !important;
+            transform: translateZ(0) !important;
+        }
     }
 
     /* Specific fixes for mobile flexbox layout */
@@ -697,6 +733,14 @@ pre .comment {
     border-radius: 50%;
     margin-right: 6px;
 }
+
+/* Desktop specific colors for legend dots */
+.legend-dot-software { background: #e74c3c; }
+.legend-dot-essay { background: #3498db; }
+.legend-dot-ai { background: #9b59b6; }
+.legend-dot-music { background: #f39c12; }
+.legend-dot-poetry { background: #27ae60; }
+.legend-dot-philosophy { background: #95a5a6; }
 
 .pathway-box {
     border-left: 3px solid;
