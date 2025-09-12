@@ -1,12 +1,10 @@
 # Requests: HTTP for Humans
 
-The Requests library is a popular HTTP library for Python.<label for="sn-requests" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-requests" class="margin-toggle"/>
-<span class="sidenote">The philosophy behind Requests emerged from frustration with urllib2's complexity. Kenneth famously said "HTTP libraries should be for humans, not machines," leading to the creation of an API that prioritizes developer experience.</span> It provides a simple and intuitive interface for making HTTP requests, making it easy to interact with web services and APIs.
+The Requests library is a popular HTTP library for Python. It provides a simple and intuitive interface for making HTTP requests, making it easy to interact with web services and APIs.
 
     $ uv pip install requests
 
-This project is downloaded over 20 million times a day,<label for="sn-downloads" class="margin-toggle sidenote-number"></label>
+This project is downloaded over 30 million times a day,<label for="sn-downloads" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-downloads" class="margin-toggle"/>
 <span class="sidenote">This adoption rate places Requests among the most popular Python packages ever created, reflecting how it became the de facto standard for HTTP operations in Python.</span> and is widely used in the Python community. It is known for its ease of use and powerful features, making it a go-to choice for developers who need to work with HTTP in their Python projects.
 

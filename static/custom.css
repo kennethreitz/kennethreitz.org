@@ -1,0 +1,875 @@
+/* Kenneth Reitz Website - Custom CSS */
+/* This file contains all custom styles for the site */
+
+/* ========================================= */
+/* ET Book Font Fixes */
+/* ========================================= */
+
+/* Fix for ET Book font bold-italic rendering issues */
+/* ET Book doesn't have a true bold-italic variant, so we disable faux bold */
+strong em, em strong, b i, i b,
+.subtitle strong em, .subtitle em strong,
+.subtitle b i, .subtitle i b,
+nav strong em, nav em strong,
+h1 strong em, h1 em strong,
+h2 strong em, h2 em strong,
+h3 strong em, h3 em strong {
+    font-weight: normal !important;
+    font-style: italic !important;
+}
+
+/* For better readability, you could also use the semi-bold variant */
+/* which ET Book does support, though still no bold-italic */
+.subtitle em, .subtitle i,
+nav em, nav i {
+    font-weight: 500; /* semi-bold instead of bold for italics */
+}
+
+/* ========================================= */
+/* Content Width & Sidenote Spacing */
+/* ========================================= */
+
+/* Adjust content width for better sidenote spacing */
+section > p,
+section > footer,
+section > table,
+section > blockquote,
+p,
+blockquote,
+.post-content > p,
+.post-content > blockquote,
+.post-content > ul,
+.post-content > ol {
+    width: 65% !important;
+}
+
+section > dl,
+section > ol,
+section > ul,
+.post-content > dl {
+    width: 65%;
+}
+
+/* Override for full-width elements when needed */
+.post-content > h1,
+.post-content > h2,
+.post-content > h3,
+.post-content > h4,
+.post-content > h5,
+.post-content > h6 {
+    width: 100%;
+}
+
+.sidenote,
+.marginnote,
+section .sidenote,
+section .marginnote,
+article .sidenote,
+article .marginnote {
+    width: 35% !important;
+    margin-right: -39% !important;
+    margin-left: 6% !important;
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+}
+
+/* ========================================= */
+/* Responsive Layout Adjustments */
+/* ========================================= */
+
+@media (max-width: 1400px) {
+    section > p,
+    section > footer,
+    section > table,
+    section > blockquote,
+    p,
+    blockquote,
+    .post-content > p,
+    .post-content > blockquote,
+    .post-content > ul,
+    .post-content > ol {
+        width: 80%;
+    }
+
+    .sidenote,
+    .marginnote,
+    section .sidenote,
+    section .marginnote,
+    article .sidenote,
+    article .marginnote {
+        width: 32% !important;
+        margin-right: -36% !important;
+        margin-left: 6% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    section > p,
+    section > footer,
+    section > table,
+    section > blockquote,
+    p,
+    blockquote,
+    .post-content > p,
+    .post-content > blockquote,
+    .post-content > ul,
+    .post-content > ol {
+        width: 80%;
+    }
+
+    .sidenote,
+    .marginnote,
+    section .sidenote,
+    section .marginnote,
+    article .sidenote,
+    article .marginnote {
+        width: 30% !important;
+        margin-right: -34% !important;
+        margin-left: 6% !important;
+    }
+}
+
+/* ========================================= */
+/* Code Blocks */
+/* ========================================= */
+
+/* Code blocks - extend wider but respect content margin */
+section > pre,
+.post-content > pre,
+.tufte pre,
+pre {
+    width: calc(90vw - 2rem) !important;
+    max-width: 1400px !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Override Tufte CSS constraint on code within pre */
+pre > code {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+/* Copy button for code blocks */
+.code-block-wrapper {
+    position: relative;
+}
+
+.copy-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+.code-block-wrapper:hover .copy-button,
+.copy-button:focus {
+    opacity: 1;
+}
+
+.copy-button:hover {
+    background: rgba(255, 255, 255, 1);
+    border-color: #999;
+}
+
+.copy-button:active {
+    background: rgba(240, 240, 240, 1);
+}
+
+.copy-button.copied {
+    background: rgba(76, 175, 80, 0.9);
+    color: white;
+    border-color: #4CAF50;
+}
+
+@media (prefers-color-scheme: dark) {
+    .copy-button {
+        background: rgba(50, 50, 50, 0.9);
+        color: white;
+        border-color: #555;
+    }
+
+    .copy-button:hover {
+        background: rgba(70, 70, 70, 1);
+        border-color: #777;
+    }
+
+    .copy-button:active {
+        background: rgba(30, 30, 30, 1);
+    }
+}
+
+/* Responsive adjustments for code blocks */
+@media (max-width: 768px) {
+    section > pre,
+    .post-content > pre,
+    .tufte pre,
+    pre {
+        width: calc(100vw - 2rem) !important;
+        margin-left: -1rem !important;
+    }
+}
+
+/* ========================================= */
+/* Navigation & Breadcrumbs */
+/* ========================================= */
+
+/* Breadcrumb styling */
+.breadcrumbs {
+    font-size: 0.875rem;
+    color: #666;
+    margin: 1rem 0 2rem 0;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.breadcrumbs a {
+    color: #666;
+    text-decoration: none;
+    background: none;
+    text-shadow: none;
+}
+
+.breadcrumbs a:hover {
+    color: #111;
+}
+
+.breadcrumb-separator {
+    margin: 0 0.5rem;
+    color: #999;
+}
+
+/* Mobile breadcrumb adjustments */
+@media (max-width: 760px) {
+    .breadcrumbs {
+        font-size: 0.8rem;
+        margin: 0.75rem 0 1.5rem 0;
+    }
+
+    .breadcrumb-separator {
+        margin: 0 0.25rem;
+    }
+}
+
+/* Navigation spacing adjustment */
+header nav a {
+    margin-right: 1rem;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
+/* Random post button styling */
+.random-link {
+    font-size: 1.1rem;
+}
+
+/* ========================================= */
+/* Directory Listing */
+/* ========================================= */
+
+.directory-listing ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+.directory-listing li {
+    margin-bottom: 0.75rem;
+    padding-left: 2rem;
+    position: relative;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.directory-listing li::before {
+    content: attr(data-icon);
+    position: absolute;
+    left: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.directory-listing a {
+    color: #444;
+    text-decoration: none;
+    font-weight: 400;
+    background: none;
+    text-shadow: none;
+    transition: color 0.2s ease;
+}
+
+.directory-listing a:hover {
+    color: #111;
+}
+
+.item-date {
+    font-size: 0.8rem;
+    color: #888;
+    font-style: italic;
+    margin-left: 0.75rem;
+    font-variant: small-caps;
+    letter-spacing: 0.02em;
+}
+
+.directory-listing h3 {
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+/* ========================================= */
+/* Horizontal Rules (Ornamental) */
+/* ========================================= */
+
+/* Style HR lines as ornamental asterisks */
+hr {
+    border: none;
+    margin: 3rem auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    overflow: visible;
+    position: relative;
+}
+
+hr::before {
+    content: "⁂";
+    display: inline-block;
+    font-size: 1.4em;
+    color: #999;
+    line-height: 1;
+    position: relative;
+}
+
+/* Default hr styling - match paragraph width */
+main hr {
+    margin: 3rem auto;
+    width: 65%;
+    max-width: 65%;
+}
+
+/* Article hr (posts) should use full article width */
+article hr {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Post content hr should match paragraph width */
+.post-content hr {
+    width: 65%;
+    max-width: 65%;
+}
+
+@media (max-width: 760px) {
+    main hr,
+    .post-content hr {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+/* ========================================= */
+/* Iframe Constraints */
+/* ========================================= */
+
+/* Fix iframe overflow into sidenotes */
+iframe {
+    max-width: 55% !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1400px) {
+    iframe {
+        max-width: 60% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    iframe {
+        max-width: 70% !important;
+    }
+}
+
+@media (max-width: 760px) {
+    iframe {
+        max-width: 100% !important;
+    }
+}
+
+/* ========================================= */
+/* Typography Adjustments */
+/* ========================================= */
+
+/* Homepage subtitle spacing adjustment */
+p.subtitle {
+    line-height: 1.6;
+}
+
+/* Footer spacing */
+.footer-note {
+    margin-top: 3rem;
+}
+
+/* Make article paragraphs slightly smaller */
+.post-content p:not(.sidenote):not(.marginnote) {
+    font-size: 1.3rem !important;
+    width: 70%;
+}
+
+/* Make lists wider for better readability */
+.post-content > ul,
+.post-content > ol {
+    width: 72.5% !important;
+}
+
+@media (max-width: 1400px) {
+    .post-content > ul,
+    .post-content > ol {
+        width: 72.5% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .post-content > ul,
+    .post-content > ol {
+        width: 72.5% !important;
+    }
+}
+
+/* Make blockquote paragraphs wider */
+.post-content blockquote p,
+article .post-content blockquote p,
+section .post-content blockquote p,
+blockquote .post-content p,
+blockquote p,
+blockquote,
+.post-content blockquote,
+article blockquote,
+section blockquote,
+main blockquote,
+body blockquote {
+    width: 75% !important;
+}
+
+/* Make list item paragraphs wider */
+ol li p,
+ul li p,
+.post-content ol li p,
+.post-content ul li p {
+    width: 75% !important;
+}
+
+/* Adjust heading sizes */
+h2 {
+    font-size: 2.1rem !important;
+}
+
+h3 {
+    font-size: 1.7rem !important;
+    font-weight: 500 !important;
+}
+
+h4 {
+    font-size: 1.4rem !important;
+    font-weight: 500 !important;
+    margin-top: 2.5rem !important;
+}
+
+h5 {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    margin-top: 2rem !important;
+}
+
+/* Reduce article padding */
+article {
+    padding: 3rem 0rem !important;
+}
+
+/* ========================================= */
+/* Premium Typography Enhancements */
+/* ========================================= */
+
+/* Advanced font rendering */
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    font-weight: 420;
+}
+
+/* Enhanced link rendering */
+a {
+    text-decoration-skip-ink: auto;
+}
+
+/* Beautiful text selection */
+::selection {
+    background: rgba(255, 235, 59, 0.85);
+    color: #333;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: rgba(255, 235, 59, 0.85);
+    color: #333;
+    text-shadow: none;
+}
+
+/* ========================================= */
+/* Code Syntax Highlighting */
+/* ========================================= */
+
+/* Make comments lighter in code blocks */
+pre code .hljs-comment,
+pre .hljs-comment,
+code .comment,
+pre .comment {
+    color: #888 !important;
+    font-style: italic;
+}
+
+/* ========================================= */
+/* Mobile Optimizations */
+/* ========================================= */
+
+/* Fix excessive right padding on mobile */
+@media (max-width: 760px) {
+    .post-content p:not(.sidenote):not(.marginnote) {
+        width: 100% !important;
+    }
+    body {
+        padding-left: 8% !important;
+        padding-right: 8% !important;
+        width: 84% !important;
+    }
+
+    /* Hide sidenotes and their labels on narrow screens */
+    .sidenote,
+    .marginnote {
+        display: none;
+    }
+    
+    .margin-toggle,
+    label.margin-toggle {
+        display: none !important;
+    }
+
+    /* Make content full width when sidenotes are hidden */
+    section > p,
+    section > footer,
+    section > table,
+    section > blockquote,
+    p,
+    blockquote,
+    .post-content > p,
+    .post-content > blockquote,
+    .post-content > ul,
+    .post-content > ol {
+        width: 100%;
+    }
+
+    section > dl,
+    section > ol,
+    section > ul,
+    .post-content > dl {
+        width: 100%;
+    }
+}
+
+/* Mobile font fixes */
+@media (max-width: 760px) {
+    body, p, h1, h2, h3, h4, h5, h6 {
+        text-shadow: none !important;
+        -webkit-text-stroke: 0 !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    }
+
+    /* Fix Tufte's complex link underlines on mobile */
+    a, a:link, a:visited,
+    .tufte-underline,
+    .hover-tufte-underline:hover {
+        text-shadow: none !important;
+        background: none !important;
+        text-decoration: underline !important;
+        text-decoration-thickness: 1px !important;
+        text-underline-offset: 2px !important;
+    }
+
+    /* Ensure no double font rendering */
+    * {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+/* ========================================= */
+/* Homepage Specific Styles */
+/* ========================================= */
+
+.color-software { color: #e74c3c; }
+.color-essay { color: #3498db; }
+.color-ai { color: #9b59b6; }
+.color-music { color: #f39c12; }
+.color-poetry { color: #27ae60; }
+.color-philosophy { color: #95a5a6; }
+
+.project-link {
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+    transition: all 0.2s ease;
+    display: inline;
+}
+
+.project-link:hover {
+    border-bottom-style: solid;
+    filter: brightness(1.2);
+}
+
+.legend-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.pathway-box {
+    border-left: 3px solid;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+}
+
+.pathway-tech { border-color: #e74c3c; }
+.pathway-consciousness { border-color: #9b59b6; }
+.pathway-critique { border-color: #95a5a6; }
+
+/* ========================================= */
+/* Print Styles */
+/* ========================================= */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    body {
+        font-size: 12pt;
+        line-height: 1.3;
+        margin: 0;
+        padding: 0;
+        background: white;
+        color: black;
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    /* Hide navigation and non-essential elements */
+    header nav,
+    .breadcrumbs,
+    .post-navigation,
+    .related-posts,
+    .footer-content,
+    .search-container {
+        display: none !important;
+    }
+
+    /* Optimize content for print */
+    section > p,
+    section > footer,
+    section > table,
+    section > blockquote,
+    p,
+    blockquote,
+    .post-content > p,
+    .post-content > blockquote,
+    .post-content > ul,
+    .post-content > ol {
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    section > dl,
+    section > ol,
+    section > ul,
+    .post-content > dl {
+        width: 100% !important;
+    }
+
+    /* Convert sidenotes to footnotes for print */
+    .sidenote,
+    .marginnote {
+        display: none !important;
+    }
+
+    /* Show sidenote content as footnotes at bottom */
+    .sidenote::before {
+        content: "["counter(sidenote-counter) "] ";
+        counter-increment: sidenote-counter;
+    }
+
+    /* Print-specific typography */
+    h1 {
+        font-size: 18pt;
+        margin: 24pt 0 12pt 0;
+        page-break-after: avoid;
+    }
+
+    h2 {
+        font-size: 16pt;
+        margin: 20pt 0 10pt 0;
+        page-break-after: avoid;
+    }
+
+    h3 {
+        font-size: 14pt;
+        margin: 16pt 0 8pt 0;
+        page-break-after: avoid;
+    }
+
+    p {
+        font-size: 12pt;
+        margin: 12pt 0;
+        text-align: justify;
+        orphans: 3;
+        widows: 3;
+    }
+
+    /* Print links with URLs */
+    a[href]:after {
+        content: " (" attr(href) ")";
+        font-size: 10pt;
+        color: #666;
+    }
+
+    a[href^="#"]:after,
+    a[href^="/"]:after {
+        content: "";
+    }
+
+    /* Blockquotes */
+    blockquote {
+        margin: 12pt 24pt;
+        padding: 0;
+        font-style: italic;
+        border-left: 2pt solid #ccc;
+        padding-left: 12pt;
+    }
+
+    /* Code blocks */
+    pre, code {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 10pt;
+        background: #f5f5f5;
+        border: 1pt solid #ccc;
+        padding: 6pt;
+    }
+
+    pre {
+        white-space: pre-wrap;
+        page-break-inside: avoid;
+    }
+
+    /* Override width constraints for code blocks */
+    section > pre,
+    .post-content > pre,
+    pre {
+        width: 85% !important;
+        max-width: none !important;
+        margin-left: 0 !important;
+    }
+
+    /* Tables */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 10pt;
+    }
+
+    th, td {
+        border: 1pt solid #ccc;
+        padding: 6pt;
+        text-align: left;
+    }
+
+    th {
+        background: #f0f0f0;
+        font-weight: bold;
+    }
+
+    /* Images */
+    img {
+        max-width: 100%;
+        height: auto;
+        page-break-inside: avoid;
+    }
+
+    /* Page breaks */
+    .page-break {
+        page-break-before: always;
+    }
+
+    /* Hide toggle inputs for sidenotes */
+    input[type="checkbox"].margin-toggle {
+        display: none !important;
+    }
+
+    label.margin-toggle {
+        display: none !important;
+    }
+
+    /* Header styling for print */
+    header h1 {
+        font-size: 20pt;
+        margin-bottom: 6pt;
+    }
+
+    .subtitle {
+        font-size: 14pt;
+        margin-bottom: 20pt;
+        font-style: italic;
+    }
+
+    /* Ensure proper spacing */
+    section {
+        margin-bottom: 20pt;
+    }
+
+    /* Lists */
+    ul, ol {
+        margin: 12pt 0;
+        padding-left: 20pt;
+    }
+
+    li {
+        margin: 6pt 0;
+    }
+}
