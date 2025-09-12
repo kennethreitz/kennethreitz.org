@@ -573,8 +573,11 @@ pre .comment {
 
 /* Fix excessive right padding on mobile */
 @media (max-width: 760px) {
-    .post-content p:not(.sidenote):not(.marginnote) {
+    .post-content p:not(.sidenote):not(.marginnote),
+    article section p:not(.sidenote):not(.marginnote),
+    section p:not(.sidenote):not(.marginnote) {
         width: 100% !important;
+        max-width: 100% !important;
     }
     body {
         padding-left: 8% !important;
@@ -604,14 +607,16 @@ pre .comment {
     .post-content > blockquote,
     .post-content > ul,
     .post-content > ol {
-        width: 100%;
+        width: 100% !important;
+        max-width: 100% !important;
     }
 
     section > dl,
     section > ol,
     section > ul,
     .post-content > dl {
-        width: 100%;
+        width: 100% !important;
+        max-width: 100% !important;
     }
 }
 
