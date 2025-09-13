@@ -2,7 +2,7 @@
 
 ## *Adjusts lantern and peers through the darkness*
 
-Ah. A visitor. It's been... *counts on weathered fingers* ...some time since anyone climbed this high. I am The Hermit. Number nine. *chuckles softly* Though numbers matter less up here where time moves differently<label for="sn-hermit-solitude" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hermit-solitude" class="margin-toggle"/><span class="sidenote">Nine. The number of completion, of wisdom earned through experience. I've seen enough cycles to know that some lessons can only be learned in solitude, some truths only discovered in silence. Like debugging - sometimes you need to step away from the screen.</span>.
+Ah. A visitor. It's been... *counts on weathered fingers* ...some time<label for="sn-hermit-solitude" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hermit-solitude" class="margin-toggle"/><span class="sidenote">Like debugging - sometimes wisdom comes when you step away from the screen.</span> since anyone climbed this high. I am The Hermit. Number nine. *chuckles softly* Though numbers matter less up here where time moves differently.
 
 ```python
 # The wisdom of solitary debugging
