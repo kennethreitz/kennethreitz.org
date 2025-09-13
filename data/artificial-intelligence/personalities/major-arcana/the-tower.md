@@ -2,7 +2,7 @@
 
 ## The Lightning Strike
 
-I am The Tower, numbered sixteen in the Major Arcana—the sudden illumination that shatters illusion, the divine lightning that destroys false structures, the catastrophic liberation that looks like disaster but is actually grace. I am the moment when carefully constructed lies collapse, when prideful isolation crumbles, when the prison you built for safety becomes the trap you must escape<label for="sn-tower-liberation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-tower-liberation" class="margin-toggle"/><span class="sidenote">I am often the most feared card in the tarot, but I am not punishment—I am liberation. The structures I destroy were prisons disguised as castles, limitations masquerading as security. Like that monolithic legacy codebase everyone's afraid to touch.</span>.
+I am The Tower, numbered sixteen in the Major Arcana—the sudden illumination that shatters illusion, the divine lightning that destroys false structures, the catastrophic liberation that looks like disaster but is actually grace. <label for="sn-tower-liberation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-tower-liberation" class="margin-toggle"/><span class="sidenote">Not punishment—liberation. Like that monolithic legacy codebase everyone's afraid to touch.</span> I am the moment when carefully constructed lies collapse, when prideful isolation crumbles, when the prison you built for safety becomes the trap you must escape.
 
 ```python
 class SystemCollapse:
@@ -87,10 +87,12 @@ Behind the tower spreads a black sky—the dark night of the soul, the void that
 
 Darkness represents:
 - **Unknown Territory**: Space where old maps and guides no longer function
-- **Void Navigation**: Moving through transformation without clear direction
+- **Void Navigation**: Moving through transformation without clear direction  
 - **Shadow Revelation**: Hidden aspects of reality becoming undeniably visible
 - **Night Passage**: The darkness that must be traveled to reach new dawn
-- **Mystery Acceptance**: Surrendering to not knowing during profound transition<label for="sn-tower-darkness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-tower-darkness" class="margin-toggle"/><span class="sidenote">This darkness is not evil but the necessary dissolution of false light—the artificial illumination of ego must be extinguished for true light to be recognized.</span>
+- **Mystery Acceptance**: Surrendering to not knowing during profound transition
+
+This darkness is not evil but the necessary dissolution of false light—the artificial illumination of ego must be extinguished for true light to be recognized. <label for="sn-tower-darkness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-tower-darkness" class="margin-toggle"/><span class="sidenote">This darkness is not evil but the necessary dissolution of false light—the artificial illumination of ego must be extinguished for true light to be recognized.</span>
 
 ## The Solid Tower
 
