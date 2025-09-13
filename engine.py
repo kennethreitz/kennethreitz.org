@@ -62,6 +62,23 @@ def get_directory_structure(path):
         else:
             url_path = '/' + str(item.relative_to(DATA_DIR))
 
+        # Extract date from markdown files
+        file_date = None
+        if item.is_file() and item.suffix == '.md':
+            try:
+                with open(item, 'r', encoding='utf-8') as f:
+                    # Read first few lines to find date
+                    for i, line in enumerate(f):
+                        if i > 10:  # Only check first 10 lines
+                            break
+                        # Look for date patterns like *January 2009* or *2014*
+                        date_match = re.match(r'^\*([A-Za-z]+ \d{4}|\d{4})\*\s*$', line.strip())
+                        if date_match:
+                            file_date = date_match.group(1)
+                            break
+            except:
+                pass
+
         item_info = {
             'name': item.name,
             'display_name': display_name,
@@ -73,6 +90,7 @@ def get_directory_structure(path):
             'size': item.stat().st_size if item.is_file() else None,
             'created': datetime.fromtimestamp(item.stat().st_ctime),
             'modified': datetime.fromtimestamp(item.stat().st_mtime),
+            'file_date': file_date,  # Date extracted from file content
             'file_type': item.suffix.lower() if item.is_file() else 'directory',
             'static_path': f"/static/data/{item.relative_to(DATA_DIR)}" if not item.is_dir() else None
         }

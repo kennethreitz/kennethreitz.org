@@ -1,4 +1,5 @@
 # The 12 Factor App
+*2012*
 
 This talk recaps the 12 Factor App methodology, which is a set of best practices for building scalable, maintainable, and portable web applications.
 

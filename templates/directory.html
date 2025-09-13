@@ -204,8 +204,8 @@
             <a href="{{ item.url_path }}">
                 {{ item.display_name }}{% if item.is_dir %}/{% endif %}
             </a>
-            {% if not item.is_dir %}
-                <span class="item-date">{{ item.modified.strftime('%Y-%m-%d') }}</span>
+            {% if not item.is_dir and item.file_date %}
+                <span class="item-date">{{ item.file_date }}</span>
             {% endif %}
         </li>
         {% endif %}
@@ -223,8 +223,8 @@
             <a href="{{ item.url_path }}">
                 {{ item.display_name }}{% if item.is_dir %}/{% endif %}
             </a>
-            {% if not item.is_dir %}
-                <span class="item-date">{{ item.modified.strftime('%Y-%m-%d') }}</span>
+            {% if not item.is_dir and item.file_date %}
+                <span class="item-date">{{ item.file_date }}</span>
             {% endif %}
         </li>
         {% endfor %}

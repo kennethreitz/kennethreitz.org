@@ -1,64 +1,49 @@
 # Growing Open Source Seeds
+*2014*
 
 <iframe class="speakerdeck-iframe" style="border: 0px; background: padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 420;" frameborder="0" src="https://speakerdeck.com/player/ced6f620a0350130c19836e12fd562a8" title="Growing Open Source Seeds" allowfullscreen="true" data-ratio="1.3333333333333333"></iframe>
 
-
 ## Introduction
 
-- **Growing Open Source Seeds** explores different approaches to open source projects, highlighting the evolution and challenges in the community, particularly focusing on the philosophy and sustainability of open source contributions.
-
-<span class="sidenote">This talk emerged from Kenneth's experience maintaining some of the most popular Python packages. His insights into open source sustainability predate many current discussions about maintainer burnout and funding, offering practical wisdom from someone who lived these challenges.</span>
+This talk explores the diverse approaches to open source projects, examining the evolution and challenges within the community. It focuses particularly on the philosophy and sustainability of open source contributions, offering insights drawn from years of maintaining some of Python's most popular packages.<label for="sn-sustainability-prescience" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-sustainability-prescience" class="margin-toggle"/>
+<span class="sidenote">These insights into open source sustainability predate many current discussions about maintainer burnout and funding, offering practical wisdom from someone who lived these challenges firsthand.</span>
 
 ## Public vs. Open Source
 
-- **Public Source:**
-  - Code is released with an open source license, but it may not be actively maintained or developed.
-  - Often abandoned due to lack of interest or burnout.
+There's a crucial distinction between **public source** and truly **open source** projects. Public source involves code released with an open source license, but without active maintenance or development. These projects often become abandoned due to lack of interest or maintainer burnout, littering GitHub with good intentions that never found sustainable support.
 
-- **Gittip Example:**
-  - An extreme open source project with shared ownership and transparency.
-  - Major decisions are made through community involvement on platforms like GitHub.
-  - Represents a "shared investment" model where contributors actively participate in the project's development.
+The **Gittip** project exemplified an extreme approach to open source, embracing shared ownership and radical transparency. Major decisions were made through community involvement on platforms like GitHub, with every discussion and debate happening in public view. This represented a "shared investment" model where contributors actively participated in the project's development, creating true collective ownership rather than mere collaboration.
 
 ## Dictatorship Projects
 
-- **Requests as a Dictatorship Project:**
-  - A "Benevolent Dictator For Life" (BDFL) manages the project, making all key decisions.
-  - While community feedback is encouraged, there is no expectation that it will influence decisions.
-  - Benefits include quick iteration and maintaining a strong vision, but it carries risks like low bus-factor and high burnout potential.
-
-<span class="sidenote">Kenneth's frank discussion of the BDFL model was controversial but honest. He recognized that while community-driven projects have benefits, sometimes a single vision is necessary to maintain coherence and prevent feature creep.</span>
+The **Requests** library operates as what I call a "dictatorship project" - managed by a Benevolent Dictator For Life (BDFL) who makes all key decisions. While community feedback is encouraged and valued, there's no expectation that it will necessarily influence decisions. This model offers benefits like quick iteration and maintaining a strong, coherent vision, though it carries risks including low bus-factor and high potential for maintainer burnout.<label for="sn-bdfl-controversy" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-bdfl-controversy" class="margin-toggle"/>
+<span class="sidenote">This frank discussion of the BDFL model was controversial but honest. While community-driven projects have clear benefits, sometimes a single vision is necessary to maintain coherence and prevent feature creep.</span>
 
 ## Lessons in Open Source
 
-- **Contributors:**
-  - Interactions with maintainers should be respectful and appreciative of their time and effort.
+For **contributors**, interactions with maintainers should always be respectful and appreciative of their time and effort. Remember that most maintainers are volunteers, often working on projects in their limited free time. Your feature request or bug report is one of hundreds they might be dealing with.
 
-- **Maintainers:**
-  - Must be thankful to contributors, choose words carefully, and educate users, particularly those new to open source.
+**Maintainers** must be thankful to contributors, choose words carefully, and take time to educate users, particularly those new to open source. Every interaction shapes the community culture. A harsh response to a first-time contributor might discourage not just that individual, but others watching the exchange.
 
 ## Avoiding Burnout
 
-- **Sustainability:**
-  - Open source is challenging to sustain due to time constraints and the risk of becoming a bottleneck in one’s own projects.
-  - Emphasizes the importance of purpose, mastery, and autonomy in maintaining motivation.
+Open source sustainability remains one of the greatest challenges in software development. Projects become difficult to sustain due to time constraints and the risk of maintainers becoming bottlenecks in their own projects. The key lies in maintaining purpose, mastery, and autonomy - the three pillars of intrinsic motivation.
 
-- **Delegation:**
-  - Leveraging a team to handle issues and pull requests can help maintainers focus on larger issues, improving sustainability.
+**Delegation** becomes essential for long-term sustainability. By leveraging a team to handle issues and pull requests, maintainers can focus on larger architectural decisions and strategic direction, improving both the project's health and their own well-being.
 
 ## The Power of Saying No
 
-- **Simplicity Over Functionality:**
-  - Maintain simplicity by rejecting features or pull requests that add unnecessary complexity.
-  - Simple code is easier to maintain, while complex code leads to technical debt and higher maintenance burdens.
+Perhaps the most important lesson I've learned is the power of maintaining simplicity by rejecting features or pull requests that add unnecessary complexity. Simple code is easier to maintain, understand, and extend. Complex code leads to technical debt and exponentially higher maintenance burdens.<label for="sn-power-of-no" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-power-of-no" class="margin-toggle"/>
+<span class="sidenote">This philosophy helped Requests maintain its elegant simplicity despite thousands of feature requests, proving that restraint can be more valuable than addition.</span>
 
-<span class="sidenote">The power of saying "no" became a central principle in Kenneth's approach to open source. This philosophy helped Requests maintain its elegant simplicity despite thousands of feature requests, proving that restraint can be more valuable than addition.</span>
+Every feature added is a feature that must be maintained forever. Every configuration option doubles the testing surface. Every abstraction adds cognitive overhead. Sometimes the kindest thing you can do for your users is to say no to their requests, preserving the simplicity that drew them to your project in the first place.
 
 ## Conclusion
 
-- **Open Source Philosophy:**
-  - Open source should make the world a better place without adding unnecessary complexity.
-  - Focus on simplicity, sustainability, and maintaining a clear vision to ensure long-term success in open source projects.
+Open source should make the world a better place without adding unnecessary complexity. Success comes from focusing on simplicity, sustainability, and maintaining a clear vision. The goal isn't to accept every contribution or implement every feature request - it's to create something valuable that can be maintained and understood over time.
 
 ---
 
