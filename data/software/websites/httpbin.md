@@ -2,8 +2,6 @@
 
 [httpbin.org](https://httpbin.org/) is a simple HTTP request and response service. It is a useful tool for testing HTTP clients and debugging webhooks. The service provides a variety of endpoints that return different types of data, such as headers, IP address, and user-agent.
 
-<span class="sidenote">HTTPBin fills a crucial gap in web development—providing a reliable, predictable HTTP endpoint for testing. Before its creation, developers often had to create their own test servers or use unreliable third-party services, making HTTPBin an essential tool in the modern web development toolkit.</span>
-
 ## Features
 
 - **HTTP Methods**: httpbin.org supports various HTTP methods, including GET, POST, PUT, DELETE, and PATCH, allowing you to test different types of requests.
@@ -16,8 +14,6 @@
 ## Running with Docker
 
 You can also run httpbin.org locally using Docker. First, pull the httpbin image from Docker Hub:
-
-<span class="sidenote">The Docker containerization of HTTPBin demonstrates Kenneth's forward-thinking approach to infrastructure. By providing a self-contained testing service, developers can maintain consistent testing environments regardless of network conditions or external service availability.</span>
 
 ```bash
 $ docker pull kennethreitz/httpbin
