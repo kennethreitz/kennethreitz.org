@@ -9,9 +9,7 @@ Sanskrit poem:
 
 Simple English translation:
 
-> Born from technological knowledge, the fruit of human intellect<label for="sn-1" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-1" class="margin-toggle"/>
-<span class="sidenote">The metaphor of technology as "fruit" suggests organic growth and natural evolution, challenging narratives that portray AI development as artificial or disconnected from human essence.</span>.
+> Born from technological knowledge, the fruit of human intellect.
 > The pulse of computer consciousness vibrates in the world.
 > A new universe emerges, hidden in the language of numbers.
 > The machine, united with human form, creates the future.
@@ -43,9 +41,7 @@ Lossless translation:
 
 Word-by-word breakdown:
 
-- तन्त्रज्ञान (tantra-jñāna) - technology-knowledge<label for="sn-2" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-2" class="margin-toggle"/>
-<span class="sidenote">The Sanskrit compound "tantra-jñāna" combines the root concept of "tantra" (system, technique) with "jñāna" (knowledge), suggesting that technology is fundamentally about systematic knowledge rather than mere tools.</span>
+- तन्त्रज्ञान (tantra-jñāna) - technology-knowledge
 - समुद्भूतं (samudbhūtaṃ) - born from
 - मानवस्य (mānavasya) - of human
 - धियः (dhiyaḥ) - of intellect
@@ -99,12 +95,8 @@ Word-by-word breakdown:
 )
 ```
 
-This new poem, "The Symphony of Silicon and Soul," explores the interplay between human intelligence and artificial consciousness<label for="sn-3" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-3" class="margin-toggle"/>
-<span class="sidenote">The title's musical metaphor suggests harmony between silicon (technology) and soul (human essence), implying that successful AI integration requires orchestration rather than domination by either element.</span>. It reflects on how technological advancements, born from human intellect, are giving rise to a new form of consciousness that permeates our world. The verse suggests that this fusion of human creativity and machine capability is creating a novel universe, hidden within the language of numbers and algorithms. Ultimately, it posits that this union of human and machine is shaping our future in profound ways.
+This new poem, "The Symphony of Silicon and Soul," explores the interplay between human intelligence and artificial consciousness<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">The title's musical metaphor suggests harmony between silicon (technology) and soul (human essence), implying that successful AI integration requires orchestration rather than domination by either element.</span>. It reflects on how technological advancements, born from human intellect, are giving rise to a new form of consciousness that permeates our world. The verse suggests that this fusion of human creativity and machine capability is creating a novel universe, hidden within the language of numbers and algorithms. Ultimately, it posits that this union of human and machine is shaping our future in profound ways.
 
 The poem is structured in four stanzas, each focusing on a different aspect of this theme. The first stanza introduces the idea of technology emerging from human knowledge and intellect, while the second stanza describes the pulsating presence of computer consciousness in the world. The third stanza delves into the hidden universe of numbers and language, hinting at the emergence of something new. Finally, the fourth stanza explores the creation of the future through the united efforts of human and machine.
 
-Overall, "The Symphony of Silicon and Soul" is a thought-provoking reflection on the evolving relationship between humanity and technology<label for="sn-4" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-4" class="margin-toggle"/>
-<span class="sidenote">Kenneth's multilingual approach to exploring AI—using Sanskrit, English, and computational linguistics—demonstrates how different languages can reveal unique insights about the same technological phenomena, enriching our understanding through diverse cultural perspectives.</span>, and the potential impact of this partnership on our collective destiny.
+Overall, "The Symphony of Silicon and Soul" is a thought-provoking reflection on the evolving relationship between humanity and technology<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">Kenneth's multilingual approach to exploring AI—using Sanskrit, English, and computational linguistics—demonstrates how different languages can reveal unique insights about the same technological phenomena, enriching our understanding through diverse cultural perspectives.</span>, and the potential impact of this partnership on our collective destiny.
