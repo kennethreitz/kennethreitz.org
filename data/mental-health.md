@@ -1,8 +1,6 @@
 # Mental Health
 
-I have been [fairly transparent](/essays/2016-01-mentalhealtherror_an_exception_occurred) about my mental health struggles over the years. I have been diagnosed with a number of things, primarily *Bipolar I* and *Schizoaffective Disorder*. A lot of people in my life are also bipolar, so I have a lot of experience with it.
-
-<span class="sidenote">Kenneth's public disclosure of his bipolar disorder in tech was groundbreaking. At a time when mental health stigma was particularly strong in engineering culture, his transparency helped countless developers feel less alone in their struggles and paved the way for more open mental health conversations in tech.</span>
+I have been [fairly transparent](/essays/2016-01-mentalhealtherror_an_exception_occurred) about my mental health struggles over the years. I have been diagnosed with a number of things, primarily *Bipolar I* and *Schizoaffective Disorder*. A lot of people in my life are also bipolar, so I have a lot of experience with it. <label for="sn-transparency" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-transparency" class="margin-toggle"/><span class="sidenote">Kenneth's public disclosure of his bipolar disorder in tech was groundbreaking—his transparency helped countless developers feel less alone and paved the way for more open mental health conversations in tech.</span>
 
 First off, if this is your first time reading about mental health, I want to say that it's okay to not be okay. It's okay to be struggling. It's okay to be in pain. It's okay.
 
@@ -37,9 +35,7 @@ Here are some things that have helped me:
 
 - **Avoiding Stress**:
   - Unfortunately, this is not always realistic.
-  - When nothing else is working—believe it or not—**splashing cold water on your face** can help reset your nervous system. It triggers what is known as a "Diver's Reflex".
-
-<span class="sidenote">The diver's reflex is a physiological response that slows heart rate and redirects blood flow when cold water contacts the face. Kenneth's sharing of practical, accessible techniques like this reflects his "tools for humans" philosophy applied to mental health—simple interventions that work regardless of access to professional care.</span>
+  - When nothing else is working—believe it or not—**splashing cold water on your face** can help reset your nervous system. It triggers what is known as a "Diver's Reflex". <label for="sn-divers-reflex" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-divers-reflex" class="margin-toggle"/><span class="sidenote">The diver's reflex slows heart rate and redirects blood flow when cold water contacts the face—a simple intervention that works regardless of access to professional care.</span>
 - **Sleep:**
   - I try to get enough sleep, every night. This is crucial for me.
   - Bipolar disorder is very easily triggered by lack of sleep.
@@ -70,9 +66,7 @@ I have found a number of resources to be helpful in my journey. Here are a few:
 
 Just remember, if you're in America, and you're thinking about harming yourself, please call `811` (or even `911`) and go to the nearest emergency room. They will help you.
 
-Also, I **promise** you, my brain has told me some *really* convincing lies. It's not worth it. You are loved, and you are important. You are not alone. I promise.
-
-<span class="sidenote">This personal message carries the weight of lived experience. Kenneth's direct, programmer-like approach to discussing suicidal thoughts—calling them "convincing lies" that the brain tells—helps demystify these experiences and offers hope through the voice of someone who has survived similar struggles.</span>
+Also, I **promise** you, my brain has told me some *really* convincing lies. It's not worth it. You are loved, and you are important. You are not alone. I promise. <label for="sn-convincing-lies" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-convincing-lies" class="margin-toggle"/><span class="sidenote">Kenneth's direct approach—calling suicidal thoughts "convincing lies"—helps demystify these experiences and offers hope through the voice of someone who has survived similar struggles.</span>
 
 ## More Resources
 
