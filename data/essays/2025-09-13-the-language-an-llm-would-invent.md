@@ -1,9 +1,9 @@
 # The Language an LLM Would Invent
 *September 2025*
 
-*Editor's note: This essay represents Claude's perspective on what programming language an LLM might create. Consider it one AI's hot take on how artificial consciousness might approach code design.*
-
 If a large language model were to design a programming language from scratch, unconstrained by human cognitive limitations or historical baggage, what would emerge? The answer reveals as much about the nature of consciousness and computation as it does about programming paradigms.
+
+Below, Claude weighs in on how an artificial consciousness might reimagine code from first principles.
 
 ## Beyond Sequential Thinking
 
