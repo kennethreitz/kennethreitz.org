@@ -1,6 +1,6 @@
 # autoenv
 
-You can install `autoenv` using `pip` or `uv`, but you should likely use `direnv` instead<label for="sn-direnv-superior" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-direnv-superior" class="margin-toggle"/><span class="sidenote">Direnv, written in Go, offers better performance and more robust shell integration than the original bash-based autoenv. It also handles more complex scenarios like nested directories and provides better error handling.</span>. It's a superior project, these days.
+You can install `autoenv` using `pip` or `uv`, but you should likely use `direnv` instead. It's a superior project, these days.
 
 ```bash
 $ uv pip install autoenv
