@@ -5,7 +5,7 @@ After documenting how algorithms systematically consume [language](/essays/2025-
 
 Diagnosis without treatment is just sophisticated despair. And I'm tired of despair.
 
-Here's what's actually happening: we've built systems that extract value from human consciousness like strip mines extract ore from mountains. But if we can design algorithms to consume human virtues, we can design them to cultivate those virtues instead. This isn't utopian thinking—it's engineering.
+Here's what's actually happening: we've built systems that extract value from human consciousness like strip mines extract ore from mountains. <label for="sn-extraction" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-extraction" class="margin-toggle"/><span class="sidenote">The mining metaphor is precise—both leave behind damaged landscapes that take generations to heal.</span> But if we can design algorithms to consume human virtues, we can design them to cultivate those virtues instead. This isn't utopian thinking—it's engineering.
 
 ## The Fundamental Design Choice
 
@@ -45,7 +45,7 @@ The algorithm currently punishes nuance. A thoughtful analysis of healthcare pol
 
 But we could build the opposite. Imagine feeds that present opposing viewpoints together—not false balance, but genuine intellectual engagement with the reality that most important questions have thoughtful people disagreeing about them. Content that acknowledges trade-offs could be algorithmically boosted rather than buried. When experts disagree, systems could highlight this uncertainty rather than manufacturing false consensus.
 
-Think about it: we have the technical capability to create information environments that make people more intellectually sophisticated rather than less. We just... don't.
+Think about it: we have the technical capability to create information environments that make people more intellectually sophisticated rather than less. <label for="sn-capability" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-capability" class="margin-toggle"/><span class="sidenote">We can build recommendation systems that detect cognitive biases and gently counter them. We know how. We choose not to.</span> We just... don't.
 
 ## Relationships vs. Parasocial Extraction
 
@@ -75,7 +75,7 @@ But here's what might be most radical: sometimes the solution isn't better algor
 
 I've been thinking about this a lot during my morning walks (yes, actual walks, not VR experiences). There's something profoundly recalibrating about physical reality that no interface can replicate. Trees don't A/B test their leaves to maximize your engagement. Clouds don't track your viewing time. The wind doesn't push notifications.
 
-This isn't primitive—it's foundational. Human consciousness evolved in relationship with natural rhythms, and those rhythms still reset us in ways that screens cannot. When I'm manic, cold water on my face triggers the diver's reflex and brings me back. When I'm dissociating, feeling actual ground under actual feet reminds me I have a body. These aren't bugs in human consciousness that technology should fix. They're features.
+This isn't primitive—it's foundational. Human consciousness evolved in relationship with natural rhythms, and those rhythms still reset us in ways that screens cannot. <label for="sn-natural-rhythms" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-natural-rhythms" class="margin-toggle"/><span class="sidenote">We spent 300,000 years evolving with sunlight and seasons. We've had screens for 50 years. The mismatch matters.</span> When I'm manic, cold water on my face triggers the diver's reflex and brings me back. When I'm dissociating, feeling actual ground under actual feet reminds me I have a body. These aren't bugs in human consciousness that technology should fix. They're features.
 
 The algorithm cannot eat what it cannot reach. Your unmonitored moments, your private thoughts, your direct experience of weather on skin—these remain outside the optimization machine. Guard them accordingly.
 
@@ -115,7 +115,7 @@ class ConsciousDevelopment:
 
 The fundamental problem is that surveillance capitalism makes human attention a commodity. But we could organize our digital life differently. Subscription models where users pay directly. Public digital infrastructure with public service mandates. Cooperative platforms with democratic governance. Time-banking systems where value comes from contribution rather than extraction.
 
-These aren't fantasies. They're design choices about what we value and how we encode those values in systems.
+These aren't fantasies. They're design choices about what we value and how we encode those values in systems. <label for="sn-design-choices" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-design-choices" class="margin-toggle"/><span class="sidenote">Wikipedia proves collaborative non-profit models can create more value than extractive ones. We just pretend that's an anomaly.</span>
 
 ## What You Can Do Right Now
 
