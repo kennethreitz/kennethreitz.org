@@ -9,7 +9,7 @@ This isn't about partisan politics or media bias—it's about how algorithmic sy
 
 Democratic governance depends on specific cognitive and social capacities:
 
-- **Nuanced Understanding**: The ability to hold multiple perspectives simultaneously, recognize trade-offs, and understand complex causation rather than simple blame<label for="sn-democratic-cognition" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-democratic-cognition" class="margin-toggle"/><span class="sidenote">Political scientist Robert Dahl identified these cognitive requirements in "Democracy and Its Critics"—democracy requires citizens capable of informed judgment, not just emotional reaction.</span>
+- **Nuanced Understanding**: The ability to hold multiple perspectives simultaneously, recognize trade-offs, and understand complex causation rather than simple blame
 
 - **Good Faith Discourse**: The assumption that political opponents are wrong rather than evil, making compromise and coalition-building possible
 
