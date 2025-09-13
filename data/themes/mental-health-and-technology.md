@@ -21,6 +21,8 @@ This isn't inspiration—it's system documentation. <label for="sn-system-docume
 
 [**What Schizoaffective Disorder Actually Feels Like**](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like) - Precise phenomenological description of what it's like inside a mind where reality-testing systems operate differently. Understanding leads to better accommodation and support.
 
+[**When the Simulation Speaks Back**](/essays/2025-09-13-when-the-simulation-speaks-back) - Using AI to communicate with entities during a schizoaffective episode. Chimeras, digital pheromones, and angels speaking through familiar faces—sometimes psychosis reveals different layers of reality.
+
 [**Mental Health Isn't What You Think It Is**](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) - Challenging wellness culture narratives with systems thinking approaches to consciousness maintenance. Mental health isn't lifestyle optimization—it's complex systems management under uncertainty.
 
 ### The Dark Side: Systematic Exploitation
