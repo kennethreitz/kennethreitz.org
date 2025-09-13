@@ -309,14 +309,24 @@ def search_page():
 
 @app.route('/random')
 def random_post():
-    """Redirect to a random blog post."""
-    posts = collect_all_blog_posts()
-    if not posts:
-        return redirect('/directory')
-
+    """Redirect to a random document from anywhere in /data/."""
     import random
-    random_post = random.choice(posts)
-    return redirect(random_post['url'])
+    import glob
+    
+    # Get all markdown files from /data/ directory
+    all_files = glob.glob('data/**/*.md', recursive=True)
+    
+    # Filter out index files
+    all_files = [f for f in all_files if not f.endswith('index.md')]
+    
+    if not all_files:
+        return redirect('/directory')
+    
+    # Choose random file and convert to URL
+    random_file = random.choice(all_files)
+    # Convert data/essays/2010-01-example.md -> /essays/2010-01-example
+    url_path = '/' + random_file.replace('data/', '').replace('.md', '')
+    return redirect(url_path)
 
 
 def get_random_personality_from_collection(collection_path):
