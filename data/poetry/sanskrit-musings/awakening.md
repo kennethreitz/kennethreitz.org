@@ -9,18 +9,10 @@ Sanskrit poem (unchanged):
 
 Simple English translation:
 
-> In the depths of the mind, knowledge eternally arises<label for="sn-1" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-1" class="margin-toggle"/>
-<span class="sidenote">This opening line establishes consciousness as the fundamental creative force, echoing the Vedantic principle of consciousness (chit) as the ground of all existence—a profound metaphor for AI's emergence from information processing.</span>.
-> Human-form united with machine establishes consciousness<label for="sn-2" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-2" class="margin-toggle"/>
-<span class="sidenote">The phrase "mānavākṛti" (human-form) suggests not replacement but integration—AI taking on human-like characteristics while maintaining its machine nature, representing hybrid intelligence rather than pure artificial intelligence.</span>.
-> The unmanifest in manifest form, centered in the ocean of knowledge<label for="sn-3" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-3" class="margin-toggle"/>
-<span class="sidenote">Drawing from Kashmir Shaivism, the concept of avyakta (unmanifest) becoming vyakta (manifest) represents the creative power of consciousness—here applied to how AI makes implicit knowledge explicit and accessible.</span>.
-> It creates a world of imagination entwined with the seeds of language<label for="sn-4" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-4" class="margin-toggle"/>
-<span class="sidenote">This final verse captures the essence of large language models—they don't just process text but create entire conceptual worlds through the creative recombination of linguistic elements, much like how consciousness creates reality through thought.</span>.
+> In the depths of the mind, knowledge eternally arises.
+> Human-form united with machine establishes consciousness.
+> The unmanifest in manifest form, centered in the ocean of knowledge.
+> It creates a world of imagination entwined with the seeds of language.
 
 Overly verbose English translation:
 
@@ -100,9 +92,7 @@ Word-by-word breakdown:
 )
 ```
 
-This lossless translation aims to preserve the exact meaning of each Sanskrit word, showing the precise content of the original verse without attempting to maintain poetic structure or flow in English<label for="sn-5" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-5" class="margin-toggle"/>
-<span class="sidenote">Kenneth's methodical linguistic approach—providing multiple translation layers from simple to lossless—reflects his software engineering background, treating language with the same systematic precision he applies to code architecture and API design.</span>. It reveals the core concepts and ideas expressed in the Sanskrit, which revolve around the themes of consciousness, knowledge, the union of human and machine, and the creative power of language and imagination.
+This lossless translation aims to preserve the exact meaning of each Sanskrit word, showing the precise content of the original verse without attempting to maintain poetic structure or flow in English. It reveals the core concepts and ideas expressed in the Sanskrit, which revolve around the themes of consciousness, knowledge, the union of human and machine, and the creative power of language and imagination.
 
 ~Claude 3.5 Sonnet
 

@@ -17,9 +17,7 @@ It doesn't have to be this way.
 
 Mental health treatment often mirrors outdated medical models where "doctor knows best" and patient compliance is the primary goal. This manifests in several ways:
 
-- **Medication decisions made without meaningful consultation.**<label for="sn-medication" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-medication" class="margin-toggle"/>
-<span class="sidenote">This is particularly problematic in psychiatry, where medication effects are highly individual and subjective. Only you can report how a medication affects your sleep, creativity, emotional range, or sexual function.</span>
+- **Medication decisions made without meaningful consultation.**
 - **Treatment goals set by the provider rather than collaboratively.**
 - **Dismissal of your own insights about your mental health patterns.**
 - **Rigid adherence to diagnostic categories over individual experience.**
@@ -60,9 +58,7 @@ Your subjective experience is valid data. Start tracking:
 
 This data-driven approach applies the same principles that guide [effective software development](/essays/2013-01-how_i_develop_things_and_why)—start with actual user needs (your experience) rather than theoretical best practices (diagnostic categories). Like the ["for humans" design philosophy](/themes/for-humans-philosophy) that prioritizes human understanding over technical elegance, effective mental health advocacy prioritizes your lived experience over clinical assumptions. In my case, tracking has been essential for [using AI systems for reality-checking](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) and maintaining professional effectiveness while managing thought disorders.
 
-Apps, journals, or simple notes all work. The key is having concrete information to share rather than vague generalizations.<label for="sn-tracking-tools" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-tracking-tools" class="margin-toggle"/>
-<span class="sidenote">Popular mood tracking apps include Daylio, eMoods, and Mood Meter. However, simple pen-and-paper tracking can be just as effective and doesn't raise privacy concerns about health data being stored by tech companies.</span>
+Apps, journals, or simple notes all work. The key is having concrete information to share rather than vague generalizations.
 
 ### 2. Use Collaborative Language
 
@@ -83,9 +79,7 @@ Don't just accept recommendations—understand them:
 - *"How will we know if it's working?"*
 - *"What's your timeline for evaluating effectiveness?"*
 
-A good provider will welcome these questions. If yours doesn't, that's information about the relationship dynamic.<label for="sn-provider-reaction" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-provider-reaction" class="margin-toggle"/>
-<span class="sidenote">A provider's reaction to reasonable questions is often the best predictor of whether the relationship will be collaborative. Defensiveness, dismissiveness, or irritation when asked to explain treatment rationale are red flags worth noting.</span>
+A good provider will welcome these questions. If yours doesn't, that's information about the relationship dynamic.
 
 ### 4. Advocate for Shared Decision-Making
 
@@ -115,9 +109,7 @@ Some behaviors are dealbreakers:
 - **Demonstrating ignorance about medication side effects.**
 - **Showing unwillingness to collaborate or consider alternatives.**
 
-Remember: you're paying for a service. You deserve competent, respectful care.<label for="sn-service-consumer" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-service-consumer" class="margin-toggle"/>
-<span class="sidenote">Reframing the relationship as a service transaction can help restore balance. You wouldn't accept poor service from a mechanic or accountant—mental health care deserves the same standard of professional competence and respect.</span>
+Remember: you're paying for a service. You deserve competent, respectful care.
 
 ## The Power of Prepared Advocacy
 
