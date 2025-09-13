@@ -99,17 +99,23 @@ At-will employment laws in most states permit termination for any reason that is
 
 ## What Real Inclusion Would Look Like
 
-Genuine inclusion would require fundamental changes:
+Genuine inclusion would require fundamental changes across organizational culture and structure. This begins with **universal design** that works for diverse neurological capabilities from the beginning, rather than retrofitting accommodations onto systems designed for neurotypical minds. Instead of forcing everyone into standardized processes and then creating exceptions for those who struggle, inclusive design considers cognitive diversity as a basic design requirement.
 
-- **Universal design** that works for diverse neurological capabilities from the beginning
-- **Flexible scheduling** that optimizes for output rather than presence
-- **Multiple communication channels** for different interaction preferences
-- **Sensory-conscious environments** that don't overwhelm sensitive employees
-- **Performance evaluation** that factors in accommodation needs and neurodivergent strengths
-- **Strength-based roles** aligned with individual cognitive capabilities
-- **Leadership modeling** with executives openly discussing their own mental health
-- **Genuine confidentiality** in mental health resources without professional liability
-- **Success celebration** that doesn't hide disability status
+**Flexible scheduling** becomes the norm, with systems that optimize for output quality and impact rather than physical presence or rigid time blocks. This recognizes that different brains have different peak performance windows and that forcing everyone into identical schedules reduces rather than enhances overall productivity.
+
+**Multiple communication channels** accommodate different interaction preferences naturally. Some people process information better through written documentation, others through verbal discussion, and still others through visual diagrams or collaborative workspace tools. Inclusive workplaces provide various ways to participate rather than forcing everyone through identical communication funnels.
+
+**Sensory-conscious environments** consider that what feels comfortable to some employees can be overwhelming or distracting to others. This means providing options for lighting levels, noise management, workspace configuration, and meeting formats that don't inadvertently exclude people with sensory processing differences.
+
+**Performance evaluation** systems factor in accommodation needs and recognize neurodivergent strengths rather than penalizing different cognitive styles. This requires moving beyond one-size-fits-all metrics to evaluation frameworks that capture diverse forms of valuable contribution.
+
+**Strength-based roles** align individual cognitive capabilities with job requirements in ways that optimize both personal satisfaction and organizational outcomes. Instead of forcing square pegs into round holes and then wondering why performance suffers, inclusive organizations design roles around human capabilities rather than abstract job descriptions.
+
+**Leadership modeling** involves executives openly discussing their own mental health journeys and accommodation needs, normalizing these conversations rather than maintaining the fiction that successful people don't struggle with psychological challenges.
+
+**Genuine confidentiality** in mental health resources means protection without professional liability concerns, allowing employees to seek support without fear that their career advancement will be secretly compromised by their health history.
+
+Finally, **success celebration** includes rather than hides disability status, recognizing that many breakthrough innovations and valuable perspectives come from minds that work differently, and that this difference is worth celebrating rather than concealing.
 
 ## The Path Forward
 

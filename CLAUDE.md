@@ -103,11 +103,21 @@ uv remove package-name
 Use numbered, toggleable sidenotes for adding depth without disrupting main narrative flow:
 
 ```html
-<label for="sn-unique-id" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-unique-id" class="margin-toggle"/>
-<span class="sidenote">Sidenote content here</span>
+<label for="sn-unique-id" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-unique-id" class="margin-toggle"/><span class="sidenote">Sidenote content here</span>
 ```
 
+**Critical formatting rules:**
+- **Sidenotes must be inline** - Always attach directly to the end of a sentence (after the period) with NO line breaks
+- **Never place sidenotes on separate lines** - This breaks the formatting
+- **Keep sidenotes away from code blocks** - Attach to paragraph text before or after code examples
+- **No line breaks between elements** - The `<label>`, `<input>`, and `<span>` must be continuous
+
+**Example of CORRECT placement:**
+```markdown
+This is a sentence with important information.<label for="sn-example" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-example" class="margin-toggle"/><span class="sidenote">This sidenote adds context without disrupting flow.</span> The next sentence continues normally.
+```
+
+**Content guidelines:**
 - Use descriptive IDs like `sn-right-speech`, `sn-flow-resource`, `sn-neural-patterns`
 - Sidenotes should complement, not compete with the main text
 - Add contemplative depth, cross-references, or technical context
