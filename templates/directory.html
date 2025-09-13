@@ -9,7 +9,7 @@
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     margin-top: 1.5rem;
 }
@@ -140,9 +140,15 @@
     right: 20px;
 }
 
+@media (max-width: 1024px) {
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media (max-width: 760px) {
     .gallery-grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 0.5rem;
     }
     
@@ -246,8 +252,8 @@
 <!-- Lightbox HTML -->
 <div id="lightbox" class="lightbox">
     <div class="lightbox-close" onclick="closeLightbox()">&times;</div>
-    <div class="lightbox-nav lightbox-prev" onclick="changeImage(-1)">&#8249;</div>
-    <div class="lightbox-nav lightbox-next" onclick="changeImage(1)">&#8250;</div>
+    <div class="lightbox-nav lightbox-prev" onclick="changeImage(-1)">&lt;</div>
+    <div class="lightbox-nav lightbox-next" onclick="changeImage(1)">&gt;</div>
     <div class="lightbox-content">
         <img id="lightbox-image" class="lightbox-image" src="" alt="">
         <div id="lightbox-title" class="lightbox-title"></div>
