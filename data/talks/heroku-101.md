@@ -12,9 +12,7 @@ This presentation provided a comprehensive introduction to Heroku's platform-as-
 
 The presentation began by clarifying the often-confusing landscape of cloud service models. **Software as a Service (SaaS)** serves software users by providing feature-rich applications with transparent updates—platforms like Facebook and Trello exemplify this approach. **Infrastructure as a Service (IaaS)** targets operations teams, offering on-demand machine resources through services like AWS and Digital Ocean.
 
-**Platform as a Service (PaaS)** occupies the sweet spot for developers, providing transparent updates and managed infrastructure without requiring server management expertise.
-
-<label for="sn-paas-evolution" class="margin-toggle sidenote-number"></label>
+**Platform as a Service (PaaS)** occupies the sweet spot for developers, providing transparent updates and managed infrastructure without requiring server management expertise.<label for="sn-paas-evolution" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-paas-evolution" class="margin-toggle"/>
 <span class="sidenote">PaaS represented a fundamental shift in developer workflow, abstracting away infrastructure concerns and enabling rapid prototyping and deployment that influenced the entire industry.</span>
 
@@ -28,9 +26,7 @@ The Python deployment workflow demonstrates Heroku's elegance through its simpli
 
 ## Understanding Dynos
 
-The **dyno** represents Heroku's fundamental abstraction—a lightweight process running in a container rather than a traditional server or virtual machine.
-
-<label for="sn-containerization" class="margin-toggle sidenote-number"></label>
+The **dyno** represents Heroku's fundamental abstraction—a lightweight process running in a container rather than a traditional server or virtual machine.<label for="sn-containerization" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-containerization" class="margin-toggle"/>
 <span class="sidenote">Heroku's dyno model was an early implementation of containerization concepts that later evolved into Docker and Kubernetes orchestration patterns.</span>
 
@@ -40,9 +36,7 @@ This abstraction enables effortless horizontal scaling through simple commands l
 
 Heroku's application management capabilities extend far beyond simple deployment. The `heroku run` command enables **arbitrary command execution** within the application environment—whether running database migrations, opening interactive Python shells, or executing maintenance scripts. This capability maintains the development experience while operating in production infrastructure.
 
-**Addon services** represent one of Heroku's most powerful features, providing managed infrastructure resources like PostgreSQL, Redis, and Kafka through a unified interface.
-
-<label for="sn-addon-ecosystem" class="margin-toggle sidenote-number"></label>
+**Addon services** represent one of Heroku's most powerful features, providing managed infrastructure resources like PostgreSQL, Redis, and Kafka through a unified interface.<label for="sn-addon-ecosystem" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-addon-ecosystem" class="margin-toggle"/>
 <span class="sidenote">The addon ecosystem pioneered the "marketplace" model for cloud services, allowing third-party providers to integrate seamlessly with the platform through standardized APIs.</span>
 

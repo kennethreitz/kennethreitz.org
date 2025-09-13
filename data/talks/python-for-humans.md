@@ -7,9 +7,7 @@
 
 ## Introduction
 
-Delivered by Kenneth Reitz, this presentation focused on the critical challenge of simplifying Python for everyday developers. The motivation stemmed from a growing frustration with unnecessarily complex tools that forced developers to think like computers rather than enabling computers to serve human needs.
-
-<label for="sn-for-humans-movement" class="margin-toggle sidenote-number"></label>
+Delivered by Kenneth Reitz, this presentation focused on the critical challenge of simplifying Python for everyday developers. The motivation stemmed from a growing frustration with unnecessarily complex tools that forced developers to think like computers rather than enabling computers to serve human needs.<label for="sn-for-humans-movement" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-for-humans-movement" class="margin-toggle"/>
 <span class="sidenote">This talk established Kenneth as a thought leader in Python developer experience. The "for Humans" philosophy became a movement that influenced countless Python libraries and frameworks, emphasizing that software should serve humans, not the other way around.</span>
 
@@ -27,9 +25,7 @@ The "for Humans" approach drew deeply from the Python Zen, particularly its emph
 
 ## The Problem with Existing Tools
 
-Traditional Python libraries like urllib2 exemplified everything wrong with overly complex API design. These tools forced developers to wade through layers of abstraction, configuration objects, and edge-case handling just to accomplish simple tasks. The resulting APIs not only deterred newcomers but actively frustrated experienced developers who knew there had to be a better way.
-
-<label for="sn-urllib2-criticism" class="margin-toggle sidenote-number"></label>
+Traditional Python libraries like urllib2 exemplified everything wrong with overly complex API design. These tools forced developers to wade through layers of abstraction, configuration objects, and edge-case handling just to accomplish simple tasks. The resulting APIs not only deterred newcomers but actively frustrated experienced developers who knew there had to be a better way.<label for="sn-urllib2-criticism" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-urllib2-criticism" class="margin-toggle"/>
 <span class="sidenote">The urllib2 criticism became legendary in the Python community. Kenneth's articulation of its flaws helped developers understand that complexity isn't a necessary evil—it's a design choice that can be avoided with careful API planning.</span>
 
@@ -43,9 +39,7 @@ The library's widespread adoption validated the core thesis—when tools align w
 
 ## The Importance of API Design
 
-Effective API design requires a fundamental shift in perspective—from showcasing technical capability to serving actual human needs. The 90% use case principle suggests that libraries should optimize ruthlessly for common scenarios, making them trivially easy while providing escape hatches for edge cases. This approach respects developers' mental bandwidth by not forcing them to learn complex interfaces for simple tasks.
-
-<label for="sn-ninety-percent-principle" class="margin-toggle sidenote-number"></label>
+Effective API design requires a fundamental shift in perspective—from showcasing technical capability to serving actual human needs. The 90% use case principle suggests that libraries should optimize ruthlessly for common scenarios, making them trivially easy while providing escape hatches for edge cases. This approach respects developers' mental bandwidth by not forcing them to learn complex interfaces for simple tasks.<label for="sn-ninety-percent-principle" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-ninety-percent-principle" class="margin-toggle"/>
 <span class="sidenote">The "90% use case" principle revolutionized how Python developers think about API design. Rather than trying to handle every edge case in the primary interface, successful libraries focus on making common tasks trivial while providing escape hatches for complex scenarios.</span>
 

@@ -9,17 +9,13 @@ Kenneth Reitz shares his journey towards self-awareness, shaped by his career in
 
 ### The Journey
 
-Kenneth's path to self-awareness began with recognizing his multiple addictions: travel, open source development, caffeine, and the relentless social pressures of the tech industry.
-
-<label for="sn-tech-burnout" class="margin-toggle sidenote-number"></label>
+Kenneth's path to self-awareness began with recognizing his multiple addictions: travel, open source development, caffeine, and the relentless social pressures of the tech industry.<label for="sn-tech-burnout" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-tech-burnout" class="margin-toggle"/>
 <span class="sidenote">This combination of addictions is particularly common in tech culture, where the pressure to maintain open source projects, attend conferences, and stay constantly connected creates unsustainable patterns.</span>
 
 These compounding dependencies ultimately led to severe burnout, forcing a necessary period of recovery and reflection.
 
-The recovery process involved deliberately stepping away from these patterns to reconnect with family relationships and creative arts while prioritizing physical and mental health. A turning point came through chronic migraines, which catalyzed significant lifestyle changes including meditation practice and dietary modifications.
-
-<label for="sn-holistic-health" class="margin-toggle sidenote-number"></label>
+The recovery process involved deliberately stepping away from these patterns to reconnect with family relationships and creative arts while prioritizing physical and mental health. A turning point came through chronic migraines, which catalyzed significant lifestyle changes including meditation practice and dietary modifications.<label for="sn-holistic-health" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-holistic-health" class="margin-toggle"/>
 <span class="sidenote">This approach reflects growing awareness in the tech community about the interconnection between physical health, mental well-being, and professional performance.</span>
 

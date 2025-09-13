@@ -10,9 +10,7 @@ The presentation explored the fundamental shift in human communication patterns 
 
 Documentation emerges as a powerful mechanism for extending ideas beyond individual minds, enabling collaborative growth and development that transcends geographical and temporal boundaries. When ideas are properly documented, they become living entities that can be improved, adapted, and extended by communities of contributors.
 
-Modern tools like GitHub and Read the Docs have revolutionized this process by making version-controlled, collaborative documentation as natural as collaborative coding.
-
-<label for="sn-rtd-revolution" class="margin-toggle sidenote-number"></label>
+Modern tools like GitHub and Read the Docs have revolutionized this process by making version-controlled, collaborative documentation as natural as collaborative coding.<label for="sn-rtd-revolution" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-rtd-revolution" class="margin-toggle"/>
 <span class="sidenote">Read the Docs revolutionized documentation by automatically building and hosting docs from Git repositories, making it trivial to maintain up-to-date documentation alongside code.</span>
 
@@ -20,9 +18,7 @@ These platforms remove traditional barriers to documentation creation and mainte
 
 ### Call to Action
 
-The presentation concluded with an ambitious vision: expanding documentation practices far beyond the technical realm into humanities, arts, and sciences. 
-
-<label for="sn-cross-disciplinary" class="margin-toggle sidenote-number"></label>
+The presentation concluded with an ambitious vision: expanding documentation practices far beyond the technical realm into humanities, arts, and sciences.<label for="sn-cross-disciplinary" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-cross-disciplinary" class="margin-toggle"/>
 <span class="sidenote">This vision anticipates platforms like GitBook, Notion, and Obsidian that democratize knowledge creation across disciplines, not just software development.</span>
 

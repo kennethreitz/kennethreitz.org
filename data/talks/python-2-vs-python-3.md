@@ -8,9 +8,7 @@
 
 ## Introduction
 
-This deeply personal presentation explored both the emotional and practical challenges that the Python community faced during the prolonged transition from Python 2.7 to Python 3. Framed as a "love story," the talk acknowledged the genuine difficulties of language migration while advocating for community unity and forward progress.
-
-<label for="sn-python3-transition" class="margin-toggle sidenote-number"></label>
+This deeply personal presentation explored both the emotional and practical challenges that the Python community faced during the prolonged transition from Python 2.7 to Python 3. Framed as a "love story," the talk acknowledged the genuine difficulties of language migration while advocating for community unity and forward progress.<label for="sn-python3-transition" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-python3-transition" class="margin-toggle"/>
 <span class="sidenote">The Python 2 to 3 transition, spanning over a decade (2008-2020), was one of the most challenging language migrations in programming history, involving breaking changes to fundamental language features.</span>
 
@@ -30,9 +28,7 @@ The presentation revisited **The Zen of Python**—the language's guiding philos
 
 The transition created genuine **division and fear** within the Python community, leading to widespread uncertainty among developers who had built their expertise and codebases around Python 2. These concerns weren't merely technical—they represented legitimate anxiety about productivity loss, debugging challenges, and potential project disruption.
 
-Specific technical issues amplified these fears, particularly string handling differences and Unicode complexity.
-
-<label for="sn-unicode-complexity" class="margin-toggle sidenote-number"></label>
+Specific technical issues amplified these fears, particularly string handling differences and Unicode complexity.<label for="sn-unicode-complexity" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-unicode-complexity" class="margin-toggle"/>
 <span class="sidenote">Python 3's strict separation of bytes and strings, while ultimately beneficial, required developers to explicitly handle encoding/decoding, exposing many hidden assumptions in Python 2 codebases.</span>
 
@@ -40,9 +36,7 @@ While Python 3's approach would prove superior long-term, the immediate requirem
 
 ## The Great Separation
 
-A **duality emerged** within the Python community as both versions coexisted, but this split created significant maintenance burdens. Library maintainers found themselves supporting both versions, effectively doubling their development and testing efforts.
-
-<label for="sn-dual-support" class="margin-toggle sidenote-number"></label>
+A **duality emerged** within the Python community as both versions coexisted, but this split created significant maintenance burdens. Library maintainers found themselves supporting both versions, effectively doubling their development and testing efforts.<label for="sn-dual-support" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-dual-support" class="margin-toggle"/>
 <span class="sidenote">Tools like six, 2to3, and eventually python-future emerged to help manage cross-version compatibility, but maintaining dual codebases remained a significant burden for maintainers.</span>
 

@@ -8,17 +8,13 @@ Kenneth Reitz contrasts Flask and Django, focusing on the benefits of Flask for 
 
 ### Key Concepts
 
-The presentation provided a thoughtful comparison between Django and Flask, examining how each framework's design philosophy leads to different architectural outcomes. Django represents the "batteries included" approach, providing a comprehensive suite of built-in features including an ORM, admin interface, authentication system, and templating engine.
-
-<label for="sn-django-batteries" class="margin-toggle sidenote-number"></label>
+The presentation provided a thoughtful comparison between Django and Flask, examining how each framework's design philosophy leads to different architectural outcomes. Django represents the "batteries included" approach, providing a comprehensive suite of built-in features including an ORM, admin interface, authentication system, and templating engine.<label for="sn-django-batteries" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-django-batteries" class="margin-toggle"/>
 <span class="sidenote">Django follows the "batteries included" philosophy, providing an ORM, admin interface, authentication system, and templating engine out of the box, which can be both a strength and a constraint.</span>
 
 While this comprehensive approach accelerates initial development, it often results in tightly coupled, monolithic applications that can become difficult to modify or scale independently.
 
-Flask, by contrast, embraces minimalism and flexibility as core design principles. This approach makes it particularly well-suited for building small, composable services that can be combined and scaled independently.
-
-<label for="sn-microservices" class="margin-toggle sidenote-number"></label>
+Flask, by contrast, embraces minimalism and flexibility as core design principles. This approach makes it particularly well-suited for building small, composable services that can be combined and scaled independently.<label for="sn-microservices" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-microservices" class="margin-toggle"/>
 <span class="sidenote">This philosophy aligns well with microservices architecture, where small, focused services communicate via APIs rather than being built as monolithic applications.</span>
 

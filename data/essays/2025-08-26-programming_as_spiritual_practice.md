@@ -31,6 +31,16 @@ In Mahayana Buddhism, a bodhisattva is someone who dedicates their capabilities 
 
 This means writing code that reduces rather than creates suffering, building systems that serve human flourishing over engagement metrics, prioritizing user wellbeing over business optimization, creating tools that amplify human capability rather than replacing human agency, and designing interfaces that respect rather than manipulate human psychology.
 
+This manifests in tangible ways:
+- Writing clear, compassionate error messages that teach rather than shame.
+- Building accessible interfaces that welcome users of all abilities.
+- Choosing sustainable architectures over quick fixes that create technical debt.
+- Refusing to implement dark patterns that exploit psychological vulnerabilities.
+- Open-sourcing tools that serve collective rather than corporate interests.
+- Prioritizing user privacy and consent over engagement metrics.
+- Creating documentation that empowers rather than gatekeeps.
+- Mentoring with patience, recognizing that everyone begins somewhere.
+
 The [algorithmic mental health crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) we're experiencing exists precisely because we've abandoned bodhisattva ethics in favor of profit maximization.
 
 ## Unconscious vs. Conscious Code

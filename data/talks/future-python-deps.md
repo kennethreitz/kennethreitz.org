@@ -6,9 +6,7 @@
 
 ## Introduction
 
-This presentation introduced **Pipenv** as the next evolution in Python dependency management, offering a fundamentally streamlined approach that addressed the longstanding complexities and fragmentation of traditional methods like `pip` and `virtualenv`. The timing proved prescient—this vision would soon become Python's official recommendation.
-
-<label for="sn-pipenv-adoption" class="margin-toggle sidenote-number"></label>
+This presentation introduced **Pipenv** as the next evolution in Python dependency management, offering a fundamentally streamlined approach that addressed the longstanding complexities and fragmentation of traditional methods like `pip` and `virtualenv`. The timing proved prescient—this vision would soon become Python's official recommendation.<label for="sn-pipenv-adoption" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-pipenv-adoption" class="margin-toggle"/>
 <span class="sidenote">This talk coincided with Pipenv's adoption as the officially recommended packaging tool by Python.org, marking a significant shift in Python's packaging landscape and validating Kenneth's vision for better dependency management.</span>
 
@@ -26,9 +24,7 @@ The presentation detailed specific problems plaguing Python's dependency ecosyst
 
 **Requirements.txt** created its own set of complications by requiring two distinct types of dependency files: one containing unpinned dependencies for general requirements (like "Flask"), and another with pinned, all-inclusive dependencies for reproducible builds. This dual-file system confused developers and made dependency management unnecessarily complex.
 
-Most critically, **Python lacked a lockfile** for deterministic dependency management—a feature that other language communities like Node.js and PHP had successfully implemented and relied upon.
-
-<label for="sn-lockfile-philosophy" class="margin-toggle sidenote-number"></label>
+Most critically, **Python lacked a lockfile** for deterministic dependency management—a feature that other language communities like Node.js and PHP had successfully implemented and relied upon.<label for="sn-lockfile-philosophy" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-lockfile-philosophy" class="margin-toggle"/>
 <span class="sidenote">The introduction of lockfiles to Python represented Kenneth's broader philosophy of learning from other language ecosystems. Rather than accepting "that's just how Python works," he imported proven concepts from JavaScript and Ruby communities.</span>
 

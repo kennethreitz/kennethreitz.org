@@ -9,9 +9,7 @@ This talk recaps the 12 Factor App methodology, which is a set of best practices
 
 ## Introduction
 
-The Twelve-Factor App methodology represents a comprehensive approach to building software-as-a-service applications that prioritizes consistency, scalability, and deployment flexibility across different environments. Born from practical experience rather than academic theory, this methodology emerged from real-world patterns observed in production systems.
-
-<label for="sn-twelve-factor-origins" class="margin-toggle sidenote-number"></label>
+The Twelve-Factor App methodology represents a comprehensive approach to building software-as-a-service applications that prioritizes consistency, scalability, and deployment flexibility across different environments. Born from practical experience rather than academic theory, this methodology emerged from real-world patterns observed in production systems.<label for="sn-twelve-factor-origins" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-twelve-factor-origins" class="margin-toggle"/>
 <span class="sidenote">Kenneth's presentation of the 12-factor methodology at Heroku helped establish these principles as industry standards. The methodology codified practices that Heroku discovered through hosting thousands of applications, making implicit knowledge explicit.</span>
 
@@ -25,9 +23,7 @@ Dependency management must be explicit and isolated, eliminating reliance on sys
 
 ## III. Config
 
-Configuration data—database connections, service credentials, environment-specific settings—must be stored in the environment rather than in code. This externalization makes applications truly portable across different deployment contexts without requiring code changes or rebuilds.
-
-<label for="sn-config-revolution" class="margin-toggle sidenote-number"></label>
+Configuration data—database connections, service credentials, environment-specific settings—must be stored in the environment rather than in code. This externalization makes applications truly portable across different deployment contexts without requiring code changes or rebuilds.<label for="sn-config-revolution" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-config-revolution" class="margin-toggle"/>
 <span class="sidenote">The configuration principle fundamentally changed how developers think about application deployment. By externalizing configuration, applications became truly portable across environments, a concept that seems obvious now but was revolutionary when first articulated.</span>
 

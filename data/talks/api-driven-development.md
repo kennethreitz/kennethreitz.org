@@ -8,9 +8,7 @@
 
 Presented by Kenneth Reitz, this talk explored the transformative potential of API-driven development and how it fundamentally changes the way developers approach building software systems. The presentation examined how this methodology not only benefits individual developers but enhances overall team productivity by creating cleaner separation of concerns and more maintainable codebases.
 
-The discussion began with an introduction to Heroku as a web platform that abstracts server management complexities, making application deployment dramatically simpler.
-
-<label for="sn-heroku-paas" class="margin-toggle sidenote-number"></label>
+The discussion began with an introduction to Heroku as a web platform that abstracts server management complexities, making application deployment dramatically simpler.<label for="sn-heroku-paas" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-heroku-paas" class="margin-toggle"/>
 <span class="sidenote">Heroku pioneered the Platform-as-a-Service (PaaS) model, introducing concepts like git-based deployments and buildpacks that became industry standards.</span>
 
@@ -36,9 +34,7 @@ Kenneth advocated for Service-Oriented Architecture as a fundamental solution to
 
 A central theme of the presentation was treating APIs as first-class citizens in the development process, designed with developers as the primary users in mind. This philosophy recognizes that developers are the actual customers of APIs, and their experience using these interfaces directly impacts productivity and adoption.
 
-Kenneth advocated for **Readme-Driven Development**, a methodology that begins with writing comprehensive README documentation before any implementation begins.
-
-<label for="sn-readme-driven" class="margin-toggle sidenote-number"></label>
+Kenneth advocated for **Readme-Driven Development**, a methodology that begins with writing comprehensive README documentation before any implementation begins.<label for="sn-readme-driven" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-readme-driven" class="margin-toggle"/>
 <span class="sidenote">This development philosophy, popularized by Tom Preston-Werner at GitHub, forces developers to think about user experience before implementation, often resulting in cleaner, more intuitive APIs.</span>
 
@@ -46,9 +42,7 @@ This approach forces developers to think from the user's perspective from the ve
 
 ## Pragmatic Development
 
-The talk emphasized **problem-driven development**—the principle that the best solutions emerge when developers experience the problems they're trying to solve firsthand. Kenneth illustrated this with examples like GitHub and 37signals, where breakthrough products emerged from founders solving their own daily frustrations.
-
-<label for="sn-37signals" class="margin-toggle sidenote-number"></label>
+The talk emphasized **problem-driven development**—the principle that the best solutions emerge when developers experience the problems they're trying to solve firsthand. Kenneth illustrated this with examples like GitHub and 37signals, where breakthrough products emerged from founders solving their own daily frustrations.<label for="sn-37signals" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-37signals" class="margin-toggle"/>
 <span class="sidenote">37signals (now Basecamp) famously built their project management tool to solve their own internal collaboration problems, embodying the "scratch your own itch" philosophy of software development.</span>
 

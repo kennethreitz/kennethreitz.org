@@ -11,17 +11,13 @@
 
 ## Historical Context
 
-The presentation traced **Python's web development evolution** from its earliest days. In **1999**, Zope and Plone established Python as a viable web development platform, particularly in government sectors where Python's clarity proved valuable. The **2003** introduction of WSGI created a crucial standardization moment.
-
-<label for="sn-wsgi-standard" class="margin-toggle sidenote-number"></label>
+The presentation traced **Python's web development evolution** from its earliest days. In **1999**, Zope and Plone established Python as a viable web development platform, particularly in government sectors where Python's clarity proved valuable. The **2003** introduction of WSGI created a crucial standardization moment.<label for="sn-wsgi-standard" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-wsgi-standard" class="margin-toggle"/>
 <span class="sidenote">WSGI (Web Server Gateway Interface) standardized the interface between Python web applications and web servers, enabling interoperability and the ecosystem of middleware we see today.</span>
 
 **Key frameworks** emerged in rapid succession: **Django** (2005) as a comprehensive framework for content applications, **Pylons** (2006) with a component-oriented approach, and **Pyramid** (2007) as a balanced alternative.
 
-**Flask** deserves special recognition for its unique origin and impact.
-
-<label for="sn-flask-april-fools" class="margin-toggle sidenote-number"></label>
+**Flask** deserves special recognition for its unique origin and impact.<label for="sn-flask-april-fools" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-flask-april-fools" class="margin-toggle"/>
 <span class="sidenote">Armin Ronacher's April Fool's joke in 2010 became one of the most influential Python web frameworks, demonstrating how simplicity and good design can triumph over comprehensive feature sets.</span>
 
@@ -29,9 +25,7 @@ Initially an April Fool's joke, Flask's elegant simplicity and intuitive API mad
 
 ## The Future: Responder
 
-**Responder's vision** positioned it as a future-forward framework for **2019 and beyond**, designed to address modern web development requirements including WebSockets, Server-Sent Events (SSE), and ASGI support.
-
-<label for="sn-asgi-evolution" class="margin-toggle sidenote-number"></label>
+**Responder's vision** positioned it as a future-forward framework for **2019 and beyond**, designed to address modern web development requirements including WebSockets, Server-Sent Events (SSE), and ASGI support.<label for="sn-asgi-evolution" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-asgi-evolution" class="margin-toggle"/>
 <span class="sidenote">ASGI (Asynchronous Server Gateway Interface) represents the evolution beyond WSGI, enabling support for WebSockets, HTTP/2, and other modern protocols that require asynchronous handling.</span>
 
