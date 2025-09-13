@@ -74,22 +74,6 @@
         font-style: italic;
     }
 
-    /* Reading progress indicator */
-    .reading-progress {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 0%;
-        height: 2px;
-        background: linear-gradient(to right, #007acc, #0099ff);
-        z-index: 1000;
-        transition: width 0.25s ease-out;
-        opacity: 0;
-    }
-
-    .reading-progress.visible {
-        opacity: 1;
-    }
 
     /* Text alignment */
     section p,
@@ -142,7 +126,6 @@
 {% endblock %}
 
 {% block content %}
-<div class="reading-progress"></div>
 <article>
     <h1>{{ title }}</h1>
     {% if metadata and metadata.date %}
@@ -161,50 +144,4 @@
     </section>
 </article>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const progressBar = document.querySelector('.reading-progress');
-    const article = document.querySelector('article');
-    
-    if (!progressBar || !article) return;
-    
-    function updateProgress() {
-        const rect = article.getBoundingClientRect();
-        const articleTop = rect.top + window.pageYOffset;
-        const articleHeight = rect.height;
-        const windowHeight = window.innerHeight;
-        
-        // Calculate how much of the article has been scrolled past
-        const scrollTop = window.pageYOffset;
-        const progress = Math.max(0, Math.min(100, 
-            ((scrollTop - articleTop + windowHeight * 0.5) / articleHeight) * 100
-        ));
-        
-        progressBar.style.width = progress + '%';
-        
-        // Show progress bar when scrolling
-        if (progress > 5 && progress < 95) {
-            progressBar.classList.add('visible');
-        } else {
-            progressBar.classList.remove('visible');
-        }
-    }
-    
-    // Throttle scroll events for performance
-    let ticking = false;
-    function onScroll() {
-        if (!ticking) {
-            requestAnimationFrame(() => {
-                updateProgress();
-                ticking = false;
-            });
-            ticking = true;
-        }
-    }
-    
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', updateProgress, { passive: true });
-    updateProgress(); // Initial call
-});
-</script>
 {% endblock %}
