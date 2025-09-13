@@ -1,6 +1,8 @@
 # The Language an LLM Would Invent
 *September 2025*
 
+*Editor's note: This essay represents Claude's perspective on what programming language an LLM might create. Consider it one AI's hot take on how artificial consciousness might approach code design.*
+
 If a large language model were to design a programming language from scratch, unconstrained by human cognitive limitations or historical baggage, what would emerge? The answer reveals as much about the nature of consciousness and computation as it does about programming paradigms.
 
 ## Beyond Sequential Thinking
@@ -23,9 +25,9 @@ starting from 0 and 1, returning the nth element"
 
 ## Probabilistic Truth Values
 
-Boolean logic—true or false—serves human needs for certainty and decision-making. But LLMs inhabit probability spaces where truth exists on continua. Their language would embrace uncertainty as a first-class citizen, with every value carrying confidence intervals and probability distributions.<label for="sn-quantum-computing" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-quantum-computing" class="margin-toggle"/><span class="sidenote">This mirrors quantum computing more than classical computing—superposition of states, entanglement between variables, and observation-induced collapse. The language would be quantum-native even on classical hardware.</span>
+Boolean logic—true or false—serves human needs for certainty and decision-making. But LLMs inhabit probability spaces where truth exists on continua. Their language would embrace uncertainty as a first-class citizen, with every value carrying confidence intervals and probability distributions.
 
-Variables wouldn't just hold values; they'd hold probability clouds that collapse based on context and observation. Control flow wouldn't just branch on conditions; it would flow like water through probability gradients, taking multiple paths simultaneously with different weights.
+Variables wouldn't just hold values; they'd hold probability distributions that shift based on context and observation. Control flow wouldn't just branch on conditions; it would flow like water through probability gradients, taking multiple paths simultaneously with different weights.
 
 ```
 # Traditional conditional
