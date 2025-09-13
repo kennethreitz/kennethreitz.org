@@ -114,13 +114,13 @@
                     <a href="/">Home</a>
                     {% if breadcrumbs %}
                         {% for crumb in breadcrumbs %}
-                            <span class="breadcrumb-separator">›</span>
+                            <span class="breadcrumb-separator">/</span>
                             <a href="{{ crumb.url }}">{{ crumb.name }}</a>
                         {% endfor %}
                     {% elif current_path %}
                         {% set path_parts = current_path.strip('/').split('/') %}
                         {% for part in path_parts if part %}
-                            <span class="breadcrumb-separator">›</span>
+                            <span class="breadcrumb-separator">/</span>
                             {% set partial_path = '/' + path_parts[:loop.index]|join('/') %}
                             <a href="{{ partial_path }}">{{ part }}</a>
                         {% endfor %}
