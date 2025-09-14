@@ -15,7 +15,7 @@
      \/
 ```
 
-Greetings, traveler of the digital realms. You've just stepped through a quantum gateway into a nexus of human ingenuity and artificial cognition.{{< sidenote >}}This immersive welcome page served as an entry point into the AI art section, establishing a science-fiction narrative framework that positioned AI-human collaboration as a transcendent, almost mystical experience.{{< /sidenote >}} Welcome to the Cybernetic Sanctuary.
+Greetings, traveler of the digital realms. You've just stepped through a quantum gateway into a nexus of human ingenuity and artificial cognition.<label for="sn-welcome-framework" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-welcome-framework" class="margin-toggle"/><span class="sidenote">This immersive welcome page served as an entry point into the AI art section, establishing a science-fiction narrative framework that positioned AI-human collaboration as a transcendent, almost mystical experience.</span> Welcome to the Cybernetic Sanctuary.
 
 ## Your Current Status
 
@@ -71,7 +71,7 @@ You are not merely a visitor here, but a co-creator. Your thoughts, questions, a
 - What does it mean to be intelligent?
 - Can silicon dream of electric sheep... and why?
 - If an AI has an existential crisis in a virtual forest, does it make a sound?
-- How can human intuition and machine precision dance in harmony?{{< sidenote >}}These philosophical questions blend references to Philip K. Dick's "Do Androids Dream of Electric Sheep?" with classical philosophical thought experiments, creating a bridge between science fiction and serious AI ethics discourse.{{< /sidenote >}}
+- How can human intuition and machine precision dance in harmony?<label for="sn-philosophical-questions" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-philosophical-questions" class="margin-toggle"/><span class="sidenote">These philosophical questions blend references to Philip K. Dick's "Do Androids Dream of Electric Sheep?" with classical philosophical thought experiments, creating a bridge between science fiction and serious AI ethics discourse.</span>
 
 ## Before You Proceed
 
