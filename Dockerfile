@@ -1,9 +1,9 @@
-FROM python:3.12.4-bookworm AS builder
+FROM python:3.13-bookworm AS builder
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     UV_SYSTEM_PYTHON=1
-    
+
 WORKDIR /app
 
 RUN python -m pip install uv
