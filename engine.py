@@ -451,6 +451,116 @@ def sidenotes_index():
                          current_page='Sidenotes')
 
 
+def _extract_all_outlines_cached():
+    """Cached function to extract all essay outlines with TTL."""
+    current_time = time.time()
+    
+    # Check if cache is valid
+    if (_outlines_cache['data'] is not None and
+        current_time - _outlines_cache['timestamp'] < CACHE_TTL):
+        return _outlines_cache['data']
+    
+    # Cache miss or expired - rebuild
+    import glob
+    from collections import defaultdict
+    
+    articles_with_outlines = defaultdict(list)
+    
+    # Get all markdown files from /data/ directory
+    all_files = glob.glob('data/**/*.md', recursive=True)
+    
+    # Filter out index files
+    all_files = [f for f in all_files if not f.endswith('index.md')]
+    
+    for file_path in all_files:
+        try:
+            # Read the file and render it
+            full_path = Path(file_path)
+            content_data = render_markdown_file(full_path)
+            html_content = content_data['content']
+            
+            # Extract headings from the HTML using regex
+            # Pattern matches <h1>, <h2>, <h3>, etc. with optional IDs and content
+            heading_pattern = r'<h([1-6])(?:[^>]*id="([^"]*)")?[^>]*>([^<]+)</h[1-6]>'
+            headings = re.findall(heading_pattern, html_content)
+            
+            if headings:
+                # Create URL for this file
+                relative_path = str(full_path.relative_to(DATA_DIR))
+                url_path = '/' + relative_path[:-3]  # Remove .md extension
+                
+                # Extract date for sorting
+                pub_date = extract_intelligent_date(full_path, content_data)
+                
+                # Clean up headings and create outline structure
+                cleaned_headings = []
+                for level, heading_id, heading_text in headings:
+                    # Skip h1 if it matches the title (avoid duplication)
+                    if level == '1' and heading_text.strip() == content_data['title'].strip():
+                        continue
+                    
+                    cleaned_headings.append({
+                        'level': int(level),
+                        'text': heading_text.strip(),
+                        'id': heading_id if heading_id else None,
+                        'anchor_url': f"{url_path}#{heading_id}" if heading_id else url_path
+                    })
+                
+                if cleaned_headings:  # Only add if there are headings after filtering
+                    articles_with_outlines[content_data['title']].append({
+                        'headings': cleaned_headings,
+                        'url': url_path,
+                        'date': pub_date,
+                        'category': full_path.parent.name.replace('-', ' ').title()
+                    })
+        except Exception as e:
+            # Skip files that can't be processed
+            continue
+    
+    # Convert to list and sort by date (most recent first)
+    articles_list = []
+    for title, article_data in articles_with_outlines.items():
+        # Should only be one entry per article
+        data = article_data[0]
+        articles_list.append({
+            'title': title,
+            'url': data['url'],
+            'date': data['date'],
+            'category': data['category'],
+            'headings': data['headings']
+        })
+    
+    articles_list.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
+    
+    # Count total headings
+    total_count = sum(len(article['headings']) for article in articles_list)
+    
+    # Update cache
+    result = {
+        'articles': articles_list,
+        'total_count': total_count
+    }
+    _outlines_cache['data'] = result
+    _outlines_cache['timestamp'] = time.time()
+    
+    return result
+
+
+@app.route('/outlines')
+def outlines_index():
+    """Extract and display all essay outlines from across the site as an index."""
+    # Get cached outlines data
+    outlines_data = _extract_all_outlines_cached()
+    
+    return render_template('outlines.html',
+                         articles=outlines_data['articles'],
+                         total_count=outlines_data['total_count'],
+                         title='Outlines Index',
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='Outlines')
+
+
 @app.route('/random')
 def random_post():
     """Redirect to a random document from anywhere in /data/."""
@@ -984,6 +1094,7 @@ def collect_blog_posts():
 # Cache with TTL - cleared when date extraction logic changes
 _blog_posts_cache = {'data': None, 'timestamp': 0}
 _sidenotes_cache = {'data': None, 'timestamp': 0}
+_outlines_cache = {'data': None, 'timestamp': 0}
 CACHE_TTL = 36000  # 10 hours cache
 
 # Force cache invalidation for filename change
@@ -1190,6 +1301,15 @@ def preload_sidenotes():
     sidenotes_data = _extract_all_sidenotes_cached()
     load_time = time.time() - start_time
     print(f"Extracted {sidenotes_data['total_count']} sidenotes from {len(sidenotes_data['articles'])} articles in {load_time:.2f}s")
+
+
+def preload_outlines():
+    """Preload outlines cache at startup for faster initial page loads."""
+    print("Preloading outlines cache...")
+    start_time = time.time()
+    outlines_data = _extract_all_outlines_cached()
+    load_time = time.time() - start_time
+    print(f"Extracted {outlines_data['total_count']} headings from {len(outlines_data['articles'])} articles in {load_time:.2f}s")
 
 
 def find_related_posts(current_post_path, limit=3):
@@ -1423,6 +1543,7 @@ def rss_feed():
 # Preload caches for faster initial page loads (works with both direct run and Gunicorn)
 preload_blog_posts()
 preload_sidenotes()
+preload_outlines()
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)

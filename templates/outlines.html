@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+    <header>
+        <h1>Outlines Index</h1>
+        <p class="subtitle">Structural navigation &mdash; {{ total_count }} headings across the digital garden.</p>
+    </header>
+
+    <section>
+        <p>Every heading from across the site, extracted and presented as navigable outlines. These structural elements reveal the architecture of ideas, the flow of arguments, and the conceptual scaffolding beneath each exploration.</p>
+        
+        <hr>
+
+        {% if articles %}
+            {% for article in articles %}
+                <div class="article-group">
+                    <h3 class="article-title">
+                        <a href="{{ article.url }}">{{ article.title }}</a>
+                    </h3>
+                    <div class="article-meta">
+                        {{ article.category }}
+                        {% if article.date %}
+                            &middot; {{ article.date.strftime('%B %Y') if article.date.day == 1 else article.date.strftime('%B %d, %Y') }}
+                        {% endif %}
+                        &middot; {{ article.headings|length }} heading{{ 's' if article.headings|length != 1 else '' }}
+                    </div>
+                    
+                    <div class="outline-list">
+                        {% for heading in article.headings %}
+                            <div class="outline-entry level-{{ heading.level }}">
+                                {% if heading.id %}
+                                    <a href="{{ heading.anchor_url }}" class="outline-link">
+                                        {{ heading.text }}
+                                    </a>
+                                {% else %}
+                                    {{ heading.text }}
+                                {% endif %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No outlines found across the site.</p>
+        {% endif %}
+    </section>
+</article>
+
+<style>
+    .subtitle {
+        font-style: italic;
+        color: #666;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+
+    .article-group {
+        margin-bottom: 3rem;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 2rem;
+    }
+
+    .article-group:last-child {
+        border-bottom: none;
+    }
+
+    .article-title {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .article-title a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .article-title a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .article-meta {
+        font-size: 0.9rem;
+        color: #888;
+        margin-bottom: 1.5rem;
+    }
+
+    .outline-list {
+        padding-left: 0;
+    }
+
+    .outline-entry {
+        margin-bottom: 0.4rem;
+        font-size: 1.15rem;
+        line-height: 1.5;
+    }
+
+    .outline-entry.level-1 {
+        font-weight: bold;
+        font-size: 1.3rem;
+        color: #333;
+        padding-left: 0;
+    }
+
+    .outline-entry.level-2 {
+        padding-left: 1.5rem;
+        color: #444;
+        font-size: 1.15rem;
+    }
+
+    .outline-entry.level-3 {
+        padding-left: 3rem;
+        color: #555;
+        font-size: 1.1rem;
+    }
+
+    .outline-entry.level-4 {
+        padding-left: 4.5rem;
+        color: #666;
+        font-size: 1.05rem;
+    }
+
+    .outline-entry.level-5,
+    .outline-entry.level-6 {
+        padding-left: 6rem;
+        color: #777;
+        font-size: 1rem;
+    }
+
+    .outline-link {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .outline-link:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+        .outline-entry.level-2 { padding-left: 1rem; }
+        .outline-entry.level-3 { padding-left: 2rem; }
+        .outline-entry.level-4 { padding-left: 3rem; }
+        .outline-entry.level-5,
+        .outline-entry.level-6 { padding-left: 4rem; }
+    }
+</style>
+{% endblock %}
