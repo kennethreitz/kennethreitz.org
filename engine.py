@@ -1943,19 +1943,14 @@ import concurrent.futures
 import threading
 
 def preload_all_caches():
-    """Run all cache preloading functions concurrently."""
+    """Run all cache preloading functions sequentially to reduce memory usage."""
     print("Starting background cache preloading...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
-        futures = [
-            executor.submit(preload_blog_posts),
-            executor.submit(preload_sidenotes),
-            executor.submit(preload_outlines),
-            executor.submit(preload_quotes),
-            executor.submit(preload_connections),
-            executor.submit(preload_external_links)
-        ]
-        # Wait for all to complete
-        concurrent.futures.wait(futures)
+    preload_blog_posts()
+    preload_sidenotes()
+    preload_outlines()
+    preload_quotes()
+    preload_connections()
+    preload_external_links()
     print("Background cache preloading completed!")
 
 def start_background_preload():
