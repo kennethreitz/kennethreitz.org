@@ -377,6 +377,15 @@ article hr {
     max-width: 65%;
 }
 
+/* Index pages and general hr elements */
+section hr, 
+main hr {
+    width: 65%;
+    max-width: 65%;
+    margin: 3rem 0;
+    margin-left: 0;
+}
+
 @media (max-width: 760px) {
     main hr,
     .post-content hr {
