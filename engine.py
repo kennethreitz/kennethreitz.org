@@ -316,6 +316,12 @@ def index():
                          title="Home")
 
 
+@app.route('/health')
+def health_check():
+    """Simple health check endpoint for monitoring."""
+    return {'status': 'healthy', 'timestamp': datetime.now().isoformat()}
+
+
 @app.route('/search')
 def search_page():
     """Search page with interactive search functionality."""

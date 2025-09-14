@@ -22,11 +22,11 @@ processes = ['app']
 [checks]
   [checks.web]
     type = "http"
-    grace_period = "5s"
+    grace_period = "15s"
     interval = "10s"
     method = "get"
-    path = "/"
-    timeout = "2s"
+    path = "/health"
+    timeout = "10s"
 
 [[vm]]
 memory = '2gb'
