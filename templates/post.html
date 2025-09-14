@@ -103,6 +103,41 @@
         }
     }
 </style>
+
+<script>
+// When arriving at a page with a hash pointing to a sidenote, auto-open it
+document.addEventListener('DOMContentLoaded', function() {
+    if (window.location.hash) {
+        const sidenoteId = window.location.hash.substring(1);
+        const checkbox = document.getElementById(sidenoteId);
+        if (checkbox && checkbox.type === 'checkbox') {
+            // Check the checkbox to reveal the sidenote
+            checkbox.checked = true;
+            
+            // Find the label or parent paragraph to scroll to
+            const label = document.querySelector(`label[for="${sidenoteId}"]`);
+            const scrollTarget = label ? label : checkbox.parentElement;
+            
+            // Scroll to the sidenote after a brief delay
+            setTimeout(() => {
+                if (scrollTarget) {
+                    scrollTarget.scrollIntoView({behavior: 'smooth', block: 'center'});
+                }
+                
+                // Highlight the sidenote temporarily
+                const sidenote = checkbox.nextElementSibling;
+                if (sidenote && sidenote.classList.contains('sidenote')) {
+                    sidenote.style.backgroundColor = '#fffbcc';
+                    sidenote.style.transition = 'background-color 0.3s ease';
+                    setTimeout(() => {
+                        sidenote.style.backgroundColor = '';
+                    }, 3000);
+                }
+            }, 100);
+        }
+    }
+});
+</script>
 {% endblock %}
 
 {% block content %}

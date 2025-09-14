@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+    <header>
+        <h1>Sidenotes Index</h1>
+        <p class="subtitle">The contemplative layer &mdash; {{ total_count }} marginalia across the digital garden.</p>
+    </header>
+
+    <section>
+        <p>Every sidenote from across the site, extracted and presented as its own contemplative document. These margin thoughts often contain the most honest insights, the recursive observations that couldn't fit in the main narrative flow.</p>
+        
+        <hr>
+
+        {% if articles %}
+            {% for article in articles %}
+                <div class="article-group">
+                    <h3 class="article-title">
+                        <a href="{{ article.url }}">{{ article.title }}</a>
+                    </h3>
+                    <div class="article-meta">
+                        {{ article.category }}
+                        {% if article.date %}
+                            &middot; {{ article.date.strftime('%B %Y') if article.date.day == 1 else article.date.strftime('%B %d, %Y') }}
+                        {% endif %}
+                        &middot; {{ article.sidenotes|length }} sidenote{{ 's' if article.sidenotes|length != 1 else '' }}
+                    </div>
+                    
+                    <div class="sidenotes-list">
+                        {% for sidenote in article.sidenotes %}
+                            <p class="sidenote-entry">
+                                {% if sidenote.id %}
+                                    <a href="{{ article.url }}#{{ sidenote.id }}" class="sidenote-link">
+                                        {{ sidenote.text|safe }}
+                                    </a>
+                                {% else %}
+                                    {{ sidenote.text|safe if sidenote.text else sidenote|safe }}
+                                {% endif %}
+                            </p>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No sidenotes found across the site.</p>
+        {% endif %}
+    </section>
+</article>
+
+<style>
+    .subtitle {
+        font-style: italic;
+        color: #666;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+
+    .article-group {
+        margin-bottom: 3rem;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 2rem;
+    }
+
+    .article-group:last-child {
+        border-bottom: none;
+    }
+
+    .article-title {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .article-title a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .article-title a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .article-meta {
+        font-size: 0.9rem;
+        color: #888;
+        margin-bottom: 1.5rem;
+    }
+
+    .sidenotes-list {
+        padding-left: 0;
+    }
+
+    .sidenote-entry {
+        margin-bottom: 1.2rem;
+        padding-left: 2rem;
+        border-left: 3px solid #f0f0f0;
+        font-size: 1.4rem;
+        line-height: 1.8;
+        color: #333;
+        font-style: italic;
+    }
+
+    .sidenote-entry:last-child {
+        margin-bottom: 0;
+    }
+
+    .sidenote-link {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+    }
+
+    .sidenote-link:hover {
+        color: #222;
+        background-color: #fafafa;
+        margin-left: -0.5rem;
+        padding-left: 0.5rem;
+        border-radius: 3px;
+    }
+
+    @media (max-width: 768px) {
+        .sidenotes-list {
+            padding-left: 0.5rem;
+        }
+        
+        .sidenote-entry {
+            padding-left: 1rem;
+            font-size: 1rem;
+        }
+    }
+</style>
+{% endblock %}

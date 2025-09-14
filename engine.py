@@ -325,6 +325,132 @@ def search_page():
                          current_page='Search')
 
 
+def _extract_all_sidenotes_cached():
+    """Cached function to extract all sidenotes with TTL."""
+    current_time = time.time()
+    
+    # Check if cache is valid
+    if (_sidenotes_cache['data'] is not None and
+        current_time - _sidenotes_cache['timestamp'] < CACHE_TTL):
+        return _sidenotes_cache['data']
+    
+    # Cache miss or expired - rebuild
+    import glob
+    from collections import defaultdict
+    
+    articles_with_sidenotes = defaultdict(list)
+    
+    # Get all markdown files from /data/ directory
+    all_files = glob.glob('data/**/*.md', recursive=True)
+    
+    # Filter out index files
+    all_files = [f for f in all_files if not f.endswith('index.md')]
+    
+    for file_path in all_files:
+        try:
+            # Read the file and render it
+            full_path = Path(file_path)
+            content_data = render_markdown_file(full_path)
+            html_content = content_data['content']
+            
+            # Extract sidenotes from the HTML using regex
+            # Pattern matches <span class="sidenote">content</span>
+            sidenote_pattern = r'<span class="sidenote">(.*?)</span>'
+            file_sidenotes = re.findall(sidenote_pattern, html_content, re.DOTALL)
+            
+            if file_sidenotes:
+                # Create URL for this file
+                relative_path = str(full_path.relative_to(DATA_DIR))
+                url_path = '/' + relative_path[:-3]  # Remove .md extension
+                
+                # Extract date for sorting
+                pub_date = extract_intelligent_date(full_path, content_data)
+                
+                # Clean up sidenotes and add to article group with IDs
+                cleaned_sidenotes = []
+                
+                # Also extract sidenote IDs from the HTML
+                # Pattern to match the full sidenote structure with ID
+                full_pattern = r'<input type="checkbox" id="(sn-[^"]+)"[^>]*\/><span class="sidenote">(.*?)</span>'
+                full_matches = re.findall(full_pattern, html_content, re.DOTALL)
+                
+                if full_matches:
+                    # We have IDs for the sidenotes
+                    for sidenote_id, sidenote_text in full_matches:
+                        # Remove HTML links but keep the link text
+                        sidenote_text = re.sub(r'<a[^>]*?>(.*?)</a>', r'\1', sidenote_text)
+                        # Clean up the sidenote text (remove extra whitespace)
+                        sidenote_text = re.sub(r'\s+', ' ', sidenote_text).strip()
+                        cleaned_sidenotes.append({
+                            'text': sidenote_text,
+                            'id': sidenote_id
+                        })
+                else:
+                    # Fallback for sidenotes without IDs
+                    for i, sidenote in enumerate(file_sidenotes):
+                        # Remove HTML links but keep the link text
+                        sidenote_text = re.sub(r'<a[^>]*?>(.*?)</a>', r'\1', sidenote)
+                        # Clean up the sidenote text (remove extra whitespace)
+                        sidenote_text = re.sub(r'\s+', ' ', sidenote_text).strip()
+                        cleaned_sidenotes.append({
+                            'text': sidenote_text,
+                            'id': None
+                        })
+                
+                articles_with_sidenotes[content_data['title']].append({
+                    'sidenotes': cleaned_sidenotes,
+                    'url': url_path,
+                    'date': pub_date,
+                    'category': full_path.parent.name.replace('-', ' ').title()
+                })
+        except Exception as e:
+            # Skip files that can't be processed
+            continue
+    
+    # Convert to list and sort by date (most recent first)
+    articles_list = []
+    for title, article_data in articles_with_sidenotes.items():
+        # Should only be one entry per article
+        data = article_data[0]
+        articles_list.append({
+            'title': title,
+            'url': data['url'],
+            'date': data['date'],
+            'category': data['category'],
+            'sidenotes': data['sidenotes']
+        })
+    
+    articles_list.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
+    
+    # Count total sidenotes
+    total_count = sum(len(article['sidenotes']) for article in articles_list)
+    
+    # Update cache
+    result = {
+        'articles': articles_list,
+        'total_count': total_count
+    }
+    _sidenotes_cache['data'] = result
+    _sidenotes_cache['timestamp'] = time.time()
+    
+    return result
+
+
+@app.route('/sidenotes')
+def sidenotes_index():
+    """Extract and display all sidenotes from across the site as an index."""
+    # Get cached sidenotes data
+    sidenotes_data = _extract_all_sidenotes_cached()
+    
+    return render_template('sidenotes.html',
+                         articles=sidenotes_data['articles'],
+                         total_count=sidenotes_data['total_count'],
+                         title='Sidenotes Index',
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='Sidenotes')
+
+
 @app.route('/random')
 def random_post():
     """Redirect to a random document from anywhere in /data/."""
@@ -836,6 +962,7 @@ def collect_blog_posts():
 
 # Cache with TTL - cleared when date extraction logic changes
 _blog_posts_cache = {'data': None, 'timestamp': 0}
+_sidenotes_cache = {'data': None, 'timestamp': 0}
 CACHE_TTL = 36000  # 10 hours cache
 
 # Force cache invalidation for filename change
@@ -1033,6 +1160,15 @@ def preload_blog_posts():
     posts = _collect_all_blog_posts_cached()
     load_time = time.time() - start_time
     print(f"Loaded {len(posts)} posts in {load_time:.2f}s")
+
+
+def preload_sidenotes():
+    """Preload sidenotes cache at startup for faster initial page loads."""
+    print("Preloading sidenotes cache...")
+    start_time = time.time()
+    sidenotes_data = _extract_all_sidenotes_cached()
+    load_time = time.time() - start_time
+    print(f"Extracted {sidenotes_data['total_count']} sidenotes from {len(sidenotes_data['articles'])} articles in {load_time:.2f}s")
 
 
 def find_related_posts(current_post_path, limit=3):
@@ -1263,8 +1399,9 @@ def rss_feed():
 
 
 
-# Preload blog posts cache for faster initial page loads (works with both direct run and Gunicorn)
+# Preload caches for faster initial page loads (works with both direct run and Gunicorn)
 preload_blog_posts()
+preload_sidenotes()
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)
