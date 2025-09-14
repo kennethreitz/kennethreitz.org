@@ -18,9 +18,19 @@
         <a href="#year-{{ year }}">{{ year }}</a>{% if not loop.last %} • {% endif %}
     {% endfor %}
     </p>
-    <p style="margin-top: 0.5rem; font-size: 0.9em;">
-        <strong>Browse by type:</strong> <a href="/directory">File Directory</a> • <a href="/themes">Themes</a> • <a href="/sidenotes">Sidenotes</a> • <a href="/outlines">Outlines</a> • <a href="/quotes">Quotes</a> • <a href="/connections">Connections</a>
-    </p>
+    <div class="browse-by-type">
+        <strong>Browse by type:</strong>
+        <div class="type-links">
+            <a href="/directory">File Directory</a>
+            <a href="/themes">Themes</a>
+            <a href="/sidenotes">Sidenotes</a>
+            <a href="/outlines">Outlines</a>
+            <a href="/quotes">Quotes</a>
+            <a href="/connections">Connections</a>
+            <a href="/external-links">External Links</a>
+            <a href="/graph">Graph</a>
+        </div>
+    </div>
 </nav>
 {% endif %}
 
@@ -60,6 +70,37 @@
 .year-picker p {
     margin: 0;
     font-size: 0.95rem;
+}
+
+.browse-by-type {
+    margin-top: 0.5rem;
+    font-size: 0.9em;
+}
+
+.browse-by-type strong {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.type-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.type-links a {
+    color: #666;
+    text-decoration: none;
+    background: #f0f0f0;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+}
+
+.type-links a:hover {
+    color: #333;
+    background: #e0e0e0;
 }
 
 .year-picker a {
