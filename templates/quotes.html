@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+    <header>
+        <h1>Quotes Index</h1>
+        <p class="subtitle">Collected wisdom &mdash; {{ total_count }} quotable insights across the digital garden.</p>
+    </header>
+
+    <section>
+        <p>Every blockquote from across the site, extracted and presented as a collection of quotable insights. These are the moments of distilled understanding, the crystallized thoughts worth highlighting and sharing.</p>
+        
+        <hr>
+
+        {% if articles %}
+            {% for article in articles %}
+                <div class="article-group">
+                    <h3 class="article-title">
+                        <a href="{{ article.url }}">{{ article.title }}</a>
+                    </h3>
+                    <div class="article-meta">
+                        {{ article.category }}
+                        {% if article.date %}
+                            &middot; {{ article.date.strftime('%B %Y') if article.date.day == 1 else article.date.strftime('%B %d, %Y') }}
+                        {% endif %}
+                        &middot; {{ article.quotes|length }} quote{{ 's' if article.quotes|length != 1 else '' }}
+                    </div>
+                    
+                    <div class="quotes-list">
+                        {% for quote in article.quotes %}
+                            <blockquote>
+                                {{ quote|safe }}
+                            </blockquote>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No quotes found across the site.</p>
+        {% endif %}
+    </section>
+</article>
+
+<style>
+    .subtitle {
+        font-style: italic;
+        color: #666;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+
+    .article-group {
+        margin-bottom: 3rem;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 2rem;
+    }
+
+    .article-group:last-child {
+        border-bottom: none;
+    }
+
+    .article-title {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .article-title a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .article-title a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .article-meta {
+        font-size: 0.9rem;
+        color: #888;
+        margin-bottom: 1.5rem;
+    }
+
+    .quotes-list {
+        padding-left: 0;
+    }
+
+    .quotes-list blockquote {
+        margin: 1.5rem 0;
+        padding: 1rem 2rem;
+        border-left: 3px solid #e0e0e0;
+        font-size: 1.3rem;
+        line-height: 1.8;
+        color: #444;
+        font-style: normal;
+        background: #fafafa;
+    }
+
+    .quotes-list blockquote:last-child {
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 768px) {
+        .quotes-list blockquote {
+            padding: 0.8rem 1.5rem;
+            font-size: 1.2rem;
+        }
+    }
+
+</style>
+{% endblock %}

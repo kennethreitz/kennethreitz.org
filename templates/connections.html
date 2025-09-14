@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+    <header>
+        <h1>Connections Index</h1>
+        <p class="subtitle">The knowledge web &mdash; {{ total_count }} cross-references revealing the interconnected nature of ideas.</p>
+    </header>
+
+    <section>
+        <p>Every internal link from across the site, extracted and presented as a map of intellectual connections. These cross-references reveal how ideas build on each other, creating a web of meaning that transcends individual essays.</p>
+        
+        <hr>
+
+        {% if articles %}
+            {% for article in articles %}
+                <div class="article-group">
+                    <h3 class="article-title">
+                        <a href="{{ article.url }}">{{ article.title }}</a>
+                    </h3>
+                    <div class="article-meta">
+                        {{ article.category }}
+                        {% if article.date %}
+                            &middot; {{ article.date.strftime('%B %Y') if article.date.day == 1 else article.date.strftime('%B %d, %Y') }}
+                        {% endif %}
+                        &middot; {{ article.connections|length }} connection{{ 's' if article.connections|length != 1 else '' }}
+                    </div>
+                    
+                    <div class="connections-list">
+                        {% for connection in article.connections %}
+                            <div class="connection-entry">
+                                <div class="connection-arrow">→</div>
+                                <div class="connection-target">
+                                    <strong><a href="{{ connection.target_url }}">{{ connection.link_text }}</a></strong>
+                                    <div class="connection-url">{{ connection.target_url }}</div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No connections found across the site.</p>
+        {% endif %}
+    </section>
+</article>
+
+<style>
+    .subtitle {
+        font-style: italic;
+        color: #666;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+
+    .article-group {
+        margin-bottom: 3rem;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 2rem;
+    }
+
+    .article-group:last-child {
+        border-bottom: none;
+    }
+
+    .article-title {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .article-title a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .article-title a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .article-meta {
+        font-size: 0.9rem;
+        color: #888;
+        margin-bottom: 1.5rem;
+    }
+
+    .connections-list {
+        padding-left: 0;
+        max-width: 65%;
+    }
+
+    .connection-entry {
+        margin-bottom: 1rem;
+        padding: 1rem 1.5rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        background: #fafafa;
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .connection-entry:last-child {
+        margin-bottom: 0;
+    }
+
+    .connection-arrow {
+        font-size: 1.2rem;
+        color: #666;
+        margin-top: 0.1rem;
+        font-weight: bold;
+    }
+
+    .connection-target {
+        flex: 1;
+    }
+
+    .connection-target strong a {
+        color: #2563eb;
+        text-decoration: none;
+        font-size: 1.05rem;
+    }
+
+    .connection-target strong a:hover {
+        color: #1d4ed8;
+        text-decoration: underline;
+    }
+
+    .connection-url {
+        font-size: 0.8rem;
+        color: #888;
+        font-family: monospace;
+        margin-top: 0.3rem;
+    }
+
+    @media (max-width: 768px) {
+        .connection-entry {
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 1rem;
+        }
+
+        .connection-arrow {
+            align-self: center;
+            transform: rotate(90deg);
+        }
+
+        .connection-target {
+            flex: none;
+        }
+    }
+</style>
+{% endblock %}

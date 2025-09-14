@@ -1,0 +1,284 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+    <header>
+        <h1>Cross-Reference Graph</h1>
+        <p class="subtitle">Interactive network visualization of connections between essays and ideas.</p>
+    </header>
+
+    <section>
+        <p>Each node represents an essay, each edge represents a cross-reference. Click and drag nodes to explore the network. Hover over connections to see link text.</p>
+        
+        <div class="graph-controls">
+            <button id="resetZoom">Reset View</button>
+            <button id="toggleLabels">Toggle Labels</button>
+            <span id="graphStats">Loading...</span>
+        </div>
+        
+        <div id="graph-container">
+            <svg id="network-graph" width="100%" height="600"></svg>
+        </div>
+    </section>
+</article>
+
+<style>
+    .subtitle {
+        font-style: italic;
+        color: #666;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+
+    .graph-controls {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background: #f8f8f8;
+        border-radius: 6px;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .graph-controls button {
+        padding: 0.5rem 1rem;
+        border: 1px solid #ddd;
+        background: white;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 0.9rem;
+    }
+
+    .graph-controls button:hover {
+        background: #f0f0f0;
+    }
+
+    #graphStats {
+        margin-left: auto;
+        font-size: 0.85rem;
+        color: #666;
+    }
+
+    #graph-container {
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        overflow: hidden;
+        background: white;
+    }
+
+    #network-graph {
+        display: block;
+        width: 100%;
+        height: 600px;
+    }
+
+    .node {
+        stroke: #fff;
+        stroke-width: 1.5px;
+        cursor: pointer;
+    }
+
+    .node:hover {
+        stroke: #333;
+        stroke-width: 2px;
+    }
+
+    .link {
+        stroke: #999;
+        stroke-opacity: 0.6;
+        stroke-width: 1px;
+    }
+
+    .link:hover {
+        stroke: #333;
+        stroke-opacity: 1;
+        stroke-width: 2px;
+    }
+
+    .node-label {
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+        fill: #333;
+        text-anchor: middle;
+        pointer-events: none;
+    }
+
+    .tooltip {
+        position: absolute;
+        padding: 8px;
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        border-radius: 4px;
+        pointer-events: none;
+        font-size: 12px;
+        z-index: 10;
+        max-width: 200px;
+    }
+
+    @media (max-width: 768px) {
+        #network-graph {
+            height: 400px;
+        }
+        
+        .graph-controls {
+            flex-direction: column;
+            align-items: stretch;
+        }
+        
+        .graph-controls button {
+            margin-bottom: 0.5rem;
+        }
+        
+        #graphStats {
+            margin-left: 0;
+            text-align: center;
+        }
+    }
+</style>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const width = document.getElementById('graph-container').clientWidth;
+    const height = 600;
+    
+    const svg = d3.select("#network-graph")
+        .attr("viewBox", [0, 0, width, height]);
+    
+    // Create tooltip
+    const tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+    
+    // Color scale for categories
+    const color = d3.scaleOrdinal(d3.schemeCategory10);
+    
+    // Create zoom behavior
+    const zoom = d3.zoom()
+        .scaleExtent([0.1, 10])
+        .on("zoom", (event) => {
+            g.attr("transform", event.transform);
+        });
+    
+    svg.call(zoom);
+    
+    // Create main group for zooming
+    const g = svg.append("g");
+    
+    // Load data and create visualization
+    d3.json("/graph/data").then(function(data) {
+        document.getElementById('graphStats').textContent = 
+            `${data.nodes.length} articles, ${data.edges.length} connections`;
+        
+        // Create force simulation
+        const simulation = d3.forceSimulation(data.nodes)
+            .force("link", d3.forceLink(data.edges).id(d => d.id).distance(100))
+            .force("charge", d3.forceManyBody().strength(-300))
+            .force("center", d3.forceCenter(width / 2, height / 2))
+            .force("collision", d3.forceCollide().radius(20));
+        
+        // Create links
+        const link = g.append("g")
+            .selectAll("line")
+            .data(data.edges)
+            .enter().append("line")
+            .attr("class", "link")
+            .on("mouseover", function(event, d) {
+                tooltip.transition().duration(200).style("opacity", .9);
+                tooltip.html(`<strong>Link:</strong> ${d.link_text}`)
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 10) + "px");
+            })
+            .on("mouseout", function(d) {
+                tooltip.transition().duration(500).style("opacity", 0);
+            });
+        
+        // Create nodes
+        const node = g.append("g")
+            .selectAll("circle")
+            .data(data.nodes)
+            .enter().append("circle")
+            .attr("class", "node")
+            .attr("r", 8)
+            .attr("fill", d => color(d.category))
+            .on("mouseover", function(event, d) {
+                tooltip.transition().duration(200).style("opacity", .9);
+                tooltip.html(`<strong>${d.title}</strong><br/>Category: ${d.category}`)
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 10) + "px");
+            })
+            .on("mouseout", function(d) {
+                tooltip.transition().duration(500).style("opacity", 0);
+            })
+            .on("click", function(event, d) {
+                window.open(d.url, '_blank');
+            })
+            .call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
+        
+        // Create labels (initially hidden)
+        const labels = g.append("g")
+            .selectAll("text")
+            .data(data.nodes)
+            .enter().append("text")
+            .attr("class", "node-label")
+            .text(d => d.title.length > 30 ? d.title.substring(0, 30) + "..." : d.title)
+            .style("opacity", 0);
+        
+        // Update positions on simulation tick
+        simulation.on("tick", () => {
+            link
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+            
+            node
+                .attr("cx", d => d.x)
+                .attr("cy", d => d.y);
+            
+            labels
+                .attr("x", d => d.x)
+                .attr("y", d => d.y + 20);
+        });
+        
+        // Control functions
+        let labelsVisible = false;
+        
+        document.getElementById('resetZoom').onclick = () => {
+            svg.transition().duration(750).call(
+                zoom.transform,
+                d3.zoomIdentity
+            );
+        };
+        
+        document.getElementById('toggleLabels').onclick = () => {
+            labelsVisible = !labelsVisible;
+            labels.transition().duration(300).style("opacity", labelsVisible ? 1 : 0);
+        };
+        
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+        
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+        
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+    }).catch(function(error) {
+        console.error("Error loading graph data:", error);
+        document.getElementById('graphStats').textContent = "Error loading graph data";
+    });
+});
+</script>
+{% endblock %}

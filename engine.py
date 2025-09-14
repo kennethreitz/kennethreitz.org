@@ -9,6 +9,7 @@ import json
 import time
 from xml.sax.saxutils import escape
 import html
+from collections import defaultdict
 
 app = Flask(__name__, template_folder='templates')
 
@@ -561,6 +562,301 @@ def outlines_index():
                          current_page='Outlines')
 
 
+def _extract_all_quotes_cached():
+    """Cached function to extract all blockquotes with TTL."""
+    current_time = time.time()
+    
+    # Check if cache is valid
+    if (_quotes_cache['data'] is not None and
+        current_time - _quotes_cache['timestamp'] < CACHE_TTL):
+        return _quotes_cache['data']
+    
+    # Cache miss or expired - rebuild
+    import glob
+    from collections import defaultdict
+    
+    articles_with_quotes = defaultdict(list)
+    
+    # Get all markdown files from /data/ directory
+    all_files = glob.glob('data/**/*.md', recursive=True)
+    
+    # Filter out index files
+    all_files = [f for f in all_files if not f.endswith('index.md')]
+    
+    for file_path in all_files:
+        try:
+            # Read the file and render it
+            full_path = Path(file_path)
+            content_data = render_markdown_file(full_path)
+            html_content = content_data['content']
+            
+            # Extract blockquotes from the HTML using regex
+            # Pattern matches <blockquote>content</blockquote>
+            quote_pattern = r'<blockquote[^>]*>(.*?)</blockquote>'
+            quotes = re.findall(quote_pattern, html_content, re.DOTALL)
+            
+            if quotes:
+                # Create URL for this file
+                relative_path = str(full_path.relative_to(DATA_DIR))
+                url_path = '/' + relative_path[:-3]  # Remove .md extension
+                
+                # Extract date for sorting
+                pub_date = extract_intelligent_date(full_path, content_data)
+                
+                # Clean up quotes
+                cleaned_quotes = []
+                for quote in quotes:
+                    # Remove inner HTML tags but preserve basic formatting
+                    quote_text = re.sub(r'<(?!/?(?:em|strong|i|b)\b)[^>]*>', '', quote)
+                    quote_text = re.sub(r'\s+', ' ', quote_text).strip()
+                    
+                    # Skip very short quotes (likely not substantive)
+                    if len(quote_text) > 20:
+                        cleaned_quotes.append(quote_text)
+                
+                if cleaned_quotes:
+                    articles_with_quotes[content_data['title']].append({
+                        'quotes': cleaned_quotes,
+                        'url': url_path,
+                        'date': pub_date,
+                        'category': full_path.parent.name.replace('-', ' ').title()
+                    })
+        except Exception as e:
+            # Skip files that can't be processed
+            continue
+    
+    # Convert to list and sort by date (most recent first)
+    articles_list = []
+    for title, article_data in articles_with_quotes.items():
+        # Should only be one entry per article
+        data = article_data[0]
+        articles_list.append({
+            'title': title,
+            'url': data['url'],
+            'date': data['date'],
+            'category': data['category'],
+            'quotes': data['quotes']
+        })
+    
+    articles_list.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
+    
+    # Count total quotes
+    total_count = sum(len(article['quotes']) for article in articles_list)
+    
+    # Update cache
+    result = {
+        'articles': articles_list,
+        'total_count': total_count
+    }
+    _quotes_cache['data'] = result
+    _quotes_cache['timestamp'] = time.time()
+    
+    return result
+
+
+@app.route('/quotes')
+def quotes_index():
+    """Extract and display all blockquotes from across the site as an index."""
+    # Get cached quotes data
+    quotes_data = _extract_all_quotes_cached()
+    
+    return render_template('quotes.html',
+                         articles=quotes_data['articles'],
+                         total_count=quotes_data['total_count'],
+                         title='Quotes Index',
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='Quotes')
+
+
+def _extract_all_connections_cached():
+    """Cached function to extract all internal cross-references with TTL."""
+    current_time = time.time()
+    
+    # Check if cache is valid
+    if (_connections_cache['data'] is not None and
+        current_time - _connections_cache['timestamp'] < CACHE_TTL):
+        return _connections_cache['data']
+    
+    # Cache miss or expired - rebuild
+    import glob
+    from collections import defaultdict
+    
+    articles_with_connections = defaultdict(list)
+    
+    # Get all markdown files from /data/ directory
+    all_files = glob.glob('data/**/*.md', recursive=True)
+    
+    # Filter out index files
+    all_files = [f for f in all_files if not f.endswith('index.md')]
+    
+    for file_path in all_files:
+        try:
+            # Read the file and render it
+            full_path = Path(file_path)
+            content_data = render_markdown_file(full_path)
+            html_content = content_data['content']
+            
+            # Extract internal links from the HTML
+            # Pattern matches <a href="/internal/path">link text</a>
+            link_pattern = r'<a[^>]*href="(/[^"]*)"[^>]*>(.*?)</a>'
+            links = re.findall(link_pattern, html_content, re.DOTALL)
+            
+            if links:
+                # Create URL for this file
+                relative_path = str(full_path.relative_to(DATA_DIR))
+                source_url = '/' + relative_path[:-3]  # Remove .md extension
+                
+                # Extract date for sorting
+                pub_date = extract_intelligent_date(full_path, content_data)
+                
+                # Collect connections for this article
+                article_connections = []
+                
+                # Filter for internal links only (skip external URLs and fragments)
+                for link_url, link_text in links:
+                    if (link_url.startswith('/') and 
+                        not link_url.startswith('//') and 
+                        not link_url.startswith('/static') and
+                        link_url != source_url):  # Don't include self-references
+                        
+                        # Clean up link text
+                        link_text = re.sub(r'<[^>]*>', '', link_text)
+                        link_text = re.sub(r'\s+', ' ', link_text).strip()
+                        
+                        article_connections.append({
+                            'target_url': link_url,
+                            'link_text': link_text
+                        })
+                
+                if article_connections:
+                    articles_with_connections[content_data['title']].append({
+                        'connections': article_connections,
+                        'url': source_url,
+                        'date': pub_date,
+                        'category': full_path.parent.name.replace('-', ' ').title()
+                    })
+        except Exception as e:
+            # Skip files that can't be processed
+            continue
+    
+    # Convert to list and sort by date (most recent first)
+    articles_list = []
+    for title, article_data in articles_with_connections.items():
+        # Should only be one entry per article
+        data = article_data[0]
+        articles_list.append({
+            'title': title,
+            'url': data['url'],
+            'date': data['date'],
+            'category': data['category'],
+            'connections': data['connections']
+        })
+    
+    articles_list.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
+    
+    # Count total connections
+    total_count = sum(len(article['connections']) for article in articles_list)
+    
+    # Update cache
+    result = {
+        'articles': articles_list,
+        'total_count': total_count
+    }
+    _connections_cache['data'] = result
+    _connections_cache['timestamp'] = time.time()
+    
+    return result
+
+
+@app.route('/connections')
+def connections_index():
+    """Extract and display all cross-references between essays."""
+    # Get cached connections data
+    connections_data = _extract_all_connections_cached()
+    
+    return render_template('connections.html',
+                         articles=connections_data['articles'],
+                         total_count=connections_data['total_count'],
+                         title='Connections Index',
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='Connections')
+
+
+@app.route('/graph/data')
+def graph_data():
+    """API endpoint that returns graph data for network visualization."""
+    connections_data = _extract_all_connections_cached()
+    
+    nodes = []
+    edges = []
+    node_ids = set()
+    
+    # Create nodes and edges from connections
+    for article in connections_data['articles']:
+        source_id = article['url']
+        node_ids.add(source_id)
+        
+        for connection in article['connections']:
+            target_id = connection['target_url']
+            node_ids.add(target_id)
+            
+            edges.append({
+                'source': source_id,
+                'target': target_id,
+                'link_text': connection['link_text']
+            })
+    
+    # Create node objects with titles
+    posts = _collect_all_blog_posts_cached()
+    post_lookup = {post['url']: post for post in posts}
+    
+    for node_id in node_ids:
+        post = post_lookup.get(node_id)
+        nodes.append({
+            'id': node_id,
+            'title': post['title'] if post else node_id.split('/')[-1],
+            'category': post['category'] if post else 'Unknown',
+            'url': node_id
+        })
+    
+    return jsonify({
+        'nodes': nodes,
+        'edges': edges,
+        'stats': {
+            'total_nodes': len(nodes),
+            'total_edges': len(edges)
+        }
+    })
+
+
+@app.route('/graph')
+def graph_visualization():
+    """Interactive network graph of cross-references."""
+    return render_template('graph.html',
+                         title='Cross-Reference Graph',
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='Cross-Reference Graph')
+
+
+@app.route('/external-links')
+def external_links_index():
+    """Extract and display all external links from essays."""
+    # Get cached external links data
+    links_data = _extract_all_external_links_cached()
+    
+    return render_template('external_links.html',
+                         articles=links_data['articles'],
+                         total_count=links_data['total_count'],
+                         domain_stats=links_data['domain_stats'],
+                         title='External Links Index',
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='External Links')
+
+
 @app.route('/random')
 def random_post():
     """Redirect to a random document from anywhere in /data/."""
@@ -1095,6 +1391,9 @@ def collect_blog_posts():
 _blog_posts_cache = {'data': None, 'timestamp': 0}
 _sidenotes_cache = {'data': None, 'timestamp': 0}
 _outlines_cache = {'data': None, 'timestamp': 0}
+_quotes_cache = {'data': None, 'timestamp': 0}
+_connections_cache = {'data': None, 'timestamp': 0}
+_external_links_cache = {'data': None, 'timestamp': 0}
 CACHE_TTL = 36000  # 10 hours cache
 
 # Force cache invalidation for filename change
@@ -1310,6 +1609,105 @@ def preload_outlines():
     outlines_data = _extract_all_outlines_cached()
     load_time = time.time() - start_time
     print(f"Extracted {outlines_data['total_count']} headings from {len(outlines_data['articles'])} articles in {load_time:.2f}s")
+
+
+def preload_quotes():
+    """Preload quotes cache at startup for faster initial page loads."""
+    print("Preloading quotes cache...")
+    start_time = time.time()
+    quotes_data = _extract_all_quotes_cached()
+    load_time = time.time() - start_time
+    print(f"Extracted {quotes_data['total_count']} quotes from {len(quotes_data['articles'])} articles in {load_time:.2f}s")
+
+
+def preload_connections():
+    """Preload connections cache at startup for faster initial page loads."""
+    print("Preloading connections cache...")
+    start_time = time.time()
+    connections_data = _extract_all_connections_cached()
+    load_time = time.time() - start_time
+    print(f"Extracted {connections_data['total_count']} cross-references in {load_time:.2f}s")
+
+
+def _extract_all_external_links_cached():
+    """Extract all external links from articles with 10-hour TTL cache."""
+    current_time = time.time()
+    
+    # Check if cache is still valid (10 hour TTL)
+    if (_external_links_cache['data'] is not None and 
+        current_time - _external_links_cache['timestamp'] < CACHE_TTL and
+        _external_links_cache['timestamp'] > _force_cache_clear):
+        return _external_links_cache['data']
+    
+    posts = _collect_all_blog_posts_cached()
+    articles_with_links = []
+    total_count = 0
+    domain_counts = defaultdict(int)
+    
+    # Pattern to match external links (http/https URLs that don't start with current domain)
+    external_link_pattern = r'<a[^>]*href="(https?://[^"]*)"[^>]*>(.*?)</a>'
+    
+    for post in posts:
+        external_links = []
+        
+        # Find all external links in content
+        matches = re.findall(external_link_pattern, post['content'], re.IGNORECASE | re.DOTALL)
+        
+        for url, link_text in matches:
+            # Skip internal links (adjust domain as needed)
+            if 'kennethreitz.org' not in url:
+                # Clean link text
+                clean_text = re.sub(r'<[^>]+>', '', link_text).strip()
+                if not clean_text:
+                    clean_text = url
+                
+                # Extract domain for stats
+                domain = re.match(r'https?://(?:www\.)?([^/]+)', url)
+                if domain:
+                    domain_counts[domain.group(1)] += 1
+                
+                external_links.append({
+                    'url': url,
+                    'link_text': clean_text[:100],  # Truncate very long link text
+                    'domain': domain.group(1) if domain else 'unknown'
+                })
+        
+        if external_links:
+            articles_with_links.append({
+                'title': post['title'],
+                'url': post['url'],
+                'date': post.get('date'),
+                'category': post.get('category', 'Unknown'),
+                'external_links': external_links
+            })
+            total_count += len(external_links)
+    
+    # Sort articles by publication date (most recent first)
+    articles_with_links.sort(key=lambda x: x['date'] or datetime.min, reverse=True)
+    
+    # Sort domains by frequency
+    top_domains = sorted(domain_counts.items(), key=lambda x: x[1], reverse=True)
+    
+    result = {
+        'articles': articles_with_links,
+        'total_count': total_count,
+        'domain_stats': top_domains
+    }
+    
+    # Cache the result
+    _external_links_cache['data'] = result
+    _external_links_cache['timestamp'] = current_time
+    
+    return result
+
+
+def preload_external_links():
+    """Preload external links cache at startup for faster initial page loads."""
+    print("Preloading external links cache...")
+    start_time = time.time()
+    links_data = _extract_all_external_links_cached()
+    load_time = time.time() - start_time
+    print(f"Extracted {links_data['total_count']} external links from {len(links_data['articles'])} articles in {load_time:.2f}s")
 
 
 def find_related_posts(current_post_path, limit=3):
@@ -1540,10 +1938,25 @@ def rss_feed():
 
 
 
-# Preload caches for faster initial page loads (works with both direct run and Gunicorn)
-preload_blog_posts()
-preload_sidenotes()
-preload_outlines()
+# Preload caches concurrently for faster startup (works with both direct run and Gunicorn)
+import concurrent.futures
+import threading
+
+def preload_all_caches():
+    """Run all cache preloading functions concurrently."""
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+        futures = [
+            executor.submit(preload_blog_posts),
+            executor.submit(preload_sidenotes),
+            executor.submit(preload_outlines),
+            executor.submit(preload_quotes),
+            executor.submit(preload_connections),
+            executor.submit(preload_external_links)
+        ]
+        # Wait for all to complete
+        concurrent.futures.wait(futures)
+
+preload_all_caches()
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)
