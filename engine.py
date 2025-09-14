@@ -633,6 +633,27 @@ def archive_month(year, month):
                          current_page=f'{month_name} {year} Archive')
 
 
+@app.route('/themes')
+def themes_index():
+    """Themes page - just displays the index.md content."""
+    themes_path = DATA_DIR / 'themes'
+    
+    # Check for index.md in the themes directory
+    index_file = themes_path / 'index.md'
+    if index_file.exists():
+        content_data = render_markdown_file(index_file)
+        return render_template('post.html',
+                             content=content_data['content'],
+                             title='Themes',
+                             metadata=content_data.get('metadata', {}),
+                             breadcrumbs=[],
+                             current_year=datetime.now().year,
+                             current_page='Themes')
+    else:
+        # Fallback to directory listing if no index.md
+        return serve_path('themes')
+
+
 @app.route('/directory')
 def directory_index():
     """Directory listing that was previously the homepage."""

@@ -1,7 +1,5 @@
 # Themes
-
-
-Writing for fifteen years has been a process of discovery, revealing unexpected connections. Technical topics have broadened into explorations of consciousness. Personal challenges have offered insights into larger systemic problems, and moments of individual clarity have suggested broader principles.
+*Curated explorations across essays, AI work, and philosophical inquiry*
 
 These collections trace the threads connecting API design to AI collaboration, spiritual practice to algorithmic critique, mental health innovation to community building. <label for="sn-pattern-threads" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-pattern-threads" class="margin-toggle"/>
