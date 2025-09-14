@@ -9,7 +9,7 @@ primary_region = 'iad'
 [build]
 
 [deploy]
-strategy = "rolling"
+strategy = "bluegreen"
 
 [http_service]
 internal_port = 8000

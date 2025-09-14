@@ -1965,8 +1965,43 @@ def start_background_preload():
     cache_thread.start()
     print("Cache preloading started in background. App ready to serve requests!")
 
-# Start background preloading - app can serve requests immediately
-start_background_preload()
+# Only start background preloading once, not in every Gunicorn worker
+# Use a lock file to ensure only one process does the preloading
+import os
+import fcntl
+import atexit
+
+cache_lock_file = None
+
+def should_preload_caches():
+    """Check if this process should handle cache preloading."""
+    global cache_lock_file
+    try:
+        # Create a lock file
+        cache_lock_file = open('/tmp/cache_preload.lock', 'w')
+        # Try to acquire exclusive lock (non-blocking)
+        fcntl.lockf(cache_lock_file, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        # If we got here, we got the lock - we should preload
+        
+        # Clean up lock on exit
+        def cleanup_lock():
+            if cache_lock_file:
+                cache_lock_file.close()
+                try:
+                    os.unlink('/tmp/cache_preload.lock')
+                except:
+                    pass
+        atexit.register(cleanup_lock)
+        return True
+    except (IOError, OSError):
+        # Lock is already held by another process
+        if cache_lock_file:
+            cache_lock_file.close()
+        return False
+
+# Start background preloading only in one process
+if should_preload_caches():
+    start_background_preload()
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8000)
