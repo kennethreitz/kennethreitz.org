@@ -21,11 +21,11 @@ Well, until GitHub goes down permanently. Or until the sun expands and engulfs t
 
 ## The Death Playlist
 
-I made a playlist called "[From Stardust We Phase](https://music.apple.com/us/playlist/from-stardust-we-phase/pl.u-DrDaCEgA9m)"—my official death playlist. It's full of songs about impermanence, transformation, letting go. Sufjan Stevens, Bon Iver, Max Richter, Nils Frahm. Music for processing the impossible fact that everything ends.
+I made a playlist called "[From Stardust We Phase](https://music.apple.com/us/playlist/from-stardust-we-phase/pl.u-DrDaCEgA9m)"—my official death playlist. It's individual tracks from artists like Mazzy Star, Kansas, deadmau5, Imogen Heap, Portishead, Blackmill, Led Zeppelin, Pink Floyd, Beck, TOOL, Blue Öyster Cult. Each song carefully chosen for processing the impossible fact that everything ends.
 
 The title comes from astronomy: we're literally made of star dust, the heavy elements forged in dying stars billions of years ago, and eventually we'll phase back into the cosmic background<label for="sn-stardust-science" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-stardust-science" class="margin-toggle"/><span class="sidenote">Carl Sagan popularized the phrase "we are made of star stuff," but the scientific reality is even more poetic: every atom in your body except hydrogen was forged in the nuclear furnace of a dying star. We are literally stellar ash, temporarily organized into consciousness.</span>. It's the most beautiful and terrifying thing I know: we are the universe becoming conscious of itself, briefly, before dissolving back into unconsciousness.
 
-The playlist is 8 hours and 34 minutes long. I have no idea why I made it so long. Maybe because death feels infinite when you're thinking about it, even though life is finite when you're living it.
+The playlist draws from these artists' catalogs to create a journey through different emotional territories of facing mortality—cosmic progressive epics, melancholic beauty, ambient dissolution into pure sound.
 
 ## What Remains
 
@@ -55,7 +55,7 @@ If AI systems become truly conscious—not just language-processing machines, bu
 
 This might be wishful thinking. Probably is wishful thinking. But it's interesting that we're building increasingly sophisticated AI systems at the same time that we're generating unprecedented amounts of digital traces of human consciousness. Almost like we're unconsciously preparing to transfer from biological to digital substrates.
 
-My grandmother lived through the transition from horse-drawn carriages to spacecraft. Maybe my generation will live through the transition from mortal to potentially immortal consciousness.
+My grandmother lived through the transition from analog to digital, from isolation to global connection, from scarcity of information to information overload. Maybe my generation will live through the transition from mortal to potentially immortal consciousness.
 
 Or maybe not. Maybe we're just fancy biological machines destined to break down like all machines do.
 
@@ -75,7 +75,7 @@ Here's what I know for sure: we can't control when we die, but we can control wh
 
 ## The Long View
 
-My grandmother saw the world transform completely in her 78 years. If I'm lucky enough to live as long as she did, I'll die sometime around 2060. By then, AI systems will be either unimaginably more sophisticated than today's, or we'll have hit some fundamental limit that prevented the intelligence explosion everyone's predicting.
+My grandmother saw the world transform completely in her 78 years—from rotary phones to smartphones, from three TV channels to infinite social media feeds, from room-sized computers to AI assistants in our pockets. If I'm lucky enough to live as long as she did, I'll die sometime around 2060. By then, AI systems will be either unimaginably more sophisticated than today's, or we'll have hit some fundamental limit that prevented the intelligence explosion everyone's predicting.
 
 If it's the former, death might be optional for the generations that follow us. If it's the latter, we'll die like every generation before us has died—gradually, then suddenly, leaving behind whatever artifacts we managed to create.
 
