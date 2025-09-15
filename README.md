@@ -64,19 +64,7 @@ kennethreitz.org/
 
 ## Content Organization
 
-Content uses a directory-based structure where URL paths mirror the file system. Markdown files can include YAML frontmatter:
-
-```markdown
----
-title: Essay Title
-date: 2025-01-01
-description: Brief description
----
-
-# Essay Title
-
-Content goes here...
-```
+Content uses a directory-based structure where URL paths mirror the file system.
 
 ### Sidenotes
 
