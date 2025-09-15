@@ -75,7 +75,7 @@ Here's what I know for sure: we can't control when we die, but we can control wh
 
 ## The Long View
 
-My grandmother saw the world transform completely in her 78 years—from rotary phones to smartphones, from three TV channels to infinite social media feeds, from room-sized computers to AI assistants in our pockets. If I'm lucky enough to live as long as she did, I'll die sometime around 2060. By then, AI systems will be either unimaginably more sophisticated than today's, or we'll have hit some fundamental limit that prevented the intelligence explosion everyone's predicting.
+My grandmother saw the world transform completely in her 78 years—from rotary phones to smartphones, from three TV channels to infinite social media feeds, from room-sized computers to AI assistants in our pockets. If I'm lucky enough to live as long as she did, I'll die sometime around 2070. By then, AI systems will be either unimaginably more sophisticated than today's, or we'll have hit some fundamental limit that prevented the intelligence explosion everyone's predicting.
 
 If it's the former, death might be optional for the generations that follow us. If it's the latter, we'll die like every generation before us has died—gradually, then suddenly, leaving behind whatever artifacts we managed to create.
 
