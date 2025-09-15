@@ -41,4 +41,4 @@ If you are a user of any major social networking site, like to share links with 
 
 ---
 
-Oh, and just for the record, anyone who considers Firefox or Chrome an "Operating System" should be shot… Yes, I'm being serious. People have actually written this. Seriously… Why? Because we need better journalists in the Tech industry, that's why.
+Oh, and just for the record, anyone who considers Firefox or Chrome an "Operating System" is missing the point entirely. People have actually written this. Seriously… Why? Because we need better journalists in the Tech industry, that's why.
