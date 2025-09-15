@@ -13,11 +13,14 @@
 
 {% if grouped_posts and archive_title == 'Complete' %}
 <nav class="year-picker">
-    <p><strong>Jump to year:</strong>
-    {% for year in grouped_posts.keys() %}
-        <a href="#year-{{ year }}">{{ year }}</a>{% if not loop.last %} • {% endif %}
-    {% endfor %}
-    </p>
+    <div class="jump-to-year">
+        <strong>Jump to year:</strong>
+        <div class="year-links">
+            {% for year in grouped_posts.keys() %}
+                <a href="#year-{{ year }}">{{ year }}</a>
+            {% endfor %}
+        </div>
+    </div>
     <div class="browse-by-type">
         <strong>Browse by type:</strong>
         <div class="type-links">
@@ -72,22 +75,30 @@
     font-size: 0.95rem;
 }
 
-.browse-by-type {
+.jump-to-year {
     margin-top: 0.5rem;
     font-size: 0.9em;
 }
 
+.browse-by-type {
+    margin-top: 1rem;
+    font-size: 0.9em;
+}
+
+.jump-to-year strong,
 .browse-by-type strong {
     display: block;
     margin-bottom: 0.5rem;
 }
 
+.year-links,
 .type-links {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
 }
 
+.year-links a,
 .type-links a {
     color: #666;
     text-decoration: none;
@@ -98,25 +109,12 @@
     transition: all 0.2s ease;
 }
 
+.year-links a:hover,
 .type-links a:hover {
     color: #333;
     background: #e0e0e0;
 }
 
-.year-picker a {
-    color: #666;
-    text-decoration: none;
-    background: none;
-    text-shadow: none;
-    padding: 0.2rem 0.5rem;
-    border-radius: 3px;
-    transition: all 0.2s ease;
-}
-
-.year-picker a:hover {
-    color: #333;
-    background: #e8e8e8;
-}
 
 .post-date {
     color: #666;
