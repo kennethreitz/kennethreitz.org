@@ -68,9 +68,9 @@ In 2016, it felt like oversharing. Now it feels like basic honesty.
 
 ## README-Driven Development (2010)
 
-Before agile methodologies fully embraced user stories and outcome-driven development, I was practicing what I called README-Driven Development. The idea was simple: write the documentation first, imagining the perfect interface, then build toward that vision.
+Before agile methodologies fully embraced user stories and outcome-driven development, I was practicing what I called README-Driven Development<label for="sn-user-first-design" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-user-first-design" class="margin-toggle"/><span class="sidenote">This outside-in approach to software design would later become central to design thinking, user experience research, and product development methodologies. But in 2010, most developers still built features first and figured out usability later.</span>. The idea was simple: write the documentation first, imagining the perfect interface, then build toward that vision.
 
-This wasn't just about documentation—it was about **designing from the user's perspective rather than the implementation's perspective**<label for="sn-user-first-design" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-user-first-design" class="margin-toggle"/><span class="sidenote">This outside-in approach to software design would later become central to design thinking, user experience research, and product development methodologies. But in 2010, most developers still built features first and figured out usability later.</span>.
+This wasn't just about documentation—it was about **designing from the user's perspective rather than the implementation's perspective**.
 
 Which, again, seems like obvious common sense. But in 2010, most developers thought I was doing things backward.
 
