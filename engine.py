@@ -847,21 +847,6 @@ def graph_visualization():
                          current_page='Cross-Reference Graph')
 
 
-@app.route('/external-links')
-def external_links_index():
-    """Extract and display all external links from essays."""
-    # Get cached external links data
-    links_data = _extract_all_external_links_cached()
-    
-    return render_template('external_links.html',
-                         articles=links_data['articles'],
-                         total_count=links_data['total_count'],
-                         domain_stats=links_data['domain_stats'],
-                         title='External Links Index',
-                         breadcrumbs=[],
-                         current_year=datetime.now().year,
-                         current_page='External Links')
-
 
 @app.route('/terms')
 def terms_index():
@@ -2105,7 +2090,6 @@ def preload_all_caches():
     preload_outlines()
     preload_quotes()
     preload_connections()
-    preload_external_links()
     preload_terms()
     print("Background cache preloading completed!")
 
