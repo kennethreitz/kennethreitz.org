@@ -612,6 +612,11 @@ def _extract_all_quotes_cached():
                 # Clean up quotes
                 cleaned_quotes = []
                 for quote in quotes:
+                    # Skip quotes that start with bold labels (like "Note:", "Analysis:", "The Prompt:", etc.)
+                    # Pattern matches: <p><strong>Label</strong>: content or similar
+                    if re.match(r'^\s*<p[^>]*><(?:strong|b)[^>]*>[^<]*</(?:strong|b)>:', quote):
+                        continue
+                    
                     # Remove inner HTML tags but preserve basic formatting
                     quote_text = re.sub(r'<(?!/?(?:em|strong|i|b)\b)[^>]*>', '', quote)
                     quote_text = re.sub(r'\s+', ' ', quote_text).strip()
