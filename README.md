@@ -121,7 +121,7 @@ uv run gunicorn -w 4 -b 0.0.0.0:8000 engine:app
 
 ## License
 
-Personal work by Kenneth Reitz. Content reflects ongoing exploration of consciousness, technology, and the spaces between minds.
+The code is [MIT licensed](LICENSE). The content is personal work by Kenneth Reitz and reflects ongoing exploration of consciousness, technology, and the spaces between minds.
 
 ---
 
