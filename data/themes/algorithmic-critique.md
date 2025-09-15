@@ -79,19 +79,19 @@ Or it could be simple consumption without regeneration—technological cancer de
 
 ### The Pattern Recognition: Why This Keeps Happening
 
-These essays reveal the same underlying mechanism across different domains. Having survived [narcissistic manipulation patterns](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner), I recognize how individual psychological exploitation scales predictably to institutional and algorithmic systems:
+These essays reveal the same underlying mechanism across different domains. Having survived [narcissistic manipulation patterns](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner), I recognize how individual psychological exploitation scales predictably to institutional and algorithmic systems.
 
-**Engagement Optimization** - Systems designed to maximize time-on-platform rather than [help users accomplish goals efficiently](/themes/for-humans-philosophy). This represents fundamental inversion of ethical interface design.
+**Engagement Optimization** represents the fundamental inversion of ethical interface design—systems designed to maximize time-on-platform rather than [help users accomplish goals efficiently](/themes/for-humans-philosophy). Instead of reducing cognitive load, these platforms deliberately increase it to keep users engaged.
 
-**Psychological Exploitation** - Variable reward schedules, social comparison, fear amplification—techniques that mirror individual manipulation scaled to billions of users.
+**Psychological Exploitation** deploys variable reward schedules, social comparison, and fear amplification—techniques that mirror individual manipulation but scale them to billions of users simultaneously. The same manipulation patterns documented in abusive relationships now target entire populations.
 
-**Reality Distortion** - Algorithmic curation creates biased samples users mistake for representative reality, the digital equivalent of gaslighting.
+**Reality Distortion** occurs when algorithmic curation creates biased samples users mistake for representative reality. This becomes the digital equivalent of gaslighting, where platforms shape perception to serve their optimization goals rather than truth.
 
-**Virtue Inversion** - Behaviors promoting human flourishing get systematically de-prioritized for behaviors increasing engagement metrics.
+**Virtue Inversion** emerges as behaviors promoting human flourishing get systematically de-prioritized for behaviors that increase engagement metrics. Outrage drives more clicks than wisdom, fear more shares than courage, excess more attention than temperance.
 
-**Scale Effects** - Individual psychological manipulation becomes civilizational transformation when mediated by platforms reaching billions.
+**Scale Effects** transform individual psychological manipulation into civilizational transformation when mediated by platforms reaching billions. What works to exploit one person's psychology becomes a lever for reshaping collective consciousness.
 
-**Technical Recognition** - Having built systems that reduce cognitive load and serve user intentions, I recognize how current platforms do the opposite. This isn't accidental complexity; it's engineered manipulation designed to serve platform rather than user goals.
+**Technical Recognition** comes from having built systems that reduce cognitive load and serve user intentions. Current platforms do the opposite—this isn't accidental complexity but engineered manipulation designed to serve platform rather than user goals.
 
 ### The Stakes: Civilizational Metamorphosis or Consumption
 
