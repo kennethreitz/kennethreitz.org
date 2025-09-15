@@ -863,6 +863,22 @@ def external_links_index():
                          current_page='External Links')
 
 
+@app.route('/terms')
+def terms_index():
+    """Extract and display all significant terms like a book index."""
+    # Get cached terms data
+    terms_data = _extract_all_terms_cached()
+    
+    return render_template('terms.html',
+                         terms=terms_data['terms'],
+                         total_terms=terms_data['total_terms'],
+                         total_occurrences=terms_data['total_occurrences'],
+                         title='Term Index',
+                         breadcrumbs=[],
+                         current_year=datetime.now().year,
+                         current_page='Term Index')
+
+
 @app.route('/random')
 def random_post():
     """Redirect to a random document from anywhere in /data/."""
@@ -1400,6 +1416,7 @@ _outlines_cache = {'data': None, 'timestamp': 0}
 _quotes_cache = {'data': None, 'timestamp': 0}
 _connections_cache = {'data': None, 'timestamp': 0}
 _external_links_cache = {'data': None, 'timestamp': 0}
+_terms_cache = {'data': None, 'timestamp': 0}
 CACHE_TTL = 36000  # 10 hours cache
 
 # Force cache invalidation for filename change
@@ -1716,6 +1733,138 @@ def preload_external_links():
     print(f"Extracted {links_data['total_count']} external links from {len(links_data['articles'])} articles in {load_time:.2f}s")
 
 
+def _extract_all_terms_cached():
+    """Extract all significant terms from articles with 10-hour TTL cache."""
+    current_time = time.time()
+    
+    # Check if cache is still valid (10 hour TTL)
+    if (_terms_cache['data'] is not None and 
+        current_time - _terms_cache['timestamp'] < CACHE_TTL and
+        _terms_cache['timestamp'] > _force_cache_clear):
+        return _terms_cache['data']
+    
+    posts = _collect_all_blog_posts_cached()
+    term_occurrences = defaultdict(list)  # term -> [(article_title, article_url, count)]
+    
+    # Common stop words to filter out
+    stop_words = {
+        'the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 
+        'by', 'from', 'as', 'an', 'a', 'is', 'was', 'are', 'were', 'be', 'been',
+        'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could', 'should',
+        'may', 'might', 'can', 'this', 'that', 'these', 'those', 'i', 'you', 'he',
+        'she', 'it', 'we', 'they', 'me', 'him', 'her', 'us', 'them', 'my', 'your',
+        'his', 'its', 'our', 'their', 'not', 'all', 'some', 'any', 'each', 'every',
+        'one', 'two', 'if', 'then', 'so', 'when', 'where', 'how', 'why', 'what',
+        'about', 'into', 'through', 'during', 'before', 'after', 'above', 'below',
+        'up', 'down', 'out', 'off', 'over', 'under', 'again', 'further', 'then',
+        'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all', 'any', 'both',
+        'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'only',
+        'own', 'same', 'than', 'too', 'very', 'just', 'now', 'also', 'often', 'really',
+        'much', 'many', 'way', 'well', 'even', 'still', 'get', 'go', 'come', 'make',
+        'take', 'know', 'see', 'think', 'say', 'work', 'feel', 'look', 'seem', 'want',
+        'use', 'find', 'give', 'tell', 'ask', 'try', 'help', 'need', 'become', 'turn',
+        'start', 'show', 'hear', 'play', 'run', 'move', 'live', 'believe', 'hold',
+        'bring', 'happen', 'write', 'provide', 'sit', 'stand', 'lose', 'pay', 'meet'
+    }
+    
+    # Technical terms that should always be included
+    important_terms = {
+        'API', 'HTTP', 'Python', 'JavaScript', 'AI', 'ML', 'consciousness', 'algorithm',
+        'Requests', 'Flask', 'Django', 'GitHub', 'software', 'programming', 'technology',
+        'artificial intelligence', 'machine learning', 'open source', 'philosophy'
+    }
+    
+    for post in posts:
+        # Clean content - remove HTML tags and get plain text
+        import re
+        clean_content = re.sub(r'<[^>]+>', ' ', post['content'])
+        clean_content = re.sub(r'\s+', ' ', clean_content)
+        
+        # Extract potential terms using multiple strategies
+        terms_in_post = defaultdict(int)
+        
+        # Strategy 1: Capitalized words/phrases (likely proper nouns, concepts)
+        capitalized_terms = re.findall(r'\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\b', clean_content)
+        for term in capitalized_terms:
+            if len(term) > 2 and term.lower() not in stop_words:
+                terms_in_post[term] += 1
+        
+        # Strategy 2: Technical terms in quotes or emphasized
+        quoted_terms = re.findall(r'["\']([^"\']{3,30})["\']', clean_content)
+        for term in quoted_terms:
+            if not term.lower() in stop_words and len(term.split()) <= 3:
+                terms_in_post[term] += 1
+        
+        # Strategy 3: Acronyms and technical terms
+        acronyms = re.findall(r'\b[A-Z]{2,8}\b', clean_content)
+        for term in acronyms:
+            if term not in ['THE', 'AND', 'FOR', 'BUT', 'NOT']:
+                terms_in_post[term] += 2  # Weight acronyms higher
+        
+        # Strategy 4: Important technical words
+        words = re.findall(r'\b\w{4,}\b', clean_content.lower())
+        for word in words:
+            if word in important_terms or word.lower() in important_terms:
+                terms_in_post[word] += 1
+        
+        # Strategy 5: Multi-word technical phrases
+        tech_phrases = [
+            'artificial intelligence', 'machine learning', 'open source', 'user experience',
+            'mental health', 'spiritual practice', 'human consciousness', 'digital mind',
+            'for humans', 'API design', 'software development', 'programming language'
+        ]
+        for phrase in tech_phrases:
+            if phrase.lower() in clean_content.lower():
+                terms_in_post[phrase] += 2
+        
+        # Add significant terms to the global index
+        for term, count in terms_in_post.items():
+            if count >= 1:  # Must appear at least once
+                term_occurrences[term].append({
+                    'title': post['title'],
+                    'url': post['url'],
+                    'count': count
+                })
+    
+    # Filter and organize terms
+    final_terms = {}
+    for term, occurrences in term_occurrences.items():
+        # Only include terms that appear in multiple articles OR appear frequently in one
+        total_occurrences = sum(occ['count'] for occ in occurrences)
+        if len(occurrences) >= 2 or total_occurrences >= 3:
+            # Sort articles by term frequency within each article
+            occurrences.sort(key=lambda x: x['count'], reverse=True)
+            final_terms[term] = {
+                'articles': occurrences,
+                'total_count': total_occurrences,
+                'article_count': len(occurrences)
+            }
+    
+    # Sort terms alphabetically
+    sorted_terms = dict(sorted(final_terms.items(), key=lambda x: x[0].lower()))
+    
+    result = {
+        'terms': sorted_terms,
+        'total_terms': len(sorted_terms),
+        'total_occurrences': sum(term_data['total_count'] for term_data in sorted_terms.values())
+    }
+    
+    # Cache the result
+    _terms_cache['data'] = result
+    _terms_cache['timestamp'] = current_time
+    
+    return result
+
+
+def preload_terms():
+    """Preload terms cache at startup for faster initial page loads."""
+    print("Preloading terms cache...")
+    start_time = time.time()
+    terms_data = _extract_all_terms_cached()
+    load_time = time.time() - start_time
+    print(f"Extracted {terms_data['total_terms']} terms with {terms_data['total_occurrences']} total occurrences in {load_time:.2f}s")
+
+
 def find_related_posts(current_post_path, limit=3):
     """Find related posts based on category and content similarity."""
     posts = collect_all_blog_posts()
@@ -1957,6 +2106,7 @@ def preload_all_caches():
     preload_quotes()
     preload_connections()
     preload_external_links()
+    preload_terms()
     print("Background cache preloading completed!")
 
 def start_background_preload():
