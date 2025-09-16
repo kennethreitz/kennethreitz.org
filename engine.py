@@ -1215,7 +1215,8 @@ def connections_index():
 @app.route('/graph/data')
 def graph_data():
     """API endpoint that returns graph data for network visualization."""
-    connections_data = _extract_all_connections_cached()
+    # Use clean MetadataCache interface
+    connections_data = metadata_cache.get_connections()
     
     nodes = []
     edges = []
@@ -1226,7 +1227,9 @@ def graph_data():
         source_id = article['url']
         node_ids.add(source_id)
         
-        for connection in article['connections']:
+        # Use outgoing_connections for graph edges (backward compatibility: also check connections)
+        connections_list = article.get('outgoing_connections', article.get('connections', []))
+        for connection in connections_list:
             target_id = connection['target_url']
             node_ids.add(target_id)
             
@@ -1236,8 +1239,8 @@ def graph_data():
                 'link_text': connection['link_text']
             })
     
-    # Create node objects with titles
-    posts = _collect_all_blog_posts_cached()
+    # Create node objects with titles using MetadataCache
+    posts = metadata_cache.get_blog_posts()
     post_lookup = {post['url']: post for post in posts}
     
     for node_id in node_ids:
