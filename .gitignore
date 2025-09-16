@@ -6,3 +6,4 @@ data/photos/
 data/.obsidian/
 node_modules/
 .cache/
+.cache_preload.lock
