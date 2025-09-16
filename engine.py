@@ -2115,9 +2115,29 @@ cache_lock_file = None
 def should_preload_caches():
     """Check if this process should handle cache preloading."""
     global cache_lock_file
+    
+    # In Docker or single-process environments, always preload
+    if os.environ.get('DOCKER_ENV') or not os.environ.get('GUNICORN_CMD_ARGS'):
+        return True
+    
     try:
+        # Use a more Docker-friendly lock file location
+        lock_path = os.path.join(os.getcwd(), '.cache_preload.lock')
+        
+        # Remove stale lock files (older than 5 minutes)
+        if os.path.exists(lock_path):
+            try:
+                stat = os.stat(lock_path)
+                if time.time() - stat.st_mtime > 300:  # 5 minutes
+                    os.unlink(lock_path)
+            except:
+                pass
+        
         # Create a lock file
-        cache_lock_file = open('/tmp/cache_preload.lock', 'w')
+        cache_lock_file = open(lock_path, 'w')
+        cache_lock_file.write(str(os.getpid()))
+        cache_lock_file.flush()
+        
         # Try to acquire exclusive lock (non-blocking)
         fcntl.lockf(cache_lock_file, fcntl.LOCK_EX | fcntl.LOCK_NB)
         # If we got here, we got the lock - we should preload
@@ -2127,7 +2147,7 @@ def should_preload_caches():
             if cache_lock_file:
                 cache_lock_file.close()
                 try:
-                    os.unlink('/tmp/cache_preload.lock')
+                    os.unlink(lock_path)
                 except:
                     pass
         atexit.register(cleanup_lock)
