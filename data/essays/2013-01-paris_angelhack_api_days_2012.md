@@ -1,10 +1,6 @@
 # Paris, AngelHack, API Days 2012
 *January 2013*
 
-
-
-
-
 ![Paris Street Scene](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666484841-DR8IKQXGXAFG9BW5HFOE/5e66e-img.jpg)
 
 I just returned from a lovely trip to Paris, France. I was there for a Heroku-sponsored hackathon: AngelHack:Paris.
@@ -138,14 +134,42 @@ Interesting event.
 
  In exchange for doing Guillaume's API Days keynote, he agreed to take me out for a late night photo tour in the city.
 
- ![image](http://farm9.staticflickr.com/8353/8254020433_69bd9cd69b_c.jpg)![image](http://farm9.staticflickr.com/8067/8255090676_aeb786a22c_c.jpg)![image](http://farm9.staticflickr.com/8343/8254020813_46be7587c5_b.jpg)![image](http://farm9.staticflickr.com/8201/8254011775_339e2caa07_c.jpg)![image](http://farm9.staticflickr.com/8492/8254013299_50eefdb647_c.jpg)![image](http://farm9.staticflickr.com/8348/8254017353_c0dae5ebf0_c.jpg)![image](http://farm9.staticflickr.com/8077/8254019579_1b28d57914_c.jpg)![image](http://farm9.staticflickr.com/8219/8255092572_488865bd9e_c.jpg)![image](http://farm9.staticflickr.com/8214/8255094718_c9f199fe4e_b.jpg)![image](http://farm9.staticflickr.com/8077/8254023131_ec9d4db5c6_c.jpg) It couldn't have gone better. Thanks, Guillaume!
+ ![Night photography in Paris](http://farm9.staticflickr.com/8353/8254020433_69bd9cd69b_c.jpg)
 
- ![image](http://farm9.staticflickr.com/8489/8255090376_5e0fcaa5b4_c.jpg) ## Heading Home
+![Paris architecture at night](http://farm9.staticflickr.com/8067/8255090676_aeb786a22c_c.jpg)
 
- I've flown home through Charles de Gaulle (CDG\-\>IAD) several times.
+![Illuminated buildings](http://farm9.staticflickr.com/8343/8254020813_46be7587c5_b.jpg)
 
- ![image](http://farm9.staticflickr.com/8077/8255096238_4b742281de_c.jpg)![image](http://farm9.staticflickr.com/8222/8254023791_8060c57594_c.jpg) It's somehow one of my least favorite flights. 10 hours in the air seems to strike the perfect balance between *almost\-over* and *never\-ending*. The 16 hour flight I took to Australia last year went past faster than this.
+![Street scenes](http://farm9.staticflickr.com/8201/8254011775_339e2caa07_c.jpg)
+
+![Night lights](http://farm9.staticflickr.com/8492/8254013299_50eefdb647_c.jpg)
+
+![Paris monuments](http://farm9.staticflickr.com/8348/8254017353_c0dae5ebf0_c.jpg)
+
+![Evening photography](http://farm9.staticflickr.com/8077/8254019579_1b28d57914_c.jpg)
+
+![City lights](http://farm9.staticflickr.com/8219/8255092572_488865bd9e_c.jpg)
+
+![Night tour](http://farm9.staticflickr.com/8214/8255094718_c9f199fe4e_b.jpg)
+
+![Photo walk conclusion](http://farm9.staticflickr.com/8077/8254023131_ec9d4db5c6_c.jpg)
+
+It couldn't have gone better. Thanks, Guillaume!
+
+ ![Guillaume photo tour](http://farm9.staticflickr.com/8489/8255090376_5e0fcaa5b4_c.jpg)
+
+## Heading Home
+
+ I've flown home through Charles de Gaulle (CDG->IAD) several times.
+
+ ![Charles de Gaulle airport](http://farm9.staticflickr.com/8077/8255096238_4b742281de_c.jpg)
+
+![Airport departure](http://farm9.staticflickr.com/8222/8254023791_8060c57594_c.jpg)
+
+It's somehow one of my least favorite flights. 10 hours in the air seems to strike the perfect balance between *almost-over* and *never-ending*. The 16 hour flight I took to Australia last year went past faster than this.
 
  Regardless, it was a fairly uneventful flight. I got a good photo of two strangers cuddling while watching a film on a MacBook:
 
- ![image](http://farm9.staticflickr.com/8341/8255097162_7afe7763ea_c.jpg) Funny how technology brings us together.
+ ![Strangers sharing technology on flight](http://farm9.staticflickr.com/8341/8255097162_7afe7763ea_c.jpg)
+
+Funny how technology brings us together.
