@@ -2090,12 +2090,24 @@ import threading
 def preload_all_caches():
     """Run all cache preloading functions sequentially to reduce memory usage."""
     print("Starting background cache preloading...")
-    preload_blog_posts()
-    preload_sidenotes()
-    preload_outlines()
-    preload_quotes()
-    preload_connections()
-    preload_terms()
+    
+    preload_functions = [
+        ("blog posts", preload_blog_posts),
+        ("sidenotes", preload_sidenotes), 
+        ("outlines", preload_outlines),
+        ("quotes", preload_quotes),
+        ("connections", preload_connections),
+        ("terms", preload_terms)
+    ]
+    
+    for name, func in preload_functions:
+        try:
+            func()
+        except Exception as e:
+            print(f"Error preloading {name}: {e}")
+            import traceback
+            traceback.print_exc()
+    
     print("Background cache preloading completed!")
 
 def start_background_preload():
