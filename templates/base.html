@@ -92,6 +92,16 @@
 
         <!-- Analytics -->
         {% if not (config.get('DISABLE_ANALYTICS') or request.environ.get('DISABLE_ANALYTICS')) %}
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RB9QHYEG2X"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-RB9QHYEG2X');
+        </script>
+        
         <script type="text/javascript">
           var _gauges = _gauges || [];
           (function() {
