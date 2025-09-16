@@ -2,6 +2,12 @@
 
 These essays explore the intersection of technology, consciousness, and human flourishing. They range from personal reflections on mental health and relationships to systematic critiques of how algorithmic systems reshape society.
 
+## Recent Explorations
+
+[**Agents of Consciousness: How AI Collaboration Evolves**](/essays/2025-09-16-agents-of-consciousness-how-ai-collaboration-evolves) - *September 2025* - The emergence of specialized AI agents as collaborative partners in creative consciousness, revealing how human-AI collaboration naturally evolves from simple assistance to constellation of specialized creative partners.
+
+[**The Textured Mind: When Consciousness Speaks Without Words**](/essays/2025-09-16-the-textured-mind-when-consciousness-speaks-without-words) - *September 2025* - Exploring the non-verbal realm of consciousness that operates in textures, shapes, and archetypal presences beyond language—and why this isn't pathology but valid form of knowing.
+
 ## Major Themes
 
 The essays cluster around several interconnected explorations:
