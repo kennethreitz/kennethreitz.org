@@ -7,13 +7,15 @@
 
 Nobody seems to notice the irony.
 
-This isn't some made-up scenario. This is real shit that happens. I've watched it unfold in projects I love, in companies I've worked for, in communities I've believed in.<label for="sn-pattern" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-pattern" class="margin-toggle"/>
-<span class="sidenote">I've been in the Python community since 2008. I've seen us go from "be nice" to... something else. But this isn't just about tech. Watch any church split, any activist group implode, any company betray its founding principles. The pattern is universal.</span>
+This isn't some made-up scenario. This is real shit that happens. I've watched it unfold in projects I love, in companies I've worked for, in communities I've believed in.<label for="sn-pattern" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-pattern" class="margin-toggle"/><span class="sidenote">I've been in the Python community since 2008. I've seen us go from "be nice" to... something else. But this isn't just about tech. Watch any church split, any activist group implode, any company betray its founding principles. The pattern is universal.</span>
+
+The same algorithmic thinking that helps us debug code can help us understand why communities systematically fail their stated values. These aren't moral failures—they're predictable system dynamics that we can recognize, understand, and potentially prevent.
 
 ## The Paradox
 
 The more a community cares about its values, the more vulnerable it becomes to betraying them. Not because the values are wrong. Not because the people are bad. But because human social dynamics create predictable failure modes that turn principles into their opposite.
+
+This mirrors how [algorithmic systems systematically consume human virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—well-intentioned optimization targets inevitably corrupt the very thing they're meant to improve. The recursive loop applies to communities just as it applies to code: the systems we create to embody our values end up shaping new values, often contradicting our original intentions.
 
 > "Every great cause begins as a movement, becomes a business, and eventually degenerates into a racket." — Eric Hoffer
 
@@ -27,15 +29,13 @@ Virtue signaling gets a bad rap, often weaponized to dismiss legitimate moral co
 
 The problem? Performance gets rewarded more than practice.
 
-Think about it like code coverage metrics. The goal is good: write tested, reliable code. But once coverage percentage becomes the metric that determines promotion, you get developers writing meaningless tests that check nothing but boost the numbers.<label for="sn-metrics" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-metrics" class="margin-toggle"/>
-<span class="sidenote">I've literally seen tests that assert `true === true` just to hit coverage targets. Goodhart's Law in action: "When a measure becomes a target, it ceases to be a good measure."</span> The measure became the target, and the target became meaningless.
+Think about it like code coverage metrics. The goal is good: write tested, reliable code. But once coverage percentage becomes the metric that determines promotion, you get developers writing meaningless tests that check nothing but boost the numbers.<label for="sn-metrics" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-metrics" class="margin-toggle"/><span class="sidenote">I've literally seen tests that assert `true === true` just to hit coverage targets. Goodhart's Law in action: "When a measure becomes a target, it ceases to be a good measure."</span> The measure became the target, and the target became meaningless.
 
-In value-driven communities, this looks like competitive displays of ideological purity. Increasingly elaborate pronoun signatures. Lengthy self-flagellating acknowledgments that crowd out actual work.<label for="sn-land" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-land" class="margin-toggle"/>
-<span class="sidenote">When your project README is 90% virtue signaling and 10% documentation, you've lost the plot. Users need to know how to use your software, not your politics.</span>
+This is identical to how [engagement optimization destroys the very human connections it claims to foster](/essays/2025-08-27-the_algorithm_eats_love). When belonging becomes performative, when inclusion becomes a competitive sport, when kindness becomes a metric—the original values die in the measurement.
 
-The person who speaks most loudly about inclusion might be the same one privately blacklisting colleagues for minor infractions.
+In value-driven communities, this looks like competitive displays of ideological purity. Increasingly elaborate pronoun signatures. Lengthy self-flagellating acknowledgments that crowd out actual work.<label for="sn-land" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-land" class="margin-toggle"/><span class="sidenote">When your project README is 90% virtue signaling and 10% documentation, you've lost the plot. Users need to know how to use your software, not your politics.</span>
+
+The person who speaks most loudly about inclusion might be the same one privately blacklisting colleagues for minor infractions. Performance becomes the measure of virtue, and like all metrics that become targets, it corrupts the thing it was meant to measure.
 
 ### Purity Spirals: The Revolution Eating Its Children
 
@@ -55,9 +55,9 @@ Watch what happens when a community leader's position depends on there being pro
 
 You know what's fun? Watching these same leaders give keynotes about empathy while actively ignoring maintainer burnout in their own projects.
 
-This isn't conscious villainy. It's structural incentive. When your position in a community depends on fighting dragons, you'll always find dragons to fight—or create them.<label for="sn-dragons" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-dragons" class="margin-toggle"/>
-<span class="sidenote">This is why I'm skeptical when any group claims they need "permanent" positions to address "systemic" issues. If the issue is truly systemic, why would your job exist to solve it? The incentives are backwards from the start.</span>
+This isn't conscious villainy. It's structural incentive. When your position in a community depends on fighting dragons, you'll always find dragons to fight—or create them.<label for="sn-dragons" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-dragons" class="margin-toggle"/><span class="sidenote">This is why I'm skeptical when any group claims they need "permanent" positions to address "systemic" issues. If the issue is truly systemic, why would your job exist to solve it? The incentives are backwards from the start.</span>
+
+The same way [social media algorithms create outrage because outrage drives engagement](/essays/2025-08-27-the_algorithm_eats_democracy), institutional positions create problems because problems justify positions. The system optimizes for its own perpetuation, not for solving the problems it claims to address.
 
 ### Goal Displacement: When the Means Become the Ends
 
@@ -97,9 +97,9 @@ Python, a language and community that prides itself on progressive values of inc
 
 > "I don't ever want to have to fight so hard for a PEP and find that so many people despise my decisions... I'm basically giving myself a permanent vacation from being BDFL, and you all will be on your own... I'm tired, and need a very long break."
 
-The kindness was performative. When tested by real conflict, the community defaulted to the same toxic behaviors they claimed to stand against, but wrapped in the language of justice and accountability.<label for="sn-kindness" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-kindness" class="margin-toggle"/>
-<span class="sidenote">Multiple maintainers documented similar experiences. See Nolan Lawson's "What it feels like to be an open-source maintainer" (2017) and André Staltz's "Software below the poverty line" (2019). The same people who put mental health in their bios will destroy someone having a public breakdown.</span>
+The kindness was performative. When tested by real conflict, the community defaulted to the same toxic behaviors they claimed to stand against, but wrapped in the language of justice and accountability.<label for="sn-kindness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-kindness" class="margin-toggle"/><span class="sidenote">Multiple maintainers documented similar experiences. See Nolan Lawson's "What it feels like to be an open-source maintainer" (2017) and André Staltz's "Software below the poverty line" (2019). The same people who put mental health in their bios will destroy someone having a public breakdown.</span>
+
+This reveals the gap between stated values and lived reality—the recursive loop where [communities shape the consciousness of their members](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), who then shape the communities, often in ways that contradict the original intentions.
 
 
 ### Personal Experience
@@ -108,7 +108,7 @@ I experienced this firsthand. I worked for a search API company that proudly cha
 
 Then I had an actual episode. Made an embarrassing, disturbing comment on GitHub during a manic phase triggered by a new medication—clearly unwell, clearly delusional. Within 24 hours, I was fired. No discussion of accommodation. No recognition that this was literally the neurodivergence they claimed to value. Just gone.
 
-Neurodiversity was a recruiting tool, not a real commitment.
+Neurodiversity was a recruiting tool, not a real commitment. As I've explored in [the cost of transparency](/essays/2025-08-27-the_cost_of_transparency), companies love the performance of inclusion until they encounter the reality of what inclusion actually requires. The values were real in the marketing materials but absent when tested by actual human need.
 
 ### Beyond Tech
 
@@ -122,13 +122,11 @@ Before you conclude that all value-driven communities are doomed to hypocrisy, l
 
 **These communities exist for good reasons.** The tech industry really does have inclusion problems. Open-source really can be hostile to newcomers. Traditional institutions really do perpetuate harm. The values these communities espouse aren't just nice-to-haves—they're attempting to address real, documented problems that cause real human suffering.
 
-**Many communities succeed.** For every horror story, there are quiet success stories: communities that actually embody their values, resolve conflicts constructively, and create genuine change. These don't make headlines because "community functions as intended" isn't news.<label for="sn-success" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-success" class="margin-toggle"/>
-<span class="sidenote">Some communities get it right. They recognize that mental health isn't a weapon or an excuse — it's a reality. They understand that "be kind" means being kind even when someone's struggling, not just when they're productive.</span>
+**Many communities succeed.** For every horror story, there are quiet success stories: communities that actually embody their values, resolve conflicts constructively, and create genuine change. These don't make headlines because "community functions as intended" isn't news.<label for="sn-success" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-success" class="margin-toggle"/><span class="sidenote">Some communities get it right. They recognize that mental health isn't a weapon or an excuse — it's a reality. They understand that "be kind" means being kind even when someone's struggling, not just when they're productive.</span>
 
 **The alternative is worse.** Communities without stated values don't avoid these problems—they just make them invisible. At least a hypocritical community can be called out on its hypocrisy. A community that never claimed to care about inclusion can exclude with impunity.
 
-**Structural forces are real.** Social media algorithms reward outrage. Venture capital demands growth over health. Academic incentives favor publication over practice. These aren't excuses, but they are context that explains why even well-intentioned communities struggle.
+**Structural forces are real.** [Social media algorithms reward outrage](/essays/2025-08-27-the_algorithm_eats_democracy). Venture capital demands growth over health. Academic incentives favor publication over practice. These aren't excuses, but they are context that explains why even well-intentioned communities struggle against systemic forces designed to corrupt human virtue.
 
 ---
 
@@ -136,35 +134,41 @@ Before you conclude that all value-driven communities are doomed to hypocrisy, l
 
 Here's your practical playbook for keeping your community from eating its young:
 
-**Encourage disagreement.** Make it someone's job to argue the other side (*e.g.* each meeting could have a 'devil's advocate' designated role). Ask "what would change our mind?" before major decisions. Reward people who surface problems, not just those who maintain harmony.
+**Encourage disagreement.** Make it someone's job to argue the other side—each meeting could have a designated devil's advocate role. Ask "what would change our mind?" before major decisions. Reward people who surface problems, not just those who maintain harmony. Healthy conflict prevents the kind of groupthink that leads to purity spirals.
 
-**Define kindness in behavior.** "Kindness" means responding to crisis with support, not pile-ons. Track who gets second chances and who doesn't—this reveals your real values. Pay attention to who's leaving, not just who's joining.
+**Define kindness in behavior.** "Kindness" means responding to crisis with support, not pile-ons. Track who gets second chances and who doesn't—this reveals your real values. Pay attention to who's leaving, not just who's joining. Actions speak louder than mission statements.
 
-**Value "good enough."** Celebrate people who admit they were wrong. Ban comparative suffering competitions. Set maximum consequences—if everything is a firing offense, nothing is.
+**Value "good enough."** Celebrate people who admit they were wrong. Ban comparative suffering competitions. Set maximum consequences—if everything is a firing offense, nothing is. Perfectionism is the enemy of progress and the friend of paralysis.
 
-**Reality-check regularly.** Compare your stated values to your last three decisions. Ask newcomers what they actually observe. Would your community's founders survive your current rules?
+**Reality-check regularly.** Compare your stated values to your last three decisions. Ask newcomers what they actually observe. Would your community's founders survive your current rules? External perspective reveals internal blindness.
 
-**Design for bad days.** Build systems that assume people will struggle—including leadership. Create paths back from mistakes, not just punishment. Plan for mental health crises; they will happen.
+**Design for bad days.** Build systems that assume people will struggle—including leadership. Create paths back from mistakes, not just punishment. Plan for mental health crises; they will happen. [Human complexity requires systemic compassion](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness), not wishful thinking about perfect behavior.
 
 ## Common Failure Modes
 
 Watch how quickly noble values transform into their opposites when institutional pressures take hold:
 
-| Stated Value | Common Failure Mode |
-|--------------|-------------------|
-| Inclusion | Exclusion of those who don't speak the "right" language |
-| Kindness | Cruel enforcement of kindness norms |
-| Safety | Using "safety" to shut down disagreement |
-| Accountability | Accountability for thee but not for me |
-| Consensus | Minority veto that creates paralysis |
-| Transparency | Performative transparency that hides real decisions |
-| Growth | Growth at the expense of founding principles |
+**Inclusion** often becomes exclusion of those who don't speak the "right" language or perform belonging correctly.
+
+**Kindness** transforms into cruel enforcement of kindness norms—destroying people in the name of protecting people.
+
+**Safety** gets weaponized to shut down disagreement rather than protect genuine vulnerability.
+
+**Accountability** becomes "accountability for thee but not for me"—rules that apply to everyone except those who make them.
+
+**Consensus** devolves into minority veto power that creates paralysis rather than genuine agreement.
+
+**Transparency** becomes performative theater that hides real decisions behind elaborate public processes.
+
+**Growth** happens at the expense of founding principles—scaling the organization while shrinking the mission.
 
 ## Re-aligning Means with Ends
 
 The tragedy of values eating their young isn't that people are hypocrites. It's that good people with genuine commitments to important values can create systems that betray those values through entirely predictable social dynamics.
 
 The solution isn't to abandon values or become cynical. It's to recognize these patterns as universal human tendencies and design systems that account for them. Just as we write tests because we know code will have bugs, we need to build guardrails because we know communities will drift.
+
+This connects to the broader theme running through my work: [how the systems we build to serve consciousness end up shaping consciousness](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). When we understand this recursive loop, we can design more consciously—creating communities that actually embody their values rather than just performing them.
 
 > "The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design." — Friedrich Hayek
 
@@ -175,6 +179,8 @@ The same humility applies to designing communities. We can't perfect human natur
 Look.
 
 I still believe in open source. I believe in communities built on values like kindness, inclusion, and collaboration. But good intentions aren't enough. You need systems. You need guardrails. You need to actually give a shit about people when they're at their worst, not just when they're shipping code.
+
+This is what [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) really means—recognizing that every system we create either serves human flourishing or exploits human vulnerability. Community building is no different from building software: the quality of our intention matters as much as the quality of our implementation.
 
 Build the guardrails *before* you need them. Because once you've driven out the people who came to you for help—the ones who believed in your stated values, who were vulnerable enough to show their struggles—you can't un-eat them.
 
