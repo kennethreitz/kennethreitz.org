@@ -1,12 +1,10 @@
-FROM python:3.13-bookworm AS builder
+FROM astral/uv:python3.13-bookworm
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     UV_SYSTEM_PYTHON=1
 
 WORKDIR /app
-
-COPY --from=docker.io/astral/uv:latest /uv /uvx /bin/
 
 # Copy dependency files first
 COPY pyproject.toml ./
