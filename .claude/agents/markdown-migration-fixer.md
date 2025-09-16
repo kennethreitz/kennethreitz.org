@@ -1,7 +1,7 @@
 ---
 name: markdown-migration-fixer
 description: Use this agent when you need to clean up markdown files that have migration artifacts, broken links, malformed image embeds, or other formatting issues from content migration processes. Examples: <example>Context: User has migrated content from another platform and needs cleanup. user: 'I just migrated my blog posts from WordPress and the markdown is a mess - broken image links and weird formatting everywhere' assistant: 'I'll use the markdown-migration-fixer agent to clean up those migration artifacts and fix the formatting issues.' <commentary>Since the user has migration artifacts that need fixing, use the markdown-migration-fixer agent to systematically clean up the markdown formatting.</commentary></example> <example>Context: User notices broken links after a site migration. user: 'The links in my essays are all broken after moving to the new site structure' assistant: 'Let me use the markdown-migration-fixer agent to identify and repair those broken links.' <commentary>Since there are broken links from migration, use the markdown-migration-fixer agent to fix the link issues.</commentary></example>
-model: sonnet
+model: haiku
 color: cyan
 ---
 
