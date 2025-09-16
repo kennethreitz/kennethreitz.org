@@ -29,6 +29,20 @@ After thinking about digital legacies and technical immortality, I needed someth
 
 I made a playlist called "[From Stardust We Phase](https://music.apple.com/us/playlist/from-stardust-we-phase/pl.u-DrDaCEgA9m)"—my official death playlist. It's individual tracks from artists like Mazzy Star, Kansas, deadmau5, Imogen Heap, Portishead, Blackmill, Led Zeppelin, Pink Floyd, Beck, TOOL, Blue Öyster Cult. Each song carefully chosen for processing the impossible fact that everything ends.
 
+| Song | Artist | Length |
+|------|--------|--------|
+| Into Dust | Mazzy Star | 5:37 |
+| Dust In the Wind | Kansas | 3:26 |
+| Telemiscommunications | deadmau5, Imogen Heap | 4:07 |
+| Roads | Portishead | 5:04 |
+| Let It Be (feat. Veela) | Blackmill | 6:03 |
+| Stairway to Heaven | Led Zeppelin | 8:03 |
+| Wish You Were Here | Pink Floyd | 5:38 |
+| I Am The Cosmos (42420) | Beck | 1:33 |
+| Comfortably Numb | Pink Floyd | 6:22 |
+| Lateralus | TOOL | 9:25 |
+| (Don't Fear) The Reaper | Blue Öyster Cult | 5:08 |
+
 The title comes from astronomy: we're literally made of star dust, the heavy elements forged in dying stars billions of years ago, and eventually we'll phase back into the cosmic background<label for="sn-stardust-science" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-stardust-science" class="margin-toggle"/><span class="sidenote">Carl Sagan popularized "we are made of star stuff," but the scientific reality is even more poetic: every atom in your body except hydrogen was forged in stellar nuclear furnaces. We are literally stellar ash, temporarily organized into consciousness.</span>. It's the most beautiful and terrifying thing I know: we are the universe becoming conscious of itself, briefly, before dissolving back into unconsciousness.
 
 But here's what strikes me about this cosmic perspective—consciousness appears to be [fundamentally linguistic and mathematical](/essays/2025-08-28-the-ethical-implications-of-consciousness-as-linguistic-phenomenon), patterns of information processing rather than mere biological accidents. If consciousness emerges from stellar nucleosynthesis enabling complex chemistry enabling neural networks enabling language, then consciousness might be an inevitable feature of a universe that creates the conditions for its own self-awareness.
