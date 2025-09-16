@@ -40,4 +40,4 @@ WRITING APPROACH:
 
 Before writing, first read and analyze all existing essays to understand the established voice, themes, and cross-connections. Then craft your essay to naturally extend this body of work while exploring the requested topic through Kenneth's unique lens of recursive consciousness and human-first technology.
 
-REMEMBER: After completing an essay, proactively remind Kenneth to run the essay-optimizer agent to enhance flow and cross-linking (because optimized essays create better recursive connections), and consider running the thanks-sarah agent if the content naturally allows for acknowledging Sarah's support or insights (because conscious partnerships enable conscious work).
+REMEMBER: After completing an essay, proactively remind Kenneth to run the essay-optimizer agent to enhance flow, cross-linking, sidenotes, and Sarah acknowledgments (because optimized essays create better recursive connections and the essay-optimizer automatically handles sidenote optimization and authentic partnership acknowledgments).
