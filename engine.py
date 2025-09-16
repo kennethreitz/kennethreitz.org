@@ -1440,6 +1440,69 @@ CACHE_TTL = 36000  # 10 hours cache
 import time
 _force_cache_clear = time.time()
 
+def load_prebuild_cache(cache_name):
+    """Load a pre-built cache file if it exists."""
+    from datetime import datetime
+    
+    def convert_datetime_strings(item):
+        """Convert ISO datetime strings back to datetime objects."""
+        if isinstance(item, str):
+            # Try to parse as ISO datetime
+            try:
+                return datetime.fromisoformat(item)
+            except ValueError:
+                return item
+        elif isinstance(item, dict):
+            return {k: convert_datetime_strings(v) for k, v in item.items()}
+        elif isinstance(item, list):
+            return [convert_datetime_strings(i) for i in item]
+        else:
+            return item
+    
+    cache_file = Path(f'.cache/{cache_name}.json')
+    if cache_file.exists():
+        try:
+            with open(cache_file, 'r', encoding='utf-8') as f:
+                cache_data = json.load(f)
+                if cache_data.get('data') is not None:
+                    # Convert datetime strings back to datetime objects
+                    restored_data = convert_datetime_strings(cache_data['data'])
+                    print(f"Loaded pre-built {cache_name} cache from Docker build")
+                    return restored_data, cache_data.get('generated_at', time.time())
+        except Exception as e:
+            print(f"Warning: Failed to load pre-built {cache_name} cache: {e}")
+    return None, 0
+
+def initialize_prebuild_caches():
+    """Initialize all caches from pre-built files if available."""
+    global _blog_posts_cache, _sidenotes_cache, _outlines_cache
+    global _quotes_cache, _connections_cache, _terms_cache
+    
+    cache_mappings = [
+        ('blog_posts', _blog_posts_cache),
+        ('sidenotes', _sidenotes_cache),
+        ('outlines', _outlines_cache),
+        ('quotes', _quotes_cache),
+        ('connections', _connections_cache),
+        ('terms', _terms_cache),
+    ]
+    
+    loaded_count = 0
+    for cache_name, cache_dict in cache_mappings:
+        data, timestamp = load_prebuild_cache(cache_name)
+        if data is not None:
+            cache_dict['data'] = tuple(data) if cache_name == 'blog_posts' else data
+            cache_dict['timestamp'] = timestamp
+            loaded_count += 1
+    
+    if loaded_count > 0:
+        print(f"Loaded {loaded_count} pre-built caches - app ready instantly!")
+    
+    return loaded_count
+
+# Initialize pre-built caches on module load
+_prebuild_loaded = initialize_prebuild_caches()
+
 def extract_intelligent_date(item_path, content_data=None):
     """Extract date intelligently, prioritizing filename patterns as requested."""
     pub_date = None
@@ -2155,6 +2218,11 @@ def should_preload_caches():
     """Check if this process should handle cache preloading."""
     global cache_lock_file
     
+    # Skip preloading if we already loaded pre-built caches
+    if _prebuild_loaded > 0:
+        print(f"Skipping runtime preload - {_prebuild_loaded} pre-built caches already loaded!")
+        return False
+    
     # Default to preloading (better for reliability and single-container deployments)
     # Only skip if we explicitly can't get the lock
     try:
@@ -2181,7 +2249,7 @@ def should_preload_caches():
             cache_lock_file.close()
         return False
 
-# Start background preloading only in one process
+# Start background preloading only in one process (and only if needed)
 if should_preload_caches():
     start_background_preload()
 
