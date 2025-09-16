@@ -47,6 +47,61 @@
                 margin-right: 0.3rem;
                 vertical-align: middle;
             }
+
+            /* Dropdown navigation styles */
+            .nav-dropdown {
+                position: relative;
+                display: inline-block;
+                padding: 0.5rem;
+                margin: -0.5rem;
+            }
+
+
+            .nav-dropdown .dropdown-content {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                z-index: 1000;
+                min-width: 280px;
+                padding: 0.5rem 0;
+                margin-top: -1px;
+            }
+
+            .nav-dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .nav-dropdown .dropdown-content a {
+                display: block;
+                padding: 0.5rem 1rem;
+                color: #333;
+                text-decoration: none;
+                border-bottom: none;
+                font-size: 0.9rem;
+                line-height: 1.4;
+            }
+
+            .nav-dropdown .dropdown-content a:hover {
+                background-color: #f5f5f5;
+            }
+
+            .nav-dropdown .dropdown-content a .index-description {
+                display: block;
+                font-size: 0.75rem;
+                color: #666;
+                margin-top: 0.1rem;
+            }
+
+            .nav-dropdown > a::after {
+                content: " ▼";
+                font-size: 0.7rem;
+                color: #999;
+            }
         </style>
 
 
@@ -124,8 +179,41 @@
                 <nav>
                     <a href="/">Home</a>
                     <a href="/archive">Archive</a>
-                    <a href="/sidenotes">Sidenotes</a>
-                    <a href="/themes">Themes</a>
+                    <div class="nav-dropdown">
+                        <a href="#">Indexes</a>
+                        <div class="dropdown-content">
+                            <a href="/sidenotes">
+                                Sidenotes Index
+                                <span class="index-description">{{ index_counts.sidenotes|default('1,300+') }} marginalia extracted from across the garden.</span>
+                            </a>
+                            <a href="/outlines">
+                                Outlines Index
+                                <span class="index-description">{{ index_counts.outlines|default('3,000+') }} headings — structural navigation through essays.</span>
+                            </a>
+                            <a href="/connections">
+                                Connections Index
+                                <span class="index-description">{{ index_counts.connections_outgoing|default('1,500+') }} outgoing and {{ index_counts.connections_incoming|default('1,400+') }} incoming cross-references.</span>
+                            </a>
+                            <a href="/quotes">
+                                Quotes Index
+                                <span class="index-description">{{ index_counts.quotes|default('200+') }} quotable insights and distilled wisdom.</span>
+                            </a>
+                            <a href="/terms">
+                                Term Index
+                                <span class="index-description">{{ index_counts.terms|default('200+') }} key terms with {{ index_counts.terms_total_refs|default('1,300+') }} total references.</span>
+                            </a>
+                            <div style="border-top: 1px solid #eee; margin: 0.5rem 0;"></div>
+                            <a href="/graph">
+                                Cross-Reference Graph
+                                <span class="index-description">Interactive network visualization of connections.</span>
+                            </a>
+                            <div style="border-top: 1px solid #eee; margin: 0.5rem 0;"></div>
+                            <a href="/search">
+                                Search
+                                <span class="index-description">Full-text search across all content.</span>
+                            </a>
+                        </div>
+                    </div>
                     <a href="/random" class="random-link">[random]</a>
                 </nav>
 

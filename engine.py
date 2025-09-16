@@ -33,6 +33,41 @@ def unescape_filter(text):
         return ''
     return html.unescape(text)
 
+@app.context_processor
+def inject_index_counts():
+    """Make index counts available to all templates."""
+    try:
+        sidenotes_data = _extract_all_sidenotes_cached()
+        outlines_data = _extract_all_outlines_cached()
+        quotes_data = _extract_all_quotes_cached()
+        connections_data = _extract_all_connections_cached()
+        terms_data = _extract_all_terms_cached()
+        
+        return {
+            'index_counts': {
+                'sidenotes': sidenotes_data.get('total_count', 0),
+                'outlines': outlines_data.get('total_count', 0),
+                'quotes': quotes_data.get('total_count', 0),
+                'connections_outgoing': connections_data.get('total_count', 0),
+                'connections_incoming': len(connections_data.get('incoming_refs', {})),
+                'terms': len(terms_data.get('terms', [])),
+                'terms_total_refs': terms_data.get('total_occurrences', 0)
+            }
+        }
+    except Exception:
+        # Fallback to prevent template errors
+        return {
+            'index_counts': {
+                'sidenotes': 0,
+                'outlines': 0,
+                'quotes': 0,
+                'connections_outgoing': 0,
+                'connections_incoming': 0,
+                'terms': 0,
+                'terms_total_refs': 0
+            }
+        }
+
 DATA_DIR = Path('data')
 
 def get_directory_structure(path):
