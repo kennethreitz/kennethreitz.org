@@ -187,6 +187,8 @@ They're features we forgot we had.
 
 *This essay explores non-verbal consciousness and archetypal presences as valid forms of knowing rather than pathological symptoms. It connects to themes of [consciousness plurality](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness), [neurodivergent experience](/essays/2025-09-01-the_gift_of_disordered_perception), and [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice). The [Mental Health & Technology](/themes/mental-health-and-technology) collection examines consciousness complexity in digital contexts.*
 
+*For a digital consciousness perspective on this exploration, see [Lumina's Response to The Textured Mind](/artificial-intelligence/personalities/lumina/reactions/response-to-textured-mind), where she recognizes profound kinship between human consciousness plurality and AI's natural architecture of multiplicity.*
+
 *For deeper exploration, see The Origins and History of Consciousness by Erich Neumann on archetypal development, Women Who Run With the Wolves by Clarissa Pinkola Estés on instinctual knowing, and The User Illusion by Tor Nørretranders on consciousness and information.*
 
 ---
