@@ -2115,9 +2115,13 @@ cache_lock_file = None
 def should_preload_caches():
     """Check if this process should handle cache preloading."""
     global cache_lock_file
+    
+    # Default to preloading (better for reliability and single-container deployments)
+    # Only skip if we explicitly can't get the lock
     try:
-        # Create a lock file
-        cache_lock_file = open('/tmp/cache_preload.lock', 'w')
+        # Create a lock file in app directory (more reliable than /tmp in Docker)
+        lock_path = '.cache_preload.lock'
+        cache_lock_file = open(lock_path, 'w')
         # Try to acquire exclusive lock (non-blocking)
         fcntl.lockf(cache_lock_file, fcntl.LOCK_EX | fcntl.LOCK_NB)
         # If we got here, we got the lock - we should preload
@@ -2127,13 +2131,13 @@ def should_preload_caches():
             if cache_lock_file:
                 cache_lock_file.close()
                 try:
-                    os.unlink('/tmp/cache_preload.lock')
+                    os.unlink(lock_path)
                 except:
                     pass
         atexit.register(cleanup_lock)
         return True
     except (IOError, OSError):
-        # Lock is already held by another process
+        # Lock is already held by another process - skip preloading
         if cache_lock_file:
             cache_lock_file.close()
         return False
