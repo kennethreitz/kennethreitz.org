@@ -693,7 +693,9 @@ def _extract_all_connections_cached():
     import glob
     from collections import defaultdict
     
-    articles_with_connections = defaultdict(list)
+    # Track both outgoing and incoming connections
+    articles_data = {}  # url -> {title, date, category, outgoing_connections}
+    incoming_connections = defaultdict(list)  # target_url -> [source connections]
     
     # Get all markdown files from /data/ directory
     all_files = glob.glob('data/**/*.md', recursive=True)
@@ -701,6 +703,7 @@ def _extract_all_connections_cached():
     # Filter out index files
     all_files = [f for f in all_files if not f.endswith('index.md')]
     
+    # First pass: collect all articles and their outgoing connections
     for file_path in all_files:
         try:
             # Read the file and render it
@@ -708,71 +711,93 @@ def _extract_all_connections_cached():
             content_data = render_markdown_file(full_path)
             html_content = content_data['content']
             
+            # Create URL for this file
+            relative_path = str(full_path.relative_to(DATA_DIR))
+            source_url = '/' + relative_path[:-3]  # Remove .md extension
+            
+            # Extract date for sorting
+            pub_date = extract_intelligent_date(full_path, content_data)
+            
+            # Initialize article data
+            articles_data[source_url] = {
+                'title': content_data['title'],
+                'url': source_url,
+                'date': pub_date,
+                'category': full_path.parent.name.replace('-', ' ').title(),
+                'outgoing_connections': []
+            }
+            
             # Extract internal links from the HTML
             # Pattern matches <a href="/internal/path">link text</a>
             link_pattern = r'<a[^>]*href="(/[^"]*)"[^>]*>(.*?)</a>'
             links = re.findall(link_pattern, html_content, re.DOTALL)
             
-            if links:
-                # Create URL for this file
-                relative_path = str(full_path.relative_to(DATA_DIR))
-                source_url = '/' + relative_path[:-3]  # Remove .md extension
-                
-                # Extract date for sorting
-                pub_date = extract_intelligent_date(full_path, content_data)
-                
-                # Collect connections for this article
-                article_connections = []
-                
-                # Filter for internal links only (skip external URLs and fragments)
-                for link_url, link_text in links:
-                    if (link_url.startswith('/') and 
-                        not link_url.startswith('//') and 
-                        not link_url.startswith('/static') and
-                        link_url != source_url):  # Don't include self-references
-                        
-                        # Clean up link text
-                        link_text = re.sub(r'<[^>]*>', '', link_text)
-                        link_text = re.sub(r'\s+', ' ', link_text).strip()
-                        
-                        article_connections.append({
-                            'target_url': link_url,
-                            'link_text': link_text
-                        })
-                
-                if article_connections:
-                    articles_with_connections[content_data['title']].append({
-                        'connections': article_connections,
-                        'url': source_url,
-                        'date': pub_date,
-                        'category': full_path.parent.name.replace('-', ' ').title()
+            # Collect outgoing connections for this article
+            for link_url, link_text in links:
+                if (link_url.startswith('/') and 
+                    not link_url.startswith('//') and 
+                    not link_url.startswith('/static') and
+                    link_url != source_url):  # Don't include self-references
+                    
+                    # Clean up link text
+                    link_text = re.sub(r'<[^>]*>', '', link_text)
+                    link_text = re.sub(r'\s+', ' ', link_text).strip()
+                    
+                    connection = {
+                        'target_url': link_url,
+                        'link_text': link_text,
+                        'source_url': source_url,
+                        'source_title': content_data['title']
+                    }
+                    
+                    # Add to outgoing connections
+                    articles_data[source_url]['outgoing_connections'].append({
+                        'target_url': link_url,
+                        'link_text': link_text
                     })
+                    
+                    # Add to incoming connections map
+                    incoming_connections[link_url].append({
+                        'source_url': source_url,
+                        'source_title': content_data['title'],
+                        'link_text': link_text
+                    })
+                    
         except Exception as e:
             # Skip files that can't be processed
             continue
     
-    # Convert to list and sort by date (most recent first)
+    # Second pass: add incoming connections to each article
+    for url, article in articles_data.items():
+        article['incoming_connections'] = incoming_connections.get(url, [])
+    
+    # Convert to list format and filter articles with connections
     articles_list = []
-    for title, article_data in articles_with_connections.items():
-        # Should only be one entry per article
-        data = article_data[0]
-        articles_list.append({
-            'title': title,
-            'url': data['url'],
-            'date': data['date'],
-            'category': data['category'],
-            'connections': data['connections']
-        })
+    for url, article in articles_data.items():
+        # Only include articles that have outgoing OR incoming connections
+        if article['outgoing_connections'] or article['incoming_connections']:
+            articles_list.append({
+                'title': article['title'],
+                'url': article['url'],
+                'date': article['date'],
+                'category': article['category'],
+                'connections': article['outgoing_connections'],  # Keep for backward compatibility
+                'outgoing_connections': article['outgoing_connections'],
+                'incoming_connections': article['incoming_connections']
+            })
     
     articles_list.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
     
-    # Count total connections
-    total_count = sum(len(article['connections']) for article in articles_list)
+    # Count total connections (both directions)
+    total_outgoing = sum(len(article['outgoing_connections']) for article in articles_list)
+    total_incoming = sum(len(article['incoming_connections']) for article in articles_list)
     
     # Update cache
     result = {
         'articles': articles_list,
-        'total_count': total_count
+        'total_count': total_outgoing,  # Keep backward compatibility
+        'total_outgoing': total_outgoing,
+        'total_incoming': total_incoming
     }
     _connections_cache['data'] = result
     _connections_cache['timestamp'] = time.time()
@@ -789,6 +814,8 @@ def connections_index():
     return render_template('connections.html',
                          articles=connections_data['articles'],
                          total_count=connections_data['total_count'],
+                         total_outgoing=connections_data.get('total_outgoing'),
+                         total_incoming=connections_data.get('total_incoming'),
                          title='Connections Index',
                          breadcrumbs=[],
                          current_year=datetime.now().year,
