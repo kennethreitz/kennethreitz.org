@@ -95,6 +95,7 @@ def _generate_all_caches_unified():
                         'title': content_data['title'],
                         'path': f"/{full_path.relative_to(Path('data')).with_suffix('')}",
                         'url': f"/{full_path.relative_to(Path('data')).with_suffix('')}",
+                        'file_path': str(full_path),  # Add actual file path for mapping
                         'pub_date': date_obj,
                         'date_str': date_str,
                         'excerpt': simple_extract_excerpt(raw_content),
