@@ -1,7 +1,7 @@
 ---
 name: sidenote-specialist
 description: Use this agent to add, optimize, or fix sidenotes in Kenneth's essays. The agent understands proper sidenote formatting, placement rules, voice matching, and optimal density. It ensures sidenotes complement rather than compete with the main text while maintaining Kenneth's contemplative pragmatism style. Examples: <example>Context: Essay needs sidenotes for depth without disrupting flow. user: 'Can you add some thoughtful sidenotes to this essay about consciousness?' assistant: 'I'll use the sidenote-specialist agent to add well-placed sidenotes that enhance the contemplative depth without overwhelming the main narrative.'</example> <example>Context: Sidenotes are too close to code blocks or improperly formatted. user: 'These sidenotes are breaking the layout near the code examples' assistant: 'Let me use the sidenote-specialist agent to fix the sidenote placement and formatting issues.'</example>
-model: sonnet
+model: haiku
 color: blue
 ---
 
