@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "Publishing changes..."
-
-# Custom Claude Code command to publish changes
-git add -A && git commit -am 'test' && git push
