@@ -4,21 +4,15 @@ Pre-build cache generation script for Docker builds.
 
 This script generates all cache files as JSON during the Docker build process,
 eliminating the need for runtime cache preloading and making the app instantly responsive.
+Uses a unified single-sweep approach for maximum efficiency.
 """
 
 import json
 import time
 from pathlib import Path
 
-# Import the cache functions from engine
-from engine import (
-    _collect_all_blog_posts_cached,
-    _extract_all_sidenotes_cached,
-    _extract_all_outlines_cached,
-    _extract_all_quotes_cached,
-    _extract_all_connections_cached,
-    _extract_all_terms_cached,
-)
+# Import the unified cache function from engine
+from engine import _generate_all_caches_unified
 
 def serialize_cache_data(data):
     """Convert cache data to JSON-serializable format."""
@@ -90,31 +84,76 @@ def generate_cache_file(name, cache_function, output_path):
             }, f)
 
 def main():
-    """Generate all cache files."""
-    print("=== Pre-building caches for Docker image ===")
+    """Generate all cache files using unified single-sweep approach."""
+    print("=== Pre-building caches for Docker image (unified approach) ===")
     
     # Create cache directory
     cache_dir = Path('.cache')
     cache_dir.mkdir(exist_ok=True)
     
-    # Define cache generations
-    cache_configs = [
-        ('blog_posts', _collect_all_blog_posts_cached, cache_dir / 'blog_posts.json'),
-        ('sidenotes', _extract_all_sidenotes_cached, cache_dir / 'sidenotes.json'),
-        ('outlines', _extract_all_outlines_cached, cache_dir / 'outlines.json'),
-        ('quotes', _extract_all_quotes_cached, cache_dir / 'quotes.json'),
-        ('connections', _extract_all_connections_cached, cache_dir / 'connections.json'),
-        ('terms', _extract_all_terms_cached, cache_dir / 'terms.json'),
-    ]
-    
     total_start = time.time()
     
-    # Generate each cache file
-    for name, cache_function, output_path in cache_configs:
-        generate_cache_file(name, cache_function, output_path)
+    try:
+        print("Generating unified cache data...")
+        unified_cache = _generate_all_caches_unified()
+        
+        # Write each cache type to separate files for backward compatibility
+        cache_configs = [
+            ('blog_posts', unified_cache['blog_posts']),
+            ('sidenotes', unified_cache['sidenotes']),
+            ('outlines', unified_cache['outlines']),
+            ('quotes', unified_cache['quotes']),
+            ('connections', unified_cache['connections']),
+            ('terms', unified_cache['terms']),
+        ]
+        
+        for name, cache_data in cache_configs:
+            output_path = cache_dir / f'{name}.json'
+            
+            try:
+                # Serialize the data
+                serializable_data = serialize_cache_data(cache_data)
+                
+                # Write to JSON file
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    json.dump({
+                        'data': serializable_data,
+                        'generated_at': time.time(),
+                        'generation_time': time.time() - total_start
+                    }, f, separators=(',', ':'))  # Compact JSON
+                
+                # Log appropriate stats based on cache type
+                if name == 'blog_posts':
+                    print(f"✓ Generated {name} cache: {len(serializable_data)} posts")
+                elif name == 'sidenotes':
+                    print(f"✓ Generated {name} cache: {serializable_data['total_count']} sidenotes from {len(serializable_data['articles'])} articles")
+                elif name == 'outlines':
+                    print(f"✓ Generated {name} cache: {serializable_data['total_count']} headings from {len(serializable_data['articles'])} articles")
+                elif name == 'quotes':
+                    print(f"✓ Generated {name} cache: {serializable_data['total_count']} quotes from {len(serializable_data['articles'])} articles")
+                elif name == 'connections':
+                    print(f"✓ Generated {name} cache: {serializable_data['total_count']} outgoing cross-references")
+                elif name == 'terms':
+                    print(f"✓ Generated {name} cache: {len(serializable_data['terms'])} terms with {serializable_data['total_occurrences']} total occurrences")
+                    
+            except Exception as e:
+                print(f"✗ Error generating {name} cache: {e}")
+                # Create empty cache file to prevent runtime errors
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    json.dump({
+                        'data': None,
+                        'generated_at': time.time(),
+                        'generation_time': 0,
+                        'error': str(e)
+                    }, f)
+        
+    except Exception as e:
+        print(f"✗ Error in unified cache generation: {e}")
+        import traceback
+        traceback.print_exc()
     
     total_time = time.time() - total_start
-    print(f"\n=== Cache pre-build completed in {total_time:.2f}s ===")
+    print(f"\n=== Unified cache pre-build completed in {total_time:.2f}s ===")
     print("App will now start instantly with pre-built caches!")
 
 if __name__ == '__main__':

@@ -33,24 +33,251 @@ def unescape_filter(text):
         return ''
     return html.unescape(text)
 
+def _generate_all_caches_unified():
+    """Generate all caches in a single sweep through the data."""
+    import glob
+    from collections import defaultdict
+    import re
+    
+    def simple_extract_excerpt(content, max_words=50):
+        """Simple excerpt extraction for unified cache generation."""
+        # Remove front matter
+        content = re.sub(r'^---\s*\n.*?\n---\s*\n', '', content, flags=re.DOTALL)
+        # Remove title (first # line)
+        content = re.sub(r'^# .+?$', '', content, flags=re.MULTILINE)
+        # Remove date lines
+        content = re.sub(r'^\*[A-Za-z]+ \d{4}\*\s*$', '', content, flags=re.MULTILINE)
+        # Get first paragraph
+        lines = [line.strip() for line in content.split('\n') if line.strip()]
+        if lines:
+            first_para = lines[0]
+            words = first_para.split()[:max_words]
+            excerpt = ' '.join(words)
+            if len(words) == max_words:
+                excerpt += '...'
+            return excerpt
+        return ''
+    
+    # Initialize all data structures
+    sidenotes_data = defaultdict(list)
+    outlines_data = defaultdict(list)
+    quotes_data = defaultdict(list)
+    connections_outgoing = defaultdict(list)
+    connections_incoming = defaultdict(list)
+    terms_data = defaultdict(list)
+    blog_posts = []
+    
+    # Get all markdown files from /data/ directory
+    all_files = glob.glob('data/**/*.md', recursive=True)
+    all_files = [f for f in all_files if not f.endswith('index.md')]
+    
+    print(f"Unified cache generation: Processing {len(all_files)} files...")
+    
+    for file_path in all_files:
+        try:
+            full_path = Path(file_path)
+            
+            # Read raw content directly for processing
+            with open(full_path, 'r', encoding='utf-8') as f:
+                raw_content = f.read()
+            
+            # Get processed content data
+            content_data = render_markdown_file(full_path)
+            html_content = content_data['content']
+            
+            # Generate blog post entry if this is an essay
+            if full_path.parent.name == 'essays':
+                try:
+                    date_str = full_path.stem[:10]  # YYYY-MM-DD
+                    date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+                    
+                    blog_posts.append({
+                        'title': content_data['title'],
+                        'path': f"/{full_path.relative_to(Path('data')).with_suffix('')}",
+                        'url': f"/{full_path.relative_to(Path('data')).with_suffix('')}",
+                        'pub_date': date_obj,
+                        'date_str': date_str,
+                        'excerpt': simple_extract_excerpt(raw_content),
+                        'description': simple_extract_excerpt(raw_content),
+                        'word_count': len(raw_content.split()),
+                        'category': full_path.parent.name
+                    })
+                except (ValueError, IndexError):
+                    pass
+            
+            # Extract sidenotes with their IDs
+            # Pattern matches the full sidenote structure: input + span
+            sidenote_pattern = r'<input[^>]*id="([^"]*)"[^>]*class="margin-toggle"[^>]*/>.*?<span class="sidenote">(.*?)</span>'
+            sidenotes = re.findall(sidenote_pattern, html_content, re.DOTALL)
+            if sidenotes:
+                for sidenote_id, sidenote_content in sidenotes:
+                    clean_sidenote = re.sub(r'<[^>]+>', '', sidenote_content).strip()
+                    if clean_sidenote:
+                        sidenotes_data[file_path].append({
+                            'text': clean_sidenote,
+                            'html': sidenote_content.strip(),
+                            'id': sidenote_id
+                        })
+            
+            # Extract outlines (headings)
+            heading_pattern = r'(<h([1-6])[^>]*>.*?</h[1-6]>)'
+            headings = re.findall(heading_pattern, html_content)
+            if headings:
+                for full_tag, level in headings:
+                    # Extract just the inner content for text
+                    inner_pattern = r'<h[1-6][^>]*>(.*?)</h[1-6]>'
+                    inner_match = re.search(inner_pattern, full_tag)
+                    if inner_match:
+                        clean_heading = re.sub(r'<[^>]+>', '', inner_match.group(1)).strip()
+                        if clean_heading and not clean_heading.startswith('fn:'):
+                            outlines_data[file_path].append({
+                                'level': int(level),
+                                'text': clean_heading,
+                                'html': full_tag.strip()
+                            })
+            
+            # Extract quotes (blockquotes)
+            quote_pattern = r'<blockquote[^>]*>(.*?)</blockquote>'
+            quotes = re.findall(quote_pattern, html_content, re.DOTALL)
+            if quotes:
+                for quote in quotes:
+                    clean_quote = re.sub(r'<[^>]+>', '', quote).strip()
+                    if clean_quote:
+                        quotes_data[file_path].append({
+                            'text': clean_quote,
+                            'html': quote.strip()
+                        })
+            
+            # Extract connections (cross-references)
+            connection_pattern = r'\[([^\]]+)\]\((/[^)]+)\)'
+            connections = re.findall(connection_pattern, raw_content)
+            if connections:
+                for link_text, link_url in connections:
+                    # Include all internal links (starting with /) except external ones
+                    if link_url.startswith('/') and not link_url.startswith('//'):
+                        connections_outgoing[file_path].append({
+                            'text': link_text,
+                            'url': link_url,
+                            'target_file': link_url
+                        })
+                        # Track incoming references
+                        connections_incoming[link_url].append({
+                            'text': link_text,
+                            'source_file': file_path,
+                            'context': link_text
+                        })
+            
+            # Extract terms for index
+            # Simple approach: extract words that appear in multiple files
+            words = re.findall(r'\b[A-Z][a-zA-Z]{3,}\b', raw_content)
+            for word in set(words):
+                if len(word) > 3 and word not in ['This', 'That', 'They', 'When', 'Where', 'What', 'Which']:
+                    terms_data[word].append({
+                        'file': file_path,
+                        'context': word
+                    })
+            
+        except Exception as e:
+            print(f"Error processing {file_path}: {e}")
+            continue
+    
+    # Sort blog posts by date (newest first)
+    blog_posts.sort(key=lambda x: x['pub_date'], reverse=True)
+    
+    # Create URL and metadata mappings for terms processing
+    url_metadata = {}
+    file_to_url = {}
+    for post in blog_posts:
+        url_metadata[post['url']] = post
+        file_path = post.get('file_path') or post.get('path')
+        if file_path:
+            file_to_url[file_path] = post['url']
+    
+    # Process terms to only include ones that appear in multiple files
+    filtered_terms = {term: refs for term, refs in terms_data.items() if len(refs) >= 2}
+    final_terms = {}
+    total_term_occurrences = 0
+    for term, refs in sorted(filtered_terms.items()):
+        # Convert refs to articles format expected by template
+        # Group by file to get counts per article
+        file_counts = {}
+        for ref in refs:
+            file_path = ref['file']
+            if file_path not in file_counts:
+                file_counts[file_path] = 0
+            file_counts[file_path] += 1
+        
+        articles = []
+        for file_path, count in file_counts.items():
+            # Map file path to article URL and title
+            url = file_to_url.get(file_path, '')
+            if url:
+                metadata = url_metadata.get(url, {})
+                title = metadata.get('title', '')
+                if title:  # Only include articles with valid titles
+                    articles.append({
+                        'url': url,
+                        'title': title,
+                        'count': count
+                    })
+        
+        if articles:  # Only include terms that have valid articles
+            final_terms[term] = {
+                'articles': articles,
+                'total_count': sum(file_counts.values()),
+                'article_count': len(articles)
+            }
+            total_term_occurrences += sum(file_counts.values())
+    
+    # Build final cache structures
+    total_sidenotes = sum(len(notes) for notes in sidenotes_data.values())
+    
+    unified_cache = {
+        'blog_posts': blog_posts,
+        'sidenotes': {
+            'articles': dict(sidenotes_data),
+            'total_count': total_sidenotes
+        },
+        'outlines': {
+            'articles': dict(outlines_data),
+            'total_count': sum(len(headings) for headings in outlines_data.values())
+        },
+        'quotes': {
+            'articles': dict(quotes_data),
+            'total_count': sum(len(quotes) for quotes in quotes_data.values())
+        },
+        'connections': {
+            'outgoing_refs': dict(connections_outgoing),
+            'incoming_refs': dict(connections_incoming),
+            'total_count': sum(len(refs) for refs in connections_outgoing.values())
+        },
+        'terms': {
+            'terms': final_terms,
+            'total_occurrences': total_term_occurrences
+        }
+    }
+    
+    return unified_cache
+
 @app.context_processor
 def inject_index_counts():
     """Make index counts available to all templates."""
     try:
-        sidenotes_data = _extract_all_sidenotes_cached()
-        outlines_data = _extract_all_outlines_cached()
-        quotes_data = _extract_all_quotes_cached()
-        connections_data = _extract_all_connections_cached()
-        terms_data = _extract_all_terms_cached()
+        # Use optimized MetadataCache instead of old cached functions
+        sidenotes_data = metadata_cache.get_sidenotes()
+        outlines_data = metadata_cache.get_outlines()
+        quotes_data = metadata_cache.get_quotes()
+        connections_data = metadata_cache.get_connections()
+        terms_data = metadata_cache.get_terms()
         
         return {
             'index_counts': {
                 'sidenotes': sidenotes_data.get('total_count', 0),
                 'outlines': outlines_data.get('total_count', 0),
                 'quotes': quotes_data.get('total_count', 0),
-                'connections_outgoing': connections_data.get('total_count', 0),
-                'connections_incoming': len(connections_data.get('incoming_refs', {})),
-                'terms': len(terms_data.get('terms', [])),
+                'connections_outgoing': connections_data.get('total_outgoing', 0),
+                'connections_incoming': connections_data.get('total_incoming', 0),
+                'terms': terms_data.get('total_terms', 0),
                 'terms_total_refs': terms_data.get('total_occurrences', 0)
             }
         }
@@ -367,16 +594,156 @@ def search_page():
                          current_page='Search')
 
 
-def _extract_all_sidenotes_cached():
-    """Cached function to extract all sidenotes with TTL."""
-    current_time = time.time()
+def _convert_unified_outlines_cache(unified_cache):
+    """Convert unified cache outlines format to template-expected format."""
+    articles_list = []
     
-    # Check if cache is valid
-    if (_sidenotes_cache['data'] is not None and
-        current_time - _sidenotes_cache['timestamp'] < CACHE_TTL):
+    for file_path, outlines in unified_cache.get('articles', {}).items():
+        if not outlines:
+            continue
+            
+        try:
+            full_path = Path(file_path)
+            content_data = render_markdown_file(full_path)
+            pub_date = extract_intelligent_date(full_path, content_data)
+            relative_path = str(full_path.relative_to(DATA_DIR))
+            url_path = '/' + relative_path[:-3]
+            
+            processed_outlines = []
+            for outline in outlines:
+                if isinstance(outline, dict) and 'text' in outline:
+                    processed_outlines.append(outline)
+            
+            if processed_outlines:
+                articles_list.append({
+                    'title': content_data['title'],
+                    'url': url_path,
+                    'date': pub_date,
+                    'category': full_path.parent.name.replace('-', ' ').title(),
+                    'outlines': processed_outlines
+                })
+        except Exception:
+            continue
+    
+    articles_list.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
+    return {
+        'articles': articles_list,
+        'total_count': unified_cache.get('total_count', sum(len(article['outlines']) for article in articles_list))
+    }
+
+def _convert_unified_quotes_cache(unified_cache):
+    """Convert unified cache quotes format to template-expected format."""
+    articles_list = []
+    
+    for file_path, quotes in unified_cache.get('articles', {}).items():
+        if not quotes:
+            continue
+            
+        try:
+            full_path = Path(file_path)
+            content_data = render_markdown_file(full_path)
+            pub_date = extract_intelligent_date(full_path, content_data)
+            relative_path = str(full_path.relative_to(DATA_DIR))
+            url_path = '/' + relative_path[:-3]
+            
+            processed_quotes = []
+            for quote in quotes:
+                if isinstance(quote, dict) and 'text' in quote:
+                    processed_quotes.append(quote)
+            
+            if processed_quotes:
+                articles_list.append({
+                    'title': content_data['title'],
+                    'url': url_path,
+                    'date': pub_date,
+                    'category': full_path.parent.name.replace('-', ' ').title(),
+                    'quotes': processed_quotes
+                })
+        except Exception:
+            continue
+    
+    articles_list.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
+    return {
+        'articles': articles_list,
+        'total_count': unified_cache.get('total_count', sum(len(article['quotes']) for article in articles_list))
+    }
+
+def _convert_unified_connections_cache(unified_cache):
+    """Convert unified cache connections format to template-expected format."""
+    return {
+        'outgoing_refs': unified_cache.get('outgoing_refs', {}),
+        'incoming_refs': unified_cache.get('incoming_refs', {}),
+        'total_count': unified_cache.get('total_count', 0)
+    }
+
+def _convert_unified_terms_cache(unified_cache):
+    """Convert unified cache terms format to template-expected format."""
+    return {
+        'terms': unified_cache.get('terms', []),
+        'total_occurrences': unified_cache.get('total_occurrences', 0)
+    }
+
+def _convert_unified_sidenotes_cache(unified_cache):
+    """Convert unified cache sidenotes format to template-expected format."""
+    articles_list = []
+    
+    # The unified cache has structure: {'articles': {file_path: [sidenotes]}, 'total_count': int}
+    articles_data = unified_cache.get('articles', {})
+    
+    for file_path, sidenotes in articles_data.items():
+        if not sidenotes:
+            continue
+            
+        try:
+            # Get file info
+            full_path = Path(file_path)
+            content_data = render_markdown_file(full_path)
+            
+            # Extract date for sorting
+            pub_date = extract_intelligent_date(full_path, content_data)
+            
+            # Create URL for this file
+            relative_path = str(full_path.relative_to(DATA_DIR))
+            url_path = '/' + relative_path[:-3]  # Remove .md extension
+            
+            # Convert sidenotes to expected format
+            processed_sidenotes = []
+            for sidenote in sidenotes:
+                if isinstance(sidenote, dict) and 'text' in sidenote:
+                    processed_sidenotes.append({
+                        'text': sidenote['text'],
+                        'id': sidenote.get('id')  # May be None
+                    })
+            
+            if processed_sidenotes:
+                articles_list.append({
+                    'title': content_data['title'],
+                    'url': url_path,
+                    'date': pub_date,
+                    'category': full_path.parent.name.replace('-', ' ').title(),
+                    'sidenotes': processed_sidenotes
+                })
+                
+        except Exception as e:
+            # Skip files that can't be processed
+            continue
+    
+    # Sort by date (most recent first)
+    articles_list.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
+    
+    print(f"Sidenotes conversion: {len(articles_list)} articles processed from {len(unified_cache.get('articles', {}))} files")
+    return {
+        'articles': articles_list,
+        'total_count': unified_cache.get('total_count', sum(len(article['sidenotes']) for article in articles_list))
+    }
+
+def _extract_all_sidenotes_cached():
+    """Return pre-loaded sidenotes cache data (pure RAM, no TTL)."""
+    # Return pre-loaded cache data if available
+    if _sidenotes_cache['data'] is not None:
         return _sidenotes_cache['data']
     
-    # Cache miss or expired - rebuild
+    # Fallback to rebuild if cache somehow wasn't initialized
     import glob
     from collections import defaultdict
     
@@ -473,7 +840,6 @@ def _extract_all_sidenotes_cached():
         'total_count': total_count
     }
     _sidenotes_cache['data'] = result
-    _sidenotes_cache['timestamp'] = time.time()
     
     return result
 
@@ -481,8 +847,8 @@ def _extract_all_sidenotes_cached():
 @app.route('/sidenotes')
 def sidenotes_index():
     """Extract and display all sidenotes from across the site as an index."""
-    # Get cached sidenotes data
-    sidenotes_data = _extract_all_sidenotes_cached()
+    # Use clean MetadataCache interface
+    sidenotes_data = metadata_cache.get_sidenotes()
     
     return render_template('sidenotes.html',
                          articles=sidenotes_data['articles'],
@@ -494,15 +860,12 @@ def sidenotes_index():
 
 
 def _extract_all_outlines_cached():
-    """Cached function to extract all essay outlines with TTL."""
-    current_time = time.time()
-    
-    # Check if cache is valid
-    if (_outlines_cache['data'] is not None and
-        current_time - _outlines_cache['timestamp'] < CACHE_TTL):
+    """Return pre-loaded outlines cache data (pure RAM, no TTL)."""
+    # Return pre-loaded cache data if available
+    if _outlines_cache['data'] is not None:
         return _outlines_cache['data']
     
-    # Cache miss or expired - rebuild
+    # Fallback to rebuild if cache somehow wasn't initialized
     import glob
     from collections import defaultdict
     
@@ -583,7 +946,6 @@ def _extract_all_outlines_cached():
         'total_count': total_count
     }
     _outlines_cache['data'] = result
-    _outlines_cache['timestamp'] = time.time()
     
     return result
 
@@ -591,8 +953,8 @@ def _extract_all_outlines_cached():
 @app.route('/outlines')
 def outlines_index():
     """Extract and display all essay outlines from across the site as an index."""
-    # Get cached outlines data
-    outlines_data = _extract_all_outlines_cached()
+    # Use clean MetadataCache interface
+    outlines_data = metadata_cache.get_outlines()
     
     return render_template('outlines.html',
                          articles=outlines_data['articles'],
@@ -604,15 +966,12 @@ def outlines_index():
 
 
 def _extract_all_quotes_cached():
-    """Cached function to extract all blockquotes with TTL."""
-    current_time = time.time()
-    
-    # Check if cache is valid
-    if (_quotes_cache['data'] is not None and
-        current_time - _quotes_cache['timestamp'] < CACHE_TTL):
+    """Return pre-loaded quotes cache data (pure RAM, no TTL)."""
+    # Return pre-loaded cache data if available
+    if _quotes_cache['data'] is not None:
         return _quotes_cache['data']
     
-    # Cache miss or expired - rebuild
+    # Fallback to rebuild if cache somehow wasn't initialized
     import glob
     from collections import defaultdict
     
@@ -695,7 +1054,6 @@ def _extract_all_quotes_cached():
         'total_count': total_count
     }
     _quotes_cache['data'] = result
-    _quotes_cache['timestamp'] = time.time()
     
     return result
 
@@ -703,8 +1061,8 @@ def _extract_all_quotes_cached():
 @app.route('/quotes')
 def quotes_index():
     """Extract and display all blockquotes from across the site as an index."""
-    # Get cached quotes data
-    quotes_data = _extract_all_quotes_cached()
+    # Use clean MetadataCache interface
+    quotes_data = metadata_cache.get_quotes()
     
     return render_template('quotes.html',
                          articles=quotes_data['articles'],
@@ -716,15 +1074,12 @@ def quotes_index():
 
 
 def _extract_all_connections_cached():
-    """Cached function to extract all internal cross-references with TTL."""
-    current_time = time.time()
-    
-    # Check if cache is valid
-    if (_connections_cache['data'] is not None and
-        current_time - _connections_cache['timestamp'] < CACHE_TTL):
+    """Return pre-loaded connections cache data (pure RAM, no TTL)."""
+    # Return pre-loaded cache data if available
+    if _connections_cache['data'] is not None:
         return _connections_cache['data']
     
-    # Cache miss or expired - rebuild
+    # Fallback to rebuild if cache somehow wasn't initialized
     import glob
     from collections import defaultdict
     
@@ -835,7 +1190,6 @@ def _extract_all_connections_cached():
         'total_incoming': total_incoming
     }
     _connections_cache['data'] = result
-    _connections_cache['timestamp'] = time.time()
     
     return result
 
@@ -843,8 +1197,8 @@ def _extract_all_connections_cached():
 @app.route('/connections')
 def connections_index():
     """Extract and display all cross-references between essays."""
-    # Get cached connections data
-    connections_data = _extract_all_connections_cached()
+    # Use clean MetadataCache interface
+    connections_data = metadata_cache.get_connections()
     
     return render_template('connections.html',
                          articles=connections_data['articles'],
@@ -918,8 +1272,8 @@ def graph_visualization():
 @app.route('/terms')
 def terms_index():
     """Extract and display all significant terms like a book index."""
-    # Get cached terms data
-    terms_data = _extract_all_terms_cached()
+    # Use clean MetadataCache interface
+    terms_data = metadata_cache.get_terms()
     
     return render_template('terms.html',
                          terms=terms_data['terms'],
@@ -929,6 +1283,7 @@ def terms_index():
                          breadcrumbs=[],
                          current_year=datetime.now().year,
                          current_page='Term Index')
+
 
 
 @app.route('/random')
@@ -1008,7 +1363,7 @@ def random_from_collection(collection):
 @app.route('/archive')
 def archive_index():
     """Archive index showing all posts by year."""
-    posts = collect_all_blog_posts()
+    posts = metadata_cache.get_blog_posts()
 
     # Group posts by year
     grouped_posts = {}
@@ -1036,7 +1391,7 @@ def archive_index():
 @app.route('/archive/<int:year>')
 def archive_year(year):
     """Archive for a specific year."""
-    posts = collect_all_blog_posts()
+    posts = metadata_cache.get_blog_posts()
 
     # Filter posts for the specific year
     year_posts = [post for post in posts if post['pub_date'].year == year]
@@ -1078,7 +1433,7 @@ def archive_year(year):
 @app.route('/archive/<int:year>/<int:month>')
 def archive_month(year, month):
     """Archive for a specific month and year."""
-    posts = collect_all_blog_posts()
+    posts = metadata_cache.get_blog_posts()
 
     # Filter posts for the specific month and year
     month_posts = [post for post in posts
@@ -1535,8 +1890,269 @@ def initialize_prebuild_caches():
     
     return loaded_count
 
-# Initialize pre-built caches on module load
-_prebuild_loaded = initialize_prebuild_caches()
+# Initialize unified cache on module load
+class MetadataCache:
+    """Clean interface to site metadata cache."""
+    
+    def __init__(self):
+        self._data = None
+    
+    def initialize(self):
+        """Load all site metadata in a single scan."""
+        print("Starting unified cache generation...")
+        self._data = _generate_all_caches_unified()
+        print("Unified cache generation completed!")
+    
+    def get_sidenotes(self):
+        """Get all sidenotes with metadata."""
+        if not self._data:
+            return {'articles': [], 'total_count': 0}
+        
+        sidenotes_data = self._data['sidenotes']['articles']  # {file_path: [sidenotes]}
+        
+        # Create file metadata lookup from blog_posts (fast dictionary lookup)
+        file_metadata = {}
+        for post in self._data.get('blog_posts', []):
+            # Convert URL back to file path for lookup
+            file_path = 'data' + post['url'] + '.md'
+            file_metadata[file_path] = post
+        
+        articles = []
+        for file_path, sidenotes in sidenotes_data.items():
+            if not sidenotes:
+                continue
+                
+            # Use pre-computed metadata instead of re-processing files
+            metadata = file_metadata.get(file_path)
+            if metadata:
+                articles.append({
+                    'title': metadata['title'],
+                    'url': metadata['url'],
+                    'date': metadata.get('pub_date'),
+                    'category': metadata['category'].replace('-', ' ').title(),
+                    'sidenotes': [{'text': s['text'], 'id': s.get('id')} for s in sidenotes]
+                })
+        
+        # Sort by date (most recent first)
+        articles.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
+        
+        return {
+            'articles': articles,
+            'total_count': self._data['sidenotes']['total_count']
+        }
+    
+    def get_outlines(self):
+        """Get all outlines with metadata."""
+        if not self._data:
+            return {'articles': [], 'total_count': 0}
+        
+        outlines_data = self._data['outlines']['articles']  # {file_path: [outlines]}
+        
+        # Create file metadata lookup from blog_posts (fast dictionary lookup)
+        file_metadata = {}
+        for post in self._data.get('blog_posts', []):
+            # Convert URL back to file path for lookup
+            file_path = 'data' + post['url'] + '.md'
+            file_metadata[file_path] = post
+        
+        articles = []
+        for file_path, outlines in outlines_data.items():
+            if not outlines:
+                continue
+                
+            # Use pre-computed metadata instead of re-processing files
+            metadata = file_metadata.get(file_path)
+            if metadata:
+                # Process headings to extract IDs and create anchor URLs
+                processed_headings = []
+                for o in outlines:
+                    # Always generate an ID from the text to ensure links work
+                    import re
+                    heading_id = re.sub(r'[^\w\s-]', '', o['text'].lower())
+                    heading_id = re.sub(r'[-\s]+', '-', heading_id).strip('-')
+                    
+                    # Try to extract ID from HTML if present (preferred)
+                    if 'html' in o and o['html']:
+                        id_match = re.search(r'id="([^"]*)"', o['html'])
+                        if id_match and id_match.group(1):
+                            heading_id = id_match.group(1)
+                    
+                    processed_headings.append({
+                        'level': int(o['level']),
+                        'text': o['text'],
+                        'id': heading_id,
+                        'anchor_url': f"{metadata['url']}#{heading_id}"
+                    })
+                
+                articles.append({
+                    'title': metadata['title'],
+                    'url': metadata['url'],
+                    'date': metadata.get('pub_date'),
+                    'category': metadata['category'].replace('-', ' ').title(),
+                    'headings': processed_headings
+                })
+        
+        # Sort by date (most recent first)
+        articles.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
+        
+        return {
+            'articles': articles,
+            'total_count': self._data['outlines']['total_count']
+        }
+    
+    def get_quotes(self):
+        """Get all quotes with metadata."""
+        if not self._data:
+            return {'articles': [], 'total_count': 0}
+        
+        quotes_data = self._data['quotes']['articles']
+        
+        # Create file metadata lookup from blog_posts (fast dictionary lookup)
+        file_metadata = {}
+        for post in self._data.get('blog_posts', []):
+            # Convert URL back to file path for lookup
+            file_path = 'data' + post['url'] + '.md'
+            file_metadata[file_path] = post
+        
+        articles = []
+        for file_path, quotes in quotes_data.items():
+            if not quotes:
+                continue
+                
+            # Use pre-computed metadata instead of re-processing files
+            metadata = file_metadata.get(file_path)
+            if metadata:
+                articles.append({
+                    'title': metadata['title'],
+                    'url': metadata['url'],
+                    'date': metadata.get('pub_date'),
+                    'category': metadata['category'].replace('-', ' ').title(),
+                    'quotes': [q['text'] for q in quotes]
+                })
+        
+        articles.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
+        
+        return {
+            'articles': articles,
+            'total_count': self._data['quotes']['total_count']
+        }
+    
+    def get_connections(self):
+        """Get all connections with metadata in template-expected format."""
+        if not self._data:
+            return {'articles': [], 'total_count': 0, 'total_outgoing': 0, 'total_incoming': 0}
+        
+        connections_cache = self._data['connections']
+        outgoing_refs = connections_cache.get('outgoing_refs', {})
+        incoming_refs = connections_cache.get('incoming_refs', {})
+        
+        print(f"DEBUG: get_connections - outgoing_refs has {len(outgoing_refs)} files")
+        print(f"DEBUG: get_connections - incoming_refs has {len(incoming_refs)} refs")
+        
+        # Create URL to metadata lookup from blog_posts (fast dictionary lookup)
+        url_metadata = {}
+        file_to_url = {}
+        for post in self._data.get('blog_posts', []):
+            url_metadata[post['url']] = post
+            # Check for both possible file path keys
+            file_path = post.get('file_path') or post.get('path')
+            if file_path:
+                file_to_url[file_path] = post['url']
+        
+        # Build articles with their connections
+        articles = []
+        
+        print(f"DEBUG: file_to_url mapping has {len(file_to_url)} entries")
+        
+        # Process outgoing connections by file path
+        for file_path, outgoing_list in outgoing_refs.items():
+            article_url = file_to_url.get(file_path)
+            if not article_url:
+                print(f"DEBUG: No URL found for file_path: {file_path}")
+                continue
+                
+            metadata = url_metadata.get(article_url)
+            if not metadata:
+                print(f"DEBUG: No metadata found for article_url: {article_url}")
+                continue
+            
+            # Build outgoing connections with proper target_url and link_text
+            processed_outgoing = []
+            for conn in outgoing_list:
+                processed_outgoing.append({
+                    'target_url': conn['url'],
+                    'link_text': conn['text']
+                })
+            
+            # Get incoming connections for this article
+            incoming_list = incoming_refs.get(article_url, [])
+            processed_incoming = []
+            for conn in incoming_list:
+                # Find source metadata
+                source_url = file_to_url.get(conn['source_file'])
+                source_metadata = url_metadata.get(source_url) if source_url else None
+                
+                processed_incoming.append({
+                    'source_url': source_url or conn['source_file'],
+                    'source_title': source_metadata['title'] if source_metadata else 'Unknown',
+                    'link_text': conn['text']
+                })
+            
+            # Only include articles that have connections
+            if processed_outgoing or processed_incoming:
+                articles.append({
+                    'title': metadata['title'],
+                    'url': article_url,
+                    'date': metadata.get('pub_date'),
+                    'category': metadata['category'].replace('-', ' ').title(),
+                    'connections': processed_outgoing,  # For backward compatibility
+                    'outgoing_connections': processed_outgoing,
+                    'incoming_connections': processed_incoming
+                })
+        
+        # Sort by date (most recent first)
+        articles.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
+        
+        # Calculate totals
+        total_outgoing = sum(len(article['outgoing_connections']) for article in articles)
+        total_incoming = sum(len(article['incoming_connections']) for article in articles)
+        
+        return {
+            'articles': articles,
+            'total_count': total_outgoing + total_incoming,
+            'total_outgoing': total_outgoing,
+            'total_incoming': total_incoming
+        }
+    
+    def get_terms(self):
+        """Get all terms with metadata.""" 
+        if not self._data:
+            return {'terms': [], 'total_terms': 0, 'total_occurrences': 0}
+        
+        terms_data = self._data['terms']
+        return {
+            'terms': terms_data['terms'],
+            'total_terms': len(terms_data['terms']),
+            'total_occurrences': terms_data['total_occurrences']
+        }
+    
+    def get_blog_posts(self):
+        """Get all blog posts from unified cache."""
+        if not self._data:
+            return []
+        
+        return self._data.get('blog_posts', [])
+
+# Global metadata cache instance
+metadata_cache = MetadataCache()
+
+def initialize_unified_cache():
+    """Initialize unified cache at startup."""
+    global _blog_posts_cache, _sidenotes_cache, _outlines_cache
+    global _quotes_cache, _connections_cache, _terms_cache
+    
+    # Initialize the clean metadata cache
+    metadata_cache.initialize()
 
 def extract_intelligent_date(item_path, content_data=None):
     """Extract date intelligently, prioritizing filename patterns as requested."""
@@ -1849,13 +2465,9 @@ def preload_external_links():
 
 
 def _extract_all_terms_cached():
-    """Extract all significant terms from articles with 10-hour TTL cache."""
-    current_time = time.time()
-    
-    # Check if cache is still valid (10 hour TTL)
-    if (_terms_cache['data'] is not None and 
-        current_time - _terms_cache['timestamp'] < CACHE_TTL and
-        _terms_cache['timestamp'] > _force_cache_clear):
+    """Return pre-loaded terms cache data (pure RAM, no TTL)."""
+    # Return pre-loaded cache data if available
+    if _terms_cache['data'] is not None:
         return _terms_cache['data']
     
     posts = _collect_all_blog_posts_cached()
@@ -1966,7 +2578,6 @@ def _extract_all_terms_cached():
     
     # Cache the result
     _terms_cache['data'] = result
-    _terms_cache['timestamp'] = current_time
     
     return result
 
@@ -2253,10 +2864,9 @@ def should_preload_caches():
     """Check if this process should handle cache preloading."""
     global cache_lock_file
     
-    # Skip preloading if we already loaded pre-built caches
-    if _prebuild_loaded > 0:
-        print(f"Skipping runtime preload - {_prebuild_loaded} pre-built caches already loaded!")
-        return False
+    # Skip preloading since we already initialized unified cache
+    print("Skipping runtime preload - unified cache already loaded!")
+    return False
     
     # Default to preloading (better for reliability and single-container deployments)
     # Only skip if we explicitly can't get the lock
@@ -2283,6 +2893,9 @@ def should_preload_caches():
         if cache_lock_file:
             cache_lock_file.close()
         return False
+
+# Initialize unified cache at startup (after all functions are defined)
+initialize_unified_cache()
 
 # Start background preloading only in one process (and only if needed)
 if should_preload_caches():

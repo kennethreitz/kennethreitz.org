@@ -15,10 +15,5 @@ RUN uv sync
 # Copy the rest of the application
 COPY . .
 
-# Pre-build all caches during Docker build for instant startup
-RUN echo "Pre-building caches during Docker build..." && \
-    uv run prebuild_cache.py && \
-    echo "Cache pre-build completed!"
-
 # Run gunicorn directly (no need for uv run since we installed system-wide)
 CMD ["uv", "run", "gunicorn", "--bind", "0.0.0.0:8000", "--worker-class", "gevent", "--workers", "1", "--worker-connections", "1000", "--timeout", "60", "engine:app"]

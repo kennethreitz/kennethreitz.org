@@ -1,14 +1,10 @@
-version: '3.8'
-
 services:
   web:
     build: .
     ports:
       - "8000:8000"
     volumes:
-      - .:/app
-      # Preserve pre-built caches from Docker image
-      - /app/.cache
+      - ./data:/app/data
     environment:
       - FLASK_ENV=development
       - DISABLE_ANALYTICS=true

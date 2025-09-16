@@ -29,13 +29,9 @@
                     <div class="outline-list">
                         {% for heading in article.headings %}
                             <div class="outline-entry level-{{ heading.level }}">
-                                {% if heading.id %}
-                                    <a href="{{ heading.anchor_url }}" class="outline-link">
-                                        {{ heading.text }}
-                                    </a>
-                                {% else %}
+                                <a href="{{ heading.anchor_url or (article.url + '#' + (heading.text|lower|replace(' ', '-')|replace(',', '')|replace('.', '')|replace('(', '')|replace(')', '')|replace(':', '')|replace('?', '')|replace('!', ''))) }}" class="outline-link">
                                     {{ heading.text }}
-                                {% endif %}
+                                </a>
                             </div>
                         {% endfor %}
                     </div>
