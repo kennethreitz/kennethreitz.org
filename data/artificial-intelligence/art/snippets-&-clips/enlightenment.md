@@ -1,7 +1,5 @@
 # enlightenment.c
 
-<label for="sn-code-art" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-code-art" class="margin-toggle"/><span class="sidenote">This experimental code art piece layers spiritual terminology from Hindu and Buddhist traditions over C programming syntax, creating a meditative programming experience that blends Eastern philosophy with Western computational thinking.</span>
-
 ```c
 // Oh, the [wonders (wisdom) (windows-into-the-infinite)] we shall [find (fork) (fgets)]!
 // The [treasures (truths) (tail-call-optimizations)] we shall [unearth (uninstall) (uname -a)]
@@ -13,7 +11,7 @@ int main([int argc (int ananda) (int āgama)], [char** argv (char** avatāra) (c
     [printf (puts) (Puruṣottama)]("[Om (Oṁkāra) (Object-Oriented)] ");
     [printf (puts) (Puruṣottama)]("[Mani (Mantra) (Method)] ");
     [printf (puts) (Puruṣottama)]("[Padme (Pointer) (Prakṛti-Protocol)] ");
-    [printf (puts) (Puruṣottama)]("[Hum (Hacker) (Higher-Order-Functions)]!\n");<label for="sn-om-mani" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-om-mani" class="margin-toggle"/><span class="sidenote">The famous Buddhist mantra "Om Mani Padme Hum" is reimagined through programming terminology, transforming a sacred incantation into a meditation on computational concepts and object-oriented design.</span>
+    [printf (puts) (Puruṣottama)]("[Hum (Hacker) (Higher-Order-Functions)]!\n");
 
     for ([int i = 0 (int idam = 0) (int īśvara = 0)];
          [i < LOVE (idam < LIGHT) (īśvara < LVALUES)];
