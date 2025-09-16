@@ -1,3 +1,9 @@
+# Enable gevent async I/O optimizations
+import gevent
+from gevent import monkey
+monkey.patch_all()  # Patch standard library for async I/O
+from gevent.pool import Pool
+
 import os
 import mistune
 from flask import Flask, render_template, abort, request, url_for, jsonify, redirect, Response
@@ -32,6 +38,37 @@ def unescape_filter(text):
     if text is None:
         return ''
     return html.unescape(text)
+
+def _process_single_file(file_path):
+    """Process a single file for cache generation. Returns data structure for the file."""
+    try:
+        full_path = Path(file_path)
+        
+        # Read raw content directly for processing
+        with open(full_path, 'r', encoding='utf-8') as f:
+            raw_content = f.read()
+        
+        # Get processed content data
+        content_data = render_markdown_file(full_path)
+        html_content = content_data['content']
+        
+        result = {
+            'file_path': file_path,
+            'full_path': full_path,
+            'raw_content': raw_content,
+            'content_data': content_data,
+            'html_content': html_content,
+            'success': True
+        }
+        
+        return result
+    except Exception as e:
+        return {
+            'file_path': file_path,
+            'error': str(e),
+            'success': False
+        }
+
 
 def _generate_all_caches_unified():
     """Generate all caches in a single sweep through the data."""
@@ -73,38 +110,42 @@ def _generate_all_caches_unified():
     
     print(f"Unified cache generation: Processing {len(all_files)} files...")
     
-    for file_path in all_files:
-        try:
-            full_path = Path(file_path)
+    # Use gevent pool for parallel file processing
+    pool = Pool(20)  # Process up to 20 files concurrently
+    file_results = pool.map(_process_single_file, all_files)
+    
+    # Process results from parallel file processing
+    for result in file_results:
+        if not result['success']:
+            print(f"Error processing {result['file_path']}: {result['error']}")
+            continue
             
-            # Read raw content directly for processing
-            with open(full_path, 'r', encoding='utf-8') as f:
-                raw_content = f.read()
-            
-            # Get processed content data
-            content_data = render_markdown_file(full_path)
-            html_content = content_data['content']
-            
-            # Generate blog post entry if this is an essay
-            if full_path.parent.name == 'essays':
-                try:
-                    date_str = full_path.stem[:10]  # YYYY-MM-DD
-                    date_obj = datetime.strptime(date_str, '%Y-%m-%d')
-                    
-                    blog_posts.append({
-                        'title': content_data['title'],
-                        'path': f"/{full_path.relative_to(Path('data')).with_suffix('')}",
-                        'url': f"/{full_path.relative_to(Path('data')).with_suffix('')}",
-                        'file_path': str(full_path),  # Add actual file path for mapping
-                        'pub_date': date_obj,
-                        'date_str': date_str,
-                        'excerpt': simple_extract_excerpt(raw_content),
-                        'description': simple_extract_excerpt(raw_content),
-                        'word_count': len(raw_content.split()),
-                        'category': full_path.parent.name
-                    })
-                except (ValueError, IndexError):
-                    pass
+        file_path = result['file_path']
+        full_path = result['full_path']
+        raw_content = result['raw_content']
+        content_data = result['content_data']
+        html_content = result['html_content']
+        
+        # Generate blog post entry if this is an essay
+        if full_path.parent.name == 'essays':
+            try:
+                date_str = full_path.stem[:10]  # YYYY-MM-DD
+                date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+                
+                blog_posts.append({
+                    'title': content_data['title'],
+                    'path': f"/{full_path.relative_to(Path('data')).with_suffix('')}",
+                    'url': f"/{full_path.relative_to(Path('data')).with_suffix('')}",
+                    'file_path': str(full_path),  # Add actual file path for mapping
+                    'pub_date': date_obj,
+                    'date_str': date_str,
+                    'excerpt': simple_extract_excerpt(raw_content),
+                    'description': simple_extract_excerpt(raw_content),
+                    'word_count': len(raw_content.split()),
+                    'category': full_path.parent.name
+                })
+            except (ValueError, IndexError):
+                pass
             
             # Extract sidenotes with their IDs
             # Pattern matches the full sidenote structure: input + span
@@ -177,10 +218,6 @@ def _generate_all_caches_unified():
                         'file': file_path,
                         'context': word
                     })
-            
-        except Exception as e:
-            print(f"Error processing {file_path}: {e}")
-            continue
     
     # Sort blog posts by date (newest first)
     blog_posts.sort(key=lambda x: x['pub_date'], reverse=True)
