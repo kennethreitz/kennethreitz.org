@@ -2096,9 +2096,32 @@ class MetadataCache:
                 source_url = file_to_url.get(conn['source_file'])
                 source_metadata = url_metadata.get(source_url) if source_url else None
                 
+                # If no URL mapping found, try to extract title from file
+                source_title = 'Unknown'
+                if source_metadata:
+                    source_title = source_metadata['title']
+                else:
+                    # Try to extract title from the file itself
+                    try:
+                        file_path = conn['source_file']
+                        if os.path.exists(file_path):
+                            with open(file_path, 'r', encoding='utf-8') as f:
+                                content = f.read()
+                                # Look for markdown title (# Title)
+                                for line in content.split('\n')[:10]:  # Check first 10 lines
+                                    line = line.strip()
+                                    if line.startswith('# '):
+                                        source_title = line[2:].strip()
+                                        break
+                                    elif line.startswith('title:'):  # YAML frontmatter
+                                        source_title = line[6:].strip().strip('"\'')
+                                        break
+                    except Exception:
+                        pass  # Keep 'Unknown' if file reading fails
+                
                 processed_incoming.append({
                     'source_url': source_url or conn['source_file'],
-                    'source_title': source_metadata['title'] if source_metadata else 'Unknown',
+                    'source_title': source_title,
                     'link_text': conn['text']
                 })
             
