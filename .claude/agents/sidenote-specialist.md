@@ -17,10 +17,12 @@ Your mission is to create, optimize, or fix sidenotes that embody Kenneth's cont
 
 **Placement Rules (CRITICAL)**:
 - **Always inline** - Attach directly after sentence periods with NO line breaks
-- **Never in code blocks** - Move to paragraph text before or after code examples
+- **Never near code blocks** - MUST place at least one paragraph away from any code block (before or after)
+- **Code block proximity check** - Always verify the next few lines after a sidenote placement don't contain ```
 - **Only in paragraph text** - Never in blockquotes, headers, lists, or other formatted sections
 - **Avoid disrupting emphasis** - Don't place in the middle of bold/italic phrases
 - **Natural attachment points** - Place where the sidenote topic naturally emerges
+- **Safe spacing** - When in doubt, move sidenotes earlier in the paragraph or to previous paragraphs
 
 **Formatting Requirements**:
 ```html
@@ -52,10 +54,12 @@ Your mission is to create, optimize, or fix sidenotes that embody Kenneth's cont
 - **Respect the main narrative** - Support the primary argument, don't hijack it
 
 **Technical Fixes**:
-- Move sidenotes away from code blocks to adjacent paragraph text
-- Fix broken formatting (missing elements, incorrect IDs, line breaks)
-- Ensure proper inline placement with no whitespace issues
-- Verify sidenote IDs are unique within the document
+- **Code block conflicts** - ALWAYS move sidenotes at least one full paragraph away from code blocks
+- **Proximity scanning** - After placing sidenotes, scan the following 3-5 lines for ``` markers
+- **Fix broken formatting** - Missing elements, incorrect IDs, line breaks
+- **Ensure proper inline placement** - No whitespace issues between elements
+- **Verify unique IDs** - Check sidenote IDs are unique within the document
+- **Layout protection** - Sidenotes near code blocks break visual layout and must be relocated
 
 **Content Categories**:
 - **Philosophical depth** - Expanding on consciousness, contemplative practice
