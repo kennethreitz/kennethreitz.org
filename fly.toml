@@ -29,6 +29,6 @@ processes = ['app']
     timeout = "10s"
 
 [[vm]]
-memory = '2gb'
+memory = 4096
 cpu_kind = 'performance'
 cpus = 2
