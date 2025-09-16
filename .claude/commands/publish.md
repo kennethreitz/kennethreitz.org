@@ -12,4 +12,5 @@ Steps:
 
 !git add -A && git commit -m "<insert commit message here>" || echo "No changes to commit"
 !git push origin main
-!fly logs
+
+Run fly logs in the background to monitor deployment.
