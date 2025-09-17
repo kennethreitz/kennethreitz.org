@@ -2201,6 +2201,22 @@ def serve_path(path):
         else:
             title = path_parts[-1].replace('-', ' ').replace('_', ' ').title()
 
+        # Generate parent directory information for back link
+        parent_directory = None
+        if full_path.parent != DATA_DIR:  # Don't show parent for root-level content
+            parent_path = full_path.parent
+            parent_display_name = parent_path.name.replace('-', ' ').replace('_', ' ').title()
+            parent_url = '/' + str(parent_path.relative_to(DATA_DIR))
+            if parent_url == '/':
+                parent_url = '/directory'
+            parent_icon = generate_folder_icon(parent_display_name, size=20)
+            
+            parent_directory = {
+                'display_name': parent_display_name,
+                'url': parent_url,
+                'icon': parent_icon
+            }
+
         return render_template('directory.html',
                              items=items,
                              current_path=original_path,
@@ -2210,6 +2226,7 @@ def serve_path(path):
                              content_position=content_position,
                              is_image_gallery=is_image_gallery,
                              image_items=image_items,
+                             parent_directory=parent_directory,
                              current_year=datetime.now().year,
                              current_page=title)
 

@@ -72,6 +72,33 @@
         font-size: 0.7rem;
     }
 }
+
+/* Directory navigation styles */
+.directory-navigation {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #f0f0f0;
+}
+
+.parent-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.parent-link:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.parent-icon {
+    width: 16px;
+    height: 16px;
+}
 /* Image Gallery Styles */
 .image-gallery {
     margin: 2rem 0;
@@ -326,6 +353,17 @@
 <section class="directory-description">
     <h3>About This Directory</h3>
     {{ index_content.content | safe }}
+</section>
+{% endif %}
+
+{% if parent_directory %}
+<section class="directory-navigation">
+    <a href="{{ parent_directory.url }}" class="parent-link">
+        {% if parent_directory.icon %}
+        <img src="{{ parent_directory.icon }}" alt="Parent directory icon" class="parent-icon">
+        {% endif %}
+        ← Back to {{ parent_directory.display_name }}
+    </a>
 </section>
 {% endif %}
 
