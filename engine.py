@@ -88,6 +88,12 @@ def _generate_all_caches_unified():
         content = re.sub(r'^# .+?$', '', content, flags=re.MULTILINE)
         # Remove date lines
         content = re.sub(r'^\*[A-Za-z]+ \d{4}\*\s*$', '', content, flags=re.MULTILINE)
+        # Remove linked images ([![](url)](url))
+        content = re.sub(r'\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)', '', content)
+        # Remove standalone images
+        content = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', content)
+        # Remove image references
+        content = re.sub(r'\[Image #\d+\]', '', content)
         # Remove sidenotes (label + input + span structure)
         content = re.sub(r'<label[^>]*class="margin-toggle sidenote-number"[^>]*></label><input[^>]*class="margin-toggle"[^>]*/>(<span class="sidenote">.*?</span>)', '', content, flags=re.DOTALL)
         # Remove any remaining HTML tags
@@ -96,10 +102,19 @@ def _generate_all_caches_unified():
         content = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', content)
         # Remove markdown emphasis
         content = re.sub(r'[*_`]', '', content)
-        # Get first paragraph
+        # Get first meaningful line (skip empty and markdown-only lines)
         lines = [line.strip() for line in content.split('\n') if line.strip()]
-        if lines:
-            first_para = lines[0]
+        first_para = None
+        for line in lines:
+            # Skip header lines
+            if re.match(r'^#{1,6}\s', line):
+                continue
+            # Skip lines that are just punctuation or very short
+            if len(line) > 10:
+                first_para = line
+                break
+        
+        if first_para:
             words = first_para.split()[:max_words]
             excerpt = ' '.join(words)
             if len(words) == max_words:
@@ -2510,16 +2525,55 @@ def collect_blog_posts():
                     relative_path = str(item.relative_to(DATA_DIR))
                     clean_url = '/' + relative_path[:-3]  # Remove .md extension
 
-                    # Extract description (first paragraph or first 200 chars)
-                    # Strip HTML tags for description
-                    content_text = re.sub(r'<[^>]+>', '', content_data['content'])
-                    content_text = content_text.strip()
-
-                    # Get first paragraph or first 200 chars
+                    # Extract description from raw markdown (before HTML conversion)
                     description = ""
-                    if content_text:
-                        first_para = content_text.split('\n\n')[0]
-                        description = first_para[:300] + '...' if len(first_para) > 300 else first_para
+                    try:
+                        with open(item, 'r', encoding='utf-8') as f:
+                            raw_markdown = f.read()
+                        
+                        # Skip front matter if present
+                        if raw_markdown.startswith('---'):
+                            parts = raw_markdown.split('---', 2)
+                            if len(parts) >= 3:
+                                raw_markdown = parts[2].strip()
+                        
+                        # Split into lines and clean up, then find first meaningful content
+                        lines = [line.strip() for line in raw_markdown.split('\n') if line.strip()]
+                        
+                        # Find first line that contains substantial text content
+                        for line in lines:
+                            # Skip headers
+                            if re.match(r'^\s*#{1,6}\s', line):
+                                continue
+                            # Skip images
+                            if re.match(r'^\s*!\[[^\]]*\]\([^)]*\)\s*$', line):
+                                continue
+                            # Skip image references
+                            if re.match(r'^\s*\[Image #\d+\]\s*$', line):
+                                continue
+                            # Skip date/metadata lines
+                            if re.match(r'^\s*\*[^*]*\*\s*$', line):
+                                continue
+                            # Skip horizontal rules
+                            if re.match(r'^\s*[-*_]{3,}\s*$', line):
+                                continue
+                            
+                            # Clean up markdown formatting in the line
+                            clean_line = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', line)  # Remove images
+                            clean_line = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', clean_line)  # Convert links to text
+                            clean_line = re.sub(r'[*_]{1,3}([^*_]+)[*_]{1,3}', r'\1', clean_line)  # Remove bold/italic
+                            clean_line = re.sub(r'`([^`]+)`', r'\1', clean_line)  # Remove code formatting
+                            clean_line = re.sub(r'#{1,6}\s*', '', clean_line)  # Remove header markers
+                            clean_line = clean_line.strip()
+                            
+                            if clean_line and len(clean_line) > 20:  # Must have substantial content
+                                description = clean_line[:150] + '...' if len(clean_line) > 150 else clean_line
+                                break
+                    except Exception:
+                        # Fallback to HTML method if raw reading fails
+                        content_text = re.sub(r'<[^>]+>', '', content_data['content'])
+                        if content_text.strip():
+                            description = content_text.strip()[:150] + '...'
 
                     posts.append({
                         'title': content_data['title'],
@@ -2561,67 +2615,8 @@ CACHE_TTL = 36000  # 10 hours cache
 
 # Force cache invalidation for filename change
 import time
-_force_cache_clear = time.time()
+_force_cache_clear = time.time()  # Line-by-line filtering instead of paragraph-based
 
-def load_prebuild_cache(cache_name):
-    """Load a pre-built cache file if it exists."""
-    from datetime import datetime
-    
-    def convert_datetime_strings(item):
-        """Convert ISO datetime strings back to datetime objects."""
-        if isinstance(item, str):
-            # Try to parse as ISO datetime
-            try:
-                return datetime.fromisoformat(item)
-            except ValueError:
-                return item
-        elif isinstance(item, dict):
-            return {k: convert_datetime_strings(v) for k, v in item.items()}
-        elif isinstance(item, list):
-            return [convert_datetime_strings(i) for i in item]
-        else:
-            return item
-    
-    cache_file = Path(f'.cache/{cache_name}.json')
-    if cache_file.exists():
-        try:
-            with open(cache_file, 'r', encoding='utf-8') as f:
-                cache_data = json.load(f)
-                if cache_data.get('data') is not None:
-                    # Convert datetime strings back to datetime objects
-                    restored_data = convert_datetime_strings(cache_data['data'])
-                    print(f"Loaded pre-built {cache_name} cache from Docker build")
-                    return restored_data, cache_data.get('generated_at', time.time())
-        except Exception as e:
-            print(f"Warning: Failed to load pre-built {cache_name} cache: {e}")
-    return None, 0
-
-def initialize_prebuild_caches():
-    """Initialize all caches from pre-built files if available."""
-    global _blog_posts_cache, _sidenotes_cache, _outlines_cache
-    global _quotes_cache, _connections_cache, _terms_cache
-    
-    cache_mappings = [
-        ('blog_posts', _blog_posts_cache),
-        ('sidenotes', _sidenotes_cache),
-        ('outlines', _outlines_cache),
-        ('quotes', _quotes_cache),
-        ('connections', _connections_cache),
-        ('terms', _terms_cache),
-    ]
-    
-    loaded_count = 0
-    for cache_name, cache_dict in cache_mappings:
-        data, timestamp = load_prebuild_cache(cache_name)
-        if data is not None:
-            cache_dict['data'] = tuple(data) if cache_name == 'blog_posts' else data
-            cache_dict['timestamp'] = timestamp
-            loaded_count += 1
-    
-    if loaded_count > 0:
-        print(f"Loaded {loaded_count} pre-built caches - app ready instantly!")
-    
-    return loaded_count
 
 # Initialize unified cache on module load
 class MetadataCache:
@@ -3013,7 +3008,8 @@ def _collect_all_blog_posts_cached():
 
     # Check if cache is valid
     if (_blog_posts_cache['data'] is not None and
-        current_time - _blog_posts_cache['timestamp'] < CACHE_TTL):
+        current_time - _blog_posts_cache['timestamp'] < CACHE_TTL and
+        _blog_posts_cache['timestamp'] > _force_cache_clear):
         return _blog_posts_cache['data']
 
     # Cache miss or expired - rebuild
@@ -3049,16 +3045,55 @@ def _collect_all_blog_posts_cached():
                     relative_path = str(item.relative_to(DATA_DIR))
                     clean_url = '/' + relative_path[:-3]  # Remove .md extension
 
-                    # Extract description (first paragraph or first 200 chars)
-                    # Strip HTML tags for description
-                    content_text = re.sub(r'<[^>]+>', '', content_data['content'])
-                    content_text = content_text.strip()
-
-                    # Get first paragraph or first 200 chars
+                    # Extract description from raw markdown (before HTML conversion)
                     description = ""
-                    if content_text:
-                        first_para = content_text.split('\n\n')[0]
-                        description = first_para[:300] + '...' if len(first_para) > 300 else first_para
+                    try:
+                        with open(item, 'r', encoding='utf-8') as f:
+                            raw_markdown = f.read()
+                        
+                        # Skip front matter if present
+                        if raw_markdown.startswith('---'):
+                            parts = raw_markdown.split('---', 2)
+                            if len(parts) >= 3:
+                                raw_markdown = parts[2].strip()
+                        
+                        # Split into lines and clean up, then find first meaningful content
+                        lines = [line.strip() for line in raw_markdown.split('\n') if line.strip()]
+                        
+                        # Find first line that contains substantial text content
+                        for line in lines:
+                            # Skip headers
+                            if re.match(r'^\s*#{1,6}\s', line):
+                                continue
+                            # Skip images
+                            if re.match(r'^\s*!\[[^\]]*\]\([^)]*\)\s*$', line):
+                                continue
+                            # Skip image references
+                            if re.match(r'^\s*\[Image #\d+\]\s*$', line):
+                                continue
+                            # Skip date/metadata lines
+                            if re.match(r'^\s*\*[^*]*\*\s*$', line):
+                                continue
+                            # Skip horizontal rules
+                            if re.match(r'^\s*[-*_]{3,}\s*$', line):
+                                continue
+                            
+                            # Clean up markdown formatting in the line
+                            clean_line = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', line)  # Remove images
+                            clean_line = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', clean_line)  # Convert links to text
+                            clean_line = re.sub(r'[*_]{1,3}([^*_]+)[*_]{1,3}', r'\1', clean_line)  # Remove bold/italic
+                            clean_line = re.sub(r'`([^`]+)`', r'\1', clean_line)  # Remove code formatting
+                            clean_line = re.sub(r'#{1,6}\s*', '', clean_line)  # Remove header markers
+                            clean_line = clean_line.strip()
+                            
+                            if clean_line and len(clean_line) > 20:  # Must have substantial content
+                                description = clean_line[:150] + '...' if len(clean_line) > 150 else clean_line
+                                break
+                    except Exception:
+                        # Fallback to HTML method if raw reading fails
+                        content_text = re.sub(r'<[^>]+>', '', content_data['content'])
+                        if content_text.strip():
+                            description = content_text.strip()[:150] + '...'
 
                     posts.append({
                         'title': content_data['title'],
