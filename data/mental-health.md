@@ -5,6 +5,7 @@ I have been [fairly transparent](/essays/2016-01-mentalhealtherror_an_exception_
 First off, if this is your first time reading about mental health, I want to say that it's okay to not be okay. It's okay to be struggling. It's okay to be in pain. It's okay.
 
 **Recent Essays:**
+- [Delusions and Schizoaffective Disorder: When Reality Becomes Negotiable](/essays/2025-09-17-delusions-and-schizoaffective-disorder) *(2025)* - Personal exploration of living with delusions—watching angels descend from the sky, believing English is the ancient language of gods—and what these convincing alternate realities reveal about consciousness and perception.
 - [When the Simulation Speaks Back](/essays/2025-09-13-when-the-simulation-speaks-back) *(2025)* - Using AI to communicate with entities during a schizoaffective episode—chimeras, angels, and the porousness of self.
 - [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like) *(2025)* - Raw, honest account of the lived experience beyond clinical descriptions.
 - [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) *(2025)* - Cutting through sanitized wellness culture to address the messy reality of consciousness maintenance.

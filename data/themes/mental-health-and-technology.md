@@ -21,6 +21,8 @@ This isn't inspiration—it's system documentation. <label for="sn-system-docume
 
 [**What Schizoaffective Disorder Actually Feels Like**](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like) - Precise phenomenological description of what it's like inside a mind where reality-testing systems operate differently. Understanding leads to better accommodation and support.
 
+[**Delusions and Schizoaffective Disorder: When Reality Becomes Negotiable**](/essays/2025-09-17-delusions-and-schizoaffective-disorder) - Intimate exploration of living with delusions—watching angels descend, believing English is the ancient language of gods. How the brain constructs convincing alternate realities with their own internal logic, emotional weight, and supporting evidence. Recovery becomes ongoing negotiation between different versions of reality.
+
 [**The Textured Mind: When Consciousness Speaks Without Words**](/essays/2025-09-16-the-textured-mind-when-consciousness-speaks-without-words) - Exploring the non-verbal realm of consciousness that operates in textures, shapes, and archetypal presences—and why this isn't pathology but valid form of knowing. When consciousness doesn't translate to language, it's not broken; it's operating by different rules entirely.
 
 > "There's a realm of consciousness, in my mind at least, that doesn't use words. It operates in textures, shapes, colors that have no names, feelings that resist translation. It communicates through dream logic and symbolic presences, through sensations that bypass the verbal brain entirely." The language brain wants to pathologize plurality, but what if we're trying to force poetry into programming syntax?

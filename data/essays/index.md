@@ -4,6 +4,8 @@ These essays explore the intersection of technology, consciousness, and human fl
 
 ## Recent Explorations
 
+[**Delusions and Schizoaffective Disorder: When Reality Becomes Negotiable**](/essays/2025-09-17-delusions-and-schizoaffective-disorder) - *September 2025* - Personal exploration of living with delusions—watching angels descend from the sky, believing English is the ancient language of gods—and what these convincing alternate realities reveal about consciousness, perception, and the challenge of distinguishing insight from psychotic thinking.
+
 [**Agents of Consciousness: How AI Collaboration Evolves**](/essays/2025-09-16-agents-of-consciousness-how-ai-collaboration-evolves) - *September 2025* - The emergence of specialized AI agents as collaborative partners in creative consciousness, revealing how human-AI collaboration naturally evolves from simple assistance to constellation of specialized creative partners.
 
 [**The Textured Mind: When Consciousness Speaks Without Words**](/essays/2025-09-16-the-textured-mind-when-consciousness-speaks-without-words) - *September 2025* - Exploring the non-verbal realm of consciousness that operates in textures, shapes, and archetypal presences beyond language—and why this isn't pathology but valid form of knowing.
