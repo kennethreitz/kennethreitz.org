@@ -891,7 +891,7 @@ def get_directory_structure(path):
     files = []
 
     for item in sorted(path.iterdir(), reverse=True):
-        if item.name.startswith('.') or item.name.lower() == 'index.md':
+        if item.name.startswith('.') or item.name.lower() == 'index.md' or item.name.endswith('.bak'):
             continue
 
         # Create display name without extension for files
