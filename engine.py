@@ -1623,7 +1623,11 @@ def serve_path(path):
             if word_count > 150:
                 content_position = 'bottom'
 
-        title = path_parts[-1].replace('-', ' ').replace('_', ' ').title()
+        # Use title from index.md if available, otherwise fall back to directory name
+        if index_content and index_content.get('title'):
+            title = index_content['title']
+        else:
+            title = path_parts[-1].replace('-', ' ').replace('_', ' ').title()
 
         return render_template('directory.html',
                              items=items,
