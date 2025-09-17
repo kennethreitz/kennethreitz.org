@@ -851,6 +851,34 @@ def generate_unique_svg_icon_OLD(title, size=24):
     svg_b64 = base64.b64encode(svg.encode()).decode()
     return f"data:image/svg+xml;base64,{svg_b64}"
 
+@lru_cache(maxsize=1000)
+def get_cached_markdown_title(file_path):
+    """Extract and cache the H1 title from a markdown file for performance."""
+    try:
+        # Convert Path object to string for caching compatibility
+        file_path_str = str(file_path)
+        
+        # Quick check - if file was modified recently, we might want to skip cache
+        # For now, let's just extract title efficiently
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read(1000)  # Only read first 1000 chars to find title
+            
+        # Look for first H1 markdown title
+        title_match = re.search(r'^#\s+(.+?)$', content, re.MULTILINE)
+        if title_match:
+            return title_match.group(1).strip()
+            
+        # Fallback: look for HTML H1 if markdown was already rendered
+        title_match = re.search(r'<h1[^>]*>(.*?)</h1>', content, re.IGNORECASE)
+        if title_match:
+            # Remove HTML tags from title
+            title = re.sub(r'<[^>]+>', '', title_match.group(1))
+            return html.unescape(title).strip()
+            
+        return None
+    except:
+        return None
+
 @lru_cache(maxsize=500)
 def generate_folder_icon(title, size=24):
     """Generate a folder icon with unique accent color based on title."""
@@ -933,11 +961,12 @@ def get_directory_structure(path):
         # For markdown files, try to extract the actual H1 title from content
         if item.is_file() and item.suffix == '.md':
             try:
-                content_data = render_markdown_file(item)
-                if content_data and 'title' in content_data:
-                    icon_title = content_data['title']
+                # Use cached title extraction for performance
+                cached_title = get_cached_markdown_title(item)
+                if cached_title:
+                    icon_title = cached_title
                     # Also update display_name to use the actual title
-                    display_name = content_data['title']
+                    display_name = cached_title
             except:
                 # Fallback to filename-based display name if parsing fails
                 pass
