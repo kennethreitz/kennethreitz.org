@@ -2320,8 +2320,18 @@ def serve_data_file(path):
     full_path = DATA_DIR / path
     if not full_path.exists() or not full_path.is_file():
         abort(404)
-    from flask import send_file
-    return send_file(full_path)
+    from flask import send_file, make_response
+    response = make_response(send_file(full_path))
+    
+    # Add caching headers for static assets
+    if full_path.suffix.lower() in ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg']:
+        # Cache images for 7 days
+        response.headers['Cache-Control'] = 'public, max-age=604800'
+    else:
+        # Cache other static files for 1 hour
+        response.headers['Cache-Control'] = 'public, max-age=3600'
+    
+    return response
 
 
 

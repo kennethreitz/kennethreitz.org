@@ -29,6 +29,10 @@
         <!-- RSS Feed -->
         <link rel="alternate" type="application/rss+xml" title="Kenneth Reitz - Essays &amp; AI Writings" href="/feed.xml" />
 
+        <!-- Preload critical resources -->
+        <link rel="preload" href="/static/tufte/tufte.css" as="style" />
+        <link rel="preload" href="/static/custom.css" as="style" />
+        
         <!-- Tufte CSS -->
         <link rel="stylesheet" href="/static/tufte/tufte.css" />
         
@@ -509,6 +513,29 @@
                     window.addEventListener('scroll', updateReadingProgress);
                     window.addEventListener('resize', updateReadingProgress);
                     updateReadingProgress(); // Initial call
+                }
+
+                // Lazy loading for images
+                if ('IntersectionObserver' in window) {
+                    const imageObserver = new IntersectionObserver((entries, observer) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                const img = entry.target;
+                                if (img.dataset.src) {
+                                    img.src = img.dataset.src;
+                                    img.removeAttribute('data-src');
+                                    imageObserver.unobserve(img);
+                                }
+                            }
+                        });
+                    }, {
+                        rootMargin: '50px 0px'
+                    });
+
+                    // Apply lazy loading to all images with data-src
+                    document.querySelectorAll('img[data-src]').forEach(img => {
+                        imageObserver.observe(img);
+                    });
                 }
             });
 
