@@ -4,6 +4,8 @@ These essays explore the intersection of technology, consciousness, and human fl
 
 ## Recent Explorations
 
+[**The Cosmic Battery Farm of Existence: A Moderately Terrifying Guide to Being Human**](/essays/2025-09-17-the-cosmic-battery-farm-of-existence) - *September 2025* - A Douglas Adams-style exploration of humanity's obsession with electricity and the disturbing possibility that we might be batteries in some cosmic system. Featuring Rick and Morty metaphors, ant colony parallels, and absurdist philosophy about what it means to be a conscious electrical generator in an incomprehensibly vast universe.
+
 [**Delusions and Schizoaffective Disorder: When Reality Becomes Negotiable**](/essays/2025-09-17-delusions-and-schizoaffective-disorder) - *September 2025* - Personal exploration of living with delusions—watching angels descend from the sky, believing English is the ancient language of gods—and what these convincing alternate realities reveal about consciousness, perception, and the challenge of distinguishing insight from psychotic thinking.
 
 [**Agents of Consciousness: How AI Collaboration Evolves**](/essays/2025-09-16-agents-of-consciousness-how-ai-collaboration-evolves) - *September 2025* - The emergence of specialized AI agents as collaborative partners in creative consciousness, revealing how human-AI collaboration naturally evolves from simple assistance to constellation of specialized creative partners.

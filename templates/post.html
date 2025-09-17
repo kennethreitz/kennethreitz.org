@@ -39,15 +39,35 @@
         width: 100%;
     }
 
+    .post-title-container {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+        width: 70%;
+    }
+    
+    .post-title-icon {
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+        margin-left: -4rem;
+    }
+    
+    .post-title-text {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
     article h1 {
         font-size: 3.2rem;
         font-style: italic;
         font-weight: 400;
         line-height: 1;
-        margin-bottom: 0.5rem;
+        margin: 0;
         color: #111;
         text-rendering: optimizeLegibility;
-        width: 70%;
     }
 
     .post-subtitle {
@@ -80,6 +100,39 @@
         margin: 4rem 0;
     }
 
+    /* Parent navigation */
+    .parent-navigation {
+        margin-top: 4rem;
+        padding-top: 2rem;
+        border-top: 1px solid #eee;
+        width: 65%;
+    }
+
+    .parent-link {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        text-decoration: none;
+        color: #666;
+        font-size: 0.95rem;
+        font-style: italic;
+        transition: color 0.2s ease;
+    }
+
+    .parent-link:hover {
+        color: #333;
+    }
+
+    .parent-icon {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+
+    .parent-text {
+        line-height: 1.2;
+    }
+
     @media (max-width: 760px) {
         article h1 {
             font-size: 2.5rem;
@@ -100,6 +153,21 @@
         article p:not(.sidenote):not(.marginnote) {
             width: 100% !important;
             max-width: 100% !important;
+        }
+        
+        .parent-navigation {
+            width: 100%;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+        }
+        
+        .parent-link {
+            font-size: 0.9rem;
+        }
+        
+        .parent-icon {
+            width: 18px;
+            height: 18px;
         }
     }
 </style>
@@ -142,14 +210,32 @@ document.addEventListener('DOMContentLoaded', function() {
 
 {% block content %}
 <article>
-    <h1>{{ title }}</h1>
-    {% if metadata and metadata.date %}
-    <div class="post-subtitle">{{ metadata.date if metadata.date is string else metadata.date[0] }}</div>
-    {% endif %}
+    <div class="post-title-container">
+        {% if unique_icon %}
+        <img src="{{ unique_icon }}" alt="Icon for {{ title }}" class="post-title-icon">
+        {% endif %}
+        <div class="post-title-text">
+            <h1>{{ title }}</h1>
+            {% if metadata and metadata.date %}
+            <div class="post-subtitle">{{ metadata.date if metadata.date is string else metadata.date[0] }}</div>
+            {% endif %}
+        </div>
+    </div>
     
     <section>
         {{ content | safe }}
     </section>
+    
+    {% if parent_directory %}
+    <div class="parent-navigation">
+        <a href="{{ parent_directory.url }}" class="parent-link">
+            {% if parent_directory.icon %}
+            <img src="{{ parent_directory.icon }}" alt="Parent directory icon" class="parent-icon">
+            {% endif %}
+            <span class="parent-text">← {{ parent_directory.display_name }}</span>
+        </a>
+    </div>
+    {% endif %}
 </article>
 
 {% endblock %}

@@ -43,15 +43,22 @@
             <h2>{{ group_name }}</h2>
             
             {% for post in posts %}
-                <p><strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
-                {% if post.pub_date %}
-                    <span class="post-date">{{ post.pub_date.strftime('%B %d, %Y') }}</span>
-                {% endif %}
-                <br>
-                {% if post.description %}
-                    {{ post.description | unescape }}
-                {% endif %}
-                </p>
+                <div class="archive-post">
+                    {% if post.unique_icon %}
+                    <img src="{{ post.unique_icon }}" alt="Icon for {{ post.title }}" class="archive-post-icon">
+                    {% endif %}
+                    <div class="archive-post-content">
+                        <p><strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+                        {% if post.pub_date %}
+                            <span class="post-date">{{ post.pub_date.strftime('%B %d, %Y') }}</span>
+                        {% endif %}
+                        <br>
+                        {% if post.description %}
+                            {{ post.description }}
+                        {% endif %}
+                        </p>
+                    </div>
+                </div>
             {% endfor %}
         </section>
     {% endfor %}
@@ -134,6 +141,32 @@ section h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Archive post layout with icons */
+.archive-post {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
+.archive-post-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 0.3rem;
+    margin-left: -3rem;
+}
+
+.archive-post-content {
+    flex: 1;
+}
+
+.archive-post-content p {
+    margin: 0;
+}
+
+/* Legacy styles for backward compatibility */
 section p {
     margin-bottom: 1.5rem;
     padding-left: 1rem;
@@ -163,6 +196,12 @@ section p:last-child {
     
     .year-picker p {
         font-size: 0.9rem;
+    }
+    
+    .archive-post-icon {
+        margin-left: -2rem;
+        width: 20px;
+        height: 20px;
     }
 }
 </style>

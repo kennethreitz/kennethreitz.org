@@ -15,9 +15,14 @@
         {% if articles %}
             {% for article in articles %}
                 <div class="article-group">
-                    <h3 class="article-title">
-                        <a href="{{ article.url }}">{{ article.title }}</a>
-                    </h3>
+                    <div class="article-title-container">
+                        {% if article.unique_icon %}
+                        <img src="{{ article.unique_icon }}" alt="Icon for {{ article.title }}" class="article-icon">
+                        {% endif %}
+                        <h3 class="article-title">
+                            <a href="{{ article.url }}">{{ article.title }}</a>
+                        </h3>
+                    </div>
                     <div class="article-meta">
                         {{ article.category }}
                         {% if article.date %}
@@ -59,9 +64,22 @@
         border-bottom: none;
     }
 
+    .article-title-container {
+        position: relative;
+        margin-bottom: 0.5rem;
+    }
+
+    .article-icon {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: -4rem;
+        top: 0.2rem;
+    }
+
     .article-title {
         font-size: 1.4rem;
-        margin-bottom: 0.5rem;
+        margin: 0;
     }
 
     .article-title a {

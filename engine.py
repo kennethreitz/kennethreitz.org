@@ -16,6 +16,9 @@ import time
 from xml.sax.saxutils import escape
 import html
 from collections import defaultdict
+import hashlib
+import base64
+import math
 
 app = Flask(__name__, template_folder='templates')
 
@@ -84,6 +87,14 @@ def _generate_all_caches_unified():
         content = re.sub(r'^# .+?$', '', content, flags=re.MULTILINE)
         # Remove date lines
         content = re.sub(r'^\*[A-Za-z]+ \d{4}\*\s*$', '', content, flags=re.MULTILINE)
+        # Remove sidenotes (label + input + span structure)
+        content = re.sub(r'<label[^>]*class="margin-toggle sidenote-number"[^>]*></label><input[^>]*class="margin-toggle"[^>]*/>(<span class="sidenote">.*?</span>)', '', content, flags=re.DOTALL)
+        # Remove any remaining HTML tags
+        content = re.sub(r'<[^>]+>', '', content)
+        # Remove markdown links but keep the text
+        content = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', content)
+        # Remove markdown emphasis
+        content = re.sub(r'[*_`]', '', content)
         # Get first paragraph
         lines = [line.strip() for line in content.split('\n') if line.strip()]
         if lines:
@@ -142,7 +153,8 @@ def _generate_all_caches_unified():
                     'excerpt': simple_extract_excerpt(raw_content),
                     'description': simple_extract_excerpt(raw_content),
                     'word_count': len(raw_content.split()),
-                    'category': full_path.parent.name
+                    'category': full_path.parent.name,
+                    'unique_icon': generate_unique_svg_icon(content_data['title'], size=24)
                 })
             else:
                 print(f"DEBUG: Could not extract date from {full_path.name} in unified cache")
@@ -335,6 +347,539 @@ def inject_index_counts():
 
 DATA_DIR = Path('data')
 
+# Import the clean SVG icon generator
+from svg_icon_generator import generate_unique_svg_icon
+
+def generate_unique_svg_icon_OLD(title, size=24):
+    """Generate a sophisticated unique SVG icon based on the title string."""
+    # Create multiple hashes for more entropy
+    hash_obj = hashlib.md5(title.encode())
+    hash_bytes = hash_obj.digest()
+    
+    # Use SHA256 for additional entropy
+    sha_hash = hashlib.sha256(title.encode()).digest()
+    
+    # Extract values from hash for various parameters
+    hue1 = (hash_bytes[0] * 360) // 256
+    hue2 = (hash_bytes[1] * 360) // 256
+    saturation = 50 + (hash_bytes[2] * 30) // 256  # 50-80% saturation
+    lightness = 40 + (hash_bytes[3] * 35) // 256   # 40-75% lightness
+    
+    # Choose pattern type - expanded to 20 different patterns for much more diversity
+    pattern_type = hash_bytes[4] % 20
+    
+    # Create gradient colors
+    color1 = f"hsl({hue1}, {saturation}%, {lightness}%)"
+    color2 = f"hsl({hue2}, {saturation + 10}%, {lightness + 15}%)"
+    
+    # Generate gradient definition
+    gradient_angle = (sha_hash[0] * 360) // 256
+    gradient_id = f"grad_{abs(hash(title)) % 10000}"
+    
+    shapes = []
+    defs = []
+    
+    if pattern_type == 0:  # Layered circles with gradients
+        defs.append(f'''<linearGradient id="{gradient_id}" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="{color1}"/>
+            <stop offset="100%" stop-color="{color2}"/>
+        </linearGradient>''')
+        
+        # Multiple concentric circles
+        for i in range(3):
+            radius = size // 3 - i * (size // 12)
+            opacity = 0.7 + i * 0.1
+            shapes.append(f'<circle cx="{size//2}" cy="{size//2}" r="{radius}" fill="url(#{gradient_id})" opacity="{opacity}"/>')
+            
+    elif pattern_type == 1:  # Flower of Life
+        defs.append(f'''<radialGradient id="{gradient_id}" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="{color1}"/>
+            <stop offset="100%" stop-color="{color2}"/>
+        </radialGradient>''')
+        
+        # Sacred Flower of Life pattern - 6 surrounding circles around center
+        center_x, center_y = size // 2, size // 2
+        radius = size // 5
+        
+        # Center circle
+        shapes.append(f'<circle cx="{center_x}" cy="{center_y}" r="{radius}" fill="none" stroke="url(#{gradient_id})" stroke-width="2" opacity="0.8"/>')
+        
+        # Six surrounding circles
+        for i in range(6):
+            angle = (i * 60) * math.pi / 180
+            x = center_x + radius * math.cos(angle)
+            y = center_y + radius * math.sin(angle)
+            shapes.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{radius}" fill="none" stroke="url(#{gradient_id})" stroke-width="2" opacity="0.7"/>')
+        
+        # Outer petals for extended flower
+        for i in range(12):
+            angle = (i * 30) * math.pi / 180
+            x = center_x + radius * 1.732 * math.cos(angle)  # sqrt(3) spacing
+            y = center_y + radius * 1.732 * math.sin(angle)
+            shapes.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{radius//2}" fill="none" stroke="{color2}" stroke-width="1" opacity="0.5"/>')
+        
+    elif pattern_type == 2:  # Crystalline line art
+        defs.append(f'''<linearGradient id="{gradient_id}" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="{color1}"/>
+            <stop offset="50%" stop-color="{color2}"/>
+            <stop offset="100%" stop-color="{color2}"/>
+        </linearGradient>''')
+        
+        # Create elegant crystal structure in line art
+        center_x, center_y = size // 2, size // 2
+        points = []
+        for i in range(6):
+            angle = (i * 60) * math.pi / 180
+            x = center_x + (size // 3) * math.cos(angle)
+            y = center_y + (size // 3) * math.sin(angle)
+            points.append(f"{x:.1f},{y:.1f}")
+        
+        # Main hexagonal outline with elegant stroke
+        shapes.append(f'<polygon points="{" ".join(points)}" fill="none" stroke="url(#{gradient_id})" stroke-width="2.5" opacity="0.8"/>')
+        
+        # Inner crystalline structure with delicate lines
+        for i in range(6):
+            angle = (i * 60) * math.pi / 180
+            x = center_x + (size // 6) * math.cos(angle)
+            y = center_y + (size // 6) * math.sin(angle)
+            shapes.append(f'<line x1="{center_x}" y1="{center_y}" x2="{x:.1f}" y2="{y:.1f}" stroke="{color2}" stroke-width="1.5" opacity="0.6"/>')
+        
+        # Central sacred point
+        shapes.append(f'<circle cx="{center_x}" cy="{center_y}" r="2" fill="none" stroke="{color1}" stroke-width="1.5" opacity="0.9"/>')
+            
+    elif pattern_type == 3:  # Flowing wave interference - line art
+        defs.append(f'''<linearGradient id="{gradient_id}" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="0%" stop-color="{color1}"/>
+            <stop offset="30%" stop-color="{color2}"/>
+            <stop offset="70%" stop-color="{color2}"/>
+            <stop offset="100%" stop-color="{color1}"/>
+        </linearGradient>''')
+        
+        # Create flowing wave-like paths with graceful curves
+        for wave in range(3):
+            path_data = f"M 0,{size//2}"
+            for x in range(0, size, 1):
+                frequency = 0.15 + wave * 0.08
+                amplitude = size // 8
+                phase_shift = wave * 1.5
+                y = size // 2 + amplitude * math.sin(x * frequency + phase_shift)
+                path_data += f" L {x},{y:.1f}"
+            
+            stroke_width = 2.5 - wave * 0.5
+            opacity = 0.85 - wave * 0.15
+            shapes.append(f'<path d="{path_data}" stroke="url(#{gradient_id})" stroke-width="{stroke_width:.1f}" fill="none" opacity="{opacity:.2f}" stroke-linecap="round"/>')
+            
+    elif pattern_type == 4:  # Sacred Golden Ratio Spiral - refined line art
+        defs.append(f'''<linearGradient id="{gradient_id}" x1="20%" y1="20%" x2="80%" y2="80%">
+            <stop offset="0%" stop-color="{color2}"/>
+            <stop offset="40%" stop-color="{color2}"/>
+            <stop offset="100%" stop-color="{color1}"/>
+        </linearGradient>''')
+        
+        # Sacred golden ratio spiral with elegant curves
+        center_x, center_y = size // 2, size // 2
+        golden_ratio = 1.618033988749
+        
+        # Create smooth logarithmic spiral based on golden ratio
+        path_data = f"M {center_x},{center_y}"
+        for t in range(0, 400, 2):  # Smoother curve with more points
+            angle = t * math.pi / 180
+            # Golden ratio growth with refined scaling
+            radius = (size // 10) * math.pow(golden_ratio, angle / (math.pi / 1.8))
+            if radius > size // 2 - 2:
+                break
+            x = center_x + radius * math.cos(angle)
+            y = center_y + radius * math.sin(angle)
+            path_data += f" L {x:.1f},{y:.1f}"
+        
+        shapes.append(f'<path d="{path_data}" stroke="url(#{gradient_id})" stroke-width="3" fill="none" opacity="0.85" stroke-linecap="round"/>')
+        
+        # Subtle Fibonacci rectangle outlines
+        fib_sizes = [2, 3, 5, 8]
+        for i, fib in enumerate(fib_sizes):
+            if fib * 2 > size // 4:
+                break
+            square_size = fib * 2
+            x = center_x - square_size // 2 + i * 1.5
+            y = center_y - square_size // 2 + i * 1.5
+            opacity = 0.4 - i * 0.08
+            shapes.append(f'<rect x="{x}" y="{y}" width="{square_size}" height="{square_size}" fill="none" stroke="{color2}" stroke-width="1" opacity="{opacity:.2f}"/>')
+            
+        # Sacred center - golden ratio point
+        shapes.append(f'<circle cx="{center_x}" cy="{center_y}" r="1.5" fill="none" stroke="{color1}" stroke-width="2" opacity="0.9"/>')
+        
+    elif pattern_type == 5:  # Tessellation pattern
+        defs.append(f'''<pattern id="{gradient_id}" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+            <rect width="8" height="8" fill="{color1}"/>
+            <circle cx="4" cy="4" r="2" fill="{color2}" opacity="0.7"/>
+        </pattern>''')
+        
+        # Create tessellated hexagon
+        points = []
+        for i in range(6):
+            angle = (i * 60) * 3.14159 / 180
+            x = size // 2 + (size // 2.5) * math.cos(angle)
+            y = size // 2 + (size // 2.5) * math.sin(angle)
+            points.append(f"{x:.1f},{y:.1f}")
+        
+        shapes.append(f'<polygon points="{" ".join(points)}" fill="url(#{gradient_id})" stroke="{color2}" stroke-width="1"/>')
+        
+    elif pattern_type == 6:  # Fractal tree
+        defs.append(f'''<linearGradient id="{gradient_id}" x1="0%" y1="100%" x2="0%" y2="0%">
+            <stop offset="0%" stop-color="{color1}"/>
+            <stop offset="100%" stop-color="{color2}"/>
+        </linearGradient>''')
+        
+        def draw_branch(x, y, angle, length, depth):
+            if depth == 0 or length < 2:
+                return []
+            end_x = x + length * math.cos(angle)
+            end_y = y + length * math.sin(angle)
+            branches = [f'<line x1="{x:.1f}" y1="{y:.1f}" x2="{end_x:.1f}" y2="{end_y:.1f}" stroke="url(#{gradient_id})" stroke-width="{depth}" opacity="{0.8 if depth > 1 else 0.6}"/>']
+            branches.extend(draw_branch(end_x, end_y, angle - 0.5, length * 0.7, depth - 1))
+            branches.extend(draw_branch(end_x, end_y, angle + 0.5, length * 0.7, depth - 1))
+            return branches
+        
+        shapes.extend(draw_branch(size//2, size*0.9, -math.pi/2, size//3, 4))
+        
+    elif pattern_type == 7:  # Dot matrix
+        dot_size = size // 12
+        spacing = size // 6
+        for x in range(spacing, size - spacing + 1, spacing):
+            for y in range(spacing, size - spacing + 1, spacing):
+                opacity = 0.4 + (hash(f"{x},{y}") % 6) * 0.1
+                color = color1 if (x + y) % 2 == 0 else color2
+                shapes.append(f'<circle cx="{x}" cy="{y}" r="{dot_size}" fill="{color}" opacity="{opacity}"/>')
+                
+    elif pattern_type == 8:  # Triangular mosaic
+        defs.append(f'''<linearGradient id="{gradient_id}" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="{color1}"/>
+            <stop offset="50%" stop-color="{color2}"/>
+            <stop offset="100%" stop-color="{color1}"/>
+        </linearGradient>''')
+        
+        # Create triangular pattern
+        tri_size = size // 3
+        for i in range(3):
+            for j in range(3):
+                x = j * tri_size
+                y = i * tri_size
+                if (i + j) % 2 == 0:
+                    shapes.append(f'<polygon points="{x},{y} {x+tri_size},{y} {x+tri_size//2},{y+tri_size}" fill="url(#{gradient_id})" opacity="0.8"/>')
+                else:
+                    shapes.append(f'<polygon points="{x},{y+tri_size} {x+tri_size},{y+tri_size} {x+tri_size//2},{y}" fill="{color2}" opacity="0.6"/>')
+                    
+    elif pattern_type == 9:  # Organic bubbles
+        defs.append(f'''<radialGradient id="{gradient_id}" cx="30%" cy="30%" r="70%">
+            <stop offset="0%" stop-color="{color2}"/>
+            <stop offset="100%" stop-color="{color1}"/>
+        </radialGradient>''')
+        
+        # Create organic bubble pattern
+        bubble_positions = [
+            (size * 0.3, size * 0.25, size // 6),
+            (size * 0.7, size * 0.4, size // 8),
+            (size * 0.5, size * 0.7, size // 5),
+            (size * 0.2, size * 0.6, size // 10),
+            (size * 0.8, size * 0.8, size // 7),
+            (size * 0.6, size * 0.2, size // 9)
+        ]
+        
+        for i, (x, y, radius) in enumerate(bubble_positions):
+            opacity = 0.7 - (i % 3) * 0.15
+            bubble_color = f"url(#{gradient_id})" if i % 2 == 0 else color2
+            shapes.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{radius}" fill="{bubble_color}" opacity="{opacity}"/>')
+            
+    elif pattern_type == 10:  # Metatron's Cube
+        defs.append(f'''<linearGradient id="{gradient_id}" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="{color1}"/>
+            <stop offset="100%" stop-color="{color2}"/>
+        </radialGradient>''')
+        
+        # Sacred Metatron's Cube - 13 circles of creation
+        center_x, center_y = size // 2, size // 2
+        radius = size // 8
+        
+        # Center circle
+        shapes.append(f'<circle cx="{center_x}" cy="{center_y}" r="{radius//2}" fill="url(#{gradient_id})" opacity="0.9"/>')
+        
+        # Inner 6 circles (hexagonal pattern)
+        for i in range(6):
+            angle = (i * 60) * math.pi / 180
+            x = center_x + radius * math.cos(angle)
+            y = center_y + radius * math.sin(angle)
+            shapes.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{radius//3}" fill="none" stroke="url(#{gradient_id})" stroke-width="2" opacity="0.8"/>')
+        
+        # Outer 6 circles
+        for i in range(6):
+            angle = (i * 60) * math.pi / 180
+            x = center_x + radius * 2 * math.cos(angle)
+            y = center_y + radius * 2 * math.sin(angle)
+            shapes.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{radius//4}" fill="none" stroke="{color2}" stroke-width="1" opacity="0.6"/>')
+        
+        # Connect with sacred lines (Fruit of Life pattern)
+        for i in range(6):
+            angle1 = (i * 60) * math.pi / 180
+            angle2 = ((i + 1) * 60) * math.pi / 180
+            x1 = center_x + radius * math.cos(angle1)
+            y1 = center_y + radius * math.sin(angle1)
+            x2 = center_x + radius * math.cos(angle2)
+            y2 = center_y + radius * math.sin(angle2)
+            shapes.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{color2}" stroke-width="1" opacity="0.4"/>')
+            
+    elif pattern_type == 11:  # Flower petals
+        defs.append(f'''<radialGradient id="{gradient_id}" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="{color2}"/>
+            <stop offset="100%" stop-color="{color1}"/>
+        </radialGradient>''')
+        
+        num_petals = 6 + (hash_bytes[6] % 6)  # 6-12 petals
+        for i in range(num_petals):
+            angle = (i * 360 / num_petals) * math.pi / 180
+            x = size // 2 + (size // 3) * math.cos(angle)
+            y = size // 2 + (size // 3) * math.sin(angle)
+            shapes.append(f'<ellipse cx="{x:.1f}" cy="{y:.1f}" rx="{size//8}" ry="{size//6}" fill="url(#{gradient_id})" opacity="0.8" transform="rotate({i * 360 / num_petals} {x:.1f} {y:.1f})"/>')
+        
+        # Center
+        shapes.append(f'<circle cx="{size//2}" cy="{size//2}" r="{size//10}" fill="{color1}"/>')
+        
+    elif pattern_type == 12:  # Diamond lattice
+        diamond_size = size // 6
+        for x in range(diamond_size, size, diamond_size * 2):
+            for y in range(diamond_size, size, diamond_size * 2):
+                points = [
+                    f"{x},{y - diamond_size//2}",
+                    f"{x + diamond_size//2},{y}",
+                    f"{x},{y + diamond_size//2}",
+                    f"{x - diamond_size//2},{y}"
+                ]
+                color = color1 if (x + y) % 4 == 0 else color2
+                shapes.append(f'<polygon points="{" ".join(points)}" fill="{color}" opacity="0.7"/>')
+                
+    elif pattern_type == 13:  # Sine wave pattern
+        defs.append(f'''<linearGradient id="{gradient_id}" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="{color1}"/>
+            <stop offset="100%" stop-color="{color2}"/>
+        </linearGradient>''')
+        
+        for wave in range(5):
+            path_data = f"M 0,{size//2}"
+            for x in range(0, size, 2):
+                frequency = 0.3 + wave * 0.1
+                amplitude = size // 8
+                phase = wave * math.pi / 3
+                y = size // 2 + amplitude * math.sin(x * frequency + phase)
+                path_data += f" L {x},{y:.1f}"
+            shapes.append(f'<path d="{path_data}" stroke="url(#{gradient_id})" stroke-width="2" fill="none" opacity="{0.9 - wave * 0.15}"/>')
+            
+    elif pattern_type == 14:  # Hexagonal grid
+        hex_size = size // 8
+        for row in range(4):
+            for col in range(4):
+                x = col * hex_size * 1.5 + (row % 2) * hex_size * 0.75
+                y = row * hex_size * 0.866
+                if x < size and y < size:
+                    points = []
+                    for i in range(6):
+                        angle = (i * 60) * math.pi / 180
+                        px = x + hex_size * math.cos(angle)
+                        py = y + hex_size * math.sin(angle)
+                        points.append(f"{px:.1f},{py:.1f}")
+                    color = color1 if (row + col) % 2 == 0 else color2
+                    shapes.append(f'<polygon points="{" ".join(points)}" fill="{color}" opacity="0.6" stroke="{color2}" stroke-width="1"/>')
+                    
+    elif pattern_type == 15:  # Sri Yantra
+        defs.append(f'''<radialGradient id="{gradient_id}" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="{color1}"/>
+            <stop offset="100%" stop-color="{color2}"/>
+        </radialGradient>''')
+        
+        # Sacred Sri Yantra - 9 interlocking triangles
+        center_x, center_y = size // 2, size // 2
+        outer_radius = size // 2.5
+        
+        # 4 upward pointing triangles (Shiva)
+        for i in range(4):
+            scale = 1 - i * 0.2
+            triangle_size = outer_radius * scale
+            
+            # Calculate triangle points
+            x1 = center_x
+            y1 = center_y - triangle_size
+            x2 = center_x - triangle_size * 0.866  # sin(60°)
+            y2 = center_y + triangle_size * 0.5
+            x3 = center_x + triangle_size * 0.866
+            y3 = center_y + triangle_size * 0.5
+            
+            opacity = 0.7 - i * 0.1
+            shapes.append(f'<polygon points="{x1:.1f},{y1:.1f} {x2:.1f},{y2:.1f} {x3:.1f},{y3:.1f}" fill="none" stroke="url(#{gradient_id})" stroke-width="2" opacity="{opacity}"/>')
+        
+        # 5 downward pointing triangles (Shakti)
+        for i in range(5):
+            scale = 0.9 - i * 0.15
+            triangle_size = outer_radius * scale
+            rotation = i * 8  # Slight rotation for interlocking effect
+            
+            # Calculate inverted triangle points
+            x1 = center_x
+            y1 = center_y + triangle_size
+            x2 = center_x - triangle_size * 0.866
+            y2 = center_y - triangle_size * 0.5
+            x3 = center_x + triangle_size * 0.866
+            y3 = center_y - triangle_size * 0.5
+            
+            opacity = 0.6 - i * 0.08
+            shapes.append(f'<polygon points="{x1:.1f},{y1:.1f} {x2:.1f},{y2:.1f} {x3:.1f},{y3:.1f}" fill="none" stroke="{color2}" stroke-width="1" opacity="{opacity}"/>')
+        
+        # Central bindu (divine point)
+        shapes.append(f'<circle cx="{center_x}" cy="{center_y}" r="{size//20}" fill="{color1}" opacity="0.9"/>')
+        
+        # Outer protective circles
+        shapes.append(f'<circle cx="{center_x}" cy="{center_y}" r="{outer_radius * 1.1}" fill="none" stroke="{color2}" stroke-width="1" opacity="0.5"/>')
+        shapes.append(f'<circle cx="{center_x}" cy="{center_y}" r="{outer_radius * 1.25}" fill="none" stroke="{color1}" stroke-width="1" opacity="0.3"/>')
+            
+    elif pattern_type == 16:  # Mosaic tiles
+        tile_size = size // 5
+        for x in range(0, size, tile_size):
+            for y in range(0, size, tile_size):
+                # Random tile pattern based on position
+                tile_hash = hash(f"{x}-{y}-{title}") % 4
+                if tile_hash == 0:
+                    shapes.append(f'<rect x="{x}" y="{y}" width="{tile_size}" height="{tile_size}" fill="{color1}" opacity="0.8"/>')
+                elif tile_hash == 1:
+                    shapes.append(f'<circle cx="{x + tile_size//2}" cy="{y + tile_size//2}" r="{tile_size//3}" fill="{color2}" opacity="0.7"/>')
+                elif tile_hash == 2:
+                    points = f"{x},{y+tile_size} {x+tile_size//2},{y} {x+tile_size},{y+tile_size}"
+                    shapes.append(f'<polygon points="{points}" fill="{color1}" opacity="0.6"/>')
+                else:
+                    shapes.append(f'<rect x="{x}" y="{y}" width="{tile_size}" height="{tile_size}" fill="{color2}" opacity="0.5" rx="{tile_size//4}"/>')
+                    
+    elif pattern_type == 17:  # Orbital rings
+        defs.append(f'''<linearGradient id="{gradient_id}" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="{color1}"/>
+            <stop offset="100%" stop-color="{color2}"/>
+        </linearGradient>''')
+        
+        for i in range(4):
+            radius = size // 6 + i * size // 12
+            rotation = i * 45
+            shapes.append(f'<circle cx="{size//2}" cy="{size//2}" r="{radius}" fill="none" stroke="url(#{gradient_id})" stroke-width="2" opacity="{0.8 - i*0.15}" transform="rotate({rotation} {size//2} {size//2})"/>')
+            # Small planet
+            planet_x = size // 2 + radius
+            planet_y = size // 2
+            shapes.append(f'<circle cx="{planet_x}" cy="{planet_y}" r="3" fill="{color2}" transform="rotate({rotation} {size//2} {size//2})"/>')
+            
+    elif pattern_type == 18:  # Woven pattern
+        defs.append(f'''<pattern id="{gradient_id}" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+            <rect width="6" height="6" fill="{color1}"/>
+            <rect x="0" y="0" width="3" height="3" fill="{color2}"/>
+            <rect x="3" y="3" width="3" height="3" fill="{color2}"/>
+        </pattern>''')
+        
+        # Create woven effect with overlapping rectangles
+        for i in range(6):
+            x = i * size // 6
+            shapes.append(f'<rect x="{x}" y="0" width="{size//12}" height="{size}" fill="url(#{gradient_id})" opacity="0.7"/>')
+            shapes.append(f'<rect x="0" y="{x}" width="{size}" height="{size//12}" fill="{color2}" opacity="0.5"/>')
+            
+    else:  # pattern_type == 19: Platonic Tetrahedron 
+        defs.append(f'''<linearGradient id="{gradient_id}" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="{color1}"/>
+            <stop offset="50%" stop-color="{color2}"/>
+            <stop offset="100%" stop-color="{color1}"/>
+        </radialGradient>''')
+        
+        # Sacred Tetrahedron - representing Fire element and divine trinity
+        center_x, center_y = size // 2, size // 2
+        tet_size = size // 2.8
+        
+        # Main large triangle (upward - divine masculine)
+        x1 = center_x
+        y1 = center_y - tet_size * 0.7
+        x2 = center_x - tet_size * 0.866
+        y2 = center_y + tet_size * 0.5
+        x3 = center_x + tet_size * 0.866
+        y3 = center_y + tet_size * 0.5
+        
+        shapes.append(f'<polygon points="{x1:.1f},{y1:.1f} {x2:.1f},{y2:.1f} {x3:.1f},{y3:.1f}" fill="none" stroke="url(#{gradient_id})" stroke-width="3" opacity="0.9"/>')
+        
+        # Inverted triangle (downward - divine feminine)
+        y1_inv = center_y + tet_size * 0.4
+        y2_inv = center_y - tet_size * 0.3
+        y3_inv = center_y - tet_size * 0.3
+        x2_inv = center_x - tet_size * 0.5
+        x3_inv = center_x + tet_size * 0.5
+        
+        shapes.append(f'<polygon points="{center_x:.1f},{y1_inv:.1f} {x2_inv:.1f},{y2_inv:.1f} {x3_inv:.1f},{y3_inv:.1f}" fill="none" stroke="{color2}" stroke-width="2" opacity="0.8"/>')
+        
+        # Inner sacred triangles (tetraktys pattern)
+        for i in range(3):
+            scale = 0.6 - i * 0.15
+            inner_size = tet_size * scale
+            x1_i = center_x
+            y1_i = center_y - inner_size * 0.4
+            x2_i = center_x - inner_size * 0.5
+            y2_i = center_y + inner_size * 0.2
+            x3_i = center_x + inner_size * 0.5
+            y3_i = center_y + inner_size * 0.2
+            
+            opacity = 0.7 - i * 0.15
+            shapes.append(f'<polygon points="{x1_i:.1f},{y1_i:.1f} {x2_i:.1f},{y2_i:.1f} {x3_i:.1f},{y3_i:.1f}" fill="none" stroke="{color1}" stroke-width="1" opacity="{opacity}"/>')
+        
+        # Central point of unity
+        shapes.append(f'<circle cx="{center_x}" cy="{center_y}" r="{size//25}" fill="{color1}" opacity="1.0"/>')
+        
+        # Corner vertices (tetraktys dots)
+        vertex_radius = size // 30
+        shapes.append(f'<circle cx="{x1:.1f}" cy="{y1:.1f}" r="{vertex_radius}" fill="{color2}" opacity="0.8"/>')
+        shapes.append(f'<circle cx="{x2:.1f}" cy="{y2:.1f}" r="{vertex_radius}" fill="{color2}" opacity="0.8"/>')
+        shapes.append(f'<circle cx="{x3:.1f}" cy="{y3:.1f}" r="{vertex_radius}" fill="{color2}" opacity="0.8"/>')
+    
+    # Compose SVG
+    defs_content = "\n        ".join(defs) if defs else ""
+    shapes_content = "\n        ".join(shapes)
+    
+    svg = f'''<svg width="{size}" height="{size}" viewBox="0 0 {size} {size}" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            {defs_content}
+        </defs>
+        {shapes_content}
+    </svg>'''
+    
+    # Convert to data URL
+    svg_b64 = base64.b64encode(svg.encode()).decode()
+    return f"data:image/svg+xml;base64,{svg_b64}"
+
+def generate_folder_icon(title, size=24):
+    """Generate a folder icon with unique accent color based on title."""
+    hash_obj = hashlib.md5(title.encode())
+    hash_bytes = hash_obj.digest()
+    
+    # Generate accent color
+    hue = (hash_bytes[0] * 360) // 256
+    saturation = 60 + (hash_bytes[1] * 20) // 256  # 60-80%
+    lightness = 45 + (hash_bytes[2] * 20) // 256   # 45-65%
+    
+    accent_color = f"hsl({hue}, {saturation}%, {lightness}%)"
+    folder_base = "#e8e8e8"
+    
+    svg = f'''<svg width="{size}" height="{size}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="folder_grad_{abs(hash(title)) % 1000}" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="{folder_base}"/>
+                <stop offset="100%" stop-color="{accent_color}"/>
+            </linearGradient>
+        </defs>
+        <path d="M10 4H4c-1.11 0-2 .89-2 2v12c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2h-8l-2-2z" 
+              fill="url(#folder_grad_{abs(hash(title)) % 1000})" 
+              stroke="{accent_color}" 
+              stroke-width="0.5"/>
+        <circle cx="18" cy="7" r="2" fill="{accent_color}" opacity="0.8"/>
+    </svg>'''
+    
+    svg_b64 = base64.b64encode(svg.encode()).decode()
+    return f"data:image/svg+xml;base64,{svg_b64}"
+
 def get_directory_structure(path):
     """Get the directory structure for a given path."""
     items = []
@@ -380,6 +925,26 @@ def get_directory_structure(path):
             except:
                 pass
 
+        # Generate unique SVG icon based on actual content title for consistency
+        icon_title = display_name  # Default to filename-based display name
+        
+        # For markdown files, try to extract the actual H1 title from content
+        if item.is_file() and item.suffix == '.md':
+            try:
+                content_data = render_markdown_file(item)
+                if content_data and 'title' in content_data:
+                    icon_title = content_data['title']
+                    # Also update display_name to use the actual title
+                    display_name = content_data['title']
+            except:
+                # Fallback to filename-based display name if parsing fails
+                pass
+        
+        if item.is_dir():
+            unique_icon = generate_folder_icon(icon_title, size=32)
+        else:
+            unique_icon = generate_unique_svg_icon(icon_title, size=32)
+        
         item_info = {
             'name': item.name,
             'display_name': display_name,
@@ -393,7 +958,8 @@ def get_directory_structure(path):
             'modified': datetime.fromtimestamp(item.stat().st_mtime),
             'file_date': file_date,  # Date extracted from file content
             'file_type': item.suffix.lower() if item.is_file() else 'directory',
-            'static_path': f"/static/data/{item.relative_to(DATA_DIR)}" if not item.is_dir() else None
+            'static_path': f"/static/data/{item.relative_to(DATA_DIR)}" if not item.is_dir() else None,
+            'unique_icon': unique_icon  # Generated SVG icon
         }
 
         if item.is_dir():
@@ -590,6 +1156,9 @@ def render_markdown_file(file_path):
 
         # Find series posts if this post is part of a series
         series_posts = find_series_posts(metadata, file_path)
+        
+        # Generate unique icon for this content
+        unique_icon = generate_unique_svg_icon(title, size=32)
 
         return {
             'content': html_content,
@@ -599,7 +1168,8 @@ def render_markdown_file(file_path):
             'word_count': word_count,
             'tags': tags,
             'series_posts': series_posts,
-            'series_name': metadata.get('series')
+            'series_name': metadata.get('series'),
+            'unique_icon': unique_icon
         }
     except Exception as e:
         return {
@@ -1524,7 +2094,9 @@ def themes_index():
                              metadata=content_data.get('metadata', {}),
                              breadcrumbs=[],
                              current_year=datetime.now().year,
-                             current_page='Themes')
+                             current_page='Themes',
+                             unique_icon=content_data.get('unique_icon'),
+                             parent_directory=None)
     else:
         # Fallback to directory listing if no index.md
         return serve_path('themes')
@@ -1662,6 +2234,20 @@ def serve_path(path):
             first_para = content_text.split('\n\n')[0]
             description = first_para[:200] + '...' if len(first_para) > 200 else first_para
 
+        # Generate parent directory information
+        parent_directory = None
+        if full_path.parent != DATA_DIR:  # Don't show parent for root-level content
+            parent_path = full_path.parent
+            parent_display_name = parent_path.name.replace('-', ' ').replace('_', ' ').title()
+            parent_url = '/' + str(parent_path.relative_to(DATA_DIR))
+            parent_icon = generate_folder_icon(parent_display_name, size=20)
+            
+            parent_directory = {
+                'display_name': parent_display_name,
+                'url': parent_url,
+                'icon': parent_icon
+            }
+
         return render_template('post.html',
                              content=content_data['content'],
                              title=content_data['title'],
@@ -1678,7 +2264,9 @@ def serve_path(path):
                              next_post=next_post,
                              tags=content_data.get('tags', []),
                              series_posts=content_data.get('series_posts', []),
-                             series_name=content_data.get('series_name'))
+                             series_name=content_data.get('series_name'),
+                             unique_icon=content_data.get('unique_icon'),
+                             parent_directory=parent_directory)
 
     elif full_path.suffix.lower() in ['.jpg', '.jpeg', '.png', '.gif', '.webp']:
         # Image file - check if it's in a gallery directory
@@ -1975,7 +2563,8 @@ class MetadataCache:
                     'url': metadata['url'],
                     'date': metadata.get('pub_date'),
                     'category': metadata['category'].replace('-', ' ').title(),
-                    'sidenotes': [{'text': s['text'], 'id': s.get('id')} for s in sidenotes]
+                    'sidenotes': [{'text': s['text'], 'id': s.get('id')} for s in sidenotes],
+                    'unique_icon': metadata.get('unique_icon')
                 })
         
         # Sort by date (most recent first)
@@ -2034,7 +2623,8 @@ class MetadataCache:
                     'url': metadata['url'],
                     'date': metadata.get('pub_date'),
                     'category': metadata['category'].replace('-', ' ').title(),
-                    'headings': processed_headings
+                    'headings': processed_headings,
+                    'unique_icon': metadata.get('unique_icon')
                 })
         
         # Sort by date (most recent first)
@@ -2072,7 +2662,8 @@ class MetadataCache:
                     'url': metadata['url'],
                     'date': metadata.get('pub_date'),
                     'category': metadata['category'].replace('-', ' ').title(),
-                    'quotes': [q['text'] for q in quotes]
+                    'quotes': [q['text'] for q in quotes],
+                    'unique_icon': metadata.get('unique_icon')
                 })
         
         articles.sort(key=lambda x: x['date'] if x['date'] else datetime(1900, 1, 1), reverse=True)
@@ -2175,7 +2766,8 @@ class MetadataCache:
                     'category': metadata['category'].replace('-', ' ').title(),
                     'connections': processed_outgoing,  # For backward compatibility
                     'outgoing_connections': processed_outgoing,
-                    'incoming_connections': processed_incoming
+                    'incoming_connections': processed_incoming,
+                    'unique_icon': metadata.get('unique_icon')
                 })
         
         # Sort by date (most recent first)

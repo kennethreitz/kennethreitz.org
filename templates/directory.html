@@ -2,6 +2,68 @@
 
 {% block extra_head %}
 <style>
+/* Directory listing styles */
+.directory-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.directory-item {
+    position: relative;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.directory-item:last-child {
+    border-bottom: none;
+}
+
+.directory-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -3rem;
+    top: 0.5rem;
+}
+
+.directory-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.directory-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.directory-link:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+.directory-date {
+    color: #888;
+    font-size: 0.8rem;
+    margin-left: auto;
+}
+
+@media (max-width: 760px) {
+    .directory-icon {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .directory-link {
+        font-size: 0.9rem;
+    }
+    
+    .directory-date {
+        font-size: 0.75rem;
+    }
+}
 /* Image Gallery Styles */
 .image-gallery {
     margin: 2rem 0;
@@ -203,16 +265,21 @@
 {% if items|length > image_items|length %}
 <section class="directory-listing">
     <h3>Other Files</h3>
-    <ul>
+    <ul class="directory-list">
         {% for item in items %}
         {% if not item.is_image %}
-        <li data-icon="{% if item.is_dir %}📁{% elif item.is_markdown %}📝{% else %}📄{% endif %}">
-            <a href="{{ item.url_path }}">
-                {{ item.display_name }}{% if item.is_dir %}/{% endif %}
-            </a>
-            {% if not item.is_dir and item.file_date %}
-                <span class="item-date">{{ item.file_date }}</span>
+        <li class="directory-item">
+            {% if item.unique_icon %}
+            <img src="{{ item.unique_icon }}" alt="Icon for {{ item.display_name }}" class="directory-icon">
             {% endif %}
+            <div class="directory-content">
+                <a href="{{ item.url_path }}" class="directory-link">
+                    {{ item.display_name }}{% if item.is_dir %}/{% endif %}
+                </a>
+                {% if not item.is_dir and item.file_date %}
+                    <span class="directory-date">{{ item.file_date }}</span>
+                {% endif %}
+            </div>
         </li>
         {% endif %}
         {% endfor %}
@@ -223,15 +290,20 @@
 {% elif items %}
 <section class="directory-listing">
     <h3>Contents</h3>
-    <ul>
+    <ul class="directory-list">
         {% for item in items %}
-        <li data-icon="{% if item.is_dir %}📁{% elif item.is_markdown %}📝{% elif item.is_image %}🖼️{% else %}📄{% endif %}">
-            <a href="{{ item.url_path }}">
-                {{ item.display_name }}{% if item.is_dir %}/{% endif %}
-            </a>
-            {% if not item.is_dir and item.file_date %}
-                <span class="item-date">{{ item.file_date }}</span>
+        <li class="directory-item">
+            {% if item.unique_icon %}
+            <img src="{{ item.unique_icon }}" alt="Icon for {{ item.display_name }}" class="directory-icon">
             {% endif %}
+            <div class="directory-content">
+                <a href="{{ item.url_path }}" class="directory-link">
+                    {{ item.display_name }}{% if item.is_dir %}/{% endif %}
+                </a>
+                {% if not item.is_dir and item.file_date %}
+                    <span class="directory-date">{{ item.file_date }}</span>
+                {% endif %}
+            </div>
         </li>
         {% endfor %}
     </ul>
