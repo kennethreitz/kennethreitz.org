@@ -128,30 +128,24 @@ def _generate_all_caches_unified():
         
         # Generate blog post entry if this is an essay
         if full_path.parent.name == 'essays':
-            try:
-                # Try YYYY-MM-DD format first (newer posts)
-                if len(full_path.stem) >= 10 and full_path.stem[10] == '-':
-                    date_str = full_path.stem[:10]  # YYYY-MM-DD
-                    date_obj = datetime.strptime(date_str, '%Y-%m-%d')
-                else:
-                    # Try YYYY-MM format (older posts)
-                    date_str = full_path.stem[:7]  # YYYY-MM
-                    date_obj = datetime.strptime(date_str + '-01', '%Y-%m-%d')  # Default to 1st of month
-                
+            # Use the robust extract_intelligent_date function
+            date_obj = extract_intelligent_date(full_path, content_data)
+            
+            if date_obj is not None:
                 blog_posts.append({
                     'title': content_data['title'],
                     'path': f"/{full_path.relative_to(Path('data')).with_suffix('')}",
                     'url': f"/{full_path.relative_to(Path('data')).with_suffix('')}",
                     'file_path': str(full_path),  # Add actual file path for mapping
                     'pub_date': date_obj,
-                    'date_str': date_str,
+                    'date_str': date_obj.strftime('%Y-%m-%d'),
                     'excerpt': simple_extract_excerpt(raw_content),
                     'description': simple_extract_excerpt(raw_content),
                     'word_count': len(raw_content.split()),
                     'category': full_path.parent.name
                 })
-            except (ValueError, IndexError):
-                pass
+            else:
+                print(f"DEBUG: Could not extract date from {full_path.name} in unified cache")
             
             # Extract sidenotes with their IDs
             # Pattern matches the full sidenote structure: input + span

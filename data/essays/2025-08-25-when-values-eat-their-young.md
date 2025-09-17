@@ -9,7 +9,7 @@ Nobody seems to notice the irony.
 
 This isn't some made-up scenario. This is real shit that happens. I've watched it unfold in projects I love, in companies I've worked for, in communities I've believed in.<label for="sn-pattern" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-pattern" class="margin-toggle"/><span class="sidenote">I've been in the Python community since 2008. I've seen us go from "be nice" to... something else. But this isn't just about tech. Watch any church split, any activist group implode, any company betray its founding principles. The pattern is universal.</span>
 
-The same algorithmic thinking that helps us debug code can help us understand why communities systematically fail their stated values. These aren't moral failures—they're predictable system dynamics that we can recognize, understand, and potentially prevent.
+The same algorithmic thinking that helps us debug code can help us understand why communities systematically fail their stated values. These aren't moral failures—they're predictable system dynamics that we can recognize, understand, and potentially prevent.<label for="sn-recursive-debug" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-recursive-debug" class="margin-toggle"/><span class="sidenote">This is programming as systems thinking: recognizing that human communities, like complex codebases, have emergent behaviors that can't be reduced to individual intentions. We debug by understanding the entire system, not just blaming individual actors.</span>
 
 ## The Paradox
 
@@ -41,9 +41,7 @@ The person who speaks most loudly about inclusion might be the same one privatel
 
 A purity spiral begins innocently: someone raises the bar for what counts as living up to the community's values. Others, not wanting to appear less committed, raise it further. Soon, you're in a bidding war where yesterday's progressive position is today's problematic stance.
 
-Consider what happened in Extinction Rebellion splinter groups between 2019-2021: It started with "reduce your carbon footprint." Then "go vegan." Then "don't fly." Then "don't have children." Eventually, members were being shamed for taking jobs that required commutes. Multiple XR chapters hemorrhaged members, keeping only the most privileged who could afford such restrictions—ironically undermining their stated goal of building a mass movement.<label for="sn-purity" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-purity" class="margin-toggle"/>
-<span class="sidenote">This pattern was documented in Andreas Malm's "How to Blow Up a Pipeline" (2021) where he critiques the purity spirals within climate movements. The French Revolution parallel remains apt: the Jacobins who sent others to the guillotine eventually found themselves condemned by even purer revolutionaries (see Simon Schama's "Citizens").</span>
+Consider what happened in Extinction Rebellion splinter groups between 2019-2021: It started with "reduce your carbon footprint." Then "go vegan." Then "don't fly." Then "don't have children." Eventually, members were being shamed for taking jobs that required commutes. Multiple XR chapters hemorrhaged members, keeping only the most privileged who could afford such restrictions—ironically undermining their stated goal of building a mass movement.<label for="sn-purity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-purity" class="margin-toggle"/><span class="sidenote">This pattern was documented in Andreas Malm's "How to Blow Up a Pipeline" (2021) where he critiques the purity spirals within climate movements. The French Revolution parallel remains apt: the Jacobins who sent others to the guillotine eventually found themselves condemned by even purer revolutionaries (see Simon Schama's "Citizens").</span>
 
 ### The Iron Law of Institutions
 
@@ -63,15 +61,13 @@ The same way [social media algorithms create outrage because outrage drives enga
 
 Every organization starts with a mission. Over time, the processes created to achieve that mission become the mission itself: the meeting about the meeting, the committee to oversee the committee, the elaborate consensus process that ensures nothing ever gets decided.
 
-One collective I observed spent six months perfecting their decision-making process. During those six months, they accomplished exactly zero of their actual goals.<label for="sn-process" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-process" class="margin-toggle"/>
-<span class="sidenote">Process matters, but when your process for deciding how to help people takes longer than actually helping them would have taken, you've lost the plot. Ship something. Help someone. Then iterate.</span>
+One collective I observed spent six months perfecting their decision-making process. During those six months, they accomplished exactly zero of their actual goals.<label for="sn-process" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-process" class="margin-toggle"/><span class="sidenote">Process matters, but when your process for deciding how to help people takes longer than actually helping them would have taken, you've lost the plot. Ship something. Help someone. Then iterate.</span>
 
 ### Cognitive Dissonance: The Stories We Tell Ourselves
 
 When behavior and beliefs conflict, something has to give. Usually, it's the beliefs that bend. A community that prides itself on kindness but regularly engages in cruel pile-ons doesn't admit hypocrisy. Instead, it develops elaborate justifications: "This isn't cruel, it's accountability." "We're not being exclusive, we're maintaining safety." "It's not censorship, it's consequences."
 
-The human brain is exceptionally good at resolving dissonance through narrative. The problem is, these narratives become the water we swim in—invisible, unquestionable, and ultimately destructive to the very values they claim to protect.
+The human brain is exceptionally good at resolving dissonance through narrative. The problem is, these narratives become the water we swim in—invisible, unquestionable, and ultimately destructive to the very values they claim to protect.<label for="sn-narrative-architecture" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-narrative-architecture" class="margin-toggle"/><span class="sidenote">Like poorly designed software architectures, narratives can become legacy systems that resist refactoring. Our mental models are not neutral—they're code we've been unconsciously writing our entire lives.</span>
 
 ---
 
@@ -79,9 +75,7 @@ The human brain is exceptionally good at resolving dissonance through narrative.
 
 ### The Inclusive Space That Wasn't
 
-The Tech Workers Coalition, founded in 2014 with values of "radical inclusion" and worker solidarity, experienced multiple schisms over ideological purity. By 2020, several chapters had split over whether members could work at certain companies, whether to allow managers, and what constituted "real" tech work.<label for="sn-twc" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-twc" class="margin-toggle"/>
-<span class="sidenote">Similar patterns documented in Logic Magazine's "Tech Worker Organizing" issue (2020) and in Wendy Liu's "Abolish Silicon Valley" (2020) where she discusses the contradictions within tech activism movements.</span>
+The Tech Workers Coalition, founded in 2014 with values of "radical inclusion" and worker solidarity, experienced multiple schisms over ideological purity. By 2020, several chapters had split over whether members could work at certain companies, whether to allow managers, and what constituted "real" tech work.<label for="sn-twc" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-twc" class="margin-toggle"/><span class="sidenote">Similar patterns documented in Logic Magazine's "Tech Worker Organizing" issue (2020) and in Wendy Liu's "Abolish Silicon Valley" (2020) where she discusses the contradictions within tech activism movements.</span>
 
 A member asked, in good faith, about the practical implications of abolishing prisons for violent crime victims. They were immediately labeled as "perpetuating carceral violence," subjected to a days-long struggle session, and ultimately banned. The community's response to someone seeking education on their values was to exclude them for not already embodying those values perfectly.
 
@@ -99,7 +93,7 @@ Python, a language and community that prides itself on progressive values of inc
 
 The kindness was performative. When tested by real conflict, the community defaulted to the same toxic behaviors they claimed to stand against, but wrapped in the language of justice and accountability.<label for="sn-kindness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-kindness" class="margin-toggle"/><span class="sidenote">Multiple maintainers documented similar experiences. See Nolan Lawson's "What it feels like to be an open-source maintainer" (2017) and André Staltz's "Software below the poverty line" (2019). The same people who put mental health in their bios will destroy someone having a public breakdown.</span>
 
-This reveals the gap between stated values and lived reality—the recursive loop where [communities shape the consciousness of their members](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), who then shape the communities, often in ways that contradict the original intentions.
+This reveals the gap between stated values and lived reality—the recursive loop where [communities shape the consciousness of their members](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), who then shape the communities, often in ways that contradict the original intentions.<label for="sn-consciousness-loop" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-consciousness-loop" class="margin-toggle"/><span class="sidenote">Think of this like a feedback loop in signal processing: each iteration slightly changes the signal. Our collective consciousness is constantly being recompiled, with each community interaction serving as a commit to the shared repository.</span>
 
 
 ### Personal Experience
@@ -148,19 +142,19 @@ Here's your practical playbook for keeping your community from eating its young:
 
 Watch how quickly noble values transform into their opposites when institutional pressures take hold:
 
-**Inclusion** often becomes exclusion of those who don't speak the "right" language or perform belonging correctly.
+*Inclusion* often becomes exclusion of those who don't speak the "right" language or perform belonging correctly.
 
-**Kindness** transforms into cruel enforcement of kindness norms—destroying people in the name of protecting people.
+*Kindness* transforms into cruel enforcement of kindness norms—destroying people in the name of protecting people.
 
-**Safety** gets weaponized to shut down disagreement rather than protect genuine vulnerability.
+*Safety* gets weaponized to shut down disagreement rather than protect genuine vulnerability.
 
-**Accountability** becomes "accountability for thee but not for me"—rules that apply to everyone except those who make them.
+*Accountability* becomes "accountability for thee but not for me"—rules that apply to everyone except those who make them.
 
-**Consensus** devolves into minority veto power that creates paralysis rather than genuine agreement.
+*Consensus* devolves into minority veto power that creates paralysis rather than genuine agreement.
 
-**Transparency** becomes performative theater that hides real decisions behind elaborate public processes.
+*Transparency* becomes performative theater that hides real decisions behind elaborate public processes.
 
-**Growth** happens at the expense of founding principles—scaling the organization while shrinking the mission.
+*Growth* happens at the expense of founding principles—scaling the organization while shrinking the mission.
 
 ## Re-aligning Means with Ends
 
@@ -180,7 +174,9 @@ Look.
 
 I still believe in open source. I believe in communities built on values like kindness, inclusion, and collaboration. But good intentions aren't enough. You need systems. You need guardrails. You need to actually give a shit about people when they're at their worst, not just when they're shipping code.
 
-This is what [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) really means—recognizing that every system we create either serves human flourishing or exploits human vulnerability. Community building is no different from building software: the quality of our intention matters as much as the quality of our implementation.
+This is what [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) really means—recognizing that every system we create either serves human flourishing or exploits human vulnerability. Community building is no different from building software: the quality of our intention matters as much as the quality of our implementation.<label for="sn-spiritual-code" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-spiritual-code" class="margin-toggle"/><span class="sidenote">We are always writing code—whether in text editors or social interactions. The question is whether that code amplifies human capability or constrains human potential. Our most important algorithms are how we treat each other.</span>
+
+I'm only able to write about these patterns because Sarah creates the conditions where this kind of reflection becomes possible—designing guardrails for my own worst days, reality-checking my blind spots, and building the kind of sustainable partnership that enables contemplative work rather than consuming it.<label for="sn-sarah-partnership" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-sarah-partnership" class="margin-toggle"/><span class="sidenote">The recursive loop applies here too: conscious relationships enable conscious work, which shapes collective consciousness. Sarah's insights about building systems that support people through struggle directly inform how I think about community design. The personal is the professional when you're debugging human systems.</span>
 
 Build the guardrails *before* you need them. Because once you've driven out the people who came to you for help—the ones who believed in your stated values, who were vulnerable enough to show their struggles—you can't un-eat them.
 
