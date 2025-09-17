@@ -30,6 +30,14 @@ Inspired by books. Remember those? Wide margins for your thoughts. Readable typo
 
 The sidenotes are there because sometimes the most interesting part of a book is what's scribbled in the margins.
 
+### Sacred Geometry Icons
+
+Each piece of content gets a unique icon generated from sacred geometry patterns. Twenty different algorithmic patterns including the Flower of Life, Sri Yantra, Metatron's Cube, Golden Ratio spirals, and Platonic solids.<label for="sn-svg-generation" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-svg-generation" class="margin-toggle"/>
+<span class="sidenote">The SVG generation system uses MD5 and SHA256 hashes of content titles to deterministically select patterns, colors, and parameters. This means each essay always gets the same icon, but no two essays share the same visual identity. It's like having a unique mandala for every thought.</span>
+
+The colors and variations are mathematically derived from the content title, so every essay, talk, and page has its own contemplative visual signature. Because why shouldn't mathematics be beautiful?
+
 ## The Evolution
 
 This site has been:
@@ -59,12 +67,16 @@ Also, I got tired of my thoughts being scattered across Twitter, Medium, dev.to,
 
 The words are mine. Feel free to be inspired by them, but please don't wholesale copy them.
 
+The code, however, is open source.<label for="sn-open-source" class="margin-toggle sidenote-number"></label>
+<input type="checkbox" id="sn-open-source" class="margin-toggle"/>
+<span class="sidenote">You can find the full source code for this site, including the sacred geometry SVG generation system, cache architecture, and all the Flask plumbing, on GitHub. Because good ideas should be shared, and someone might want to build their own contemplative digital garden.</span> The Flask app, the SVG generation algorithms, the caching system — all of it. Build your own contemplative digital garden.
+
 ## The Future
 
 Who knows? But it'll be here. At this domain. In plain text. Like it should be.
 
 ---
 
-*Last updated: August 2025*
+*Last updated: September 2025*
 
 *Built with caffeine, gabapentin, and a stubborn refusal to use React.*
