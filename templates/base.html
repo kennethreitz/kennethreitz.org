@@ -48,6 +48,18 @@
                 vertical-align: middle;
             }
 
+            /* Reading progress indicator */
+            .reading-progress {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 2px;
+                background: #333;
+                z-index: 1000;
+                transition: width 0.1s ease-out;
+            }
+
             /* Dropdown navigation styles */
             .nav-dropdown {
                 position: relative;
@@ -174,6 +186,9 @@
         {% endif %}
     </head>
     <body>
+        <!-- Reading progress bar -->
+        <div class="reading-progress" id="reading-progress"></div>
+        
         <article>
             <header>
                 <nav>
@@ -459,6 +474,42 @@
                     wrapper.appendChild(pre);
                     wrapper.appendChild(copyButton);
                 });
+            });
+
+            // Reading progress indicator
+            function updateReadingProgress() {
+                const progressBar = document.getElementById('reading-progress');
+                if (!progressBar) return;
+                
+                const mainContent = document.querySelector('main');
+                if (!mainContent) return;
+                
+                const scrollTop = window.scrollY;
+                const docHeight = document.documentElement.scrollHeight;
+                const winHeight = window.innerHeight;
+                const scrollPercent = scrollTop / (docHeight - winHeight);
+                const scrollPercentRounded = Math.round(scrollPercent * 100);
+                
+                progressBar.style.width = scrollPercentRounded + '%';
+                
+                // Only show progress bar if there's meaningful content to scroll
+                if (docHeight > winHeight * 1.5) {
+                    progressBar.style.opacity = '1';
+                } else {
+                    progressBar.style.opacity = '0';
+                }
+            }
+
+            // Initialize reading progress on pages with substantial content
+            document.addEventListener('DOMContentLoaded', function() {
+                // Check if this is a content page (essay/article) rather than an index
+                const isContentPage = document.querySelector('main').textContent.length > 2000;
+                
+                if (isContentPage) {
+                    window.addEventListener('scroll', updateReadingProgress);
+                    window.addEventListener('resize', updateReadingProgress);
+                    updateReadingProgress(); // Initial call
+                }
             });
 
         </script>

@@ -82,6 +82,20 @@
         margin-right: 0.5rem;
     }
     
+    .search-result-snippet {
+        color: #555;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-top: 0.5rem;
+    }
+    
+    .search-result-snippet mark {
+        background: #fff3cd;
+        padding: 0.1rem 0.2rem;
+        border-radius: 2px;
+        font-weight: 500;
+    }
+    
     .loading {
         text-align: center;
         color: #666;
@@ -211,6 +225,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     const iconHtml = result.unique_icon ? 
                         `<img src="${result.unique_icon}" alt="Icon for ${result.name}" class="search-result-icon">` : '';
                     
+                    const snippetHtml = result.snippet ? 
+                        `<div class="search-result-snippet">${result.snippet}</div>` : '';
+                    
                     resultElement.innerHTML = `
                         <div class="search-result-header">
                             ${iconHtml}
@@ -220,6 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <span class="search-result-type">${typeIcon} ${result.type}</span>
                             <span class="search-result-path">${result.display_path}</span>
                         </div>
+                        ${snippetHtml}
                     `;
                     
                     resultsContainer.appendChild(resultElement);

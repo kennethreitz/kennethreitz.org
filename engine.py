@@ -2360,11 +2360,37 @@ def api_search():
             item_display_path = f"{display_path}/{item.name}" if display_path else item.name
 
             if query in node_name or query in node_path or query in node_content:
+                # Generate snippet with highlighted search terms for markdown files
+                snippet = ""
+                if item.suffix == '.md' and node_content and query in node_content:
+                    # Find the first occurrence of the query in content
+                    query_pos = node_content.find(query)
+                    if query_pos != -1:
+                        # Extract context around the query (200 chars before and after)
+                        start = max(0, query_pos - 100)
+                        end = min(len(node_content), query_pos + len(query) + 100)
+                        snippet_text = node_content[start:end]
+                        
+                        # Clean up the snippet (remove markdown syntax)
+                        import re
+                        snippet_text = re.sub(r'[#*`_\[\]()]', '', snippet_text)
+                        snippet_text = re.sub(r'\s+', ' ', snippet_text).strip()
+                        
+                        # Highlight the search term (case-insensitive)
+                        snippet = re.sub(f'({re.escape(query)})', r'<mark>\1</mark>', snippet_text, flags=re.IGNORECASE)
+                        
+                        # Add ellipsis if snippet is truncated
+                        if start > 0:
+                            snippet = "..." + snippet
+                        if end < len(node_content):
+                            snippet = snippet + "..."
+                
                 result = {
                     'name': item.name,
                     'type': 'directory' if item.is_dir() else ('article' if item.suffix == '.md' else 'file'),
                     'path': relative_path,
                     'display_path': item_display_path,
+                    'snippet': snippet,
                     'relevance': 0,
                 }
                 
