@@ -2,7 +2,9 @@ import hashlib
 import math
 import base64
 import random
+from functools import lru_cache
 
+@lru_cache(maxsize=1000)
 def generate_unique_svg_icon(title, size=24):
     """Generate a unique procedural SVG icon based on the title string."""
     # Create hash from title for deterministic randomness

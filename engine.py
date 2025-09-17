@@ -19,6 +19,7 @@ from collections import defaultdict
 import hashlib
 import base64
 import math
+from functools import lru_cache
 
 app = Flask(__name__, template_folder='templates')
 
@@ -850,6 +851,7 @@ def generate_unique_svg_icon_OLD(title, size=24):
     svg_b64 = base64.b64encode(svg.encode()).decode()
     return f"data:image/svg+xml;base64,{svg_b64}"
 
+@lru_cache(maxsize=500)
 def generate_folder_icon(title, size=24):
     """Generate a folder icon with unique accent color based on title."""
     hash_obj = hashlib.md5(title.encode())
