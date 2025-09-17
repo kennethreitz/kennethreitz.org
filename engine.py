@@ -129,8 +129,14 @@ def _generate_all_caches_unified():
         # Generate blog post entry if this is an essay
         if full_path.parent.name == 'essays':
             try:
-                date_str = full_path.stem[:10]  # YYYY-MM-DD
-                date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+                # Try YYYY-MM-DD format first (newer posts)
+                if len(full_path.stem) >= 10 and full_path.stem[10] == '-':
+                    date_str = full_path.stem[:10]  # YYYY-MM-DD
+                    date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+                else:
+                    # Try YYYY-MM format (older posts)
+                    date_str = full_path.stem[:7]  # YYYY-MM
+                    date_obj = datetime.strptime(date_str + '-01', '%Y-%m-%d')  # Default to 1st of month
                 
                 blog_posts.append({
                     'title': content_data['title'],
