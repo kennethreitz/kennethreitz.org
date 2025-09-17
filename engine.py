@@ -2088,6 +2088,8 @@ def themes_index():
     index_file = themes_path / 'index.md'
     if index_file.exists():
         content_data = render_markdown_file(index_file)
+        # Generate folder icon for themes directory
+        folder_icon = generate_folder_icon('Themes', size=32)
         return render_template('post.html',
                              content=content_data['content'],
                              title='Themes',
@@ -2095,7 +2097,7 @@ def themes_index():
                              breadcrumbs=[],
                              current_year=datetime.now().year,
                              current_page='Themes',
-                             unique_icon=content_data.get('unique_icon'),
+                             unique_icon=folder_icon,
                              parent_directory=None)
     else:
         # Fallback to directory listing if no index.md
