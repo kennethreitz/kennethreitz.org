@@ -14,14 +14,21 @@ Built with Flask, Mistune, and philosophical inquiry.
 
 ## Features
 
-- Tufte-style sidenotes with margin toggles
-- Responsive typography optimized for reading
-- Custom Markdown extensions for philosophy and code
-- Automatic directory-based routing
-- Image galleries with metadata extraction
-- Full-text search across content
-- Custom post templates based on content type
-- API endpoints for headless access
+- **Tufte-style sidenotes** with margin toggles for non-disruptive commentary
+- **Responsive typography** optimized for reading on all devices  
+- **Generated SVG icons** - unique algorithmic icons for every piece of content
+- **Dynamic folder icons** with color variations based on content titles
+- **Reading progress indicator** for longer essays and articles
+- **Search result highlighting** with contextual snippets and term highlighting
+- **Directory listings** with parent navigation and image gallery detection
+- **Lazy loading** for images with intersection observer optimization
+- **HTTP caching** for static assets (images: 7 days, other files: 1 hour)
+- **Custom Markdown extensions** for philosophy and code examples
+- **Automatic directory-based routing** mirroring file system structure
+- **Image galleries** with lightbox viewing and metadata extraction
+- **Full-text search** across all content with relevance scoring
+- **Custom post templates** based on content type and structure
+- **API endpoints** for headless access and integration
 
 ## Getting Started
 
@@ -66,6 +73,16 @@ kennethreitz.org/
 
 Content uses a directory-based structure where URL paths mirror the file system.
 
+### Generated Icons
+
+Every piece of content gets a unique algorithmic SVG icon generated from its title:
+
+- **Article icons**: Geometric patterns (circles, triangles, squares, diamonds) with colors derived from MD5 hash
+- **Folder icons**: Consistent folder shape with title-based color variations
+- **Deterministic generation**: Same title always produces the same icon
+- **SVG format**: Scalable, lightweight, and embedded as base64 data URLs
+- **Color system**: HSL values extracted from content hash for visual consistency
+
 ### Sidenotes
 
 The site uses Tufte-style sidenotes for commentary without disrupting flow:
@@ -73,6 +90,11 @@ The site uses Tufte-style sidenotes for commentary without disrupting flow:
 ```html
 Main text<label for="sn-id" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id" class="margin-toggle"/><span class="sidenote">Sidenote content</span> continues.
 ```
+
+**Critical formatting rules:**
+- Sidenotes must be inline (attached to sentence end with NO line breaks)
+- Use descriptive IDs like `sn-consciousness`, `sn-recursion`, etc.
+- Keep away from code blocks to prevent layout issues
 
 ## Templates
 
@@ -92,6 +114,15 @@ DEBUG=1 uv run python engine.py
 
 Enables draft content visibility and additional logging.
 
+### Performance Features
+
+- **Lazy loading**: Images load as they enter viewport using IntersectionObserver
+- **Reading progress**: Smooth progress bar for essays with substantial content (>2000 chars)
+- **HTTP caching**: Aggressive caching headers for static assets
+- **Resource preloading**: Critical CSS files preloaded for faster initial render
+- **Search optimization**: Highlighted snippets with context extraction
+- **Metadata caching**: Blog post metadata cached with 5-minute TTL
+
 ### Content Guidelines
 
 - Write like thinking out loud—conversational but precise
@@ -99,6 +130,7 @@ Enables draft content visibility and additional logging.
 - Code examples should breathe with proper whitespace
 - Cross-link extensively to build conceptual webs
 - Maintain Kenneth's voice: vulnerable authenticity meets technical precision
+- Each piece gets a unique generated icon based on its title
 
 ## The Mission
 
