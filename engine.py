@@ -2350,6 +2350,20 @@ def api_search():
                     'display_path': item_display_path,
                     'relevance': 0,
                 }
+                
+                # Add unique_icon for articles
+                if item.suffix == '.md':
+                    try:
+                        # Convert path to URL for lookup in blog_posts
+                        clean_url = '/' + relative_path[:-3]  # Remove .md extension
+                        blog_posts = metadata_cache.get_blog_posts()
+                        for post in blog_posts:
+                            if post['url'] == clean_url:
+                                if 'unique_icon' in post:
+                                    result['unique_icon'] = post['unique_icon']
+                                break
+                    except Exception:
+                        pass
 
                 relevance = 0
                 if query in node_name:

@@ -38,8 +38,21 @@
         border-bottom: none;
     }
     
+    .search-result-header {
+        position: relative;
+        margin-bottom: 0.5rem;
+    }
+    
+    .search-result-icon {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        left: -4rem;
+        top: 0;
+    }
+    
     .search-result h3 {
-        margin: 0 0 0.5rem 0;
+        margin: 0;
         font-size: 1.3rem;
     }
     
@@ -195,8 +208,14 @@ document.addEventListener('DOMContentLoaded', function() {
                         resultUrl = '/' + resultUrl;
                     }
                     
+                    const iconHtml = result.unique_icon ? 
+                        `<img src="${result.unique_icon}" alt="Icon for ${result.name}" class="search-result-icon">` : '';
+                    
                     resultElement.innerHTML = `
-                        <h3><a href="${resultUrl}">${result.name}</a></h3>
+                        <div class="search-result-header">
+                            ${iconHtml}
+                            <h3><a href="${resultUrl}">${result.name}</a></h3>
+                        </div>
                         <div class="search-result-meta">
                             <span class="search-result-type">${typeIcon} ${result.type}</span>
                             <span class="search-result-path">${result.display_path}</span>
