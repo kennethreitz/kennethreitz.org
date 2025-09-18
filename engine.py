@@ -2413,18 +2413,46 @@ def _get_article_icon_cached(article_path):
     try:
         # Convert URL path to file path
         file_path = DATA_DIR / article_path.lstrip('/')
-        md_file_path = file_path.with_suffix('.md')
         
-        if md_file_path.exists():
-            # Read the file and extract the title
-            content_data = render_markdown_file(md_file_path)
-            if content_data and 'title' in content_data:
-                icon_svg = generate_unique_svg_icon(content_data['title'], size=20)
-                return {
-                    'success': True,
-                    'icon': icon_svg,
-                    'title': content_data['title']
-                }
+        # Check if it's a directory path (ends with / or is a directory)
+        if article_path.endswith('/') or file_path.is_dir():
+            # For directories, try to read index.md or use directory name
+            index_path = file_path / 'index.md' if file_path.is_dir() else file_path.with_name('index.md')
+            
+            if index_path.exists():
+                # Read index.md to get the title
+                content_data = render_markdown_file(index_path)
+                if content_data and 'title' in content_data:
+                    icon_svg = generate_folder_icon(content_data['title'], size=20)
+                    return {
+                        'success': True,
+                        'icon': icon_svg,
+                        'title': content_data['title']
+                    }
+            
+            # If no index.md, use the directory name
+            dir_name = file_path.name if file_path.is_dir() else article_path.strip('/').split('/')[-1]
+            title_guess = dir_name.replace('-', ' ').replace('_', ' ').title()
+            icon_svg = generate_folder_icon(title_guess, size=20)
+            return {
+                'success': True,
+                'icon': icon_svg,
+                'title': title_guess
+            }
+        else:
+            # Regular file handling
+            md_file_path = file_path.with_suffix('.md')
+            
+            if md_file_path.exists():
+                # Read the file and extract the title
+                content_data = render_markdown_file(md_file_path)
+                if content_data and 'title' in content_data:
+                    icon_svg = generate_unique_svg_icon(content_data['title'], size=20)
+                    return {
+                        'success': True,
+                        'icon': icon_svg,
+                        'title': content_data['title']
+                    }
     except Exception:
         pass  # Fall through to fallback
         
