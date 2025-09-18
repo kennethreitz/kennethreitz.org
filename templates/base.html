@@ -220,7 +220,7 @@
                 <nav>
                     <a href="/">Home</a>
                     <a href="/archive">Archive</a>
-                    <a href="/themes/">Themes</a>
+                    <a href="/themes">Themes</a>
                     <div class="nav-dropdown">
                         <a href="#">Indexes</a>
                         <div class="dropdown-content">
@@ -555,8 +555,20 @@
                         }
                     }
                     
+                    // Check if first element is a link, or if it's a strong/b tag containing a link
+                    let linkElement = null;
                     if (firstElement && firstElement.tagName === 'A') {
-                        const href = firstElement.getAttribute('href');
+                        linkElement = firstElement;
+                    } else if (firstElement && (firstElement.tagName === 'STRONG' || firstElement.tagName === 'B')) {
+                        // Check if the strong/b tag contains a link as its first child
+                        const strongFirstChild = firstElement.firstElementChild;
+                        if (strongFirstChild && strongFirstChild.tagName === 'A') {
+                            linkElement = strongFirstChild;
+                        }
+                    }
+                    
+                    if (linkElement) {
+                        const href = linkElement.getAttribute('href');
                         
                         // Check if it's an internal link
                         if (href && href.startsWith('/') && !href.startsWith('//')) {
@@ -585,8 +597,8 @@
                                                 display: inline-block;
                                                 width: 20px;
                                                 height: 20px;
-                                                margin-right: 0.5rem;
-                                                margin-left: -3rem;
+                                                margin-right: 0.75rem;
+                                                margin-left: -2.25rem;
                                                 margin-top: -0.25em;
                                                 vertical-align: middle;
                                                 flex-shrink: 0;
@@ -595,12 +607,11 @@
                                             // Insert the SVG content directly
                                             iconContainer.innerHTML = svgContent;
                                             
-                                            // Insert icon before the link
+                                            // Insert icon before the first element (which contains the link)
                                             paragraph.insertBefore(iconContainer, firstElement);
                                             
                                             // Add some styling to the paragraph
                                             paragraph.style.position = 'relative';
-                                            paragraph.style.paddingLeft = '1.5rem';
                                         } catch (e) {
                                             // If decoding fails, skip silently
                                         }
@@ -608,7 +619,7 @@
                                 })
                                 .catch(() => {
                                     // If API call fails, try to generate a fallback icon based on link text
-                                    const linkText = firstElement.textContent.trim();
+                                    const linkText = linkElement.textContent.trim();
                                     if (linkText) {
                                         try {
                                             // Create a simple fallback icon using the link text
@@ -620,8 +631,8 @@
                                                 display: inline-block;
                                                 width: 20px;
                                                 height: 20px;
-                                                margin-right: 0.5rem;
-                                                margin-left: -3rem;
+                                                margin-right: 0.75rem;
+                                                margin-left: -2.25rem;
                                                 margin-top: -0.25em;
                                                 vertical-align: middle;
                                                 flex-shrink: 0;
@@ -631,7 +642,6 @@
                                             iconContainer.innerHTML = fallbackIcon;
                                             paragraph.insertBefore(iconContainer, firstElement);
                                             paragraph.style.position = 'relative';
-                                            paragraph.style.paddingLeft = '1.5rem';
                                         } catch (e) {
                                             // If even fallback fails, just skip
                                         }
@@ -644,8 +654,17 @@
 
             // Initialize reading progress on pages with substantial content
             document.addEventListener('DOMContentLoaded', function() {
-                // Load article icons
-                loadArticleIcons();
+                // Only load article icons on content pages, not index/archive pages
+                const currentPath = window.location.pathname;
+                const isIndexPage = currentPath === '/' || 
+                                   currentPath === '/archive' || 
+                                   currentPath.endsWith('/index') ||
+                                   currentPath.match(/^\/(archive|search|directory|sidenotes|outlines|connections|quotes|terms|graph|random)\/?$/);
+                
+                if (!isIndexPage) {
+                    // Load article icons
+                    loadArticleIcons();
+                }
                 
                 // Check if this is a content page (essay/article) rather than an index
                 const isContentPage = document.querySelector('main').textContent.length > 2000;

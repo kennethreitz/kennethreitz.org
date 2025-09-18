@@ -3103,7 +3103,8 @@ def _collect_all_blog_posts_cached():
         DATA_DIR / 'artificial-intelligence',  # This will pick up root AI posts and scan subdirs
         DATA_DIR / 'software',
         DATA_DIR / 'poetry',
-        DATA_DIR / 'talks'
+        DATA_DIR / 'talks',
+        DATA_DIR / 'themes'
     ]
 
     def scan_for_posts(path, category=""):
