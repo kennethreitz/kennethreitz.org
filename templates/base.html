@@ -604,6 +604,22 @@
                                                 flex-shrink: 0;
                                             `;
                                             
+                                            // Add CSS to hide on mobile and tablet - only add once
+                                            if (!window.articleIconStylesAdded) {
+                                                const style = document.createElement('style');
+                                                style.textContent = `
+                                                    @media (max-width: 1024px) {
+                                                        .article-link-icon,
+                                                        .article-link-icon.fallback {
+                                                            display: none !important;
+                                                            visibility: hidden !important;
+                                                        }
+                                                    }
+                                                `;
+                                                document.head.appendChild(style);
+                                                window.articleIconStylesAdded = true;
+                                            }
+                                            
                                             // Insert the SVG content directly
                                             iconContainer.innerHTML = svgContent;
                                             
