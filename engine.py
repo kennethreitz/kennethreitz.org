@@ -2383,6 +2383,88 @@ def serve_data_file(path):
 
 
 
+@lru_cache(maxsize=500)
+def _get_article_icon_cached(article_path):
+    """Cached function to get article icon data."""
+    # Normalize the path - ensure it starts with /
+    if not article_path.startswith('/'):
+        article_path = '/' + article_path
+        
+    # Look up the article in blog_posts cache
+    posts = _collect_all_blog_posts_cached()
+    for post in posts:
+        if post['url'] == article_path:
+            if 'unique_icon' in post and post['unique_icon']:
+                return {
+                    'success': True,
+                    'icon': post['unique_icon'],
+                    'title': post['title']
+                }
+            else:
+                # Generate icon if not cached
+                icon_svg = generate_unique_svg_icon(post['title'], size=20)
+                return {
+                    'success': True,
+                    'icon': icon_svg,
+                    'title': post['title']
+                }
+                
+    # If not found in blog_posts, try to read the file directly
+    try:
+        # Convert URL path to file path
+        file_path = DATA_DIR / article_path.lstrip('/')
+        md_file_path = file_path.with_suffix('.md')
+        
+        if md_file_path.exists():
+            # Read the file and extract the title
+            content_data = render_markdown_file(md_file_path)
+            if content_data and 'title' in content_data:
+                icon_svg = generate_unique_svg_icon(content_data['title'], size=20)
+                return {
+                    'success': True,
+                    'icon': icon_svg,
+                    'title': content_data['title']
+                }
+    except Exception:
+        pass  # Fall through to fallback
+        
+    # Final fallback: extract title from URL and generate icon
+    title_guess = article_path.split('/')[-1].replace('-', ' ').replace('_', ' ').title()
+    if title_guess:
+        icon_svg = generate_unique_svg_icon(title_guess, size=20)
+        return {
+            'success': True,
+            'icon': icon_svg,
+            'title': title_guess
+        }
+        
+    return {'success': False, 'error': 'Article not found'}
+
+@app.route('/api/icon/<path:article_path>')
+def api_get_article_icon(article_path):
+    """API endpoint to get icon SVG for a specific article."""
+    try:
+        result = _get_article_icon_cached(article_path)
+        return jsonify(result)
+        
+    except Exception as e:
+        return jsonify({'success': False, 'error': str(e)})
+
+@app.route('/api/debug-cache')
+def debug_cache():
+    """Debug endpoint to see what's in the blog posts cache."""
+    try:
+        posts = _collect_all_blog_posts_cached()
+        # Filter for software posts
+        software_posts = [p for p in posts if 'software' in p.get('url', '')]
+        return jsonify({
+            'total_posts': len(posts),
+            'software_posts': software_posts[:5],  # First 5 for debugging
+            'sample_urls': [p.get('url') for p in posts[:10]]
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)})
+
 @app.route('/api/search')
 def api_search():
     """API endpoint for full-text search across the knowledge base."""
@@ -3018,7 +3100,10 @@ def _collect_all_blog_posts_cached():
     # Define blog post directories
     blog_dirs = [
         DATA_DIR / 'essays',
-        DATA_DIR / 'artificial-intelligence'  # This will pick up root AI posts and scan subdirs
+        DATA_DIR / 'artificial-intelligence',  # This will pick up root AI posts and scan subdirs
+        DATA_DIR / 'software',
+        DATA_DIR / 'poetry',
+        DATA_DIR / 'talks'
     ]
 
     def scan_for_posts(path, category=""):

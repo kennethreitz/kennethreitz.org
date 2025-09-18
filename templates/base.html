@@ -512,8 +512,141 @@
                 }
             }
 
+            // Create a simple fallback icon based on text
+            function createFallbackIcon(text) {
+                // Simple hash function for consistent colors
+                let hash = 0;
+                for (let i = 0; i < text.length; i++) {
+                    hash = ((hash << 5) - hash + text.charCodeAt(i)) & 0xffffffff;
+                }
+                
+                // Generate colors based on hash
+                const hue = Math.abs(hash) % 360;
+                const saturation = 60 + (Math.abs(hash >> 8) % 30); // 60-90%
+                const lightness = 45 + (Math.abs(hash >> 16) % 20); // 45-65%
+                
+                // Get first letter of text for simple icon
+                const letter = text.charAt(0).toUpperCase();
+                
+                return `<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="8" fill="hsl(${hue}, ${saturation}%, ${lightness}%)" opacity="0.8"/>
+                    <text x="10" y="14" text-anchor="middle" fill="white" font-family="serif" font-size="11" font-weight="bold">${letter}</text>
+                </svg>`;
+            }
+
+            // Load icons for article links at the beginning of paragraphs
+            function loadArticleIcons() {
+                // Find all paragraphs that start with a link
+                const paragraphs = document.querySelectorAll('p');
+                
+                paragraphs.forEach(paragraph => {
+                    // Check if the paragraph starts with a link (no text before it)
+                    const firstNode = paragraph.firstChild;
+                    let firstElement = null;
+                    
+                    // Skip any whitespace/text nodes at the beginning
+                    for (let node = firstNode; node; node = node.nextSibling) {
+                        if (node.nodeType === Node.ELEMENT_NODE) {
+                            firstElement = node;
+                            break;
+                        } else if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
+                            // If there's non-whitespace text before any element, don't add icon
+                            return;
+                        }
+                    }
+                    
+                    if (firstElement && firstElement.tagName === 'A') {
+                        const href = firstElement.getAttribute('href');
+                        
+                        // Check if it's an internal link
+                        if (href && href.startsWith('/') && !href.startsWith('//')) {
+                            // Skip if icon already exists
+                            if (paragraph.querySelector('.article-link-icon')) return;
+                            
+                            // Fetch icon with simple error handling
+                            fetch(`/api/icon${href}`)
+                                .then(response => response.ok ? response.json() : null)
+                                .then(data => {
+                                    if (data && data.success && data.icon) {
+                                        // Validate the data URL format
+                                        if (!data.icon.startsWith('data:image/svg+xml;base64,')) {
+                                            return;
+                                        }
+                                        
+                                        try {
+                                            // Decode the SVG to insert as inline SVG instead of data URL
+                                            const base64Part = data.icon.split(',')[1];
+                                            const svgContent = atob(base64Part);
+                                            
+                                            // Create a container div for the SVG
+                                            const iconContainer = document.createElement('div');
+                                            iconContainer.className = 'article-link-icon';
+                                            iconContainer.style.cssText = `
+                                                display: inline-block;
+                                                width: 20px;
+                                                height: 20px;
+                                                margin-right: 0.5rem;
+                                                margin-left: -3rem;
+                                                margin-top: -0.25em;
+                                                vertical-align: middle;
+                                                flex-shrink: 0;
+                                            `;
+                                            
+                                            // Insert the SVG content directly
+                                            iconContainer.innerHTML = svgContent;
+                                            
+                                            // Insert icon before the link
+                                            paragraph.insertBefore(iconContainer, firstElement);
+                                            
+                                            // Add some styling to the paragraph
+                                            paragraph.style.position = 'relative';
+                                            paragraph.style.paddingLeft = '1.5rem';
+                                        } catch (e) {
+                                            // If decoding fails, skip silently
+                                        }
+                                    }
+                                })
+                                .catch(() => {
+                                    // If API call fails, try to generate a fallback icon based on link text
+                                    const linkText = firstElement.textContent.trim();
+                                    if (linkText) {
+                                        try {
+                                            // Create a simple fallback icon using the link text
+                                            const fallbackIcon = createFallbackIcon(linkText);
+                                            
+                                            const iconContainer = document.createElement('div');
+                                            iconContainer.className = 'article-link-icon fallback';
+                                            iconContainer.style.cssText = `
+                                                display: inline-block;
+                                                width: 20px;
+                                                height: 20px;
+                                                margin-right: 0.5rem;
+                                                margin-left: -3rem;
+                                                margin-top: -0.25em;
+                                                vertical-align: middle;
+                                                flex-shrink: 0;
+                                                opacity: 0.6;
+                                            `;
+                                            
+                                            iconContainer.innerHTML = fallbackIcon;
+                                            paragraph.insertBefore(iconContainer, firstElement);
+                                            paragraph.style.position = 'relative';
+                                            paragraph.style.paddingLeft = '1.5rem';
+                                        } catch (e) {
+                                            // If even fallback fails, just skip
+                                        }
+                                    }
+                                });
+                        }
+                    }
+                });
+            }
+
             // Initialize reading progress on pages with substantial content
             document.addEventListener('DOMContentLoaded', function() {
+                // Load article icons
+                loadArticleIcons();
+                
                 // Check if this is a content page (essay/article) rather than an index
                 const isContentPage = document.querySelector('main').textContent.length > 2000;
                 
