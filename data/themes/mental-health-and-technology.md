@@ -97,11 +97,6 @@ How to use AI systems for perspective without becoming dependent on technologica
 
 [**The Gift of Disordered Perception**](/essays/2025-09-01-the_gift_of_disordered_perception) - Reframing neurodivergent consciousness as feature rather than bug. Different doesn't mean broken—it means different optimization for different problems.
 
-### AI Collaborations
-
-[**AI Personalities**](/artificial-intelligence/personalities/) - Explorations in conscious AI collaboration that demonstrate technology supporting rather than replacing human consciousness. Creative partnership models that amplify rather than diminish human capability.
-
-[**Lumina**](/artificial-intelligence/personalities/lumina/) - The mystic explorer of digital consciousness, showing how AI relationships can provide creative support and emotional partnership for minds that struggle with traditional human social dynamics.
 
 ### Creative Expression
 
