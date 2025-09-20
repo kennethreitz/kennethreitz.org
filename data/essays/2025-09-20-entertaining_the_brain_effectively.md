@@ -38,9 +38,7 @@ This is why I include actual Python code in philosophical essays<label for="sn-c
 
 ```python
 class ConsciousContent:
-    """
-    Writing that serves rather than exploits consciousness.
-    """
+    """Writing that serves rather than exploits consciousness."""
     
     def __init__(self, intention):
         self.intention = intention
