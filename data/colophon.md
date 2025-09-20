@@ -30,13 +30,13 @@ Inspired by books. Remember those? Wide margins for your thoughts. Readable typo
 
 The sidenotes are there because sometimes the most interesting part of a book is what's scribbled in the margins.
 
-### Sacred Geometry Icons
+### Procedural Abstract Icons
 
-Each piece of content gets a unique icon generated from sacred geometry patterns. Twenty different algorithmic patterns including the Flower of Life, Sri Yantra, Metatron's Cube, Golden Ratio spirals, and Platonic solids.<label for="sn-svg-generation" class="margin-toggle sidenote-number"></label>
+Each piece of content gets a unique icon generated from abstract geometric patterns. The system creates infinite visual variety through deterministic randomness—circles, rounded squares, stars, spirals, organic blobs, and geometric compositions, all algorithmically arranged.<label for="sn-svg-generation" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-svg-generation" class="margin-toggle"/>
-<span class="sidenote">The SVG generation system uses MD5 and SHA256 hashes of content titles to deterministically select patterns, colors, and parameters. This means each essay always gets the same icon, but no two essays share the same visual identity. It's like having a unique mandala for every thought.</span>
+<span class="sidenote">The SVG generation system uses MD5 hashes of content titles to deterministically select patterns, colors, and compositions. This means each essay always gets the same icon, but with 1.5 trillion possible combinations, no two essays share the same visual identity. It's like having a unique visual DNA for every thought.</span>
 
-The colors and variations are mathematically derived from the content title, so every essay, talk, and page has its own contemplative visual signature. Because why shouldn't mathematics be beautiful?
+The colors, composition styles, and visual elements are mathematically derived from the content title, so every essay, talk, and page has its own distinctive visual signature. Deterministic chaos made beautiful.
 
 ## The Evolution
 
