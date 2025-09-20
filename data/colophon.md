@@ -54,6 +54,8 @@ Every migration taught me something. Mainly that platforms come and go, but your
 
 I build tools for humans. This site is a tool for me — to think, to process, to share. It's my notebook that happens to be public. It's my way of thinking out loud.
 
+[Entertaining the Brain, Effectively](/essays/2025-09-20-entertaining_the_brain_effectively) explores this philosophy in depth — how I write to provide genuine cognitive entertainment that serves consciousness rather than exploiting it. Technical precision as performance art for minds that appreciate craft.
+
 Also, I got tired of my thoughts being scattered across Twitter, Medium, dev.to, and whatever the platform du jour is. This is mine. The URLs won't change. The content won't disappear. The platform won't pivot to video.
 
 ## The Credits
