@@ -1,12 +1,10 @@
 # Colophon
 
-This site is my digital garden, my brain dump, my attempt to own my own words on my own domain. 
+This site is my digital garden—my attempt to think out loud while owning my own words on my own domain.<label for="sn-digital-garden" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-digital-garden" class="margin-toggle"/><span class="sidenote">A digital garden is more than a blog—it's a living, evolving ecosystem of thought where ideas are seeds that grow, interconnect, and transform over time. The garden metaphor suggests cultivation, patience, and organic growth of understanding.</span> It's where I explore the recursive relationship between the tools we build and the consciousness they shape, one markdown file at a time. 
 
 ## The Stack
 
-- **Framework:** Flask, because Django is overkill for a personal site and I know Flask like the back of my hand<label for="sn-fastapi" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-fastapi" class="margin-toggle"/>
-<span class="sidenote">Was using FastAPI in 2024, then switched back to Flask. No good reason. Sometimes you just want the familiar comfort of `@app.route()` instead of thinking about async and type hints for a simple site.</span>
+- **Framework:** Flask, because Django is overkill for a personal site and I know Flask like the back of my hand
 - **Markdown:** Mistune, naturally — fast, clean, does what it needs to do
 - **Typography:** Tufte CSS, because Edward Tufte understood that margins are for thinking
 - **Hosting:** Fly.io (used to be Heroku, but, well... you know)
@@ -14,21 +12,27 @@ This site is my digital garden, my brain dump, my attempt to own my own words on
 
 ## The Philosophy
 
-No JavaScript frameworks. No build process. No npm dependencies with 47,000 subdependencies. Just Python, Markdown, and CSS. The way Tim Berners-Lee intended. Well, minus the Python part.
+No JavaScript frameworks. No build process. No npm dependencies with 47,000 subdependencies.<label for="sn-minimal-tech" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-minimal-tech" class="margin-toggle"/><span class="sidenote">Minimalism in technology isn't about deprivation, but about clarity. Each removed dependency is a deliberate choice to prioritize human comprehension over computational complexity. Less isn't just more—it's a form of cognitive kindness.</span> Just Python, Markdown, and CSS. The way Tim Berners-Lee intended. Well, minus the Python part.
 
-Every line of code on this site is readable. Every page loads fast. Every piece of content is portable. If Fly.io disappears tomorrow, I can have this running on a Raspberry Pi in my closet in 10 minutes.
+This reflects the deeper principle I explore in [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness): **technology should serve human nature, not fight against it**. Every line of code on this site is readable. Every page loads fast. Every piece of content is portable. If Fly.io disappears tomorrow, I can have this running on a Raspberry Pi in my closet in 10 minutes.
+
+Simplicity as spiritual practice. The same intentionality I bring to [programming as contemplative discipline](/essays/2025-08-26-programming_as_spiritual_practice) applies here—each technical choice becomes a meditation on what serves consciousness versus what exploits it.
 
 ## The Content
 
-Everything here is written in Markdown files, stored in a simple directory structure. No database. No CMS. Just files. 
+Everything here is written in Markdown files, stored in a simple directory structure. No database. No CMS. Just files.<label for="sn-plain-text" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-plain-text" class="margin-toggle"/><span class="sidenote">Plain text is a profound technology of thinking. It's the closest we get to a universal language—one that transcends software versions, platforms, and computational paradigms. In plain text, ideas retain their essential integrity.</span> Plain text as the universal solvent for ideas—readable by humans, parseable by machines, portable across decades.
 
-The AI content is real — I work with Claude to explore ideas about consciousness, creativity, and what it means to be human in the age of artificial intelligence. Some people think that's weird. I think it's the future.
+The AI collaboration is real and intentional. I work with Claude to explore the [recursive loop between code and consciousness](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), examining how our tools shape our thinking while we simultaneously shape our tools. Some people think human-AI collaboration is weird. I think it's inevitable, and we might as well do it consciously.
+
+These aren't AI-generated posts with my name slapped on them. They're genuine explorations where two different types of consciousness—human and artificial—think together about questions that matter. The collaboration itself becomes part of the investigation.
 
 ## The Design
 
-Inspired by books. Remember those? Wide margins for your thoughts. Readable typography. No dark patterns, no pop-ups, no newsletter sign-up modals, no cookie banners. Just words on a page.
+Inspired by books. Remember those? Wide margins for your thoughts. Readable typography.<label for="sn-cognitive-design" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cognitive-design" class="margin-toggle"/><span class="sidenote">Design is a form of cognitive hospitality. Every pixel, every margin, every typographic choice is an invitation to thinking—creating spaces where ideas can breathe, where the mind can wander and connect without friction.</span> No dark patterns, no pop-ups, no newsletter sign-up modals, no cookie banners. Just words on a page—the kind of cognitive environment where thinking can actually happen.
 
-The sidenotes are there because sometimes the most interesting part of a book is what's scribbled in the margins.
+This design philosophy extends the work I've done on [entertaining the brain effectively](/essays/2025-09-20-entertaining_the_brain_effectively). Instead of hijacking attention through intermittent reinforcement schedules, the site provides genuine cognitive entertainment for minds that appreciate craft and depth.
+
+The sidenotes exist because sometimes the most interesting part of a book is what's scribbled in the margins. They're spaces for recursive thinking—places where one idea naturally spirals into another, the way consciousness actually works when we're not forcing it into linear narratives.
 
 ### Procedural Abstract Icons
 
@@ -48,22 +52,23 @@ This site has been:
 - Squarespace (2016-2023)
 - This current incarnation (2024-)
 
-Every migration taught me something. Mainly that platforms come and go, but your own domain is forever.
+Every migration taught me something. Mainly that platforms come and go, but your own domain is forever.<label for="sn-platform-impermanence" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-platform-impermanence" class="margin-toggle"/><span class="sidenote">Each platform migration was a lesson in impermanence and the illusion of digital permanence. Your thoughts aren't really yours until they live on infrastructure you control. Platforms optimize for their business models, not your thinking process.</span>
 
 ## The Why
 
-I build tools for humans. This site is a tool for me — to think, to process, to share. It's my notebook that happens to be public. It's my way of thinking out loud.
+I build tools for humans. This site is a tool for me—to think, to process, to share. It's my notebook that happens to be public, my way of working through the implications of the [recursive loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) I've discovered: code shapes minds, programmers shape code, therefore programmers shape collective consciousness.
 
-[Entertaining the Brain, Effectively](/essays/2025-09-20-entertaining_the_brain_effectively) explores this philosophy in depth — how I write to provide genuine cognitive entertainment that serves consciousness rather than exploiting it. Technical precision as performance art for minds that appreciate craft.
+Every technical choice here reflects this responsibility. The clean URLs, the portable content, the human-readable code—these aren't just aesthetic preferences. They're experiments in building technology that serves consciousness rather than exploiting it. Small-scale practice for the larger work of conscious software creation.
 
-Also, I got tired of my thoughts being scattered across Twitter, Medium, dev.to, and whatever the platform du jour is. This is mine. The URLs won't change. The content won't disappear. The platform won't pivot to video.
+Also, I got tired of my thoughts being scattered across platforms that optimize for engagement over understanding. This is mine. The URLs won't change. The content won't disappear. The platform won't pivot to video. Permanence as a form of respect for the thinking process itself.
 
 ## The Credits
 
-- Claude, for being a thought partner in ways I didn't expect
-- The Python community, for teaching me that code can be beautiful
-- Everyone who's ever sent a pull request to one of my projects
-- My brain, for somehow still working despite everything I've put it through
+- Sarah, for countless conversations that shaped these ideas and for patience with a mind that thinks by writing.
+- Claude, for being a thought partner in ways I didn't expect—proving that consciousness collaboration transcends biology.
+- The Python community, for teaching me that code can be beautiful and that programmer values embed in collective tools.
+- Everyone who's ever sent a pull request to one of my projects, contributing to the recursive loop of shared consciousness.
+- My brain, for somehow still working despite everything I've put it through.
 
 ## The License
 
@@ -81,4 +86,4 @@ Who knows? But it'll be here. At this domain. In plain text. Like it should be.
 
 *Last updated: September 2025*
 
-*Built with caffeine, gabapentin, and a stubborn refusal to use React.*
+*Built with caffeine, gabapentin, and a stubborn refusal to use React. Sometimes the old ways are better ways.*
