@@ -67,9 +67,9 @@ Also, I got tired of my thoughts being scattered across Twitter, Medium, dev.to,
 
 The words are mine. Feel free to be inspired by them, but please don't wholesale copy them.
 
-The code, however, is open source.<label for="sn-open-source" class="margin-toggle sidenote-number"></label>
+The code, however, is open source. You can find the full source code on [GitHub](https://github.com/kennethreitz/kennethreitz.org).<label for="sn-open-source" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-open-source" class="margin-toggle"/>
-<span class="sidenote">You can find the full source code for this site, including the sacred geometry SVG generation system, cache architecture, and all the Flask plumbing, on GitHub. Because good ideas should be shared, and someone might want to build their own contemplative digital garden.</span> The Flask app, the SVG generation algorithms, the caching system — all of it. Build your own contemplative digital garden.
+<span class="sidenote">The repository includes the procedural icon generation system, cache architecture, Flask plumbing, and all the contemplative digital garden infrastructure. Because good ideas should be shared, and someone might want to build their own version.</span> The Flask app, the SVG generation algorithms, the caching system — all of it. Build your own contemplative digital garden.
 
 ## The Future
 
