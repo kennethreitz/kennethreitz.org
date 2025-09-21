@@ -2,7 +2,7 @@
 
 *September 2025*
 
-Before the algorithmic assault begins, before notifications demand attention, I type a single command: `fortune`. What appears is unpredictable—sometimes a Zen koan, sometimes a Unix philosophy quote, sometimes an absurd joke about programmers.<label for="sn-morning-ritual" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-morning-ritual" class="margin-toggle"/><span class="sidenote">This small ritual has become part of my contemplative practice—a moment of not-choosing before the day's choices begin. It's the digital equivalent of opening a book to a random page for guidance.</span> This simple ritual represents something we've lost in modern technology: the gift of unexpected wisdom delivered without surveillance, personalization, or engagement metrics.
+Before the algorithmic assault begins, before notifications demand attention, I type a single command: `fortune`. What appears is unpredictable—sometimes a Zen koan, sometimes a Unix philosophy quote, sometimes an absurd joke about programmers. This simple ritual represents something we've lost in modern technology: the gift of unexpected wisdom delivered without surveillance, personalization, or engagement metrics.
 
 The `fortune` command is profoundly stupid by modern standards. It doesn't learn your preferences. It doesn't track which quotes you spend more time reading. It doesn't optimize for engagement or build a psychological profile to serve you "relevant" content.<label for="sn-algorithmic-stupidity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-algorithmic-stupidity" class="margin-toggle"/><span class="sidenote">In our age of machine learning optimization, deliberate simplicity becomes a form of resistance. Sometimes the most sophisticated choice is to refuse sophistication entirely.</span> It just picks something at random from a text file and displays it. That's it. That's the entire algorithm.
 
@@ -18,7 +18,7 @@ $ fortune
         -- Robert R. Coveyou
 ```
 
-There's something profound about a tool that has resisted "improvement" for fifty years. While every other piece of software bloats with features, tracking, and optimization, `fortune` remains steadfast in its simplicity.<label for="sn-koan" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-koan" class="margin-toggle"/><span class="sidenote">This resistance to feature creep mirrors the Buddhist concept of beginner's mind—maintaining original simplicity despite the pressure to complicate and optimize.</span> It's a command-line koan: what is the sound of one function executing?
+There's something profound about a tool that has resisted "improvement" for fifty years. While every other piece of software bloats with features, tracking, and optimization, `fortune` remains steadfast in its simplicity. It's a command-line koan: what is the sound of one function executing?
 
 This simplicity [serves consciousness rather than exploiting it](/essays/2025-09-13-building-systems-that-serve-consciousness). When I run `fortune`, I'm not entering a designed experience meant to maximize my time on platform. I'm receiving a gift—a moment of reflection, humor, or wisdom—and then I'm free to continue with my day. The interaction has a beginning and an end. Imagine that.
 
@@ -40,7 +40,7 @@ The difference is consent and respect. `fortune` respects that you're a complete
 
 ## Breaking the Pattern Loop
 
-Our brains are pattern-recognition machines, constantly trying to predict what comes next. Algorithmic feeds exploit this by creating predictable dopamine loops—scroll, reward, scroll, reward.<label for="sn-autopilot" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-autopilot" class="margin-toggle"/><span class="sidenote">This hijacking of our predictive mechanisms is perhaps the most insidious aspect of engagement optimization—it operates below the threshold of conscious awareness, making us participants in our own manipulation.</span> Soon we're not even conscious of the behavior; we're running on autopilot, our pattern-recognition hijacked for engagement metrics.
+Our brains are pattern-recognition machines, constantly trying to predict what comes next. Algorithmic feeds exploit this by creating predictable dopamine loops—scroll, reward, scroll, reward. Soon we're not even conscious of the behavior; we're running on autopilot, our pattern-recognition hijacked for engagement metrics.
 
 `fortune` breaks these loops by being genuinely unpredictable. You might get ancient wisdom:
 
@@ -65,7 +65,7 @@ In this way, `fortune` becomes a small act of cognitive rebellion against [algor
 
 ## The Spiritual Practice of Random Wisdom
 
-There's something deeply spiritual about surrendering control over what wisdom you'll receive. It's like bibliomancy—opening a book to a random page for guidance—or the I Ching's yarrow stalks.<label for="sn-divination" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-divination" class="margin-toggle"/><span class="sidenote">The parallels to ancient divination practices aren't accidental—both involve consulting randomness as a way to bypass the ego's preferences and access something beyond conscious intention.</span> You're acknowledging that sometimes what you need to hear isn't what you'd choose to hear.
+There's something deeply spiritual about surrendering control over what wisdom you'll receive. It's like bibliomancy—opening a book to a random page for guidance—or the I Ching's yarrow stalks. You're acknowledging that sometimes what you need to hear isn't what you'd choose to hear.
 
 When I'm stuck on a problem, I'll sometimes run `fortune` as a form of meditation:
 
@@ -81,7 +81,7 @@ This mirrors how [debugging consciousness](/essays/2025-09-05-the_recursive_loop
 
 ## Building Fortune Into Modern Life
 
-I've integrated `fortune` into my daily workflow in small but meaningful ways. My `.bashrc` runs it on every new terminal session. My morning routine includes reading one fortune with coffee before checking any notifications.<label for="sn-ritual-design" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ritual-design" class="margin-toggle"/><span class="sidenote">This is conscious ritual design—using technology to create moments of pause and reflection rather than acceleration and reaction. The same intentionality could be applied to any tool we use regularly.</span> When I'm feeling overwhelmed by algorithmic content, I'll run `fortune` a few times as a palate cleanser—random human thoughts to wash away the taste of optimized engagement.
+I've integrated `fortune` into my workflow in small but meaningful ways. When I'm feeling overwhelmed by algorithmic content, I'll run `fortune` a few times as a palate cleanser—random human thoughts to wash away the taste of optimized engagement. It's become a simple ritual for breaking out of dopamine loops and returning to something more human.
 
 ```bash
 # In .bashrc or .zshrc
