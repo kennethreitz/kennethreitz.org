@@ -18,8 +18,8 @@ And then there's the person who discovers they can just sleep through the entire
 
 That last group? Those are the people you want to be friends with. They know something about rest that the rest of us are still learning.
 
-The beautiful thing about Stardew Valley is that it accommodates all these approaches without judgment. There's no wrong way to farm, no wrong way to live a small digital life. Which makes it the perfect mirror: [when given complete freedom in a safe space](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are), how do you choose to spend your time?
+The beautiful thing about Stardew Valley is that it accommodates all these approaches without judgment. There's no wrong way to farm, no wrong way to live a small digital life. Which makes it the perfect mirror: when given complete freedom in a safe space, how do you choose to spend your time?
 
-These aren't just gaming preferences—they're glimpses of our authentic selves freed from social performance. Like the [multiple self-states we all carry](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness), our Stardew Valley reveals which parts of ourselves we trust with freedom.
+These aren't just gaming preferences—they're glimpses of our authentic selves freed from social performance. Your Stardew Valley reveals which parts of yourself you trust with freedom.
 
 Your Stardew Valley isn't just a game. It's a confession.
