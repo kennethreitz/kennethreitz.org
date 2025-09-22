@@ -1,6 +1,6 @@
 # What Your Stardew Valley Says About You
 
-*September 22, 2025*
+*September 2025*
 
 Forget personality tests. Just watch someone play Stardew Valley for an hour.
 
