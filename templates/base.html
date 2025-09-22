@@ -40,6 +40,18 @@
         <link rel="stylesheet" href="/static/custom.css" />
 
         <style>
+            /* Prevent FOUC by hiding content until stylesheets load */
+            html {
+                visibility: hidden;
+                opacity: 0;
+            }
+            
+            html.loaded {
+                visibility: visible;
+                opacity: 1;
+                transition: opacity 0.1s ease-in;
+            }
+            
             /* Only page-specific or dynamic styles that can't be in external CSS */
             
             /* Legend dots for content guide */
@@ -668,8 +680,12 @@
                 });
             }
 
-            // Initialize reading progress on pages with substantial content
+            // Show content after stylesheets are loaded
             document.addEventListener('DOMContentLoaded', function() {
+                // Add loaded class to reveal content
+                document.documentElement.classList.add('loaded');
+                
+                // Initialize reading progress on pages with substantial content
                 // Only load article icons on content pages, not index/archive pages
                 const currentPath = window.location.pathname;
                 const isIndexPage = currentPath === '/' || 
