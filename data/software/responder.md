@@ -60,10 +60,6 @@ if __name__ == '__main__':
 
 I wanted to reboot this project, but I think FastAPI is a better choice for most people. I recommend using that instead.
 
-Honestly, I wrote this code in a month while I was taking perscription ADD meds, years ago, and I don't remember much about it. I recommend reading through the code, though!
-
-<span class="sidenote">This candid reflection illustrates the intersection of neurodiversity and creativity in software development. Kenneth's openness about ADHD medication's role in his coding productivity offers insight into how different minds approach intensive creative work.</span>
-
 ## The Code
 
 https://github.com/kennethreitz/responder
