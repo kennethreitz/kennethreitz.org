@@ -16,10 +16,10 @@ Maya is a Python library that simplifies working with datetimes. It provides a s
 
 ## Installation
 
-You can install Maya using pip:
+You can install Maya using uv:
 
 ```bash
-$ pip install maya
+$ uv pip install maya
 ```
 
 ## Usage
