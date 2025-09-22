@@ -4,6 +4,12 @@ Records is a library for working with tabular data in Python, accessible via SQL
 
 <span class="sidenote">Records represents Kenneth's approach to making database interactions more intuitive. While SQLAlchemy provides comprehensive ORM capabilities, Records focuses on the common use case of executing SQL queries and working with results in a Pythonic way.</span>
 
+## Installation
+
+```bash
+$ uv pip install records
+```
+
 Database support includes RedShift, Postgres, MySQL, SQLite, Oracle, and MS-SQL (drivers not included).
 
 <span class="sidenote">Records supports a wide range of database systems, reflecting the diverse landscape of enterprise data storage. By building on SQLAlchemy's database abstraction layer, Records inherits compatibility with virtually any SQL database.</span>
