@@ -60,6 +60,7 @@ if __name__ == '__main__':
 
 I wanted to reboot this project, but I think FastAPI is a better choice for most people. I recommend using that instead.
 
-## The Code
+## Links
 
-https://github.com/kennethreitz/responder
+- https://github.com/kennethreitz/responder
+- https://responder.kennethreitz.org
