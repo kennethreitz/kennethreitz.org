@@ -106,11 +106,11 @@ This collection documents my journey exploring how technology can serve human co
 - **Algorithmic Critique** - How optimization consumes human values
 ```
 
-## Content Metadata
+## Automatic Metadata Extraction
 
-TufteCMS automatically extracts metadata from your content structure:
+TufteCMS intelligently extracts metadata from your content structure:
 
-### Automatic Title Extraction
+### Title Extraction
 
 ```markdown
 # Programming as Spiritual Practice
@@ -118,25 +118,39 @@ TufteCMS automatically extracts metadata from your content structure:
 Content starts here...
 ```
 
-The H1 heading becomes the page title automatically.
+**Title Sources (in priority order):**
+1. First H1 heading (`# Title`)
+2. Filename converted to title case (`programming-as-practice.md` → "Programming as Practice")
 
 ### Date Extraction
 
-Dates are extracted from filename patterns:
-
+**Filename patterns:**
 ```
 2025-01-15-programming-as-practice.md  → January 15, 2025
-2025-02-01-consciousness-research.md   → February 1, 2025
-hello-world.md                         → No date (evergreen content)
+2025-02-consciousness-research.md      → February 2025  
+programming-basics.md                  → No date (evergreen)
 ```
 
-### Content Analysis
+**Italic date patterns in content:**
+```markdown
+# My Essay
+
+*January 2025*
+
+Content here...
+```
+
+### Automatic Content Analysis
 
 TufteCMS automatically calculates:
-- Word count from content
-- Reading time estimation  
-- Cross-reference connections
-- Sidenotes and quotes extraction
+
+- **Word count** - From rendered content
+- **Reading time** - Estimated at ~200 words per minute  
+- **Cross-references** - Internal links between pages
+- **Sidenotes extraction** - Marginal annotations for indexing
+- **Quotes extraction** - Blockquotes for the quotes index
+- **Terms extraction** - Key concepts for the terms index
+- **Outline extraction** - Heading structure for navigation
 
 ## Content Types
 

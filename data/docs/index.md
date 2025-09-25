@@ -92,20 +92,16 @@ TufteCMS automatically serves markdown files based on URL structure:
 - `/docs` → `data/docs/index.md`
 - `/docs/getting-started` → `data/docs/getting-started.md`
 
-### Rich Metadata Extraction
+### Intelligent Content Analysis
 
-Each markdown file can include frontmatter for metadata:
+TufteCMS automatically extracts metadata from your content structure:
 
-```yaml
----
-title: "My Essay"
-date: 2025-01-01
-tags: [philosophy, code]
----
-
+```markdown
 # My Essay
 
-Content here...
+*January 2025*
+
+Content here with automatic title and date extraction...
 ```
 
 ### Sidenotes

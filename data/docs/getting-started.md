@@ -19,7 +19,7 @@ cd tuftecms
 uv sync
 
 # Or with pip
-pip install flask markdown
+pip install flask mistune
 ```
 
 ## Project Structure
@@ -116,13 +116,21 @@ def hello_world():
 
 ### Content Structure
 
-TufteCMS automatically extracts titles from your markdown headings:
+TufteCMS automatically extracts metadata from your content:
 
 ```markdown
 # Your Content Title
 
-This becomes the page title automatically. TufteCMS will serve this content and extract metadata from the structure and filename.
+*January 2025*
+
+This becomes the page title automatically. TufteCMS extracts titles from H1 headings and dates from italic date patterns or filenames.
 ```
+
+**What gets extracted automatically:**
+- H1 headings (`# Title`) become page titles
+- Italic date patterns (`*January 2025*`) become publication dates
+- Filename dates (`2025-01-15-post.md`) are recognized for chronological sorting
+- Word count and reading time calculated automatically
 
 ### Internal Linking
 
