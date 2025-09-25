@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block title %}Themes - Kenneth Reitz{% endblock %}
+
+{% block content %}
+<article>
+    <h1>Themes</h1>
+    
+    <p class="subtitle">Exploring recurring patterns and ideas across the digital garden.</p>
+    
+    <section class="themes-container">
+        {% if themes %}
+            {% for theme, data in themes.items() %}
+            <div class="theme-section">
+                <h2>{{ theme | title }}</h2>
+                {% if data.description %}
+                    <p class="theme-description">{{ data.description }}</p>
+                {% endif %}
+                
+                {% if data.posts %}
+                <ul class="theme-posts">
+                    {% for post in data.posts %}
+                    <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                        {% if post.date %}
+                        <span class="date">{{ post.date }}</span>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+            {% endfor %}
+        {% else %}
+            <p class="muted">No themes have been defined yet. Themes help organize content by recurring topics and patterns.</p>
+        {% endif %}
+    </section>
+    
+    <style>
+        .themes-container {
+            margin-top: 2rem;
+        }
+        
+        .theme-section {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color, #e0e0e0);
+        }
+        
+        .theme-section:last-child {
+            border-bottom: none;
+        }
+        
+        .theme-section h2 {
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .theme-description {
+            font-style: italic;
+            color: var(--text-muted, #666);
+            margin-bottom: 1rem;
+        }
+        
+        .theme-posts {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .theme-posts li {
+            margin-bottom: 0.75rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .theme-posts li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--link-color, #2c3e50);
+        }
+        
+        .theme-posts .date {
+            margin-left: 0.5rem;
+            color: var(--text-muted, #666);
+            font-size: 0.9rem;
+        }
+        
+        .muted {
+            color: var(--text-muted, #666);
+            font-style: italic;
+        }
+    </style>
+</article>
+{% endblock %}

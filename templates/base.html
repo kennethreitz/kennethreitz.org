@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="loaded">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -397,8 +397,11 @@
         </script>
 
         <script>
-            // Add copy buttons to code blocks and subtle syntax highlighting
+            // Main DOMContentLoaded handler
             document.addEventListener('DOMContentLoaded', function() {
+                // First priority: Add loaded class to reveal content
+                document.documentElement.classList.add('loaded');
+                
                 // Find all pre elements (code blocks)
                 const codeBlocks = document.querySelectorAll('pre');
 
@@ -498,6 +501,50 @@
                     wrapper.appendChild(pre);
                     wrapper.appendChild(copyButton);
                 });
+
+                // Initialize reading progress and article icons
+                const currentPath = window.location.pathname;
+                const isIndexPage = currentPath === '/' || 
+                                   currentPath === '/archive' || 
+                                   currentPath.endsWith('/index') ||
+                                   currentPath.match(/^\/(archive|search|sidenotes|outlines|connections|quotes|terms|graph|random)\/?$/);
+                
+                if (!isIndexPage) {
+                    // Load article icons
+                    loadArticleIcons();
+                }
+                
+                // Check if this is a content page (essay/article) rather than an index
+                const isContentPage = document.querySelector('main').textContent.length > 2000;
+                
+                if (isContentPage) {
+                    window.addEventListener('scroll', updateReadingProgress);
+                    window.addEventListener('resize', updateReadingProgress);
+                    updateReadingProgress(); // Initial call
+                }
+
+                // Lazy loading for images
+                if ('IntersectionObserver' in window) {
+                    const imageObserver = new IntersectionObserver((entries, observer) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                const img = entry.target;
+                                if (img.dataset.src) {
+                                    img.src = img.dataset.src;
+                                    img.removeAttribute('data-src');
+                                    imageObserver.unobserve(img);
+                                }
+                            }
+                        });
+                    }, {
+                        rootMargin: '50px 0px'
+                    });
+
+                    // Apply lazy loading to all images with data-src
+                    document.querySelectorAll('img[data-src]').forEach(img => {
+                        imageObserver.observe(img);
+                    });
+                }
             });
 
             // Reading progress indicator
@@ -680,56 +727,6 @@
                 });
             }
 
-            // Show content after stylesheets are loaded
-            document.addEventListener('DOMContentLoaded', function() {
-                // Add loaded class to reveal content
-                document.documentElement.classList.add('loaded');
-                
-                // Initialize reading progress on pages with substantial content
-                // Only load article icons on content pages, not index/archive pages
-                const currentPath = window.location.pathname;
-                const isIndexPage = currentPath === '/' || 
-                                   currentPath === '/archive' || 
-                                   currentPath.endsWith('/index') ||
-                                   currentPath.match(/^\/(archive|search|sidenotes|outlines|connections|quotes|terms|graph|random)\/?$/);
-                
-                if (!isIndexPage) {
-                    // Load article icons
-                    loadArticleIcons();
-                }
-                
-                // Check if this is a content page (essay/article) rather than an index
-                const isContentPage = document.querySelector('main').textContent.length > 2000;
-                
-                if (isContentPage) {
-                    window.addEventListener('scroll', updateReadingProgress);
-                    window.addEventListener('resize', updateReadingProgress);
-                    updateReadingProgress(); // Initial call
-                }
-
-                // Lazy loading for images
-                if ('IntersectionObserver' in window) {
-                    const imageObserver = new IntersectionObserver((entries, observer) => {
-                        entries.forEach(entry => {
-                            if (entry.isIntersecting) {
-                                const img = entry.target;
-                                if (img.dataset.src) {
-                                    img.src = img.dataset.src;
-                                    img.removeAttribute('data-src');
-                                    imageObserver.unobserve(img);
-                                }
-                            }
-                        });
-                    }, {
-                        rootMargin: '50px 0px'
-                    });
-
-                    // Apply lazy loading to all images with data-src
-                    document.querySelectorAll('img[data-src]').forEach(img => {
-                        imageObserver.observe(img);
-                    });
-                }
-            });
 
         </script>
     </body>

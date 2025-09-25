@@ -34,7 +34,7 @@
                     <div class="quotes-list">
                         {% for quote in article.quotes %}
                             <blockquote>
-                                {{ quote|safe }}
+                                {{ quote.html|safe if quote.html else quote.text|safe if quote.text else quote|safe }}
                             </blockquote>
                         {% endfor %}
                     </div>
