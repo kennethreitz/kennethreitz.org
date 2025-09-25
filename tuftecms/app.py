@@ -70,8 +70,8 @@ def create_app(config_class=Config):
     """Create and configure the Flask application."""
     # Get absolute paths for directories
     base_dir = Path(__file__).parent.parent
-    template_dir = base_dir / "templates"
-    static_dir = base_dir / "static"
+    template_dir = Path(__file__).parent / "templates"
+    static_dir = Path(__file__).parent / "static"
 
     app = Flask(
         __name__,

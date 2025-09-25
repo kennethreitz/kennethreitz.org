@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}Your Site Name{% endblock %}
+
+{% block content %}
+<div class="post-content">
+<h1>Your Digital Garden</h1>
+
+<p class="subtitle">A place for contemplative writing and connected thinking.</p>
+
+<section>
+    <blockquote>
+        <p>Technology should serve human consciousness, not exploit it. Every line of code shapes how millions of people think, feel, and relate to themselves and each other.</p>
+        <footer>— Your philosophy here</footer>
+    </blockquote>
+</section>
+
+<section>
+    <h2>Welcome</h2>
+    <p>This is your TufteCMS homepage. Customize this template to reflect your unique voice and vision.</p>
+    
+    <p>You can organize your content with sections like:</p>
+    
+    <div class="pathway-box">
+        <h3>Essays & Writing</h3>
+        <p>Long-form explorations of ideas that matter. <a href="/essays" class="project-link">Explore the collection</a>.</p>
+    </div>
+    
+    <div class="pathway-box">
+        <h3>Projects & Work</h3>
+        <p>Things you've built, problems you've solved. <a href="/projects" class="project-link">See the portfolio</a>.</p>
+    </div>
+    
+    <div class="pathway-box">
+        <h3>Notes & Thoughts</h3>
+        <p>Shorter observations and daily reflections. <a href="/notes" class="project-link">Browse the notes</a>.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Explore by Theme</h2>
+    <p>Content organized by major areas of interest:</p>
+    
+    <p><span class="legend-dot" style="background: #3498db;"></span><strong><a href="/essays" class="project-link">Essays</a></strong><br>
+    Deep explorations of ideas, arguments, and insights.</p>
+    
+    <p><span class="legend-dot" style="background: #e74c3c;"></span><strong><a href="/projects" class="project-link">Projects</a></strong><br>
+    Work portfolio, case studies, and technical documentation.</p>
+    
+    <p><span class="legend-dot" style="background: #27ae60;"></span><strong><a href="/notes" class="project-link">Notes</a></strong><br>
+    Quick thoughts, responses, and daily observations.</p>
+</section>
+
+<hr>
+
+<section>
+    <p>This site is built with <a href="/docs" class="project-link">TufteCMS</a> - a framework for contemplative digital publishing that prioritizes readability, cross-referencing, and authentic expression.</p>
+    
+    <p>Simple tools should feel natural to use. Complex capabilities should be accessible without overwhelming. Technology should amplify human capability while respecting human agency.</p>
+    
+    <p style="text-align: center; margin-top: 2em; font-size: 1.2em;">✨ 📚 ✨</p>
+</section>
+
+<section class="footer-indexes" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
+    <h3 style="font-size: 1rem; color: #666; margin-bottom: 1rem;">Content Guide</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; font-size: 0.9rem;">
+        <span><span class="legend-dot" style="background: #e74c3c;"></span>Projects & Work</span>
+        <span><span class="legend-dot" style="background: #3498db;"></span>Essays & Analysis</span>
+        <span><span class="legend-dot" style="background: #27ae60;"></span>Notes & Thoughts</span>
+    </div>
+    <div style="margin-top: 1rem; font-size: 0.85rem; color: #888; line-height: 1.6;">
+        <a href="/sidenotes" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Sidenotes Index</a> &mdash; {{ index_counts.sidenotes }} marginalia across the garden<br>
+        <a href="/outlines" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Outlines Index</a> &mdash; Structural navigation through content<br>
+        <a href="/quotes" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Quotes Index</a> &mdash; {{ index_counts.quotes }} quotable insights<br>
+        <a href="/connections" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Connections Index</a> &mdash; Cross-references between ideas<br>
+        <a href="/terms" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Terms Index</a> &mdash; {{ index_counts.terms }} key concepts<br>
+        <a href="/graph" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Content Graph</a> &mdash; Interactive network visualization<br>
+        <a href="/search" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Search</a> &mdash; Full-text search across all content
+    </div>
+</section>
+
+</div><!-- end post-content -->
+{% endblock %}
