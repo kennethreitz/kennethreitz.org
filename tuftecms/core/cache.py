@@ -80,6 +80,8 @@ def extract_excerpt(content, max_words=50):
     content = re.sub(r"^# .+?$", "", content, flags=re.MULTILINE)
     # Remove date lines
     content = re.sub(r"^\*[A-Za-z]+ \d{4}\*\s*$", "", content, flags=re.MULTILINE)
+    # Remove ALL HTML tags (including sidenotes)
+    content = re.sub(r"<[^>]+>", "", content)
     # Remove images
     content = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", content)
     # Remove links but keep text
@@ -483,10 +485,10 @@ def get_themes_cache():
 def clear_all_caches():
     """Clear all LRU caches and in-memory cache store."""
     global _cache_store
-    
+
     # Clear the in-memory cache store
     _cache_store.clear()
-    
+
     # Clear all LRU caches
     get_blog_cache.cache_clear()
     get_sidenotes_cache.cache_clear()
@@ -494,7 +496,7 @@ def clear_all_caches():
     get_quotes_cache.cache_clear()
     get_connections_cache.cache_clear()
     get_terms_cache.cache_clear()
-    
+
     print("🧹 All caches cleared!")
 
 

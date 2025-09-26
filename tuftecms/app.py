@@ -38,28 +38,39 @@ def warm_caches():
 
         # Print cache statistics
         print(f"✅ Blog cache: {blog_data['stats']['total_posts']} posts loaded")
-        print(f"✅ Sidenotes cache: {sidenotes_data['stats']['total_sidenotes']} sidenotes from {sidenotes_data['stats']['total_articles']} articles")
-        print(f"✅ Outlines cache: {outlines_data['stats']['total_headings']} headings from {outlines_data['stats']['total_articles']} articles")
-        print(f"✅ Quotes cache: {quotes_data['stats']['total_quotes']} quotes from {quotes_data['stats']['total_articles']} articles")
-        print(f"✅ Connections cache: {connections_data['stats']['total_outgoing']} outgoing, {connections_data['stats']['total_incoming']} incoming connections")
-        print(f"✅ Terms cache: {terms_data['stats']['total_terms']} terms with {terms_data['stats']['total_references']} references")
+        print(
+            f"✅ Sidenotes cache: {sidenotes_data['stats']['total_sidenotes']} sidenotes from {sidenotes_data['stats']['total_articles']} articles"
+        )
+        print(
+            f"✅ Outlines cache: {outlines_data['stats']['total_headings']} headings from {outlines_data['stats']['total_articles']} articles"
+        )
+        print(
+            f"✅ Quotes cache: {quotes_data['stats']['total_quotes']} quotes from {quotes_data['stats']['total_articles']} articles"
+        )
+        print(
+            f"✅ Connections cache: {connections_data['stats']['total_outgoing']} outgoing, {connections_data['stats']['total_incoming']} incoming connections"
+        )
+        print(
+            f"✅ Terms cache: {terms_data['stats']['total_terms']} terms with {terms_data['stats']['total_references']} references"
+        )
         print("🚀 All caches warmed up successfully!")
 
     except Exception as e:
         print(f"❌ Error warming caches: {e}")
         # Don't fail startup if cache warming fails
         import traceback
+
         traceback.print_exc()
 
 
 def warm_caches_background(app):
     """Warm up caches in background thread."""
     import threading
-    
+
     def cache_worker():
         with app.app_context():
             warm_caches()
-    
+
     # Start cache warming in background thread
     cache_thread = threading.Thread(target=cache_worker, daemon=True)
     cache_thread.start()
