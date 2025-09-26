@@ -5,19 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "pydantic",
-    "fastapi[standard]",
-    "uvicorn",
-    "mistune",
-    "pyyaml",
-    "pydantic",
-    "fastapi",
-    "pygments",
-    "boto3",
-    "pillow",
-    "background",
-    "markdown>=3.8",
     "flask>=3.1.1",
     "gunicorn>=22.0.0",
     "gevent>=24.2.0",
+    "mistune>=3.0.0",
+    "pyyaml>=6.0.0",
 ]
