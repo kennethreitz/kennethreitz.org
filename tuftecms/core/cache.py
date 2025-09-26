@@ -13,6 +13,18 @@ DATA_DIR = Path("data")
 _cache_store = {}
 
 
+def clear_cache():
+    """Clear all caches."""
+    global _cache_store
+    _cache_store.clear()
+    get_blog_cache.cache_clear()
+    get_sidenotes_cache.cache_clear()
+    get_outlines_cache.cache_clear()
+    get_quotes_cache.cache_clear()
+    get_connections_cache.cache_clear()
+    get_terms_cache.cache_clear()
+
+
 @lru_cache(maxsize=1)
 def get_blog_cache():
     """Get cached blog posts data."""
@@ -40,9 +52,12 @@ def get_blog_cache():
                 date_obj = extract_intelligent_date(file_path, content_data)
 
                 if date_obj:
-                    # Extract excerpt
+                    # Extract excerpt and full content
                     raw_content = file_path.read_text()
                     excerpt = extract_excerpt(raw_content)
+                    
+                    # Get clean content for search (remove markdown formatting but keep text)
+                    clean_content = clean_content_for_search(raw_content)
 
                     blog_posts.append(
                         {
@@ -54,6 +69,7 @@ def get_blog_cache():
                             "date_str": date_obj.strftime("%Y-%m-%d"),
                             "excerpt": excerpt,
                             "description": excerpt,
+                            "content": clean_content,
                             "word_count": content_data.get("word_count", 0),
                             "category": "essays",
                             "unique_icon": content_data.get("unique_icon"),
@@ -72,25 +88,39 @@ def get_blog_cache():
     return result
 
 
-def extract_excerpt(content, max_words=50):
-    """Simple excerpt extraction."""
+def clean_content_for_search(content):
+    """Clean content for search indexing - preserve text, remove formatting."""
     # Remove front matter
     content = re.sub(r"^---\s*\n.*?\n---\s*\n", "", content, flags=re.DOTALL)
-    # Remove title
+    # Remove title (first # line)
     content = re.sub(r"^# .+?$", "", content, flags=re.MULTILINE)
-    # Remove date lines
+    # Remove date lines  
     content = re.sub(r"^\*[A-Za-z]+ \d{4}\*\s*$", "", content, flags=re.MULTILINE)
-    # Remove ALL HTML tags (including sidenotes)
+    # Remove ALL HTML tags (including sidenotes) but keep the text content
     content = re.sub(r"<[^>]+>", "", content)
+    # Remove code blocks but keep content
+    content = re.sub(r"```[a-z]*\n(.*?)\n```", r"\1", content, flags=re.DOTALL)
+    # Remove inline code but keep content
+    content = re.sub(r"`([^`]+)`", r"\1", content)
     # Remove images
     content = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", content)
     # Remove links but keep text
     content = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", content)
-    # Remove markdown formatting
-    content = re.sub(r"[*_`#]", "", content)
+    # Remove markdown formatting chars but keep text
+    content = re.sub(r"[*_#]", "", content)
+    # Clean up multiple whitespace
+    content = re.sub(r"\s+", " ", content)
+    
+    return content.strip()
+
+
+def extract_excerpt(content, max_words=50):
+    """Simple excerpt extraction."""
+    # Use the same cleaning function for consistency
+    clean_content = clean_content_for_search(content)
 
     # Get first meaningful paragraph
-    lines = [line.strip() for line in content.split("\n") if line.strip()]
+    lines = [line.strip() for line in clean_content.split("\n") if line.strip()]
     for line in lines:
         if len(line) > 20:  # Skip very short lines
             words = line.split()[:max_words]

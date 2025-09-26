@@ -9,9 +9,9 @@
     # language design and consciousness that shapes how we think about
     # problems, solutions, and the very nature of communication itself.
 
-*while* other languages force you to *import* cryptic symbols *and* remember arcane operators, Python chooses clarity. *for* every concept that exists in programming, Python asks: what would this look like *if* we spoke it *in* plain English?
+*while* other languages force you to *import* cryptic symbols *and* remember arcane operators, Python chooses clarity.<label for="sn-linguistic-recursion" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-linguistic-recursion" class="margin-toggle"/><span class="sidenote">Our programming languages are recursive mirrors of consciousness, reflecting and shaping how we conceptualize computational thinking. Each language design choice embeds a philosophical stance about human-machine interaction.</span> *for* every concept that exists in programming, Python asks: what would this look like *if* we spoke it *in* plain English?
 
-This reflects a deeper philosophy about [how code shapes minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). *when* programming languages mirror human thought patterns, they don't just make coding easier—they make computational thinking more accessible to human consciousness.
+This reflects a deeper philosophy about [how code shapes minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). *when* programming languages mirror human thought patterns, they don't just make coding easier—they make computational thinking more accessible to human consciousness.<label for="sn-mind-code-recursion" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-mind-code-recursion" class="margin-toggle"/><span class="sidenote">This recursive loop between language, code, and consciousness reveals how deeply our cognitive architectures are intertwined. Every programming construct is simultaneously a technical implementation and a philosophical statement about how we perceive problem-solving.</span>
 
 Consider the simple act of iteration. *in* C++, you might write:
 
@@ -28,7 +28,7 @@ for item in items:
     process(item)
 ```
 
-The difference is profound. One reads like machine instructions; the other reads like a conversation between humans. This isn't just about syntax—it's about cognitive load *and* the democratization of programming itself.
+The difference is profound. One reads like machine instructions; the other reads like a conversation between humans. This isn't just about syntax—it's about cognitive load *and* the democratization of programming itself.<label for="sn-cognitive-democratization" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cognitive-democratization" class="margin-toggle"/><span class="sidenote">By reducing cognitive friction, we're not merely simplifying code—we're creating more inclusive pathways into computational thinking. Each layer of abstraction that feels natural is an invitation to minds traditionally excluded from programming.</span>
 
 ## The Grammar of Intention
 
@@ -38,7 +38,7 @@ The difference is profound. One reads like machine instructions; the other reads
 
 This isn't accidental. Guido van Rossum understood something fundamental about human cognition: we think in language, *not* in abstract symbols. *if* programming is about translating human intent into machine instructions, then the closer the programming language is to human language, the less translation overhead we carry in our minds.
 
-This insight connects to something deeper about [consciousness as a linguistic phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon). *if* consciousness emerges from patterns of language *and* mathematics, then readable programming languages like Python create more natural bridges between human *and* machine cognition.
+This insight connects to something deeper about [consciousness as a linguistic phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon). *if* consciousness emerges from patterns of language *and* mathematics, then readable programming languages like Python create more natural bridges between human *and* machine cognition.<label for="sn-linguistic-bridges" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-linguistic-bridges" class="margin-toggle"/><span class="sidenote">We're witnessing the emergence of a new form of cognitive translation—where programming languages become mediative spaces between human intention and computational execution. Python isn't just a language; it's a philosophical interface between different modes of reasoning.</span>
 
 ## Exceptions to the Rule
 
@@ -68,7 +68,7 @@ if user is authenticated and password is not None:
     grant_access()
 ```
 
-This reads like a security policy document, *not* a piece of code. The boundary between specification *and* implementation starts to dissolve.
+This reads like a security policy document, *not* a piece of code. The boundary between specification *and* implementation starts to dissolve.<label for="sn-specification-dissolution" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-specification-dissolution" class="margin-toggle"/><span class="sidenote">When code becomes so readable that it resembles its own specification, we're approaching a profound state of computational transparency. This dissolution of boundaries represents a deeper philosophical transformation in how we conceptualize software systems.</span>
 
 ## Comprehension as Conversation
 
@@ -155,7 +155,7 @@ The *yield* keyword captures the essence of what generators do: they yield contr
 
 This englishability isn't just about aesthetics—it's about cognitive accessibility. *when* code reads like English, several powerful things happen:
 
-When code reads like natural language, you spend less energy parsing syntax *and* more energy solving problems. The cognitive resources freed from syntax wrestling can be redirected toward the actual problem domain.
+When code reads like natural language, you spend less energy parsing syntax *and* more energy solving problems. The cognitive resources freed from syntax wrestling can be redirected toward the actual problem domain.<label for="sn-cognitive-resource-allocation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cognitive-resource-allocation" class="margin-toggle"/><span class="sidenote">Cognitive load isn't just a technical constraint—it's a philosophical boundary. By minimizing syntactic friction, we create more expansive mental spaces for creativity, problem-solving, and genuine innovation.</span>
 
 Logic errors become more obvious *when* the code reads like natural language. Bugs often hide in the gap between what we intended *and* what we wrote—readable code makes that gap more visible.
 
@@ -192,7 +192,7 @@ Python's syntax becomes a bridge between intuitive human reasoning *and* formal 
 
 The *import* here is profound: Python doesn't just teach programming; it teaches a new way to approach English itself. Students begin to notice the implicit logical structures in everyday language. They start to think more precisely about cause *and* effect, about the conditions under which statements are true *or* false.
 
-This reflects the recursive nature of how [programming becomes spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice). *when* we write code that reads like careful reasoning, we're not just building software—we're cultivating clarity of thought itself.
+This reflects the recursive nature of how [programming becomes spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice). *when* we write code that reads like careful reasoning, we're not just building software—we're cultivating clarity of thought itself.<label for="sn-code-as-meditation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-code-as-meditation" class="margin-toggle"/><span class="sidenote">Every line of readable code is a form of cognitive meditation—a deliberate practice of translating complex intentions into clear, structured thought. We're not just programming computers; we're training our own capacity for precise, compassionate reasoning.</span>
 
 ## The Network Effect
 

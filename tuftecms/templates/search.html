@@ -82,6 +82,13 @@
         margin-right: 0.5rem;
     }
     
+    .search-result-date,
+    .search-result-matches {
+        color: #888;
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+    }
+    
     .search-result-snippet {
         color: #555;
         font-size: 0.9rem;
@@ -155,6 +162,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const noResults = document.getElementById('no-results');
     let searchTimeout;
     
+    // Helper function to escape HTML
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+    
     // Get search query from URL parameter
     const urlParams = new URLSearchParams(window.location.search);
     const initialQuery = urlParams.get('q');
@@ -195,47 +209,42 @@ document.addEventListener('DOMContentLoaded', function() {
         
         fetch(`/api/search?q=${encodeURIComponent(query)}`)
             .then(response => response.json())
-            .then(results => {
+            .then(data => {
                 loading.style.display = 'none';
                 
-                if (results.length === 0) {
+                if (data.error) {
+                    resultsContainer.innerHTML = `<div class="no-results">${data.error}</div>`;
+                    return;
+                }
+                
+                if (!data.results || data.results.length === 0) {
                     noResults.style.display = 'block';
                     return;
                 }
                 
-                results.forEach(result => {
+                data.results.forEach(result => {
                     const resultElement = document.createElement('div');
                     resultElement.className = 'search-result';
                     
-                    const typeClass = result.type === 'article' ? 'article' : 
-                                     result.type === 'directory' ? 'directory' : 'file';
-                    const typeIcon = result.type === 'article' ? '📄' : 
-                                    result.type === 'directory' ? '📁' : '📎';
-                    
-                    // Create clean URL for the result
-                    let resultUrl = result.path;
-                    if (result.type === 'article' && resultUrl.endsWith('.md')) {
-                        resultUrl = '/' + resultUrl.slice(0, -3);
-                    } else if (result.type === 'directory') {
-                        resultUrl = '/' + resultUrl;
-                    } else {
-                        resultUrl = '/' + resultUrl;
-                    }
-                    
-                    const iconHtml = result.unique_icon ? 
-                        `<img src="${result.unique_icon}" alt="Icon for ${result.name}" class="search-result-icon">` : '';
+                    const typeIcon = '📄'; // All results are essays/posts
                     
                     const snippetHtml = result.snippet ? 
-                        `<div class="search-result-snippet">${result.snippet}</div>` : '';
+                        `<div class="search-result-snippet">${escapeHtml(result.snippet)}</div>` : '';
+                    
+                    const dateHtml = result.date ? 
+                        `<span class="search-result-date">${result.date}</span>` : '';
+                    
+                    const matchesHtml = result.matches && result.matches.length > 0 ? 
+                        `<span class="search-result-matches">Found in: ${result.matches.join(', ')}</span>` : '';
                     
                     resultElement.innerHTML = `
                         <div class="search-result-header">
-                            ${iconHtml}
-                            <h3><a href="${resultUrl}">${result.name}</a></h3>
+                            <h3><a href="${result.url}">${escapeHtml(result.title)}</a></h3>
                         </div>
                         <div class="search-result-meta">
-                            <span class="search-result-type">${typeIcon} ${result.type}</span>
-                            <span class="search-result-path">${result.display_path}</span>
+                            <span class="search-result-type">${typeIcon} Essay</span>
+                            ${dateHtml}
+                            ${matchesHtml}
                         </div>
                         ${snippetHtml}
                     `;
@@ -245,7 +254,6 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .catch(error => {
                 loading.style.display = 'none';
-                console.error('Search error:', error);
                 resultsContainer.innerHTML = '<div class="no-results">Search error occurred. Please try again.</div>';
             });
     }
