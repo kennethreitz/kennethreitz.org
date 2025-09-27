@@ -1,7 +1,7 @@
 """Content processing core functionality."""
 
-from pathlib import Path
 import random
+from pathlib import Path
 
 
 class ContentProcessor:

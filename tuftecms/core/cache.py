@@ -1,8 +1,6 @@
 """Cache management for TufteCMS."""
 
-import glob
 import re
-from datetime import datetime
 from functools import lru_cache
 from pathlib import Path
 
@@ -55,7 +53,7 @@ def get_blog_cache():
                     # Extract excerpt and full content
                     raw_content = file_path.read_text()
                     excerpt = extract_excerpt(raw_content)
-                    
+
                     # Get clean content for search (remove markdown formatting but keep text)
                     clean_content = clean_content_for_search(raw_content)
 
@@ -94,7 +92,7 @@ def clean_content_for_search(content):
     content = re.sub(r"^---\s*\n.*?\n---\s*\n", "", content, flags=re.DOTALL)
     # Remove title (first # line)
     content = re.sub(r"^# .+?$", "", content, flags=re.MULTILINE)
-    # Remove date lines  
+    # Remove date lines
     content = re.sub(r"^\*[A-Za-z]+ \d{4}\*\s*$", "", content, flags=re.MULTILINE)
     # Remove ALL HTML tags (including sidenotes) but keep the text content
     content = re.sub(r"<[^>]+>", "", content)
@@ -110,7 +108,7 @@ def clean_content_for_search(content):
     content = re.sub(r"[*_#]", "", content)
     # Clean up multiple whitespace
     content = re.sub(r"\s+", " ", content)
-    
+
     return content.strip()
 
 

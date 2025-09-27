@@ -14,7 +14,7 @@ TufteCMS follows a simple pattern: filesystem paths become URL paths.
 data/index.md                → /
 data/essays/index.md          → /essays
 data/essays/hello-world.md    → /essays/hello-world
-data/docs/getting-started.md → /docs/getting-started
+docs/getting-started.md → /docs/getting-started
 data/projects/tuftecms.md    → /projects/tuftecms
 ```
 
@@ -213,7 +213,7 @@ Characteristics:
 Framework guides, tutorials, reference material:
 
 ```
-data/docs/
+docs/
 ├── index.md
 ├── getting-started.md
 ├── content-structure.md

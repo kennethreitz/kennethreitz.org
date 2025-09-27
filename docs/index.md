@@ -89,8 +89,8 @@ TufteCMS automatically serves markdown files based on URL structure:
 
 - `/` → `data/index.md`
 - `/essays/hello-world` → `data/essays/hello-world.md` 
-- `/docs` → `data/docs/index.md`
-- `/docs/getting-started` → `data/docs/getting-started.md`
+- `/docs` → `docs/index.md`
+- `/docs/getting-started` → `docs/getting-started.md`
 
 ### Intelligent Content Analysis
 

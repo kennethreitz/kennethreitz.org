@@ -3,11 +3,76 @@
 import hashlib
 import html
 import re
+from collections import Counter
 from datetime import datetime
 from functools import lru_cache
 from pathlib import Path
 
 from .svg_icons import generate_unique_svg_icon
+
+
+TOKEN_PATTERN = re.compile(r"[a-z]{4,}")
+STOPWORDS = {
+    "this",
+    "that",
+    "with",
+    "have",
+    "from",
+    "will",
+    "there",
+    "their",
+    "which",
+    "about",
+    "when",
+    "where",
+    "because",
+    "while",
+    "these",
+    "those",
+    "into",
+    "would",
+    "could",
+    "should",
+    "after",
+    "before",
+    "being",
+    "over",
+    "under",
+    "only",
+    "other",
+    "some",
+    "such",
+    "very",
+    "than",
+    "each",
+    "many",
+    "more",
+    "most",
+    "much",
+    "just",
+    "like",
+    "also",
+    "make",
+    "made",
+    "used",
+    "using",
+    "through",
+    "since",
+    "still",
+    "even",
+    "well",
+    "back",
+    "them",
+    "then",
+    "they",
+    "been",
+    "here",
+    "your",
+    "every",
+    "within",
+    "around",
+    "across",
+}
 
 
 @lru_cache(maxsize=1000)
@@ -305,13 +370,156 @@ def extract_intelligent_date(item_path, content_data=None):
 
 def find_related_posts(current_post_path, limit=3):
     """Find related posts based on tags and content similarity."""
-    # TODO: Implement actual related post finding logic
-    # For now, return empty list
-    return []
+    from ..core.cache import get_blog_cache
+
+    blog_data = get_blog_cache() or {}
+    posts = blog_data.get("posts", [])
+    if not posts:
+        return []
+
+    def normalize(path_value):
+        path_str = str(path_value).replace("\\", "/")
+        return path_str[2:] if path_str.startswith("./") else path_str
+
+    post_lookup = {}
+    for post in posts:
+        file_path = post.get("file_path")
+        if not file_path:
+            continue
+        post_lookup[normalize(file_path)] = post
+
+    current_key = normalize(Path(current_post_path))
+    current_post = post_lookup.get(current_key)
+    if not current_post:
+        return []
+
+    @lru_cache(maxsize=512)
+    def get_terms(post_key):
+        post = post_lookup.get(post_key)
+        if not post:
+            return {}, set()
+
+        content = (post.get("content") or "").lower()
+        words = [w for w in TOKEN_PATTERN.findall(content) if w not in STOPWORDS]
+        if not words:
+            return {}, set()
+
+        top_terms = dict(Counter(words).most_common(40))
+        title_terms = {
+            w
+            for w in TOKEN_PATTERN.findall((post.get("title") or "").lower())
+            if w not in STOPWORDS
+        }
+        return top_terms, title_terms
+
+    def fallback_posts():
+        fallback = [post for key, post in post_lookup.items() if key != current_key]
+        fallback.sort(key=lambda p: (p.get("pub_date") or datetime.min), reverse=True)
+        return [compact(post) for post in fallback[:limit]]
+
+    current_terms, current_title_terms = get_terms(current_key)
+    if not current_terms and not current_title_terms:
+        return fallback_posts()
+
+    current_weight = sum(current_terms.values()) or 1
+    current_date = current_post.get("pub_date")
+
+    def compact(post):
+        return {
+            "title": post.get("title"),
+            "url": post.get("url") or post.get("path"),
+            "description": post.get("description"),
+            "pub_date": post.get("pub_date"),
+            "date_str": post.get("date_str"),
+            "unique_icon": post.get("unique_icon"),
+        }
+
+    scored_posts = []
+    for key, candidate in post_lookup.items():
+        if key == current_key:
+            continue
+
+        candidate_terms, candidate_title_terms = get_terms(key)
+
+        shared_terms = set(current_terms).intersection(candidate_terms)
+        shared_weight = sum(
+            min(current_terms[word], candidate_terms[word]) for word in shared_terms
+        )
+
+        normalization = 0
+        if shared_weight:
+            candidate_weight = sum(candidate_terms.values()) or 1
+            normalization = (shared_weight * 100) // (current_weight + candidate_weight)
+
+        title_overlap = len(current_title_terms & candidate_title_terms)
+
+        date_bonus = 0
+        candidate_date = candidate.get("pub_date")
+        if current_date and candidate_date:
+            month_delta = abs(
+                (current_date.year - candidate_date.year) * 12
+                + (current_date.month - candidate_date.month)
+            )
+            if month_delta < 24:
+                date_bonus = 24 - month_delta
+
+        score = shared_weight * 10 + normalization * 2 + title_overlap * 5 + date_bonus
+
+        if score:
+            scored_posts.append((score, candidate))
+
+    if not scored_posts:
+        return fallback_posts()
+
+    scored_posts.sort(
+        key=lambda item: (
+            item[0],
+            item[1].get("pub_date") or datetime.min,
+        ),
+        reverse=True,
+    )
+
+    return [compact(post) for score, post in scored_posts[:limit]]
 
 
 def find_adjacent_posts(current_post_path):
     """Find previous and next posts in chronological order."""
-    # TODO: Implement actual adjacent post finding logic
-    # For now, return empty dict
-    return {"prev": None, "next": None}
+    from ..core.cache import get_blog_cache
+
+    blog_data = get_blog_cache() or {}
+    posts = blog_data.get("posts", [])
+    if not posts:
+        return {"prev": None, "next": None}
+
+    def normalize(path_value):
+        path_str = str(path_value).replace("\\", "/")
+        return path_str[2:] if path_str.startswith("./") else path_str
+
+    current_key = normalize(Path(current_post_path))
+
+    current_index = None
+    for idx, post in enumerate(posts):
+        file_path = post.get("file_path")
+        if file_path and normalize(file_path) == current_key:
+            current_index = idx
+            break
+
+    if current_index is None:
+        return {"prev": None, "next": None}
+
+    def compact_post(post):
+        if not post:
+            return None
+        return {
+            "title": post.get("title"),
+            "url": post.get("url") or post.get("path"),
+            "pub_date": post.get("pub_date"),
+            "date_str": post.get("date_str"),
+            "description": post.get("description"),
+            "unique_icon": post.get("unique_icon"),
+        }
+
+    prev_post = posts[current_index + 1] if current_index + 1 < len(posts) else None
+    next_post = posts[current_index - 1] if current_index - 1 >= 0 else None
+
+    return {"prev": compact_post(prev_post), "next": compact_post(next_post)}

@@ -1,10 +1,9 @@
 """Markdown processing core module."""
 
 import re
-import html
+
 import mistune
 import yaml
-from pathlib import Path
 
 from ..utils.svg_icons import generate_unique_svg_icon
 from ..utils.content import (
