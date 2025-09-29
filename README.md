@@ -2,6 +2,8 @@
 
 A Flask-based content management system designed for thoughtful writing, inspired by Edward Tufte's design principles. Built for digital gardens, essay collections, and content-rich websites that prioritize readability and deep engagement.
 
+> **Note**: This repository is a hybrid containing both the TufteCMS framework (in `tuftecms/`) and Kenneth Reitz's personal website content (in `data/`). The CMS powers kennethreitz.org and serves as a living example of the system in production.
+
 ## Philosophy
 
 TufteCMS embraces **human-first design** - content presentation that serves readers' mental models rather than forcing adaptation to machine logic. It provides powerful features like sidenotes, content indexing, and cross-referencing while maintaining simplicity and elegance.
