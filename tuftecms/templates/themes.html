@@ -43,11 +43,20 @@
 </article>
 
 <style>
+.subtitle {
+    font-style: italic;
+    color: #666;
+    margin-top: -1rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.1rem;
+}
+
 .theme-section {
-    margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
     border-bottom: 1px solid #eee;
     scroll-margin-top: 2rem;
+    max-width: 65%;
 }
 
 .theme-section:last-child {
@@ -55,11 +64,13 @@
 }
 
 .theme-header {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .theme-header strong {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
 }
 
 .theme-details {
@@ -80,20 +91,22 @@
 
 .theme-count {
     color: #999;
-    font-size: 0.9rem;
-    margin-left: 0.5rem;
+    font-size: 1rem;
+    margin-left: 0.75rem;
+    font-weight: 400;
 }
 
 .theme-details ul {
-    margin-top: 0.75rem;
+    margin-top: 1rem;
     padding-left: 3rem;
+    line-height: 1.8;
 }
 
 .theme-details li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.75rem;
 }
 
 .article-icon {
@@ -110,29 +123,62 @@
 
 .theme-description {
     color: #666;
-    font-size: 0.95rem;
+    font-size: 1rem;
     font-style: italic;
-    margin: 0.5rem 0 0.75rem 0;
+    margin: 0 0 1rem 0;
     padding-left: 0;
+    line-height: 1.6;
 }
 
 @media (max-width: 768px) {
+    .theme-section {
+        max-width: 100%;
+    }
+    
     .theme-header strong {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
     
     .theme-description {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
     }
     
     .theme-details summary {
         padding-left: 0.5rem;
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
     
     .theme-details ul {
         padding-left: 2rem;
     }
+}
+
+body.dark-mode .subtitle {
+    color: #999;
+}
+
+body.dark-mode .theme-section {
+    border-bottom-color: #2a2a2a;
+}
+
+body.dark-mode .theme-header strong {
+    color: #e5e5e5;
+}
+
+body.dark-mode .theme-description {
+    color: #999;
+}
+
+body.dark-mode .theme-details summary {
+    color: #999;
+}
+
+body.dark-mode .theme-details summary:hover {
+    color: #ccc;
+}
+
+body.dark-mode .date {
+    color: #666;
 }
 </style>
 

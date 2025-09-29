@@ -88,6 +88,58 @@
                 z-index: 9999;
             }
             
+            nav > a {
+                margin-right: 1rem;
+            }
+            
+            .theme-toggle {
+                position: fixed;
+                bottom: 2rem;
+                right: 2rem;
+                background: none;
+                border: none;
+                cursor: pointer;
+                font-size: 1.5rem;
+                padding: 0.5rem;
+                margin: 0;
+                opacity: 0.15;
+                transition: opacity 0.3s ease;
+                line-height: 1;
+                z-index: 9999;
+            }
+            
+            .theme-toggle:hover {
+                opacity: 0.8;
+            }
+            
+            .sun-icon,
+            .moon-icon {
+                display: none;
+            }
+            
+            body.light-mode .sun-icon {
+                display: inline;
+            }
+            
+            body.dark-mode .moon-icon {
+                display: inline;
+            }
+            
+            /* Dark mode styles using body class */
+            body.dark-mode {
+                background-color: #0d1117;
+                color: #c9d1d9;
+            }
+            
+            @media (max-width: 760px) {
+                .theme-toggle {
+                    font-size: 1.3rem;
+                    bottom: 1rem;
+                    right: 1rem;
+                    padding: 0.4rem;
+                }
+            }
+            
             main {
                 position: relative;
                 z-index: 1;
@@ -228,6 +280,11 @@
         <!-- Reading progress bar -->
         <div class="reading-progress" id="reading-progress"></div>
         
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="sun-icon">☀️</span>
+            <span class="moon-icon">🌙</span>
+        </button>
+        
         <article>
             <header>
                 <nav>
@@ -269,6 +326,41 @@
         </article>
 
         {% block extra_scripts %}{% endblock %}
+
+        <!-- Theme Toggle -->
+        <script>
+            (function() {
+                const themeToggle = document.getElementById('theme-toggle');
+                const html = document.documentElement;
+                const body = document.body;
+                
+                // Check for saved theme preference or default to system preference
+                const savedTheme = localStorage.getItem('theme');
+                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                
+                // Set initial theme
+                if (savedTheme) {
+                    body.classList.add(savedTheme);
+                } else if (prefersDark) {
+                    body.classList.add('dark-mode');
+                } else {
+                    body.classList.add('light-mode');
+                }
+                
+                // Toggle theme
+                themeToggle.addEventListener('click', function() {
+                    if (body.classList.contains('light-mode')) {
+                        body.classList.remove('light-mode');
+                        body.classList.add('dark-mode');
+                        localStorage.setItem('theme', 'dark-mode');
+                    } else {
+                        body.classList.remove('dark-mode');
+                        body.classList.add('light-mode');
+                        localStorage.setItem('theme', 'light-mode');
+                    }
+                });
+            })();
+        </script>
 
         <!-- Color System -->
         <script>
