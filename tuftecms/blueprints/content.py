@@ -135,7 +135,7 @@ def serve_content(path):
             article_themes = []
             try:
                 import re
-                raw_content = file_path.read_text()
+                raw_content = index_path.read_text()
                 content_lower = raw_content.lower()
                 
                 theme_patterns = {
@@ -230,6 +230,36 @@ def serve_content(path):
             related_posts = find_related_posts(file_path)
             adjacent_posts = find_adjacent_posts(file_path)
 
+        # Calculate themes for this article
+        article_themes = []
+        try:
+            import re
+            raw_content = file_path.read_text()
+            content_lower = raw_content.lower()
+            
+            theme_patterns = {
+                "consciousness": "Exploring the nature of awareness, identity, and the recursive loop between code and mind.",
+                "technology": "Human-first approaches to building tools that serve rather than exploit.",
+                "mental health": "Reality-checking, debugging consciousness, and navigating neurodivergence.",
+                "programming": "Code as meditation, API design as compassion, and software as spiritual practice.",
+                "AI": "Human-AI collaboration as partnership, not replacement—augmenting consciousness through digital minds.",
+                "human centered": "Designing systems that adapt to human mental models rather than forcing humans to adapt.",
+                "recursive": "The feedback loops between programmer consciousness, code patterns, and collective impact.",
+                "spiritual": "Technical work as contemplative practice—finding transcendence in systematicity.",
+                "mindful": "Bringing awareness and intentionality to the craft of building software.",
+                "contemplative": "Reflective approaches to technology, blending Eastern wisdom with Western pragmatism.",
+            }
+            
+            for theme_name, description in theme_patterns.items():
+                regex_pattern = theme_name.replace(" ", r"[- ]")
+                if re.search(regex_pattern, content_lower):
+                    article_themes.append({
+                        "name": theme_name,
+                        "description": description
+                    })
+        except Exception as e:
+            print(f"Error calculating themes: {e}")
+
         return render_template(
             "post.html",
             content=content_data["content"],
@@ -244,6 +274,7 @@ def serve_content(path):
             unique_icon=content_data.get("unique_icon"),
             related_posts=related_posts,
             adjacent_posts=adjacent_posts,
+            article_themes=article_themes,
         )
 
     # Check for redirects or alternative paths

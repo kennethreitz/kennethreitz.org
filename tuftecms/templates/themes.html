@@ -47,6 +47,7 @@
     margin-bottom: 2rem;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid #eee;
+    scroll-margin-top: 2rem;
 }
 
 .theme-section:last-child {
@@ -115,4 +116,28 @@
     padding-left: 0;
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if there's a hash in the URL
+    if (window.location.hash) {
+        const hash = window.location.hash.substring(1);
+        const themeSection = document.getElementById(hash);
+        
+        if (themeSection) {
+            // Find the details element within this section
+            const details = themeSection.querySelector('.theme-details');
+            if (details) {
+                // Open the details element
+                details.setAttribute('open', '');
+            }
+            
+            // Scroll to the section with a slight delay to ensure it's expanded
+            setTimeout(() => {
+                themeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 100);
+        }
+    }
+});
+</script>
 {% endblock %}
