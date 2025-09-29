@@ -6,8 +6,9 @@ ENV PYTHONUNBUFFERED=1 \
 
 WORKDIR /app
 
-# Copy dependency files and README (required by pyproject.toml)
+# Copy dependency files and required package files
 COPY pyproject.toml README.md ./
+COPY tuftecms ./tuftecms
 
 # Install dependencies directly without creating a venv (since we're in a container)
 RUN uv pip install . --system
