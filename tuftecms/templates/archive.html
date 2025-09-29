@@ -307,6 +307,23 @@ section p:last-child {
 .year-dropdown-content.show {
     display: block;
 }
+
+@media (max-width: 768px) {
+    .sort-toggle,
+    #yearJumpButton {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .year-dropdown-content {
+        min-width: 100px;
+        font-size: 0.85rem;
+    }
+    
+    .year-dropdown-content a {
+        padding: 0.4rem 0.8rem;
+    }
+}
 </style>
 
 <script>
