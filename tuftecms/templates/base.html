@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="color-scheme" content="light dark" />
         <title>{% block title %}{{ title }} - Kenneth Reitz{% endblock %}</title>
 
         <!-- SEO and Meta -->
@@ -231,7 +232,7 @@
             <header>
                 <nav>
                     <a href="/">Home</a>
-                    <a href="/archive">Archives</a>
+                    <a href="/archive">Archive</a>
                 </nav>
 
                 {% if current_path or breadcrumbs %}
@@ -269,71 +270,9 @@
 
         {% block extra_scripts %}{% endblock %}
 
-        <!-- Force light mode, especially on mobile -->
-        <style>
-            @media (prefers-color-scheme: dark) {
-                body {
-                    background-color: rgb(255, 255, 248) !important;
-                    color: #111 !important;
-                }
-
-                h1, h2, h3, h4, h5, h6 {
-                    color: #333 !important;
-                }
-
-                a {
-                    color: #111 !important;
-                }
-
-                /* Force light backgrounds on all elements */
-                * {
-                    background-color: transparent !important;
-                    color: inherit !important;
-                }
-
-                /* Override any dark mode styling */
-                body, html {
-                    background: rgb(255, 255, 248) !important;
-                    color: #111 !important;
-                }
-            }
-
-            /* Mobile-specific light mode enforcement */
-            @media (max-width: 760px) {
-                body {
-                    background-color: rgb(255, 255, 248) !important;
-                    color: #111 !important;
-                }
-
-                * {
-                    background-color: transparent !important;
-                }
-                
-                /* Exception for dropdown background on mobile */
-                .nav-dropdown .dropdown-content {
-                    background-color: #fff !important;
-                }
-
-                body, html {
-                    background: rgb(255, 255, 248) !important;
-                    color: #111 !important;
-                }
-            }
-        </style>
-
-        <!-- Simplified Color System (light themes only) -->
+        <!-- Color System -->
         <script>
             (function() {
-                // Check if user prefers light mode or is on mobile
-                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-                const isMobile = window.innerWidth <= 760;
-
-                // Force light mode on mobile or if user prefers dark (override their dark preference)
-                if (isMobile || prefersDark) {
-                    document.body.style.backgroundColor = 'rgb(255, 255, 248)';
-                    document.body.style.color = '#111';
-                    return; // Skip color schemes entirely
-                }
 
                 const lightColorSchemes = [
                     'scheme-ocean',

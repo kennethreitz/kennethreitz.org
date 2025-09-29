@@ -282,14 +282,17 @@ section p:last-child {
 .year-dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: white !important;
     min-width: 120px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 1px solid #ddd;
     border-radius: 4px;
-    z-index: 1000;
+    z-index: 9999;
     max-height: 300px;
     overflow-y: auto;
+    top: 100%;
+    left: 0;
+    margin-top: 0.25rem;
 }
 
 .year-dropdown-content a {
@@ -322,6 +325,89 @@ section p:last-child {
     
     .year-dropdown-content a {
         padding: 0.4rem 0.8rem;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .year-picker {
+        background: #1a1a1a;
+        border-color: #333;
+    }
+    
+    .type-links a {
+        background: #2a2a2a;
+        color: #ccc;
+    }
+    
+    .type-links a:hover {
+        background: #333;
+        color: #fff;
+    }
+    
+    .random-link {
+        background: #2d1b3d !important;
+        color: #c084fc !important;
+    }
+    
+    .random-link:hover {
+        background: #3d2352 !important;
+        color: #e9d5ff !important;
+    }
+    
+    .directory-link {
+        background: #3d1a1a !important;
+        color: #f87171 !important;
+    }
+    
+    .directory-link:hover {
+        background: #4d2020 !important;
+        color: #fca5a5 !important;
+    }
+    
+    .search-link {
+        background: #3d3d1a !important;
+        color: #fbbf24 !important;
+    }
+    
+    .search-link:hover {
+        background: #4d4d20 !important;
+        color: #fde68a !important;
+    }
+    
+    .themes-link {
+        background: #1a3d1a !important;
+        color: #4ade80 !important;
+    }
+    
+    .themes-link:hover {
+        background: #204d20 !important;
+        color: #86efac !important;
+    }
+    
+    .sort-toggle,
+    #yearJumpButton {
+        background: #2a2a2a;
+        border-color: #333;
+        color: #ccc;
+    }
+    
+    .sort-toggle:hover,
+    #yearJumpButton:hover {
+        background: #333;
+        color: #fff;
+    }
+    
+    .year-dropdown-content {
+        background-color: #1a1a1a !important;
+        border-color: #333;
+    }
+    
+    .year-dropdown-content a {
+        color: #ccc;
+    }
+    
+    .year-dropdown-content a:hover {
+        background-color: #2a2a2a;
     }
 }
 </style>

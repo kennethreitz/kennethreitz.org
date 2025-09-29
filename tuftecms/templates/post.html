@@ -89,6 +89,7 @@
         border-radius: 3px;
         letter-spacing: normal;
         font-weight: 400;
+        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     }
     
     .themes-dropdown {
@@ -105,6 +106,7 @@
         border-radius: 3px;
         letter-spacing: normal;
         font-weight: 400;
+        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
         border: none;
         cursor: pointer;
         transition: background 0.2s ease;
@@ -117,13 +119,15 @@
     .themes-dropdown-content {
         display: none;
         position: absolute;
-        background-color: white;
+        background-color: white !important;
         min-width: 200px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         border: 1px solid #ddd;
         border-radius: 4px;
-        z-index: 1000;
+        z-index: 9999;
         margin-top: 0.25rem;
+        top: 100%;
+        left: 0;
     }
     
     .themes-dropdown-content a {
@@ -160,6 +164,43 @@
         .themes-dropdown-content {
             min-width: 150px;
             font-size: 0.85rem;
+        }
+    }
+    
+    @media (prefers-color-scheme: dark) {
+        article h1 {
+            color: #e5e5e5;
+        }
+        
+        .post-subtitle {
+            color: #999;
+        }
+        
+        .reading-time-badge {
+            background: #1a2d33;
+            color: #67e8f9;
+        }
+        
+        .themes-badge {
+            background: #1a3d1a;
+            color: #4ade80;
+        }
+        
+        .themes-badge:hover {
+            background: #204d20;
+        }
+        
+        .themes-dropdown-content {
+            background-color: #1a1a1a !important;
+            border-color: #333;
+        }
+        
+        .themes-dropdown-content a {
+            color: #ccc;
+        }
+        
+        .themes-dropdown-content a:hover {
+            background-color: #1a3d1a;
         }
     }
 

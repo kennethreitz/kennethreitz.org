@@ -4,11 +4,14 @@ This site is my digital garden—my attempt to think out loud while owning my ow
 
 ## The Stack
 
-- **Framework:** Flask, because Django is overkill for a personal site and I know Flask like the back of my hand
+- **Framework:** Custom Flask CMS called [TufteCMS](https://github.com/kennethreitz/kennethreitz.org/tree/main/tuftecms), purpose-built for this site
 - **Markdown:** Mistune, naturally — fast, clean, does what it needs to do
 - **Typography:** Tufte CSS, because Edward Tufte understood that margins are for thinking
 - **Hosting:** Fly.io (used to be Heroku, but, well... you know)
+- **Deployment:** Docker containers with uv for fast Python dependency management
 - **Source:** Flask app with Markdown files, because simplicity matters
+- **Search:** Client-side JavaScript with intelligent caching and autocomplete
+- **Icons:** Procedurally generated SVG patterns using MD5-based deterministic randomness
 
 ## The Philosophy
 
@@ -50,7 +53,7 @@ This site has been:
 - Ghost (2013-2015)
 - Medium (briefly, regrettably)
 - Squarespace (2016-2023)
-- This current incarnation (2024-)
+- Custom TufteCMS on Flask (2024-)
 
 Every migration taught me something. Mainly that platforms come and go, but your own domain is forever.<label for="sn-platform-impermanence" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-platform-impermanence" class="margin-toggle"/><span class="sidenote">Each platform migration was a lesson in impermanence and the illusion of digital permanence. Your thoughts aren't really yours until they live on infrastructure you control. Platforms optimize for their business models, not your thinking process.</span>
 
@@ -76,7 +79,7 @@ The words are mine. Feel free to be inspired by them, but please don't wholesale
 
 The code, however, is open source. You can find the full source code on [GitHub](https://github.com/kennethreitz/kennethreitz.org).<label for="sn-open-source" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-open-source" class="margin-toggle"/>
-<span class="sidenote">The repository includes the procedural icon generation system, cache architecture, Flask plumbing, and all the contemplative digital garden infrastructure. Because good ideas should be shared, and someone might want to build their own version.</span> The Flask app, the SVG generation algorithms, the caching system — all of it. Build your own contemplative digital garden.
+<span class="sidenote">The repository includes TufteCMS—the full Flask CMS powering this site—with procedural icon generation, intelligent caching, theme detection, search with autocomplete, and all the contemplative digital garden infrastructure. Available on PyPI as `tuftecms` for anyone wanting to build their own version.</span> The Flask app, the SVG generation algorithms, the caching system, the theme detection — all of it. Build your own contemplative digital garden.
 
 ## The Future
 
