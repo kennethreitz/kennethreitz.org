@@ -10,7 +10,7 @@
     <section>
         {% if themes %}
             {% for theme, data in themes.items() %}
-            <div class="theme-section">
+            <div class="theme-section" id="{{ theme|replace(' ', '-') }}">
                 <div class="theme-header">
                     <strong>{{ theme | title }}</strong>
                     <span class="theme-count">({{ data.articles | length }})</span>
