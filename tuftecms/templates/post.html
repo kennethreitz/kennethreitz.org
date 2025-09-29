@@ -100,6 +100,52 @@
         margin: 4rem 0;
     }
 
+    /* Directory listing */
+    .directory-listing {
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid #eee;
+        width: 65%;
+    }
+    
+    .directory-listing h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+    
+    .items-list {
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .items-list li {
+        margin-bottom: 0.75rem;
+    }
+    
+    .items-list a {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        text-decoration: none;
+        color: #333;
+        transition: color 0.2s ease;
+    }
+    
+    .items-list a:hover {
+        color: #000;
+    }
+    
+    .item-icon {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+    
+    .item-name {
+        line-height: 1.2;
+    }
+
     /* Parent navigation */
     .parent-navigation {
         margin-top: 4rem;
@@ -164,6 +210,16 @@
         article p:not(.sidenote):not(.marginnote) {
             width: 100% !important;
             max-width: 100% !important;
+        }
+        
+        .directory-listing {
+            width: 100%;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+        }
+        
+        .directory-listing h2 {
+            font-size: 1.3rem;
         }
         
         .parent-navigation {
@@ -236,6 +292,24 @@ document.addEventListener('DOMContentLoaded', function() {
     <section>
         {{ content | safe }}
     </section>
+    
+    {% if items %}
+    <div class="directory-listing">
+        <h2>Contents</h2>
+        <ul class="items-list">
+            {% for item in items %}
+            <li class="item {% if item.is_dir %}folder{% else %}file{% endif %}">
+                <a href="{{ item.url_path }}">
+                    {% if item.unique_icon %}
+                    <img src="{{ item.unique_icon }}" alt="{{ item.name }}" class="item-icon">
+                    {% endif %}
+                    <span class="item-name">{{ item.display_name or item.name }}</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
     
     {% if parent_directory %}
     <div class="parent-navigation">
