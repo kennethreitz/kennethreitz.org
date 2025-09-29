@@ -1,0 +1,448 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+.game-container {
+    margin: 3rem 0;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.game-container h2 {
+    margin-top: 0;
+}
+
+.game-canvas {
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid #333;
+    background: #000;
+}
+
+.game-controls {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.game-button {
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.game-button:hover {
+    background: #555;
+}
+
+.game-score {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.snake-game {
+    background: linear-gradient(45deg, #1a1a1a 25%, transparent 25%, transparent 75%, #1a1a1a 75%, #1a1a1a),
+                linear-gradient(45deg, #1a1a1a 25%, transparent 25%, transparent 75%, #1a1a1a 75%, #1a1a1a);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
+
+.pong-game {
+    background: #000;
+}
+
+.breakout-game {
+    background: radial-gradient(circle at 50% 50%, #1a2332, #000);
+}
+</style>
+
+<article>
+    <h1>🎮 Games</h1>
+    <p class="subtitle">Hidden easter eggs for the curious</p>
+
+    <section class="game-container">
+        <h2>Snake</h2>
+        <p>Classic snake game. Use arrow keys to move. Don't hit the walls or yourself.</p>
+        <div class="game-score">Score: <span id="snake-score">0</span></div>
+        <canvas id="snake-canvas" class="game-canvas snake-game" width="400" height="400"></canvas>
+        <div class="game-controls">
+            <button class="game-button" onclick="snakeGame.start()">Start</button>
+            <button class="game-button" onclick="snakeGame.reset()">Reset</button>
+        </div>
+    </section>
+
+    <section class="game-container">
+        <h2>Pong</h2>
+        <p>Classic pong. Use W/S keys for left paddle, Up/Down arrows for right paddle.</p>
+        <div class="game-score">Left: <span id="pong-score-left">0</span> | Right: <span id="pong-score-right">0</span></div>
+        <canvas id="pong-canvas" class="game-canvas pong-game" width="600" height="400"></canvas>
+        <div class="game-controls">
+            <button class="game-button" onclick="pongGame.start()">Start</button>
+            <button class="game-button" onclick="pongGame.reset()">Reset</button>
+        </div>
+    </section>
+
+    <section class="game-container">
+        <h2>Breakout</h2>
+        <p>Break all the bricks. Use left/right arrow keys to move the paddle.</p>
+        <div class="game-score">Score: <span id="breakout-score">0</span> | Lives: <span id="breakout-lives">3</span></div>
+        <canvas id="breakout-canvas" class="game-canvas breakout-game" width="480" height="320"></canvas>
+        <div class="game-controls">
+            <button class="game-button" onclick="breakoutGame.start()">Start</button>
+            <button class="game-button" onclick="breakoutGame.reset()">Reset</button>
+        </div>
+    </section>
+</article>
+
+<script>
+const snakeGame = {
+    canvas: null,
+    ctx: null,
+    snake: [{x: 10, y: 10}],
+    food: {x: 15, y: 15},
+    dx: 0,
+    dy: 0,
+    score: 0,
+    gameLoop: null,
+    gridSize: 20,
+
+    init() {
+        this.canvas = document.getElementById('snake-canvas');
+        this.ctx = this.canvas.getContext('2d');
+        this.setupControls();
+    },
+
+    setupControls() {
+        document.addEventListener('keydown', (e) => {
+            if (!this.gameLoop) return;
+            
+            switch(e.key) {
+                case 'ArrowUp':
+                    if (this.dy === 0) { this.dx = 0; this.dy = -1; }
+                    break;
+                case 'ArrowDown':
+                    if (this.dy === 0) { this.dx = 0; this.dy = 1; }
+                    break;
+                case 'ArrowLeft':
+                    if (this.dx === 0) { this.dx = -1; this.dy = 0; }
+                    break;
+                case 'ArrowRight':
+                    if (this.dx === 0) { this.dx = 1; this.dy = 0; }
+                    break;
+            }
+        });
+    },
+
+    start() {
+        if (this.gameLoop) return;
+        this.dx = 1;
+        this.dy = 0;
+        this.gameLoop = setInterval(() => this.update(), 100);
+    },
+
+    reset() {
+        clearInterval(this.gameLoop);
+        this.gameLoop = null;
+        this.snake = [{x: 10, y: 10}];
+        this.food = {x: 15, y: 15};
+        this.dx = 0;
+        this.dy = 0;
+        this.score = 0;
+        document.getElementById('snake-score').textContent = this.score;
+        this.draw();
+    },
+
+    update() {
+        const head = {x: this.snake[0].x + this.dx, y: this.snake[0].y + this.dy};
+        
+        if (head.x < 0 || head.x >= 20 || head.y < 0 || head.y >= 20 ||
+            this.snake.some(segment => segment.x === head.x && segment.y === head.y)) {
+            this.reset();
+            return;
+        }
+        
+        this.snake.unshift(head);
+        
+        if (head.x === this.food.x && head.y === this.food.y) {
+            this.score += 10;
+            document.getElementById('snake-score').textContent = this.score;
+            this.food = {
+                x: Math.floor(Math.random() * 20),
+                y: Math.floor(Math.random() * 20)
+            };
+        } else {
+            this.snake.pop();
+        }
+        
+        this.draw();
+    },
+
+    draw() {
+        this.ctx.fillStyle = '#000';
+        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+        
+        this.ctx.fillStyle = '#0f0';
+        this.snake.forEach(segment => {
+            this.ctx.fillRect(segment.x * this.gridSize, segment.y * this.gridSize, 
+                            this.gridSize - 2, this.gridSize - 2);
+        });
+        
+        this.ctx.fillStyle = '#f00';
+        this.ctx.fillRect(this.food.x * this.gridSize, this.food.y * this.gridSize,
+                         this.gridSize - 2, this.gridSize - 2);
+    }
+};
+
+const pongGame = {
+    canvas: null,
+    ctx: null,
+    ball: {x: 300, y: 200, dx: 3, dy: 3, radius: 8},
+    leftPaddle: {x: 10, y: 160, width: 10, height: 80, dy: 0},
+    rightPaddle: {x: 580, y: 160, width: 10, height: 80, dy: 0},
+    scoreLeft: 0,
+    scoreRight: 0,
+    gameLoop: null,
+
+    init() {
+        this.canvas = document.getElementById('pong-canvas');
+        this.ctx = this.canvas.getContext('2d');
+        this.setupControls();
+        this.draw();
+    },
+
+    setupControls() {
+        const keys = {};
+        document.addEventListener('keydown', (e) => {
+            keys[e.key] = true;
+        });
+        document.addEventListener('keyup', (e) => {
+            keys[e.key] = false;
+        });
+
+        setInterval(() => {
+            if (!this.gameLoop) return;
+            this.leftPaddle.dy = keys['w'] ? -5 : keys['s'] ? 5 : 0;
+            this.rightPaddle.dy = keys['ArrowUp'] ? -5 : keys['ArrowDown'] ? 5 : 0;
+        }, 16);
+    },
+
+    start() {
+        if (this.gameLoop) return;
+        this.gameLoop = setInterval(() => this.update(), 16);
+    },
+
+    reset() {
+        clearInterval(this.gameLoop);
+        this.gameLoop = null;
+        this.ball = {x: 300, y: 200, dx: 3, dy: 3, radius: 8};
+        this.leftPaddle.y = 160;
+        this.rightPaddle.y = 160;
+        this.scoreLeft = 0;
+        this.scoreRight = 0;
+        document.getElementById('pong-score-left').textContent = this.scoreLeft;
+        document.getElementById('pong-score-right').textContent = this.scoreRight;
+        this.draw();
+    },
+
+    update() {
+        this.leftPaddle.y = Math.max(0, Math.min(320, this.leftPaddle.y + this.leftPaddle.dy));
+        this.rightPaddle.y = Math.max(0, Math.min(320, this.rightPaddle.y + this.rightPaddle.dy));
+        
+        this.ball.x += this.ball.dx;
+        this.ball.y += this.ball.dy;
+        
+        if (this.ball.y <= 0 || this.ball.y >= 400) this.ball.dy *= -1;
+        
+        if (this.ball.x <= 20 && this.ball.y >= this.leftPaddle.y && 
+            this.ball.y <= this.leftPaddle.y + 80) {
+            this.ball.dx *= -1;
+        }
+        
+        if (this.ball.x >= 580 && this.ball.y >= this.rightPaddle.y && 
+            this.ball.y <= this.rightPaddle.y + 80) {
+            this.ball.dx *= -1;
+        }
+        
+        if (this.ball.x < 0) {
+            this.scoreRight++;
+            document.getElementById('pong-score-right').textContent = this.scoreRight;
+            this.ball.x = 300;
+            this.ball.y = 200;
+        }
+        
+        if (this.ball.x > 600) {
+            this.scoreLeft++;
+            document.getElementById('pong-score-left').textContent = this.scoreLeft;
+            this.ball.x = 300;
+            this.ball.y = 200;
+        }
+        
+        this.draw();
+    },
+
+    draw() {
+        this.ctx.fillStyle = '#000';
+        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+        
+        this.ctx.fillStyle = '#fff';
+        this.ctx.fillRect(this.leftPaddle.x, this.leftPaddle.y, 
+                         this.leftPaddle.width, this.leftPaddle.height);
+        this.ctx.fillRect(this.rightPaddle.x, this.rightPaddle.y,
+                         this.rightPaddle.width, this.rightPaddle.height);
+        
+        this.ctx.beginPath();
+        this.ctx.arc(this.ball.x, this.ball.y, this.ball.radius, 0, Math.PI * 2);
+        this.ctx.fill();
+        
+        for (let i = 0; i < 400; i += 20) {
+            this.ctx.fillRect(298, i, 4, 10);
+        }
+    }
+};
+
+const breakoutGame = {
+    canvas: null,
+    ctx: null,
+    ball: {x: 240, y: 280, dx: 3, dy: -3, radius: 8},
+    paddle: {x: 200, y: 300, width: 80, height: 10, dx: 0},
+    bricks: [],
+    score: 0,
+    lives: 3,
+    gameLoop: null,
+
+    init() {
+        this.canvas = document.getElementById('breakout-canvas');
+        this.ctx = this.canvas.getContext('2d');
+        this.setupBricks();
+        this.setupControls();
+        this.draw();
+    },
+
+    setupBricks() {
+        this.bricks = [];
+        const colors = ['#ff0000', '#ff7700', '#ffff00', '#00ff00', '#0000ff'];
+        for (let row = 0; row < 5; row++) {
+            for (let col = 0; col < 8; col++) {
+                this.bricks.push({
+                    x: col * 60 + 30,
+                    y: row * 20 + 30,
+                    width: 50,
+                    height: 15,
+                    active: true,
+                    color: colors[row]
+                });
+            }
+        }
+    },
+
+    setupControls() {
+        const keys = {};
+        document.addEventListener('keydown', (e) => {
+            keys[e.key] = true;
+        });
+        document.addEventListener('keyup', (e) => {
+            keys[e.key] = false;
+        });
+
+        setInterval(() => {
+            if (!this.gameLoop) return;
+            this.paddle.dx = keys['ArrowLeft'] ? -6 : keys['ArrowRight'] ? 6 : 0;
+        }, 16);
+    },
+
+    start() {
+        if (this.gameLoop) return;
+        this.gameLoop = setInterval(() => this.update(), 16);
+    },
+
+    reset() {
+        clearInterval(this.gameLoop);
+        this.gameLoop = null;
+        this.ball = {x: 240, y: 280, dx: 3, dy: -3, radius: 8};
+        this.paddle = {x: 200, y: 300, width: 80, height: 10, dx: 0};
+        this.score = 0;
+        this.lives = 3;
+        this.setupBricks();
+        document.getElementById('breakout-score').textContent = this.score;
+        document.getElementById('breakout-lives').textContent = this.lives;
+        this.draw();
+    },
+
+    update() {
+        this.paddle.x = Math.max(0, Math.min(400, this.paddle.x + this.paddle.dx));
+        
+        this.ball.x += this.ball.dx;
+        this.ball.y += this.ball.dy;
+        
+        if (this.ball.x <= 0 || this.ball.x >= 480) this.ball.dx *= -1;
+        if (this.ball.y <= 0) this.ball.dy *= -1;
+        
+        if (this.ball.y >= 290 && this.ball.y <= 300 &&
+            this.ball.x >= this.paddle.x && this.ball.x <= this.paddle.x + this.paddle.width) {
+            this.ball.dy *= -1;
+        }
+        
+        if (this.ball.y > 320) {
+            this.lives--;
+            document.getElementById('breakout-lives').textContent = this.lives;
+            if (this.lives === 0) {
+                this.reset();
+                return;
+            }
+            this.ball.x = 240;
+            this.ball.y = 280;
+            this.ball.dy = -3;
+        }
+        
+        this.bricks.forEach(brick => {
+            if (brick.active &&
+                this.ball.x >= brick.x && this.ball.x <= brick.x + brick.width &&
+                this.ball.y >= brick.y && this.ball.y <= brick.y + brick.height) {
+                brick.active = false;
+                this.ball.dy *= -1;
+                this.score += 10;
+                document.getElementById('breakout-score').textContent = this.score;
+            }
+        });
+        
+        if (this.bricks.every(brick => !brick.active)) {
+            this.reset();
+        }
+        
+        this.draw();
+    },
+
+    draw() {
+        this.ctx.fillStyle = '#001122';
+        this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+        
+        this.bricks.forEach(brick => {
+            if (brick.active) {
+                this.ctx.fillStyle = brick.color;
+                this.ctx.fillRect(brick.x, brick.y, brick.width, brick.height);
+                this.ctx.strokeStyle = '#000';
+                this.ctx.strokeRect(brick.x, brick.y, brick.width, brick.height);
+            }
+        });
+        
+        this.ctx.fillStyle = '#fff';
+        this.ctx.fillRect(this.paddle.x, this.paddle.y, this.paddle.width, this.paddle.height);
+        
+        this.ctx.beginPath();
+        this.ctx.arc(this.ball.x, this.ball.y, this.ball.radius, 0, Math.PI * 2);
+        this.ctx.fillStyle = '#fff';
+        this.ctx.fill();
+    }
+};
+
+snakeGame.init();
+pongGame.init();
+breakoutGame.init();
+</script>
+{% endblock %}

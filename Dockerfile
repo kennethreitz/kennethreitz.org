@@ -6,8 +6,8 @@ ENV PYTHONUNBUFFERED=1 \
 
 WORKDIR /app
 
-# Copy dependency files first
-COPY pyproject.toml ./
+# Copy dependency files and README (required by pyproject.toml)
+COPY pyproject.toml README.md ./
 
 # Install dependencies directly without creating a venv (since we're in a container)
 RUN uv pip install . --system
