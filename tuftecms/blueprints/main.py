@@ -407,7 +407,7 @@ def archive():
         "archive.html",
         posts=posts,
         grouped_posts=grouped_posts,
-        archive_title="Complete Archive of kennethreitz.org",
+        archive_title="Complete Archive",
         current_year=datetime.now().year,
         title="Archive",
     )
@@ -466,10 +466,10 @@ def themes_archive():
     themes_data = get_themes_cache()
     themes = themes_data.get("themes", {})
     stats = themes_data.get("stats", {})
-    
+
     # Sort themes by number of articles
     sorted_themes = sorted(themes.items(), key=lambda x: len(x[1]), reverse=True)
-    
+
     return render_template(
         "themes.html",
         themes=dict(sorted_themes),
