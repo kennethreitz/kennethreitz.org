@@ -730,5 +730,227 @@
 
 
         </script>
+
+        <!-- Link Preview Tooltip -->
+        <div id="link-preview-tooltip" style="display: none; position: fixed; z-index: 10000; max-width: 400px; background: white; border: 1px solid #ddd; border-radius: 6px; padding: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15); pointer-events: none;">
+            <div id="preview-content"></div>
+        </div>
+
+        <style>
+            #link-preview-tooltip {
+                font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+            }
+
+            .preview-header {
+                display: flex;
+                align-items: flex-start;
+                gap: 0.75rem;
+                margin-bottom: 0.75rem;
+            }
+
+            .preview-icon {
+                width: 32px;
+                height: 32px;
+                flex-shrink: 0;
+            }
+
+            .preview-title {
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: #333;
+                line-height: 1.3;
+            }
+
+            .preview-meta {
+                font-size: 0.85rem;
+                color: #888;
+                margin-bottom: 0.5rem;
+            }
+
+            .preview-excerpt {
+                font-size: 0.9rem;
+                color: #555;
+                line-height: 1.5;
+                margin-top: 0.5rem;
+            }
+
+            body.dark-mode #link-preview-tooltip {
+                background: #1a1a1a;
+                border-color: #333;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            }
+
+            body.dark-mode .preview-title {
+                color: #ccc;
+            }
+
+            body.dark-mode .preview-meta {
+                color: #666;
+            }
+
+            body.dark-mode .preview-excerpt {
+                color: #aaa;
+            }
+        </style>
+
+        <script>
+            (function() {
+                const tooltip = document.getElementById('link-preview-tooltip');
+                const previewContent = document.getElementById('preview-content');
+                let currentLink = null;
+                let hideTimeout = null;
+                const cache = {};
+
+                // Find all internal links in article content
+                document.addEventListener('DOMContentLoaded', function() {
+                    const articleLinks = document.querySelectorAll('article a[href^="/"]');
+                    
+                    articleLinks.forEach(link => {
+                        // Skip links in nav, breadcrumbs, etc.
+                        if (link.closest('nav') || link.closest('.breadcrumbs')) return;
+                        
+                        link.addEventListener('mouseenter', handleLinkHover);
+                        link.addEventListener('mouseleave', handleLinkLeave);
+                    });
+                });
+
+                function handleLinkHover(e) {
+                    const link = e.currentTarget;
+                    const href = link.getAttribute('href');
+                    
+                    // Don't show preview for anchor links
+                    if (href.includes('#')) return;
+                    
+                    clearTimeout(hideTimeout);
+                    currentLink = link;
+                    
+                    // Show tooltip after slight delay
+                    setTimeout(() => {
+                        if (currentLink === link) {
+                            showPreview(link, href);
+                        }
+                    }, 300);
+                }
+
+                function handleLinkLeave() {
+                    currentLink = null;
+                    hideTimeout = setTimeout(() => {
+                        tooltip.style.display = 'none';
+                    }, 200);
+                }
+
+                async function showPreview(link, href) {
+                    // Check cache first
+                    if (cache[href]) {
+                        displayPreview(link, cache[href]);
+                        return;
+                    }
+
+                    try {
+                        // Fetch the page
+                        const response = await fetch(href);
+                        const html = await response.text();
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(html, 'text/html');
+                        
+                        // Extract metadata
+                        const title = doc.querySelector('h1')?.textContent || 
+                                    doc.querySelector('title')?.textContent || 
+                                    'Untitled';
+                        
+                        // Try to find reading time badge
+                        const readingTimeBadge = doc.querySelector('.reading-time-badge');
+                        const readingTime = readingTimeBadge?.textContent || null;
+                        
+                        // Try to find post date
+                        const dateElement = doc.querySelector('.post-subtitle');
+                        const dateMatch = dateElement?.textContent.match(/[A-Z][a-z]+ \d{1,2}, \d{4}/);
+                        const date = dateMatch ? dateMatch[0] : null;
+                        
+                        // Get first paragraph or description
+                        const firstP = doc.querySelector('article section p:not(.subtitle)');
+                        let excerpt = firstP?.textContent || '';
+                        excerpt = excerpt.substring(0, 200).trim();
+                        if (excerpt.length === 200) excerpt += '...';
+                        
+                        // Try to get icon
+                        const icon = doc.querySelector('.post-title-icon')?.src || 
+                                   doc.querySelector('.archive-post-icon')?.src ||
+                                   null;
+                        
+                        // Calculate word count if not available
+                        const articleText = doc.querySelector('article section')?.textContent || '';
+                        const wordCount = articleText.split(/\s+/).length;
+                        
+                        const data = {
+                            title,
+                            readingTime,
+                            date,
+                            excerpt,
+                            icon,
+                            wordCount
+                        };
+                        
+                        cache[href] = data;
+                        displayPreview(link, data);
+                    } catch (error) {
+                        console.error('Failed to fetch preview:', error);
+                    }
+                }
+
+                function displayPreview(link, data) {
+                    let html = '<div class="preview-header">';
+                    
+                    if (data.icon) {
+                        html += `<img src="${data.icon}" class="preview-icon" alt="">`;
+                    }
+                    
+                    html += `<div><div class="preview-title">${escapeHtml(data.title)}</div>`;
+                    
+                    const metaParts = [];
+                    if (data.readingTime) metaParts.push(data.readingTime);
+                    if (data.wordCount) metaParts.push(`${data.wordCount} words`);
+                    if (data.date) metaParts.push(data.date);
+                    
+                    if (metaParts.length > 0) {
+                        html += `<div class="preview-meta">${metaParts.join(' • ')}</div>`;
+                    }
+                    
+                    html += `</div></div>`;
+                    
+                    if (data.excerpt) {
+                        html += `<div class="preview-excerpt">${escapeHtml(data.excerpt)}</div>`;
+                    }
+                    
+                    previewContent.innerHTML = html;
+                    
+                    // Position tooltip
+                    const rect = link.getBoundingClientRect();
+                    const tooltipRect = tooltip.getBoundingClientRect();
+                    
+                    let top = rect.bottom + window.scrollY + 10;
+                    let left = rect.left + window.scrollX;
+                    
+                    // Keep tooltip on screen
+                    if (left + 400 > window.innerWidth) {
+                        left = window.innerWidth - 420;
+                    }
+                    
+                    if (top + 200 > window.innerHeight + window.scrollY) {
+                        top = rect.top + window.scrollY - 210;
+                    }
+                    
+                    tooltip.style.top = top + 'px';
+                    tooltip.style.left = left + 'px';
+                    tooltip.style.display = 'block';
+                }
+
+                function escapeHtml(text) {
+                    const div = document.createElement('div');
+                    div.textContent = text;
+                    return div.innerHTML;
+                }
+            })();
+        </script>
     </body>
 </html>
