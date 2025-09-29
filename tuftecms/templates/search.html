@@ -25,6 +25,49 @@
         box-shadow: 0 0 0 2px rgba(102, 102, 102, 0.1);
     }
     
+    .autocomplete-list {
+        position: absolute;
+        background: white;
+        border: 1px solid #ccc;
+        border-top: none;
+        border-radius: 0 0 4px 4px;
+        max-height: 300px;
+        overflow-y: auto;
+        width: 100%;
+        z-index: 1000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+    
+    .autocomplete-item {
+        padding: 0.75rem 1rem;
+        cursor: pointer;
+        border-bottom: 1px solid #f0f0f0;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+    
+    .autocomplete-item:hover,
+    .autocomplete-item.active {
+        background: #f5f5f5;
+    }
+    
+    .autocomplete-icon {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+    }
+    
+    .autocomplete-title {
+        flex: 1;
+        font-weight: 500;
+    }
+    
+    .search-input-wrapper {
+        position: relative;
+    }
+    
     .search-results {
         margin-top: 2rem;
     }
@@ -32,6 +75,7 @@
     .search-result {
         padding: 1.5rem 0;
         border-bottom: 1px solid #eee;
+        position: relative;
     }
     
     .search-result:last-child {
@@ -140,7 +184,10 @@
 <h1>Search</h1>
 
 <div class="search-container">
-    <input type="text" class="search-input" id="search-input" placeholder="Search essays, AI writings, and more..." autocomplete="off">
+    <div class="search-input-wrapper">
+        <input type="text" class="search-input" id="search-input" placeholder="Search essays, AI writings, and more..." autocomplete="off">
+        <div id="autocomplete-list" class="autocomplete-list"></div>
+    </div>
     
     <div id="search-results" class="search-results" style="display: none;">
         <div id="loading" class="loading" style="display: none;">
@@ -160,7 +207,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const loading = document.getElementById('loading');
     const resultsContainer = document.getElementById('results-container');
     const noResults = document.getElementById('no-results');
+    const autocompleteList = document.getElementById('autocomplete-list');
     let searchTimeout;
+    let autocompleteTimeout;
+    let allPosts = [];
+    let currentFocus = -1;
     
     // Helper function to escape HTML
     function escapeHtml(text) {
@@ -168,6 +219,30 @@ document.addEventListener('DOMContentLoaded', function() {
         div.textContent = text;
         return div.innerHTML;
     }
+    
+    // Helper function to highlight search terms
+    function highlightText(text, query) {
+        if (!text || !query) return escapeHtml(text);
+        
+        const escapedText = escapeHtml(text);
+        const terms = query.toLowerCase().split(/\s+/).filter(t => t.length > 0);
+        
+        let highlighted = escapedText;
+        terms.forEach(term => {
+            const regex = new RegExp(`(${term})`, 'gi');
+            highlighted = highlighted.replace(regex, '<mark>$1</mark>');
+        });
+        
+        return highlighted;
+    }
+    
+    // Fetch all posts for autocomplete
+    fetch('/api/blog')
+        .then(response => response.json())
+        .then(data => {
+            allPosts = data.posts || [];
+        })
+        .catch(error => console.error('Failed to load posts for autocomplete:', error));
     
     // Get search query from URL parameter
     const urlParams = new URLSearchParams(window.location.search);
@@ -180,19 +255,116 @@ document.addEventListener('DOMContentLoaded', function() {
     searchInput.addEventListener('input', function() {
         const query = this.value.trim();
         
-        // Clear previous timeout
+        // Clear previous timeouts
         clearTimeout(searchTimeout);
+        clearTimeout(autocompleteTimeout);
         
         if (query.length === 0) {
             searchResults.style.display = 'none';
+            autocompleteList.style.display = 'none';
             return;
         }
         
-        // Show loading after short delay to avoid flickering
+        // Show autocomplete immediately
+        autocompleteTimeout = setTimeout(() => {
+            showAutocomplete(query);
+        }, 150);
+        
+        // Show full search results after delay
         searchTimeout = setTimeout(() => {
             performSearch(query);
         }, 300);
     });
+    
+    // Keyboard navigation
+    searchInput.addEventListener('keydown', function(e) {
+        const items = autocompleteList.getElementsByClassName('autocomplete-item');
+        
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            currentFocus++;
+            addActive(items);
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            currentFocus--;
+            addActive(items);
+        } else if (e.key === 'Enter') {
+            e.preventDefault();
+            if (currentFocus > -1 && items[currentFocus]) {
+                items[currentFocus].click();
+            } else if (this.value.trim()) {
+                performSearch(this.value.trim());
+                autocompleteList.style.display = 'none';
+            }
+        } else if (e.key === 'Escape') {
+            autocompleteList.style.display = 'none';
+            currentFocus = -1;
+        }
+    });
+    
+    // Close autocomplete when clicking outside
+    document.addEventListener('click', function(e) {
+        if (e.target !== searchInput) {
+            autocompleteList.style.display = 'none';
+            currentFocus = -1;
+        }
+    });
+    
+    function addActive(items) {
+        if (!items || items.length === 0) return;
+        removeActive(items);
+        
+        if (currentFocus >= items.length) currentFocus = 0;
+        if (currentFocus < 0) currentFocus = items.length - 1;
+        
+        items[currentFocus].classList.add('active');
+        items[currentFocus].scrollIntoView({ block: 'nearest' });
+    }
+    
+    function removeActive(items) {
+        for (let i = 0; i < items.length; i++) {
+            items[i].classList.remove('active');
+        }
+    }
+    
+    function showAutocomplete(query) {
+        if (!allPosts || allPosts.length === 0) return;
+        
+        const queryLower = query.toLowerCase();
+        const matches = allPosts.filter(post => 
+            post.title.toLowerCase().includes(queryLower)
+        ).slice(0, 5);
+        
+        if (matches.length === 0) {
+            autocompleteList.style.display = 'none';
+            return;
+        }
+        
+        autocompleteList.innerHTML = '';
+        currentFocus = -1;
+        
+        matches.forEach(post => {
+            const item = document.createElement('div');
+            item.className = 'autocomplete-item';
+            
+            const icon = post.unique_icon ? 
+                `<img src="${post.unique_icon}" class="autocomplete-icon" alt="">` : 
+                '<span class="autocomplete-icon">📄</span>';
+            
+            item.innerHTML = `
+                ${icon}
+                <span class="autocomplete-title">${highlightText(post.title, query)}</span>
+            `;
+            
+            item.addEventListener('click', function() {
+                window.location.href = post.url;
+            });
+            
+            autocompleteList.appendChild(item);
+        });
+        
+        autocompleteList.style.display = 'block';
+    }
     
     function performSearch(query) {
         if (!query) return;
@@ -226,10 +398,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     const resultElement = document.createElement('div');
                     resultElement.className = 'search-result';
                     
-                    const typeIcon = '📄'; // All results are essays/posts
+                    const iconHtml = result.unique_icon ? 
+                        `<img src="${result.unique_icon}" class="search-result-icon" alt="">` : '';
                     
                     const snippetHtml = result.snippet ? 
-                        `<div class="search-result-snippet">${escapeHtml(result.snippet)}</div>` : '';
+                        `<div class="search-result-snippet">${highlightText(result.snippet, query)}</div>` : '';
                     
                     const dateHtml = result.date ? 
                         `<span class="search-result-date">${result.date}</span>` : '';
@@ -239,10 +412,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     
                     resultElement.innerHTML = `
                         <div class="search-result-header">
-                            <h3><a href="${result.url}">${escapeHtml(result.title)}</a></h3>
+                            ${iconHtml}
+                            <h3><a href="${result.url}">${highlightText(result.title, query)}</a></h3>
                         </div>
                         <div class="search-result-meta">
-                            <span class="search-result-type">${typeIcon} Essay</span>
+                            <span class="search-result-type">📄 Essay</span>
                             ${dateHtml}
                             ${matchesHtml}
                         </div>

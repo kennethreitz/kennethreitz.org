@@ -30,7 +30,7 @@ def search_page():
     )
 
 
-@main_bp.route("/sidenotes")
+@main_bp.route("/archive/sidenotes")
 def sidenotes():
     """Display all sidenotes from all posts."""
     from ..core.cache import get_sidenotes_cache, get_blog_cache
@@ -82,7 +82,7 @@ def sidenotes():
     )
 
 
-@main_bp.route("/outlines")
+@main_bp.route("/archive/outlines")
 def outlines():
     """Display outlines (headings) from all posts."""
     from ..core.cache import get_outlines_cache, get_blog_cache
@@ -134,7 +134,7 @@ def outlines():
     )
 
 
-@main_bp.route("/quotes")
+@main_bp.route("/archive/quotes")
 def quotes():
     """Display quotes (blockquotes) from all posts."""
     from ..core.cache import get_quotes_cache, get_blog_cache
@@ -186,7 +186,7 @@ def quotes():
     )
 
 
-@main_bp.route("/connections")
+@main_bp.route("/archive/connections")
 def connections():
     """Display cross-references and connections between posts."""
     from ..core.cache import get_connections_cache, get_blog_cache
@@ -263,7 +263,7 @@ def connections():
     )
 
 
-@main_bp.route("/graph")
+@main_bp.route("/archive/graph")
 def graph():
     """Interactive graph visualization of content connections."""
     return render_template(
@@ -271,7 +271,7 @@ def graph():
     )
 
 
-@main_bp.route("/graph/data")
+@main_bp.route("/archive/graph/data")
 def graph_data():
     """Provide data for the interactive graph visualization."""
     from ..core.cache import get_connections_cache, get_blog_cache
@@ -368,7 +368,7 @@ def graph_data():
     return jsonify({"nodes": nodes, "edges": edges})
 
 
-@main_bp.route("/terms")
+@main_bp.route("/archive/terms")
 def terms():
     """Display index of terms used across the site."""
     from ..core.cache import get_terms_cache
@@ -407,7 +407,7 @@ def archive():
         "archive.html",
         posts=posts,
         grouped_posts=grouped_posts,
-        archive_title="Complete",
+        archive_title="Complete Archive of kennethreitz.org",
         current_year=datetime.now().year,
         title="Archive",
     )
@@ -455,6 +455,28 @@ def archive_by_length():
         archive_title="By Reading Time",
         current_year=datetime.now().year,
         title="Archive by Reading Time",
+    )
+
+
+@main_bp.route("/archive/themes")
+def themes_archive():
+    """Display themes index."""
+    from ..core.cache import get_themes_cache
+
+    themes_data = get_themes_cache()
+    themes = themes_data.get("themes", {})
+    stats = themes_data.get("stats", {})
+    
+    # Sort themes by number of articles
+    sorted_themes = sorted(themes.items(), key=lambda x: len(x[1]), reverse=True)
+    
+    return render_template(
+        "themes.html",
+        themes=dict(sorted_themes),
+        total_themes=stats.get("total_themes", 0),
+        total_occurrences=stats.get("total_occurrences", 0),
+        current_year=datetime.now().year,
+        title="Themes",
     )
 
 

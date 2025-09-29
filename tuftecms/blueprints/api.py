@@ -9,6 +9,30 @@ api_bp = Blueprint("api", __name__)
 DATA_DIR = Path("data")
 
 
+@api_bp.route("/blog")
+def blog():
+    """API endpoint to get all blog posts for autocomplete."""
+    from ..core.cache import get_blog_cache
+    
+    blog_data = get_blog_cache()
+    posts = blog_data.get("posts", [])
+    
+    # Return minimal data needed for autocomplete
+    posts_data = [
+        {
+            "title": post.get("title", ""),
+            "url": post.get("url", ""),
+            "unique_icon": post.get("unique_icon", "")
+        }
+        for post in posts
+    ]
+    
+    return jsonify({
+        "posts": posts_data,
+        "total": len(posts_data)
+    })
+
+
 @api_bp.route("/search")
 def search():
     """API endpoint for search functionality."""
@@ -89,7 +113,8 @@ def search():
                 "snippet": snippet,
                 "date": post.get("date_str", ""),
                 "score": score,
-                "matches": matches
+                "matches": matches,
+                "unique_icon": post.get("unique_icon", "")
             })
     
     # Sort by relevance score

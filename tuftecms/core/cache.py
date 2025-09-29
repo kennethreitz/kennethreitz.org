@@ -527,31 +527,36 @@ def get_themes_cache():
                 content_data = render_markdown_file(file_path)
                 raw_content = file_path.read_text()
 
-                theme_patterns = [
-                    r"consciousness",
-                    r"technology",
-                    r"mental health",
-                    r"programming",
-                    r"AI",
-                    r"human[- ]centered",
-                    r"recursive",
-                    r"spiritual",
-                    r"mindful",
-                    r"contemplative",
-                ]
+                theme_patterns = {
+                    "consciousness": "Exploring the nature of awareness, identity, and the recursive loop between code and mind.",
+                    "technology": "Human-first approaches to building tools that serve rather than exploit.",
+                    "mental health": "Reality-checking, debugging consciousness, and navigating neurodivergence.",
+                    "programming": "Code as meditation, API design as compassion, and software as spiritual practice.",
+                    "AI": "Human-AI collaboration as partnership, not replacement—augmenting consciousness through digital minds.",
+                    "human centered": "Designing systems that adapt to human mental models rather than forcing humans to adapt.",
+                    "recursive": "The feedback loops between programmer consciousness, code patterns, and collective impact.",
+                    "spiritual": "Technical work as contemplative practice—finding transcendence in systematicity.",
+                    "mindful": "Bringing awareness and intentionality to the craft of building software.",
+                    "contemplative": "Reflective approaches to technology, blending Eastern wisdom with Western pragmatism.",
+                }
 
                 article_themes = []
                 content_lower = raw_content.lower()
 
-                for pattern in theme_patterns:
-                    if re.search(pattern, content_lower):
-                        theme_name = pattern.replace(r"\b", "").replace(r"[- ]", " ")
+                for pattern, description in theme_patterns.items():
+                    # Convert theme name to regex pattern
+                    regex_pattern = pattern.replace(" ", r"[- ]")
+                    if re.search(regex_pattern, content_lower):
+                        theme_name = pattern
                         article_themes.append(theme_name)
 
                         if theme_name not in themes_data:
-                            themes_data[theme_name] = []
+                            themes_data[theme_name] = {
+                                "description": description,
+                                "articles": []
+                            }
 
-                        themes_data[theme_name].append(
+                        themes_data[theme_name]["articles"].append(
                             {
                                 "title": content_data["title"],
                                 "url": f"/essays/{file_path.stem}",
@@ -560,6 +565,7 @@ def get_themes_cache():
                                 ).strftime("%Y-%m-%d")
                                 if extract_intelligent_date(file_path, content_data)
                                 else "",
+                                "unique_icon": content_data.get("unique_icon"),
                             }
                         )
                         total_themes += 1

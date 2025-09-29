@@ -13,12 +13,28 @@
         <div class="type-links">
             <a href="/archive">By Date</a>
             <a href="/archive/by-length">By Length</a>
-            <a href="/themes">Themes</a>
+            <a href="/archive/themes">Themes</a>
             <a href="/search">Search</a>
             <a href="/directory">Directory</a>
+            <a href="/random">Random</a>
+        </div>
+    </div>
+    <div class="browse-by-type" style="margin-top: 1rem;">
+        <strong>Indexes:</strong>
+        <div class="type-links">
+            <a href="/archive/sidenotes">Sidenotes</a>
+            <a href="/archive/outlines">Outlines</a>
+            <a href="/archive/quotes">Quotes</a>
+            <a href="/archive/connections">Connections</a>
+            <a href="/archive/terms">Terms</a>
+            <a href="/archive/graph">Graph</a>
         </div>
     </div>
 </nav>
+
+<div style="margin-top: 1rem; margin-bottom: 1rem;">
+    <button id="toggleOrder" class="sort-toggle">Sort: Longest First ↓</button>
+</div>
 
 {% if grouped_posts %}
     {% for group_name, posts in grouped_posts.items() %}
@@ -179,5 +195,43 @@ section h2 {
         margin-top: 0.25rem;
     }
 }
+
+.sort-toggle {
+    padding: 0.5rem 1rem;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.sort-toggle:hover {
+    background: #e0e0e0;
+}
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('toggleOrder');
+    const sections = Array.from(document.querySelectorAll('section'));
+    let isDescending = true;
+    
+    button.addEventListener('click', function() {
+        isDescending = !isDescending;
+        
+        // Reverse the sections
+        sections.reverse();
+        
+        // Re-insert them in reversed order
+        const parent = sections[0].parentNode;
+        sections.forEach(section => {
+            parent.appendChild(section);
+        });
+        
+        // Update button text
+        button.textContent = isDescending ? 'Sort: Longest First ↓' : 'Sort: Shortest First ↑';
+    });
+});
+</script>
 {% endblock %}
