@@ -1,48 +1,58 @@
-# kennethreitz.org
+# TufteCMS
 
-Kenneth Reitz's personal website and digital garden—a living exploration of consciousness, technology, and the recursive loops between code and mind.
+A Flask-based content management system designed for thoughtful writing, inspired by Edward Tufte's design principles. Built for digital gardens, essay collections, and content-rich websites that prioritize readability and deep engagement.
 
-Built with Flask, Mistune, and philosophical inquiry.
+## Philosophy
 
-## Architecture
-
-- **Flask** for routing and templating
-- **Mistune** for Markdown processing with custom renderers
-- **Tufte CSS** inspiration for typography and layout
-- **Custom CSS** for sidenotes, responsive design, and visual hierarchy
-- **File-based content** stored in `/data/` directory structure
+TufteCMS embraces **human-first design** - content presentation that serves readers' mental models rather than forcing adaptation to machine logic. It provides powerful features like sidenotes, content indexing, and cross-referencing while maintaining simplicity and elegance.
 
 ## Features
 
-- **Tufte-style sidenotes** with margin toggles for non-disruptive commentary
-- **Responsive typography** optimized for reading on all devices  
-- **Generated SVG icons** - unique algorithmic icons for every piece of content
-- **Dynamic folder icons** with color variations based on content titles
-- **Reading progress indicator** for longer essays and articles
-- **Search result highlighting** with contextual snippets and term highlighting
-- **Directory listings** with parent navigation and image gallery detection
-- **Lazy loading** for images with intersection observer optimization
-- **HTTP caching** for static assets (images: 7 days, other files: 1 hour)
-- **Custom Markdown extensions** for philosophy and code examples
-- **Automatic directory-based routing** mirroring file system structure
-- **Image galleries** with lightbox viewing and metadata extraction
-- **Full-text search** across all content with relevance scoring
-- **Custom post templates** based on content type and structure
-- **API endpoints** for headless access and integration
+### Content & Typography
+- **Tufte-style sidenotes** - Margin commentary without disrupting reading flow
+- **Responsive typography** - Optimized for reading across all devices
+- **Markdown rendering** - Custom Mistune renderer with philosophical code blocks
+- **File-based content** - Simple directory structure mirrors URL routing
 
-## Getting Started
+### Discovery & Navigation
+- **Full-text search** - Relevance-scored search with contextual snippets
+- **Content indexes** - Automatic extraction of sidenotes, quotes, outlines, connections, terms
+- **Cross-referencing** - Track incoming/outgoing links between content
+- **Theme detection** - Automatic categorization by content patterns
+- **HTML & XML sitemaps** - Both human and machine-readable navigation
+
+### Visual Identity
+- **Generated SVG icons** - Unique algorithmic icons for every piece of content
+- **Deterministic design** - Same title always produces the same icon
+- **Dynamic folder icons** - Color variations based on content titles
+- **Reading progress** - Visual indicator for longer essays
+
+### Performance
+- **Intelligent caching** - LRU caches for blog posts, indexes, and metadata
+- **Background cache warming** - Async startup loading for instant response
+- **Lazy loading** - Images load via IntersectionObserver
+- **HTTP caching headers** - Aggressive caching for static assets
+- **Cache debugging** - API endpoint to monitor cache performance
+
+### Developer Experience
+- **Flask blueprints** - Modular architecture with clear separation
+- **API endpoints** - JSON APIs for search, icons, and debugging
+- **RSS/Atom feeds** - Standard feed formats for syndication
+- **Template system** - Jinja2 templates with extensible blocks
+
+## Installation
 
 ### Prerequisites
 
 - Python 3.13+
 - uv (recommended) or pip
 
-### Installation
+### Quick Start
 
 ```bash
 # Clone the repository
-git clone https://github.com/kennethreitz/kennethreitz.org.git
-cd kennethreitz.org
+git clone https://github.com/kennethreitz/tuftecms.git
+cd tuftecms
 
 # Install dependencies
 uv sync
@@ -53,56 +63,153 @@ uv run python engine.py
 
 The site will be available at `http://localhost:8000`
 
-## Directory Structure
+## Project Structure
 
 ```
-kennethreitz.org/
-├── data/               # All content (essays, AI work, talks, etc.)
-│   ├── essays/         # Philosophy, consciousness, technology
-│   ├── artificial-intelligence/  # AI collaboration and research
-│   ├── talks/          # Speaking engagements and presentations
-│   ├── themes/         # Curated collections by topic
-│   └── ...
-├── templates/          # Jinja2 HTML templates
-├── static/             # CSS, images, fonts
-├── engine.py           # Main Flask application
-└── CLAUDE.md           # Instructions for AI collaboration
+tuftecms/
+├── tuftecms/
+│   ├── app.py              # Application factory
+│   ├── config.py           # Configuration management
+│   ├── blueprints/         # Route handlers
+│   │   ├── main.py         # Homepage and core routes
+│   │   ├── content.py      # Content rendering
+│   │   ├── api.py          # JSON API endpoints
+│   │   └── feeds.py        # RSS/sitemap generation
+│   ├── core/               # Core functionality
+│   │   ├── cache.py        # Caching system
+│   │   ├── content.py      # Content processing
+│   │   └── markdown.py     # Markdown rendering
+│   ├── utils/              # Utilities
+│   │   ├── content.py      # Content helpers
+│   │   └── svg_icons.py    # Icon generation
+│   ├── templates/          # Jinja2 templates
+│   └── static/             # CSS, images, fonts
+├── data/                   # Content directory
+│   └── essays/             # Your content here
+├── engine.py               # Development server
+└── pyproject.toml          # Dependencies
 ```
 
 ## Content Organization
 
-Content uses a directory-based structure where URL paths mirror the file system.
+### Directory Structure
 
-### Generated Icons
+Content is organized in a simple directory structure under `data/`:
 
-Every piece of content gets a unique algorithmic SVG icon generated from its title:
+```
+data/
+├── essays/
+│   ├── 2025-01-15-example-essay.md
+│   └── 2025-02-20-another-essay.md
+├── notes/
+└── index.md
+```
 
-- **Article icons**: Geometric patterns (circles, triangles, squares, diamonds) with colors derived from MD5 hash
-- **Folder icons**: Consistent folder shape with title-based color variations
-- **Deterministic generation**: Same title always produces the same icon
-- **SVG format**: Scalable, lightweight, and embedded as base64 data URLs
-- **Color system**: HSL values extracted from content hash for visual consistency
+URL paths mirror the file system: `/essays/2025-01-15-example-essay`
 
-### Sidenotes
+### Writing with Sidenotes
 
-The site uses Tufte-style sidenotes for commentary without disrupting flow:
+Sidenotes provide commentary without disrupting reading flow:
 
-```html
-Main text<label for="sn-id" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id" class="margin-toggle"/><span class="sidenote">Sidenote content</span> continues.
+```markdown
+This is the main text.<label for="sn-example" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-example" class="margin-toggle"/><span class="sidenote">This is a sidenote that adds depth without breaking the narrative.</span> The text continues naturally.
 ```
 
 **Critical formatting rules:**
 - Sidenotes must be inline (attached to sentence end with NO line breaks)
-- Use descriptive IDs like `sn-consciousness`, `sn-recursion`, etc.
+- Use descriptive IDs like `sn-consciousness`, `sn-recursion`
 - Keep away from code blocks to prevent layout issues
 
-## Templates
+### Markdown Features
 
-- `base.html` - Common layout and navigation
-- `homepage.html` - Landing page with pathways into the work
-- `post.html` - Individual essays and articles
-- `directory.html` - Directory listings with descriptions
-- `photo_browser.html` - Image galleries
+```markdown
+# Essay Title
+
+*Published: January 2025*
+
+Standard markdown with [links](/other-essay) and **emphasis**.
+
+Code blocks with philosophy:
+
+\`\`\`python
+def consciousness():
+    # TODO: Model the unmappable
+    pass
+\`\`\`
+
+> Blockquotes for memorable passages
+```
+
+## Configuration
+
+Edit `tuftecms/config.py`:
+
+```python
+class Config:
+    DISABLE_ANALYTICS = True  # Privacy-first by default
+    SEARCH_CACHE_TIMEOUT = 60
+    DATA_DIR = "data"
+    MIN_SEARCH_QUERY_LENGTH = 2
+    MAX_SEARCH_RESULTS = 50
+```
+
+## API Endpoints
+
+### Search
+```
+GET /api/search?q=query
+```
+
+Returns JSON with relevance-scored results, snippets, and match locations.
+
+### Cache Debugging
+```
+GET /api/debug-cache
+```
+
+Returns cache statistics and LRU cache performance metrics.
+
+### Icon Generation
+```
+GET /api/icon/<path:article_path>
+```
+
+Returns generated SVG icon data for any content path.
+
+## Content Indexes
+
+TufteCMS automatically builds indexes:
+
+- **Sidenotes** - All margin notes with context
+- **Outlines** - Heading structure across content
+- **Quotes** - Blockquoted passages
+- **Connections** - Internal link graph
+- **Terms** - Key terms appearing across multiple articles
+- **Themes** - Pattern-based content categorization
+
+Access via routes: `/sidenotes`, `/outlines`, `/quotes`, `/connections`, `/terms`
+
+## Deployment
+
+### Docker
+
+```bash
+docker build -t tuftecms .
+docker run -p 8000:8000 tuftecms
+```
+
+### Production with Gunicorn
+
+```bash
+uv run gunicorn -w 4 -b 0.0.0.0:8000 'tuftecms.app:create_app()'
+```
+
+### Environment Variables
+
+```bash
+DISABLE_ANALYTICS=true  # Disable analytics
+DEBUG=1                 # Enable debug mode
+```
 
 ## Development
 
@@ -112,49 +219,52 @@ Main text<label for="sn-id" class="margin-toggle sidenote-number"></label><input
 DEBUG=1 uv run python engine.py
 ```
 
-Enables draft content visibility and additional logging.
+Enables verbose logging and development features.
 
-### Performance Features
+### Cache Management
 
-- **Lazy loading**: Images load as they enter viewport using IntersectionObserver
-- **Reading progress**: Smooth progress bar for essays with substantial content (>2000 chars)
-- **HTTP caching**: Aggressive caching headers for static assets
-- **Resource preloading**: Critical CSS files preloaded for faster initial render
-- **Search optimization**: Highlighted snippets with context extraction
-- **Metadata caching**: Blog post metadata cached with 5-minute TTL
+Clear all caches:
 
-### Content Guidelines
-
-- Write like thinking out loud—conversational but precise
-- Use sidenotes for depth without disrupting flow
-- Code examples should breathe with proper whitespace
-- Cross-link extensively to build conceptual webs
-- Maintain Kenneth's voice: vulnerable authenticity meets technical precision
-- Each piece gets a unique generated icon based on its title
-
-## The Mission
-
-This site documents the journey of building technology that serves human consciousness rather than exploiting it. Every essay, code example, and design decision reflects the core insight: **code shapes minds, programmers shape code, therefore programmers shape collective consciousness.**
-
-The recursive loop between technical work and philosophical inquiry drives everything here—from API design principles to consciousness research, from mental health advocacy to algorithmic critique.
-
-## Deployment
-
-The site is containerized and can be deployed anywhere that supports Python web applications:
-
-```bash
-# Docker
-docker build -t kennethreitz-org .
-docker run -p 8000:8000 kennethreitz-org
-
-# Or with uv in production
-uv run gunicorn -w 4 -b 0.0.0.0:8000 engine:app
+```python
+from tuftecms.core.cache import clear_all_caches
+clear_all_caches()
 ```
+
+### Adding New Features
+
+1. Create new blueprint in `tuftecms/blueprints/`
+2. Register in `app.py`
+3. Add templates to `tuftecms/templates/`
+4. Update cache logic if needed in `core/cache.py`
+
+## Philosophy & Design
+
+TufteCMS is built on principles of **contemplative pragmatism**:
+
+- **Human-first design** - Optimize for people having difficult days
+- **Simple over clever** - Tools should feel natural to use
+- **Content-focused** - Design serves the writing, not the ego
+- **Respectful reading** - No dark patterns, no engagement manipulation
+- **Open and inspectable** - Clean code, clear architecture
+
+The name honors Edward Tufte's work on information design - presenting complex information with clarity and respect for the reader's intelligence.
+
+## Use Cases
+
+- **Digital gardens** - Personal knowledge bases that grow organically
+- **Essay collections** - Long-form writing with depth and cross-references
+- **Academic writing** - Papers with extensive sidenotes and citations
+- **Documentation sites** - Technical docs with commentary
+- **Philosophy blogs** - Contemplative writing with layered meaning
 
 ## License
 
-The code is [MIT licensed](LICENSE). The content is personal work by Kenneth Reitz and reflects ongoing exploration of consciousness, technology, and the spaces between minds.
+MIT License - see LICENSE file for details.
+
+## Credits
+
+Created by Kenneth Reitz as part of kennethreitz.org. Built with Flask, Mistune, and care for human consciousness.
 
 ---
 
-*"We sit at the center of the feedback loop between code and consciousness. What we optimize for personally, we tend to optimize for professionally. The values we embody, we embed."*
+*"Technology should serve human mental models, not force humans to adapt to machine logic."*
