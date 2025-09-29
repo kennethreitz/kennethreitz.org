@@ -210,5 +210,43 @@
             font-size: 0.8rem;
         }
     }
+
+    body.light-mode .subtitle { color: #666 !important; }
+    body.light-mode .letter-header { color: #333 !important; border-bottom-color: #e0e0e0 !important; }
+    body.light-mode .term-entry { border-bottom-color: #f0f0f0 !important; }
+    body.light-mode .term-name strong { color: #333 !important; }
+    body.light-mode .term-stats { color: #888 !important; }
+    body.light-mode .article-link { color: #2563eb !important; }
+    body.light-mode .article-link:hover { color: #1d4ed8 !important; }
+    body.light-mode .alphabet-nav { background: rgba(255, 255, 255, 0.95) !important; border-color: #e0e0e0 !important; }
+    body.light-mode .alphabet-nav a { color: #666 !important; }
+    body.light-mode .alphabet-nav a:hover { background: #f0f0f0 !important; color: #333 !important; }
+    body.light-mode .alphabet-nav .inactive { color: #ccc !important; }
+
+    body.dark-mode .subtitle { color: #999; }
+    body.dark-mode .letter-header { color: #e5e5e5; border-bottom-color: #2a2a2a; }
+    body.dark-mode .term-entry { border-bottom-color: #2a2a2a; }
+    body.dark-mode .term-name strong { color: #e5e5e5; }
+    body.dark-mode .term-stats { color: #666; }
+    body.dark-mode .article-link { color: #60a5fa; }
+    body.dark-mode .article-link:hover { color: #93c5fd; }
+    body.dark-mode .alphabet-nav { background: rgba(26, 26, 26, 0.95); border-color: #333; }
+    body.dark-mode .alphabet-nav a { color: #999; }
+    body.dark-mode .alphabet-nav a:hover { background: #2a2a2a; color: #ccc; }
+    body.dark-mode .alphabet-nav .inactive { color: #444; }
+
+    @media (prefers-color-scheme: dark) {
+        .subtitle { color: #999; }
+        .letter-header { color: #e5e5e5; border-bottom-color: #2a2a2a; }
+        .term-entry { border-bottom-color: #2a2a2a; }
+        .term-name strong { color: #e5e5e5; }
+        .term-stats { color: #666; }
+        .article-link { color: #60a5fa; }
+        .article-link:hover { color: #93c5fd; }
+        .alphabet-nav { background: rgba(26, 26, 26, 0.95); border-color: #333; }
+        .alphabet-nav a { color: #999; }
+        .alphabet-nav a:hover { background: #2a2a2a; color: #ccc; }
+        .alphabet-nav .inactive { color: #444; }
+    }
 </style>
 {% endblock %}

@@ -223,5 +223,52 @@
             flex: none;
         }
     }
+
+    body.light-mode .subtitle { color: #666 !important; }
+    body.light-mode .article-group { border-bottom-color: #e0e0e0 !important; }
+    body.light-mode .article-title a { color: #333 !important; }
+    body.light-mode .article-title a:hover { color: #000 !important; }
+    body.light-mode .article-meta { color: #888 !important; }
+    body.light-mode .connections-heading { color: #444 !important; }
+    body.light-mode .connection-entry { border-color: #e0e0e0 !important; background: #fafafa !important; }
+    body.light-mode .connection-arrow { color: #666 !important; }
+    body.light-mode .connection-target strong a { color: #2563eb !important; }
+    body.light-mode .connection-target strong a:hover { color: #1d4ed8 !important; }
+    body.light-mode .connection-url { color: #888 !important; }
+    body.light-mode .connection-context { color: #666 !important; }
+    body.light-mode .connection-entry.incoming { border-left-color: #e0e0e0 !important; background: #f9f9f9 !important; }
+    body.light-mode .connection-entry.outgoing { border-left-color: #2563eb !important; }
+
+    body.dark-mode .subtitle { color: #999; }
+    body.dark-mode .article-group { border-bottom-color: #2a2a2a; }
+    body.dark-mode .article-title a { color: #ccc; }
+    body.dark-mode .article-title a:hover { color: #fff; }
+    body.dark-mode .article-meta { color: #666; }
+    body.dark-mode .connections-heading { color: #ccc; }
+    body.dark-mode .connection-entry { border-color: #333; background: #1a1a1a; }
+    body.dark-mode .connection-arrow { color: #999; }
+    body.dark-mode .connection-target strong a { color: #60a5fa; }
+    body.dark-mode .connection-target strong a:hover { color: #93c5fd; }
+    body.dark-mode .connection-url { color: #666; }
+    body.dark-mode .connection-context { color: #888; }
+    body.dark-mode .connection-entry.incoming { border-left-color: #333; background: #151515; }
+    body.dark-mode .connection-entry.outgoing { border-left-color: #60a5fa; }
+
+    @media (prefers-color-scheme: dark) {
+        .subtitle { color: #999; }
+        .article-group { border-bottom-color: #2a2a2a; }
+        .article-title a { color: #ccc; }
+        .article-title a:hover { color: #fff; }
+        .article-meta { color: #666; }
+        .connections-heading { color: #ccc; }
+        .connection-entry { border-color: #333; background: #1a1a1a; }
+        .connection-arrow { color: #999; }
+        .connection-target strong a { color: #60a5fa; }
+        .connection-target strong a:hover { color: #93c5fd; }
+        .connection-url { color: #666; }
+        .connection-context { color: #888; }
+        .connection-entry.incoming { border-left-color: #333; background: #151515; }
+        .connection-entry.outgoing { border-left-color: #60a5fa; }
+    }
 </style>
 {% endblock %}
