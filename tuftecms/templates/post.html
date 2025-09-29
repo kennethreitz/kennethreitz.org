@@ -337,6 +337,22 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 100);
         }
     }
+    
+    // Themes dropdown
+    const themesButton = document.querySelector('.themes-badge');
+    const themesDropdown = document.querySelector('.themes-dropdown-content');
+    
+    if (themesButton && themesDropdown) {
+        themesButton.addEventListener('click', function(e) {
+            e.stopPropagation();
+            themesDropdown.classList.toggle('show');
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function() {
+            themesDropdown.classList.remove('show');
+        });
+    }
 });
 </script>
 {% endblock %}
