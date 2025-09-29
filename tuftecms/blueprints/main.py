@@ -430,13 +430,3 @@ def directory():
         current_year=datetime.now().year,
         title="Directory",
     )
-
-
-@main_bp.route("/games")
-def games():
-    """Hidden easter egg collection of inline JavaScript and CSS3 games."""
-    return render_template(
-        "games.html",
-        current_year=datetime.now().year,
-        title="Games",
-    )
