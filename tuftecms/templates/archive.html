@@ -37,8 +37,16 @@
     </div>
 </nav>
 
-<div style="margin-top: 1rem; margin-bottom: 1rem;">
+<div style="margin-top: 1rem; margin-bottom: 1rem; display: flex; gap: 0.5rem;">
     <button id="toggleOrder" class="sort-toggle">Sort: Newest First ↓</button>
+    <div class="year-jump-dropdown">
+        <button id="yearJumpButton" class="sort-toggle">Jump to Year</button>
+        <div id="yearDropdown" class="year-dropdown-content">
+            {% for year in grouped_posts.keys() %}
+                <a href="#year-{{ year }}">{{ year }}</a>
+            {% endfor %}
+        </div>
+    </div>
 </div>
 {% endif %}
 
@@ -265,6 +273,40 @@ section p:last-child {
 .sort-toggle:hover {
     background: #e0e0e0;
 }
+
+.year-jump-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.year-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.year-dropdown-content a {
+    color: #333;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: block;
+    transition: background 0.2s ease;
+}
+
+.year-dropdown-content a:hover {
+    background-color: #f0f0f0;
+}
+
+.year-dropdown-content.show {
+    display: block;
+}
 </style>
 
 <script>
@@ -288,6 +330,29 @@ document.addEventListener('DOMContentLoaded', function() {
         // Update button text
         button.textContent = isDescending ? 'Sort: Newest First ↓' : 'Sort: Oldest First ↑';
     });
+    
+    // Year jump dropdown
+    const yearButton = document.getElementById('yearJumpButton');
+    const yearDropdown = document.getElementById('yearDropdown');
+    
+    if (yearButton && yearDropdown) {
+        yearButton.addEventListener('click', function(e) {
+            e.stopPropagation();
+            yearDropdown.classList.toggle('show');
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function() {
+            yearDropdown.classList.remove('show');
+        });
+        
+        // Close dropdown when clicking a year link
+        yearDropdown.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function() {
+                yearDropdown.classList.remove('show');
+            });
+        });
+    }
 });
 </script>
 {% endblock %}

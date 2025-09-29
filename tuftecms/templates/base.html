@@ -231,44 +231,7 @@
             <header>
                 <nav>
                     <a href="/">Home</a>
-                    <a href="/archive">Archive</a>
-                    <a href="/themes">Themes</a>
-                    <div class="nav-dropdown">
-                        <a href="#">Indexes</a>
-                        <div class="dropdown-content">
-                            <a href="/sidenotes">
-                                Sidenotes Index
-                                <span class="index-description">{{ index_counts.sidenotes|default('1,300+') }} marginalia extracted from across the garden.</span>
-                            </a>
-                            <a href="/outlines">
-                                Outlines Index
-                                <span class="index-description">{{ index_counts.outlines|default('3,000+') }} headings — structural navigation through essays.</span>
-                            </a>
-                            <a href="/connections">
-                                Connections Index
-                                <span class="index-description">{{ index_counts.connections_outgoing|default('1,500+') }} outgoing and {{ index_counts.connections_incoming|default('1,400+') }} incoming cross-references.</span>
-                            </a>
-                            <a href="/quotes">
-                                Quotes Index
-                                <span class="index-description">{{ index_counts.quotes|default('200+') }} quotable insights and distilled wisdom.</span>
-                            </a>
-                            <a href="/terms">
-                                Term Index
-                                <span class="index-description">{{ index_counts.terms|default('200+') }} key terms with {{ index_counts.terms_total_refs|default('1,300+') }} total references.</span>
-                            </a>
-                            <div style="border-top: 1px solid #eee; margin: 0.5rem 0;"></div>
-                            <a href="/graph">
-                                Cross-Reference Graph
-                                <span class="index-description">Interactive network visualization of connections.</span>
-                            </a>
-                            <div style="border-top: 1px solid #eee; margin: 0.5rem 0;"></div>
-                            <a href="/search">
-                                Search
-                                <span class="index-description">Full-text search across all content.</span>
-                            </a>
-                        </div>
-                    </div>
-                    <a href="/random" class="random-link">[random]</a>
+                    <a href="/archive">Archives</a>
                 </nav>
 
                 {% if current_path or breadcrumbs %}

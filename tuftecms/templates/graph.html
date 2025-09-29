@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const g = svg.append("g");
     
     // Load data and create visualization
-    d3.json("/graph/data").then(function(data) {
+    d3.json("/archive/graph/data").then(function(data) {
         document.getElementById('graphStats').textContent = 
             `${data.nodes.length} articles, ${data.edges.length} connections`;
         

@@ -76,7 +76,73 @@
         color: #666;
         letter-spacing: 0.1em;
         margin-bottom: 3rem;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    .reading-time-badge {
+        font-variant: normal;
+        font-size: 0.85rem;
+        background: #e8f4f8;
+        padding: 0.25rem 0.6rem;
+        border-radius: 3px;
+        letter-spacing: normal;
         font-weight: 400;
+    }
+    
+    .themes-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .themes-badge {
+        font-variant: normal;
+        font-size: 0.85rem;
+        background: #dcfce7;
+        color: #16a34a;
+        padding: 0.25rem 0.6rem;
+        border-radius: 3px;
+        letter-spacing: normal;
+        font-weight: 400;
+        border: none;
+        cursor: pointer;
+        transition: background 0.2s ease;
+    }
+    
+    .themes-badge:hover {
+        background: #bbf7d0;
+    }
+    
+    .themes-dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 200px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        z-index: 1000;
+        margin-top: 0.25rem;
+    }
+    
+    .themes-dropdown-content a {
+        color: #333;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        display: block;
+        transition: background 0.2s ease;
+        font-variant: normal;
+        letter-spacing: normal;
+        font-size: 0.9rem;
+    }
+    
+    .themes-dropdown-content a:hover {
+        background-color: #dcfce7;
+    }
+    
+    .themes-dropdown-content.show {
+        display: block;
     }
 
 
@@ -284,7 +350,22 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="post-title-text">
             <h1>{{ title }}</h1>
             {% if metadata and metadata.date %}
-            <div class="post-subtitle">{{ metadata.date if metadata.date is string else metadata.date[0] }}</div>
+            <div class="post-subtitle">
+                {{ metadata.date if metadata.date is string else metadata.date[0] }}
+                {% if reading_time %}
+                <span class="reading-time-badge">{{ reading_time }} min read</span>
+                {% endif %}
+                {% if article_themes and article_themes|length > 0 %}
+                <div class="themes-dropdown">
+                    <button class="themes-badge">{{ article_themes|length }} theme{{ 's' if article_themes|length != 1 else '' }}</button>
+                    <div class="themes-dropdown-content">
+                        {% for theme in article_themes %}
+                        <a href="/archive/themes#{{ theme.name|replace(' ', '-') }}">{{ theme.name|title }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
             {% endif %}
         </div>
     </div>
