@@ -1,63 +1,32 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div style="text-align: center; margin-bottom: 3rem;">
-    <h1 style="margin-bottom: 0.5rem;">Site Map</h1>
-    <p class="subtitle">Navigate the complete collection</p>
-</div>
+<article>
+    <h1>Site Map</h1>
+    <p class="subtitle">{{ total_items }} pages across the digital garden</p>
 
-<section>
-    <h2>Statistics</h2>
-    <ul>
-        <li>Total Pages: {{ total_items }}</li>
-        <li>Articles: {{ sitemap_data.article|length }}</li>
-        <li>Directories: {{ sitemap_data.directory|length }}</li>
-    </ul>
-</section>
+    <section>
+        <h2>Main Sections</h2>
+        <p>
+            {% for item in sitemap_data.directory %}
+            <a href="{{ item.url }}">{{ item.title }}</a>{% if not loop.last %} · {% endif %}
+            {% endfor %}
+        </p>
+    </section>
 
-{% if sitemap_data.homepage %}
-<section>
-    <h2>Homepage</h2>
-    <ul>
-        {% for item in sitemap_data.homepage %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-        {% endfor %}
-    </ul>
-</section>
-{% endif %}
-
-{% if sitemap_data.directory %}
-<section>
-    <h2>Directories & Collections</h2>
-    <ul>
-        {% for item in sitemap_data.directory %}
-        <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-            {% if item.modified %}<span class="item-date">{{ item.modified.strftime('%Y-%m-%d') }}</span>{% endif %}
-        </li>
-        {% endfor %}
-    </ul>
-</section>
-{% endif %}
-
-{% if sitemap_data.article %}
-<section>
-    <h2>Articles & Content</h2>
-    <ul>
+    <section>
+        <h2>Essays</h2>
         {% for item in sitemap_data.article %}
-        <li>
+        <p>
             <a href="{{ item.url }}">{{ item.title }}</a>
-            {% if item.modified %}<span class="item-date">{{ item.modified.strftime('%Y-%m-%d') }}</span>{% endif %}
-        </li>
+            {% if item.modified %}<span style="color: #999; margin-left: 0.5rem;">{{ item.modified.strftime('%Y-%m-%d') }}</span>{% endif %}
+        </p>
         {% endfor %}
-    </ul>
-</section>
-{% endif %}
+    </section>
 
-<section>
-    <h2>Technical</h2>
-    <ul>
-        <li><a href="/sitemap.xml">XML Sitemap</a> — Machine-readable sitemap for search engines</li>
-    </ul>
-</section>
+    <section>
+        <h2>Technical</h2>
+        <p><a href="/sitemap.xml">XML Sitemap</a> for search engines</p>
+    </section>
+</article>
 {% endblock %}

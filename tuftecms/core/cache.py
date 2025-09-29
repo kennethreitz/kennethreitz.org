@@ -21,6 +21,7 @@ def clear_cache():
     get_quotes_cache.cache_clear()
     get_connections_cache.cache_clear()
     get_terms_cache.cache_clear()
+    get_themes_cache.cache_clear()
 
 
 @lru_cache(maxsize=1)
@@ -504,10 +505,79 @@ def get_terms_cache():
     return result
 
 
+@lru_cache(maxsize=1)
 def get_themes_cache():
     """Get cached themes data."""
-    # TODO: Implement actual themes
-    return {}
+    if "themes" in _cache_store:
+        return _cache_store["themes"]
+
+    themes_data = {}
+    total_themes = 0
+
+    essays_dir = DATA_DIR / "essays"
+    if essays_dir.exists():
+        for file_path in essays_dir.glob("*.md"):
+            if file_path.name == "index.md":
+                continue
+
+            try:
+                from ..core.markdown import render_markdown_file
+                from ..utils.content import extract_intelligent_date
+
+                content_data = render_markdown_file(file_path)
+                raw_content = file_path.read_text()
+
+                theme_patterns = [
+                    r"consciousness",
+                    r"technology",
+                    r"mental health",
+                    r"programming",
+                    r"AI",
+                    r"human[- ]centered",
+                    r"recursive",
+                    r"spiritual",
+                    r"mindful",
+                    r"contemplative",
+                ]
+
+                article_themes = []
+                content_lower = raw_content.lower()
+
+                for pattern in theme_patterns:
+                    if re.search(pattern, content_lower):
+                        theme_name = pattern.replace(r"\b", "").replace(r"[- ]", " ")
+                        article_themes.append(theme_name)
+
+                        if theme_name not in themes_data:
+                            themes_data[theme_name] = []
+
+                        themes_data[theme_name].append(
+                            {
+                                "title": content_data["title"],
+                                "url": f"/essays/{file_path.stem}",
+                                "date": extract_intelligent_date(
+                                    file_path, content_data
+                                ).strftime("%Y-%m-%d")
+                                if extract_intelligent_date(file_path, content_data)
+                                else "",
+                            }
+                        )
+                        total_themes += 1
+
+            except Exception as e:
+                print(f"Error processing themes in {file_path}: {e}")
+                continue
+
+    result = {
+        "themes": themes_data,
+        "stats": {
+            "total_themes": len(themes_data),
+            "total_occurrences": total_themes,
+        },
+    }
+
+    _cache_store["themes"] = result
+    return result
 
 
 def clear_all_caches():
@@ -524,6 +594,7 @@ def clear_all_caches():
     get_quotes_cache.cache_clear()
     get_connections_cache.cache_clear()
     get_terms_cache.cache_clear()
+    get_themes_cache.cache_clear()
 
     print("🧹 All caches cleared!")
 

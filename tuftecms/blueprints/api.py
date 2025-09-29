@@ -136,5 +136,67 @@ def get_icon(article_path):
 @api_bp.route("/debug-cache")
 def debug_cache():
     """Debug endpoint to view cache status."""
-    # TODO: Implement cache debugging
-    return jsonify({"status": "Cache debugging not yet implemented", "cache_keys": []})
+    from ..core.cache import (
+        get_blog_cache,
+        get_connections_cache,
+        get_outlines_cache,
+        get_quotes_cache,
+        get_sidenotes_cache,
+        get_terms_cache,
+    )
+
+    cache_info = {
+        "blog": get_blog_cache()["stats"],
+        "sidenotes": get_sidenotes_cache()["stats"],
+        "outlines": get_outlines_cache()["stats"],
+        "quotes": get_quotes_cache()["stats"],
+        "connections": get_connections_cache()["stats"],
+        "terms": get_terms_cache()["stats"],
+    }
+
+    lru_cache_info = {
+        "blog_cache": {
+            "hits": get_blog_cache.cache_info().hits,
+            "misses": get_blog_cache.cache_info().misses,
+            "maxsize": get_blog_cache.cache_info().maxsize,
+            "currsize": get_blog_cache.cache_info().currsize,
+        },
+        "sidenotes_cache": {
+            "hits": get_sidenotes_cache.cache_info().hits,
+            "misses": get_sidenotes_cache.cache_info().misses,
+            "maxsize": get_sidenotes_cache.cache_info().maxsize,
+            "currsize": get_sidenotes_cache.cache_info().currsize,
+        },
+        "outlines_cache": {
+            "hits": get_outlines_cache.cache_info().hits,
+            "misses": get_outlines_cache.cache_info().misses,
+            "maxsize": get_outlines_cache.cache_info().maxsize,
+            "currsize": get_outlines_cache.cache_info().currsize,
+        },
+        "quotes_cache": {
+            "hits": get_quotes_cache.cache_info().hits,
+            "misses": get_quotes_cache.cache_info().misses,
+            "maxsize": get_quotes_cache.cache_info().maxsize,
+            "currsize": get_quotes_cache.cache_info().currsize,
+        },
+        "connections_cache": {
+            "hits": get_connections_cache.cache_info().hits,
+            "misses": get_connections_cache.cache_info().misses,
+            "maxsize": get_connections_cache.cache_info().maxsize,
+            "currsize": get_connections_cache.cache_info().currsize,
+        },
+        "terms_cache": {
+            "hits": get_terms_cache.cache_info().hits,
+            "misses": get_terms_cache.cache_info().misses,
+            "maxsize": get_terms_cache.cache_info().maxsize,
+            "currsize": get_terms_cache.cache_info().currsize,
+        },
+    }
+
+    return jsonify(
+        {
+            "status": "Cache data loaded successfully",
+            "cache_stats": cache_info,
+            "lru_cache_info": lru_cache_info,
+        }
+    )

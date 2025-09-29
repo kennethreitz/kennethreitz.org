@@ -9,9 +9,41 @@ feeds_bp = Blueprint("feeds", __name__)
 @feeds_bp.route("/sitemap")
 def sitemap():
     """Generate HTML sitemap."""
-    # TODO: Implement sitemap generation
+    from ..core.cache import get_blog_cache
+
+    blog_data = get_blog_cache()
+    posts = blog_data.get("posts", [])
+
+    sitemap_data = {
+        "homepage": [{"url": "/", "title": "Home", "modified": None}],
+        "directory": [
+            {"url": "/archive", "title": "Archive", "modified": None},
+            {"url": "/sidenotes", "title": "Sidenotes", "modified": None},
+            {"url": "/outlines", "title": "Outlines", "modified": None},
+            {"url": "/quotes", "title": "Quotes", "modified": None},
+            {"url": "/connections", "title": "Connections", "modified": None},
+            {"url": "/terms", "title": "Terms", "modified": None},
+            {"url": "/graph", "title": "Graph", "modified": None},
+            {"url": "/search", "title": "Search", "modified": None},
+        ],
+        "article": [
+            {"url": post["url"], "title": post["title"], "modified": post["pub_date"]}
+            for post in posts
+        ],
+    }
+
+    total_items = (
+        len(sitemap_data["homepage"])
+        + len(sitemap_data["directory"])
+        + len(sitemap_data["article"])
+    )
+
     return render_template(
-        "sitemap.html", pages=[], current_year=datetime.now().year, title="Sitemap"
+        "sitemap.html",
+        sitemap_data=sitemap_data,
+        total_items=total_items,
+        current_year=datetime.now().year,
+        title="Sitemap",
     )
 
 
