@@ -1,26 +1,13 @@
 {% extends "base.html" %}
 
-{% block title %}{{ archive_title }} Archive{% endblock %}
+{% block title %}{{ archive_title }}{% endblock %}
 
 {% block content %}
-<h1>{{ archive_title }} Archive</h1>
+<h1>{{ archive_title }}</h1>
 
-<p><strong><a href="/feed.xml">[RSS Feed]</a></strong> • Get all articles with full content.</p>
+<p>Essays organized by estimated reading time (based on ~200 words per minute).</p>
 
-{% if archive_description %}
-<p>{{ archive_description }}</p>
-{% endif %}
-
-{% if grouped_posts and archive_title == 'Complete' %}
 <nav class="year-picker">
-    <div class="jump-to-year">
-        <strong>Jump to year:</strong>
-        <div class="year-links">
-            {% for year in grouped_posts.keys() %}
-                <a href="#year-{{ year }}">{{ year }}</a>
-            {% endfor %}
-        </div>
-    </div>
     <div class="browse-by-type">
         <strong>Browse by:</strong>
         <div class="type-links">
@@ -30,24 +17,12 @@
             <a href="/search">Search</a>
         </div>
     </div>
-    <div class="browse-by-type" style="margin-top: 1rem;">
-        <strong>Indexes:</strong>
-        <div class="type-links">
-            <a href="/sidenotes">Sidenotes</a>
-            <a href="/outlines">Outlines</a>
-            <a href="/quotes">Quotes</a>
-            <a href="/connections">Connections</a>
-            <a href="/terms">Terms</a>
-            <a href="/graph">Graph</a>
-        </div>
-    </div>
 </nav>
-{% endif %}
 
 {% if grouped_posts %}
     {% for group_name, posts in grouped_posts.items() %}
-        <section{% if archive_title == 'Complete' %} id="year-{{ group_name }}"{% endif %}>
-            <h2>{{ group_name }}</h2>
+        <section>
+            <h2>{{ group_name }} <span style="color: #999; font-weight: normal; font-size: 0.85em;">({{ posts|length }} essays)</span></h2>
             
             {% for post in posts %}
                 <div class="archive-post">
@@ -56,8 +31,10 @@
                     {% endif %}
                     <div class="archive-post-content">
                         <p><strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+                        <span class="reading-time">{{ post.reading_time }} min</span>
+                        <span class="word-count">{{ post.word_count }} words</span>
                         {% if post.pub_date %}
-                            <span class="post-date">{{ post.pub_date.strftime('%B %d, %Y') }}</span>
+                            <span class="post-date">{{ post.pub_date.strftime('%B %Y') }}</span>
                         {% endif %}
                         <br>
                         {% if post.description %}
@@ -70,8 +47,7 @@
         </section>
     {% endfor %}
 {% else %}
-    <p>No posts found in this archive.</p>
-    <p><a href="/essays">Browse Essays</a> • <a href="/artificial-intelligence">Browse AI Writings</a></p>
+    <p>No posts found.</p>
 {% endif %}
 
 <style>
@@ -86,35 +62,21 @@
     z-index: 1;
 }
 
-.year-picker p {
-    margin: 0;
-    font-size: 0.95rem;
-}
-
-.jump-to-year {
-    margin-top: 0.5rem;
-    font-size: 0.9em;
-}
-
 .browse-by-type {
-    margin-top: 1rem;
     font-size: 0.9em;
 }
 
-.jump-to-year strong,
 .browse-by-type strong {
     display: block;
     margin-bottom: 0.5rem;
 }
 
-.year-links,
 .type-links {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
 }
 
-.year-links a,
 .type-links a {
     color: #666;
     text-decoration: none;
@@ -125,23 +87,36 @@
     transition: all 0.2s ease;
 }
 
-.year-links a:hover,
 .type-links a:hover {
     color: #333;
     background: #e0e0e0;
 }
 
-
+.reading-time,
+.word-count,
 .post-date {
     color: #666;
-    font-size: 0.9rem;
-    font-style: italic;
+    font-size: 0.85rem;
     margin-left: 0.5rem;
+}
+
+.reading-time {
+    background: #e8f4f8;
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.word-count {
+    font-style: italic;
+}
+
+.post-date {
+    color: #999;
 }
 
 section {
     margin-bottom: 2.5rem;
-    scroll-margin-top: 2rem; /* Offset for smooth scrolling to anchors */
 }
 
 section h2 {
@@ -150,7 +125,6 @@ section h2 {
     margin-bottom: 1.5rem;
 }
 
-/* Archive post layout with icons */
 .archive-post {
     display: flex;
     align-items: flex-start;
@@ -175,16 +149,6 @@ section h2 {
     margin: 0;
 }
 
-/* Legacy styles for backward compatibility */
-section p {
-    margin-bottom: 1.5rem;
-    padding-left: 1rem;
-}
-
-section p:last-child {
-    margin-bottom: 0;
-}
-
 @media (max-width: 1400px) {
     .year-picker {
         width: 60%;
@@ -203,14 +167,18 @@ section p:last-child {
         padding: 0.8rem 1rem;
     }
     
-    .year-picker p {
-        font-size: 0.9rem;
-    }
-    
     .archive-post-icon {
         margin-left: -2rem;
         width: 20px;
         height: 20px;
+    }
+    
+    .reading-time,
+    .word-count,
+    .post-date {
+        display: block;
+        margin-left: 0;
+        margin-top: 0.25rem;
     }
 }
 </style>

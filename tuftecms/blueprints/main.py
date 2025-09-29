@@ -413,6 +413,51 @@ def archive():
     )
 
 
+@main_bp.route("/archive/by-length")
+def archive_by_length():
+    """Display blog archive sorted by reading time."""
+    from ..core.cache import get_blog_cache
+
+    blog_data = get_blog_cache()
+    posts = blog_data.get("posts", [])
+
+    # Calculate reading time (average 200 words per minute)
+    for post in posts:
+        word_count = post.get("word_count", 0)
+        post["reading_time"] = max(1, round(word_count / 200))
+
+    # Group by reading time ranges
+    quick_reads = [p for p in posts if p["reading_time"] <= 3]
+    short_reads = [p for p in posts if 4 <= p["reading_time"] <= 7]
+    medium_reads = [p for p in posts if 8 <= p["reading_time"] <= 15]
+    long_reads = [p for p in posts if p["reading_time"] > 15]
+
+    # Sort each group by word count descending
+    quick_reads.sort(key=lambda x: x.get("word_count", 0), reverse=True)
+    short_reads.sort(key=lambda x: x.get("word_count", 0), reverse=True)
+    medium_reads.sort(key=lambda x: x.get("word_count", 0), reverse=True)
+    long_reads.sort(key=lambda x: x.get("word_count", 0), reverse=True)
+
+    grouped_posts = {}
+    if quick_reads:
+        grouped_posts["Quick Reads (1-3 min)"] = quick_reads
+    if short_reads:
+        grouped_posts["Short Reads (4-7 min)"] = short_reads
+    if medium_reads:
+        grouped_posts["Medium Reads (8-15 min)"] = medium_reads
+    if long_reads:
+        grouped_posts["Long Reads (15+ min)"] = long_reads
+
+    return render_template(
+        "archive-by-length.html",
+        posts=posts,
+        grouped_posts=grouped_posts,
+        archive_title="By Reading Time",
+        current_year=datetime.now().year,
+        title="Archive by Reading Time",
+    )
+
+
 @main_bp.route("/directory")
 def directory():
     """File browser for the data directory."""
