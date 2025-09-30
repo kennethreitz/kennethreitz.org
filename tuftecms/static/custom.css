@@ -642,6 +642,90 @@ a {
     text-shadow: none;
 }
 
+/* Dark mode text selection */
+body.dark-mode ::selection {
+    background: rgba(255, 235, 59, 0.85);
+    color: #111;
+}
+
+body.dark-mode ::-moz-selection {
+    background: rgba(255, 235, 59, 0.85);
+    color: #111;
+}
+
+@media (prefers-color-scheme: dark) {
+    ::selection {
+        background: rgba(255, 235, 59, 0.85);
+        color: #111;
+    }
+
+    ::-moz-selection {
+        background: rgba(255, 235, 59, 0.85);
+        color: #111;
+    }
+}
+
+/* ========================================= */
+/* Sidenotes Dark Mode */
+/* ========================================= */
+
+/* Mobile sidenote popup styling */
+@media (max-width: 760px) {
+    .margin-toggle:checked + .sidenote,
+    .margin-toggle:checked + .marginnote {
+        background: rgba(255, 235, 59, 0.15);
+        padding: 1rem;
+        border-radius: 6px;
+        border-left: 3px solid rgba(255, 193, 7, 0.5);
+    }
+
+    body.dark-mode .margin-toggle:checked + .sidenote,
+    body.dark-mode .margin-toggle:checked + .marginnote {
+        background: rgba(255, 193, 7, 0.1);
+        border-left-color: rgba(255, 193, 7, 0.3);
+        color: #c9d1d9;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .margin-toggle:checked + .sidenote,
+        .margin-toggle:checked + .marginnote {
+            background: rgba(255, 193, 7, 0.1);
+            border-left-color: rgba(255, 193, 7, 0.3);
+            color: #c9d1d9;
+        }
+    }
+}
+
+/* Targeted sidenote (from anchor link) */
+.sidenote:target,
+.marginnote:target {
+    background: rgba(255, 235, 59, 0.3);
+    padding: 0.5rem;
+    margin: -0.5rem;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+body.dark-mode .sidenote:target,
+body.dark-mode .marginnote:target {
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(255, 193, 7, 0.12));
+    color: #ffd700;
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    border-left: 2px solid rgba(255, 215, 0, 0.4);
+    padding-left: 0.75rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .sidenote:target,
+    .marginnote:target {
+        background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(255, 193, 7, 0.12));
+        color: #ffd700;
+        text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        border-left: 2px solid rgba(255, 215, 0, 0.4);
+        padding-left: 0.75rem;
+    }
+}
+
 /* ========================================= */
 /* Code Syntax Highlighting */
 /* ========================================= */

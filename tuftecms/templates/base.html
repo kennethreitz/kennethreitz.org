@@ -598,8 +598,16 @@
             function loadArticleIcons() {
                 // Find all paragraphs that start with a link
                 const paragraphs = document.querySelectorAll('p');
-                
+
                 paragraphs.forEach(paragraph => {
+                    // Skip paragraphs that are sidenotes or contain sidenote elements
+                    if (paragraph.classList.contains('sidenote-entry') ||
+                        paragraph.querySelector('.sidenote') ||
+                        paragraph.querySelector('.marginnote') ||
+                        paragraph.querySelector('.margin-toggle')) {
+                        return;
+                    }
+
                     // Check if the paragraph starts with a link (no text before it)
                     const firstNode = paragraph.firstChild;
                     let firstElement = null;
@@ -882,6 +890,12 @@
 
                 // Find all links in article content (internal and external)
                 document.addEventListener('DOMContentLoaded', function() {
+                    // Disable tooltips on index/archive pages
+                    const path = window.location.pathname;
+                    if (path.match(/\/(sidenotes|outlines|connections|quotes|terms|archive)/)) {
+                        return; // Don't attach tooltip listeners on these pages
+                    }
+                    
                     const articleLinks = document.querySelectorAll('article a[href]');
                     
                     articleLinks.forEach(link => {
@@ -890,8 +904,17 @@
                         // Skip links in nav, breadcrumbs, etc.
                         if (link.closest('nav') || link.closest('.breadcrumbs')) return;
                         
+                        // Skip links in special index pages (sidenotes, outlines, etc.)
+                        if (link.closest('.sidenotes-list') || link.closest('.outline-list') || link.closest('.sidenote-entry')) return;
+                        
+                        // Skip sidenote links (links with # anchors to same page)
+                        if (link.classList.contains('sidenote-link') || link.classList.contains('outline-link')) return;
+                        
                         // Skip anchor links and mailto/tel links
                         if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) return;
+                        
+                        // Skip any link that contains a hash (likely anchor link)
+                        if (href.includes('#')) return;
                         
                         // Support internal links and external http/https links
                         if (href.startsWith('/') || href.startsWith('http://') || href.startsWith('https://')) {
@@ -904,16 +927,16 @@
                 function handleLinkHover(e) {
                     const link = e.currentTarget;
                     const href = link.getAttribute('href');
-                    
+
                     clearTimeout(hideTimeout);
                     currentLink = link;
-                    
+
                     // Show tooltip after slight delay
                     setTimeout(() => {
                         if (currentLink === link) {
                             showPreview(link, href);
                         }
-                    }, 300);
+                    }, 500);
                 }
 
                 function handleLinkLeave() {

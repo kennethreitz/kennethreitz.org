@@ -17,7 +17,7 @@
                 <div class="article-group">
                     <div class="article-title-container">
                         {% if article.unique_icon %}
-                        <img src="{{ article.unique_icon }}" alt="Icon for {{ article.title }}" class="article-icon">
+                        <img src="{{ article.unique_icon }}" alt="Icon for {{ article.title }}" class="article-icon" loading="lazy">
                         {% endif %}
                         <h3 class="article-title">
                             <a href="{{ article.url }}">{{ article.title }}</a>
@@ -36,7 +36,7 @@
                             <p class="sidenote-entry">
                                 {% if sidenote.id %}
                                     <a href="{{ article.url }}#{{ sidenote.id }}" class="sidenote-link">
-                                        {{ sidenote.text|safe }}
+                                        {{ sidenote.text|safe if sidenote.text else '' }}
                                     </a>
                                 {% else %}
                                     {{ sidenote.text|safe if sidenote.text else sidenote|safe }}
@@ -118,6 +118,18 @@
         font-style: italic;
     }
 
+    .sidenotes-list img {
+        display: none !important;
+    }
+    
+    .sidenote-entry img {
+        display: none !important;
+    }
+    
+    .sidenote-link img {
+        display: none !important;
+    }
+
     .sidenote-entry:last-child {
         margin-bottom: 0;
     }
@@ -145,6 +157,32 @@
             padding-left: 1rem;
             font-size: 1rem;
         }
+    }
+
+    body.light-mode .subtitle { color: #666 !important; }
+    body.light-mode .article-group { border-bottom-color: #e0e0e0 !important; }
+    body.light-mode .article-title a { color: #333 !important; }
+    body.light-mode .article-title a:hover { color: #000 !important; }
+    body.light-mode .article-meta { color: #888 !important; }
+    body.light-mode .sidenote-entry { border-left-color: #f0f0f0 !important; color: #333 !important; }
+    body.light-mode .sidenote-link:hover { color: #222 !important; background-color: #fafafa !important; }
+
+    body.dark-mode .subtitle { color: #999; }
+    body.dark-mode .article-group { border-bottom-color: #2a2a2a; }
+    body.dark-mode .article-title a { color: #ccc; }
+    body.dark-mode .article-title a:hover { color: #fff; }
+    body.dark-mode .article-meta { color: #666; }
+    body.dark-mode .sidenote-entry { border-left-color: #333; color: #ccc; }
+    body.dark-mode .sidenote-link:hover { color: #fff; background-color: #1a1a1a; }
+
+    @media (prefers-color-scheme: dark) {
+        .subtitle { color: #999; }
+        .article-group { border-bottom-color: #2a2a2a; }
+        .article-title a { color: #ccc; }
+        .article-title a:hover { color: #fff; }
+        .article-meta { color: #666; }
+        .sidenote-entry { border-left-color: #333; color: #ccc; }
+        .sidenote-link:hover { color: #fff; background-color: #1a1a1a; }
     }
 </style>
 {% endblock %}

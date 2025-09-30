@@ -510,14 +510,25 @@ document.addEventListener('DOMContentLoaded', function() {
                     scrollTarget.scrollIntoView({behavior: 'smooth', block: 'center'});
                 }
                 
-                // Highlight the sidenote temporarily
+                // Highlight the sidenote permanently
                 const sidenote = checkbox.nextElementSibling;
                 if (sidenote && sidenote.classList.contains('sidenote')) {
-                    sidenote.style.backgroundColor = '#fffbcc';
-                    sidenote.style.transition = 'background-color 0.3s ease';
-                    setTimeout(() => {
-                        sidenote.style.backgroundColor = '';
-                    }, 3000);
+                    const isDark = document.body.classList.contains('dark-mode') ||
+                                   window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+                    if (isDark) {
+                        // Baller dark mode styling with golden glow
+                        sidenote.style.background = 'linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(255, 193, 7, 0.12))';
+                        sidenote.style.color = '#ffd700';
+                        sidenote.style.textShadow = '0 0 20px rgba(255, 215, 0, 0.3)';
+                        sidenote.style.borderLeft = '2px solid rgba(255, 215, 0, 0.4)';
+                        sidenote.style.paddingLeft = '0.75rem';
+                    } else {
+                        sidenote.style.backgroundColor = 'rgba(255, 235, 59, 0.3)';
+                        sidenote.style.color = '#111';
+                    }
+
+                    sidenote.style.transition = 'all 0.3s ease';
                 }
             }, 100);
         }
