@@ -561,26 +561,26 @@ document.addEventListener('DOMContentLoaded', function() {
         {% endif %}
         <div class="post-title-text">
             <h1>{{ title }}</h1>
-            {% if metadata and metadata.date %}
-            <div class="post-subtitle">
-                {{ metadata.date if metadata.date is string else metadata.date[0] }}
-                {% if reading_time %}
-                <span class="reading-time-badge">{{ reading_time }} min read</span>
-                {% endif %}
-                {% if article_themes and article_themes|length > 0 %}
-                <div class="themes-dropdown">
-                    <button class="themes-badge">{{ article_themes|length }} theme{{ 's' if article_themes|length != 1 else '' }}</button>
-                    <div class="themes-dropdown-content">
-                        {% for theme in article_themes %}
-                        <a href="/archive/themes#{{ theme.name|replace(' ', '-') }}">{{ theme.name|title }}</a>
-                        {% endfor %}
-                    </div>
-                </div>
-                {% endif %}
-            </div>
-            {% endif %}
         </div>
     </div>
+    {% if metadata and metadata.date %}
+    <div class="post-subtitle">
+        {{ metadata.date if metadata.date is string else metadata.date[0] }}
+        {% if reading_time %}
+        <span class="reading-time-badge">{{ reading_time }} min read</span>
+        {% endif %}
+        {% if article_themes and article_themes|length > 0 %}
+        <div class="themes-dropdown">
+            <button class="themes-badge">{{ article_themes|length }} theme{{ 's' if article_themes|length != 1 else '' }}</button>
+            <div class="themes-dropdown-content">
+                {% for theme in article_themes %}
+                <a href="/archive/themes#{{ theme.name|replace(' ', '-') }}">{{ theme.name|title }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
     
     <section>
         {{ content | safe }}
