@@ -46,9 +46,15 @@
 
  Gloriously simplified example (implementation subject to change):
 
- 
-```
-class DistributedAdapter(BaseAdapter):def __init__(self):self.connect_pool = …def send(self, request):"""Takes a Request object, returns a Response object."""# Whatever needs to happen here.…
+```python
+class DistributedAdapter(BaseAdapter):
+    def __init__(self):
+        self.connect_pool = …
+
+    def send(self, request):
+        """Takes a Request object, returns a Response object."""
+        # Whatever needs to happen here.
+        …
 ```
  ### HTTPCore
 
@@ -83,9 +89,24 @@ class DistributedAdapter(BaseAdapter):def __init__(self):self.connect_pool = …
 
  Here's some theoretical example code:
 
- 
-```
-import requestsfrom webscale import DevNullAdpaterfrom wsgicore.adapters import WsgiAdapterfrom haystackapp.core import app as haystacks = requests.session()s.mount('null:', DevNullAdapter())s.mount('http://haystack', WsgiAdapter(app=haystack))# Make a request via DevNullAdapterr = s.get('null://someurl')# Make a request via Haystack WSGI Appr = s.get('http://haystack/index')# Make a request via standard HTTPSr = s.get('https://github.com/')
+```python
+import requests
+from webscale import DevNullAdapter
+from wsgicore.adapters import WsgiAdapter
+from haystackapp.core import app as haystack
+
+s = requests.session()
+s.mount('null:', DevNullAdapter())
+s.mount('http://haystack', WsgiAdapter(app=haystack))
+
+# Make a request via DevNullAdapter
+r = s.get('null://someurl')
+
+# Make a request via Haystack WSGI App
+r = s.get('http://haystack/index')
+
+# Make a request via standard HTTPS
+r = s.get('https://github.com/')
 ```
  ## Long\-term Advantages
 
