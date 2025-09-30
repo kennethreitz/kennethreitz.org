@@ -75,6 +75,14 @@ Or it could be simple consumption without regeneration—technological cancer de
 
 > "AI doesn't just reflect our thoughts—it homogenizes them, creating a feedback loop where billions of people internalize the same averaged patterns of human expression."
 
+### Beyond Extraction: Cognitive Injection
+
+[**Beyond Algorithm Eats: How LLMs Accelerate Human Cognitive Evolution**](/essays/2025-09-30-beyond_algorithm_eats) marks a crucial pivot in understanding: LLMs don't just extract and corrupt existing values like social media algorithms—they actively *inject* new cognitive patterns through conversational imprinting. This is the flip side of algorithmic consumption: rapid cultural software updates propagating at conversational speed, with mirror neurons making us unconsciously absorb model thought patterns.
+
+> "We've spent so much time worrying about algorithms eating our values that we missed the flip side: LLMs aren't just extracting and corrupting existing culture. They're *injecting* new cognitive patterns directly into human consciousness through the most natural interface we have—conversation."
+
+The difference is profound: social media algorithms parasitically optimize existing human behaviors to death, while LLMs symbiotically install new cognitive architectures through the intimate interface of conversation. The weights of training models become our cognitive weights. The question shifts from "what gets consumed?" to "what gets installed?"—and crucially, *who chose these cognitive updates?*
+
 ---
 
 ### The Pattern Recognition: Why This Keeps Happening
