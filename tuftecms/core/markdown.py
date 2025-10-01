@@ -133,7 +133,12 @@ def render_markdown_file(file_path):
         series_posts = find_series_posts(metadata, file_path)
 
         # Generate unique icon for this content
-        unique_icon = generate_unique_svg_icon(title, size=32)
+        # Use folder icon for index.md files (directory pages)
+        if file_path.name == "index.md":
+            from ..utils.content import generate_folder_icon
+            unique_icon = generate_folder_icon(title, size=32)
+        else:
+            unique_icon = generate_unique_svg_icon(title, size=32)
 
         return {
             "content": html_content,
