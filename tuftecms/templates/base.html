@@ -88,8 +88,90 @@
                 z-index: 9999;
             }
             
-            nav > a {
+            nav > a, nav > .nav-dropdown {
                 margin-right: 1rem;
+            }
+
+            .nav-dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .nav-dropdown-trigger {
+                cursor: pointer;
+                color: inherit;
+                text-decoration: underline;
+                padding-bottom: 1rem;
+                display: inline-block;
+            }
+
+            .nav-dropdown-content {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background: white;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                min-width: 250px;
+                max-width: 400px;
+                max-height: 500px;
+                overflow-y: auto;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                z-index: 10000;
+                padding: 0.75rem;
+            }
+
+            .nav-dropdown:hover .nav-dropdown-content,
+            .nav-dropdown-content:hover {
+                display: block;
+            }
+
+            .tree-item {
+                padding: 0.35rem 0;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .tree-item-icon {
+                flex-shrink: 0;
+                width: 18px;
+                height: 18px;
+            }
+
+            .tree-item a {
+                color: #333;
+                text-decoration: none;
+                flex: 1;
+            }
+
+            .tree-item a:hover {
+                text-decoration: underline;
+            }
+
+            .tree-folder a {
+                font-weight: 500;
+            }
+
+            body.dark-mode .nav-dropdown-content {
+                background: #1a1a1a;
+                border-color: #333;
+            }
+
+            body.dark-mode .tree-item a {
+                color: #ccc;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                .nav-dropdown-content {
+                    background: #1a1a1a;
+                    border-color: #333;
+                }
+
+                .tree-item a {
+                    color: #ccc;
+                }
             }
             
             .theme-toggle {
@@ -297,6 +379,12 @@
                     <a href="/">Home</a>
                     <a href="/archive">Archive</a>
                     <a href="/themes">Themes</a>
+                    <div class="nav-dropdown">
+                        <span class="nav-dropdown-trigger">Browse</span>
+                        <div class="nav-dropdown-content" id="browse-dropdown">
+                            <div style="text-align: center; padding: 1rem; color: #999;">Loading...</div>
+                        </div>
+                    </div>
                 </nav>
 
                 {% if current_path or breadcrumbs %}
@@ -398,10 +486,56 @@
         </script>
 
         <script>
+            // Render items as tree structure
+            function renderItems(items) {
+                if (!items || items.length === 0) {
+                    return '<div style="padding: 1rem; color: #999;">No content found</div>';
+                }
+
+                let html = '';
+                for (const item of items) {
+                    const cssClass = item.is_dir ? 'tree-folder' : 'tree-file';
+
+                    html += `<div class="tree-item ${cssClass}">`;
+
+                    // Add icon if present
+                    if (item.icon) {
+                        html += `<img src="${item.icon}" class="tree-item-icon" alt="">`;
+                    }
+
+                    html += `<a href="${item.path}">${item.name}</a>`;
+                    html += `</div>`;
+                }
+                return html;
+            }
+
+            // Load and render directory listing
+            async function loadDirectoryTree() {
+                try {
+                    const response = await fetch('/api/directory-tree');
+                    const data = await response.json();
+                    const dropdown = document.getElementById('browse-dropdown');
+
+                    if (data.items && data.items.length > 0) {
+                        dropdown.innerHTML = renderItems(data.items);
+                    } else {
+                        dropdown.innerHTML = '<div style="padding: 1rem; color: #999;">No content found</div>';
+                    }
+                } catch (error) {
+                    console.error('Error loading directory tree:', error);
+                    document.getElementById('browse-dropdown').innerHTML =
+                        '<div style="padding: 1rem; color: #999;">Error loading content</div>';
+                }
+            }
+
+
             // Main DOMContentLoaded handler
             document.addEventListener('DOMContentLoaded', function() {
                 // First priority: Add loaded class to reveal content
                 document.documentElement.classList.add('loaded');
+
+                // Load directory tree for Browse dropdown
+                loadDirectoryTree();
                 
                 // Find all pre elements (code blocks)
                 const codeBlocks = document.querySelectorAll('pre');
@@ -605,6 +739,11 @@
                         paragraph.querySelector('.sidenote') ||
                         paragraph.querySelector('.marginnote') ||
                         paragraph.querySelector('.margin-toggle')) {
+                        return;
+                    }
+
+                    // Skip paragraphs inside directory listings or item lists
+                    if (paragraph.closest('.items-list') || paragraph.closest('.directory-listing') || paragraph.closest('.item')) {
                         return;
                     }
 
@@ -912,10 +1051,13 @@
                         
                         // Skip anchor links and mailto/tel links
                         if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) return;
-                        
+
                         // Skip any link that contains a hash (likely anchor link)
                         if (href.includes('#')) return;
-                        
+
+                        // Skip alternate format links (.md, .pdf)
+                        if (href.endsWith('.md') || href.endsWith('.pdf')) return;
+
                         // Support internal links and external http/https links
                         if (href.startsWith('/') || href.startsWith('http://') || href.startsWith('https://')) {
                             link.addEventListener('mouseenter', handleLinkHover);
