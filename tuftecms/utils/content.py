@@ -195,6 +195,20 @@ def get_directory_structure(path):
         # Generate unique SVG icon based on actual content title for consistency
         icon_title = display_name  # Default to filename-based display name
 
+        # For directories, try to get title from index.md
+        if item.is_dir():
+            try:
+                index_file = item / "index.md"
+                if index_file.exists():
+                    cached_title = get_cached_markdown_title(index_file)
+                    if cached_title:
+                        icon_title = cached_title
+                        # Also update display_name to use the actual title
+                        display_name = cached_title
+            except:
+                # Fallback to filename-based display name if parsing fails
+                pass
+
         # For markdown files, try to extract the actual H1 title from content
         if item.is_file() and item.suffix == ".md":
             try:
