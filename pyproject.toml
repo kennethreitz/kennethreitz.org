@@ -10,6 +10,8 @@ dependencies = [
     "gevent>=24.2.0",
     "mistune>=3.0.0",
     "pyyaml>=6.0.0",
+    "weasyprint>=66.0",
+    "pillow>=11.3.0",
 ]
 authors = [
     {name = "Kenneth Reitz", email = "me@kennethreitz.org"}

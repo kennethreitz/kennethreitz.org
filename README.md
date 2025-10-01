@@ -4,6 +4,58 @@ A Flask-based content management system designed for thoughtful writing, inspire
 
 > **Note**: This repository is a hybrid containing both the TufteCMS framework (in `tuftecms/`) and Kenneth Reitz's personal website content (in `data/`). The CMS powers kennethreitz.org and serves as a living example of the system in production.
 
+## Quick Start
+
+### Option 1: Docker Compose (Recommended)
+
+The easiest way to get started with all dependencies included:
+
+```bash
+# Clone the repository
+git clone https://github.com/kennethreitz/tuftecms.git
+cd tuftecms
+
+# Start with Docker Compose
+docker compose up
+```
+
+The site will be available at `http://localhost:8000` with hot-reloading enabled. All dependencies, including PDF generation, are pre-configured.
+
+### Option 2: Local Development with uv
+
+For local development without Docker:
+
+```bash
+# Clone the repository
+git clone https://github.com/kennethreitz/tuftecms.git
+cd tuftecms
+
+# Install dependencies with uv (recommended)
+uv sync
+
+# Run development server
+uv run python engine.py
+```
+
+The site will be available at `http://localhost:8000`
+
+**Note**: PDF generation requires additional system libraries (see below). The site works fully without them - PDFs just won't be available.
+
+### Installing uv
+
+If you don't have `uv` installed:
+
+```bash
+# macOS/Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# Or via pip
+pip install uv
+```
+
 ## Philosophy
 
 TufteCMS embraces **human-first design** - content presentation that serves readers' mental models rather than forcing adaptation to machine logic. It provides powerful features like sidenotes, content indexing, and cross-referencing while maintaining simplicity and elegance.
@@ -42,28 +94,24 @@ TufteCMS embraces **human-first design** - content presentation that serves read
 - **RSS/Atom feeds** - Standard feed formats for syndication
 - **Template system** - Jinja2 templates with extensible blocks
 
-## Installation
+## PDF Generation Setup (Optional)
 
-### Prerequisites
+TufteCMS includes server-side PDF generation using WeasyPrint. This requires system libraries:
 
-- Python 3.13+
-- uv (recommended) or pip
-
-### Quick Start
-
+**macOS (via Homebrew):**
 ```bash
-# Clone the repository
-git clone https://github.com/kennethreitz/tuftecms.git
-cd tuftecms
-
-# Install dependencies
-uv sync
-
-# Run development server
-uv run python engine.py
+brew install cairo pango gdk-pixbuf libffi
 ```
 
-The site will be available at `http://localhost:8000`
+**Ubuntu/Debian:**
+```bash
+sudo apt-get install libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
+```
+
+**Docker:**
+The provided Dockerfile includes these dependencies automatically.
+
+**Note:** If you skip this step, the site will work fine but `.pdf` URLs will not function. All other features work without these libraries.
 
 ## Project Structure
 

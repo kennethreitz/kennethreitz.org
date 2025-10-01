@@ -19,6 +19,77 @@ DATA_DIR = Path("data")
 STATIC_DIR = Path("static")
 
 
+def extract_exif_data(image_path):
+    """Extract EXIF data from an image file."""
+    try:
+        from PIL import Image
+        from PIL.ExifTags import TAGS
+
+        img = Image.open(image_path)
+        exif_data = {}
+
+        # Get basic image info
+        exif_data['width'] = img.width
+        exif_data['height'] = img.height
+        exif_data['format'] = img.format
+
+        # Get EXIF data if available
+        if hasattr(img, '_getexif') and img._getexif() is not None:
+            exif = img._getexif()
+            for tag_id, value in exif.items():
+                tag = TAGS.get(tag_id, tag_id)
+
+                # Extract commonly useful fields
+                if tag == 'Make':
+                    exif_data['camera_make'] = str(value).strip()
+                elif tag == 'Model':
+                    exif_data['camera_model'] = str(value).strip()
+                elif tag == 'DateTime':
+                    exif_data['date_taken'] = str(value)
+                elif tag == 'DateTimeOriginal':
+                    exif_data['date_original'] = str(value)
+                elif tag == 'LensModel':
+                    exif_data['lens'] = str(value).strip()
+                elif tag == 'FocalLength':
+                    # Convert to readable format
+                    if isinstance(value, tuple):
+                        exif_data['focal_length'] = f"{value[0]/value[1]:.0f}mm"
+                    else:
+                        exif_data['focal_length'] = f"{value}mm"
+                elif tag == 'FNumber':
+                    # Convert to readable format
+                    if isinstance(value, tuple):
+                        f_num = value[0]/value[1]
+                        # Round to 1 decimal place, but show as integer if whole number
+                        if f_num == int(f_num):
+                            exif_data['aperture'] = f"f/{int(f_num)}"
+                        else:
+                            exif_data['aperture'] = f"f/{f_num:.1f}"
+                    else:
+                        exif_data['aperture'] = f"f/{value}"
+                elif tag == 'ISOSpeedRatings':
+                    exif_data['iso'] = f"ISO {value}"
+                elif tag == 'ExposureTime':
+                    # Convert to readable format as fraction
+                    if isinstance(value, tuple):
+                        # Keep as fraction
+                        from fractions import Fraction
+                        frac = Fraction(value[0], value[1])
+                        if frac >= 1:
+                            # For exposures >= 1 second, show as decimal
+                            exif_data['shutter_speed'] = f"{float(frac):.1f}s"
+                        else:
+                            # For fast shutter speeds, show as fraction
+                            exif_data['shutter_speed'] = f"1/{int(1/frac)}s"
+                    else:
+                        exif_data['shutter_speed'] = f"{value}s"
+
+        return exif_data
+    except Exception as e:
+        print(f"Error extracting EXIF from {image_path}: {e}")
+        return {}
+
+
 @content_bp.route("/static/")
 @content_bp.route("/static/<path:path>/")
 def browse_static_directory(path=""):
@@ -75,7 +146,7 @@ def browse_static_directory(path=""):
     )
 
 
-@content_bp.route("/static/data/<path:path>")
+@content_bp.route("/data/<path:path>")
 def serve_data_file(path):
     """Serve static files from the data directory."""
     from flask import make_response
@@ -93,7 +164,6 @@ def serve_data_file(path):
         ".jpg",
         ".jpeg",
         ".png",
-        ".gif",
         ".webp",
         ".svg",
         ".ico",
@@ -107,6 +177,138 @@ def serve_data_file(path):
     return response
 
 
+@content_bp.route("/<path:path>.md")
+def serve_content_markdown(path):
+    """Serve the raw markdown source of the content."""
+    from flask import make_response
+
+    # Remove trailing slash for consistency
+    path = path.rstrip("/")
+
+    # Check for the markdown file
+    file_path = DATA_DIR / f"{path}.md"
+
+    if not file_path.exists():
+        abort(404)
+
+    # Read the raw markdown content
+    markdown_content = file_path.read_text()
+
+    # Create response with proper headers
+    response = make_response(markdown_content)
+    response.headers['Content-Type'] = 'text/plain; charset=utf-8'
+    response.headers['Content-Disposition'] = f'inline; filename="{path.split("/")[-1]}.md"'
+
+    return response
+
+
+@content_bp.route("/<path:path>.pdf")
+def serve_content_pdf(path):
+    """Generate and serve a PDF version of the content."""
+    from ..core.markdown import render_markdown_file
+    from flask import make_response, request
+    import io
+
+    # Check if WeasyPrint is available
+    try:
+        from weasyprint import HTML
+        from weasyprint.text.fonts import FontConfiguration
+        WEASYPRINT_AVAILABLE = True
+    except (ImportError, OSError) as e:
+        # WeasyPrint or its system dependencies are not available
+        print(f"WeasyPrint not available: {e}")
+        WEASYPRINT_AVAILABLE = False
+
+    # Remove trailing slash for consistency
+    path = path.rstrip("/")
+
+    # Check for the markdown file
+    file_path = DATA_DIR / f"{path}.md"
+
+    if not file_path.exists():
+        abort(404)
+
+    # If WeasyPrint is not available, return a helpful error page
+    if not WEASYPRINT_AVAILABLE:
+        from datetime import datetime
+        error_html = render_template(
+            "error.html",
+            title="PDF Generation Unavailable",
+            message="PDF generation requires WeasyPrint and system dependencies to be installed.",
+            details="Please see the README for installation instructions, or use the browser's print dialog (Cmd+P / Ctrl+P) to save as PDF.",
+            current_year=datetime.now().year,
+        )
+        response = make_response(error_html, 503)
+        return response
+
+    # Render the markdown content
+    content_data = render_markdown_file(file_path)
+
+    # Calculate themes for this article
+    article_themes = []
+    try:
+        import re
+        raw_content = file_path.read_text()
+        content_lower = raw_content.lower()
+
+        theme_patterns = {
+            "consciousness": "Exploring the nature of awareness, identity, and the recursive loop between code and mind.",
+            "technology": "Human-first approaches to building tools that serve rather than exploit.",
+            "mental health": "Reality-checking, debugging consciousness, and navigating neurodivergence.",
+            "programming": "Code as meditation, API design as compassion, and software as spiritual practice.",
+            "AI": "Human-AI collaboration as partnership, not replacement—augmenting consciousness through digital minds.",
+            "human centered": "Designing systems that adapt to human mental models rather than forcing humans to adapt.",
+            "recursive": "The feedback loops between programmer consciousness, code patterns, and collective impact.",
+            "spiritual": "Technical work as contemplative practice—finding transcendence in systematicity.",
+            "mindful": "Bringing awareness and intentionality to the craft of building software.",
+            "contemplative": "Reflective approaches to technology, blending Eastern wisdom with Western pragmatism.",
+        }
+
+        for theme_name, description in theme_patterns.items():
+            regex_pattern = theme_name.replace(" ", r"[- ]")
+            if re.search(regex_pattern, content_lower):
+                article_themes.append({
+                    "name": theme_name,
+                    "description": description
+                })
+    except Exception as e:
+        print(f"Error calculating themes: {e}")
+
+    # Render HTML for PDF
+    from datetime import datetime
+    html_content = render_template(
+        "pdf.html",
+        content=content_data["content"],
+        title=content_data["title"],
+        metadata=content_data["metadata"],
+        current_year=datetime.now().year,
+        reading_time=content_data.get("reading_time"),
+        word_count=content_data.get("word_count"),
+        article_themes=article_themes,
+        unique_icon=content_data.get("unique_icon"),
+    )
+
+    # Generate PDF
+    font_config = FontConfiguration()
+
+    # Get the base URL for resolving relative URLs in CSS/images
+    base_url = request.url_root
+
+    pdf_file = io.BytesIO()
+    HTML(string=html_content, base_url=base_url).write_pdf(
+        pdf_file,
+        font_config=font_config
+    )
+    pdf_file.seek(0)
+
+    # Create response
+    response = make_response(pdf_file.read())
+    response.headers['Content-Type'] = 'application/pdf'
+    response.headers['Content-Disposition'] = f'attachment; filename="{path.split("/")[-1]}.pdf"'
+
+    return response
+
+
 @content_bp.route("/<path:path>")
 def serve_content(path):
     """Serve content from markdown files or directories."""
@@ -116,6 +318,20 @@ def serve_content(path):
 
     # Remove trailing slash for consistency
     path = path.rstrip("/")
+
+    # Check if this is an image file request
+    raw_file_path = DATA_DIR / path
+    if raw_file_path.exists() and raw_file_path.is_file():
+        image_extensions = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.ico'}
+        suffix = raw_file_path.suffix.lower()
+        if suffix in image_extensions:
+            # Serve the image file directly
+            from flask import make_response
+            # Use absolute path for send_from_directory
+            abs_data_dir = DATA_DIR.resolve()
+            response = make_response(send_from_directory(abs_data_dir, path))
+            response.headers["Cache-Control"] = "public, max-age=604800"
+            return response
 
     # Check for various file patterns
     file_path = DATA_DIR / f"{path}.md"
@@ -161,7 +377,8 @@ def serve_content(path):
             except Exception as e:
                 print(f"Error calculating themes: {e}")
             
-            return render_template(
+            from flask import make_response
+            response = make_response(render_template(
                 "post.html",
                 content=content_data["content"],
                 title=content_data["title"],
@@ -175,10 +392,44 @@ def serve_content(path):
                 series_name=content_data.get("series_name"),
                 unique_icon=content_data.get("unique_icon"),
                 article_themes=article_themes,
-            )
+            ))
+
+            # Add Link headers for alternate formats
+            response.headers.add('Link', f'</{path}.pdf>; rel="alternate"; type="application/pdf"')
+            response.headers.add('Link', f'</{path}.md>; rel="alternate"; type="text/plain"')
+
+            return response
         else:
             # Show directory listing
             items = get_directory_structure(dir_path)
+
+            # Detect if this is an image gallery
+            image_extensions = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'}
+            image_items = []
+            for item in items:
+                if not item['is_dir']:
+                    item_path = DATA_DIR / item['url_path'].lstrip('/')
+                    if item_path.suffix.lower() in image_extensions:
+                        # Mark as image and create path that will be caught by serve_data_file
+                        item['is_image'] = True
+                        # The path is the URL path which will be handled by the catch-all route
+                        # We need to mark these to be served as files
+                        item['static_path'] = item['url_path']
+                        item['is_data_file'] = True
+
+                        # Extract EXIF data for JPEGs
+                        if item_path.suffix.lower() in {'.jpg', '.jpeg'}:
+                            item['exif'] = extract_exif_data(item_path)
+                        else:
+                            item['exif'] = {}
+
+                        image_items.append(item)
+                    else:
+                        item['is_image'] = False
+                else:
+                    item['is_image'] = False
+
+            is_image_gallery = len(image_items) > 0
 
             # Create breadcrumb navigation
             parts = path.split("/")
@@ -203,6 +454,8 @@ def serve_content(path):
                 breadcrumb=breadcrumb,
                 current_year=datetime.now().year,
                 title=title,
+                is_image_gallery=is_image_gallery,
+                image_items=image_items,
             )
 
     # Handle markdown files
@@ -260,7 +513,8 @@ def serve_content(path):
         except Exception as e:
             print(f"Error calculating themes: {e}")
 
-        return render_template(
+        from flask import make_response
+        response = make_response(render_template(
             "post.html",
             content=content_data["content"],
             title=content_data["title"],
@@ -275,7 +529,13 @@ def serve_content(path):
             related_posts=related_posts,
             adjacent_posts=adjacent_posts,
             article_themes=article_themes,
-        )
+        ))
+
+        # Add Link headers for alternate formats
+        response.headers.add('Link', f'</{path}.pdf>; rel="alternate"; type="application/pdf"')
+        response.headers.add('Link', f'</{path}.md>; rel="alternate"; type="text/plain"')
+
+        return response
 
     # Check for redirects or alternative paths
     # For example, handle /archive/2025 -> show year archive

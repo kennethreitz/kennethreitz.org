@@ -187,10 +187,33 @@ def register_context_processors(app):
                 }
             }
 
+    @app.context_processor
+    def inject_pdf_availability():
+        """Check if PDF generation is available."""
+        try:
+            from weasyprint import HTML
+            from weasyprint.text.fonts import FontConfiguration
+            return {"pdf_available": True}
+        except (ImportError, OSError):
+            return {"pdf_available": False}
+
     @app.after_request
-    def add_immediate_visibility(response):
-        """Add script to immediately show content to prevent invisible page."""
+    def add_security_headers(response):
+        """Add security and content headers to all responses."""
+        # Security headers
+        response.headers['X-Content-Type-Options'] = 'nosniff'
+        response.headers['X-Frame-Options'] = 'SAMEORIGIN'
+        response.headers['Referrer-Policy'] = 'strict-origin-when-cross-origin'
+        response.headers['Permissions-Policy'] = 'interest-cohort=()'  # Disable FLoC
+
+        # Content headers for HTML responses
         if response.content_type and "text/html" in response.content_type:
+            response.headers['Content-Language'] = 'en'
+
+            # Add cache control for HTML (short cache, must revalidate)
+            if not response.headers.get('Cache-Control'):
+                response.headers['Cache-Control'] = 'public, max-age=300, must-revalidate'
+
             # Inject a script right after <head> to immediately show content
             content = response.get_data(as_text=True)
             if "<head>" in content and "visibility: hidden" in content:
@@ -201,4 +224,5 @@ def register_context_processors(app):
                 </script>"""
                 content = content.replace("<head>", "<head>" + immediate_script)
                 response.set_data(content)
+
         return response

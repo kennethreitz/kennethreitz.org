@@ -186,6 +186,25 @@
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
+.lightbox-exif {
+    color: #aaa;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    line-height: 1.6;
+}
+
+.lightbox-exif .exif-row {
+    margin: 0.25rem 0;
+}
+
+.lightbox-exif .exif-label {
+    font-variant: small-caps;
+    color: #888;
+    margin-right: 0.5rem;
+}
+
 .lightbox-close {
     position: absolute;
     top: 20px;
@@ -382,7 +401,10 @@ body.dark-mode .parent-link:hover {
     <div class="gallery-grid">
         {% for item in image_items %}
         <div class="gallery-item">
-            <img src="{{ item.static_path }}" alt="{{ item.display_name }}" class="gallery-thumbnail" data-full="{{ item.static_path }}" data-title="{{ item.display_name }}">
+            <img src="{{ item.static_path }}" alt="{{ item.display_name }}" class="gallery-thumbnail"
+                 data-full="{{ item.static_path }}"
+                 data-title="{{ item.display_name }}"
+                 data-exif="{{ item.exif | tojson | forceescape }}">
         </div>
         {% endfor %}
     </div>
@@ -466,6 +488,7 @@ body.dark-mode .parent-link:hover {
     <div class="lightbox-content">
         <img id="lightbox-image" class="lightbox-image" src="" alt="">
         <div id="lightbox-title" class="lightbox-title"></div>
+        <div id="lightbox-exif" class="lightbox-exif"></div>
     </div>
 </div>
 
@@ -479,12 +502,21 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (galleryItems.length > 0) {
         // Build images array
-        images = Array.from(galleryItems).map(img => ({
-            src: img.dataset.full,
-            title: img.dataset.title,
-            alt: img.alt
-        }));
-        
+        images = Array.from(galleryItems).map(img => {
+            let exif = {};
+            try {
+                exif = JSON.parse(img.dataset.exif || '{}');
+            } catch (e) {
+                console.error('Error parsing EXIF data:', e);
+            }
+            return {
+                src: img.dataset.full,
+                title: img.dataset.title,
+                alt: img.alt,
+                exif: exif
+            };
+        });
+
         // Add click handlers
         galleryItems.forEach((img, index) => {
             img.addEventListener('click', () => openLightbox(index));
@@ -545,15 +577,55 @@ function updateLightboxImage() {
     const image = images[currentImageIndex];
     const lightboxImage = document.getElementById('lightbox-image');
     const lightboxTitle = document.getElementById('lightbox-title');
-    
+    const lightboxExif = document.getElementById('lightbox-exif');
+
     lightboxImage.src = image.src;
     lightboxImage.alt = image.alt;
     lightboxTitle.textContent = image.title;
-    
+
+    // Build EXIF display
+    const exif = image.exif || {};
+    let exifHtml = '';
+
+    // Camera info
+    if (exif.camera_make || exif.camera_model) {
+        const camera = [exif.camera_make, exif.camera_model].filter(Boolean).join(' ');
+        exifHtml += `<div class="exif-row"><span class="exif-label">Camera:</span>${camera}</div>`;
+    }
+
+    // Lens
+    if (exif.lens) {
+        exifHtml += `<div class="exif-row"><span class="exif-label">Lens:</span>${exif.lens}</div>`;
+    }
+
+    // Settings (on one line if all present)
+    const settings = [];
+    if (exif.focal_length) settings.push(exif.focal_length);
+    if (exif.aperture) settings.push(exif.aperture);
+    if (exif.shutter_speed) settings.push(exif.shutter_speed);
+    if (exif.iso) settings.push(exif.iso);
+
+    if (settings.length > 0) {
+        exifHtml += `<div class="exif-row"><span class="exif-label">Settings:</span>${settings.join(' • ')}</div>`;
+    }
+
+    // Date taken
+    if (exif.date_original || exif.date_taken) {
+        const date = exif.date_original || exif.date_taken;
+        exifHtml += `<div class="exif-row"><span class="exif-label">Taken:</span>${date}</div>`;
+    }
+
+    // Dimensions
+    if (exif.width && exif.height) {
+        exifHtml += `<div class="exif-row"><span class="exif-label">Size:</span>${exif.width} × ${exif.height}</div>`;
+    }
+
+    lightboxExif.innerHTML = exifHtml;
+
     // Update navigation visibility
     const prevBtn = document.querySelector('.lightbox-prev');
     const nextBtn = document.querySelector('.lightbox-next');
-    
+
     if (images.length <= 1) {
         prevBtn.style.display = 'none';
         nextBtn.style.display = 'none';
