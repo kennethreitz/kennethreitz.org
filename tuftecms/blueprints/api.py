@@ -135,11 +135,12 @@ def get_icon(article_path):
     """Generate and return an SVG icon for a given article."""
     from pathlib import Path
 
-    from ..utils.content import get_cached_markdown_title
+    from ..utils.content import get_cached_markdown_title, generate_folder_icon
     from ..utils.svg_icons import generate_unique_svg_icon
 
     # Try to get the actual article title for better icon generation
     title = article_path  # fallback to path
+    is_folder = False
 
     # Check if this is a markdown file path
     data_path = Path("data") / f"{article_path}.md"
@@ -149,11 +150,26 @@ def get_icon(article_path):
         if cached_title:
             title = cached_title
     else:
-        # For directory paths, clean up the path for title
-        title = article_path.split("/")[-1].replace("-", " ").replace("_", " ").title()
+        # Check if it's a directory with index.md
+        dir_path = Path("data") / article_path
+        if dir_path.is_dir():
+            index_file = dir_path / "index.md"
+            if index_file.exists():
+                is_folder = True
+                cached_title = get_cached_markdown_title(index_file)
+                if cached_title:
+                    title = cached_title
+            else:
+                title = article_path.split("/")[-1].replace("-", " ").replace("_", " ").title()
+        else:
+            # For paths without files, clean up the path for title
+            title = article_path.split("/")[-1].replace("-", " ").replace("_", " ").title()
 
-    # Generate icon based on actual title
-    icon_data = generate_unique_svg_icon(title, size=24)
+    # Generate icon based on type and title
+    if is_folder:
+        icon_data = generate_folder_icon(title, size=24)
+    else:
+        icon_data = generate_unique_svg_icon(title, size=24)
 
     return jsonify({"success": True, "path": article_path, "icon": icon_data})
 
@@ -225,3 +241,60 @@ def debug_cache():
             "lru_cache_info": lru_cache_info,
         }
     )
+
+
+@api_bp.route("/directory-tree")
+def directory_tree():
+    """API endpoint to get flat directory listing."""
+    from ..utils.content import get_cached_markdown_title, generate_folder_icon
+    from ..utils.svg_icons import generate_unique_svg_icon
+
+    folders = []
+    files = []
+
+    try:
+        for item in sorted(DATA_DIR.iterdir()):
+            # Skip hidden files and special directories
+            if item.name.startswith('.') or item.name in ['__pycache__', 'node_modules']:
+                continue
+
+            # Build URL path
+            relative_path = item.relative_to(DATA_DIR)
+            url_path = '/' + str(relative_path)
+
+            if item.is_dir():
+                # For folders, try to get title from index.md
+                display_name = item.name
+                index_file = item / 'index.md'
+                if index_file.exists():
+                    title = get_cached_markdown_title(index_file)
+                    if title:
+                        display_name = title
+
+                icon_svg = generate_folder_icon(display_name, size=18)
+                folders.append({
+                    'name': item.name,
+                    'path': url_path,
+                    'is_dir': True,
+                    'icon': icon_svg
+                })
+            elif item.suffix == '.md' and item.name != 'index.md':
+                # For markdown files, get title from the file
+                display_name = item.stem
+                title = get_cached_markdown_title(item)
+                if title:
+                    display_name = title
+
+                icon_svg = generate_unique_svg_icon(display_name, size=18)
+                files.append({
+                    'name': item.stem,
+                    'path': url_path.replace('.md', ''),
+                    'is_dir': False,
+                    'icon': icon_svg
+                })
+    except (PermissionError, OSError):
+        pass
+
+    # Folders first, then files
+    items = folders + files
+    return jsonify({'items': items})
