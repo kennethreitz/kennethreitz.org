@@ -71,18 +71,20 @@ def extract_exif_data(image_path):
                     exif_data['iso'] = f"ISO {value}"
                 elif tag == 'ExposureTime':
                     # Convert to readable format as fraction
+                    from fractions import Fraction
+
                     if isinstance(value, tuple):
-                        # Keep as fraction
-                        from fractions import Fraction
                         frac = Fraction(value[0], value[1])
-                        if frac >= 1:
-                            # For exposures >= 1 second, show as decimal
-                            exif_data['shutter_speed'] = f"{float(frac):.1f}s"
-                        else:
-                            # For fast shutter speeds, show as fraction
-                            exif_data['shutter_speed'] = f"1/{int(1/frac)}s"
                     else:
-                        exif_data['shutter_speed'] = f"{value}s"
+                        # Convert float to fraction
+                        frac = Fraction(value).limit_denominator(8000)
+
+                    if frac >= 1:
+                        # For exposures >= 1 second, show as decimal
+                        exif_data['shutter_speed'] = f"{float(frac):.1f}s"
+                    else:
+                        # For fast shutter speeds, show as fraction
+                        exif_data['shutter_speed'] = f"1/{int(1/frac)}s"
 
         return exif_data
     except Exception as e:
