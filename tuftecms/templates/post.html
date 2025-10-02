@@ -536,7 +536,271 @@
         line-height: 1.2;
     }
 
+    /* Table of Contents */
+    .table-of-contents {
+        position: sticky;
+        top: 2rem;
+        float: left;
+        width: 180px;
+        margin-left: -180px;
+        margin-top: 1em;
+        padding-left: 2rem;
+        font-size: 1.1rem;
+        line-height: 1.3;
+        max-height: calc(100vh - 4rem);
+        overflow-y: auto;
+        overflow-wrap: break-word;
+        transition: width 0.3s ease, margin-left 0.3s ease;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+
+    .table-of-contents::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+
+    .table-of-contents.collapsed .toc-list {
+        display: none;
+    }
+
+    .toc-toggle {
+        background: none;
+        border: none;
+        color: #999;
+        cursor: pointer;
+        font-size: 0.9rem;
+        padding: 0.25rem 0;
+        margin-bottom: 0.5rem;
+        display: block;
+        transition: color 0.2s ease;
+        width: 100%;
+        text-align: left;
+        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        font-variant: small-caps;
+        letter-spacing: 0.05em;
+    }
+
+    .toc-toggle:hover {
+        color: #555;
+    }
+
+    body.dark-mode .toc-toggle {
+        color: #666;
+    }
+
+    body.dark-mode .toc-toggle:hover {
+        color: #aaa;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .toc-toggle {
+            color: #666;
+        }
+
+        .toc-toggle:hover {
+            color: #aaa;
+        }
+    }
+
+    /* Shift article content right when TOC is present and expanded */
+    body:has(.table-of-contents:not(.collapsed)) article section {
+        margin-left: 80px;
+    }
+
+    body:has(.table-of-contents:not(.collapsed)) .post-title-container {
+        margin-left: 80px;
+    }
+
+    body:has(.table-of-contents:not(.collapsed)) .post-subtitle {
+        margin-left: 80px;
+    }
+
+    .toc-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .toc-item {
+        margin-bottom: 0.5rem;
+    }
+
+    .toc-link {
+        color: #aaa;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        display: block;
+        word-wrap: break-word;
+        position: relative;
+        padding-left: 0.75rem;
+    }
+
+    .toc-link::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 0;
+        height: 2px;
+        background: #666;
+        transition: width 0.2s ease;
+    }
+
+    .toc-link:hover {
+        color: #555;
+    }
+
+    .toc-link.active {
+        color: #222;
+    }
+
+    /* Light mode specific styles */
+    body.light-mode .toc-link {
+        color: #999;
+    }
+
+    body.light-mode .toc-link:hover {
+        color: #666;
+    }
+
+    body.light-mode .toc-link.active {
+        color: #333;
+        font-weight: 500;
+    }
+
+    .toc-link.active::before {
+        width: 0.4rem;
+    }
+
+    .toc-h1 {
+        display: none;
+    }
+
+    .toc-h1.expanded {
+        display: block;
+    }
+
+    .toc-h1 .toc-link {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        cursor: pointer;
+    }
+
+    .toc-h1 .toc-link::after {
+        content: ' ▾';
+        font-size: 0.8rem;
+        opacity: 0.6;
+    }
+
+    .toc-h1.collapsed .toc-link::after {
+        content: ' ▸';
+    }
+
+    .toc-h2 .toc-link {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .toc-h3 .toc-link {
+        padding-left: 0.5rem;
+        font-size: 0.95rem;
+    }
+
+    .toc-h4 .toc-link {
+        padding-left: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .toc-h1.collapsed ~ .toc-item {
+        display: none;
+    }
+
+    body.dark-mode .toc-link {
+        color: #555;
+    }
+
+    body.dark-mode .toc-link:hover {
+        color: #aaa;
+    }
+
+    body.dark-mode .toc-link.active {
+        color: #e5e5e5;
+        font-weight: 600;
+    }
+
+    body.dark-mode .toc-link::before {
+        background: #999;
+    }
+
+    body.dark-mode .toc-link.active::before {
+        background: #e5e5e5;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .toc-link {
+            color: #555;
+        }
+
+        .toc-link:hover {
+            color: #aaa;
+        }
+
+        .toc-link.active {
+            color: #e5e5e5;
+            font-weight: 600;
+        }
+
+        .toc-link::before {
+            background: #999;
+        }
+
+        .toc-link.active::before {
+            background: #e5e5e5;
+        }
+    }
+
+    @media (max-width: 1400px) {
+        .table-of-contents {
+            margin-left: -150px;
+            width: 150px;
+            padding-left: 1rem;
+        }
+
+        body:has(.table-of-contents:not(.collapsed)) article section,
+        body:has(.table-of-contents:not(.collapsed)) .post-title-container,
+        body:has(.table-of-contents:not(.collapsed)) .post-subtitle {
+            margin-left: 50px;
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .table-of-contents {
+            margin-left: -100px;
+            width: 100px;
+            padding-left: 0.5rem;
+        }
+
+        body:has(.table-of-contents:not(.collapsed)) article section,
+        body:has(.table-of-contents:not(.collapsed)) .post-title-container,
+        body:has(.table-of-contents:not(.collapsed)) .post-subtitle {
+            margin-left: 40px;
+        }
+    }
+
     @media (max-width: 760px) {
+        .table-of-contents {
+            display: none;
+        }
+
+        /* Remove shifts when TOC is hidden */
+        body:has(.table-of-contents:not(.collapsed)) article section,
+        body:has(.table-of-contents:not(.collapsed)) .post-title-container,
+        body:has(.table-of-contents:not(.collapsed)) .post-subtitle {
+            margin-left: 0;
+        }
+
         article h1 {
             font-size: 2.5rem;
             width: 100%;
@@ -643,17 +907,107 @@ document.addEventListener('DOMContentLoaded', function() {
     // Themes dropdown
     const themesButton = document.querySelector('.themes-badge');
     const themesDropdown = document.querySelector('.themes-dropdown-content');
-    
+
     if (themesButton && themesDropdown) {
         themesButton.addEventListener('click', function(e) {
             e.stopPropagation();
             themesDropdown.classList.toggle('show');
         });
-        
+
         // Close dropdown when clicking outside
         document.addEventListener('click', function() {
             themesDropdown.classList.remove('show');
         });
+    }
+
+    // Build table of contents
+    const article = document.querySelector('article section');
+    if (article) {
+        const headings = article.querySelectorAll('h1, h2, h3, h4');
+
+        if (headings.length > 0) {
+            const toc = document.createElement('nav');
+            toc.className = 'table-of-contents collapsed';
+
+            // Add toggle button
+            const toggleBtn = document.createElement('button');
+            toggleBtn.className = 'toc-toggle';
+            toggleBtn.innerHTML = '▸ Contents';
+            toggleBtn.setAttribute('aria-label', 'Toggle table of contents');
+            toggleBtn.addEventListener('click', () => {
+                toc.classList.toggle('collapsed');
+                toggleBtn.innerHTML = toc.classList.contains('collapsed') ? '▸ Contents' : '▾ Contents';
+            });
+            toc.appendChild(toggleBtn);
+
+            const tocList = document.createElement('ul');
+            tocList.className = 'toc-list';
+            const tocLinks = [];
+            let h1Item = null;
+
+            headings.forEach((heading, index) => {
+                if (!heading.id) {
+                    heading.id = `heading-${index}`;
+                }
+
+                const li = document.createElement('li');
+                li.className = `toc-item toc-${heading.tagName.toLowerCase()}`;
+
+                const link = document.createElement('a');
+                link.href = `#${heading.id}`;
+                link.textContent = heading.textContent;
+                link.className = 'toc-link';
+                link.dataset.headingId = heading.id;
+
+                // For H1, make it expand/collapse the TOC
+                if (heading.tagName.toLowerCase() === 'h1') {
+                    h1Item = li;
+                    li.classList.add('expanded');
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        li.classList.toggle('collapsed');
+                        li.classList.toggle('expanded');
+                    });
+                } else {
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        history.pushState(null, '', `#${heading.id}`);
+                    });
+                }
+
+                li.appendChild(link);
+                tocList.appendChild(li);
+                if (heading.tagName.toLowerCase() !== 'h1') {
+                    tocLinks.push(link);
+                }
+            });
+
+            toc.appendChild(tocList);
+
+            // Insert TOC before the article section
+            article.parentElement.insertBefore(toc, article);
+
+            // Intersection observer for active highlighting
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    const id = entry.target.id;
+                    const tocLink = tocList.querySelector(`a[data-heading-id="${id}"]`);
+
+                    if (entry.isIntersecting) {
+                        tocLinks.forEach(link => link.classList.remove('active'));
+                        if (tocLink) {
+                            tocLink.classList.add('active');
+                        }
+                    }
+                });
+            }, {
+                rootMargin: '-20% 0px -35% 0px',
+                threshold: 0
+            });
+
+            headings.forEach(heading => observer.observe(heading));
+        }
     }
 });
 </script>
