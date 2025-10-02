@@ -105,6 +105,7 @@
 /* Image Gallery Styles */
 .image-gallery {
     margin: 2rem 0;
+    padding: 0 2rem;
 }
 
 .gallery-grid {
@@ -266,6 +267,10 @@
 }
 
 @media (max-width: 760px) {
+    .image-gallery {
+        padding: 0 1rem;
+    }
+
     .gallery-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 0.5rem;
