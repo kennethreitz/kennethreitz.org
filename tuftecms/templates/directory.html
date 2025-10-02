@@ -381,12 +381,34 @@ body.dark-mode .parent-link:hover {
         color: #ccc;
     }
 }
+
+/* Directory title icon */
+.directory-title-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+@media (max-width: 760px) {
+    .directory-title-icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 0.4rem;
+    }
+}
 </style>
 {% endblock %}
 
 {% block content %}
 {% if current_path and current_path != '' %}
-    <h1>{{ current_path.split('/')[-1] if '/' in current_path else current_path }}</h1>
+    <h1>
+        {% if folder_icon %}
+        <img src="{{ folder_icon }}" alt="Folder icon" class="directory-title-icon">
+        {% endif %}
+        {{ current_path.split('/')[-1] if '/' in current_path else current_path }}
+    </h1>
 {% endif %}
 
 {% if index_content and content_position == 'top' %}

@@ -449,6 +449,10 @@ def serve_content(path):
             # Get title from directory name
             title = path.split("/")[-1].replace("-", " ").replace("_", " ").title()
 
+            # Generate folder icon for this directory
+            from ..utils.content import generate_folder_icon
+            folder_icon = generate_folder_icon(title, size=32)
+
             return render_template(
                 "directory.html",
                 items=items,
@@ -458,6 +462,7 @@ def serve_content(path):
                 title=title,
                 is_image_gallery=is_image_gallery,
                 image_items=image_items,
+                folder_icon=folder_icon,
             )
 
     # Handle markdown files
