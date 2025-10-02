@@ -1,3 +1,5 @@
+# Music Projects
+
 I am an electronic musician, named **Infinite State**<label for="sn-1" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-1" class="margin-toggle"/>
 <span class="sidenote">The name "Infinite State" reflects both musical concepts (endless sonic possibilities) and computing concepts (state machines), bridging Kenneth's dual interests in technology and electronic music composition.</span>, on hiatus.

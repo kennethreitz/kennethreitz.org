@@ -1,3 +1,5 @@
+# Software Projects
+
 Here is a list of some of my software projects.
 
 You can find more projects on my [GitHub profile](https://github.com/kennethreitz).<label for="sn-github" class="margin-toggle sidenote-number"></label>
