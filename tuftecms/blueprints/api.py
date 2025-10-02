@@ -264,7 +264,7 @@ def directory_tree():
 
             if item.is_dir():
                 # For folders, try to get title from index.md
-                display_name = item.name
+                display_name = item.name.replace("-", " ").replace("_", " ").title()
                 index_file = item / 'index.md'
                 if index_file.exists():
                     title = get_cached_markdown_title(index_file)
