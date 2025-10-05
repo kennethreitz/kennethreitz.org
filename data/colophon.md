@@ -79,7 +79,7 @@ The words are mine. Feel free to be inspired by them, but please don't wholesale
 
 The code, however, is open source. You can find the full source code on [GitHub](https://github.com/kennethreitz/kennethreitz.org).<label for="sn-open-source" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-open-source" class="margin-toggle"/>
-<span class="sidenote">The repository includes TufteCMS—the full Flask CMS powering this site—with procedural icon generation, intelligent caching, theme detection, search with autocomplete, and all the contemplative digital garden infrastructure. Available on PyPI as `tuftecms` for anyone wanting to build their own version.</span> The Flask app, the SVG generation algorithms, the caching system, the theme detection — all of it. Build your own contemplative digital garden.
+<span class="sidenote">The repository includes TufteCMS—the full Flask CMS powering this site—with procedural icon generation, intelligent caching, theme detection, search with autocomplete, and all the contemplative digital garden infrastructure. Clone it, fork it, make it your own.</span> The Flask app, the SVG generation algorithms, the caching system, the theme detection — all of it. Build your own contemplative digital garden.
 
 ## The Future
 
