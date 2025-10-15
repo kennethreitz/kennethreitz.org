@@ -1,4 +1,4 @@
-FROM astral/uv:python3.13-bookworm
+FROM astral/uv:python3.14-bookworm
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \

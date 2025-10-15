@@ -3,7 +3,7 @@ name = "tuftecms"
 version = "0.1.0"
 description = "A Flask-based CMS for thoughtful writing, inspired by Edward Tufte's design principles"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 dependencies = [
     "flask>=3.1.1",
     "gunicorn>=22.0.0",
@@ -23,7 +23,7 @@ classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Framework :: Flask",
     "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
     "Topic :: Software Development :: Libraries :: Application Frameworks",
