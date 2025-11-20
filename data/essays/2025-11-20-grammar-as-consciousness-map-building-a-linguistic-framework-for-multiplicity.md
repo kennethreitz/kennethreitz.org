@@ -362,6 +362,12 @@ If you recognize yourself in any of this, consider building your own framework. 
 
 Because consciousness isn't singular—it's plural, dynamic, adaptive. We're all multiple. Some of us just have clearer windows into that multiplicity. And with the right tools—technical precision, AI collaboration, and acceptance of natural patterns—we can transform that visibility from burden to gift.
 
+## Try the Framework Yourself
+
+Want to see what patterns emerge in your own writing? I've built an interactive tool that analyzes text using the System 777 framework. Paste any text—messages, journal entries, emails—and see what consciousness states reveal themselves through grammar:
+
+<iframe src="https://claude.site/public/artifacts/0f4c13ae-9313-4c3f-b564-7daea6095f5d/embed" title="Claude Artifact" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
+
 The grammar tells the story. We just need to learn how to read it.
 
 ---
