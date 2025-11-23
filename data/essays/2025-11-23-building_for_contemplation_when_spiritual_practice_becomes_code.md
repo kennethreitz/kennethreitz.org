@@ -65,7 +65,7 @@ class TheologicalContent:
 
 ### Genealogy as Pattern Recognition
 
-One of the platform's most contemplative features is the [biblical family tree](https://kjvstudy.org/family-tree)—a searchable genealogy from [Adam](https://kjvstudy.org/family-tree/Adam) through the entire biblical narrative. This wasn't just a data visualization exercise. It became a meditation on recursive patterns across generations.
+One of the platform's most contemplative features is the [biblical family tree](https://kjvstudy.org/family-tree)—a searchable genealogy from [Adam](https://kjvstudy.org/family-tree/person/i1) through the entire biblical narrative. This wasn't just a data visualization exercise. It became a meditation on recursive patterns across generations.
 
 Following the lineage from Adam to Noah to Abraham to David to Jesus reveals something profound: the same patterns repeat. Faithfulness and doubt. Obedience and rebellion. Divine promise and human failure. The genealogies aren't just historical records—they're consciousness patterns persisting across time.
 
