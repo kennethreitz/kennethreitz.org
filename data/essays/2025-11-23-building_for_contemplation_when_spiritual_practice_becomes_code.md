@@ -63,6 +63,50 @@ class TheologicalContent:
         self.reading_time = "as_long_as_needed"
 ```
 
+### Genealogy as Pattern Recognition
+
+One of the platform's most contemplative features is the [biblical family tree](https://kjvstudy.org/family-tree)—a searchable genealogy from [Adam](https://kjvstudy.org/family-tree/Adam) through the entire biblical narrative. This wasn't just a data visualization exercise. It became a meditation on recursive patterns across generations.
+
+Following the lineage from Adam to Noah to Abraham to David to Jesus reveals something profound: the same patterns repeat. Faithfulness and doubt. Obedience and rebellion. Divine promise and human failure. The genealogies aren't just historical records—they're consciousness patterns persisting across time.
+
+Building the search functionality meant encoding these relationships in data structures. But the process revealed theological insights:
+
+```python
+class BiblicalLineage:
+    """Tracing consciousness patterns through generations."""
+
+    def __init__(self, person):
+        self.name = person
+        self.parents = find_parents(person)
+        self.children = find_children(person)
+        self.notable_for = extract_significance(person)
+
+    def trace_to_adam(self):
+        """Every lineage traces back to origin."""
+        # Recursive search through ancestors
+        # Like consciousness tracing back to source
+        current = self
+        lineage = []
+
+        while current.parents:
+            lineage.append(current)
+            current = current.parents[0]  # Simplified
+
+        return lineage  # The pattern of inheritance
+
+    def find_pattern_echoes(self):
+        """Same struggles, different generations."""
+        # Abraham's faith crisis echoes in his descendants
+        # David's complexity repeats in his lineage
+        # The recursion isn't just genealogical
+        # It's theological, psychological, spiritual
+        pass
+```
+
+The genealogy tool enables a kind of contemplation impossible without computational support—seeing patterns across hundreds of people and thousands of years. [Searching for any biblical figure](https://kjvstudy.org/family-tree) reveals not just their immediate family but their place in the larger recursive pattern of redemption and failure that Scripture documents.
+
+This connects to why I'm drawn to biblical texts: they're honest about the recursion. The same problems repeat. The same grace returns. The same human consciousness struggles with the same fundamental questions across millennia. The family tree makes this visible in a way that reading linearly never could<label for="sn-genealogy-contemplation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-genealogy-contemplation" class="margin-toggle"/><span class="sidenote">The begats that most readers skip—"And Abraham begat Isaac, and Isaac begat Jacob"—become profound when you can visualize the entire tree and trace how characteristics, choices, and consequences echo through generations. Pattern recognition as spiritual practice.</span>.
+
 ### Server-Side Simplicity as Spiritual Discipline
 
 The entire platform runs on FastAPI with server-side rendering. No JavaScript frameworks. No client-side complexity. This isn't technical regression—it's conscious restraint. The simplicity serves multiple purposes:
