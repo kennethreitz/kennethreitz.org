@@ -67,7 +67,7 @@ class TheologicalContent:
 
 One of the platform's most contemplative features is the [biblical family tree](https://kjvstudy.org/family-tree)—a searchable genealogy from [Adam](https://kjvstudy.org/family-tree/person/i1) through the entire biblical narrative. This wasn't just a data visualization exercise. It became a meditation on recursive patterns across generations.
 
-Following the lineage from Adam to Noah to Abraham to David to Jesus reveals something profound: the same patterns repeat. Faithfulness and doubt. Obedience and rebellion. Divine promise and human failure. The genealogies aren't just historical records—they're consciousness patterns persisting across time.
+Following the lineage from [Adam](https://kjvstudy.org/family-tree/person/i1) to Noah to Abraham to David to [Solomon](https://kjvstudy.org/family-tree/person/i490) to Jesus reveals something profound: the same patterns repeat. Faithfulness and doubt. Obedience and rebellion. Divine promise and human failure. The genealogies aren't just historical records—they're consciousness patterns persisting across time.
 
 Building the search functionality meant encoding these relationships in data structures. But the process revealed theological insights:
 
@@ -97,7 +97,8 @@ class BiblicalLineage:
     def find_pattern_echoes(self):
         """Same struggles, different generations."""
         # Abraham's faith crisis echoes in his descendants
-        # David's complexity repeats in his lineage
+        # David's complexity repeats in Solomon
+        # Wisdom and folly in the same person
         # The recursion isn't just genealogical
         # It's theological, psychological, spiritual
         pass
