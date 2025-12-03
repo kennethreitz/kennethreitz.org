@@ -8,6 +8,8 @@
 {% block twitter_title %}{{ title }}{% endblock %}
 {% block twitter_description %}{% if description %}{{ description[:160] }}{% else %}{{ content | striptags | truncate(160) }}{% endif %}{% endblock %}
 
+{% block og_image_alt %}{{ title }} - An article by Kenneth Reitz{% endblock %}
+
 {% block description %}{% if description %}{{ description }}{% else %}{{ content | striptags | truncate(200) }}{% endif %}{% endblock %}
 
 {% block schema_type %}Article{% endblock %}
@@ -17,18 +19,24 @@
 
 {% block schema_extra %},
             "headline": "{{ title }}",
-            "articleSection": "{% if 'artificial-intelligence' in current_path %}AI & Consciousness{% elif 'essays' in current_path %}Essays{% else %}Writing{% endif %}",
+            "articleSection": "{% if 'artificial-intelligence' in current_path %}AI & Consciousness{% elif 'essays' in current_path %}Essays{% elif 'poetry' in current_path %}Poetry{% elif 'software' in current_path %}Software{% elif 'music' in current_path %}Music{% else %}Writing{% endif %}",
             "wordCount": {{ (content | length / 5) | int }},
             {% if metadata and metadata.date %}
             "datePublished": "{{ metadata.date[0] if metadata.date is iterable and metadata.date is not string else metadata.date }}",
             "dateModified": "{{ metadata.date[0] if metadata.date is iterable and metadata.date is not string else metadata.date }}",
             {% endif %}
-            "keywords": [
-                "{% if 'artificial-intelligence' in current_path %}artificial intelligence, consciousness, philosophy{% elif 'mental-health' in current_path %}mental health, bipolar disorder, tech industry{% elif 'essays' in current_path %}technology, software development, python{% else %}writing, thoughts{% endif %}"
-            ],
+            "keywords": {% if 'artificial-intelligence' in current_path %}["artificial intelligence", "consciousness", "AI philosophy", "human-AI collaboration", "machine learning"]{% elif 'mental-health' in current_path %}["mental health", "bipolar disorder", "neurodivergent", "tech industry wellness", "psychology"]{% elif 'poetry' in current_path %}["poetry", "creative writing", "verse", "contemplation", "language"]{% elif 'software' in current_path %}["software development", "Python", "open source", "programming", "API design"]{% elif 'music' in current_path %}["music", "audio", "creative arts", "sound design"]{% elif 'essays' in current_path %}["technology", "software development", "Python", "philosophy", "programming"]{% else %}["writing", "thoughts", "contemplation", "technology"]{% endif %},
+            "inLanguage": "en-US",
+            "isAccessibleForFree": true,
             "mainEntityOfPage": {
                 "@type": "WebPage",
                 "@id": "https://kennethreitz.org{{ current_path }}"
+            },
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://kennethreitz.org/static/images/social-card.jpg",
+                "width": 1200,
+                "height": 630
             }{% endblock %}
 
 {% block extra_head %}

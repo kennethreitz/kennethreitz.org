@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fffff8"/>
+      <stop offset="100%" style="stop-color:#f5f5e8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#333"/>
+      <stop offset="100%" style="stop-color:#666"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e8e8e0" stroke-width="0.5"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.5"/>
+
+  <!-- Decorative line -->
+  <rect x="80" y="200" width="120" height="4" fill="#333"/>
+
+  <!-- Main title -->
+  <text x="80" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="400" font-style="italic" fill="#111">Kenneth Reitz</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#666" letter-spacing="0.5">Software Developer &amp; Open Source Creator</text>
+
+  <!-- Description -->
+  <text x="80" y="420" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#888">
+    <tspan x="80" dy="0">Creator of Requests, Pipenv, and other Python tools</tspan>
+    <tspan x="80" dy="35">trusted by millions of developers worldwide.</tspan>
+  </text>
+
+  <!-- Bottom accent -->
+  <rect x="80" y="520" width="1040" height="2" fill="#ddd"/>
+
+  <!-- URL -->
+  <text x="80" y="570" font-family="'Courier New', monospace" font-size="20" fill="#999">kennethreitz.org</text>
+
+  <!-- Decorative element - recursive loop symbol -->
+  <g transform="translate(1000, 300)">
+    <circle cx="60" cy="0" r="50" fill="none" stroke="#ddd" stroke-width="2"/>
+    <circle cx="60" cy="0" r="35" fill="none" stroke="#ccc" stroke-width="1.5"/>
+    <circle cx="60" cy="0" r="20" fill="none" stroke="#bbb" stroke-width="1"/>
+    <circle cx="60" cy="0" r="5" fill="#999"/>
+  </g>
+</svg>

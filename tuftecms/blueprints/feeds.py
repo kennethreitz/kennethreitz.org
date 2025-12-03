@@ -6,6 +6,27 @@ from datetime import datetime
 feeds_bp = Blueprint("feeds", __name__)
 
 
+@feeds_bp.route("/robots.txt")
+def robots_txt():
+    """Generate robots.txt with sitemap reference."""
+    robots_content = """# Robots.txt for kennethreitz.org
+# Welcome, friendly crawlers!
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://kennethreitz.org/sitemap.xml
+
+# Crawl-delay suggestion (be gentle)
+Crawl-delay: 1
+
+# Disallow admin/internal paths (none currently, but good practice)
+# Disallow: /admin/
+"""
+    return Response(robots_content.strip(), mimetype="text/plain")
+
+
 @feeds_bp.route("/sitemap")
 def sitemap():
     """Generate HTML sitemap."""
