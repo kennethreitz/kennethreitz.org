@@ -278,17 +278,18 @@
     }
     
     body.light-mode .directory-listing {
-        border-top-color: #eee !important;
+        border-bottom-color: #eee !important;
     }
-    
-    body.light-mode .directory-listing h2 {
-        color: #111 !important;
+
+    body.light-mode .directory-listing h2,
+    body.light-mode .directory-about h2 {
+        color: #666 !important;
     }
-    
+
     body.light-mode .items-list a {
         color: #333 !important;
     }
-    
+
     body.light-mode .items-list a:hover {
         color: #000 !important;
     }
@@ -363,17 +364,18 @@
     }
     
     body.dark-mode .directory-listing {
-        border-top-color: #2a2a2a;
+        border-bottom-color: #2a2a2a;
     }
-    
-    body.dark-mode .directory-listing h2 {
-        color: #e5e5e5;
+
+    body.dark-mode .directory-listing h2,
+    body.dark-mode .directory-about h2 {
+        color: #999;
     }
-    
+
     body.dark-mode .items-list a {
         color: #ccc;
     }
-    
+
     body.dark-mode .items-list a:hover {
         color: #fff;
     }
@@ -468,50 +470,72 @@
         margin: 4rem 0;
     }
 
-    /* Directory listing */
+    /* Directory listing - appears at top when items exist */
     .directory-listing {
-        margin-top: 3rem;
-        padding-top: 2rem;
-        border-top: 1px solid #eee;
+        margin-bottom: 3rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #eee;
         width: 65%;
     }
-    
+
     .directory-listing h2 {
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        margin-bottom: 1.25rem;
         font-weight: 400;
+        font-variant: small-caps;
+        letter-spacing: 0.05em;
+        color: #666;
     }
-    
+
     .items-list {
         list-style: none;
         padding-left: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 0.75rem 1.5rem;
     }
-    
+
     .items-list li {
-        margin-bottom: 0.75rem;
+        margin-bottom: 0;
     }
-    
+
     .items-list a {
         display: flex;
         align-items: center;
-        gap: 0.75rem;
+        gap: 0.6rem;
         text-decoration: none;
         color: #333;
         transition: color 0.2s ease;
+        padding: 0.4rem 0;
     }
-    
+
     .items-list a:hover {
         color: #000;
     }
-    
+
     .item-icon {
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
         flex-shrink: 0;
     }
-    
+
     .item-name {
-        line-height: 1.2;
+        line-height: 1.3;
+        font-size: 0.95rem;
+    }
+
+    /* About section that follows directory listing */
+    .directory-about {
+        margin-top: 0;
+    }
+
+    .directory-about h2 {
+        font-size: 1.1rem;
+        margin-bottom: 1.25rem;
+        font-weight: 400;
+        font-variant: small-caps;
+        letter-spacing: 0.05em;
+        color: #666;
     }
 
     /* Parent navigation */
@@ -583,12 +607,17 @@
         
         .directory-listing {
             width: 100%;
-            margin-top: 2rem;
-            padding-top: 1.5rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
         }
-        
-        .directory-listing h2 {
-            font-size: 1.3rem;
+
+        .directory-listing h2,
+        .directory-about h2 {
+            font-size: 1rem;
+        }
+
+        .items-list {
+            grid-template-columns: 1fr;
         }
         
         .parent-navigation {
@@ -705,13 +734,9 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     {% endif %}
     
-    <section>
-        {{ content | safe }}
-    </section>
-    
     {% if items %}
     <div class="directory-listing">
-        <h2>Contents</h2>
+        <h2>In This Section</h2>
         <ul class="items-list">
             {% for item in items %}
             <li class="item {% if item.is_dir %}folder{% else %}file{% endif %}">
@@ -726,6 +751,16 @@ document.addEventListener('DOMContentLoaded', function() {
         </ul>
     </div>
     {% endif %}
+
+    {% if items and content and content|striptags|trim %}
+    <div class="directory-about">
+        <h2>About</h2>
+    </div>
+    {% endif %}
+
+    <section>
+        {{ content | safe }}
+    </section>
     
     {% if parent_directory %}
     <div class="parent-navigation">
