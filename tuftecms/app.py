@@ -3,16 +3,10 @@
 import os
 from pathlib import Path
 
-# Enable gevent async I/O optimizations
-import gevent
-from gevent import monkey
-
 from flask import Flask
 
 from .blueprints import api_bp, content_bp, feeds_bp, main_bp
 from .config import Config
-
-monkey.patch_all()  # Patch standard library for async I/O
 
 
 def warm_caches():

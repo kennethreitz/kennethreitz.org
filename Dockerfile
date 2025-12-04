@@ -26,5 +26,5 @@ RUN uv pip install . --system
 # Copy the rest of the application
 COPY . .
 
-# Run gunicorn directly (no need for uv run since we installed system-wide)
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--worker-class", "gevent", "--workers", "1", "--worker-connections", "1000", "--timeout", "60", "engine:app"]
+# Run uvicorn directly (no need for uv run since we installed system-wide)
+CMD ["uvicorn", "engine:app", "--host", "0.0.0.0", "--port", "8000"]

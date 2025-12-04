@@ -425,23 +425,18 @@
                     </div>
                 </nav>
 
-                {% if current_path or breadcrumbs %}
+                {% if current_path and current_path != '/' %}
+                {% set path_parts = current_path.strip('/').split('/') %}
+                {% if path_parts|length > 1 %}
                 <div class="breadcrumbs">
-                    <a href="/directory">~</a>
-                    {% if breadcrumbs %}
-                        {% for crumb in breadcrumbs %}
-                            <span class="breadcrumb-separator">/</span>
-                            <a href="{{ crumb.url }}">{{ crumb.name }}</a>
-                        {% endfor %}
-                    {% elif current_path %}
-                        {% set path_parts = current_path.strip('/').split('/') %}
-                        {% for part in path_parts if part %}
-                            <span class="breadcrumb-separator">/</span>
-                            {% set partial_path = '/' + path_parts[:loop.index]|join('/') %}
-                            <a href="{{ partial_path }}">{{ part }}</a>
-                        {% endfor %}
-                    {% endif %}
+                    <a href="/">~</a>
+                    {% for part in path_parts[:-1] %}
+                        <span class="breadcrumb-separator">/</span>
+                        {% set partial_path = '/' + path_parts[:loop.index]|join('/') %}
+                        <a href="{{ partial_path }}">{{ part|replace('-', ' ')|replace('_', ' ')|title }}</a>
+                    {% endfor %}
                 </div>
+                {% endif %}
                 {% endif %}
             </header>
 

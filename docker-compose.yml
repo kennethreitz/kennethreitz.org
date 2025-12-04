@@ -5,9 +5,11 @@ services:
       - "8000:8000"
     volumes:
       - ./data:/app/data
+      - ./tuftecms:/app/tuftecms
+      - ./engine.py:/app/engine.py
     environment:
       - FLASK_ENV=development
       - DISABLE_ANALYTICS=true
     restart: unless-stopped
-    # Use single worker for local development with markdown file watching
-    command: ["gunicorn", "--bind", "0.0.0.0:8000", "--worker-class", "gevent", "--workers", "1", "--worker-connections", "1000", "--timeout", "60", "--reload", "--reload-extra-file", "./data", "--reload-extra-file", "./tuftecms/templates", "engine:app"]
+    # Use uvicorn with auto-reload for development
+    command: ["uvicorn", "engine:app", "--host", "0.0.0.0", "--port", "8000", "--reload", "--reload-dir", "/app/tuftecms", "--reload-dir", "/app/data"]
