@@ -119,8 +119,4 @@ The technology disappears. What remains is the poetry.
 
 *The Becoming* is available now on [Amazon](https://amzn.to/4qPQIH3). The full collection is free to read at [poemsbysarah.com](https://poemsbysarah.com).
 
----
-
 *January 2026*
-
-*Built with Claude Code, WeasyPrint, and love.*
