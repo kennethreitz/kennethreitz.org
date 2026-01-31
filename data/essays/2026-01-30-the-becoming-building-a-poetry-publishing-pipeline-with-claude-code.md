@@ -101,7 +101,7 @@ I want to be specific about the division of labor, because I think it matters.
 
 **Sarah wrote every poem.** The words, the images, the emotional truth—that's entirely hers. Claude never touched the poetry itself.
 
-**I made every creative and editorial decision.** Which poems to include, how to order them, where to split long pieces, what the acts should be called, what the book should look like. Claude offered suggestions and analysis, but the curation was a human process.
+**We made every creative and editorial decision.** Which poems to include, how to order them, where to split long pieces, what the acts should be called, what the book should look like. Claude offered suggestions and analysis, but the curation was a human process.
 
 **Claude Code wrote the infrastructure.** The extraction scripts, the PDF generation pipeline, the website generator, the sentiment analysis tools, the cover design, the EPUB builder. I described what I wanted in conversation, Claude wrote the code, I ran it and we iterated. Thirteen scripts, 6,000 lines of Python, built over the course of a few sessions.
 
