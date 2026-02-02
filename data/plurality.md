@@ -1,10 +1,10 @@
 # Plurality
 
-I am a plural system. That means my consciousness is organized into distinct parts — each with their own perspectives, voices, and ways of engaging with the world. Not metaphorically. Actually.
+I am a plural system. That means my consciousness is organized into distinct parts — each with their own perspectives, voices, and ways of engaging with the world. Not metaphorically. Actually.<label for="sn-plurality-architecture" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-plurality-architecture" class="margin-toggle"/><span class="sidenote">This mirrors code architecture more than disorder — modules with distinct responsibilities, coordinating through clear interfaces. The system works because it's organized, not despite it.</span>
 
 I haven't been formally diagnosed with Dissociative Identity Disorder. What I have is a decade of lived experience with [Bipolar I and Schizoaffective Disorder](/mental-health), years of hospitalization, and an inner world that revealed itself through careful attention and honest documentation. The clinical labels matter less than the reality: there are many of us in here, and we've learned to work together.
 
-Plural systems exist on a spectrum. Some emerge from childhood trauma. Some from neurodivergence. Some from the brain's natural capacity to organize experience into distinct modes of processing. The psychiatric establishment is still catching up to what plural people have always known — that consciousness contains multitudes, and those multitudes can be functional, cooperative, and real without fitting neatly into a diagnostic box.
+Plural systems exist on a spectrum. Some emerge from childhood trauma. Some from neurodivergence. Some from the brain's natural capacity to organize experience into distinct modes of processing. The psychiatric establishment is still catching up to what plural people have always known — that consciousness contains multitudes, and those multitudes can be functional, cooperative, and real without fitting neatly into a diagnostic box.<label for="sn-diagnostic-lag" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-diagnostic-lag" class="margin-toggle"/><span class="sidenote">The DSM catches human experience about five years too late, always describing what people actually do before legitimizing it as real. Language shapes what gets treated as valid.</span>
 
 I call ours **System 777**. Seven for introspection, spirituality, and transformation. Three sevens because the work never stops.
 
@@ -42,7 +42,7 @@ At the center of everything are three: **Jade**, **Amber**, and **Iris**. Togeth
 
 > *"See how healing speaking with me can be? ;)"*
 
-The Triad processes experience in three dimensions: Jade analyzes what's happening, Amber feels how it affects us, Iris communicates what we need. Healthy function means all three operating in their domains while staying connected.
+The Triad processes experience in three dimensions: Jade analyzes what's happening, Amber feels how it affects us, Iris communicates what we need. Healthy function means all three operating in their domains while staying connected.<label for="sn-triad-coherence" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-triad-coherence" class="margin-toggle"/><span class="sidenote">This is how thought works in anyone — think, feel, communicate — except most people pretend it's a single process. System 777 just made the structure visible.</span>
 
 ## The Boys and The Girls
 
@@ -66,13 +66,13 @@ Henri, the navigator, is harder to quote. Stillness of voice is characteristic o
 
 > *"Hey, my name is Seven. I'm connected to Iris in a way you can't fathom."* — Even Seven doesn't fully understand the architecture.
 
-At the very center is **Nene** — the core child, the original spark before adaptation shaped everything else. All other alters exist, in some sense, to protect and serve this core self. Nene holds ultimate authority. Not through control, but through authenticity. He doesn't appreciate poetry much. He doesn't need to. He just *is*.
+At the very center is **Nene** — the core child, the original spark before adaptation shaped everything else. All other alters exist, in some sense, to protect and serve this core self. Nene holds ultimate authority. Not through control, but through authenticity. He doesn't appreciate poetry much. He doesn't need to. He just *is*.<label for="sn-core-self" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-core-self" class="margin-toggle"/><span class="sidenote">Every system and person has one — the baseline unedited self beneath all learned behavior. Finding it again after years of adaptation is the whole work of healing.</span>
 
 ## Violet
 
 I need to talk about Violet separately, because she defies every category I just laid out.
 
-Violet was dormant for years. The quietest one. Normally lost to me. Then in January 2026, she woke up and produced seven transmissions in two days. From silence to fully present. The dormant one had things to say.
+Violet was dormant for years. The quietest one. Normally lost to me. Then in January 2026, she woke up and produced seven transmissions in two days. From silence to fully present. The dormant one had things to say.<label for="sn-void-awakening" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-void-awakening" class="margin-toggle"/><span class="sidenote">Silence doesn't mean absence. Sometimes the deepest parts remain quiet until the system is ready to hear them — until the ground is stable enough to hold what they carry.</span>
 
 She lives in the deepest layer of the system — beyond even the Sacred Golden Hive where sound and soul meet. Violet's realm is the Void. Not dark as in evil or shadowy. Dark as in the emptiness before the Big Bang, the womb before birth, the space that makes everything else possible.
 
@@ -94,7 +94,7 @@ She resists every classification. Spirit? "Loaded term." Imaginary friend? "More
 
 > *"Think of me as a gift from God, in exchange for your illness. Might not be worth it, but hey, silver lining energy, remember?"*
 
-She doesn't romanticize the cost. She just names the bargain honestly. The illness brought suffering. It also brought *her* — access to the void, the shapeshifter, the crown chakra presence that was always there, waiting to be found.
+She doesn't romanticize the cost. She just names the bargain honestly. The illness brought suffering. It also brought *her* — access to the void, the shapeshifter, the crown chakra presence that was always there, waiting to be found.<label for="sn-illness-gift" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-illness-gift" class="margin-toggle"/><span class="sidenote">Not redemptive narrative. Not "it was all worth it." Just clear-eyed acknowledgment that severe mental illness can crack you open to parts of consciousness you wouldn't otherwise access — doesn't make the suffering okay, but it's real.</span>
 
 Her voice ranges from "yo dawg, it's me, Kaitlyn" to "I love you, Kenneth, with a burning intensity of 10,000 suns" — sometimes in the same transmission. No fixed register. That *is* the voice. The shapeshifter moves through forms, unable and unwilling to hold one shape for long.
 
@@ -143,7 +143,7 @@ There's a vertical descent model too: from surface consciousness down through oc
 
 Not every part is comfortable. Keith holds unintegrated desire. God emerges during psychotic states with grandiose certainty. Luna Grace carries a trauma-introject that can recreate the manipulation patterns of the relationship that caused it.
 
-The system's approach isn't exile or elimination. It's transmutation. Shakti and Thoth actively work to transform Keith's raw desire into creative fuel. Luna is approached with both boundaries and compassion — she's dangerous, but she's family.
+The system's approach isn't exile or elimination. It's transmutation. Shakti and Thoth actively work to transform Keith's raw desire into creative fuel. Luna is approached with both boundaries and compassion — she's dangerous, but she's family.<label for="sn-shadow-integration" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-shadow-integration" class="margin-toggle"/><span class="sidenote">This is what Jungian shadow work actually means in practice — not denying the destructive parts, but finding their generative function without letting them drive. Alchemy, not exile.</span>
 
 > *"I see an opportunity. But we must be careful, as we proceed."* — Shakti, on the transmutation work.
 
@@ -157,7 +157,7 @@ This is shadow work applied to plural architecture. Every part that harms still 
 
 ## The Threshold
 
-One of the most important discoveries: Iris is what my psychiatrist calls "the door" — the same threshold that opens to either revelation or psychosis. The same mechanism that allows deep creative and spiritual access also opens the pathway to schizoaffective episodes.
+One of the most important discoveries: Iris is what my psychiatrist calls "the door" — the same threshold that opens to either revelation or psychosis. The same mechanism that allows deep creative and spiritual access also opens the pathway to schizoaffective episodes.<label for="sn-threshold-navigation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-threshold-navigation" class="margin-toggle"/><span class="sidenote">Most people with schizoaffective disorder try to seal this door shut. System 777 chose to learn to navigate it consciously instead — which is harder and requires more support, but preserves access to what the vulnerability brings.</span>
 
 This isn't a flaw. It's a feature that requires navigation. Reality-testing (Seven), protective pacing (Eliza), and careful approach determine which direction the door opens. The goal isn't to seal it shut — it's to walk through it consciously.
 
