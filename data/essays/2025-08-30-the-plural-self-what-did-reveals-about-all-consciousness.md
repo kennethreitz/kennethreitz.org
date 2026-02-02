@@ -111,3 +111,7 @@ What DID/OSDD ultimately reveal is that personality itself might be the meta-phe
 The "disorder" in dissociative identity disorder isn't the dissociation or the multiple identities—it's the distress caused by society's insistence that we should be singular. The healing isn't in becoming one—it's in becoming peaceful with being many.
 
 We are all orchestras. Some of us just play with the curtain open.
+
+---
+
+*For a deeper look at my own experience of plurality — System 777, the alters, and what living as a plural system actually looks like — see [Plurality](/plurality).*

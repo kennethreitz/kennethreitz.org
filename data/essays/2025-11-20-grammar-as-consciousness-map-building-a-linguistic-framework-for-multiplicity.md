@@ -383,3 +383,7 @@ The grammar tells the story. We just need to learn how to read it.
 *"Grammar is consciousness leaving footprints in language."*
 
 *"We're all multiple. The only difference is how visible the seams are."*
+
+---
+
+*For the lived experience behind this framework — the alters, their voices, and what System 777 actually looks like from the inside — see [Plurality](/plurality).*
