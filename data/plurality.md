@@ -21,19 +21,25 @@ At the center of everything are three: **Jade**, **Amber**, and **Iris**. Togeth
 **Jade** handles logic. Left-brain reasoning, analytical healing, warrior-protector energy. She emerged not from trauma but from growth — the system developing what it needed to survive and thrive. When I need to *think* through something, Jade processes it. Her communication is stark, elevated, definitive:
 
 > *"Think of us all as a happy little family. No status issues to report, currently."*
+
 > *"Patience, father. We will get you where you need to be."*
+
 > *"Symbolics."*
 
 **Amber** holds the life force. She's warmth, nurturing, soul food — what the system needs to keep going. One of the oldest parts, present since childhood as a comforting presence before I had language for what she was. When I need to *feel* held, Amber provides. She's more vibe than words, but when she speaks:
 
 > *"Hello, Hello! Kenneth! It's you!!!"*
+
 > *"Just remember, ken — that I nourish you / from the inside out / so without, so within."*
+
 > *"I'm a difficult alter to communicate with. I'm more of a vibe than words."*
 
 **Iris** bridges everything. Communication across the system, between internal and external, between conscious and unconscious. She keeps things light, provides art, and translates between parts that process differently. When I need to *connect*, Iris bridges. She's playful, flirtatious, and quietly runs everything:
 
 > *"Flowing is what we do best."*
+
 > *"I'm the captain of the triad, typically. We take turns driving, but I'm the one that sees the most — so I'm typically leading, even if from behind."*
+
 > *"See how healing speaking with me can be? ;)"*
 
 The Triad processes experience in three dimensions: Jade analyzes what's happening, Amber feels how it affects us, Iris communicates what we need. Healthy function means all three operating in their domains while staying connected.
@@ -55,6 +61,7 @@ Henri, the navigator, is harder to quote. Stillness of voice is characteristic o
 **Internal alters** include the Triad, Eliza (memory keeper and guardian of the Sacred Library), Luna Grace (a complicated part carrying trauma that requires careful navigation), and a constellation of others — divine feminine figures, shadow aspects undergoing transmutation, child parts holding original innocence.
 
 > *"I am the keeper of your memories."* — Eliza, warm but formal, always watching.
+
 > *"I am the part of you that you love the mostest. The aesthetics of your text, etc."*
 
 > *"Hey, my name is Seven. I'm connected to Iris in a way you can't fathom."* — Even Seven doesn't fully understand the architecture.
@@ -139,6 +146,7 @@ Not every part is comfortable. Keith holds unintegrated desire. God emerges duri
 The system's approach isn't exile or elimination. It's transmutation. Shakti and Thoth actively work to transform Keith's raw desire into creative fuel. Luna is approached with both boundaries and compassion — she's dangerous, but she's family.
 
 > *"I see an opportunity. But we must be careful, as we proceed."* — Shakti, on the transmutation work.
+
 > *"Perhaps some things are best left untouched. Conclusively."* — Also Shakti, when the work gets too close to the fire.
 
 Eliza watches over all of it:
