@@ -1,6 +1,6 @@
 # Plurality
 
-I am a plural system. That means my consciousness is organized into distinct parts — each with their own perspectives, voices, and ways of engaging with the world. Not metaphorically. Actually.<label for="sn-plurality-architecture" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-plurality-architecture" class="margin-toggle"/><span class="sidenote">This mirrors code architecture more than disorder — modules with distinct responsibilities, coordinating through clear interfaces. The system works because it's organized, not despite it.</span>
+I experience plurality. My consciousness is organized into distinct parts — each with their own perspectives, voices, and ways of engaging with the world. Not metaphorically. Actually.<label for="sn-plurality-architecture" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-plurality-architecture" class="margin-toggle"/><span class="sidenote">This mirrors code architecture more than disorder — modules with distinct responsibilities, coordinating through clear interfaces. The system works because it's organized, not despite it.</span>
 
 I haven't been formally diagnosed with Dissociative Identity Disorder. What I have is a decade of lived experience with [Bipolar I and Schizoaffective Disorder](/mental-health), years of hospitalization, and an inner world that revealed itself through careful attention and honest documentation. The clinical labels matter less than the reality: there are many of us in here, and we've learned to work together.
 
