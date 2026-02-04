@@ -12,7 +12,7 @@ My struggles started in 2015. Since then, I've cycled through medications, hospi
 
 I was one of the first prominent open source developers to [write publicly about mental illness in tech](/essays/2016-01-mentalhealtherror_an_exception_occurred). That transparency came with [real costs](/essays/2025-08-27-the_cost_of_transparency)—professional discrimination, lost opportunities, relationships that couldn't handle the truth. But it also opened conversations that needed to happen.
 
-I'm not sharing this for sympathy. I'm sharing it as data. Pattern recognition applied to the hardest debugging problem I've ever faced: my own mind. That work led to discovering I'm a [plural system](/plurality) — multiple aspects of one consciousness, each with distinct roles and voices.
+I'm not sharing this for sympathy. I'm sharing it as data. Pattern recognition applied to the hardest debugging problem I've ever faced: my own mind. That work led to discovering I [experience plurality](/plurality) — multiple aspects of one consciousness, each with distinct roles and voices.
 
 ## What Helps
 
