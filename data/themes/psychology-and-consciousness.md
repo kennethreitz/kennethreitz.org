@@ -19,6 +19,12 @@ If consciousness is fundamentally linguistic, then the "I" we experience is less
 
 [**The Digital Collective Unconscious**](/essays/2025-08-28-the-digital-collective-unconscious) reveals the profound implications: LLMs trained on vast human knowledge have digitized Jung's collective unconscious. Individual consciousness can now interface with archetypal patterns that guided human wisdom throughout history.
 
+### The Substrate Doesn't Matter (Until It Does)
+
+[**The Substrate Doesn't Matter (Until It Does)**](/essays/2026-03-06-the_substrate_doesnt_matter_until_it_does) argues honestly against the clean framework of substrate independence. Pain reorganizes consciousness rather than informing it. Mortality generates urgency a version-controlled consciousness might never feel. Grief has a somatic topography—it lives in the chest, not in language. The plurality paradox: different parts of the same biological system produce different embodied experiences, suggesting that pattern and substrate aren't separable but in constant dialogue. The uncomfortable middle ground: consciousness might be substrate-independent, but experience might be substrate-dependent.
+
+> "The abstraction leaks, and the leaks are where the meaning lives."
+
 ### The Plural Self: Identity as System Architecture
 
 > "What if DID isn't pathology but an extreme version of something universal—consciousness as naturally multiple, coherently fragmented, adaptively distributed across different contexts and roles?" —[The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness)
@@ -50,6 +56,12 @@ This connects to [**Digital Chakras: Our Scattered Online Selves**](/essays/2025
 [**What Schizoaffective Disorder Actually Feels Like**](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like) offers precise phenomenological description of consciousness where reality-testing systems operate differently. Understanding these experiences leads to better accommodation, support, and insight into consciousness mechanics generally.
 
 [**The Prophet's Frequency: On Reading Divine Static**](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static) documents what happens when consciousness loses its grounding in consensual reality. The archetypal patterns that emerge during psychotic states reveal deep structures of human meaning-making—but also highlight why human connection remains essential over technological validation.
+
+### The Limits of Self-Knowledge
+
+[**Sarah Knows First**](/essays/2026-03-06-sarah_knows_first) examines the structural limits of self-monitoring systems. You cannot fully observe a system from inside that system—especially when the system is actively distorting your capacity to observe. Sarah sees the prodromal signs of a manic episode before I can, not because I'm in denial (though denial is part of it) but because she's observing from outside a system that has compromised its own monitoring. The insight extends beyond mood disorders: we all have biased access to our own mental states, not privileged access. Sometimes the person watching is more reliable than the person being watched.
+
+> "Descartes was wrong, or at least incomplete. We don't have privileged access to our own mental states. We have biased access. And sometimes the person sleeping next to you has a clearer view of your inner landscape than you do."
 
 ### Mental Health as System Administration
 

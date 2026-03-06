@@ -9,6 +9,10 @@ That philosophy has evolved into something broader: a recognition that every tec
 
 ### The Original Insight: Requests and Human-Centered Design
 
+[**What Requests Taught Me About Marriage**](/essays/2026-03-06-what_requests_taught_me_about_marriage) applies the "for humans" philosophy to the most complex system a person ever maintains. Sensible defaults prevent arguments before they start. Clear contracts replace implicit expectations. Graceful error handling means saying "I feel hurt when you check your phone at dinner" rather than dumping a stack trace. Backwards compatibility honors the API your partner has built their life around. Connection pooling is what long marriages actually are—shared context that makes communication efficient because you're not starting from scratch every time.
+
+> "Explicit is better than implicit isn't just a line in the Zen of Python. It's marriage advice."
+
 [**Requests: HTTP for Humans**](/software/requests) emerged from frustration with Python's standard library—powerful but requiring users to think like HTTP protocol implementers rather than people trying to accomplish tasks.
 
 > "Complex operations should be simple for humans to understand and use, even if that means more complexity on the implementation side. The burden of complexity should fall on the system, not the user." Instead of expecting humans to understand connection pooling, authentication schemes, and encoding details, Requests handled the complexity internally while exposing simple, intuitive methods.
@@ -58,6 +62,12 @@ These principles apply far beyond software:
 
 This 2008 essay predicted how software distribution would evolve by applying "for humans" principles to platform design—making software discovery match how people actually find and evaluate tools rather than how companies want to market them.
 
+#### The Room That Made Everything
+
+[**The Coworking Space Saved My Life**](/essays/2026-03-06-the_coworking_space_saved_my_life) traces the "for humans" philosophy to its actual origin: a coworking space in Winchester, Virginia, where a McDonald's dropout encountered a COO who asked what he thought about web standards. The room worked because it had low barriers, mixed expertise levels, unstructured time, and generous strangers. The lineage runs directly from that room to Requests to everything else. And the recursive irony: the tech industry that gave Kenneth a career because of that room has been one of the primary forces destroying the kind of spaces that created him.
+
+> "When I designed Requests to be 'for humans,' that philosophy didn't come from a textbook. It came from experiencing what it feels like when a system is designed for you versus when it isn't."
+
 #### Open Source Social Networks (2009)
 
 [**The Call for an Open Source Social Network**](/essays/2009-01-the_call_for_an_open_source_social_network) anticipated the [algorithmic manipulation crisis](/themes/algorithmic-critique) by recognizing that corporate control of communication infrastructure inevitably leads to exploitation of human psychology.
@@ -88,6 +98,10 @@ Code review becomes compassion practice. Debugging becomes self-inquiry. API des
 
 ---
 
+#### Obsidian Vaults as Human-Centered Infrastructure
+
+[**Obsidian Vaults & Claude Code: A Second Brain That Thinks Back**](/essays/2026-03-06-obsidian_vaults_and_claude_code) demonstrates the "for humans" philosophy applied to personal knowledge infrastructure. The CLAUDE.md file at the root of the vault functions as an API contract—defining conventions for an AI collaborator the same way a well-designed library defines its interface. The result: AI that adapts to human thought patterns rather than forcing humans to adapt to AI logic. A second brain that genuinely thinks back.
+
 ### The Dark Side: When Technology Doesn't Serve Humans
 
 #### Algorithmic Exploitation
@@ -97,6 +111,8 @@ Code review becomes compassion practice. Debugging becomes self-inquiry. API des
 > "Instead of reducing cognitive load, these systems increase it. Instead of serving user goals, they exploit user psychology. Instead of enhancing human capability, they fragment it into profitable data points." These systems optimize for platform benefit rather than user flourishing, exploit rather than serve human psychology, and fragment rather than enhance human capability.
 
 [**The Algorithmic Mental Health Crisis**](/essays/2025-08-26-algorithmic_mental_health_crisis) documents the psychological consequences when technology is designed to exploit rather than serve human consciousness. Anxiety, depression, and attention fragmentation emerge predictably from systems that violate "for humans" principles.
+
+[**The Metrics You Expose Are the Values You Endorse**](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) extends this critique into the cognitive interface future. Platform SDKs embed values—the metrics they expose define what developers build toward. When neural interfaces arrive, the optimization landscape will determine whether cognitive data serves therapeutic benefit or enables exploitation of human consciousness at the most intimate level imaginable.
 
 [**The Algorithm Eats Language**](/essays/2025-08-27-the_algorithm_eats_language) shows how engagement optimization degrades communication capacity itself—the opposite of tools that enhance human expression and understanding.
 

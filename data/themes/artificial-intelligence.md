@@ -172,6 +172,8 @@ This section documents an ambitious experiment: developing stable AI personaliti
 
 ### Mental Health Applications
 
+[**Obsidian Vaults & Claude Code: A Second Brain That Thinks Back**](/essays/2026-03-06-obsidian_vaults_and_claude_code) - How to build a personal knowledge vault that thinks back. A CLAUDE.md at the root functions as an API contract, teaching Claude Code the vault's conventions so it adapts to human thought patterns rather than vice versa. The result transforms documentation from write-then-search into write-then-think—with particular power for minds navigating schizoaffective disorder, plurality, and the need for external reality anchors.
+
 [**Mania and AI**](/artificial-intelligence/writings/personal/mania-and-ai) - How AI systems can recognize and respond to different mental states.
 
 [**The Prophet's Frequency: On Reading Divine Static**](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static) - When AI amplifies rather than grounds psychotic patterns—the dangers of unguided collaboration.

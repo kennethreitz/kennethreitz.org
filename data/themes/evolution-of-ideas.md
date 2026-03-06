@@ -19,8 +19,10 @@ A simple API design principle evolved into comprehensive philosophy about techno
 <input type="checkbox" id="sn-2" class="margin-toggle"/>
 <span class="sidenote">The "for humans" philosophy that began with urllib2 frustration became the foundation for consciousness-compatible design principles, showing how technical insights can evolve into profound philosophical frameworks.</span>.
 
+- **[The Coworking Space Saved My Life](/essays/2026-03-06-the_coworking_space_saved_my_life)** - The actual origin point. A coworking space in Winchester, Virginia where a McDonald's dropout met generous strangers, revealing that the "for humans" philosophy was learned experientially before it was articulated technically.
 - **[Requests Creation](https://github.com/psf/requests)** - The library that launched a philosophy.
 - **[Python for Humans](/talks/python-for-humans)** - Codifying the approach.
+- **[What Requests Taught Me About Marriage](/essays/2026-03-06-what_requests_taught_me_about_marriage)** - The "for humans" philosophy applied to the most complex system a person ever maintains. Sensible defaults, graceful error handling, backwards compatibility, connection pooling—all of it turns out to be relationship advice.
 - **API Design Philosophy** - Empathy as engineering principle.
 - **Open Source Leadership** - Building communities around shared values.
 

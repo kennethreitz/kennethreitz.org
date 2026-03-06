@@ -83,6 +83,14 @@ Or it could be simple consumption without regeneration—technological cancer de
 
 The difference is profound: social media algorithms parasitically optimize existing human behaviors to death, while LLMs symbiotically install new cognitive architectures through the intimate interface of conversation. The weights of training models become our cognitive weights. The question shifts from "what gets consumed?" to "what gets installed?"—and crucially, *who chose these cognitive updates?*
 
+### The Cognitive Frontier: Ethics of the Optimization Landscape
+
+[**The Metrics You Expose Are the Values You Endorse**](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) extends the series into the neural interface future. Platform SDKs are moral philosophies expressed as code—the metrics they expose define the optimization landscape, which determines what developers build toward. When neural interfaces ship, companies will decide which cognitive metrics (attention, emotional valence, reward response) to expose to third-party developers. That decision, made in conference rooms about quarterly revenue, will either protect human cognition or enable exploitation more intimate than anything social media achieved.
+
+> "The metrics were the ethics. We just didn't notice because they looked like engineering decisions."
+
+The window is open now. The SDKs haven't shipped. The optimization landscape for cognitive interfaces hasn't been defined. The same mechanisms that [ate virtue](/essays/2025-08-26-the_algorithm_eats_virtue) and [consumed time](/essays/2025-09-01-the_algorithm_eats_time) could be built directly into the interface between software and the human brain—or this time, designers could get ahead of the damage.
+
 ### The Cognitive Substrate: Architecture Under Assault
 
 [**The Cognitive Architecture We Lost: When Minds Had Time to Think**](/essays/2025-10-15-the_cognitive_architecture_we_lost) reveals the meta-level destruction: notification culture hasn't just corrupted individual values or behaviors—it has systematically dismantled the cognitive architecture required for sustained thought itself. What took centuries to develop (the capacity for deep reading, complex philosophy, democratic deliberation) has been fragmented in two decades. This is the algorithm eating the substrate on which all other human capabilities depend.

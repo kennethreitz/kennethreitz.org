@@ -9,6 +9,14 @@ Having spent over a decade building tools used by millions while trying to creat
 
 ### The Early Vision: Seeing What Was Coming
 
+### The Room That Made Everything (2010)
+
+[**The Coworking Space Saved My Life**](/essays/2026-03-06-the_coworking_space_saved_my_life) traces the entire career back to a single coworking space in Winchester, Virginia: low barriers, mixed expertise levels, unstructured time, and generous strangers. The COO of an internet company asked a McDonald's dropout what he thought about web standards. That conversation started a lineage that runs directly to Requests, to Heroku, to everything. The essay documents what third spaces actually do—create conditions for serendipitous connection that no platform, app, or networking event can replicate—and the recursive irony of a tech career that helped destroy the kind of spaces that made it possible.
+
+> "The room matters more than the code."
+
+The loss of physical third spaces is a community failure with the same root dynamics as open source community failures: the financialization of something that worked because it wasn't optimized, the corporate takeover of spaces that worked because they had no value proposition. WeWork happened to coworking the same way that venture capital happens to open source: the thing that made it valuable got optimized out in favor of metrics that could be reported to investors.
+
 ### Decentralization Before It Was Cool (2009)
 
 [**The Call for an Open Source Social Network**](/essays/2009-01-the_call_for_an_open_source_social_network) anticipated by fifteen years what we now recognize as the [algorithmic manipulation crisis](/themes/algorithmic-critique).

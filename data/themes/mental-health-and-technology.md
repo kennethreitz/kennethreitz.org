@@ -9,6 +9,10 @@ This collection documents both sides: the systematic ways technology undermines 
 
 ### Personal Foundation: The Lived Experience
 
+[**Sarah Knows First**](/essays/2026-03-06-sarah_knows_first) - Before a manic episode fully arrives, there's a prodromal window. Sarah sees it before I do—not as metaphor, but as clinical fact. On the structural limits of self-knowledge, the weight of watching someone you love cycle through patterns you've learned to read better than they can, and the kind of love that has skin in the game in ways no AI ever will.
+
+> "My wife knows my mental state more accurately than I do. The observer has better data than the observed."
+
 [**Mental Health Journey**](/mental-health) - The foundation of everything else: living openly with bipolar disorder, trauma recovery, and complex consciousness architecture.
 
 > "This isn't some brave confession or inspiration porn. It's debugging documentation. When systems fail—whether they're code systems or consciousness systems—understanding the failure modes helps everyone build better ones."
@@ -56,6 +60,8 @@ These aren't individual failures—they're predictable outcomes of systems desig
 ---
 
 ### AI as Mental Health Support
+
+[**Obsidian Vaults & Claude Code: A Second Brain That Thinks Back**](/essays/2026-03-06-obsidian_vaults_and_claude_code) - For a mind that cannot always trust its own memory, documentation is survival infrastructure. 467 markdown files with timestamps, mood tracking, and reality anchors prevent self-gaslighting. Claude Code transforms the vault from write-then-search to write-then-think, reflecting documented patterns back without the distortion symptomatic memory introduces. The quest system reframes plurality work from medical obligation to active adventure.
 
 [**Using AI for Reality Checking**](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) - Practical applications of AI for mental health management while maintaining human agency.
 
