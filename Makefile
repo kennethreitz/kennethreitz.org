@@ -2,7 +2,7 @@ init:
 	uv sync
 
 run:
-	uv run gunicorn --bind 0.0.0.0 --worker-class gevent --workers 1 --worker-connections 1000 --timeout 60 engine:app
+	uv run uvicorn engine:app --host 0.0.0.0 --port 8000 --reload
 
 docker-run:
 	docker-compose up --build
