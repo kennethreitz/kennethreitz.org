@@ -1,11 +1,132 @@
 """Main blueprint for basic routes."""
 
+import hashlib
+import io
+import textwrap
 from datetime import datetime
 from pathlib import Path
 
-from flask import Blueprint, jsonify, render_template
+from flask import Blueprint, jsonify, make_response, render_template
 
 main_bp = Blueprint("main", __name__)
+
+# Cache for generated OG images
+_og_image_cache = {}
+
+
+@main_bp.route("/og-image/<path:path>.png")
+def og_image(path):
+    """Generate a dynamic Open Graph image for a post."""
+    from PIL import Image, ImageDraw, ImageFont
+
+    # Check cache
+    cache_key = path
+    if cache_key in _og_image_cache:
+        response = make_response(_og_image_cache[cache_key])
+        response.headers["Content-Type"] = "image/png"
+        response.headers["Cache-Control"] = "public, max-age=86400"
+        return response
+
+    # Resolve the post title from the markdown file
+    data_dir = Path("data")
+    file_path = data_dir / f"{path}.md"
+    title = path.split("/")[-1].replace("-", " ").replace("_", " ").title()
+    subtitle = None
+
+    if file_path.exists():
+        content = file_path.read_text()
+        for line in content.split("\n"):
+            line = line.strip()
+            if line.startswith("# "):
+                title = line[2:].strip()
+                break
+        # Extract subtitle/date from italicized line
+        for line in content.split("\n"):
+            line = line.strip()
+            if line.startswith("*") and line.endswith("*") and len(line) < 60:
+                subtitle = line.strip("*")
+                break
+
+    # Image dimensions (standard OG)
+    width, height = 1200, 630
+
+    # Create image with Tufte cream background
+    img = Image.new("RGB", (width, height), "#fffff8")
+    draw = ImageDraw.Draw(img)
+
+    # Draw subtle bottom gradient
+    for y in range(height - 80, height):
+        alpha = (y - (height - 80)) / 80
+        r = int(255 * (1 - alpha) + 245 * alpha)
+        g = int(255 * (1 - alpha) + 245 * alpha)
+        b = int(248 * (1 - alpha) + 232 * alpha)
+        draw.line([(0, y), (width, y)], fill=(r, g, b))
+
+    # Load fonts (bundled et-book)
+    font_dir = Path(__file__).parent.parent / "static" / "tufte" / "et-book"
+    try:
+        font_italic = ImageFont.truetype(
+            str(font_dir / "et-book-display-italic-old-style-figures" / "et-book-display-italic-old-style-figures.ttf"),
+            62
+        )
+        font_roman = ImageFont.truetype(
+            str(font_dir / "et-book-roman-line-figures" / "et-book-roman-line-figures.ttf"),
+            26
+        )
+        font_small = ImageFont.truetype(
+            str(font_dir / "et-book-roman-line-figures" / "et-book-roman-line-figures.ttf"),
+            22
+        )
+    except (OSError, IOError):
+        font_italic = ImageFont.load_default()
+        font_roman = ImageFont.load_default()
+        font_small = ImageFont.load_default()
+
+    # Draw accent line
+    draw.rectangle([80, 180, 200, 184], fill="#333333")
+
+    # Word-wrap and draw title
+    max_chars = 28 if len(title) > 28 else 40
+    wrapped = textwrap.wrap(title, width=max_chars)
+    y_pos = 210
+    for line in wrapped[:3]:
+        draw.text((80, y_pos), line, font=font_italic, fill="#111111")
+        y_pos += 72
+
+    # Draw subtitle/date if available
+    if subtitle:
+        draw.text((80, y_pos + 20), subtitle, font=font_roman, fill="#666666")
+
+    # Draw separator line
+    draw.rectangle([80, height - 110, width - 80, height - 108], fill="#dddddd")
+
+    # Draw site URL
+    draw.text((80, height - 85), "kennethreitz.org", font=font_small, fill="#999999")
+
+    # Draw author name on right
+    author_text = "Kenneth Reitz"
+    bbox = draw.textbbox((0, 0), author_text, font=font_small)
+    author_width = bbox[2] - bbox[0]
+    draw.text((width - 80 - author_width, height - 85), author_text, font=font_small, fill="#999999")
+
+    # Draw decorative circles (matching SVG)
+    cx, cy = 1060, 300
+    for r, c in [(50, "#dddddd"), (35, "#cccccc"), (20, "#bbbbbb")]:
+        draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=c, width=2)
+    draw.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill="#999999")
+
+    # Export to PNG bytes
+    buf = io.BytesIO()
+    img.save(buf, format="PNG", optimize=True)
+    png_bytes = buf.getvalue()
+
+    # Cache it
+    _og_image_cache[cache_key] = png_bytes
+
+    response = make_response(png_bytes)
+    response.headers["Content-Type"] = "image/png"
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    return response
 
 
 @main_bp.route("/")
