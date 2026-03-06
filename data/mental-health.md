@@ -19,7 +19,7 @@ I'm not sharing this for sympathy. I'm sharing it as data. Pattern recognition a
 These aren't universal prescriptions. They're what I've learned works for me, through years of painful experimentation.
 
 - **Sleep.** Non-negotiable. Bipolar disorder is easily triggered by sleep deprivation. I protect my sleep like my life depends on it—because it does.
-- **Medication.** It took years to find the right combination. [Abilify](https://www.abilify.com) is my saving grace these days—daily pills, after getting tired of monthly injections. Finding the right medication is its own journey. Be patient with it.
+- **Medication.** It took years to find the right combination. [Abilify](https://www.abilify.com) and [lithium](https://en.wikipedia.org/wiki/Lithium_(medication)) are my saving graces these days. Abilify as daily pills, after getting tired of monthly injections. Lithium for mood stabilization. [Haldol](https://en.wikipedia.org/wiki/Haloperidol) when I need extra support. Finding the right medication is its own journey. Be patient with it.
 - **Avoiding stress.** Not always realistic, but always the goal. When nothing else is working—believe it or not—splashing cold water on your face can help reset your nervous system. It triggers the "diver's reflex," slowing your heart rate and redirecting blood flow. Simple, free, works in a crisis.
 - **Support network.** People who know about my condition and know how to help. Maintaining these relationships is a full-time job, and worth every minute.
 - **Slowing down.** One day at a time. Sometimes one hour at a time. Sometimes one breath at a time.
