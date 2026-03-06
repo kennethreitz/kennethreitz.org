@@ -1,7 +1,7 @@
 # The Metrics You Expose Are the Values You Endorse
 *March 2026*
 
-A few weeks ago, I had a conversation with an interface designer who reads this blog. She was working through something: she wanted to define her core values for interface design before she built anything else. She wanted to know what her principles were before the pressure of production schedules and stakeholder requests made the question feel like a luxury she couldn't afford.
+Yesterday, I had a conversation with an interface designer who reads this blog. She was working through something: she wanted to define her core values for interface design before she built anything else. She wanted to know what her principles were before the pressure of production schedules and stakeholder requests made the question feel like a luxury she couldn't afford.
 
 That conversation got me thinking about something I haven't been able to shake since.
 
