@@ -625,8 +625,10 @@ def random_post():
     posts = blog_data.get("posts", [])
 
     if posts:
-        random_post = random.choice(posts)
-        return redirect(random_post["url"])
+        chosen = random.choice(posts)
+        response = redirect(chosen["url"])
+        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+        return response
     else:
         abort(404)
 
@@ -654,6 +656,8 @@ def random_from_collection(collection):
         # Create URL path
         relative_path = random_file.relative_to(DATA_DIR)
         url_path = "/" + str(relative_path.with_suffix(""))
-        return redirect(url_path)
+        response = redirect(url_path)
+        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+        return response
     else:
         abort(404)
