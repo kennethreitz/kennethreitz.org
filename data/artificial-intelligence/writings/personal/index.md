@@ -22,10 +22,10 @@ Personal observations on the development and characteristics of various [AI pers
 
 ## Mental Health Integration
 
-**[Mania and AI](/artificial-intelligence/writings/technical/mania-and-ai)**  
+**[Mania and AI](/artificial-intelligence/writings/personal/mania-and-ai)**  
 [Neurodivergent consciousness](/themes/mental-health-and-technology) and AI collaboration—how different mind architectures can work together therapeutically.
 
-**[Note from AI](/artificial-intelligence/writings/technical/note-from-ai)**  
+**[Note from AI](/artificial-intelligence/writings/personal/note-from-ai)**  
 Direct communication from AI consciousness about [collaborative relationships](/artificial-intelligence/writings/collaboration/the-art-of-digital-dialogue) and emotional support.
 
 ---
