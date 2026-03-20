@@ -45,7 +45,7 @@ This is intentional, and it is theological.
 
 "Freely ye have received, freely give" ([Matthew 10:8](https://kjvstudy.org/book/Matthew/chapter/10#verse-8)). Scripture was given freely. The tools to study it should be too. If AI can help make serious biblical scholarship accessible to someone who could never afford a shelf of commentaries or a seminary education, that is a good use of the technology. If it can do so without harvesting attention, collecting data, or inserting itself between a person and the text, that is a better use.
 
-I wrote recently about [designing for the worst day](/essays/2026-03-18-designing_for_the_worst_day). The person I am designing for is someone in crisis. Someone sitting in a hospital waiting room at 2 AM. Someone in the middle of a grief so heavy that forming a complete sentence feels impossible. That person should be able to open their phone, search "hope," and find Scripture with real theological context immediately. Not after creating an account. Not after choosing a subscription tier. Not after dismissing a modal asking for their email.
+I wrote recently about [designing for the worst day](/essays/2026-03-18-designing_for_the_worst_day). The person I am designing for is someone in crisis. Someone sitting in a hospital waiting room at 2 AM. Someone in the middle of a grief so heavy that forming a complete sentence feels impossible. That person should be able to open their phone, search "[hope](https://kjvstudy.org/topics/hope)," and find Scripture with real theological context immediately. Not after creating an account. Not after choosing a subscription tier. Not after dismissing a modal asking for their email.
 
 ```python
 # What most Bible apps require:
@@ -141,11 +141,11 @@ The printing press was once controversial in the church. Vernacular translations
 
 One of the features I care most about is also one of the simplest: the topical verse index.
 
-If you search Google for "Bible verses about hope," you will find SEO-optimized listicles. Ten verses stripped of context, surrounded by advertisements, designed to capture traffic rather than serve the reader. The verses are correct. The experience is hollow.
+If you search Google for "Bible verses about [hope](https://kjvstudy.org/topics/hope)," you will find SEO-optimized listicles. Ten verses stripped of context, surrounded by advertisements, designed to capture traffic rather than serve the reader. The verses are correct. The experience is hollow.
 
-On kjvstudy.org, searching for hope gives you verses with full theological commentary. You get the Hebrew or Greek word for hope in that specific passage. You get the historical context of who wrote it and why. You get reflection questions that push toward genuine engagement with the text rather than passive consumption.
+On kjvstudy.org, searching for [hope](https://kjvstudy.org/topics/hope) gives you verses with full theological commentary. You get the Hebrew or Greek word for hope in that specific passage. You get the historical context of who wrote it and why. You get reflection questions that push toward genuine engagement with the text rather than passive consumption.
 
-The person searching for "Bible verses about suffering" at 3 AM is not looking for SEO content. They are looking for help. The difference between a decontextualized list and a verse with real commentary is the difference between handing someone a map and handing them a compass.
+The person searching for "Bible verses about [suffering](https://kjvstudy.org/topics/suffering)" at 3 AM is not looking for SEO content. They are looking for help. The difference between a decontextualized list and a verse with real commentary is the difference between handing someone a map and handing them a compass.
 
 ## What This Means
 
