@@ -1,8 +1,16 @@
 # Timeline
 
+## Early Life
+
+Born 1988, Central Pennsylvania. Raised in a Christian household with Calvinist influences. Got into computers and video games early. The electronic universe was home before the material one made sense.
+
+## 2006-2007
+
+Attended George Mason University briefly. [Left with a 1.14 GPA and $10k in debt](/essays/2009-01-was_college_worth_it). Worked the front line at McDonald's, 65-hour weeks. Found a [coworking space in Winchester, Virginia](/essays/2026-03-06-the_coworking_space_saved_my_life) that changed everything. Met people who saw potential no institution had recognized.
+
 ## 2008-2009
 
-Started writing about technology from Winchester, Virginia. No degree, no credentials. Worked at McDonald's. Discovered coworking, Python, and the idea that [design matters more than credentials](/essays/2009-01-was_college_worth_it). Predicted decentralized social networks [a decade early](/essays/2009-01-the_call_for_an_open_source_social_network). Committed to [fallibilism](/essays/2009-01-fallibilism) as a core value.
+Started writing about technology. No degree, no credentials. Taught myself Python. Predicted decentralized social networks [a decade early](/essays/2009-01-the_call_for_an_open_source_social_network). Committed to [fallibilism](/essays/2009-01-fallibilism) as a core value. Built freelance work into a real career through sheer output and the coworking community that believed in me.
 
 ## 2010-2011
 
