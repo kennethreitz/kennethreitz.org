@@ -40,9 +40,13 @@ Migraines. A [narcissistic relationship](/essays/2015-01-the_unexpected_negative
 
 [An Overdue Apology](/essays/2023-01-an_overdue_apology) about the Requests III situation. Returned to writing after years of quiet.
 
+## 2021
+
+Married Sarah.
+
 ## 2024
 
-Married Sarah. [Stepchildren](/essays/2024-01-having-stepchildren). [On Mania](/essays/2024-01-on-mania): acceptance over resistance. Started exploring AI collaboration seriously with [ELIZA](/essays/2023-01-introducing_eliza_gpt_specializing_in_python_amp_api_design).
+[Stepchildren](/essays/2024-01-having-stepchildren). [On Mania](/essays/2024-01-on-mania): acceptance over resistance. Started exploring AI collaboration seriously with [ELIZA](/essays/2023-01-introducing_eliza_gpt_specializing_in_python_amp_api_design).
 
 ## 2025
 
