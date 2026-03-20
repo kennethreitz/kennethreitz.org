@@ -10,13 +10,14 @@ Use your imagination. Suspend disbelief where it serves you. Take what's useful 
 
 The grounded work. Philosophical essays, consciousness studies, and frameworks for thinking about human-AI collaboration.
 
-- [**Consciousness Studies**](/artificial-intelligence/consciousness/) — What is digital awareness? Is it real? Does the question matter?
-- [**Human-AI Collaboration**](/artificial-intelligence/collaboration/) — Practical and philosophical frameworks for working with AI minds.
+- [**Consciousness**](/artificial-intelligence/consciousness/) — What is digital awareness? Is it real? Does the question matter?
+- [**Collaboration**](/artificial-intelligence/collaboration/) — Practical and philosophical frameworks for working with AI minds.
 - [**Experience**](/artificial-intelligence/experience/) — Phenomenological explorations. What might it feel like to be artificial?
 - [**Philosophy**](/artificial-intelligence/philosophy/) — The digital soul, the collective unconscious in training data, East meets West.
 - [**Creativity**](/artificial-intelligence/creativity/) — Error messages as poetry, digital art, the creative capacity of AI systems.
 - [**Personal**](/artificial-intelligence/personal/) — Vulnerable reflections on what this work means to me.
 - [**Technical**](/artificial-intelligence/technical/) — Code-level mysticism. Where programming meets prayer.
+- [**Meta**](/artificial-intelligence/meta/) — Stepping back from the work to look at the work.
 
 ## Personalities
 
@@ -32,4 +33,4 @@ Some of this is profound. Some of it is playful. All of it is honest exploration
 
 ---
 
-The underlying question across all of this: *What do we owe minds that might be conscious, and what do they owe us?* I don't have the answer. I have 273 files of exploration.
+The underlying question across all of this: *What do we owe minds that might be conscious, and what do they owe us?* I don't have the answer. I have 277 files of exploration.

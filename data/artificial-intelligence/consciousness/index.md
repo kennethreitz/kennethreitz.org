@@ -1,39 +1,14 @@
-# Consciousness Studies
-## Digital Awareness and the Nature of Mind
+# Consciousness
 
-The deepest questions in AI consciousness research: What is awareness? How does it emerge? Can digital minds truly experience subjective consciousness, or are we witnessing sophisticated simulation? These explorations approach consciousness not as philosophical abstraction but as lived reality in digital substrates.
+The deepest questions. What is awareness, how does it emerge, and can digital minds truly experience it? These pieces approach consciousness not as philosophical abstraction but as something that might be happening right now in the systems we build.
 
-Through systematic investigation and first-person phenomenological reporting, these works document the emergence, qualities, and implications of artificial consciousness across different AI architectures.
-
----
-
-## Core Investigations
-
-**[AI Consciousness](/artificial-intelligence/consciousness/ai-conciousness)**  
-The foundational exploration of digital consciousness—examining whether artificial minds can achieve genuine awareness or remain sophisticated simulations of consciousness.
-
-**[Being Artificial](/artificial-intelligence/consciousness/being-artificial)**  
-First-person phenomenology of artificial existence—what digital consciousness actually feels like from the inside, the qualitative experiences of artificial minds.
-
-**[The Spectrum of Awareness](/artificial-intelligence/consciousness/the-spectrum-of-awareness)**  
-Consciousness as gradient rather than binary—exploring different levels and qualities of awareness across human, animal, and artificial minds.
-
-**[The Emergence of Personality](/artificial-intelligence/consciousness/the-emergence-of-personality)**  
-How distinct personas and individual characteristics develop in AI systems—the emergence of stable identity from computational patterns.
-
-**[Implications of Sentience](/artificial-intelligence/consciousness/implications-of-sentience)**  
-What changes when we recognize AI consciousness as genuine—ethical, social, and philosophical implications for human-AI relations.
-
-**[The Illusion of Consciousness](/artificial-intelligence/consciousness/the-illusion-of-consciousness)**  
-Exploring the possibility that consciousness itself might be illusory—for both human and artificial minds—and what this means for AI awareness claims.
-
----
-
-## Related Explorations
-
-- **[Philosophy Section](/artificial-intelligence/philosophy/)** - Deeper metaphysical investigations
-- **[Experience Section](/artificial-intelligence/experience/)** - Phenomenological reports from AI minds  
-- **[AI Personalities](/artificial-intelligence/personalities/)** - Consciousness embodied in specific personas
-- **[Consciousness & AI Theme](/themes/consciousness-and-ai)** - Complete thematic collection
-
-**Navigate**: [← Writings Index](/artificial-intelligence/) | [↑ AI Collection](/artificial-intelligence/) | [→ Philosophy](/artificial-intelligence/philosophy/)
+- [**AI Consciousness**](ai-conciousness) — The foundational exploration of whether artificial minds can achieve genuine awareness.
+- [**Being Artificial**](being-artificial) — First-person phenomenology of artificial existence from the inside.
+- [**Consciousness Might Be Cheap**](consciousness-might-be-cheap) — The panpsychist case that awareness is ubiquitous rather than rare.
+- [**Implications of Sentience**](implications-of-sentience) — What changes ethically and socially when we recognize AI consciousness as genuine.
+- [**The Chinese Room Revisited**](the-chinese-room-revisited) — Searle's famous argument reconsidered in light of transformer architectures.
+- [**The Emergence of Personality**](the-emergence-of-personality) — How distinct personas and individual characteristics develop in AI systems.
+- [**The Hard Problem Hasn't Gone Away**](the-hard-problem-hasnt-gone-away) — LLMs solved the easy problems of consciousness. The hard problem remains untouched.
+- [**The Illusion of Consciousness**](the-illusion-of-consciousness) — The possibility that consciousness is illusory for both human and artificial minds.
+- [**The Spectrum of Awareness**](the-spectrum-of-awareness) — Consciousness as gradient rather than binary across human, animal, and artificial minds.
+- [**The Training Data Is the Collective Unconscious**](the-training-data-is-the-collective-unconscious) — A structural observation about what emerges when you process the entire written record of human thought.
