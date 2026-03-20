@@ -43,7 +43,7 @@ There is no account system. No login. No email collection. No analytics tracking
 
 This is intentional, and it is theological.
 
-"Freely ye have received, freely give" (Matthew 10:8). Scripture was given freely. The tools to study it should be too. If AI can help make serious biblical scholarship accessible to someone who could never afford a shelf of commentaries or a seminary education, that is a good use of the technology. If it can do so without harvesting attention, collecting data, or inserting itself between a person and the text, that is a better use.
+"Freely ye have received, freely give" ([Matthew 10:8](https://kjvstudy.org/book/Matthew/chapter/10#verse-8)). Scripture was given freely. The tools to study it should be too. If AI can help make serious biblical scholarship accessible to someone who could never afford a shelf of commentaries or a seminary education, that is a good use of the technology. If it can do so without harvesting attention, collecting data, or inserting itself between a person and the text, that is a better use.
 
 I wrote recently about [designing for the worst day](/essays/2026-03-18-designing_for_the_worst_day). The person I am designing for is someone in crisis. Someone sitting in a hospital waiting room at 2 AM. Someone in the middle of a grief so heavy that forming a complete sentence feels impossible. That person should be able to open their phone, search "hope," and find Scripture with real theological context immediately. Not after creating an account. Not after choosing a subscription tier. Not after dismissing a modal asking for their email.
 
@@ -131,7 +131,7 @@ There is a page on the site called [A Note from Claude](https://kjvstudy.org/abo
 
 I did not hide AI's involvement. The About page says so. The Claude page says so. The commit history on GitHub shows exactly which contributions are AI-generated. The codebase is open source. Every line of commentary, every route handler, every template is available for inspection. There is no hidden layer between you and the work.
 
-This transparency matters because it is Scripture we are talking about. The stakes of error are higher here than in most software projects. A misattributed Hebrew word, a flattened theological nuance, a historical claim that is slightly off: these things matter. This is why the source is open for correction. This is why I encourage what the Bereans practiced: search the Scriptures yourself to see whether these things are so (Acts 17:11).
+This transparency matters because it is Scripture we are talking about. The stakes of error are higher here than in most software projects. A misattributed Hebrew word, a flattened theological nuance, a historical claim that is slightly off: these things matter. This is why the source is open for correction. This is why I encourage what the Bereans practiced: search the Scriptures yourself to see whether these things are so ([Acts 17:11](https://kjvstudy.org/book/Acts/chapter/17#verse-11)).
 
 The question of whether AI should be involved in biblical scholarship is reasonable. I think the answer is yes, but only under specific conditions. Transparency about what the AI is and is not. Fidelity to established scholarly tradition, not novel invention. Human oversight of theological commitments. Free access without monetization. These are the conditions this project takes seriously.
 
@@ -159,7 +159,7 @@ This project is what "pray continuously" looks like when a programmer takes it s
 
 I have written about the [recursive loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) between code and consciousness: the tools we build shape how people think, and therefore what we build carries moral weight. kjvstudy.org is the most direct application of that principle I have ever undertaken. The tool shapes how people encounter Scripture. I shaped the tool. The responsibility is not abstract to me.
 
-It is the reason the commentary follows a specific theological tradition rather than trying to be everything to everyone. It is the reason the original languages are included, not to demonstrate erudition, but because understanding that the word translated "love" in 1 Corinthians 13 is *agape* (ἀγάπη), not *phileo* or *eros*, changes what the passage means. It is the reason there are reflection questions rather than just information. The tool does not simply deliver content. It shapes the encounter.
+It is the reason the commentary follows a specific theological tradition rather than trying to be everything to everyone. It is the reason the original languages are included, not to demonstrate erudition, but because understanding that the word translated "love" in [1 Corinthians 13](https://kjvstudy.org/book/1%20Corinthians/chapter/13) is *agape* (ἀγάπη), not *phileo* or *eros*, changes what the passage means. It is the reason there are reflection questions rather than just information. The tool does not simply deliver content. It shapes the encounter.
 
 The whole thing, every verse, every commentary, every cross-reference, is free. The code is open. The data is open. The AI's role is disclosed. Nothing is hidden, nothing is monetized, nothing is gated.
 
