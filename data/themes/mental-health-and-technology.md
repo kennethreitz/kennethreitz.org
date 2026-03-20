@@ -20,6 +20,7 @@ Technology makes consciousness harder by exploiting psychological vulnerabilitie
 ### Designing for Mental Health
 
 - [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — What human-centered design means when the human is in crisis.
+- [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Why careless interface design is a clinical risk for vulnerable minds. The canary in the coal mine.
 - [**Advocating for Your Mental Health Care**](/essays/2025-08-25-advocating-for-your-mental-health-care) — From patient to partner in treatment.
 - [**The Coworking Space Saved My Life**](/essays/2026-03-06-the_coworking_space_saved_my_life) — Third spaces and the conditions that create serendipitous support.
 

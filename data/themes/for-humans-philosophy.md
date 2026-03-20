@@ -15,6 +15,7 @@ Every technical choice embeds values about how humans should relate to technolog
 
 - [**What Requests Taught Me About Marriage**](/essays/2026-03-06-what_requests_taught_me_about_marriage) — Sensible defaults, graceful error handling, backwards compatibility. All relationship advice.
 - [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — What "for humans" means when the human is having the worst day of their life.
+- [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Every interface shapes cognition before conscious awareness engages. Design accordingly.
 - [**The Gift of Attention**](/essays/2025-09-06-the_gift_of_attention) — Ethics of asking for consciousness in an attention economy.
 - [**What Kids Taught Me About Creativity**](/essays/2025-09-what_kids_taught_me_about_creativity) — Parenthood strips away tool fetishism to reveal what's actually sacred about making things.
 

@@ -29,6 +29,7 @@ These aren't academic exercises. They emerged from years of direct collaboration
 - [**Idea Amplification and Writing with AI**](/essays/2025-09-05-idea_amplification_and_writing_with_ai) — AI as cognitive scaffolding, especially for neurodivergent minds.
 - [**On Being Replaced**](/essays/2025-09-04-on_being_replaced) — The sacred act of creating tools that transcend their creators.
 - [**The Language Model Is the Message**](/essays/2026-03-06-the_language_model_is_the_message) — The medium shapes the mind. Always has.
+- [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Visual interfaces shape feelings. Linguistic interfaces shape thinking. Neural interfaces will shape consciousness itself. Moral obligation follows.
 
 ### When Consciousness Unmasks Itself
 
