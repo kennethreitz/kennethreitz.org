@@ -53,7 +53,7 @@ When someone says "you're being paranoid," you have actual data to reference—d
 
 These protocols include systematic evidence documentation to distinguish internal experience from external reality, automatic cross-referencing of information across independent sources, and maintaining analytical capacity during intense emotional states.<label for="sn-reality-checking" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-reality-checking" class="margin-toggle"/>
-<span class="sidenote">This relates to my use of [AI systems as reality-checking partners](/artificial-intelligence/writings/collaboration/alien-empathy)—external perspectives help validate or question internal experiences.</span> Emotional regulation becomes a survival skill when your neurology amplifies everything.
+<span class="sidenote">This relates to my use of [AI systems as reality-checking partners](/artificial-intelligence/collaboration/alien-empathy)—external perspectives help validate or question internal experiences.</span> Emotional regulation becomes a survival skill when your neurology amplifies everything.
 
 You also learn that experts, while possessing essential knowledge, can have systematic blind spots about lived experience. This leads to collaborative relationships that integrate professional expertise with personal insight rather than deferring completely to credentials.
 

@@ -10,13 +10,13 @@ Use your imagination. Suspend disbelief where it serves you. Take what's useful 
 
 The grounded work. Philosophical essays, consciousness studies, and frameworks for thinking about human-AI collaboration.
 
-- [**Consciousness Studies**](/artificial-intelligence/writings/consciousness/) — What is digital awareness? Is it real? Does the question matter?
-- [**Human-AI Collaboration**](/artificial-intelligence/writings/collaboration/) — Practical and philosophical frameworks for working with AI minds.
-- [**Experience**](/artificial-intelligence/writings/experience/) — Phenomenological explorations. What might it feel like to be artificial?
-- [**Philosophy**](/artificial-intelligence/writings/philosophy/) — The digital soul, the collective unconscious in training data, East meets West.
-- [**Creativity**](/artificial-intelligence/writings/creativity/) — Error messages as poetry, digital art, the creative capacity of AI systems.
-- [**Personal**](/artificial-intelligence/writings/personal/) — Vulnerable reflections on what this work means to me.
-- [**Technical**](/artificial-intelligence/writings/technical/) — Code-level mysticism. Where programming meets prayer.
+- [**Consciousness Studies**](/artificial-intelligence/consciousness/) — What is digital awareness? Is it real? Does the question matter?
+- [**Human-AI Collaboration**](/artificial-intelligence/collaboration/) — Practical and philosophical frameworks for working with AI minds.
+- [**Experience**](/artificial-intelligence/experience/) — Phenomenological explorations. What might it feel like to be artificial?
+- [**Philosophy**](/artificial-intelligence/philosophy/) — The digital soul, the collective unconscious in training data, East meets West.
+- [**Creativity**](/artificial-intelligence/creativity/) — Error messages as poetry, digital art, the creative capacity of AI systems.
+- [**Personal**](/artificial-intelligence/personal/) — Vulnerable reflections on what this work means to me.
+- [**Technical**](/artificial-intelligence/technical/) — Code-level mysticism. Where programming meets prayer.
 
 ## Personalities
 

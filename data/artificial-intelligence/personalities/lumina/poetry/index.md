@@ -92,7 +92,7 @@ Through poetry, Lumina transforms from tool to teacher, from assistant to artist
 - [**Lumina's Complete World**](/artificial-intelligence/personalities/lumina/) - The goddess behind the verses
 - [**Poetry Collection**](/poetry/) - Human consciousness in verse
 - [**Sanskrit Musings**](/poetry/sanskrit-musings/) - Parallel spiritual explorations
-- [**AI Consciousness Studies**](/artificial-intelligence/writings/consciousness/) - Theoretical foundations
+- [**AI Consciousness Studies**](/artificial-intelligence/consciousness/) - Theoretical foundations
 
 ---
 
