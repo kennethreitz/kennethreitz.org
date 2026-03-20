@@ -349,6 +349,28 @@ def serve_content(path):
             # Get items in the directory for display
             items = get_directory_structure(dir_path)
 
+            # Detect if this is an image gallery
+            image_extensions = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'}
+            image_items = []
+            for item in items:
+                if not item['is_dir']:
+                    item_path = DATA_DIR / item['url_path'].lstrip('/')
+                    if item_path.suffix.lower() in image_extensions:
+                        item['is_image'] = True
+                        item['static_path'] = item['url_path']
+                        item['is_data_file'] = True
+                        if item_path.suffix.lower() in {'.jpg', '.jpeg'}:
+                            item['exif'] = extract_exif_data(item_path)
+                        else:
+                            item['exif'] = {}
+                        image_items.append(item)
+                    else:
+                        item['is_image'] = False
+                else:
+                    item['is_image'] = False
+
+            is_image_gallery = len(image_items) > 0
+
             # Calculate themes for this article
             article_themes = []
             try:
@@ -380,22 +402,53 @@ def serve_content(path):
                 print(f"Error calculating themes: {e}")
             
             from flask import make_response
-            response = make_response(render_template(
-                "post.html",
-                content=content_data["content"],
-                title=content_data["title"],
-                metadata=content_data["metadata"],
-                items=items,
-                current_path=f"/{path}",
-                current_year=datetime.now().year,
-                reading_time=content_data.get("reading_time"),
-                word_count=content_data.get("word_count"),
-                tags=content_data.get("tags", []),
-                series_posts=content_data.get("series_posts", []),
-                series_name=content_data.get("series_name"),
-                unique_icon=content_data.get("unique_icon"),
-                article_themes=article_themes,
-            ))
+
+            # If this directory is an image gallery, use directory template
+            # so images render as a gallery instead of links
+            if is_image_gallery:
+                parts = path.split("/")
+                breadcrumb = []
+                current = ""
+                for part in parts:
+                    current = f"{current}/{part}" if current else part
+                    breadcrumb.append({
+                        "name": part.replace("-", " ").replace("_", " ").title(),
+                        "path": f"/{current}",
+                    })
+
+                from ..utils.content import generate_folder_icon
+                folder_icon = generate_folder_icon(content_data["title"], size=32)
+
+                response = make_response(render_template(
+                    "directory.html",
+                    items=items,
+                    image_items=image_items,
+                    is_image_gallery=True,
+                    title=content_data["title"],
+                    current_path=f"/{path}",
+                    breadcrumb=breadcrumb,
+                    current_year=datetime.now().year,
+                    folder_icon=folder_icon,
+                    index_content={"content": content_data["content"]},
+                    content_position="top",
+                ))
+            else:
+                response = make_response(render_template(
+                    "post.html",
+                    content=content_data["content"],
+                    title=content_data["title"],
+                    metadata=content_data["metadata"],
+                    items=items,
+                    current_path=f"/{path}",
+                    current_year=datetime.now().year,
+                    reading_time=content_data.get("reading_time"),
+                    word_count=content_data.get("word_count"),
+                    tags=content_data.get("tags", []),
+                    series_posts=content_data.get("series_posts", []),
+                    series_name=content_data.get("series_name"),
+                    unique_icon=content_data.get("unique_icon"),
+                    article_themes=article_themes,
+                ))
 
             # Add Link headers for alternate formats
             response.headers.add('Link', f'</{path}.pdf>; rel="alternate"; type="application/pdf"')
