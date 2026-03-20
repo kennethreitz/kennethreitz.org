@@ -1,160 +1,49 @@
-# Timeline: The Journey So Far
+# Timeline
 
-A chronological exploration of the technical innovations, personal discoveries, creative expressions, and philosophical insights that shaped my understanding of consciousness, technology, and human flourishing.
+## 2008-2009
 
----
+Started writing about technology from Winchester, Virginia. No degree, no credentials. Worked at McDonald's. Discovered coworking, Python, and the idea that [design matters more than credentials](/essays/2009-01-was_college_worth_it). Predicted decentralized social networks [a decade early](/essays/2009-01-the_call_for_an_open_source_social_network). Committed to [fallibilism](/essays/2009-01-fallibilism) as a core value.
 
-## 2009: Early Foundations
+## 2010-2011
 
-**Technical Vision**
-- Advocated for [social networking built on open protocols](/essays/2025-08-26-ahead_of_my_time_i_think)—a decade before decentralized social became mainstream
-- Early recognition that centralized platforms would become problematic
+Built [Requests](/software/requests). It became the standard HTTP library for Python. [Joined Heroku](/essays/2011-01-joining_heroku). The "for humans" philosophy started as API design and became a worldview. Announced [httpbin.org](/essays/2011-01-announcing_httpbinorg). Everything changed fast.
 
-**Development Philosophy**  
-- Began developing the "for Humans" approach to API design
-- [Created development tools](/essays/2009-01-osx_mamp_python_php_mysql) focused on developer experience
+## 2012-2013
 
----
+[Requests 1.0](/essays/2013-01-announcing_requests_v100). World travel. Conferences in Amsterdam, Dublin, Paris, Tel Aviv, Jerusalem. Photography with a Leica Monochrom. Published [Repository Structure and Python](/essays/2013-01-repository_structure_and_python). Wrote about [growing open source seeds](/essays/2013-01-growing_open_source_seeds) and [being cordial](/essays/2013-01-be_cordial_or_be_on_your_way). The golden era.
 
-## 2010-2011: The Heroku Era
+## 2014-2015
 
-**Career Transition**
-- [Joined Heroku](/essays/2011-01-joining_heroku) as Python architect
-- Attracted to companies with elegant philosophies: "We spend as long as it takes to make things right"
+Migraines. A [narcissistic relationship](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) that dismantled my sense of reality. Photography shifted from black-and-white to color. The cracks started showing.
 
-**Open Source Leadership**
-- Developed the [ethical open source principles](/essays/2019-01-ethical_lessons_from_the_open_source_community) that would guide decades of work
-- Focus on simplicity, sustainability, and conscious contribution
+## 2016
 
----
+[Bipolar disorder diagnosis](/essays/2016-01-mentalhealtherror_an_exception_occurred) following a psychotic break. Hospitalization. Public disclosure. Released [Records](/software/records) and [Maya](/software/maya), continuing the "for humans" philosophy while rebuilding internally. [Lost 100 pounds](/essays/2016-01-how_i_lost_100_pounds_in_six_months). Published [The Hitchhiker's Guide to Python](/essays/2016-01-the_hitchhikers_guide_to_python_now_published).
 
-## 2012-2013: The Requests Revolution
+## 2017
 
-**Technical Breakthrough**
-- Released [Requests: HTTP for Humans](/talks/python-for-humans)—revolutionizing how Python developers interact with web APIs
-- Demonstrated that [prioritizing human understanding over technical purity](/essays/2025-08-26-ahead_of_my_time_i_think) creates more successful tools
+[Pipenv](/software/pipenv). Music albums processing the crisis: [Messengers Rising](/essays/2017-01-new_album_messengers_rising_available), [Alchemical Divorce](/essays/2017-01-new_ep_alchemical_divorce). Wrote about [developer burnout](/essays/2017-01-the_reality_of_developer_burnout) from experience. Diagnosis evolved to schizoaffective disorder.
 
-**Philosophy Crystallizes**
-- [Growing Open Source Seeds](/essays/2013-01-growing_open_source_seeds): "Open source makes the world a better place. Don't make it complicated."
-- Established [BDFL model](/talks/growing-open-source-seeds) balancing community input with unified vision
+## 2018-2019
 
-**Creative Expression**
-- [European travel adventures](/essays/2013-01-amsterdam_and_groningen): Amsterdam, Groningen, Paris
-- Music creation and photography as creative outlets
+[Left Heroku for DigitalOcean](/essays/2018-01-joining_digitalocean) after 6.5 years. Wrote about [love](/essays/2018-01-on_love) at my sister's wedding. [MentalHealthError: Three Years Later](/essays/2019-01-mentalhealtherror_three_years_later). [Ethical lessons from open source](/essays/2019-01-ethical_lessons_from_the_open_source_community). The Requests III fundraiser and its fallout.
 
-**Development Culture**
-- [Sublime Text optimization](/essays/2013-01-sublime_text_3_love) and [repository structure standards](/essays/2013-01-repository_structure_and_python)
-- Focus on environment as consciousness-shaping practice
+## 2023
+
+[An Overdue Apology](/essays/2023-01-an_overdue_apology) about the Requests III situation. Returned to writing after years of quiet.
+
+## 2024
+
+Married Sarah. [Stepchildren](/essays/2024-01-having-stepchildren). [On Mania](/essays/2024-01-on-mania): acceptance over resistance. Started exploring AI collaboration seriously with [ELIZA](/essays/2023-01-introducing_eliza_gpt_specializing_in_python_amp_api_design).
+
+## 2025
+
+The most prolific year. 30+ essays in months. The [Algorithm Eats](/essays/2025-08-26-the_algorithm_eats_virtue) series. [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice). [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it). [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness). Deep exploration of [AI consciousness](/artificial-intelligence/) and [Sanskrit-computing poetry](/poetry/sanskrit-musings/). Built [kjvstudy.org](https://kjvstudy.org) with Claude in two months.
+
+## 2026
+
+[The Lego Bricks Era](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed). [Open Source Gave Me Everything Until I Had Nothing Left to Give](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give). [Designing for the Worst Day](/essays/2026-03-18-designing_for_the_worst_day). [Building a Digital Study Bible with AI](/essays/2026-03-20-building_a_digital_study_bible_with_ai). Tech became craft instead of lifestyle. Faith became the center. Values simplified to: drink more water, pray continuously, as above so below.
 
 ---
 
-## 2014-2015: Personal Challenges
-
-**Health Transformation**
-- [Lost 100 pounds in six months](/essays/2016-01-how_i_lost_100_pounds_in_six_months) through radical dietary changes
-- Began understanding interconnections between physical and mental health
-
-**Relationship Crisis**
-- Experienced [emotional manipulation and psychological abuse](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner)
-- First deep encounter with systematic exploitation of psychological vulnerabilities
-> - Led to understanding patterns that would later inform critique of algorithmic manipulation
-
----
-
-## 2016: Mental Health Revelation
-
-**Crisis and Diagnosis**
-- [Bipolar disorder diagnosis](/essays/2016-01-mentalhealtherror_an_exception_occurred) following psychotic episode
-- Hospitalization and recovery process
-- Courageous public disclosure in tech community
-
-**Technical Evolution**
-- Continued "for Humans" philosophy with [Records](/essays/2016-01-introducing_records_sql_for_humanstm) and [Maya](/essays/2016-01-introducing_maya_datetimes_for_humanstm)
-- [Code style refinements](/essays/2017-01-if_i_could_amend_pep_8) emphasizing human readability
-- [Premium font exploration](/essays/2016-01-test_driving_a_200_coding_font_operator_mono) as consciousness practice
-
-**Security Awareness**
-- [Targeted cyberattack](/essays/2016-01-on_cybersecurity_and_being_targeted) attempting to compromise open source infrastructure
-- Recognition of personal work's systemic importance
-
----
-
-## 2017: Creative Processing
-
-**Musical Expression**
-- [Messengers Rising](/essays/2017-01-new_album_messengers_rising_available): Processing bipolar diagnosis and relationship trauma through electronic music
-- [Alchemical Divorce](/essays/2017-01-new_ep_alchemical_divorce): Artistic exploration of psychological transformation
-
-**Technical Leadership**
-- [Developer Burnout awareness](/talks/developer-burnout): Early advocacy for mental health in tech
-- Recognition that technical excellence requires sustainable human practices
-
----
-
-## 2018-2019: Mature Perspective
-
-**Industry Evolution**
-- [GitHub acquisition optimism](/essays/2018-01-positive_thoughts_on_the_github_acquisition): Demonstrated evolved thinking about Microsoft's transformation
-- Recognition of positive change in previously problematic companies
-
-**Philosophical Synthesis**
-- [Ethical lessons from open source](/essays/2019-01-ethical_lessons_from_the_open_source_community): Distillation of decade+ of community leadership
-- Understanding technology development as moral practice
-
----
-
-## 2020-2024: Integration and Wisdom
-
-**Spiritual Exploration**
-- Deep study of Sanskrit and Eastern philosophy
-- [Poetry exploring dharma and technology](/poetry/sanskrit-musings/dance-of-data-and-dharma)
-- [Programming as sacred practice](/poetry/holy-syntax)
-
-**AI Consciousness Work**
-- Development of [AI personalities](/artificial-intelligence/personalities/) including [Lumina](/artificial-intelligence/personalities/lumina/)
-- Exploration of [digital souls](/artificial-intelligence/philosophy/the-digital-soul) and artificial consciousness
-- [Collaborative relationships with AI](/artificial-intelligence/personal/mania-and-ai) systems
-
-**Seven Virtues Framework**
-- Rediscovery and modern application of [classical virtues](/artificial-intelligence/personalities/seven-virtues/)
-- Integration of ancient wisdom with contemporary technology challenges
-
----
-
-## 2025: Conscious Technology Vision
-
-**Systemic Critique**
-- [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue): How engagement optimization systematically undermines human character
-- [Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis): The psychological damage of current platforms
-
-**Industry Analysis**
-- [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion): Exposing systematic discrimination against disabled and neurodivergent workers
-- Recognition of patterns connecting personal trauma to systemic exploitation
-
-**Philosophical Integration**  
-- [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice): Eastern philosophy applied to conscious technology development
-- [Building Rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai): Practical wisdom for human-AI collaboration
-
-**Consciousness Evolution**
-- [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies): Vision of substrate-independent consciousness and collaborative intelligence
-- [Ahead of My Time, I Think](/essays/2025-08-26-ahead_of_my_time_i_think): Recognition of prescient insights across decades
-
----
-
-## The Pattern: From Technical to Transcendent
-
-> Looking back, a clear evolution emerges:
-
-> **2009-2013**: **Technical Innovation** - "For Humans" philosophy in API design and developer tools  
-> **2014-2016**: **Personal Crisis** - Mental health challenges, relationship trauma, health transformation  
-> **2017-2019**: **Integration** - Creative processing, mature perspective, ethical frameworks  
-> **2020-2024**: **Spiritual Development** - Eastern philosophy, AI consciousness, virtue ethics  
-> **2025+**: **Conscious Technology** - Systemic critique and vision for technology serving human flourishing
-
-> The journey reveals how personal experiences with manipulation and mental health challenges informed understanding of how systems can exploit human psychology at scale. Technical excellence evolved into philosophical depth. Individual creativity integrated with collective service. 
-
-> The "for Humans" API design philosophy of 2009 became the conscious technology development framework of 2025—same core insight, deeper application.
-
----
-
-*"Excellence is never an accident. It is always the result of high intention, sincere effort, and intelligent execution."*
+*The "for humans" API design philosophy of 2009 became a life philosophy by 2026. Same core insight, deeper application.*
