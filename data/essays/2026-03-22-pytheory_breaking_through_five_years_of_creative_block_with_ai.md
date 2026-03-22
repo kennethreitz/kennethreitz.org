@@ -267,6 +267,9 @@ play(c, temperament="pythagorean", synth=Synth.SAW)
 Because sometimes you just want a quick answer without writing a script:
 
 ```bash
+# Play a C major chord
+$ pytheory play C4 E4 G4
+
 # What's in the key of D major?
 $ pytheory key D major
 
