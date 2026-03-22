@@ -1117,6 +1117,12 @@ async def catch_all(req, resp, *, path):
     file_path = DATA_DIR / f"{path}.md"
     dir_path = DATA_DIR / path
     index_path = dir_path / "index.md"
+    raw_path = DATA_DIR / path
+
+    # Serve raw files (images, etc.) directly from data directory
+    if raw_path.exists() and raw_path.is_file() and not path.endswith(".md"):
+        resp.file(str(raw_path))
+        return
 
     # Serve markdown file
     if file_path.exists():
