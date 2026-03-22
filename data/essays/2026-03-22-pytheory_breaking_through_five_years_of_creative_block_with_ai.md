@@ -286,6 +286,14 @@ $ pytheory key D major
   Chords: D  Em  F#m  G  A  Bm  C#dim
 
 # What chord am I playing?
+$ pytheory chord C E G
+  Chord:     C major
+  Tones:     C4 E4 G4
+  Intervals: [4, 3]
+  Harmony:   0.2381
+  Dissonance: 2.7786
+  Tension:   0.00 (tritones=0)
+
 $ pytheory chord C E G Bb
   C dominant 7th (C7)
 
