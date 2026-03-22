@@ -76,6 +76,12 @@ class RequestWrapper:
 
 _config = FakeConfig()
 
+try:
+    from weasyprint import HTML
+    _pdf_available = True
+except (ImportError, OSError):
+    _pdf_available = False
+
 
 def render(template, req, path="/", **kwargs):
     """Render a template with common context."""
@@ -83,6 +89,7 @@ def render(template, req, path="/", **kwargs):
     kwargs.setdefault("current_path", path)
     kwargs["request"] = RequestWrapper(req, path)
     kwargs["config"] = _config
+    kwargs.setdefault("pdf_available", _pdf_available)
     return api.templates.render(template, **kwargs)
 
 
@@ -1119,8 +1126,52 @@ async def catch_all(req, resp, *, path):
     index_path = dir_path / "index.md"
     raw_path = DATA_DIR / path
 
+    # Serve raw markdown source
+    if path.endswith(".md"):
+        source_path = DATA_DIR / path
+        if source_path.exists():
+            resp.text = source_path.read_text()
+            resp.headers["Content-Type"] = "text/plain; charset=utf-8"
+            return
+        resp.status_code = 404
+        return
+
+    # Serve PDF export
+    if path.endswith(".pdf"):
+        md_path = DATA_DIR / f"{path[:-4]}.md"
+        if md_path.exists():
+            try:
+                from weasyprint import HTML
+                from weasyprint.text.fonts import FontConfiguration
+                content_data = render_markdown_file(md_path)
+                pdf_html = api.templates.render(
+                    "pdf.html",
+                    content=content_data["content"],
+                    title=content_data["title"],
+                    metadata=content_data.get("metadata", {}),
+                    current_year=datetime.now().year,
+                    reading_time=content_data.get("reading_time"),
+                    word_count=content_data.get("word_count"),
+                    unique_icon=content_data.get("unique_icon"),
+                )
+                font_config = FontConfiguration()
+                pdf_buffer = io.BytesIO()
+                HTML(string=pdf_html, base_url="https://kennethreitz.org/").write_pdf(
+                    pdf_buffer, font_config=font_config
+                )
+                pdf_buffer.seek(0)
+                resp.content = pdf_buffer.read()
+                resp.headers["Content-Type"] = "application/pdf"
+                resp.headers["Content-Disposition"] = f'inline; filename="{path.split("/")[-1]}"'
+            except (ImportError, OSError):
+                resp.status_code = 503
+                resp.text = "PDF generation requires WeasyPrint"
+            return
+        resp.status_code = 404
+        return
+
     # Serve raw files (images, etc.) directly from data directory
-    if raw_path.exists() and raw_path.is_file() and not path.endswith(".md"):
+    if raw_path.exists() and raw_path.is_file():
         resp.file(str(raw_path))
         return
 
