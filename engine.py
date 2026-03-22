@@ -1101,6 +1101,16 @@ async def serve_pdf(req, resp, *, path):
 # --- Catch-all route (MUST be last) ---
 
 
+@api.route("/static/{path:path}")
+async def serve_static(req, resp, *, path):
+    """Serve static files explicitly."""
+    static_path = Path("tuftecms/static") / path
+    if static_path.exists() and static_path.is_file():
+        resp.file(str(static_path))
+    else:
+        resp.status_code = 404
+
+
 @api.route("/{path:path}")
 async def catch_all(req, resp, *, path):
     """Main content route -- serves markdown files or directories."""
