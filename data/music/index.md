@@ -1,32 +1,25 @@
-# Music Projects
+# Music
 
-I am an electronic musician, named **Infinite State**<label for="sn-1" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-1" class="margin-toggle"/>
-<span class="sidenote">The name "Infinite State" reflects both musical concepts (endless sonic possibilities) and computing concepts (state machines), bridging Kenneth's dual interests in technology and electronic music composition.</span>, on hiatus.
+I make electronic music as **Infinite State**. Between 2012 and 2018, it was my primary creative outlet alongside code. Five releases, all analog synthesizers, all processed through whatever was happening in my life at the time.
 
-Between 2012 and 2018, producing electronic music was my primary creative outlet<label for="sn-2" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-2" class="margin-toggle"/>
-<span class="sidenote">This period coincided with Kenneth's most productive open source development years, suggesting that musical creativity and coding creativity operated in parallel streams, each informing the other's rhythms and structures.</span>. My music is available on Spotify, Apple Music, TIDAL, and other streaming platforms.
+I'm a percussionist by training. Twenty years of drums, starting with marching band. These days I mostly play hand drums, djembe and cajon, when I play at all.
 
-### Gear Used:
+Currently making music on a **Teenage Engineering OP-XY**. Small, immediate, no screen to get lost in. The constraint is the point.
 
-- Ableton Live & Push 1/2
-- Moog Voyager
-- Moog Sub37
-- Korg Volca Keys
-- Arturia MicroBrute
-- Arturia MiniBrute
-- Arturia MatrixBrute
-- Roland TR-8
-- DSI Tempest
-- [Eurorack Rig](https://modulargrid.net/e/racks/view/63164)
+## Discography
 
-I don't own any of this equipment any longer<label for="sn-3" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-3" class="margin-toggle"/>
-<span class="sidenote">The deliberate divestment of expensive music equipment reflects Kenneth's philosophy of letting go of material attachments when they no longer serve creative purposes—a practice that mirrors his approach to transferring software projects to new maintainers.</span>.
+- [**Unmastered Impulses**](/music/unmastered-impulses) (2016) — The debut. 13 tracks, almost entirely analog. Raw and unpolished on purpose.
+- [**Resolution**](/music/resolution) (2017) — Recorded in my home studio in the spring. Closure and new beginnings.
+- [**Messengers Rising**](/music/messengers-rising) (2017) — 14 tracks processing the bipolar diagnosis and its aftermath.
+- [**Alchemical Divorce**](/music/alchemical-divorce) (2017) — An EP celebrating the end of a toxic relationship.
+- [**As Above, So Below**](/music/as-above-so-below) (2018) — Ambient and experimental. The Hermetic principle as sound.
 
-I now have a small collection of guitars (including a baritone!), but I am not a talented guitarist, by any stretch of the imagination. I use them mostly for meditative purposes.
+## Gear History
 
-I am a percussionist, by training, and I have been playing drums for over 20 years<label for="sn-4" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-4" class="margin-toggle"/>
-<span class="sidenote">Kenneth's percussion background provides foundational understanding of rhythm and timing that influences both his musical compositions and his approach to software architecture—understanding that good systems, like good music, depend on precise timing and rhythmic structure.</span>. I used to take this part of my life very seriously (marching band, *&c*.), but I don't play much anymore. When I do play, I prefer to use hand drums, like the djembe or the cajon.
+The studio I built between 2012 and 2018 is gone. Moog Voyager, Moog Sub37, Arturia MatrixBrute, DSI Tempest, Roland TR-8, a full [Eurorack rig](https://modulargrid.net/e/racks/view/63164), Ableton Live with Push. I sold all of it. The music lives on the streaming platforms. The gear served its purpose.
+
+Now it's just the OP-XY, a pair of headphones, and whatever wants to come out.
+
+## Listen
+
+Available on [Spotify](https://open.spotify.com/artist/infinite-state), [Apple Music](https://music.apple.com/us/artist/infinite-state), and all major streaming platforms.
