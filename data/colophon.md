@@ -4,7 +4,7 @@ This site is mine. My words, my domain, my infrastructure. After eighteen years 
 
 ## The Stack
 
-- **Framework:** A custom Flask CMS called TufteCMS, purpose-built for this site.
+- **Framework:** [Responder](https://github.com/kennethreitz/responder), my own Python web framework, with a custom CMS layer called TufteCMS.
 - **Typography:** Tufte CSS. Edward Tufte understood that margins are for thinking.
 - **Content:** Markdown files in a directory. No database. Just files.
 - **Hosting:** Fly.io.
@@ -40,7 +40,8 @@ This site has been:
 - Ghost (2013-2015)
 - Medium (briefly, regrettably)
 - Squarespace (2016-2023)
-- Custom TufteCMS on Flask (2024-present)
+- Custom TufteCMS on Flask (2024-2026)
+- Custom TufteCMS on [Responder](/software/responder) (2026-present)
 
 Every migration taught me the same lesson: platforms come and go, but your own domain is forever.
 
