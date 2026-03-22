@@ -32,6 +32,17 @@ If the developer feels stupid, the API is wrong.
 - [**httpbin.org**](https://httpbin.org) — HTTP request and response testing service.
 - [**kennethreitz.org**](https://github.com/kennethreitz/kennethreitz.org) — This website. Custom Flask CMS called TufteCMS. [Open source](https://github.com/kennethreitz/kennethreitz.org).
 
+## The Philosophy
+
+Every library starts from the same conviction: find the pain point, study how people actually think about the problem, then design an interface that matches their mental model. The *Zen of Python* captures it:
+
+- Beautiful is better than ugly.
+- Explicit is better than implicit.
+- Simple is better than complex.
+- Complex is better than complicated.
+
+These aren't just code rules. They're design rules. The same thinking that produces a clean API produces a [clear essay](/essays/2025-08-26-programming_as_spiritual_practice) and a [well-designed day](/essays/2026-03-18-designing_for_the_worst_day).
+
 ---
 
 More on [GitHub](https://github.com/kennethreitz). Building since 2008.
