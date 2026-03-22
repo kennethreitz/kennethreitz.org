@@ -591,6 +591,9 @@
                     // Python class names (class ClassName)
                     html = html.replace(/(\bclass\s+)([A-Za-z_][A-Za-z0-9_]*)/g, '$1<span style="font-weight: bold;">$2</span>');
 
+                    // Variable assignment targets (name = ...)
+                    html = html.replace(/^(\s*)([a-zA-Z_][a-zA-Z0-9_]*)(\s*=\s)/gm, '$1<span style="font-weight: bold;">$2</span>$3');
+
                     // JavaScript/C++/Java comments (// comment) - only at line start, not in URLs
                     html = html.replace(/^(\s*\/\/.*)$/gm, '<span style="color: #888; font-style: italic;">$1</span>');
 
