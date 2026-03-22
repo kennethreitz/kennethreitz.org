@@ -34,8 +34,19 @@ with open("people.xlsx", "wb") as f:
 # Import from CSV.
 data = tablib.Dataset().load(open("people.csv").read())
 
-# Filter and sort.
-data.sort("Age")
+# Filter columns dynamically.
+print(data["Name"])
+# ['Alice', 'Bob', 'Charlie']
+
+# Stack datasets together.
+more_people = tablib.Dataset(headers=["Name", "Age", "City"])
+more_people.append(["Diana", 29, "Denver"])
+combined = data.stack(more_people)
+
+# Databooks: multiple sheets in one export.
+book = tablib.Databook(sets=[data, more_people])
+with open("report.xlsx", "wb") as f:
+    f.write(book.export("xlsx"))
 ```
 
 One dataset, any format. Import from one, export to another. The data doesn't care about file formats, and neither should you.
@@ -44,9 +55,11 @@ One dataset, any format. Import from one, export to another. The data doesn't ca
 
 Tablib was one of my first open source projects, built in 2010 before the data science ecosystem in Python really took off. It came from a simple frustration: I kept writing the same import/export boilerplate for every project that dealt with tabular data.
 
-The idea was format agnosticism. Your data is your data. Whether it ends up as a spreadsheet, a JSON file, or a DataFrame shouldn't change how you work with it. That principle, that software should adapt to your workflow rather than the other way around, became central to everything I built after.
+The idea was format agnosticism. Your data is your data. Whether it ends up as a spreadsheet, a JSON file, or a DataFrame shouldn't change how you work with it. That principle — that software should adapt to your workflow rather than the other way around — became central to everything I built after.
 
-Tablib powers the export functionality in [Records](/software/records), and its approach to clean API design directly influenced [Requests](/software/requests).
+Tablib powers the export functionality in [Records](/software/records), and its approach to clean API design directly influenced [Requests](/software/requests). Looking back, it was the first place I figured out what "for humans" actually meant in practice: a single object that does the obvious thing, with sane defaults and no ceremony.
+
+Now maintained by the [Jazzband](https://jazzband.co/) community, which is a model for sustainable open source stewardship.
 
 ## Install
 
@@ -59,12 +72,13 @@ For specific format support:
 ```bash
 $ uv pip install tablib[xlsx]    # Excel support
 $ uv pip install tablib[yaml]    # YAML support
+$ uv pip install tablib[pandas]  # DataFrame support
 $ uv pip install tablib[all]     # Everything
 ```
 
 ## Resources
 
-- [Documentation](https://tablib.readthedocs.io/en/stable/)
+- [Documentation](https://tablib.readthedocs.io/)
 - [Source Code on GitHub](https://github.com/jazzband/tablib)
 - [Python Package Index](https://pypi.org/project/tablib/)
 

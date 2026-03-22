@@ -25,13 +25,33 @@ send_email("charlie@example.com", "Reminder", "Meeting at 3.")
 print("All emails queued.")
 ```
 
-Under the hood, Background uses a `ThreadPoolExecutor`. The default thread count matches your CPU cores. You can configure it if you need to.
+Under the hood, Background uses a `ThreadPoolExecutor`. The default thread count matches your CPU cores. You can configure it if you need to:
+
+```python
+import background
+
+# Set the number of background threads.
+background.n = 8
+
+@background.task
+def process_image(path):
+    # Up to 8 of these will run concurrently.
+    resize_and_compress(path)
+
+# Returns a Future you can inspect if needed.
+future = process_image("/uploads/photo.jpg")
+future.result()  # Block until complete, if you want.
+```
+
+The decorated function returns a `concurrent.futures.Future`, so you get the simplicity of fire-and-forget with the option to wait for results when you need them.
 
 ## The Philosophy
 
-Sometimes you need Celery. Sometimes you need Redis. And sometimes you just need a function to run without blocking the main thread. Background is for that third case.
+Sometimes you need Celery. Sometimes you need Redis and a message broker and dead-letter queues and retry policies. And sometimes you just need a function to run without blocking the main thread. Background is for that third case.
 
-I use it on this very website for trivial background tasks outside the main event loop. Not everything needs infrastructure. Sometimes a thread pool and a decorator are exactly enough.
+Not everything needs infrastructure. Not every background task needs to survive a server restart. Sometimes a thread pool and a decorator are exactly enough. The gap between "I need this to run in the background" and "I need a distributed task queue" is enormous, and Background lives in that gap.
+
+I use it on this very website for trivial background tasks outside the main event loop. It's the kind of tool that would be embarrassing to over-engineer and satisfying to keep simple.
 
 The project was gifted to [Parth Shandilya](https://github.com/ParthS007), who now maintains it.
 
@@ -50,3 +70,4 @@ $ uv pip install background
 
 - [**Delegator**](/software/delegator) — Another small, focused utility for common Python tasks.
 - [**Requests**](/software/requests) — The philosophy that simple tools should stay simple.
+- [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — Knowing when not to over-engineer is its own discipline.
