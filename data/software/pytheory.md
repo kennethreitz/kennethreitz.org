@@ -27,6 +27,12 @@ c_minor["tonic"].pitch(temperament="pythagorean", symbolic=True)
 # 14080/27
 ```
 
+Play notes directly from the command line:
+
+```bash
+$ pytheory play C4 E4 G4
+```
+
 The `symbolic` parameter is the part I find most fascinating. Instead of just calculating a frequency, it shows you the mathematical relationship. Music is math made audible, and PyTheory lets you see both sides.
 
 ## The Story
