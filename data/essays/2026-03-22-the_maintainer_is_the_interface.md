@@ -48,9 +48,7 @@ People don't leave projects because the code is hard. They leave because the exp
 
 [Interfaces shape what feels possible](/essays/2026-03-20-the_interface_is_the_subconscious), not just what is possible. A project with a welcoming maintainer feels like a place you belong. A project with a hostile maintainer feels like a place you're trespassing. The subconscious makes that assessment before you've read a single line of code.
 
-Here's where the technical metaphor gets useful in a way that goes beyond analogy.
-
-Good API design and good maintainer behavior follow the same principles. Not because human interaction is "like" an API. Because both are interfaces between minds, and the principles that make interfaces work are universal.
+Good API design and good maintainer behavior follow the same principles. Not because human interaction is "like" an API. Because both are interfaces between minds.
 
 **Sensible defaults correspond to assuming good faith.** When someone opens an issue or submits a PR, the default assumption should be that they're trying to help. Not that they're wasting your time. Not that they haven't read the docs. An API that assumes the developer knows what they're doing and provides helpful fallbacks for when they don't. A maintainer that assumes the contributor is acting in good faith and provides gentle correction when they're not. Same principle, different substrate.
 
@@ -116,7 +114,7 @@ The architecture was wrong: I had made myself the single point of enforcement. I
 
 This is the trap of the maintainer-as-interface model at scale. When the maintainer IS the project's social infrastructure, the project has a single point of failure that is also a human being with mental health needs and a finite capacity for emotional labor. The system is architected for failure from the start.
 
-There's another dimension to this that the industry doesn't talk about enough. A maintainer with publish access to a package downloaded 30 million times a day is a supply chain attack vector into every company that depends on that package.<label for="sn-security" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-security" class="margin-toggle"/><span class="sidenote">In 2016, someone [targeted me with a DNS attack](/essays/2016-01-on_cybersecurity_and_being_targeted) attempting to intercept my GitHub password reset email. The goal was almost certainly access to the Requests or Certifi repositories. A compromised package at that scale is a backdoor into thousands of production systems. Two-factor authentication saved me. Not everyone is that lucky.</span> A burned-out maintainer is a vulnerable maintainer. A vulnerable maintainer with the keys to critical infrastructure is a risk that goes far beyond community health. It's a national security concern that we've somehow normalized.
+And there's a security dimension nobody talks about. A maintainer with publish access to a package downloaded 30 million times a day is a supply chain attack vector into every company that depends on that package.<label for="sn-security" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-security" class="margin-toggle"/><span class="sidenote">In 2016, someone [targeted me with a DNS attack](/essays/2016-01-on_cybersecurity_and_being_targeted) attempting to intercept my GitHub password reset email. The goal was almost certainly access to the Requests or Certifi repositories. A compromised package at that scale is a backdoor into thousands of production systems. Two-factor authentication saved me. Not everyone is that lucky.</span> A burned-out maintainer is a vulnerable maintainer. A vulnerable maintainer with the keys to critical infrastructure is a risk that nobody in the supply chain is accounting for.
 
 The solution, obvious in retrospect, is the same one we apply to any system that needs to stay available under load: distribute the interface. Co-maintainers as load balancers. Trusted contributors with merge access. Community moderators who set tone. The maintainer's values get encoded in a team, not embodied in a person. The interface survives the maintainer's bad day because it's no longer running on a single node.
 
@@ -132,17 +130,13 @@ Both responses enforce the same norm. The first one communicates: the rules matt
 
 The newcomer doesn't read the `CONTRIBUTING.md` to decide whether this is a welcoming project. They read the maintainer's tone. They read the emotional subtext of the interaction. They form an impression of the project's culture in thirty seconds, based on a single comment, and that impression is more accurate than anything written in a governance document.
 
-This is the social equivalent of what I described with visual interfaces: the subconscious reads the mood before the conscious mind reads the content. A contributor's nervous system evaluates the maintainer's tone before their conscious mind evaluates the maintainer's argument. By the time they've processed the words, they've already decided whether this is a place they want to be.
+The subconscious reads the mood before the conscious mind reads the content. By the time they've processed the words, they've already decided whether this is a place they want to be.
 
 ## Every Interaction Is a Design Decision
 
-I want to be direct about the implication of all this.
-
 If you maintain an open source project, every interaction you have with a contributor is a design decision. You may not think of it that way. You may think you're just reviewing code, or triaging issues, or answering questions. But every response you write is shaping someone's experience of participation. It's determining whether they come back. It's establishing norms that other contributors will absorb and replicate. It's defining the project's culture more powerfully than any document ever could.
 
-This is not a suggestion to be nicer. "Be nicer" is useless advice because it doesn't address the structural reality. The structural reality is that maintainers are doing emotional labor at scale, usually without compensation, often without support, frequently without recognizing it as labor at all. Telling maintainers to be nicer without addressing the conditions that make them terse is like telling a server to handle more requests without giving it more memory. The constraint is not attitude. It's capacity.
-
-The real prescription is architectural:
+This is not a suggestion to be nicer. Telling maintainers to be nicer without addressing the conditions that make them terse is like telling a server to handle more requests without giving it more memory. The constraint is not attitude. It's capacity.
 
 **Recognize that being the interface is work.** Emotional labor is labor. Community management is a skill. If your project has a thousand users and one maintainer doing all the human interaction, you have an under-resourced critical system.
 
@@ -168,7 +162,7 @@ I carry that. Not as guilt. As engineering notes from a post-mortem.
 
 ## Lessons Learned
 
-After fifteen years, here's what I actually know.
+What I actually know after fifteen years.
 
 **You have to give up the keys.** This was the hardest lesson. When the project is your identity, delegating feels like giving away pieces of yourself. But a project that depends on one person's capacity is a project with a single point of failure, and that person is going to fail. Not might. Going to. Bring on co-maintainers before you need them. Give them real authority, not just triage permissions. Let them shape the interface in their own voice. The project will survive your absence only if you've built it to survive your absence.
 
