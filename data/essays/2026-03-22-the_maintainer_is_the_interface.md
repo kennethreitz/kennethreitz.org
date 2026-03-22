@@ -127,6 +127,8 @@ I don't remember what state I was in when I wrote that. I might have been exhaus
 
 That's what burnout does to the principles you started with. You begin with "Thanks for this! Great first contribution." You end with "No." Not because your values changed. Because your capacity collapsed, and the interface degraded along with it.
 
+And Requests wasn't my only project. I was simultaneously maintaining [Pipenv](/software/pipenv), [Records](/software/records), [Maya](/software/maya), [Tablib](/software/tablib), [Certifi](/software/certifi), httpbin, and others. Each project is its own interface with its own community, its own issue tracker, its own expectations. The burnout doesn't add up linearly. It compounds. Every context switch between projects costs cognitive energy. Every community expects you to be present, responsive, and warm. Multiply one maintainer's capacity problem by eight projects and you get a system that was designed to fail from the start.
+
 The metaphor is exact, not approximate. A server under too much load doesn't respond with hostility. It responds with timeouts. With dropped connections. With degraded service that makes the user feel like they don't matter, not because the server doesn't care but because the server is out of resources. That's what maintainer burnout looks like from the contributor's side. Not cruelty. Absence. Or worse, a one-word rejection from someone who used to write paragraphs.
 
 Silence, from an interface, is its own message. It says: you are not important enough to warrant a response. The maintainer doesn't mean that. The maintainer is drowning. But the interface, the actual experienced interface, communicates it anyway.
