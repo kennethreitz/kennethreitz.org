@@ -270,6 +270,12 @@ Because sometimes you just want a quick answer without writing a script:
 # Play a C major chord
 $ pytheory play C4 E4 G4
 
+# Play a chord by name
+$ pytheory play Cmaj7
+  Playing: C major 7th (C4 E4 G4 B4)
+  Synth:   sine
+  Duration: 1000 ms
+
 # What's in the key of D major?
 $ pytheory key D major
 
