@@ -349,6 +349,6 @@ print(key.progression("I", "V", "vi", "IV"))
 
 ---
 
-*PyTheory is open source at [github.com/kennethreitz/pytheory](https://github.com/kennethreitz/pytheory). Install with `pip install pytheory`. Contributions welcome—especially from musicians who know the traditions I've only approximated.*
+*PyTheory is open source at [github.com/kennethreitz/pytheory](https://github.com/kennethreitz/pytheory). Full documentation at [pytheory.kennethreitz.org](https://pytheory.kennethreitz.org/). Install with `uv pip install pytheory`. Contributions welcome, especially from musicians who know the traditions I've only approximated.*
 
 **Related essays:** [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) · [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) · [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it)

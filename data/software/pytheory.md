@@ -51,6 +51,7 @@ $ uv pip install pytheory
 
 ## Resources
 
+- [Documentation](https://pytheory.kennethreitz.org/)
 - [Source Code on GitHub](https://github.com/kennethreitz/pytheory)
 - [Python Package Index](https://pypi.org/project/pytheory/)
 
