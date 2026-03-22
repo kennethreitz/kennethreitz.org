@@ -132,8 +132,16 @@ def og_image(path):
 @main_bp.route("/")
 def index():
     """Homepage using the homepage.html template."""
+    from ..core.cache import get_blog_cache
+
+    blog_data = get_blog_cache()
+    recent_posts = blog_data.get("posts", [])[:6]
+
     return render_template(
-        "homepage.html", current_year=datetime.now().year, title="Home"
+        "homepage.html",
+        current_year=datetime.now().year,
+        title="Home",
+        recent_posts=recent_posts,
     )
 
 
