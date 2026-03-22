@@ -584,9 +584,9 @@
                     // Python/Shell comments (# comment) - both line start and inline
                     html = html.replace(/(^|\s+)(#.*)$/gm, '$1<span style="color: #888; font-style: italic;">$2</span>');
 
-                    // Python docstrings (""" or ''')
-                    html = html.replace(/("""[\s\S]*?""")/g, '<span style="color: #888; font-style: italic;">$1</span>');
-                    html = html.replace(/('''[\s\S]*?''')/g, '<span style="color: #888; font-style: italic;">$1</span>');
+                    // Python docstrings (""" or ''') — italic but readable, not grayed out
+                    html = html.replace(/("""[\s\S]*?""")/g, '<span style="font-style: italic;">$1</span>');
+                    html = html.replace(/('''[\s\S]*?''')/g, '<span style="font-style: italic;">$1</span>');
 
                     // Python class names (class ClassName)
                     html = html.replace(/(\bclass\s+)([A-Za-z_][A-Za-z0-9_]*)/g, '$1<span style="font-weight: bold;">$2</span>');

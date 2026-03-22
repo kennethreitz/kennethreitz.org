@@ -133,7 +133,7 @@ Silence, from an interface, is its own message. It says: you are not important e
 
 ## The Single Point of Failure
 
-In 2013, I wrote a blog post called "Be Cordial or Be on Your Way." It was my attempt to set norms for the Requests community, to establish that respectful interaction was a prerequisite for participation. At the time, it felt like good community management. In retrospect, it was the right instinct expressed through the wrong architecture.
+In 2013, I wrote a blog post called "[Be Cordial or Be on Your Way](/essays/2013-01-be_cordial_or_be_on_your_way)." It was my attempt to set norms for the Requests community, to establish that respectful interaction was a prerequisite for participation. At the time, it felt like good community management. In retrospect, it was the right instinct expressed through the wrong architecture.
 
 The instinct was right: the tone of the community matters. How people treat each other in the issue tracker is part of the project's interface. Norms of respect make the project accessible to more people.
 
