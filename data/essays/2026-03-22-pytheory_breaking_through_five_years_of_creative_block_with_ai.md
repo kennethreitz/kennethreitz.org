@@ -269,6 +269,9 @@ Because sometimes you just want a quick answer without writing a script:
 ```bash
 # Play a C major chord
 $ pytheory play C4 E4 G4
+  Playing: C4 E4 G4
+  Synth:   sine
+  Duration: 1000 ms
 
 # Play a chord by name
 $ pytheory play Cmaj7
@@ -278,17 +281,26 @@ $ pytheory play Cmaj7
 
 # What's in the key of D major?
 $ pytheory key D major
+  Key: D major
+  Notes: D E F# G A B C#
+  Chords: D  Em  F#m  G  A  Bm  C#dim
 
 # What chord am I playing?
 $ pytheory chord C E G Bb
-# → C dominant 7th
+  C dominant 7th (C7)
 
 # Show me the fingering
 $ pytheory fingering Am7
+  e |---0---|
+  B |---1---|
+  G |---0---|
+  D |---2---|
+  A |---0---|
+  E |-------|
 
 # Detect the key from a set of notes
 $ pytheory detect C D E F G A B
-# → C major
+  C major (100% match)
 ```
 
 ## What Breaking Through Actually Felt Like
