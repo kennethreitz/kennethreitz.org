@@ -1,47 +1,52 @@
-# background
+# Background: Simple Background Tasks
 
-`background` is a simple program that allows you to run background tasks
-in any Python application. It is a simple and easy-to-use library that
-allows you to run tasks in the background without blocking the main
-thread.
+Background lets you run Python functions in background threads with a single decorator. No task queue. No message broker. No configuration. Just `@background.task` and you're done.
 
-I'm using it on this FastAPI application to run trivial background tasks,
-outside of the main event loop.
+    $ uv pip install background
 
-<span class="sidenote">The `background` library demonstrates Kenneth's preference for simple, focused solutions over complex frameworks. Rather than requiring heavyweight task queues like Celery, it provides just enough functionality for common background processing needs.</span>
-
-
-## Installation
-
-You can install `background` using `uv` or `pip`:
-
-```bash
-$ uv pip install background
-```
-
-## Usage
-
-Here is a simple example of how you can use `background`:
+## What It Looks Like
 
 ```python
 import time
 import background
 
 @background.task
-def work():
-    # Do something expensive here.
-    time.sleep(10)
+def send_email(to, subject, body):
+    # This runs in a background thread.
+    time.sleep(2)  # Simulate sending.
+    print(f"Sent '{subject}' to {to}")
 
+# These all return immediately.
+send_email("alice@example.com", "Hello", "How are you?")
+send_email("bob@example.com", "Update", "Project shipped.")
+send_email("charlie@example.com", "Reminder", "Meeting at 3.")
 
-for _ in range(100):
-    work()
+# Main thread keeps running while emails send in the background.
+print("All emails queued.")
 ```
 
-In the background, `work` will be executed using a ThreadPoolExecutor. The default number of threads is `multiprocessing.cpu_count()`, and is configurable.
+Under the hood, Background uses a `ThreadPoolExecutor`. The default thread count matches your CPU cores. You can configure it if you need to.
 
-## Learn More
+## The Philosophy
 
-The repository was gifted to [Parth Shandilya](https://github.com/ParthS007), who now maintains the project.
+Sometimes you need Celery. Sometimes you need Redis. And sometimes you just need a function to run without blocking the main thread. Background is for that third case.
 
-- https://github.com/ParthS007/background
-- https://pypi.org/project/background/
+I use it on this very website for trivial background tasks outside the main event loop. Not everything needs infrastructure. Sometimes a thread pool and a decorator are exactly enough.
+
+The project was gifted to [Parth Shandilya](https://github.com/ParthS007), who now maintains it.
+
+## Install
+
+```bash
+uv pip install background
+```
+
+## Resources
+
+- [Source Code on GitHub](https://github.com/ParthS007/background)
+- [Python Package Index](https://pypi.org/project/background/)
+
+## Related
+
+- [**Delegator**](/software/delegator) — Another small, focused utility for common Python tasks.
+- [**Requests**](/software/requests) — The philosophy that simple tools should stay simple.

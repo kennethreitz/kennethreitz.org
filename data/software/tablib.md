@@ -1,48 +1,75 @@
-# Tablib: Tabular Datasets
+# Tablib: Tabular Datasets for Humans
 
-Tablib is a format-agnostic tabular dataset library, written in Python. It allows you to import, export, and manipulate tabular data sets.
+Tablib is a format-agnostic tabular dataset library for Python. Create a dataset once, export it to CSV, JSON, Excel, YAML, or a pandas DataFrame. The data stays the same. The format is up to you.
 
-<span class="sidenote">Tablib was created in 2010, predating many popular data manipulation libraries. It pioneered the concept of format-agnostic data handling in Python, establishing patterns that would later influence the broader data science ecosystem.</span>
+    $ uv pip install tablib
 
-## Features
-
-- **Format Agnostic**: Tablib supports a variety of formats, including Excel, CSV, JSON, and YAML, allowing you to work with data in different file types.
-
-<span class="sidenote">Format agnosticism reflects a core design philosophy: software should adapt to users' workflows rather than forcing users to adapt to the software. This principle would become central to the "for Humans" philosophy in Kenneth's later projects.</span>
-
-- **Data Manipulation**: The library provides functions for sorting, filtering, and transforming data sets, enabling you to perform common data operations.
-- **Import and Export**: Tablib allows you to import data from files or URLs, and export data to different formats, making it easy to work with data from various sources.
-
-This was one of my first open source projects. The [documentation](https://tablib.readthedocs.io/en/stable/) is extensive and covers all aspects of the library. It was my passion project for a long time.
-
-<span class="sidenote">The emphasis on comprehensive documentation became a hallmark of Kenneth's open source philosophy. This commitment to clear, extensive documentation would later distinguish Requests as "HTTP for Humans" by making complex functionality accessible through intuitive documentation.</span>
-
-<span class="sidenote">Tablib's development occurred during Kenneth's formative years as an open source developer. The extensive documentation and thoughtful API design established patterns he would later apply to Requests and other successful projects.</span>
-
-## Installation
-
-You can install Tablib using pip:
-
-```bash
-$ pip install tablib
-```
-
-## Documentation
-
-The official documentation for Tablib can be found [here](https://tablib.readthedocs.io/en/stable/).
-
-## Usage
-
-Here's an example of how you can use Tablib to work with tabular datasets in Python:
+## What It Looks Like
 
 ```python
 import tablib
 
-# Create a dataset
+# Create a dataset.
 data = tablib.Dataset(headers=["Name", "Age", "City"])
-for row in [
-    ["Alice", 24, "New York"],
-    ["Bob", 30, "San Francisco"],
-    ["Charlie", 28, "Seattle"],
-]:
-    data.append(row)
+
+data.append(["Alice", 28, "Portland"])
+data.append(["Bob", 34, "Seattle"])
+data.append(["Charlie", 22, "Austin"])
+
+# Export to CSV.
+print(data.export("csv"))
+# Name,Age,City
+# Alice,28,Portland
+# Bob,34,Seattle
+# Charlie,22,Austin
+
+# Export to JSON.
+print(data.export("json"))
+# [{"Name": "Alice", "Age": 28, "City": "Portland"}, ...]
+
+# Export to Excel.
+with open("people.xlsx", "wb") as f:
+    f.write(data.export("xlsx"))
+
+# Import from CSV.
+data = tablib.Dataset().load(open("people.csv").read())
+
+# Filter and sort.
+data.sort("Age")
+```
+
+One dataset, any format. Import from one, export to another. The data doesn't care about file formats, and neither should you.
+
+## The Story
+
+Tablib was one of my first open source projects, built in 2010 before the data science ecosystem in Python really took off. It came from a simple frustration: I kept writing the same import/export boilerplate for every project that dealt with tabular data.
+
+The idea was format agnosticism. Your data is your data. Whether it ends up as a spreadsheet, a JSON file, or a DataFrame shouldn't change how you work with it. That principle, that software should adapt to your workflow rather than the other way around, became central to everything I built after.
+
+Tablib powers the export functionality in [Records](/software/records), and its approach to clean API design directly influenced [Requests](/software/requests).
+
+## Install
+
+```bash
+uv pip install tablib
+```
+
+For specific format support:
+
+```bash
+uv pip install tablib[xlsx]    # Excel support
+uv pip install tablib[yaml]    # YAML support
+uv pip install tablib[all]     # Everything
+```
+
+## Resources
+
+- [Documentation](https://tablib.readthedocs.io/en/stable/)
+- [Source Code on GitHub](https://github.com/jazzband/tablib)
+- [Python Package Index](https://pypi.org/project/tablib/)
+
+## Related
+
+- [**Records**](/software/records) — SQL for Humans, powered by Tablib's export engine.
+- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — The era when these libraries came together.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — How designing for humans became a worldview.

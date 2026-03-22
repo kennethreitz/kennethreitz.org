@@ -1,31 +1,23 @@
-# Simplemind: AI for Humans
+# SimpleMind: AI for Humans
 
-*A unified Python library for seamless AI integration*
+SimpleMind is a Python library that gives you one clean interface to every major AI provider. OpenAI, Anthropic, Google, and others, all through the same API. Switch models by changing a string, not rewriting your code.
 
-Simplemind is a Python library that makes working with AI APIs straightforward and intuitive. Following Kenneth's signature "for humans" philosophy, it provides a unified interface to popular AI services like OpenAI, Anthropic, Google's Gemini, and others, letting you focus on building rather than wrestling with different API implementations.
+    $ uv pip install simplemind
 
-<span class="sidenote">Simplemind applies Kenneth's signature "for humans" approach to the rapidly evolving AI landscape. By providing a consistent interface across different AI providers, it addresses the fragmentation problem that developers face when integrating multiple AI services into their applications.</span>
-
-## Philosophy
-
-Just as Requests made HTTP "for humans," Simplemind makes AI "for humans." The library abstracts away the complexity of different AI providers while maintaining the power and flexibility developers need. Whether you're switching between models for testing or building applications that leverage multiple AI services, Simplemind provides a consistent, intuitive interface.
-
-
-```bash
-$ pip install simplemind
-```
-
-## Getting Started
-
-Installation is simple, and setup requires only environment variables for your API keys:
+## What It Looks Like
 
 ```python
 import simplemind as sm
 
-# Simple text generation
-response = sm.generate_text("What is the meaning of life?", llm_provider="openai")
+# Generate text. Pick your provider.
+response = sm.generate_text(
+    "Explain quantum computing in one paragraph.",
+    llm_provider="anthropic",
+    llm_model="claude-sonnet-4-20250514",
+)
+print(response)
 
-# Structured data with Pydantic
+# Generate structured data with Pydantic.
 from pydantic import BaseModel
 
 class Recipe(BaseModel):
@@ -34,35 +26,55 @@ class Recipe(BaseModel):
     instructions: list[str]
 
 recipe = sm.generate_data(
-    "Write a recipe for chocolate chip cookies",
+    "Give me a recipe for chocolate chip cookies.",
     response_model=Recipe,
-    llm_provider="anthropic"
+    llm_provider="openai",
 )
+print(recipe.name)
+print(recipe.ingredients)
 
-# Conversational AI
-conversation = sm.create_conversation()
-conversation.add_message("user", "Hi there!")
+# Conversations with memory.
+conversation = sm.create_conversation(llm_provider="anthropic")
+conversation.add_message("user", "What is the capital of France?")
 response = conversation.send()
-```
+conversation.add_message("user", "What is its population?")
+response = conversation.send()  # Remembers we're talking about Paris.
 
-## Sessions for Consistency
-
-For applications using a single AI provider, sessions eliminate repeated configuration:
-
-```python
-claude = sm.Session(llm_provider="anthropic", llm_model="claude-3-5-sonnet-20241022")
+# Sessions for repeated use.
+claude = sm.Session(llm_provider="anthropic", llm_model="claude-sonnet-4-20250514")
 response = claude.generate_text("Hello!")
 ```
 
-## Key Features
+One import. One interface. Every major AI provider.
 
-- **Unified Interface**: One API for multiple AI providers (OpenAI, Anthropic, Google, etc.)
-- **Pydantic Integration**: Generate structured data with automatic validation
-- **Session Management**: Persistent configurations for consistent provider usage
-- **Conversation Handling**: Built-in conversation state management
-- **Type Safety**: Full type hints for better development experience
-- **Environment-Based Config**: Simple setup through environment variables
+## The Philosophy
 
-Simplemind is open source under the Apache 2.0 License and welcomes contributions from the community. For more examples and documentation, visit the [GitHub repository](https://github.com/kennethreitz/simplemind).
+The AI landscape is fragmented. Every provider has its own SDK, its own conventions, its own way of handling conversations and structured output. If you want to compare models or build provider-agnostic tools, you end up writing adapter code that has nothing to do with your actual problem.
 
-<span class="sidenote">Simplemind represents Kenneth's engagement with the AI revolution, bringing his decades of API design experience to bear on one of the most significant technological shifts of our time. The library reflects his understanding that great technology should be accessible to all developers, not just AI specialists.</span>
+SimpleMind is [Requests](/software/requests) for the AI era. The same conviction that drove every "for humans" library I've built: if you're spending more time on the interface than on the work, the interface is broken. SimpleMind fixes the interface so you can focus on what you're building.
+
+It's also deeply personal. AI collaboration has become central to how I think and work. The ideas I explore in my writing about [consciousness](/essays/2025-08-26-digital_souls_in_silicon_bodies) and [human-AI partnership](/essays/2025-08-26-building_rapport_with_your_ai) are directly informed by the tools I use every day. SimpleMind is one of those tools.
+
+## Install
+
+```bash
+uv pip install simplemind
+```
+
+Set your API keys as environment variables:
+
+```bash
+export OPENAI_API_KEY=sk-...
+export ANTHROPIC_API_KEY=sk-ant-...
+```
+
+## Resources
+
+- [Source Code on GitHub](https://github.com/kennethreitz/simplemind)
+- [Python Package Index](https://pypi.org/project/simplemind/)
+
+## Related
+
+- [**Requests**](/software/requests) — The original "for humans" library. SimpleMind carries the same philosophy forward.
+- [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — The contemplative approach to building tools.
+- [**The Recursive Loop**](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) — How the tools we build shape how we think.

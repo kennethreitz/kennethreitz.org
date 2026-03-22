@@ -1,52 +1,65 @@
 # Records: SQL for Humans
 
-Records is a library for working with tabular data in Python, accessible via SQL. It is powered by [SQLAlchemy](https://www.sqlalchemy.org/) and provides a high-level API for interacting with databases using SQL queries. Records simplifies the process of working with databases by abstracting away the complexities of SQL and providing a more user-friendly interface.
+Records is a simple library for making raw SQL queries to most relational databases. It's powered by SQLAlchemy, but you'd never know it. No ORM. No models. Just SQL in, results out.
 
-<span class="sidenote">Records represents Kenneth's approach to making database interactions more intuitive. While SQLAlchemy provides comprehensive ORM capabilities, Records focuses on the common use case of executing SQL queries and working with results in a Pythonic way.</span>
+    $ uv pip install records
 
-## Installation
-
-```bash
-$ uv pip install records
-```
-
-Database support includes RedShift, Postgres, MySQL, SQLite, Oracle, and MS-SQL (drivers not included).
-
-<span class="sidenote">Records supports a wide range of database systems, reflecting the diverse landscape of enterprise data storage. By building on SQLAlchemy's database abstraction layer, Records inherits compatibility with virtually any SQL database.</span>
-
-Records offers full [tablib](/software/tablib) integration, allowing you to easily convert query results to tabular data formats like CSV, JSON, and Excel — and even dataframes.
-
-## Usage
-
-Using `records` is simple, if you have a database connection string like `DATABASE_URL` set in your environment, you can use it like this:
+## What It Looks Like
 
 ```python
 import records
 
-db = records.Database('postgres://...')
-rows = db.query('select * from active_users')
+db = records.Database("postgres://user:pass@localhost/mydb")
 
-# Iterate over rows
+# Run a query.
+rows = db.query("SELECT * FROM users WHERE active = true")
+
+# Iterate over results.
 for row in rows:
-    print(row.username)
+    print(row.name, row.email)
 
-# Convert query results to CSV
-csv = rows.export('csv')
+# Export to CSV.
+print(rows.export("csv"))
 
-# Convert query results to JSON
-json = rows.export('json')
+# Export to JSON.
+print(rows.export("json"))
 
-# Convert query results to Excel
-excel = rows.export('xlsx')
+# Export to Excel.
+with open("report.xlsx", "wb") as f:
+    f.write(rows.export("xlsx"))
 
-# Convert query results to a pandas DataFrame
-df = rows.export('df')
-
-<span class="sidenote">The seamless export to pandas DataFrames bridges the gap between SQL databases and the Python data science ecosystem, enabling analysts to move fluidly between database querying and statistical analysis.</span>
+# Export to a pandas DataFrame.
+df = rows.export("df")
 ```
 
-Make sure you have the appropriate database driver installed.
+That's it. Connect, query, export. The full [Tablib](/software/tablib) integration means your query results can become CSV, JSON, Excel, YAML, or a DataFrame with a single method call.
 
-## Links
+## The Philosophy
 
-- https://github.com/kennethreitz/records
+Sometimes you don't need an ORM. You know SQL. Your database knows SQL. The only thing standing between you and your data is boilerplate. Records removes the boilerplate.
+
+It supports PostgreSQL, MySQL, SQLite, Oracle, MS-SQL, and RedShift. You bring the driver, Records brings the interface. Database URLs work the same way they do in [dj-database-url](/software/dj-database-url) and every twelve-factor app you've ever deployed.
+
+## Install
+
+```bash
+uv pip install records
+```
+
+Database drivers are not included. Install the one you need:
+
+```bash
+uv pip install psycopg2    # PostgreSQL
+uv pip install pymysql      # MySQL
+```
+
+## Resources
+
+- [Source Code on GitHub](https://github.com/kennethreitz/records)
+- [Python Package Index](https://pypi.org/project/records/)
+
+## Related
+
+- [**Tablib**](/software/tablib) — The dataset library that powers Records' export functionality.
+- [**dj-database-url**](/software/dj-database-url) — Database URLs for Django, born from the same Heroku-era thinking.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — The "for humans" philosophy applied everywhere.

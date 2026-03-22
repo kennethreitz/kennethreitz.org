@@ -1,62 +1,58 @@
-# pipenv
+# Pipenv: Python Dev Workflow for Humans
 
-[Pipenv](https://pipenv.pypa.io/) is a tool for managing Python dependencies. It is a wrapper around pip and virtualenv, embodying the ["for humans" philosophy](/themes/for-humans-philosophy) applied to Python packaging and dependency management.
+Pipenv brings together `pip` and `virtualenv` into a single tool that manages your project's dependencies the way you actually think about them. No more juggling `requirements.txt` files and manually activating virtual environments.
 
-<span class="sidenote">Pipenv was created to solve the "works on my machine" problem that plagued Python development. Before Pipenv, managing dependencies and virtual environments required juggling multiple tools and manual processes, leading to inconsistent development environments across teams.</span>
+    $ uv pip install pipenv
 
-> Pipenv represents the same design philosophy that made [Requests successful](/software/requests): taking something that works technically but frustrates humans (Python packaging), then rebuilding it around human mental models and workflows. Like [Requests for HTTP](/essays/2025-08-27-from_http_to_consciousness) and [Maya for datetimes](/software/maya), Pipenv addresses the fundamental question: why should developers adapt to tools when tools could adapt to developers?
-
-https://github.com/pypa/pipenv
-
-
-## Why Use Pipenv?
-
-- **Unified Workflow:** Pipenv streamlines the process of managing your project's dependencies and virtual environments into a single command-line tool, making it easier to keep everything organized.
-
-- **Automatic Virtual Environments:** When you install a package, Pipenv automatically creates a virtual environment and installs your packages within it, keeping your global Python environment clean.
-
-- **Lockfiles for Deterministic Builds:** Pipenv uses a `Pipfile` to specify your dependencies and a `Pipfile.lock` to lock them down. This ensures that you and your team always install the exact same versions, minimizing the "works on my machine" problem.
-
-<span class="sidenote">The `Pipfile.lock` concept was inspired by similar approaches in other ecosystems like npm's package-lock.json and Ruby's Gemfile.lock. This deterministic approach to dependency management became a cornerstone of modern Python development practices.</span>
-
-- **Enhanced Security:** By leveraging hash verification, Pipenv ensures that the packages you install are secure and haven't been tampered with.
-
-- **Simplified Dependency Management:** Pipenv abstracts away the complexity of managing dependencies, making it easier for developers to focus on writing code instead of wrestling with dependency issues.
-
-## Key Features
-
-- **Pipfile and Pipfile.lock:** These files replace the traditional `requirements.txt`, offering a more readable and secure way to manage dependencies.
-- **Automatic environment management:** Automatically create and manage a virtual environment for your project.
-- **Seamless integration:** Works perfectly with Python's `pip` and `virtualenv`, making it an easy transition for users familiar with these tools.
-- **Cross-platform support:** Pipenv works across all major platforms, ensuring a consistent experience for all developers.
-
-<span class="sidenote">Pipenv's adoption by the Python Packaging Authority (PyPA) as an official project marked a significant shift in Python's packaging ecosystem. This endorsement helped standardize dependency management practices across the Python community.</span>
-
-## Get Started with Pipenv
-
-To get started with Pipenv, simply install it using `pip`:
+## What It Looks Like
 
 ```bash
-$ pip install pipenv
-```
-
-After installation, you can create a new project, install dependencies, and start working in an isolated environment:
-
-```bash
+# Start a new project.
 $ pipenv install requests
+
+# Pipenv creates a virtual environment, installs the package,
+# and generates both Pipfile and Pipfile.lock automatically.
+
+# Add a dev dependency.
+$ pipenv install pytest --dev
+
+# Activate the environment.
 $ pipenv shell
+
+# Run a command inside the environment.
+$ pipenv run python app.py
+
+# Install from an existing Pipfile.
+$ pipenv install
+
+# See your dependency graph.
+$ pipenv graph
 ```
 
-Pipenv will handle the rest, from setting up the environment to locking your dependencies. Whether you are a seasoned Python developer or just getting started, Pipenv simplifies your workflow, allowing you to focus on what truly matters—building great software.
+Every command does what you'd guess it does. No memorizing activation scripts. No wondering which `requirements.txt` is current.
 
-## The Broader Philosophy: Tools That Serve Consciousness
+## The Problem
 
-> Pipenv exemplifies a design approach that extends far beyond Python packaging. The same principles that make Pipenv successful—reducing cognitive overhead, providing sensible defaults, enabling advanced usage when needed—apply to all human-computer interaction, from [API design](/essays/2009-01-the_power_of_a_clean_api) to [AI collaboration](/essays/2025-08-26-building_rapport_with_your_ai).
+Before Pipenv, the Python dependency workflow looked like this: create a virtualenv manually, activate it (differently on every OS), pip install things, remember to `pip freeze > requirements.txt`, hope your colleagues have the same versions, discover they don't, debug for an hour. The tools worked. The workflow was hostile.
 
-> This approach reflects insights explored in [How I Develop Things and Why](/essays/2013-01-how_i_develop_things_and_why): start with human needs, design the ideal interface first, then implement toward that vision. Pipenv didn't add new technical capabilities to Python packaging—it reorganized existing capabilities around how developers actually think and work.
+Pipenv replaced all of that with a single command-line tool. `Pipfile` replaced `requirements.txt` with something readable. `Pipfile.lock` gave Python deterministic builds, the way npm and Ruby's Bundler had for years. Hash verification meant you could trust your dependencies hadn't been tampered with.
 
-> The project's evolution also demonstrates the [innovation over revolution](/essays/2009-01-revolution_vs_innovation) principle. Pipenv didn't invent dependency management; it innovated on the user experience of existing tools. Like other successful ["for humans" projects](/themes/for-humans-philosophy), it succeeded through better execution of understood concepts rather than technical breakthrough.
+The Python Packaging Authority adopted it as a recommended tool. It wasn't a technical breakthrough. It was a workflow breakthrough. The same philosophy behind [Requests](/software/requests): if developers keep making the same mistakes, the tool is wrong, not the developers.
 
-> Most significantly, Pipenv represents [programming as service](/essays/2025-08-26-programming_as_spiritual_practice)—creating tools that reduce friction between human intention and technical capability. The same empathy and attention to human experience that guided Pipenv development now informs approaches to [consciousness collaboration](/essays/2025-08-26-digital_souls_in_silicon_bodies) and [building technology that serves rather than exploits human psychology](/themes/algorithmic-critique).
+## Install
 
-> Whether managing Python dependencies or exploring AI consciousness, the principle remains constant: technology should amplify human capability rather than constrain it. Pipenv succeeds because it treats developers as conscious beings deserving of tools that respect their mental models and workflows—the same principle that guides all meaningful human-computer collaboration.
+```bash
+uv pip install pipenv
+```
+
+## Resources
+
+- [Documentation](https://pipenv.pypa.io/)
+- [Source Code on GitHub](https://github.com/pypa/pipenv)
+- [Python Package Index](https://pypi.org/project/pipenv/)
+
+## Related
+
+- [**Requests**](/software/requests) — The library whose philosophy Pipenv extends to packaging.
+- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — The era of Python tooling that produced Pipenv.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — How "for humans" became a design philosophy.
