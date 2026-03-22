@@ -1,50 +1,37 @@
-# Software Projects
+# Software
 
-I build tools for humans. That phrase started as a tagline for [Requests](/software/requests) and became a design philosophy that runs through everything I make.
+Tools for humans. That phrase started as a tagline for [Requests](/software/requests) and became a design philosophy that shaped everything I've built since.
 
-You can find more on my [GitHub profile](https://github.com/kennethreitz), where I've been shipping open source since 2008.
+If the developer feels stupid, the API is wrong.
 
-## The Libraries
+## Major Projects
 
-**[Requests](/software/requests)** — HTTP for Humans. The most downloaded Python package on Earth. Over 30 million installs a day.
+- [**Requests**](/software/requests) — HTTP for Humans. The most downloaded Python package on Earth. 30+ million installs a day.
+- [**Certifi**](/software/certifi) — Python's SSL trust store. Mozilla's CA bundle, packaged. Even more downloads than Requests.
+- [**Pipenv**](/software/pipenv) — Python Dev Workflow for Humans. Pip and virtualenv, unified. Spiritual predecessor to [uv](https://github.com/astral-sh/uv).
+- [**Tablib**](/software/tablib) — Tabular Datasets for Humans. Format-agnostic data. Your dataset knows how to become CSV, JSON, Excel, YAML.
 
-**[SimpleMind](/software/simplemind)** — AI for Humans. One interface to every major AI provider.
+## Libraries
 
-**[Pipenv](/software/pipenv)** — Python Dev Workflow for Humans. Pip and virtualenv, unified.
+- [**SimpleMind**](/software/simplemind) — AI for Humans. One interface to every major AI provider.
+- [**Records**](/software/records) — SQL for Humans. Just write the query. Get results. Export to anything via Tablib.
+- [**Maya**](/software/maya) — Datetimes for Humans. Parse "tomorrow" and get a timezone-aware result.
+- [**Legit**](/software/legit) — Git for Humans. Simple commands for common Git workflows.
+- [**Delegator**](/software/delegator) — Subprocesses for Humans. Shell commands without subprocess pain.
+- [**dj-database-url**](/software/dj-database-url) — Database URLs for Django. Born at Heroku, used everywhere.
+- [**Background**](/software/background) — Background tasks. One decorator, no infrastructure.
 
-**[Certifi](/software/certifi)** — Python's trust store. Mozilla's CA bundle, packaged for Python.
+## Creative
 
-**[Tablib](/software/tablib)** — Tabular datasets for Humans. Format-agnostic data import and export.
+- [**PyTheory**](/software/pytheory) — Music Theory for Humans. Scales, chords, and temperaments as Python objects.
+- [**Responder**](/software/responder) — An experimental HTTP framework. Requests semantics, server side. Ahead of its time.
 
-**[Records](/software/records)** — SQL for Humans. Raw SQL queries with Tablib-powered export.
+## Other Projects
 
-**[Maya](/software/maya)** — Datetimes for Humans. Parse "tomorrow" and get a timezone-aware result.
+- [**kjvstudy.org**](https://kjvstudy.org) — A free digital study Bible built with AI. [Read about how it was made](/essays/2026-03-20-building_a_digital_study_bible_with_ai).
+- [**httpbin.org**](https://httpbin.org) — HTTP request and response testing service.
+- [**kennethreitz.org**](https://github.com/kennethreitz/kennethreitz.org) — This website. Custom Flask CMS called TufteCMS. [Open source](https://github.com/kennethreitz/kennethreitz.org).
 
-**[Responder](/software/responder)** — A familiar HTTP service framework. Requests, but for the server side.
+---
 
-**[Legit](/software/legit)** — Git for Humans. Simple commands for common Git workflows.
-
-**[Delegator](/software/delegator)** — Subprocesses for Humans. Shell commands without subprocess pain.
-
-**[dj-database-url](/software/dj-database-url)** — Database URLs for Django. One environment variable, one line of config.
-
-**[Background](/software/background)** — Simple background tasks. One decorator, no infrastructure.
-
-**[PyTheory](/software/pytheory)** — Music Theory for Humans. Scales, chords, and temperaments as Python objects.
-
-## Philosophy
-
-I keep coming back to the same principle: **if the developer feels stupid, the API is wrong.** Every library I've built starts from that conviction. Find the pain point, study how people actually think about the problem, then design an interface that matches their mental model.
-
-The *Zen of Python* captures it well:
-
-- Beautiful is better than ugly.
-- Explicit is better than implicit.
-- Simple is better than complex.
-- Complex is better than complicated.
-
-These aren't just code rules. They're design rules. They're life rules. The same thinking that produces a clean API produces a [clear essay](/essays/2025-08-26-programming_as_spiritual_practice) and a [well-designed day](/essays/2026-03-18-designing_for_the_worst_day).
-
-## The Future
-
-AI changes our relationship with code. It trivializes implementation while making intention more important than ever. The question is no longer "can you write the code?" but "do you know what to build and why?" I think that's a good thing. The "for humans" philosophy matters more now than when I started, because the humans are the part that can't be automated.
+More on [GitHub](https://github.com/kennethreitz). Building since 2008.
