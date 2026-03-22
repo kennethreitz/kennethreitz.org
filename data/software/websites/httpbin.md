@@ -1,63 +1,62 @@
-# httpbin.org
+# httpbin.org: HTTP Request & Response Service
 
-[httpbin.org](https://httpbin.org/) is a simple HTTP request and response service. It is a useful tool for testing HTTP clients and debugging webhooks. The service provides a variety of endpoints that return different types of data, such as headers, IP address, and user-agent.
+[httpbin.org](https://httpbin.org/) is a simple HTTP request and response service I built as a companion to [Requests](/software/requests). It echoes back everything you send it, which turns out to be exactly what you need when you're debugging HTTP clients, testing webhooks, or just trying to understand what's actually going over the wire.
 
-## Features
+Millions of developers use it every month. It's referenced in tutorials, documentation, and Stack Overflow answers across every programming language. The Docker image has been pulled tens of millions of times.
 
-- **HTTP Methods**: httpbin.org supports various HTTP methods, including GET, POST, PUT, DELETE, and PATCH, allowing you to test different types of requests.
-- **Request Inspection**: The service allows you to inspect the details of the incoming request, such as headers, query parameters, and body content.
-- **Response Formats**: httpbin.org can return responses in different formats, such as JSON, HTML, and images, enabling you to test how your client handles different content types.
-- **Status Codes**: The service can return specific HTTP status codes, such as 200 OK, 404 Not Found, and 500 Internal Server Error, allowing you to test error handling in your client.
-- **Authentication**: httpbin.org supports basic authentication, allowing you to test how your client handles authenticated requests.
-- **Dynamic Data**: The service can generate dynamic data, such as random JSON responses or images of a specified size, enabling you to test edge cases in your client.
+## What It Does
 
-## Running with Docker
-
-You can also run httpbin.org locally using Docker. First, pull the httpbin image from Docker Hub:
-
-```bash
-$ docker pull kennethreitz/httpbin
-```
-
-Then, run the httpbin container:
-
-```bash
-$ docker run -p 80:80 kennethreitz/httpbin
-```
-
-This will start the httpbin service on port 80 of your local machine, allowing you to interact with it using your HTTP client of choice.
-
-
-## Usage
-
-You can interact with httpbin.org using various HTTP clients, such as cURL, Python requests, or Postman. Here are some examples of how you can use the service:
-
-### GET Request
-
-To make a GET request to httpbin.org, you can use cURL:
+Send any HTTP request. Get a structured response showing exactly what the server received.
 
 ```bash
 $ curl https://httpbin.org/get
+{
+  "args": {},
+  "headers": {
+    "Accept": "*/*",
+    "Host": "httpbin.org",
+    "User-Agent": "curl/7.88.1"
+  },
+  "origin": "203.0.113.1",
+  "url": "https://httpbin.org/get"
+}
 ```
 
-This will return a JSON response containing details of the request, such as headers, origin, and URL.
+No signup. No API key. No rate limits. Just a mirror for your HTTP traffic.
 
-### POST Request
+## Endpoints
 
-To make a POST request to httpbin.org with data, you can use cURL:
+httpbin provides dozens of endpoints for testing every aspect of HTTP:
+
+- **Methods** — `GET`, `POST`, `PUT`, `DELETE`, `PATCH` — test any request type.
+- **Status Codes** — `/status/418` returns a teapot. `/status/500` returns a server error. Test your error handling against any code.
+- **Authentication** — Basic auth, bearer tokens, digest auth. Verify your client handles credentials correctly.
+- **Dynamic Data** — Random bytes, delayed responses, streaming data. Test the edge cases that break things in production.
+- **Request Inspection** — Headers, IP address, user-agent. See exactly what your client is sending.
+- **Response Formats** — JSON, HTML, XML, images, gzip. Test content type handling.
+
+## Run It Locally
 
 ```bash
-$ curl -X POST https://httpbin.org/post -d "key1=value1&key2=value2"
+$ docker pull kennethreitz/httpbin
+$ docker run -p 80:80 kennethreitz/httpbin
 ```
 
-This will return a JSON response containing the data you posted.
+Now you have a private instance at `http://localhost` for testing behind firewalls, in CI pipelines, or anywhere you need deterministic HTTP responses.
 
-### Authentication
+## Why It Matters
 
-To make an authenticated request to httpbin.org, you can use cURL with basic authentication:
+I built httpbin because I kept needing a simple echo server while developing Requests. Every HTTP client library needs something to talk to during development. Rather than spinning up a throwaway Flask app each time, I made one that could serve everyone.
 
-```bash
-$ curl -u username:password https://httpbin.org/basic-auth/username/password
-```
+It embodies the same "for humans" philosophy as Requests: no configuration, obvious behavior, useful defaults. The best developer tools are the ones that get out of your way.
 
-This will return a JSON response indicating whether the authentication was successful.
+## Resources
+
+- [httpbin.org](https://httpbin.org/) — The live service.
+- [Source Code on GitHub](https://github.com/postmanlabs/httpbin) — Now maintained by Postman.
+- [Docker Image](https://hub.docker.com/r/kennethreitz/httpbin) — Run your own instance.
+
+## Related
+
+- [**Requests**](/software/requests) — The HTTP library httpbin was built to support.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — How "for humans" became a worldview.
