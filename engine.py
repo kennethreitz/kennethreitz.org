@@ -1308,15 +1308,29 @@ async def catch_all(req, resp, *, path):
     )
 
 
-# Warm caches on import (for uvicorn production startup)
-import threading
-
-
-def _warm_caches():
-    get_blog_cache()
-
-
-threading.Thread(target=_warm_caches, daemon=True).start()
+# Warm caches on startup
+@api.on_event("startup")
+async def warm_caches():
+    import threading
+    def _warm():
+        print("🔥 Starting background cache warming...")
+        try:
+            get_blog_cache()
+            from tuftecms.core.cache import (
+                get_sidenotes_cache, get_outlines_cache,
+                get_quotes_cache, get_connections_cache,
+                get_terms_cache, get_themes_cache,
+            )
+            get_sidenotes_cache()
+            get_outlines_cache()
+            get_quotes_cache()
+            get_connections_cache()
+            get_terms_cache()
+            get_themes_cache()
+            print("✅ Cache warming complete!")
+        except Exception as e:
+            print(f"❌ Cache warming failed: {e}")
+    threading.Thread(target=_warm, daemon=True).start()
 
 
 if __name__ == "__main__":
