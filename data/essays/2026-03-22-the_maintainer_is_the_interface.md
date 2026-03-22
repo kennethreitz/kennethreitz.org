@@ -111,7 +111,7 @@ response = requests.get("https://api.example.com/data")
 
 ## What I Learned from Scale
 
-I maintained [Requests](/software/requests), one of the most downloaded Python packages on Earth. At its peak, it was being downloaded tens of millions of times a month. The issue tracker was relentless. The PR queue was always full. The community was enormous and vocal and, for the most part, extraordinarily generous.
+I was the primary maintainer of [Requests](/software/requests) for over a decade, with help from several dedicated co-maintainers along the way. At its peak, it was being downloaded tens of millions of times a month. The issue tracker was relentless. The PR queue was always full. The community was enormous and vocal and, for the most part, extraordinarily generous.
 
 I want to tell the truth about what that was like, because the truth is more instructive than the mythology.
 
