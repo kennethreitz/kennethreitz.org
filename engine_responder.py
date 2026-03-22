@@ -1198,14 +1198,17 @@ async def catch_all(req, resp, *, path):
     )
 
 
+# Warm caches on import (for uvicorn production startup)
+import threading
+
+
+def _warm_caches():
+    get_blog_cache()
+
+
+threading.Thread(target=_warm_caches, daemon=True).start()
+
+
 if __name__ == "__main__":
-    # Warm caches
-    import threading
-
-    def warm():
-        get_blog_cache()
-
-    threading.Thread(target=warm, daemon=True).start()
-
-    port = int(os.environ.get("PORT", 8001))
+    port = int(os.environ.get("PORT", 8000))
     api.run(port=port)
