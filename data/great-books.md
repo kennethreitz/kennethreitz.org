@@ -4,7 +4,7 @@ I don't read as much as some people, but I've been doing it for a long time. Som
 
 ## Favorites
 
-- [*The Hitchhiker's Guide to Python*](https://amzn.to/4cy3LVH) — I wrote this one. Community-driven, open source, all proceeds to Django Girls Foundation.
+- [*The Hitchhiker's Guide to Python*](https://amzn.to/4cy3LVH) — I wrote this one. Community-driven, open source.
 - [*The Hitchhiker's Guide to the Galaxy*](https://amzn.to/3Av4Tw3) by Douglas Adams — The answer is 42. The question is more interesting. Adams taught me that absurdity and profundity are the same thing viewed from different angles. I [wrote about his influence](/essays/2025-09-16-dont-panic-douglas-adams-recursive-absurdity).
 
 ## Psychology
