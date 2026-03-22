@@ -1045,7 +1045,7 @@ async def api_directory_tree(req, resp):
 # --- Data file serving ---
 
 
-@api.route("/data/{path}")
+@api.route("/data/{path:path}")
 async def serve_data_file(req, resp, *, path):
     """Serve static files from the data directory."""
     file_path = DATA_DIR / path
