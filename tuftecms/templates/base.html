@@ -403,25 +403,7 @@
         </script>
         {% endif %}
 
-        <!-- Syntax highlighting -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" id="hljs-light">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark-dimmed.min.css" id="hljs-dark" disabled>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-        <script>
-        hljs.highlightAll();
-        // Sync highlight theme with dark mode
-        function syncHljsTheme() {
-            var isDark = document.body.classList.contains('dark-mode');
-            document.getElementById('hljs-light').disabled = isDark;
-            document.getElementById('hljs-dark').disabled = !isDark;
-        }
-        syncHljsTheme();
-        new MutationObserver(syncHljsTheme).observe(document.body, {attributes: true, attributeFilter: ['class']});
-        </script>
-        <style>
-        /* Let highlight.js handle colors but keep our backgrounds */
-        .hljs { background: inherit !important; }
-        </style>
+        <!-- Minimal syntax styling: comments only, keeps code literary -->
     </head>
     <body>
         <!-- Reading progress bar -->
