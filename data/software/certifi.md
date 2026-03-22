@@ -36,7 +36,7 @@ The best infrastructure is the kind you never think about. Certifi works so well
 ## Install
 
 ```bash
-uv pip install certifi
+$ uv pip install certifi
 ```
 
 ## Resources

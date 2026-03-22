@@ -38,7 +38,7 @@ It was a bit ahead of its time. Some of these ideas, like automatic async handli
 ## Install
 
 ```bash
-uv pip install responder
+$ uv pip install responder
 ```
 
 ## Resources

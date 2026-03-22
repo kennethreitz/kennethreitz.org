@@ -58,7 +58,7 @@ It's also deeply personal. AI collaboration has become central to how I think an
 ## Install
 
 ```bash
-uv pip install simplemind
+$ uv pip install simplemind
 ```
 
 Set your API keys as environment variables:

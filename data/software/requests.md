@@ -90,7 +90,7 @@ It also [nearly broke me](/essays/2026-03-18-open_source_gave_me_everything_unti
 ## Install
 
 ```bash
-uv pip install requests
+$ uv pip install requests
 ```
 
 ## Resources

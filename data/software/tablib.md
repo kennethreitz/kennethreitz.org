@@ -51,15 +51,15 @@ Tablib powers the export functionality in [Records](/software/records), and its 
 ## Install
 
 ```bash
-uv pip install tablib
+$ uv pip install tablib
 ```
 
 For specific format support:
 
 ```bash
-uv pip install tablib[xlsx]    # Excel support
-uv pip install tablib[yaml]    # YAML support
-uv pip install tablib[all]     # Everything
+$ uv pip install tablib[xlsx]    # Excel support
+$ uv pip install tablib[yaml]    # YAML support
+$ uv pip install tablib[all]     # Everything
 ```
 
 ## Resources

@@ -40,7 +40,7 @@ It sits at the intersection of my two longest-running interests: programming and
 ## Install
 
 ```bash
-uv pip install pytheory
+$ uv pip install pytheory
 ```
 
 ## Resources

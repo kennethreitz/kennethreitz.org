@@ -52,7 +52,7 @@ Named after the Maya civilization, whose calendar systems were among the most so
 ## Install
 
 ```bash
-uv pip install maya
+$ uv pip install maya
 ```
 
 ## Resources

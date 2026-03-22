@@ -43,14 +43,14 @@ It supports PostgreSQL, MySQL, SQLite, Oracle, MS-SQL, and RedShift. You bring t
 ## Install
 
 ```bash
-uv pip install records
+$ uv pip install records
 ```
 
 Database drivers are not included. Install the one you need:
 
 ```bash
-uv pip install psycopg2    # PostgreSQL
-uv pip install pymysql      # MySQL
+$ uv pip install psycopg2    # PostgreSQL
+$ uv pip install pymysql      # MySQL
 ```
 
 ## Resources

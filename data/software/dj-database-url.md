@@ -40,7 +40,7 @@ dj-database-url does that translation. One import, one function call, one enviro
 ## Install
 
 ```bash
-uv pip install dj-database-url
+$ uv pip install dj-database-url
 ```
 
 ## Resources

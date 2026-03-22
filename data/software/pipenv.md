@@ -42,7 +42,7 @@ The Python Packaging Authority adopted it as a recommended tool. It wasn't a tec
 ## Install
 
 ```bash
-uv pip install pipenv
+$ uv pip install pipenv
 ```
 
 ## Resources

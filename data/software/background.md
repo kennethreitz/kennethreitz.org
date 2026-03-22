@@ -38,7 +38,7 @@ The project was gifted to [Parth Shandilya](https://github.com/ParthS007), who n
 ## Install
 
 ```bash
-uv pip install background
+$ uv pip install background
 ```
 
 ## Resources

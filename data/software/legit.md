@@ -42,7 +42,7 @@ Many thanks to [Frost Ming](https://github.com/frostming) for maintaining this p
 ## Install
 
 ```bash
-uv pip install legit
+$ uv pip install legit
 ```
 
 Also available via Homebrew:
