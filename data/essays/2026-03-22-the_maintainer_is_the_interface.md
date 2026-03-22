@@ -92,16 +92,16 @@ Good API design and good maintainer behavior follow the same principles. Not bec
 
 # API Design:
 response = requests.get("https://api.example.com/data")
-#   - Sensible default: returns JSON.
-#   - Helpful error: tells you what went wrong and how to fix it.
-#   - Predictable: same endpoint, same behavior, every time.
-#   - Graceful: handles malformed requests without crashing.
+# -Sensible default: returns JSON.
+# -Helpful error: tells you what went wrong and how to fix it.
+# -Predictable: same endpoint, same behavior, every time.
+# -Graceful: handles malformed requests without crashing.
 
 # Maintainer Design:
-#   - Sensible default: assumes good faith.
-#   - Helpful feedback: explains the "why," not just the "what."
-#   - Predictable: responds to issues within a known timeframe.
-#   - Graceful: receives imperfect contributions without hostility.
+# -Sensible default: assumes good faith.
+# -Helpful feedback: explains the "why," not just the "what."
+# -Predictable: responds to issues within a known timeframe.
+# -Graceful: receives imperfect contributions without hostility.
 
 # Both are interfaces between minds.
 # The principles don't change just because
