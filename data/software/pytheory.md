@@ -57,5 +57,6 @@ $ uv pip install pytheory
 
 ## Related
 
+- [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — The full story of how this library came together.
 - [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — Code as a lens for understanding the world.
 - [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — The "for humans" philosophy applied beyond software.
