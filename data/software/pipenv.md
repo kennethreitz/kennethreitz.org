@@ -39,6 +39,8 @@ Pipenv replaced all of that with a single command-line tool. `Pipfile` replaced 
 
 The Python Packaging Authority adopted it as a recommended tool. It wasn't a technical breakthrough. It was a workflow breakthrough. The same philosophy behind [Requests](/software/requests): if developers keep making the same mistakes, the tool is wrong, not the developers.
 
+Today, [uv](https://github.com/astral-sh/uv) from Astral is Pipenv's spiritual successor. It solves the same problems faster, with a broader scope, and it's built by a team rather than a single maintainer. That's a good thing. The ideas Pipenv introduced, unified dependency management, lockfiles for Python, developer experience as a first-class concern, live on in better implementations. That's exactly how open source should work.
+
 ## Install
 
 ```bash
