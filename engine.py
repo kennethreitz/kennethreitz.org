@@ -314,7 +314,7 @@ async def _rss_feed(req, resp):
 # --- OG image route ---
 
 
-@api.route("/og-image/{path}.png")
+@api.route("/og-image/{path:path}.png")
 async def og_image(req, resp, *, path):
     """Generate a dynamic Open Graph image for a post."""
     from PIL import Image, ImageDraw, ImageFont
@@ -1055,6 +1055,49 @@ async def serve_data_file(req, resp, *, path):
         resp.status_code = 404
 
 
+# --- PDF export ---
+
+
+@api.route("/{path:path}.pdf")
+async def serve_pdf(req, resp, *, path):
+    """Generate and serve a PDF version of content."""
+    file_path = DATA_DIR / f"{path}.md"
+    if not file_path.exists():
+        resp.status_code = 404
+        return
+
+    try:
+        from weasyprint import HTML
+        from weasyprint.text.fonts import FontConfiguration
+    except (ImportError, OSError):
+        resp.status_code = 503
+        resp.text = "PDF generation requires WeasyPrint"
+        return
+
+    content_data = render_markdown_file(file_path)
+    pdf_html = api.templates.render(
+        "pdf.html",
+        content=content_data["content"],
+        title=content_data["title"],
+        metadata=content_data.get("metadata", {}),
+        current_year=datetime.now().year,
+        reading_time=content_data.get("reading_time"),
+        word_count=content_data.get("word_count"),
+        unique_icon=content_data.get("unique_icon"),
+    )
+
+    font_config = FontConfiguration()
+    pdf_buffer = io.BytesIO()
+    HTML(string=pdf_html, base_url="https://kennethreitz.org/").write_pdf(
+        pdf_buffer, font_config=font_config
+    )
+    pdf_buffer.seek(0)
+
+    resp.content = pdf_buffer.read()
+    resp.headers["Content-Type"] = "application/pdf"
+    resp.headers["Content-Disposition"] = f'inline; filename="{path.split("/")[-1]}.pdf"'
+
+
 # --- Catch-all route (MUST be last) ---
 
 
@@ -1076,8 +1119,8 @@ async def catch_all(req, resp, *, path):
         if path.startswith("essays/"):
             blog_data = get_blog_cache()
             posts = blog_data.get("posts", [])
-            related_posts = find_related_posts(file_path, posts)
-            prev_post, next_post = find_adjacent_posts(file_path, posts)
+            related_posts = find_related_posts(file_path)
+            prev_post, next_post = find_adjacent_posts(file_path)
 
         resp.html = render("post.html", req, f"/{path}",
             content=content_data["content"],
