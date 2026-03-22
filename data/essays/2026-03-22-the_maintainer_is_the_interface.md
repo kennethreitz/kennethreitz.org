@@ -3,6 +3,8 @@
 
 I've made mistakes in my dealings with open source. On projects like [Requests](/software/requests) and [Pipenv](/software/pipenv), I got some things right and some things wrong, over the years. This essay is about what I learned.
 
+---
+
 People assume the interface of an open source project is the API surface. The README. The documentation. The function signatures and the error messages and the way `import requests` just works. I've spent a decade arguing that these surfaces matter, that they shape cognition, that [every interface is a cognitive intervention](/essays/2026-03-20-the_interface_is_the_subconscious). I still believe that. But I left something out.
 
 For the person who has never contributed to your project before, the first real interface is not the API. It's you.
