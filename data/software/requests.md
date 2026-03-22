@@ -1,34 +1,113 @@
 # Requests: HTTP for Humans
 
-The Requests library is a popular HTTP library for Python. It provides a simple and intuitive interface for making HTTP requests, making it easy to interact with web services and APIs.
+Requests is the most downloaded Python package on Earth. Over 30 million installs a day. It exists because urllib2 was hostile to humans, and HTTP shouldn't be.
 
-    $ uv pip install requests
+    $ pip install requests
 
-This project is downloaded over 30 million times a day,<label for="sn-downloads" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-downloads" class="margin-toggle"/>
-<span class="sidenote">This adoption rate places Requests among the most popular Python packages ever created, reflecting how it became the de facto standard for HTTP operations in Python.</span> and is widely used in the Python community. It is known for its ease of use and powerful features, making it a go-to choice for developers who need to work with HTTP in their Python projects.
+## What It Looks Like
 
-**Fun fact**: the logo of the Requests project is a tattoo (see examples in [photography](/photography/)) that I have on my right arm.<label for="sn-tattoo" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-tattoo" class="margin-toggle"/>
-<span class="sidenote">Getting a tattoo of your own open source project is rare in the programming world, symbolizing how Requests became more than just code—it became part of Kenneth's identity as a developer.</span>
+```python
+import requests
+
+# GET a webpage.
+r = requests.get("https://api.github.com/user", auth=("user", "pass"))
+
+print(r.status_code)
+# 200
+
+print(r.headers["content-type"])
+# 'application/json; charset=utf-8'
+
+print(r.json())
+# {'login': 'user', 'id': 123456, ...}
+```
+
+That's it. No handlers. No openers. No abstractions between you and the thing you're trying to do.
+
+## Before Requests
+
+This is what HTTP looked like in Python before Requests existed:
+
+```python
+import urllib2
+import base64
+
+request = urllib2.Request("https://api.github.com/user")
+base64string = base64.b64encode("%s:%s" % ("user", "pass"))
+request.add_header("Authorization", "Basic %s" % base64string)
+
+try:
+    result = urllib2.urlopen(request)
+    print result.getcode()
+    print result.read()
+except urllib2.URLError, e:
+    print e
+```
+
+Seven lines of ceremony to do what Requests does in one. Three imports. Manual base64 encoding for basic auth. An exception hierarchy that tells you what went wrong but not how to fix it. The interface told your subconscious "this is hard" before you'd accomplished anything.
+
+## The Philosophy
+
+Requests was built on a simple conviction: **if you're making the developer feel stupid, the problem is your API, not your developer.**
+
+```python
+# POST with JSON data.
+r = requests.post("https://httpbin.org/post", json={"key": "value"})
+
+# Upload a file.
+r = requests.post("https://httpbin.org/post", files={"file": open("report.csv", "rb")})
+
+# Set a timeout. Because hanging forever is not a feature.
+r = requests.get("https://api.example.com/slow", timeout=5)
+
+# Sessions persist cookies across requests.
+s = requests.Session()
+s.get("https://httpbin.org/cookies/set/session/value")
+r = s.get("https://httpbin.org/cookies")
+print(r.json())
+# {'cookies': {'session': 'value'}}
+
+# Custom headers.
+r = requests.get("https://api.example.com/data", headers={"Accept": "application/xml"})
+
+# SSL verification on by default. Because security shouldn't be opt-in.
+r = requests.get("https://example.com")
+# ✓ SSL certificate verified automatically.
+```
+
+Every method does what you'd expect. Every default is sensible. Every error message tells you what happened and what to do about it. The API fits in your head because it was designed to fit in your head.
+
+## What It Taught Me
+
+I was twenty-one when I wrote the first version of Requests. I had no degree, no credentials, no professional network. I was [working at McDonald's](/essays/2026-03-06-the_coworking_space_saved_my_life) the year before. The library became the standard because it solved a real problem simply, and the community recognized it.
+
+That experience became the foundation for everything I've built since. The "for humans" philosophy started as API design and became a [life philosophy](/essays/2025-08-27-from_http_to_consciousness). It shaped how I think about [marriage](/essays/2026-03-06-what_requests_taught_me_about_marriage), [mental health tools](/essays/2026-03-18-designing_for_the_worst_day), [Bible study applications](https://kjvstudy.org), and [what we owe each other when we build things people think through](/essays/2026-03-20-the_interface_is_the_subconscious).
+
+It also [nearly broke me](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give). The same intensity that produced Requests produced the conditions for my worst mental health crises. The engine was the same. It just had two outputs.
+
+**Fun fact**: the Requests logo is a [tattoo on my right arm](/photography/tattoos).
+
+## Install
+
+```bash
+pip install requests
+```
+
+Or with uv:
+
+```bash
+uv pip install requests
+```
 
 ## Resources
 
-- [Requests Documentation](https://docs.python-requests.org/en/master/)
-- [HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
-- [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-- [HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+- [Documentation](https://docs.python-requests.org/)
+- [Source Code on GitHub](https://github.com/psf/requests)
+- [Python Package Index](https://pypi.org/project/requests/)
 
-## Additional Reading
+## Related
 
-- [Python for Humans](/talks/python-for-humans)
-- [Documentation is King](/talks/documentation-is-king)
-- [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
-- [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
-- [Python Requests Library: A Guide](https://realpython.com/python-requests/)
-
-## Evolution of the Philosophy
-
-> The "HTTP for Humans" approach pioneered by Requests has evolved far beyond API design. The same principles that made this library successful—prioritizing human understanding, reducing cognitive friction, and making complex systems intuitive—now inform broader approaches to [building rapport with AI systems](/essays/2025-08-26-building_rapport_with_your_ai), [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice), and [the evolution from HTTP to consciousness research](/essays/2025-08-27-from_http_to_consciousness).
-
-> What began as frustration with urllib2 became a comprehensive philosophy for human-centered technology design.
+- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — The golden era of open source that produced Requests.
+- [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — The design philosophy that started here.
+- [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — What maintaining Requests taught me about human interfaces.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — How "for humans" became a worldview.
