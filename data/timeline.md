@@ -36,13 +36,13 @@ Migraines. A [narcissistic relationship](/essays/2015-01-the_unexpected_negative
 
 [Left Heroku for DigitalOcean](/essays/2018-01-joining_digitalocean) after 6.5 years. Wrote about [love](/essays/2018-01-on_love) at my sister's wedding. [MentalHealthError: Three Years Later](/essays/2019-01-mentalhealtherror_three_years_later). [Ethical lessons from open source](/essays/2019-01-ethical_lessons_from_the_open_source_community). The Requests III fundraiser and its fallout.
 
-## 2023
-
-[An Overdue Apology](/essays/2023-01-an_overdue_apology) about the Requests III situation. Returned to writing after years of quiet.
-
 ## 2021
 
 Married Sarah.
+
+## 2023
+
+[An Overdue Apology](/essays/2023-01-an_overdue_apology) about the Requests III situation. Returned to writing after years of quiet.
 
 ## 2024
 
