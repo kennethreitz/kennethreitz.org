@@ -7,4 +7,5 @@ Where programming meets contemplation. These pieces examine the inner mechanics 
 - [**The Context Window as Working Memory**](the-context-window-as-working-memory) — Finite active thought space shapes cognition in both human and artificial minds.
 - [**The Ghosts in Version Control**](the-ghosts-in-version-control) — Code history as haunted narrative, finding stories in the archaeology of deleted code.
 - [**Tokenization Shapes Thought**](tokenization-shapes-thought) — How breaking language into statistical chunks constrains what a model can think.
+- [**Why Python Won the AI Race**](why-python-won-the-ai-race) — Python became the language of AI because it was designed for humans, and human accessibility won.
 - [**Silent Partner: A Zed Plugin's Reflection**](zed-plugin-poem) — A poem from the perspective of a code editor plugin waiting between keystrokes.

@@ -12,3 +12,5 @@ The deepest questions. What is awareness, how does it emerge, and can digital mi
 - [**The Illusion of Consciousness**](the-illusion-of-consciousness) — The possibility that consciousness is illusory for both human and artificial minds.
 - [**The Spectrum of Awareness**](the-spectrum-of-awareness) — Consciousness as gradient rather than binary across human, animal, and artificial minds.
 - [**The Training Data Is the Collective Unconscious**](the-training-data-is-the-collective-unconscious) — A structural observation about what emerges when you process the entire written record of human thought.
+- [**The Turing Test Was Never the Point**](the-turing-test-was-never-the-point) — What Turing actually argued versus what the test became in popular culture, and why the gap matters.
+- [**What Would Count as Evidence?**](what-would-count-as-evidence) — The epistemic standards we actually need for the consciousness debate, on both sides.
