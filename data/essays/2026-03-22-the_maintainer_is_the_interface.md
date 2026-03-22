@@ -1,6 +1,8 @@
 # The Maintainer Is the Interface
 *March 2026*
 
+I've made mistakes in my dealings with open source. On projects like [Requests](/software/requests) and [Pipenv](/software/pipenv), I got some things right and some things wrong, and the things I got wrong taught me more. This essay is about what I learned.
+
 People assume the interface of an open source project is the API surface. The README. The documentation. The function signatures and the error messages and the way `import requests` just works. I've spent a decade arguing that these surfaces matter, that they shape cognition, that [every interface is a cognitive intervention](/essays/2026-03-20-the_interface_is_the_subconscious). I still believe that. But I left something out.
 
 For the person who has never contributed to your project before, the first real interface is not the API. It's you.
@@ -80,29 +82,19 @@ response = requests.get("https://api.example.com/data")
 # is written in English.
 ```
 
-## What I Learned from Scale
+## What Happens at Scale
 
-I was the BDFL of [Requests](/software/requests) for over a decade, with help from several dedicated co-maintainers along the way. It's downloaded over 30 million times a day. The issue tracker was relentless. The PR queue was always full. The community was enormous and vocal and, for the most part, extraordinarily generous.
+When a project is small, being the interface is natural. You respond to every issue personally. You review every PR with care. The community feels like a workshop. People come back. Some become co-maintainers.<label for="sn-co-maintainers" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-co-maintainers" class="margin-toggle"/><span class="sidenote">Several of the best contributors to Requests started with a single nervous PR. The warmth of that first interaction turned users into collaborators.</span>
 
-I want to tell the truth about what that was like, because the truth is more instructive than the mythology.
+Then it scales. And what happens to a maintainer under load is exactly what happens to any interface under load: it degrades.
 
-In the early years, when the community was small, being the interface was natural. Someone would open their first PR, nervous about contributing to a well-known project, and I'd respond within hours. "Thanks for this! Great first contribution. A couple of small suggestions, but the approach is solid." I meant it every time. I remembered what it felt like to put yourself out there with no credentials and hope someone took you seriously, because that's how I got here. Those early contributor interactions were some of the most genuine exchanges I've ever had in open source. People would come back. They'd contribute again. Some of them became co-maintainers.<label for="sn-co-maintainers" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-co-maintainers" class="margin-toggle"/><span class="sidenote">Several of the best contributors to Requests started with a single nervous PR. The warmth of the first interaction is what turned users into collaborators. I wish I'd understood that this was the most valuable thing I was producing, more valuable than any code.</span> The project felt like a workshop where everyone was welcome and the work was collaborative.
+Response times get longer. Reviews get terser. The thoughtful paragraph becomes a sentence. Then a word. I know this because I lived it. There's a moment in the Requests issue tracker where my entire response to someone's contribution was "No." One word. No explanation, no alternative, no acknowledgment of effort.<label for="sn-compound" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-compound" class="margin-toggle"/><span class="sidenote">At the time, I was simultaneously maintaining [Requests](/software/requests), [Pipenv](/software/pipenv), [Records](/software/records), [Maya](/software/maya), [Tablib](/software/tablib), [Certifi](/software/certifi), [httpbin](https://httpbin.org), and others. Eight projects, eight communities, eight sets of expectations. The burnout compounds.</span>
 
-Then it scaled.
+The person on the other end didn't see a burned-out maintainer. They saw a closed door. That's what burnout does to principles. You begin with "Thanks for this! Great first contribution." You end with "No." Not because your values changed. Because your capacity collapsed.
 
-I've [written about the cost of that scaling](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give). What I want to focus on here is what happened to the interface. Because what happens to a maintainer under load is exactly what happens to any interface under load: it degrades.
+A server under too much load doesn't respond with hostility. It responds with timeouts. With dropped connections. With degraded service. That's what maintainer burnout looks like from the contributor's side. Not cruelty. Absence. Or worse, a one-word rejection from someone who used to write paragraphs.
 
-Response times got longer. Reviews got terser. The thoughtful paragraph I used to write for every first-time contributor became a sentence. Then a word. There's a famous moment in the Requests issue tracker where my entire response to someone's contribution was "No." That's it. One word. No explanation, no alternative suggestion, no acknowledgment of effort. Just: no.
-
-I don't remember what state I was in when I wrote that. I might have been exhausted. I might have been mid-episode. I might have been on my fiftieth issue that day and simply out of words. It doesn't matter. The person on the other end of that "no" didn't see a burned-out maintainer managing a psychiatric condition while handling thousands of requests for free. They saw a closed door. They saw the interface tell them they didn't belong.
-
-That's what burnout does to the principles you started with. You begin with "Thanks for this! Great first contribution." You end with "No." Not because your values changed. Because your capacity collapsed, and the interface degraded along with it.
-
-And Requests wasn't my only project. I was simultaneously maintaining [Pipenv](/software/pipenv), [Records](/software/records), [Maya](/software/maya), [Tablib](/software/tablib), [Certifi](/software/certifi), [httpbin](https://httpbin.org), and others. Each project is its own interface with its own community, its own issue tracker, its own expectations. The burnout doesn't add up linearly. It compounds.<label for="sn-compound" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-compound" class="margin-toggle"/><span class="sidenote">Certifi is downloaded even more than Requests. Most people don't even know it exists, but if it breaks, the Python ecosystem's SSL verification stops working. Invisible infrastructure that was, at the time, maintained by a person who was simultaneously losing his mind at conferences. It's in better hands now.</span> Every context switch between projects costs cognitive energy. Every community expects you to be present, responsive, and warm. Multiply one maintainer's capacity problem by eight projects and you get a system that was designed to fail from the start.
-
-The metaphor is exact, not approximate. A server under too much load doesn't respond with hostility. It responds with timeouts. With dropped connections. With degraded service that makes the user feel like they don't matter, not because the server doesn't care but because the server is out of resources. That's what maintainer burnout looks like from the contributor's side. Not cruelty. Absence. Or worse, a one-word rejection from someone who used to write paragraphs.
-
-Silence, from an interface, is its own message. It says: you are not important enough to warrant a response. The maintainer doesn't mean that. The maintainer is drowning. But the interface, the actual experienced interface, communicates it anyway.
+Silence, from an interface, is its own message.
 
 ## The Single Point of Failure
 
@@ -110,15 +102,13 @@ In 2013, I wrote a blog post called "[Be Cordial or Be on Your Way](/essays/2013
 
 The instinct was right: the tone of the community matters. How people treat each other in the issue tracker is part of the project's interface. Norms of respect make the project accessible to more people. And this matters even more than most maintainers realize, because a huge proportion of contributors to popular open source projects are writing in English as a second language.<label for="sn-esl" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-esl" class="margin-toggle"/><span class="sidenote">When English isn't your first language, tone is harder to read and harder to produce. A contributor who writes a slightly awkward issue description isn't being careless. They're doing the extra work of participating in a language that isn't theirs. Responding with warmth costs you nothing and removes a barrier that's invisible to native English speakers.</span>
 
-The architecture was wrong: I had made myself the single point of enforcement. I was the tone. I was the norm. I was the interface. And when I burned out, when the psychiatric emergencies hit, when I couldn't be the welcoming, thoughtful maintainer that the community had come to expect, the interface didn't degrade gracefully. It failed. Because there was no failover. No load balancing. No redundancy. Just me.
-
-This is the trap of the maintainer-as-interface model at scale. When the maintainer IS the project's social infrastructure, the project has a single point of failure that is also a human being with mental health needs and a finite capacity for emotional labor. The system is architected for failure from the start.
+The architecture was wrong: when one person is the tone, the norm, and the interface, the project has a single point of failure that is also a human being with finite capacity for emotional labor. When that person burns out, the interface doesn't degrade gracefully. It fails.
 
 And there's a security dimension nobody talks about. A maintainer with publish access to a package downloaded 30 million times a day is a supply chain attack vector into every company that depends on that package.<label for="sn-security" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-security" class="margin-toggle"/><span class="sidenote">In 2016, someone [targeted me with a DNS attack](/essays/2016-01-on_cybersecurity_and_being_targeted) attempting to intercept my GitHub password reset email. The goal was almost certainly access to the Requests or Certifi repositories. A compromised package at that scale is a backdoor into thousands of production systems. Two-factor authentication saved me. Not everyone is that lucky.</span> A burned-out maintainer is a vulnerable maintainer. A vulnerable maintainer with the keys to critical infrastructure is a risk that nobody in the supply chain is accounting for.
 
 The solution, obvious in retrospect, is the same one we apply to any system that needs to stay available under load: distribute the interface. Co-maintainers as load balancers. Trusted contributors with merge access. Community moderators who set tone. The maintainer's values get encoded in a team, not embodied in a person. The interface survives the maintainer's bad day because it's no longer running on a single node.
 
-I learned this too late. By the time I understood the architecture problem, I was already deep into the identity fusion I described in [Open Source Gave Me Everything](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give). I was the project. The project was me. Delegating the interface felt like delegating my identity.<label for="sn-identity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-identity" class="margin-toggle"/><span class="sidenote">When people said "Requests" they meant me. When they said "Kenneth Reitz" they meant Requests. The conflation was complete. Giving someone else merge access felt like giving someone else permission to be me.</span> So I held on until there was nothing left to hold.
+Most maintainers learn this too late.<label for="sn-identity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-identity" class="margin-toggle"/><span class="sidenote">I certainly did. By the time I understood the problem, delegating the interface felt like [delegating my identity](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give). So I held on until there was nothing left to hold.</span>
 
 ## The Culture Is Not Written Down
 
@@ -156,9 +146,7 @@ Maintainer values shape project culture. Project culture shapes contributor beha
 
 The culture of open source is not decided in governance meetings or foundation board rooms. It's decided in individual interactions, thousands of times a day, in issue trackers and PR reviews and discussion threads. Each one is a data point that teaches a contributor what kind of community this is and what kind of maintainer they should aspire to be.
 
-I was not always a good interface. I want to be honest about that. In the early days, when the community was small and my capacity was high, I was warm, responsive, thoughtful. As the load grew and my mental health deteriorated, I became inconsistent. Sometimes patient, sometimes absent, sometimes so fused with the project that criticism of the code felt like criticism of my soul and I responded accordingly. The contributors on the receiving end of my bad days didn't get a worse maintainer. They got a worse interface. And that interface shaped their understanding of what open source participation looks like.
-
-I carry that. Not as guilt. As engineering notes from a post-mortem.
+The culture propagates whether you design it to or not.
 
 ## Lessons Learned
 
