@@ -15,65 +15,38 @@ That waiting is the most psychologically loaded moment in open source contributi
 
 A fast, thoughtful response that acknowledges the effort and engages with the substance makes the contributor feel welcomed and capable. It says: yes, you belong here. Your effort was seen. Even if the code needs changes, the person behind the code was received with respect.
 
-A terse "this doesn't match the style guide" makes them feel judged. Not because the feedback is wrong. The code probably doesn't match the style guide. But feedback without warmth is evaluation without relationship, and evaluation without relationship feels like rejection to the subconscious mind. The contributor doesn't think "I should fix the formatting." They think "I shouldn't have tried."
+A terse "this doesn't match the style guide" makes them feel judged.<label for="sn-style-guide" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-style-guide" class="margin-toggle"/><span class="sidenote">I've seen first-time contributors delete their GitHub accounts after receiving terse rejections. The cost of a cold response is not measured in the maintainer's time saved. It's measured in the contributors who never come back.</span> Not because the feedback is wrong. The code probably doesn't match the style guide. But feedback without warmth is evaluation without relationship, and evaluation without relationship feels like rejection to the subconscious mind. The contributor doesn't think "I should fix the formatting." They think "I shouldn't have tried."
 
 Both responses are technically valid. Only one produces a returning contributor.
 
 ```python
 from dataclasses import dataclass
-from enum import Enum
-
-
-class ResponseTone(Enum):
-    """The emotional register of a maintainer's first response."""
-
-    WELCOMING = "welcoming"    # "Thanks for this! A few suggestions..."
-    NEUTRAL = "neutral"        # "See comments inline."
-    GATEKEEPING = "gatekeeping"  # "This doesn't follow our conventions."
 
 
 @dataclass
 class FirstContribution:
-    """The moment that determines whether
-    someone becomes a contributor or a bystander."""
+    """The moment that determines everything."""
 
-    effort_invested: float      # Hours spent before submitting.
-    vulnerability: float        # How exposed the contributor feels.
-    maintainer_response: ResponseTone
-    response_latency_days: int
+    effort_hours: float
+    vulnerability: float
+    response_warmth: float
+    response_days: int
 
     @property
     def returns(self) -> bool:
         """Whether the contributor comes back.
 
-        Notice: the quality of their code
-        barely factors in. What matters is
-        how the interaction felt.
+        The quality of their code barely factors in.
+        What matters is how the interaction felt.
         """
-        if self.maintainer_response == ResponseTone.WELCOMING:
-            return True
-        if self.maintainer_response == ResponseTone.GATEKEEPING:
-            return False
-        # Neutral is a coin flip that gets worse
-        # the longer you made them wait.
-        return self.response_latency_days < 3
+        return self.response_warmth > 0.5
 ```
 
-I'm simplifying, of course. But not by much. The research on contributor retention in open source consistently shows that social factors predict return contribution better than technical factors. People don't leave projects because the code is hard. They leave because the experience of participating felt unwelcoming. The maintainer's communication patterns are the project's onboarding experience, whether the maintainer designed them that way or not.
-
-## Interfaces Shape What Feels Possible
-
-I wrote in [The Interface Is the Subconscious](/essays/2026-03-20-the_interface_is_the_subconscious) that interfaces don't just define what's possible. They shape what feels possible. A calm interface makes you calmer. A hostile interface makes you defensive. Your nervous system reads the mood before your conscious mind has formed an opinion.
-
-Maintainers work the same way.
-
-A project with a welcoming maintainer feels like a place you belong. Before you've read a single line of code, before you've evaluated the architecture or the test coverage or the release cadence, you've already formed an opinion about whether this project is a place for someone like you. That opinion was formed by the tone of the issue tracker. By the way the maintainer responded to the last confused newcomer. By whether the project feels like a workshop where you're invited to build, or a museum where you're allowed to look but not touch.
-
-A project with a hostile maintainer feels like a place you're trespassing. It doesn't matter how good the code is. It doesn't matter if the project would benefit from your contribution. The subconscious has already done its assessment. The interface said "stay out," and the subconscious listened.
-
-This is the same mechanism I described with visual interfaces and linguistic interfaces, just operating through social interaction instead of pixels or language models. The channel is different. The cognitive intervention is the same. Every interaction with a maintainer enters the contributor's nervous system and produces a response before they've consciously decided whether to contribute again.
+People don't leave projects because the code is hard. They leave because the experience of participating felt unwelcoming. The maintainer's communication patterns are the project's onboarding experience, whether the maintainer designed them that way or not.
 
 ## The API of Human Interaction
+
+[Interfaces shape what feels possible](/essays/2026-03-20-the_interface_is_the_subconscious), not just what is possible. A project with a welcoming maintainer feels like a place you belong. A project with a hostile maintainer feels like a place you're trespassing. The subconscious makes that assessment before you've read a single line of code.
 
 Here's where the technical metaphor gets useful in a way that goes beyond analogy.
 
@@ -127,7 +100,7 @@ I don't remember what state I was in when I wrote that. I might have been exhaus
 
 That's what burnout does to the principles you started with. You begin with "Thanks for this! Great first contribution." You end with "No." Not because your values changed. Because your capacity collapsed, and the interface degraded along with it.
 
-And Requests wasn't my only project. I was simultaneously maintaining [Pipenv](/software/pipenv), [Records](/software/records), [Maya](/software/maya), [Tablib](/software/tablib), [Certifi](/software/certifi), httpbin, and others. Each project is its own interface with its own community, its own issue tracker, its own expectations. The burnout doesn't add up linearly. It compounds. Every context switch between projects costs cognitive energy. Every community expects you to be present, responsive, and warm. Multiply one maintainer's capacity problem by eight projects and you get a system that was designed to fail from the start.
+And Requests wasn't my only project. I was simultaneously maintaining [Pipenv](/software/pipenv), [Records](/software/records), [Maya](/software/maya), [Tablib](/software/tablib), [Certifi](/software/certifi), httpbin, and others. Each project is its own interface with its own community, its own issue tracker, its own expectations. The burnout doesn't add up linearly. It compounds.<label for="sn-compound" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-compound" class="margin-toggle"/><span class="sidenote">Certifi alone is downloaded 70+ million times a month. Most people don't even know it exists, but if it breaks, half the Python ecosystem's SSL verification stops working. Invisible infrastructure maintained by a person who was simultaneously losing his mind at conferences.</span> Every context switch between projects costs cognitive energy. Every community expects you to be present, responsive, and warm. Multiply one maintainer's capacity problem by eight projects and you get a system that was designed to fail from the start.
 
 The metaphor is exact, not approximate. A server under too much load doesn't respond with hostility. It responds with timeouts. With dropped connections. With degraded service that makes the user feel like they don't matter, not because the server doesn't care but because the server is out of resources. That's what maintainer burnout looks like from the contributor's side. Not cruelty. Absence. Or worse, a one-word rejection from someone who used to write paragraphs.
 
@@ -135,53 +108,13 @@ Silence, from an interface, is its own message. It says: you are not important e
 
 ## The Single Point of Failure
 
-In 2013, I wrote a blog post called "[Be Cordial or Be on Your Way](/essays/2013-01-be_cordial_or_be_on_your_way)." It was my attempt to set norms for the Requests community, to establish that respectful interaction was a prerequisite for participation. At the time, it felt like good community management. In retrospect, it was the right instinct expressed through the wrong architecture.
+In 2013, I wrote a blog post called "[Be Cordial or Be on Your Way](/essays/2013-01-be_cordial_or_be_on_your_way)."<label for="sn-cordial" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-cordial" class="margin-toggle"/><span class="sidenote">"Be cordial, or please be on your way" is still on my [values page](/values). The principle was never wrong. The architecture of making one person the sole enforcer was.</span> It was my attempt to set norms for the Requests community, to establish that respectful interaction was a prerequisite for participation. At the time, it felt like good community management. In retrospect, it was the right instinct expressed through the wrong architecture.
 
 The instinct was right: the tone of the community matters. How people treat each other in the issue tracker is part of the project's interface. Norms of respect make the project accessible to more people.
 
 The architecture was wrong: I had made myself the single point of enforcement. I was the tone. I was the norm. I was the interface. And when I burned out, when the psychiatric emergencies hit, when I couldn't be the welcoming, thoughtful maintainer that the community had come to expect, the interface didn't degrade gracefully. It failed. Because there was no failover. No load balancing. No redundancy. Just me.
 
 This is the trap of the maintainer-as-interface model at scale. When the maintainer IS the project's social infrastructure, the project has a single point of failure that is also a human being with mental health needs and a finite capacity for emotional labor. The system is architected for failure from the start.
-
-```python
-from dataclasses import dataclass, field
-
-
-@dataclass
-class ProjectInfrastructure:
-    """The social architecture of an open source project."""
-
-    maintainers: list[str] = field(default_factory=list)
-    issue_volume: int = 0
-    pr_volume: int = 0
-
-    @property
-    def capacity_per_maintainer(self) -> float:
-        """How much load each maintainer carries."""
-        if not self.maintainers:
-            return float("inf")  # Unmaintained. Infinite implied load.
-        return (self.issue_volume + self.pr_volume) / len(self.maintainers)
-
-    @property
-    def bus_factor(self) -> int:
-        """How many maintainers can leave before the project fails.
-
-        When this equals 1, the interface is a person.
-        When that person breaks, the interface breaks.
-        I was the bus factor of 1 for years.
-        """
-        return len(self.maintainers)
-
-    def scale(self, growth_factor: float):
-        """What happens when the project grows
-        but the team doesn't."""
-        self.issue_volume = int(self.issue_volume * growth_factor)
-        self.pr_volume = int(self.pr_volume * growth_factor)
-        # Notice: self.maintainers doesn't grow.
-        # This is the design flaw in most open source projects.
-        # The code scales. The infrastructure scales.
-        # The human interface doesn't.
-```
 
 The solution, obvious in retrospect, is the same one we apply to any system that needs to stay available under load: distribute the interface. Co-maintainers as load balancers. Trusted contributors with merge access. Community moderators who set tone. The maintainer's values get encoded in a team, not embodied in a person. The interface survives the maintainer's bad day because it's no longer running on a single node.
 
@@ -239,25 +172,13 @@ After fifteen years, here's what I actually know.
 
 **The interface degrades before you notice.** You don't feel yourself getting terser. You don't notice the warmth draining from your reviews. It happens gradually, like your eyes adjusting to darkness, except in this case you're adjusting to a diminished version of yourself and calling it normal. Pay attention to the length of your responses over time. If your average reply is getting shorter, that's a system metric telling you something about capacity.
 
-**Burnout is an architectural problem, not a character problem.** I blamed myself for years. If I were stronger, more disciplined, more resilient, I could handle the load. That framing is wrong. A server that crashes under load doesn't have a character flaw. It has insufficient resources for the demand. The answer is scaling the infrastructure, not shaming the hardware.
+**Burnout is an architectural problem, not a character problem.**<label for="sn-burnout-arch" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-burnout-arch" class="margin-toggle"/><span class="sidenote">I wrote about the [reality of developer burnout](/essays/2017-01-the_reality_of_developer_burnout) in 2017, mid-crisis. It took me another nine years to understand that the problem wasn't me. It was the system I'd built around myself.</span> I blamed myself for years. If I were stronger, more disciplined, more resilient, I could handle the load. That framing is wrong. A server that crashes under load doesn't have a character flaw. It has insufficient resources for the demand. The answer is scaling the infrastructure, not shaming the hardware.
 
 **Repair is more powerful than consistency.** You will have bad days. You will write the one-word "No." What matters is whether you come back the next day and say "I was terse yesterday, sorry about that, here's a more thoughtful response." That repair teaches the community something more valuable than consistent warmth ever could: it teaches them that maintainers are human, that accountability is real, and that the culture can survive imperfection.
 
 **The community remembers how you made them feel.** Not what you reviewed, not what you merged, not what you shipped. How you made them feel when they showed up with something to offer. That feeling is your legacy as a maintainer, more than any code you wrote.
 
-## What I'd Say to a New Maintainer
-
-You are about to become the interface through which people encounter your project's values. This is not a metaphor. This is a description of how it works. Your tone, your responsiveness, your consistency, your patience on the days when patience costs you something. All of it is the UX of participation. All of it is a design decision.
-
-Design it like you mean it.
-
-You don't have to be available all the time. You don't have to be warm all the time. You don't have to sacrifice your mental health on the altar of community expectations. But recognize that every interaction is teaching someone what your project is. Every response is either opening a door or closing one. Every silence is a message, even when you don't intend it to be.
-
-Build a team early. Set norms explicitly, then embody them in action. Protect your capacity like you'd protect a production system, because that's what it is. And when you fail, because you will, repair the interface. A follow-up message that says "I was terse yesterday, sorry about that, here's a more helpful response" teaches the community something more powerful than any amount of consistent warmth: it teaches them that repair is possible, that maintainers are human, and that accountability is part of the culture.
-
-The maintainer is the interface. The interface shapes consciousness. You are in the consciousness business whether you know it or not.
-
-Design accordingly.
+The maintainer is the interface. The interface shapes consciousness. Design accordingly.
 
 ---
 
