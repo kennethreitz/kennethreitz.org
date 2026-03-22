@@ -35,6 +35,13 @@ I've spent over a decade building tools used by millions. The thing nobody tells
 - [**The Cost of Transparency**](/essays/2025-08-27-the_cost_of_transparency) — The systematic discrimination that emerges when mental health conditions become visible.
 - [**Ethical Lessons from the Open Source Community**](/essays/2019-01-ethical_lessons_from_the_open_source_community) — What we learned, and what we didn't.
 
+### Building & Evolving
+
+- [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — The human behind the project is the first interface. A terse rejection costs more than the maintainer's time saved.
+- [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — Reviving a stalled open source project through human-AI collaboration.
+- [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — Dogfooding your own framework. Porting a live site to Responder in an afternoon.
+- [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — What human-centered design means when the human is in crisis.
+
 ### Conscious Development
 
 - [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — Code review as compassion practice. Debugging as collective inquiry.

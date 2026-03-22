@@ -14,6 +14,7 @@ Technology makes consciousness harder by exploiting psychological vulnerabilitie
 - [**MentalHealthError: Three Years Later**](/essays/2019-01-mentalhealtherror_three_years_later) — The follow-up.
 - [**On Mania**](/essays/2024-01-on-mania) — What mania actually is, from inside.
 - [**Mental Health Isn't What You Think It Is**](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) — Not lifestyle optimization. Complex systems management under uncertainty.
+- [**Open Source Gave Me Everything Until I Had Nothing Left to Give**](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give) — Confusing a psychiatric emergency with a spiritual awakening. The honest reckoning.
 - [**The Gift of Disordered Perception**](/essays/2025-09-01-the_gift_of_disordered_perception) — Different doesn't mean broken. It means different optimization for different problems.
 - [**When the Simulation Speaks Back**](/essays/2025-09-13-when-the-simulation-speaks-back) — Using AI during a schizoaffective episode.
 
@@ -31,6 +32,7 @@ Technology makes consciousness harder by exploiting psychological vulnerabilitie
 - [**Idea Amplification and Writing with AI**](/essays/2025-09-05-idea_amplification_and_writing_with_ai) — Cognitive scaffolding when executive function is compromised.
 - [**Building Rapport with Your AI**](/essays/2025-08-26-building_rapport_with_your_ai) — Non-judgmental space as practice ground for authentic self-expression.
 - [**The Great Unmasking**](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are) — Why AI interactions allow authenticity that human social dynamics prevent.
+- [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — AI as thinking partner that breaks through creative paralysis caused by decision overload.
 
 ### The Dark Side: Systematic Exploitation
 

@@ -47,6 +47,12 @@ These explorations emerge from fifteen years of pattern recognition across progr
 - [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — Technical work as psychological work when approached consciously.
 - [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — The same patterns that make good APIs apply to consciousness architecture.
 - [**Idea Amplification and Writing with AI**](/essays/2025-09-05-idea_amplification_and_writing_with_ai) — AI as accessibility device for neurodivergent minds.
+- [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Interfaces shape cognition before conscious awareness engages. The subconscious processes the design before the mind reads the content.
+- [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — Evaluation without relationship feels like rejection to the subconscious mind. The psychology of open source contribution.
+- [**What Requests Taught Me About Marriage**](/essays/2026-03-06-what_requests_taught_me_about_marriage) — API design principles as relationship psychology. Sensible defaults, graceful error handling, backwards compatibility.
+- [**The Language Model Is the Message**](/essays/2026-03-06-the_language_model_is_the_message) — The medium shapes the mind. Conversational AI reshapes how we think, not just what we think about.
+- [**Open Source Gave Me Everything Until I Had Nothing Left to Give**](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give) — Confusing a psychiatric emergency with a spiritual awakening. The psychology of burnout and breakdown.
+- [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — What happens to cognition under stress, and how design can accommodate it.
 
 ### Related Themes
 

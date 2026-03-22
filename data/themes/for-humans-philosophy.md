@@ -26,6 +26,10 @@ Every technical choice embeds values about how humans should relate to technolog
 - [**The Case for Bash**](/essays/2025-08-31-the-case-for-bash) — Sometimes the most human-centered choice is the boring, reliable tool that works everywhere.
 - [**Version Control as Filesystem**](/essays/2025-09-05-version_control_as_filesystem) — Technical practices as contemplative practices.
 - [**The Art of Naming Things in Code**](/essays/2025-09-07-the_art_of_naming_things_in_code) — Naming as the practice of creating shared meaning through careful attention to language.
+- [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — Music theory for humans. The same philosophy that drove Requests, applied to scales and chords.
+- [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — The human behind the project is the first interface a contributor encounters. Design that accordingly.
+- [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — Running on Responder: Requests semantics, server side. The "for humans" philosophy full circle.
+- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — The era when open source was about making beautiful lego bricks and sharing them.
 
 ### Applied to AI
 

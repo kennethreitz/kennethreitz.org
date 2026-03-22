@@ -23,14 +23,14 @@ If the developer feels stupid, the API is wrong.
 
 ## Creative
 
-- [**PyTheory**](/software/pytheory) — Music Theory for Humans. Scales, chords, and temperaments as Python objects.
-- [**Responder**](/software/responder) — An experimental HTTP framework. Requests semantics, server side. Ahead of its time.
+- [**PyTheory**](/software/pytheory) — Music Theory for Humans. Scales, chords, and temperaments as Python objects. [Read about its revival with AI](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai).
+- [**Responder**](/software/responder) — An experimental HTTP framework. Requests semantics, server side. [This site now runs on it](/essays/2026-03-22-this_site_now_runs_on_responder).
 
 ## Other Projects
 
 - [**kjvstudy.org**](https://kjvstudy.org) — A free digital study Bible built with AI. [Read about how it was made](/essays/2026-03-20-building_a_digital_study_bible_with_ai).
 - [**httpbin.org**](https://httpbin.org) — HTTP request and response testing service.
-- [**kennethreitz.org**](https://github.com/kennethreitz/kennethreitz.org) — This website. Custom Flask CMS called TufteCMS. [Open source](https://github.com/kennethreitz/kennethreitz.org).
+- [**kennethreitz.org**](https://github.com/kennethreitz/kennethreitz.org) — This website. Now powered by [Responder](/software/responder). [Open source](https://github.com/kennethreitz/kennethreitz.org).
 
 ## The Philosophy
 

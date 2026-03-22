@@ -40,6 +40,8 @@ This isn't about adding spiritual language to programming. It's about recognizin
 - [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — Which values survived and which didn't. The first things written from scratch: water and prayer.
 - [**The Seasonality of Programming**](/essays/2025-08-30-the-seasonality-of-programming) — Recognizing natural rhythms in creative and technical work.
 - [**Ink, Presence, and the Subtle Forms of Aliveness**](/essays/2025-11-14-ink_presence_and_the_subtle_forms_of_aliveness) — Finding contemplation in physical practice.
+- [**Open Source Gave Me Everything Until I Had Nothing Left to Give**](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give) — The difference between a spiritual awakening and a psychiatric emergency. Grounding matters.
+- [**The Coworking Space Saved My Life**](/essays/2026-03-06-the_coworking_space_saved_my_life) — Third spaces as sites of serendipitous transformation. The sacred in the mundane.
 
 ### Related Themes
 

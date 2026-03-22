@@ -13,6 +13,8 @@ This theme collects essays about human-AI collaboration, digital consciousness, 
 - [**Obsidian Vaults & Claude Code**](/essays/2026-03-06-obsidian_vaults_and_claude_code) — A second brain that thinks back.
 - [**Building a Digital Study Bible with AI**](/essays/2026-03-20-building_a_digital_study_bible_with_ai) — Using AI collaboration to build something sacred.
 - [**The Becoming: Building a Poetry Pipeline with Claude Code**](/essays/2026-01-30-the-becoming-building-a-poetry-publishing-pipeline-with-claude-code) — Contemplative technology in practice.
+- [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — AI as thinking partner that holds the entire problem space while the human makes creative decisions.
+- [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — Porting a live website to a new framework in a single afternoon with Claude Opus.
 
 ### Digital Consciousness
 

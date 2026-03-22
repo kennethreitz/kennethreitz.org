@@ -55,6 +55,10 @@ Where code meets prayer. A decade of writing at the intersection of technology, 
 - [**Labyrinth**](/poetry/labyrinth) — Unity in separation.
 - [**Rhythmic Musings**](/poetry/rhythmic-musings) — Music as sanctuary.
 
+## Publishing & Process
+
+- [**The Becoming: Building a Poetry Publishing Pipeline with Claude Code**](/essays/2026-01-30-the-becoming-building-a-poetry-publishing-pipeline-with-claude-code) — How Sarah's poetry collection went from raw manuscript files to a published book and website, built entirely through human-AI collaboration.
+
 ---
 
 *Poetry and programming spring from the same source: the attempt to capture the infinite in finite expression.*

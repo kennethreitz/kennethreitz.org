@@ -26,6 +26,11 @@ Pattern recognition isn't paranoia. It's a survival skill in systems designed to
 - [**Digital Chakras: Our Scattered Online Selves**](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) — How platforms fragment identity to prevent the integration necessary for authentic self-knowledge.
 - [**The Metrics You Expose Are the Values You Endorse**](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) — Platform SDKs are moral philosophies. The optimization landscape determines what gets built.
 
+### Interface as Manipulation
+
+- [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Every interface shapes cognition before conscious awareness engages. Design that exploits this is manipulation by default.
+- [**The Language Model Is the Message**](/essays/2026-03-06-the_language_model_is_the_message) — The medium shapes the mind. LLMs are the latest iteration of McLuhan's insight.
+
 ### Defense & Resistance
 
 - [**Using AI for Reality Checking**](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) — Technology providing external validation against gaslighting.

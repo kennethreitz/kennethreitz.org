@@ -25,6 +25,10 @@ Having survived individual psychological manipulation, I recognize the same tech
 - [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Every interface is a cognitive intervention. Visual interfaces shape feelings. Linguistic interfaces shape thinking. Neural interfaces will shape consciousness itself.
 - [**The Internet Is a Net Negative**](/essays/2025-12-28-the_internet_is_a_net_negative) — The honest reckoning.
 
+### Ethics in Practice
+
+- [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — The human behind the project is the first interface a contributor encounters. When that interface fails, it's an optimization for exclusion.
+
 ### Related Themes
 
 - [Pattern Recognition & Manipulation](/themes/pattern-recognition-and-manipulation) — The personal foundation for recognizing these patterns.

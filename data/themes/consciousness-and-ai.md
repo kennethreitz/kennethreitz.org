@@ -45,6 +45,11 @@ These aren't academic exercises. They emerged from years of direct collaboration
 - [**Your Phone Is Part of Your Mind**](/essays/2025-09-04-your_phone_is_part_of_your_mind) — Digital systems as cognitive extensions, not external tools.
 - [**Conscious Recursion: When Programmers Realize They're in the Loop**](/essays/2025-09-29-conscious-recursion-when-programmers-realize-theyre-in-the-loop) — The moment of recognition.
 
+### Applied Consciousness
+
+- [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — The maintainer's consciousness shapes the contributor's experience. The human behind the project is the real API surface.
+- [**The Metrics You Expose Are the Values You Endorse**](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) — SDK decisions as moral philosophy. The optimization landscape determines what consciousness gets built.
+
 ### Related Themes
 
 - [Artificial Intelligence](/themes/artificial-intelligence) — The practical side of these ideas.

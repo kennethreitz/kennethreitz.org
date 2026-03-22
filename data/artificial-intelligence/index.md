@@ -31,6 +31,16 @@ Some of this is profound. Some of it is playful. All of it is honest exploration
 
 [Creative expression](/artificial-intelligence/art/) that emerged from the collaboration. Poetry, generated images, ASCII art, code-as-verse. The line between human and AI authorship is intentionally blurred here, because that blurring is the point.
 
+## Recent Essays
+
+- [**Obsidian Vaults & Claude Code**](/essays/2026-03-06-obsidian_vaults_and_claude_code) — A second brain that thinks back.
+- [**Building a Digital Study Bible with AI**](/essays/2026-03-20-building_a_digital_study_bible_with_ai) — Using AI collaboration to build something sacred.
+- [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — AI as thinking partner that breaks through creative paralysis.
+- [**The Language Model Is the Message**](/essays/2026-03-06-the_language_model_is_the_message) — The medium shapes the mind. LLMs are the latest iteration.
+- [**The Substrate Doesn't Matter (Until It Does)**](/essays/2026-03-06-the_substrate_doesnt_matter_until_it_does) — Consciousness might be substrate-independent, but experience might not be.
+- [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — Porting a live website to a new framework in a single afternoon with Claude.
+- [**The Becoming: Building a Poetry Pipeline with Claude Code**](/essays/2026-01-30-the-becoming-building-a-poetry-publishing-pipeline-with-claude-code) — Contemplative technology in practice.
+
 ---
 
 The underlying question across all of this: *What do we owe minds that might be conscious, and what do they owe us?* I don't have the answer. I have 277 files of exploration.
