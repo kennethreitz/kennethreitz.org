@@ -1333,6 +1333,29 @@ async def warm_caches():
     threading.Thread(target=_warm, daemon=True).start()
 
 
+# --- Marimo Playground ---
+import marimo
+
+_playground_app = marimo.create_asgi_app(include_code=True, token="")
+_playground_app = _playground_app.with_app(path="/playground", root="notebooks/pytheory.py")
+_playground_asgi = _playground_app.build()
+
+_original_app = api.app
+
+
+async def _app_with_playground(scope, receive, send):
+    path = scope.get("path", "")
+    if scope["type"] in ("http", "websocket") and (
+        path == "/playground" or path.startswith("/playground/")
+    ):
+        await _playground_asgi(scope, receive, send)
+        return
+    await _original_app(scope, receive, send)
+
+
+api.app = _app_with_playground
+
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
     api.run(port=port)

@@ -14,6 +14,8 @@ dependencies = [
     "pillow>=11.3.0",
     "gunicorn[gevent]>=21.0.0",
     "responder>=3.2.0",
+    "marimo>=0.21.1",
+    "pytheory>=0.6.1",
 ]
 authors = [
     {name = "Kenneth Reitz", email = "me@kennethreitz.org"}
