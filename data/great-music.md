@@ -13,7 +13,6 @@ These are the albums I keep coming back to, years later:
 - *Under Pressure* by Logic — Vulnerable, ambitious, honest about the cost of ambition.
 - *My Beautiful Dark Twisted Fantasy* by Kanye West — Whatever you think of the man, this album is a masterpiece of maximalism.
 - *The Life of Pablo* by Kanye West — Messy, unfinished, alive. The most honest thing he ever made.
-- *Elect the Dead* by Serj Tankian — Rage refined into something more precise.
 - *Make Yourself* by Incubus — The album that defined a specific kind of late-90s introspection.
 
 ## What I Listen To
