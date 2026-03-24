@@ -389,7 +389,7 @@
 
 <div class="search-container">
     <div class="search-input-wrapper">
-        <input type="text" class="search-input" id="search-input" placeholder="Search essays, AI writings, and more..." autocomplete="off">
+        <input type="text" class="search-input" id="search-input" placeholder="Search the whole site..." autocomplete="off">
         <div id="autocomplete-list" class="autocomplete-list"></div>
     </div>
     
@@ -611,16 +611,19 @@ document.addEventListener('DOMContentLoaded', function() {
                     const dateHtml = result.date ? 
                         `<span class="search-result-date">${result.date}</span>` : '';
                     
-                    const matchesHtml = result.matches && result.matches.length > 0 ? 
+                    const section = result.section || '';
+                    const sectionLabel = section ? section.replace(/-/g, ' ').replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) : 'Page';
+
+                    const matchesHtml = result.matches && result.matches.length > 0 ?
                         `<span class="search-result-matches">Found in: ${result.matches.join(', ')}</span>` : '';
-                    
+
                     resultElement.innerHTML = `
                         <div class="search-result-header">
                             ${iconHtml}
                             <h3><a href="${result.url}">${highlightText(result.title, query)}</a></h3>
                         </div>
                         <div class="search-result-meta">
-                            <span class="search-result-type">📄 Essay</span>
+                            <span class="search-result-type">${sectionLabel}</span>
                             ${dateHtml}
                             ${matchesHtml}
                         </div>

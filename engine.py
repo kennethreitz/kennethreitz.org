@@ -884,68 +884,68 @@ async def api_search(req, resp):
         }
         return
 
-    blog_data = get_blog_cache()
-    posts = blog_data.get("posts", [])
-
     results = []
     query_lower = query.lower()
 
-    for post in posts:
+    # Search all markdown files across the entire data directory
+    for md_file in DATA_DIR.rglob("*.md"):
+        if md_file.name == "index.md":
+            # Include index files but use parent dir for URL
+            url = "/" + str(md_file.parent.relative_to(DATA_DIR))
+        else:
+            url = "/" + str(md_file.relative_to(DATA_DIR).with_suffix(""))
+
+        try:
+            raw = md_file.read_text()
+        except (OSError, UnicodeDecodeError):
+            continue
+
+        # Extract title from first heading
+        title = md_file.stem.replace("-", " ").replace("_", " ").title()
+        for line in raw.split("\n"):
+            line = line.strip()
+            if line.startswith("# "):
+                title = line[2:].strip()
+                break
+
         score = 0
         matches = []
 
         # Search in title (highest weight)
-        if query_lower in post.get("title", "").lower():
+        if query_lower in title.lower():
             score += 10
             matches.append("title")
 
         # Search in content (medium weight)
-        content = post.get("content", "")
-        if query_lower in content.lower():
+        if query_lower in raw.lower():
             score += 5
             matches.append("content")
-
-        # Search in excerpt (medium weight)
-        excerpt = post.get("excerpt", "")
-        if query_lower in excerpt.lower():
-            score += 3
-            matches.append("excerpt")
-
-        # Search in tags if they exist (low weight)
-        tags = post.get("tags", [])
-        for tag in tags:
-            if query_lower in tag.lower():
-                score += 2
-                matches.append("tags")
-                break
 
         if score > 0:
             snippet = ""
             if "content" in matches:
-                content_lower = content.lower()
-                query_index = content_lower.find(query_lower)
+                raw_lower = raw.lower()
+                query_index = raw_lower.find(query_lower)
                 if query_index != -1:
                     start = max(0, query_index - 100)
-                    end = min(len(content), query_index + len(query) + 100)
-                    snippet = content[start:end].strip()
+                    end = min(len(raw), query_index + len(query) + 100)
+                    snippet = raw[start:end].strip()
                     if start > 0:
                         snippet = "..." + snippet
-                    if end < len(content):
+                    if end < len(raw):
                         snippet = snippet + "..."
-            elif "excerpt" in matches:
-                snippet = excerpt
-            else:
-                snippet = post.get("excerpt", "")
+
+            # Determine section from path
+            parts = md_file.relative_to(DATA_DIR).parts
+            section = parts[0] if len(parts) > 1 else ""
 
             results.append({
-                "title": post.get("title", ""),
-                "url": post.get("url", ""),
-                "excerpt": post.get("excerpt", ""),
+                "title": title,
+                "url": url,
                 "snippet": snippet,
-                "date": post.get("date_str", ""),
+                "section": section,
                 "score": score,
                 "matches": matches,
-                "unique_icon": post.get("unique_icon", ""),
             })
 
     results.sort(key=lambda x: x["score"], reverse=True)
