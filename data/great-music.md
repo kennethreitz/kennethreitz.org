@@ -1,74 +1,43 @@
 # Great Music
 
-I love music. I listen to it all the time. I play it all the time.
+I love music. I listen to it all the time. I make it too — electronic compositions as [Infinite State](/music).
 
-My music client of choice is [Apple Music](https://music.apple.com), mostly because of seamless integration with my devices, as well as the lossless quality that is a big deal for me.
-
-## Favorite Artists
-
-I listen to a lot of hip-hop and rock, mostly. As I get older, I'm finding that I'm listening to more and more to electronic music as well. The energy and wide audio spectrum of rock is more taxing to my ears, I've noticed as I get older.
-
-<span class="sidenote">This evolution in musical taste reflects a broader pattern in creative professionals—the gradual shift from intensity-focused to subtlety-focused art forms as one's capacity for processing complexity deepens with experience.</span>
-
-**Hip-Hop**
-
-- Drake
-- Kendrick Lamar
-- Kanye West
-- Logic
-- J. Cole
-- Eminem
-- *&c.*
-
-**Rock** (from my era)
-
-- Tool
-- Incubus
-- A Perfect Circle
-- Chevelle
-- 311
-- The Offspring
-- Rage Against the Machine
-- System of a Down
-- Linkin Park
-- Nivana
-- Foo Fighters
-- *&c.*
-
-**Classic Rock**
-
-- Metallica
-- Led Zeppelin
-- Pink Floyd
-- The Beatles
-- *&c.*
-
-**Electronic / Other**
-
-- Puscifer
-- Moby
-- Deadmau5
-- Beck
-- *&c.*
+My client of choice is [Apple Music](https://music.apple.com), mostly for the lossless quality. As I get older, I notice my tastes shifting from the intensity of rock toward the texture of electronic music. The wide audio spectrum of heavy guitar is more taxing to my ears than it used to be.
 
 ## Favorite Albums
 
-I'm not going to list them all, but here are a few of my favorite albums of all time:
+These are the albums I keep coming back to, years later:
 
-- *Wish You Were Here* by Pink Floyd
-- *Lateralus* by Tool
-- *Under Pressure* by Logic
-- *My Beautiful Dark Twisted Fantasy* by Kanye West
-- *Life of Pablo* by Kanye West
+- *Wish You Were Here* by Pink Floyd — The purest expression of absence I've ever heard.
+- *Lateralus* by Tool — Consciousness and spiral dynamics rendered as music. Still finding new things in it.
+- *Under Pressure* by Logic — Vulnerable, ambitious, honest about the cost of ambition.
+- *My Beautiful Dark Twisted Fantasy* by Kanye West — Whatever you think of the man, this album is a masterpiece of maximalism.
+- *The Life of Pablo* by Kanye West — Messy, unfinished, alive. The most honest thing he ever made.
+- *Elect the Dead* by Serj Tankian — Rage refined into something more precise.
+- *Make Yourself* by Incubus — The album that defined a specific kind of late-90s introspection.
 
-<span class="sidenote">This album selection reveals deep appreciation for concept albums and artistic ambition—from Pink Floyd's meditation on absence and presence to Tool's exploration of consciousness and spiral dynamics. These are works that reward repeated listening and deeper engagement.</span>
+## What I Listen To
 
-I'll expand upon this list more in the future.
+**Hip-Hop** — Drake, Kendrick Lamar, Kanye West, Logic, J. Cole, Eminem, Travis Scott, Baby Keem.
 
-## Favorite Songs
+**Rock** — Tool, Incubus, A Perfect Circle, Chevelle, 311, Rage Against the Machine, System of a Down, Linkin Park, Nirvana, Foo Fighters.
 
-Here is a selection of my top 50 songs in iTunes:
+**Classic Rock** — Metallica, Led Zeppelin, Pink Floyd, The Beatles, Fleetwood Mac.
 
+**Electronic** — Puscifer, Moby, Deadmau5, Beck.
+
+## My Own Work
+
+I release electronic music as [Infinite State](/music). A few tracks that mean something to me:
+
+- *She May Require Lithium* — From [Messengers Rising](/music/messengers-rising). The title says it.
+- *Consistent Inconsistency* — From [Unmastered Impulses](/music/unmastered-impulses). A meditation on living with a mind that won't hold still.
+- *Nintendo Dreams* — Pure nostalgia rendered as sound.
+- *Reminiscence* — From [As Above, So Below](/music/as-above-so-below).
+
+## Top 50 Songs
+
+A snapshot from iTunes — what I actually play on repeat:
 
 | Song Title                                   | Duration | Artist                                 | Album                                                           |
 |----------------------------------------------|----------|----------------------------------------|-----------------------------------------------------------------|
@@ -76,7 +45,6 @@ Here is a selection of my top 50 songs in iTunes:
 | Hurricane                                    | 4:03     | Kanye West                             | Donda                                                           |
 | First Person Shooter (feat. J. Cole)         | 4:07     | Drake                                  | For All The Dogs                                                |
 | Midas (feat. Robb Banks) [Bonus Track]       | 2:55     | Jace                                   | Jace Tape                                                       |
-| N****s in Paris (HEDEGAARD & Matt Hawk)      | 4:07     | HEDEGAARD & Matt Hawk                  | N****s in Paris (HEDEGAARD & Matt Hawk) - Single                |
 | Internet Persona                             | 1:31     | aut★psy                                | Ethertopia                                                      |
 | Nintendo Dreams                              | 2:07     | Infinite State                         | Nintendo Dreams - Single                                        |
 | Bullet Train To Iowa (Billy Howerdel Mix)    | 3:39     | Puscifer                               | Bullet Train To Iowa / The Underwhelming (Re-imagined) - Single |
@@ -95,7 +63,7 @@ Here is a selection of my top 50 songs in iTunes:
 | Selah                                        | 2:45     | Kanye West                             | JESUS IS KING                                                   |
 | Amber (feat. Sevak Amroyan)                  | 3:36     | Serj Tankian                           | Amber (feat. Sevak Amroyan) - Single                            |
 | Off The Grid                                 | 5:39     | Kanye West                             | Donda                                                           |
-| All Day (feat. Theophilus London, Allan Kingdom & Paul McCartney) | 5:11 | Kanye West | All Day (feat. Theophilus London, Allan Kingdom & Paul McCartney) - Single |
+| All Day (feat. Theophilus London, Allan Kingdom & Paul McCartney) | 5:11 | Kanye West | All Day - Single |
 | Major Distribution                           | 2:51     | Drake & 21 Savage                      | Her Loss                                                        |
 | Isis (feat. Logic)                           | 3:57     | Joyner Lucas                           | ADHD                                                            |
 | THANK GOD                                    | 3:05     | Travis Scott                           | UTOPIA                                                          |
@@ -109,20 +77,16 @@ Here is a selection of my top 50 songs in iTunes:
 | Remote Control pt 2                          | 5:23     | Kanye West                             | Donda                                                           |
 | Follow God                                   | 1:45     | Kanye West                             | JESUS IS KING                                                   |
 | Will You                                     | 3:47     | P.O.D.                                 | Payable On Death                                                |
-| Cash In Cash Out (feat. 21 Savage & Tyler, The Creator) | 3:36 | Pharrell Williams | Cash In Cash Out (feat. 21 Savage & Tyler, The Creator) - Single |
+| Cash In Cash Out (feat. 21 Savage & Tyler, The Creator) | 3:36 | Pharrell Williams | Cash In Cash Out - Single |
 | Karma's a B!tch                              | 2:36     | Sophia Rayne                           | Karma's a B!tch - Single                                        |
 | Shekina                                      | 4:46     | Blindside                              | About a Burning Fire                                            |
 | Rich Flex                                    | 3:59     | Drake & 21 Savage                      | Her Loss                                                        |
 | Lucky You (feat. Joyner Lucas)               | 4:06     | Eminem                                 | Curtain Call 2                                                  |
 | She May Require Lithium                      | 4:07     | Infinite State                         | Messengers Rising                                               |
 | Moon                                         | 2:36     | Kanye West                             | Donda                                                           |
-| Wash Us in the Blood (feat. Travis Scott)    | 3:10     | Kanye West                             | Wash Us in the Blood (feat. Travis Scott) - Single              |
+| Wash Us in the Blood (feat. Travis Scott)    | 3:10     | Kanye West                             | Wash Us in the Blood - Single                                   |
 | Consistent Inconsistency                     | 4:50     | Kenneth Reitz                          | Unmastered Impulses                                             |
 | When I Talk (feat. Kx5)                      | 3:28     | deadmau5, Kaskade & Elderbrook         | When I Talk (feat. Kx5) - Single                                |
 | 10 Bands                                     | 2:58     | Drake                                  | If You're Reading This It's Too Late                            |
 | Chicago Freestyle                            | 3:40     | Drake & GIVĒON                         | Dark Lane Demo Tapes                                            |
 | Family Matters                               | 7:37     | Drake                                  | Family Matters - Single                                         |
-
----
-
-I hope you enjoyed this little snippet of my music tastes. I'll expand upon this in the future.
