@@ -939,7 +939,10 @@ async def api_search(req, resp):
             parts = md_file.relative_to(DATA_DIR).parts
             section = parts[0] if len(parts) > 1 else ""
 
-            icon = generate_unique_svg_icon(title, size=18)
+            if md_file.name == "index.md":
+                icon = generate_folder_icon(title, size=18)
+            else:
+                icon = generate_unique_svg_icon(title, size=18)
 
             results.append({
                 "title": title,
