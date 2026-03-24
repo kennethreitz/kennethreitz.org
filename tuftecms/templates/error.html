@@ -2,8 +2,37 @@
 
 {% block title %}{{ error_code }} — {{ title }}{% endblock %}
 
+{% block extra_head %}
+<style>
+    body.dark-mode .error-page h1 { color: #ccc; }
+    body.dark-mode .error-page p { color: #aaa; }
+    body.dark-mode .error-page a { color: #60a5fa; }
+    body.dark-mode .error-page a:hover { color: #93c5fd; }
+    body.dark-mode .error-page ul li { color: #aaa; }
+    body.dark-mode .error-page .error-note { color: #777; border-top-color: #333; }
+
+    @media (prefers-color-scheme: dark) {
+        .error-page h1 { color: #ccc; }
+        .error-page p { color: #aaa; }
+        .error-page a { color: #60a5fa; }
+        .error-page a:hover { color: #93c5fd; }
+        .error-page ul li { color: #aaa; }
+        .error-page .error-note { color: #777; border-top-color: #333; }
+    }
+
+    .error-note {
+        margin-top: 2em;
+        padding-top: 1em;
+        border-top: 1px solid #ddd;
+        font-style: italic;
+        color: #666;
+        font-size: 0.9em;
+    }
+</style>
+{% endblock %}
+
 {% block content %}
-<article>
+<article class="error-page">
     <h1>{{ error_code }}</h1>
 
     <section>
@@ -11,15 +40,17 @@
 
         <p>The page you're looking for has either moved, been renamed, or never existed in
         the first place. This site has been through a few incarnations over the years — things
-        shift around.</p>
+        shift around. It happens.</p>
 
-        <p>You might find what you're looking for by:</p>
+        <p>Here are a few ways to find your way back:</p>
 
         <ul>
-            <li><a href="/search">Searching the site</a></li>
-            <li>Browsing the <a href="/essays">essay archive</a></li>
-            <li>Starting from <a href="/">the homepage</a></li>
+            <li><a href="/search">Search the site</a> — probably the quickest route.</li>
+            <li>Browse the <a href="/essays">essay archive</a> — something might catch your eye.</li>
+            <li>Head back to <a href="/">the homepage</a> and start fresh.</li>
         </ul>
+
+        <p class="error-note">If you followed a link here from somewhere else, the content likely still exists — it may just live at a different address now.</p>
     </section>
 </article>
 {% endblock %}

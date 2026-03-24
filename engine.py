@@ -107,6 +107,7 @@ def render(template, req, path="/", **kwargs):
 
 # --- Cache for OG images ---
 _og_image_cache = {}
+_OG_CACHE_MAX = 256
 
 
 # --- Bot detection ---
@@ -376,8 +377,13 @@ async def og_image(req, resp, *, path):
         resp.headers["Cache-Control"] = "public, max-age=86400"
         return
 
+    # Validate path stays within data directory
+    file_path = (DATA_DIR / f"{path}.md").resolve()
+    if not str(file_path).startswith(str(DATA_DIR.resolve())):
+        resp.status_code = 403
+        return
+
     # Resolve the post title from the markdown file
-    file_path = DATA_DIR / f"{path}.md"
     title = path.split("/")[-1].replace("-", " ").replace("_", " ").title()
     subtitle = None
 
@@ -467,7 +473,9 @@ async def og_image(req, resp, *, path):
     img.save(buf, format="PNG", optimize=True)
     png_bytes = buf.getvalue()
 
-    # Cache it
+    # Cache it (bounded)
+    if len(_og_image_cache) >= _OG_CACHE_MAX:
+        _og_image_cache.pop(next(iter(_og_image_cache)))
     _og_image_cache[cache_key] = png_bytes
 
     resp.content = png_bytes
@@ -1118,7 +1126,10 @@ async def api_themes(req, resp):
 @api.route("/data/{path:path}")
 async def serve_data_file(req, resp, *, path):
     """Serve static files from the data directory."""
-    file_path = DATA_DIR / path
+    file_path = (DATA_DIR / path).resolve()
+    if not str(file_path).startswith(str(DATA_DIR.resolve())):
+        resp.status_code = 403
+        return
     if file_path.exists() and file_path.is_file():
         resp.file(str(file_path))
     else:
@@ -1126,6 +1137,31 @@ async def serve_data_file(req, resp, *, path):
 
 
 # --- PDF export ---
+
+
+def _generate_pdf(md_path):
+    """Generate PDF bytes from a markdown file. Returns bytes or raises."""
+    from weasyprint import HTML
+    from weasyprint.text.fonts import FontConfiguration
+
+    content_data = render_markdown_file(md_path)
+    pdf_html = api.templates.render(
+        "pdf.html",
+        content=content_data["content"],
+        title=content_data["title"],
+        metadata=content_data.get("metadata", {}),
+        current_year=datetime.now().year,
+        reading_time=content_data.get("reading_time"),
+        word_count=content_data.get("word_count"),
+        unique_icon=content_data.get("unique_icon"),
+    )
+    font_config = FontConfiguration()
+    pdf_buffer = io.BytesIO()
+    HTML(string=pdf_html, base_url="https://kennethreitz.org/").write_pdf(
+        pdf_buffer, font_config=font_config
+    )
+    pdf_buffer.seek(0)
+    return pdf_buffer.read()
 
 
 @api.route("/{path:path}.pdf")
@@ -1137,39 +1173,41 @@ async def serve_pdf(req, resp, *, path):
         return
 
     try:
-        from weasyprint import HTML
-        from weasyprint.text.fonts import FontConfiguration
+        api.log.info("Generating PDF for /%s", path)
+        resp.content = _generate_pdf(file_path)
+        resp.headers["Content-Type"] = "application/pdf"
+        resp.headers["Content-Disposition"] = f'inline; filename="{path.split("/")[-1]}.pdf"'
     except (ImportError, OSError):
         resp.status_code = 503
         resp.text = "PDF generation requires WeasyPrint"
-        return
-
-    api.log.info("Generating PDF for /%s", path)
-    content_data = render_markdown_file(file_path)
-    pdf_html = api.templates.render(
-        "pdf.html",
-        content=content_data["content"],
-        title=content_data["title"],
-        metadata=content_data.get("metadata", {}),
-        current_year=datetime.now().year,
-        reading_time=content_data.get("reading_time"),
-        word_count=content_data.get("word_count"),
-        unique_icon=content_data.get("unique_icon"),
-    )
-
-    font_config = FontConfiguration()
-    pdf_buffer = io.BytesIO()
-    HTML(string=pdf_html, base_url="https://kennethreitz.org/").write_pdf(
-        pdf_buffer, font_config=font_config
-    )
-    pdf_buffer.seek(0)
-
-    resp.content = pdf_buffer.read()
-    resp.headers["Content-Type"] = "application/pdf"
-    resp.headers["Content-Disposition"] = f'inline; filename="{path.split("/")[-1]}.pdf"'
 
 
 # --- Legacy URL resolver ---
+
+
+# Pre-built lookup tables for legacy URL resolution (built once at import time).
+_legacy_dirs = {}  # slug -> url
+_legacy_files = {}  # stripped_slug -> url
+
+
+def _build_legacy_index():
+    """Build lookup tables from the data directory for fast legacy URL resolution."""
+    for match in DATA_DIR.rglob("*/"):
+        if (match / "index.md").exists():
+            rel = match.relative_to(DATA_DIR)
+            _legacy_dirs[match.name] = f"/{rel}"
+    for match in DATA_DIR.rglob("*.md"):
+        if match.name == "index.md":
+            continue
+        stem = match.stem
+        stripped = re.sub(r"^\d{4}-\d{2}-", "", stem)
+        rel = match.relative_to(DATA_DIR)
+        url = f"/{rel.with_suffix('')}"
+        _legacy_files[stripped] = url
+        _legacy_files[stem] = url
+
+
+_build_legacy_index()
 
 
 def _resolve_legacy_url(path):
@@ -1193,25 +1231,21 @@ def _resolve_legacy_url(path):
             if normalized in f.stem:
                 return f"/essays/{f.stem}"
 
-    # Pattern 2: bare slug — search for matching directories and files
+    # Pattern 2: bare slug — fast lookup in pre-built index
     slug = path.strip("/").split("/")[-1]
     normalized = slug.replace("-", "_")
 
-    # Check for directory match anywhere in data/
-    for match in DATA_DIR.rglob("*/"):
-        if match.name == slug or match.name == normalized:
-            rel = match.relative_to(DATA_DIR)
-            if (match / "index.md").exists():
-                return f"/{rel}"
+    # Check directories first
+    if slug in _legacy_dirs:
+        return _legacy_dirs[slug]
+    if normalized in _legacy_dirs:
+        return _legacy_dirs[normalized]
 
-    # Check for file match by slug anywhere in data/
-    for match in DATA_DIR.rglob("*.md"):
-        stem = match.stem
-        # Strip date prefix for comparison
-        stripped = re.sub(r"^\d{4}-\d{2}-", "", stem)
-        if stripped == normalized or stripped == slug:
-            rel = match.relative_to(DATA_DIR)
-            return f"/{rel.with_suffix('')}"
+    # Check files
+    if normalized in _legacy_files:
+        return _legacy_files[normalized]
+    if slug in _legacy_files:
+        return _legacy_files[slug]
 
     return None
 
@@ -1256,26 +1290,7 @@ async def catch_all(req, resp, *, path):
         if md_path.exists():
             api.log.info("Generating PDF for /%s", path[:-4])
             try:
-                from weasyprint import HTML
-                from weasyprint.text.fonts import FontConfiguration
-                content_data = render_markdown_file(md_path)
-                pdf_html = api.templates.render(
-                    "pdf.html",
-                    content=content_data["content"],
-                    title=content_data["title"],
-                    metadata=content_data.get("metadata", {}),
-                    current_year=datetime.now().year,
-                    reading_time=content_data.get("reading_time"),
-                    word_count=content_data.get("word_count"),
-                    unique_icon=content_data.get("unique_icon"),
-                )
-                font_config = FontConfiguration()
-                pdf_buffer = io.BytesIO()
-                HTML(string=pdf_html, base_url="https://kennethreitz.org/").write_pdf(
-                    pdf_buffer, font_config=font_config
-                )
-                pdf_buffer.seek(0)
-                resp.content = pdf_buffer.read()
+                resp.content = _generate_pdf(md_path)
                 resp.headers["Content-Type"] = "application/pdf"
                 resp.headers["Content-Disposition"] = f'inline; filename="{path.split("/")[-1]}"'
             except (ImportError, OSError):

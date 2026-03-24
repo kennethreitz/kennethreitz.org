@@ -119,19 +119,126 @@
         #network-graph {
             height: 400px;
         }
-        
+
         .graph-controls {
             flex-direction: column;
             align-items: stretch;
         }
-        
+
         .graph-controls button {
             margin-bottom: 0.5rem;
         }
-        
+
         #graphStats {
             margin-left: 0;
             text-align: center;
+        }
+    }
+
+    /* Dark mode support */
+    body.dark-mode .subtitle {
+        color: #999;
+    }
+
+    body.dark-mode .graph-controls {
+        background: #252525;
+    }
+
+    body.dark-mode .graph-controls button {
+        border-color: #333;
+        background: #1a1a1a;
+        color: #ccc;
+    }
+
+    body.dark-mode .graph-controls button:hover {
+        background: #333;
+    }
+
+    body.dark-mode #graphStats {
+        color: #999;
+    }
+
+    body.dark-mode #graph-container {
+        border-color: #333;
+        background: #1a1a1a;
+    }
+
+    body.dark-mode .node {
+        stroke: #1a1a1a;
+    }
+
+    body.dark-mode .node:hover {
+        stroke: #ccc;
+    }
+
+    body.dark-mode .link {
+        stroke: #666;
+    }
+
+    body.dark-mode .link:hover {
+        stroke: #ccc;
+    }
+
+    body.dark-mode .node-label {
+        fill: #ccc;
+    }
+
+    body.dark-mode .tooltip {
+        background: rgba(30, 30, 30, 0.95);
+        color: #ccc;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .subtitle {
+            color: #999;
+        }
+
+        .graph-controls {
+            background: #252525;
+        }
+
+        .graph-controls button {
+            border-color: #333;
+            background: #1a1a1a;
+            color: #ccc;
+        }
+
+        .graph-controls button:hover {
+            background: #333;
+        }
+
+        #graphStats {
+            color: #999;
+        }
+
+        #graph-container {
+            border-color: #333;
+            background: #1a1a1a;
+        }
+
+        .node {
+            stroke: #1a1a1a;
+        }
+
+        .node:hover {
+            stroke: #ccc;
+        }
+
+        .link {
+            stroke: #666;
+        }
+
+        .link:hover {
+            stroke: #ccc;
+        }
+
+        .node-label {
+            fill: #ccc;
+        }
+
+        .tooltip {
+            background: rgba(30, 30, 30, 0.95);
+            color: #ccc;
         }
     }
 </style>

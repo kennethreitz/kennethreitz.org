@@ -4,8 +4,6 @@ I love music. I listen to it all the time. I play it all the time.
 
 My music client of choice is [Apple Music](https://music.apple.com), mostly because of seamless integration with my devices, as well as the lossless quality that is a big deal for me.
 
-<span class="sidenote">The preference for lossless quality reflects an audiophile sensibility—the same attention to fidelity and precision that characterizes Kenneth's approach to software engineering. Quality in audio, like quality in code, often lies in what isn't compromised.</span>
-
 ## Favorite Artists
 
 I listen to a lot of hip-hop and rock, mostly. As I get older, I'm finding that I'm listening to more and more to electronic music as well. The energy and wide audio spectrum of rock is more taxing to my ears, I've noticed as I get older.
