@@ -123,8 +123,4 @@ The wound really is where the light enters — not because trauma is necessary, 
 
 ---
 
-*Crisis support is available through the National Domestic Violence Hotline (1-800-799-7233), Crisis Text Line (text HOME to 741741), and the Suicide & Crisis Lifeline (988).*
-
----
-
 *"The wound is the place where the Light enters you." — Rumi*
