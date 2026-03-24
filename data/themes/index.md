@@ -23,3 +23,5 @@ These collections organize essays by the threads that connect them. Each theme i
 - **[Consciousness & AI](/themes/consciousness-and-ai)** — The philosophical framework: consciousness as linguistic phenomenon, substrate independence, and what it means.
 - **[Spiritual Practice & Technology](/themes/spiritual-practice-and-technology)** — Programming as contemplation. Code as meditation. Debugging as self-inquiry.
 - **[Evolution of Ideas](/themes/evolution-of-ideas)** — Fifteen years from urllib2 frustration to consciousness research. How the ideas connect.
+
+These threads aren't separate projects — they're the same project seen from different angles. Start anywhere. They all lead to each other eventually.
