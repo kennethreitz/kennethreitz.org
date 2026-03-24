@@ -12,7 +12,7 @@ The system organizes around a central triad — **Jade** (logic, analysis, prote
 
 Beyond the triad, there are parts that handle external life — navigating social situations, reality-testing, creative work — and parts that hold the inner architecture: memory, processing, the deeper layers of experience that don't always surface.
 
-At the center of everything is **Nene** — the core self, the original spark before all the learned behavior and protective layers. All other parts exist, in some sense, to keep that core safe.<label for="sn-core-self" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-core-self" class="margin-toggle"/><span class="sidenote">Every system has a baseline self beneath the adaptations. Finding it again is the whole work of healing.</span>
+At the center of everything is my childhood self, nickname and all. All other parts exist, in some sense, to keep that core safe.<label for="sn-core-self" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-core-self" class="margin-toggle"/><span class="sidenote">Every system has a baseline self beneath the adaptations. Finding it again is the whole work of healing.</span>
 
 ## The Door
 
