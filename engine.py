@@ -38,6 +38,56 @@ import os
 
 DATA_DIR = Path("data")
 
+# --- Search index (built once at startup) ---
+_search_index = []
+
+
+def _build_search_index():
+    """Scan all markdown files once and build a cached search index."""
+    global _search_index
+    index = []
+
+    for md_file in DATA_DIR.rglob("*.md"):
+        if md_file.name == "index.md":
+            url = "/" + str(md_file.parent.relative_to(DATA_DIR))
+        else:
+            url = "/" + str(md_file.relative_to(DATA_DIR).with_suffix(""))
+
+        try:
+            raw = md_file.read_text()
+        except (OSError, UnicodeDecodeError):
+            continue
+
+        # Extract title from first heading
+        title = md_file.stem.replace("-", " ").replace("_", " ").title()
+        for line in raw.split("\n"):
+            line_stripped = line.strip()
+            if line_stripped.startswith("# "):
+                title = line_stripped[2:].strip()
+                break
+
+        # Determine section from path
+        parts = md_file.relative_to(DATA_DIR).parts
+        section = parts[0] if len(parts) > 1 else ""
+
+        # Generate icon
+        if md_file.name == "index.md":
+            icon = generate_folder_icon(title, size=18)
+        else:
+            icon = generate_unique_svg_icon(title, size=18)
+
+        index.append({
+            "title": title,
+            "url": url,
+            "raw_text": raw.lower(),
+            "raw": raw,
+            "section": section,
+            "icon": icon,
+        })
+
+    _search_index = index
+
+
 api = responder.API(
     templates_dir="tuftecms/templates",
     static_dir="tuftecms/static",
@@ -895,46 +945,26 @@ async def api_search(req, resp):
     results = []
     query_lower = query.lower()
 
-    # Search all markdown files across the entire data directory
-    for md_file in DATA_DIR.rglob("*.md"):
-        if md_file.name == "index.md":
-            # Include index files but use parent dir for URL
-            url = "/" + str(md_file.parent.relative_to(DATA_DIR))
-        else:
-            url = "/" + str(md_file.relative_to(DATA_DIR).with_suffix(""))
-
-        try:
-            raw = md_file.read_text()
-        except (OSError, UnicodeDecodeError):
-            continue
-
-        # Extract title from first heading
-        title = md_file.stem.replace("-", " ").replace("_", " ").title()
-        for line in raw.split("\n"):
-            line = line.strip()
-            if line.startswith("# "):
-                title = line[2:].strip()
-                break
-
+    for entry in _search_index:
         score = 0
         matches = []
 
         # Search in title (highest weight)
-        if query_lower in title.lower():
+        if query_lower in entry["title"].lower():
             score += 10
             matches.append("title")
 
         # Search in content (medium weight)
-        if query_lower in raw.lower():
+        if query_lower in entry["raw_text"]:
             score += 5
             matches.append("content")
 
         if score > 0:
             snippet = ""
             if "content" in matches:
-                raw_lower = raw.lower()
-                query_index = raw_lower.find(query_lower)
+                query_index = entry["raw_text"].find(query_lower)
                 if query_index != -1:
+                    raw = entry["raw"]
                     start = max(0, query_index - 100)
                     end = min(len(raw), query_index + len(query) + 100)
                     snippet = raw[start:end].strip()
@@ -943,29 +973,44 @@ async def api_search(req, resp):
                     if end < len(raw):
                         snippet = snippet + "..."
 
-            # Determine section from path
-            parts = md_file.relative_to(DATA_DIR).parts
-            section = parts[0] if len(parts) > 1 else ""
-
-            if md_file.name == "index.md":
-                icon = generate_folder_icon(title, size=18)
-            else:
-                icon = generate_unique_svg_icon(title, size=18)
-
             results.append({
-                "title": title,
-                "url": url,
+                "title": entry["title"],
+                "url": entry["url"],
                 "snippet": snippet,
-                "section": section,
+                "section": entry["section"],
                 "score": score,
                 "matches": matches,
-                "unique_icon": icon,
+                "unique_icon": entry["icon"],
             })
 
     results.sort(key=lambda x: x["score"], reverse=True)
     results = results[:50]
 
     resp.media = {"query": query, "results": results, "total": len(results)}
+
+
+@api.route("/api/search/autocomplete")
+async def api_search_autocomplete(req, resp):
+    query = req.params.get("q", "").strip()
+
+    if len(query) < 1:
+        resp.media = {"results": []}
+        return
+
+    query_lower = query.lower()
+    matches = []
+
+    for entry in _search_index:
+        if query_lower in entry["title"].lower():
+            matches.append({
+                "title": entry["title"],
+                "url": entry["url"],
+                "icon": entry["icon"],
+            })
+            if len(matches) >= 8:
+                break
+
+    resp.media = {"results": matches}
 
 
 @api.route("/api/icon/{article_path}")
@@ -1469,6 +1514,7 @@ async def warm_caches():
             get_connections_cache()
             get_terms_cache()
             get_themes_cache()
+            _build_search_index()
             api.log.info("Cache warming complete!")
         except Exception as e:
             api.log.error("Cache warming failed: %s", e)

@@ -414,7 +414,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const autocompleteList = document.getElementById('autocomplete-list');
     let searchTimeout;
     let autocompleteTimeout;
-    let allPosts = [];
     let currentFocus = -1;
     
     // Helper function to escape HTML
@@ -439,14 +438,6 @@ document.addEventListener('DOMContentLoaded', function() {
         
         return highlighted;
     }
-    
-    // Fetch all posts for autocomplete
-    fetch('/api/blog')
-        .then(response => response.json())
-        .then(data => {
-            allPosts = data.posts || [];
-        })
-        .catch(error => console.error('Failed to load posts for autocomplete:', error));
     
     // Get search query from URL parameter
     const urlParams = new URLSearchParams(window.location.search);
@@ -532,42 +523,45 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     function showAutocomplete(query) {
-        if (!allPosts || allPosts.length === 0) return;
-        
-        const queryLower = query.toLowerCase();
-        const matches = allPosts.filter(post => 
-            post.title.toLowerCase().includes(queryLower)
-        ).slice(0, 5);
-        
-        if (matches.length === 0) {
-            autocompleteList.style.display = 'none';
-            return;
-        }
-        
-        autocompleteList.innerHTML = '';
-        currentFocus = -1;
-        
-        matches.forEach(post => {
-            const item = document.createElement('div');
-            item.className = 'autocomplete-item';
-            
-            const icon = post.unique_icon ? 
-                `<img src="${post.unique_icon}" class="autocomplete-icon" alt="">` : 
-                '<span class="autocomplete-icon">📄</span>';
-            
-            item.innerHTML = `
-                ${icon}
-                <span class="autocomplete-title">${highlightText(post.title, query)}</span>
-            `;
-            
-            item.addEventListener('click', function() {
-                window.location.href = post.url;
+        fetch(`/api/search/autocomplete?q=${encodeURIComponent(query)}`)
+            .then(response => response.json())
+            .then(data => {
+                const matches = data.results || [];
+
+                if (matches.length === 0) {
+                    autocompleteList.style.display = 'none';
+                    return;
+                }
+
+                autocompleteList.innerHTML = '';
+                currentFocus = -1;
+
+                matches.forEach(match => {
+                    const item = document.createElement('div');
+                    item.className = 'autocomplete-item';
+
+                    const icon = match.icon ?
+                        `<img src="${match.icon}" class="autocomplete-icon" alt="">` :
+                        '<span class="autocomplete-icon">📄</span>';
+
+                    item.innerHTML = `
+                        ${icon}
+                        <span class="autocomplete-title">${highlightText(match.title, query)}</span>
+                    `;
+
+                    item.addEventListener('click', function() {
+                        window.location.href = match.url;
+                    });
+
+                    autocompleteList.appendChild(item);
+                });
+
+                autocompleteList.style.display = 'block';
+            })
+            .catch(error => {
+                console.error('Autocomplete error:', error);
+                autocompleteList.style.display = 'none';
             });
-            
-            autocompleteList.appendChild(item);
-        });
-        
-        autocompleteList.style.display = 'block';
     }
     
     function performSearch(query) {

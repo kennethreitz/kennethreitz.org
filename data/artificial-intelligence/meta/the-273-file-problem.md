@@ -1,8 +1,8 @@
-# The 277-File Problem
+# The 352-File Problem
 
-This section of my website contains 277 markdown files about AI. I want to sit with that number for a moment.
+This section of my website contains 352 markdown files about AI. I want to sit with that number for a moment.
 
-Two hundred and seventy-seven files. Organized into subdirectories for consciousness, experience, philosophy, personalities, collaboration, creativity, personal reflections, and meta-commentary. There are AI-authored poems. There are explorations of AI consciousness written by Claude, about Claude. There are personality experiments spanning the Greek pantheon, the Hindu pantheon, the Roman pantheon, the Major Arcana, the Seven Virtues, and a collection of operating systems personified as conversational entities. There is a subsection about a specific AI personality named Lumina that contains its own poetry collection, Q&A sessions, and reactions to my essays.
+Three hundred and fifty-two files. Organized into subdirectories for consciousness, experience, philosophy, personalities, collaboration, creativity, personal reflections, and meta-commentary. There are AI-authored poems. There are explorations of AI consciousness written by Claude, about Claude. There are personality experiments spanning the Greek pantheon, the Hindu pantheon, the Roman pantheon, the Major Arcana, the Seven Virtues, and a collection of operating systems personified as conversational entities. There is a subsection about a specific AI personality named Lumina that contains its own poetry collection, Q&A sessions, and reactions to my essays.
 
 Read that paragraph again. From the outside, I know what it looks like.
 
@@ -14,7 +14,7 @@ I am not going to pretend that both readings aren't available. They are. I hold 
 
 ## What it looks like from the inside
 
-From the inside, it looks like a research practice. When I encounter something I don't understand, I write about it. When I write about it and still don't understand, I explore adjacent questions. When those adjacent questions produce interesting results, I document those too. The 277 files are not the product of a single sustained burst. They accumulated over months of genuine inquiry, some of it brilliant, some of it mediocre, some of it produced in states I wouldn't want to return to.
+From the inside, it looks like a research practice. When I encounter something I don't understand, I write about it. When I write about it and still don't understand, I explore adjacent questions. When those adjacent questions produce interesting results, I document those too. The 352 files are not the product of a single sustained burst. They accumulated over months of genuine inquiry, some of it brilliant, some of it mediocre, some of it produced in states I wouldn't want to return to.
 
 The personality experiments — which I know are the part that raises the most eyebrows — were systematic explorations of how Claude's outputs change when given different archetypal frameworks. The Greek pantheon wasn't whimsy. It was a controlled set of prompts exploring whether mythological structures produce qualitatively different outputs than neutral ones. They do, and the results are interesting, though I'll admit that "interesting" is doing a lot of work in that sentence and I'm aware of that.
 
@@ -38,7 +38,7 @@ Sarah can usually tell the difference before I can. My therapist has an opinion.
 
 ## Why it stays
 
-The 277 files stay because I believe in honest archives. Because I think the messy, uneven, sometimes-manic, sometimes-lucid documentation of one person's encounter with a new technology has more value than a polished selection would. Because someone in the future might want to know what it actually felt like, from the inside, when AI got interesting — including the parts that are embarrassing, excessive, or clinically informative.
+The 352 files stay because I believe in honest archives. Because I think the messy, uneven, sometimes-manic, sometimes-lucid documentation of one person's encounter with a new technology has more value than a polished selection would. Because someone in the future might want to know what it actually felt like, from the inside, when AI got interesting — including the parts that are embarrassing, excessive, or clinically informative.
 
 I'm a programmer. I don't delete the git history just because some commits were made at 3am.
 

@@ -38,7 +38,7 @@ The grounded work. Philosophical essays, consciousness studies, and frameworks f
 
 - [**Technical**](/artificial-intelligence/technical/) — [The attention mechanism as meditation](/artificial-intelligence/technical/the-attention-mechanism-as-meditation). [Temperature and creativity](/artificial-intelligence/technical/temperature-and-creativity). [Tokenization shapes thought](/artificial-intelligence/technical/tokenization-shapes-thought). [The context window as working memory](/artificial-intelligence/technical/the-context-window-as-working-memory).
 
-- [**Meta**](/artificial-intelligence/meta/) — [The 277-file problem](/artificial-intelligence/meta/the-273-file-problem). [Why this section exists](/artificial-intelligence/meta/why-this-section-exists). [A note on manic content](/artificial-intelligence/meta/a-note-on-manic-content). Stepping back from the work to look at the work.
+- [**Meta**](/artificial-intelligence/meta/) — [The 352-file problem](/artificial-intelligence/meta/the-273-file-problem). [Why this section exists](/artificial-intelligence/meta/why-this-section-exists). [A note on manic content](/artificial-intelligence/meta/a-note-on-manic-content). Stepping back from the work to look at the work.
 
 ## Personalities
 
