@@ -2,82 +2,51 @@
 
 {% block title %}Kenneth Reitz{% endblock %}
 
+{% block extra_head %}
+<style>
+    .muted { color: #888; font-size: 0.95rem; }
+    body.dark-mode .muted { color: #777; }
+    .muted a { color: #888; }
+    body.dark-mode .muted a { color: #777; }
+</style>
+{% endblock %}
+
 {% block content %}
 <div class="post-content">
 <h1>Kenneth Reitz</h1>
 
-<p class="subtitle">Creator of <a href="/software/requests" class="project-link color-software">Requests</a>,
+<p class="subtitle muted">Creator of <a href="/software/requests" class="project-link color-software">Requests</a>,
 <a href="/software/certifi" class="project-link color-software">Certifi</a>,
 <a href="/software/pipenv" class="project-link color-software">Pipenv</a>, <a href="/software/records" class="project-link color-software">Records</a>,
 <a href="/software/maya" class="project-link color-software">Maya</a> & <a href="/software" class="project-link color-software">more</a>.</p>
 
 <section>
-    <p>I made <a href="/software/requests">Requests</a>, the Python HTTP library downloaded 30 million times a day. I built <a href="https://kjvstudy.org">kjvstudy.org</a>, a free digital study Bible, with AI in two months. I write about what happens when technology meets consciousness, and what we owe each other when we build things people think through.</p>
+    <p>I'm best known for <a href="/software/requests">Requests</a>, the Python HTTP library. I built <a href="https://kjvstudy.org">kjvstudy.org</a>, a free digital study Bible. Most of what I write these days lives at the intersection of technology and consciousness — what we owe each other when we build things people think through.</p>
 
     <p>I live openly with <a href="/mental-health">schizoaffective disorder</a>. I'm a husband and father. Tech used to be my identity. Now it's <a href="/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed">craft, not lifestyle</a>.</p>
+
+    <p>This site is the whole picture — <a href="/essays">essays</a>, <a href="/software">software</a>, <a href="/poetry">poetry</a>, <a href="/photography">photography</a>, <a href="/music">music</a>, and the <a href="/artificial-intelligence">AI work</a> that ties it together. Fifteen years of thinking out loud.</p>
 </section>
 
 <section>
-    <h2>Recent Writing <small style="font-size: 0.6em; font-weight: normal;">(<a href="/archive">see archive</a>)</small></h2>
+    <h2>Recent Writing <small style="font-size: 0.6em; font-weight: normal;">(<a href="/archive">archive</a>)</small></h2>
 
-    <p><strong><a href="/essays/2026-03-22-the_maintainer_is_the_interface" class="project-link color-software">The Maintainer Is the Interface</a></strong><br>
-    In open source, the first real interface isn't the API. It's the person who responds to your pull request.</p>
+    {% for post in recent_posts %}
+    <div style="display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;">
+        {% if post.unique_icon %}<img src="{{ post.unique_icon }}" alt="" style="width: 22px; height: 22px; flex-shrink: 0; margin-top: 0.1rem;">{% endif %}
+        <div style="font-size: 1.15rem;">
+            <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+        </div>
+    </div>
+    {% endfor %}
 
-    <p><strong><a href="/essays/2026-03-20-the_interface_is_the_subconscious" class="project-link color-philosophy">The Interface Is the Subconscious</a></strong><br>
-    Every interface shapes cognition before conscious awareness engages. Visual, linguistic, neural.</p>
-
-    <p><strong><a href="/essays/2026-03-20-building_a_digital_study_bible_with_ai" class="project-link color-ai">Building a Digital Study Bible with AI</a></strong><br>
-    1,305 commits in two months. One person, one AI, one free Bible study application.</p>
-
-    <p><strong><a href="/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give" class="project-link color-essay">Open Source Gave Me Everything Until I Had Nothing Left to Give</a></strong><br>
-    The same intensity that produced Requests produced the conditions for the worst experiences of my life.</p>
-
-    <p><strong><a href="/essays/2026-03-18-designing_for_the_worst_day" class="project-link color-software">Designing for the Worst Day</a></strong><br>
-    If it works for the person whose hands are shaking and whose thoughts won't line up, it works for everyone.</p>
-
-    <p><strong><a href="/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed" class="project-link color-essay">The Lego Bricks Era</a></strong><br>
-    The golden era of open source ended because the people who created it grew up. I'm one of them.</p>
+    <p class="muted">Browse the full <a href="/archive">archive</a>, or subscribe via <a href="/feed.xml">RSS</a>.</p>
 </section>
 
 <section>
-    <h2>Explore by Theme</h2>
+    <h2>Threads</h2>
 
-    <p><span class="legend-dot" style="background: #e74c3c;"></span><strong><a href="/themes/for-humans-philosophy" class="project-link color-software">For Humans Philosophy</a></strong><br>
-    Technology should serve human mental models, not force humans to adapt to machine logic.</p>
-
-    <p><span class="legend-dot" style="background: #95a5a6;"></span><strong><a href="/themes/algorithmic-critique" class="project-link color-philosophy">Algorithmic Critique</a></strong><br>
-    How engagement optimization consumes <a href="/essays/2025-08-26-the_algorithm_eats_virtue">virtue</a>, <a href="/essays/2025-08-27-the_algorithm_eats_language">language</a>, <a href="/essays/2025-08-27-the_algorithm_eats_love">love</a>, <a href="/essays/2025-08-27-the_algorithm_eats_democracy">democracy</a>, <a href="/essays/2025-08-27-the_algorithm_eats_reality">reality</a>, and <a href="/essays/2025-09-01-the_algorithm_eats_time">time</a>.</p>
-
-    <p><span class="legend-dot" style="background: #27ae60;"></span><strong><a href="/themes/mental-health-and-technology" class="project-link color-essay">Mental Health & Technology</a></strong><br>
-    Living openly with schizoaffective disorder in the age of algorithms.</p>
-
-    <p><span class="legend-dot" style="background: #9b59b6;"></span><strong><a href="/themes/consciousness-and-ai" class="project-link color-ai">Consciousness & AI</a></strong><br>
-    What happens when you treat AI as a creative partner rather than a tool.</p>
-
-    <p><span class="legend-dot" style="background: #16a085;"></span><strong><a href="/themes/open-source-and-community" class="project-link color-software">Open Source & Community</a></strong><br>
-    Fifteen years of building, burning out, and finding other ground.</p>
-
-    <p><span class="legend-dot" style="background: #f39c12;"></span><strong><a href="/themes/spiritual-practice-and-technology" class="project-link color-music">Spiritual Practice & Technology</a></strong><br>
-    Programming as contemplation. Code downstream of prayer.</p>
-</section>
-
-<section>
-    <h2>Beyond the Essays</h2>
-
-    <p><span class="legend-dot" style="background: #e74c3c;"></span><strong><a href="/software" class="project-link color-software">Software & Tools</a></strong><br>
-    Requests, Pipenv, Records, Maya, Certifi, and more.</p>
-
-    <p><span class="legend-dot" style="background: #27ae60;"></span><strong><a href="/poetry" class="project-link color-poetry">Poetry</a></strong><br>
-    <a href="/poetry/sanskrit-musings/">Sanskrit Musings</a>, <a href="/poetry/flowetry/">Flowetry</a>, and standalone pieces. Where code meets prayer.</p>
-
-    <p><span class="legend-dot" style="background: #9b59b6;"></span><strong><a href="/artificial-intelligence" class="project-link color-ai">Artificial Intelligence</a></strong><br>
-    296 files of exploration into what happens when you take AI seriously as a creative partner.</p>
-
-    <p><span class="legend-dot" style="background: #f39c12;"></span><strong><a href="/music" class="project-link color-music">Music</a></strong><br>
-    Electronic compositions as Infinite State.</p>
-
-    <p><span class="legend-dot" style="background: #3498db;"></span><strong><a href="/photography" class="project-link color-essay">Photography</a></strong><br>
-    A decade of street and travel work, mostly Leica, mostly black and white.</p>
+    <p>A few threads run through everything here. <a href="/themes/for-humans-philosophy">The "for humans" philosophy</a> — that technology should serve human mental models, not the other way around. A growing body of <a href="/themes/algorithmic-critique">algorithmic critique</a>, tracing how engagement optimization consumes <a href="/essays/2025-08-26-the_algorithm_eats_virtue">virtue</a>, <a href="/essays/2025-08-27-the_algorithm_eats_language">language</a>, <a href="/essays/2025-08-27-the_algorithm_eats_love">love</a>, <a href="/essays/2025-08-27-the_algorithm_eats_democracy">democracy</a>, <a href="/essays/2025-08-27-the_algorithm_eats_reality">reality</a>, and <a href="/essays/2025-09-01-the_algorithm_eats_time">time</a>. Writing about <a href="/themes/mental-health-and-technology">mental health and technology</a>, <a href="/themes/consciousness-and-ai">consciousness and AI</a>, <a href="/themes/open-source-and-community">fifteen years of open source</a>, and <a href="/themes/spiritual-practice-and-technology">programming as contemplative practice</a>.</p>
 </section>
 
 <hr>
@@ -86,28 +55,6 @@
     <p>Thank you for your attention — it's the only currency that actually matters. If anything here resonated, I'm glad. If you're curious about what drives the work, my <a href="/values">values</a> are the closest thing to a map I've got.</p>
 </section>
 
-<section class="footer-indexes" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e0e0e0;">
-    <h3 style="font-size: 1rem; color: #666; margin-bottom: 1rem;">Explore</h3>
-    <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; font-size: 0.9rem; margin-bottom: 1rem;">
-        <span><span class="legend-dot" style="background: #e74c3c;"></span>Software & Tools</span>
-        <span><span class="legend-dot" style="background: #3498db;"></span>Essays & Analysis</span>
-        <span><span class="legend-dot" style="background: #9b59b6;"></span>AI & Consciousness</span>
-        <span><span class="legend-dot" style="background: #f39c12;"></span>Music & Audio</span>
-        <span><span class="legend-dot" style="background: #27ae60;"></span>Poetry & Creative</span>
-        <span><span class="legend-dot" style="background: #95a5a6;"></span>Philosophy & Critique</span>
-    </div>
-    <div style="font-size: 0.85rem; color: #888; line-height: 1.6;">
-        <a href="/archive" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Full Archive</a> ·
-        <a href="/search" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Search</a> ·
-        <a href="/archive/connections" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Connections</a> ·
-        <a href="/archive/graph" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Graph</a> ·
-        <a href="/archive/sidenotes" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Sidenotes</a> ·
-        <a href="/archive/quotes" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Quotes</a> ·
-        <a href="/archive/terms" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Terms</a> ·
-        <a href="/random" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">Random</a> ·
-        <a href="/feed.xml" style="color: #888; text-decoration: none; border-bottom: 1px dotted #aaa;">RSS</a>
-    </div>
-</section>
 
 </div><!-- end post-content -->
 {% endblock %}

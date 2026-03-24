@@ -140,7 +140,7 @@ def _detect_bot(req):
 @api.route("/")
 async def homepage(req, resp):
     blog_data = get_blog_cache()
-    recent_posts = blog_data.get("posts", [])[:6]
+    recent_posts = blog_data.get("posts", [])[:5]
     resp.html = render("homepage.html", req, "/",
         title="Home",
         recent_posts=recent_posts,
