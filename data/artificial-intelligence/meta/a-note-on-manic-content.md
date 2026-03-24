@@ -40,4 +40,4 @@ Some of this work is the best thinking I've done. Some of it is a symptom wearin
 
 ---
 
-*Related: [The 277-File Problem](/artificial-intelligence/meta/the-273-file-problem), [Mania and AI](/artificial-intelligence/personal/mania-and-ai), [Why This Section Exists](/artificial-intelligence/meta/why-this-section-exists), [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness).*
+*Related: [The 352-File Problem](/artificial-intelligence/meta/the-273-file-problem), [Mania and AI](/artificial-intelligence/personal/mania-and-ai), [Why This Section Exists](/artificial-intelligence/meta/why-this-section-exists), [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness).*

@@ -48,4 +48,4 @@ So here it is. Browse what interests you. Skip what doesn't. Take the insights t
 
 ---
 
-*Related: [The 277-File Problem](/artificial-intelligence/meta/the-273-file-problem), [A Note on Manic Content](/artificial-intelligence/meta/a-note-on-manic-content), [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it).*
+*Related: [The 352-File Problem](/artificial-intelligence/meta/the-273-file-problem), [A Note on Manic Content](/artificial-intelligence/meta/a-note-on-manic-content), [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it).*
