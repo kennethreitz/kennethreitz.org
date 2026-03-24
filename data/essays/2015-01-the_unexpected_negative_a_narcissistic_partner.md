@@ -25,15 +25,11 @@ What made this experience particularly insidious was how gradually it unfolded. 
 
 The pattern became clear in retrospect:
 
-**Love Bombing**: An overwhelming rush of attention, affection, and promises. She made me feel like I was unlike anyone she'd ever met, that our connection was cosmic and meant to be. The intensity felt profound and romantic rather than manipulative.
-
-**Isolation**: Gradual disconnection from friends, family, and support systems. She would suggest that others didn't understand our connection or weren't good for me, creating a bubble where only her perspective seemed valid.
-
-**Gaslighting**: Systematic distortion of reality. Conversations I remembered clearly, she would reframe as "never happening" or meaning something completely different. I began to question my own memory and perception.<label for="sn-gaslighting" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-gaslighting" class="margin-toggle"/><span class="sidenote">Gaslighting is named after the 1944 film where a husband manipulates his wife into believing she's losing her sanity. It attacks the very foundation of your ability to trust your own experience of reality.</span>
-
-**Emotional Volatility**: Unpredictable cycles of intense affection followed by cold withdrawal or criticism. Walking on eggshells became my default mode, always trying to figure out what might trigger the next mood shift.
-
-**Trauma Bonding**: The combination of intermittent reinforcement and emotional intensity created an addictive dynamic. The highs felt so high precisely because the lows were so destabilizing.<label for="sn-intermittent-reinforcement" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-intermittent-reinforcement" class="margin-toggle"/><span class="sidenote">Intermittent reinforcement is the most powerful conditioning schedule for creating addiction. Variable rewards create stronger psychological bonds than consistent positive treatment ever could.</span>
+- **Love Bombing**: An overwhelming rush of attention, affection, and promises. She made me feel like I was unlike anyone she'd ever met, that our connection was cosmic and meant to be. The intensity felt profound and romantic rather than manipulative.
+- **Isolation**: Gradual disconnection from friends, family, and support systems. She would suggest that others didn't understand our connection or weren't good for me, creating a bubble where only her perspective seemed valid.
+- **Gaslighting**: Systematic distortion of reality. Conversations I remembered clearly, she would reframe as "never happening" or meaning something completely different. I began to question my own memory and perception.<label for="sn-gaslighting" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-gaslighting" class="margin-toggle"/><span class="sidenote">Gaslighting is named after the 1944 film where a husband manipulates his wife into believing she's losing her sanity. It attacks the very foundation of your ability to trust your own experience of reality.</span>
+- **Emotional Volatility**: Unpredictable cycles of intense affection followed by cold withdrawal or criticism. Walking on eggshells became my default mode, always trying to figure out what might trigger the next mood shift.
+- **Trauma Bonding**: The combination of intermittent reinforcement and emotional intensity created an addictive dynamic. The highs felt so high precisely because the lows were so destabilizing.<label for="sn-intermittent-reinforcement" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-intermittent-reinforcement" class="margin-toggle"/><span class="sidenote">Intermittent reinforcement is the most powerful conditioning schedule for creating addiction. Variable rewards create stronger psychological bonds than consistent positive treatment ever could.</span>
 
 ## The Technical Mind vs. Emotional Manipulation
 
@@ -67,25 +63,19 @@ The breakthrough came through reading other people's accounts of similar experie
 
 Key realizations:
 
-**You Cannot Fix Them**: No amount of love, patience, or understanding will change someone who fundamentally views relationships as power dynamics rather than mutual support systems.
-
-**The Good Times Were Part of the Manipulation**: The intense highs weren't glimpses of their "true self" — they were calculated behaviors designed to maintain your emotional investment.
-
-**Your Instincts Were Correct**: All those moments when something felt "off" but you dismissed your feelings in favor of their explanation were your psyche trying to protect you.
-
-**The Damage is Real**: The psychological effects of systematic gaslighting and emotional manipulation take time to heal, even after you recognize what happened.<label for="sn-recovery-timeline" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-recovery-timeline" class="margin-toggle"/><span class="sidenote">Recovery from narcissistic abuse typically takes 2-5 years of active work. The timeline reflects how deeply these relationships rewire your neural patterns around trust, reality-testing, and self-worth.</span>
+- **You Cannot Fix Them**: No amount of love, patience, or understanding will change someone who fundamentally views relationships as power dynamics rather than mutual support systems.
+- **The Good Times Were Part of the Manipulation**: The intense highs weren't glimpses of their "true self" — they were calculated behaviors designed to maintain your emotional investment.
+- **Your Instincts Were Correct**: All those moments when something felt "off" but you dismissed your feelings in favor of their explanation were your psyche trying to protect you.
+- **The Damage is Real**: The psychological effects of systematic gaslighting and emotional manipulation take time to heal, even after you recognize what happened.<label for="sn-recovery-timeline" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-recovery-timeline" class="margin-toggle"/><span class="sidenote">Recovery from narcissistic abuse typically takes 2-5 years of active work. The timeline reflects how deeply these relationships rewire your neural patterns around trust, reality-testing, and self-worth.</span>
 
 ## Lessons Learned
 
 This experience taught me crucial lessons that extended far beyond romantic relationships:
 
-**Trust Your Gut**: When something consistently feels wrong despite logical explanations, pay attention to that feeling. Your subconscious often recognizes patterns before your rational mind can articulate them.
-
-**Healthy Relationships Don't Require Constant Vigilance**: If you're perpetually walking on eggshells or trying to prevent your partner's next emotional explosion, you're not in a relationship — you're in a hostage situation.
-
-**Vulnerability is Not Weakness**: The fact that someone can exploit your openness and empathy doesn't mean you should become closed off. It means you need better boundaries and pattern recognition.
-
-**Manipulation Follows Predictable Patterns**: Understanding these patterns helps you recognize them early, whether in personal relationships, business situations, or even technology platforms.
+- **Trust Your Gut**: When something consistently feels wrong despite logical explanations, pay attention to that feeling. Your subconscious often recognizes patterns before your rational mind can articulate them.
+- **Healthy Relationships Don't Require Constant Vigilance**: If you're perpetually walking on eggshells or trying to prevent your partner's next emotional explosion, you're not in a relationship — you're in a hostage situation.
+- **Vulnerability is Not Weakness**: The fact that someone can exploit your openness and empathy doesn't mean you should become closed off. It means you need better boundaries and pattern recognition.
+- **Manipulation Follows Predictable Patterns**: Understanding these patterns helps you recognize them early, whether in personal relationships, business situations, or even technology platforms.
 
 ## Moving Forward
 
