@@ -30,6 +30,7 @@ from collections import defaultdict
 import hashlib
 import html
 import io
+import logging
 import random
 import re
 import textwrap
@@ -43,6 +44,15 @@ api = responder.API(
     static_route="/static",
     enable_logging=True,
 )
+
+# Suppress access logging for static assets.
+class _StaticFilter(logging.Filter):
+    def filter(self, record):
+        msg = record.getMessage()
+        return "/static/" not in msg and not msg.endswith((".js", ".css", ".ico", ".png", ".woff2"))
+
+logging.getLogger("responder.access").addFilter(_StaticFilter())
+logging.getLogger("fontTools.subset").setLevel(logging.WARNING)
 
 # Custom template filters
 api.templates.context["current_year"] = datetime.now().year
