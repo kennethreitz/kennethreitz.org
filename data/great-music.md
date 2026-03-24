@@ -133,3 +133,5 @@ A snapshot from Apple Music — what I actually play on repeat:
 | Lucky You (feat. Joyner Lucas) | Eminem | Kamikaze |
 | Lateralus | Tool | Lateralus |
 | STARGAZING | Travis Scott | ASTROWORLD |
+
+Music is the thing that works when nothing else does. When the words stop making sense and the code won't compile and the brain is doing its thing — there's always something on this list that meets me where I am.
