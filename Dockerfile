@@ -27,4 +27,4 @@ RUN uv pip install . --system
 COPY . .
 
 # Run uvicorn directly (no need for uv run since we installed system-wide)
-CMD ["uvicorn", "engine:api", "--host", "0.0.0.0", "--port", "8000", "--workers", "4"]
+CMD ["uvicorn", "engine:api", "--host", "0.0.0.0", "--port", "8000", "--workers", "2"]
