@@ -1,37 +1,29 @@
 # Yoga & Meditation
 
-Yoga (which means *union*) is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India. Yoga is one of the six orthodox schools of Hindu philosophical traditions. There is a broad variety of yoga schools, practices, and goals in Hinduism, Buddhism, and Jainism. The term "yoga" in the Western world often denotes a modern form of Hatha yoga, consisting largely of the postures called asanas.
+I consider myself a practitioner of Jnana Yoga — the path of knowledge and self-realization. My interest isn't in the physical postures that Westerners typically associate with yoga. It's in the philosophical tradition underneath: the Upanishads, the Bhagavad Gita, the inquiry into what consciousness actually is.
 
-I use the term *vedic* to encapsulate these various philosophies and understandings of the Eastern spiritual traditions. I find that the term *vedic* is a more accurate and respectful term to use when discussing these practices, as it is a term that is used by the practitioners themselves.
+I use the term *vedic* to encapsulate these various philosophies and understandings of the Eastern spiritual traditions. It's a more accurate and respectful term than "yoga" for what I'm actually practicing, which is closer to contemplative inquiry than exercise.
 
-## History
+## What I Practice
 
-The origins of yoga have been speculated to date back to pre-Vedic Indian traditions; it is mentioned in the Rigveda, but most likely developed around the sixth and fifth centuries BCE, in ancient India's ascetic and śramaṇa movements. The chronology of earliest texts describing yoga-practices is unclear, varyingly credited to the Upanishads. The Yoga Sutras of Patanjali date from the first half of the 1st millennium CE, but only gained prominence in the West in the 20th century. Hatha yoga texts emerged around the 11th century with origins in tantra.
+The four main paths of yoga are:
 
-## Philosophy
+1. **Jnana Yoga** — The path of knowledge.
+2. **Bhakti Yoga** — The path of devotion.
+3. **Karma Yoga** — The path of selfless action.
+4. **Raja Yoga** — The path of meditation.
 
-The ultimate goal of yoga is the attainment of liberation (*moksha*) from worldly suffering and the cycle of birth and death (*samsara*). Yoga entails a profound philosophy and understanding of the nature of reality, the self, and the universe. It is a spiritual practice that seeks to unite the individual soul (*atman*) with the universal soul (*Brahman*).
+My path is Jnana — understanding through inquiry. The same analytical instinct that drives debugging and API design drives my spiritual practice. Different objects of attention, same quality of attention.
 
-## Types of Yoga
+## On Meditation
 
-There are four main paths of yoga:
+**Meditation is not universally good practice.** This is important enough to state plainly. Meditation can be destabilizing for people with certain mental health conditions — PTSD, dissociative disorders, psychotic spectrum conditions like mine. I've written about this in [The Meditation Trap](/essays/2025-09-08-the_meditation_trap_when_mindfulness_makes_things_worse). Consult a mental health professional before starting a practice, especially if you have a complex history.
 
-1. **Jnana Yoga:** The path of knowledge.
-2. **Bhakti Yoga:** The path of devotion.
-3. **Karma Yoga:** The path of selfless action.
-4. **Raja Yoga:** The path of meditation.
+When it works for me, it works well. When it doesn't, I stop. No ideology about it.
 
-I consider myself to be a practitioner of Jnana Yoga, as I am primarily interested in the pursuit of knowledge and self-realization.
+## On Misappropriation
 
-## Misappropriation of Yoga
-
-You can see the misappropriation of these practices in the Western world in the form of "yoga pants" and "yoga mats." These are not yoga, but rather the physical practice of yoga, which is only one small part of the larger spiritual tradition<label for="sn-true-yoga" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-true-yoga" class="margin-toggle"/><span class="sidenote">Traditional yoga encompasses eight limbs (*ashtanga*): ethical guidelines (*yamas*), personal observances (*niyamas*), physical postures (*asanas*), breath control (*pranayama*), withdrawal of senses (*pratyahara*), concentration (*dharana*), meditation (*dhyana*), and union (*samadhi*). Western "yoga" typically focuses only on *asanas* (postures), stripping away the philosophical, ethical, and spiritual dimensions that form the true foundation of the practice. This commercialization transforms a comprehensive spiritual discipline into physical exercise, often missing the point entirely.</span>.
-
-## Meditation
-
-Meditation is a practice where an individual uses a technique – such as mindfulness, or focusing the mind on a particular object, thought, or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state. Meditation is practiced in numerous religious traditions.
-
-**It is not universally good practice to meditate**. Meditation can be harmful to individuals with certain mental health conditions, such as PTSD or anxiety disorders. It is important to consult with a mental health professional before beginning a meditation practice.
+The Western "yoga" industry has largely reduced a comprehensive spiritual tradition to physical exercise.<label for="sn-true-yoga" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-true-yoga" class="margin-toggle"/><span class="sidenote">Traditional yoga encompasses eight limbs (*ashtanga*): ethical guidelines (*yamas*), personal observances (*niyamas*), physical postures (*asanas*), breath control (*pranayama*), withdrawal of senses (*pratyahara*), concentration (*dharana*), meditation (*dhyana*), and union (*samadhi*). Western "yoga" typically focuses only on *asanas*.</span> Yoga pants and yoga mats are not yoga. The postures are one small part of a much larger tradition — the part that's easiest to commercialize.
 
 ## Resources
 
@@ -39,3 +31,4 @@ Meditation is a practice where an individual uses a technique – such as mindfu
 - [Bhagavad Gita](https://en.wikipedia.org/wiki/Bhagavad_Gita)
 - [Vedas](https://en.wikipedia.org/wiki/Vedas)
 - [Upanishads](https://en.wikipedia.org/wiki/Upanishads)
+- [Spiritual Practice & Technology](/themes/spiritual-practice-and-technology) — How this connects to programming as contemplation.

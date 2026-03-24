@@ -1,13 +1,11 @@
-# My Family
+# Family
 
-The proudest achievement of my life is my family.
+Sarah is my wife, my best friend, and the person who sees me most clearly — including the parts I can't always see myself. She's a talented writer, a devoted mother, and the steadiest presence in my life. Before a manic episode fully arrives, she knows. That kind of love has skin in the game.
 
-I am blessed to have a loving wife and three wonderful children. They are my source of strength, inspiration, and joy. My wife is my partner in life, and together we have built a happy and harmonious home for our children. My children are the light of my life, and I am grateful for the opportunity to watch them grow and develop into amazing individuals.
+We have three kids. Malachi is biologically mine — he's three, bright, impossibly energetic, and he already has opinions about everything. The older two came with Sarah, and building a blended family has been one of the most humbling, rewarding things I've done. It's also the hardest kind of design problem: no API, no documentation, just showing up and trying to get it right.
 
-My wife, Sarah, is the light of my life. She is a talented writer, a devoted mother, and a loving partner. She is my best friend and confidante, and I am constantly amazed by her unique approach to most things.
+Tech used to be my identity. Family changed that. The work matters, but it's not the point anymore. The point is the people sitting at the table.
 
 - [poemsbysarah.com](https://poemsbysarah.com) — Sarah's poetry.
-
-One of the children, Malachi, is biologically mine. He is a bright, energetic, and curious — and a constant source of inspiration and joy. He is currently 3 years old.
-
-Sometimes, I wish we could all just stay in this moment forever. But I know that life is a journey, and I am excited to see where it takes us next.
+- [What Requests Taught Me About Marriage](/essays/2026-03-06-what_requests_taught_me_about_marriage) — API design principles as relationship advice.
+- [Sarah Knows First](/essays/2026-03-06-sarah_knows_first) — On the structural limits of self-knowledge.
