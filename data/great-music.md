@@ -34,13 +34,13 @@ I release electronic music as [Infinite State](/music). A few tracks that mean s
 - *Nintendo Dreams* — Pure nostalgia rendered as sound.
 - *Reminiscence* — From [As Above, So Below](/music/as-above-so-below).
 
-## Top 50 Songs
+## Top 100 Songs
 
 A snapshot from Apple Music — what I actually play on repeat:
 
 | Song | Artist | Album |
 |------|--------|-------|
-| Landslide | Fleetwood Mac | The Very Best of Fleetwood Mac (Remastered) |
+| Landslide | Fleetwood Mac | The Very Best of Fleetwood Mac |
 | From Zero (Intro) | LINKIN PARK | From Zero |
 | The Emptiness Machine | LINKIN PARK | From Zero |
 | Two Faced | LINKIN PARK | From Zero |
@@ -61,7 +61,7 @@ A snapshot from Apple Music — what I actually play on repeat:
 | No Face | Drake | No Face |
 | Circadian Rhythm | Drake | 100 GIGS |
 | N****s in Paris (HEDEGAARD & Matt Hawk) | Matt Hawk & HEDEGAARD | N****s in Paris |
-| Crooked Smile (feat. TLC) | J. Cole | Born Sinner (Deluxe) |
+| Crooked Smile (feat. TLC) | J. Cole | Born Sinner |
 | Internet Persona | aut★psy | Ethertopia |
 | Adventure Awaits | Infinite State | Alchemical Divorce |
 | family ties | Baby Keem & Kendrick Lamar | family ties |
@@ -89,3 +89,47 @@ A snapshot from Apple Music — what I actually play on repeat:
 | KOD | J. Cole | KOD |
 | 10 Bands | Drake | If You're Reading This It's Too Late |
 | Wrist (feat. Pusha T) | Logic | Bobby Tarantino |
+| Rich Flex | Drake | Her Loss |
+| Delivering the Message | Infinite State | Alchemical Divorce |
+| The Journey (feat. Ram Dass) | Infinite State | As Above, So Below |
+| Remote Control pt 2 | Kanye West | Donda |
+| Swimming Pools (Drank) | Kendrick Lamar | good kid, m.A.A.d city |
+| Legend | Drake | If You're Reading This It's Too Late |
+| Lucky You (feat. Joyner Lucas) | Eminem | Curtain Call 2 |
+| Reminiscence | Infinite State | As Above, So Below |
+| Power Trip (feat. Miguel) | J. Cole | Born Sinner |
+| Follow God | Kanye West | JESUS IS KING |
+| Will You | P.O.D. | Payable On Death |
+| Saving Us | Serj Tankian | Elect the Dead |
+| She May Require Lithium | Infinite State | Messengers Rising |
+| True Love | Kanye West & XXXTENTACION | True Love |
+| BURN EVERYTHING (feat. YE) | Sean Leon | HERD IMMUNITY 1.0 |
+| Shekina | Blindside | About a Burning Fire |
+| Chicago Freestyle | Drake | Dark Lane Demo Tapes |
+| Lilith | Halsey | If I Can't Have Love, I Want Power |
+| Wants and Needs (feat. Lil Baby) | Drake | Scary Hours 2 |
+| She | Green Day | Dookie |
+| Pt. 2 | Kanye West | The Life of Pablo |
+| Cash In Cash Out (feat. 21 Savage & Tyler, The Creator) | Pharrell Williams | Cash In Cash Out |
+| Losing My Religion | R.E.M. | In Time: The Best of R.E.M. |
+| Karma's a B!tch | Sophia Rayne | Karma's a B!tch |
+| The Library (Intro) | Childish Gambino | Because the Internet |
+| This Is America | Childish Gambino | This Is America |
+| When I Talk (feat. Kx5) | deadmau5, Kaskade & Elderbrook | When I Talk |
+| Real Synths | Infinite State | As Above, So Below |
+| Consistent Inconsistency | Infinite State | Unmastered Impulses |
+| Overflow | LINKIN PARK | From Zero |
+| California | Nick Hexum | Full Memories |
+| Lo Siento | P.O.D. | The Fundamental Elements of Southtown |
+| Self Evident | Puscifer | Normal Isn't |
+| HYFR (feat. Lil Wayne) | Drake | Take Care |
+| H.A.M. | Kanye West | Watch the Throne |
+| No Love | Compilations | Covers Vol. 3 |
+| Bonfire | Childish Gambino | Camp |
+| Synchronic Disordered | Infinite State | Messengers Rising |
+| You Hurt Me | Infinite State | Resolution |
+| Weekend (feat. Miguel) | Mac Miller | GO:OD AM |
+| C'est Comme Ça | Paramore | This Is Why |
+| Lucky You (feat. Joyner Lucas) | Eminem | Kamikaze |
+| Lateralus | Tool | Lateralus |
+| STARGAZING | Travis Scott | ASTROWORLD |
