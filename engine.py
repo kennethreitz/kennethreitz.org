@@ -939,6 +939,8 @@ async def api_search(req, resp):
             parts = md_file.relative_to(DATA_DIR).parts
             section = parts[0] if len(parts) > 1 else ""
 
+            icon = generate_unique_svg_icon(title, size=18)
+
             results.append({
                 "title": title,
                 "url": url,
@@ -946,6 +948,7 @@ async def api_search(req, resp):
                 "section": section,
                 "score": score,
                 "matches": matches,
+                "unique_icon": icon,
             })
 
     results.sort(key=lambda x: x["score"], reverse=True)
