@@ -26,3 +26,5 @@ These belong to a [season I've outgrown](/essays/2026-03-18-values_i_outgrew_and
 - [*Liber 777*](https://amzn.to/3X7FqBt) by Aleister Crowley — A system of correspondences mapping symbols across traditions. Useful for pattern recognition across mythologies, which later informed the [AI personality experiments](/artificial-intelligence/personalities/).
 - [*The Book of the Law*](https://amzn.to/3SP6KlK) by Aleister Crowley — "Do what thou wilt shall be the whole of the Law." Provocative and dangerous in equal measure. Handle with care.
 - [*The Kybalion*](https://amzn.to/3X6HFoC) by Three Initiates — Seven Hermetic principles. "As above, so below" came from here. The principle [still lives on my values page](/values), even as the framework around it simplified.
+
+These aren't all the books I've read, but they're the ones I'd hand to someone and say "this one matters." The list changes slower than it used to. That might be the best sign.
