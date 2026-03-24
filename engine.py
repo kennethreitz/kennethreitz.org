@@ -1092,6 +1092,20 @@ async def api_directory_tree(req, resp):
     resp.media = {"items": items}
 
 
+@api.route("/api/themes")
+async def api_themes(req, resp):
+    themes_dir = DATA_DIR / "themes"
+    items = []
+    if themes_dir.is_dir():
+        for f in sorted(themes_dir.glob("*.md")):
+            if f.name == "index.md":
+                continue
+            title = get_cached_markdown_title(f) or f.stem.replace("-", " ").replace("_", " ").title()
+            icon = generate_unique_svg_icon(title, size=18)
+            items.append({"name": title, "path": f"/themes/{f.stem}", "icon": icon})
+    resp.media = {"themes": items}
+
+
 # --- Data file serving ---
 
 

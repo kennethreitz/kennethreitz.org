@@ -419,7 +419,13 @@
                 <nav>
                     <a href="/">Home</a>
                     <a href="/archive">Archive</a>
-                    <a href="/themes">Themes</a>
+                    <a href="/search">Search</a>
+                    <div class="nav-dropdown">
+                        <span class="nav-dropdown-trigger">Themes</span>
+                        <div class="nav-dropdown-content" id="themes-dropdown">
+                            <div style="text-align: center; padding: 1rem; color: #999;">Loading...</div>
+                        </div>
+                    </div>
                     <div class="nav-dropdown">
                         <span class="nav-dropdown-trigger">Browse</span>
                         <div class="nav-dropdown-content" id="browse-dropdown">
@@ -565,6 +571,37 @@
             }
 
 
+            // Load and render themes listing
+            async function loadThemes() {
+                try {
+                    const response = await fetch('/api/themes');
+                    const data = await response.json();
+                    const dropdown = document.getElementById('themes-dropdown');
+
+                    if (data.themes && data.themes.length > 0) {
+                        let html = '';
+                        for (const t of data.themes) {
+                            html += `<div class="tree-item tree-file">`;
+                            if (t.icon) {
+                                html += `<img src="${t.icon}" class="tree-item-icon" alt="">`;
+                            }
+                            html += `<a href="${t.path}">${t.name}</a>`;
+                            html += `</div>`;
+                        }
+                        html += `<div class="tree-item tree-folder" style="border-top: 1px solid rgba(128,128,128,0.2); margin-top: 0.25rem; padding-top: 0.25rem;">`;
+                        html += `<a href="/themes">All Themes →</a>`;
+                        html += `</div>`;
+                        dropdown.innerHTML = html;
+                    } else {
+                        dropdown.innerHTML = '<div style="padding: 1rem; color: #999;">No themes found</div>';
+                    }
+                } catch (error) {
+                    console.error('Error loading themes:', error);
+                    document.getElementById('themes-dropdown').innerHTML =
+                        '<div class="tree-item tree-folder"><a href="/themes">View All Themes</a></div>';
+                }
+            }
+
             // Main DOMContentLoaded handler
             document.addEventListener('DOMContentLoaded', function() {
                 // First priority: Add loaded class to reveal content
@@ -572,6 +609,7 @@
 
                 // Load directory tree for Browse dropdown
                 loadDirectoryTree();
+                loadThemes();
                 
                 // Find all pre elements (code blocks)
                 const codeBlocks = document.querySelectorAll('pre');
