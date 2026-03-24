@@ -2,7 +2,7 @@
 
 I live openly with schizoaffective disorder. This isn't inspiration — it's system documentation. When consciousness systems fail, understanding the failure modes helps everyone build more resilient ones.
 
-This thread collects the lived experience, the design implications, and the honest reckoning with systems that exploit the vulnerable. It's also about what works — the tools, relationships, and practices that keep me here.
+This thread collects the lived experience, the design implications, and the honest reckoning with systems that exploit the vulnerable. It's also about what works — the tools, relationships, and practices that keep me here. For the personal story, what helps, and crisis resources, see [my mental health page](/mental-health).
 
 ### Lived Experience
 
