@@ -5,7 +5,7 @@
 
 
 
- ![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666511942-8OQI0I98ONDVUWC9ZYM9/c45b9-img.jpg) I just returned on a lovely trip to the Netherlands. I landed remarkably early in the morning (8am) and had to spend several hours walking around the city. Early morning Amsterdam was incredibly desolate and beautiful.
+ ![](/static/images/legacy/c45b9-img.jpg) I just returned on a lovely trip to the Netherlands. I landed remarkably early in the morning (8am) and had to spend several hours walking around the city. Early morning Amsterdam was incredibly desolate and beautiful.
 
  ![](https://d233eq3e3p3cv0.cloudfront.net/max/2048/0*bd5bYS7tKwjZ-KAv.jpeg)
 

@@ -5,7 +5,7 @@
 
 
 
-![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666505947-ZIU1Q7IC5K18GY6EJIIY/b6254-img.jpg)
+![](/static/images/legacy/b6254-img.jpg)
 
 The state of [WebSockets](http://websocket.org) in Python is unfortunate — there's no obvious way to do it. Twisted \+ Autobhan? Node.js \+ HAProxy? Diesel.io? Nothing feels right. Let's create a WebSocket echo endpoint.
 

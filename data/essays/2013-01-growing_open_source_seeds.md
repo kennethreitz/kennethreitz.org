@@ -5,7 +5,7 @@
 
 
 
-![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521848-GM6AL9IP5T7VKA5UB2I1/e7fcb-img.jpg)
+![](/static/images/legacy/e7fcb-img.jpg)
 
 ## The Facebook Story
 

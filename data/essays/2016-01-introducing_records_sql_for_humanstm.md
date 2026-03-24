@@ -5,7 +5,7 @@
 
 
 
-![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666521244-CB274HKKRV8TKXMXTN79/e44c8-img.jpg)
+![](/static/images/legacy/e44c8-img.jpg)
 
 Records is a very simple, but powerful, library for making raw SQL queries to Postgres databases.
 

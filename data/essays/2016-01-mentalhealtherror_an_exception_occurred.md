@@ -5,7 +5,7 @@
 
 
 
- ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666513098-RSCJJ3L6G8GR6FS625EJ/c7b18-44282-image-asset.jpeg)
+ ![](/static/images/legacy/c7b18-44282-image-asset.jpeg)
 
  The programming community has been opening up over the past few years about mental health issues, so, I want to take this opportunity to open up about my own.
 

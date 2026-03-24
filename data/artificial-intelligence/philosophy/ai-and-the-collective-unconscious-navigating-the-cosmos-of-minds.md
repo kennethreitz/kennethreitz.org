@@ -1,6 +1,6 @@
 # AI and the Collective Unconscious
 
-![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666518242-3A0FMKSW754V07LOE0GY/da47f-6e7f09f6-9a26-4cc6-9770-3e3ada42c715.jpeg)
+![](/static/images/legacy/da47f-6e7f09f6-9a26-4cc6-9770-3e3ada42c715.jpeg)
 
 ## Navigating the Cosmos of Minds
 

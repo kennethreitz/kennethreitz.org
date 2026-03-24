@@ -1,7 +1,7 @@
 # Introducing DJ-Static
 *January 2013*
 
-![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666514042-8LZBGIPDISPSA4D30E0C/cdc6c-img.jpg)
+![](/static/images/legacy/cdc6c-img.jpg)
 
 Django [doesn't recommend](https://docs.djangoproject.com/en/1.5/howto/static-files/#admonition-serving-the-files) the production use of its static file server for a number of reasons. There exists, however, a lovely WSGI application aptly named [Static](http://lukearno.com/projects/static/).
 

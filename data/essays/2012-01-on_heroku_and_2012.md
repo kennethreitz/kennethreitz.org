@@ -33,7 +33,7 @@
 
  I've spent the majority of my time this year traveling. It's a bit daunting to think about, honestly:
 
- ![image](http://farm9.staticflickr.com/8339/8246225008_35b09cd82b_z.jpg)
+ ![image](/static/images/legacy/8246225008_35b09cd82b_z.jpg)
 
  One year ago, I had given only **one talk** in my entire life ([PyCodeConf](http://py.codeconf.com/)) and didn't even own a passport.
 
@@ -48,21 +48,21 @@
 
  I also rediscovered my deep love for Photography:
 
- ![image](http://farm9.staticflickr.com/8065/8191417091_090552a66b.jpg)
+ ![image](/static/images/legacy/8191417091_090552a66b.jpg)
 
- ![image](http://farm9.staticflickr.com/8180/8010900491_0b89bed71f.jpg)
+ ![image](/static/images/legacy/8010900491_0b89bed71f.jpg)
 
- ![image](http://farm9.staticflickr.com/8302/7839548144_c7f95f7e5d.jpg)
+ ![image](/static/images/legacy/7839548144_c7f95f7e5d.jpg)
 
- ![image](http://farm9.staticflickr.com/8345/8191658942_20ae350aa9.jpg)
+ ![image](/static/images/legacy/8191658942_20ae350aa9.jpg)
 
- ![image](http://farm9.staticflickr.com/8203/8241038176_f35609da67.jpg)
+ ![image](/static/images/legacy/8241038176_f35609da67.jpg)
 
  (More over at [500px](http://500px.com/kennethreitz))
 
  And even got the chance to reconnect with friends from past lives:
 
- ![image](http://farm9.staticflickr.com/8478/8234900362_50b2faebc9.jpg)
+ ![image](/static/images/legacy/8234900362_50b2faebc9.jpg)
 
  ![image](http://cl.ly/image/200R012u2R3B/7959438130_a54db460ce.jpg)
 

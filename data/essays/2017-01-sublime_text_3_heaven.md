@@ -13,7 +13,7 @@
 
  ## **Sublime UI Theme**: Material
 
-  ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666487594-21G8NNQU1B2K770ELYPL/6e6e5-ab993-image-asset.png)
+  ![](/static/images/legacy/6e6e5-ab993-image-asset.png)
 
 ### Sublime Text Extensions:
 

@@ -1,7 +1,7 @@
 # Hotel Room
 *January 2013*
 
-![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666512342-Z3DKKS1JFEN1ASUIIDR7/c6daa-img.jpg)
+![](/static/images/legacy/c6daa-img.jpg)
 
 Personal island of solitude. A place to reflect.
 

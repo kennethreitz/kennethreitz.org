@@ -5,7 +5,7 @@
 
 
 
-  ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666501901-5JN9T1UTX9XBI8TDQ1SO/a434b-8f73a-image-asset.jpeg)   I'm happy to announce that my third studio album, *Resolution*, is now available on all streaming services. 
+  ![](/static/images/legacy/a434b-8f73a-image-asset.jpeg)   I'm happy to announce that my third studio album, *Resolution*, is now available on all streaming services. 
 
  * [TIDAL](https://tidal.com/album/76146209)
 * [Spotify](https://open.spotify.com/album/14TnPNbhdSQspDSiyxCeED)

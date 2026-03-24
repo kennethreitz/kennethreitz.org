@@ -5,7 +5,7 @@
 
 
 
-![DO_Logo_Horizontal_Blue.png](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666503802-NS1QU3FWSK89LIOPG524/aa5dd-17d5d-do_logo_horizontal_blue.png)!
+![DO_Logo_Horizontal_Blue.png](/static/images/legacy/aa5dd-17d5d-do_logo_horizontal_blue.png)!
 
 I’m very happy to announce that I’m officially joining the DigitalOcean developer relations team, just in time for PyCon US 2018! I couldn’t be more excited :)
 

@@ -3,7 +3,7 @@
 
 I wrote a new tool this weekend, called [Pipenv](https://github.com/pypa/pipenv). Check it out [on GitHub](https://github.com/pypa/pipenv)!
 
-![Pipenv in action.](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666481609-H8X1V6B2ZMD2FPW71GWE/57b01-0b889-image-asset.gif)
+![Pipenv in action.](/static/images/legacy/57b01-0b889-image-asset.gif)
 
 Pipenv is an experimental project that aims to bring the best of all packaging worlds to the Python world. It harnesses [Pipfile](https://github.com/pypa/pipfile), pip, and virtualenv into one single toolchain. It features very pretty terminal colors.
 

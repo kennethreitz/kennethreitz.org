@@ -5,7 +5,7 @@
 
 
 
-![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666470442-3JY6Z7FYN2V0NRK80T6C/26178-img.jpg)   A few months ago, I decided to move all of my content over to Medium. If you aren't aware, [Medium](http://medium.com) is a new content platform designed for readers and writers. Its main draw is an elegant writing interface combined with the ability to comment on specific pieces of text, instead of on an article as a whole.
+![](/static/images/legacy/26178-img.jpg)   A few months ago, I decided to move all of my content over to Medium. If you aren't aware, [Medium](http://medium.com) is a new content platform designed for readers and writers. Its main draw is an elegant writing interface combined with the ability to comment on specific pieces of text, instead of on an article as a whole.
 
  I was finding myself a bit frustrated with my online presence — torn between voices of code, travel, photography, and music. I was originally going to dive head\-first into a content\-negotiated [BlackBox](https://github.com/kennethreitz/blackbox)\-driven experience where all of my content was indexed, searchable, and archived automatically on Archive.org.
 

@@ -19,4 +19,4 @@
 
  I hope you enjoy it!
 
- ![](http://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666461833-7754Q693WFQBTKDPW85A/05548-f8f5b-image-asset.png)
+ ![](/static/images/legacy/05548-f8f5b-image-asset.png)

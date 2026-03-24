@@ -1,7 +1,7 @@
 # Video Portrait — Kenneth Reitz / Infinite State
 *January 2013*
 
-![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666474241-8FRKHUUPI8SJ6888RNYI/2dc72-img.jpg)
+![](/static/images/legacy/2dc72-img.jpg)
 
 My good friend [John Mangino](http://about.me/johnmangino) of [KeyFrame Films](http://keyframefilms.com) approached me recently about a new project — "video portraits" of humans from the Winchester, Virginia area. Here's the result of my interview — a candid conversation about software development and music production.
 

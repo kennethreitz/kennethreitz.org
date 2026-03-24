@@ -5,7 +5,7 @@
 
 
 
-![Ableton Push controller](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666528644-BOZYFZX5APSX9DQ8712F/fc9ca-img.jpg)
+![Ableton Push controller](/static/images/legacy/fc9ca-img.jpg)
 
 Since I was a young child, I've loved music. I became a percussionist early on and dedicated over a decade of my life to my beloved drum kit. Today, I own a growing number of synths and keyboards, but my musical mind continues to gravitate around the concepts of rhythm and geometry. I find myself constrained and occasionally frustrated by the layout of a standard keyboard.
 

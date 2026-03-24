@@ -5,7 +5,7 @@
 
 
 
-![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666463242-KXFEMCLBMI39GRMKN95K/0ffda-img.jpg)
+![](/static/images/legacy/0ffda-img.jpg)
 
 A friend of mine approached me recently, looking for camera advice. She has been experimenting with photography and is interested in investing in getting her first "real" camera, but didn't know where to start. I've made recommendations like this on numerous occasions, so I thought it would be useful to document my thoughts and findings here. Most people, when they get to this stage, run out to Best Buy, talk to the guy there, and walk away with a Canon T3i with a kit zoom lens. I just hope that you don't without considering other options first. I wish I hadn't.
 

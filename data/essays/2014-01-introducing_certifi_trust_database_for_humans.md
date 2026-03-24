@@ -1,7 +1,7 @@
 # Introducing Certifi: Trust Database for Humans
 *January 2014*
 
-![](https://images.squarespace-cdn.com/content/v1/665498111876725f7613f1e6/1719666480948-AX4X1ZV8G9NHLZB6GX0Y/4d1eb-img.jpg)
+![](/static/images/legacy/4d1eb-img.jpg)
 
 The internet is an untrusted place. Every HTTP request you make should have verification on by default. This happens every time you access a website with your web browser, without any knowledge to the user — there’s no reason your code should be any different.
 
