@@ -412,7 +412,7 @@ body.dark-mode .parent-link:hover {
         {% if folder_icon %}
         <img src="{{ folder_icon }}" alt="Folder icon" class="directory-title-icon">
         {% endif %}
-        {{ current_path.split('/')[-1] if '/' in current_path else current_path }}
+        {{ title }}
     </h1>
 {% endif %}
 
