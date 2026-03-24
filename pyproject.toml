@@ -13,7 +13,7 @@ dependencies = [
     "weasyprint>=66.0",
     "pillow>=11.3.0",
     "gunicorn[gevent]>=21.0.0",
-    "responder>=3.2.0",
+    "responder>=3.6.0",
 ]
 authors = [
     {name = "Kenneth Reitz", email = "me@kennethreitz.org"}

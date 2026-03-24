@@ -31,6 +31,7 @@ import hashlib
 import html
 import io
 import random
+import re
 import textwrap
 import os
 
@@ -40,6 +41,7 @@ api = responder.API(
     templates_dir="tuftecms/templates",
     static_dir="tuftecms/static",
     static_route="/static",
+    enable_logging=True,
 )
 
 # Custom template filters
@@ -97,6 +99,30 @@ def render(template, req, path="/", **kwargs):
 _og_image_cache = {}
 
 
+# --- Bot detection ---
+
+_BOT_PATTERNS = re.compile(
+    r"(?i)(googlebot|bingbot|slurp|duckduckbot|baiduspider|yandexbot|sogou|"
+    r"exabot|facebookexternalhit|facebot|ia_archiver|alexa|msnbot|"
+    r"semrushbot|ahrefsbot|dotbot|petalbot|mj12bot|bytespider|"
+    r"gptbot|chatgpt|claudebot|anthropic|ccbot|commoncrawl|"
+    r"scrapy|python-requests|httpx|curl|wget|go-http-client|"
+    r"applebot|twitterbot|linkedinbot|whatsapp|telegrambot|"
+    r"dataprovider|censys|zgrab|masscan|nuclei|httpie)"
+)
+
+
+def _detect_bot(req):
+    """Detect and log bot/scraper requests. Returns bot name or None."""
+    ua = req.headers.get("User-Agent", "")
+    if not ua:
+        return "unknown (no user-agent)"
+    m = _BOT_PATTERNS.search(ua)
+    if m:
+        return m.group(1)
+    return None
+
+
 # --- Routes ---
 # IMPORTANT: All specific routes must be defined BEFORE the catch-all route.
 
@@ -122,6 +148,7 @@ async def random_post(req, resp):
     posts = blog_data.get("posts", [])
     if posts:
         chosen = random.choice(posts)
+        api.log.info("Redirecting to random post: %s", chosen["url"])
         resp.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
         api.redirect(resp, chosen["url"])
     else:
@@ -140,6 +167,9 @@ async def search_page(req, resp):
 
 @api.route("/robots.txt")
 async def robots_txt(req, resp):
+    bot = _detect_bot(req)
+    ua = req.headers.get("User-Agent", "no user-agent")
+    api.log.info("Bot detected: %s (%s)", bot or "unknown", ua)
     robots_content = """# Robots.txt for kennethreitz.org
 # Welcome, friendly crawlers!
 
@@ -325,6 +355,8 @@ async def _rss_feed(req, resp):
 async def og_image(req, resp, *, path):
     """Generate a dynamic Open Graph image for a post."""
     from PIL import Image, ImageDraw, ImageFont
+
+    api.log.info("Generating OG image for /%s", path)
 
     # Check cache
     cache_key = path
@@ -832,6 +864,7 @@ async def api_blog(req, resp):
 @api.route("/api/search")
 async def api_search(req, resp):
     query = req.params.get("q", "").strip()
+    api.log.info("Search query: %s", query)
 
     if len(query) < 2:
         resp.media = {
@@ -1081,6 +1114,7 @@ async def serve_pdf(req, resp, *, path):
         resp.text = "PDF generation requires WeasyPrint"
         return
 
+    api.log.info("Generating PDF for /%s", path)
     content_data = render_markdown_file(file_path)
     pdf_html = api.templates.render(
         "pdf.html",
@@ -1105,6 +1139,53 @@ async def serve_pdf(req, resp, *, path):
     resp.headers["Content-Disposition"] = f'inline; filename="{path.split("/")[-1]}.pdf"'
 
 
+# --- Legacy URL resolver ---
+
+
+def _resolve_legacy_url(path):
+    """Try to find current content matching a legacy URL pattern.
+
+    Handles:
+    - Date-path URLs: essays/2013/01/27/slug -> essays/2013-01-slug
+    - Bare slugs: /tattoos -> /photography/tattoos, /slug -> /essays/...-slug
+    - Hyphen/underscore normalization
+    """
+    # Pattern 1: /essays/YYYY/MM/DD/slug or /essays/YYYY/MM/slug
+    m = re.match(r"essays/(\d{4})/(\d{2})(?:/\d{2})?/(.+)$", path)
+    if m:
+        year, month, slug = m.groups()
+        normalized = slug.replace("-", "_")
+        candidate = DATA_DIR / "essays" / f"{year}-{month}-{normalized}.md"
+        if candidate.exists():
+            return f"/essays/{year}-{month}-{normalized}"
+        # Try fuzzy match on just the slug within that year
+        for f in (DATA_DIR / "essays").glob(f"{year}-{month}-*"):
+            if normalized in f.stem:
+                return f"/essays/{f.stem}"
+
+    # Pattern 2: bare slug — search for matching directories and files
+    slug = path.strip("/").split("/")[-1]
+    normalized = slug.replace("-", "_")
+
+    # Check for directory match anywhere in data/
+    for match in DATA_DIR.rglob("*/"):
+        if match.name == slug or match.name == normalized:
+            rel = match.relative_to(DATA_DIR)
+            if (match / "index.md").exists():
+                return f"/{rel}"
+
+    # Check for file match by slug anywhere in data/
+    for match in DATA_DIR.rglob("*.md"):
+        stem = match.stem
+        # Strip date prefix for comparison
+        stripped = re.sub(r"^\d{4}-\d{2}-", "", stem)
+        if stripped == normalized or stripped == slug:
+            rel = match.relative_to(DATA_DIR)
+            return f"/{rel.with_suffix('')}"
+
+    return None
+
+
 # --- Catch-all route (MUST be last) ---
 
 
@@ -1121,6 +1202,9 @@ async def serve_static(req, resp, *, path):
 @api.route("/{path:path}")
 async def catch_all(req, resp, *, path):
     """Main content route -- serves markdown files or directories."""
+    bot = _detect_bot(req)
+    if bot:
+        api.log.info("Bot detected: %s crawling /%s", bot, path)
     file_path = DATA_DIR / f"{path}.md"
     dir_path = DATA_DIR / path
     index_path = dir_path / "index.md"
@@ -1140,6 +1224,7 @@ async def catch_all(req, resp, *, path):
     if path.endswith(".pdf"):
         md_path = DATA_DIR / f"{path[:-4]}.md"
         if md_path.exists():
+            api.log.info("Generating PDF for /%s", path[:-4])
             try:
                 from weasyprint import HTML
                 from weasyprint.text.fonts import FontConfiguration
@@ -1177,6 +1262,7 @@ async def catch_all(req, resp, *, path):
 
     # Serve markdown file
     if file_path.exists():
+        api.log.info("Serving content: /%s", path)
         content_data = render_markdown_file(file_path)
 
         # Find related and adjacent posts for essays
@@ -1207,6 +1293,7 @@ async def catch_all(req, resp, *, path):
 
     # Serve directory with index.md
     if dir_path.is_dir() and index_path.exists():
+        api.log.info("Serving directory: /%s", path)
         content_data = render_markdown_file(index_path)
         items = get_directory_structure(dir_path)
 
@@ -1273,6 +1360,7 @@ async def catch_all(req, resp, *, path):
 
     # Serve directory listing (no index.md)
     if dir_path.is_dir():
+        api.log.info("Serving directory listing: /%s", path)
         items = get_directory_structure(dir_path)
         title = path.split("/")[-1].replace("-", " ").replace("_", " ").title()
 
@@ -1298,7 +1386,16 @@ async def catch_all(req, resp, *, path):
         )
         return
 
+    # Try to resolve legacy URLs before giving up
+    redirect_to = _resolve_legacy_url(path)
+    if redirect_to:
+        api.log.info("Legacy redirect: /%s -> %s", path, redirect_to)
+        resp.status_code = 301
+        resp.headers["Location"] = redirect_to
+        return
+
     # Nothing found
+    api.log.warning("Not found: /%s", path)
     resp.status_code = 404
     resp.html = render("error.html", req, f"/{path}",
         title="Not Found",
@@ -1313,7 +1410,7 @@ async def catch_all(req, resp, *, path):
 async def warm_caches():
     import threading
     def _warm():
-        print("🔥 Starting background cache warming...")
+        api.log.info("Starting background cache warming...")
         try:
             get_blog_cache()
             from tuftecms.core.cache import (
@@ -1327,9 +1424,9 @@ async def warm_caches():
             get_connections_cache()
             get_terms_cache()
             get_themes_cache()
-            print("✅ Cache warming complete!")
+            api.log.info("Cache warming complete!")
         except Exception as e:
-            print(f"❌ Cache warming failed: {e}")
+            api.log.error("Cache warming failed: %s", e)
     threading.Thread(target=_warm, daemon=True).start()
 
 

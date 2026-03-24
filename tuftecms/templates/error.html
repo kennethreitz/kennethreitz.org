@@ -1,17 +1,25 @@
 {% extends "base.html" %}
 
-{% block title %}{{ title }}{% endblock %}
+{% block title %}{{ error_code }} — {{ title }}{% endblock %}
 
 {% block content %}
 <article>
-    <h1>{{ title }}</h1>
+    <h1>{{ error_code }}</h1>
 
     <section>
-        <p>{{ message }}</p>
+        <p>{{ error_message }}</p>
 
-        {% if details %}
-        <p>{{ details }}</p>
-        {% endif %}
+        <p>The page you're looking for has either moved, been renamed, or never existed in
+        the first place. This site has been through a few incarnations over the years — things
+        shift around.</p>
+
+        <p>You might find what you're looking for by:</p>
+
+        <ul>
+            <li><a href="/search">Searching the site</a></li>
+            <li>Browsing the <a href="/essays">essay archive</a></li>
+            <li>Starting from <a href="/">the homepage</a></li>
+        </ul>
     </section>
 </article>
 {% endblock %}
