@@ -36,56 +36,56 @@ I release electronic music as [Infinite State](/music). A few tracks that mean s
 
 ## Top 50 Songs
 
-A snapshot from iTunes — what I actually play on repeat:
+A snapshot from Apple Music — what I actually play on repeat:
 
-| Song Title                                   | Duration | Artist                                 | Album                                                           |
-|----------------------------------------------|----------|----------------------------------------|-----------------------------------------------------------------|
-| Landslide                                    | 3:18     | Fleetwood Mac                          | The Very Best of Fleetwood Mac (Remastered)                     |
-| Hurricane                                    | 4:03     | Kanye West                             | Donda                                                           |
-| First Person Shooter (feat. J. Cole)         | 4:07     | Drake                                  | For All The Dogs                                                |
-| Midas (feat. Robb Banks) [Bonus Track]       | 2:55     | Jace                                   | Jace Tape                                                       |
-| Internet Persona                             | 1:31     | aut★psy                                | Ethertopia                                                      |
-| Nintendo Dreams                              | 2:07     | Infinite State                         | Nintendo Dreams - Single                                        |
-| Bullet Train To Iowa (Billy Howerdel Mix)    | 3:39     | Puscifer                               | Bullet Train To Iowa / The Underwhelming (Re-imagined) - Single |
-| Heaven and Hell                              | 2:25     | Kanye West                             | Donda                                                           |
-| goosebumps                                   | 4:04     | Travis Scott                           | Birds in the Trap Sing McKnight                                 |
-| family ties                                  | 4:12     | Baby Keem & Kendrick Lamar             | family ties - Single                                            |
-| Sticky                                       | 4:03     | Drake                                  | Honestly, Nevermind                                             |
-| 44 More                                      | 3:09     | Logic                                  | Bobby Tarantino II                                              |
-| Crooked Smile (feat. TLC)                    | 4:39     | J. Cole                                | Born Sinner (Deluxe Version)                                    |
-| Father Stretch My Hands, Pt. 1               | 2:16     | Kanye West                             | The Life of Pablo                                               |
-| SICKO MODE                                   | 5:13     | Travis Scott                           | ASTROWORLD                                                      |
-| Iris                                         | 4:50     | The Goo Goo Dolls                      | Dizzy Up the Girl                                               |
-| Vultures (feat. Bump J)                      | 3:58     | ¥$, Kanye West & Ty Dolla $ign         | Vultures (feat. Bump J) - Single                                |
-| What Would Pluto Do                          | 3:03     | Drake                                  | For All The Dogs                                                |
-| Otis (feat. Otis Redding)                    | 2:58     | JAY-Z & Kanye West                     | Watch the Throne                                                |
-| Selah                                        | 2:45     | Kanye West                             | JESUS IS KING                                                   |
-| Amber (feat. Sevak Amroyan)                  | 3:36     | Serj Tankian                           | Amber (feat. Sevak Amroyan) - Single                            |
-| Off The Grid                                 | 5:39     | Kanye West                             | Donda                                                           |
-| All Day (feat. Theophilus London, Allan Kingdom & Paul McCartney) | 5:11 | Kanye West | All Day - Single |
-| Major Distribution                           | 2:51     | Drake & 21 Savage                      | Her Loss                                                        |
-| Isis (feat. Logic)                           | 3:57     | Joyner Lucas                           | ADHD                                                            |
-| THANK GOD                                    | 3:05     | Travis Scott                           | UTOPIA                                                          |
-| True Love                                    | 2:29     | Kanye West & XXXTENTACION              | True Love - Single                                              |
-| Swimming Pools (Drank) [Extended Version]    | 5:14     | Kendrick Lamar                         | good kid, m.A.A.d city (Deluxe Version)                         |
-| BURN EVERYTHING (feat. YE)                   | 2:48     | Sean Leon                              | HERD IMMUNITY 1.0                                               |
-| Pardon Me                                    | 3:44     | Incubus                                | Make Yourself                                                   |
-| KOD                                          | 3:11     | J. Cole                                | KOD                                                             |
-| Saving Us                                    | 4:41     | Serj Tankian                           | Elect the Dead                                                  |
-| Reminiscence                                 | 3:15     | Infinite State                         | As Above, So Below.                                             |
-| Remote Control pt 2                          | 5:23     | Kanye West                             | Donda                                                           |
-| Follow God                                   | 1:45     | Kanye West                             | JESUS IS KING                                                   |
-| Will You                                     | 3:47     | P.O.D.                                 | Payable On Death                                                |
-| Cash In Cash Out (feat. 21 Savage & Tyler, The Creator) | 3:36 | Pharrell Williams | Cash In Cash Out - Single |
-| Karma's a B!tch                              | 2:36     | Sophia Rayne                           | Karma's a B!tch - Single                                        |
-| Shekina                                      | 4:46     | Blindside                              | About a Burning Fire                                            |
-| Rich Flex                                    | 3:59     | Drake & 21 Savage                      | Her Loss                                                        |
-| Lucky You (feat. Joyner Lucas)               | 4:06     | Eminem                                 | Curtain Call 2                                                  |
-| She May Require Lithium                      | 4:07     | Infinite State                         | Messengers Rising                                               |
-| Moon                                         | 2:36     | Kanye West                             | Donda                                                           |
-| Wash Us in the Blood (feat. Travis Scott)    | 3:10     | Kanye West                             | Wash Us in the Blood - Single                                   |
-| Consistent Inconsistency                     | 4:50     | Kenneth Reitz                          | Unmastered Impulses                                             |
-| When I Talk (feat. Kx5)                      | 3:28     | deadmau5, Kaskade & Elderbrook         | When I Talk (feat. Kx5) - Single                                |
-| 10 Bands                                     | 2:58     | Drake                                  | If You're Reading This It's Too Late                            |
-| Chicago Freestyle                            | 3:40     | Drake & GIVĒON                         | Dark Lane Demo Tapes                                            |
-| Family Matters                               | 7:37     | Drake                                  | Family Matters - Single                                         |
+| Song | Artist | Album |
+|------|--------|-------|
+| Landslide | Fleetwood Mac | The Very Best of Fleetwood Mac (Remastered) |
+| From Zero (Intro) | LINKIN PARK | From Zero |
+| The Emptiness Machine | LINKIN PARK | From Zero |
+| Two Faced | LINKIN PARK | From Zero |
+| Hurricane | Kanye West | Donda |
+| First Person Shooter (feat. J. Cole) | Drake | For All The Dogs |
+| Sticky | Drake | Honestly, Nevermind |
+| Heavy Is the Crown | LINKIN PARK | From Zero |
+| Bullet Train To Iowa (Billy Howerdel Mix) | Puscifer | Bullet Train To Iowa (Re-imagined) |
+| Heaven and Hell | Kanye West | Donda |
+| Midas (feat. Robb Banks) | Jace | Jace Tape |
+| 44 More | Logic | Bobby Tarantino II |
+| Nintendo Dreams | Infinite State | Nintendo Dreams |
+| Vultures (feat. Bump J) | ¥$, Kanye West & Ty Dolla $ign | Vultures |
+| Enemy | Father Of Peace | Enemy |
+| Selah | Kanye West | JESUS IS KING |
+| Cut the Bridge | LINKIN PARK | From Zero |
+| goosebumps | Travis Scott | Birds in the Trap Sing McKnight |
+| No Face | Drake | No Face |
+| Circadian Rhythm | Drake | 100 GIGS |
+| N****s in Paris (HEDEGAARD & Matt Hawk) | Matt Hawk & HEDEGAARD | N****s in Paris |
+| Crooked Smile (feat. TLC) | J. Cole | Born Sinner (Deluxe) |
+| Internet Persona | aut★psy | Ethertopia |
+| Adventure Awaits | Infinite State | Alchemical Divorce |
+| family ties | Baby Keem & Kendrick Lamar | family ties |
+| Over Each Other | LINKIN PARK | From Zero |
+| SICKO MODE | Travis Scott | ASTROWORLD |
+| Iris | The Goo Goo Dolls | Dizzy Up the Girl |
+| Father Stretch My Hands, Pt. 1 | Kanye West | The Life of Pablo |
+| Full Bloom | 311 | Full Bloom |
+| You're Gonna Get It | 311 | Full Bloom |
+| Family Matters | Drake | Family Matters |
+| Stained | LINKIN PARK | From Zero |
+| What Would Pluto Do | Drake | For All The Dogs |
+| THANK GOD | Travis Scott | UTOPIA |
+| Boss Battle | Infinite State | Alchemical Divorce |
+| Otis (feat. Otis Redding) | Kanye West | Watch the Throne |
+| Isis (feat. Logic) | Joyner Lucas | ADHD |
+| Casualty | LINKIN PARK | From Zero |
+| Off The Grid | Kanye West | Donda |
+| Wash Us in the Blood (feat. Travis Scott) | Kanye West | Wash Us in the Blood |
+| All Day (feat. Theophilus London, Allan Kingdom & Paul McCartney) | Kanye West | All Day |
+| IGYEIH | LINKIN PARK | From Zero |
+| Pandora's Lock | Infinite State | Alchemical Divorce |
+| Syncronicities | Infinite State | As Above, So Below |
+| Pardon Me | Incubus | Make Yourself |
+| KOD | J. Cole | KOD |
+| 10 Bands | Drake | If You're Reading This It's Too Late |
+| Wrist (feat. Pusha T) | Logic | Bobby Tarantino |
