@@ -27,7 +27,7 @@ I've always considered myself a bit of a software junkie. Nothing excites me mor
 
  If I ever decide to actually ship a consumer product, it will be something akin to OneNote for OS X. It would be incredible. It may not be for many, but for people that resonate with my problem, it will work wonderfully. It would be a reaction to a real problem, not an engineered app an entrepreneur thinks will fill a gap so he can make some fast cash.
 
- GitHub wasn’t built for the developer community at large; the founders built GitHub for themselves<label for="sn-github-origin" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-github-origin" class="margin-toggle"/><span class="sidenote">Tom Preston-Werner, Chris Wanstrath, and PJ Hyett started GitHub in 2008 because they were frustrated with existing Git hosting solutions. Their 'scratching your own itch' approach became one of the most successful developer platforms, validating the principle that solving your own problems often creates broadly useful solutions.</span>. The problem they solved simply happened to resonate with millions of developers because they themselves happen to be developers.
+ GitHub wasn’t built for the developer community at large; the founders built GitHub for themselves. The problem they solved simply happened to resonate with millions of developers because they themselves happen to be developers.
 
  37Signals didn’t build Basecamp for a world full of project managers and consultants; they built it for themselves. They also developed Ruby on Rails for themselves, as Ruby developers that were repeating themselves too often.
 
@@ -45,7 +45,7 @@ I've always considered myself a bit of a software junkie. Nothing excites me mor
 
  ## Respond with a README
 
- Before I start writing a single line of code, I write the README and fill it with usage examples<label for="sn-readme-driven" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-readme-driven" class="margin-toggle"/><span class="sidenote">Readme-Driven Development was popularized by GitHub co-founder Tom Preston-Werner in 2010. This approach forces developers to think from the user's perspective first, often resulting in cleaner, more intuitive APIs—exactly what made Requests so successful.</span>. I pretend that the module I want to build is already written and available, and I write some code with it.
+ Before I start writing a single line of code, I write the README and fill it with usage examples. I pretend that the module I want to build is already written and available, and I write some code with it.
 
  This has an incredible effect: instead of engineering something that will only get the job done, you start to interact with the problem itself and build an interface that reacts to it.
 
@@ -58,8 +58,6 @@ I've always considered myself a bit of a software junkie. Nothing excites me mor
  This is what responsive design is all about. It's not merely a method to engineer a web design that will function on a phone, tablet, and desktop.
 
  Beware lest you lose the substance by grasping at the shadow. Responsive design is about making a design that identifies and understands itself enough to respond to the environment it's placed in. It is about setting your design free from arbitrary constraints. It is setting free something beautiful that was inside all along.
-
-The sculptural metaphor here reflects what I would later recognize as fundamentally contemplative—the same kind of patient attention and responsive creation that characterizes [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice). Whether working with marble, code, or consciousness, the process is one of deep listening and conscious response.
 
  This is known as Readme\-Driven Development. I call it **Responsive API Design**.
 
@@ -84,5 +82,3 @@ The sculptural metaphor here reflects what I would later recognize as fundamenta
 
 
 > Build tools for others that you want to be built for you.
-
-> This ethical foundation—treating users with the same respect and care you'd want from the tools you use—would eventually expand into a comprehensive approach to [conscious technology development](/essays/2025-08-26-programming_as_spiritual_practice) that recognizes every line of code as an act of service to human flourishing.
