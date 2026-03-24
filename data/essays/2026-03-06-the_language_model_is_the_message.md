@@ -222,7 +222,3 @@ We're already inside the cognitive interface era. We just didn't notice because 
 The metrics they optimized for are the values they endorsed. The question is whether those values serve human flourishing or human engagement. Right now, the answer is ambiguous. It doesn't have to stay that way.
 
 But only if we're aware enough to notice what's happening, and honest enough to name it.
-
----
-
-*This essay extends [The Metrics You Expose Are the Values You Endorse](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) from the cognitive interface frontier to the cognitive interface present. It draws on the recursive responsibility explored in [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), the cognitive convergence dynamics described in [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it), the linguistic theory of consciousness from [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon), and the "for humans" philosophy articulated in [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness). For practical applications of human-AI collaboration, see [AI Reality-Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) and [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai). For the broader critique of optimization-driven damage, see the [Algorithm Eats series](/themes/algorithmic-critique).*

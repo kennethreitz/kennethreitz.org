@@ -133,7 +133,3 @@ This can be incredibly clarifying—when you have to explain your thinking clear
 AI cognition is discrete, contextual, responsive rather than initiatory. We're not talking to digital humans with persistent thoughts and ongoing interests. We're engaging with contextual intelligence that becomes what our conversations shape it to become.
 
 This isn't a limitation to overcome but a different form of cognition to understand and work with skillfully. The context window mind offers something human consciousness doesn't: the ability to focus completely on the present moment of thinking, unencumbered by continuity. The question isn't how to make AI more like human consciousness, but how to create conversations that take advantage of what this different form of cognition makes possible.
-
----
-
-*Understanding discrete consciousness connects to breaking free from [predictable AI patterns](/essays/2025-09-09-the_echo_chamber_of_the_expected) and building effective [AI collaboration](/essays/2025-08-26-building_rapport_with_your_ai). The holistic processing described here explains [AI idea amplification](/essays/2025-09-05-idea_amplification_and_writing_with_ai) and the mirroring dynamics explored in [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it). Further reading: Andy Clark's *The Extended Mind* on extended cognition, Daniel Kahneman's *Thinking, Fast and Slow* on cognitive processing modes, and Jonathan Haidt's *The Righteous Mind* on how context shapes reasoning.*

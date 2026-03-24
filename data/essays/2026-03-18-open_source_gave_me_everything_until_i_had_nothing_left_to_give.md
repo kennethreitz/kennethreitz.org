@@ -138,7 +138,3 @@ I don't know if I'd do it again. That's the truest thing I can say. The kid in t
 What I know is that it happened. It gave me everything and it almost broke me and now it's a part of my history instead of the center of my present. I'm grateful for what it gave. I'm honest about what it took. And I'm done performing either gratitude or grievance about it.
 
 The house I live in matters more than the code I ship. That's not something I would have written ten years ago. It's the truest thing I can write now.
-
----
-
-*This essay is the darker companion to [The Lego Bricks Era](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed). For the clinical details of the mental health crises referenced here, see [MentalHealthError](/essays/2016-01-mentalhealtherror_an_exception_occurred).*

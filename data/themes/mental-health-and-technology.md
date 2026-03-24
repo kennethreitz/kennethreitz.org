@@ -43,6 +43,8 @@ Technology makes consciousness harder by exploiting psychological vulnerabilitie
 - [**The Cost of Transparency**](/essays/2025-08-27-the_cost_of_transparency) — The price of authentic existence in systems that punish vulnerability.
 - [**When Values Eat Their Young**](/essays/2025-08-25-when-values-eat-their-young) — Communities that claim to support the vulnerable while excluding them.
 
+I write about this because silence is complicity with the stigma. Every time someone builds a system without considering what it does to a mind in crisis, they're making a choice — usually without realizing it. I'd rather be uncomfortably honest about how consciousness can break than let that keep happening quietly.
+
 ### Related Themes
 
 - [Psychology & Consciousness](/themes/psychology-and-consciousness) — The deeper architecture of mind.

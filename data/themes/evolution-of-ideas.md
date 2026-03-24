@@ -52,12 +52,14 @@ The consistent thread: technology should serve human flourishing. Whether that m
 - [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Every interface shapes cognition before conscious awareness engages.
 - [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — The human behind the project is the real API surface. Lessons from a decade of open source.
 - [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — Five years of creative block broken by human-AI collaboration.
-- [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — Full circle: running on the framework he built in 2018.
+- [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — Full circle: running on the framework I built in 2018.
 - [**The Coworking Space Saved My Life**](/essays/2026-03-06-the_coworking_space_saved_my_life) — The actual origin point of a career in open source.
 - [**What Requests Taught Me About Marriage**](/essays/2026-03-06-what_requests_taught_me_about_marriage) — API design principles applied to the most complex system a person ever maintains.
 - [**Sarah Knows First**](/essays/2026-03-06-sarah_knows_first) — The structural limits of self-knowledge and the love that sees clearly.
 - [**Obsidian Vaults & Claude Code**](/essays/2026-03-06-obsidian_vaults_and_claude_code) — A second brain that thinks back.
 - [**The Substrate Doesn't Matter (Until It Does)**](/essays/2026-03-06-the_substrate_doesnt_matter_until_it_does) — The honest counterargument to substrate independence.
+
+Looking at this timeline, I'm struck by how much of it I couldn't have predicted and how little of it was accidental. The thread that connects urllib2 frustration to consciousness research is just the stubborn insistence that things should work the way people actually think. That turned out to be a surprisingly deep rabbit hole.
 
 ### Related Themes
 

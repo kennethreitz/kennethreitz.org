@@ -29,6 +29,8 @@ Having survived individual psychological manipulation, I recognize the same tech
 
 - [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — The human behind the project is the first interface a contributor encounters. When that interface fails, it's an optimization for exclusion.
 
+I keep writing about this not because I enjoy cataloging failures, but because I think naming the mechanism is the first step toward building something better. If we can see how the loop works — how optimization for engagement systematically inverts human values — we can start designing systems that optimize for something worth optimizing for.
+
 ### Related Themes
 
 - [Pattern Recognition & Manipulation](/themes/pattern-recognition-and-manipulation) — The personal foundation for recognizing these patterns.

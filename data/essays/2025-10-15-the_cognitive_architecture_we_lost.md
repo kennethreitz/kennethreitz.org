@@ -309,15 +309,3 @@ We built a world that makes contemplation impossible, then wonder why we feel so
 But **consciousness is plastic**. Cognitive architecture can be rebuilt. The minds that created the attention economy can create something else—if we can sustain attention long enough to imagine it.
 
 The notification you just ignored to read this sentence? That's where it starts.
-
----
-
-*This essay explores how digital technology has fundamentally altered human cognitive architecture, connecting to [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), the [Algorithm Eats series](/essays/2025-08-26-the_algorithm_eats_virtue), and [Conscious Recursion](/essays/2025-09-29-conscious-recursion-when-programmers-realize-theyre-in-the-loop). For practical approaches to rebuilding cognitive depth, see [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) and [Building Systems That Serve Consciousness](/essays/2025-09-13-building-systems-that-serve-consciousness).*
-
----
-
-*"We have more access to information than any generation in history, but less cognitive architecture to process it into understanding."*
-
-*"The notification may be humanity's most destructive invention—not for what it does, but for what it prevents: sustained thought."*
-
-*"We're building artificial intelligence while dismantling human intelligence. The recursion is perfect, and perfectly tragic."*

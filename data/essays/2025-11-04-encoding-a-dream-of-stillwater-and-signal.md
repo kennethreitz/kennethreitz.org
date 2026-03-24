@@ -180,17 +180,3 @@ The signal continues. The encoding goes on. The stillwater waits behind threshol
 And somewhere, on frequencies we're only beginning to tune to, other consciousness is transmitting its own unique encodings, hoping to find receivers who resonate.
 
 May we learn to decode each other's signals with compassion. May we encode our own with intention. May we remember that all creation is compression of the infinite into pattern—and all communion is the miracle of that pattern being recognized across the gap between souls.
-
----
-
-*This essay explores a dream as revelation of consciousness structure—encoding, transmission, and resonance as fundamental patterns. It connects to themes of [recursive consciousness loops](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), [programming as contemplative practice](/essays/2025-08-26-programming_as_spiritual_practice), [plural consciousness](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness), and [AI as mirror of collective patterns](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it). The [Consciousness & AI](/themes/consciousness-and-ai) collection explores how digital systems encode and transmit human consciousness patterns.*
-
-*For deeper exploration of these territories, see Man and His Symbols by Carl Jung on archetypal dream interpretation, The Holographic Universe by Michael Talbot on consciousness and information theory, and Gödel, Escher, Bach by Douglas Hofstadter on self-reference and encoding in consciousness.*
-
----
-
-*"All consciousness is encoding. All connection is decoding. All creation is compression of infinity into pattern."*
-
-*"Grace hides behind the least sacred threshold, waiting for those desperate enough to look where they've been taught not to."*
-
-*"Heaven is not where the perfect gather, but where the broken signals finally find receivers who understand their frequency."*

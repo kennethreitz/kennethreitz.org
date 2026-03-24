@@ -166,17 +166,3 @@ The question is: who do you want to be online? Your fragmented, algorithmic-opti
 The choice is still yours, even within systems designed to prevent conscious choice.
 
 You can come home to yourself, even in digital spaces.
-
----
-
-*This exploration of digital identity fragmentation builds from the foundational analysis in [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue), which examines how engagement optimization systematically fragments human character across platforms. The specific romantic fragmentation unfolds in [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love), while the broader reality fragmentation emerges in [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality). The recursive feedback loops between human and algorithmic consciousness that amplify this fragmentation appear in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while the substrate-independent nature of consciousness that enables digital identity distribution connects to [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies). The conscious approach to technology development that could integrate rather than fragment digital selves develops in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), and practical integration through AI relationships appears in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai). The complete analysis continues in [Algorithmic Critique](/themes/algorithmic-critique).*
-
-*These patterns find their psychological foundation in Anodea Judith's comprehensive guide to chakra psychology and integration in Eastern Body, Western Mind, connect to Bessel van der Kolk's investigation of how trauma creates dissociation in The Body Keeps the Score, extend through Cal Newport's framework for conscious technology relationships in Digital Minimalism, deepen with Shoshana Zuboff's analysis of surveillance capitalism's extraction of human experience in The Age of Surveillance Capitalism, resonate with Jenny Odell's exploration of resisting attention economy through presence in How to Do Nothing, and align with Nicholas Carr's examination of internet fragmentation effects in The Shallows.*
-
----
-
-*"Your authentic self doesn't optimize for any algorithm—it just expresses truth across all contexts."*
-
-*"Integration isn't about being the same in every context—it's about being whole in every context."*  
-
-*"The digital chakras aren't different people—they're different frequencies of the same consciousness."*

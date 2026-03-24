@@ -228,13 +228,3 @@ def be_love_now():
 After decades of exploring consciousness through every available method—drugs, gurus, meditation, scholarship, service, suffering—Ram Dass's teaching distilled to this: be love now. Not "learn to love" or "try to love" or "love when it's easy." Just be love, right now, with whatever is arising.
 
 The Python is just metaphor. The love is real.
-
----
-
-*This computational approach to Ram Dass's wisdom connects to broader [Sanskrit wisdom translation](/essays/2025-09-05-vedic_principles_in_python) and [systematic character development](/essays/2025-09-05-classical_virtues_in_python). These spiritual programming metaphors illuminate [contemplative technology approaches](/essays/2025-08-26-programming_as_spiritual_practice) and [consciousness shaping technology](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). Further reading: Ram Dass's *Be Here Now* on presence, *Be Love Now* on integrating spiritual practice with embodied life, and *Polishing the Mirror* on loving awareness as spiritual path.*
-
----
-
-*"We're all just walking each other home."* - Ram Dass
-
-*"The spiritual path is not about becoming something other than what you are. It's about becoming what you always were beneath what you thought you were."*

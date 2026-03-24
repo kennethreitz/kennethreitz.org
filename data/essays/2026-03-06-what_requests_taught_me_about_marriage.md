@@ -219,7 +219,3 @@ Some days I'm a clean, well-documented API with sensible defaults and graceful e
 The work continues. The system is never finished. The best I can do is keep the session alive, keep the defaults honest, keep translating my raw bytes into something she can read, and keep honoring the contract we've built together—not because it's technically required, but because she's the human on the other side of every interface I'll ever design.
 
 And she always has been.
-
----
-
-*This essay explores API design principles as relationship wisdom, connecting the "[for humans](/essays/2025-08-27-from_http_to_consciousness)" philosophy that began with HTTP libraries to the most intimate system we ever build with another person. It extends themes from [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), and the [family life](/family) that grounds all of this work in something real. For the broader trajectory from technical design to consciousness research, see [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness).*

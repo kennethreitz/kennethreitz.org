@@ -478,15 +478,3 @@ Growing up with virtue-based formation created appreciation for character that p
 Our digital age desperately needs this foundation. As I explored in [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue), social media algorithms optimize for engagement over virtue. Political discourse rewards tribal loyalty over justice. Economic systems prioritize efficiency over human dignity. The classical virtues provide stable ground for building lives and communities that serve human flourishing rather than exploit human weakness.
 
 The pseudo-Python is metaphor. The character it describes is what we need to cultivate in ourselves and our institutions.
-
----
-
-*This essay translates the seven classical virtues into Python code to reveal timeless patterns for human flourishing through contemporary metaphors. It connects to [Ram Dass Teachings in Python](/essays/2025-09-05-ram_dass_teachings_in_python) on Eastern wisdom, [Vedic Principles in Python](/essays/2025-09-05-vedic_principles_in_python) on Sanskrit wisdom, [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) on virtue destruction, and [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) on contemplative coding.*
-
-*For philosophical foundations, see Aristotle's Nicomachean Ethics, Thomas Aquinas's Summa Theologica, and Alasdair MacIntyre's After Virtue.*
-
----
-
-*"Virtue is not a feeling or emotion, but a disposition to act in ways that promote human flourishing."* - Aristotle
-
-*"The code we live by shapes the life we live. Choose your algorithms wisely."*

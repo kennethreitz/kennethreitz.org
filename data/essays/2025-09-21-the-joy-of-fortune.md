@@ -107,13 +107,3 @@ $ fortune
 ```
 
 Perfect. Sometimes the universe's random number generator knows exactly what you need to hear.
-
----
-
-*This essay explores how simple tools can serve consciousness in unexpected ways. It connects to themes of [algorithmic manipulation](/essays/2025-08-26-the_algorithm_eats_virtue), [conscious technology choices](/essays/2025-08-26-programming_as_spiritual_practice), and the [recursive loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) between tools and consciousness.*
-
-*For practical exploration: Install `fortune` (available in every Unix package manager), explore different fortune databases (`fortune -f` lists them), and consider what other simple tools might serve your consciousness better than their "smart" alternatives.*
-
----
-
-*"In randomness we trust, for in randomness there is no manipulation."*

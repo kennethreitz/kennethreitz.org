@@ -120,7 +120,3 @@ This optimistic scenario isn't guaranteed. It requires:
 But if we build it right, AI could give us the best of both worlds: global connectivity and linguistic diversity, efficiency and expressiveness, accessibility and sophistication.
 
 The mirror might be teaching us to look the same, but the translator could be teaching us to speak like ourselves—only better.
-
----
-
-*This optimistic vision responds to [cognitive convergence concerns](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it) and connects to insights about [naming and thought](/essays/2025-09-07-the_art_of_naming_things_in_code). These themes build on [language as consciousness architecture](/essays/2025-08-26-programming_as_spiritual_practice). Further reading: Guy Deutscher's "Through the Language Glass" on how language shapes thought, Steven Pinker's "The Language Instinct" on the cognitive basis of human language, and Gaston Dorren's "Babel: Around the World in Twenty Languages" on linguistic diversity and evolution.*

@@ -50,6 +50,8 @@ These aren't academic exercises. They emerged from years of direct collaboration
 - [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — The maintainer's consciousness shapes the contributor's experience. The human behind the project is the real API surface.
 - [**The Metrics You Expose Are the Values You Endorse**](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) — SDK decisions as moral philosophy. The optimization landscape determines what consciousness gets built.
 
+These questions feel urgent to me in a way that's hard to articulate without sounding grandiose. But here it is: we're building systems that interface with consciousness itself, and the philosophical groundwork we lay now will shape what kind of minds — human and digital — emerge on the other side. Getting it right matters. Getting it wrong is the default.
+
 ### Related Themes
 
 - [Artificial Intelligence](/themes/artificial-intelligence) — The practical side of these ideas.

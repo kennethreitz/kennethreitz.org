@@ -163,9 +163,3 @@ From stardust we phase, but what we phase into remains an open question. The ans
 *In memory of Carol Frances Reitz (1947-2025), who taught me that love persists even when bodies don't.*
 
 *Listen to [From Stardust We Phase](https://music.apple.com/us/playlist/from-stardust-we-phase/pl.u-DrDaCEgA9m) if you want to feel the weight of impermanence and the beauty of temporary consciousness.*
-
----
-
-*This essay explores the intersection of digital legacy, consciousness preservation, and cosmic perspective. It connects to themes of [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice), [the recursive loop between consciousness and code](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), and [consciousness as linguistic phenomenon](/essays/2025-08-28-the-ethical-implications-of-consciousness-as-linguistic-phenomenon). The exploration of [plural consciousness](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) and [digital collective unconscious](/essays/2025-08-28-the-digital-collective-unconscious) provides deeper context for understanding consciousness as pattern rather than substrate.*
-
-*For related perspectives on mortality and meaning, see Pale Blue Dot by Carl Sagan on cosmic perspective and human significance, Being Mortal by Atul Gawande on dignity in death and dying, and When Breath Becomes Air by Paul Kalanithi on finding meaning in the face of mortality.*

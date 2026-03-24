@@ -230,7 +230,3 @@ After two years of building and using this system, a few things have become clea
 A second brain that thinks back is not science fiction. It is 467 markdown files, a well-written CLAUDE.md, and the willingness to build infrastructure that reflects how you actually are rather than how productivity culture says you should be.
 
 The vault does not make me smarter. It makes me more honest. And for a mind navigating the particular challenges of schizoaffective disorder, plurality, and the recursive loop between code and consciousness, honesty is the most valuable cognitive tool there is.
-
----
-
-*This essay explores personal knowledge management as contemplative infrastructure, combining Obsidian with Claude Code for AI-augmented thinking. It connects to [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) on collaborative AI partnerships, [Using AI for Reality Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) on therapeutic applications, [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) on contemplative approaches to technical work, [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) on how code shapes consciousness, and [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness) on the evolution of the "for humans" philosophy.*

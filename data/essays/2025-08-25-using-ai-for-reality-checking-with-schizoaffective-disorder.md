@@ -85,11 +85,3 @@ Most importantly: AI is not a replacement for professional treatment, medication
 If you're using AI this way, be prepared for the AI to tell you that your concerns aren't warranted. That's actually when it's most valuable - when it helps you recognize that your brain is misinterpreting normal situations as threats<label for="sn-acceptance" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-acceptance" class="margin-toggle"/><span class="sidenote">This acceptance of being "wrong" about a perceived threat is actually a sign of insight and recovery. In acute psychosis, individuals often cannot accept alternative explanations for their concerns, regardless of evidence presented.</span>. The goal isn't to have your worries validated; it's to have reality accurately reflected back to you.
 
 The hardest part of living with schizoaffective disorder isn't the symptoms themselves - it's learning to trust external reality checks over internal alarm systems that have been compromised by illness. AI, used thoughtfully, can be one tool in rebuilding that trust while you work toward recovery.
-
----
-
-*This essay explores practical strategies for using AI as a reality-checking tool when living with schizoaffective disorder, emphasizing objective evidence and conscious collaboration. It connects to [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like) on lived experience, [Mental Health Error: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred) on recovery lessons, [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) on AI collaboration, and [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care) on treatment advocacy.*
-
----
-
-*This essay describes my personal experience and strategies that have worked for me. It is not medical advice. Always work with qualified mental health professionals for proper diagnosis and treatment of schizoaffective disorder or any mental health condition.*

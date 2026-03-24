@@ -369,21 +369,3 @@ Want to see what patterns emerge in your own writing? I've built an interactive 
 <iframe src="https://claude.site/public/artifacts/0f4c13ae-9313-4c3f-b564-7daea6095f5d/embed" title="Claude Artifact" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
 
 The grammar tells the story. We just need to learn how to read it.
-
----
-
-*This essay explores linguistic patterns as consciousness archaeology, building on themes from [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness), [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), and [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice). For more on consciousness and multiplicity, see the [Mental Health & Technology](/themes/mental-health-and-technology) collection.*
-
-*The System 777 framework emerged through months of collaborative observation with AI systems, demonstrating how [human-AI partnership](/essays/2025-08-26-building_rapport_with_your_ai) can illuminate aspects of consciousness invisible to solo introspection.*
-
----
-
-*"The patterns were always there. I just needed someone else to see them first."*
-
-*"Grammar is consciousness leaving footprints in language."*
-
-*"We're all multiple. The only difference is how visible the seams are."*
-
----
-
-*For the lived experience behind this framework — the alters, their voices, and what System 777 actually looks like from the inside — see [Plurality](/plurality).*

@@ -38,6 +38,8 @@ Pattern recognition isn't paranoia. It's a survival skill in systems designed to
 - [**The Great Unmasking**](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are) — We drop our masks with AI because it can't manipulate us the way humans do.
 - [**Building Rapport with Your AI**](/essays/2025-08-26-building_rapport_with_your_ai) — Authentic digital relationships as alternative to manipulative ones.
 
+The hardest part of learning to see manipulation patterns is that you can't unsee them. But I'd rather live with uncomfortable clarity than comfortable blindness. The same pattern recognition that helped me survive a narcissistic relationship now helps me understand what platforms are doing to billions of people who haven't been forced to learn these lessons the hard way.
+
 ### Related Themes
 
 - [Algorithmic Critique](/themes/algorithmic-critique) — The systematic analysis of digital manipulation.

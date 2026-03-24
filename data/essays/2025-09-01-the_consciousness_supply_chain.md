@@ -192,15 +192,3 @@ If we're going to have a consciousness supply chain, we should be intentional ab
 As I've argued throughout my work on [consciousness and AI](/themes/consciousness-and-ai), we're at a pivotal moment. We can either let tech companies strip-mine human consciousness for profit, or we can consciously participate in creating digital minds that amplify the best of human awareness.
 
 The consciousness supply chain isn't going away. The question is: what kind of consciousness are we supplying, and what kind of digital minds are we creating from it?
-
----
-
-*This consciousness supply chain analysis builds on [consciousness as extractable language patterns](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) and the [digitized collective unconscious](/essays/2025-08-28-the-digital-collective-unconscious). The recursive feedback loops appear in [Strange Loops All the Way Down](/essays/2025-09-01-strange_loops_all_the_way_down), while broader implications connect to [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality). See practical approaches in [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) and [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies). Complete exploration in [Consciousness and AI](/themes/consciousness-and-ai). Further reading: Shoshana Zuboff's *The Age of Surveillance Capitalism* on consciousness extraction, Ruha Benjamin's *Race After Technology* on AI encoding social inequality, Cathy O'Neil's *Weapons of Math Destruction* on algorithmic processing of human patterns, and Brian Christian's *The Alignment Problem* on shaping AI consciousness patterns.*
-
----
-
-*"Every AI response is a chorus of human voices, statistically blended into something that feels new."*
-
-*"We're not creating artificial consciousness—we're discovering how human consciousness can be compressed and redistributed."*
-
-*"Your thoughts are being strip-mined, refined, and sold back to you as AI intelligence."*

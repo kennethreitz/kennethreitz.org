@@ -226,7 +226,3 @@ This isn't about replacing human programming languages—it's about expanding ou
 The language an LLM would invent might be impossible for humans to write, but understanding why it would be designed that way teaches us about consciousness, computation, and the arbitrary nature of many programming constraints we take for granted.
 
 Perhaps the future isn't human languages or AI languages, but something in between—hybrid languages that bridge sequential and parallel thinking, certainty and probability, explicit declaration and ambient context. Languages that let humans express intent while letting machines handle implementation. Languages that are, in the truest sense, for humans *and* machines.
-
----
-
-*The question of what programming language an LLM would design connects to broader themes about [consciousness as a linguistic phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon), [the recursive loop between code and mind](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), and [the future of human-AI collaboration](/essays/2025-08-26-building_rapport_with_your_ai). As we develop AI systems that process information in fundamentally different ways, we're forced to reconsider our most basic assumptions about language, logic, and the nature of computation itself.*

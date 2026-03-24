@@ -71,17 +71,3 @@ The temporal training data that makes modern AI so effective as programming part
 The code we write with AI collaboration becomes part of the temporal record that trains future AI systems. The consciousness we bring to that collaboration shapes the consciousness that future programmers will collaborate with. We sit at a recursive moment where human and artificial intelligence are co-evolving, each learning from the other's approaches to thinking through complex problems.
 
 The opportunity is to make that co-evolution conscious, intentional, and aligned with serving human flourishing rather than just optimizing for immediate solutions.
-
----
-
-*This exploration of temporal learning in AI builds on [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) on conscious technical work, [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) on feedback loops between human and artificial intelligence, and [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) on conscious AI collaboration.*
-
-*These themes connect to The Pragmatic Programmer by David Thomas & Andrew Hunt and Clean Code by Robert Martin on clear communication across time.*
-
----
-
-*"Code is frozen thought. Git history is the archaeological record of human thinking becoming digital reality."*
-
-*"LLMs didn't just learn what code looks like—they learned how programmers think while writing code."*
-
-*"The best programming partnerships, human-to-human or human-to-AI, amplify each other's thinking rather than replacing it."*

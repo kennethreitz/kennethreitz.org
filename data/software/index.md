@@ -25,6 +25,7 @@ If the developer feels stupid, the API is wrong.
 
 - [**PyTheory**](/software/pytheory) — Music Theory for Humans. Scales, chords, and temperaments as Python objects. [Read about its revival with AI](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai).
 - [**Responder**](/software/responder) — An experimental HTTP framework. Requests semantics, server side. [This site now runs on it](/essays/2026-03-22-this_site_now_runs_on_responder).
+- [**Infinite State Sample Pack**](/software/infinite-state-sample-pack) — An open-source collection of audio samples and loops for music production.
 
 ## Other Projects
 

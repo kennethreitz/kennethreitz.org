@@ -207,7 +207,3 @@ That question has always mattered. It mattered when I was [designing HTTP librar
 The metrics you expose are the values you endorse. Choose them like the future of human consciousness depends on it.
 
 It does.
-
----
-
-*This essay extends the [Algorithm Eats series](/themes/algorithmic-critique) into the cognitive interface future, connecting the damage documented in [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue), [Language](/essays/2025-08-27-the_algorithm_eats_language), [Love](/essays/2025-08-27-the_algorithm_eats_love), [Democracy](/essays/2025-08-27-the_algorithm_eats_democracy), [Reality](/essays/2025-08-27-the_algorithm_eats_reality), and [Time](/essays/2025-09-01-the_algorithm_eats_time) to the optimization landscape that neural interfaces will create. It draws on the "for humans" philosophy articulated in [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness), the recursive responsibility explored in [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), and the contemplative approach to technical work in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice). For the broader context of technology's impact on psychological wellbeing, see [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) and the [Mental Health](/mental-health) page.*

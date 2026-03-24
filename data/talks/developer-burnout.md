@@ -5,9 +5,7 @@
 
 ## Introduction
 
-This talk, based on the essay [The Reality of Developer Burnout](/essays/2017-01-the_reality_of_developer_burnout), explores the pervasive issue of developer burnout, sharing personal experiences and examining the impact of burnout on mental health and productivity. It offers practical strategies for recognition, prevention, and recovery.<label for="sn-groundbreaking-vulnerability" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-groundbreaking-vulnerability" class="margin-toggle"/>
-<span class="sidenote">This talk was groundbreaking for its time, openly addressing mental health in tech when such discussions were rare. Kenneth's vulnerability in sharing his personal struggles with burnout helped normalize mental health conversations in the developer community.</span>
+This talk, based on the essay [The Reality of Developer Burnout](/essays/2017-01-the_reality_of_developer_burnout), explores the pervasive issue of developer burnout, sharing personal experiences and examining the impact of burnout on mental health and productivity. It offers practical strategies for recognition, prevention, and recovery.
 
 ## The Gradual Onset
 
@@ -29,9 +27,7 @@ This isn't just about being stressed or needing a break. It's about fundamental 
 
 **Cultivate life outside the terminal.** Hobbies aren't distractions from "real work"; they're essential practices that maintain cognitive flexibility and emotional resilience. Whether it's photography, cooking, or building model trains, activities that engage different parts of your mind provide crucial restoration.
 
-**Transform your relationship with social media.** The "publish-only" mode isn't about arrogance or disconnection—it's about protecting your attention and emotional energy from the endless scroll of other people's achievements, arguments, and anxieties.<label for="sn-publish-only" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-publish-only" class="margin-toggle"/>
-<span class="sidenote">The "publish-only" social media strategy was particularly influential, offering a practical way for developers to maintain their professional presence while protecting their mental health from the toxicity and time drain of social media engagement.</span>
+**Transform your relationship with social media.** The "publish-only" mode isn't about arrogance or disconnection—it's about protecting your attention and emotional energy from the endless scroll of other people's achievements, arguments, and anxieties.<label for="sn-publish-only" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-publish-only" class="margin-toggle"/><span class="sidenote">The "publish-only" social media strategy was particularly influential, offering a practical way for developers to maintain their professional presence while protecting their mental health from the toxicity and time drain of social media engagement.</span>
 
 **Take real breaks.** Not working lunches, not conferences, not "working from somewhere nice"—actual disconnection from the constant pressure to produce, optimize, and improve.
 

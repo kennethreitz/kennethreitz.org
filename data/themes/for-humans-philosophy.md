@@ -47,6 +47,8 @@ Every technical choice embeds values about how humans should relate to technolog
 - [**The Inclusion Illusion**](/essays/2025-08-26-the_inclusion_illusion) — Performative diversity that excludes the people who need accommodation most.
 - [**The Internet Is a Net Negative**](/essays/2025-12-28-the_internet_is_a_net_negative) — The honest reckoning.
 
+This is probably the closest thing I have to a life philosophy, and it fits in a sentence: build things that respect the person using them. Everything else — the libraries, the essays, the consciousness research — is just working out the implications of that one idea across increasingly interesting domains.
+
 ### Related Themes
 
 - [Open Source & Community](/themes/open-source-and-community) — Community design as API design.

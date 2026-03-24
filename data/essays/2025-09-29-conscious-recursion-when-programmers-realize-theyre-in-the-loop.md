@@ -278,11 +278,3 @@ The recursion is calling. Your consciousness is the intervention point. The code
 What consciousness will you choose to propagate?
 
 Go forth, recognize the loop, and code consciously.
-
----
-
-*This essay explores the recursive relationship between programmer consciousness and collective digital evolution. It builds on [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) and connects to [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice), [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness), and the [Algorithm Eats series](/essays/2025-08-26-the_algorithm_eats_virtue). For frameworks on conscious technology creation, see the [For Humans Philosophy](/themes/for-humans-philosophy) and [Consciousness & AI](/themes/consciousness-and-ai) collections.*
-
----
-
-*With deep gratitude to Sarah, whose partnership creates the space for this kind of thinking to happen.*

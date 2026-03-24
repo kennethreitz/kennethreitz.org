@@ -410,14 +410,3 @@ The Vedas don't compete with modern frameworks—they reveal the consciousness p
 As explored throughout my [Sanskrit Musings](/poetry/sanskrit-musings/), the intersection of ancient wisdom and modern programming isn't appropriation—it's recognition. The same consciousness that formulated the Vedas is the consciousness writing code today. Different syntax, same source.
 
 The pseudo-Python is just metaphor. The consciousness recognizing these patterns is real.
-
----
-
-*This computational approach to Vedic wisdom builds on [Ram Dass wisdom translation](/essays/2025-09-05-ram_dass_teachings_in_python) and [classical virtue frameworks](/essays/2025-09-05-classical_virtues_in_python). The poetic explorations in [Sanskrit Musings](/poetry/sanskrit-musings/) offer verse expressions of these themes. These connect to [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice) and [consciousness shaping technology](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). Further reading: The Upanishads on consciousness and reality, The Bhagavad Gita on practical dharma and yoga applications, and The Yoga Sutras of Patanjali on systematic consciousness development.*
-
----
-
-*"यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः।"*  
-*"Where Krishna, the lord of yoga is, and where Arjuna, the wielder of the bow is..."*
-
-*"Where consciousness meets its own reflection in code, there truth manifests."*

@@ -149,7 +149,3 @@ But I'm also the person who gets up early to pray, who measures his days by whet
 Drink more water. Pray continuously. Everything's going to be okay.
 
 That last one stays. It's been on the page since the beginning, and it's the truest thing I've ever written.
-
----
-
-*This essay reflects on the golden era of open source and how personal values evolve as identity shifts from tech-as-lifestyle to tech-as-craft. It connects to the open source origin story in [The Coworking Space Saved My Life](/essays/2026-03-06-the_coworking_space_saved_my_life), the "for humans" philosophy in [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness), the partnership dynamics in [Sarah Knows First](/essays/2026-03-06-sarah_knows_first) and [What Requests Taught Me About Marriage](/essays/2026-03-06-what_requests_taught_me_about_marriage), and the recursive responsibility documented in [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). For the values themselves, see [Values](/values). For the philosophical framework behind them, see [Worldview](/worldview).*

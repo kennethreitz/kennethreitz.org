@@ -48,6 +48,8 @@ I've spent over a decade building tools used by millions. The thing nobody tells
 - [**The Recursive Loop: How Code Shapes Minds**](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) — Programmer consciousness becomes collective consciousness through the systems we build.
 - [**The Metrics You Expose Are the Values You Endorse**](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) — The metrics define the optimization landscape. The ethics are in the API docs.
 
+After everything — the burnout, the betrayals, the psychiatric ward — I still believe in open source. Not the industry version, but the original impulse: people making beautiful things and giving them away because it's the right thing to do. That impulse is worth protecting, even when the systems built around it aren't.
+
 ### Related Themes
 
 - [For Humans Philosophy](/themes/for-humans-philosophy) — The design principle that started with Requests.

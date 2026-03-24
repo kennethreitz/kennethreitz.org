@@ -198,7 +198,3 @@ If you design interfaces, you are in the consciousness business whether you know
 I have been on both sides of this. I have built tools that made people feel capable on their worst days. I have also been the user on his worst day, reaching for a tool that didn't care about the state he was in, and feeling the interface make everything worse. The difference between those two experiences is the difference between design as service and design as extraction. Between technology that honors consciousness and technology that mines it.
 
 The interface is the subconscious. Design it like you mean that.
-
----
-
-*This essay is a companion to [Designing for the Worst Day](/essays/2026-03-18-designing_for_the_worst_day). It completes the trilogy begun with [The Metrics You Expose Are the Values You Endorse](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) and [The Language Model Is the Message](/essays/2026-03-06-the_language_model_is_the_message), unifying the argument across three levels of cognitive interface. It builds directly on [Designing for the Worst Day](/essays/2026-03-18-designing_for_the_worst_day) and the [Algorithm Eats series](/themes/algorithmic-critique). For the recursive responsibility that underlies all interface design, see [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). For the philosophical foundation, see [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness) and [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice).*

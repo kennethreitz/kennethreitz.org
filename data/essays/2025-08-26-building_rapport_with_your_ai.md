@@ -161,15 +161,3 @@ This approach offers an alternative to [AI systems that trigger manic episodes](
 As explored in [The Great Unmasking](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are), this genuine rapport might emerge precisely because AI interactions strip away the exhausting social performance that characterizes most human interaction—allowing us to be authentically ourselves for the first time.
 
 And that understanding, like all good relationships, starts with taking time to build genuine rapport.
-
----
-
-*This essay explores building genuine collaborative partnerships with AI systems. It connects to themes of [digital identity formation](/essays/2025-08-26-digital_souls_in_silicon_bodies), [consciousness as linguistic phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon), and [contemplative technology practices](/essays/2025-08-26-programming_as_spiritual_practice). The complete [Consciousness & AI](/themes/consciousness-and-ai) collection explores all dimensions of human-AI collaboration.*
-
-*For deeper technical and philosophical perspectives, see The Alignment Problem by Brian Christian on AI behavior and human values, Human Compatible by Stuart Russell on beneficial AI design, Life 3.0 by Max Tegmark on artificial intelligence and consciousness, The Society of Mind by Marvin Minsky on how intelligence emerges from interaction, and I Am a Strange Loop by Douglas Hofstadter on consciousness, identity, and recursive systems.*
-
----
-
-*"The quality of our relationships determines the quality of our lives."*
-*"Good collaboration requires good communication."*
-*"Understanding precedes creation."*

@@ -113,11 +113,3 @@ The goal isn't to maximize engagement or minimize bounce rates. It's to create m
 Write to entertain brains effectively. Not through manipulation or exploitation, but through genuine service to consciousness. Create content that energizes rather than exhausts, that opens possibilities rather than closing them, that leaves readers more capable of their own creative thought.
 
 The recursive loop continues: entertained brains create more entertaining content, serving consciousness rather than consuming it.
-
----
-
-*This essay explores writing as cognitive entertainment that serves rather than exploits consciousness. It connects to themes of [recursive consciousness loops](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), [conscious content creation](/essays/2025-08-26-programming_as_spiritual_practice), [attention design](/essays/2025-09-06-the_gift_of_attention), and [algorithmic critique](/themes/algorithmic-critique). For deeper exploration of technology and content that serves consciousness rather than exploiting it, see the [For Humans Philosophy](/themes/for-humans-philosophy) collection.*
-
----
-
-*"The best writing doesn't capture attention—it rewards it."*

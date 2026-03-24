@@ -54,6 +54,8 @@ These explorations emerge from fifteen years of pattern recognition across progr
 - [**Open Source Gave Me Everything Until I Had Nothing Left to Give**](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give) — Confusing a psychiatric emergency with a spiritual awakening. The psychology of burnout and breakdown.
 - [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — What happens to cognition under stress, and how design can accommodate it.
 
+I think about consciousness the way I think about code — something you can study from the outside, but that you only really understand by running it. Living with a mind that works differently has been the most demanding and the most illuminating education I've ever received. It informs everything I build.
+
 ### Related Themes
 
 - [Mental Health & Technology](/themes/mental-health-and-technology) — The practical side of living with different mind architecture.

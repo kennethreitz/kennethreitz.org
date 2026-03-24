@@ -165,17 +165,3 @@ If everything is the expression of its opposite, then this essay exists only bec
 And maybe that's the deepest insight: reality isn't about what is. It's about the tension between what is and what isn't, forever defining each other in an infinite dance of opposition that somehow bootstraps existence from pure logic.
 
 The universe computes itself through endless negation. And we're part of that computation, experiencing our own opposite every moment we exist.
-
----
-
-*This exploration of duality in information systems builds on themes from [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon), where I examine how consciousness emerges from patterns of language and mathematics. The substrate-independent nature of opposition patterns connects to insights in [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies), while the sacred nature of symbolic logic explored here resonates with [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice). These binary foundations illuminate the recursive loops between human and algorithmic consciousness discussed in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself). My personal experience of self/not-self boundary dissolution described in [MentalHealthError](/essays/2016-01-mentalhealtherror_an_exception_occurred) provides lived context for these theoretical patterns. The complete exploration continues in [Consciousness and AI](/themes/consciousness-and-ai).*
-
-*These patterns find profound expression in Douglas Hofstadter's exploration of strange loops and self-reference in Gödel, Escher, Bach, connect to Claude Shannon's foundational work establishing information as distinction in Information Theory, resonate with Fritjof Capra's integration of Eastern philosophy and Western science in The Tao of Physics, and deepen through Hofstadter's later work on consciousness as self-referential pattern in I Am a Strange Loop.*
-
----
-
-*"To be is to not not-be. Everything else is implementation details."*
-
-*"The universe isn't made of atoms. It's made of oppositions pretending to be things."*
-
-*"Consciousness is just the universe's way of experiencing what it's not."*

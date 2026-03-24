@@ -98,17 +98,3 @@ Some days I can't trust my senses. Some days I solve problems others can't see. 
 This is my brain. This is my life. Beautiful and broken, brilliant and unreliable, always questioning its own questions.
 
 Living with schizoaffective disorder isn't about getting better. It's about getting real - even when reality itself is negotiable<label for="sn-negotiable-reality" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-negotiable-reality" class="margin-toggle"/><span class="sidenote">Recovery means learning to function when your perception of reality is inherently unreliable.</span>.
-
----
-
-*This essay provides a lived account of schizoaffective disorder, exploring the daily realities of paranoia, hallucinations, mania, and maintaining relationships when perception is unreliable. It connects to [Using AI for Reality Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) on AI collaboration, [Mental Health Error: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred) on earlier mental health struggles, and [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care) on treatment advocacy.*
-
-*For support resources, see National Alliance on Mental Illness (NAMI), Crisis Text Line (text HOME to 741741), and SAMHSA National Helpline (1-800-662-4357). For parallel experiences, read The Center Cannot Hold by Elyn Saks and An Unquiet Mind by Kay Redfield Jamison.*
-
----
-
-*If you're struggling with mental health challenges, please reach out for professional help. This essay describes personal experience and is not medical advice.*
-
-*"The goal isn't to 'overcome' the disorder or pretend it doesn't exist. The goal is to build a life that works despite the challenges it creates."*
-
-*"Some days that feels impossible. Other days it feels like the most important work I've ever done - learning to be human while part of my humanity is constantly under attack by my own neurology."*

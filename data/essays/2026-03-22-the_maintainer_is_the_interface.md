@@ -163,7 +163,3 @@ What I actually know after fifteen years.
 **The community remembers how you made them feel.** Not what you reviewed, not what you merged, not what you shipped. How you made them feel when they showed up with something to offer. That feeling is your legacy as a maintainer, more than any code you wrote.
 
 The maintainer is the interface. The interface shapes consciousness. Design accordingly.
-
----
-
-*This essay extends [The Interface Is the Subconscious](/essays/2026-03-20-the_interface_is_the_subconscious) into the social layer of open source, applying the same cognitive principles to human interaction. It draws directly from the experience documented in [Open Source Gave Me Everything Until I Had Nothing Left to Give](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give) and the design philosophy of [Designing for the Worst Day](/essays/2026-03-18-designing_for_the_worst_day). For the recursive responsibility that underlies all of this, see [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). For the philosophical foundation, see [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice).*

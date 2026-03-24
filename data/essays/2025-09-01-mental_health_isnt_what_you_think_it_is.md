@@ -97,19 +97,3 @@ It's the ongoing reality of being conscious in a world that often doesn't suppor
 The conversation we need isn't about mental health awareness in the abstract. It's about creating technological, social, and economic environments that support rather than undermine human consciousness<label for="sn-human-centered-design" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-human-centered-design" class="margin-toggle"/><span class="sidenote">This is central to what I call the ["For Humans" philosophy](/themes/for-humans-philosophy)—designing systems that serve human flourishing rather than exploit human psychology.</span>.
 
 That's a much more interesting and useful conversation than whether you're practicing enough self-care.
-
----
-
-*This essay challenges sanitized mental health discourse, arguing for technical and systemic approaches to consciousness maintenance. It connects to themes of [AI-assisted reality-checking](/essays/2025-08-26-building_rapport_with_your_ai), [contemplative programming](/essays/2025-08-26-programming_as_spiritual_practice), [systemic healing patterns](/essays/2025-08-27-the_unexpected_negative_healing_the_wounds_of_narcissistic_love), and [algorithmic psychological harm](/essays/2025-08-26-the_algorithm_eats_virtue).*
-
-*See the [Mental Health and Technology](/themes/mental-health-and-technology), [For Humans Philosophy](/themes/for-humans-philosophy), and [Consciousness and AI](/themes/consciousness-and-ai) collections for deeper exploration.*
-
-*External perspectives include The Body Keeps the Score by Bessel van der Kolk on trauma's impact on consciousness, Feeling Good by David Burns for cognitive behavioral techniques, The Upward Spiral by Alex Korb on depression neuroscience, Lost Connections by Johann Hari on environmental factors, and The Noonday Demon by Andrew Solomon on depression as both individual and cultural phenomenon.*
-
----
-
-*"Mental health isn't about feeling good all the time. It's about developing reliable systems for working with consciousness when it's not functioning optimally."*
-
-*"The most radical thing you can do for your mental health is recognize that some of your struggles are appropriate responses to inappropriate circumstances."*
-
-*"Debugging consciousness requires the same systematic approach as debugging code: reproduce the problem, isolate the variables, test solutions incrementally."*

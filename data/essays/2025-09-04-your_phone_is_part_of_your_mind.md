@@ -111,17 +111,3 @@ I think recognizing that we're already cyborgs is the first step toward building
 The phone in your hand is part of your mind. The question is whether it's the part that helps you think clearly or the part that keeps you confused.
 
 I'm still figuring this out. But I think it matters more than most of us realize.
-
----
-
-*This essay explores how smartphones have become integral to human cognitive architecture, making digital manipulation direct cognitive modification rather than external influence. It connects to [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue) on engagement optimization, [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy) on democratic discourse, [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality) on shared understanding, and [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) on conscious alternatives.*
-
-*For theoretical foundations, see The Extended Mind by Andy Clark, The Shallows by Nicholas Carr, and Cognition in the Wild by Edwin Hutchins.*
-
----
-
-*"The phone in your hand isn't a tool you use—it's part of how you think. Understanding this changes everything about digital manipulation and human autonomy."*
-
-*"We've already become cyborgs. The question isn't whether to embrace technological augmentation, but whether to demand augmentation that serves human flourishing rather than corporate extraction."*
-
-*"Recognizing that we're thinking with distributed systems is the first step toward building better distributed systems to think with."*

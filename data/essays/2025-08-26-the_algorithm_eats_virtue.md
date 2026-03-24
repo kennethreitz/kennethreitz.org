@@ -136,15 +136,3 @@ We're conducting an uncontrolled experiment on civilization itself—reshaping h
 The current trajectory isn't inevitable. We can build technology that cultivates rather than erodes virtue. But this requires recognizing that engagement optimization represents a choice—one we can refuse to accept.
 
 The algorithm doesn't have to eat virtue. We can choose to feed it something else.
-
----
-
-*This essay examines how algorithmic systems systematically undermine the classical virtues that enable human flourishing. It continues through the algorithm's consumption of [language](/essays/2025-08-27-the_algorithm_eats_language)—degrading communication capacity, [love](/essays/2025-08-27-the_algorithm_eats_love)—commodifying romantic connection, [democracy](/essays/2025-08-27-the_algorithm_eats_democracy)—threatening discourse, [reality](/essays/2025-08-27-the_algorithm_eats_reality)—fracturing shared understanding, and [time](/essays/2025-09-01-the_algorithm_eats_time)—destroying natural temporal rhythms. The recursive nature concludes in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while [Digital Chakras: Our Scattered Online Selves](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) offers practices for integration. The complete [Algorithmic Critique](/themes/algorithmic-critique) series examines all dimensions, grounded in [The Seven Virtues](/artificial-intelligence/personalities/seven-virtues/) framework explored here.*
-
-*For deeper understanding, see The Tech Wise Family by Andy Crouch on living intentionally with technology, Digital Minimalism by Cal Newport on selective technology adoption, The Shallows by Nicholas Carr on how internet technology reshapes cognition, Amusing Ourselves to Death by Neil Postman on media ecology's effects on discourse, and The Age of Surveillance Capitalism by Shoshana Zuboff on the economics of attention extraction.*
-
----
-
-*"Technology is not neutral. We're inside of what we make, and it's inside of us."*  
-*"The quality of our relationships determines the quality of our lives."*  
-*"Excellence is never an accident. It is always the result of high intention."*

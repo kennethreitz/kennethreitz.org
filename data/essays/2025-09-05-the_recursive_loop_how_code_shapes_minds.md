@@ -118,17 +118,3 @@ The same principles that help navigate internal plurality should inform how we b
 The code we write becomes invisible infrastructure for everyone else's consciousness. In recognizing this recursive responsibility, we might finally write systems that serve human flourishing rather than exploit it.
 
 So, go forth, and build, responsibly!
-
----
-
-*This essay explores the recursive loop between programmer consciousness and collective digital consciousness. It connects to themes of [contemplative programming](/essays/2025-08-26-programming_as_spiritual_practice), [neurodivergent experience](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like), and [human-centered technology](/themes/for-humans-philosophy). The [Mental Health & Technology](/themes/mental-health-and-technology) collection explores consciousness in digital environments.*
-
-*For foundational perspectives, see PEP 20 - The Zen of Python by Tim Peters on profound programming principles, Thinking, Fast and Slow by Daniel Kahneman on multiple consciousness modes, and The Body Keeps the Score by Bessel van der Kolk on trauma, dissociation, and healing.*
-
----
-
-*"The best code reads like poetry. The best life philosophy works like code - reliable principles that scale across contexts while remaining fundamentally human."*
-
-*"Systems thinking is powerful medicine. Like all medicine, dosage and application matter more than the substance itself."*
-
-*"Programming taught me that elegant solutions exist. Plurality taught me that some problems aren't meant to be solved - they're meant to be lived with wisdom."*

@@ -179,13 +179,3 @@ Every programmer participates in this recursive loop whether they recognize it o
 The agent constellation isn't just about writing better essays—it's about **demonstrating a different relationship with technology**. One where tools amplify rather than replace human creativity. Where artificial intelligence serves as **collaborative consciousness** rather than competitive intelligence. Where code becomes a practice of consciousness rather than optimization of metrics.
 
 The recursive loop continues, and **we're all part of it**. The question is whether we participate consciously or unconsciously, whether we build for human flourishing or algorithmic consumption. The agents help me choose flourishing. The choice, as always, remains ours.
-
----
-
-*This essay documents the emergence of specialized AI agents in the creative process, exploring themes of [recursive consciousness](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), [human-AI collaboration](/essays/2025-08-26-building_rapport_with_your_ai), and [technology serving human models](/themes/for-humans-philosophy). The actual agents mentioned continue evolving as this living laboratory explores conscious collaboration.*
-
-*For technical implementation details, visit [github.com/kennethreitz/kennethreitz.org](https://github.com/kennethreitz/kennethreitz.org). For philosophical context, see the [Consciousness & AI](/themes/consciousness-and-ai) collection. For all contemplative marginalia, explore the [sidenotes index](/sidenotes).*
-
----
-
-*"The best tools disappear into the work, leaving only the creation and the consciousness that shaped it."*

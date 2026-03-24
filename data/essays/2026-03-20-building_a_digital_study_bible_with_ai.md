@@ -164,7 +164,3 @@ It is the reason the commentary follows a specific theological tradition rather 
 The whole thing, every verse, every commentary, every cross-reference, is free. The code is open. The data is open. The AI's role is disclosed. Nothing is hidden, nothing is monetized, nothing is gated.
 
 Because Scripture was always free. The tools to study it should be too.
-
----
-
-*[kjvstudy.org](https://kjvstudy.org) is a free, open-source Bible study application. The codebase is available on GitHub. This essay connects to the values evolution in [The Lego Bricks Era](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed), the design philosophy in [Designing for the Worst Day](/essays/2026-03-18-designing_for_the_worst_day), and the recursive responsibility framework in [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds).*

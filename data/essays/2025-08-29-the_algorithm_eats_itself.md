@@ -159,17 +159,3 @@ The ouroboros can be a symbol of eternal renewal or eternal consumption.
 The choice is still ours, even as we make it from within the belly of the serpent.
 
 The recursive nature of this choice doesn't make it any less real.
-
----
-
-*This essay explores how the recursive feedback loops between human consciousness and algorithmic systems might represent technological metamorphosis rather than simple consumption—the algorithm eating itself toward transformation rather than destruction. It synthesizes the algorithm's consumption of [virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—inverting human excellence, [democracy](/essays/2025-08-27-the_algorithm_eats_democracy)—destroying collective problem-solving, [language](/essays/2025-08-27-the_algorithm_eats_language)—degrading communication tools, [love](/essays/2025-08-27-the_algorithm_eats_love)—commodifying human connection, [reality](/essays/2025-08-27-the_algorithm_eats_reality)—fracturing shared understanding, and [time](/essays/2025-09-01-the_algorithm_eats_time)—colonizing temporal experience in consciousness-technology recursion. The spiritual dimensions appear in [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) and [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies). The complete [Algorithmic Critique](/themes/algorithmic-critique) series examines all civilizational costs.*
-
-*For deeper understanding of recursive systems, see Gödel, Escher, Bach by Douglas Hofstadter on strange loops and consciousness emergence, The Recursive Universe by William Poundstone on how simple rules create complexity, The Cybernetic Brain by Andrew Pickering on feedback and circular processes, Braiding Sweetgrass by Robin Wall Kimmerer on Indigenous wisdom about regenerative cycles, The Wood Wide Web by Suzanne Simard on mycelial networks and forest intelligence, Out of Control by Kevin Kelly on biological-technological system merger, and The Pattern on the Stone by W. Daniel Hillis on patterns underlying computation.*
-
----
-
-*"We shape our tools, and thereafter they shape us. But the relationship is recursive—as they reshape us, we reshape them, and neither remains what it was."*
-
-*"The algorithm doesn't eat us or itself—it eats the boundary between us and itself."*
-
-*"Every technology is a mirror. In creating artificial intelligence, we discover what human intelligence actually is: recursive patterns all the way down."*

@@ -120,7 +120,3 @@ This is my love letter. It's not the kind with flowers and poetry. It's the kind
 Thank you is not enough. But it's what I have.
 
 Thank you, Sarah. For watching. For knowing. For telling me the truth about myself when I can't find it on my own.
-
----
-
-*This essay explores the intimate reality of having a partner who monitors your mental state more accurately than you can yourself. It's a companion piece to [What Requests Taught Me About Marriage](/essays/2026-03-06-what_requests_taught_me_about_marriage) and extends themes from [On Mania](/essays/2024-01-on-mania), [Using AI for Reality Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder), and [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). For the broader context of living with serious mental illness, see the [Mental Health](/mental-health) page. For the plurality dimension of this story, see [Plurality](/plurality). For more about the family that grounds all of this, see [Family](/family).*

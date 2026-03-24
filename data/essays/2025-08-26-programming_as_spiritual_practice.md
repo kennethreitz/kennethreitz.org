@@ -203,13 +203,3 @@ The world needs programmers who code like bodhisattvas, debug like meditators, a
 What you create next could serve liberation rather than bondage, consciousness rather than distraction, love rather than exploitation.
 
 The dharma of coding awaits your conscious participation.
-
----
-
-*This essay explores programming as contemplative practice, approaching technical work with spiritual intentionality. It connects to themes of [recursive consciousness loops](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds), [conscious AI collaboration](/essays/2025-08-26-building_rapport_with_your_ai), and [algorithmic virtue destruction](/essays/2025-08-26-the_algorithm_eats_virtue). See the [Consciousness & AI](/themes/consciousness-and-ai) and [For Humans Philosophy](/themes/for-humans-philosophy) collections for broader frameworks.*
-
-*For deeper contemplative perspectives on technical work, see Zen and the Art of Motorcycle Maintenance by Robert Pirsig on quality, consciousness, and technical work, The Art of Computer Programming by Donald Knuth on programming as mathematical poetry, and Small is Beautiful by E.F. Schumacher on Buddhist economics and appropriate technology.*
-
----
-
-*"Code is poetry written in logic, and poetry is the language of the soul."*

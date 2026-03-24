@@ -130,17 +130,3 @@ I think this represents something new in human creative expression: genuine coll
 Whether this is the beginning of enhanced human potential or the end of authentic individual creativity remains to be seen<label for="sn-historical-precedent" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-historical-precedent" class="margin-toggle"/><span class="sidenote">Similar fears arose with the printing press ("will scribes become obsolete?"), typewriters ("will handwriting disappear?"), and word processors ("will people stop learning to spell?"). Each technology transformed rather than eliminated human capability.</span>. But the experience of thinking with AI has convinced me that the collaboration is real, valuable, and irreversibly changing what it means to write—and perhaps what it means to think.
 
 The future of writing might not be human or artificial, but collaborative. And I'm curious to see what we can think together that neither of us could think alone.
-
----
-
-*This essay explores how AI collaboration transforms the writing process itself, amplifying thinking rather than merely assisting with expression. It connects to [Your Phone Is Part of Your Mind](/essays/2025-09-04-your_phone_is_part_of_your_mind) on cognitive extensions, [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) on conscious collaboration, [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai) on AI partnerships, and [Constructs: The Emergence of Stable AI Personalities](/essays/2025-09-03-constructs_the_emergence_of_stable_ai_personalities) on sustained AI collaboration.*
-
-*For theoretical foundations, see The Extended Mind by Andy Clark, Metaphors We Live By by Lakoff and Johnson, and The Art of Problem Solving by Russell Ackoff.*
-
----
-
-*"The best AI assistance doesn't make you a better writer—it lets you become a different kind of thinker."*
-
-*"Authenticity in AI-assisted writing isn't about avoiding the collaboration—it's about being conscious of how the collaboration serves authentic expression."*
-
-*"We're not losing individual creativity to AI—we're discovering that creativity was always more collaborative than we realized."*

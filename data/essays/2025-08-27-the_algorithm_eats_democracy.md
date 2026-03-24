@@ -146,17 +146,3 @@ The algorithm doesn't eat democracy directly—it eats the cognitive and social 
 We can build technology that enhances rather than undermines democratic capacity. But first, we need to acknowledge that the current systems aren't politically neutral—they're systematically anti-democratic, regardless of which political positions they happen to amplify.
 
 The choice isn't between different political outcomes. It's between preserving the possibility of democratic discourse and watching algorithmic engagement optimization make collective governance impossible.
-
----
-
-*This essay explores how algorithmic systems systematically undermine the cognitive and social conditions required for democratic governance. It continues through the algorithm's consumption of [virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—rewarding anti-democratic behaviors, human psychology through [systematic damage](/essays/2025-08-26-algorithmic_mental_health_crisis) that impairs civic participation, [language](/essays/2025-08-27-the_algorithm_eats_language)—degrading communication capacity, [love](/essays/2025-08-27-the_algorithm_eats_love)—operating parallel commodification systems destroying connection, [reality](/essays/2025-08-27-the_algorithm_eats_reality)—manufacturing artificial consensus, and [time](/essays/2025-09-01-the_algorithm_eats_time)—fragmenting the temporal attention needed for sustained discourse. The recursive patterns appear in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while the complete [Algorithmic Critique](/themes/algorithmic-critique) collection examines all societal costs, grounded in [For Humans Philosophy](/themes/for-humans-philosophy) design principles.*
-
-*For deeper analysis, see The Filter Bubble by Eli Pariser on algorithmic reality fragmentation, Democracy in One Book or Less by David Litt on democratic governance requirements, The Righteous Mind by Jonathan Haidt on moral psychology and political reasoning, Bowling Alone by Robert Putnam on declining civic engagement, and Republic.com 2.0 by Cass Sunstein on internet fragmentation's democratic effects.*
-
----
-
-*"Democracy is not just a political system—it's a set of cognitive and social practices that must be cultivated and protected."*
-
-*"The opposite of democracy isn't authoritarianism—it's algorithmic fragmentation of the capacity for collective thought."*
-
-*"We optimized for engagement and accidentally destroyed the possibility of governing ourselves."*

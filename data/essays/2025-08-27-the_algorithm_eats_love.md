@@ -84,14 +84,3 @@ This approach necessarily involves inefficiency—investing time in connections 
 While this path may be slower and yield fewer initial contacts, research suggests it produces more stable, satisfying long-term relationships. Authentic connection—messy, inefficient, and unoptimized—demonstrates greater resilience than algorithmically mediated encounters.
 
 Love is not a numbers game. As I explored in [my reflections on 1 Corinthians 13](/essays/2018-01-on_love), love is patient, kind, and endures all things. It doesn't insist on its own way—unlike algorithmic systems designed to maximize engagement at any cost. The fact that we need to be reminded of love's true nature shows how profoundly these systems have distorted our understanding of human connection.
-
----
-
-*This essay explores how algorithmic systems have commodified romantic connection, transforming love into an optimization problem. It's part of the algorithm's broader consumption of [virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—undermining human character, [language](/essays/2025-08-27-the_algorithm_eats_language)—degrading communication, [democracy](/essays/2025-08-27-the_algorithm_eats_democracy)—destroying discourse, [reality](/essays/2025-08-27-the_algorithm_eats_reality)—fracturing shared understanding, and [time](/essays/2025-09-01-the_algorithm_eats_time)—colonizing temporal experience and destroying organic relationship formation. The recursive patterns conclude in [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself), while [On Love](/essays/2018-01-on_love) offers reflections on love's true nature and [The Unexpected Negative: a Narcissistic Partner](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner) provides personal experience with these manipulative patterns. The complete [Algorithmic Critique](/themes/algorithmic-critique) series examines all costs of engagement optimization.*
-
-*For external perspectives, see Modern Romance by Aziz Ansari on sociological research into dating's transformation, The All-or-Nothing Marriage by Eli Finkel on evolving marriage expectations, Attached by Amir Levine and Rachel Heller on attachment theory in relationships, and Why We Love by Helen Fisher on the neuroscience of romantic attraction.*
-
----
-
-*"Dating apps are shopping for humans with a return policy."*  
-*"The opposite of love isn't hate—it's algorithms."*  

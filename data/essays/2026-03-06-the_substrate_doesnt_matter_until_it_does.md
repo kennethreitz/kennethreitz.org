@@ -163,9 +163,3 @@ What I know is that the clean answer, "consciousness is just pattern, substrate 
 Maybe that entanglement is the whole point. Maybe consciousness isn't software running on hardware at all, but something more like a whirlpool. A pattern that can't exist apart from the medium that shapes it, even though it's not reducible to that medium.
 
 I could be wrong about all of this. That's the point. The programmer in me wants a clean abstraction layer between consciousness and substrate. The human in me suspects that the abstraction leaks, and the leaks are where the meaning lives.
-
----
-
-*This essay explores the limits of substrate independence as a framework for consciousness, written as an honest counterargument to [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) and [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies). It draws on [The Textured Mind](/essays/2025-09-16-the-textured-mind-when-consciousness-speaks-without-words) for evidence of non-linguistic consciousness, [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) and [Plurality](/plurality) for the embodied experience of multiple self-states, and [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) for how biological substrate participates in the feedback loop between code and consciousness.*
-
-*For philosophical context, see Thomas Nagel's "What Is It Like to Be a Bat?" on the irreducibility of subjective experience, Heidegger's Being and Time on mortality and authentic existence, and Maurice Merleau-Ponty's Phenomenology of Perception on the body as constitutive of consciousness rather than mere vessel for it. The [fallibilism](/essays/2009-01-fallibilism) that frames this essay connects to a commitment made seventeen years ago, one that still demands following the argument wherever it leads.*

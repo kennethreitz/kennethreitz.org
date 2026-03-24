@@ -22,9 +22,9 @@ When you `cd` into the project directory, autoenv will automatically activate th
 
 ## Conclusion & Alternatives
 
-Autoenv was a popular project for managing project-specific environments, but it is no longer actively maintained. A better alternative is `direnv`, which provides similar functionality with more features and better performance. It is recommended to use `direnv` instead of `autoenv` for managing project environments.
+Autoenv was a popular project for managing project-specific environments. Kenneth no longer maintains it, but [Edwin Kofler](https://github.com/hyperupcall) has taken over maintenance of the project. A better alternative for new projects is `direnv`, which provides similar functionality with more features and better performance. It is recommended to use `direnv` instead of `autoenv` for managing project environments.
 
-The respository for `autoenv` is available on GitHub, and is actively maintained by [Edwin Kofler](https://github.com/hyperupcall)<label for="sn-maintenance-transfer" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-maintenance-transfer" class="margin-toggle"/><span class="sidenote">Edwin Kofler took over maintenance of the project from Kenneth, ensuring continued support for existing users while the community gradually migrates to more modern alternatives like direnv.</span>.
+The repository for `autoenv` is available on GitHub<label for="sn-maintenance-transfer" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-maintenance-transfer" class="margin-toggle"/><span class="sidenote">Edwin Kofler took over maintenance of the project from Kenneth, ensuring continued support for existing users while the community gradually migrates to more modern alternatives like direnv.</span>.
 
 - https://github.com/hyperupcall/autoenv
 - https://direnv.net/docs/hook.html

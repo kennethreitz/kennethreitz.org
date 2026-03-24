@@ -288,7 +288,3 @@ I told you at the beginning that this principle isn't influenced by my mental he
 **Design for the person having the worst day of their life. If it works for them, it works for everyone.**
 
 That's the whole philosophy. Everything else is implementation.
-
----
-
-*This essay is the prescriptive companion to [Open Source Gave Me Everything Until I Had Nothing Left to Give](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give) and [The Lego Bricks Era](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed). For the philosophical foundation, see [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness) and [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). For the libraries referenced, see [Tablib](/software/tablib), [Records](/software/records), and [Maya](/software/maya). For the worldview that underlies all of it, see [Worldview](/worldview).*

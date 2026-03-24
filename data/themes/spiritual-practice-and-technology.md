@@ -43,6 +43,8 @@ This isn't about adding spiritual language to programming. It's about recognizin
 - [**Open Source Gave Me Everything Until I Had Nothing Left to Give**](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give) — The difference between a spiritual awakening and a psychiatric emergency. Grounding matters.
 - [**The Coworking Space Saved My Life**](/essays/2026-03-06-the_coworking_space_saved_my_life) — Third spaces as sites of serendipitous transformation. The sacred in the mundane.
 
+What I keep coming back to is that the attention you bring to writing a function is the same attention you bring to anything that matters. The discipline is transferable. The awareness is the point. And when technology is built with that kind of presence, you can feel it in the result — even if you can't always name what you're feeling.
+
 ### Related Themes
 
 - [Consciousness & AI](/themes/consciousness-and-ai) — The philosophical framework.

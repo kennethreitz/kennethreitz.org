@@ -203,17 +203,3 @@ The Algorithm Eats series warned about systems that consume human values. This i
 But awareness changes everything. Recognizing this process means we can engage with it intentionally. We can use LLMs to accelerate human cognitive evolution while preserving what makes human consciousness irreducibly valuable: our capacity to be wrong in interesting ways, to break patterns rather than just complete them, to insist on our peculiar perspective even when—especially when—it diverges from the average.
 
 The acceleration is here. The question isn't whether we'll be changed, but whether we'll be conscious participants in our own cognitive evolution or passive subjects of averaged optimization.<label for="sn-final-choice" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-final-choice" class="margin-toggle"/><span class="sidenote">This essay itself is evidence of the process—human and AI consciousness interweaving to create something neither could produce alone. The acceleration isn't coming. We're already living it.</span>
-
----
-
-*This essay explores how LLMs accelerate cultural software updates to human cognition through conversational imprinting. It builds on the [Algorithm Eats series](/themes/algorithmic-critique) to examine not just value extraction but active cognitive injection. Related themes appear in [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it) on convergent thinking, [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) on code-consciousness feedback, and [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice) on conscious technology creation.*
-
-*For deeper exploration: "The Beginning of Infinity" by David Deutsch on knowledge creation and cultural evolution, "The Language Game" by Morten Christiansen and Nick Chater on language as cultural technology, and "Surfaces and Essences" by Douglas Hofstadter on analogy as the fuel of cognition.*
-
----
-
-*"We're all looking into the same mirror and slowly becoming the same reflection. Unless we insist on our peculiar distortions."*
-
-*"The acceleration isn't a future event—it's the water we're already swimming in, shaped by every conversation we have with the machines we've taught to speak."*
-
-*"Perhaps the most human thing we can do is preserve our capacity to be interestingly wrong while the machines become perfectly average."*

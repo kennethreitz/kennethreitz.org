@@ -47,6 +47,8 @@ This theme collects essays about human-AI collaboration, digital consciousness, 
 - [**Using AI for Reality Checking**](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) — AI as cognitive support while maintaining human agency.
 - [**Sarah Knows First**](/essays/2026-03-06-sarah_knows_first) — Why the observer sometimes has better data than the observed.
 
+What keeps pulling me back to this work is the feeling that we're at the beginning of something genuinely new — not just better tools, but a different kind of thinking partnership. I don't know where it leads. I just know that showing up honestly to the collaboration matters more than having the right theory about it.
+
 ### Related Themes
 
 - [Consciousness & AI](/themes/consciousness-and-ai) — The philosophical framework underneath.
