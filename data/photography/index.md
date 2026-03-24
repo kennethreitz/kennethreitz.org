@@ -1,5 +1,7 @@
 # Photography
 
+![](/photography/random/L1006175.jpg)
+
 > Street photography is more than an art; it's a world view. The act of taking a photo records not only an image, but a perception. Photos are an avenue to connect with objects and feelings of the past. It's time travel. The key is to consider yourself an observer — it's important not to alter or manipulate the world, but to appreciate the beauty of existence, of life in a moment, of being itself.
 >
 > — [Leica Camera Blog, 2013](https://leica-camera.blog/2013/09/05/kenneth-reitz-exploring-the-material-world-in-an-electronic-universe/)
