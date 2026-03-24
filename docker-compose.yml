@@ -7,9 +7,5 @@ services:
       - ./data:/app/data
       - ./tuftecms:/app/tuftecms
       - ./engine.py:/app/engine.py
-    environment:
-      - FLASK_ENV=development
-      - DISABLE_ANALYTICS=true
     restart: unless-stopped
-    # Use uvicorn with auto-reload for development
-    command: ["uvicorn", "engine:app", "--host", "0.0.0.0", "--port", "8000", "--reload", "--reload-dir", "/app/tuftecms", "--reload-dir", "/app/data"]
+    command: ["uvicorn", "engine:api", "--host", "0.0.0.0", "--port", "8000", "--reload", "--reload-dir", "/app/tuftecms", "--reload-dir", "/app/data"]
