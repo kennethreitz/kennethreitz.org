@@ -54,5 +54,5 @@ After everything — the burnout, the betrayals, the psychiatric ward — I stil
 
 - [For Humans Philosophy](/themes/for-humans-philosophy) — The design principle that started with Requests.
 - [Algorithmic Critique](/themes/algorithmic-critique) — What happens when platforms optimize for engagement instead of humans.
-- [Mental Health & Technology](/themes/mental-health-and-technology) — The personal cost of community failure.
+- [Mental Health & Technology](/themes/mental-health) — The personal cost of community failure.
 - [Evolution of Ideas](/themes/evolution-of-ideas) — How these ideas developed over fifteen years.

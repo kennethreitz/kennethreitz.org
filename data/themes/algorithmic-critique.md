@@ -34,5 +34,5 @@ I keep writing about this not because I enjoy cataloging failures, but because I
 ### Related Themes
 
 - [Pattern Recognition & Manipulation](/themes/pattern-recognition-and-manipulation) — The personal foundation for recognizing these patterns.
-- [Mental Health & Technology](/themes/mental-health-and-technology) — The psychological cost.
+- [Mental Health & Technology](/themes/mental-health) — The psychological cost.
 - [For Humans Philosophy](/themes/for-humans-philosophy) — The design principles these platforms violate.

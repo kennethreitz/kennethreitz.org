@@ -1,8 +1,8 @@
-# Mental Health & Technology
+# Mental Health
 
 I live openly with schizoaffective disorder. This isn't inspiration — it's system documentation. When consciousness systems fail, understanding the failure modes helps everyone build more resilient ones.
 
-Technology makes consciousness harder by exploiting psychological vulnerabilities. Yet the same systems can support mental health when designed consciously. This theme collects both sides: the systematic harm and the conscious healing.
+This thread collects the lived experience, the design implications, and the honest reckoning with systems that exploit the vulnerable. It's also about what works — the tools, relationships, and practices that keep me here.
 
 ### Lived Experience
 

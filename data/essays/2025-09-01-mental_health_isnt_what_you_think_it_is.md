@@ -1,7 +1,7 @@
 # Mental Health Isn't What You Think It Is
 *September 2025*
 
-*Part of the [Mental Health and Technology](/themes/mental-health-and-technology) series exploring human consciousness in the digital age.*
+*Part of the [Mental Health and Technology](/themes/mental-health) series exploring human consciousness in the digital age.*
 
 The phrase "mental health" has been so thoroughly sanitized and corporatized that it no longer describes what it's supposed to describe. When people say "mental health awareness" or "prioritizing mental health," they usually mean something like self-care, work-life balance, maybe therapy if you're having a tough time. The Instagram version with bubble baths and yoga poses.
 

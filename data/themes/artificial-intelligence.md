@@ -53,5 +53,5 @@ What keeps pulling me back to this work is the feeling that we're at the beginni
 
 - [Consciousness & AI](/themes/consciousness-and-ai) — The philosophical framework underneath.
 - [For Humans Philosophy](/themes/for-humans-philosophy) — Technology serving consciousness, not the other way around.
-- [Mental Health & Technology](/themes/mental-health-and-technology) — AI as therapeutic support.
+- [Mental Health & Technology](/themes/mental-health) — AI as therapeutic support.
 - [Spiritual Practice & Technology](/themes/spiritual-practice-and-technology) — Code as contemplative practice.

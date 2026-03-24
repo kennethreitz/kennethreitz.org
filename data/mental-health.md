@@ -75,6 +75,6 @@ If you're in the US and thinking about harming yourself, please call `988` (the 
 
 I **promise** you—my brain has told me some *really* convincing lies. It's not worth it. You are loved, and you are important. You are not alone.
 
-For the complete archive of my mental health writing, see [Mental Health & Technology](/themes/mental-health-and-technology).
+For the complete archive of my mental health writing, see [Mental Health & Technology](/themes/mental-health).
 
 Feel free to reach out on [Twitter](https://twitter.com/kennethreitz42) or [email](/contact) if you need someone to talk to about this stuff. I'm here for you.

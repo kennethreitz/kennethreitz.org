@@ -11,7 +11,7 @@ When your brain operates outside neurotypical parameters—whether through schiz
 
 You notice when data doesn't align with claims. When explanations contain logical gaps. When stated policies don't match observed outcomes. The same hypersensitivity that makes environments overwhelming also creates awareness of subtle contradictions in information.<label for="sn-patterns" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sn-patterns" class="margin-toggle"/>
-<span class="sidenote">This connects to my experience with [schizoaffective disorder](/themes/mental-health-and-technology)—learning to distinguish between meaningful patterns and psychological artifacts while maintaining openness to genuine insights.</span>
+<span class="sidenote">This connects to my experience with [schizoaffective disorder](/themes/mental-health)—learning to distinguish between meaningful patterns and psychological artifacts while maintaining openness to genuine insights.</span>
 
 This isn't paranoia—it's pattern recognition operating with reduced social filtering. When you already process information differently, you're less likely to automatically accept conventional explanations that don't align with observed evidence.
 
@@ -96,4 +96,4 @@ What we label as cognitive differences might represent valuable diversity—mind
 
 ---
 
-*This analysis emerges from direct experience with schizoaffective disorder and ongoing research into [consciousness collaboration with AI systems](/artificial-intelligence/). It connects to broader investigations of [mental health transparency](/themes/mental-health-and-technology) and [technology design that serves human flourishing](/themes/for-humans-philosophy) rather than exploiting psychological vulnerabilities.*
+*This analysis emerges from direct experience with schizoaffective disorder and ongoing research into [consciousness collaboration with AI systems](/artificial-intelligence/). It connects to broader investigations of [mental health transparency](/themes/mental-health) and [technology design that serves human flourishing](/themes/for-humans-philosophy) rather than exploiting psychological vulnerabilities.*

@@ -58,7 +58,7 @@ I think about consciousness the way I think about code — something you can stu
 
 ### Related Themes
 
-- [Mental Health & Technology](/themes/mental-health-and-technology) — The practical side of living with different mind architecture.
+- [Mental Health & Technology](/themes/mental-health) — The practical side of living with different mind architecture.
 - [Consciousness & AI](/themes/consciousness-and-ai) — The philosophical framework.
 - [Pattern Recognition & Manipulation](/themes/pattern-recognition-and-manipulation) — The survival skills.
 - [Spiritual Practice & Technology](/themes/spiritual-practice-and-technology) — The contemplative dimension.

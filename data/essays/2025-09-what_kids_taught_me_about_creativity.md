@@ -59,7 +59,7 @@ This isn't about minimalism as aesthetic choice or financial necessity (although
 
 My children don't care about my camera specs. They care whether I'm present for their stories, whether I notice their drawings, whether I'm available when they need connection. The iPhone captures those moments just fine. Better than fine - it captures them without getting in the way.
 
-Looking back, I can see how this physical simplification mirrors the [mental health debugging](/themes/mental-health-and-technology) practices that have become essential to my wellbeing. Fewer variables to manage. Fewer things that can break. More focus on what actually works.
+Looking back, I can see how this physical simplification mirrors the [mental health debugging](/themes/mental-health) practices that have become essential to my wellbeing. Fewer variables to manage. Fewer things that can break. More focus on what actually works.
 
 The gear was never the point. The creativity was always in the consciousness, not the tools. The music was always in the intention and practice of playing, not the equipment itself. The photography was always about seeing, not capturing.
 

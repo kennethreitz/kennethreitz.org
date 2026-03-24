@@ -33,7 +33,7 @@ The essays cluster around several interconnected explorations:
 ### [Algorithmic Critique](/themes/algorithmic-critique)
 A comprehensive examination of how engagement optimization systematically undermines virtue, mental health, language, love, and democratic discourse. The core thesis: the same mechanisms that drive platform engagement destroy the foundations of human flourishing.
 
-### [Mental Health & Technology](/themes/mental-health-and-technology)
+### [Mental Health & Technology](/themes/mental-health)
 Personal and analytical pieces exploring the relationship between digital systems and psychological wellbeing. Includes candid discussions of bipolar disorder, trauma recovery, and how technology can either support or undermine mental health.
 
 ### [The "For Humans" Philosophy](/themes/for-humans-philosophy)

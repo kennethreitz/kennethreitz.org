@@ -43,6 +43,6 @@ The hardest part of learning to see manipulation patterns is that you can't unse
 ### Related Themes
 
 - [Algorithmic Critique](/themes/algorithmic-critique) — The systematic analysis of digital manipulation.
-- [Mental Health & Technology](/themes/mental-health-and-technology) — The psychological dimension.
+- [Mental Health & Technology](/themes/mental-health) — The psychological dimension.
 - [Psychology & Consciousness](/themes/psychology-and-consciousness) — Understanding why manipulation works.
 - [Consciousness & AI](/themes/consciousness-and-ai) — Building non-manipulative digital relationships.

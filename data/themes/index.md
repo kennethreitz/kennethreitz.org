@@ -9,7 +9,7 @@ These collections organize essays by the threads that connect them. Each theme i
 
 ### Mind & Health
 
-- **[Mental Health & Technology](/themes/mental-health-and-technology)** — Living openly with schizoaffective disorder. Technology as both threat and accessibility device.
+- **[Mental Health](/themes/mental-health)** — Living openly with schizoaffective disorder. The lived experience, the design implications, and the honest reckoning.
 - **[Psychology & Consciousness](/themes/psychology-and-consciousness)** — What different mind architectures reveal about how consciousness actually works.
 
 ### Technology & Design

@@ -87,7 +87,7 @@ These pieces document consciousness in motion—the texture of thought before it
 
 ## Cross-Connections
 
-**Mental Health**: Documents [manic episodes](/essays/2024-01-on-mania), [psychological oscillations](/themes/mental-health-and-technology), and [creative overflow states](/poetry/overfloweth)
+**Mental Health**: Documents [manic episodes](/essays/2024-01-on-mania), [psychological oscillations](/themes/mental-health), and [creative overflow states](/poetry/overfloweth)
 
 **AI Consciousness**: Early recognition of [collaborative consciousness](/essays/2025-08-26-building_rapport_with_your_ai) and [digital souls](/essays/2025-08-26-digital_souls_in_silicon_bodies)
 

@@ -50,4 +50,4 @@ What I keep coming back to is that the attention you bring to writing a function
 - [Consciousness & AI](/themes/consciousness-and-ai) — The philosophical framework.
 - [Psychology & Consciousness](/themes/psychology-and-consciousness) — Understanding the mind you're practicing with.
 - [For Humans Philosophy](/themes/for-humans-philosophy) — Technology serving consciousness.
-- [Mental Health & Technology](/themes/mental-health-and-technology) — The necessary safety protocols.
+- [Mental Health & Technology](/themes/mental-health) — The necessary safety protocols.
