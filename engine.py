@@ -1359,11 +1359,21 @@ async def catch_all(req, resp, *, path):
         related_posts = []
         prev_post = None
         next_post = None
+        article_themes = []
         if path.startswith("essays/"):
             blog_data = get_blog_cache()
             posts = blog_data.get("posts", [])
             related_posts = find_related_posts(file_path)
             prev_post, next_post = find_adjacent_posts(file_path)
+
+            # Detect themes for this article
+            themes_data = get_themes_cache().get("themes", {})
+            essay_url = f"/essays/{file_path.stem}"
+            for theme_name, theme_info in themes_data.items():
+                for article in theme_info.get("articles", []):
+                    if article.get("url") == essay_url:
+                        article_themes.append({"name": theme_name})
+                        break
 
         resp.html = render("post.html", req, f"/{path}",
             content=content_data["content"],
@@ -1378,6 +1388,7 @@ async def catch_all(req, resp, *, path):
             related_posts=related_posts,
             prev_post=prev_post,
             next_post=next_post,
+            article_themes=article_themes,
         )
         return
 
