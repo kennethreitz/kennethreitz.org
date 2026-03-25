@@ -21,15 +21,12 @@
                 <details class="theme-details">
                     <summary>Show {{ data.articles | length }} article{{ 's' if data.articles | length != 1 else '' }}</summary>
                     <ul>
-                    {% for article in data.articles %}
+                    {% for article in data.articles|sort(attribute='date', reverse=true) %}
                     <li>
                         {% if article.unique_icon %}
                         <img src="{{ article.unique_icon }}" alt="" class="article-icon">
                         {% endif %}
                         <a href="{{ article.url }}">{{ article.title }}</a>
-                        {% if article.date %}
-                        <span class="date">{{ article.date }}</span>
-                        {% endif %}
                     </li>
                     {% endfor %}
                     </ul>
