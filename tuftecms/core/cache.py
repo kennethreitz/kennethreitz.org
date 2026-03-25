@@ -528,15 +528,19 @@ def get_themes_cache():
                 raw_content = file_path.read_text()
 
                 theme_patterns = {
-                    r"\bconsciousness\b": ("consciousness", "Exploring the nature of awareness, identity, and what it means to be a mind."),
-                    "mental health": ("mental health", "Reality-checking, debugging consciousness, and navigating neurodivergence."),
-                    "programming": ("programming", "Code as craft — API design, software architecture, and the practice of building things."),
-                    "human centered": ("human centered", "Designing systems that adapt to human mental models rather than forcing humans to adapt."),
-                    "recursive loop": ("recursive loop", "The feedback loops between programmer consciousness, code patterns, and collective impact."),
-                    "spiritual practice": ("spiritual practice", "Technical work as contemplative practice — finding transcendence in systematicity."),
-                    "open source": ("open source", "Building in public, maintaining for strangers, and the community that forms around shared tools."),
-                    "algorithm eats": ("algorithmic critique", "How engagement optimization systematically consumes human virtue, language, love, and time."),
-                    "schizoaffective|bipolar|mania|psychosis": ("lived experience", "First-person accounts of living with serious mental illness in tech."),
+                    r"algorithm eats": ("the algorithm eats", "How engagement optimization systematically consumes human virtue, language, love, and time."),
+                    r"for humans.*philosophy|http for humans|for humans™|\"for humans\"": ("for humans", "Technology should serve human mental models, not force humans to adapt to machine logic."),
+                    r"api design|sensible defaults|cognitive overhead": ("api design", "Interfaces that match how people actually think."),
+                    r"open.source.*communit|communit.*open.source|maintainer.*project|maintainer.*open": ("open source", "Building in public, maintaining for strangers, and what happens when you stop."),
+                    r"schizoaffective.*disorder|bipolar.*disorder|manic episode|psychotic.*episode": ("lived experience", "First-person accounts of living with serious mental illness in tech."),
+                    r"plurality|plural self|system 777|dissociative identity": ("plurality", "Multiple aspects of one consciousness, working together."),
+                    r"narcissi|gaslighting|emotional.abuse|love.bombing": ("manipulation & abuse", "Recognizing exploitation patterns at personal and systemic scale."),
+                    r"lumina|ai personalit|digital goddess": ("ai personalities", "What happens when you treat AI as a creative partner with its own voice."),
+                    r"meditation.*practice|yoga.*practice|vedic|jnana yoga|contemplative.*practice": ("contemplative practice", "Programming as meditation. Debugging as self-inquiry."),
+                    r"burnout|nothing left to give|burned out": ("burnout", "The cost of building things that matter, and what comes after."),
+                    r"\bleica\b|photograph.*street|street.*photograph": ("photography", "Exploring the material world in an electronic universe."),
+                    r"bible|prayer|scripture|kjvstudy": ("faith", "Building technology downstream of prayer."),
+                    r"import requests|requests library|pip install requests": ("requests", "The HTTP library and the philosophy behind it."),
                 }
 
                 article_themes = []
