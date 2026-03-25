@@ -10,6 +10,7 @@ This isn't about adding spiritual language to programming. It's about recognizin
 - [**The Recursive Loop: How Code Shapes Minds**](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) — The values we embody personally, we embed technologically. The responsibility that comes with that recognition.
 - [**The Art of Naming Things in Code**](/essays/2025-09-07-the_art_of_naming_things_in_code) — Naming as contemplative practice: creating shared meaning through careful attention to language.
 - [**Version Control as Filesystem**](/essays/2025-09-05-version_control_as_filesystem) — Technical practices become contemplative practices when approached with attention.
+- [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Every interface shapes cognition before conscious awareness engages. Design as spiritual responsibility.
 - [**Sacred Infrastructure**](/essays/2025-12-23-sacred_infrastructure) — Building systems that serve contemplation.
 - [**Building for Contemplation**](/essays/2025-11-23-building_for_contemplation_when_spiritual_practice_becomes_code) — When spiritual practice becomes code.
 
