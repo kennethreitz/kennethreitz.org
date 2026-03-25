@@ -30,6 +30,9 @@ Every technical choice embeds values about how humans should relate to technolog
 - [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — The human behind the project is the first interface a contributor encounters. Design that accordingly.
 - [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — Running on Responder: Requests semantics, server side. The "for humans" philosophy full circle.
 - [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — The era when open source was about making beautiful lego bricks and sharing them.
+- [**Visual Hierarchy and the Shape of Attention**](/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention) — How visual design directs consciousness before you realize it's happening.
+- [**Python as English**](/essays/2025-09-22-python-as-english) — The art of readable code as human-centered design at the syntax level.
+- [**The Compiler in Your Head**](/essays/2025-09-14-the-compiler-in-your-head) — How mental models shape what we build and what we can perceive.
 
 ### Applied to AI
 

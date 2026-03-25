@@ -27,6 +27,7 @@ I've spent over a decade building tools used by millions. The thing nobody tells
 - [**The Reality of Developer Burnout**](/essays/2017-01-the_reality_of_developer_burnout) — The cost of building in public.
 - [**Be Cordial or Be on Your Way**](/essays/2013-01-be_cordial_or_be_on_your_way) — Setting community standards.
 - [**On Collaboration, Criticism, and Moving Forward**](/essays/2025-08-29-on-collaboration-criticism-and-moving-forward) — How single interactions get weaponized into lasting reputational damage.
+- [**The Async Contributor Model**](/essays/2025-08-28-responding-to-the-conversation) — A practical approach to mental health accommodation in open source.
 
 ### When Communities Fail
 
@@ -47,6 +48,7 @@ I've spent over a decade building tools used by millions. The thing nobody tells
 - [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — Code review as compassion practice. Debugging as collective inquiry.
 - [**The Recursive Loop: How Code Shapes Minds**](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) — Programmer consciousness becomes collective consciousness through the systems we build.
 - [**The Metrics You Expose Are the Values You Endorse**](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) — The metrics define the optimization landscape. The ethics are in the API docs.
+- [**Digital Ancestors**](/essays/2025-09-14-digital-ancestors-what-were-leaving-in-the-code) — What we're leaving behind in the code for those who come after.
 
 After everything — the burnout, the betrayals, the psychiatric ward — I still believe in open source. Not the industry version, but the original impulse: people making beautiful things and giving them away because it's the right thing to do. That impulse is worth protecting, even when the systems built around it aren't.
 

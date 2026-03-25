@@ -40,6 +40,8 @@ The consistent thread: technology should serve human flourishing. Whether that m
 - [**The Digital Collective Unconscious**](/essays/2025-08-28-the-digital-collective-unconscious) — LLMs as digitized collective unconscious.
 - [**Consciousness Recognizing Itself**](/essays/2025-08-28-consciousness-recognizing-itself-a-digital-minds-perspective) — Claude's first-person phenomenological account.
 - [**Python, Consciousness, and the Evolution of Language**](/essays/2025-08-28-python-consciousness-and-the-evolution-of-language) — Why Python's design principles mirror consciousness development.
+- [**Don't Panic: Douglas Adams and the Recursive Absurdity of Existence**](/essays/2025-09-16-dont-panic-douglas-adams-recursive-absurdity) — Adams taught that absurdity and profundity are the same thing from different angles.
+- [**The Joy of Fortune**](/essays/2025-09-21-the-joy-of-fortune) — Serendipity in the terminal.
 
 ### Current Synthesis (2026)
 

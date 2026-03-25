@@ -15,6 +15,7 @@ These explorations emerge from fifteen years of pattern recognition across progr
 
 - [**The Plural Self: What DID Reveals About All Consciousness**](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) — What psychiatry calls dissociation might reveal universal patterns of consciousness organization.
 - [**The Textured Mind**](/essays/2025-09-16-the-textured-mind-when-consciousness-speaks-without-words) — Non-verbal consciousness operating in textures, shapes, and archetypal presences. Not pathology — a different mode of knowing.
+- [**Grammar as Consciousness Map**](/essays/2025-11-20-grammar-as-consciousness-map-building-a-linguistic-framework-for-multiplicity) — Building a linguistic framework for multiplicity.
 - [**Digital Chakras: Our Scattered Online Selves**](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) — How we fragment identity across digital platforms.
 - [**The Great Unmasking**](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are) — AI strips away social performance, revealing who we actually are.
 
@@ -26,6 +27,7 @@ These explorations emerge from fifteen years of pattern recognition across progr
 - [**Sarah Knows First**](/essays/2026-03-06-sarah_knows_first) — The structural limits of self-knowledge. You cannot fully observe a system from inside that system.
 - [**Mental Health Isn't What You Think It Is**](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) — Complex systems management under uncertainty, not lifestyle optimization.
 - [**Delusions and Schizoaffective Disorder**](/essays/2025-09-17-delusions-and-schizoaffective-disorder) — How the brain constructs alternate realities with their own internal logic.
+- [**The Weight of Autumn**](/essays/2025-09-16-the_weight_of_autumn) — When consciousness carries too much.
 
 ### Pattern Recognition & Exploitation
 

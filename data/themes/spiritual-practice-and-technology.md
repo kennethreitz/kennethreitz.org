@@ -13,6 +13,8 @@ This isn't about adding spiritual language to programming. It's about recognizin
 - [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Every interface shapes cognition before conscious awareness engages. Design as spiritual responsibility.
 - [**Sacred Infrastructure**](/essays/2025-12-23-sacred_infrastructure) — Building systems that serve contemplation.
 - [**Building for Contemplation**](/essays/2025-11-23-building_for_contemplation_when_spiritual_practice_becomes_code) — When spiritual practice becomes code.
+- [**The Dependency Graph of the Soul**](/essays/2025-09-14-the-dependency-graph-of-the-soul) — Version control as metaphor for consciousness evolution.
+- [**From Stardust We Phase**](/essays/2025-09-15-from_stardust_we_phase) — On digital legacy and impermanence.
 
 ### Eastern Wisdom in Code
 
