@@ -26,5 +26,4 @@ RUN uv pip install . --system
 # Copy the rest of the application
 COPY . .
 
-# Run uvicorn directly (no need for uv run since we installed system-wide)
-CMD ["granian", "--interface", "asgi", "--host", "0.0.0.0", "--port", "8000", "--workers", "2", "engine:api"]
+CMD ["granian", "--interface", "asgi", "--host", "0.0.0.0", "--port", "8000", "--workers", "4", "engine:api"]
