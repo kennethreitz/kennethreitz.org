@@ -15,7 +15,6 @@ from tuftecms.core.cache import (
 )
 from tuftecms.utils.content import (
     get_directory_structure,
-    find_related_posts,
     find_adjacent_posts,
     extract_intelligent_date,
     generate_folder_icon,
@@ -1355,15 +1354,11 @@ async def catch_all(req, resp, *, path):
         api.log.info("Serving content: /%s", path)
         content_data = render_markdown_file(file_path)
 
-        # Find related and adjacent posts for essays
-        related_posts = []
+        # Find adjacent posts and themes for essays
         prev_post = None
         next_post = None
         article_themes = []
         if path.startswith("essays/"):
-            blog_data = get_blog_cache()
-            posts = blog_data.get("posts", [])
-            related_posts = find_related_posts(file_path)
             prev_post, next_post = find_adjacent_posts(file_path)
 
             # Detect themes for this article
@@ -1385,7 +1380,6 @@ async def catch_all(req, resp, *, path):
             series_posts=content_data.get("series_posts", []),
             series_name=content_data.get("series_name"),
             unique_icon=content_data.get("unique_icon"),
-            related_posts=related_posts,
             prev_post=prev_post,
             next_post=next_post,
             article_themes=article_themes,
