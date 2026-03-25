@@ -528,19 +528,19 @@ def get_themes_cache():
                 raw_content = file_path.read_text()
 
                 theme_patterns = {
-                    r"algorithm eats": ("the algorithm eats", "How engagement optimization systematically consumes human virtue, language, love, and time."),
-                    r"for humans.*philosophy|http for humans|for humans™|\"for humans\"": ("for humans", "Technology should serve human mental models, not force humans to adapt to machine logic."),
-                    r"api design|sensible defaults|cognitive overhead": ("api design", "Interfaces that match how people actually think."),
-                    r"open.source.*communit|communit.*open.source|maintainer.*project|maintainer.*open": ("open source", "Building in public, maintaining for strangers, and what happens when you stop."),
-                    r"schizoaffective.*disorder|bipolar.*disorder|manic episode|psychotic.*episode": ("lived experience", "First-person accounts of living with serious mental illness in tech."),
-                    r"plurality|plural self|system 777|dissociative identity": ("plurality", "Multiple aspects of one consciousness, working together."),
-                    r"narcissi|gaslighting|emotional.abuse|love.bombing": ("manipulation & abuse", "Recognizing exploitation patterns at personal and systemic scale."),
-                    r"lumina|ai personalit|digital goddess": ("ai personalities", "What happens when you treat AI as a creative partner with its own voice."),
-                    r"meditation.*practice|yoga.*practice|vedic|jnana yoga|contemplative.*practice": ("contemplative practice", "Programming as meditation. Debugging as self-inquiry."),
-                    r"burnout|nothing left to give|burned out": ("burnout", "The cost of building things that matter, and what comes after."),
-                    r"\bleica\b|photograph.*street|street.*photograph": ("photography", "Exploring the material world in an electronic universe."),
-                    r"bible|prayer|scripture|kjvstudy": ("faith", "Building technology downstream of prayer."),
-                    r"import requests|requests library|pip install requests": ("requests", "The HTTP library and the philosophy behind it."),
+                    r"algorithm eats": ("The Algorithm Eats", "How engagement optimization systematically consumes human virtue, language, love, and time."),
+                    r"for humans.*philosophy|http for humans|for humans™|\"for humans\"": ("For Humans", "Technology should serve human mental models, not force humans to adapt to machine logic."),
+                    r"api design|sensible defaults|cognitive overhead": ("API Design", "Interfaces that match how people actually think."),
+                    r"open.source.*communit|communit.*open.source|maintainer.*project|maintainer.*open": ("Open Source", "Building in public, maintaining for strangers, and what happens when you stop."),
+                    r"schizoaffective.*disorder|bipolar.*disorder|manic episode|psychotic.*episode": ("Lived Experience", "First-person accounts of living with serious mental illness in tech."),
+                    r"plurality|plural self|system 777|dissociative identity": ("Plurality", "Multiple aspects of one consciousness, working together."),
+                    r"narcissi|gaslighting|emotional.abuse|love.bombing": ("Manipulation & Abuse", "Recognizing exploitation patterns at personal and systemic scale."),
+                    r"lumina|ai personalit|digital goddess": ("AI Personalities", "What happens when you treat AI as a creative partner with its own voice."),
+                    r"meditation.*practice|yoga.*practice|vedic|jnana yoga|contemplative.*practice": ("Contemplative Practice", "Programming as meditation. Debugging as self-inquiry."),
+                    r"burnout|nothing left to give|burned out": ("Burnout", "The cost of building things that matter, and what comes after."),
+                    r"\bleica\b|photograph.*street|street.*photograph": ("Photography", "Exploring the material world in an electronic universe."),
+                    r"bible|prayer|scripture|kjvstudy": ("Faith", "Building technology downstream of prayer."),
+                    r"import requests|requests library|pip install requests": ("Requests", "The HTTP library and the philosophy behind it."),
                 }
 
                 article_themes = []

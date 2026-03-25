@@ -724,7 +724,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <button class="themes-badge">{{ article_themes|length }} theme{{ 's' if article_themes|length != 1 else '' }}</button>
             <div class="themes-dropdown-content">
                 {% for theme in article_themes %}
-                <a href="/archive/themes#{{ theme.name|replace(' ', '-') }}">{{ theme.name|title }}</a>
+                <a href="/archive/themes#{{ theme.name|replace(' ', '-') }}">{{ theme.name }}</a>
                 {% endfor %}
             </div>
         </div>
