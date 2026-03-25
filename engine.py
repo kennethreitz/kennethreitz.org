@@ -15,7 +15,6 @@ from tuftecms.core.cache import (
 )
 from tuftecms.utils.content import (
     get_directory_structure,
-    find_adjacent_posts,
     extract_intelligent_date,
     generate_folder_icon,
     get_cached_markdown_title,
@@ -102,6 +101,18 @@ class _StaticFilter(logging.Filter):
 
 logging.getLogger("responder.access").addFilter(_StaticFilter())
 logging.getLogger("fontTools.subset").setLevel(logging.WARNING)
+
+# --- Markdown render cache ---
+_render_cache = {}
+
+
+def _cached_render(file_path):
+    """Cache rendered markdown by file path."""
+    key = str(file_path)
+    if key not in _render_cache:
+        _render_cache[key] = render_markdown_file(file_path)
+    return _render_cache[key]
+
 
 # Custom template filters
 api.templates.context["current_year"] = datetime.now().year
@@ -1352,14 +1363,11 @@ async def catch_all(req, resp, *, path):
     # Serve markdown file
     if file_path.exists():
         api.log.info("Serving content: /%s", path)
-        content_data = render_markdown_file(file_path)
+        content_data = _cached_render(file_path)
 
-        # Find adjacent posts and themes for essays
-        prev_post = None
-        next_post = None
+        # Detect themes for essays
         article_themes = []
         if path.startswith("essays/"):
-            prev_post, next_post = find_adjacent_posts(file_path)
 
             # Detect themes for this article
             themes_data = get_themes_cache().get("themes", {})
@@ -1380,8 +1388,6 @@ async def catch_all(req, resp, *, path):
             series_posts=content_data.get("series_posts", []),
             series_name=content_data.get("series_name"),
             unique_icon=content_data.get("unique_icon"),
-            prev_post=prev_post,
-            next_post=next_post,
             article_themes=article_themes,
         )
         return
@@ -1389,7 +1395,7 @@ async def catch_all(req, resp, *, path):
     # Serve directory with index.md
     if dir_path.is_dir() and index_path.exists():
         api.log.info("Serving directory: /%s", path)
-        content_data = render_markdown_file(index_path)
+        content_data = _cached_render(index_path)
         items = get_directory_structure(dir_path)
 
         # Check for image gallery
