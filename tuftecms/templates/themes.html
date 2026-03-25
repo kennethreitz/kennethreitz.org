@@ -6,7 +6,9 @@
 <article>
     <h1>Themes</h1>
     <p class="subtitle">{{ total_themes }} recurring patterns across {{ total_occurrences }} essays</p>
-    
+
+    <p>These themes are detected programmatically — the site scans essay content for recurring patterns and groups them automatically. No manual tagging or curation. What shows up here is what the writing actually returns to, whether I intended it or not. For the hand-curated version, see <a href="/themes">the themes index</a>.</p>
+
     <section>
         {% if themes %}
             {% for theme, data in themes.items() %}
