@@ -2,7 +2,7 @@ init:
 	uv sync
 
 run:
-	uv run uvicorn engine:api --host 0.0.0.0 --port 8000 --reload
+	uv run granian --interface asgi --host 0.0.0.0 --port 8000 --reload engine:api
 
 docker-run:
 	docker-compose up --build

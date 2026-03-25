@@ -14,6 +14,7 @@ dependencies = [
     "pillow>=11.3.0",
     "gunicorn[gevent]>=21.0.0",
     "responder>=3.6.0",
+    "granian>=2.7.2",
 ]
 authors = [
     {name = "Kenneth Reitz", email = "me@kennethreitz.org"}
