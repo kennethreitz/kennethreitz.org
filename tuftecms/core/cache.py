@@ -528,26 +528,23 @@ def get_themes_cache():
                 raw_content = file_path.read_text()
 
                 theme_patterns = {
-                    "consciousness": "Exploring the nature of awareness, identity, and the recursive loop between code and mind.",
-                    "technology": "Human-first approaches to building tools that serve rather than exploit.",
-                    "mental health": "Reality-checking, debugging consciousness, and navigating neurodivergence.",
-                    "programming": "Code as meditation, API design as compassion, and software as spiritual practice.",
-                    "AI": "Human-AI collaboration as partnership, not replacement—augmenting consciousness through digital minds.",
-                    "human centered": "Designing systems that adapt to human mental models rather than forcing humans to adapt.",
-                    "recursive": "The feedback loops between programmer consciousness, code patterns, and collective impact.",
-                    "spiritual": "Technical work as contemplative practice—finding transcendence in systematicity.",
-                    "mindful": "Bringing awareness and intentionality to the craft of building software.",
-                    "contemplative": "Reflective approaches to technology, blending Eastern wisdom with Western pragmatism.",
+                    r"\bconsciousness\b": ("consciousness", "Exploring the nature of awareness, identity, and what it means to be a mind."),
+                    "mental health": ("mental health", "Reality-checking, debugging consciousness, and navigating neurodivergence."),
+                    "programming": ("programming", "Code as craft — API design, software architecture, and the practice of building things."),
+                    "human centered": ("human centered", "Designing systems that adapt to human mental models rather than forcing humans to adapt."),
+                    "recursive loop": ("recursive loop", "The feedback loops between programmer consciousness, code patterns, and collective impact."),
+                    "spiritual practice": ("spiritual practice", "Technical work as contemplative practice — finding transcendence in systematicity."),
+                    "open source": ("open source", "Building in public, maintaining for strangers, and the community that forms around shared tools."),
+                    "algorithm eats": ("algorithmic critique", "How engagement optimization systematically consumes human virtue, language, love, and time."),
+                    "schizoaffective|bipolar|mania|psychosis": ("lived experience", "First-person accounts of living with serious mental illness in tech."),
                 }
 
                 article_themes = []
                 content_lower = raw_content.lower()
 
-                for pattern, description in theme_patterns.items():
-                    # Convert theme name to regex pattern
+                for pattern, (theme_name, description) in theme_patterns.items():
                     regex_pattern = pattern.replace(" ", r"[- ]")
                     if re.search(regex_pattern, content_lower):
-                        theme_name = pattern
                         article_themes.append(theme_name)
 
                         if theme_name not in themes_data:
