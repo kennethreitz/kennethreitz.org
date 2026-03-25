@@ -93,6 +93,11 @@ api = responder.API(
     enable_logging=True,
 )
 
+# --- Rate limiting ---
+from responder.ext.ratelimit import RateLimiter
+
+RateLimiter(requests=120, period=60).install(api)
+
 # Suppress access logging for static assets.
 class _StaticFilter(logging.Filter):
     def filter(self, record):
