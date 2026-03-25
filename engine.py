@@ -797,7 +797,7 @@ async def themes_archive(req, resp):
     themes = themes_data.get("themes", {})
     stats = themes_data.get("stats", {})
 
-    sorted_themes = sorted(themes.items(), key=lambda x: len(x[1]), reverse=True)
+    sorted_themes = sorted(themes.items(), key=lambda x: x[0])
 
     resp.html = render("themes.html", req, "/archive/themes",
         themes=dict(sorted_themes),
