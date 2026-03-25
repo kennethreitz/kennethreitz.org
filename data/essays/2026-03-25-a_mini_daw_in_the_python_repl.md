@@ -44,7 +44,7 @@ bass = score.part(
     synth="sine",
     envelope="pluck",
     volume=0.6,
-    lowpass=800
+    lowpass=800,
 )
 
 bass.add("A2", Duration.HALF).add("D2", Duration.HALF)
@@ -65,7 +65,7 @@ pad = score.part(
     volume=0.3,
     reverb=0.6,
     reverb_decay=2.0,
-    chorus=0.4
+    chorus=0.4,
 )
 
 pad.add("Am", Duration.WHOLE).add("Dm", Duration.WHOLE)
@@ -91,7 +91,7 @@ lead = score.part(
     reverb=0.3,
     delay=0.25,
     delay_time=0.375,
-    lowpass=2000
+    lowpass=2000,
 )
 
 lead.add("E4", Duration.QUARTER)
@@ -127,7 +127,7 @@ lead.lfo(
     min=400,
     max=3000,
     bars=8,
-    shape="sine"
+    shape="sine",
 )
 ```
 
@@ -145,7 +145,7 @@ arp = score.part(
     synth="square",
     envelope="pluck",
     legato=True,
-    glide=0.05
+    glide=0.05,
 )
 
 arp.arpeggio(
@@ -153,7 +153,7 @@ arp.arpeggio(
     bars=2,
     pattern="updown",
     division=Duration.SIXTEENTH,
-    octaves=2
+    octaves=2,
 )
 ```
 
@@ -171,7 +171,7 @@ arp = score.part(
     delay=0.3,
     delay_time=0.375,
     reverb=0.4,
-    lowpass=3500
+    lowpass=3500,
 )
 
 arp.arpeggio("Cm", bars=2, pattern="updown",
