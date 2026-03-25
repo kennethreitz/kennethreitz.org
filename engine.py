@@ -96,7 +96,7 @@ api = responder.API(
 # --- Rate limiting ---
 from responder.ext.ratelimit import RateLimiter
 
-RateLimiter(requests=120, period=60).install(api)
+RateLimiter(requests=600, period=60).install(api)
 
 # Suppress access logging for static assets.
 class _StaticFilter(logging.Filter):
@@ -1373,8 +1373,6 @@ async def catch_all(req, resp, *, path):
         # Detect themes for essays
         article_themes = []
         if path.startswith("essays/"):
-
-            # Detect themes for this article
             themes_data = get_themes_cache().get("themes", {})
             essay_url = f"/essays/{file_path.stem}"
             for theme_name, theme_info in themes_data.items():
