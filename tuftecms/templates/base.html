@@ -786,28 +786,6 @@
                 }
             }
 
-            // Create a simple fallback icon based on text
-            function createFallbackIcon(text) {
-                // Simple hash function for consistent colors
-                let hash = 0;
-                for (let i = 0; i < text.length; i++) {
-                    hash = ((hash << 5) - hash + text.charCodeAt(i)) & 0xffffffff;
-                }
-                
-                // Generate colors based on hash
-                const hue = Math.abs(hash) % 360;
-                const saturation = 60 + (Math.abs(hash >> 8) % 30); // 60-90%
-                const lightness = 45 + (Math.abs(hash >> 16) % 20); // 45-65%
-                
-                // Get first letter of text for simple icon
-                const letter = text.charAt(0).toUpperCase();
-                
-                return `<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="10" cy="10" r="8" fill="hsl(${hue}, ${saturation}%, ${lightness}%)" opacity="0.8"/>
-                    <text x="10" y="14" text-anchor="middle" fill="white" font-family="serif" font-size="11" font-weight="bold">${letter}</text>
-                </svg>`;
-            }
-
             // Load icons for article links at the beginning of paragraphs
             function loadArticleIcons() {
                 // Find all paragraphs that start with a link
@@ -920,36 +898,7 @@
                                         }
                                     }
                                 })
-                                .catch(() => {
-                                    // If API call fails, try to generate a fallback icon based on link text
-                                    const linkText = linkElement.textContent.trim();
-                                    if (linkText) {
-                                        try {
-                                            // Create a simple fallback icon using the link text
-                                            const fallbackIcon = createFallbackIcon(linkText);
-                                            
-                                            const iconContainer = document.createElement('div');
-                                            iconContainer.className = 'article-link-icon fallback';
-                                            iconContainer.style.cssText = `
-                                                display: inline-block;
-                                                width: 20px;
-                                                height: 20px;
-                                                margin-right: 0.75rem;
-                                                margin-left: -2.25rem;
-                                                margin-top: -0.25em;
-                                                vertical-align: middle;
-                                                flex-shrink: 0;
-                                                opacity: 0.6;
-                                            `;
-                                            
-                                            iconContainer.innerHTML = fallbackIcon;
-                                            paragraph.insertBefore(iconContainer, firstElement);
-                                            paragraph.style.position = 'relative';
-                                        } catch (e) {
-                                            // If even fallback fails, just skip
-                                        }
-                                    }
-                                });
+                                .catch(() => {});
                         }
                     }
                 });
