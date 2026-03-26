@@ -17,7 +17,7 @@ print(chord.identify())
 
 You give it fret positions. It tells you what chord you're playing. That's it. That's the trick. And it works with **any tuning**, **any number of strings**, **any instrument** you can model as a fretboard.
 
-I built this library called [PyTheory](https://github.com/kennethreitz/pytheory), and I think it might be the thing I'm most proud of building. More than Requests. More than anything with millions of downloads and corporate adoption and conference talks. This little music theory library that almost nobody uses, that almost seems purposeless, that I built entirely for myself — it's the one.
+I built this library called [PyTheory](https://pytheory.kennethreitz.org) ([source](https://github.com/kennethreitz/pytheory)), and I think it might be the thing I'm most proud of building. More than Requests. More than anything with millions of downloads and corporate adoption and conference talks. This little music theory library that almost nobody uses, that almost seems purposeless, that I built entirely for myself — it's the one.
 
 Let me tell you why.
 

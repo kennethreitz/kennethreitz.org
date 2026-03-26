@@ -189,4 +189,4 @@ I didn't set out to build this. Each feature was just the obvious next thing —
 
 Whether anyone needs a DAW in their Python REPL is a fair question. I don't have a good answer. I just know that I keep opening a terminal at odd hours and sketching ideas in code instead of reaching for Ableton, and that the ideas come out differently when the instrument is a programming language. More structural, maybe. More surprising.
 
-`pip install pytheory`
+`pip install pytheory` — [docs](https://pytheory.kennethreitz.org)
