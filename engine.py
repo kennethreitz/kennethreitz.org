@@ -1028,7 +1028,7 @@ async def api_search_autocomplete(req, resp):
     resp.media = {"results": matches}
 
 
-@api.route("/api/icon/{article_path}")
+@api.route("/api/icon/{article_path:path}")
 async def api_icon(req, resp, *, article_path):
     """Generate and return an SVG icon for a given article."""
     title = article_path  # fallback to path
