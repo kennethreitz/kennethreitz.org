@@ -214,3 +214,7 @@ And that's perfect. Not everything needs to be big. Some of the most meaningful 
 If you play an instrument, or if you're curious about music theory, or if you just want to see what happens when you model beauty in Python — give PyTheory a look. It's `pip install pytheory`. It's for humans.
 
 And if you find a weird chord shape at 2am and you don't know what to call it, now you have a way to ask.
+
+---
+
+**Update:** PyTheory also grew into a mini DAW — drums, synthesis, effects chains, automation, and WAV/MIDI export, all from the REPL. I wrote about that in [A Mini DAW in the Python REPL](/essays/2026-03-25-a_mini_daw_in_the_python_repl).
