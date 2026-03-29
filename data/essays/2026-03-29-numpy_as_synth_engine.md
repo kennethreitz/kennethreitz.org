@@ -203,6 +203,14 @@ I find this genuinely hilarious. And deeply satisfying. And a little bit awe-ins
 
 There's a version of this project where I'd use a C extension for the DSP, or pull in a proper audio synthesis framework, or just use sample libraries like every other sensible person. It would probably sound better. It would certainly be faster. But it wouldn't have this quality that I keep coming back to — the fact that you can read the code and see the physics. The bandpass filter from 200 to 800 Hz *is* the goatskin membrane. The exponential pitch sweep *is* the hand pressing the drumhead. The comb filter *is* the magnetic pickup. The code doesn't just produce the sound; it explains why the sound exists.
 
-I've written about [why PyTheory matters to me](/essays/2026-03-25-pytheory_is_awesome) and [how it grew into a mini DAW](/essays/2026-03-25-a_mini_daw_in_the_python_repl). But this layer — the synthesis layer, the part where pure math becomes sound — is the part that still makes me shake my head. You fill a NumPy array with random numbers, average adjacent values in a loop, and a guitar string comes out the other end.
+## Historical Tunings
 
-I can't believe this works. I built it and I still can't believe it works.
+Here's something you can't do with sample libraries: play a Karplus-Strong guitar string in Pythagorean temperament. Or a tabla in meantone. Or a Hammond organ tuned to just intonation.
+
+Soundfonts are recordings of real instruments at specific pitches — locked to equal temperament, the modern Western tuning standard. If you want to hear what a harpsichord sounded like in 1685 (meantone) or how a raga sounds in its proper intonation (not the 12-TET approximation), you're out of luck. The samples were recorded at fixed frequencies. You can pitch-shift them, but that distorts the timbre.
+
+When everything is computed from math, the frequency is just a parameter. Change it and the physics still work. A Karplus-Strong string at 440 Hz and a Karplus-Strong string at 438.07 Hz (Pythagorean A4) use the same algorithm — the delay line just gets slightly longer. The body resonance still works. The pickup simulation still works. The envelope still works. You're not stretching a recording; you're generating a new one.
+
+This is one of those accidental advantages of doing synthesis from scratch. I didn't plan it. But now I can hear what a Renaissance lute actually sounded like, tuned the way its player would have tuned it — and that's really fun.
+
+I've written about [why PyTheory matters to me](/essays/2026-03-25-pytheory_is_awesome) and [how it grew into a mini DAW](/essays/2026-03-25-a_mini_daw_in_the_python_repl). This layer — the synthesis layer, the part where pure math becomes sound — is really fun.
