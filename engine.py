@@ -1216,9 +1216,11 @@ async def api_docs(req, resp):
 <html><head>
 <title>API — kennethreitz.org</title>
 <meta charset="utf-8">
-<script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist/swagger-ui.css">
+<script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
 </head><body>
-<rapi-doc spec-url="/api/schema" theme="dark" render-style="focused" show-header="false" allow-try="true" primary-color="#888"></rapi-doc>
+<div id="swagger-ui"></div>
+<script>SwaggerUIBundle({url: "/api/schema", dom_id: "#swagger-ui", deepLinking: true, presets: [SwaggerUIBundle.presets.apis, SwaggerUIBundle.SwaggerUIStandalonePreset], layout: "BaseLayout"});</script>
 </body></html>"""
 
 
