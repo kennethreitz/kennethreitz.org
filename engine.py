@@ -1184,21 +1184,28 @@ async def api_themes(req, resp):
 
 @api.route("/api/schema")
 async def api_schema(req, resp):
-    """Serve OpenAPI schema as JSON."""
+    """Serve auto-generated OpenAPI schema from registered routes."""
+    paths = {}
+    skip = {"catch_all", "serve_static", "serve_data_file", "api_schema", "api_docs"}
+    for r in api.router.routes:
+        fn = getattr(r, "endpoint", None)
+        route = getattr(r, "route", None)
+        if not fn or not route or fn.__name__ in skip:
+            continue
+        doc = (fn.__doc__ or fn.__name__.replace("_", " ").title()).split("\n")[0].strip()
+        params = []
+        for part in route.split("/"):
+            if part.startswith("{") and part.endswith("}"):
+                name = part.strip("{}").split(":")[0]
+                params.append({"name": name, "in": "path", "required": True, "schema": {"type": "string"}})
+        entry = {"get": {"summary": doc}}
+        if params:
+            entry["get"]["parameters"] = params
+        paths[route] = entry
     resp.media = {
         "openapi": "3.0.0",
-        "info": {"title": "kennethreitz.org", "version": "1.0", "description": "API for kennethreitz.org"},
-        "paths": {
-            "/api/search": {"get": {"summary": "Full-site search", "parameters": [{"name": "q", "in": "query", "required": True, "schema": {"type": "string"}}]}},
-            "/api/search/autocomplete": {"get": {"summary": "Title-based autocomplete", "parameters": [{"name": "q", "in": "query", "required": True, "schema": {"type": "string"}}]}},
-            "/api/blog": {"get": {"summary": "Essay listing"}},
-            "/api/themes": {"get": {"summary": "Theme listing with icons"}},
-            "/api/directory-tree": {"get": {"summary": "Site directory structure"}},
-            "/api/icon/{path}": {"get": {"summary": "Generated SVG icon", "parameters": [{"name": "path", "in": "path", "required": True, "schema": {"type": "string"}}]}},
-            "/api/cache-stats": {"get": {"summary": "Cache performance metrics"}},
-            "/health": {"get": {"summary": "Health check"}},
-            "/feed.xml": {"get": {"summary": "RSS feed"}},
-        },
+        "info": {"title": "kennethreitz.org", "version": "1.0"},
+        "paths": paths,
     }
 
 
