@@ -93,9 +93,6 @@ api = responder.API(
     enable_logging=True,
     title="kennethreitz.org",
     description="API for kennethreitz.org",
-    openapi_route="/api/schema.yml",
-    docs_route="/api",
-    openapi_theme="elements",
 )
 
 # --- Rate limiting ---
@@ -1183,6 +1180,96 @@ async def api_themes(req, resp):
             icon = generate_unique_svg_icon(title, size=18)
             items.append({"name": title, "path": f"/themes/{f.stem}", "icon": icon})
     resp.media = {"themes": items}
+
+
+@api.route("/api")
+async def api_docs(req, resp):
+    """Serve interactive API documentation."""
+    resp.html = """<!DOCTYPE html>
+<html><head>
+<title>API — kennethreitz.org</title>
+<meta charset="utf-8">
+<script src="https://unpkg.com/@stoplight/elements/web-components.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@stoplight/elements/styles.min.css">
+</head><body>
+<elements-api apiDescriptionDocument='
+openapi: "3.0.0"
+info:
+  title: kennethreitz.org
+  version: "1.0"
+  description: API for kennethreitz.org
+paths:
+  /api/search:
+    get:
+      summary: Full-site search
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: Search results with scoring
+  /api/search/autocomplete:
+    get:
+      summary: Title-based autocomplete
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: Up to 8 title matches with icons
+  /api/blog:
+    get:
+      summary: Essay listing
+      responses:
+        "200":
+          description: All essays with titles, URLs, and icons
+  /api/themes:
+    get:
+      summary: Theme listing
+      responses:
+        "200":
+          description: Theme pages with icons
+  /api/directory-tree:
+    get:
+      summary: Site directory structure
+      responses:
+        "200":
+          description: Top-level content tree with icons
+  /api/icon/{path}:
+    get:
+      summary: Generated SVG icon
+      parameters:
+        - name: path
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: SVG icon data for content path
+  /api/cache-stats:
+    get:
+      summary: Cache performance metrics
+      responses:
+        "200":
+          description: Cache hit/miss statistics
+  /health:
+    get:
+      summary: Health check
+      responses:
+        "200":
+          description: Service health status
+  /feed.xml:
+    get:
+      summary: RSS feed
+      responses:
+        "200":
+          description: RSS 2.0 feed of recent essays
+' router="hash" layout="sidebar" />
+</body></html>"""
 
 
 # --- Data file serving ---
