@@ -29,7 +29,7 @@ If the developer feels stupid, the API is wrong.
 
 ## Other Projects
 
-- [**kjvstudy.org**](https://kjvstudy.org) — A free digital study Bible built with AI. [Read about how it was made](/essays/2026-03-20-building_a_digital_study_bible_with_ai).
+- [**kjvstudy.org**](/software/kjvstudy) — A free digital study Bible built with AI. [Read about how it was made](/essays/2026-03-20-building_a_digital_study_bible_with_ai).
 - [**httpbin.org**](https://httpbin.org) — HTTP request and response testing service.
 - [**kennethreitz.org**](https://github.com/kennethreitz/kennethreitz.org) — This website. Now powered by [Responder](/software/responder). [Open source](https://github.com/kennethreitz/kennethreitz.org).
 

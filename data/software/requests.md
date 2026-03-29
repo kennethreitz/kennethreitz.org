@@ -81,7 +81,7 @@ Every method does what you'd expect. Every default is sensible. Every error mess
 
 I was twenty-one when I wrote the first version of Requests. I had no degree, no credentials, no professional network. I was [working at McDonald's](/essays/2026-03-06-the_coworking_space_saved_my_life) the year before. The library became the standard because it solved a real problem simply, and the community recognized it.
 
-That experience became the foundation for everything I've built since. The "for humans" philosophy started as API design and became a [life philosophy](/essays/2025-08-27-from_http_to_consciousness). It shaped how I think about [marriage](/essays/2026-03-06-what_requests_taught_me_about_marriage), [mental health tools](/essays/2026-03-18-designing_for_the_worst_day), [Bible study applications](https://kjvstudy.org), and [what we owe each other when we build things people think through](/essays/2026-03-20-the_interface_is_the_subconscious).
+That experience became the foundation for everything I've built since. The "for humans" philosophy started as API design and became a [life philosophy](/essays/2025-08-27-from_http_to_consciousness). It shaped how I think about [marriage](/essays/2026-03-06-what_requests_taught_me_about_marriage), [mental health tools](/essays/2026-03-18-designing_for_the_worst_day), [Bible study applications](/software/kjvstudy), and [what we owe each other when we build things people think through](/essays/2026-03-20-the_interface_is_the_subconscious).
 
 It also [nearly broke me](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give). The same intensity that produced Requests produced the conditions for my worst mental health crises. The engine was the same. It just had two outputs.
 
