@@ -2,7 +2,7 @@
 
 Requests is the most downloaded Python package on Earth. Over 30 million installs a day. It exists because urllib2 was hostile to humans, and HTTP shouldn't be.
 
-    $ uv pip install requests
+    $ uv add requests
 
 ## What It Looks Like
 
@@ -90,7 +90,7 @@ It also [nearly broke me](/essays/2026-03-18-open_source_gave_me_everything_unti
 ## Install
 
 ```bash
-$ uv pip install requests
+$ uv add requests
 ```
 
 ## Resources

@@ -2,7 +2,7 @@
 
 Records is a simple library for making raw SQL queries to most relational databases. It's powered by SQLAlchemy, but you'd never know it. No ORM. No models. Just SQL in, results out.
 
-    $ uv pip install records
+    $ uv add records
 
 ## What It Looks Like
 
@@ -63,14 +63,14 @@ Records is proof that not everything needs to be an ORM. Sometimes the most powe
 ## Install
 
 ```bash
-$ uv pip install records
+$ uv add records
 ```
 
 Database drivers are not included. Install the one you need:
 
 ```bash
-$ uv pip install psycopg2    # PostgreSQL
-$ uv pip install pymysql      # MySQL
+$ uv add psycopg2    # PostgreSQL
+$ uv add pymysql      # MySQL
 ```
 
 ## Resources

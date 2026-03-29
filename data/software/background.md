@@ -2,7 +2,7 @@
 
 Background lets you run Python functions in background threads with a single decorator. No task queue. No message broker. No configuration. Just `@background.task` and you're done.
 
-    $ uv pip install background
+    $ uv add background
 
 ## What It Looks Like
 
@@ -58,7 +58,7 @@ The project was gifted to [Parth Shandilya](https://github.com/ParthS007), who n
 ## Install
 
 ```bash
-$ uv pip install background
+$ uv add background
 ```
 
 ## Resources

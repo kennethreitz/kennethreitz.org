@@ -2,7 +2,7 @@
 
 PyTheory is a Python library for exploring music theory and making music computationally. Notes, scales, chords, fretboards, drum patterns, synthesis, effects, sequencing, and export — all from the Python REPL.
 
-    $ pip install pytheory
+    $ uv add pytheory
 
 ## Theory
 
@@ -115,7 +115,7 @@ The "for humans" philosophy applied to a domain where the theory has always been
 ## Install
 
 ```bash
-$ pip install pytheory
+$ uv add pytheory
 ```
 
 ## Resources

@@ -2,7 +2,7 @@
 
 Delegator is a Python library for running shell commands without fighting `subprocess`. One function call. Real piping. Sane defaults.
 
-    $ uv pip install delegator.py
+    $ uv add delegator.py
 
 ## What It Looks Like
 
@@ -77,7 +77,7 @@ The project was gifted to [Amit Tripathi](https://github.com/amitt001), who now 
 ## Install
 
 ```bash
-$ uv pip install delegator.py
+$ uv add delegator.py
 ```
 
 ## Resources

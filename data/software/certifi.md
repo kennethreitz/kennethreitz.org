@@ -2,7 +2,7 @@
 
 Certifi provides Mozilla's carefully curated CA certificate bundle for Python. It exists because SSL verification in Python was broken, and security shouldn't require a PhD in certificate management.
 
-    $ uv pip install certifi
+    $ uv add certifi
 
 ## What It Looks Like
 
@@ -46,7 +46,7 @@ There's a lesson in that. Sometimes the most impactful work is the least visible
 ## Install
 
 ```bash
-$ uv pip install certifi
+$ uv add certifi
 ```
 
 ## Resources

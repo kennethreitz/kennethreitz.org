@@ -2,7 +2,7 @@
 
 SimpleMind is a Python library that gives you one clean interface to every major AI provider. OpenAI, Anthropic, Google, and others — all through the same API. Switch models by changing a string, not rewriting your code.
 
-    $ uv pip install simplemind
+    $ uv add simplemind
 
 ## What It Looks Like
 
@@ -103,7 +103,7 @@ It's also deeply personal. AI collaboration has become central to how I think an
 ## Install
 
 ```bash
-$ uv pip install simplemind
+$ uv add simplemind
 ```
 
 Set your API keys as environment variables:

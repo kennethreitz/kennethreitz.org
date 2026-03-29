@@ -2,7 +2,7 @@
 
 Responder is a web framework for Python that flips [Requests](/software/requests) inside out. If Requests is how you consume HTTP, Responder is how you serve it — using the same mental model.
 
-    $ uv pip install responder
+    $ uv add responder
 
 ## What It Looks Like
 
@@ -78,14 +78,14 @@ Background tasks, GraphQL, WebSockets, OpenAPI docs, and Jinja2 templates — al
 
 I wanted to take the API primitives from Requests and put them into a web framework. The niceties of Flask and the performance philosophy of Falcon, unified with a Requests-like interface for responses. Setting `resp.content` sends bytes. Setting `resp.media` sends JSON. Case-insensitive headers. Familiar status codes. If you know Requests, you already know half of Responder.
 
-It was a bit ahead of its time. Some of these ideas — automatic async handling, type-aware serialization, built-in OpenAPI — showed up later in FastAPI, which I'd recommend for production use today. Responder was always more of an experiment in API design than a production framework. But as an exercise in "what if the server-side felt like the client-side?" I think it holds up.
+It was a bit ahead of its time. Some of these ideas — automatic async handling, type-aware serialization, built-in OpenAPI — showed up later in FastAPI, which I'd recommend for production use today. But Responder is back in active development, and [this site runs on it](/colophon). The experiment became the production framework after all.
 
 The deeper question Responder tried to answer: why do we accept that consuming an API and serving an API should feel like completely different activities? They're the same protocol. The mental model should be the same.
 
 ## Install
 
 ```bash
-$ uv pip install responder
+$ uv add responder
 ```
 
 ## Resources

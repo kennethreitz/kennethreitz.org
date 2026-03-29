@@ -2,7 +2,7 @@
 
 Tablib is a format-agnostic tabular dataset library for Python. Create a dataset once, export it to CSV, JSON, Excel, YAML, or a pandas DataFrame. The data stays the same. The format is up to you.
 
-    $ uv pip install tablib
+    $ uv add tablib
 
 ## What It Looks Like
 
@@ -64,16 +64,16 @@ Now maintained by the [Jazzband](https://jazzband.co/) community, which is a mod
 ## Install
 
 ```bash
-$ uv pip install tablib
+$ uv add tablib
 ```
 
 For specific format support:
 
 ```bash
-$ uv pip install tablib[xlsx]    # Excel support
-$ uv pip install tablib[yaml]    # YAML support
-$ uv pip install tablib[pandas]  # DataFrame support
-$ uv pip install tablib[all]     # Everything
+$ uv add tablib[xlsx]    # Excel support
+$ uv add tablib[yaml]    # YAML support
+$ uv add tablib[pandas]  # DataFrame support
+$ uv add tablib[all]     # Everything
 ```
 
 ## Resources

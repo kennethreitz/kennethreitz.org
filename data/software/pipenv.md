@@ -2,7 +2,7 @@
 
 Pipenv brings together `pip` and `virtualenv` into a single tool that manages your project's dependencies the way you actually think about them. No more juggling `requirements.txt` files and manually activating virtual environments.
 
-    $ uv pip install pipenv
+    $ uv add pipenv
 
 ## What It Looks Like
 
@@ -72,7 +72,7 @@ That's exactly how open source should work. You plant a flag that says "this exp
 ## Install
 
 ```bash
-$ uv pip install pipenv
+$ uv add pipenv
 ```
 
 ## Resources

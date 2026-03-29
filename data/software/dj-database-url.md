@@ -2,7 +2,7 @@
 
 A simple Django utility that lets you configure your database with a single environment variable. Born at Heroku, where every twelve-factor app needed this and nothing provided it.
 
-    $ uv pip install dj-database-url
+    $ uv add dj-database-url
 
 ## What It Looks Like
 
@@ -76,7 +76,7 @@ Now maintained by the [Jazzband](https://jazzband.co/) community.
 ## Install
 
 ```bash
-$ uv pip install dj-database-url
+$ uv add dj-database-url
 ```
 
 ## Resources

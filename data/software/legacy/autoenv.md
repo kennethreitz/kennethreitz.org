@@ -3,7 +3,7 @@
 You can install `autoenv` using `pip` or `uv`, but you should likely use `direnv` instead. It's a superior project, these days.
 
 ```bash
-$ uv pip install autoenv
+$ uv add autoenv
 ```
 
 ## Usage

@@ -2,7 +2,7 @@
 
 Maya makes datetimes easy in Python. No more guessing which datetime class to use, no more timezone bugs at 2am, no more Googling strftime format codes for the hundredth time.
 
-    $ uv pip install maya
+    $ uv add maya
 
 ## What It Looks Like
 
@@ -64,7 +64,7 @@ This library tries to make that kind of understanding accessible. Not the comple
 ## Install
 
 ```bash
-$ uv pip install maya
+$ uv add maya
 ```
 
 ## Resources

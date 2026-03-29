@@ -2,7 +2,7 @@
 
 Legit is a command-line tool that adds a layer of sanity to everyday Git workflows. It wraps the most common branch operations into simple, memorable commands.
 
-    $ uv pip install legit
+    $ uv add legit
 
 ## What It Looks Like
 
@@ -52,7 +52,7 @@ Many thanks to [Frost Ming](https://github.com/frostming) for maintaining this p
 ## Install
 
 ```bash
-$ uv pip install legit
+$ uv add legit
 ```
 
 Also available via Homebrew:
