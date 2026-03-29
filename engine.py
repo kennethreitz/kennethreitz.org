@@ -91,6 +91,10 @@ api = responder.API(
     static_dir="tuftecms/static",
     static_route="/static",
     enable_logging=True,
+    title="kennethreitz.org",
+    description="API for kennethreitz.org",
+    docs_route="/api",
+    openapi_theme="swagger_ui",
 )
 
 # --- Rate limiting ---
