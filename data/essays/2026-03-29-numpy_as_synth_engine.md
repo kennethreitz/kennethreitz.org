@@ -213,4 +213,4 @@ When everything is computed from math, the frequency is just a parameter. Change
 
 This is one of those accidental advantages of doing synthesis from scratch. I didn't plan it. But now I can hear what a Renaissance lute actually sounded like, tuned the way its player would have tuned it — and that's really fun.
 
-I've written about [why PyTheory matters to me](/essays/2026-03-25-pytheory_is_awesome) and [how it grew into a mini DAW](/essays/2026-03-25-a_mini_daw_in_the_python_repl). This layer — the synthesis layer, the part where pure math becomes sound — is really fun.
+I've written about [why PyTheory matters to me](/essays/2026-03-25-pytheory_is_awesome) and [how it grew into a mini DAW](/essays/2026-03-25-a_mini_daw_in_the_python_repl). The synthesis layer is really fun.
