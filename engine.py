@@ -1192,6 +1192,8 @@ async def api_schema(req, resp):
         route = getattr(r, "route", None)
         if not fn or not route or fn.__name__ in skip:
             continue
+        if not route.startswith("/api"):
+            continue
         doc = (fn.__doc__ or fn.__name__.replace("_", " ").title()).split("\n")[0].strip()
         params = []
         for part in route.split("/"):
