@@ -1182,6 +1182,26 @@ async def api_themes(req, resp):
     resp.media = {"themes": items}
 
 
+@api.route("/api/schema")
+async def api_schema(req, resp):
+    """Serve OpenAPI schema as JSON."""
+    resp.media = {
+        "openapi": "3.0.0",
+        "info": {"title": "kennethreitz.org", "version": "1.0", "description": "API for kennethreitz.org"},
+        "paths": {
+            "/api/search": {"get": {"summary": "Full-site search", "parameters": [{"name": "q", "in": "query", "required": True, "schema": {"type": "string"}}]}},
+            "/api/search/autocomplete": {"get": {"summary": "Title-based autocomplete", "parameters": [{"name": "q", "in": "query", "required": True, "schema": {"type": "string"}}]}},
+            "/api/blog": {"get": {"summary": "Essay listing"}},
+            "/api/themes": {"get": {"summary": "Theme listing with icons"}},
+            "/api/directory-tree": {"get": {"summary": "Site directory structure"}},
+            "/api/icon/{path}": {"get": {"summary": "Generated SVG icon", "parameters": [{"name": "path", "in": "path", "required": True, "schema": {"type": "string"}}]}},
+            "/api/cache-stats": {"get": {"summary": "Cache performance metrics"}},
+            "/health": {"get": {"summary": "Health check"}},
+            "/feed.xml": {"get": {"summary": "RSS feed"}},
+        },
+    }
+
+
 @api.route("/api")
 async def api_docs(req, resp):
     """Serve interactive API documentation."""
@@ -1189,86 +1209,10 @@ async def api_docs(req, resp):
 <html><head>
 <title>API — kennethreitz.org</title>
 <meta charset="utf-8">
-<script src="https://unpkg.com/@stoplight/elements/web-components.min.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/@stoplight/elements/styles.min.css">
+<script src="https://unpkg.com/redoc@latest/bundles/redoc.standalone.js"></script>
 </head><body>
-<elements-api apiDescriptionDocument='
-openapi: "3.0.0"
-info:
-  title: kennethreitz.org
-  version: "1.0"
-  description: API for kennethreitz.org
-paths:
-  /api/search:
-    get:
-      summary: Full-site search
-      parameters:
-        - name: q
-          in: query
-          required: true
-          schema: { type: string }
-      responses:
-        "200":
-          description: Search results with scoring
-  /api/search/autocomplete:
-    get:
-      summary: Title-based autocomplete
-      parameters:
-        - name: q
-          in: query
-          required: true
-          schema: { type: string }
-      responses:
-        "200":
-          description: Up to 8 title matches with icons
-  /api/blog:
-    get:
-      summary: Essay listing
-      responses:
-        "200":
-          description: All essays with titles, URLs, and icons
-  /api/themes:
-    get:
-      summary: Theme listing
-      responses:
-        "200":
-          description: Theme pages with icons
-  /api/directory-tree:
-    get:
-      summary: Site directory structure
-      responses:
-        "200":
-          description: Top-level content tree with icons
-  /api/icon/{path}:
-    get:
-      summary: Generated SVG icon
-      parameters:
-        - name: path
-          in: path
-          required: true
-          schema: { type: string }
-      responses:
-        "200":
-          description: SVG icon data for content path
-  /api/cache-stats:
-    get:
-      summary: Cache performance metrics
-      responses:
-        "200":
-          description: Cache hit/miss statistics
-  /health:
-    get:
-      summary: Health check
-      responses:
-        "200":
-          description: Service health status
-  /feed.xml:
-    get:
-      summary: RSS feed
-      responses:
-        "200":
-          description: RSS 2.0 feed of recent essays
-' router="hash" layout="sidebar" />
+<div id="redoc"></div>
+<script>Redoc.init("/api/schema", {theme: {colors: {primary: {main: '#333'}}}}, document.getElementById("redoc"));</script>
 </body></html>"""
 
 
