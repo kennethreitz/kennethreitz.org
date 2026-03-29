@@ -93,7 +93,8 @@ api = responder.API(
     enable_logging=True,
     title="kennethreitz.org",
     description="API for kennethreitz.org",
-    docs_route="/api",
+    openapi_route="/api/schema.yml",
+    docs_route="/api/docs",
     openapi_theme="swagger_ui",
 )
 
