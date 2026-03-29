@@ -1209,10 +1209,9 @@ async def api_docs(req, resp):
 <html><head>
 <title>API — kennethreitz.org</title>
 <meta charset="utf-8">
-<script src="https://unpkg.com/redoc@latest/bundles/redoc.standalone.js"></script>
+<script src="https://unpkg.com/rapidoc/dist/rapidoc-min.js"></script>
 </head><body>
-<div id="redoc"></div>
-<script>Redoc.init("/api/schema", {theme: {colors: {primary: {main: '#333'}}}}, document.getElementById("redoc"));</script>
+<rapi-doc spec-url="/api/schema" theme="dark" render-style="focused" show-header="false" allow-try="true" primary-color="#888"></rapi-doc>
 </body></html>"""
 
 
