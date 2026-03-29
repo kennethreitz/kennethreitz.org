@@ -1,52 +1,86 @@
 # PyTheory: Music Theory for Humans
 
-PyTheory is a Python library for exploring music theory computationally. Notes, scales, chords, intervals, and temperaments, all represented as Python objects you can inspect and manipulate.
+PyTheory is a Python library for exploring music theory and making music computationally. Notes, scales, chords, fretboards, drum patterns, synthesis, effects, sequencing, and export — all from the Python REPL.
 
-    $ uv pip install pytheory
+    $ pip install pytheory
 
-## What It Looks Like
+## Theory
 
 ```python
-from pytheory import TonedScale
+from pytheory import TonedScale, Chord, Fretboard, Key
 
-# Create a C minor scale.
-c_minor = TonedScale(tonic="C4")["minor"]
-print(c_minor)
-# <Scale I=C4 II=D4 III=Eb4 IV=F4 V=G4 VI=Ab4 VII=Bb5 VIII=C5>
+# Scales across six musical systems.
+c_major = TonedScale(tonic="C4")["major"]
+hijaz = TonedScale(tonic="Do4", system="arabic")["hijaz"]
+bhairav = TonedScale(tonic="Sa4", system="indian")["bhairav"]
 
-# Get the frequency of a note.
-c_minor[0].pitch()
-# 523.251130601197
+# Chord detection from guitar fingerings.
+fb = Fretboard.guitar()
+chord = fb.fingering(0, 1, 0, 2, 3, 0).to_chord(fb)
+print(chord.identify())  # 'C major'
 
-# Get the symbolic pitch representation.
-c_minor["I"].pitch(symbolic=True)
-# 440*2**(1/4)
+# 25 instrument presets — guitar, bass, oud, sitar, shamisen, erhu...
+oud = Fretboard.oud()
+banjo = Fretboard.banjo()
 
-# Try Pythagorean temperament.
-c_minor["tonic"].pitch(temperament="pythagorean", symbolic=True)
-# 14080/27
+# Key detection.
+key = Key.detect("C", "E", "G", "A", "D")  # <Key C major>
 ```
 
-Play notes directly from the command line:
+## Composition
 
-```bash
-$ pytheory play C4 E4 G4
+```python
+from pytheory import Score, Duration, Pattern, play_score
+
+score = Score("4/4", bpm=140)
+
+# 58 drum presets, all synthesized from scratch.
+score.drums("bossa nova", repeats=4)
+
+# Parts with per-voice synth, envelope, and effects.
+bass = score.part("bass", synth="sine", envelope="pluck",
+                  volume=0.6, lowpass=800)
+bass.add("A2", Duration.HALF).add("D2", Duration.HALF)
+
+pad = score.part("pad", synth="supersaw", envelope="pad",
+                 volume=0.3, reverb=0.6, chorus=0.4)
+pad.add("Am", Duration.WHOLE).add("Dm", Duration.WHOLE)
+
+lead = score.part("lead", synth="saw", envelope="pluck",
+                  reverb=0.3, delay=0.25, lowpass=2000)
+lead.add("E4", Duration.QUARTER).add("G4", Duration.QUARTER)
+lead.set(lowpass=3000)  # mid-song automation
+lead.add("A4", Duration.HALF)
+
+# LFO automation.
+lead.lfo("lowpass", rate=0.125, min=400, max=3000, bars=8)
+
+# Arpeggiator with legato and portamento.
+arp = score.part("arp", synth="square", envelope="pluck",
+                 legato=True, glide=0.05)
+arp.arpeggio("Cm", bars=2, pattern="updown",
+             division=Duration.SIXTEENTH, octaves=2)
+
+play_score(score)
+
+# Export.
+score.save_midi("track.mid")
 ```
 
-The `symbolic` parameter is the part I find most fascinating. Instead of just calculating a frequency, it shows you the mathematical relationship. Music is math made audible, and PyTheory lets you see both sides.
+10 synth waveforms. 8 ADSR envelopes. 27 synthesized drum sounds. Effects chain per part: distortion, chorus, lowpass, delay, reverb. WAV and MIDI export.
 
 ## The Story
 
-This project is highly experimental. It's more of a thought exercise than a production library. I built it to explore how music theory concepts translate into code, and it ended up teaching me more about music theory than any textbook.
+I built this for myself. Nobody asked for it. There's no market for a Python music theory library. But it sits at the intersection of my two longest-running interests — programming and music — and working on it feels like the reason I learned to code in the first place.
 
-Scales become lists you can index. Intervals become arithmetic. Temperaments become parameters. When you can query a chord the same way you'd query a database, the underlying structure of music becomes tangible in a way that sheet notation doesn't capture.
+It started as scales and chords. Then I wanted to hear what I was modeling, so I added synthesis. Then drums, effects, automation, sequencing. Each step was the obvious next thing, and the architecture absorbed it without complaining.
 
-It sits at the intersection of my two longest-running interests: programming and music. The "for humans" philosophy applied to a domain where the theory has always been more intimidating than the practice.
+The "for humans" philosophy applied to a domain where the theory has always been more intimidating than the practice.
 
 ## Install
 
 ```bash
-$ uv pip install pytheory
+$ pip install pytheory
 ```
 
 ## Resources
@@ -57,6 +91,6 @@ $ uv pip install pytheory
 
 ## Related
 
+- [**PyTheory Is Awesome**](/essays/2026-03-25-pytheory_is_awesome) — On chord detection, world music systems, and why the quietest library means the most.
+- [**A Mini DAW in the Python REPL**](/essays/2026-03-25-a_mini_daw_in_the_python_repl) — Building a track from scratch with drums, synthesis, effects, and automation.
 - [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — The full story of how this library came together.
-- [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — Code as a lens for understanding the world.
-- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — The "for humans" philosophy applied beyond software.
