@@ -38,16 +38,33 @@ score = Score("4/4", bpm=140)
 score.drums("bossa nova", repeats=4)
 
 # Parts with per-voice synth, envelope, and effects.
-bass = score.part("bass", synth="sine", envelope="pluck",
-                  volume=0.6, lowpass=800)
+bass = score.part(
+    "bass",
+    synth="sine",
+    envelope="pluck",
+    volume=0.6,
+    lowpass=800,
+)
 bass.add("A2", Duration.HALF).add("D2", Duration.HALF)
 
-pad = score.part("pad", synth="supersaw", envelope="pad",
-                 volume=0.3, reverb=0.6, chorus=0.4)
+pad = score.part(
+    "pad",
+    synth="supersaw",
+    envelope="pad",
+    volume=0.3,
+    reverb=0.6,
+    chorus=0.4,
+)
 pad.add("Am", Duration.WHOLE).add("Dm", Duration.WHOLE)
 
-lead = score.part("lead", synth="saw", envelope="pluck",
-                  reverb=0.3, delay=0.25, lowpass=2000)
+lead = score.part(
+    "lead",
+    synth="saw",
+    envelope="pluck",
+    reverb=0.3,
+    delay=0.25,
+    lowpass=2000,
+)
 lead.add("E4", Duration.QUARTER).add("G4", Duration.QUARTER)
 lead.set(lowpass=3000)  # mid-song automation
 lead.add("A4", Duration.HALF)
@@ -56,10 +73,20 @@ lead.add("A4", Duration.HALF)
 lead.lfo("lowpass", rate=0.125, min=400, max=3000, bars=8)
 
 # Arpeggiator with legato and portamento.
-arp = score.part("arp", synth="square", envelope="pluck",
-                 legato=True, glide=0.05)
-arp.arpeggio("Cm", bars=2, pattern="updown",
-             division=Duration.SIXTEENTH, octaves=2)
+arp = score.part(
+    "arp",
+    synth="square",
+    envelope="pluck",
+    legato=True,
+    glide=0.05,
+)
+arp.arpeggio(
+    "Cm",
+    bars=2,
+    pattern="updown",
+    division=Duration.SIXTEENTH,
+    octaves=2,
+)
 
 play_score(score)
 
