@@ -94,8 +94,8 @@ api = responder.API(
     title="kennethreitz.org",
     description="API for kennethreitz.org",
     openapi_route="/api/schema.yml",
-    docs_route="/api/docs",
-    openapi_theme="swagger_ui",
+    docs_route="/api",
+    openapi_theme="elements",
 )
 
 # --- Rate limiting ---
