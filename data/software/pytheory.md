@@ -96,6 +96,14 @@ score.save_midi("track.mid")
 
 10 synth waveforms. 8 ADSR envelopes. 27 synthesized drum sounds. Effects chain per part: distortion, chorus, lowpass, delay, reverb. WAV and MIDI export.
 
+## No Samples
+
+Every sound in PyTheory is generated mathematically — there are no sample libraries, no WAV files, no audio assets bundled with the package. Just NumPy and SciPy.
+
+This includes the tabla. Each tabla stroke — Na, Tin, Ge, Dha, Tit, Ke — is modeled from its physical components: goatskin membrane thuds through bandpass-filtered noise, wooden or copper shell resonance as tuned sine waves, syahi ring harmonics at specific frequencies with independent decay rates, finger attack transients shaped by exponential envelopes. The Ge stroke alone layers a membrane thud (40-250 Hz bandpass noise), metal shell resonance (120 Hz sine), a pitch-sweeping body (55→155 Hz exponential curve with phase accumulation), a sub-frequency boom (40 Hz), and a palm attack transient — all summed and soft-clipped through tanh.
+
+The same approach applies to every instrument: kick drums use pitch-swept oscillators, snares layer tuned sine waves with shaped noise bursts, congas model membrane tension and slap transients. It's all waveforms, filters, and envelopes. No recordings of real instruments anywhere.
+
 ## The Story
 
 I built this for myself. Nobody asked for it. There's no market for a Python music theory library. But it sits at the intersection of my two longest-running interests — programming and music — and working on it feels like the reason I learned to code in the first place.
