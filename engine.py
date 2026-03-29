@@ -1198,10 +1198,15 @@ async def api_schema(req, resp):
             if part.startswith("{") and part.endswith("}"):
                 name = part.strip("{}").split(":")[0]
                 params.append({"name": name, "in": "path", "required": True, "schema": {"type": "string"}})
-        entry = {"get": {"summary": doc}}
+        op = {"summary": doc, "responses": {"200": {"description": "OK"}}}
         if params:
-            entry["get"]["parameters"] = params
-        paths[route] = entry
+            op["parameters"] = params
+        # Detect query params from docstring hints or known routes
+        if "search" in route and "q" not in [p["name"] for p in params]:
+            op.setdefault("parameters", []).append(
+                {"name": "q", "in": "query", "required": True, "schema": {"type": "string"}}
+            )
+        paths[route] = {"get": op}
     resp.media = {
         "openapi": "3.0.0",
         "info": {"title": "kennethreitz.org", "version": "1.0"},
