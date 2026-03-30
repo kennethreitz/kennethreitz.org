@@ -9,7 +9,7 @@ You can see [the code that generated this song](https://github.com/kennethreitz/
 
 Every sound you hear — every plucked sitar string, every tabla stroke, every tambora drone — is computed at runtime from math. Sine waves, noise, filters, envelopes. NumPy arrays are the synth engine.
 
-I still can't quite believe it works.
+I still can't quite believe how well this works.
 
 **A note:** *I built the synthesis engine with help from Claude. I'm learning DSP as I go.*
 
