@@ -3,7 +3,7 @@
 
 There are zero audio files in [PyTheory](https://pytheory.kennethreitz.org). No samples. No recordings. Not one byte of pre-recorded sound anywhere in the repository.
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/kennethreitz/raga_midnight&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/kennethreitz/raga_midnight&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&show_artwork=false&visual=false"></iframe>
 
 You can see [the code that generated this song](https://github.com/kennethreitz/interpretations/blob/main/tracks/raga_midnight.py).
 
