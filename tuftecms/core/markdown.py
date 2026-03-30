@@ -33,6 +33,21 @@ def _process_oembed(html):
         url = match.group(1)
         if url in _oembed_cache:
             return _oembed_cache[url]
+
+        # SoundCloud: use compact mini player instead of oEmbed default
+        if re.match(r"https?://(?:www\.)?soundcloud\.com/.+", url):
+            encoded = urllib.request.quote(url, safe="")
+            embed = (
+                f'<iframe width="100%" height="20" scrolling="no" frameborder="no"'
+                f' src="https://w.soundcloud.com/player/?url={encoded}'
+                f'&color=%23333333&auto_play=false&hide_related=true'
+                f'&show_comments=false&show_user=false&show_reposts=false'
+                f'&show_teaser=false&show_artwork=false&visual=false"></iframe>'
+            )
+            _oembed_cache[url] = embed
+            return embed
+
+        # Everything else: use oEmbed API
         for pattern, endpoint in _OEMBED_PROVIDERS.items():
             if re.match(pattern, url):
                 try:
