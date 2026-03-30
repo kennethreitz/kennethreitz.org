@@ -13,6 +13,51 @@ from ..utils.content import (
 )
 
 
+# oEmbed providers and their endpoints.
+_OEMBED_PROVIDERS = {
+    r"https?://(?:www\.)?soundcloud\.com/.+": "https://soundcloud.com/oembed?format=json&url={}",
+    r"https?://(?:www\.)?youtube\.com/watch.+": "https://www.youtube.com/oembed?format=json&url={}",
+    r"https?://youtu\.be/.+": "https://www.youtube.com/oembed?format=json&url={}",
+    r"https?://(?:www\.)?vimeo\.com/.+": "https://vimeo.com/api/oembed.json?url={}",
+}
+
+_oembed_cache = {}
+
+
+def _process_oembed(html):
+    """Replace bare oEmbed-compatible URLs in paragraphs with embeds."""
+    import urllib.request
+    import json
+
+    def _replace_link(match):
+        url = match.group(1)
+        if url in _oembed_cache:
+            return _oembed_cache[url]
+        for pattern, endpoint in _OEMBED_PROVIDERS.items():
+            if re.match(pattern, url):
+                try:
+                    req = urllib.request.Request(
+                        endpoint.format(urllib.request.quote(url, safe="")),
+                        headers={"User-Agent": "kennethreitz.org"},
+                    )
+                    resp = urllib.request.urlopen(req, timeout=5)
+                    data = json.loads(resp.read())
+                    embed_html = data.get("html", "")
+                    if embed_html:
+                        _oembed_cache[url] = embed_html
+                        return embed_html
+                except Exception:
+                    pass
+        return match.group(0)
+
+    # Match <p> tags containing only a single <a> link to an oEmbed provider.
+    return re.sub(
+        r'<p><a href="(https?://(?:(?:www\.)?soundcloud\.com|(?:www\.)?youtube\.com|youtu\.be|(?:www\.)?vimeo\.com)/[^"]+)">[^<]+</a></p>',
+        _replace_link,
+        html,
+    )
+
+
 class TufteMarkdownRenderer:
     """Custom Markdown renderer for Tufte-style output."""
 
@@ -32,7 +77,8 @@ class TufteMarkdownRenderer:
 
     def render(self, content):
         """Render markdown content to HTML."""
-        return self.markdown(content.strip())
+        html = self.markdown(content.strip())
+        return _process_oembed(html)
 
 
 def render_markdown_file(file_path):
