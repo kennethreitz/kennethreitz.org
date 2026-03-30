@@ -3,6 +3,8 @@
 
 There are zero audio files in [PyTheory](https://github.com/kennethreitz/pytheory). Zero samples. Zero recordings. Zero WAVs, MP3s, OGGs, or any other format you could name. Not one byte of pre-recorded sound exists anywhere in the repository.
 
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/kennethreitz/raga_midnight&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+
 Every sound you hear — every plucked guitar string, every tabla stroke, every djembe slap, every organ chord — is computed at runtime. From math. Sine waves, noise generators, filters, and envelopes, all the way down. NumPy arrays are the synth engine.
 
 And somehow, the results sound... real?
