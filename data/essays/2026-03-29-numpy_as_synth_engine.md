@@ -13,7 +13,7 @@ And somehow, the results sound... real?
 
 I still can't quite believe this works. I'm going to walk you through it, not as an expert in DSP (I am definitely not that), but as someone who kept adding features to a music theory library and accidentally ended up building physical models of goatskin membranes in Python.
 
-*A note: I built the synthesis engine in PyTheory with significant help from Claude. I'm learning DSP as I go — the AI helped me understand the physics and translate it into code. This is an honest account of what we built together, not a claim of deep expertise.*
+**A note:** *I built the synthesis engine with help from Claude. I'm learning DSP as I go.*
 
 ## Karplus-Strong: The Oldest Trick
 
