@@ -82,7 +82,7 @@ A tabla is actually two drums — the dayan (a small wooden drum played with the
 
 I modeled six strokes. Each one is built from multiple physical components layered together.
 
-**Na** — a sharp rim strike on the dayan. This layers four distinct physical elements: a goatskin membrane thump (random noise bandpass-filtered between 200 and 800 Hz), a wooden shell resonance (a sine wave at 800 Hz with fast decay), a syahi ring (three harmonics at 330, 680, and 1050 Hz, each with independent decay rates), and a finger attack transient (a burst of noise that dies in milliseconds):
+- **Na**: a sharp rim strike on the dayan. This layers four distinct physical elements: a goatskin membrane thump (random noise bandpass-filtered between 200 and 800 Hz), a wooden shell resonance (a sine wave at 800 Hz with fast decay), a syahi ring (three harmonics at 330, 680, and 1050 Hz, each with independent decay rates), and a finger attack transient (a burst of noise that dies in milliseconds):
 
 ```python
 def _synth_tabla_na(n_samples):
@@ -113,9 +113,8 @@ def _synth_tabla_na(n_samples):
     return numpy.tanh(result * 1.4)
 ```
 
-**Tin** — the open ring. Fuller membrane, longer singing ring, more sustain. The same architecture as Na but with different filter ranges and slower decay rates, because the full open stroke lets the membrane vibrate freely.
-
-**Ge** — the deep bayan. This is where I started laughing at my own code. Five physical components: a goatskin membrane thud (bandpass noise at 40-250 Hz, much lower than the dayan), a copper shell resonance (120 Hz sine), a pitch-sweeping body that starts at 55 Hz and exponentially rises to 155 Hz (because the hand pressing the membrane changes the effective pitch — a technique unique to tabla), a sub-frequency boom at 40 Hz from the large cavity, and a palm attack transient.
+- **Tin**: the open ring. Fuller membrane, longer singing ring, more sustain. The same architecture as Na but with different filter ranges and slower decay rates, because the full open stroke lets the membrane vibrate freely.
+- **Ge**: the deep bayan. This is where I started laughing at my own code. Five physical components: a goatskin membrane thud (bandpass noise at 40-250 Hz, much lower than the dayan), a copper shell resonance (120 Hz sine), a pitch-sweeping body that starts at 55 Hz and exponentially rises to 155 Hz (because the hand pressing the membrane changes the effective pitch — a technique unique to tabla), a sub-frequency boom at 40 Hz from the large cavity, and a palm attack transient.
 
 ```python
 # Pitch sweep body — hand modulates the membrane
