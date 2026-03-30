@@ -7,7 +7,7 @@ There are zero audio files in [PyTheory](https://github.com/kennethreitz/pytheor
 
 You can see [the code that generated this song](https://github.com/kennethreitz/interpretations/blob/main/tracks/raga_midnight.py).
 
-Every sound you hear — every plucked sitar string, every tabla stroke, every djembe slap, every organ chord — is computed at runtime. From math. Sine waves, noise generators, filters, and envelopes, all the way down. NumPy arrays are the synth engine.
+Every sound you hear — every plucked sitar string, every tabla stroke, every tambora drone — is computed at runtime. From math. Sine waves, noise generators, filters, and envelopes, all the way down. NumPy arrays are the synth engine.
 
 And somehow, the results sound... real?
 
