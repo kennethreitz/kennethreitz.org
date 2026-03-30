@@ -126,11 +126,9 @@ body = numpy.sin(phase) * exp_decay(n_samples, 5) * 0.7
 
 That exponential pitch sweep is such a small piece of code for what it represents — the physical interaction between a musician's palm and a goatskin membrane stretched over a copper shell. Three lines.
 
-**Dha** — both drums simultaneously. Na and Ge summed together and clipped through `tanh`. The simplest stroke in concept, the most complex in output.
-
-**Tit** — the rapid-fire finger tap. Sixty milliseconds max. Mostly attack, barely any ring. For the fast rhythmic patterns — *tiri-kita, taka-dina* — where each stroke is a percussive whisper.
-
-**Ke** — the muted bayan slap. Dead thud, no ring, eighty milliseconds. Just the palm killing the membrane immediately after striking it.
+- **Dha**: both drums simultaneously. Na and Ge summed together and clipped through `tanh`. The simplest stroke in concept, the most complex in output.
+- **Tit**: the rapid-fire finger tap. Sixty milliseconds max. Mostly attack, barely any ring. For the fast rhythmic patterns — *tiri-kita, taka-dina* — where each stroke is a percussive whisper.
+- **Ke**: the muted bayan slap. Dead thud, no ring, eighty milliseconds. Just the palm killing the membrane immediately after striking it.
 
 Here's what gets me: each stroke models the actual physics. The goatskin membrane is bandpass-filtered noise because that's what a vibrating membrane sounds like — broadband excitation filtered by the membrane's own resonant properties. The wooden shell versus the copper shell is just different resonance frequencies. The syahi creates those characteristic harmonic overtones because the added mass of the black paste changes the membrane's vibrational modes, producing specific harmonic ratios. These aren't approximations of recordings — they're approximations of physics.
 
