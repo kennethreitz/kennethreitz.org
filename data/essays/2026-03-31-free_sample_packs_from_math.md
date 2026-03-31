@@ -1,89 +1,48 @@
 # Free Teenage Engineering OP-XY Sample Packs, from Math
 *March 2026*
 
-Sample packs cost money. A decent multisampled piano is $20-50. A drum library is another $30. It adds up if you want variety, and you're always buying someone else's recordings of someone else's instruments in someone else's room.
+I made a free sample pack for the **Teenage Engineering OP-XY** and **OP-1**. 69 multisampled instruments and 12 drum kits, all generated from [PyTheory](https://pytheory.kennethreitz.org)'s [synthesis engine](/essays/2026-03-29-numpy_as_synth_engine). No recordings. Just math.
 
-I just generated 69 multisampled instruments and 12 drum kits from scratch, for free, using [PyTheory](https://pytheory.kennethreitz.org)'s synthesis engine. Every sound is computed mathematically — no recordings, no licensing, no cost. The result is [pytheory-opxy](https://github.com/kennethreitz/pytheory-opxy), a free sample pack for the **Teenage Engineering OP-XY** and **OP-1**.
+The whole thing is on GitHub: [pytheory-opxy](https://github.com/kennethreitz/pytheory-opxy).
 
-## What's In It
+## What You Get
 
-**69 instruments**, each multisampled at 6 points across the keyboard (C2, C3, C4, A4, C5, C6):
+69 instruments, each sampled at 6 points across the keyboard — piano, electric piano, wurlitzer, organ, harpsichord, celesta, music box, violin, viola, cello, contrabass, string ensemble, flute, clarinet, oboe, bassoon, sax (soprano through bari), trumpet, trombone, french horn, tuba, brass ensemble, acoustic guitar, electric guitar (five flavors from clean to metal), bass, upright bass, harp, sitar, pedal steel, banjo, mandolin, mandola, ukulele, koto, marimba, vibraphone, xylophone, glockenspiel, tubular bells, timpani, crotales, tingsha, singing bowl, kalimba, steel drum, synth lead, synth pad, synth bass, acid bass, 808, granular pad, vocal, choir, theremin, harmonium, accordion, didgeridoo, bagpipe.
 
-- **Keys**: piano, electric piano, wurlitzer, pipe organ, organ, harpsichord, celesta, music box.
-- **Strings**: violin, viola, cello, contrabass, string ensemble.
-- **Woodwinds**: flute, clarinet, oboe, bassoon, saxophone, alto/tenor/bari sax.
-- **Brass**: trumpet, trombone, french horn, tuba, brass ensemble.
-- **Plucked**: acoustic guitar, electric guitar (clean, crunch, distorted, orange crunch, metal), bass guitar, upright bass, harp, sitar, pedal steel, banjo, mandolin, mandola, ukulele, koto.
-- **Mallet**: marimba, vibraphone, xylophone, glockenspiel, tubular bells, timpani, crotales, tingsha, singing bowl, kalimba, steel drum.
-- **Synths**: lead, pad, bass, acid bass, granular pad, granular texture, vocal, choir, 808 bass.
-- **Other**: theremin, harmonium, accordion, didgeridoo, bagpipe.
+12 drum kits — standard GM, latin, world, tabla, dhol, mridangam, djembe, doumbek, cajón, metal, marching, and effects. The tabla kit alone has seven distinct strokes. The world kit has djembe, doumbek, cajón, and rainstick all in one place.
 
-**12 drum kits**, up to 24 hits each:
+Each instrument is set up properly — legato for theremin, mono for winds, looping for bowed strings, longer samples for slow decays. They're ready to play, not just raw waveforms.
 
-- **Standard**: full General MIDI kit — 24 sounds.
-- **Latin**: congas, bongos, timbales, agogo, guiro.
-- **World**: djembe, doumbek, cajón, rainstick.
-- **Tabla**: na, tin, ge, dha, tit, ke, ge bend.
-- **Dhol**: dagga, tilli, both, plus dholak variants.
-- **Mridangam**: tham, nam, din, tha.
-- **Djembe**: bass, tone, slap.
-- **Doumbek**: dum, tek, ka.
-- **Cajón**: bass, slap, tap, slap with snare.
-- **Metal**: tight kick/snare/hat with toms and cymbals.
-- **Marching**: snare, quads, five bass drums, crash.
-- **Effects**: rainstick, ocean drum, wind chimes.
+## How to Install
 
-Each instrument has appropriate playmode — legato for theremin and didgeridoo, mono for winds and brass, looping for bowed strings, longer samples for instruments with slow decays. These aren't just raw waveforms dumped to files. They're shaped to behave like the instruments they're modeling.
+You don't need Python or a terminal. Just:
 
-## How to Get It
+1. Go to [github.com/kennethreitz/pytheory-opxy](https://github.com/kennethreitz/pytheory-opxy).
+2. Click the green **Code** button → **Download ZIP** (~130 MB).
+3. Unzip it and copy the folders to your device:
 
-You don't need to know Python or use the command line. Here's how to download and install:
-
-**Step 1: Download the zip file.**
-
-Go to [github.com/kennethreitz/pytheory-opxy](https://github.com/kennethreitz/pytheory-opxy) and click the green **Code** button, then **Download ZIP**. It's about 130 MB.
-
-Or if you're comfortable with a terminal:
-
-```bash
-git clone https://github.com/kennethreitz/pytheory-opxy.git
-```
-
-**Step 2: Copy to your device.**
-
-Unzip the download and find the folders inside:
-
-| Device | What to copy | Where to put it |
-|--------|-------------|-----------------|
+| Device | Copy this | To here |
+|--------|-----------|---------|
 | **OP-XY** | `opxy-samples/pytheory/` | `/presets/pytheory/` |
 | **OP-XY** | `opxy-samples/pytheory-drums/` | `/presets/pytheory-drums/` |
 | **OP-1 / OP-1 Field** | `op1-samples/pytheory/*.wav` | `/synth/user/` |
 
-For the OP-XY, [Field Kit](https://teenage.engineering/apps/field-kit) makes managing presets easy — just drag and drop.
+[Field Kit](https://teenage.engineering/apps/field-kit) makes the OP-XY transfer easy — drag and drop.
 
-That's it. The instruments show up in your device's preset browser.
+## Why Free
 
-## Why This Matters
+Sample packs typically run $20-50 each. That's fine for a few, but if you want a broad palette — orchestral, world percussion, synths, plucked strings — it adds up. And you're locked into whatever the producer recorded. Want a different tuning? A longer sustain? A sitar with more resonance? Buy another pack.
 
-Most sample packs are recorded in studios with real instruments. That's valuable — you get the nuance of a real performance, a real room, real microphones. But it also means someone owns those recordings, and you're paying for the privilege of using them. Prices add up fast, especially if you want variety.
-
-This pack takes a different approach. Every sound is generated by [PyTheory's synthesis engine](/essays/2026-03-29-numpy_as_synth_engine) — Karplus-Strong plucked strings, physically modeled drums, additive synthesis organs, FM bells, the whole thing. No recordings, no licensing issues, no cost. The trade-off is that these won't sound identical to a Steinway or a Stradivarius. They sound like what they are: mathematical models of instruments, rendered to audio. For sketching ideas, for electronic music production, for having a comprehensive palette to work with — they're more than good enough.
-
-And because the source code is included, you can regenerate everything. Want longer samples? Change a parameter. Want different tunings? Change a parameter. Want an instrument that doesn't exist yet? Add it to PyTheory and re-run the generator. Try doing that with a commercial sample pack.
+This one is generated from code. Don't like something? Change a parameter and re-run:
 
 ```bash
 uv add pytheory numpy scipy
-python generate.py           # 69 instruments
-python generate_drums.py     # 12 drum kits
+python generate.py           # instruments
+python generate_drums.py     # drum kits
 ```
 
-## The Numbers
+The sounds won't fool anyone into thinking they're hearing a real Steinway. That's not the point. The point is having 69 playable instruments and 12 drum kits on your OP-XY for free, right now, with the ability to regenerate or customize any of them.
 
-- 69 multisampled instruments × 6 samples each = 414 instrument samples.
-- 12 drum kits with up to 24 hits each = ~150 drum samples.
-- Total: ~180 MB of audio, generated from about 600 lines of Python.
-- Cost: $0.
+~180 MB of audio. ~600 lines of Python. $0.
 
-The whole thing took an afternoon to build once the synthesis engine existed. The generator scripts are straightforward — loop through instruments, render each note, write the WAV files, generate the OP-XY preset JSON. Most of the work was getting the preset format right so the OP-XY recognizes them correctly.
-
-[Source code on GitHub](https://github.com/kennethreitz/pytheory-opxy). Free, open source, no strings attached. Pun intended.
+[Source code on GitHub](https://github.com/kennethreitz/pytheory-opxy).
