@@ -1,4 +1,4 @@
-# Free Sample Packs, from Math
+# Free OP-XY Sample Packs, from Math
 *March 2026*
 
 Sample packs cost money. A decent multisampled piano is $20-50. A drum library is another $30. It adds up if you want variety, and you're always buying someone else's recordings of someone else's instruments in someone else's room.
