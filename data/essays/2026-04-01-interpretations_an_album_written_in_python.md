@@ -19,6 +19,8 @@ That's it. Out comes a fully rendered, mixed, stereo WAV file. Every note synthe
 
 I like this because it makes music *legible* in a way that DAW projects aren't. A DAW session is a sprawl of tracks, plugins, automation curves, and hidden state. A Python script is sequential. You can read it top to bottom and understand what happens and when. It's composition as prose.
 
+![Interpretations player running in the terminal](/static/images/interpretations-player.png)
+
 ## What's on It
 
 Nine tracks so far, all over the map stylistically. That's kind of the point — I wanted to see how far the concept could stretch.
