@@ -3,6 +3,8 @@
 
 I'm working on an album. Each track is a Python script. You run it, it renders a WAV file. That's the whole workflow.
 
+![Interpretations player running in the terminal](/static/images/interpretations-player.png)
+
 The project is called [**Interpretations**](https://github.com/kennethreitz/interpretations), and it's built on [PyTheory](https://github.com/kennethreitz/pytheory) — the same synthesis engine I've been writing about [lately](/essays/2026-03-29-numpy_as_synth_engine). No DAW. No MIDI. No samples. Just Python files that describe music and a library that turns them into sound.
 
 It's very much a work in progress, but the concept is solid enough to talk about.
@@ -18,8 +20,6 @@ python tracks/raga_midnight.py
 That's it. Out comes a fully rendered, mixed, stereo WAV file. Every note synthesized from scratch. No prerecorded anything.
 
 I like this because it makes music *legible* in a way that DAW projects aren't. A DAW session is a sprawl of tracks, plugins, automation curves, and hidden state. A Python script is sequential. You can read it top to bottom and understand what happens and when. It's composition as prose.
-
-![Interpretations player running in the terminal](/static/images/interpretations-player.png)
 
 ## What's on It
 
