@@ -10,7 +10,7 @@ The latest project is something different entirely — a full album written in P
 
 ## Discography
 
-- [**Interpretations**](/music/interpretations) (2025) — 24 tracks composed entirely in Python using pytheory. Indian classical raga, acid house, ambient drone, trap, and everything between. The code is the score.
+- [**Interpretations**](/music/interpretations) (2025) — 24 tracks composed in Python with Claude, using pytheory. Indian classical raga, acid house, ambient drone, trap, and everything between. The code is the score.
 - [**Unmastered Impulses**](/music/unmastered-impulses) (2016) — The debut. 13 tracks, almost entirely analog. Raw and unpolished on purpose.
 - [**Resolution**](/music/resolution) (2017) — Recorded in my home studio in the spring. Closure and new beginnings.
 - [**Messengers Rising**](/music/messengers-rising) (2017) — 14 tracks processing the bipolar diagnosis and its aftermath.

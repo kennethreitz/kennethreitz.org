@@ -1,9 +1,9 @@
 # Interpretations
 *2025*
 
-A full-length album of 24 original compositions, written entirely in Python. Not generated — *composed*. Every note, every drum hit, every filter sweep, hand-written in code using [pytheory](https://github.com/kennethreitz/pytheory), a music theory and synthesis library I built for this purpose.
+A full-length album of 24 original compositions, written in Python through human-AI collaboration. Every track composed in code using [pytheory](https://github.com/kennethreitz/pytheory), a music theory and synthesis library I built for this purpose — with Claude as creative partner throughout the process.
 
-The album is the answer to a question I've been asking for years: what happens when you treat Python not as a tool for making music, but as the instrument itself?
+The album is the answer to a question I've been asking for years: what happens when you treat Python not as a tool for making music, but as the instrument itself? And what happens when you bring AI into the composing room?
 
 ![Interpretations player](/static/images/interpretations-player.png)
 
@@ -17,7 +17,9 @@ Reverb is treated as an instrument. The Taj Mahal impulse response appears on ne
 
 ## The Process
 
-Every track is a Python file. A `Score` object defines the time signature and tempo. `Part` objects define instruments with their effects chains. Notes are added one at a time — pitch, duration, velocity. Drum patterns are hand-written step sequences. Filter sweeps are LFO automations. There is no DAW, no MIDI, no audio samples. The Python script *is* the score, and pytheory renders it to audio.
+Every track is a Python file. A `Score` object defines the time signature and tempo. `Part` objects define instruments with their effects chains. Notes are added one at a time — pitch, duration, velocity. Drum patterns are step sequences. Filter sweeps are LFO automations. There is no DAW, no MIDI, no audio samples. The Python script *is* the score, and pytheory renders it to audio.
+
+The compositions were written collaboratively with Claude — I'd describe what I wanted to hear, the mood, the genre, the arc, and we'd build the score together in conversation. Musical direction and creative vision are mine. The note-by-note Python code that realizes that vision was written through dialogue. It's a new kind of composition process — closer to directing than performing, but deeply involved at every level.
 
 ```bash
 uv run play              # Interactive player
@@ -30,9 +32,9 @@ The interactive player is a curses TUI that shows the full tracklist with keys, 
 
 Twenty years of drums. A studio full of analog synthesizers, all sold. An OP-XY for portable sketches. And now this — an album where the composition language is the programming language I've spent my career thinking in.
 
-Python is how I think. Writing music in Python isn't a constraint — it's a removal of constraints. No mouse clicking in a piano roll. No menu diving. Just the musical idea, expressed as directly as I can express it, in the language closest to how my mind works.
+Python is how I think. And Claude understands Python the way I do — as a language for expressing ideas clearly. Together, we can move from "I want a sitar raga that drops into 808s" to a fully realized composition faster than I could alone, without losing the specificity that makes each track what it is.
 
-The same philosophy that made [Requests](/software/requests) feel obvious — that tools should match human mental models — applies here. pytheory's API is designed so that writing music reads like describing music. A sitar plays a note in D Phrygian with shruti tuning and Taj Mahal reverb. That's what the code says, and that's what you hear.
+The same philosophy that made [Requests](/software/requests) feel obvious — that tools should match human mental models — applies here. pytheory's API is designed so that writing music reads like describing music. A sitar plays a note in D Phrygian with shruti tuning and Taj Mahal reverb. That's what the code says, and that's what you hear. The AI collaboration layer sits on top of that — another tool that matches how I think about music.
 
 ## Listen
 
