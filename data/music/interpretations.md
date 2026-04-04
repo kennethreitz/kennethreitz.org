@@ -5,6 +5,10 @@ A full-length album of 24 original compositions, written in Python through human
 
 The album is the answer to a question I've been asking for years: what happens when you treat Python not as a tool for making music, but as the instrument itself? And what happens when you bring AI into the composing room?
 
+![Interpretations album cover](/static/images/interpretations-cover.png)
+
+Twenty-four tracks. Ninety minutes. A singing bowl with a quarter-inch cable plugged into it — that's the whole idea. Ancient instruments rendered through modern synthesis, sacred geometry floating above the waveform. Everything on this record was born in a Python script.
+
 ![Interpretations player](/static/images/interpretations-player.png)
 
 ## The Sound
