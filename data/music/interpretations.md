@@ -42,6 +42,7 @@ Coming soon to Spotify, Apple Music, and all major streaming platforms.
 
 The source code is the album. Clone the repo, run the player, read the scores. The music and the code that creates it are the same artifact.
 
+- [Official Site](https://interpretations.kennethreitz.org/)
 - [GitHub](https://github.com/kennethreitz/interpretations)
 
 ## The Tracklist
