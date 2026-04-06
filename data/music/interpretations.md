@@ -42,7 +42,7 @@ The same philosophy that made [Requests](/software/requests) feel obvious — th
 
 ## Listen
 
-Available now on [Spotify](https://open.spotify.com/album/1jYjggrr6HEKfV4FchcJWD) and all major streaming platforms.
+Available now on [Spotify](https://open.spotify.com/album/1jYjggrr6HEKfV4FchcJWD), [Apple Music](https://music.apple.com/us/album/interpretations/1890986989), and all major streaming platforms.
 
 The source code is the album. Clone the repo, run the player, read the scores. The music and the code that creates it are the same artifact.
 
