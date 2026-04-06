@@ -49,7 +49,7 @@ There's something appealing about the constraint, too. A DAW gives you infinite 
 
 ## Work in Progress
 
-This is nowhere near done. The mixes need work. Some tracks need structural editing. I'm still figuring out the right balance between hand-writing every note and using PyTheory's pattern tools to generate parts. But the concept — albums as repositories, songs as scripts, music as code you can read — feels like something worth exploring.
+This is nowhere near done. The mixes need work. Some tracks need structural editing. I'm still figuring out the right balance between writing every note by hand and using PyTheory's pattern tools to generate parts. But the concept — albums as repositories, songs as scripts, music as code you can read — feels like something worth exploring.
 
 The [official site is live](https://interpretations.kennethreitz.org/), and the repo is [on GitHub](https://github.com/kennethreitz/interpretations) if you want to poke around. Run a track. Read the code. Tell me what you think.
 
