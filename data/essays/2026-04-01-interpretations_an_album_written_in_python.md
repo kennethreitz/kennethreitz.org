@@ -53,4 +53,4 @@ This is nowhere near done. The mixes need work. Some tracks need structural edit
 
 The [official site is live](https://interpretations.kennethreitz.org/), and the repo is [on GitHub](https://github.com/kennethreitz/interpretations) if you want to poke around. Run a track. Read the code. Tell me what you think.
 
-Listen on [Spotify](https://open.spotify.com/album/1jYjggrr6HEKfV4FchcJWD) or [Apple Music](https://music.apple.com/us/album/interpretations/1890986989).
+**Update:** the album is now released! Listen on [Spotify](https://open.spotify.com/album/1jYjggrr6HEKfV4FchcJWD) or [Apple Music](https://music.apple.com/us/album/interpretations/1890986989).
