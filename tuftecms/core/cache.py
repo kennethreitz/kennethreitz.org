@@ -539,7 +539,7 @@ def get_themes_cache():
                     r"meditation.*practice|yoga.*practice|vedic|jnana yoga|contemplative.*practice": ("Contemplative Practice", "Programming as meditation. Debugging as self-inquiry."),
                     r"burnout|nothing left to give|burned out": ("Burnout", "The cost of building things that matter, and what comes after."),
                     r"\bleica\b|photograph.*street|street.*photograph": ("Photography", "Exploring the material world in an electronic universe."),
-                    r"bible|prayer|scripture|kjvstudy": ("Faith", "Building technology downstream of prayer."),
+                    r"study bible|prayer.*faith|scripture.*verse|digital study bible": ("Faith", "Building technology downstream of prayer."),
                     r"import requests|requests library|pip install requests": ("Requests", "The HTTP library and the philosophy behind it."),
                 }
 
