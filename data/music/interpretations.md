@@ -1,5 +1,5 @@
 # Interpretations
-*2025* — [interpretations.kennethreitz.org](https://interpretations.kennethreitz.org/)
+*2026* — [interpretations.kennethreitz.org](https://interpretations.kennethreitz.org/)
 
 A full-length album of 24 original compositions, written in Python through human-AI collaboration. Every track composed in code using [pytheory](https://github.com/kennethreitz/pytheory), a music theory and synthesis library I built for this purpose — with Claude as creative partner throughout the process.
 
