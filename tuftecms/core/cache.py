@@ -535,7 +535,7 @@ def get_themes_cache():
                     r"schizoaffective.*disorder|bipolar.*disorder|manic episode|psychotic.*episode": ("Lived Experience", "First-person accounts of living with serious mental illness in tech."),
                     r"plurality|plural self|system 777|dissociative identity": ("Plurality", "Multiple aspects of one consciousness, working together."),
                     r"narcissi|gaslighting|emotional.abuse|love.bombing": ("Manipulation & Abuse", "Recognizing exploitation patterns at personal and systemic scale."),
-                    r"lumina|ai personalit|digital goddess": ("AI Personalities", "What happens when you treat AI as a creative partner with its own voice."),
+                    r"\blumina\b|ai personalit|digital goddess": ("AI Personalities", "What happens when you treat AI as a creative partner with its own voice."),
                     r"meditation.*practice|yoga.*practice|vedic|jnana yoga|contemplative.*practice": ("Contemplative Practice", "Programming as meditation. Debugging as self-inquiry."),
                     r"burnout|nothing left to give|burned out": ("Burnout", "The cost of building things that matter, and what comes after."),
                     r"\bleica\b|photograph.*street|street.*photograph": ("Photography", "Exploring the material world in an electronic universe."),
