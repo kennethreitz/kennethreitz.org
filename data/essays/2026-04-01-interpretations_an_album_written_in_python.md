@@ -3,7 +3,7 @@
 
 I'm working on an album. Each track is a Python script. You run it, it renders a WAV file. That's the whole workflow.
 
-The project is called [**Interpretations**](https://github.com/kennethreitz/interpretations), and it's built on [PyTheory](https://github.com/kennethreitz/pytheory) — the same synthesis engine I've been writing about [lately](/essays/2026-03-29-numpy_as_synth_engine). No DAW. No MIDI. No samples. Just Python files that describe music and a library that turns them into sound.
+The project is called [**Interpretations**](https://interpretations.kennethreitz.org/), and it's built on [PyTheory](https://pytheory.kennethreitz.org/) — the same synthesis engine I've been writing about [lately](/essays/2026-03-29-numpy_as_synth_engine). No DAW. No MIDI. No samples. Just Python files that describe music and a library that turns them into sound.
 
 ![Interpretations player running in the terminal](/static/images/interpretations-player.png)
 
