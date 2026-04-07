@@ -182,3 +182,5 @@ All of this is Python. The same language people use to parse CSV files is genera
 There's a version of this where I'd use a C extension or a proper DSP framework or just sample libraries like a sensible person. It would sound better and run faster. But the code wouldn't read like physics. The bandpass filter from 200 to 800 Hz *is* the goatskin membrane. The pitch sweep *is* the hand pressing the drumhead. The comb filter *is* the magnetic pickup.
 
 I've written about [why PyTheory matters to me](/essays/2026-03-25-pytheory_is_awesome) and [how it grew into a mini DAW](/essays/2026-03-25-a_mini_daw_in_the_python_repl). The synthesis layer is really fun. It eventually became a [full album](/essays/2026-04-01-interpretations_an_album_written_in_python).
+
+https://interpretations.kennethreitz.org
