@@ -7,6 +7,8 @@ The project is called [**Interpretations**](https://interpretations.kennethreitz
 
 ![Interpretations player running in the terminal](/static/images/interpretations-player.png)
 
+https://interpretations.kennethreitz.org
+
 It's very much a work in progress, but the concept is solid enough to talk about.
 
 ## The Idea

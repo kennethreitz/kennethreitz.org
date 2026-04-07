@@ -19,6 +19,7 @@ _OEMBED_PROVIDERS = {
     r"https?://(?:www\.)?youtube\.com/watch.+": "https://www.youtube.com/oembed?format=json&url={}",
     r"https?://youtu\.be/.+": "https://www.youtube.com/oembed?format=json&url={}",
     r"https?://(?:www\.)?vimeo\.com/.+": "https://vimeo.com/api/oembed.json?url={}",
+    r"https?://interpretations\.kennethreitz\.org/?$": "https://interpretations.kennethreitz.org/oembed.json?url={}",
 }
 
 _oembed_cache = {}
