@@ -42,6 +42,8 @@ The same philosophy that made [Requests](/software/requests) feel obvious — th
 
 ## Listen
 
+<iframe src="https://interpretations.kennethreitz.org/embed.html" width="100%" height="500" frameborder="0" allow="autoplay; encrypted-media" style="border-radius:8px;border:none;max-width:400px;"></iframe>
+
 Available now on [Spotify](https://open.spotify.com/album/1jYjggrr6HEKfV4FchcJWD), [Apple Music](https://music.apple.com/us/album/interpretations/1890986989), and all major streaming platforms.
 
 The source code is the album. Clone the repo, run the player, read the scores. The music and the code that creates it are the same artifact.
