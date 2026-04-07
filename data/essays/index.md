@@ -4,6 +4,8 @@ These essays explore the intersection of technology, consciousness, and human fl
 
 ## Recent Explorations
 
+[**What Success Looks Like**](/essays/2026-04-06-what_success_looks_like) - *April 2026* - What does success mean when you live with Bipolar I and Schizoaffective Disorder? This winter, for the first time in years, the cycle broke. No hospitalization. A new medication stack — Abilify, lithium, Haldol, and Gabapentin — and the lesson that the body you have at forty is not the body you had at thirty. Hope, specifically.
+
 [**The Coworking Space Saved My Life**](/essays/2026-03-06-the_coworking_space_saved_my_life) - *March 2026* - A McDonald's dropout walks into a coworking space in Winchester, Virginia, and everything changes. Sixteen years later: what that room actually was, why physical third spaces are essential social infrastructure, and the recursive irony of building digital tools that helped destroy the kind of spaces that created the builder.
 
 [**What Requests Taught Me About Marriage**](/essays/2026-03-06-what_requests_taught_me_about_marriage) - *March 2026* - The "for humans" philosophy applied to the most complex system a person ever maintains. Sensible defaults, clear contracts, graceful error handling, backwards compatibility, connection pooling. Everything good software design teaches turns out to be marriage advice. The highest-stakes debugging problem is the person sleeping next to you.

@@ -6,6 +6,7 @@ This thread collects the lived experience, the design implications, and the hone
 
 ### Lived Experience
 
+- [**What Success Looks Like**](/essays/2026-04-06-what_success_looks_like) — This winter, the cycle broke. No hospitalization for the first time in years. On lithium, open minds, changing bodies, and redefining what success means with a serious mental illness.
 - [**Sarah Knows First**](/essays/2026-03-06-sarah_knows_first) — Before a manic episode fully arrives, Sarah sees it before I do. On the structural limits of self-knowledge and the kind of love that has skin in the game.
 - [**What Schizoaffective Disorder Actually Feels Like**](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like) — Precise phenomenological description of a mind where reality-testing operates differently.
 - [**Delusions and Schizoaffective Disorder**](/essays/2025-09-17-delusions-and-schizoaffective-disorder) — Watching angels descend, believing English is the ancient language of gods. How the brain constructs alternate realities with their own internal logic.

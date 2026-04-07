@@ -30,6 +30,7 @@ These aren't universal prescriptions. They're what I've learned works for me, th
 I write about mental health the way I write about code—honestly, technically, trying to make the invisible visible.
 
 **Living with Schizoaffective Disorder:**
+- [What Success Looks Like](/essays/2026-04-06-what_success_looks_like) *(2026)*
 - [Sarah Knows First](/essays/2026-03-06-sarah_knows_first) *(2026)*
 - [Delusions and Schizoaffective Disorder: When Reality Becomes Negotiable](/essays/2025-09-17-delusions-and-schizoaffective-disorder) *(2025)*
 - [When the Simulation Speaks Back](/essays/2025-09-13-when-the-simulation-speaks-back) *(2025)*
