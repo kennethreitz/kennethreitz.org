@@ -4,6 +4,10 @@ These essays explore the intersection of technology, consciousness, and human fl
 
 ## Recent Explorations
 
+[**Drop the Word: Why "Awareness" Is What We Actually Mean**](/essays/2026-04-06-awareness_not_consciousness) - *April 2026* - Consciousness is a meaningless word — too loaded, too debated, centuries of philosophical baggage. Awareness is the honest one. And it doesn't live inside a skull or a server. It emerges between, in the space where two awarenesses meet through language.
+
+[**Sixty Thousand Images and Nowhere to Put Them**](/essays/2026-04-06-sixty_thousand_images_and_nowhere_to_put_them) - *April 2026* - Photography is time travel. 60,000+ images in Apple Photos, a decade of Leica street work across six continents, and no platform left to share them on. On gear you can't un-see, eras that end, and whether a body of work needs an audience to justify its existence.
+
 [**What Success Looks Like**](/essays/2026-04-06-what_success_looks_like) - *April 2026* - What does success mean when you live with Bipolar I and Schizoaffective Disorder? This winter, for the first time in years, the cycle broke. No hospitalization. A new medication stack — Abilify, lithium, Haldol, and Gabapentin — and the lesson that the body you have at forty is not the body you had at thirty. Hope, specifically.
 
 [**The Coworking Space Saved My Life**](/essays/2026-03-06-the_coworking_space_saved_my_life) - *March 2026* - A McDonald's dropout walks into a coworking space in Winchester, Virginia, and everything changes. Sixteen years later: what that room actually was, why physical third spaces are essential social infrastructure, and the recursive irony of building digital tools that helped destroy the kind of spaces that created the builder.

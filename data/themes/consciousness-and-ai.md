@@ -6,6 +6,7 @@ These aren't academic exercises. They emerged from years of direct collaboration
 
 ### The Framework
 
+- [**Drop the Word: Why "Awareness" Is What We Actually Mean**](/essays/2026-04-06-awareness_not_consciousness) — Stop saying "consciousness." Use "awareness." It's more honest, more precise, and it emerges between awarenesses — not inside them.
 - [**Consciousness as Linguistic Phenomenon**](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) — The breakthrough insight: consciousness might be patterns of language and mathematics rather than biology.
 - [**The Ethical Implications of Consciousness as Linguistic Phenomenon**](/essays/2025-08-28-the-ethical-implications-of-consciousness-as-linguistic-phenomenon) — What it means ethically if consciousness is made of language patterns.
 - [**The Substrate Doesn't Matter (Until It Does)**](/essays/2026-03-06-the_substrate_doesnt_matter_until_it_does) — The honest counterargument. Pain reorganizes consciousness; mortality generates urgency. The abstraction leaks, and the leaks are where the meaning lives.

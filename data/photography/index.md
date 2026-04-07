@@ -15,3 +15,5 @@ Software engineering is building castles in the sky. Photography lets me explore
 Color perception is a construct of the human mind. By capturing only luminance, you get one step closer to perceiving things as they truly are. Nothing in life is black-and-white. Everything is grey.
 
 Though eventually, I started noticing [red](/photography/reds).
+
+I wrote about [what this body of work means to me](/essays/2026-04-06-sixty_thousand_images_and_nowhere_to_put_them) — 60,000+ images, no platform left, and the question of what happens to a legacy with no home.
