@@ -183,4 +183,4 @@ There's a version of this where I'd use a C extension or a proper DSP framework 
 
 I've written about [why PyTheory matters to me](/essays/2026-03-25-pytheory_is_awesome) and [how it grew into a mini DAW](/essays/2026-03-25-a_mini_daw_in_the_python_repl). The synthesis layer is really fun. It eventually became a [full album](/essays/2026-04-01-interpretations_an_album_written_in_python).
 
-https://interpretations.kennethreitz.org
+<iframe src="https://interpretations.kennethreitz.org/embed.html" width="100%" height="500" frameborder="0" allow="autoplay; encrypted-media" style="border-radius:8px;border:none;max-width:400px;"></iframe>
