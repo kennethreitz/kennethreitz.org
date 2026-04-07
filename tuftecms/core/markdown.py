@@ -68,7 +68,7 @@ def _process_oembed(html):
 
     # Match <p> tags containing only a single <a> link to an oEmbed provider.
     return re.sub(
-        r'<p><a href="(https?://(?:(?:www\.)?soundcloud\.com|(?:www\.)?youtube\.com|youtu\.be|(?:www\.)?vimeo\.com)/[^"]+)">[^<]+</a></p>',
+        r'<p><a href="(https?://(?:(?:www\.)?soundcloud\.com|(?:www\.)?youtube\.com|youtu\.be|(?:www\.)?vimeo\.com|interpretations\.kennethreitz\.org)/?[^"]*)">[^<]+</a></p>',
         _replace_link,
         html,
     )
