@@ -5,6 +5,16 @@ Here's a question I've been sitting with: what does success look like when you l
 
 For most of my adult life, the answer was simple. Success meant knowing when to go to the hospital. That's not nothing. It took years to develop that skill — the ability to recognize, or more often to accept when [Sarah recognized](/essays/2026-03-06-sarah_knows_first), that the system was failing and I needed a higher level of intervention. Checking yourself into a psych ward is an act of self-preservation that looks, from the outside, like crisis. From the inside, it's the opposite. It's the moment you stop fighting the data and accept what the monitoring system has been telling you.
 
+But I need to be honest about what "knowing when to go" actually looks like in practice. Sarah wants me to tell the full story here:
+
+> When Kenneth becomes manic to an extent that is not manageable for either him or me, it is *extremely* hard to get him to the hospital. He doesn't like going there. They take away his nicotine and all of the fun things he has here at home, so it's understandable why he wouldn't want to go in that state. Everything is generally extremely fun and exciting for him when he's like that.
+>
+> Since he won't go of his own volition, usually, I have to wait for an event where he becomes a harm to himself or others. That involves going to the Magistrate and petitioning the court to admit him involuntarily. I have to write out a statement of the events and how he's a harm to himself or others at the local jail, and I have to swear an oath that it's true. At that point, the magistrate can deem it acceptable or non-acceptable, and I've had both happen to us. If they do accept it, the police arrive and escort him to the hospital, in handcuffs. He's never violent nor resistive — but it's still a harrowing event, nonetheless. So yeah, that's hard and it sucks.
+>
+> — Sarah
+
+She's right. The narrative I just told you — "accepting what the monitoring system has been telling you" — is the cleaned-up version. The real version is that when I'm manic, I don't want to go. Everything feels incredible. The world is vivid and fast and full of possibility, and someone is telling me I need to leave all of that behind for a locked ward with no cigarettes and fluorescent lighting. The rational part of me that would agree with Sarah isn't driving anymore. So "knowing when to go" often means Sarah knowing, and me eventually — sometimes after hours of resistance — trusting her judgment over my own broken instrument.
+
 I've been hospitalized more times than I'd like to count. I've written about this openly because silence around serious mental illness costs lives. But I want to talk about something different today. Not the hospitalizations. The one that didn't happen.
 
 ## The Winter That Wasn't
