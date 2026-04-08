@@ -14,7 +14,6 @@ RUN apt-get update && apt-get install -y \
     libgdk-pixbuf2.0-0 \
     libffi-dev \
     shared-mime-info \
-    nginx \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy dependency files and required package files
@@ -27,9 +26,4 @@ RUN uv pip install . --system
 # Copy the rest of the application
 COPY . .
 
-# Nginx config
-COPY nginx.conf /etc/nginx/nginx.conf
-COPY start.sh /app/start.sh
-RUN chmod +x /app/start.sh && mkdir -p /var/cache/nginx
-
-CMD ["/app/start.sh"]
+CMD ["granian", "--interface", "asgi", "--host", "0.0.0.0", "--port", "8000", "--workers", "4", "--static-path-route", "/photography", "--static-path-mount", "data/photography", "--static-path-route", "/static", "--static-path-mount", "tuftecms/static", "--static-path-expires", "604800", "engine:api"]
