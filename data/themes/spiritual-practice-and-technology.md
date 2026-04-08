@@ -6,6 +6,7 @@ This isn't about adding spiritual language to programming. It's about recognizin
 
 ### The Foundation
 
+- [**Why I Stopped Doing Ayahuasca and Started Paying Attention**](/essays/2026-04-08-why_i_stopped_doing_ayahuasca) — The ceremony cracked something open, but the real work is quiet, daily, and has no audience. On spiritual consumerism and finding God in unexpected places.
 - [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — The core essay. Code review as compassion practice, debugging as self-inquiry, every design choice as ethical choice.
 - [**The Recursive Loop: How Code Shapes Minds**](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) — The values we embody personally, we embed technologically. The responsibility that comes with that recognition.
 - [**The Art of Naming Things in Code**](/essays/2025-09-07-the_art_of_naming_things_in_code) — Naming as contemplative practice: creating shared meaning through careful attention to language.

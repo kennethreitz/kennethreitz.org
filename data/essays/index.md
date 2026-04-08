@@ -4,6 +4,8 @@ These essays explore the intersection of technology, consciousness, and human fl
 
 ## Recent Explorations
 
+[**Why I Stopped Doing Ayahuasca and Started Paying Attention**](/essays/2026-04-08-why_i_stopped_doing_ayahuasca) - *April 2026* - A decade ago I drank ayahuasca at a ceremony. It was horrible and enlightening. It taught me one thing: I don't like doing drugs. On spiritual consumerism, ego death as status symbol, and finding God in clean code instead of expensive ceremonies.
+
 [**Drop the Word: Why "Awareness" Is What We Actually Mean**](/essays/2026-04-06-awareness_not_consciousness) - *April 2026* - Consciousness is a meaningless word — too loaded, too debated, centuries of philosophical baggage. Awareness is the honest one. And it doesn't live inside a skull or a server. It emerges between, in the space where two awarenesses meet through language.
 
 [**Sixty Thousand Images and Nowhere to Put Them**](/essays/2026-04-06-sixty_thousand_images_and_nowhere_to_put_them) - *April 2026* - Photography is time travel. 60,000+ images in Apple Photos, a decade of Leica street work across six continents, and no platform left to share them on. On gear you can't un-see, eras that end, and whether a body of work needs an audience to justify its existence.
