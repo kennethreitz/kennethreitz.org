@@ -127,4 +127,6 @@ We sit at the center of the feedback loop between code and consciousness. What w
 
 ---
 
+https://photos.kennethreitz.org/
+
 *The site is live at [photos.kennethreitz.org](https://photos.kennethreitz.org). The code is at [github.com/kennethreitz/photos.kennethreitz.org](https://github.com/kennethreitz/photos.kennethreitz.org).*
