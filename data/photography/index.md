@@ -1,6 +1,6 @@
 # Photography
 
-![](/photography/random/L1006175.jpg)
+https://photos.kennethreitz.org/images/1c5148f1-4c61-4a70-9481-48988b4a4a6c/
 
 > Street photography is more than an art; it's a world view. The act of taking a photo records not only an image, but a perception. Photos are an avenue to connect with objects and feelings of the past. It's time travel. The key is to consider yourself an observer — it's important not to alter or manipulate the world, but to appreciate the beauty of existence, of life in a moment, of being itself.
 >
