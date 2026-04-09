@@ -20,9 +20,7 @@ Though eventually, I started noticing [red](/photography/reds).
 
 ## The Archive
 
-I wrote about [what this body of work means to me](/essays/2026-04-06-sixty_thousand_images_and_nowhere_to_put_them) — 60,000+ images, no platform left, and the question of what happens to a legacy with no home.
-
-So I [built the platform I was looking for](/essays/2026-04-09-building_a_home_for_twenty_thousand_photographs). Over 12,000 images are now live at **[photos.kennethreitz.org](https://photos.kennethreitz.org)** — browsable by camera, lens, city, and AI-generated tags. Every image has EXIF metadata, AI-written descriptions, and is discoverable by the gear that made it. More to come.
+**[photos.kennethreitz.org](https://photos.kennethreitz.org)** is the archive — over 12,000 photographs, searchable by camera, lens, city, year, and AI-generated tags. Every image has EXIF data and AI-written descriptions. You can explore a decade of shooting by the gear that made it, the places it happened, or the subjects the AI found in it. It's the best way to get lost in the work.
 
 ---
 
