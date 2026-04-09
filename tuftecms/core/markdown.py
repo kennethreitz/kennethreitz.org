@@ -13,16 +13,37 @@ from ..utils.content import (
 )
 
 
-# oEmbed providers and their endpoints.
-_OEMBED_PROVIDERS = {
-    r"https?://(?:www\.)?soundcloud\.com/.+": "https://soundcloud.com/oembed?format=json&url={}",
-    r"https?://(?:www\.)?youtube\.com/watch.+": "https://www.youtube.com/oembed?format=json&url={}",
-    r"https?://youtu\.be/.+": "https://www.youtube.com/oembed?format=json&url={}",
-    r"https?://(?:www\.)?vimeo\.com/.+": "https://vimeo.com/api/oembed.json?url={}",
-    r"https?://interpretations\.kennethreitz\.org/?$": "https://interpretations.kennethreitz.org/oembed.json?url={}",
-}
-
+# oEmbed: discovery-based with SoundCloud override.
 _oembed_cache = {}
+# Negative cache: URLs we've already checked that don't support oEmbed.
+_oembed_no_support = set()
+
+
+def _discover_oembed(url):
+    """Discover oEmbed endpoint via <link> tag on the target page."""
+    import urllib.request
+
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "kennethreitz.org"})
+        resp = urllib.request.urlopen(req, timeout=5)
+        html = resp.read().decode("utf-8", errors="replace")
+        # Look for <link rel="alternate" type="application/json+oembed" href="...">
+        match = re.search(
+            r'<link[^>]+type=["\']application/json\+oembed["\'][^>]+href=["\']([^"\']+)["\']',
+            html,
+        )
+        if match:
+            return match.group(1)
+        # Also check reversed attribute order.
+        match = re.search(
+            r'<link[^>]+href=["\']([^"\']+)["\'][^>]+type=["\']application/json\+oembed["\']',
+            html,
+        )
+        if match:
+            return match.group(1)
+    except Exception:
+        pass
+    return None
 
 
 def _process_oembed(html):
@@ -34,8 +55,10 @@ def _process_oembed(html):
         url = match.group(1)
         if url in _oembed_cache:
             return _oembed_cache[url]
+        if url in _oembed_no_support:
+            return match.group(0)
 
-        # SoundCloud: use compact mini player instead of oEmbed default
+        # SoundCloud: use compact mini player instead of oEmbed default.
         if re.match(r"https?://(?:www\.)?soundcloud\.com/.+", url):
             encoded = urllib.request.quote(url, safe="")
             embed = (
@@ -48,27 +71,29 @@ def _process_oembed(html):
             _oembed_cache[url] = embed
             return embed
 
-        # Everything else: use oEmbed API
-        for pattern, endpoint in _OEMBED_PROVIDERS.items():
-            if re.match(pattern, url):
-                try:
-                    req = urllib.request.Request(
-                        endpoint.format(urllib.request.quote(url, safe="")),
-                        headers={"User-Agent": "kennethreitz.org"},
-                    )
-                    resp = urllib.request.urlopen(req, timeout=5)
-                    data = json.loads(resp.read())
-                    embed_html = data.get("html", "")
-                    if embed_html:
-                        _oembed_cache[url] = embed_html
-                        return embed_html
-                except Exception:
-                    pass
+        # Auto-discover oEmbed endpoint from the target page.
+        endpoint = _discover_oembed(url)
+        if endpoint:
+            try:
+                req = urllib.request.Request(
+                    endpoint,
+                    headers={"User-Agent": "kennethreitz.org"},
+                )
+                resp = urllib.request.urlopen(req, timeout=5)
+                data = json.loads(resp.read())
+                embed_html = data.get("html", "")
+                if embed_html:
+                    _oembed_cache[url] = embed_html
+                    return embed_html
+            except Exception:
+                pass
+
+        _oembed_no_support.add(url)
         return match.group(0)
 
-    # Match <p> tags containing only a single <a> link to an oEmbed provider.
+    # Match any <p> containing only a single bare <a> link (any https URL).
     return re.sub(
-        r'<p><a href="(https?://(?:(?:www\.)?soundcloud\.com|(?:www\.)?youtube\.com|youtu\.be|(?:www\.)?vimeo\.com|interpretations\.kennethreitz\.org)/?[^"]*)">[^<]+</a></p>',
+        r'<p><a href="(https?://[^"]+)">[^<]+</a></p>',
         _replace_link,
         html,
     )
