@@ -67,6 +67,22 @@ India required special handling — I've actually been to Bangalore and Mysore, 
 
 The cities page groups locations by continent, country, and state (for the US), with an interactive dark-themed map showing gold markers sized by image count. Click a marker, see the city name and a link to browse its photos. It's the kind of feature that makes the archive feel *alive* — not just a collection of images but a map of a life.
 
+## The Architecture That Evolved
+
+The site started as an API-first application. [django-bolt](https://github.com/kennethreitz/django-bolt) — my own async Django framework — served a full REST API with JWT authentication, and Alpine.js powered the frontend. Every page loaded data from API endpoints, rendered it client-side, stored tokens in localStorage. The modern way. The way you're supposed to do it.
+
+I hated it within hours.
+
+Alpine kept not working in Safari. The JWT dance — store the token, check it on every page load, redirect to login if it fails, clear it on logout — was fragile ceremony for a single-user site. Every page required JavaScript to render *anything*. The upload page's drag-and-drop didn't work because Alpine wasn't loading. The dashboard was a blank white page until three API calls resolved.
+
+So we ripped it out. Replaced Alpine with HTMX. Replaced JWT with Django's built-in session authentication. Replaced client-side rendering with server-rendered templates. The login page went from a JavaScript form that POST'd to an API endpoint and stored a token to a Django `LoginView` with a `<form method="post">`. The nav went from a JavaScript auth check that runs on every page to `{% if user.is_authenticated %}`.
+
+The entire frontend got simpler by an order of magnitude. And here's the thing — bolt is still in there. The ASGI server, the API endpoints, the router infrastructure. It serves the application. It's the process that runs in production. The bolt API endpoints still exist and still work — you can hit `/api/cameras` and get JSON. Nothing calls them anymore, but they're there.
+
+I'm proud of that. Not because it's good architecture — it's objectively unnecessary, a full API framework serving an application that doesn't use the API. But bolt is *my* framework, and seeing it run in production on a real site with twenty thousand images feels good in a way that's hard to explain. It's like keeping a hand-built engine in a car you mostly drive to the grocery store. Overengineered for the task. Beautiful in its own right. And it works.
+
+The lesson, if there is one: start with the simplest thing that works. Django templates and session auth are the simplest thing. HTMX is the simplest interactivity. Vanilla JavaScript is the simplest client-side logic. Every layer of abstraction you add — API endpoints, JWT tokens, client-side rendering frameworks — is a layer you have to debug, maintain, and explain. Sometimes you add those layers because you need them. Sometimes you add them because you think you're supposed to. The difference matters.
+
 ## What I Learned
 
 The most interesting thing about this project isn't the technology. It's what happens when you give twenty thousand photographs AI-generated metadata and make them searchable.
