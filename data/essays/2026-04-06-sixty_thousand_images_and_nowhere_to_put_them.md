@@ -80,4 +80,8 @@ The moments are still out there. I just can't catch them anymore.
 
 ---
 
-*Explore more of my photographic work at [/photography](/photography), or read my earlier essays on the philosophy of the craft: [The Misunderstood Leica Monochrom](/essays/2013-01-the_misunderstood_leica_monochrom) and [Photography: The Navigation of Choice](/essays/2014-01-photography_the_navigation_of_choice).*
+**Update:** I built the thing. Three days after writing this essay, I sat down and built **[photos.kennethreitz.org](https://photos.kennethreitz.org)** — a personal photography portfolio that organizes everything by the gear that made it. Browse by [camera](https://photos.kennethreitz.org/cameras/), [lens](https://photos.kennethreitz.org/lenses/), [city](https://photos.kennethreitz.org/cities/), or [AI-generated tags](https://photos.kennethreitz.org/tags/). Every image has EXIF metadata extracted, GPT-4o-generated titles and descriptions, and is searchable. Over 12,000 images are live. The sixty thousand finally have a home. I'll write more about how it was built soon.
+
+---
+
+*Explore more of my photographic work at [photos.kennethreitz.org](https://photos.kennethreitz.org), or read my earlier essays on the philosophy of the craft: [The Misunderstood Leica Monochrom](/essays/2013-01-the_misunderstood_leica_monochrom) and [Photography: The Navigation of Choice](/essays/2014-01-photography_the_navigation_of_choice).*

@@ -17,3 +17,5 @@ Color perception is a construct of the human mind. By capturing only luminance, 
 Though eventually, I started noticing [red](/photography/reds).
 
 I wrote about [what this body of work means to me](/essays/2026-04-06-sixty_thousand_images_and_nowhere_to_put_them) — 60,000+ images, no platform left, and the question of what happens to a legacy with no home.
+
+**Update:** I built the platform I was looking for. Over 12,000 images are now live at **[photos.kennethreitz.org](https://photos.kennethreitz.org)** — browsable by camera, lens, city, and AI-generated tags. Every image has EXIF metadata, AI-written descriptions, and is discoverable by the gear that made it. More to come.
