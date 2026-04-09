@@ -8,20 +8,24 @@
 
 I've been shooting since I was a teenager. Abandoned it for years during my career, came back to it because it makes me happy and keeps me sane. Those two reasons have never changed.
 
-My primary camera was a Leica M Monochrom with a 35mm Summicron permanently mounted. One camera, one lens, no decisions. Having a single focal length is liberating. You stop thinking about equipment and start thinking about seeing. I committed to shooting only that lens and meant it.
-
 Software engineering is building castles in the sky. Photography lets me explore the tangible castles that exist in the material world. The balance between the two has kept me whole.
+
+## The Monochrom
+
+My primary camera was a Leica M Monochrom with a 35mm Summicron permanently mounted. One camera, one lens, no decisions. Having a single focal length is liberating. You stop thinking about equipment and start thinking about seeing.
 
 Color perception is a construct of the human mind. By capturing only luminance, you get one step closer to perceiving things as they truly are. Nothing in life is black-and-white. Everything is grey.
 
 Though eventually, I started noticing [red](/photography/reds).
 
----
+## The Archive
 
 I wrote about [what this body of work means to me](/essays/2026-04-06-sixty_thousand_images_and_nowhere_to_put_them) — 60,000+ images, no platform left, and the question of what happens to a legacy with no home.
 
-**Update:** I built the platform I was looking for. Over 12,000 images are now live at **[photos.kennethreitz.org](https://photos.kennethreitz.org)** — browsable by camera, lens, city, and AI-generated tags. Every image has EXIF metadata, AI-written descriptions, and is discoverable by the gear that made it. More to come.
+So I [built the platform I was looking for](/essays/2026-04-09-building_a_home_for_twenty_thousand_photographs). Over 12,000 images are now live at **[photos.kennethreitz.org](https://photos.kennethreitz.org)** — browsable by camera, lens, city, and AI-generated tags. Every image has EXIF metadata, AI-written descriptions, and is discoverable by the gear that made it. More to come.
 
-Here are some random photos from my collection:
+---
+
+Here are some random photos from the collection:
 
 https://photos.kennethreitz.org/
