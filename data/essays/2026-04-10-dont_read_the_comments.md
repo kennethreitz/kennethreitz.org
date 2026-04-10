@@ -12,7 +12,7 @@ He was right. The comment section of the early-to-mid internet was a place where
 
 I've always had a hard time following that advice.
 
-I read the comments. On Hacker News threads about my projects, on Reddit posts about Python packaging, on GitHub issues that were really personal grievances disguised as bug reports. I know you're not supposed to. I read them anyway.
+I read the comments. I lurk on Hacker News threads about my projects, scroll through Reddit posts about Python packaging, find the GitHub issues that are really personal grievances disguised as bug reports. I rarely respond — I just watch. I know you're not supposed to. I do it anyway.
 
 There's something in me that wants to know what people think — not in an approval-seeking way (or maybe partly) — but more in a "the conversation is the interesting part" way. The thing you build is a starting point. What people do with it, how they react, what it makes them think about — that's where it gets interesting.
 
