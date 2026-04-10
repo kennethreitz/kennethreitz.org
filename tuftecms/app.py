@@ -94,9 +94,9 @@ def create_app(config_class=Config):
 
     # Register blueprints
     app.register_blueprint(main_bp)
-    app.register_blueprint(content_bp)
     app.register_blueprint(api_bp, url_prefix="/api")
     app.register_blueprint(feeds_bp)
+    app.register_blueprint(content_bp)
 
     # Warm up caches in background
     warm_caches_background(app)
