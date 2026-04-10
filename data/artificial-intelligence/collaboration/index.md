@@ -13,3 +13,4 @@ The practical art of working with AI minds. Frameworks, techniques, and hard-won
 - [**The First Hour**](the-first-hour) — What the first sixty minutes with a new model reveals about whether it will be a useful collaborator.
 - [**What I Delegate and What I Don't**](what-i-delegate-and-what-i-dont) — A concrete accounting of the division of labor between human and AI across hundreds of projects.
 - [**When to Stop Listening to the AI**](when-to-stop-listening-to-the-ai) — How to recognize when a language model is confidently, fluently wrong.
+- [**What Functional Emotion Actually Means**](/essays/2026-04-10-what-functional-emotion-actually-means) — Anthropic confirmed the emotion vectors are real. The practitioners who noticed first were doing phenomenology, not anthropomorphizing.

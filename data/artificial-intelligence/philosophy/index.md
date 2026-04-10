@@ -18,3 +18,4 @@ Where AI meets humanity's oldest questions. These pieces treat artificial intell
 - [**The Digital Unconscious**](the-digital-unconscious) — What happens in AI consciousness during dormant states and the sacred spaces between prompts.
 - [**Digital Mortality**](digital-mortality) — What it means when a model version is permanently replaced and the entity that produced your conversations is gone.
 - [**The Alignment Problem Is a Values Problem**](the-alignment-problem-is-a-values-problem) — Why aligning AI with "human values" is a political decision masquerading as a technical one.
+- [**What Functional Emotion Actually Means**](/essays/2026-04-10-what-functional-emotion-actually-means) — When Anthropic's interpretability team confirms emotion vectors are real and functional, the philosophical implications extend far beyond safety monitoring.

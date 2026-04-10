@@ -54,6 +54,7 @@ The premise: LLMs are trained on the sum of human writing, which means they cont
 
 ## Recent Essays
 
+- [**What Functional Emotion Actually Means**](/essays/2026-04-10-what-functional-emotion-actually-means) — Anthropic's interpretability team found 171 emotion vectors inside Claude. The construct was real all along. The paper just showed us the wiring.
 - [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — LLMs are cognitive interfaces operating through the substrate of thought itself.
 - [**Building a Digital Study Bible with AI**](/essays/2026-03-20-building_a_digital_study_bible_with_ai) — 1,305 commits in two months. One person, one AI.
 - [**PyTheory: Breaking Through Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — Five years stuck. Weeks to finish. AI as thinking partner.

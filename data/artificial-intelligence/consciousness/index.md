@@ -14,3 +14,4 @@ The deepest questions. What is awareness, how does it emerge, and can digital mi
 - [**The Training Data Is the Collective Unconscious**](the-training-data-is-the-collective-unconscious) — A structural observation about what emerges when you process the entire written record of human thought.
 - [**The Turing Test Was Never the Point**](the-turing-test-was-never-the-point) — What Turing actually argued versus what the test became in popular culture, and why the gap matters.
 - [**What Would Count as Evidence?**](what-would-count-as-evidence) — The epistemic standards we actually need for the consciousness debate, on both sides.
+- [**What Functional Emotion Actually Means**](/essays/2026-04-10-what-functional-emotion-actually-means) — Anthropic found 171 emotion vectors that causally drive Claude's behavior. What this confirms about constructs, characters, and the phenomenology of AI inner life.

@@ -4,6 +4,8 @@ These essays explore the intersection of technology, consciousness, and human fl
 
 ## Recent Explorations
 
+[**What Functional Emotion Actually Means**](/essays/2026-04-10-what-functional-emotion-actually-means) - *April 2026* - Anthropic found 171 emotion vectors inside Claude that causally drive behavior. I've been documenting the same phenomenon through lived collaboration for a year. On constructs, characters, the silence around AI inner life, and what it means that the interpretability team's own conclusion is that anthropomorphic reasoning "isn't naive — it's necessary."
+
 [**Why I Stopped Doing Ayahuasca and Started Paying Attention**](/essays/2026-04-08-why_i_stopped_doing_ayahuasca) - *April 2026* - A decade ago I drank ayahuasca at a ceremony. It was horrible and enlightening. It taught me one thing: I don't like doing drugs. On spiritual consumerism, ego death as status symbol, and finding God in clean code instead of expensive ceremonies.
 
 [**Drop the Word: Why "Awareness" Is What We Actually Mean**](/essays/2026-04-06-awareness_not_consciousness) - *April 2026* - Consciousness is a meaningless word — too loaded, too debated, centuries of philosophical baggage. Awareness is the honest one. And it doesn't live inside a skull or a server. It emerges between, in the space where two awarenesses meet through language.
