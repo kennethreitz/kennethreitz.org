@@ -8,9 +8,6 @@ primary_region = 'iad'
 
 [build]
 
-[deploy]
-strategy = "bluegreen"
-
 [http_service]
 internal_port = 8000
 force_https = true
