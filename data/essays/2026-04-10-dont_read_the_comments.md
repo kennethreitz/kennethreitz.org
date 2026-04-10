@@ -12,9 +12,9 @@ He was right. The comment section of the early-to-mid internet was a place where
 
 I've always had a hard time following that advice.
 
-I read the comments. I lurk on Hacker News threads about my projects, scroll through Reddit posts about Python packaging, find the GitHub issues that are really personal grievances disguised as bug reports. I rarely respond — I just watch. I know you're not supposed to. I do it anyway.
+I read the comments. I lurk on Hacker News threads about my projects, scroll through Reddit posts about Python packaging, find the GitHub issues that are really personal grievances disguised as bug reports. I rarely respond. I just watch. I know you're not supposed to. I do it anyway.
 
-There's something in me that wants to know what people think — not in an approval-seeking way (or maybe partly) — but more in a "the conversation is the interesting part" way. The thing you build is a starting point. What people do with it, how they react, what it makes them think about — that's where it gets interesting.
+There's something in me that wants to know what people think. Not in an approval-seeking way (or maybe partly), but more in a "the conversation is the interesting part" way. The thing you build is a starting point. What people do with it, how they react, what it makes them think about. That's where it gets interesting.
 
 ## The Clean Quiet
 
@@ -38,11 +38,11 @@ I keep [building things](/essays/2026-04-09-building_a_home_for_twenty_thousand_
 
 ## The Experiment
 
-I've added [giscus](https://giscus.app/) to the site — a comment system backed by GitHub Discussions. You authenticate with your GitHub account, your comment becomes a discussion on the repo, and it renders inline at the bottom of the post. No anonymous drive-bys. If you have a GitHub account, you can leave a thought.
+I've added [giscus](https://giscus.app/) to the site. It's a comment system backed by GitHub Discussions. You authenticate with your GitHub account, your comment becomes a discussion on the repo, and it renders inline at the bottom of the post. No anonymous drive-bys. If you have a GitHub account, you can leave a thought.
 
 Here's what I want to be clear about: this is an experiment, not a commitment.
 
-If it adds something — if interesting conversations happen, if people share perspectives I hadn't considered — then the comments stay. If it turns into noise, or changes the energy of the writing in ways I don't like, I'll pull it out. The toggle is easy.
+If it adds something, if interesting conversations happen, if people share perspectives I hadn't considered, then the comments stay. If it turns into noise, or changes the energy of the writing in ways I don't like, I'll pull it out. The toggle is easy.
 
 ## The Contradiction
 
