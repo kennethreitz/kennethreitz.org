@@ -573,7 +573,19 @@
         line-height: 1.2;
     }
 
+    .giscus-container {
+        margin-top: 4rem;
+        padding-top: 2rem;
+    }
+
+    body.dark-mode .giscus-container {
+        border-top-color: #2a2a2a;
+    }
+
     @media (max-width: 760px) {
+        .giscus-container {
+            width: 100% !important;
+        }
 
         article h1 {
             font-size: 2.5rem;
@@ -764,6 +776,26 @@ document.addEventListener('DOMContentLoaded', function() {
         {{ content | safe }}
     </section>
     
+    <!-- Comments via giscus -->
+    <div class="giscus-container" style="width: 65%; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #eee;">
+        <script src="https://giscus.app/client.js"
+                data-repo="kennethreitz/kennethreitz.org"
+                data-repo-id="R_kgDOMkF26w"
+                data-category="Announcements"
+                data-category-id="DIC_kwDOMkF2684C6iXW"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="preferred_color_scheme"
+                data-lang="en"
+                data-loading="lazy"
+                crossorigin="anonymous"
+                async>
+        </script>
+    </div>
+
     {% if parent_directory %}
     <div class="parent-navigation">
         <a href="{{ parent_directory.url }}" class="parent-link">

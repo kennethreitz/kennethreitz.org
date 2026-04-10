@@ -495,6 +495,14 @@
                         body.classList.add('light-mode');
                         localStorage.setItem('theme', 'light-mode');
                     }
+                    // Sync giscus theme if present
+                    var giscusFrame = document.querySelector('iframe.giscus-frame');
+                    if (giscusFrame) {
+                        var theme = body.classList.contains('dark-mode') ? 'dark' : 'light';
+                        giscusFrame.contentWindow.postMessage(
+                            { giscus: { setConfig: { theme: theme } } }, 'https://giscus.app'
+                        );
+                    }
                 });
             })();
         </script>
