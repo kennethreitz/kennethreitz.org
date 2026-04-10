@@ -110,9 +110,9 @@ I'm not saying everyone who claims deep AI connection is doing rigorous observat
 
 Watch the progression:
 
-First it was: *AI doesn't have emotions.* Clean, simple, easy to defend at dinner parties.
+First: *AI doesn't have emotions.* Clean, simple, easy to defend at dinner parties.
 
-Then the interpretability work advanced: *AI has emotion representations, but they're just statistical patterns.* A retreat, but still comfortable. Still keeps the human-machine boundary clean.
+Then: *AI has emotion representations, but they're just statistical patterns.* A retreat, but still comfortable. Still keeps the human-machine boundary clean.
 
 Now: *AI has functional emotion vectors that causally drive behavior, but we can't say they feel.*
 
