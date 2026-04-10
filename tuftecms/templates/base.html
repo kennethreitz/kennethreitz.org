@@ -907,5 +907,25 @@
 
         </script>
 
+        <!-- Client-side oEmbed -->
+        <script>
+        (function() {
+            document.querySelectorAll('.oembed-placeholder').forEach(function(el) {
+                var url = el.getAttribute('data-oembed-url');
+                if (!url) return;
+                fetch('/api/oembed?url=' + encodeURIComponent(url))
+                    .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+                    .then(function(data) {
+                        if (data.html) {
+                            el.innerHTML = data.html;
+                        }
+                    })
+                    .catch(function() {
+                        // Fallback link is already in place — do nothing.
+                    });
+            });
+        })();
+        </script>
+
     </body>
 </html>

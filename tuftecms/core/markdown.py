@@ -1,6 +1,8 @@
 """Markdown processing core module."""
 
 import re
+from html import escape as html_escape
+from urllib.parse import quote as url_quote
 
 import mistune
 import yaml
@@ -13,83 +15,30 @@ from ..utils.content import (
 )
 
 
-# oEmbed: discovery-based with SoundCloud override.
-_oembed_cache = {}
-# Negative cache: URLs we've already checked that don't support oEmbed.
-_oembed_no_support = set()
-
-
-def _discover_oembed(url):
-    """Discover oEmbed endpoint via <link> tag on the target page."""
-    import urllib.request
-
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "kennethreitz.org"})
-        resp = urllib.request.urlopen(req, timeout=5)
-        html = resp.read().decode("utf-8", errors="replace")
-        # Look for <link rel="alternate" type="application/json+oembed" href="...">
-        match = re.search(
-            r'<link[^>]+type=["\']application/json\+oembed["\'][^>]+href=["\']([^"\']+)["\']',
-            html,
-        )
-        if match:
-            return match.group(1)
-        # Also check reversed attribute order.
-        match = re.search(
-            r'<link[^>]+href=["\']([^"\']+)["\'][^>]+type=["\']application/json\+oembed["\']',
-            html,
-        )
-        if match:
-            return match.group(1)
-    except Exception:
-        pass
-    return None
-
-
 def _process_oembed(html):
-    """Replace bare oEmbed-compatible URLs in paragraphs with embeds."""
-    import urllib.request
-    import json
+    """Replace bare URLs in paragraphs with client-side oEmbed placeholders."""
 
     def _replace_link(match):
         url = match.group(1)
-        if url in _oembed_cache:
-            return _oembed_cache[url]
-        if url in _oembed_no_support:
-            return match.group(0)
 
-        # SoundCloud: use compact mini player instead of oEmbed default.
+        # SoundCloud: render inline, no discovery needed.
         if re.match(r"https?://(?:www\.)?soundcloud\.com/.+", url):
-            encoded = urllib.request.quote(url, safe="")
-            embed = (
+            encoded = url_quote(url, safe="")
+            return (
                 f'<iframe width="100%" height="20" scrolling="no" frameborder="no"'
                 f' src="https://w.soundcloud.com/player/?url={encoded}'
                 f'&color=%23333333&auto_play=false&hide_related=true'
                 f'&show_comments=false&show_user=false&show_reposts=false'
                 f'&show_teaser=false&show_artwork=false&visual=false"></iframe>'
             )
-            _oembed_cache[url] = embed
-            return embed
 
-        # Auto-discover oEmbed endpoint from the target page.
-        endpoint = _discover_oembed(url)
-        if endpoint:
-            try:
-                req = urllib.request.Request(
-                    endpoint,
-                    headers={"User-Agent": "kennethreitz.org"},
-                )
-                resp = urllib.request.urlopen(req, timeout=5)
-                data = json.loads(resp.read())
-                embed_html = data.get("html", "")
-                if embed_html:
-                    _oembed_cache[url] = embed_html
-                    return embed_html
-            except Exception:
-                pass
-
-        _oembed_no_support.add(url)
-        return match.group(0)
+        # Everything else: render a placeholder for client-side oEmbed.
+        safe_url = html_escape(url, quote=True)
+        return (
+            f'<div class="oembed-placeholder" data-oembed-url="{safe_url}">'
+            f'<a href="{safe_url}" target="_blank" rel="noopener">{safe_url}</a>'
+            f'</div>'
+        )
 
     # Match any <p> containing only a single bare <a> link (any https URL).
     return re.sub(

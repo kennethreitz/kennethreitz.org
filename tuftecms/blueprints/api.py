@@ -174,6 +174,48 @@ def get_icon(article_path):
     return jsonify({"success": True, "path": article_path, "icon": icon_data})
 
 
+@api_bp.route("/oembed")
+def oembed_proxy():
+    """Proxy oEmbed discovery and fetch to avoid CORS issues."""
+    import json
+    import re
+    import urllib.request
+
+    url = request.args.get("url", "").strip()
+    if not url or not url.startswith("https://"):
+        return jsonify({"error": "Missing or invalid url parameter"}), 400
+
+    try:
+        # Step 1: Discover oEmbed endpoint from the target page.
+        req = urllib.request.Request(url, headers={"User-Agent": "kennethreitz.org"})
+        resp = urllib.request.urlopen(req, timeout=5)
+        page_html = resp.read().decode("utf-8", errors="replace")
+
+        endpoint = None
+        for pattern in [
+            r'<link[^>]+type=["\']application/json\+oembed["\'][^>]+href=["\']([^"\']+)["\']',
+            r'<link[^>]+href=["\']([^"\']+)["\'][^>]+type=["\']application/json\+oembed["\']',
+        ]:
+            match = re.search(pattern, page_html)
+            if match:
+                endpoint = match.group(1)
+                break
+
+        if not endpoint:
+            return jsonify({"error": "No oEmbed endpoint found"}), 404
+
+        # Step 2: Fetch oEmbed data from the discovered endpoint.
+        req = urllib.request.Request(
+            endpoint, headers={"User-Agent": "kennethreitz.org"}
+        )
+        resp = urllib.request.urlopen(req, timeout=5)
+        data = json.loads(resp.read())
+
+        return jsonify(data)
+    except Exception:
+        return jsonify({"error": "oEmbed discovery failed"}), 502
+
+
 @api_bp.route("/debug-cache")
 def debug_cache():
     """Debug endpoint to view cache status."""
