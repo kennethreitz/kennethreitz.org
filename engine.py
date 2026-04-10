@@ -1231,6 +1231,53 @@ async def api_docs(req, resp):
 </body></html>"""
 
 
+@api.route("/api/oembed")
+async def api_oembed(req, resp):
+    """Proxy oEmbed discovery and fetch to avoid CORS issues."""
+    import json
+    import re
+    import urllib.request
+
+    url = req.params.get("url", "").strip()
+    if not url or not url.startswith("https://"):
+        resp.status_code = 400
+        resp.media = {"error": "Missing or invalid url parameter"}
+        return
+
+    try:
+        # Step 1: Discover oEmbed endpoint from the target page.
+        r = urllib.request.Request(url, headers={"User-Agent": "kennethreitz.org"})
+        res = urllib.request.urlopen(r, timeout=5)
+        page_html = res.read().decode("utf-8", errors="replace")
+
+        endpoint = None
+        for pattern in [
+            r'<link[^>]+type=["\']application/json\+oembed["\'][^>]+href=["\']([^"\']+)["\']',
+            r'<link[^>]+href=["\']([^"\']+)["\'][^>]+type=["\']application/json\+oembed["\']',
+        ]:
+            match = re.search(pattern, page_html)
+            if match:
+                endpoint = match.group(1)
+                break
+
+        if not endpoint:
+            resp.status_code = 404
+            resp.media = {"error": "No oEmbed endpoint found"}
+            return
+
+        # Step 2: Fetch oEmbed data from the discovered endpoint.
+        r = urllib.request.Request(
+            endpoint, headers={"User-Agent": "kennethreitz.org"}
+        )
+        res = urllib.request.urlopen(r, timeout=5)
+        data = json.loads(res.read())
+
+        resp.media = data
+    except Exception:
+        resp.status_code = 502
+        resp.media = {"error": "oEmbed discovery failed"}
+
+
 # --- Data file serving ---
 
 
