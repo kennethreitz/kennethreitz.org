@@ -44,7 +44,7 @@ When the AI holds it for you, where does the weight go?
 
 ## What We Owe the Next Generation
 
-I'm not arguing against AI-assisted development. I use it every day. It's [the most significant shift in my creative process since learning to code](/artificial-intelligence). But I came to it with twenty years of understanding what code actually does, how systems fail, where the sharp edges are. The AI amplifies my judgment. It doesn't replace it.
+I'm not arguing against AI-assisted development. I use it every day. It's the most significant shift in my creative process since learning to code. But I came to it with twenty years of understanding what code actually does, how systems fail, where the sharp edges are. The AI amplifies my judgment. It doesn't replace it.
 
 For someone whose entire experience of programming is describing what they want and watching it appear — that person needs the hacker ethic *more* than the rest of us, not less. They have the power without the instinct for responsibility that traditionally came bundled with the craft.
 
