@@ -129,6 +129,42 @@ article .marginnote {
     }
 }
 
+/* Tablet: switch sidenotes to toggle mode before they break layout */
+@media (max-width: 1000px) {
+    section > p,
+    section > footer,
+    section > table,
+    section > blockquote,
+    p,
+    blockquote,
+    .post-content > p,
+    .post-content > blockquote,
+    .post-content > ul,
+    .post-content > ol {
+        width: 90% !important;
+    }
+
+    .sidenote,
+    .marginnote {
+        display: none;
+    }
+
+    label.margin-toggle:not(.sidenote-number) {
+        display: inline;
+    }
+
+    .margin-toggle:checked + .sidenote,
+    .margin-toggle:checked + .marginnote {
+        display: block;
+        float: left;
+        left: 1rem;
+        clear: both;
+        width: 95%;
+        margin: 1rem 2.5%;
+        position: relative;
+    }
+}
+
 /* ========================================= */
 /* Code Blocks */
 /* ========================================= */
@@ -687,8 +723,8 @@ body.dark-mode ::-moz-selection {
 /* Sidenotes Dark Mode */
 /* ========================================= */
 
-/* Mobile sidenote popup styling */
-@media (max-width: 760px) {
+/* Sidenote popup styling (tablet and mobile) */
+@media (max-width: 1000px) {
     .margin-toggle:checked + .sidenote,
     .margin-toggle:checked + .marginnote {
         background: rgba(255, 235, 59, 0.15);
@@ -799,6 +835,17 @@ pre .comment {
     .post-content > ol {
         width: 100% !important;
         max-width: 100% !important;
+    }
+
+    /* Fix blockquote paragraph width on mobile */
+    blockquote p,
+    blockquote footer,
+    .post-content blockquote p,
+    article .post-content blockquote p,
+    section .post-content blockquote p {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-right: 0 !important;
     }
 
     section > dl,
