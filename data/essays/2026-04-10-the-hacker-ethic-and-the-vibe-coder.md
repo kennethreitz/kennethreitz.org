@@ -3,7 +3,14 @@
 
 In 1984, Steven Levy published *Hackers: Heroes of the Computer Revolution* and formalized something the early computing community already knew in their bones: that [building software carries ethical weight](https://en.wikipedia.org/wiki/Hacker_ethic). The hackers at MIT in the 1960s, the hardware tinkerers in Silicon Valley in the 1970s, the open source movement that followed — they all operated under a shared set of principles that nobody had to enforce because the people writing code understood the systems well enough to feel responsible for them.
 
-The principles were simple. Access to computers should be unlimited and total. Information should be free. Mistrust authority and promote decentralization. Judge people by their work, not their credentials. You can create art and beauty on a computer. Computers can change your life for the better.
+The principles were simple:
+
+- Access to computers should be unlimited and total.
+- Information should be free.
+- Mistrust authority — promote decentralization.
+- Judge people by their work, not their credentials.
+- You can create art and beauty on a computer.
+- Computers can change your life for the better.
 
 These weren't idealistic platitudes. They were load-bearing ethical commitments that shaped how the internet was built, how open source works, how the free software movement thinks about human freedom. Richard Stallman put it plainly: the hacker ethic is about "the feelings of right and wrong" in a community — "that knowledge should be shared with other people who can benefit from it."
 
