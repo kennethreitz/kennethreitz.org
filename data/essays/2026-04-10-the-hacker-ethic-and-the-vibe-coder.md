@@ -38,7 +38,7 @@ But the early hackers also understood that access without understanding is dange
 
 A vibe coder can ship a web app in an afternoon. That app might collect user data, make API calls to third-party services, store credentials, handle payments, run on shared infrastructure. Every one of those is an ethical surface. Every one of those can harm real people if handled carelessly.
 
-The hacker ethic wasn't just about what you *could* build. It was about what you *should* build, and how, and for whom. The "hands-on imperative" — learning by taking things apart — wasn't just a learning style. It was the foundation of ethical responsibility. You understand the weight of the thing because you've held it in your hands.
+The hacker ethic wasn't just about what you *could* build. It was about what you *should* build, what you *shouldn't* build, and for whom. The "hands-on imperative" — learning by taking things apart — wasn't just a learning style. It was the foundation of ethical responsibility. You understand the weight of the thing because you've held it in your hands.
 
 When the AI holds it for you, where does the weight go?
 
