@@ -776,7 +776,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {{ content | safe }}
     </section>
     
-    <!-- Comments via giscus -->
+    <!-- Comments via giscus (essays only) -->
+    {% if current_path and current_path.startswith('/essays/') %}
     <div class="giscus-container" style="width: 100%; margin-top: 4rem; padding-top: 2rem;">
         <script>
         (function() {
@@ -803,6 +804,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })();
         </script>
     </div>
+    {% endif %}
 
     {% if parent_directory %}
     <div class="parent-navigation">
