@@ -52,13 +52,10 @@ We need to teach it explicitly now. It used to be ambient — you absorbed it th
 
 So here's what I think we owe the vibe coders:
 
-**Teach them where the code runs.** Not abstractly. Concretely. Whose server. Whose data. Whose trust.
-
-**Teach them what information is.** Not as product feature but as responsibility. Every database is someone's life reduced to rows.
-
-**Teach them to read code, not just generate it.** You don't need to write every line. But you need to be able to read what you're shipping. If you can't audit it, you shouldn't deploy it.
-
-**Teach them the history.** The hacker ethic exists because people thought carefully about the power they were wielding. That thinking isn't optional just because the tooling changed.
+- **Teach them where the code runs.** Not abstractly. Concretely. Whose server. Whose data. Whose trust.
+- **Teach them what information is.** Not as product feature but as responsibility. Every database is someone's life reduced to rows.
+- **Teach them to read code, not just generate it.** You don't need to write every line. But you need to be able to read what you're shipping. If you can't audit it, you shouldn't deploy it.
+- **Teach them the history.** The hacker ethic exists because people thought carefully about the power they were wielding. That thinking isn't optional just because the tooling changed.
 
 With great power comes great responsibility. That's not a comic book line. It's the entire moral architecture of computing, and we're handing the power to people who've never heard of the architecture.
 
