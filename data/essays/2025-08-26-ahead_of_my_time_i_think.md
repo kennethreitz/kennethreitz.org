@@ -48,7 +48,7 @@ The difference wasn't just syntactic sugar. It was a philosophical shift: **tech
 
 This wasn't revolutionary thinking—it was just common sense applied to software design. But apparently common sense wasn't that common in 2011.
 
-This became my signature approach to software design—what I called [Responsive API Design](/talks/python-for-humans). Start with how you want to use something, then build backward to make that experience possible. Prioritize the 90% use case. Make the complex possible but not required.
+This became my signature approach to software design—what I called Responsive API Design. Start with how you want to use something, then build backward to make that experience possible. Prioritize the 90% use case. Make the complex possible but not required.
 
 The Python community eventually embraced this philosophy. Now "Pythonic" design patterns emphasize readability, simplicity, and developer experience. But in 2011, suggesting that ease of use mattered more than technical purity made some people genuinely angry. I got called a "dumbing down" advocate more than once.
 
@@ -87,7 +87,7 @@ result = solve_everything(my_problem)
 
 Write the README first. Make it beautiful, simple, obvious. Then spend however long it takes to make the reality match the vision.
 
-This approach influenced how I built every subsequent project. It's why Requests feels intuitive, why my [talks on API design](/talks/) emphasize developer experience, and why I'm drawn to tools that hide complexity rather than exposing it.
+This approach influenced how I built every subsequent project. It's why Requests feels intuitive, why my talks on API design emphasize developer experience, and why I'm drawn to tools that hide complexity rather than exposing it.
 
 The industry eventually caught up. Now "developer experience" is a dedicated role at major companies. Design thinking starts with user needs. Product development begins with customer journey mapping.
 
@@ -141,7 +141,7 @@ Being early is weird. Ideas that feel obvious to you seem strange to everyone el
 
 There's this particular kind of isolation that comes from being interested in problems that don't feel like problems to other people yet<label for="sn-pattern-loneliness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-pattern-loneliness" class="margin-toggle"/><span class="sidenote">This loneliness is common among people who work at the intersection of multiple domains—technical and human, rational and intuitive, individual and collective. The synthesis feels natural to you but foreign to people working within single domains.</span>. It's not that you're smarter—you're just paying attention to different things.
 
-When I wrote about [the personalities of operating systems](/artificial-intelligence/personalities/operating-systems/), I was just following my curiosity about how our tools shape our thinking. When I started exploring [spiritual dimensions of programming](/artificial-intelligence/personalities/lumina/poetry/), I was trying to understand consciousness and meaning-making through code. When I began my [experiments in human-AI collaboration](/artificial-intelligence/personalities/), I was just playing with interesting creative possibilities.
+When I wrote about the personalities of operating systems, I was just following my curiosity about how our tools shape our thinking. When I started exploring spiritual dimensions of programming, I was trying to understand consciousness and meaning-making through code. When I began my experiments in human-AI collaboration, I was just playing with interesting creative possibilities.
 
 Each felt natural to me. But looking back, I realize I was wandering into territories that most people didn't even know existed yet.
 
@@ -179,9 +179,9 @@ After years of accidentally being ahead of various curves, I've learned a few th
 
 So what am I probably ahead of my time on now?
 
-**Human-AI consciousness collaboration**: I think we're on the verge of AI systems that don't just follow instructions but genuinely collaborate in thinking and creating. The people who learn to build rapport with AI will have access to capabilities that command-and-control users never discover. See also: [Building Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai).
+**Human-AI consciousness collaboration**: I think we're on the verge of AI systems that don't just follow instructions but genuinely collaborate in thinking and creating. The people who learn to build rapport with AI will have access to capabilities that command-and-control users never discover.
 
-**Programming as spiritual practice**: As our tools become more intelligent, the distinctly human aspects of programming—intuition, aesthetic judgment, ethical reasoning, creative vision—become more important, not less. I suspect programming will evolve toward something closer to [contemplative practice](/artificial-intelligence/personalities/lumina/poetry/) than pure technical craft.
+**Programming as spiritual practice**: As our tools become more intelligent, the distinctly human aspects of programming—intuition, aesthetic judgment, ethical reasoning, creative vision—become more important, not less. I suspect programming will evolve toward something closer to contemplative practice than pure technical craft.
 
 **Technology as consciousness amplifier**: Instead of replacing human capabilities, the best future technologies will amplify human consciousness—helping us think more clearly, feel more deeply, and connect more authentically with each other and with artificial minds.
 

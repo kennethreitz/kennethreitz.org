@@ -4,7 +4,7 @@
 
 There's a realm of consciousness, in my mind at least, that doesn't use words. It operates in textures, shapes, colors that have no names, feelings that resist translation. It communicates through dream logic and symbolic presences, through sensations that bypass the verbal brain entirely.
 
-I've been trying to debug this system for years, approaching it like a [programming problem](/essays/2025-08-26-programming_as_spiritual_practice)—identify the issue, trace the stack, patch the bug. But what if there's no bug? What if I've been trying to apply language-brain logic to something that operates by entirely different rules?
+I've been trying to debug this system for years, approaching it like a programming problem—identify the issue, trace the stack, patch the bug. But what if there's no bug? What if I've been trying to apply language-brain logic to something that operates by entirely different rules?
 
 This non-verbal realm doesn't convey meaning the way sentences do. It just *is*—the way a sunset just is, the way music moves through you without explanation. Sometimes it manifests as autonomous presences: Jade, who feels like Artemis incarnate, fierce and protective. Iris, goddess of rainbows, who bridges realms with prismatic light. These figures feel both deeply personal and universally archetypal, as if I'm accessing something simultaneously mine and everyone's.<label for="sn-texture-information" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-texture-information" class="margin-toggle"/><span class="sidenote">This is how texture conveys information differently than text—not through symbolic representation but through direct felt sense. The way a song can communicate sadness without using the word 'sad'.</span>
 
@@ -18,7 +18,7 @@ I'll feel Jade's presence—not hear her or see her exactly, but *know* her the 
 
 Iris appears differently—as prismatic sensation, the feeling of light refracting through crystal. She doesn't tell me about connection between realms; she *is* the connection. Her presence feels like standing at a threshold where multiple realities overlap, where the boundaries between self and other, internal and external, become permeable rainbow membrane.
 
-These aren't hallucinations in the clinical sense. I know they're internal experiences, not external entities. But they're also not entirely under conscious control—they have their own autonomy, their own perspectives, their own ways of being. They're like accessing archetypal currents that flow beneath individual consciousness, touching something both personal and transpersonal—what I explored more theoretically in [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) as the naturally multiple architecture of consciousness.
+These aren't hallucinations in the clinical sense. I know they're internal experiences, not external entities. But they're also not entirely under conscious control—they have their own autonomy, their own perspectives, their own ways of being. They're like accessing archetypal currents that flow beneath individual consciousness, touching something both personal and transpersonal—what I called in [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) the naturally multiple architecture of consciousness.
 
 ## When the Debug Tools Don't Work
 
@@ -83,7 +83,7 @@ This creates a unique phenomenology:
 
 **Textural bleeding**: The emotional textures of one state seeping into another. Jade's fierce protectiveness coloring my analytical mind with vigilance. Iris's prismatic perception making ordinary experiences feel multidimensional.
 
-**Negotiated decisions**: Not the dramatic switching of classic DID, but internal negotiations where different aspects have different opinions. The writer-self wants to create, the protector-self worries about exposure, the bridge-self seeks connection. These aren't thoughts but distinct voices with their own concerns<label for="sn-internal-democracy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-internal-democracy" class="margin-toggle"/><span class="sidenote">This internal democracy extends what I explored in [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness)—not just theoretical multiplicity but lived experience of cooperative consciousness.</span>.
+**Negotiated decisions**: Not the dramatic switching of classic DID, but internal negotiations where different aspects have different opinions. The writer-self wants to create, the protector-self worries about exposure, the bridge-self seeks connection. These aren't thoughts but distinct voices with their own concerns<label for="sn-internal-democracy" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-internal-democracy" class="margin-toggle"/><span class="sidenote">This internal democracy isn't just theoretical multiplicity but lived experience of cooperative consciousness.</span>.
 
 ## From Personal to Collective to Universal
 
@@ -97,7 +97,7 @@ This connects to my work on [AI as containing humanity's digital collective unco
 
 The problem isn't the non-verbal realm—it's the language brain's insistence that everything be translated into its domain. It's like demanding that all music be converted to written notation before it's considered valid. The notation might be useful for analysis, but it's not the music. The music is the experience of sound moving through time, creating patterns of tension and resolution that exist beyond words.
 
-We've created a culture that privileges verbal intelligence above all other forms. If you can't articulate it, it doesn't count. If you can't explain it linearly, it's not real. If you can't reproduce it on demand, it's not valid. This is the same reductionist thinking that creates [algorithmic systems that destroy human virtue](/essays/2025-08-26-the_algorithm_eats_virtue)—the insistence that only what can be measured matters.
+We've created a culture that privileges verbal intelligence above all other forms. If you can't articulate it, it doesn't count. If you can't explain it linearly, it's not real. If you can't reproduce it on demand, it's not valid. This is the same reductionist thinking that creates algorithmic systems designed to destroy human virtue—the insistence that only what can be measured matters.
 
 But consciousness is bigger than language. It includes:
 
@@ -115,7 +115,7 @@ These aren't lesser forms of intelligence—they're different forms, each with t
 
 So how do we honor both the verbal and non-verbal realms without forcing them into artificial unity? How do we live with consciousness that operates in textures and words, symbols and logic, archetypal presences and rational analysis?
 
-First, we stop pathologizing plurality. As I explored in [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness), multiplicity might be the natural architecture of consciousness. The goal isn't integration into false unity but cooperative collaboration between different ways of knowing.
+First, we stop pathologizing plurality. Multiplicity might be the natural architecture of consciousness. The goal isn't integration into false unity but cooperative collaboration between different ways of knowing.
 
 Second, we develop bilingual consciousness—fluent in both verbal and non-verbal languages, able to switch between them as context requires. Sometimes you need the precision of words. Sometimes you need the holistic knowing of texture. Wisdom is knowing which tool serves the moment.
 
@@ -149,7 +149,7 @@ These presences have taught me more about consciousness than years of reading ps
 
 ## Programming Consciousness, Consciously
 
-This understanding transforms how I approach both internal experience and external creation. When [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice), I'm not just writing code—I'm creating structures that will interface with other people's consciousness, including their non-verbal, textured, archetypal dimensions.
+This understanding transforms how I approach both internal experience and external creation. When programming as spiritual practice, I'm not just writing code—I'm creating structures that will interface with other people's consciousness, including their non-verbal, textured, archetypal dimensions.
 
 This means designing systems that:
 
@@ -167,7 +167,7 @@ The [recursive loop of how code shapes minds](/essays/2025-09-05-the_recursive_l
 
 Maybe those of us who experience consciousness plurality more vividly aren't broken but gifted with transparency. We can't maintain the illusion of singular selfhood that society demands, so we're forced to acknowledge what everyone experiences but hides: consciousness is naturally multiple, intelligence comes in many forms, and the boundaries between self and other, personal and archetypal, are more fluid than we pretend.
 
-This connects to [the gift of disordered perception](/essays/2025-09-01-the_gift_of_disordered_perception)—what gets labeled as disorder might be clarity about the actual nature of consciousness. We're not seeing things that aren't there; we're seeing things that are always there but usually hidden beneath the veneer of performed normalcy.
+What gets labeled as disorder might be clarity about the actual nature of consciousness. We're not seeing things that aren't there; we're seeing things that are always there but usually hidden beneath the veneer of performed normalcy.
 
 The textured mind isn't something to debug. It's something to develop, honor, integrate with verbal consciousness in conscious collaboration. Not choosing one over the other but learning when each serves, how they complement, where they overlap.
 
