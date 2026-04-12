@@ -206,7 +206,7 @@ def register_context_processors(app):
 
             # Add cache control for HTML (short cache, must revalidate)
             if not response.headers.get('Cache-Control'):
-                response.headers['Cache-Control'] = 'public, max-age=300, must-revalidate'
+                response.headers['Cache-Control'] = 'public, max-age=3600, must-revalidate'
 
             # Inject a script right after <head> to immediately show content
             content = response.get_data(as_text=True)
