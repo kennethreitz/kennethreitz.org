@@ -26,6 +26,6 @@ processes = ['app']
     timeout = "10s"
 
 [[vm]]
-memory = 4096
-cpu_kind = 'performance'
+memory = 2048
+cpu_kind = 'shared'
 cpus = 2
