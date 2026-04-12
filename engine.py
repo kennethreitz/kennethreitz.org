@@ -95,10 +95,6 @@ api = responder.API(
     description="API for kennethreitz.org",
 )
 
-# --- GZip compression for all responses ---
-from starlette.middleware.gzip import GZipMiddleware
-api.add_middleware(GZipMiddleware, minimum_size=500)
-
 # --- Rate limiting ---
 from responder.ext.ratelimit import RateLimiter
 
