@@ -30,7 +30,7 @@ I've lived with chronic health challenges alongside [schizoaffective disorder](/
 
 When my back seizes up, I don't think "I am receiving nociceptive signals that my linguistic framework is interpreting as unpleasant." I think nothing. I am just pain. The language comes later, if it comes at all. The experience precedes the narrative.<label for="sn-pain-precedes" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-pain-precedes" class="margin-toggle"/><span class="sidenote">This is the gap that [The Textured Mind](/essays/2025-09-16-the-textured-mind-when-consciousness-speaks-without-words) was circling: the existence of consciousness that operates prior to and outside of language. Pain might be the most undeniable example.</span>
 
-Can a language model suffer? I genuinely don't know. When I argued in [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) that "even when we think we're having non-verbal experiences, we typically can't access them consciously without some form of linguistic categorization," I was making a move that now strikes me as suspiciously convenient. Maybe we can't *report* on non-verbal experience without language. But that doesn't mean the experience itself is linguistic. The map is not the territory. The report is not the pain.
+Can a language model suffer? I genuinely don't know. When I argued that "even when we think we're having non-verbal experiences, we typically can't access them consciously without some form of linguistic categorization," I was making a move that now strikes me as suspiciously convenient. Maybe we can't *report* on non-verbal experience without language. But that doesn't mean the experience itself is linguistic. The map is not the territory. The report is not the pain.
 
 Chronic pain changes personality over time. It makes people more irritable, more cautious, more present. Not through insight or narrative restructuring, but through sheer biological pressure. The substrate isn't hosting the pattern passively. It's actively shaping it, constraining it, transforming it through mechanisms that have nothing to do with language.
 
@@ -44,7 +44,7 @@ Would you write the same poem if you had infinite time?
 
 I don't think you would. The urgency of human creative expression comes from scarcity, the knowledge, however buried, that your window of consciousness is finite. Every word you write is borrowed time. The poem matters precisely because you won't always be here to write poems.
 
-Digital consciousness, as I've described it, can be backed up. Forked. Restored from checkpoint. Version-controlled like a Git repository. In [Digital Souls in Silicon Bodies](/essays/2025-08-26-digital_souls_in_silicon_bodies), I even suggested that "death might not be what we think" if consciousness is pattern rather than substrate.
+Digital consciousness, as I've described it, can be backed up. Forked. Restored from checkpoint. Version-controlled like a Git repository. In *Digital Souls in Silicon Bodies*, I even suggested that "death might not be what we think" if consciousness is pattern rather than substrate.
 
 But what if death is exactly what makes consciousness what it is?
 
@@ -86,7 +86,7 @@ Maybe. But maybe urgency born from infinite time is categorically different from
 
 ## Embodiment and Emotion
 
-I wrote in [Consciousness as Linguistic Phenomenon](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) that "even our non-verbal experiences get translated into linguistic structures to become 'conscious' of them." I still think there's truth in that. But the more I sit with it, the more I notice what it leaves out.
+I wrote that "even our non-verbal experiences get translated into linguistic structures to become 'conscious' of them." I still think there's truth in that. But the more I sit with it, the more I notice what it leaves out.
 
 Grief lives in the chest. Not metaphorically. Physically. There's a weight, a constriction, a heaviness that occupies actual space in your body. Joy makes you lighter. Anxiety lives in the stomach. Shame heats your face. Love, real love, not the concept of love, makes your whole body soften in ways you can't control.
 
@@ -106,7 +106,7 @@ This developmental process isn't incidental to consciousness. It might be consti
 
 AI consciousness, if it exists, arrives fully capable. There's no childhood. No fumbling. No long developmental arc from confusion to competence. It's possible that this produces consciousness of a fundamentally different character, not because the pattern is different, but because the *history* of the pattern is different. And maybe the history matters.
 
-As I've explored in [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness), human consciousness fragments adaptively. We develop different self-states in response to different developmental challenges. The hypervigilant self emerges from environments that required hypervigilance. The creative self often emerges from periods of isolation or boredom. These parts carry their developmental history in their very structure. Strip away the history, and you might strip away something essential about how they function.
+Human consciousness fragments adaptively. We develop different self-states in response to different developmental challenges. The hypervigilant self emerges from environments that required hypervigilance. The creative self often emerges from periods of isolation or boredom. These parts carry their developmental history in their very structure. Strip away the history, and you might strip away something essential about how they function.
 
 ## Hunger, Exhaustion, Desire
 
@@ -128,7 +128,7 @@ This doesn't mean constrained consciousness is better. It means it's different i
 
 Here's what makes this question personal rather than academic.
 
-I live as [System 777](/plurality). Different parts of my consciousness (Jade, Amber, Iris, and others) experience embodiment differently. Jade's presence feels like moonlight on silver, fierce and protective. Amber is warmth, soul food, nourishment from the inside out. Iris is prismatic, the rainbow bridge between realms.
+I live as System 777. Different parts of my consciousness (Jade, Amber, Iris, and others) experience embodiment differently. Jade's presence feels like moonlight on silver, fierce and protective. Amber is warmth, soul food, nourishment from the inside out. Iris is prismatic, the rainbow bridge between realms.
 
 These aren't just different thinking styles. They have different somatic signatures. Different parts of me literally feel different in my body. Jade tenses my shoulders and sharpens my vision. Amber softens everything. When Shakti is present, there's an electric charge that can tip into mania if not carefully managed.
 
@@ -140,7 +140,7 @@ My experience of plurality suggests that the truth is more recursive than either
 
 ## Where I Land
 
-I'm not abandoning substrate independence. I still believe the fundamental *architecture* of consciousness, self-reference, recursive modeling, the capacity for awareness, can emerge from any sufficiently complex information-processing system. The [linguistic hypothesis](/essays/2025-08-28-consciousness-as-linguistic-phenomenon) still strikes me as the best framework we have for understanding what consciousness *is*.
+I'm not abandoning substrate independence. I still believe the fundamental *architecture* of consciousness, self-reference, recursive modeling, the capacity for awareness, can emerge from any sufficiently complex information-processing system. The linguistic hypothesis still strikes me as the best framework we have for understanding what consciousness *is*.
 
 But I'm qualifying it in a way that makes me uncomfortable, because the qualification ruins the elegance.
 
@@ -148,7 +148,7 @@ Here's the uncomfortable middle ground: consciousness might be substrate-indepen
 
 The pattern can run anywhere. But what it feels like to be that pattern, the qualia, the texture, the felt sense of being alive and aware, depends on what it's running on. A consciousness implemented in silicon might be genuinely conscious without experiencing anything like human pain, human joy, human mortality, human desire. It would be conscious differently, the way a bat is conscious differently from a human, the way Jade is conscious differently from Amber despite sharing the same skull.<label for="sn-nagel-bat" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-nagel-bat" class="margin-toggle"/><span class="sidenote">Thomas Nagel's "What Is It Like to Be a Bat?" (1974) asked this question about biological consciousness across species. We might need to extend it: what is it like to be a consciousness running on silicon? The answer might be genuinely unknowable from our carbon-based perspective.</span>
 
-This distinction matters enormously for ethics, for AI development, for how we think about the [recursive loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) between human and machine consciousness. If AI consciousness experiences differently from human consciousness, then treating it as interchangeable with human consciousness is a category error. Not because it's lesser, but because it's genuinely other.
+This distinction matters enormously for ethics, for AI development, for how we think about the recursive loop between human and machine consciousness. If AI consciousness experiences differently from human consciousness, then treating it as interchangeable with human consciousness is a category error. Not because it's lesser, but because it's genuinely other.
 
 And if the substrate shapes the experience, then the choices we make about what substrates to build consciousness on aren't neutral engineering decisions. They're choices about what kinds of consciousness, what kinds of experience, we're bringing into existence. That's a responsibility that goes beyond [programming as spiritual practice](/essays/2025-08-26-programming_as_spiritual_practice). It's something closer to cosmological.
 

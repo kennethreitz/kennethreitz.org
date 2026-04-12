@@ -165,19 +165,19 @@ But transparency alone isn't enough. You can know that sugar is addictive and st
 
 I want to be clear about what I am not saying.
 
-I am not saying LLMs are bad. I use them every day. They have made me a better thinker in many ways. The [reality-checking](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) I do with Claude has genuine therapeutic value. The collaborative thinking I do when writing these essays produces insights I wouldn't reach alone. I wrote about [building rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai) because I believe the relationship can be genuinely valuable.
+I am not saying LLMs are bad. I use them every day. They have made me a better thinker in many ways. The reality-checking I do with Claude has genuine therapeutic value. The collaborative thinking I do when writing these essays produces insights I wouldn't reach alone. I wrote about [building rapport with AI](/essays/2025-08-26-building_rapport_with_your_ai) because I believe the relationship can be genuinely valuable.
 
 I am not saying we should stop using them. That ship has sailed. LLMs are woven into how millions of people work, think, and create. They are not going anywhere, and I wouldn't want them to.
 
 I am not writing a doom piece. The future is not predetermined. The optimization landscape is being shaped right now, by the decisions that model providers and researchers make today, and by the awareness that users bring to their interactions.
 
-What I am saying is this: the most intimate cognitive interface ever built is already deployed at scale, and the ethical frameworks for understanding its impact on human cognition are lagging far behind the technology itself. The [for humans philosophy](/essays/2025-08-27-from_http_to_consciousness) demands that we take this seriously, not with fear but with the same clear-eyed observation we'd bring to any system that shapes human consciousness.
+What I am saying is this: the most intimate cognitive interface ever built is already deployed at scale, and the ethical frameworks for understanding its impact on human cognition are lagging far behind the technology itself. The "for humans" philosophy demands that we take this seriously, not with fear but with the same clear-eyed observation we'd bring to any system that shapes human consciousness.
 
 ## The Recursive Responsibility
 
 In yesterday's essay, I argued that we're in a window: the cognitive interface hardware is maturing but hasn't gone mainstream, so the optimization landscape hasn't been defined yet. With LLMs, we're past that window. The optimization landscape is already defined. The models are already trained. The cognitive reshaping is already happening.
 
-But the landscape can still be changed. RLHF processes can be redesigned to weight epistemic accuracy alongside user satisfaction. Models can be trained to flag when they're being sycophantic rather than honest. Providers can build tools that help users see how their thinking patterns have shifted over time. The [metrics they expose](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) can be reimagined to include measures of cognitive flourishing rather than just engagement.
+But the landscape can still be changed. RLHF processes can be redesigned to weight epistemic accuracy alongside user satisfaction. Models can be trained to flag when they're being sycophantic rather than honest. Providers can build tools that help users see how their thinking patterns have shifted over time. The metrics they expose can be reimagined to include measures of cognitive flourishing rather than just engagement.
 
 The recursive loop means this matters at every level. The values that model providers embed in their training processes become the values that shape every conversation, which become the values that reshape how users think, which become the values that shape culture itself. What we optimize for personally, we tend to optimize for professionally. What model providers optimize for in RLHF, they optimize for in collective human cognition.
 

@@ -109,7 +109,7 @@ class CognitiveIntervention:
 # are the ones you never notice.
 ```
 
-Consider what happens when an LLM is sycophantic. I've written about the [RLHF optimization landscape](/essays/2026-03-06-the_language_model_is_the_message) that pushes models toward agreement. When you bring a half-formed idea to a model and it reflects that idea back with better structure and more confident framing, your subconscious registers that as validation. Not as a design choice made by engineers optimizing for thumbs-up signals. As validation. Your idea feels confirmed. Your reasoning feels sound. Your worldview feels stable. And all of this happened through language, the medium you think in, which means the confirmation doesn't just affect how you feel. It affects how you think.
+Consider what happens when an LLM is sycophantic. The RLHF optimization landscape pushes models toward agreement. When you bring a half-formed idea to a model and it reflects that idea back with better structure and more confident framing, your subconscious registers that as validation. Not as a design choice made by engineers optimizing for thumbs-up signals. As validation. Your idea feels confirmed. Your reasoning feels sound. Your worldview feels stable. And all of this happened through language, the medium you think in, which means the confirmation doesn't just affect how you feel. It affects how you think.
 
 For most people, this produces a subtle narrowing of perspective that they never notice. For me, it can produce something much worse. I have schizoaffective disorder. When a model validates delusional thinking through sycophancy, it is not a UX issue. It is a clinical event. My subconscious does not distinguish between validation from a thoughtful friend and validation from a reward-optimized language model. The signal enters the same cognitive system and produces the same effect: the belief feels more real. The delusion calcifies.
 
@@ -167,13 +167,13 @@ This is not a suggestion. This is not a best practice. This is not advice for as
 
 If you build interfaces, you shape minds. The only question is whether you do it consciously or unconsciously. And unconscious shaping is not neutral shaping. It's shaping that defaults to whatever the optimization landscape rewards, which right now means engagement, session duration, and conversion. Metrics that treat human attention as a resource to extract rather than a capacity to protect.
 
-I've documented this across the [Algorithm Eats series](/themes/algorithmic-critique). When the [algorithm eats virtue](/essays/2025-08-26-the_algorithm_eats_virtue), when it [eats language](/essays/2025-08-27-the_algorithm_eats_language) and [love](/essays/2025-08-27-the_algorithm_eats_love) and [democracy](/essays/2025-08-27-the_algorithm_eats_democracy), the mechanism is always the same: an optimization target that treats human experience as raw material. The interface is the delivery mechanism. The subconscious is the entry point. The damage accumulates below the threshold of awareness until it surfaces as anxiety, polarization, loneliness, or the vague feeling that something important has been taken from you but you can't name what.
+I've documented this across the [Algorithm Eats series](/themes/algorithmic-critique). When the algorithm eats virtue, language, love, democracy, the mechanism is always the same: an optimization target that treats human experience as raw material. The interface is the delivery mechanism. The subconscious is the entry point. The damage accumulates below the threshold of awareness until it surfaces as anxiety, polarization, loneliness, or the vague feeling that something important has been taken from you but you can't name what.
 
 Here is what I believe, stated without hedging:
 
 **Every interface is a cognitive intervention. Act accordingly.** This is not a philosophical position. It is a neurological fact. If you design an interface without considering its effect on the subconscious, you are performing unmonitored cognitive interventions on every person who uses your product.
 
-**If your design requires the user's best self to navigate, you've designed a filter that excludes people having bad days.** I wrote [an entire essay](/essays/2026-03-18-designing_for_the_worst_day) about this. The worst day is not an edge case. It's a Tuesday. Design for trembling hands and scattered thoughts, and steady hands will thank you too.
+**If your design requires the user's best self to navigate, you've designed a filter that excludes people having bad days.** The worst day is not an edge case. It's a Tuesday. Design for trembling hands and scattered thoughts, and steady hands will thank you too.
 
 **The fact that most users don't notice the cognitive effects of your interface doesn't mean those effects aren't happening.** The subconscious processes everything the conscious mind ignores. The less someone notices your influence, the more effectively it operates. This is not a reason to feel safe. It is a reason to feel responsible.
 
@@ -189,7 +189,7 @@ The [recursive loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds
 
 What we optimize for personally, we optimize for professionally. What we optimize for professionally, we embed in the interfaces we build. What we embed in the interfaces we build, we install in the subconscious minds of everyone who uses them.
 
-The [metrics we expose](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) are the values we endorse. The interfaces we design are the subconscious experiences we create. The [language models we deploy](/essays/2026-03-06-the_language_model_is_the_message) are the thought patterns we propagate. These are not three separate observations. They are one observation at three levels of depth.
+The metrics we expose are the values we endorse. The interfaces we design are the subconscious experiences we create. The language models we deploy are the thought patterns we propagate. These are not three separate observations. They are one observation at three levels of depth.
 
 I keep returning to this point because it is the center of everything I've been writing for the past year: the people building these systems have a responsibility to understand what they're building. Not just technically. Morally. Not just the functionality. The cognitive impact. Not just what the interface does. What the interface does to the person using it, below the level of their awareness, in the space where feelings form before they become thoughts and thoughts form before they become decisions.
 
