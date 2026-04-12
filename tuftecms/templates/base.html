@@ -183,6 +183,39 @@
                 }
             }
             
+            .github-corner {
+                position: fixed;
+                top: 0;
+                right: 0;
+                z-index: 9998;
+                opacity: 0.85;
+                transition: opacity 0.3s ease;
+            }
+
+            .github-corner:hover {
+                opacity: 0.8;
+            }
+
+            .github-corner-img {
+                width: 80px;
+                height: 80px;
+            }
+
+            body.dark-mode .github-corner {
+                opacity: 0.25;
+            }
+
+            body.dark-mode .github-corner-img {
+                filter: invert(1);
+            }
+
+            @media (max-width: 760px) {
+                .github-corner-img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
             .theme-toggle {
                 position: fixed;
                 bottom: 2rem;
@@ -409,6 +442,15 @@
         <!-- Reading progress bar -->
         <div class="reading-progress" id="reading-progress"></div>
         
+        {% set github_base = 'https://github.com/kennethreitz/kennethreitz.org' %}
+        {% if github_file %}
+        <a href="{{ github_base }}/blob/main/{{ github_file }}" class="github-corner" aria-label="View source on GitHub" target="_blank">
+        {% else %}
+        <a href="{{ github_base }}" class="github-corner" aria-label="View source on GitHub" target="_blank">
+        {% endif %}
+            <img src="/static/images/github-banner.svg" alt="View on GitHub" class="github-corner-img">
+        </a>
+
         <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
             <span class="sun-icon">☀️</span>
             <span class="moon-icon">🌙</span>
