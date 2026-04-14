@@ -1040,7 +1040,7 @@ wheels = [
 
 [[package]]
 name = "responder"
-version = "3.6.1"
+version = "3.6.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "a2wsgi" },
@@ -1057,9 +1057,9 @@ dependencies = [
     { name = "starlette", extra = ["full"] },
     { name = "uvicorn", extra = ["standard"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/58/0b/763b7b7a08cf65f2b7eb30b7970f04f15b9b44bc1fdd59ba1a7f1e60c8db/responder-3.6.1.tar.gz", hash = "sha256:8add5e968df077cb7e07e3b6e33494d0dd534c39170fc24c5bb8e81f5bbdd794", size = 61049, upload-time = "2026-04-12T21:53:00.388Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/72/ac/15e883f5b93b6676974fed71ee76f058c1dfa24e8490460cbdbaaf21c68e/responder-3.6.2.tar.gz", hash = "sha256:a9eec028f52cf0d679cf31d1a9215f0d1de983bf590bc55bfb0f9aec3bc32eeb", size = 61388, upload-time = "2026-04-12T22:12:21.6Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4b/c8/b0469d4670ef74cf4736b5d6e17fe2f6c217db3162ece5b3c09611100f25/responder-3.6.1-py3-none-any.whl", hash = "sha256:eab6c0fd49a640af74c6639fc6f49a909c8aab6cad5a23def4694f875f10aa4d", size = 49704, upload-time = "2026-04-12T21:52:58.988Z" },
+    { url = "https://files.pythonhosted.org/packages/fe/13/3e0dd0342be757281fa83cdc7c130e140d9ed4390d15bdc9ea92a20eea87/responder-3.6.2-py3-none-any.whl", hash = "sha256:d119bbc94c8d7eca43c8fb572c3e476d6ff06dbcee57364af56e171e0183bba0", size = 50000, upload-time = "2026-04-12T22:12:20.273Z" },
 ]
 
 [[package]]
@@ -1183,7 +1183,7 @@ requires-dist = [
     { name = "mistune", specifier = ">=3.0.0" },
     { name = "pillow", specifier = ">=11.3.0" },
     { name = "pyyaml", specifier = ">=6.0.0" },
-    { name = "responder", specifier = "==3.6.1" },
+    { name = "responder", specifier = "==3.6.2" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.32.0" },
     { name = "weasyprint", specifier = ">=66.0" },
 ]
