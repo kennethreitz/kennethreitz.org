@@ -25,5 +25,3 @@ Yes, they complain constantly.
  So, what is Facebook's purpose? To deliver useful content and introduce you to new people (while delivering ads), or providing a nice platform for friends to connect with eachother? If you ask me, Facebook's intended purpose is becoming less and less clear the longer that I use it.
 
  Go Twitter.<label for="sn-twitter-prediction" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-twitter-prediction" class="margin-toggle"/><span class="sidenote">This early endorsement of Twitter over Facebook proved remarkably astute—Twitter's influence on journalism, politics, and public discourse would far exceed its user numbers, validating the author's preference for platforms that amplify user agency over algorithmic curation.</span>
-
-  

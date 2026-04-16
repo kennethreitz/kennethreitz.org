@@ -9,4 +9,4 @@ Everyone seems to think that they are always right. It's pretty funny when you t
 
 But hey, *I could be wrong*. :)<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">This self-referential paradox—stating fallibilistic belief while acknowledging it could be wrong—beautifully captures the humble yet confident stance that enables continuous learning and intellectual growth.</span>
 
-  [![](http://imgs.xkcd.com/comics/sheeple.png)](http://xkcd.com/610/)  
+  [![](http://imgs.xkcd.com/comics/sheeple.png)](http://xkcd.com/610/)

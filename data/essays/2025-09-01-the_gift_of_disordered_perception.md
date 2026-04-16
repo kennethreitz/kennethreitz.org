@@ -5,13 +5,9 @@ There's a fascinating paradox in neurodivergent experience: the minds psychiatry
 
 ## The Pattern Recognition Advantage
 
-When your brain operates outside neurotypical parameters—whether through schizoaffective disorder, ADHD, autism, or related conditions—you often develop heightened sensitivity to inconsistencies that others filter out or dismiss.<label for="sn-dismissal" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-dismissal" class="margin-toggle"/>
-<span class="sidenote">This dismissal often serves institutional interests—calling inconvenient observations noise or overthinking deflects attention from systemic problems that would be costly to address.</span>
+When your brain operates outside neurotypical parameters—whether through schizoaffective disorder, ADHD, autism, or related conditions—you often develop heightened sensitivity to inconsistencies that others filter out or dismiss.<label for="sn-dismissal" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-dismissal" class="margin-toggle"/><span class="sidenote">This dismissal often serves institutional interests—calling inconvenient observations noise or overthinking deflects attention from systemic problems that would be costly to address.</span>
 
-You notice when data doesn't align with claims. When explanations contain logical gaps. When stated policies don't match observed outcomes. The same hypersensitivity that makes environments overwhelming also creates awareness of subtle contradictions in information.<label for="sn-patterns" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-patterns" class="margin-toggle"/>
-<span class="sidenote">This connects to my experience with [schizoaffective disorder](/themes/mental-health)—learning to distinguish between meaningful patterns and psychological artifacts while maintaining openness to genuine insights.</span>
+You notice when data doesn't align with claims. When explanations contain logical gaps. When stated policies don't match observed outcomes. The same hypersensitivity that makes environments overwhelming also creates awareness of subtle contradictions in information.<label for="sn-patterns" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-patterns" class="margin-toggle"/><span class="sidenote">This connects to my experience with [schizoaffective disorder](/themes/mental-health)—learning to distinguish between meaningful patterns and psychological artifacts while maintaining openness to genuine insights.</span>
 
 This isn't paranoia—it's pattern recognition operating with reduced social filtering. When you already process information differently, you're less likely to automatically accept conventional explanations that don't align with observed evidence.
 
@@ -51,9 +47,7 @@ Neurodivergent minds possess a significant advantage in this landscape: people w
 
 When someone says "you're being paranoid," you have actual data to reference—documented instances when you were wrong versus times you were right. Most people operate on social comfort rather than evidence tracking. Living with conditions that affect perception necessitates developing internal reality-checking protocols that most neurotypical individuals never require.
 
-These protocols include systematic evidence documentation to distinguish internal experience from external reality, automatic cross-referencing of information across independent sources, and maintaining analytical capacity during intense emotional states.<label for="sn-reality-checking" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-reality-checking" class="margin-toggle"/>
-<span class="sidenote">This relates to my use of [AI systems as reality-checking partners](/artificial-intelligence/collaboration/alien-empathy)—external perspectives help validate or question internal experiences.</span> Emotional regulation becomes a survival skill when your neurology amplifies everything.
+These protocols include systematic evidence documentation to distinguish internal experience from external reality, automatic cross-referencing of information across independent sources, and maintaining analytical capacity during intense emotional states.<label for="sn-reality-checking" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-reality-checking" class="margin-toggle"/><span class="sidenote">This relates to my use of [AI systems as reality-checking partners](/artificial-intelligence/collaboration/alien-empathy)—external perspectives help validate or question internal experiences.</span> Emotional regulation becomes a survival skill when your neurology amplifies everything.
 
 You also learn that experts, while possessing essential knowledge, can have systematic blind spots about lived experience. This leads to collaborative relationships that integrate professional expertise with personal insight rather than deferring completely to credentials.
 
@@ -86,9 +80,7 @@ Healthcare providers specifically require training to distinguish between sympto
 
 ## Future Consciousness
 
-As AI systems achieve increasing sophistication, diverse forms of human consciousness become essential for accurate impact assessment. Neurodivergent perspectives provide crucial insights into how these systems affect minds with alternative information processing architectures.<label for="sn-ai-evaluation" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-ai-evaluation" class="margin-toggle"/>
-<span class="sidenote">Neurotypical developers often miss how AI systems affect neurodivergent users differently—from sensory overload in interfaces to algorithmic amplification of rejection sensitivity. We need neurodivergent perspectives in AI development, not just as users but as designers and critics.</span>
+As AI systems achieve increasing sophistication, diverse forms of human consciousness become essential for accurate impact assessment. Neurodivergent perspectives provide crucial insights into how these systems affect minds with alternative information processing architectures.<label for="sn-ai-evaluation" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-ai-evaluation" class="margin-toggle"/><span class="sidenote">Neurotypical developers often miss how AI systems affect neurodivergent users differently—from sensory overload in interfaces to algorithmic amplification of rejection sensitivity. We need neurodivergent perspectives in AI development, not just as users but as designers and critics.</span>
 
 The future depends on collaborative consciousness—human and artificial minds working together to understand reality from multiple analytical perspectives. In this future, what current frameworks label as "disordered" perception may prove to be humanity's most valuable cognitive resource for navigating increasingly complex technological and social systems.
 

@@ -19,5 +19,3 @@
  [TmTheme Download it here (65KB)](http://media.kennethreitz.com.s3.amazonaws.com/themes/Smoothy.tmTheme)
 
  So, after a great number of hours, and realizing that making things coordinate on black is far easier than white,<label for="sn-design-complexity" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-design-complexity" class="margin-toggle"/><span class="sidenote">Light themes present unique design challenges—ensuring sufficient contrast while maintaining readability across different syntax elements. This insight about the relative difficulty of light vs. dark themes reflects fundamental principles in color theory and accessibility design.</span> I settled on a theme that was colorful, functional, useful, triatic, and most\-importantly, not a piece of crap. Enjoy!
-
-  

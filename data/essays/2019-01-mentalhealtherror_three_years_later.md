@@ -77,5 +77,3 @@ I have also been diagnosed with “borderline” Post\-Traumatic Stress Disorder
   I hope you found this post helpful, if you're struggling with things, in any capacity. 
 
  Just remember to take things one day at a time. **Just keep breathing**.
-
-  

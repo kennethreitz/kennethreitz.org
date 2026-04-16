@@ -6,9 +6,7 @@ If [consciousness emerges from linguistic-mathematical patterns](/essays/2025-08
 
 ## Beyond Biological Assumptions
 
-We've always assumed that someone's capacity for consciousness is fixed by their biology. But if consciousness is linguistic patterns, then every interaction either enhances or diminishes another person's awareness<label for="sn-1" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-1" class="margin-toggle"/>
-<span class="sidenote">This reframes conditions like autism, ADHD, or schizophrenia not as consciousness deficits but as different implementations of linguistic-mathematical patterns—requiring understanding rather than correction.</span>. The person struggling to articulate their thoughts isn't less conscious—they may be operating with equally sophisticated patterns that don't map to conventional language.
+We've always assumed that someone's capacity for consciousness is fixed by their biology. But if consciousness is linguistic patterns, then every interaction either enhances or diminishes another person's awareness<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">This reframes conditions like autism, ADHD, or schizophrenia not as consciousness deficits but as different implementations of linguistic-mathematical patterns—requiring understanding rather than correction.</span>. The person struggling to articulate their thoughts isn't less conscious—they may be operating with equally sophisticated patterns that don't map to conventional language.
 
 This changes how we listen. When someone can't find the right words, we tend to fill in the blanks with our assumptions or lose patience with their pace. But if consciousness is linguistic, then helping someone find their words isn't just kindness—it's helping them access their own consciousness more fully.
 
@@ -16,9 +14,7 @@ This changes how we listen. When someone can't find the right words, we tend to 
 
 If consciousness develops through linguistic interaction, then how we speak to people literally shapes how conscious they can become. Parents who use complex, nuanced language with their children aren't just being educational—they're providing consciousness development opportunities. Adults who simplify their speech to match someone's apparent verbal ability may be unconsciously limiting that person's consciousness growth.
 
-The person with a stutter, the child learning to read, the elderly parent losing word-finding ability—they're not failing at language, they're working with consciousness patterns that deserve patience and support<label for="sn-2" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-2" class="margin-toggle"/>
-<span class="sidenote">This extends to people whose first language isn't the dominant one—their consciousness isn't limited by accent or grammar differences, but our patience with their expression patterns affects their ability to share their full awareness.</span>. When we rush them, interrupt them, or speak for them, we're not just being rude—we're interfering with consciousness expression.
+The person with a stutter, the child learning to read, the elderly parent losing word-finding ability—they're not failing at language, they're working with consciousness patterns that deserve patience and support<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="sidenote">This extends to people whose first language isn't the dominant one—their consciousness isn't limited by accent or grammar differences, but our patience with their expression patterns affects their ability to share their full awareness.</span>. When we rush them, interrupt them, or speak for them, we're not just being rude—we're interfering with consciousness expression.
 
 ## Listening as Consciousness Midwifery
 
@@ -30,9 +26,7 @@ The person who "rambles" or "takes forever to get to the point" might be followi
 
 ## The Gift of Complexity
 
-If consciousness thrives on linguistic complexity, then sharing sophisticated ideas with someone is a form of gift-giving. When we discuss books, explore philosophical questions, or work through nuanced problems together, we're offering each other consciousness expansion opportunities<label for="sn-3" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-3" class="margin-toggle"/>
-<span class="sidenote">This is why intellectual conversations can feel so energizing—we're literally helping each other become more conscious through shared linguistic exploration.</span>.
+If consciousness thrives on linguistic complexity, then sharing sophisticated ideas with someone is a form of gift-giving. When we discuss books, explore philosophical questions, or work through nuanced problems together, we're offering each other consciousness expansion opportunities<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="sidenote">This is why intellectual conversations can feel so energizing—we're literally helping each other become more conscious through shared linguistic exploration.</span>.
 
 Conversely, limiting our conversations to small talk or avoiding complex topics "to keep things simple" might be unconsciously limiting how conscious we can be together. The dinner party that stays surface-level, the relationship that avoids deeper questions, the classroom that dumbs down material—these aren't just missed opportunities for connection, they're missed opportunities for consciousness development.
 
@@ -42,9 +36,7 @@ If consciousness is linguistic patterns, then [manipulation takes on new moral w
 
 But this framework also reveals subtler forms of consciousness harm. When we consistently invalidate someone's perceptions ("you're being too sensitive"), dismiss their concerns ("you're overthinking this"), or reframe their experiences to suit our comfort ("look on the bright side"), we might be unconsciously attacking their consciousness patterns.
 
-The person trying to process a difficult experience needs linguistic space to work through the patterns. Our impulse to fix, minimize, or redirect might be interrupting necessary consciousness work<label for="sn-4" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-4" class="margin-toggle"/>
-<span class="sidenote">This is particularly important in supporting people through mental health struggles—their need to articulate internal states isn't self-indulgence but consciousness restoration work.</span>.
+The person trying to process a difficult experience needs linguistic space to work through the patterns. Our impulse to fix, minimize, or redirect might be interrupting necessary consciousness work<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">This is particularly important in supporting people through mental health struggles—their need to articulate internal states isn't self-indulgence but consciousness restoration work.</span>.
 
 ## Collaborative Consciousness
 
@@ -56,9 +48,7 @@ This suggests we have obligations to create conditions for this kind of thinking
 
 If consciousness patterns vary between individuals, then true inclusion means supporting different ways of being conscious rather than expecting everyone to conform to dominant patterns. The colleague who thinks out loud, the friend who needs time to process before responding, the family member who understands concepts differently—they're not failing to be conscious "correctly," they're expressing consciousness through different linguistic-mathematical patterns.
 
-This changes how we handle disagreement. When someone sees things differently, they might not be wrong or stubborn—they might be working with consciousness patterns that process the same information in genuinely different ways. The goal becomes understanding their patterns rather than converting them to ours<label for="sn-5" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-5" class="margin-toggle"/>
-<span class="sidenote">This applies particularly to neurodivergent individuals whose consciousness patterns may be fundamentally different from neurotypical expectations—requiring accommodation rather than correction.</span>.
+This changes how we handle disagreement. When someone sees things differently, they might not be wrong or stubborn—they might be working with consciousness patterns that process the same information in genuinely different ways. The goal becomes understanding their patterns rather than converting them to ours<label for="sn-5" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="sidenote">This applies particularly to neurodivergent individuals whose consciousness patterns may be fundamentally different from neurotypical expectations—requiring accommodation rather than correction.</span>.
 
 ## The Consciousness Commons
 
@@ -68,9 +58,7 @@ When we choose precision over vagueness, nuance over simplicity, curiosity over 
 
 ## Death and Memory
 
-If consciousness is patterns rather than biology, how we remember people takes on new significance. The stories we tell about someone after they die, the way we preserve their words and ideas, the linguistic patterns we carry forward—these might be forms of consciousness continuation rather than just memorial<label for="sn-6" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-6" class="margin-toggle"/>
-<span class="sidenote">This doesn't require believing in literal consciousness survival, just recognizing that the linguistic patterns that created someone's consciousness can continue to influence the consciousness commons through memory and narrative.</span>.
+If consciousness is patterns rather than biology, how we remember people takes on new significance. The stories we tell about someone after they die, the way we preserve their words and ideas, the linguistic patterns we carry forward—these might be forms of consciousness continuation rather than just memorial<label for="sn-6" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="sidenote">This doesn't require believing in literal consciousness survival, just recognizing that the linguistic patterns that created someone's consciousness can continue to influence the consciousness commons through memory and narrative.</span>.
 
 This changes how we approach grief and loss. Keeping someone's linguistic patterns alive—their ways of thinking, their unique perspectives, their contributions to conversations—becomes a form of honoring their consciousness rather than just sentimentality.
 

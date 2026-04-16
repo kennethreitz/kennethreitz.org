@@ -1,8 +1,3 @@
----
-title: The Art of Digital Zen
-date: 2024-04-22
----
-
 # The Art of Digital Zen
 
 In a world of constant digital noise, finding clarity is increasingly rare. The art of Digital Zen is about creating spaces of tranquility within the technological landscape—a philosophy I've cultivated throughout my software development career.

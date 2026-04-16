@@ -65,4 +65,4 @@
 
  I don't code recreationally as much as I'd like to, but am starting to once again. I don't feel like I'm missing out on anything, but my evenings are not 100% filled with code anymore, as they once were.
 
- Open source is all about collaboration. If you're finding yourself burned out, maybe you need to find new ways to collaborate with others in helping you do what you do best. You'll find that there are others who are in a position to help you do what you do best by doing what they do best too. 
+ Open source is all about collaboration. If you're finding yourself burned out, maybe you need to find new ways to collaborate with others in helping you do what you do best. You'll find that there are others who are in a position to help you do what you do best by doing what they do best too.

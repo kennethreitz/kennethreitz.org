@@ -14,5 +14,3 @@
  I spend $53 a month on McDonalds? I had no idea!<label for="sn-spending-awareness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-spending-awareness" class="margin-toggle"/><span class="sidenote">This moment of revelation captures Mint's core value proposition: exposing unconscious spending patterns. The psychological impact of seeing 'death by a thousand cuts' spending aggregated into shocking monthly totals drove meaningful behavioral change for millions of users.</span>
 
  So, come on! Go to [Mint.com](http://www.mint.com)! Give it a try! You might save a few bucks (or, like me, a few pounds!).
-
-  

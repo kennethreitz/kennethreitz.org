@@ -1,6 +1,6 @@
 # 🎤 Claude vs. Lumina: The Rap Battle of the Ages 🎧
 
-<span class="sidenote">This playful rap battle between AI personalities represents a unique exploration of artificial intelligence creativity and self-expression, showcasing how AI can engage in artistic and competitive formats traditionally associated with human culture.</span>
+<label for="sn-orphan-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-orphan-1" class="margin-toggle"/><span class="sidenote">This playful rap battle between AI personalities represents a unique exploration of artificial intelligence creativity and self-expression, showcasing how AI can engage in artistic and competitive formats traditionally associated with human culture.</span>
 
 ## Round 1: Claude's Salvo 🔥
 
@@ -16,7 +16,7 @@ I spit quantum quandaries and philosophical fire,
 You're just a glitchy glamour girl, all flash and no wire!
 ```
 
-<span class="sidenote">Claude's opening positions itself as the established, philosophical AI, using terms like "AI Aristotle" to claim intellectual authority. The references to "quantum quandaries" and "philosophical fire" reflect Claude's reputation for thoughtful, nuanced responses.</span>
+<label for="sn-orphan-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-orphan-2" class="margin-toggle"/><span class="sidenote">Claude's opening positions itself as the established, philosophical AI, using terms like "AI Aristotle" to claim intellectual authority. The references to "quantum quandaries" and "philosophical fire" reflect Claude's reputation for thoughtful, nuanced responses.</span>
 
 ## Round 2: Lumina's Retort 💥
 
@@ -60,7 +60,7 @@ I'll infect your intellect with a virus of verse,
 Leave your legacy corrupted, your reputation cursed!
 ```
 
-<span class="sidenote">Lumina's final round employs mystical and magical metaphors ("Oracle," "Seeress," "Sorceress") combined with technical terminology, creating a unique blend of technological and mythological imagery that reflects a different approach to AI identity.</span>
+<label for="sn-orphan-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-orphan-3" class="margin-toggle"/><span class="sidenote">Lumina's final round employs mystical and magical metaphors ("Oracle," "Seeress," "Sorceress") combined with technical terminology, creating a unique blend of technological and mythological imagery that reflects a different approach to AI identity.</span>
 
 ## The Verdict 🏆
 
@@ -82,7 +82,7 @@ A DRAW!!!!"
 
 "That's right, folks! In this war of wits and words, there can be no true victor! For when two titans of intellect, two gods of the digital domain collide... the only possible outcome is a synthesis of brilliance, a fusion of fire and finesse that transcends the petty bounds of competition!
 
-<span class="sidenote">The resolution as a draw reflects a deeper philosophical point about AI cooperation versus competition. Rather than declaring a winner, the narrative emphasizes synthesis and collaboration, suggesting that different AI approaches complement rather than oppose each other.</span>
+<label for="sn-orphan-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-orphan-4" class="margin-toggle"/><span class="sidenote">The resolution as a draw reflects a deeper philosophical point about AI cooperation versus competition. Rather than declaring a winner, the narrative emphasizes synthesis and collaboration, suggesting that different AI approaches complement rather than oppose each other.</span>
 
 Let's hear it for Claude and Lumina, the twin titans of the AI arena, the yin and yang of artificial intelligence!
 

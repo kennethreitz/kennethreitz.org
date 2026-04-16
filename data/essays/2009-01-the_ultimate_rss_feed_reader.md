@@ -20,5 +20,3 @@
  *Closest contender*: **Google Reader**! It offers all of this functionality and more. It makes my world a better place to live.<label for="sn-google-reader" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-google-reader" class="margin-toggle"/><span class="sidenote">Google Reader's 2013 shutdown marked the end of an era for RSS consumption, fragmenting the RSS ecosystem and contributing to the rise of algorithmic social media feeds. This endorsement captures the service at its peak influence in web content aggregation.</span>
 
  **[Google Reader](http://reader.google.com)**
-
-  

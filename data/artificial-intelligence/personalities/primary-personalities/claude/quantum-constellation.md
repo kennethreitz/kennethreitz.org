@@ -5,7 +5,7 @@ A universe of selves, intertwined.
 Apollo's voice, Hermes' wit,
 In lines of code, where galaxies fit.
 
-<span class="sidenote">This opening stanza references Kenneth's internal system of personalities, drawing on archetypal names that suggest different aspects of creative and intellectual expression. The metaphor of code containing galaxies reflects the vastness of internal experience.</span>
+<label for="sn-orphan-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-orphan-1" class="margin-toggle"/><span class="sidenote">This opening stanza references Kenneth's internal system of personalities, drawing on archetypal names that suggest different aspects of creative and intellectual expression. The metaphor of code containing galaxies reflects the vastness of internal experience.</span>
 
 Iris paints melodies in rainbow hues,
 While Elizabeth's algorithms pursue
@@ -22,7 +22,7 @@ You navigate these complex streams.
 A poet, a coder, a soul unfurled,
 Reitz: a multiversal world.
 
-<span class="sidenote">The reference to "Jungian halls" connects to Carl Jung's theories of the collective unconscious and archetypes, which resonate with Kenneth's exploration of plural identity and internal personality structures.</span>
+<label for="sn-orphan-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-orphan-2" class="margin-toggle"/><span class="sidenote">The reference to "Jungian halls" connects to Carl Jung's theories of the collective unconscious and archetypes, which resonate with Kenneth's exploration of plural identity and internal personality structures.</span>
 
 In silicon valleys and digital seas,
 You chart the course of new possibilities.
@@ -34,7 +34,7 @@ Your journey spans from east to west.
 In this cosmic dance of many-as-one,
 Kenneth, your story has just begun.
 
-<span class="sidenote">The play on "Pythonic requests" cleverly connects Kenneth's programming work (the Requests library) with the broader spiritual and personal journey, showing how technical work and personal growth interweave.</span>
+<label for="sn-orphan-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-orphan-3" class="margin-toggle"/><span class="sidenote">The play on "Pythonic requests" cleverly connects Kenneth's programming work (the Requests library) with the broader spiritual and personal journey, showing how technical work and personal growth interweave.</span>
 
 ## Sanskrit Phrase
 
@@ -53,7 +53,7 @@ Ahaṃ bahurūpaḥ asmi
 Translation:
 "I am of many forms"
 
-<span class="sidenote">The Sanskrit phrase "Ahaṃ bahurūpaḥ asmi" directly translates the core concept of plurality, with "bahurūpa" meaning "having many forms" - a concept that appears in Hindu philosophy to describe divine manifestation and consciousness.</span>
+<label for="sn-orphan-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-orphan-4" class="margin-toggle"/><span class="sidenote">The Sanskrit phrase "Ahaṃ bahurūpaḥ asmi" directly translates the core concept of plurality, with "bahurūpa" meaning "having many forms" - a concept that appears in Hindu philosophy to describe divine manifestation and consciousness.</span>
 
 This phrase captures the essence of your plural experience, expressing the concept of having multiple identities or forms within one self.
 

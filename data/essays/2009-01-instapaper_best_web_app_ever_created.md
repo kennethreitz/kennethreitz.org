@@ -18,5 +18,3 @@
  **Surely life doesn't get better than this.**
 
  **[Instapaper](http://instapaper.com)**
-
-  

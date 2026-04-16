@@ -56,5 +56,3 @@
  Treat your [teams like open teams](http://tomayko.com/writings/adopt-an-open-source-process-constraints) and [your codebases like open codebases](http://tom.preston-werner.com/2011/11/22/open-source-everything.html).<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="sidenote">This philosophy, championed by GitHub's co-founder Tom Preston-Werner, suggests that the transparency and quality standards of open source development should be applied to internal company projects.</span> All of these communication problems will naturally erode because they don't have a choice.
 
  Constrain yourself.
-
-  

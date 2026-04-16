@@ -1,8 +1,3 @@
----
-title: Don't Read the Comments
-date: 2026-04-10
----
-
 # Don't Read the Comments
 *April 2026*
 

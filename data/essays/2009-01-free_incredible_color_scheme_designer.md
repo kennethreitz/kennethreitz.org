@@ -1,14 +1,3 @@
----
-*January 2009*
-
-
-
-
-title: "Free Incredible Color Scheme Designer"
-date: "2009-01-01"
-category: "Design"
----
-
 # Free Incredible Color Scheme Designer
 
 ![Color Wheel](http://www.programmerfish.com/wp-content/uploads/2009/03/color-wheel.png)

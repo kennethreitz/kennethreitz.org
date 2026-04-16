@@ -163,9 +163,7 @@ Intentional consumption becomes essential once you understand these systems. Thi
 
 Curating your information diet proves as important as curating your food intake. This involves choosing information sources based on accuracy and psychological impact rather than engagement value. Reputable journalism, primary sources, and content that enhances rather than degrades your mental state should take priority over algorithmically amplified sensationalism.
 
-Attention training becomes a form of active resistance to psychological manipulation. Meditation, reading physical books, and practicing single-tasking aren't just wellness activities—they're deliberate efforts to rebuild the sustained focus that algorithmic systems systematically fragment.<label for="sn-attention-training" class="margin-toggle sidenote-number"></label>
-<input type="checkbox" id="sn-attention-training" class="margin-toggle"/>
-<span class="sidenote">Meditation, reading physical books, and single-tasking aren't just wellness practices—they're active resistance to algorithmic attention fragmentation.</span>
+Attention training becomes a form of active resistance to psychological manipulation. Meditation, reading physical books, and practicing single-tasking aren't just wellness activities—they're deliberate efforts to rebuild the sustained focus that algorithmic systems systematically fragment.<label for="sn-attention-training" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-attention-training" class="margin-toggle"/><span class="sidenote">Meditation, reading physical books, and single-tasking aren't just wellness practices—they're active resistance to algorithmic attention fragmentation.</span>
 
 Real-world grounding helps counteract the reality distortion that comes from consuming algorithmically curated content. Prioritizing direct experience over mediated experience—spending time in nature, having face-to-face conversations, engaging in physical activities—provides essential calibration for what life actually feels like versus what it appears to be through digital filters.
 
