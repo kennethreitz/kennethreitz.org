@@ -55,7 +55,7 @@ People love to hate Bash. "It's unreadable!" they cry, while writing React compo
 
 **Here's the thing:** Bash isn't trying to win a beauty contest. It's not auditioning for your startup's tech stack. Bash is the plumber of the programming world—it shows up, connects the pipes, and makes sure your data flows where it needs to go. You don't need to invite it to dinner.
 
-Yes, `[[ ]]` vs `[ ]` is confusing. Yes, `'string'` vs `"string"` is unobvious to newcomers. Yes, variable expansion rules seem designed by someone who hates humanity. But you know what? Regular expressions are also insane, and we still use them. SQL reads like English written by aliens, and we still query databases. 
+Yes, `` vs `[ ]` is confusing. Yes, `'string'` vs `"string"` is unobvious to newcomers. Yes, variable expansion rules seem designed by someone who hates humanity. But you know what? Regular expressions are also insane, and we still use them. SQL reads like English written by aliens, and we still query databases. 
 
 And here's the kicker: tools like [shellcheck](https://www.shellcheck.net/) elevate your Bash programs significantly, catching these gotchas before they bite you. Bash's syntax is the price of admission to a language that runs literally everywhere without asking permission.
 

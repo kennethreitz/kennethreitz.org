@@ -60,7 +60,7 @@ structure with numbered folders. Primary areas: System 777 plurality
 documentation, mental health tracking, technical notes, creative writing.
 
 ## Conventions
-- Use wikilinks [[like this]] for internal references.
+- Use wikilinks like this for internal references.
 - Frontmatter is required on all new notes.
 - Tables are preferred for comparative analysis.
 - Link liberally between related notes.
