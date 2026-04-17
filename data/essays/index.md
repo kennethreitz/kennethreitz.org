@@ -137,7 +137,7 @@ The technical foundation. Library announcements, coding philosophy, and the craf
 
 Tech commentary, product reviews, and industry takes from someone who's watched the landscape shift for two decades.
 
-- [A New Spin to Software Platform Design](/essays/"2008-01-0-a_new_spin_to_software_platform_design)
+- [A New Spin to Software Platform Design](/essays/2026-04-17-2008-01-0-a_new_spin_to_software_platform_design)
 - [Aesthetics: More Than Meets the Eye](/essays/2009-01-01-aesthetics_more_than_meets_the_eye)
 - [Amazon is Amazing... Most of the Time](/essays/2009-01-01-amazon_is_amazing_most_of_the_time)
 - [Apple + Developers = Earnings](/essays/2009-01-01-apple_developers_earnings)
