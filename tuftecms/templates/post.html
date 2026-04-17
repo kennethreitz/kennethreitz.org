@@ -573,19 +573,7 @@
         line-height: 1.2;
     }
 
-    .giscus-container {
-        margin-top: 4rem;
-        padding-top: 2rem;
-    }
-
-    body.dark-mode .giscus-container {
-        border-top-color: #2a2a2a;
-    }
-
     @media (max-width: 760px) {
-        .giscus-container {
-            width: 100% !important;
-        }
 
         article h1 {
             font-size: 2.5rem;
@@ -776,35 +764,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {{ content | safe }}
     </section>
     
-    <!-- Comments via giscus (essays only) -->
-    {% if current_path and current_path.startswith('/essays/') %}
-    <div class="giscus-container" style="width: 100%; margin-top: 4rem; padding-top: 2rem;">
-        <script>
-        (function() {
-            var saved = localStorage.getItem('theme');
-            var theme = (saved === 'dark-mode') ? 'dark' :
-                        (saved === 'light-mode') ? 'light' : 'preferred_color_scheme';
-            var s = document.createElement('script');
-            s.src = 'https://giscus.app/client.js';
-            s.setAttribute('data-repo', 'kennethreitz/kennethreitz.org');
-            s.setAttribute('data-repo-id', 'R_kgDOMkF26w');
-            s.setAttribute('data-category', 'Announcements');
-            s.setAttribute('data-category-id', 'DIC_kwDOMkF2684C6iXW');
-            s.setAttribute('data-mapping', 'pathname');
-            s.setAttribute('data-strict', '0');
-            s.setAttribute('data-reactions-enabled', '0');
-            s.setAttribute('data-emit-metadata', '0');
-            s.setAttribute('data-input-position', 'top');
-            s.setAttribute('data-theme', theme);
-            s.setAttribute('data-lang', 'en');
-            s.setAttribute('data-loading', 'lazy');
-            s.setAttribute('crossorigin', 'anonymous');
-            s.async = true;
-            document.currentScript.parentElement.appendChild(s);
-        })();
-        </script>
-    </div>
-    {% endif %}
+    <!-- Comments disabled for now -->
 
     {% if parent_directory %}
     <div class="parent-navigation">

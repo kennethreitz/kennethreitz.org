@@ -49,6 +49,8 @@ Aaron Swartz was right. Don't read the comments.
 
 I'm going to read the comments.
 
----
+## Update: The Silence Won
 
-*If you want to test it out, there should be a comment section just below this. Say hello. Or don't. The silence was nice too.*
+I turned comments off a week later. Turns out the quiet was doing more work than I realized. The experiment ran, the answer came back, and the answer was: the essay is the essay. It doesn't need a reply section.
+
+Aaron Swartz was right.
