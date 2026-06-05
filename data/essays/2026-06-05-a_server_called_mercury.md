@@ -32,7 +32,7 @@ The box has started accumulating services the way a workshop accumulates jigs. [
 
 [git.kennethreitz.org](https://git.kennethreitz.org) runs [Gitea](https://about.gitea.com), mirroring all three hundred or so of my GitHub repositories every eight hours. GitHub is still origin (for now). The mirror is insurance. Twenty years of work now also lives on a disk I pay for directly, and the repo that documents this server is hosted on the server it documents, which feels correct.
 
-Analytics came home too. This site ran [Gauges](https://get.gaug.es) for years, and Gauges just got sold. A tracking script you chose has a way of becoming an asset somebody else acquired. It's [Umami](https://umami.is) now: open source, no cookies, every site on the box reporting to one dashboard, the data sitting on my own disk.
+Analytics came home too. This site ran [Gauges](https://get.gaug.es) for years, and Gauges just got sold (yet again). A tracking script you chose has a way of becoming an asset somebody else acquired. It's [Umami](https://umami.is) now: open source, no cookies, every site on the box reporting to one dashboard, the data sitting on my own disk.
 
 ## Mostly harmless platforms
 
