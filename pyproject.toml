@@ -43,7 +43,3 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["tuftecms"]
-
-[tool.hatch.build.targets.wheel.force-include]
-"tuftecms/templates" = "tuftecms/templates"
-"tuftecms/static" = "tuftecms/static"
