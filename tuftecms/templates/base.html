@@ -125,6 +125,8 @@
 
         <!-- Analytics -->
         {% if not (config.get('DISABLE_ANALYTICS') or request.environ.get('DISABLE_ANALYTICS')) %}
+        <!-- Umami (self-hosted) -->
+        <script defer src="https://analytics.kennethreitz.org/script.js" data-website-id="41b1fd15-82b1-4211-aeff-b3caa2d50ea3"></script>
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RB9QHYEG2X"></script>
         <script>
