@@ -28,6 +28,8 @@ One app at a time, in conversation: it created the projects and applications thr
 
 The whole migration — six sites, a database, object storage, certificates, autodeploys — was an evening. It used to take a team. I know, because I was on the team.<label for="sn-httpbin" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-httpbin" class="margin-toggle"/><span class="sidenote">First thing deployed, naturally, was an instance of httpbin. Some men plant a flag. I return a JSON representation of your request headers.</span>
 
+Once a server has a name, it starts accumulating personality. Mine now has a face: [home.kennethreitz.org](https://home.kennethreitz.org) runs [Glance](https://github.com/glanceapp/glance), a little dashboard that tiles up live health checks for every service on the box, the machine's vitals (CPU, RAM, load, disk — via its server-stats widget), my essay feed, an hourly-synced mirror of my iCloud Drive, and bookmarks into the admin panels — mission control for a space program with a crew of one. There is something quietly radical about a homepage for your infrastructure that exists because you wanted one, not because an SRE org chart demanded it.
+
 ## Mostly harmless platforms
 
 There is a theory in the modern cloud industry which states that if you can make a platform pleasant enough, developers will arrive in great numbers, and that once they have arrived in great numbers, the pleasantness can be carefully and progressively removed without anyone leaving. There is a second theory which states that this has already happened.
