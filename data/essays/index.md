@@ -259,6 +259,7 @@ The clinical reality, documented with the same precision Kenneth brings to code.
 - [The Cost Of Transparency](/essays/2025-08-27-the_cost_of_transparency)
 - [The Inclusion Illusion](/essays/2025-08-26-the_inclusion_illusion)
 - [The Meditation Trap](/essays/2025-09-08-the_meditation_trap_when_mindfulness_makes_things_worse)
+- [The Unit](/essays/2026-06-06-the_unit)
 - [Understanding Empathy, Narcissism, and Mental Illness](/essays/2016-01-01-understanding_empathy_narcissism_and_mental_illness)
 - [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like)
 - [What Success Looks Like](/essays/2026-04-06-what_success_looks_like)

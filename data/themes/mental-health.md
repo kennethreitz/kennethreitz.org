@@ -22,6 +22,7 @@ This thread collects the lived experience, the design implications, and the hone
 ### Designing for Mental Health
 
 - [**Mental Health (for Humans)**](/essays/2026-06-06-mental_health_for_humans) — Ten years inside the system. Diagnosis is a lookup key, not a life sentence; the DSM is a census, not a prophecy; treatment is the point.
+- [**The Unit**](/essays/2026-06-06-the_unit) — The psychiatric ward, documented instead of mythologized. A halt, not a verdict; the discharge audition; and why the bar is a working shower.
 - [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — What human-centered design means when the human is in crisis.
 - [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Why careless interface design is a clinical risk for vulnerable minds. The canary in the coal mine.
 - [**Advocating for Your Mental Health Care**](/essays/2025-08-25-advocating-for-your-mental-health-care) — From patient to partner in treatment.
