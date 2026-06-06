@@ -249,6 +249,7 @@ The clinical reality, documented with the same precision Kenneth brings to code.
 
 - [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care)
 - [Delusions and Schizoaffective Disorder](/essays/2025-09-17-delusions-and-schizoaffective-disorder)
+- [Mental Health (for Humans)](/essays/2026-06-06-mental_health_for_humans)
 - [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is)
 - [MentalHealthError](/essays/2016-01-01-mentalhealtherror_an_exception_occurred)
 - [MentalHealthError three years later](/essays/2019-01-01-mentalhealtherror_three_years_later)

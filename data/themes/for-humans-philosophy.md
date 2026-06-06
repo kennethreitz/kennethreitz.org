@@ -13,6 +13,7 @@ Every technical choice embeds values about how humans should relate to technolog
 
 ### Applied to Life
 
+- [**Mental Health (for Humans)**](/essays/2026-06-06-mental_health_for_humans) — The philosophy applied to psychiatry from ten years inside it. Diagnosis is a lookup key, not a life sentence. Treatment is the point.
 - [**What Requests Taught Me About Marriage**](/essays/2026-03-06-what_requests_taught_me_about_marriage) — Sensible defaults, graceful error handling, backwards compatibility. All relationship advice.
 - [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — What "for humans" means when the human is having the worst day of their life.
 - [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Every interface shapes cognition before conscious awareness engages. Design accordingly.
