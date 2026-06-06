@@ -137,7 +137,7 @@ The technical foundation. Library announcements, coding philosophy, and the craf
 
 Tech commentary, product reviews, and industry takes from someone who's watched the landscape shift for two decades.
 
-- [A New Spin to Software Platform Design](/essays/2026-04-17-2008-01-0-a_new_spin_to_software_platform_design)
+- [A New Spin to Software Platform Design](/essays/2008-01-01-a_new_spin_to_software_platform_design)
 - [Aesthetics: More Than Meets the Eye](/essays/2009-01-01-aesthetics_more_than_meets_the_eye)
 - [Amazon is Amazing... Most of the Time](/essays/2009-01-01-amazon_is_amazing_most_of_the_time)
 - [Apple + Developers = Earnings](/essays/2009-01-01-apple_developers_earnings)
@@ -298,6 +298,7 @@ Algorithmic criticism, cultural commentary, and the ideas that don't fit neatly 
 - [The Algorithm Eats Reality](/essays/2025-08-27-the_algorithm_eats_reality)
 - [The Algorithm Eats Time](/essays/2025-09-01-the_algorithm_eats_time)
 - [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue)
+- [The Algorithm Poops](/essays/2026-06-06-the_algorithm_poops)
 - [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis)
 - [The Call for an Open Source Social Network](/essays/2009-01-01-the_call_for_an_open_source_social_network)
 - [The Hacker Ethic and the Vibe Coder](/essays/2026-04-10-the-hacker-ethic-and-the-vibe-coder)
