@@ -40,4 +40,4 @@ The alignment problem is real. But it is a values problem wearing a technical co
 
 ---
 
-*Related: [The Cost of Sycophancy](/artificial-intelligence/collaboration/the-cost-of-sycophancy), [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue), [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds).*
+*Related: [The Cost of Sycophancy](/artificial-intelligence/collaboration/the-cost-of-sycophancy), [The Algorithm Eats Virtue](/essays/2025-08-26-the_algorithm_eats_virtue), [The Algorithm Poops](/essays/2026-06-06-the_algorithm_poops), [The Recursive Loop](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds).*

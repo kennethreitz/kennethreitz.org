@@ -12,7 +12,7 @@ I have [schizoaffective disorder](/mental-health). I manage it daily with medica
 
 **Meet people where they are.** Not where you wish they were. Not where your business model needs them to be. Where they actually are, right now, with whatever capacity they have today.
 
-**Optimize for human outcomes, not metrics.** When systems optimize for engagement over wellbeing, [the algorithm eats virtue](/essays/2025-08-26-the_algorithm_eats_virtue), then [democracy](/essays/2025-08-27-the_algorithm_eats_democracy), then [language itself](/essays/2025-08-27-the_algorithm_eats_language). The absence of a business model is sometimes the most important design decision.
+**Optimize for human outcomes, not metrics.** When systems optimize for engagement over wellbeing, [the algorithm eats virtue](/essays/2025-08-26-the_algorithm_eats_virtue), then [democracy](/essays/2025-08-27-the_algorithm_eats_democracy), then [language itself](/essays/2025-08-27-the_algorithm_eats_language). What it excretes is [the feed](/essays/2026-06-06-the_algorithm_poops). The absence of a business model is sometimes the most important design decision.
 
 **Simplicity as service.** Make things clear enough for people having bad days. If it is too complex when you are struggling, it is too complex.
 

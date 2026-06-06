@@ -4,7 +4,7 @@ These collections organize essays by the threads that connect them. Each theme i
 
 ### Critique & Resistance
 
-- **[The Algorithm Eats](/themes/algorithmic-critique)** — How engagement optimization systematically devours virtue, language, love, democracy, reality, and time.
+- **[The Algorithm Eats](/themes/algorithmic-critique)** — How engagement optimization systematically devours virtue, language, love, democracy, reality, and time — and [what it excretes](/essays/2026-06-06-the_algorithm_poops).
 - **[Pattern Recognition & Manipulation](/themes/pattern-recognition-and-manipulation)** — From surviving narcissistic abuse to recognizing the same techniques at civilizational scale.
 
 ### Mind & Health

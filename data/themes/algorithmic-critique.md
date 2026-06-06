@@ -15,6 +15,7 @@ Having survived individual psychological manipulation, I recognize the same tech
 - [**The Algorithm Eats Time**](/essays/2025-09-01-the_algorithm_eats_time) — Notification culture destroys our relationship with patience and presence.
 - [**The Algorithm Eats Itself**](/essays/2025-08-29-the_algorithm_eats_itself) — Recursive feedback loops between consciousness and algorithmic systems.
 - [**Beyond Algorithm Eats**](/essays/2025-09-30-beyond_algorithm_eats) — LLMs don't just extract — they inject new cognitive patterns through conversation.
+- [**The Algorithm Poops**](/essays/2026-06-06-the_algorithm_poops) — The capstone. Everything that eats, excretes: the feed is the waste product, nobody is driving, and the alignment discipline we built for AI belongs on the feed.
 
 ### Extensions
 
