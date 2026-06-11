@@ -8,7 +8,24 @@ There's an entry in my Obsidian daily notes from this April that I didn't think 
 
 I want to talk about that last sentence, because both halves of it are wrong in interesting ways, and the ways they're wrong explain something about personal knowledge systems that the entire productivity industry is built on not saying.
 
-My vault is large. Forty-eight hundred files, somewhere past three million words: [an inner world with its own quest log](/essays/2026-06-11-whatever_this_is), an encyclopedia of everything from Jungian psychology to alchemy to Greek myth, a library cataloging my books and games and headphones, eighteen years of essays with their own meta-indexes, my wife's poetry, dream logs, daily notes. The homepage describes the whole thing as a personal knowledge management system "in the way that a cathedral is just a building." I've [written before about the practical case for it](/essays/2026-03-06-obsidian_vaults_and_claude_code): a memory prosthetic for a mind that can't always trust its own storage, a surface AI can read so my tools know who I am. All of that is true, and none of it is the truth. The truth is closer to what I want to tell you now.
+My vault is large. Forty-eight hundred files, somewhere past three million words. The front hall looks like this:
+
+```
+Notes/
+├── Home.md          "Greetings, Weary Traveller"
+├── Changelog.md     What changed, when, and why
+├── System 777/      The inner world: alters, transmissions,
+│                    dream logs, an actual quest log
+├── Life/            Family, health, hobbies
+├── Knowledge/       Mythology, psychology, alchemy, AI:
+│                    the encyclopedia, argued with at 3am
+├── Writing/         Essays, poetry, letters, lyrics
+├── Library/         Books, games, gear: the collection
+├── Projects/        Python libraries and ideas
+└── Daily/           Notes from the front lines
+```
+
+That's [an inner world with its own quest log](/essays/2026-06-11-whatever_this_is), an encyclopedia of everything from Jungian psychology to Greek myth, a library cataloging my books and games and headphones, eighteen years of essays with their own meta-indexes, my wife's poetry, dream logs, daily notes. The homepage describes the whole thing as a personal knowledge management system "in the way that a cathedral is just a building." I've [written before about the practical case for it](/essays/2026-03-06-obsidian_vaults_and_claude_code): a memory prosthetic for a mind that can't always trust its own storage, a surface AI can read so my tools know who I am. All of that is true, and none of it is the truth. The truth is closer to what I want to tell you now.
 
 ## The Promise
 
@@ -26,7 +43,25 @@ These systems don't fix you. They *soothe* you. And nobody will say so, because 
 
 Let me prove it with my own logs, because the vault, helpfully, documents its own tending.
 
-My vault has a changelog. The changelog contains entries like: *"Fixed ~890 broken wikilinks."* *"Replaced 1,446 em dashes with proper ones across 81 files."* *"Broken-link sweep: 85 → 6 across the vault."* One April afternoon I replaced fifty-five diagrams with prose because the diagrams felt wrong. I have rebuilt the theme so that the wikilink brackets show just so in the editor. I have written scripts that audit the vault's health and a plugin whose entire job is to run those scripts from a command palette.
+My vault has a changelog. Real excerpts:
+
+```
+## 2026-04-20
+- Broken-link sweep: 85 → 6 across the vault
+- Fixed a non-breaking-space (U+00A0) lurking in a
+  filename; one rename resolved 4 dangling refs
+
+## 2026-04-13
+- Replaced all 55 mermaid diagrams across 28 files
+  with tables and prose
+- Replaced 1,446 em dashes across 81 files
+
+## 2026-04-10
+- Fixed ~890 broken wikilinks (old paths, mythology
+  refs, daily note typos)
+```
+
+One April afternoon I replaced fifty-five diagrams with prose because the diagrams felt wrong. I have rebuilt the theme so that the wikilink brackets show just so in the editor. I have written scripts that audit the vault's health and a plugin whose entire job is to run those scripts from a command palette.
 
 There is no productivity case for any of this. No future version of me retrieves value from 1,446 corrected em dashes. If you audit this behavior as second-brain construction, it's embarrassing: hours of maintenance on a system whose retrieval I could mostly replace with a search bar.
 
@@ -40,11 +75,39 @@ There is one more piece of evidence, and it's my favorite, because I didn't gene
 
 So why does it work? Not the apps' promised mechanism, but the real one?
 
-The clearest clue is in my vault's Library wing, where I keep pages for books that mattered. There's a page for Jung's Red Book. There's a page for Crowley's Liber 777, a giant table of correspondences my own system took its name from. And on the same shelf, cataloged with the same care, there's a page for the DSM-5. The note on it reads: *"Not read for pleasure. Read because my brain does things that need naming. Having the clinical vocabulary turns terror into taxonomy. Not a cure, but a map. You can navigate what you can name."*
+The clearest clue is in my vault's Library wing, whose index states its admission criteria plainly: *"The threshold for inclusion is aesthetic arrest, or at least a strong opinion."*
+
+```
+Library/
+├── Books/              The Red Book, Liber 777, the
+│                       DSM-5, Be Here Now, the Kybalion
+├── Games/              Chrono Trigger, Skyrim, BG3
+├── Gear/               Headphones, bags, note-taking
+│                       devices, gaming handhelds
+├── Lyrics/             Tool, 311, Puscifer, Drake
+├── Python Libraries/   Yes, my own libraries have
+│                       pages, like everything I love
+├── Articles/
+└── TV/
+```
+
+Look at the Books shelf. There's a page for Jung's Red Book. There's a page for Crowley's Liber 777, the giant table of correspondences my own system took its name from. And on the same shelf, cataloged with the same care, there's a page for the DSM-5. The note on it reads: *"Not read for pleasure. Read because my brain does things that need naming. Having the clinical vocabulary turns terror into taxonomy. Not a cure, but a map. You can navigate what you can name."*
 
 That's the mechanism. **Naming and placing.** A thing that has a page is a thing that has edges. A fear that has been written down in your own calm prose has been, in a small but physiologically real way, *handled*. Untracked, the contents of a mind like mine are weather: pressure systems, fronts moving in, the sourceless dread of the afternoon. Given a note, a name, a folder, and a link, each one becomes geography instead. You can stand on geography.
 
-This is also why the vault's apparent excess, the part that looks most "pointless," is the part doing the most work. I don't *need* an index of recurring themes across eighteen years of my own essays. I don't *need* a glossary of my own coined terms, or a timeline that names which years went quiet and which years erupted. No retrieval justifies them. But building them is the act of a person verifying, with citations, that he is continuous. That there has been one voice across the diagnosis change and the hospitalizations and the four silent years. The meta-indexes aren't reference material. They're a proof of existence, renewed with each update. [The documentation exists, as my vault's own instructions put it, so I can't gaslight myself.](/essays/2026-03-06-obsidian_vaults_and_claude_code)
+This is also why the vault's apparent excess, the part that looks most "pointless," is the part doing the most work. Deep in the Writing wing there's a folder that exists purely to catalog my own cataloging:
+
+```
+Writing/Essays/Meta/
+├── Themes.md     Ten patterns across 270 essays
+├── Timeline.md   Four eras; names the quiet years
+├── Series.md     Which essays answer which, across
+│                 decades (Requests, 2011, is answered
+│                 by a marriage essay in 2026)
+└── Glossary.md   ~30 terms I apparently coined
+```
+
+I don't *need* an index of recurring themes across eighteen years of my own essays. I don't *need* a glossary of my own coined terms, or a timeline that names which years went quiet and which years erupted. No retrieval justifies them. But building them is the act of a person verifying, with citations, that he is continuous. That there has been one voice across the diagnosis change and the hospitalizations and the four silent years. The meta-indexes aren't reference material. They're a proof of existence, renewed with each update. [The documentation exists, as my vault's own instructions put it, so I can't gaslight myself.](/essays/2026-03-06-obsidian_vaults_and_claude_code)
 
 ## It Can Be a Second Brain
 
