@@ -249,6 +249,7 @@ Personal essays, places visited, and the human experience between the code.
 The clinical reality, documented with the same precision Kenneth brings to code.
 
 - [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care)
+- [Breaking Changes](/essays/2026-06-11-breaking_changes)
 - [Delusions and Schizoaffective Disorder](/essays/2025-09-17-delusions-and-schizoaffective-disorder)
 - [Mental Health (for Humans)](/essays/2026-06-06-mental_health_for_humans)
 - [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is)

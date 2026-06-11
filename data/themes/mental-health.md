@@ -21,6 +21,7 @@ This thread collects the lived experience, the design implications, and the hone
 
 ### Designing for Mental Health
 
+- [**Breaking Changes**](/essays/2026-06-11-breaking_changes) — The DSM has a version number, and its maintainers treat it like software. Deprecated diagnoses, identities with no migration path, and why the communities who forked their labels had the right idea.
 - [**Mental Health (for Humans)**](/essays/2026-06-06-mental_health_for_humans) — Ten years inside the system. Diagnosis is a lookup key, not a life sentence; the DSM is a census, not a prophecy; treatment is the point.
 - [**The Unit**](/essays/2026-06-06-the_unit) — The psychiatric ward, documented instead of mythologized. A halt, not a verdict; the discharge audition; and why the bar is a working shower.
 - [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — What human-centered design means when the human is in crisis.
