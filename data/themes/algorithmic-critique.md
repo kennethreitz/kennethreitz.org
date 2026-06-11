@@ -16,6 +16,7 @@ Having survived individual psychological manipulation, I recognize the same tech
 - [**The Algorithm Eats Itself**](/essays/2025-08-29-the_algorithm_eats_itself) — Recursive feedback loops between consciousness and algorithmic systems.
 - [**Beyond Algorithm Eats**](/essays/2025-09-30-beyond_algorithm_eats) — LLMs don't just extract — they inject new cognitive patterns through conversation.
 - [**The Algorithm Poops**](/essays/2026-06-06-the_algorithm_poops) — The capstone. Everything that eats, excretes: the feed is the waste product, nobody is driving, and the alignment discipline we built for AI belongs on the feed.
+- [**The Algorithm Eats Diagnosis**](/essays/2026-06-11-the_algorithm_eats_diagnosis) — Reels-era psychoeducation: symptom lists ranked by relatability, witness laundered into expertise, and the feed sorting the DSM into adorable and frightening. The diagnosis as star sign.
 
 ### Extensions
 

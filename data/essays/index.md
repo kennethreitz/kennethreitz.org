@@ -296,6 +296,7 @@ Algorithmic criticism, cultural commentary, and the ideas that don't fit neatly 
 - [Fallibilism](/essays/2009-01-01-fallibilism)
 - [Revolution vs. Innovation](/essays/2009-01-01-revolution_vs_innovation)
 - [The Algorithm Eats Democracy](/essays/2025-08-27-the_algorithm_eats_democracy)
+- [The Algorithm Eats Diagnosis](/essays/2026-06-11-the_algorithm_eats_diagnosis)
 - [The Algorithm Eats Itself](/essays/2025-08-29-the_algorithm_eats_itself)
 - [The Algorithm Eats Language](/essays/2025-08-27-the_algorithm_eats_language)
 - [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love)

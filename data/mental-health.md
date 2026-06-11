@@ -46,6 +46,7 @@ I write about mental health the way I write about code—honestly, technically, 
 - [Grammar as Consciousness Map](/essays/2025-11-20-grammar-as-consciousness-map-building-a-linguistic-framework-for-multiplicity) *(2025)*
 
 **Mental Health & Technology:**
+- [The Algorithm Eats Diagnosis](/essays/2026-06-11-the_algorithm_eats_diagnosis) *(2026)*
 - [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) *(2025)*
 - [Using AI for Reality Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) *(2025)*
 - [The Algorithmic Mental Health Crisis](/essays/2025-08-26-algorithmic_mental_health_crisis) *(2025)*

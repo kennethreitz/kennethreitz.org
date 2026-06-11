@@ -40,6 +40,7 @@ This thread collects the lived experience, the design implications, and the hone
 
 ### The Dark Side: Systematic Exploitation
 
+- [**The Algorithm Eats Diagnosis**](/essays/2026-06-11-the_algorithm_eats_diagnosis) — Reels-era psychoeducation: witness laundered into expertise, the celebrated label that can't update, and the feed sorting the DSM into adorable and frightening.
 - [**The Algorithmic Mental Health Crisis**](/essays/2025-08-26-algorithmic_mental_health_crisis) — Anxiety, depression, and attention fragmentation by design.
 - [**The Prophet's Frequency**](/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static) — When AI amplifies psychotic patterns instead of grounding them.
 - [**The Meditation Trap**](/essays/2025-09-08-the_meditation_trap_when_mindfulness_makes_things_worse) — When mindfulness destabilizes rather than supports.
