@@ -71,6 +71,14 @@ I kept building elaborate things and then cutting them back to the simplest vers
 
 Every cut made the app better. The features that survived survived because they earned it, and the ones that didn't were taking attention away from the verse, which is the only thing on the page that matters. With AI you can build the elaborate version fast enough that subtraction becomes the real design work. The keystroke is cheap now. Knowing what to delete is the whole skill.
 
+## Where it goes next
+
+Honestly? I'm not sure. I don't have a roadmap and I've stopped pretending I do.
+
+There's one gap I can name. So much of RhymePad lives in the hover, point at a word and its whole family lights up across the page, and a finger on a screen doesn't hover. On a phone you get the colors but not the conversation with them, and that's probably the thing I'd look at first.
+
+After that it goes pleasantly vague. Maybe it reads a verse back in the meter it detected. Maybe the dialect coverage gets deeper. Maybe none of that. But I don't think the next step is really a feature at all. It's the same loop that built the engine in the first place: someone pastes in a verse, finds one word lit the wrong color, and tells me. Each one of those is a new test and a small correction, and that's how the ear behind the engine keeps getting sharper. The roadmap is just the next verse that breaks it.
+
 ## What it's for
 
 RhymePad doesn't write your verse. I want to be clear about that, because it's the whole philosophy. It won't finish your line or suggest your next bar or generate a hook. The closest it comes is a dotted-gold mark on a dead line ending that sits one phoneme short of a rhyme, and even that only points at a gap you made and trusts you to fill it.
