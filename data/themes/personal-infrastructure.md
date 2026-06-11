@@ -20,6 +20,7 @@ This thread documents the experiment of doing exactly that — moving a digital 
 - [**Sixty Thousand Images and Nowhere to Put Them**](/essays/2026-04-06-sixty_thousand_images_and_nowhere_to_put_them) — The problem statement. A life's photography stranded by dying platforms; a memory without a body.
 - [**Building a Home for Twenty Thousand Photographs**](/essays/2026-04-09-building_a_home_for_twenty_thousand_photographs) — The solution. A self-hosted archive with AI tagging; software built to see my own seeing.
 - [**Obsidian Vaults & Claude Code**](/essays/2026-03-06-obsidian_vaults_and_claude_code) — A second brain that thinks back. Documentation as survival infrastructure for a mind that can't always trust its own memory.
+- [**Tending the Vault**](/essays/2026-06-11-tending_the_vault) — The truer story: not a second brain, per se, but it can be. Why GTD apps fail the underlying problem, why the tending soothes anyway, and why the soothing is the load-bearing feature.
 
 The pattern across all of it: the platforms were never going to take care of my things, because my things were never the point of the platforms. Building your own infrastructure is slower and lumpier and occasionally on fire, and every part of it belongs to you. For someone whose [mind keeps unreliable archives](/themes/mental-health), owning the external ones isn't a hobby. It's a load-bearing wall.
 

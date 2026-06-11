@@ -38,6 +38,7 @@ The largest body of work. Where programming meets philosophy meets the hard prob
 - [Python, Consciousness, and the Evolution of Language](/essays/2025-08-28-python-consciousness-and-the-evolution-of-language)
 - [Strange Loops All the Way Down](/essays/2025-09-01-strange_loops_all_the_way_down)
 - [Temporal Code](/essays/2025-09-10-temporal_code_how_llms_learned_to_think_like_programmers)
+- [Tending the Vault](/essays/2026-06-11-tending_the_vault)
 - [The Art of Writing with AI](/essays/2025-09-09-the_art_of_writing_with_ai_recursive_reflection_and_philosophical_mirrors)
 - [The Becoming](/essays/2026-01-30-the-becoming-building-a-poetry-publishing-pipeline-with-claude-code)
 - [The Cognitive Architecture We Lost](/essays/2025-10-15-the_cognitive_architecture_we_lost)
