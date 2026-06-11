@@ -120,6 +120,7 @@ The technical foundation. Library announcements, coding philosophy, and the craf
 - [PyTheory: Creative Block and AI](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai)
 - [PyTheory Is Awesome](/essays/2026-03-25-pytheory_is_awesome)
 - [Repository Structure and Python](/essays/2013-01-01-repository_structure_and_python)
+- [RhymePad: Seeing the Sound](/essays/2026-06-11-rhymepad_seeing_the_sound)
 - [Semantic Versioning](/essays/2010-01-01-semantic_versioning)
 - [ShowMe v1.0.0 Released](/essays/2010-01-01-showme_v100_released)
 - [Static Sites on Heroku Cedar](/essays/2011-01-01-static_sites_on_heroku_cedar)
