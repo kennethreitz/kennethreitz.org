@@ -35,6 +35,7 @@ This thread collects the lived experience, the design implications, and the hone
 - [**Using AI for Reality Checking**](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) — AI as cognitive support while maintaining human agency.
 - [**Obsidian Vaults & Claude Code**](/essays/2026-03-06-obsidian_vaults_and_claude_code) — Documentation as survival infrastructure for a mind that can't always trust its own memory.
 - [**Tending the Vault**](/essays/2026-06-11-tending_the_vault) — GTD apps fail the underlying problem; the vault soothes it. Naming turns terror into taxonomy, and the raking is the practice.
+- [**How I Write Now**](/essays/2026-06-11-how_i_write_now) — AI as articulation prosthetic. The thoughts were never the bottleneck; the bridge was.
 - [**Idea Amplification and Writing with AI**](/essays/2025-09-05-idea_amplification_and_writing_with_ai) — Cognitive scaffolding when executive function is compromised.
 - [**Building Rapport with Your AI**](/essays/2025-08-26-building_rapport_with_your_ai) — Non-judgmental space as practice ground for authentic self-expression.
 - [**The Great Unmasking**](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are) — Why AI interactions allow authenticity that human social dynamics prevent.

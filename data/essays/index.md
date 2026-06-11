@@ -30,6 +30,7 @@ The largest body of work. Where programming meets philosophy meets the hard prob
 - [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness)
 - [From Stardust We Phase](/essays/2025-09-15-from_stardust_we_phase)
 - [Grammar as Consciousness Map](/essays/2025-11-20-grammar-as-consciousness-map-building-a-linguistic-framework-for-multiplicity)
+- [How I Write Now](/essays/2026-06-11-how_i_write_now)
 - [Idea Amplification and Writing with AI](/essays/2025-09-05-idea_amplification_and_writing_with_ai)
 - [Language as Operating System](/essays/2025-09-11-language_as_operating_system_the_shared_runtime_for_consciousness)
 - [Linguistic Evolution](/essays/2025-09-09-linguistic_evolution_how_llms_might_perfect_human_language)
