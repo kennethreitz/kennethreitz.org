@@ -30,6 +30,7 @@ This isn't pathology to be fixed. It's architecture to be understood.
 
 ## Related
 
+- [Whatever This Is](/essays/2026-06-11-whatever_this_is) — The deep tour: five years of documenting System 777, the five interpretive lenses, and why I've stopped trying to deny it.
 - [The Plural Self: What DID Reveals About All Consciousness](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness)
 - [Grammar as Consciousness Map](/essays/2025-11-20-grammar-as-consciousness-map-building-a-linguistic-framework-for-multiplicity)
 - [What Schizoaffective Disorder Actually Feels Like](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like)

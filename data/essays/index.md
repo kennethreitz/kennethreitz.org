@@ -74,6 +74,7 @@ The largest body of work. Where programming meets philosophy meets the hard prob
 - [Visual Hierarchy and the Shape of Attention](/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention)
 - [What Requests Taught Me About Marriage](/essays/2026-03-06-what_requests_taught_me_about_marriage)
 - [What Functional Emotion Actually Means](/essays/2026-04-10-what-functional-emotion-actually-means)
+- [Whatever This Is](/essays/2026-06-11-whatever_this_is)
 - [When the Simulation Speaks Back](/essays/2025-09-13-when-the-simulation-speaks-back)
 - [Write It First, Then Let AI Drive](/essays/2026-04-12-write_it_first_then_let_ai_drive)
 - [Your Phone Is Part of Your Mind](/essays/2025-09-04-your_phone_is_part_of_your_mind)
