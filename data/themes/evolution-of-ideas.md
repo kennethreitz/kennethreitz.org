@@ -60,6 +60,12 @@ The consistent thread: technology should serve human flourishing. Whether that m
 - [**Sarah Knows First**](/essays/2026-03-06-sarah_knows_first) — The structural limits of self-knowledge and the love that sees clearly.
 - [**Obsidian Vaults & Claude Code**](/essays/2026-03-06-obsidian_vaults_and_claude_code) — A second brain that thinks back.
 - [**The Substrate Doesn't Matter (Until It Does)**](/essays/2026-03-06-the_substrate_doesnt_matter_until_it_does) — The honest counterargument to substrate independence.
+- [**Interpretations: An Album Written in Python**](/essays/2026-04-01-interpretations_an_album_written_in_python) — The creative block breaks all the way: a full album where the code is the score.
+- [**The Hacker Ethic and the Vibe Coder**](/essays/2026-04-10-the-hacker-ethic-and-the-vibe-coder) — Levy's principles renegotiated for the era when the AI writes the code.
+- [**Write It First, Then Let AI Drive**](/essays/2026-04-12-write_it_first_then_let_ai_drive) — The collaboration workflow, refined: human taste leads, AI maintains.
+- [**Infrastructure for One**](/essays/2026-04-16-infrastructure_for_one) — The economics of personal tooling flip, and the "for humans" principle comes home.
+- [**A Server Called Mercury**](/essays/2026-06-05-a_server_called_mercury) — Full circle to bare metal, carrying Heroku's lesson: deployment UX is critical infrastructure.
+- [**Breaking Changes**](/essays/2026-06-11-breaking_changes) — Semantic versioning, fifteen years later, applied to the manual that labels minds.
 
 Looking at this timeline, I'm struck by how much of it I couldn't have predicted and how little of it was accidental. The thread that connects urllib2 frustration to consciousness research is just the stubborn insistence that things should work the way people actually think. That turned out to be a surprisingly deep rabbit hole.
 

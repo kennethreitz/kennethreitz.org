@@ -16,6 +16,7 @@ This isn't about adding spiritual language to programming. It's about recognizin
 - [**Building for Contemplation**](/essays/2025-11-23-building_for_contemplation_when_spiritual_practice_becomes_code) — When spiritual practice becomes code.
 - [**The Dependency Graph of the Soul**](/essays/2025-09-14-the-dependency-graph-of-the-soul) — Version control as metaphor for consciousness evolution.
 - [**From Stardust We Phase**](/essays/2025-09-15-from_stardust_we_phase) — On digital legacy and impermanence.
+- [**What the Snare Drum Knew Before I Did**](/essays/2026-04-17-what_the_snare_drum_knew_before_i_did) — Rudiments as devotion. Twenty years of paradiddles and the knowledge that lives beneath language.
 
 ### Eastern Wisdom in Code
 

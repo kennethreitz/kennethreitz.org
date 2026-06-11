@@ -22,6 +22,8 @@ Though eventually, I started noticing [red](/photography/reds).
 
 **[photos.kennethreitz.org](https://photos.kennethreitz.org)** is the archive — over 12,000 photographs, searchable by camera, lens, city, year, and AI-generated tags. Every image has EXIF data and AI-written descriptions. You can explore a decade of shooting by the gear that made it, the places it happened, or the subjects the AI found in it. It's the best way to get lost in the work.
 
+I wrote about why the archive needed to exist in [Sixty Thousand Images and Nowhere to Put Them](/essays/2026-04-06-sixty_thousand_images_and_nowhere_to_put_them), and about how it was built in [Building a Home for Twenty Thousand Photographs](/essays/2026-04-09-building_a_home_for_twenty_thousand_photographs).
+
 ---
 
 Here are some random photos from the collection:

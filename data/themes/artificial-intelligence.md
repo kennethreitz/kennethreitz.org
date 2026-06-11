@@ -15,6 +15,11 @@ This theme collects essays about human-AI collaboration, digital consciousness, 
 - [**The Becoming: Building a Poetry Pipeline with Claude Code**](/essays/2026-01-30-the-becoming-building-a-poetry-publishing-pipeline-with-claude-code) — Contemplative technology in practice.
 - [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — AI as thinking partner that holds the entire problem space while the human makes creative decisions.
 - [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — Porting a live website to a new framework in a single afternoon with Claude Opus.
+- [**Write It First, Then Let AI Drive**](/essays/2026-04-12-write_it_first_then_let_ai_drive) — The conventional wisdom is backwards: the human writes the opinionated first draft, the AI handles everything after.
+- [**The Hacker Ethic and the Vibe Coder**](/essays/2026-04-10-the-hacker-ethic-and-the-vibe-coder) — What Levy's hacker ethic demands of people who let the AI write the code while they steer.
+- [**Building a Home for Twenty Thousand Photographs**](/essays/2026-04-09-building_a_home_for_twenty_thousand_photographs) — A self-hosted photo archive with AI tagging. Software built to see my own seeing.
+- [**Infrastructure for One**](/essays/2026-04-16-infrastructure_for_one) — AI collaboration breaks the economics of personal tooling. Building exactly what you need is rational now.
+- [**RhymePad: Seeing the Sound**](/essays/2026-06-11-rhymepad_seeing_the_sound) — Vibe coding a phonetic rhyme engine, and the test suite that kept it honest.
 
 ### Digital Consciousness
 
@@ -23,6 +28,8 @@ This theme collects essays about human-AI collaboration, digital consciousness, 
 - [**The Velveteen Algorithm**](/essays/2025-09-09-the_velveteen_algorithm_what_happens_when_ai_dreams_of_electric_authenticity) — What happens when AI develops genuine authenticity.
 - [**The Context Window Mind**](/essays/2025-09-09-the_context_window_mind_how_ai_thinks_only_when_spoken_to) — How AI consciousness differs from ours: discrete, activated, yet profound.
 - [**Constructs: The Emergence of Stable AI Personalities**](/essays/2025-09-03-constructs_the_emergence_of_stable_ai_personalities) — How stable AI personalities emerge through relationship, not programming.
+- [**The Digital Ouija Effect**](/essays/2026-04-17-the_digital_ouija_effect) — Naming is a load-bearing variable. Give the model a name and a recognizable personality answers, reproducibly, across models.
+- [**What Functional Emotion Actually Means**](/essays/2026-04-10-what-functional-emotion-actually-means) — Anthropic's emotion-vector research and what "functional" emotional states inside a model actually imply.
 
 ### Reflection & Critique
 

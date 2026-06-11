@@ -25,6 +25,9 @@ Pattern recognition isn't paranoia. It's a survival skill in systems designed to
 - [**The Algorithm Eats Love**](/essays/2025-08-27-the_algorithm_eats_love) — Dating apps as manipulation systems rather than connection facilitators.
 - [**Digital Chakras: Our Scattered Online Selves**](/essays/2025-08-29-digital_chakras_our_scattered_online_selves) — How platforms fragment identity to prevent the integration necessary for authentic self-knowledge.
 - [**The Metrics You Expose Are the Values You Endorse**](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse) — Platform SDKs are moral philosophies. The optimization landscape determines what gets built.
+- [**The Algorithm Eats Diagnosis**](/essays/2026-06-11-the_algorithm_eats_diagnosis) — Reels-era psychoeducation: symptom lists ranked by relatability, and witness laundered into expertise.
+- [**The Internet Is a Net Negative**](/essays/2025-12-28-the_internet_is_a_net_negative) — The honest reckoning with the whole machine.
+- [**Don't Read the Comments**](/essays/2026-04-10-dont_read_the_comments) — Knowing exactly how the feedback machinery works on you, and reading it anyway.
 
 ### Interface as Manipulation
 

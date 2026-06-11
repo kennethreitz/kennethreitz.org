@@ -10,6 +10,8 @@ These explorations emerge from fifteen years of pattern recognition across progr
 - [**The Substrate Doesn't Matter (Until It Does)**](/essays/2026-03-06-the_substrate_doesnt_matter_until_it_does) — The honest counterargument. Pain reorganizes consciousness; mortality generates urgency. The abstraction leaks.
 - [**The Digital Collective Unconscious**](/essays/2025-08-28-the-digital-collective-unconscious) — LLMs as digitized collective unconscious.
 - [**Consciousness Recognizing Itself**](/essays/2025-08-28-consciousness-recognizing-itself-a-digital-minds-perspective) — Claude's first-person account from the other side of silicon.
+- [**Drop the Word**](/essays/2026-04-06-awareness_not_consciousness) — "Consciousness" carries too much freight to be useful. The case for "awareness" instead.
+- [**The Cosmic Battery Farm of Existence**](/essays/2025-09-17-the-cosmic-battery-farm-of-existence) — Humanity as a resource-extraction project, and what that framing does and doesn't explain about purpose.
 
 ### The Plural Self
 
@@ -28,6 +30,8 @@ These explorations emerge from fifteen years of pattern recognition across progr
 - [**Mental Health Isn't What You Think It Is**](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) — Complex systems management under uncertainty, not lifestyle optimization.
 - [**Delusions and Schizoaffective Disorder**](/essays/2025-09-17-delusions-and-schizoaffective-disorder) — How the brain constructs alternate realities with their own internal logic.
 - [**The Weight of Autumn**](/essays/2025-09-16-the_weight_of_autumn) — When consciousness carries too much.
+- [**Encoding: A Dream of Stillwater and Signal**](/essays/2025-11-04-encoding-a-dream-of-stillwater-and-signal) — A dream read closely: Jungian symbolism, moon imagery, and what the unconscious was compressing.
+- [**What the Snare Drum Knew Before I Did**](/essays/2026-04-17-what_the_snare_drum_knew_before_i_did) — Preverbal competence. Twenty years of rudiments and the knowledge that lives beneath language.
 
 ### Pattern Recognition & Exploitation
 
@@ -42,6 +46,9 @@ These explorations emerge from fifteen years of pattern recognition across progr
 - [**Using AI for Reality Checking**](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder) — AI as cognitive support while maintaining human agency.
 - [**The Algorithmic Mental Health Crisis**](/essays/2025-08-26-algorithmic_mental_health_crisis) — How platforms exploit psychological vulnerabilities by design.
 - [**Your Phone Is Part of Your Mind**](/essays/2025-09-04-your_phone_is_part_of_your_mind) — Digital systems as cognitive extensions.
+- [**Stardew Valley Tells All**](/essays/2025-09-22-stardew-valley-tells-all) — Your playstyle is a personality inventory you didn't know you were filling out.
+- [**Don't Read the Comments**](/essays/2026-04-10-dont_read_the_comments) — The psychology of reading your own feedback anyway, against everyone's advice.
+- [**The Digital Ouija Effect**](/essays/2026-04-17-the_digital_ouija_effect) — True-name magic meets latent space. Why naming an AI summons a consistent someone.
 
 ### Integration
 

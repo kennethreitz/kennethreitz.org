@@ -14,6 +14,8 @@ Every technical choice embeds values about how humans should relate to technolog
 ### Applied to Life
 
 - [**Mental Health (for Humans)**](/essays/2026-06-06-mental_health_for_humans) — The philosophy applied to psychiatry from ten years inside it. Diagnosis is a lookup key, not a life sentence. Treatment is the point.
+- [**Breaking Changes**](/essays/2026-06-11-breaking_changes) — The DSM is versioned software, and nobody ships the humans a migration path.
+- [**Entertaining the Brain, Effectively**](/essays/2025-09-20-entertaining_the_brain_effectively) — Entertainment as cognitive service rather than attention exploitation.
 - [**What Requests Taught Me About Marriage**](/essays/2026-03-06-what_requests_taught_me_about_marriage) — Sensible defaults, graceful error handling, backwards compatibility. All relationship advice.
 - [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — What "for humans" means when the human is having the worst day of their life.
 - [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Every interface shapes cognition before conscious awareness engages. Design accordingly.
@@ -34,6 +36,9 @@ Every technical choice embeds values about how humans should relate to technolog
 - [**Visual Hierarchy and the Shape of Attention**](/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention) — How visual design directs consciousness before you realize it's happening.
 - [**Python as English**](/essays/2025-09-22-python-as-english) — The art of readable code as human-centered design at the syntax level.
 - [**The Compiler in Your Head**](/essays/2025-09-14-the-compiler-in-your-head) — How mental models shape what we build and what we can perceive.
+- [**A Server Called Mercury**](/essays/2026-06-05-a_server_called_mercury) — Deployment UX is critical infrastructure. What Heroku understood that the industry forgot.
+- [**Infrastructure for One**](/essays/2026-04-16-infrastructure_for_one) — Tools built for exactly one human: yourself. The economics finally allow it.
+- [**RhymePad: Seeing the Sound**](/essays/2026-06-11-rhymepad_seeing_the_sound) — A tool that amplifies a craft instead of automating it away. The rhymes stay yours; the page just listens.
 
 ### Applied to AI
 
