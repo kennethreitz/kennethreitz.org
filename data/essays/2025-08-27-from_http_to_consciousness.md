@@ -38,7 +38,7 @@ But what if we designed AI interactions like Requests? What would "HTTP for huma
 
 ## The Continuity of Philosophy
 
-Looking back at my [2008 software platform predictions](/essays/2008-01-a_new_spin_to_software_platform_design) and [2009 open source social network vision](/essays/2009-01-the_call_for_an_open_source_social_network), the pattern becomes clear. I've consistently advocated for:
+Looking back at my [2008 software platform predictions](/essays/2008-01-01-a_new_spin_to_software_platform_design) and [2009 open source social network vision](/essays/2009-01-the_call_for_an_open_source_social_network), the pattern becomes clear. I've consistently advocated for:
 
 1. **Human-centered design over technical optimization**
 2. **Community ownership over corporate extraction**  

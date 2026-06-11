@@ -9,7 +9,7 @@ Every technical choice embeds values about how humans should relate to technolog
 - [**The Coworking Space Saved My Life**](/essays/2026-03-06-the_coworking_space_saved_my_life) — The actual origin. A coworking space in Winchester, Virginia where a McDonald's dropout met generous strangers. The "for humans" philosophy was learned experientially before it was articulated technically.
 - [**How I Develop Things and Why**](/essays/2013-01-how_i_develop_things_and_why) — The deeper principles: reduce cognitive load, match mental models, enhance agency, fail gracefully.
 - [**Ahead of My Time, I Think**](/essays/2025-08-26-ahead_of_my_time_i_think) — How this approach anticipated broader patterns in technology.
-- [**A New Spin to Software Platform Design**](/essays/2008-01-a_new_spin_to_software_platform_design) — Predicting app stores by thinking about how people actually find software.
+- [**A New Spin to Software Platform Design**](/essays/2008-01-01-a_new_spin_to_software_platform_design) — Predicting app stores by thinking about how people actually find software.
 
 ### Applied to Life
 

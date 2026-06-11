@@ -8,7 +8,7 @@ I've spent over a decade building tools used by millions. The thing nobody tells
 
 - [**The Coworking Space Saved My Life**](/essays/2026-03-06-the_coworking_space_saved_my_life) — The actual origin. A coworking space in Winchester, Virginia where the room mattered more than the code. And the recursive irony: the tech industry that gave me a career has been destroying the kind of spaces that created me.
 - [**The Call for an Open Source Social Network**](/essays/2009-01-the_call_for_an_open_source_social_network) — Asking in 2009 why corporations should control our communication infrastructure. The answer got worse.
-- [**A New Spin to Software Platform Design**](/essays/2008-01-a_new_spin_to_software_platform_design) — Predicting app stores by thinking about how people discover software.
+- [**A New Spin to Software Platform Design**](/essays/2008-01-01-a_new_spin_to_software_platform_design) — Predicting app stores by thinking about how people discover software.
 - [**Getting Started in Open Source**](/essays/2013-01-getting_started_in_open_source) — The early idealism.
 - [**Growing Open Source Seeds**](/essays/2013-01-growing_open_source_seeds) — Building communities around shared values.
 

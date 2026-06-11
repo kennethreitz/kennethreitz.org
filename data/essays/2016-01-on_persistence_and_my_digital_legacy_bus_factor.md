@@ -34,7 +34,7 @@
 
  ## **My Digital Blackbox**
 
- But alas, for the rare but inevitable event that I either cease breath, or somehow become entirely unavailable for reasons beyond my control, I have created a [digital blackbox](/blackbox)—a portable archive of my digital content, *hopefully* hosted forever on archive.org. No matter what happens to me, ideally, my world should be enabled to live on forever, in some form or another.
+ But alas, for the rare but inevitable event that I either cease breath, or somehow become entirely unavailable for reasons beyond my control, I have created a digital blackbox—a portable archive of my digital content, *hopefully* hosted forever on archive.org. No matter what happens to me, ideally, my world should be enabled to live on forever, in some form or another.
 
  The archive contains lossless archives of: kennethreitz.org essays, all published photography, music productions, and tweets. GitHub repositories (via git\-bundles) and 500px (photography portfolio) may be added in the future. 
 

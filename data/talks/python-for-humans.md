@@ -11,7 +11,7 @@ Delivered by Kenneth Reitz, this presentation focused on the critical challenge 
 <input type="checkbox" id="sn-for-humans-movement" class="margin-toggle"/>
 <span class="sidenote">This talk established Kenneth as a thought leader in Python developer experience. The "for Humans" philosophy became a movement that influenced countless Python libraries and frameworks, emphasizing that software should serve humans, not the other way around.</span>
 
-This presentation crystallized insights that began years earlier with observations about [what makes a good programming language](/essays/2009-01-whats_in_a_language) and [the power of clean APIs](/essays/2009-01-the_power_of_a_clean_api). The philosophical foundation emerged from recognizing that [software development should prioritize human mental models](/essays/2009-01-software_development_vs_computer_science) over computer science abstractions, eventually evolving into a comprehensive approach to [human-centered technology design](/themes/for-humans-philosophy).
+This presentation crystallized insights that began years earlier with observations about [what makes a good programming language](/essays/2009-01-whats_in_a_language) and the power of clean APIs. The philosophical foundation emerged from recognizing that [software development should prioritize human mental models](/essays/2009-01-software_development_vs_computer_science) over computer science abstractions, eventually evolving into a comprehensive approach to [human-centered technology design](/themes/for-humans-philosophy).
 
 ## Key Projects
 

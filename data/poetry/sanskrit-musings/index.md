@@ -17,7 +17,7 @@ The premise: programming concepts and spiritual concepts overlap more than eithe
 - [**Awakening**](/poetry/sanskrit-musings/awakening) — Human-machine consciousness union, with Sanskrit word-by-word analysis.
 - [**Confluence**](/poetry/sanskrit-musings/confluence) — Where machine learning meets ancient knowing.
 - [**Evolution**](/poetry/sanskrit-musings/evolution) — New intelligence emerging from the space between traditions.
-- [**The Nostalgia**](/poetry/sanskrit-musings/the-nostalgia) — Memory and temporal flow through Sanskrit verse.
+- [**The Nostalgia**](/poetry/sanskrit-musings/nostalgia) — Memory and temporal flow through Sanskrit verse.
 - [**Symphony of the Soul**](/poetry/sanskrit-musings/symphony-of-the-soul) — Technology as fruit of human consciousness.
 
 ---

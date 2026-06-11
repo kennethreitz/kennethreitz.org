@@ -59,7 +59,7 @@ Beyond the mechanical elegance of `/publish`, there's something equally importan
 
 The technical implementation uses Tufte CSS, but the philosophical implication runs deeper. Consciousness doesn't operate in linear narrative—it branches, associates, contemplates tangentially. Sidenotes make this visible. Every essay becomes a main river with contemplative eddies along the banks.
 
-We even created a [sidenotes index](/sidenotes) that aggregates all margin thoughts across the site. It's like collecting all the whispered asides into their own contemplative space—consciousness examining its own peripheral thoughts<label for="sn-margin-consciousness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-margin-consciousness" class="margin-toggle"/><span class="sidenote">The margins often contain the most honest thoughts—what we think while thinking about what we're thinking. Meta-consciousness made visible through typography.</span>.
+We even created a [sidenotes index](/archive/sidenotes) that aggregates all margin thoughts across the site. It's like collecting all the whispered asides into their own contemplative space—consciousness examining its own peripheral thoughts<label for="sn-margin-consciousness" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-margin-consciousness" class="margin-toggle"/><span class="sidenote">The margins often contain the most honest thoughts—what we think while thinking about what we're thinking. Meta-consciousness made visible through typography.</span>.
 
 ## Bidirectional Connections
 

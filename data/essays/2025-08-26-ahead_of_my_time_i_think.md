@@ -95,7 +95,7 @@ But in 2010, this felt weird to most people. You're supposed to build the thing 
 
 ## Software Platform Vision (2008)
 
-[In 2008, I wrote about a radical new approach to software platform design](/essays/2008-01-a_new_spin_to_software_platform_design). While Microsoft was doubling down on the Windows model and most platforms were still built around the idea of selling software licenses, I envisioned something completely different:
+[In 2008, I wrote about a radical new approach to software platform design](/essays/2008-01-01-a_new_spin_to_software_platform_design). While Microsoft was doubling down on the Windows model and most platforms were still built around the idea of selling software licenses, I envisioned something completely different:
 
 **A centralized repository of applications as an incredibly efficient method for application distribution**<label for="sn-app-store-prediction" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-app-store-prediction" class="margin-toggle"/><span class="sidenote">Written months before Apple launched the iOS App Store, this predicted the fundamental shift from boxed software to centralized, curated app distribution that would transform the entire software industry.</span>. This repository would be "a dynamic, centralized database of application software and packages that are intended for different groups of people."
 

@@ -8,7 +8,7 @@ The consistent thread: technology should serve human flourishing. Whether that m
 
 - [**Fallibilism**](/essays/2009-01-fallibilism) — Early recognition that embracing error enables growth.
 - [**Early Adoption**](/essays/2009-01-early_adoption) — Pattern recognition before it had a name.
-- [**A New Spin to Software Platform Design**](/essays/2008-01-a_new_spin_to_software_platform_design) — Predicting app stores by applying human-centered thinking to distribution.
+- [**A New Spin to Software Platform Design**](/essays/2008-01-01-a_new_spin_to_software_platform_design) — Predicting app stores by applying human-centered thinking to distribution.
 
 ### The "For Humans" Revolution (2011-2015)
 

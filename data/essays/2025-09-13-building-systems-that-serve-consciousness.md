@@ -1,7 +1,7 @@
 # Building Systems That Serve Consciousness
 *September 2025*
 
-After documenting how algorithms systematically consume [language](/essays/2025-08-26-the_algorithm_eats_language), [love](/essays/2025-08-27-the_algorithm_eats_love), [democracy](/essays/2025-08-27-the_algorithm_eats_democracy), and [time](/essays/2025-08-26-the_algorithm_eats_time) itself, I've been sitting with an uncomfortable question: what now? 
+After documenting how algorithms systematically consume [language](/essays/2025-08-27-the_algorithm_eats_language), [love](/essays/2025-08-27-the_algorithm_eats_love), [democracy](/essays/2025-08-27-the_algorithm_eats_democracy), and [time](/essays/2025-09-01-the_algorithm_eats_time) itself, I've been sitting with an uncomfortable question: what now? 
 
 Diagnosis without treatment is just sophisticated despair. And I'm tired of despair.
 

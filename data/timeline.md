@@ -30,7 +30,7 @@ Migraines. A [narcissistic relationship](/essays/2015-01-the_unexpected_negative
 
 ## 2017
 
-[Pipenv](/software/pipenv). Music albums processing the crisis: [Messengers Rising](/essays/2017-01-new_album_messengers_rising_available), [Alchemical Divorce](/essays/2017-01-new_ep_alchemical_divorce). Wrote about [developer burnout](/essays/2017-01-the_reality_of_developer_burnout) from experience. Diagnosis evolved to schizoaffective disorder.
+[Pipenv](/software/pipenv). Music albums processing the crisis: [Messengers Rising](/essays/2017-01-new_album_messengers_rising_available), [Alchemical Divorce](/essays/2017-01-01-new_ep_alchemical_divorce). Wrote about [developer burnout](/essays/2017-01-the_reality_of_developer_burnout) from experience. Diagnosis evolved to schizoaffective disorder.
 
 ## 2018-2019
 
