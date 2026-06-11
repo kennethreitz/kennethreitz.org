@@ -32,32 +32,47 @@ A few quieter signals layer on top. The rhyming word takes a soft tint of its fa
 
 There are toggles for three lenses: rhyme, alliteration, rhythm. Alliteration underlines shared head-sounds. Rhythm drops a row of dots under the words, sheet music for rapping, where a shared dot color means a shared cadence. You turn on what you need and leave the rest off.
 
-## How it listens
+## How RhymePad hears a rhyme
 
-Under the visual language is an engine that has to actually hear the words. That's the hard part, and it's most of the code in `app.py`.
+RhymePad's whole job is to read what you're writing and color the rhymes as you type. The catch is that rhyme lives in *sound*, and English spelling is a liar. `orange` and `door hinge` rhyme; `cough` and `dough` don't. So the first thing the engine does is throw the spelling away.
 
-Every word gets mapped to its phonemes through the CMU Pronouncing Dictionary, reached with the [`pronouncing`](https://pypi.org/project/pronouncing/) library, plus a stack of lyric-friendly fallbacks for the way people actually write. `runnin'` resolves to *running*. Possessives get unwound. Made-up words, which lyrics are full of, fall through to [`g2p-en`](https://pypi.org/project/g2p-en/), a neural grapheme-to-phoneme model that sounds out a word the dictionary has never seen, so the page doesn't go silent the moment you invent one.
+### From letters to sound
 
-Then a multi-pass pipeline walks the phonemes looking for structure, strongest kind first:
+Every word gets mapped to its phonemes, the actual mouth-sounds, using the CMU Pronouncing Dictionary by way of the [`pronouncing`](https://pypi.org/project/pronouncing/) library. `tonight` becomes `T AH N AY T`. When a word isn't in the dictionary, slang, a name, a word you invented for the bar, the [`g2p-en`](https://pypi.org/project/g2p-en/) grapheme-to-phoneme model sounds out a pronunciation, and a pile of lyric-specific repairs patch the rest: `runnin'` becomes `running`, possessives and plurals resolve, and the `-ine` that wants to be `IY N` gets its candidate.
 
-```
-night   →  N AY1 T     ┐
-light   →  L AY1 T     ├─  perfect:  AY-T
-flight  →  F L AY1 T   ┘
+A rhyme is everything from the **last stressed vowel** onward. In `tonight` the stress lands on the final syllable, so the rhyming part is `AY T`, which is exactly what `light`, `flight`, and `write` share. Match on that tail and you've found a perfect rhyme. The quiet trick: RhymePad looks for that match *anywhere in the line*, not just at the end. That single decision is the whole internal-rhyme engine.
 
-hold    →  HH OW1 L D  ┐
-coal    →  K OW1 L     ┴─  slant:    OW (vowel only)
-```
+### The ladder of looseness
 
-Perfect rhymes share everything from the last stressed vowel onward, and they're matched anywhere in a line, not just at the end, which is how the internal-rhyme detection falls out of the same logic for free. Then end slant rhymes, sharing just the vowel of the tail. Then the multisyllabic and mosaic and cross-word phrases, the buried interlocks: *orange* against *door hinge*, or *swimmers / finisher / commissioner* pulled together into one family across word boundaries. Then consonance, then the weakest endings last.
+Not every rhyme is perfect, so the engine works down a ladder, each rung a little looser than the last:
 
-Around all of that sits a layer of judgment. Rhymes don't cross stanza breaks, because a blank line is a wall the ear respects. Vowel families have to stay local, within about eight lines, because two matching vowels a hundred lines apart aren't a rhyme anyone hears, they're a coincidence. Refrains that repeat four or more times get muted so the chorus doesn't drown out the verse. Dialect mergers get folded in, so the engine treats the small inflections of real speech as transparent.
+- **Perfect**, where the whole tail matches (`creation` / `elation`).
+- **Slant**, where just the vowels match and the consonants drift (`hold` / `coal`).
+- **Multisyllabic and mosaic**, where the rhyme is a *run* of vowels that can cross word boundaries. This is where `orange` finds `door hinge`, and where `swimmers`, `finisher`, and `commissioner` turn out to be the same sound stretched over different numbers of words.
+- **Consonance**, a shared vowel-plus-consonant ending when nothing fuller is there (`bliss` / `exist`).
 
-The thing I'm proudest of is the taste.<label for="sn-taste" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-taste" class="margin-toggle"/><span class="sidenote">Naive vowel-matching produces a page that lights up everywhere and means nothing. The whole game is suppression: knowing what to *not* call a rhyme. Most of the regression tests exist to defend a single word that was lighting up when it shouldn't.</span> It knows *garbage* and *javascript* don't rhyme, because the codas don't match. It knows *middle* and *unavoidable* don't, because a bare schwa tail isn't enough. It knows *smell like a* doesn't rhyme off that dangling article. The engine errs, deliberately, toward the rhymes a listener actually hears, not the ones a vowel chart says are technically present.
+Each word carries a *strength* from whichever rung it landed on, and that strength is what you see on the page: perfect rhymes blaze, slant rhymes sit back, consonance is fainter still. Brightness is the engine telling you how sure it is.
+
+### The hard part is knowing what *isn't* a rhyme
+
+Finding rhymes is easy. Finding rhymes and *not* finding the ten thousand coincidental near-matches that would turn the page into confetti is the actual work, and most of the engine is restraint.<label for="sn-taste" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-taste" class="margin-toggle"/><span class="sidenote">Naive vowel-matching produces a page that lights up everywhere and means nothing. The whole game is suppression: knowing what to *not* call a rhyme. Most of the regression tests exist to defend a single word that was lighting up when it shouldn't.</span>
+
+- `garbage` and `javascript` both carry an `AA` and a schwa, but their endings disagree, a hard `JH` against an open vowel, so they don't rhyme.
+- `middle` and `unavoidable` share only a bare schwa-`L` tail, which half the dictionary has. Too weak to count.
+- `smell like a` looks like it rhymes `myself why`, until you notice it dangles on the article `a`. The real rhyme was `smell like`, and the trailing word adds nothing.
+- A word repeated at line ends *is* a rhyme. `again` / `again` / `again` is a real monorhyme scheme. But the same word duplicated whole-line, or leaned on as a four-times hook, is a refrain, not a rhyme, and stays dark.
+
+The rule behind all of these is the same: color a rhyme only when a listener would actually hear one.
+
+### Context, not just pairs
+
+A rhyme isn't a property of two words in isolation. It's a property of where they sit, so the engine reads the room. Rhymes don't reach across a blank-line stanza break, because each verse is its own world. A vowel family stays local, because a shared sound a hundred lines apart isn't a rhyme, it's a coincidence. Words a singer leans on as a refrain get muted so they stop shouting over everything. And a handful of dialect mergers are folded in the way rappers actually deliver them: the `near` vowel, the cot-caught merger, nasal and plural endings treated as the soft inflections they are.
+
+The result is an engine that knows `orange` rhymes with `door hinge`, that `garbage` and `javascript` don't, and, most importantly, the difference between the two.
 
 ## The tests are the spec
 
-Most of the engine is pass ordering. The pipeline walks the phonemes looking for perfect rhymes first, then slant, then the multisyllabic and cross-word phrases, then consonance, and each pass can claim a word the next one wanted. Move consonance ahead of slant and half the page lights up wrong. Nearly every real bug lives in that ordering, not in the phoneme matching underneath it. The matching is arithmetic. The ordering is judgment, and judgment is where things break.
+Almost every real bug lived in the *order* of those passes. They run perfect first and loosest last, and a greedy early pass will swallow a word that belonged to a tighter rhyme three lines down. The phoneme matching is arithmetic. The ordering is judgment, and judgment is where things break.
 
 There is no formula for "a rhyme a listener actually hears." You can't derive it from first principles, because it isn't a principle, it's a thousand small human verdicts. So I built it the only way that holds: against real verses, one correction at a time. I'd paste in a verse, find the single word lit the wrong color, fix the engine until it was right, and then, before touching anything else, freeze that exact verse into a regression test.<label for="sn-spec" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-spec" class="margin-toggle"/><span class="sidenote">This is the inversion of normal spec-driven work. There was no spec to implement first. The corpus of real verses *became* the spec, accreting one judgment at a time. Every test is a frozen sentence that says: these words rhyme, those don't, and here is the proof.</span> There are around eighty-two of those now, each one a real bar from a real song, validated against people who do this for a living: Lil Wayne, Eminem, MF DOOM, Drake, Big Sean, Kanye, with T.S. Eliot and Tool folded in so the ear behind the engine wasn't tuned for only one tradition. The hardest single test is DOOM's "Doomsday," about the densest interlocking rhyme in recorded rap. It doesn't break the engine. The families separate cleanly and you can watch the architecture DOOM built by ear hold together exactly the way it sounds like it should.
 
