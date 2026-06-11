@@ -66,6 +66,7 @@ The consistent thread: technology should serve human flourishing. Whether that m
 - [**Infrastructure for One**](/essays/2026-04-16-infrastructure_for_one) — The economics of personal tooling flip, and the "for humans" principle comes home.
 - [**A Server Called Mercury**](/essays/2026-06-05-a_server_called_mercury) — Full circle to bare metal, carrying Heroku's lesson: deployment UX is critical infrastructure.
 - [**Breaking Changes**](/essays/2026-06-11-breaking_changes) — Semantic versioning, fifteen years later, applied to the manual that labels minds.
+- [**MentalHealthError: Ten Years Later**](/essays/2026-06-11-mentalhealtherror_ten_years_later) — The decade capstone of the series that started the mental health writing. Version history as self-knowledge.
 
 Looking at this timeline, I'm struck by how much of it I couldn't have predicted and how little of it was accidental. The thread that connects urllib2 frustration to consciousness research is just the stubborn insistence that things should work the way people actually think. That turned out to be a surprisingly deep rabbit hole.
 

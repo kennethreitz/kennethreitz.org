@@ -55,6 +55,7 @@ I write about mental health the way I write about code—honestly, technically, 
 **The MentalHealthError Series:**
 - [MentalHealthError: An Exception Occurred](/essays/2016-01-mentalhealtherror_an_exception_occurred) *(2016)*
 - [MentalHealthError: Three Years Later](/essays/2019-01-mentalhealtherror_three_years_later) *(2019)*
+- [MentalHealthError: Ten Years Later](/essays/2026-06-11-mentalhealtherror_ten_years_later) *(2026)*
 
 **Transparency & Advocacy:**
 - [The Cost of Transparency](/essays/2025-08-27-the_cost_of_transparency) *(2025)*

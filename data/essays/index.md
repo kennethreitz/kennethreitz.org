@@ -259,6 +259,7 @@ The clinical reality, documented with the same precision Kenneth brings to code.
 - [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is)
 - [MentalHealthError](/essays/2016-01-mentalhealtherror_an_exception_occurred)
 - [MentalHealthError three years later](/essays/2019-01-mentalhealtherror_three_years_later)
+- [MentalHealthError: Ten Years Later](/essays/2026-06-11-mentalhealtherror_ten_years_later)
 - [On Mania](/essays/2024-01-on-mania)
 - [Responding To The Conversation](/essays/2025-08-28-responding-to-the-conversation)
 - [Sarah Knows First](/essays/2026-03-06-sarah_knows_first)

@@ -13,6 +13,7 @@ This thread collects the lived experience, the design implications, and the hone
 - [**The Textured Mind**](/essays/2025-09-16-the-textured-mind-when-consciousness-speaks-without-words) — Non-verbal consciousness that operates in textures, shapes, and archetypal presences. Not pathology — a different mode of knowing.
 - [**MentalHealthError: An Exception Occurred**](/essays/2016-01-mentalhealtherror_an_exception_occurred) — When psychosis met programming metaphors.
 - [**MentalHealthError: Three Years Later**](/essays/2019-01-mentalhealtherror_three_years_later) — The follow-up.
+- [**MentalHealthError: Ten Years Later**](/essays/2026-06-11-mentalhealtherror_ten_years_later) — The decade review. Grading both earlier essays' confident claims, and correcting the title itself: it was never an exception. It's the architecture.
 - [**On Mania**](/essays/2024-01-on-mania) — What mania actually is, from inside.
 - [**Mental Health Isn't What You Think It Is**](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) — Not lifestyle optimization. Complex systems management under uncertainty.
 - [**Open Source Gave Me Everything Until I Had Nothing Left to Give**](/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give) — Confusing a psychiatric emergency with a spiritual awakening. The honest reckoning.
