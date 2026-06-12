@@ -41,6 +41,7 @@ I write about mental health the way I write about code—honestly, technically, 
 - [On Mania](/essays/2024-01-on-mania) *(2024)*
 
 **Consciousness & Perception:**
+- [Handwriting on the Floor](/essays/2026-06-11-handwriting_on_the_floor) *(2026)*
 - [Whatever This Is](/essays/2026-06-11-whatever_this_is) *(2026)*
 - [The Plural Self: What DID Reveals About All Consciousness](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) *(2025)*
 - [The Gift of Disordered Perception](/essays/2025-09-01-the_gift_of_disordered_perception) *(2025)*

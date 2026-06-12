@@ -30,6 +30,7 @@ These explorations emerge from fifteen years of pattern recognition across progr
 - [**Sarah Knows First**](/essays/2026-03-06-sarah_knows_first) — The structural limits of self-knowledge. You cannot fully observe a system from inside that system.
 - [**Mental Health Isn't What You Think It Is**](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is) — Complex systems management under uncertainty, not lifestyle optimization.
 - [**Delusions and Schizoaffective Disorder**](/essays/2025-09-17-delusions-and-schizoaffective-disorder) — How the brain constructs alternate realities with their own internal logic.
+- [**Handwriting on the Floor**](/essays/2026-06-11-handwriting_on_the_floor) — Hallucination or synesthesia? One percept, two cabinets, and a textual mind that typesets its overflow.
 - [**The Weight of Autumn**](/essays/2025-09-16-the_weight_of_autumn) — When consciousness carries too much.
 - [**Encoding: A Dream of Stillwater and Signal**](/essays/2025-11-04-encoding-a-dream-of-stillwater-and-signal) — A dream read closely: Jungian symbolism, moon imagery, and what the unconscious was compressing.
 - [**What the Snare Drum Knew Before I Did**](/essays/2026-04-17-what_the_snare_drum_knew_before_i_did) — Preverbal competence. Twenty years of rudiments and the knowledge that lives beneath language.
