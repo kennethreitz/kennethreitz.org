@@ -68,7 +68,12 @@ class TufteMarkdownRenderer:
     def render(self, content):
         """Render markdown content to HTML."""
         html = self.markdown(content.strip())
-        return _process_oembed(html)
+        html = _process_oembed(html)
+        # Native lazy loading for content images.
+        html = re.sub(
+            r"<img(?![^>]*\bloading=)", '<img loading="lazy" decoding="async"', html
+        )
+        return html
 
 
 def render_markdown_file(file_path):

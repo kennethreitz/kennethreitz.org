@@ -28,6 +28,24 @@
         color: #666;
         font-size: 0.9em;
     }
+
+    .error-suggestions {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .error-suggestions li {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        padding: 0.25rem 0;
+    }
+
+    .suggestion-icon {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+    }
 </style>
 {% endblock %}
 
@@ -41,6 +59,15 @@
         <p>The page you're looking for has either moved, been renamed, or never existed in
         the first place. This site has been through a few incarnations over the years — things
         shift around. It happens.</p>
+
+        {% if suggestions %}
+        <p><strong>Were you looking for one of these?</strong></p>
+        <ul class="error-suggestions">
+            {% for s in suggestions %}
+            <li>{% if s.icon %}<img src="{{ s.icon }}" alt="" class="suggestion-icon">{% endif %}<a href="{{ s.url }}">{{ s.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
 
         <p>Here are a few ways to find your way back:</p>
 

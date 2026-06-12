@@ -25,6 +25,8 @@ from tuftecms.blueprints.content import extract_exif_data
 from pathlib import Path
 from datetime import datetime, timezone
 from collections import defaultdict
+import asyncio
+import difflib
 import hashlib
 import html
 import io
@@ -86,11 +88,43 @@ def _build_search_index():
     _search_index = index
 
 
+def _suggest_pages(path, limit=3):
+    """Closest-matching pages for a 404, by slug similarity."""
+    want = path.rstrip("/").split("/")[-1].lower().replace("_", "-").replace("-", " ")
+    if not want or not _search_index:
+        return []
+
+    scored = []
+    for entry in _search_index:
+        slug = entry["url"].rstrip("/").split("/")[-1].lower()
+        slug = slug.replace("_", "-").replace("-", " ")
+        score = difflib.SequenceMatcher(None, want, slug).ratio()
+        if len(want) >= 4 and (want in slug or slug in want):
+            score = max(score, 0.85)
+        if score >= 0.6:
+            scored.append((score, entry))
+
+    scored.sort(key=lambda pair: pair[0], reverse=True)
+    suggestions, seen_titles = [], set()
+    for _, e in scored:
+        if e["title"] in seen_titles:
+            continue
+        seen_titles.add(e["title"])
+        suggestions.append({"title": e["title"], "url": e["url"], "icon": e.get("icon")})
+        if len(suggestions) >= limit:
+            break
+    return suggestions
+
+
 api = responder.API(
     templates_dir="tuftecms/templates",
     static_dir="tuftecms/static",
     static_route="/static",
     enable_logging=True,
+    auto_etag=True,
+    max_request_size=1024 * 1024,  # every route is GET; nobody needs to send us a megabyte
+    request_timeout=60,  # PDF generation is the slow path
+    metrics_route="/metrics",
     title="kennethreitz.org",
     description="API for kennethreitz.org",
 )
@@ -99,6 +133,39 @@ api = responder.API(
 from responder.ext.ratelimit import RateLimiter
 
 RateLimiter(requests=600, period=60).install(api)
+
+
+# --- Long-lived caching for static assets ---
+class _StaticCacheMiddleware:
+    """CSS carries a content-hash ?v=, so versioned assets can cache forever;
+    everything else under /static gets a week."""
+
+    def __init__(self, app):
+        self.app = app
+
+    async def __call__(self, scope, receive, send):
+        if scope["type"] != "http" or not scope["path"].startswith("/static/"):
+            await self.app(scope, receive, send)
+            return
+
+        versioned = b"v=" in scope.get("query_string", b"")
+
+        async def send_with_cache(message):
+            if message["type"] == "http.response.start" and message.get("status") == 200:
+                headers = message.setdefault("headers", [])
+                if not any(k.lower() == b"cache-control" for k, _ in headers):
+                    value = (
+                        b"public, max-age=31536000, immutable"
+                        if versioned
+                        else b"public, max-age=604800"
+                    )
+                    headers.append((b"cache-control", value))
+            await send(message)
+
+        await self.app(scope, receive, send_with_cache)
+
+
+api.add_middleware(_StaticCacheMiddleware)
 
 # Suppress access logging for static assets.
 class _StaticFilter(logging.Filter):
@@ -310,7 +377,7 @@ async def random_post(req, resp):
     if posts:
         chosen = random.choice(posts)
         api.log.info("Redirecting to random post: %s", chosen["url"])
-        resp.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+        resp.cache_control(no_cache=True, no_store=True, must_revalidate=True)
         api.redirect(resp, chosen["url"])
     else:
         resp.status_code = 404
@@ -531,7 +598,7 @@ async def og_image(req, resp, *, path):
         png = api.state.og_images[cache_key]
         resp.content = png
         resp.headers["Content-Type"] = "image/png"
-        resp.headers["Cache-Control"] = "public, max-age=86400"
+        resp.cache_control(public=True, max_age=86400)
         resp.etag = hashlib.md5(png).hexdigest()[:16]
         return
 
@@ -638,8 +705,65 @@ async def og_image(req, resp, *, path):
 
     resp.content = png_bytes
     resp.headers["Content-Type"] = "image/png"
-    resp.headers["Cache-Control"] = "public, max-age=86400"
+    resp.cache_control(public=True, max_age=86400)
     resp.etag = hashlib.md5(png_bytes).hexdigest()[:16]
+
+
+# --- Image thumbnails ---
+
+_THUMB_DIR = Path(".cache/thumbs")
+_THUMB_WIDTHS = (320, 640, 1280)
+_THUMB_TYPES = {".jpg", ".jpeg", ".png", ".webp"}
+
+
+def _make_thumbnail(source, dest, width):
+    """Resize an image to fit `width`, honoring EXIF orientation."""
+    from PIL import Image, ImageOps
+
+    with Image.open(source) as img:
+        img = ImageOps.exif_transpose(img)
+        img.thumbnail((width, width * 3))
+        if "A" in img.getbands() or img.mode == "P":
+            background = Image.new("RGB", img.size, (255, 255, 248))
+            background.paste(img.convert("RGBA"), mask=img.convert("RGBA"))
+            img = background
+        elif img.mode != "RGB":
+            img = img.convert("RGB")
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        img.save(dest, format="JPEG", quality=82, optimize=True, progressive=True)
+
+
+@api.route("/thumb/{path:path}")
+async def thumbnail(req, resp, *, path):
+    """Resized gallery thumbnails; originals remain one click away in the lightbox."""
+    source = (DATA_DIR / path).resolve()
+    if not str(source).startswith(str(DATA_DIR.resolve())):
+        resp.status_code = 403
+        return
+    if not source.is_file() or source.suffix.lower() not in _THUMB_TYPES:
+        resp.status_code = 404
+        return
+
+    try:
+        requested = int(req.params.get("w", "640"))
+    except (TypeError, ValueError):
+        requested = 640
+    width = min(_THUMB_WIDTHS, key=lambda w: abs(w - requested))
+
+    key = hashlib.md5(
+        f"{path}:{source.stat().st_mtime_ns}:{width}".encode()
+    ).hexdigest()
+    cached = _THUMB_DIR / f"{key}.jpg"
+    if not cached.exists():
+        try:
+            await asyncio.to_thread(_make_thumbnail, source, cached, width)
+        except OSError:
+            resp.file(str(source))
+            return
+
+    resp.etag = key[:16]
+    resp.cache_control(public=True, max_age=31536000, immutable=True)
+    resp.file(str(cached), content_type="image/jpeg")
 
 
 # --- Archive routes ---
@@ -1522,6 +1646,13 @@ async def catch_all(req, resp, *, path):
     bot = _detect_bot(req)
     if bot:
         api.log.info("Bot detected: %s crawling /%s", bot, path)
+
+    # Mirror redirect_slashes for the catch-all, which matches everything
+    # and would otherwise shadow Responder's built-in trailing-slash redirect.
+    if path.endswith("/"):
+        api.redirect(resp, "/" + path.rstrip("/"), status_code=307)
+        return
+
     file_path = DATA_DIR / f"{path}.md"
     dir_path = DATA_DIR / path
     index_path = dir_path / "index.md"
@@ -1717,6 +1848,7 @@ async def catch_all(req, resp, *, path):
         current_year=datetime.now().year,
         error_code=404,
         error_message="Page not found.",
+        suggestions=_suggest_pages(path),
     )
 
 

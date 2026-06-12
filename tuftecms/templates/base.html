@@ -132,6 +132,44 @@
         <!-- Minimal syntax styling: comments only, keeps code literary -->
     </head>
     <body>
+        <!-- Apply theme + color scheme before first paint to avoid a flash
+             of the wrong mode. Runs here, not at the end of the body. -->
+        <script>
+            (function() {
+                const body = document.body;
+
+                const savedTheme = localStorage.getItem('theme');
+                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                if (savedTheme) {
+                    body.classList.add(savedTheme);
+                } else if (prefersDark) {
+                    body.classList.add('dark-mode');
+                } else {
+                    body.classList.add('light-mode');
+                }
+
+                const lightColorSchemes = [
+                    'scheme-ocean',
+                    'scheme-forest',
+                    'scheme-sunset',
+                    'scheme-lavender',
+                    'scheme-rose',
+                    'scheme-sage',
+                    'scheme-amber'
+                ];
+
+                // Change scheme occasionally (20% chance on page load)
+                let scheme = localStorage.getItem('current-color-scheme');
+                if (!scheme || Math.random() < 0.2) {
+                    scheme = lightColorSchemes[Math.floor(Math.random() * lightColorSchemes.length)];
+                    localStorage.setItem('current-color-scheme', scheme);
+                }
+                body.classList.add(scheme);
+            })();
+        </script>
+
+        <a class="skip-link" href="#main-content">Skip to content</a>
+
         <!-- Reading progress bar -->
         <div class="reading-progress" id="reading-progress"></div>
         
@@ -156,7 +194,7 @@
                     <a href="/archive">Archive</a>
                     <a href="/search">Search</a>
                     <div class="nav-dropdown">
-                        <span class="nav-dropdown-trigger">Themes</span>
+                        <span class="nav-dropdown-trigger" tabindex="0" role="button" aria-haspopup="true">Themes</span>
                         <div class="nav-dropdown-content" id="themes-dropdown">
                             {% for t in nav_themes %}
                             <div class="tree-item tree-file">{% if t.icon %}<img src="{{ t.icon }}" class="tree-item-icon" alt="">{% endif %}<a href="{{ t.path }}">{{ t.name }}</a></div>
@@ -165,7 +203,7 @@
                         </div>
                     </div>
                     <div class="nav-dropdown">
-                        <span class="nav-dropdown-trigger" style="font-style: italic;">etc.</span>
+                        <span class="nav-dropdown-trigger" style="font-style: italic;" tabindex="0" role="button" aria-haspopup="true">etc.</span>
                         <div class="nav-dropdown-content" id="browse-dropdown">
                             {% for item in nav_browse %}
                             <div class="tree-item {{ 'tree-folder' if item.is_dir else 'tree-file' }}">{% if item.icon %}<img src="{{ item.icon }}" class="tree-item-icon" alt="">{% endif %}<a href="{{ item.path }}">{{ item.name }}</a></div>
@@ -189,7 +227,7 @@
                 {% endif %}
             </header>
 
-            <main>
+            <main id="main-content">
                 {% block content %}{% endblock %}
             </main>
 
@@ -207,27 +245,12 @@
 
         {% block extra_scripts %}{% endblock %}
 
-        <!-- Theme Toggle -->
+        <!-- Theme Toggle (theme itself is applied at the top of the body) -->
         <script>
             (function() {
                 const themeToggle = document.getElementById('theme-toggle');
-                const html = document.documentElement;
                 const body = document.body;
-                
-                // Check for saved theme preference or default to system preference
-                const savedTheme = localStorage.getItem('theme');
-                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                
-                // Set initial theme
-                if (savedTheme) {
-                    body.classList.add(savedTheme);
-                } else if (prefersDark) {
-                    body.classList.add('dark-mode');
-                } else {
-                    body.classList.add('light-mode');
-                }
-                
-                // Toggle theme
+
                 themeToggle.addEventListener('click', function() {
                     if (body.classList.contains('light-mode')) {
                         body.classList.remove('light-mode');
@@ -239,34 +262,6 @@
                         localStorage.setItem('theme', 'light-mode');
                     }
                 });
-            })();
-        </script>
-
-        <!-- Color System -->
-        <script>
-            (function() {
-
-                const lightColorSchemes = [
-                    'scheme-ocean',
-                    'scheme-forest',
-                    'scheme-sunset',
-                    'scheme-lavender',
-                    'scheme-rose',
-                    'scheme-sage',
-                    'scheme-amber'
-                ];
-
-                // Get or generate a scheme based on the current page
-                let scheme = localStorage.getItem('current-color-scheme');
-
-                // Change scheme occasionally (20% chance on page load)
-                if (!scheme || Math.random() < 0.2) {
-                    scheme = lightColorSchemes[Math.floor(Math.random() * lightColorSchemes.length)];
-                    localStorage.setItem('current-color-scheme', scheme);
-                }
-
-                // Apply the scheme
-                document.body.className = (document.body.className + ' ' + scheme).trim();
             })();
         </script>
 

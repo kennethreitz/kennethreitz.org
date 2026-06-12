@@ -428,10 +428,22 @@ body.dark-mode .parent-link:hover {
     <div class="gallery-grid">
         {% for item in image_items %}
         <div class="gallery-item">
-            <img src="{{ item.static_path }}" alt="{{ item.display_name }}" class="gallery-thumbnail"
+            {% if item.static_path.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')) %}
+            <img src="/thumb{{ item.static_path }}?w=640"
+                 srcset="/thumb{{ item.static_path }}?w=320 320w, /thumb{{ item.static_path }}?w=640 640w, /thumb{{ item.static_path }}?w=1280 1280w"
+                 sizes="(max-width: 760px) 50vw, 320px"
+                 loading="lazy" decoding="async"
+                 alt="{{ item.display_name }}" class="gallery-thumbnail"
                  data-full="{{ item.static_path }}"
                  data-title="{{ item.display_name }}"
                  data-exif="{{ item.exif | tojson | forceescape }}">
+            {% else %}
+            <img src="{{ item.static_path }}" loading="lazy" decoding="async"
+                 alt="{{ item.display_name }}" class="gallery-thumbnail"
+                 data-full="{{ item.static_path }}"
+                 data-title="{{ item.display_name }}"
+                 data-exif="{{ item.exif | tojson | forceescape }}">
+            {% endif %}
         </div>
         {% endfor %}
     </div>

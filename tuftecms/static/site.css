@@ -78,8 +78,32 @@ nav > a, nav > .nav-dropdown {
 }
 
 .nav-dropdown:hover .nav-dropdown-content,
+.nav-dropdown:focus-within .nav-dropdown-content,
 .nav-dropdown-content:hover {
     display: block;
+}
+
+/* Skip link: invisible until focused, for keyboard and screen-reader users. */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 10001;
+    background: #fffff8;
+    color: #111;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+    left: 0;
+}
+
+body.dark-mode .skip-link {
+    background: #0d1117;
+    color: #e5e5e5;
+    border-color: #333;
 }
 
 .tree-item {
