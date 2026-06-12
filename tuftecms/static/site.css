@@ -310,11 +310,18 @@ body.dark-mode .footer-map .sep { color: #444; }
     margin-bottom: 0.75rem;
 }
 .related-essays ul { list-style: none; padding-left: 0; margin-top: 0; }
-.related-essays li { margin: 0.5rem 0; font-size: 1.15rem; }
+.related-essays li {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin: 0.5rem 0;
+    font-size: 1.15rem;
+}
+.related-essays li::marker { content: none; }
 .related-icon {
     width: 18px; height: 18px;
-    vertical-align: -3px;
-    margin-right: 0.5rem;
+    flex-shrink: 0;
+    display: inline-block;
 }
 body.dark-mode .related-essays { border-top-color: #333; }
 

@@ -212,6 +212,19 @@ def _nav_data():
     return _nav_cache
 
 
+def _static_version():
+    """Cache-busting version for stylesheets: max mtime of the CSS files."""
+    static_dir = Path("tuftecms/static")
+    return max(
+        int((static_dir / name).stat().st_mtime)
+        for name in ("site.css", "custom.css")
+        if (static_dir / name).exists()
+    )
+
+
+_static_v = _static_version()
+
+
 def render(template, req, path="/", **kwargs):
     """Render a template with common context."""
     kwargs.setdefault("current_year", datetime.now().year)
@@ -219,6 +232,7 @@ def render(template, req, path="/", **kwargs):
     kwargs["request"] = RequestWrapper(req, path)
     kwargs["config"] = _config
     kwargs.setdefault("pdf_available", _pdf_available)
+    kwargs.setdefault("static_v", _static_v)
     nav = _nav_data()
     kwargs.setdefault("nav_themes", nav["themes"])
     kwargs.setdefault("nav_browse", nav["browse"])

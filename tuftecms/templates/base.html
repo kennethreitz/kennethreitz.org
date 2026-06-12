@@ -41,16 +41,16 @@
 
         <!-- Preload critical resources -->
         <link rel="preload" href="/static/tufte/tufte.css" as="style" />
-        <link rel="preload" href="/static/custom.css" as="style" />
-        
+        <link rel="preload" href="/static/custom.css?v={{ static_v }}" as="style" />
+
         <!-- Tufte CSS -->
         <link rel="stylesheet" href="/static/tufte/tufte.css" />
-        
+
         <!-- Custom Site CSS -->
-        <link rel="stylesheet" href="/static/custom.css" />
+        <link rel="stylesheet" href="/static/custom.css?v={{ static_v }}" />
 
         <!-- Site CSS (layout, nav, dark mode, etc.) -->
-        <link rel="stylesheet" href="/static/site.css" />
+        <link rel="stylesheet" href="/static/site.css?v={{ static_v }}" />
 
 
         <!-- Structured Data (JSON-LD) -->
