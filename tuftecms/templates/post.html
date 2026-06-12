@@ -772,7 +772,6 @@ document.addEventListener('DOMContentLoaded', function() {
             <li>
                 {% if p.unique_icon %}<img src="{{ p.unique_icon }}" alt="" class="related-icon">{% endif %}
                 <a href="{{ p.url }}">{{ p.title }}</a>
-                {% if p.date %}<span class="related-date">{{ p.date }}</span>{% endif %}
             </li>
             {% endfor %}
         </ul>
