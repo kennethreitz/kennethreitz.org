@@ -28,6 +28,11 @@
         <meta property="og:image:alt" content="{% block og_image_alt %}Kenneth Reitz - Software developer and open source creator{% endblock %}" />
         <meta property="og:site_name" content="Kenneth Reitz" />
         <meta property="og:locale" content="en_US" />
+        {% block extra_meta %}{% endblock %}
+
+        <!-- Identity verification (IndieWeb / Mastodon) -->
+        <link rel="me" href="https://github.com/kennethreitz" />
+        <link rel="me" href="https://twitter.com/kennethreitz42" />
 
         <!-- Twitter Card -->
         <meta name="twitter:card" content="{% block twitter_card %}summary_large_image{% endblock %}" />
@@ -42,6 +47,8 @@
         <!-- Preload critical resources -->
         <link rel="preload" href="/static/tufte/tufte.css" as="style" />
         <link rel="preload" href="/static/custom.css?v={{ static_v }}" as="style" />
+        <link rel="preload" href="/static/tufte/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff" as="font" type="font/woff" crossorigin />
+        <link rel="preload" href="/static/tufte/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff" as="font" type="font/woff" crossorigin />
 
         <!-- Tufte CSS -->
         <link rel="stylesheet" href="/static/tufte/tufte.css" />

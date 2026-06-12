@@ -527,6 +527,32 @@ async def rss_xml(req, resp):
     await _rss_feed(req, resp)
 
 
+def _rss_full_content(url):
+    """Full rendered HTML for a post, prepared for a feed reader.
+
+    Absolute URLs, and Tufte sidenotes flattened into inline parentheticals
+    since the margin-toggle checkbox trick doesn't work outside the site.
+    """
+    md_path = DATA_DIR / f"{url.lstrip('/')}.md"
+    if not md_path.exists():
+        return None
+    try:
+        content = _cached_render(md_path)["content"]
+    except Exception:
+        return None
+
+    content = re.sub(r'<label[^>]*class="margin-toggle[^>]*>.*?</label>', "", content, flags=re.DOTALL)
+    content = re.sub(r'<input[^>]*class="margin-toggle"[^>]*/?>', "", content)
+    content = re.sub(
+        r'<span class="sidenote">(.*?)</span>',
+        r"<em> (\1)</em>",
+        content,
+        flags=re.DOTALL,
+    )
+    content = re.sub(r'(src|href)="/(?!/)', r'\1="https://kennethreitz.org/', content)
+    return content
+
+
 async def _rss_feed(req, resp):
     """Generate RSS feed."""
     blog_data = get_blog_cache()
@@ -535,7 +561,7 @@ async def _rss_feed(req, resp):
     recent_posts = posts[:20]
 
     rss_lines = ['<?xml version="1.0" encoding="UTF-8"?>']
-    rss_lines.append('<rss version="2.0">')
+    rss_lines.append('<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">')
     rss_lines.append("    <channel>")
     rss_lines.append("        <title>Kenneth Reitz</title>")
     rss_lines.append("        <link>https://kennethreitz.org</link>")
@@ -564,6 +590,13 @@ async def _rss_feed(req, resp):
         rss_lines.append(
             f'            <description>{html.escape(post.get("description", post.get("excerpt", "")))}</description>'
         )
+
+        full_html = _rss_full_content(post["url"])
+        if full_html:
+            cdata_safe = full_html.replace("]]>", "]]]]><![CDATA[>")
+            rss_lines.append(
+                f"            <content:encoded><![CDATA[{cdata_safe}]]></content:encoded>"
+            )
 
         pub_date = post["pub_date"]
         rss_date = pub_date.strftime("%a, %d %b %Y %H:%M:%S %z") if pub_date else ""
@@ -1757,6 +1790,11 @@ async def catch_all(req, resp, *, path):
         api.log.info("Serving content: /%s", path)
         content_data = _cached_render(file_path)
 
+        # article:published_time from the dated filename; modified from mtime.
+        date_match = re.match(r"(\d{4}-\d{2}-\d{2})", file_path.stem)
+        published_iso = date_match.group(1) if date_match else None
+        modified_iso = datetime.fromtimestamp(file_path.stat().st_mtime).strftime("%Y-%m-%d")
+
         # Detect themes for essays, and gather related essays from shared themes
         article_themes = []
         related_posts = []
@@ -1796,6 +1834,8 @@ async def catch_all(req, resp, *, path):
             unique_icon=content_data.get("unique_icon"),
             article_themes=article_themes,
             related_posts=related_posts,
+            published_iso=published_iso,
+            modified_iso=modified_iso,
         )
         return
 

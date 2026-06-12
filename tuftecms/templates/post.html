@@ -12,6 +12,9 @@
 
 {% block og_image_alt %}{{ title }} - An article by Kenneth Reitz{% endblock %}
 
+{% block extra_meta %}{% if published_iso %}<meta property="article:published_time" content="{{ published_iso }}" />
+        {% endif %}{% if modified_iso %}<meta property="article:modified_time" content="{{ modified_iso }}" />{% endif %}{% endblock %}
+
 {% block description %}{% if description %}{{ description }}{% else %}{{ content | striptags | truncate(200) }}{% endif %}{% endblock %}
 
 {% block schema_type %}Article{% endblock %}
