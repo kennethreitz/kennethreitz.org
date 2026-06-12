@@ -65,7 +65,7 @@ The Python Packaging Authority adopted it as a recommended tool. It wasn't a tec
 
 ## The Legacy
 
-Today, [uv](https://github.com/astral-sh/uv) from Astral is Pipenv's spiritual successor. It solves the same problems faster, with a broader scope, and it's built by a team rather than a single maintainer. That's a good thing. The ideas Pipenv introduced — unified dependency management, lockfiles for Python, developer experience as a first-class concern — live on in better implementations.
+Today, [uv](https://github.com/astral-sh/uv) from Astral is Pipenv's spiritual successor. It solves the same problems faster, with a broader scope, and it's built by a team rather than a single maintainer. That's a good thing. The ideas Pipenv introduced live on in better implementations: unified dependency management, lockfiles for Python, developer experience as a first-class concern.
 
 That's exactly how open source should work. You plant a flag that says "this experience is unacceptable." Others build something better. The ecosystem improves. The flag stays planted.
 
@@ -83,7 +83,7 @@ $ uv add pipenv
 
 ## Related
 
-- [**Requests**](/software/requests) — The library whose philosophy Pipenv extends to packaging.
-- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — The era of Python tooling that produced Pipenv.
-- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — How "for humans" became a design philosophy.
-- [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — What maintaining widely-used tools taught me.
+- [**Requests**](/software/requests): The library whose philosophy Pipenv extends to packaging.
+- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed): The era of Python tooling that produced Pipenv.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness): How "for humans" became a design philosophy.
+- [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface): What maintaining widely-used tools taught me.

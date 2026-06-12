@@ -1,29 +1,39 @@
-# clint — CLI App Toolkit
+# Clint: An Early CLI Toolkit
 
-This is a very old project (one of my first)<label for="sn-early-cli" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-early-cli" class="margin-toggle"/><span class="sidenote">Clint was created in the early 2010s when Python CLI tooling was far less mature, predating modern frameworks like Click (2014) and Typer (2019).</span>, and I don't recommend using it. It's not maintained, and there are much better options available now.
+Clint was one of my first open source projects, a toolkit for building command-line applications in Python.<label for="sn-early-cli" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-early-cli" class="margin-toggle"/><span class="sidenote">Clint arrived in the early 2010s, when Python CLI tooling was far less mature. Click came in 2014, Typer in 2019, Rich in 2020. The ecosystem Clint was built for no longer exists, which is the happiest fate a stopgap tool can have.</span> It's unmaintained now, and you shouldn't use it. I keep this page because the project taught me things I still use, and because pretending old work doesn't exist is its own kind of dishonesty.
 
-Clint is a Python library that provides a set of utilities for building command-line applications. It simplifies the process of creating command-line interfaces (CLIs) by providing a high-level API for defining commands, arguments, and options.
+## What It Did
 
-## Key Features
+Clint collected the small things every command-line tool needs and made them pleasant:
 
-- **Command Definition:** Clint allows you to define commands and subcommands with associated functions to execute.
-- **Argument Parsing:** It provides utilities for parsing command-line arguments and options.
-- **Output Formatting:** Clint supports various output formats, including tables, JSON, and plain text.
-- **Interactive Prompts:** You can create interactive prompts for user input using the `prompt` function.
-- **Colorful Output:** Clint provides utilities for coloring and styling console output.
-- **Error Handling:** It includes utilities for handling errors and exceptions in command-line applications.
-- **Cross-Platform:** Clint works on all major platforms, including Windows, macOS, and Linux.
-- **Extensible:** You can extend Clint with custom commands, options, and output formatters.
-- **Legacy:** Clint is a legacy project and is no longer actively maintained.
+- **Colored output**: green for success, red for failure, without ANSI escape codes scattered through your strings.
+- **Progress bars**: a one-line loop wrapper, years before this was standard.
+- **Column printing**: aligned tabular output for terminals.
+- **Interactive prompts**: ask the user a question, get an answer, move on.
+- **Argument handling**: a simple layer over raw `sys.argv`.
 
-## Alternatives
+Nothing in that list is impressive today. All of it was friction in 2011, and removing common friction is most of what I've ever done.
 
-While Clint was a popular choice for building CLIs in Python, there are now better alternatives available that offer more features and better performance. Some popular CLI libraries include:
+## What Replaced It
 
-- **Click:** A powerful and user-friendly CLI framework for Python.<label for="sn-click-influence" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-click-influence" class="margin-toggle"/><span class="sidenote">Click, created by Armin Ronacher, revolutionized Python CLI development with its decorator-based approach and became the foundation for many modern Python applications.</span>
-- **Typer:** A fast and modern CLI library built on top of Click.
-- **Docopt:** A command-line interface description language that generates parser code in Python.
-- **Argparse:** The standard library module for parsing command-line arguments in Python.
-- **Textual:** A modern and intuitive library for building interactive command-line applications.<label for="sn-textual-tui" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-textual-tui" class="margin-toggle"/><span class="sidenote">Textual represents the evolution toward rich terminal user interfaces (TUIs), offering widget-based layouts and sophisticated interactivity that goes far beyond traditional CLI patterns.</span>
+Use these instead:
 
-Thanks for reading!
+- [**Click**](https://click.palletsprojects.com/): the framework that got Python CLIs right. Decorator-based, composable, battle-tested.
+- [**Typer**](https://typer.tiangolo.com/): Click with type hints doing the work.
+- [**Rich**](https://rich.readthedocs.io/): beautiful terminal output, progress bars, tables. Everything `clint.textui` wanted to be.
+- **argparse**: in the standard library, and better than its reputation.
+
+## What It Taught Me
+
+Clint is where I learned that the standard library being *capable* of something is not the same as it being *humane* about it. You could always color terminal output in Python. You could always parse arguments. The question was how much of your attention it cost, and attention is the scarcest resource a programmer has.
+
+A year later I applied the same observation to `urllib2`, and that one became [Requests](/software/requests). Clint was the rehearsal.
+
+## Resources
+
+- [Source Code on GitHub](https://github.com/kennethreitz/clint): archived, for the curious.
+
+## Related
+
+- [**Legit**](/software/legit): command-line ergonomics applied to Git.
+- [**Requests**](/software/requests): the same lesson, applied to HTTP, a year later.

@@ -1,6 +1,6 @@
 # Responder: A Familiar HTTP Service Framework
 
-Responder is a web framework for Python that flips [Requests](/software/requests) inside out. If Requests is how you consume HTTP, Responder is how you serve it — using the same mental model.
+Responder is a web framework for Python that flips [Requests](/software/requests) inside out. If Requests is how you consume HTTP, Responder is how you serve it, using the same mental model.
 
     $ uv add responder
 
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     api.run()
 ```
 
-`resp.text` sends text. `resp.html` sends HTML. `resp.media` sends JSON. The `async` keyword is optional — use it when you need it, skip it when you don't.
+`resp.text` sends text. `resp.html` sends HTML. `resp.media` sends JSON. The `async` keyword is optional: use it when you need it, skip it when you don't.
 
 ## Built-In Batteries
 
@@ -72,13 +72,13 @@ async def websocket(ws):
         await ws.send_text(f"Echo: {data}")
 ```
 
-Background tasks, GraphQL, WebSockets, OpenAPI docs, and Jinja2 templates — all built in. No extensions to install. No configuration to fumble with.
+Background tasks, GraphQL, WebSockets, OpenAPI docs, and Jinja2 templates, all built in. No extensions to install. No configuration to fumble with.
 
 ## The Idea
 
 I wanted to take the API primitives from Requests and put them into a web framework. The niceties of Flask and the performance philosophy of Falcon, unified with a Requests-like interface for responses. Setting `resp.content` sends bytes. Setting `resp.media` sends JSON. Case-insensitive headers. Familiar status codes. If you know Requests, you already know half of Responder.
 
-It was a bit ahead of its time. Some of these ideas — automatic async handling, type-aware serialization, built-in OpenAPI — showed up later in FastAPI, which I'd recommend for production use today. But Responder is back in active development, and [this site runs on it](/colophon). The experiment became the production framework after all.
+It was a bit ahead of its time. Some of these ideas (automatic async handling, type-aware serialization, built-in OpenAPI) showed up later in FastAPI, which I'd recommend for production use today. But Responder is back in active development, and [this site runs on it](/colophon). The experiment became the production framework after all.
 
 The deeper question Responder tried to answer: why do we accept that consuming an API and serving an API should feel like completely different activities? They're the same protocol. The mental model should be the same.
 
@@ -96,8 +96,8 @@ $ uv add responder
 
 ## Related
 
-- [**A Framework of One's Own**](/essays/2026-06-11-a_framework_of_ones_own) — The full story: the 2018 web, the five-year freeze, and the AI-assisted revival.
-- [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — The afternoon this site ported from Flask.
-- [**Requests**](/software/requests) — The client-side library whose philosophy Responder mirrors.
-- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — The design thinking behind both libraries.
-- [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — Building tools as a contemplative act.
+- [**A Framework of One's Own**](/essays/2026-06-11-a_framework_of_ones_own): The full story: the 2018 web, the five-year freeze, and the AI-assisted revival.
+- [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder): The afternoon this site ported from Flask.
+- [**Requests**](/software/requests): The client-side library whose philosophy Responder mirrors.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness): The design thinking behind both libraries.
+- [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice): Building tools as a contemplative act.

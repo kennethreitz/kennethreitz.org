@@ -55,7 +55,7 @@ One dataset, any format. Import from one, export to another. The data doesn't ca
 
 Tablib was one of my first open source projects, built in 2010 before the data science ecosystem in Python really took off. It came from a simple frustration: I kept writing the same import/export boilerplate for every project that dealt with tabular data.
 
-The idea was format agnosticism. Your data is your data. Whether it ends up as a spreadsheet, a JSON file, or a DataFrame shouldn't change how you work with it. That principle — that software should adapt to your workflow rather than the other way around — became central to everything I built after.
+The idea was format agnosticism. Your data is your data. Whether it ends up as a spreadsheet, a JSON file, or a DataFrame shouldn't change how you work with it. That principle became central to everything I built after: software should adapt to your workflow, not the other way around.
 
 Tablib powers the export functionality in [Records](/software/records), and its approach to clean API design directly influenced [Requests](/software/requests). Looking back, it was the first place I figured out what "for humans" actually meant in practice: a single object that does the obvious thing, with sane defaults and no ceremony.
 
@@ -84,6 +84,6 @@ $ uv add tablib[all]     # Everything
 
 ## Related
 
-- [**Records**](/software/records) — SQL for Humans, powered by Tablib's export engine.
-- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — The era when these libraries came together.
-- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — How designing for humans became a worldview.
+- [**Records**](/software/records): SQL for Humans, powered by Tablib's export engine.
+- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed): The era when these libraries came together.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness): How designing for humans became a worldview.

@@ -57,7 +57,7 @@ Maya wraps all of that complexity in an interface that matches how humans actual
 
 ## The Name
 
-Named after the Maya civilization, whose calendar systems were among the most sophisticated in human history. They tracked cycles within cycles — the 260-day Tzolkʼin, the 365-day Haabʼ, the Long Count spanning millennia. They understood time deeply, not as a flat line but as interlocking patterns.
+Named after the Maya civilization, whose calendar systems were among the most sophisticated in human history. They tracked cycles within cycles: the 260-day Tzolkʼin, the 365-day Haabʼ, the Long Count spanning millennia. They understood time deeply, not as a flat line but as interlocking patterns.
 
 This library tries to make that kind of understanding accessible. Not the complexity, but the confidence. When you work with Maya, you can trust that the timezone is right, the format is correct, and the edge cases are handled. You think about time the way you naturally think about time, and the library does the rest.
 
@@ -74,6 +74,6 @@ $ uv add maya
 
 ## Related
 
-- [**Requests**](/software/requests) — The "for humans" philosophy that started it all.
-- [**Tablib**](/software/tablib) — Another library built on the principle that APIs should fit in your head.
-- [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — The contemplative approach to building tools that respect their users.
+- [**Requests**](/software/requests): The "for humans" philosophy that started it all.
+- [**Tablib**](/software/tablib): Another library built on the principle that APIs should fit in your head.
+- [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice): The contemplative approach to building tools that respect their users.

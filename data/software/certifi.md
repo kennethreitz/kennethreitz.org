@@ -33,7 +33,7 @@ That's the entire API. One function. One return value. One job done well.
 
 Before Certifi, Python's SSL story was a mess. Every operating system stored certificates differently. macOS had the Keychain. Linux distributions scattered them across `/etc/ssl/`, `/etc/pki/`, or wherever they felt like it. Windows did its own thing entirely. The result: developers disabled SSL verification just to get their code working. Security became opt-in, which effectively meant opt-out.
 
-Certifi solved this by bundling Mozilla's trusted CA certificates directly into a Python package. Same certificates on every platform, always up to date, always available. Over 70 million downloads per month. It ships as a dependency of [Requests](/software/requests), which means most Python applications that talk to the internet are trusting Certifi to keep that conversation private.
+Certifi solved this by bundling Mozilla's trusted CA certificates directly into a Python package. Same certificates on every platform, always up to date, always available. Over 60 million downloads a day, more than 1.5 billion a month. It ships as a dependency of [Requests](/software/requests), which means most Python applications that talk to the internet are trusting Certifi to keep that conversation private.
 
 ## The Invisible Infrastructure
 
@@ -57,6 +57,6 @@ $ uv add certifi
 
 ## Related
 
-- [**Requests**](/software/requests) — The HTTP library that depends on Certifi for SSL verification.
-- [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — Security defaults as a form of compassionate design.
-- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — The "for humans" philosophy means secure by default.
+- [**Requests**](/software/requests): The HTTP library that depends on Certifi for SSL verification.
+- [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day): Security defaults as a form of compassionate design.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness): The "for humans" philosophy means secure by default.

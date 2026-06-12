@@ -80,7 +80,7 @@ $ uv add pymysql      # MySQL
 
 ## Related
 
-- [**Tablib**](/software/tablib) — The dataset library that powers Records' export functionality.
-- [**dj-database-url**](/software/dj-database-url) — Database URLs for Django, born from the same Heroku-era thinking.
-- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — The "for humans" philosophy applied everywhere.
-- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — The golden era that produced these libraries.
+- [**Tablib**](/software/tablib): The dataset library that powers Records' export functionality.
+- [**dj-database-url**](/software/dj-database-url): Database URLs for Django, born from the same Heroku-era thinking.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness): The "for humans" philosophy applied everywhere.
+- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed): The golden era that produced these libraries.

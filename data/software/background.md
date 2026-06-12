@@ -68,6 +68,6 @@ $ uv add background
 
 ## Related
 
-- [**Delegator**](/software/delegator) — Another small, focused utility for common Python tasks.
-- [**Requests**](/software/requests) — The philosophy that simple tools should stay simple.
-- [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — Knowing when not to over-engineer is its own discipline.
+- [**Delegator**](/software/delegator): Another small, focused utility for common Python tasks.
+- [**Requests**](/software/requests): The philosophy that simple tools should stay simple.
+- [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice): Knowing when not to over-engineer is its own discipline.

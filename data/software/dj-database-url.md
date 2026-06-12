@@ -69,7 +69,7 @@ I built this at Heroku, where we needed Django apps to configure themselves from
 
 dj-database-url does that translation. One import, one function call, one environment variable. It became so standard in the Django ecosystem that the pattern spread to other frameworks. The idea that configuration should come from the environment, not from files checked into version control, is now common practice. The [twelve-factor app](https://12factor.net/) methodology that inspired it has become conventional wisdom.
 
-This is maybe the smallest library I've written that had the biggest impact on how people deploy Django. It's twelve lines of meaningful code that changed a workflow for thousands of developers. Sometimes that's all it takes — noticing a friction point and removing it.
+This is maybe the smallest library I've written that had the biggest impact on how people deploy Django. It's twelve lines of meaningful code that changed a workflow for thousands of developers. Sometimes that's all it takes: noticing a friction point and removing it.
 
 Now maintained by the [Jazzband](https://jazzband.co/) community.
 
@@ -86,6 +86,6 @@ $ uv add dj-database-url
 
 ## Related
 
-- [**Records**](/software/records) — SQL for Humans, using the same database URL pattern.
-- [**Requests**](/software/requests) — The "for humans" philosophy applied to HTTP.
-- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — The Heroku era that produced these tools.
+- [**Records**](/software/records): SQL for Humans, using the same database URL pattern.
+- [**Requests**](/software/requests): The "for humans" philosophy applied to HTTP.
+- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed): The Heroku era that produced these tools.

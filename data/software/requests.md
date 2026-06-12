@@ -1,6 +1,6 @@
 # Requests: HTTP for Humans
 
-Requests is the most downloaded Python package on Earth. Over 30 million installs a day. It exists because urllib2 was hostile to humans, and HTTP shouldn't be.
+Requests is the most downloaded Python package on Earth. Over 60 million installs a day. It exists because urllib2 was hostile to humans, and HTTP shouldn't be.
 
     $ uv add requests
 
@@ -101,7 +101,7 @@ $ uv add requests
 
 ## Related
 
-- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — The golden era of open source that produced Requests.
-- [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — The design philosophy that started here.
-- [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — What maintaining Requests taught me about human interfaces.
-- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — How "for humans" became a worldview.
+- [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed): The golden era of open source that produced Requests.
+- [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day): The design philosophy that started here.
+- [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface): What maintaining Requests taught me about human interfaces.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness): How "for humans" became a worldview.

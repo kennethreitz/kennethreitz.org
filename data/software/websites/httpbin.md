@@ -28,12 +28,12 @@ No signup. No API key. No rate limits. Just a mirror for your HTTP traffic.
 
 httpbin provides dozens of endpoints for testing every aspect of HTTP:
 
-- **Methods** — `GET`, `POST`, `PUT`, `DELETE`, `PATCH` — test any request type.
-- **Status Codes** — `/status/418` returns a teapot. `/status/500` returns a server error. Test your error handling against any code.
-- **Authentication** — Basic auth, bearer tokens, digest auth. Verify your client handles credentials correctly.
-- **Dynamic Data** — Random bytes, delayed responses, streaming data. Test the edge cases that break things in production.
-- **Request Inspection** — Headers, IP address, user-agent. See exactly what your client is sending.
-- **Response Formats** — JSON, HTML, XML, images, gzip. Test content type handling.
+- **Methods**: `GET`, `POST`, `PUT`, `DELETE`, `PATCH`. Test any request type.
+- **Status Codes**: `/status/418` returns a teapot. `/status/500` returns a server error. Test your error handling against any code.
+- **Authentication**: Basic auth, bearer tokens, digest auth. Verify your client handles credentials correctly.
+- **Dynamic Data**: Random bytes, delayed responses, streaming data. Test the edge cases that break things in production.
+- **Request Inspection**: Headers, IP address, user-agent. See exactly what your client is sending.
+- **Response Formats**: JSON, HTML, XML, images, gzip. Test content type handling.
 
 ## Run It Locally
 
@@ -52,11 +52,11 @@ It embodies the same "for humans" philosophy as Requests: no configuration, obvi
 
 ## Resources
 
-- [httpbin.org](https://httpbin.org/) — The live service.
-- [Source Code on GitHub](https://github.com/postmanlabs/httpbin) — Now maintained by Postman.
-- [Docker Image](https://hub.docker.com/r/kennethreitz/httpbin) — Run your own instance.
+- [httpbin.org](https://httpbin.org/): The live service.
+- [Source Code on GitHub](https://github.com/postmanlabs/httpbin): Now maintained by Postman.
+- [Docker Image](https://hub.docker.com/r/kennethreitz/httpbin): Run your own instance.
 
 ## Related
 
-- [**Requests**](/software/requests) — The HTTP library httpbin was built to support.
-- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — How "for humans" became a worldview.
+- [**Requests**](/software/requests): The HTTP library httpbin was built to support.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness): How "for humans" became a worldview.

@@ -28,6 +28,6 @@ It also runs almost entirely locally. The phonetics, the rhyme groups, the meter
 
 ## Related
 
-- [**RhymePad: Seeing the Sound**](/essays/2026-06-11-rhymepad_seeing_the_sound) — The full story of building it and why the visual language works.
-- [**Poems by Sarah**](/software/websites/poemsbysarah) — A poetry publishing platform built with Claude Code.
-- [**The Hitchhiker's Guide to Python**](/software/websites/python-guide) — Another tool built for humans first.
+- [**RhymePad: Seeing the Sound**](/essays/2026-06-11-rhymepad_seeing_the_sound): The full story of building it and why the visual language works.
+- [**Poems by Sarah**](/software/websites/poemsbysarah): A poetry publishing platform built with Claude Code.
+- [**The Hitchhiker's Guide to Python**](/software/websites/python-guide): Another tool built for humans first.

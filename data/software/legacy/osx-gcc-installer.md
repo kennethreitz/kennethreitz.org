@@ -1,30 +1,35 @@
-# osx-gcc-installer
+# osx-gcc-installer: A Compiler Without the 8 GB
 
-This legacy project solved a major pain point for Mac developers in the early 2010s. Before Apple provided `xcode-select --install`, installing a C compiler required downloading the entire Xcode package—an 8+ GB download that included GUI tools, simulators, and documentation that command-line developers didn't need.
+In the early 2010s, getting a C compiler on a Mac meant downloading all of Xcode: more than 8 GB of IDE, simulators, and documentation, just to compile a Ruby gem. osx-gcc-installer packaged the compiler toolchain alone, and for a couple of years it was how a large slice of the Mac developer community got working.
 
 ## The Problem
 
-Ruby developers, especially those using Rails with native gem extensions, needed GCC but didn't want to download gigabytes of IDE components. The Rails community was particularly affected since popular gems like `nokogiri` and `json` required compilation.
+Rails developers felt this hardest. Popular gems like `nokogiri` and `json` had native extensions that required compilation, so every new laptop and every new teammate hit the same wall: an enormous download, an Apple Developer account, and an afternoon lost to setup, all for a few hundred megabytes of actual tools.
 
 ## The Solution
 
-osx-gcc-installer provided pre-built packages containing just the essential compiler tools:
+Pre-built packages containing only the essentials:
 
-- **GCC** - GNU Compiler Collection
-- **LLVM/Clang** - Apple's preferred compiler toolchain  
-- **Developer CLI Tools** - Command-line utilities
-- **DevSDK** - Software Development Kit headers
+- **GCC**: the GNU Compiler Collection.
+- **LLVM/Clang**: Apple's preferred toolchain.
+- **Command-line developer tools**: the utilities builds actually invoke.
+- **DevSDK**: the headers needed to compile against the system.
 
-The installer supported OS X 10.6 (Snow Leopard) and 10.7 (Lion), targeting the versions most developers were running at the time.
+It supported OS X 10.6 Snow Leopard and 10.7 Lion, the versions most developers were running. Download, install, `gem install nokogiri`, done.
 
-## Impact
+The installer came with a sincere warning against mixing it with an existing Xcode installation, which could cause difficult-to-diagnose problems. Repackaging a platform vendor's toolchain is inherently a duct-tape solution. It was the right duct tape for the moment.
 
-This project helped thousands of developers get productive faster. Its success demonstrated clear user demand for lightweight development tools, contributing to Apple's decision to eventually provide `xcode-select --install` as an official solution.
+## The Happy Ending
 
-**Warning:** The installer explicitly cautioned against mixing it with existing Xcode installations, as this could cause "difficult-to-diagnose problems"—a lesson in the complexity of Apple's development toolchain dependencies.
+Apple eventually shipped `xcode-select --install`, an official lightweight way to get the command-line tools. The project became obsolete in the best possible way: the platform absorbed the fix.<label for="sn-community-solution" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-community-solution" class="margin-toggle"/><span class="sidenote">Community tooling pressuring the platform into doing the right thing became a recurring Mac pattern: Homebrew for packages, CocoaPods for dependencies. The community builds the proof of demand, and sometimes the vendor listens.</span>
 
-## Legacy
+That's worth pausing on. The goal of filling a gap is to make the gap disappear, not to own it forever. Thousands of developers got productive faster for a few years, Apple noticed the demand was real, and then nobody needed my installer anymore. I count that as a complete success.
 
-While no longer needed thanks to Apple's official Command Line Tools, osx-gcc-installer represents an important moment in Mac development history when the community stepped in to solve tooling friction that the platform vendor hadn't yet addressed<label for="sn-community-solution" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-community-solution" class="margin-toggle"/><span class="sidenote">This pattern of community solutions influencing official platform decisions became common in the Mac development ecosystem, from package managers like Homebrew to dependency managers like CocoaPods.</span>.
+## Resources
 
-https://github.com/kennethreitz/osx-gcc-installer
+- [Source Code on GitHub](https://github.com/kennethreitz/osx-gcc-installer): preserved for history.
+
+## Related
+
+- [**The Legacy Shelf**](/software/legacy): other projects that finished their work.
+- [**Requests**](/software/requests): the same instinct, removing friction between developers and their work.

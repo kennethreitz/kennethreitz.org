@@ -1,6 +1,6 @@
 # PyTheory: Music Theory for Humans
 
-PyTheory is a Python library for exploring music theory and making music computationally. Notes, scales, chords, fretboards, drum patterns, synthesis, effects, sequencing, and export — all from the Python REPL.
+PyTheory is a Python library for exploring music theory and making music computationally. Notes, scales, chords, fretboards, drum patterns, synthesis, effects, sequencing, and export, all from the Python REPL.
 
     $ uv add pytheory
 
@@ -19,7 +19,7 @@ fb = Fretboard.guitar()
 chord = fb.fingering(0, 1, 0, 2, 3, 0).to_chord(fb)
 print(chord.identify())  # 'C major'
 
-# 25 instrument presets — guitar, bass, oud, sitar, shamisen, erhu...
+# 25 instrument presets: guitar, bass, oud, sitar, shamisen, erhu...
 oud = Fretboard.oud()
 banjo = Fretboard.banjo()
 
@@ -98,15 +98,15 @@ score.save_midi("track.mid")
 
 ## No Samples
 
-Every sound in PyTheory is generated mathematically — there are no sample libraries, no WAV files, no audio assets bundled with the package. Just NumPy and SciPy.
+Every sound in PyTheory is generated mathematically. There are no sample libraries, no WAV files, no audio assets bundled with the package. Just NumPy and SciPy.
 
-This includes the tabla. Each tabla stroke — Na, Tin, Ge, Dha, Tit, Ke — is modeled from its physical components: goatskin membrane thuds through bandpass-filtered noise, wooden or copper shell resonance as tuned sine waves, syahi ring harmonics at specific frequencies with independent decay rates, finger attack transients shaped by exponential envelopes. The Ge stroke alone layers a membrane thud (40-250 Hz bandpass noise), metal shell resonance (120 Hz sine), a pitch-sweeping body (55→155 Hz exponential curve with phase accumulation), a sub-frequency boom (40 Hz), and a palm attack transient — all summed and soft-clipped through tanh.
+This includes the tabla. Each tabla stroke (Na, Tin, Ge, Dha, Tit, Ke) is modeled from its physical components: goatskin membrane thuds through bandpass-filtered noise, wooden or copper shell resonance as tuned sine waves, syahi ring harmonics at specific frequencies with independent decay rates, finger attack transients shaped by exponential envelopes. The Ge stroke alone layers a membrane thud (40-250 Hz bandpass noise), metal shell resonance (120 Hz sine), a pitch-sweeping body (55→155 Hz exponential curve with phase accumulation), a sub-frequency boom (40 Hz), and a palm attack transient, all summed and soft-clipped through tanh.
 
 The same approach applies to every instrument: kick drums use pitch-swept oscillators, snares layer tuned sine waves with shaped noise bursts, congas model membrane tension and slap transients. It's all waveforms, filters, and envelopes. No recordings of real instruments anywhere.
 
 ## The Story
 
-I built this for myself. Nobody asked for it. There's no market for a Python music theory library. But it sits at the intersection of my two longest-running interests — programming and music — and working on it feels like the reason I learned to code in the first place.
+I built this for myself. Nobody asked for it. There's no market for a Python music theory library. But it sits at the intersection of my two longest-running interests, programming and music, and working on it feels like the reason I learned to code in the first place.
 
 It started as scales and chords. Then I wanted to hear what I was modeling, so I added synthesis. Then drums, effects, automation, sequencing. Each step was the obvious next thing, and the architecture absorbed it without complaining.
 
@@ -126,6 +126,6 @@ $ uv add pytheory
 
 ## Related
 
-- [**PyTheory Is Awesome**](/essays/2026-03-25-pytheory_is_awesome) — On chord detection, world music systems, and why the quietest library means the most.
-- [**A Mini DAW in the Python REPL**](/essays/2026-03-25-a_mini_daw_in_the_python_repl) — Building a track from scratch with drums, synthesis, effects, and automation.
-- [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — The full story of how this library came together.
+- [**PyTheory Is Awesome**](/essays/2026-03-25-pytheory_is_awesome): On chord detection, world music systems, and why the quietest library means the most.
+- [**A Mini DAW in the Python REPL**](/essays/2026-03-25-a_mini_daw_in_the_python_repl): Building a track from scratch with drums, synthesis, effects, and automation.
+- [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai): The full story of how this library came together.

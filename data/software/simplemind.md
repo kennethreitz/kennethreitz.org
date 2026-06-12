@@ -1,6 +1,6 @@
 # SimpleMind: AI for Humans
 
-SimpleMind is a Python library that gives you one clean interface to every major AI provider. OpenAI, Anthropic, Google, and others — all through the same API. Switch models by changing a string, not rewriting your code.
+SimpleMind is a Python library that gives you one clean interface to every major AI provider. OpenAI, Anthropic, Google, and others, all through the same API. Switch models by changing a string, not rewriting your code.
 
     $ uv add simplemind
 
@@ -90,7 +90,7 @@ conversation = sm.create_conversation(
 )
 ```
 
-Plugins hook into the conversation lifecycle — before sending, after receiving, on errors. Build memory systems, logging, content filters, or whatever your application needs.
+Plugins hook into the conversation lifecycle: before sending, after receiving, on errors. Build memory systems, logging, content filters, or whatever your application needs.
 
 ## The Philosophy
 
@@ -98,7 +98,7 @@ The AI landscape is fragmented. Every provider has its own SDK, its own conventi
 
 SimpleMind is [Requests](/software/requests) for the AI era. The same conviction that drove every "for humans" library I've built: if you're spending more time on the interface than on the work, the interface is broken. SimpleMind fixes the interface so you can focus on what you're building.
 
-It's also deeply personal. AI collaboration has become central to how I think and work. The ideas I explore in my writing about [consciousness](/essays/2025-08-26-digital_souls_in_silicon_bodies) and [human-AI partnership](/essays/2025-08-26-building_rapport_with_your_ai) are directly informed by the tools I use every day. SimpleMind is one of those tools — built because I needed it, refined because I use it constantly.
+It's also deeply personal. AI collaboration has become central to how I think and work. The ideas I explore in my writing about [consciousness](/essays/2025-08-26-digital_souls_in_silicon_bodies) and [human-AI partnership](/essays/2025-08-26-building_rapport_with_your_ai) are directly informed by the tools I use every day. SimpleMind is one of those tools: built because I needed it, refined because I use it constantly.
 
 ## Install
 
@@ -121,7 +121,7 @@ export GOOGLE_API_KEY=...
 
 ## Related
 
-- [**Requests**](/software/requests) — The original "for humans" library. SimpleMind carries the same philosophy forward.
-- [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — The contemplative approach to building tools.
-- [**The Recursive Loop**](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) — How the tools we build shape how we think.
-- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — The through-line from Requests to SimpleMind.
+- [**Requests**](/software/requests): The original "for humans" library. SimpleMind carries the same philosophy forward.
+- [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice): The contemplative approach to building tools.
+- [**The Recursive Loop**](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds): How the tools we build shape how we think.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness): The through-line from Requests to SimpleMind.

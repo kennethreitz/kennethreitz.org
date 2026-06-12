@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Two hundred and eighty-eight essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Two hundred and eighty-nine essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -134,6 +134,7 @@ The technical foundation. Library announcements, coding philosophy, and the craf
 - [The Case for Bash](/essays/2025-08-31-the-case-for-bash)
 - [The Future of Python HTTP](/essays/2012-01-the_future_of_python_http)
 - [This Site Now Runs on Responder](/essays/2026-03-22-this_site_now_runs_on_responder)
+- [This Website's Changelog](/essays/2026-06-12-this_websites_changelog)
 - [Unix Exit Status Code Reference](/essays/2010-01-unix_exit_status_code_reference)
 - [Version Control as Filesystem](/essays/2025-09-05-version_control_as_filesystem)
 

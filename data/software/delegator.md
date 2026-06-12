@@ -87,7 +87,7 @@ $ uv add delegator.py
 
 ## Related
 
-- [**Pipenv**](/software/pipenv) — Uses Delegator for shell command execution.
-- [**Legit**](/software/legit) — Another tool for making command-line workflows more human.
-- [**Requests**](/software/requests) — The "for humans" philosophy that inspired Delegator's design.
-- [**Background**](/software/background) — Another small utility that does one thing well.
+- [**Pipenv**](/software/pipenv): Uses Delegator for shell command execution.
+- [**Legit**](/software/legit): Another tool for making command-line workflows more human.
+- [**Requests**](/software/requests): The "for humans" philosophy that inspired Delegator's design.
+- [**Background**](/software/background): Another small utility that does one thing well.

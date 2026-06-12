@@ -43,7 +43,7 @@ I built Legit in 2011 because I loved the Git workflow in GitHub for Mac and wan
 
 ## What It Taught Me
 
-Legit was the project where I first understood that "for humans" wasn't just about simplifying APIs — it was about naming things honestly. Git's existing commands are technically accurate but emotionally misleading. `git push -u origin feature-x` is correct. `git publish` is clear. The difference matters more than it seems, because command names become the vocabulary you think in.
+Legit was the project where I first understood that "for humans" wasn't just about simplifying APIs. It was about naming things honestly. Git's existing commands are technically accurate but emotionally misleading. `git push -u origin feature-x` is correct. `git publish` is clear. The difference matters more than it seems, because command names become the vocabulary you think in.
 
 The same principle shows up everywhere now. When I'm designing any interface, I ask: does the name of this thing describe what the human is trying to do, or what the computer is doing? Those are different questions, and the answer determines whether the tool feels like an extension of your thinking or an obstacle to it.
 
@@ -68,6 +68,6 @@ $ brew install legit
 
 ## Related
 
-- [**Requests**](/software/requests) — The library that established the "for humans" philosophy.
-- [**Delegator**](/software/delegator) — Another tool for simplifying command-line interactions.
-- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — How naming things for humans became a design principle.
+- [**Requests**](/software/requests): The library that established the "for humans" philosophy.
+- [**Delegator**](/software/delegator): Another tool for simplifying command-line interactions.
+- [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness): How naming things for humans became a design principle.
