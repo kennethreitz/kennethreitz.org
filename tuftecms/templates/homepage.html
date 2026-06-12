@@ -33,7 +33,7 @@
     <div style="display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;">
         {% if post.unique_icon %}<img src="{{ post.unique_icon }}" alt="" style="width: 22px; height: 22px; flex-shrink: 0; margin-top: 0.1rem;">{% endif %}
         <div style="font-size: 1.15rem;">
-            <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>{% if post.date_str %}<span class="recent-date">{{ post.date_str }}</span>{% endif %}
+            <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
         </div>
     </div>
     {% endfor %}
