@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Two hundred and eighty-seven essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Two hundred and eighty-eight essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -88,6 +88,7 @@ The largest body of work. Where programming meets philosophy meets the hard prob
 The technical foundation. Library announcements, coding philosophy, and the craft of making things work.
 
 - [A Better Pip Workflow™](/essays/2016-01-a_better_pip_workflowtm)
+- [A Framework of One's Own](/essays/2026-06-11-a_framework_of_ones_own)
 - [A Mini DAW in the Python REPL](/essays/2026-03-25-a_mini_daw_in_the_python_repl)
 - [Announcing Httpbin.org](/essays/2011-01-announcing_httpbinorg)
 - [Announcing Pipenv!](/essays/2017-01-announcing_pipenv)

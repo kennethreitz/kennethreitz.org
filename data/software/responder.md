@@ -96,6 +96,8 @@ $ uv add responder
 
 ## Related
 
+- [**A Framework of One's Own**](/essays/2026-06-11-a_framework_of_ones_own) — The full story: the 2018 web, the five-year freeze, and the AI-assisted revival.
+- [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — The afternoon this site ported from Flask.
 - [**Requests**](/software/requests) — The client-side library whose philosophy Responder mirrors.
 - [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness) — The design thinking behind both libraries.
 - [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — Building tools as a contemplative act.

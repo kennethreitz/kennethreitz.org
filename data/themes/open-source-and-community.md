@@ -41,6 +41,7 @@ I've spent over a decade building tools used by millions. The thing nobody tells
 - [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — The human behind the project is the first interface. A terse rejection costs more than the maintainer's time saved.
 - [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — Reviving a stalled open source project through human-AI collaboration.
 - [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — Dogfooding your own framework. Porting a live site to Responder in an afternoon.
+- [**A Framework of One's Own**](/essays/2026-06-11-a_framework_of_ones_own) — Responder's whole arc: born into the 2018 web, frozen for five years, revived through AI collaboration. A userbase of one as a feature, not a failure.
 - [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — What human-centered design means when the human is in crisis.
 - [**The Hacker Ethic and the Vibe Coder**](/essays/2026-04-10-the-hacker-ethic-and-the-vibe-coder) — Levy's principles, four decades later. What the hacker ethic demands when the AI writes the code and you steer.
 - [**Self-Hosting Adventures**](/essays/2026-06-06-self-hosting-adventures) — The original open source impulse, applied at home: run your own things, own your own data, fix your own outages.

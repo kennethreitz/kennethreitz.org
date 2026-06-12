@@ -21,6 +21,7 @@ This theme collects essays about human-AI collaboration, digital consciousness, 
 - [**Infrastructure for One**](/essays/2026-04-16-infrastructure_for_one) — AI collaboration breaks the economics of personal tooling. Building exactly what you need is rational now.
 - [**RhymePad: Seeing the Sound**](/essays/2026-06-11-rhymepad_seeing_the_sound) — Vibe coding a phonetic rhyme engine, and the test suite that kept it honest.
 - [**How I Write Now**](/essays/2026-06-11-how_i_write_now) — The concrete workflow, the accessibility case, and the tears. AI as the bridge between knowing and saying, for a mind where the bridge was always the bottleneck.
+- [**A Framework of One's Own**](/essays/2026-06-11-a_framework_of_ones_own) — The purest case of write-it-first: a hand-written 2018 framework, frozen for five years, shipping seven releases in a day once AI supplied the stamina.
 
 ### Digital Consciousness
 

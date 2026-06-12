@@ -32,6 +32,7 @@ Every technical choice embeds values about how humans should relate to technolog
 - [**PyTheory: Breaking Through Five Years of Creative Block with AI**](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai) — Music theory for humans. The same philosophy that drove Requests, applied to scales and chords.
 - [**The Maintainer Is the Interface**](/essays/2026-03-22-the_maintainer_is_the_interface) — The human behind the project is the first interface a contributor encounters. Design that accordingly.
 - [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — Running on Responder: Requests semantics, server side. The "for humans" philosophy full circle.
+- [**A Framework of One's Own**](/essays/2026-06-11-a_framework_of_ones_own) — Why consuming and serving HTTP should share one mental model, and why a framework that fits one hand perfectly beats one that fits a market loosely.
 - [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed) — The era when open source was about making beautiful lego bricks and sharing them.
 - [**Visual Hierarchy and the Shape of Attention**](/essays/2025-09-19-visual-hierarchy-and-the-shape-of-attention) — How visual design directs consciousness before you realize it's happening.
 - [**Python as English**](/essays/2025-09-22-python-as-english) — The art of readable code as human-centered design at the syntax level.

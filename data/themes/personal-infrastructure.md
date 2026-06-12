@@ -14,6 +14,7 @@ This thread documents the experiment of doing exactly that — moving a digital 
 - [**A Server Called Mercury**](/essays/2026-06-05-a_server_called_mercury) — Buying a physical machine and remembering that deployment UX is critical infrastructure. Heroku's ghost watches over everything.
 - [**Self-Hosting Adventures**](/essays/2026-06-06-self-hosting-adventures) — The ongoing practice: photo storage, databases, services, and the maintenance that turns out to be a hobby instead of a burden.
 - [**This Site Now Runs on Responder**](/essays/2026-03-22-this_site_now_runs_on_responder) — Full circle: the site you're reading, served by the framework I built in 2018.
+- [**A Framework of One's Own**](/essays/2026-06-11-a_framework_of_ones_own) — The framework under all of it. Five years frozen, revived in a day of AI collaboration, happily serving a userbase of one.
 
 ### The Archives
 
