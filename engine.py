@@ -162,6 +162,56 @@ except (ImportError, OSError):
     _pdf_available = False
 
 
+_nav_cache = {}
+
+
+def _nav_data():
+    """Server-rendered nav dropdown data (crawlable; no JS fetch)."""
+    if "themes" not in _nav_cache:
+        themes_dir = DATA_DIR / "themes"
+        items = []
+        if themes_dir.is_dir():
+            for f in sorted(themes_dir.glob("*.md")):
+                if f.name == "index.md":
+                    continue
+                title = get_cached_markdown_title(f) or f.stem.replace("-", " ").replace("_", " ").title()
+                items.append({
+                    "name": title,
+                    "path": f"/themes/{f.stem}",
+                    "icon": generate_unique_svg_icon(title, size=18),
+                })
+        _nav_cache["themes"] = items
+    if "browse" not in _nav_cache:
+        folders = []
+        files = []
+        for item in sorted(DATA_DIR.iterdir()):
+            if item.name.startswith(".") or item.name in ["__pycache__", "node_modules"]:
+                continue
+            if item.is_dir():
+                display_name = item.name.replace("-", " ").replace("_", " ").title()
+                index_file = item / "index.md"
+                if index_file.exists():
+                    title = get_cached_markdown_title(index_file)
+                    if title:
+                        display_name = title
+                folders.append({
+                    "name": display_name,
+                    "path": f"/{item.name}",
+                    "is_dir": True,
+                    "icon": generate_folder_icon(display_name, size=18),
+                })
+            elif item.suffix == ".md" and item.name != "index.md":
+                display_name = get_cached_markdown_title(item) or item.stem
+                files.append({
+                    "name": display_name,
+                    "path": f"/{item.stem}",
+                    "is_dir": False,
+                    "icon": generate_unique_svg_icon(display_name, size=18),
+                })
+        _nav_cache["browse"] = folders + files
+    return _nav_cache
+
+
 def render(template, req, path="/", **kwargs):
     """Render a template with common context."""
     kwargs.setdefault("current_year", datetime.now().year)
@@ -169,6 +219,9 @@ def render(template, req, path="/", **kwargs):
     kwargs["request"] = RequestWrapper(req, path)
     kwargs["config"] = _config
     kwargs.setdefault("pdf_available", _pdf_available)
+    nav = _nav_data()
+    kwargs.setdefault("nav_themes", nav["themes"])
+    kwargs.setdefault("nav_browse", nav["browse"])
     return api.templates.render(template, **kwargs)
 
 
@@ -1468,16 +1521,31 @@ async def catch_all(req, resp, *, path):
         api.log.info("Serving content: /%s", path)
         content_data = _cached_render(file_path)
 
-        # Detect themes for essays
+        # Detect themes for essays, and gather related essays from shared themes
         article_themes = []
+        related_posts = []
         if path.startswith("essays/"):
             themes_data = get_themes_cache().get("themes", {})
             essay_url = f"/essays/{file_path.stem}"
+            candidates = {}
             for theme_name, theme_info in themes_data.items():
-                for article in theme_info.get("articles", []):
-                    if article.get("url") == essay_url:
-                        article_themes.append({"name": theme_name})
-                        break
+                articles = theme_info.get("articles", [])
+                if not any(a.get("url") == essay_url for a in articles):
+                    continue
+                article_themes.append({"name": theme_name})
+                for article in articles:
+                    url = article.get("url")
+                    if url == essay_url:
+                        continue
+                    entry = candidates.setdefault(url, {"post": article, "shared": 0})
+                    entry["shared"] += 1
+            # Most shared themes first, then most recent
+            ranked = sorted(
+                candidates.values(),
+                key=lambda c: (c["shared"], c["post"].get("date") or ""),
+                reverse=True,
+            )
+            related_posts = [c["post"] for c in ranked[:3]]
 
         resp.html = render("post.html", req, f"/{path}",
             content=content_data["content"],
@@ -1491,6 +1559,7 @@ async def catch_all(req, resp, *, path):
             series_name=content_data.get("series_name"),
             unique_icon=content_data.get("unique_icon"),
             article_themes=article_themes,
+            related_posts=related_posts,
         )
         return
 

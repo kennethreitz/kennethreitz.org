@@ -21,13 +21,9 @@
 <a href="/software/maya" class="project-link color-software">Maya</a> & <a href="/software" class="project-link color-software">more</a>.</p>
 
 <section>
-    <p>I'm best known for <a href="/software/requests">Requests</a>, the Python HTTP library. Most of what I write these days lives at the intersection of technology and consciousness — what we owe each other when we build things people think through.</p>
+    <p>I'm best known for <a href="/software/requests">Requests</a>, the Python HTTP library. Most of what I write these days lives at the intersection of technology and consciousness — what we owe each other when we build things people think through. I live openly with <a href="/mental-health">schizoaffective disorder</a>; I'm a husband and father; my inner world <a href="/essays/2026-06-11-whatever_this_is">has its own quest log</a>. Tech used to be my identity; now it's <a href="/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed">craft, not lifestyle</a>.</p>
 
-    <p>I live openly with <a href="/mental-health">schizoaffective disorder</a>. I'm a husband and father. My inner world <a href="/essays/2026-06-11-whatever_this_is">has its own quest log</a>. Tech used to be my identity; now it's <a href="/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed">craft, not lifestyle</a>. The latest things I've made are <a href="https://rhymepad.org" target="_blank">rhymepad.org</a>, a scratchpad for poets &amp; rappers that <a href="/essays/2026-06-11-rhymepad_seeing_the_sound">hears the rhymes as you write</a>, and <a href="https://interpretations.kennethreitz.org/" target="_blank">Interpretations</a>, a full album composed in Python.</p>
-
-    <p>This site is the whole picture — <a href="/archive">essays</a>, <a href="/software">software</a>, <a href="/poetry">poetry</a>, <a href="/photography">photography</a>, <a href="/music">music</a>, and the <a href="/artificial-intelligence">AI work</a> that ties it together. Eighteen years of thinking out loud, <a href="/essays/2026-06-11-how_i_write_now">written the way I actually write now</a>.</p>
-
-    <p class="muted">Current projects: <a href="https://rhymepad.org" target="_blank">RhymePad</a>, <a href="/software/kjvstudy">kjvstudy.org</a>, <a href="/software/pytheory">PyTheory</a>, <a href="/software/responder">Responder</a>.</p>
+    <p class="muted">Current projects: <a href="https://rhymepad.org" target="_blank">RhymePad</a>, a scratchpad for poets &amp; rappers that <a href="/essays/2026-06-11-rhymepad_seeing_the_sound">hears the rhymes as you write</a> · <a href="/music/interpretations">Interpretations</a>, an album composed in Python · <a href="/software/kjvstudy">kjvstudy.org</a> · <a href="/software/pytheory">PyTheory</a> · <a href="/software/responder">Responder</a>.</p>
 </section>
 
 <section>
@@ -37,23 +33,21 @@
     <div style="display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;">
         {% if post.unique_icon %}<img src="{{ post.unique_icon }}" alt="" style="width: 22px; height: 22px; flex-shrink: 0; margin-top: 0.1rem;">{% endif %}
         <div style="font-size: 1.15rem;">
-            <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+            <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>{% if post.date_str %}<span class="recent-date">{{ post.date_str }}</span>{% endif %}
         </div>
     </div>
     {% endfor %}
 
-    <p class="muted">Browse the full <a href="/archive">archive</a>, or subscribe via <a href="/feed.xml">RSS</a>.</p>
+    <p class="muted">Eighteen years of thinking out loud, <a href="/essays/2026-06-11-how_i_write_now">written the way I actually write now</a>. Browse the full <a href="/archive">archive</a>, or subscribe via <a href="/feed.xml">RSS</a>.</p>
 </section>
 
 <section>
-    <h2>Now Reading</h2>
-    <p><em><a href="https://poemsbysarah.com" target="_blank">The Becoming</a></em> by Sarah L. Reitz — my wife's poetry collection. Twenty-six poems tracing a journey from darkness through self-discovery to love. Raw, honest, unflinching. Available free at <a href="https://poemsbysarah.com" target="_blank">poemsbysarah.com</a> or in <a href="https://amzn.to/4qPQIH3" target="_blank">paperback &amp; Kindle</a>. I <a href="/essays/2026-01-30-the-becoming-building-a-poetry-publishing-pipeline-with-claude-code">built the publishing pipeline</a>; she wrote every word.</p>
-</section>
+    <h2>Now</h2>
+    <p><strong>Reading:</strong> <em><a href="https://poemsbysarah.com" target="_blank">The Becoming</a></em> by Sarah L. Reitz — my wife's poetry collection, tracing a journey from darkness through self-discovery to love. Free at <a href="https://poemsbysarah.com" target="_blank">poemsbysarah.com</a>, or in <a href="https://amzn.to/4qPQIH3" target="_blank">paperback &amp; Kindle</a>. I <a href="/essays/2026-01-30-the-becoming-building-a-poetry-publishing-pipeline-with-claude-code">built the publishing pipeline</a>; she wrote every word.</p>
 
-<section>
-    <h2>Now Playing</h2>
-    <iframe src="https://interpretations.kennethreitz.org/embed.html" width="100%" height="500" frameborder="0" allow="autoplay; encrypted-media" style="border-radius:8px;border:none;max-width:400px;"></iframe>
-    <p class="muted" style="margin-top: 0.75rem;"><a href="/music/interpretations">Interpretations</a> — a 24-track album composed entirely in Python. Sitar ragas, acid bass, ambient drones, trap beats — every sound generated from code. <a href="https://interpretations.kennethreitz.org/" target="_blank">Listen on the web</a>, or on <a href="https://open.spotify.com/album/1jYjggrr6HEKfV4FchcJWD" target="_blank">Spotify</a> / <a href="https://music.apple.com/us/album/interpretations/1890986989" target="_blank">Apple Music</a>.</p>
+    <p><strong>Playing:</strong> <a href="/music/interpretations">Interpretations</a> — a 24-track album composed entirely in Python. Sitar ragas, acid bass, ambient drones, trap beats — every sound generated from code. <a href="https://interpretations.kennethreitz.org/" target="_blank">Listen on the web</a>, or on <a href="https://open.spotify.com/album/1jYjggrr6HEKfV4FchcJWD" target="_blank">Spotify</a> / <a href="https://music.apple.com/us/album/interpretations/1890986989" target="_blank">Apple Music</a>.</p>
+
+    <iframe src="https://interpretations.kennethreitz.org/embed.html" width="100%" height="400" frameborder="0" loading="lazy" allow="autoplay; encrypted-media" style="border-radius:8px;border:none;max-width:400px;"></iframe>
 </section>
 
 <section>

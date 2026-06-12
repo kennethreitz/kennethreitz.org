@@ -37,7 +37,7 @@
     </div>
 </nav>
 
-<div style="margin-top: 1rem; margin-bottom: 1rem; display: flex; gap: 0.5rem;">
+<div style="margin-top: 1rem; margin-bottom: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
     <button id="toggleOrder" class="sort-toggle">Sort: Newest First ↓</button>
     <div class="year-jump-dropdown">
         <button id="yearJumpButton" class="sort-toggle">Jump to Year</button>
@@ -47,13 +47,15 @@
             {% endfor %}
         </div>
     </div>
+    <input id="archiveFilter" type="search" class="archive-filter" placeholder="Filter {{ posts|length }} posts by title…" autocomplete="off">
+    <span id="filterCount" class="filter-count"></span>
 </div>
 {% endif %}
 
 {% if grouped_posts %}
     {% for group_name, posts in grouped_posts.items() %}
         <section{% if 'Complete Archive' in archive_title %} id="year-{{ group_name }}"{% endif %}>
-            <h2>{{ group_name }}</h2>
+            <h2>{{ group_name }} <span class="year-count">{{ posts|length }}</span></h2>
             
             {% for post in posts %}
                 <div class="archive-post">
@@ -604,6 +606,34 @@ document.addEventListener('DOMContentLoaded', function() {
             link.addEventListener('click', function() {
                 yearDropdown.classList.remove('show');
             });
+        });
+    }
+
+    // Instant title filter
+    const filterInput = document.getElementById('archiveFilter');
+    const filterCount = document.getElementById('filterCount');
+    if (filterInput) {
+        const allPosts = Array.from(document.querySelectorAll('.archive-post'));
+        const allSections = Array.from(document.querySelectorAll('section[id^="year-"]'));
+
+        filterInput.addEventListener('input', function() {
+            const q = filterInput.value.trim().toLowerCase();
+            let visible = 0;
+
+            allPosts.forEach(post => {
+                const title = (post.querySelector('a') || {}).textContent || '';
+                const match = !q || title.toLowerCase().includes(q);
+                post.style.display = match ? '' : 'none';
+                if (match) visible++;
+            });
+
+            // Hide year sections with no visible posts
+            allSections.forEach(section => {
+                const any = section.querySelectorAll('.archive-post:not([style*="none"])').length > 0;
+                section.style.display = any ? '' : 'none';
+            });
+
+            filterCount.textContent = q ? `${visible} match${visible === 1 ? '' : 'es'}` : '';
         });
     }
 });

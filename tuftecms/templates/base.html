@@ -158,13 +158,18 @@
                     <div class="nav-dropdown">
                         <span class="nav-dropdown-trigger">Themes</span>
                         <div class="nav-dropdown-content" id="themes-dropdown">
-                            <div style="text-align: center; padding: 1rem; color: #999;">Loading...</div>
+                            {% for t in nav_themes %}
+                            <div class="tree-item tree-file">{% if t.icon %}<img src="{{ t.icon }}" class="tree-item-icon" alt="">{% endif %}<a href="{{ t.path }}">{{ t.name }}</a></div>
+                            {% endfor %}
+                            <div class="tree-item tree-folder" style="border-top: 1px solid rgba(128,128,128,0.2); margin-top: 0.25rem; padding-top: 0.25rem;"><a href="/themes">All Themes →</a></div>
                         </div>
                     </div>
                     <div class="nav-dropdown">
                         <span class="nav-dropdown-trigger" style="font-style: italic;">etc.</span>
                         <div class="nav-dropdown-content" id="browse-dropdown">
-                            <div style="text-align: center; padding: 1rem; color: #999;">Loading...</div>
+                            {% for item in nav_browse %}
+                            <div class="tree-item {{ 'tree-folder' if item.is_dir else 'tree-file' }}">{% if item.icon %}<img src="{{ item.icon }}" class="tree-item-icon" alt="">{% endif %}<a href="{{ item.path }}">{{ item.name }}</a></div>
+                            {% endfor %}
                         </div>
                     </div>
                 </nav>
@@ -190,6 +195,9 @@
 
             <footer>
                 <div class="footer-content">
+                    <nav class="footer-map">
+                        <a href="/essays">Essays</a><span class="sep">·</span><a href="/themes">Themes</a><span class="sep">·</span><a href="/software">Software</a><span class="sep">·</span><a href="/photography">Photography</a><span class="sep">·</span><a href="/music">Music</a><span class="sep">·</span><a href="/contact">Contact</a><span class="sep">·</span><a href="/feed.xml">RSS</a>
+                    </nav>
                     <div class="footer-note">
                         <p>&copy; {{ "now"|strftime("%Y") }} Kenneth Reitz. <a href="https://kjvstudy.org/topics/Love">Made with love</a>.</p>
                     </div>
@@ -263,89 +271,11 @@
         </script>
 
         <script>
-            // Render items as tree structure
-            function renderItems(items) {
-                if (!items || items.length === 0) {
-                    return '<div style="padding: 1rem; color: #999;">No content found</div>';
-                }
-
-                let html = '';
-                for (const item of items) {
-                    const cssClass = item.is_dir ? 'tree-folder' : 'tree-file';
-
-                    html += `<div class="tree-item ${cssClass}">`;
-
-                    // Add icon if present
-                    if (item.icon) {
-                        html += `<img src="${item.icon}" class="tree-item-icon" alt="">`;
-                    }
-
-                    html += `<a href="${item.path}">${item.name}</a>`;
-                    html += `</div>`;
-                }
-                return html;
-            }
-
-            // Load and render directory listing
-            async function loadDirectoryTree() {
-                try {
-                    const response = await fetch('/api/directory-tree');
-                    const data = await response.json();
-                    const dropdown = document.getElementById('browse-dropdown');
-
-                    if (data.items && data.items.length > 0) {
-                        dropdown.innerHTML = renderItems(data.items);
-                    } else {
-                        dropdown.innerHTML = '<div style="padding: 1rem; color: #999;">No content found</div>';
-                    }
-                } catch (error) {
-                    console.error('Error loading directory tree:', error);
-                    document.getElementById('browse-dropdown').innerHTML =
-                        '<div style="padding: 1rem; color: #999;">Error loading content</div>';
-                }
-            }
-
-
-            // Load and render themes listing
-            async function loadThemes() {
-                try {
-                    const response = await fetch('/api/themes');
-                    const data = await response.json();
-                    const dropdown = document.getElementById('themes-dropdown');
-
-                    if (data.themes && data.themes.length > 0) {
-                        let html = '';
-                        for (const t of data.themes) {
-                            html += `<div class="tree-item tree-file">`;
-                            if (t.icon) {
-                                html += `<img src="${t.icon}" class="tree-item-icon" alt="">`;
-                            }
-                            html += `<a href="${t.path}">${t.name}</a>`;
-                            html += `</div>`;
-                        }
-                        html += `<div class="tree-item tree-folder" style="border-top: 1px solid rgba(128,128,128,0.2); margin-top: 0.25rem; padding-top: 0.25rem;">`;
-                        html += `<a href="/themes">All Themes →</a>`;
-                        html += `</div>`;
-                        dropdown.innerHTML = html;
-                    } else {
-                        dropdown.innerHTML = '<div style="padding: 1rem; color: #999;">No themes found</div>';
-                    }
-                } catch (error) {
-                    console.error('Error loading themes:', error);
-                    document.getElementById('themes-dropdown').innerHTML =
-                        '<div class="tree-item tree-folder"><a href="/themes">View All Themes</a></div>';
-                }
-            }
-
             // Main DOMContentLoaded handler
             document.addEventListener('DOMContentLoaded', function() {
                 // First priority: Add loaded class to reveal content
                 document.documentElement.classList.add('loaded');
 
-                // Load directory tree for Browse dropdown
-                loadDirectoryTree();
-                loadThemes();
-                
                 // Find all pre elements (code blocks)
                 const codeBlocks = document.querySelectorAll('pre');
 

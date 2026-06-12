@@ -763,7 +763,22 @@ document.addEventListener('DOMContentLoaded', function() {
     <section>
         {{ content | safe }}
     </section>
-    
+
+    {% if related_posts %}
+    <section class="related-essays">
+        <h2>Keep Reading</h2>
+        <ul>
+            {% for p in related_posts %}
+            <li>
+                {% if p.unique_icon %}<img src="{{ p.unique_icon }}" alt="" class="related-icon">{% endif %}
+                <a href="{{ p.url }}">{{ p.title }}</a>
+                {% if p.date %}<span class="related-date">{{ p.date }}</span>{% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+
     <!-- Comments disabled for now -->
 
     {% if parent_directory %}

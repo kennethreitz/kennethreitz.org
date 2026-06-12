@@ -280,3 +280,76 @@ article {
     font-size: 0.7rem;
     color: #999;
 }
+
+/* --- Footer site map --- */
+.footer-map {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+    font-size: 0.95rem;
+    line-height: 2;
+}
+.footer-map a { color: #888; text-decoration: none; }
+.footer-map a:hover { color: #111; text-decoration: underline; }
+.footer-map .sep { margin: 0 0.45rem; color: #ccc; }
+body.dark-mode .footer-map { border-top-color: #333; }
+body.dark-mode .footer-map a { color: #777; }
+body.dark-mode .footer-map a:hover { color: #ddd; }
+body.dark-mode .footer-map .sep { color: #444; }
+
+/* --- Keep Reading (related essays) --- */
+.related-essays {
+    margin-top: 3.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #ddd;
+}
+.related-essays h2 {
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+.related-essays ul { list-style: none; padding-left: 0; margin-top: 0; }
+.related-essays li { margin: 0.5rem 0; font-size: 1.15rem; }
+.related-icon {
+    width: 18px; height: 18px;
+    vertical-align: -3px;
+    margin-right: 0.5rem;
+}
+.related-date { color: #999; font-size: 0.85em; margin-left: 0.6rem; }
+body.dark-mode .related-essays { border-top-color: #333; }
+body.dark-mode .related-date { color: #666; }
+
+/* --- Homepage recent writing dates --- */
+.recent-date { color: #999; font-size: 0.8em; margin-left: 0.55rem; white-space: nowrap; }
+body.dark-mode .recent-date { color: #666; }
+
+/* --- Archive filter + year counts --- */
+.archive-filter {
+    flex: 1;
+    min-width: 220px;
+    max-width: 24rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    padding: 0.45rem 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: transparent;
+    color: inherit;
+    outline: none;
+}
+.archive-filter:focus { border-color: #888; }
+.filter-count { color: #999; font-size: 0.9rem; white-space: nowrap; }
+.year-count {
+    font-size: 0.5em;
+    font-weight: normal;
+    color: #999;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    padding: 0.1em 0.7em;
+    margin-left: 0.4rem;
+}
+body.dark-mode .archive-filter { border-color: #444; }
+body.dark-mode .archive-filter:focus { border-color: #777; }
+body.dark-mode .year-count { border-color: #3a3a3a; color: #777; }
