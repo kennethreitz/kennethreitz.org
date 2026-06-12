@@ -47,6 +47,7 @@ Every technical choice embeds values about how humans should relate to technolog
 - [**Obsidian Vaults & Claude Code**](/essays/2026-03-06-obsidian_vaults_and_claude_code) — A CLAUDE.md at the vault root functions as an API contract. AI adapts to human thought patterns, not the other way around.
 - [**Building a Digital Study Bible with AI**](/essays/2026-03-20-building_a_digital_study_bible_with_ai) — Technology serving contemplation.
 - [**Temporal Code**](/essays/2025-09-10-temporal_code_how_llms_learned_to_think_like_programmers) — AI systems that absorbed the psychology of programming, not just the syntax.
+- [**How I Write Now**](/essays/2026-06-11-how_i_write_now) — The "for humans" philosophy arriving at its own front door: AI as articulation prosthetic, and why access is the third category between slop and cheating.
 
 ### The Dark Side: When Technology Doesn't Serve Humans
 
