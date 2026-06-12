@@ -23,7 +23,7 @@ from tuftecms.utils.svg_icons import generate_unique_svg_icon
 from tuftecms.blueprints.content import extract_exif_data
 
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from collections import defaultdict
 import hashlib
 import html
@@ -162,12 +162,12 @@ except (ImportError, OSError):
     _pdf_available = False
 
 
-_nav_cache = {}
+api.state.nav_cache = {}
 
 
 def _nav_data():
     """Server-rendered nav dropdown data (crawlable; no JS fetch)."""
-    if "themes" not in _nav_cache:
+    if "themes" not in api.state.nav_cache:
         themes_dir = DATA_DIR / "themes"
         items = []
         if themes_dir.is_dir():
@@ -180,8 +180,8 @@ def _nav_data():
                     "path": f"/themes/{f.stem}",
                     "icon": generate_unique_svg_icon(title, size=18),
                 })
-        _nav_cache["themes"] = items
-    if "browse" not in _nav_cache:
+        api.state.nav_cache["themes"] = items
+    if "browse" not in api.state.nav_cache:
         folders = []
         files = []
         for item in sorted(DATA_DIR.iterdir()):
@@ -208,8 +208,8 @@ def _nav_data():
                     "is_dir": False,
                     "icon": generate_unique_svg_icon(display_name, size=18),
                 })
-        _nav_cache["browse"] = folders + files
-    return _nav_cache
+        api.state.nav_cache["browse"] = folders + files
+    return api.state.nav_cache
 
 
 def _static_version():
@@ -244,8 +244,19 @@ def render(template, req, path="/", **kwargs):
     return api.templates.render(template, **kwargs)
 
 
+def respond_html(resp, template, req, path="/", **kwargs):
+    """Render a template into the response with a content-based ETag.
+
+    Responder turns matching If-None-Match requests into automatic 304s,
+    so repeat visitors skip the body bytes entirely.
+    """
+    html_out = render(template, req, path, **kwargs)
+    resp.html = html_out
+    resp.etag = 'W/"' + hashlib.md5(html_out.encode("utf-8")).hexdigest()[:16] + '"'
+
+
 # --- Cache for OG images ---
-_og_image_cache = {}
+api.state.og_images = {}
 _OG_CACHE_MAX = 256
 
 
@@ -281,7 +292,7 @@ def _detect_bot(req):
 async def homepage(req, resp):
     blog_data = get_blog_cache()
     recent_posts = blog_data.get("posts", [])[:5]
-    resp.html = render("homepage.html", req, "/",
+    respond_html(resp, "homepage.html", req, "/",
         title="Home",
         recent_posts=recent_posts,
     )
@@ -307,7 +318,7 @@ async def random_post(req, resp):
 
 @api.route("/search")
 async def search_page(req, resp):
-    resp.html = render("search.html", req, "/search",
+    respond_html(resp, "search.html", req, "/search",
         title="Search",
     )
 
@@ -367,7 +378,7 @@ async def sitemap_page(req, resp):
         + len(sitemap_data["article"])
     )
 
-    resp.html = render("sitemap.html", req, "/sitemap",
+    respond_html(resp, "sitemap.html", req, "/sitemap",
         sitemap_data=sitemap_data,
         total_items=total_items,
         title="Sitemap",
@@ -465,8 +476,13 @@ async def _rss_feed(req, resp):
         "        <description>Creator of Requests, Pipenv, and other tools. Writing about technology, consciousness, and human-centered design.</description>"
     )
     rss_lines.append("        <language>en-us</language>")
+    # Latest post date, not now(): keeps the feed bytes stable so the
+    # content ETag below actually matches between requests.
+    last_build = None
+    if recent_posts and recent_posts[0].get("pub_date"):
+        last_build = recent_posts[0]["pub_date"]
     rss_lines.append(
-        f'        <lastBuildDate>{datetime.now().strftime("%a, %d %b %Y %H:%M:%S %z")}</lastBuildDate>'
+        f'        <lastBuildDate>{(last_build or datetime.now()).strftime("%a, %d %b %Y %H:%M:%S %z")}</lastBuildDate>'
     )
 
     for post in recent_posts:
@@ -496,6 +512,7 @@ async def _rss_feed(req, resp):
 
     resp.text = rss_content
     resp.headers["Content-Type"] = "application/xml"
+    resp.etag = hashlib.md5(rss_content.encode("utf-8")).hexdigest()[:16]
 
 
 # --- OG image route ---
@@ -510,10 +527,12 @@ async def og_image(req, resp, *, path):
 
     # Check cache
     cache_key = path
-    if cache_key in _og_image_cache:
-        resp.content = _og_image_cache[cache_key]
+    if cache_key in api.state.og_images:
+        png = api.state.og_images[cache_key]
+        resp.content = png
         resp.headers["Content-Type"] = "image/png"
         resp.headers["Cache-Control"] = "public, max-age=86400"
+        resp.etag = hashlib.md5(png).hexdigest()[:16]
         return
 
     # Validate path stays within data directory
@@ -613,13 +632,14 @@ async def og_image(req, resp, *, path):
     png_bytes = buf.getvalue()
 
     # Cache it (bounded)
-    if len(_og_image_cache) >= _OG_CACHE_MAX:
-        _og_image_cache.pop(next(iter(_og_image_cache)))
-    _og_image_cache[cache_key] = png_bytes
+    if len(api.state.og_images) >= _OG_CACHE_MAX:
+        api.state.og_images.pop(next(iter(api.state.og_images)))
+    api.state.og_images[cache_key] = png_bytes
 
     resp.content = png_bytes
     resp.headers["Content-Type"] = "image/png"
     resp.headers["Cache-Control"] = "public, max-age=86400"
+    resp.etag = hashlib.md5(png_bytes).hexdigest()[:16]
 
 
 # --- Archive routes ---
@@ -639,7 +659,7 @@ async def archive(req, resp):
     # Sort years in descending order
     grouped_posts = dict(sorted(grouped_posts.items(), reverse=True))
 
-    resp.html = render("archive.html", req, "/archive",
+    respond_html(resp, "archive.html", req, "/archive",
         posts=posts,
         grouped_posts=grouped_posts,
         archive_title="Complete Archive",
@@ -679,7 +699,7 @@ async def archive_by_length(req, resp):
     if long_reads:
         grouped_posts["Long Reads (15+ min)"] = long_reads
 
-    resp.html = render("archive-by-length.html", req, "/archive/by-length",
+    respond_html(resp, "archive-by-length.html", req, "/archive/by-length",
         posts=posts,
         grouped_posts=grouped_posts,
         archive_title="By Reading Time",
@@ -722,7 +742,7 @@ async def sidenotes(req, resp):
 
     articles.sort(key=lambda x: x.get("date") or datetime.min, reverse=True)
 
-    resp.html = render("sidenotes.html", req, "/archive/sidenotes",
+    respond_html(resp, "sidenotes.html", req, "/archive/sidenotes",
         articles=articles,
         total_count=total_sidenotes,
         title="Sidenotes",
@@ -762,7 +782,7 @@ async def outlines(req, resp):
 
     articles.sort(key=lambda x: x.get("date") or datetime.min, reverse=True)
 
-    resp.html = render("outlines.html", req, "/archive/outlines",
+    respond_html(resp, "outlines.html", req, "/archive/outlines",
         articles=articles,
         total_count=total_headings,
         title="Outlines",
@@ -802,7 +822,7 @@ async def quotes(req, resp):
 
     articles.sort(key=lambda x: x.get("date") or datetime.min, reverse=True)
 
-    resp.html = render("quotes.html", req, "/archive/quotes",
+    respond_html(resp, "quotes.html", req, "/archive/quotes",
         articles=articles,
         total_count=total_quotes,
         title="Quotes",
@@ -860,7 +880,7 @@ async def connections(req, resp):
 
     articles.sort(key=lambda x: x.get("date") or datetime.min, reverse=True)
 
-    resp.html = render("connections.html", req, "/archive/connections",
+    respond_html(resp, "connections.html", req, "/archive/connections",
         articles=articles,
         total_outgoing=stats.get("total_outgoing", 0),
         total_incoming=stats.get("total_incoming", 0),
@@ -872,7 +892,7 @@ async def connections(req, resp):
 async def terms(req, resp):
     terms_data = get_terms_cache()
     stats = terms_data.get("stats", {})
-    resp.html = render("terms.html", req, "/archive/terms",
+    respond_html(resp, "terms.html", req, "/archive/terms",
         terms=terms_data.get("terms", {}),
         total_terms=stats.get("total_terms", 0),
         total_occurrences=stats.get("total_references", 0),
@@ -888,7 +908,7 @@ async def themes_archive(req, resp):
 
     sorted_themes = sorted(themes.items(), key=lambda x: x[0])
 
-    resp.html = render("themes.html", req, "/archive/themes",
+    respond_html(resp, "themes.html", req, "/archive/themes",
         themes=dict(sorted_themes),
         total_themes=stats.get("total_themes", 0),
         total_occurrences=stats.get("total_occurrences", 0),
@@ -898,7 +918,7 @@ async def themes_archive(req, resp):
 
 @api.route("/archive/graph")
 async def graph(req, resp):
-    resp.html = render("graph.html", req, "/archive/graph",
+    respond_html(resp, "graph.html", req, "/archive/graph",
         title="Knowledge Graph",
     )
 
@@ -990,7 +1010,7 @@ async def graph_data(req, resp):
 @api.route("/directory")
 async def directory(req, resp):
     items = get_directory_structure(DATA_DIR)
-    resp.html = render("directory.html", req, "/directory",
+    respond_html(resp, "directory.html", req, "/directory",
         items=items,
         current_path="/",
         breadcrumb=[],
@@ -1489,6 +1509,9 @@ async def serve_static(req, resp, *, path):
     static_path = Path("tuftecms/static") / path
     if static_path.exists() and static_path.is_file():
         resp.file(str(static_path))
+        stat = static_path.stat()
+        resp.etag = f"{int(stat.st_mtime)}-{stat.st_size}"
+        resp.last_modified = datetime.fromtimestamp(stat.st_mtime, tz=timezone.utc)
     else:
         resp.status_code = 404
 
@@ -1566,7 +1589,7 @@ async def catch_all(req, resp, *, path):
             )
             related_posts = [c["post"] for c in ranked[:3]]
 
-        resp.html = render("post.html", req, f"/{path}",
+        respond_html(resp, "post.html", req, f"/{path}",
             content=content_data["content"],
             title=content_data["title"],
             metadata=content_data.get("metadata", {}),
@@ -1623,7 +1646,7 @@ async def catch_all(req, resp, *, path):
 
             folder_icon = generate_folder_icon(content_data["title"], size=32)
 
-            resp.html = render("directory.html", req, f"/{path}",
+            respond_html(resp, "directory.html", req, f"/{path}",
                 items=items,
                 image_items=image_items,
                 is_image_gallery=True,
@@ -1636,7 +1659,7 @@ async def catch_all(req, resp, *, path):
                 content_position="top",
             )
         else:
-            resp.html = render("post.html", req, f"/{path}",
+            respond_html(resp, "post.html", req, f"/{path}",
                 content=content_data["content"],
                 title=content_data["title"],
                 metadata=content_data.get("metadata", {}),
@@ -1668,7 +1691,7 @@ async def catch_all(req, resp, *, path):
 
         folder_icon = generate_folder_icon(title, size=32)
 
-        resp.html = render("directory.html", req, f"/{path}",
+        respond_html(resp, "directory.html", req, f"/{path}",
             items=items,
             title=title,
             current_path=f"/{path}",
