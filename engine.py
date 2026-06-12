@@ -213,13 +213,18 @@ def _nav_data():
 
 
 def _static_version():
-    """Cache-busting version for stylesheets: max mtime of the CSS files."""
+    """Cache-busting version for stylesheets: content hash of the CSS files.
+
+    A content hash (unlike mtime) is deterministic across machines and
+    deploys -- the URL only changes when the bytes actually change.
+    """
     static_dir = Path("tuftecms/static")
-    return max(
-        int((static_dir / name).stat().st_mtime)
-        for name in ("site.css", "custom.css")
-        if (static_dir / name).exists()
-    )
+    digest = hashlib.md5()
+    for name in ("site.css", "custom.css", "tufte/tufte.css"):
+        css_path = static_dir / name
+        if css_path.exists():
+            digest.update(css_path.read_bytes())
+    return digest.hexdigest()[:12]
 
 
 _static_v = _static_version()
