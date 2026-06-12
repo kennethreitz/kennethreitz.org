@@ -585,6 +585,48 @@ async def _rss_feed(req, resp):
 # --- OG image route ---
 
 
+def _extract_og_excerpt(content):
+    """First real paragraph of a markdown file, plain-texted for the OG card."""
+    content = re.sub(r"\A---\s*\n.*?\n---\s*\n", "", content, flags=re.DOTALL)
+
+    paragraphs = []
+    block = []
+    in_code = False
+    for line in content.split("\n"):
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            in_code = not in_code
+            block = []
+            continue
+        if in_code:
+            continue
+        if not stripped:
+            if block:
+                paragraphs.append(" ".join(block))
+                block = []
+            continue
+        # Skip headings, quotes, lists, tables, raw html, images, and the
+        # *Month Year* date line; they make poor card excerpts.
+        if stripped.startswith(("#", ">", "-", "*", "|", "<", "!", "$")):
+            if block:
+                paragraphs.append(" ".join(block))
+                block = []
+            continue
+        block.append(stripped)
+    if block:
+        paragraphs.append(" ".join(block))
+
+    for para in paragraphs:
+        text = re.sub(r"<label.*?</span>", "", para, flags=re.DOTALL)  # sidenotes
+        text = re.sub(r"<[^>]+>", "", text)
+        text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+        text = text.replace("**", "").replace("`", "").replace("*", "")
+        text = re.sub(r"\s+", " ", text).strip()
+        if len(text) > 80:
+            return text
+    return None
+
+
 @api.route("/og-image/{path:path}.png")
 async def og_image(req, resp, *, path):
     """Generate a dynamic Open Graph image for a post."""
@@ -608,9 +650,10 @@ async def og_image(req, resp, *, path):
         resp.status_code = 403
         return
 
-    # Resolve the post title from the markdown file
+    # Resolve the post title and an excerpt from the markdown file
     title = path.split("/")[-1].replace("-", " ").replace("_", " ").title()
     subtitle = None
+    excerpt = None
 
     if file_path.exists():
         content = file_path.read_text()
@@ -624,6 +667,7 @@ async def og_image(req, resp, *, path):
             if line.startswith("*") and line.endswith("*") and len(line) < 60:
                 subtitle = line.strip("*")
                 break
+        excerpt = _extract_og_excerpt(content)
 
     # Image dimensions (standard OG)
     width, height = 1200, 630
@@ -651,6 +695,10 @@ async def og_image(req, resp, *, path):
             str(font_dir / "et-book-roman-line-figures" / "et-book-roman-line-figures.ttf"),
             26,
         )
+        font_excerpt = ImageFont.truetype(
+            str(font_dir / "et-book-roman-line-figures" / "et-book-roman-line-figures.ttf"),
+            29,
+        )
         font_small = ImageFont.truetype(
             str(font_dir / "et-book-roman-line-figures" / "et-book-roman-line-figures.ttf"),
             22,
@@ -658,22 +706,43 @@ async def og_image(req, resp, *, path):
     except (OSError, IOError):
         font_italic = ImageFont.load_default()
         font_roman = ImageFont.load_default()
+        font_excerpt = ImageFont.load_default()
         font_small = ImageFont.load_default()
 
     # Draw accent line
-    draw.rectangle([80, 180, 200, 184], fill="#333333")
+    draw.rectangle([80, 130, 200, 134], fill="#333333")
 
     # Word-wrap and draw title
     max_chars = 28 if len(title) > 28 else 40
     wrapped = textwrap.wrap(title, width=max_chars)
-    y_pos = 210
+    y_pos = 156
     for line in wrapped[:3]:
         draw.text((80, y_pos), line, font=font_italic, fill="#111111")
         y_pos += 72
 
     # Draw subtitle/date if available
     if subtitle:
-        draw.text((80, y_pos + 20), subtitle, font=font_roman, fill="#666666")
+        draw.text((80, y_pos + 12), subtitle, font=font_roman, fill="#666666")
+        y_pos += 50
+
+    # Draw the opening of the piece, so the card shows actual content.
+    if excerpt:
+        y_pos += 28
+        lines = textwrap.wrap(excerpt, width=70)
+        line_height = 42
+        max_lines = max(0, (height - 120 - y_pos) // line_height)
+        shown = lines[:max_lines]
+        if shown and len(lines) > max_lines:
+            shown[-1] = shown[-1].rstrip(".,;:") + " ..."
+        for line in shown:
+            draw.text((80, y_pos), line, font=font_excerpt, fill="#444444")
+            y_pos += line_height
+    else:
+        # Decorative circles for pages with no prose to preview.
+        cx, cy = 1060, 300
+        for r_val, c in [(50, "#dddddd"), (35, "#cccccc"), (20, "#bbbbbb")]:
+            draw.ellipse([cx - r_val, cy - r_val, cx + r_val, cy + r_val], outline=c, width=2)
+        draw.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill="#999999")
 
     # Draw separator line
     draw.rectangle([80, height - 110, width - 80, height - 108], fill="#dddddd")
@@ -686,12 +755,6 @@ async def og_image(req, resp, *, path):
     bbox = draw.textbbox((0, 0), author_text, font=font_small)
     author_width = bbox[2] - bbox[0]
     draw.text((width - 80 - author_width, height - 85), author_text, font=font_small, fill="#999999")
-
-    # Draw decorative circles
-    cx, cy = 1060, 300
-    for r_val, c in [(50, "#dddddd"), (35, "#cccccc"), (20, "#bbbbbb")]:
-        draw.ellipse([cx - r_val, cy - r_val, cx + r_val, cy + r_val], outline=c, width=2)
-    draw.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill="#999999")
 
     # Export to PNG bytes
     buf = io.BytesIO()
