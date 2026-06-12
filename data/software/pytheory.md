@@ -4,12 +4,14 @@ PyTheory is a Python library for exploring music theory and making music computa
 
     $ uv add pytheory
 
+Or skip the install entirely: [PyTheory Playground](https://playground.kennethreitz.org) runs the whole library in your browser, with chord diagrams, a real-time tuner, microtonal scales, and a songwriter. [I wrote about it.](/essays/2026-06-12-pytheory_playground)
+
 ## Theory
 
 ```python
 from pytheory import TonedScale, Chord, Fretboard, Key
 
-# Scales across six musical systems.
+# Scales across sixteen musical systems.
 c_major = TonedScale(tonic="C4")["major"]
 hijaz = TonedScale(tonic="Do4", system="arabic")["hijaz"]
 bhairav = TonedScale(tonic="Sa4", system="indian")["bhairav"]
