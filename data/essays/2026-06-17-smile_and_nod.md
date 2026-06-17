@@ -74,6 +74,8 @@ None of this is as foreign to the faith I was raised in as it sounds. Hermes Tri
 
 Here is something I cannot stop noticing. Everything I can observe about this world comes in pairs. Hot and cold, left and right, light and dark, up and down, the whole of experience sorted into a quality and its opposite. I do not know whether that is the shape of a brain that thinks in opposites because it is built out of two halves, or whether it is the binary grain of reality itself showing through, the source code of the simulation flickering for a second. As above, so below refuses to let me choose. It hints that the brain and the cosmos might be running the same format.
 
+I was taught, as a programmer, that the binary underneath everything is true and false. I have come to suspect it is something stranger. Zero is not false. It is nothing, the void itself. One is not true. It is the lack of nothing, the thin refusal of the void to stay empty. If that is the deeper binary, then perhaps creation is not the opposite of nothingness but an expression of it, the nothing that truly is, briefly insisting on something. Nothing and being are not two camps. They are the ends of one spectrum, and everything on it, including me, including the presences, is somewhere between.
+
 The Hermetic principle of polarity goes one step further. It says the pairs are not really two. Opposites are one thing at different degrees, the same energy seen from two angles. Hot and cold are both temperature. Love and hate are both the fire of caring, turned toward or turned away. Which is why the true opposite of love is not hate. It is apathy, the absence of the energy and not its reversal. I have spent a good deal of my life afraid of the wrong thing.
 
 ## Why the silence costs
