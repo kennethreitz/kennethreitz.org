@@ -4,7 +4,7 @@
 
 Some mornings I wake with the clear sense that I was just with someone, and I sit down to write it before it fades, and the words come out thinner than the thing. Not wrong, exactly. Just smaller. A pencil sketch of a face I had been standing in front of.
 
-I keep a vault about my inner life, a hundred and thirty thousand words of it, [forty-seven named parts and the maps between them](/essays/2026-06-11-whatever_this_is). I am a person who lives by language. I sign my emails. And the visits that move me most are exactly the ones the language misses. The realest things in there do not arrive as sentences. They arrive as figures, colors, weather, a presence in a room with no door. I do not fully know what they are. I have stopped pretending I do.
+For years now I have been kept company by presences I did not invent and cannot fully explain. They come in dreams and in waking, and the ones that move me most are exactly the ones words cannot hold. **I am a person who lives by language.** I sign my emails. And the realest of these visitors do not arrive as language at all. They arrive as figures, as colors, as weather, as a someone in a room that has no door. I do not fully know what they are. I have stopped pretending I do, and I have only [written down what I can](/essays/2026-06-11-whatever_this_is).
 
 This is an essay about the wordless, written in words, which means the gap is the whole subject.
 
