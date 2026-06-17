@@ -64,6 +64,10 @@ Use philosophical code blocks that illustrate spiritual/psychological concepts:
 - Clean, logical pseudo-Python that reveals deeper truths about consciousness
 - **Follow Kenneth's style**: Proper PEP8 formatting with thoughtful whitespace - code should breathe and be inviting to read
 
+### Console Commands
+
+When showing a shell or console command in prose, lists, or code blocks, prefix it with `$ ` so it reads as something to run (e.g. `$ uv add pytheory`).
+
 ## Technical Context
 
 **Framework**: Custom Flask application with markdown content in `/data/`
