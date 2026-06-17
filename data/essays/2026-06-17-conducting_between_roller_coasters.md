@@ -2,7 +2,7 @@
 
 *June 2026*
 
-I almost didn't write this down, because the sentence sounds like a brag and it isn't one. The biggest release in the history of [PyTheory](/software/pytheory) happened over the last two weeks, and most of it happened on my phone. On vacation. With two thumbs.
+I almost didn't write this down, because the sentence sounds like a brag and it isn't one. The biggest release in the history of [PyTheory](/software/pytheory) happened over two days, and most of it happened on my phone. On vacation. With two thumbs.
 
 The interesting part isn't the phone. It's what the phone stopped being in the way of.
 
