@@ -122,6 +122,7 @@ The technical foundation. Library announcements, coding philosophy, and the craf
 - [OSX + MAMP + Python + PHP + MySQL](/essays/2009-01-osx_mamp_python_php_mysql)
 - [Python + Regular Expressions](/essays/2009-01-python_regular_expressions)
 - [Python as English](/essays/2025-09-22-python-as-english)
+- [Python, Inside JavaScript, Inside a DAW](/essays/2026-06-28-the_other_window)
 - [PyTheory: Creative Block and AI](/essays/2026-03-22-pytheory_breaking_through_five_years_of_creative_block_with_ai)
 - [PyTheory Is Awesome](/essays/2026-03-25-pytheory_is_awesome)
 - [PyTheory Playground](/essays/2026-06-12-pytheory_playground)
