@@ -126,6 +126,7 @@ api = responder.API(
     max_request_size=1024 * 1024,  # every route is GET; nobody needs to send us a megabyte
     request_timeout=60,  # PDF generation is the slow path
     metrics_route="/metrics",
+    sessions=False,  # every route is stateless GET; no sessions to sign
     title="kennethreitz.org",
     description="API for kennethreitz.org",
 )
