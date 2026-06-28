@@ -1624,7 +1624,14 @@ async def api_fortune(req, resp):
         return
 
     if proc.returncode != 0:
-        api.log.error("fortune exited %s: %s", proc.returncode, stderr.decode(errors="replace").strip())
+        err = stderr.decode(errors="replace").strip()
+        # Debian bookworm ships no English offensive set, so `fortune -o` finds
+        # nothing. Report that cleanly rather than as a generic failure.
+        if offensive and "No fortunes found" in err:
+            resp.status_code = 404
+            resp.media = {"error": "offensive fortunes are not available", "offensive": True}
+            return
+        api.log.error("fortune exited %s: %s", proc.returncode, err)
         resp.status_code = 500
         resp.media = {"error": "fortune command failed"}
         return

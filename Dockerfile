@@ -7,7 +7,8 @@ ENV PYTHONUNBUFFERED=1 \
 WORKDIR /app
 
 # Install system dependencies for WeasyPrint (PDF generation) and the
-# fortune command (powers /api/fortune; fortunes-off carries the -o set)
+# fortune command (powers /api/fortune). Debian bookworm no longer ships an
+# English offensive set, so /api/fortune?offensive=1 degrades gracefully.
 RUN apt-get update && apt-get install -y \
     libcairo2 \
     libpango-1.0-0 \
@@ -17,7 +18,6 @@ RUN apt-get update && apt-get install -y \
     shared-mime-info \
     fortune-mod \
     fortunes \
-    fortunes-off \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy dependency files and required package files
