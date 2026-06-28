@@ -33,6 +33,7 @@ import io
 import logging
 import random
 import re
+import shutil
 import textwrap
 import os
 
@@ -1588,6 +1589,50 @@ async def api_oembed(req, resp):
     except Exception:
         resp.status_code = 502
         resp.media = {"error": "oEmbed discovery failed"}
+
+
+# Debian tucks the fortune binary in /usr/games, which isn't on PATH for
+# non-login shells; fall back to the full path when shutil.which misses.
+_FORTUNE_BIN = shutil.which("fortune") or "/usr/games/fortune"
+
+
+@api.route("/api/fortune")
+async def api_fortune(req, resp):
+    """Return a random fortune. Pass ?offensive=1 for the potentially offensive set."""
+    offensive = req.params.get("offensive", "").lower() in ("1", "true", "yes", "on")
+
+    if not Path(_FORTUNE_BIN).exists():
+        resp.status_code = 503
+        resp.media = {"error": "fortune command is not installed"}
+        return
+
+    cmd = [_FORTUNE_BIN]
+    if offensive:
+        cmd.append("-o")  # offensive only; -a would mix both sets
+
+    try:
+        proc = await asyncio.create_subprocess_exec(
+            *cmd,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+        )
+        stdout, stderr = await proc.communicate()
+    except OSError as exc:
+        api.log.error("fortune failed to run: %s", exc)
+        resp.status_code = 503
+        resp.media = {"error": "fortune command failed to run"}
+        return
+
+    if proc.returncode != 0:
+        api.log.error("fortune exited %s: %s", proc.returncode, stderr.decode(errors="replace").strip())
+        resp.status_code = 500
+        resp.media = {"error": "fortune command failed"}
+        return
+
+    resp.media = {
+        "fortune": stdout.decode("utf-8", errors="replace").strip(),
+        "offensive": offensive,
+    }
 
 
 # --- Data file serving ---
