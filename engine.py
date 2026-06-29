@@ -129,7 +129,9 @@ api = responder.API(
     max_request_size=1024 * 1024,  # every route is GET; nobody needs to send us a megabyte
     request_timeout=60,  # PDF generation is the slow path
     metrics_route="/metrics",
+    health_route="/health",
     sessions=False,  # every route is stateless GET; no sessions to sign
+    problem_details=True,
     title="kennethreitz.org",
     description="API for kennethreitz.org",
     version="1.0",
@@ -137,6 +139,18 @@ api = responder.API(
     openapi_route="/api/schema",
     docs_route="/api",  # interactive Swagger UI
 )
+
+
+def _content_health_check():
+    """Verify the markdown garden exists before advertising readiness."""
+    return (
+        DATA_DIR.is_dir()
+        and (DATA_DIR / "colophon.md").is_file()
+        and (DATA_DIR / "essays").is_dir()
+    )
+
+
+api.add_health_check("content", _content_health_check)
 
 # --- Rate limiting ---
 from responder.ext.ratelimit import RateLimiter
@@ -372,11 +386,6 @@ async def homepage(req, resp):
         title="Home",
         recent_posts=recent_posts,
     )
-
-
-@api.route("/health")
-async def health(req, resp):
-    resp.media = {"status": "healthy", "timestamp": datetime.now().isoformat()}
 
 
 @api.route("/random")
@@ -2037,4 +2046,7 @@ async def warm_caches():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
-    api.run(port=port)
+    try:
+        api.run(port=port, server="granian")
+    except KeyboardInterrupt:
+        pass
