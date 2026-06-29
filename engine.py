@@ -2,6 +2,8 @@
 
 import responder
 from responder import Query  # responder.Path is referenced fully to avoid clashing with pathlib.Path
+from responder.ext.pagination import paginate  # v6.2: Page[T] envelope + slicing
+from responder.ext.query import filter_items, sort_items  # v6.3: equality filter + sort spec
 
 from tuftecms.core.markdown import render_markdown_file
 from tuftecms.core.cache import (
@@ -1249,20 +1251,42 @@ async def directory(req, resp):
 
 
 @api.route("/api/blog")
-async def api_blog(req, resp):
+async def api_blog(
+    req,
+    resp,
+    *,
+    category: str = Query(None),
+    sort: str = Query("-pub_date"),
+    page: int = Query(1, ge=1),
+    size: int = Query(20, ge=1, le=100),
+):
+    """List blog posts as a paginated envelope.
+
+    Filter with ?category=, order with ?sort= (title, word_count, or pub_date;
+    prefix a field with - for descending), and page with ?page=/?size=. Returns
+    {items, total, page, size, pages}.
+    """
     blog_data = get_blog_cache()
     posts = blog_data.get("posts", [])
+
+    # Filter and sort on the cached posts (which still carry the real pub_date
+    # datetime and category) before projecting down to the public fields.
+    posts = filter_items(posts, {"category": category})
+    posts = sort_items(posts, sort, allowed={"title", "word_count", "pub_date"})
 
     posts_data = [
         {
             "title": post.get("title", ""),
             "url": post.get("url", ""),
+            "category": post.get("category", ""),
+            "date": post.get("date_str", ""),
+            "word_count": post.get("word_count", 0),
             "unique_icon": post.get("unique_icon", ""),
         }
         for post in posts
     ]
 
-    resp.media = {"posts": posts_data, "total": len(posts_data)}
+    resp.media = paginate(posts_data, page=page, size=size).model_dump()
 
 
 @api.route("/api/search")
