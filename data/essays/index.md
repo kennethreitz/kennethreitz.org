@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Two hundred and ninety essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Two hundred and ninety-one essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -12,6 +12,7 @@ The largest body of work. Where programming meets philosophy meets the hard prob
 
 - [Agents of Consciousness](/essays/2025-09-16-agents-of-consciousness-how-ai-collaboration-evolves)
 - [AI Reality-Checking with Schizoaffective Disorder](/essays/2025-08-25-using-ai-for-reality-checking-with-schizoaffective-disorder)
+- [An API With No Error States](/essays/2026-07-01-an_api_with_no_error_states)
 - [Beyond Algorithm Eats](/essays/2025-09-30-beyond_algorithm_eats)
 - [Building a Rapport with Your AI](/essays/2025-08-26-building_rapport_with_your_ai)
 - [Building Systems That Serve Consciousness](/essays/2025-09-13-building-systems-that-serve-consciousness)
