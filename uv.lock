@@ -582,23 +582,26 @@ sdist = { url = "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa
 
 [[package]]
 name = "responder"
-version = "7.0.0"
+version = "8.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "a2wsgi" },
     { name = "apispec" },
     { name = "chardet" },
     { name = "docopt-ng" },
+    { name = "itsdangerous" },
+    { name = "jinja2" },
     { name = "marshmallow" },
     { name = "msgpack" },
     { name = "pydantic" },
     { name = "python-multipart" },
+    { name = "pyyaml" },
     { name = "starlette", extra = ["full"] },
     { name = "uvicorn", extra = ["standard"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/1d/69/0fc84b6cdf07cb1135976a0d4fe0f3c1aa06ba1243e815b9066c665f5f42/responder-7.0.0.tar.gz", hash = "sha256:a3028cc8d9fd2afdb87a81d9d12f3c81d5b802ed405dc64145efa700862b23e7", size = 173579, upload-time = "2026-06-29T18:52:12.134Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/89/5f/fc760f6d1924f1be4bea3bff4d9c4357bd5dfabc95a83c2817f64c62b2df/responder-8.1.0.tar.gz", hash = "sha256:444545624da94c4f18b9c47fd3264d3343224cd25b08e190d83ef75b739d1b31", size = 328919, upload-time = "2026-07-03T11:09:29.083Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f9/47/55f2203d6c6787d78fe4f29b082b782ec2b4afbc52375ad09475db5a11a8/responder-7.0.0-py3-none-any.whl", hash = "sha256:00e1281a4f7a7e4ef84cccaba600805b15e902d435f1f0d9f50771410a30c7b1", size = 120063, upload-time = "2026-06-29T18:52:10.803Z" },
+    { url = "https://files.pythonhosted.org/packages/8e/7a/2e1647dc3a87044aee5b68b021e5569eda4e5444727a9c652b0b48bbb93c/responder-8.1.0-py3-none-any.whl", hash = "sha256:77da22a53627adaa0b97b723fe40983c69afef4d7f070887a4e2207cdb7ae6cc", size = 182237, upload-time = "2026-07-03T11:09:27.989Z" },
 ]
 
 [[package]]
@@ -672,7 +675,7 @@ requires-dist = [
     { name = "mistune", specifier = ">=3.0.0" },
     { name = "pillow", specifier = ">=11.3.0" },
     { name = "pyyaml", specifier = ">=6.0.0" },
-    { name = "responder", specifier = "==7.0.0" },
+    { name = "responder", specifier = "==8.1.0" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.32.0" },
     { name = "weasyprint", specifier = ">=66.0" },
 ]
