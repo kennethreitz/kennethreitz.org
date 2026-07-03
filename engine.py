@@ -2,8 +2,10 @@
 
 import responder
 from responder import Query  # responder.Path is referenced fully to avoid clashing with pathlib.Path
-from responder.ext.pagination import paginate  # v6.2: Page[T] envelope + slicing
+from responder.ext.pagination import Page, paginate  # v6.2: Page[T] envelope + slicing
 from responder.ext.query import filter_items, sort_items  # v6.3: equality filter + sort spec
+
+from pydantic import BaseModel
 
 from tuftecms.core.markdown import render_markdown_file
 from tuftecms.core.cache import (
@@ -26,6 +28,7 @@ from tuftecms.utils.svg_icons import generate_unique_svg_icon
 from tuftecms.blueprints.content import extract_exif_data
 
 from pathlib import Path
+from contextlib import asynccontextmanager
 from datetime import datetime, timezone
 from collections import defaultdict
 import asyncio
@@ -38,6 +41,7 @@ import random
 import re
 import shutil
 import textwrap
+import threading
 import os
 
 DATA_DIR = Path("data")
@@ -120,11 +124,37 @@ def _suggest_pages(path, limit=3):
     return suggestions
 
 
+@asynccontextmanager
+async def _lifespan(app):
+    """Warm caches in a background thread so the first requests aren't slow."""
+
+    def _warm():
+        app.log.info("Starting background cache warming...")
+        try:
+            get_blog_cache()
+            get_sidenotes_cache()
+            get_outlines_cache()
+            get_quotes_cache()
+            get_connections_cache()
+            get_terms_cache()
+            get_themes_cache()
+            _build_search_index()
+            app.log.info("Cache warming complete!")
+        except Exception as e:
+            app.log.error("Cache warming failed: %s", e)
+
+    threading.Thread(target=_warm, daemon=True).start()
+    yield
+
+
 api = responder.API(
     templates_dir="tuftecms/templates",
     static_dir="tuftecms/static",
     static_route="/static",
+    lifespan=_lifespan,
     enable_logging=True,
+    request_id=True,  # X-Request-ID on every response, attached to log lines
+    security_headers=True,  # nosniff, X-Frame-Options, Referrer-Policy
     auto_etag=True,
     max_request_size=1024 * 1024,  # every route is GET; nobody needs to send us a megabyte
     request_timeout=60,  # PDF generation is the slow path
@@ -1259,7 +1289,78 @@ async def directory(req, resp):
 # --- API routes ---
 
 
-@api.route("/api/blog")
+# --- JSON API response models ---
+#
+# These drive both runtime validation and the OpenAPI spec at /api/schema:
+# responder validates each route's resp.media against its response_model and
+# documents the shape in the Swagger UI. Routes whose output isn't ours to
+# promise (the oEmbed proxy, the cache debug dump) stay unmodeled.
+
+
+class BlogPostOut(BaseModel):
+    title: str
+    url: str
+    category: str
+    date: str
+    word_count: int
+    unique_icon: str
+
+
+class SearchResult(BaseModel):
+    title: str
+    url: str
+    snippet: str
+    section: str
+    score: int
+    matches: list[str]
+    unique_icon: str
+
+
+class SearchResponse(BaseModel):
+    query: str
+    results: list[SearchResult]
+    total: int = 0
+    error: str | None = None
+
+
+class AutocompleteResult(BaseModel):
+    title: str
+    url: str
+    icon: str
+
+
+class AutocompleteResponse(BaseModel):
+    results: list[AutocompleteResult]
+
+
+class IconResponse(BaseModel):
+    success: bool
+    path: str
+    icon: str
+
+
+class DirectoryItem(BaseModel):
+    name: str
+    path: str
+    is_dir: bool
+    icon: str
+
+
+class DirectoryTreeResponse(BaseModel):
+    items: list[DirectoryItem]
+
+
+class ThemeItem(BaseModel):
+    name: str
+    path: str
+    icon: str
+
+
+class ThemesResponse(BaseModel):
+    themes: list[ThemeItem]
+
+
+@api.route("/api/blog", response_model=Page[BlogPostOut])
 async def api_blog(
     req,
     resp,
@@ -1298,7 +1399,7 @@ async def api_blog(
     resp.media = paginate(posts_data, page=page, size=size).model_dump()
 
 
-@api.route("/api/search")
+@api.route("/api/search", response_model=SearchResponse)
 async def api_search(req, resp, *, q: str = Query("")):
     """Full-text search across the site. Pass ?q= (minimum two characters)."""
     query = q.strip()
@@ -1359,7 +1460,7 @@ async def api_search(req, resp, *, q: str = Query("")):
     resp.media = {"query": query, "results": results, "total": len(results)}
 
 
-@api.route("/api/search/autocomplete")
+@api.route("/api/search/autocomplete", response_model=AutocompleteResponse)
 async def api_search_autocomplete(req, resp, *, q: str = Query("")):
     """Title-only autocomplete suggestions for the search box."""
     query = q.strip()
@@ -1384,7 +1485,7 @@ async def api_search_autocomplete(req, resp, *, q: str = Query("")):
     resp.media = {"results": matches}
 
 
-@api.route("/api/icon/{article_path:path}")
+@api.route("/api/icon/{article_path:path}", response_model=IconResponse)
 async def api_icon(req, resp, *, article_path: str = responder.Path(...)):
     """Generate and return an SVG icon for a given article."""
     title = article_path  # fallback to path
@@ -1474,7 +1575,7 @@ async def api_debug_cache(req, resp):
     }
 
 
-@api.route("/api/directory-tree")
+@api.route("/api/directory-tree", response_model=DirectoryTreeResponse)
 async def api_directory_tree(req, resp):
     folders = []
     files = []
@@ -1522,7 +1623,7 @@ async def api_directory_tree(req, resp):
     resp.media = {"items": items}
 
 
-@api.route("/api/themes")
+@api.route("/api/themes", response_model=ThemesResponse)
 async def api_themes(req, resp):
     themes_dir = DATA_DIR / "themes"
     items = []
@@ -2016,32 +2117,6 @@ for _route in api.router.routes:
         # responder's own internal routes are bound methods with no __dict__;
         # they're already kept out of the schema, so nothing to do.
         pass
-
-
-# Warm caches on startup
-@api.on_event("startup")
-async def warm_caches():
-    import threading
-    def _warm():
-        api.log.info("Starting background cache warming...")
-        try:
-            get_blog_cache()
-            from tuftecms.core.cache import (
-                get_sidenotes_cache, get_outlines_cache,
-                get_quotes_cache, get_connections_cache,
-                get_terms_cache, get_themes_cache,
-            )
-            get_sidenotes_cache()
-            get_outlines_cache()
-            get_quotes_cache()
-            get_connections_cache()
-            get_terms_cache()
-            get_themes_cache()
-            _build_search_index()
-            api.log.info("Cache warming complete!")
-        except Exception as e:
-            api.log.error("Cache warming failed: %s", e)
-    threading.Thread(target=_warm, daemon=True).start()
 
 
 if __name__ == "__main__":
