@@ -605,7 +605,7 @@ sdist = { url = "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa
 
 [[package]]
 name = "responder"
-version = "8.1.0"
+version = "8.2.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "a2wsgi" },
@@ -622,9 +622,9 @@ dependencies = [
     { name = "starlette", extra = ["full"] },
     { name = "uvicorn", extra = ["standard"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/89/5f/fc760f6d1924f1be4bea3bff4d9c4357bd5dfabc95a83c2817f64c62b2df/responder-8.1.0.tar.gz", hash = "sha256:444545624da94c4f18b9c47fd3264d3343224cd25b08e190d83ef75b739d1b31", size = 328919, upload-time = "2026-07-03T11:09:29.083Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/cf/e0/9edc32fc6383835f33ba6641b383fd4306639dae135bf9b00ab133336e1c/responder-8.2.1.tar.gz", hash = "sha256:55e0f3479383567bf74c0ba0efc12b35c55424ae18cfe2c5b5f2d317822b2f71", size = 335391, upload-time = "2026-07-03T17:30:12.493Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8e/7a/2e1647dc3a87044aee5b68b021e5569eda4e5444727a9c652b0b48bbb93c/responder-8.1.0-py3-none-any.whl", hash = "sha256:77da22a53627adaa0b97b723fe40983c69afef4d7f070887a4e2207cdb7ae6cc", size = 182237, upload-time = "2026-07-03T11:09:27.989Z" },
+    { url = "https://files.pythonhosted.org/packages/c2/17/dec78e43073c2c0d6669c33056d01bc05c908ac41ce362dc63249712290b/responder-8.2.1-py3-none-any.whl", hash = "sha256:16d451304025e7d28e83ba455f6b76cd8e446903d8227cca15784e0e809a5bc8", size = 185579, upload-time = "2026-07-03T17:30:11.103Z" },
 ]
 
 [package.optional-dependencies]
@@ -703,7 +703,7 @@ requires-dist = [
     { name = "mistune", specifier = ">=3.0.0" },
     { name = "pillow", specifier = ">=11.3.0" },
     { name = "pyyaml", specifier = ">=6.0.0" },
-    { name = "responder", extras = ["orjson"], specifier = "==8.1.0" },
+    { name = "responder", extras = ["orjson"], specifier = "==8.2.1" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.32.0" },
     { name = "weasyprint", specifier = ">=66.0" },
 ]
