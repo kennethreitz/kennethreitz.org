@@ -1293,8 +1293,9 @@ async def directory(req, resp):
 #
 # These drive both runtime validation and the OpenAPI spec at /api/schema:
 # responder validates each route's resp.media against its response_model and
-# documents the shape in the Swagger UI. Routes whose output isn't ours to
-# promise (the oEmbed proxy, the cache debug dump) stay unmodeled.
+# documents the shape in the Swagger UI. Routes whose output isn't stable
+# enough to promise (the oEmbed proxy, fortune command, cache debug dump) stay
+# lightly described rather than fully modeled.
 
 
 class BlogPostOut(BaseModel):
@@ -1360,15 +1361,276 @@ class ThemesResponse(BaseModel):
     themes: list[ThemeItem]
 
 
-@api.route("/api/blog", response_model=Page[BlogPostOut])
+_EXAMPLE_ICON = "data:image/svg+xml;base64,PHN2Zy8+"
+
+
+def _json_object_response(description):
+    return {
+        "description": description,
+        "content": {
+            "application/json": {
+                "schema": {"type": "object", "additionalProperties": True}
+            }
+        },
+    }
+
+
+def _fortune_response(description):
+    return {
+        "description": description,
+        "content": {
+            "application/json": {
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "fortune": {"type": "string"},
+                        "offensive": {"type": "boolean"},
+                    },
+                    "required": ["fortune", "offensive"],
+                }
+            }
+        },
+    }
+
+
+OPENAPI_EXAMPLES = {
+    "blog": {
+        "first_page": {
+            "summary": "A page of recent essays",
+            "value": {
+                "items": [
+                    {
+                        "title": "Programming as Spiritual Practice",
+                        "url": "/essays/2025-08-26-programming_as_spiritual_practice",
+                        "category": "essays",
+                        "date": "2025-08-26",
+                        "word_count": 2870,
+                        "unique_icon": _EXAMPLE_ICON,
+                    }
+                ],
+                "total": 42,
+                "page": 1,
+                "size": 20,
+                "pages": 3,
+            },
+        }
+    },
+    "search": {
+        "matches": {
+            "summary": "Search results for a site concept",
+            "value": {
+                "query": "consciousness",
+                "results": [
+                    {
+                        "title": "The Recursive Loop",
+                        "url": "/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds",
+                        "snippet": "...code shapes minds, programmers shape code...",
+                        "section": "essays",
+                        "score": 15,
+                        "matches": ["title", "content"],
+                        "unique_icon": _EXAMPLE_ICON,
+                    }
+                ],
+                "total": 1,
+                "error": None,
+            },
+        },
+        "too_short": {
+            "summary": "A query that is too short to search",
+            "value": {
+                "query": "a",
+                "results": [],
+                "total": 0,
+                "error": "Query must be at least 2 characters long",
+            },
+        },
+    },
+    "autocomplete": {
+        "suggestions": {
+            "summary": "Title suggestions for the search box",
+            "value": {
+                "results": [
+                    {
+                        "title": "The Recursive Loop",
+                        "url": "/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds",
+                        "icon": _EXAMPLE_ICON,
+                    }
+                ]
+            },
+        }
+    },
+    "icon": {
+        "article_icon": {
+            "summary": "Generated icon for an article path",
+            "value": {
+                "success": True,
+                "path": "essays/2025-08-26-programming_as_spiritual_practice",
+                "icon": _EXAMPLE_ICON,
+            },
+        }
+    },
+    "debug_cache": {
+        "cache_stats": {
+            "summary": "Current cache counters",
+            "value": {
+                "status": "Cache data loaded successfully",
+                "cache_stats": {
+                    "blog": {"total_posts": 42},
+                    "sidenotes": {"total_sidenotes": 128, "total_articles": 24},
+                },
+                "lru_cache_info": {
+                    "blog_cache": {
+                        "hits": 12,
+                        "misses": 1,
+                        "maxsize": 1,
+                        "currsize": 1,
+                    }
+                },
+            },
+        }
+    },
+    "directory_tree": {
+        "root_items": {
+            "summary": "Top-level garden entries",
+            "value": {
+                "items": [
+                    {
+                        "name": "essays",
+                        "path": "/essays",
+                        "is_dir": True,
+                        "icon": _EXAMPLE_ICON,
+                    },
+                    {
+                        "name": "worldview",
+                        "path": "/worldview",
+                        "is_dir": False,
+                        "icon": _EXAMPLE_ICON,
+                    },
+                ]
+            },
+        }
+    },
+    "themes": {
+        "theme_list": {
+            "summary": "Curated conceptual themes",
+            "value": {
+                "themes": [
+                    {
+                        "name": "The Algorithm Eats",
+                        "path": "/themes/algorithmic-critique",
+                        "icon": _EXAMPLE_ICON,
+                    },
+                    {
+                        "name": "For Humans Philosophy",
+                        "path": "/themes/for-humans-philosophy",
+                        "icon": _EXAMPLE_ICON,
+                    },
+                ]
+            },
+        }
+    },
+    "oembed": {
+        "embed": {
+            "summary": "Discovered oEmbed payload",
+            "value": {
+                "type": "rich",
+                "version": "1.0",
+                "title": "Example Embed",
+                "provider_name": "Example",
+                "html": '<iframe src="https://example.com/embed"></iframe>',
+                "width": 640,
+                "height": 360,
+            },
+        }
+    },
+    "fortune": {
+        "fortune": {
+            "summary": "A fortune response",
+            "value": {
+                "fortune": "The interface is the contract.",
+                "offensive": False,
+            },
+        }
+    },
+}
+
+
+OPENAPI_ERROR_EXAMPLES = {
+    "oembed": {
+        400: {
+            "invalid_url": {
+                "summary": "Missing or invalid URL",
+                "value": {"error": "Missing or invalid url parameter"},
+            }
+        },
+        404: {
+            "not_found": {
+                "summary": "No oEmbed endpoint discovered",
+                "value": {"error": "No oEmbed endpoint found"},
+            }
+        },
+        502: {
+            "upstream_failure": {
+                "summary": "Discovery or fetch failed",
+                "value": {"error": "oEmbed discovery failed"},
+            }
+        },
+    },
+    "fortune": {
+        404: {
+            "offensive_unavailable": {
+                "summary": "Requested fortune set is unavailable",
+                "value": {
+                    "error": "offensive fortunes are not available",
+                    "offensive": True,
+                },
+            }
+        },
+        503: {
+            "missing_binary": {
+                "summary": "Fortune command is unavailable",
+                "value": {"error": "fortune command is not installed"},
+            }
+        },
+    },
+}
+
+
+@api.route(
+    "/api/blog",
+    response_model=Page[BlogPostOut],
+    examples=OPENAPI_EXAMPLES["blog"],
+)
 async def api_blog(
     req,
     resp,
     *,
-    category: str = Query(None),
-    sort: str = Query("-pub_date"),
-    page: int = Query(1, ge=1),
-    size: int = Query(20, ge=1, le=100),
+    category: str | None = Query(
+        None,
+        description="Filter posts by category.",
+        examples=["essays"],
+    ),
+    sort: str = Query(
+        "-pub_date",
+        description=(
+            "Sort by title, word_count, or pub_date. Prefix with - for "
+            "descending."
+        ),
+        examples=["-pub_date"],
+    ),
+    page: int = Query(
+        1,
+        ge=1,
+        description="One-based page number.",
+        examples=[1],
+    ),
+    size: int = Query(
+        20,
+        ge=1,
+        le=100,
+        description="Posts per page.",
+        examples=[20],
+    ),
 ):
     """List blog posts as a paginated envelope.
 
@@ -1399,8 +1661,21 @@ async def api_blog(
     resp.media = paginate(posts_data, page=page, size=size).model_dump()
 
 
-@api.route("/api/search", response_model=SearchResponse)
-async def api_search(req, resp, *, q: str = Query("")):
+@api.route(
+    "/api/search",
+    response_model=SearchResponse,
+    examples=OPENAPI_EXAMPLES["search"],
+)
+async def api_search(
+    req,
+    resp,
+    *,
+    q: str = Query(
+        "",
+        description="Full-text query. Must be at least two characters.",
+        examples=["consciousness"],
+    ),
+):
     """Full-text search across the site. Pass ?q= (minimum two characters)."""
     query = q.strip()
     api.log.info("Search query: %s", query)
@@ -1460,8 +1735,21 @@ async def api_search(req, resp, *, q: str = Query("")):
     resp.media = {"query": query, "results": results, "total": len(results)}
 
 
-@api.route("/api/search/autocomplete", response_model=AutocompleteResponse)
-async def api_search_autocomplete(req, resp, *, q: str = Query("")):
+@api.route(
+    "/api/search/autocomplete",
+    response_model=AutocompleteResponse,
+    examples=OPENAPI_EXAMPLES["autocomplete"],
+)
+async def api_search_autocomplete(
+    req,
+    resp,
+    *,
+    q: str = Query(
+        "",
+        description="Title fragment to autocomplete.",
+        examples=["rec"],
+    ),
+):
     """Title-only autocomplete suggestions for the search box."""
     query = q.strip()
 
@@ -1485,8 +1773,21 @@ async def api_search_autocomplete(req, resp, *, q: str = Query("")):
     resp.media = {"results": matches}
 
 
-@api.route("/api/icon/{article_path:path}", response_model=IconResponse)
-async def api_icon(req, resp, *, article_path: str = responder.Path(...)):
+@api.route(
+    "/api/icon/{article_path:path}",
+    response_model=IconResponse,
+    examples=OPENAPI_EXAMPLES["icon"],
+)
+async def api_icon(
+    req,
+    resp,
+    *,
+    article_path: str = responder.Path(
+        ...,
+        description="Markdown article path without the data/ prefix or .md suffix.",
+        examples=["essays/2025-08-26-programming_as_spiritual_practice"],
+    ),
+):
     """Generate and return an SVG icon for a given article."""
     title = article_path  # fallback to path
     is_folder = False
@@ -1518,7 +1819,11 @@ async def api_icon(req, resp, *, article_path: str = responder.Path(...)):
     resp.media = {"success": True, "path": article_path, "icon": icon_data}
 
 
-@api.route("/api/debug-cache")
+@api.route(
+    "/api/debug-cache",
+    responses={200: _json_object_response("Cache statistics and LRU counters.")},
+    examples=OPENAPI_EXAMPLES["debug_cache"],
+)
 async def api_debug_cache(req, resp):
     cache_info = {
         "blog": get_blog_cache()["stats"],
@@ -1575,7 +1880,11 @@ async def api_debug_cache(req, resp):
     }
 
 
-@api.route("/api/directory-tree", response_model=DirectoryTreeResponse)
+@api.route(
+    "/api/directory-tree",
+    response_model=DirectoryTreeResponse,
+    examples=OPENAPI_EXAMPLES["directory_tree"],
+)
 async def api_directory_tree(req, resp):
     folders = []
     files = []
@@ -1623,7 +1932,11 @@ async def api_directory_tree(req, resp):
     resp.media = {"items": items}
 
 
-@api.route("/api/themes", response_model=ThemesResponse)
+@api.route(
+    "/api/themes",
+    response_model=ThemesResponse,
+    examples=OPENAPI_EXAMPLES["themes"],
+)
 async def api_themes(req, resp):
     themes_dir = DATA_DIR / "themes"
     items = []
@@ -1641,8 +1954,22 @@ async def api_themes(req, resp):
 # responder from each route's type hints; see the API() constructor above.
 
 
-@api.route("/api/oembed")
-async def api_oembed(req, resp, *, url: str = Query("")):
+@api.route(
+    "/api/oembed",
+    responses={200: _json_object_response("Provider-specific oEmbed payload.")},
+    examples=OPENAPI_EXAMPLES["oembed"],
+    response_examples=OPENAPI_ERROR_EXAMPLES["oembed"],
+)
+async def api_oembed(
+    req,
+    resp,
+    *,
+    url: str = Query(
+        "",
+        description="HTTPS page URL to discover and fetch oEmbed data for.",
+        examples=["https://example.com/video"],
+    ),
+):
     """Proxy oEmbed discovery and fetch to avoid CORS issues."""
     import json
     import re
@@ -1693,8 +2020,22 @@ async def api_oembed(req, resp, *, url: str = Query("")):
 _FORTUNE_BIN = shutil.which("fortune") or "/usr/games/fortune"
 
 
-@api.route("/api/fortune")
-async def api_fortune(req, resp, *, offensive: bool = Query(False)):
+@api.route(
+    "/api/fortune",
+    responses={200: _fortune_response("Random fortune text.")},
+    examples=OPENAPI_EXAMPLES["fortune"],
+    response_examples=OPENAPI_ERROR_EXAMPLES["fortune"],
+)
+async def api_fortune(
+    req,
+    resp,
+    *,
+    offensive: bool = Query(
+        False,
+        description="Use the optional offensive fortune set when available.",
+        examples=[False],
+    ),
+):
     """Return a random fortune. Pass ?offensive=1 for the potentially offensive set."""
 
     if not Path(_FORTUNE_BIN).exists():
