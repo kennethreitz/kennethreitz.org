@@ -1205,6 +1205,23 @@ for _page in ("sidenotes", "outlines", "quotes", "connections", "terms", "graph"
     api.route(f"/{_page}")(_make_archive_alias(f"/archive/{_page}"))
 
 
+_GRAPH_SKIP_PREFIXES = ("static/", "data/", "api/", "archive", "feed", "search", "sitemap")
+_GRAPH_ASSET_SUFFIXES = (
+    ".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg",
+    ".pdf", ".md", ".mp3", ".xml", ".css", ".js",
+)
+
+
+def _graph_skip(path):
+    """Content pages only: no assets, indexes, or machine endpoints."""
+    lowered = path.lower()
+    return (
+        not path
+        or lowered.startswith(_GRAPH_SKIP_PREFIXES)
+        or lowered.endswith(_GRAPH_ASSET_SUFFIXES)
+    )
+
+
 @api.route("/archive/graph/data")
 async def graph_data(req, resp):
     connections_data = get_connections_cache()
@@ -1215,75 +1232,48 @@ async def graph_data(req, resp):
         for post in blog_data.get("posts", [])
     }
 
-    nodes = []
+    def make_node(path):
+        url = f"/{path}"
+        post = post_lookup.get(url, {})
+        title = post.get("title") or path.split("/")[-1].replace("-", " ").replace("_", " ").title()
+        category = path.split("/")[0] if "/" in path else "pages"
+        return {
+            "id": path,
+            "title": title,
+            "label": title,
+            "url": url,
+            "category": category,
+            "group": category,
+        }
+
+    nodes = {}
     edges = []
-    node_ids = set()
+    seen_edges = set()
 
     for source, targets in connections_data.get("outgoing", {}).items():
-        source_id = source.replace("data/", "").replace(".md", "")
-        source_url = (
-            f"/essays/{source_id.split('/')[-1]}"
-            if "essays" in source_id
-            else f"/{source_id}"
-        )
-
-        if source_id not in node_ids:
-            post_data = post_lookup.get(source_url, {})
-
-            nodes.append({
-                "id": source_id,
-                "title": post_data.get(
-                    "title", source_id.split("/")[-1].replace("-", " ").title()
-                ),
-                "label": post_data.get(
-                    "title", source_id.split("/")[-1].replace("-", " ").title()
-                ),
-                "url": source_url,
-                "category": source_id.split("/")[0] if "/" in source_id else "root",
-                "group": source_id.split("/")[0] if "/" in source_id else "root",
-            })
-            node_ids.add(source_id)
+        source_path = source.replace("data/", "", 1).removesuffix(".md").strip("/")
+        if _graph_skip(source_path):
+            continue
 
         for target_info in targets:
-            target_url = target_info["url"].strip("/")
-            if target_url:
-                target_id = target_url.replace("/", "_")
+            target_path = target_info["url"].strip("/")
+            if _graph_skip(target_path) or target_path == source_path:
+                continue
+            key = (source_path, target_path)
+            if key in seen_edges:
+                continue
+            seen_edges.add(key)
 
-                if target_id not in node_ids:
-                    target_post_data = post_lookup.get(f"/{target_url}", {})
+            nodes.setdefault(source_path, make_node(source_path))
+            nodes.setdefault(target_path, make_node(target_path))
+            edges.append({
+                "source": source_path,
+                "target": target_path,
+                "label": target_info["text"],
+                "link_text": target_info["text"],
+            })
 
-                    nodes.append({
-                        "id": target_id,
-                        "title": target_post_data.get(
-                            "title",
-                            target_url.split("/")[-1].replace("-", " ").title(),
-                        ),
-                        "label": target_post_data.get(
-                            "title",
-                            target_url.split("/")[-1].replace("-", " ").title(),
-                        ),
-                        "url": f"/{target_url}",
-                        "category": (
-                            target_url.split("/")[0]
-                            if "/" in target_url
-                            else "root"
-                        ),
-                        "group": (
-                            target_url.split("/")[0]
-                            if "/" in target_url
-                            else "root"
-                        ),
-                    })
-                    node_ids.add(target_id)
-
-                edges.append({
-                    "source": source_id,
-                    "target": target_id,
-                    "label": target_info["text"],
-                    "link_text": target_info["text"],
-                })
-
-    resp.media = {"nodes": nodes, "edges": edges}
+    resp.media = {"nodes": list(nodes.values()), "edges": edges}
 
 
 # --- Directory route ---

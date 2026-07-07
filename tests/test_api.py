@@ -53,3 +53,19 @@ def test_api_fortune(client):
 def test_api_directory_tree(client):
     r = client.get("/api/directory-tree")
     assert r.status_code == 200
+
+
+def test_graph_data_is_clean(client):
+    r = client.get("/archive/graph/data")
+    assert r.status_code == 200
+    data = r.json()
+    assert len(data["nodes"]) > 100
+    node_ids = {n["id"] for n in data["nodes"]}
+    # Every edge endpoint must resolve to a node (ids are consistent).
+    for edge in data["edges"]:
+        assert edge["source"] in node_ids
+        assert edge["target"] in node_ids
+    # No asset or machine-endpoint nodes.
+    for n in data["nodes"]:
+        assert n["category"] != "static"
+        assert not n["url"].endswith((".jpg", ".png", ".md", ".xml"))
