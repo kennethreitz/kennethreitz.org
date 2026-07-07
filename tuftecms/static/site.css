@@ -378,3 +378,32 @@ body.dark-mode .related-essays { border-top-color: #333; }
 body.dark-mode .archive-filter { border-color: #444; }
 body.dark-mode .archive-filter:focus { border-color: #777; }
 body.dark-mode .year-count { border-color: #3a3a3a; color: #777; }
+
+/* --- Homepage --- */
+.muted { color: #888; font-size: 0.95rem; }
+.muted a { color: #888; }
+body.dark-mode .muted { color: #777; }
+body.dark-mode .muted a { color: #777; }
+
+.recent-post {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.recent-post-icon {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+}
+.recent-post-title { font-size: 1.15rem; }
+.recent-post-date {
+    color: #888;
+    font-size: 0.85rem;
+    margin-left: 0.5rem;
+    white-space: nowrap;
+}
+body.dark-mode .recent-post-date { color: #777; }
+
+.h2-note { font-size: 0.6em; font-weight: normal; }

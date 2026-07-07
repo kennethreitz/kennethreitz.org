@@ -1191,6 +1191,17 @@ async def graph(req, resp):
     )
 
 
+# Bare aliases for the archive views (the sitemap advertises these).
+def _make_archive_alias(target):
+    async def archive_alias(req, resp):
+        api.redirect(resp, target, status_code=308)
+    return archive_alias
+
+
+for _page in ("sidenotes", "outlines", "quotes", "connections", "terms", "graph"):
+    api.route(f"/{_page}")(_make_archive_alias(f"/archive/{_page}"))
+
+
 @api.route("/archive/graph/data")
 async def graph_data(req, resp):
     connections_data = get_connections_cache()

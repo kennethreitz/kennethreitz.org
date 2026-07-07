@@ -2,14 +2,7 @@
 
 {% block title %}Kenneth Reitz{% endblock %}
 
-{% block extra_head %}
-<style>
-    .muted { color: #888; font-size: 0.95rem; }
-    body.dark-mode .muted { color: #777; }
-    .muted a { color: #888; }
-    body.dark-mode .muted a { color: #777; }
-</style>
-{% endblock %}
+{% block description %}Kenneth Reitz — creator of Requests, the Python HTTP library. Writing at the intersection of technology and consciousness: mental health, AI collaboration, open source, and building software for humans.{% endblock %}
 
 {% block content %}
 <div class="post-content">
@@ -17,8 +10,7 @@
 
 <p class="subtitle muted">Creator of <a href="/software/requests" class="project-link color-software">Requests</a>,
 <a href="/software/certifi" class="project-link color-software">Certifi</a>,
-<a href="/software/pipenv" class="project-link color-software">Pipenv</a>, <a href="/software/records" class="project-link color-software">Records</a>,
-<a href="/software/maya" class="project-link color-software">Maya</a> & <a href="/software" class="project-link color-software">more</a>.</p>
+<a href="/software/pipenv" class="project-link color-software">Pipenv</a> & <a href="/software" class="project-link color-software">more</a>.</p>
 
 <section>
     <p>I'm best known for <a href="/software/requests">Requests</a>, the Python HTTP library. Most of what I write these days lives at the intersection of technology and consciousness — what we owe each other when we build things people think through. I live openly with <a href="/mental-health">schizoaffective disorder</a>; I'm a husband and father. Tech used to be my identity; now it's <a href="/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed">craft, not lifestyle</a>.</p>
@@ -27,33 +19,35 @@
 </section>
 
 <section>
-    <h2>Recent Writing <small style="font-size: 0.6em; font-weight: normal;">(<a href="/archive">archive</a>)</small></h2>
+    <h2>Recent Writing <small class="h2-note">(<a href="/archive">archive</a>)</small></h2>
 
     {% for post in recent_posts %}
-    <div style="display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem;">
-        {% if post.unique_icon %}<img src="{{ post.unique_icon }}" alt="" style="width: 22px; height: 22px; flex-shrink: 0; margin-top: 0.1rem;">{% endif %}
-        <div style="font-size: 1.15rem;">
-            <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+    <div class="recent-post">
+        {% if post.unique_icon %}<img src="{{ post.unique_icon }}" alt="" class="recent-post-icon">{% endif %}
+        <div class="recent-post-title">
+            <strong><a href="{{ post.url }}">{{ post.title }}</a></strong><span class="recent-post-date">{{ post.pub_date.strftime("%B %Y") }}</span>
         </div>
     </div>
     {% endfor %}
 
-    <p class="muted">Eighteen years of thinking out loud, <a href="/essays/2026-06-11-how_i_write_now">written the way I actually write now</a>. Browse the full <a href="/archive">archive</a>, or subscribe via <a href="/feed.xml">RSS</a>.</p>
+    <p class="muted">Eighteen years of thinking out loud, <a href="/essays/2026-06-11-how_i_write_now">written the way I actually write now</a>. Browse the full <a href="/archive">archive</a>, subscribe via <a href="/feed.xml">RSS</a>, or wander in through a <a href="/random">random essay</a> or the <a href="/graph">graph</a> of how it all connects.</p>
 </section>
 
 <section>
-    <h2>Now</h2>
+    <h2>Now <small class="h2-note">(as of July 2026)</small></h2>
     <p><strong>Reading:</strong> <em><a href="https://poemsbysarah.com" target="_blank">The Becoming</a></em> by Sarah L. Reitz — my wife's poetry collection, tracing a journey from darkness through self-discovery to love. Free at <a href="https://poemsbysarah.com" target="_blank">poemsbysarah.com</a>, or in <a href="https://amzn.to/4qPQIH3" target="_blank">paperback &amp; Kindle</a>. I <a href="/essays/2026-01-30-the-becoming-building-a-poetry-publishing-pipeline-with-claude-code">built the publishing pipeline</a>; she wrote every word.</p>
 
     <p><strong>Playing:</strong> <a href="/music/interpretations">Interpretations</a> — a 24-track album composed entirely in Python. Sitar ragas, acid bass, ambient drones, trap beats — every sound generated from code. <a href="https://interpretations.kennethreitz.org/" target="_blank">Listen on the web</a>, or on <a href="https://open.spotify.com/album/1jYjggrr6HEKfV4FchcJWD" target="_blank">Spotify</a> / <a href="https://music.apple.com/us/album/interpretations/1890986989" target="_blank">Apple Music</a>.</p>
 
-    <iframe src="https://interpretations.kennethreitz.org/embed.html" width="100%" height="400" frameborder="0" loading="lazy" allow="autoplay; encrypted-media" style="border-radius:8px;border:none;max-width:400px;"></iframe>
+    <iframe src="https://interpretations.kennethreitz.org/embed.html" title="Interpretations album player" width="100%" height="400" loading="lazy" allow="autoplay; encrypted-media" style="border-radius:8px;border:none;max-width:400px;"></iframe>
 </section>
 
 <section>
     <h2>Threads</h2>
 
-    <p>A few threads run through everything here. <a href="/themes/for-humans-philosophy">The "for humans" philosophy</a> — that technology should serve human mental models, not the other way around. A growing body of <a href="/themes/algorithmic-critique">algorithmic critique</a>, tracing how engagement optimization consumes <a href="/essays/2025-08-26-the_algorithm_eats_virtue">virtue</a>, <a href="/essays/2025-08-27-the_algorithm_eats_language">language</a>, <a href="/essays/2025-08-27-the_algorithm_eats_love">love</a>, <a href="/essays/2025-08-27-the_algorithm_eats_democracy">democracy</a>, <a href="/essays/2025-08-27-the_algorithm_eats_reality">reality</a>, <a href="/essays/2025-09-01-the_algorithm_eats_time">time</a>, and lately <a href="/essays/2026-06-11-the_algorithm_eats_diagnosis">diagnosis</a>. Writing about <a href="/themes/mental-health">mental health</a>, <a href="/themes/consciousness-and-ai">consciousness and AI</a>, <a href="/themes/open-source-and-community">fifteen years of open source</a>, and <a href="/themes/spiritual-practice-and-technology">programming as contemplative practice</a>. Newer threads: <a href="/themes/personal-infrastructure">personal infrastructure</a> — moving a digital life off rented land — and <a href="/themes/music-as-code">music as code</a>.</p>
+    <p>A few threads run through everything here. <a href="/themes/for-humans-philosophy">The "for humans" philosophy</a> — that technology should serve human mental models, not the other way around. And a growing body of <a href="/themes/algorithmic-critique">algorithmic critique</a>, tracing how engagement optimization consumes <a href="/essays/2025-08-26-the_algorithm_eats_virtue">virtue</a>, <a href="/essays/2025-08-27-the_algorithm_eats_language">language</a>, <a href="/essays/2025-08-27-the_algorithm_eats_love">love</a>, <a href="/essays/2025-08-27-the_algorithm_eats_democracy">democracy</a>, <a href="/essays/2025-08-27-the_algorithm_eats_reality">reality</a>, <a href="/essays/2025-09-01-the_algorithm_eats_time">time</a>, and lately <a href="/essays/2026-06-11-the_algorithm_eats_diagnosis">diagnosis</a>.</p>
+
+    <p>There's also writing about <a href="/themes/mental-health">mental health</a>, <a href="/themes/consciousness-and-ai">consciousness and AI</a>, <a href="/themes/open-source-and-community">fifteen years of open source</a>, and <a href="/themes/spiritual-practice-and-technology">programming as contemplative practice</a>. Newer threads: <a href="/themes/personal-infrastructure">personal infrastructure</a> — moving a digital life off rented land — and <a href="/themes/music-as-code">music as code</a>.</p>
 </section>
 
 <hr>
