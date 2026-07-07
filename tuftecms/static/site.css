@@ -482,11 +482,39 @@ article {
     font-size: 0.95rem;
     line-height: 2;
 }
+.footer-content {
+    width: 65%;
+    margin-top: 3rem;
+}
 .footer-map a { color: var(--ink-faint); text-decoration: none; }
 .footer-map a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); }
 .footer-map .sep { color: var(--line); }
 
+.footer-note p {
+    width: 100% !important;
+    margin-top: 0.75rem;
+    font-size: 0.95rem !important;
+    line-height: 1.45;
+    text-align: left !important;
+}
+
+@media (max-width: 1400px) {
+    .footer-content {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer-content {
+        width: 90%;
+    }
+}
+
 @media (max-width: 760px) {
+    .footer-content {
+        width: 100%;
+    }
+
     .footer-map {
         gap: 0.15rem 0.7rem;
     }
@@ -640,18 +668,88 @@ input[type="text"] {
 .muted { color: var(--ink-faint); font-size: 0.95rem; }
 .muted a { color: var(--ink-faint); }
 
+.home-page > h1 {
+    margin-bottom: 0.65rem;
+}
+
+.home-page .subtitle {
+    margin-top: 0;
+    margin-bottom: 2.4rem;
+}
+
+.home-page section {
+    padding-top: 0;
+    margin-top: 3.8rem;
+    margin-bottom: 0;
+}
+
+.home-page .home-intro {
+    margin-top: 2.4rem;
+}
+
+.home-lede {
+    line-height: 1.58 !important;
+}
+
+.home-projects,
+.home-next-links {
+    box-sizing: border-box;
+    line-height: 1.55;
+}
+
+.home-projects {
+    width: 65% !important;
+}
+
+.home-next-links {
+    width: 65% !important;
+}
+
+.home-projects {
+    margin-top: 1.6rem;
+    padding-top: 0.95rem;
+    border-top: 1px solid var(--line-soft);
+}
+
+.home-label {
+    display: inline-block;
+    margin-right: 0.35rem;
+    color: var(--ink-muted);
+    font-size: 0.95rem;
+    font-variant: normal;
+    letter-spacing: 0;
+}
+
+.home-label::after {
+    content: ":";
+}
+
+.home-page h2 {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 1.35rem !important;
+}
+
 .recent-post {
     display: flex;
     align-items: flex-start;
     gap: 0.85rem;
     width: 65%;
+    box-sizing: border-box;
     margin-bottom: 0;
-    padding: 0.65rem 0;
+    padding: 0.72rem 0;
     border-bottom: 1px solid var(--line-soft);
+    transition: background-color 0.18s ease, border-color 0.18s ease;
 }
 
 .recent-post:last-of-type {
     border-bottom: none;
+}
+
+.recent-post:hover {
+    background: color-mix(in srgb, var(--surface) 62%, transparent);
+    border-color: color-mix(in srgb, var(--accent) 18%, var(--line-soft));
 }
 
 .recent-post-icon {
@@ -661,6 +759,8 @@ input[type="text"] {
     margin-top: 0.1rem;
 }
 .recent-post-title {
+    flex: 1;
+    min-width: 0;
     font-size: 1.08rem;
     line-height: 1.35;
 }
@@ -676,10 +776,67 @@ input[type="text"] {
     white-space: nowrap;
 }
 
-@media (max-width: 760px) {
+.home-next-links {
+    margin-top: 1.8rem;
+    padding-left: 1rem;
+    border-left: 2px solid color-mix(in srgb, var(--accent) 25%, var(--line-soft));
+}
+
+.home-player {
+    display: block;
+    width: 100%;
+    max-width: 400px !important;
+    border: 1px solid var(--line-soft) !important;
+    border-radius: 6px;
+    box-shadow: var(--shadow-soft);
+}
+
+.home-closing {
+    margin-top: 2.8rem !important;
+    padding-top: 1.1rem !important;
+    border-top: 1px solid var(--line-soft);
+}
+
+@media (max-width: 1400px) {
     .recent-post {
-        width: 100%;
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .recent-post {
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 760px) {
+    .home-page .subtitle {
+        margin-bottom: 2rem;
+    }
+
+    .home-page section {
+        margin-top: 3rem;
+    }
+
+    .home-page p:not(.sidenote):not(.marginnote) {
+        text-align: left !important;
+        hyphens: none;
+        -webkit-hyphens: none;
+    }
+
+    .home-page h2 {
+        flex-wrap: wrap;
+        gap: 0.2rem 0.45rem;
+    }
+
+    .recent-post {
+        width: 100% !important;
         gap: 0.7rem;
+    }
+
+    .home-projects,
+    .home-next-links {
+        width: 100% !important;
     }
 
     .recent-post-date {
