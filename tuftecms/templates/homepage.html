@@ -6,16 +6,29 @@
 
 {% block content %}
 <div class="post-content home-page">
-<h1>Kenneth Reitz</h1>
 
-<p class="subtitle muted">Creator of <a href="/software/requests" class="project-link color-software">Requests</a>,
-<a href="/software/certifi" class="project-link color-software">Certifi</a>,
-<a href="/software/pipenv" class="project-link color-software">Pipenv</a> & <a href="/software" class="project-link color-software">more</a>.</p>
-
-<section class="home-intro">
+<header class="home-masthead">
+    <h1>Kenneth Reitz</h1>
+    <p class="subtitle muted">Creator of <a href="/software/requests" class="project-link color-software">Requests</a>, <a href="/software/certifi" class="project-link color-software">Certifi</a>, <a href="/software/pipenv" class="project-link color-software">Pipenv</a> &amp; <a href="/software" class="project-link color-software">more</a>.</p>
     <p class="home-lede">I'm best known for <a href="/software/requests">Requests</a>, the Python HTTP library. Most of what I write these days lives at the intersection of technology and consciousness — what we owe each other when we build things people think through. I live openly with <a href="/mental-health">schizoaffective disorder</a>; I'm a husband and father. Tech used to be my identity; now it's <a href="/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed">craft, not lifestyle</a>.</p>
 
-    <p class="muted home-projects"><span class="home-label">Current projects</span> <a href="https://rhymepad.org" target="_blank">RhymePad</a>, a scratchpad for poets &amp; rappers that <a href="/essays/2026-06-11-rhymepad_seeing_the_sound">hears the rhymes as you write</a> · <a href="/music/interpretations">Interpretations</a>, an album composed in Python · <a href="/software/websites/kjvstudy">kjvstudy.org</a> · <a href="/software/pytheory">PyTheory</a> · <a href="/software/responder">Responder</a>.</p>
+    <nav class="home-actions" aria-label="Homepage paths">
+        <a href="/archive">Archive</a>
+        <a href="/random">Random Essay</a>
+        <a href="/graph">Graph</a>
+        <a href="/feed.xml">RSS</a>
+    </nav>
+</header>
+
+<section class="home-current" aria-labelledby="home-current-heading">
+    <h2 id="home-current-heading">Current Work</h2>
+    <div class="home-link-list">
+        <p><strong><a href="https://rhymepad.org" target="_blank">RhymePad</a></strong> A scratchpad for poets &amp; rappers that <a href="/essays/2026-06-11-rhymepad_seeing_the_sound">hears the rhymes as you write</a>.</p>
+        <p><strong><a href="/music/interpretations">Interpretations</a></strong> A 24-track album composed entirely in Python.</p>
+        <p><strong><a href="/software/websites/kjvstudy">kjvstudy.org</a></strong> Scripture study tools built for slow reading and durable notes.</p>
+        <p><strong><a href="/software/pytheory">PyTheory</a></strong> Music theory as code, from chords and scales to full arrangements.</p>
+        <p><strong><a href="/software/responder">Responder</a></strong> A web framework built around the same old question: HTTP, for humans.</p>
+    </div>
 </section>
 
 <section class="home-recent">
@@ -24,13 +37,31 @@
     {% for post in recent_posts %}
     <div class="recent-post">
         {% if post.unique_icon %}<img src="{{ post.unique_icon }}" alt="" class="recent-post-icon">{% endif %}
-        <div class="recent-post-title">
-            <strong><a href="{{ post.url }}">{{ post.title }}</a></strong><span class="recent-post-date">{{ post.pub_date.strftime("%B %Y") }}</span>
+        <div class="recent-post-body">
+            <div class="recent-post-title">
+                <strong><a href="{{ post.url }}">{{ post.title }}</a></strong><span class="recent-post-date">{{ post.pub_date.strftime("%B %Y") }}</span>
+            </div>
+            {% if post.description %}
+            <p>{{ post.description }}</p>
+            {% elif post.excerpt %}
+            <p>{{ post.excerpt }}</p>
+            {% endif %}
         </div>
     </div>
     {% endfor %}
 
     <p class="muted home-next-links">Eighteen years of thinking out loud, <a href="/essays/2026-06-11-how_i_write_now">written the way I actually write now</a>. Browse the full <a href="/archive">archive</a>, subscribe via <a href="/feed.xml">RSS</a>, or wander in through a <a href="/random">random essay</a> or the <a href="/graph">graph</a> of how it all connects.</p>
+</section>
+
+<section class="home-threads">
+    <h2>Threads</h2>
+    <div class="home-thread-list">
+        <p><strong><a href="/themes/for-humans-philosophy">For Humans</a></strong> Technology should serve human mental models, not the other way around.</p>
+        <p><strong><a href="/themes/algorithmic-critique">Algorithmic Critique</a></strong> How engagement optimization consumes virtue, language, love, democracy, reality, time, and diagnosis.</p>
+        <p><strong><a href="/themes/mental-health">Mental Health</a></strong> Notes from inside the system, written without pretending the system is the human.</p>
+        <p><strong><a href="/themes/consciousness-and-ai">Consciousness and AI</a></strong> What happens when language starts reflecting us back at ourselves.</p>
+        <p><strong><a href="/themes/music-as-code">Music as Code</a></strong> Chords, theory, synthesis, and the pleasure of making sound with programs.</p>
+    </div>
 </section>
 
 <section class="home-now">
@@ -39,18 +70,7 @@
 
     <p><strong>Playing:</strong> <a href="/music/interpretations">Interpretations</a> — a 24-track album composed entirely in Python. Sitar ragas, acid bass, ambient drones, trap beats — every sound generated from code. <a href="https://interpretations.kennethreitz.org/" target="_blank">Listen on the web</a>, or on <a href="https://open.spotify.com/album/1jYjggrr6HEKfV4FchcJWD" target="_blank">Spotify</a> / <a href="https://music.apple.com/us/album/interpretations/1890986989" target="_blank">Apple Music</a>.</p>
 
-    <iframe class="home-player" src="https://interpretations.kennethreitz.org/embed.html" title="Interpretations album player" width="100%" height="400" loading="lazy" allow="autoplay; encrypted-media"></iframe>
 </section>
-
-<section class="home-threads">
-    <h2>Threads</h2>
-
-    <p>A few threads run through everything here. <a href="/themes/for-humans-philosophy">The "for humans" philosophy</a> — that technology should serve human mental models, not the other way around. And a growing body of <a href="/themes/algorithmic-critique">algorithmic critique</a>, tracing how engagement optimization consumes <a href="/essays/2025-08-26-the_algorithm_eats_virtue">virtue</a>, <a href="/essays/2025-08-27-the_algorithm_eats_language">language</a>, <a href="/essays/2025-08-27-the_algorithm_eats_love">love</a>, <a href="/essays/2025-08-27-the_algorithm_eats_democracy">democracy</a>, <a href="/essays/2025-08-27-the_algorithm_eats_reality">reality</a>, <a href="/essays/2025-09-01-the_algorithm_eats_time">time</a>, and lately <a href="/essays/2026-06-11-the_algorithm_eats_diagnosis">diagnosis</a>.</p>
-
-    <p>There's also writing about <a href="/themes/mental-health">mental health</a>, <a href="/themes/consciousness-and-ai">consciousness and AI</a>, <a href="/themes/open-source-and-community">fifteen years of open source</a>, and <a href="/themes/spiritual-practice-and-technology">programming as contemplative practice</a>. Newer threads: <a href="/themes/personal-infrastructure">personal infrastructure</a> — moving a digital life off rented land — and <a href="/themes/music-as-code">music as code</a>.</p>
-</section>
-
-<hr>
 
 <section class="home-closing">
     <p>Thank you for your attention — it's the only currency that actually matters. If anything here resonated, I'm glad. If you're curious about what drives the work, my <a href="/values">values</a> are the closest thing to a map I've got.</p>
