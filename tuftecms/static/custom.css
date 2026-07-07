@@ -205,6 +205,19 @@ p code, li code, h1 code, h2 code, h3 code, td code {
 /* Copy button for code blocks */
 .code-block-wrapper {
     position: relative;
+    width: 65% !important;
+    margin: 1.4rem 0;
+}
+
+.code-block-wrapper > pre {
+    width: 100% !important;
+    margin: 0 !important;
+    overflow: visible !important;
+}
+
+.code-block-wrapper > pre > code {
+    display: block;
+    overflow-x: auto;
 }
 
 .copy-button {
@@ -241,6 +254,10 @@ p code, li code, h1 code, h2 code, h3 code, td code {
 
 /* Responsive adjustments for code blocks */
 @media (max-width: 768px) {
+    .code-block-wrapper {
+        width: 100% !important;
+    }
+
     section > pre,
     .post-content > pre,
     .tufte pre,
