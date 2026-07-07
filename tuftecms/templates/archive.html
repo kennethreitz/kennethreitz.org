@@ -191,6 +191,7 @@
     flex-wrap: wrap;
     gap: 0.65rem;
     width: 65%;
+    box-sizing: border-box;
     margin: 0 0 2rem;
     padding: 0.75rem;
 }
@@ -212,6 +213,8 @@ section h2 {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
+    width: 65%;
+    box-sizing: border-box;
     margin-bottom: 0;
     padding: 0.85rem 0 0.85rem 1rem;
     border-bottom: 1px solid var(--line-soft);
@@ -261,24 +264,49 @@ section p:last-child {
 
 @media (max-width: 1400px) {
     .year-picker {
-        width: 60%;
+        width: 80%;
+    }
+
+    .archive-toolbar,
+    .archive-post,
+    section h2 {
+        width: 80%;
+        max-width: 80%;
     }
 }
 
 @media (max-width: 1200px) {
     .year-picker {
-        width: 70%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .year-picker,
+    .archive-toolbar,
+    .archive-post,
+    section h2 {
+        width: 90%;
+        max-width: 90%;
     }
 }
 
 @media (max-width: 760px) {
     .year-picker {
         width: 100%;
+        box-sizing: border-box;
         padding: 0.8rem 1rem;
     }
 
     .archive-toolbar {
         width: 100%;
+        max-width: 100%;
+    }
+
+    section h2,
+    .archive-post {
+        width: 100%;
+        max-width: 100%;
     }
 
     .archive-post {

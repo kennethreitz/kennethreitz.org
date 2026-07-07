@@ -194,7 +194,18 @@ api.add_health_check("content", _content_health_check)
 # --- Rate limiting ---
 from responder.ext.ratelimit import RateLimiter
 
-RateLimiter(requests=600, period=60).install(api)
+
+def _int_from_env(name: str, default: int) -> int:
+    try:
+        return int(os.environ.get(name, default))
+    except (TypeError, ValueError):
+        return default
+
+
+RateLimiter(
+    requests=_int_from_env("RATE_LIMIT_REQUESTS", 1800),
+    period=_int_from_env("RATE_LIMIT_PERIOD", 60),
+).install(api)
 
 
 # --- Long-lived caching for static assets ---
