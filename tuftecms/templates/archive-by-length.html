@@ -19,7 +19,7 @@
             <a href="/random" class="random-link">Random</a>
         </div>
     </div>
-    <div class="browse-by-type" style="margin-top: 1rem;">
+    <div class="browse-by-type browse-by-type-secondary">
         <strong>Indexes:</strong>
         <div class="type-links">
             <a href="/archive/sidenotes">Sidenotes</a>
@@ -32,7 +32,7 @@
     </div>
 </nav>
 
-<div style="margin-top: 1rem; margin-bottom: 1rem;">
+<div class="archive-toolbar">
     <button id="toggleOrder" class="sort-toggle">Sort: Longest First ↓</button>
 </div>
 
@@ -40,7 +40,7 @@
     {% for group_name, posts in grouped_posts.items() %}
         <section>
             <h2>{{ group_name }} <span class="h2-note" style="color: var(--ink-faint); font-size: 0.85em;">({{ posts|length }} essays)</span></h2>
-            
+
             {% for post in posts %}
                 <div class="archive-post">
                     <div class="archive-post-content">
@@ -66,18 +66,21 @@
 
 <style>
 .year-picker {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 6px;
-    padding: 1rem 1.5rem;
-    margin: 2rem 0;
-    width: 55%;
+    padding: 1.15rem 1.35rem;
+    margin: 2rem 0 1.25rem;
+    width: 65%;
     position: relative;
     z-index: 1;
 }
 
 .browse-by-type {
     font-size: 0.9em;
+}
+
+.browse-by-type + .browse-by-type {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line-soft);
 }
 
 .browse-by-type strong {
@@ -94,16 +97,17 @@
 .type-links a {
     color: var(--ink-muted);
     text-decoration: none;
-    background: var(--line-soft);
-    padding: 0.3rem 0.6rem;
-    border-radius: 3px;
+    background: color-mix(in srgb, var(--surface-raised) 85%, transparent);
+    border: 1px solid var(--line-soft);
+    padding: 0.28rem 0.65rem;
     font-size: 0.85rem;
-    transition: all 0.2s ease;
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
 }
 
 .type-links a:hover {
     color: var(--ink);
-    background: var(--line);
+    background: color-mix(in srgb, var(--accent) 7%, transparent);
+    border-color: color-mix(in srgb, var(--accent) 35%, var(--line));
 }
 
 .reading-time,
@@ -129,6 +133,16 @@
     color: var(--ink-faint);
 }
 
+.archive-toolbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    width: 65%;
+    margin: 0 0 2rem;
+    padding: 0.75rem;
+}
+
 section {
     margin-bottom: 2.5rem;
 }
@@ -143,8 +157,18 @@ section h2 {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
-    margin-bottom: 1.5rem;
-    padding-left: 1rem;
+    margin-bottom: 0;
+    padding: 0.85rem 0 0.85rem 1rem;
+    border-bottom: 1px solid var(--line-soft);
+    transition: background-color 0.15s ease;
+}
+
+.archive-post:hover {
+    background: color-mix(in srgb, var(--surface) 72%, transparent);
+}
+
+.archive-post:last-child {
+    border-bottom: none;
 }
 
 .archive-post-icon {
@@ -157,10 +181,17 @@ section h2 {
 
 .archive-post-content {
     flex: 1;
+    min-width: 0;
 }
 
 .archive-post-content p {
     margin: 0;
+    padding-left: 0;
+    width: auto !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    line-height: 1.42;
+    overflow-wrap: anywhere;
 }
 
 @media (max-width: 1400px) {
@@ -180,13 +211,21 @@ section h2 {
         width: 100%;
         padding: 0.8rem 1rem;
     }
-    
+
+    .archive-toolbar {
+        width: 100%;
+    }
+
+    .archive-post {
+        padding-left: 0;
+    }
+
     .archive-post-icon {
-        margin-left: -2rem;
+        margin-left: 0;
         width: 20px;
         height: 20px;
     }
-    
+
     .reading-time,
     .word-count,
     .post-date {
@@ -194,21 +233,6 @@ section h2 {
         margin-left: 0;
         margin-top: 0.25rem;
     }
-}
-
-.sort-toggle {
-    padding: 0.5rem 1rem;
-    background: var(--line-soft);
-    color: var(--ink);
-    border: 1px solid var(--line);
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: all 0.2s ease;
-}
-
-.sort-toggle:hover {
-    background: var(--line);
 }
 
 /* Each special pill keeps its own category hue (tokens adapt to dark mode). */
@@ -259,22 +283,24 @@ document.addEventListener('DOMContentLoaded', function() {
     const button = document.getElementById('toggleOrder');
     const sections = Array.from(document.querySelectorAll('section'));
     let isDescending = true;
-    
-    button.addEventListener('click', function() {
-        isDescending = !isDescending;
-        
-        // Reverse the sections
-        sections.reverse();
-        
-        // Re-insert them in reversed order
-        const parent = sections[0].parentNode;
-        sections.forEach(section => {
-            parent.appendChild(section);
+
+    if (button && sections.length > 0) {
+        button.addEventListener('click', function() {
+            isDescending = !isDescending;
+
+            // Reverse the sections
+            sections.reverse();
+
+            // Re-insert them in reversed order
+            const parent = sections[0].parentNode;
+            sections.forEach(section => {
+                parent.appendChild(section);
+            });
+
+            // Update button text
+            button.textContent = isDescending ? 'Sort: Longest First ↓' : 'Sort: Shortest First ↑';
         });
-        
-        // Update button text
-        button.textContent = isDescending ? 'Sort: Longest First ↓' : 'Sort: Shortest First ↑';
-    });
+    }
 });
 </script>
 {% endblock %}

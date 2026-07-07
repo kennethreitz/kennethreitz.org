@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<article>
+<article class="collection-index-page">
     <header>
         <h1>Quotes Index</h1>
         <p class="subtitle">Collected wisdom &mdash; {{ total_count }} quotable insights across the digital garden.</p>
@@ -56,8 +56,9 @@
 
     .article-group {
         margin-bottom: 3rem;
-        border-bottom: 1px solid var(--line);
+        border-bottom: 1px solid var(--line-soft);
         padding-bottom: 2rem;
+        max-width: 65%;
     }
 
     .article-group:last-child {
@@ -78,8 +79,9 @@
     }
 
     .article-title {
-        font-size: 1.4rem;
+        font-size: 1.32rem;
         margin: 0;
+        line-height: 1.25;
     }
 
     .article-title a {
@@ -103,14 +105,17 @@
     }
 
     .quotes-list blockquote {
+        width: auto !important;
         margin: 1.5rem 0;
-        padding: 1rem 2rem;
-        border-left: 3px solid var(--line);
-        font-size: 1.3rem;
-        line-height: 1.8;
+        box-sizing: border-box;
+        padding: 1rem 1.4rem;
+        border-left: 2px solid color-mix(in srgb, var(--accent) 25%, var(--line));
+        font-size: 1.22rem;
+        line-height: 1.62;
         color: var(--ink-muted);
         font-style: normal;
-        background: var(--surface);
+        background: color-mix(in srgb, var(--surface) 86%, transparent);
+        border-radius: 0 4px 4px 0;
     }
 
     .quotes-list blockquote:last-child {
@@ -118,9 +123,32 @@
     }
 
     @media (max-width: 768px) {
+        .article-group {
+            max-width: 100%;
+        }
+
+        .article-title-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.65rem;
+        }
+
+        .article-icon {
+            position: static;
+            width: 22px;
+            height: 22px;
+            flex-shrink: 0;
+            margin-top: 0.1rem;
+        }
+
+        .article-title {
+            flex: 1;
+            min-width: 0;
+        }
+
         .quotes-list blockquote {
-            padding: 0.8rem 1.5rem;
-            font-size: 1.2rem;
+            padding: 0.8rem 1rem;
+            font-size: 1.05rem;
         }
     }
 

@@ -41,26 +41,20 @@
     .graph-controls {
         margin-bottom: 1rem;
         display: flex;
-        gap: 0.5rem;
+        gap: 0.6rem;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .graph-controls button {
-        padding: 0.3rem 0.9rem;
-        border: 1px solid var(--line);
-        background: transparent;
-        color: var(--ink-muted);
-        border-radius: 999px;
-        cursor: pointer;
-        font-size: 0.85rem;
-        font-family: inherit;
-        transition: color 0.2s ease, border-color 0.2s ease;
+        background: color-mix(in srgb, var(--surface) 88%, transparent);
     }
 
     .graph-controls button:hover,
     .graph-controls button.active {
-        color: var(--accent);
-        border-color: var(--accent);
+        color: var(--ink);
+        border-color: color-mix(in srgb, var(--accent) 50%, var(--line));
+        background: color-mix(in srgb, var(--accent) 8%, transparent);
     }
 
     #graphStats {
@@ -74,7 +68,8 @@
         border: 1px solid var(--line);
         border-radius: 6px;
         overflow: hidden;
-        background: var(--surface);
+        background: var(--surface-raised);
+        box-shadow: inset 0 1px 0 color-mix(in srgb, white 25%, transparent);
     }
 
     #network-graph {

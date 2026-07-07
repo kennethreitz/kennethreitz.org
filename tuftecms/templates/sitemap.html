@@ -7,7 +7,7 @@
 
     <section>
         <h2>Main Sections</h2>
-        <p>
+        <p class="sitemap-section-links">
             {% for item in sitemap_data.directory %}
             <a href="{{ item.url }}">{{ item.title }}</a>{% if not loop.last %} · {% endif %}
             {% endfor %}
@@ -16,12 +16,14 @@
 
     <section>
         <h2>Essays</h2>
+        <div class="sitemap-list">
         {% for item in sitemap_data.article %}
-        <p>
+        <p class="sitemap-item">
             <a href="{{ item.url }}">{{ item.title }}</a>
-            {% if item.modified %}<span style="color: #999; margin-left: 0.5rem;">{{ item.modified.strftime('%Y-%m-%d') }}</span>{% endif %}
+            {% if item.modified %}<span class="sitemap-date">{{ item.modified.strftime('%Y-%m-%d') }}</span>{% endif %}
         </p>
         {% endfor %}
+        </div>
     </section>
 
     <section>
@@ -29,4 +31,45 @@
         <p><a href="/sitemap.xml">XML Sitemap</a> for search engines</p>
     </section>
 </article>
+
+<style>
+    .sitemap-list {
+        width: 65%;
+    }
+
+    .sitemap-item {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1rem;
+        margin: 0;
+        padding: 0.45rem 0;
+        border-bottom: 1px solid var(--line-soft);
+    }
+
+    .sitemap-item:last-child {
+        border-bottom: none;
+    }
+
+    .sitemap-date {
+        color: var(--ink-faint);
+        font-size: 0.82rem;
+        white-space: nowrap;
+    }
+
+    @media (max-width: 760px) {
+        .sitemap-list {
+            width: 100%;
+        }
+
+        .sitemap-item {
+            display: block;
+        }
+
+        .sitemap-date {
+            display: block;
+            margin-top: 0.1rem;
+        }
+    }
+</style>
 {% endblock %}

@@ -6,18 +6,20 @@
 <style>
     .search-container {
         max-width: 65%;
-        margin: 2rem 0;
+        margin: 1.5rem 0 3rem;
     }
 
     .search-input {
         width: 100%;
-        padding: 0.85rem 1.1rem;
+        padding: 0.95rem 1.15rem;
         font-size: 1.25rem;
         border: 1px solid var(--line);
         border-radius: 6px;
         font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-        background-color: var(--surface);
+        background-color: color-mix(in srgb, var(--surface-raised) 88%, transparent);
         color: var(--ink);
+        box-shadow: inset 0 1px 0 color-mix(in srgb, white 35%, transparent);
+        transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
     }
 
     .search-input::placeholder {
@@ -28,20 +30,21 @@
     .search-input:focus {
         outline: none;
         border-color: var(--accent);
-        box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 15%, transparent);
+        background: var(--surface-raised);
+        box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent);
     }
 
     .autocomplete-list {
         position: absolute;
-        background: var(--surface);
+        background: var(--surface-raised);
         border: 1px solid var(--line);
         border-top: none;
-        border-radius: 0 0 4px 4px;
+        border-radius: 0 0 6px 6px;
         max-height: 300px;
         overflow-y: auto;
         width: 100%;
         z-index: 9999;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        box-shadow: var(--shadow-soft);
         display: none;
     }
     
@@ -52,11 +55,12 @@
         display: flex;
         align-items: center;
         gap: 0.75rem;
+        transition: background-color 0.15s ease;
     }
     
     .autocomplete-item:hover,
     .autocomplete-item.active {
-        background: var(--line-soft);
+        background: color-mix(in srgb, var(--accent) 8%, transparent);
     }
     
     .autocomplete-icon {
@@ -79,9 +83,14 @@
     }
     
     .search-result {
-        padding: 1.5rem 0;
+        padding: 1.25rem 0;
         border-bottom: 1px solid var(--line-soft);
         position: relative;
+        transition: background-color 0.15s ease;
+    }
+
+    .search-result:hover {
+        background: color-mix(in srgb, var(--surface) 72%, transparent);
     }
     
     .search-result:last-child {
@@ -103,7 +112,8 @@
     
     .search-result h3 {
         margin: 0;
-        font-size: 1.3rem;
+        font-size: 1.28rem;
+        line-height: 1.25;
     }
     
     .search-result h3 a {
@@ -125,9 +135,9 @@
 
     .search-result-type {
         display: inline-block;
-        background: var(--line-soft);
-        padding: 0.2rem 0.5rem;
-        border-radius: 3px;
+        background: color-mix(in srgb, var(--accent) 8%, transparent);
+        border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--line-soft));
+        padding: 0.14rem 0.55rem;
         font-size: 0.8rem;
         margin-right: 0.5rem;
     }
@@ -141,8 +151,8 @@
     
     .search-result-snippet {
         color: var(--ink-muted);
-        font-size: 0.9rem;
-        line-height: 1.4;
+        font-size: 0.95rem;
+        line-height: 1.45;
         margin-top: 0.5rem;
     }
 
@@ -163,7 +173,7 @@
     .no-results {
         text-align: center;
         color: var(--ink-muted);
-        padding: 2rem 0;
+        padding: 2.2rem 0;
     }
     
     @media (max-width: 1400px) {
@@ -182,6 +192,10 @@
         .search-container {
             max-width: 100%;
         }
+
+        .search-input {
+            font-size: 1.08rem;
+        }
         
         .autocomplete-list {
             font-size: 0.9rem;
@@ -195,11 +209,24 @@
             width: 20px;
             height: 20px;
         }
-        
+
+        .search-result-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.65rem;
+        }
+
         .search-result-icon {
-            width: 28px;
-            height: 28px;
-            left: -3rem;
+            position: static;
+            width: 22px;
+            height: 22px;
+            margin-top: 0.12rem;
+            flex-shrink: 0;
+        }
+
+        .search-result h3 {
+            flex: 1;
+            min-width: 0;
         }
     }
 </style>
@@ -207,6 +234,7 @@
 
 {% block content %}
 <h1>Search</h1>
+<p class="subtitle">Find essays, projects, notes, themes, and older paths across the garden.</p>
 
 <div class="search-container">
     <div class="search-input-wrapper">

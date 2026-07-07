@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<article>
+<article class="collection-index-page">
     <header>
         <h1>Outlines Index</h1>
         <p class="subtitle">Structural navigation &mdash; {{ total_count }} headings across the digital garden.</p>
@@ -58,8 +58,9 @@
 
     .article-group {
         margin-bottom: 3rem;
-        border-bottom: 1px solid var(--line);
+        border-bottom: 1px solid var(--line-soft);
         padding-bottom: 2rem;
+        max-width: 65%;
     }
 
     .article-group:last-child {
@@ -80,8 +81,9 @@
     }
 
     .article-title {
-        font-size: 1.4rem;
+        font-size: 1.32rem;
         margin: 0;
+        line-height: 1.25;
     }
 
     .article-title a {
@@ -106,13 +108,13 @@
 
     .outline-entry {
         margin-bottom: 0.4rem;
-        font-size: 1.15rem;
+        font-size: 1.08rem;
         line-height: 1.5;
     }
 
     .outline-entry.level-1 {
         font-weight: bold;
-        font-size: 1.3rem;
+        font-size: 1.22rem;
         color: var(--ink);
         padding-left: 0;
     }
@@ -153,6 +155,29 @@
     }
 
     @media (max-width: 768px) {
+        .article-group {
+            max-width: 100%;
+        }
+
+        .article-title-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.65rem;
+        }
+
+        .article-icon {
+            position: static;
+            width: 22px;
+            height: 22px;
+            flex-shrink: 0;
+            margin-top: 0.1rem;
+        }
+
+        .article-title {
+            flex: 1;
+            min-width: 0;
+        }
+
         .outline-entry.level-2 { padding-left: 1rem; }
         .outline-entry.level-3 { padding-left: 2rem; }
         .outline-entry.level-4 { padding-left: 3rem; }

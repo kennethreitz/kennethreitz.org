@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<article>
+<article class="collection-index-page">
     <header>
         <h1>Sidenotes Index</h1>
         <p class="subtitle">The contemplative layer &mdash; {{ total_count }} marginalia across the digital garden.</p>
@@ -62,8 +62,9 @@
 
     .article-group {
         margin-bottom: 3rem;
-        border-bottom: 1px solid var(--line);
+        border-bottom: 1px solid var(--line-soft);
         padding-bottom: 2rem;
+        max-width: 65%;
     }
 
     .article-group:last-child {
@@ -84,8 +85,9 @@
     }
 
     .article-title {
-        font-size: 1.4rem;
+        font-size: 1.32rem;
         margin: 0;
+        line-height: 1.25;
     }
 
     .article-title a {
@@ -109,11 +111,11 @@
     }
 
     .sidenote-entry {
-        margin-bottom: 1.2rem;
-        padding-left: 2rem;
-        border-left: 3px solid var(--line-soft);
-        font-size: 1.4rem;
-        line-height: 1.8;
+        margin-bottom: 1rem;
+        padding-left: 1.4rem;
+        border-left: 2px solid color-mix(in srgb, var(--accent) 25%, var(--line-soft));
+        font-size: 1.25rem;
+        line-height: 1.65;
         color: var(--ink);
         font-style: italic;
     }
@@ -142,7 +144,7 @@
 
     .sidenote-link:hover {
         color: var(--ink);
-        background-color: var(--line-soft);
+        background-color: color-mix(in srgb, var(--accent) 6%, transparent);
         margin-left: -0.5rem;
         padding-left: 0.5rem;
         border-radius: 3px;
@@ -151,6 +153,29 @@
     @media (max-width: 768px) {
         .sidenotes-list {
             padding-left: 0.5rem;
+        }
+
+        .article-group {
+            max-width: 100%;
+        }
+
+        .article-title-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.65rem;
+        }
+
+        .article-icon {
+            position: static;
+            width: 22px;
+            height: 22px;
+            flex-shrink: 0;
+            margin-top: 0.1rem;
+        }
+
+        .article-title {
+            flex: 1;
+            min-width: 0;
         }
         
         .sidenote-entry {
