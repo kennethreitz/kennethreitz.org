@@ -309,6 +309,10 @@
 }
 
 /* Directory title icon */
+.directory-title--no-breadcrumb {
+    margin-top: 1.35rem;
+}
+
 .directory-title-icon {
     width: 32px;
     height: 32px;
@@ -344,8 +348,10 @@
 {% endblock %}
 
 {% block content %}
+{% set path_parts = current_path.strip('/').split('/') if current_path else [] %}
+{% set has_visible_breadcrumbs = path_parts|length > 1 %}
 {% if current_path and current_path != '' %}
-    <h1>
+    <h1 class="directory-title{% if not has_visible_breadcrumbs %} directory-title--no-breadcrumb{% endif %}">
         {% if folder_icon %}
         <img src="{{ folder_icon }}" alt="Folder icon" class="directory-title-icon">
         {% endif %}
