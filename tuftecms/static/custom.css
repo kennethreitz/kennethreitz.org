@@ -939,11 +939,6 @@ pre .comment {
         text-underline-offset: 2px !important;
     }
 
-    /* Ensure no double font rendering */
-    * {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-    }
 }
 
 /* ========================================= */

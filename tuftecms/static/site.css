@@ -191,7 +191,7 @@ header {
     z-index: 9999;
 }
 
-nav {
+header nav {
     position: relative;
     z-index: 9999;
 }
