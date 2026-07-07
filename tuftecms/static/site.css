@@ -440,6 +440,10 @@ article {
    ========================================= */
 
 .footer-map {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0 0.45rem;
     margin-top: 2.5rem;
     padding-top: 1rem;
     border-top: 1px solid var(--line);
@@ -448,7 +452,17 @@ article {
 }
 .footer-map a { color: var(--ink-faint); text-decoration: none; }
 .footer-map a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); }
-.footer-map .sep { margin: 0 0.45rem; color: var(--line); }
+.footer-map .sep { color: var(--line); }
+
+@media (max-width: 760px) {
+    .footer-map {
+        gap: 0.15rem 0.7rem;
+    }
+
+    .footer-map .sep {
+        display: none;
+    }
+}
 
 /* =========================================
    Keep Reading (related essays)

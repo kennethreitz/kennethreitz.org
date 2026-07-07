@@ -46,20 +46,24 @@
 
 {% block extra_head %}
 <style>
-    /* Post header — Tufte-style, colored entirely by the design tokens. */
-    .post-title-container {
-        display: flex;
-        align-items: flex-start;
-        gap: 1rem;
-        margin-bottom: 0.5rem;
+    .post-shell {
+        padding: 0 !important;
+    }
+
+    .post-header {
+        margin-bottom: 2.75rem;
+        padding-bottom: 1.4rem;
+        border-bottom: 1px solid var(--line-soft);
         width: 70%;
     }
 
-    .post-title-icon {
-        width: 48px;
-        height: 48px;
-        flex-shrink: 0;
-        margin-left: -4rem;
+    /* Post header: Tufte-style, colored entirely by the design tokens. */
+    .post-title-container {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.1rem;
+        margin-bottom: 0.5rem;
+        width: 100%;
     }
 
     .post-title-text {
@@ -68,7 +72,7 @@
         flex-direction: column;
     }
 
-    article h1 {
+    .post-title {
         font-size: 3.2rem;
         font-style: italic;
         font-weight: 400;
@@ -77,6 +81,24 @@
         color: var(--ink);
         text-rendering: optimizeLegibility;
         text-wrap: balance;
+    }
+
+    .post-title-icon {
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+        margin-left: -4rem;
+        margin-top: 0.45rem;
+    }
+
+    .post-description {
+        color: var(--ink-muted);
+        font-size: 1.25rem;
+        font-style: italic;
+        line-height: 1.45;
+        margin: 1rem 0 0;
+        width: 92% !important;
+        text-align: left !important;
     }
 
     /* A fleuron closes each dated essay. */
@@ -97,15 +119,15 @@
         justify-content: space-between;
         gap: 2rem;
         width: 65%;
-        margin-top: 2.5rem;
-        padding-top: 1.25rem;
+        margin-top: 3rem;
+        padding-top: 1.5rem;
         border-top: 1px solid var(--line-soft);
     }
 
     .post-nav-item {
         display: flex;
         flex-direction: column;
-        gap: 0.2rem;
+        gap: 0.35rem;
         max-width: 46%;
     }
 
@@ -123,21 +145,63 @@
 
     .post-nav a {
         font-size: 1.05rem;
+        line-height: 1.25;
+        text-decoration-thickness: 0.05em;
+    }
+
+    .post-shell .related-essays {
+        width: 65%;
+        margin-top: 3.75rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--line-soft);
+    }
+
+    .post-shell .related-essays h2 {
+        color: var(--ink-muted);
+        font-size: 1.15rem !important;
+        font-style: normal;
+        font-variant: small-caps;
+        font-weight: 400;
+        letter-spacing: 0.06em;
+        margin: 0 0 1rem !important;
+    }
+
+    .post-shell .related-essays li {
+        gap: 0.7rem;
+        margin: 0.65rem 0;
+        line-height: 1.25;
+    }
+
+    .post-shell .related-essays a {
+        text-decoration-thickness: 0.05em;
     }
 
     .post-subtitle {
-        font-variant: small-caps;
-        font-size: 1.1rem;
+        font-size: 0.98rem;
         color: var(--ink-muted);
-        letter-spacing: 0.1em;
-        margin-bottom: 3rem;
+        margin-top: 1.25rem;
         display: flex;
         align-items: center;
-        gap: 1.5rem;
+        justify-content: space-between;
+        gap: 1rem;
         font-family: et-book-roman-old-style, et-book, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
     }
 
-    /* Quiet badges: date companions, not confetti. */
+    .post-meta-primary,
+    .post-actions {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+    }
+
+    .post-date {
+        color: var(--ink-muted);
+        font-variant: small-caps;
+        letter-spacing: 0.08em;
+    }
+
+    /* Quiet badges: date companions. */
     .reading-time-badge,
     .themes-badge,
     .pdf-badge,
@@ -148,27 +212,32 @@
         font-weight: 400;
         font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
         color: var(--ink-muted);
-        background: transparent;
-        border: 1px solid var(--line);
+        background: color-mix(in srgb, var(--surface) 82%, transparent);
+        border: 1px solid var(--line-soft);
         border-radius: 999px;
-        padding: 0.15rem 0.7rem;
+        padding: 0.18rem 0.68rem;
         text-decoration: none;
-        display: inline-block;
-        transition: color 0.2s ease, border-color 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        min-height: 1.5rem;
+        transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
     }
 
-    .themes-badge { cursor: pointer; }
+    .themes-badge {
+        cursor: pointer;
+    }
 
     .themes-badge:hover,
     .pdf-badge:hover,
     .markdown-badge:hover {
         color: var(--accent);
         border-color: var(--accent);
+        background: color-mix(in srgb, var(--accent) 7%, transparent);
     }
 
     .pdf-badge,
     .markdown-badge {
-        margin-left: 0.5rem;
+        margin-left: 0;
     }
 
     .formats-label {
@@ -189,8 +258,8 @@
         display: none;
         position: absolute;
         background-color: var(--surface);
-        min-width: 200px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        min-width: 220px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
         border: 1px solid var(--line);
         border-radius: 6px;
         z-index: 9999;
@@ -213,10 +282,6 @@
     .themes-dropdown-content a:hover {
         background-color: var(--line-soft);
         color: var(--ink);
-    }
-
-    .themes-dropdown-content.show {
-        display: block;
     }
 
     @media (max-width: 768px) {
@@ -244,9 +309,27 @@
         }
     }
 
-    /* Text alignment */
-    section p,
-    article p:not(.sidenote):not(.marginnote) {
+    .themes-dropdown-content.show {
+        display: block;
+    }
+
+    .sidenote-highlighted {
+        background: color-mix(in srgb, var(--accent) 11%, transparent);
+        border-left: 2px solid color-mix(in srgb, var(--accent) 50%, var(--line));
+        color: var(--ink);
+        padding-left: 0.75rem;
+        transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    /* Reading body */
+    .post-body p,
+    .post-body li,
+    .post-body blockquote {
+        line-height: 1.55;
+    }
+
+    .post-body p,
+    .post-shell p:not(.sidenote):not(.marginnote) {
         text-align: justify;
         text-justify: inter-word;
         hyphens: auto;
@@ -258,8 +341,23 @@
         margin-right: auto !important;
     }
 
+    .post-body > p:first-child {
+        margin-top: 0;
+    }
+
+    .post-body > p:first-child:not(:has(img)) {
+        font-size: 1.45rem;
+        line-height: 1.48;
+    }
+
+    .post-body h2,
+    .post-body h3,
+    .post-body h4 {
+        text-wrap: balance;
+    }
+
     /* Asterism HR styling */
-    article hr {
+    .post-shell hr {
         width: 65%;
         max-width: 65%;
         margin: 4rem 0;
@@ -360,36 +458,63 @@
 
     @media (max-width: 760px) {
 
-        article h1 {
-            font-size: 2.5rem;
+        .post-shell {
+            padding: 0 !important;
+        }
+
+        .post-header {
+            width: 100%;
+            margin-bottom: 2.2rem;
+            padding-bottom: 1.15rem;
+        }
+
+        .post-title {
+            font-size: 2.25rem;
             width: 100%;
         }
 
         .post-subtitle {
-            font-size: 1rem;
-            margin-bottom: 2rem;
+            align-items: flex-start;
+            font-size: 0.92rem;
+            margin-top: 1rem;
         }
 
         .post-title-container {
+            display: block;
             width: 100%;
-            gap: 0.75rem;
         }
 
         .post-title-icon {
             margin-left: 0;
-            width: 32px;
-            height: 32px;
+            margin-top: 0;
+            margin-bottom: 0.85rem;
+            width: 30px;
+            height: 30px;
         }
 
-        article hr {
+        .post-description {
+            font-size: 1.08rem;
+            width: 100% !important;
+        }
+
+        .post-shell hr {
             width: 100%;
             max-width: 100%;
         }
 
-        section p,
-        article p:not(.sidenote):not(.marginnote) {
+        .post-body p,
+        .post-body li,
+        .post-shell p:not(.sidenote):not(.marginnote) {
             width: 100% !important;
             max-width: 100% !important;
+            text-align: left !important;
+            hyphens: none;
+            -webkit-hyphens: none;
+        }
+
+        .post-body > p:first-child:not(:has(img)) {
+            font-size: 1.22rem;
+            line-height: 1.5;
         }
 
         .directory-listing {
@@ -414,7 +539,8 @@
         }
 
         .dated-post::after,
-        .post-nav {
+        .post-nav,
+        .post-shell .related-essays {
             width: 100%;
         }
 
@@ -466,22 +592,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Highlight the sidenote permanently
                 const sidenote = checkbox.nextElementSibling;
                 if (sidenote && sidenote.classList.contains('sidenote')) {
-                    const isDark = document.body.classList.contains('dark-mode') ||
-                                   window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-                    if (isDark) {
-                        // Baller dark mode styling with golden glow
-                        sidenote.style.background = 'linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(255, 193, 7, 0.12))';
-                        sidenote.style.color = '#ffd700';
-                        sidenote.style.textShadow = '0 0 20px rgba(255, 215, 0, 0.3)';
-                        sidenote.style.borderLeft = '2px solid rgba(255, 215, 0, 0.4)';
-                        sidenote.style.paddingLeft = '0.75rem';
-                    } else {
-                        sidenote.style.backgroundColor = 'rgba(255, 235, 59, 0.3)';
-                        sidenote.style.color = '#111';
-                    }
-
-                    sidenote.style.transition = 'all 0.3s ease';
+                    sidenote.classList.add('sidenote-highlighted');
                 }
             }, 100);
         }
@@ -494,12 +605,14 @@ document.addEventListener('DOMContentLoaded', function() {
     if (themesButton && themesDropdown) {
         themesButton.addEventListener('click', function(e) {
             e.stopPropagation();
-            themesDropdown.classList.toggle('show');
+            const isOpen = themesDropdown.classList.toggle('show');
+            themesButton.setAttribute('aria-expanded', String(isOpen));
         });
 
         // Close dropdown when clicking outside
         document.addEventListener('click', function() {
             themesDropdown.classList.remove('show');
+            themesButton.setAttribute('aria-expanded', 'false');
         });
     }
 
@@ -508,37 +621,47 @@ document.addEventListener('DOMContentLoaded', function() {
 {% endblock %}
 
 {% block content %}
-<article>
-    <div class="post-title-container">
-        {% if unique_icon %}
-        <img src="{{ unique_icon }}" alt="Icon for {{ title }}" class="post-title-icon">
-        {% endif %}
-        <div class="post-title-text">
-            <h1>{{ title }}</h1>
+<article class="post-shell">
+    <header class="post-header">
+        <div class="post-title-container{% if unique_icon %} has-icon{% endif %}">
+            {% if unique_icon %}
+            <img src="{{ unique_icon }}" alt="Icon for {{ title }}" class="post-title-icon">
+            {% endif %}
+            <div class="post-title-text">
+                <h1 class="post-title">{{ title }}</h1>
+                {% if description %}
+                <p class="post-description">{{ description }}</p>
+                {% endif %}
+            </div>
         </div>
-    </div>
-    {% if metadata and metadata.date %}
-    <div class="post-subtitle">
-        {{ metadata.date if metadata.date is string else metadata.date[0] }}
-        {% if reading_time %}
-        <span class="reading-time-badge">{{ reading_time }} min read</span>
-        {% endif %}
-        {% if article_themes and article_themes|length > 0 %}
-        <div class="themes-dropdown">
-            <button class="themes-badge">{{ article_themes|length }} theme{{ 's' if article_themes|length != 1 else '' }}</button>
-            <div class="themes-dropdown-content">
-                {% for theme in article_themes %}
-                <a href="/archive/themes#{{ theme.name|replace(' ', '-') }}">{{ theme.name }}</a>
-                {% endfor %}
+        {% if metadata and metadata.date %}
+        {% set post_date = metadata.date if metadata.date is string else metadata.date[0] %}
+        <div class="post-subtitle" aria-label="Article metadata">
+            <div class="post-meta-primary">
+                <time class="post-date" datetime="{{ published_iso or post_date }}">{{ post_date }}</time>
+                {% if reading_time %}
+                <span class="reading-time-badge">{{ reading_time }} min read</span>
+                {% endif %}
+            </div>
+            <div class="post-actions">
+                {% if article_themes and article_themes|length > 0 %}
+                <div class="themes-dropdown">
+                    <button class="themes-badge" type="button" aria-expanded="false" aria-haspopup="true">{{ article_themes|length }} theme{{ 's' if article_themes|length != 1 else '' }}</button>
+                    <div class="themes-dropdown-content">
+                        {% for theme in article_themes %}
+                        <a href="/archive/themes#{{ theme.name|replace(' ', '-') }}">{{ theme.name }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+                {% if pdf_available %}
+                <a href="{{ request.path }}.pdf" class="pdf-badge" title="Download as PDF">PDF</a>
+                {% endif %}
+                <a href="{{ request.path }}.md" class="markdown-badge" title="View Markdown source">Markdown</a>
             </div>
         </div>
         {% endif %}
-        {% if pdf_available %}
-        <a href="{{ request.path }}.pdf" class="pdf-badge" title="Download as PDF">PDF</a>
-        {% endif %}
-        <a href="{{ request.path }}.md" class="markdown-badge" title="View Markdown source">Markdown</a>
-    </div>
-    {% endif %}
+    </header>
     
     {% if items %}
     <div class="directory-listing">
@@ -564,7 +687,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     {% endif %}
 
-    <section{% if metadata and metadata.date %} class="dated-post"{% endif %}>
+    <section class="post-body{% if metadata and metadata.date %} dated-post{% endif %}">
         {{ content | safe }}
     </section>
 

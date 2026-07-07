@@ -715,25 +715,25 @@ a {
 @media (max-width: 1000px) {
     .margin-toggle:checked + .sidenote,
     .margin-toggle:checked + .marginnote {
-        background: rgba(255, 235, 59, 0.15);
+        background: color-mix(in srgb, var(--accent) 10%, transparent);
         padding: 1rem;
         border-radius: 6px;
-        border-left: 3px solid rgba(255, 193, 7, 0.5);
+        border-left: 3px solid color-mix(in srgb, var(--accent) 45%, var(--line));
     }
 
     body.dark-mode .margin-toggle:checked + .sidenote,
     body.dark-mode .margin-toggle:checked + .marginnote {
-        background: rgba(255, 193, 7, 0.1);
-        border-left-color: rgba(255, 193, 7, 0.3);
-        color: #c9d1d9;
+        background: color-mix(in srgb, var(--accent) 12%, transparent);
+        border-left-color: color-mix(in srgb, var(--accent) 50%, var(--line));
+        color: var(--ink);
     }
 
     @media (prefers-color-scheme: dark) {
         .margin-toggle:checked + .sidenote,
         .margin-toggle:checked + .marginnote {
-            background: rgba(255, 193, 7, 0.1);
-            border-left-color: rgba(255, 193, 7, 0.3);
-            color: #c9d1d9;
+            background: color-mix(in srgb, var(--accent) 12%, transparent);
+            border-left-color: color-mix(in srgb, var(--accent) 50%, var(--line));
+            color: var(--ink);
         }
     }
 }
@@ -741,29 +741,31 @@ a {
 /* Targeted sidenote (from anchor link) */
 .sidenote:target,
 .marginnote:target {
-    background: rgba(255, 235, 59, 0.3);
+    background: color-mix(in srgb, var(--accent) 11%, transparent);
     padding: 0.5rem;
     margin: -0.5rem;
     border-radius: 4px;
     transition: background 0.3s ease;
+    border-left: 2px solid color-mix(in srgb, var(--accent) 50%, var(--line));
+    padding-left: 0.75rem;
 }
 
 body.dark-mode .sidenote:target,
 body.dark-mode .marginnote:target {
-    background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(255, 193, 7, 0.12));
-    color: #ffd700;
-    text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
-    border-left: 2px solid rgba(255, 215, 0, 0.4);
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+    color: var(--ink);
+    text-shadow: none;
+    border-left: 2px solid color-mix(in srgb, var(--accent) 50%, var(--line));
     padding-left: 0.75rem;
 }
 
 @media (prefers-color-scheme: dark) {
     .sidenote:target,
     .marginnote:target {
-        background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(255, 193, 7, 0.12));
-        color: #ffd700;
-        text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
-        border-left: 2px solid rgba(255, 215, 0, 0.4);
+        background: color-mix(in srgb, var(--accent) 12%, transparent);
+        color: var(--ink);
+        text-shadow: none;
+        border-left: 2px solid color-mix(in srgb, var(--accent) 50%, var(--line));
         padding-left: 0.75rem;
     }
 }
