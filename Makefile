@@ -1,6 +1,9 @@
 init:
 	uv sync
 
+test:
+	uv run pytest
+
 run:
 	uv run granian --interface asgi --host 0.0.0.0 --port 8000 --reload engine:api
 

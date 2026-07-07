@@ -48,6 +48,15 @@ DATA_DIR = Path("data")
 
 # --- Search index (built once at startup) ---
 _search_index = []
+_search_index_lock = threading.Lock()
+
+
+def _ensure_search_index():
+    """Build the search index on first use if warming hasn't gotten to it yet."""
+    if not _search_index:
+        with _search_index_lock:
+            if not _search_index:
+                _build_search_index()
 
 
 def _build_search_index():
@@ -524,12 +533,6 @@ async def sitemap_xml(req, resp):
         "/terms",
         "/graph",
         "/search",
-        "/docs",
-        "/docs/getting-started",
-        "/docs/content-structure",
-        "/docs/sidenotes",
-        "/docs/customization",
-        "/docs/deployment",
     ]
 
     for page in static_pages:
@@ -1699,6 +1702,7 @@ async def api_search(
         }
         return
 
+    _ensure_search_index()
     results = []
     query_lower = query.lower()
 
@@ -1768,6 +1772,7 @@ async def api_search_autocomplete(
         resp.media = {"results": []}
         return
 
+    _ensure_search_index()
     query_lower = query.lower()
     matches = []
 
@@ -2170,7 +2175,7 @@ def _build_legacy_index():
         if match.name == "index.md":
             continue
         stem = match.stem
-        stripped = re.sub(r"^\d{4}-\d{2}-", "", stem)
+        stripped = re.sub(r"^\d{4}-\d{2}(?:-\d{2})?-", "", stem)
         rel = match.relative_to(DATA_DIR)
         url = f"/{rel.with_suffix('')}"
         _legacy_files[stripped] = url
