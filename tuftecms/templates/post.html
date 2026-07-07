@@ -57,7 +57,7 @@
         width: 70%;
     }
 
-    .post-header--top-level-directory {
+    .post-header--no-breadcrumb {
         margin-top: 1.35rem;
     }
 
@@ -628,7 +628,7 @@ document.addEventListener('DOMContentLoaded', function() {
 {% set post_path_parts = current_path.strip('/').split('/') if current_path else [] %}
 {% set has_visible_breadcrumbs = post_path_parts|length > 1 %}
 <article class="post-shell">
-    <header class="post-header{% if items is defined and not has_visible_breadcrumbs %} post-header--top-level-directory{% endif %}">
+    <header class="post-header{% if not has_visible_breadcrumbs %} post-header--no-breadcrumb{% endif %}">
         <div class="post-title-container{% if unique_icon %} has-icon{% endif %}">
             {% if unique_icon %}
             <img src="{{ unique_icon }}" alt="Icon for {{ title }}" class="post-title-icon">
