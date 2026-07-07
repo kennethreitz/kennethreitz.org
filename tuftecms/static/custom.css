@@ -169,14 +169,13 @@ article .marginnote {
 /* Code Blocks */
 /* ========================================= */
 
-/* Code blocks: a quiet inset surface, wider than the text column but
-   not the whole viewport. */
+/* Code blocks: a quiet inset surface, aligned with the text column.
+   Long lines scroll inside the block instead of widening it. */
 section > pre,
 .post-content > pre,
 .tufte pre,
 pre {
-    width: 90% !important;
-    max-width: 1100px !important;
+    width: 65% !important;
     margin-left: 0 !important;
     margin-right: auto !important;
     position: relative;
@@ -440,6 +439,29 @@ header nav a:last-child {
         gap: 0.75rem;
         width: 95%;
     }
+}
+
+/* ========================================= */
+/* Blockquotes & Content Images */
+/* ========================================= */
+
+/* Blockquotes: a hairline rule, room to breathe. */
+blockquote {
+    border-left: 2px solid var(--line);
+    padding-left: 1.25rem;
+}
+
+/* Epigraphs stand alone, unruled. */
+div.epigraph > blockquote {
+    border-left: none;
+    padding-left: 0;
+}
+
+/* Content images sit like plates in a book. */
+article section p > img,
+article section figure img {
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
 /* ========================================= */

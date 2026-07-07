@@ -563,3 +563,91 @@ article {
     color: var(--accent);
     border-color: var(--accent);
 }
+
+/* =========================================
+   Bookish refinements
+   ========================================= */
+
+/* Motion: smooth where welcome, still where not. */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
+}
+
+/* Scrollbar keeps to the palette. */
+html {
+    scrollbar-color: var(--line) transparent;
+}
+
+/* Underlines: quiet by default, accent on hover (hover rule above). */
+a:link,
+a:visited {
+    text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+    transition: text-decoration-color 0.15s ease;
+}
+
+/* Navigation as running heads: small caps, airy tracking. */
+header nav a,
+header nav .nav-dropdown-trigger {
+    font-variant: small-caps;
+    letter-spacing: 0.06em;
+}
+
+.footer-map a {
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+}
+
+/* Sidenote numbers carry the accent into the margin. */
+.sidenote-number::after,
+.sidenote::before {
+    color: var(--accent);
+}
+
+/* The asterism leans toward the accent. */
+hr::before {
+    color: color-mix(in srgb, var(--accent) 60%, var(--ink-faint));
+}
+
+/* Old-style figures for dates and counts, as a book would set them. */
+.recent-post-date,
+.post-date,
+.item-date,
+.filter-count,
+.year-count {
+    font-family: et-book-roman-old-style, et-book, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+/* List markers recede. */
+main li::marker {
+    color: var(--ink-faint);
+}
+
+/* Tables: hairline book rules, small-caps headers. */
+main table {
+    border-collapse: collapse;
+}
+
+main th {
+    font-weight: 400;
+    font-variant: small-caps;
+    letter-spacing: 0.04em;
+    text-align: left;
+    border-bottom: 1px solid var(--line);
+    padding: 0.4rem 1rem 0.4rem 0;
+}
+
+main td {
+    border-bottom: 1px solid var(--line-soft);
+    padding: 0.4rem 1rem 0.4rem 0;
+}
