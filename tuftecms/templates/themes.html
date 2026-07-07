@@ -44,7 +44,7 @@
 <style>
 .subtitle {
     font-style: italic;
-    color: #666;
+    color: var(--ink-muted);
     margin-top: -1rem;
     margin-bottom: 2.5rem;
     font-size: 1.1rem;
@@ -53,7 +53,7 @@
 .theme-section {
     margin-bottom: 3rem;
     padding-bottom: 2rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--line-soft);
     scroll-margin-top: 2rem;
     max-width: 65%;
 }
@@ -69,7 +69,7 @@
 .theme-header strong {
     font-size: 1.4rem;
     font-weight: 600;
-    color: #333;
+    color: var(--ink);
 }
 
 .theme-details {
@@ -80,16 +80,16 @@
     cursor: pointer;
     padding: 0.5rem 0 0.5rem 1rem;
     user-select: none;
-    color: #666;
+    color: var(--ink-muted);
     font-size: 0.9rem;
 }
 
 .theme-details summary:hover {
-    color: #000;
+    color: var(--ink);
 }
 
 .theme-count {
-    color: #999;
+    color: var(--ink-faint);
     font-size: 1rem;
     margin-left: 0.75rem;
     font-weight: 400;
@@ -108,6 +108,10 @@
     gap: 0.75rem;
 }
 
+.theme-details ul li a {
+    color: var(--ink);
+}
+
 .article-icon {
     width: 16px;
     height: 16px;
@@ -115,13 +119,13 @@
 }
 
 .date {
-    color: #999;
+    color: var(--ink-faint);
     font-size: 0.85rem;
     margin-left: 0.5rem;
 }
 
 .theme-description {
-    color: #666;
+    color: var(--ink-muted);
     font-size: 1rem;
     font-style: italic;
     margin: 0 0 1rem 0;
@@ -150,82 +154,6 @@
     .theme-details ul {
         padding-left: 2rem;
     }
-}
-
-body.light-mode .subtitle {
-    color: #666 !important;
-}
-
-body.light-mode .theme-section {
-    border-bottom-color: #eee !important;
-}
-
-body.light-mode .theme-header strong {
-    color: #333 !important;
-}
-
-body.light-mode .theme-description {
-    color: #666 !important;
-}
-
-body.light-mode .theme-details summary {
-    color: #666 !important;
-}
-
-body.light-mode .theme-details summary:hover {
-    color: #000 !important;
-}
-
-body.light-mode .date {
-    color: #999 !important;
-}
-
-body.light-mode .theme-details ul li a {
-    color: #333 !important;
-}
-
-body.light-mode .theme-count {
-    color: #999 !important;
-}
-
-body.dark-mode .subtitle {
-    color: #999;
-}
-
-body.dark-mode .theme-section {
-    border-bottom-color: #2a2a2a;
-}
-
-body.dark-mode .theme-header strong {
-    color: #e5e5e5;
-}
-
-body.dark-mode .theme-description {
-    color: #999;
-}
-
-body.dark-mode .theme-details summary {
-    color: #999;
-}
-
-body.dark-mode .theme-details summary:hover {
-    color: #ccc;
-}
-
-body.dark-mode .date {
-    color: #666;
-}
-
-body.dark-mode .theme-details ul li a {
-    color: #ccc;
-}
-
-body.dark-mode .theme-details ul li a:hover {
-    color: #fff;
-}
-
-body.dark-mode .theme-count {
-    color: #666;
 }
 </style>
 

@@ -49,14 +49,14 @@
 <style>
     .subtitle {
         font-style: italic;
-        color: #666;
+        color: var(--ink-muted);
         margin-top: -1rem;
         margin-bottom: 2rem;
     }
 
     .article-group {
         margin-bottom: 3rem;
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid var(--line);
         padding-bottom: 2rem;
     }
 
@@ -83,18 +83,18 @@
     }
 
     .article-title a {
-        color: #333;
+        color: var(--ink);
         text-decoration: none;
     }
 
     .article-title a:hover {
-        color: #000;
+        color: var(--accent);
         text-decoration: underline;
     }
 
     .article-meta {
         font-size: 0.9rem;
-        color: #888;
+        color: var(--ink-faint);
         margin-bottom: 1.5rem;
     }
 
@@ -105,12 +105,12 @@
     .quotes-list blockquote {
         margin: 1.5rem 0;
         padding: 1rem 2rem;
-        border-left: 3px solid #e0e0e0;
+        border-left: 3px solid var(--line);
         font-size: 1.3rem;
         line-height: 1.8;
-        color: #444;
+        color: var(--ink-muted);
         font-style: normal;
-        background: #fafafa;
+        background: var(--surface);
     }
 
     .quotes-list blockquote:last-child {
@@ -121,88 +121,6 @@
         .quotes-list blockquote {
             padding: 0.8rem 1.5rem;
             font-size: 1.2rem;
-        }
-    }
-
-    /* Light mode overrides */
-    body.light-mode .subtitle {
-        color: #666 !important;
-    }
-
-    body.light-mode .article-group {
-        border-bottom-color: #e0e0e0 !important;
-    }
-
-    body.light-mode .article-title a {
-        color: #333 !important;
-    }
-
-    body.light-mode .article-title a:hover {
-        color: #000 !important;
-    }
-
-    body.light-mode .article-meta {
-        color: #888 !important;
-    }
-
-    body.light-mode .quotes-list blockquote {
-        color: #444 !important;
-        background: #fafafa !important;
-        border-left-color: #e0e0e0 !important;
-    }
-
-    /* Dark mode styles */
-    body.dark-mode .subtitle {
-        color: #999;
-    }
-
-    body.dark-mode .article-group {
-        border-bottom-color: #2a2a2a;
-    }
-
-    body.dark-mode .article-title a {
-        color: #ccc;
-    }
-
-    body.dark-mode .article-title a:hover {
-        color: #fff;
-    }
-
-    body.dark-mode .article-meta {
-        color: #666;
-    }
-
-    body.dark-mode .quotes-list blockquote {
-        color: #ccc;
-        background: #1a1a1a;
-        border-left-color: #333;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        .subtitle {
-            color: #999;
-        }
-
-        .article-group {
-            border-bottom-color: #2a2a2a;
-        }
-
-        .article-title a {
-            color: #ccc;
-        }
-
-        .article-title a:hover {
-            color: #fff;
-        }
-
-        .article-meta {
-            color: #666;
-        }
-
-        .quotes-list blockquote {
-            color: #ccc;
-            background: #1a1a1a;
-            border-left-color: #333;
         }
     }
 

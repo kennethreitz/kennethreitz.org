@@ -169,23 +169,38 @@ article .marginnote {
 /* Code Blocks */
 /* ========================================= */
 
-/* Code blocks - extend wider but respect content margin */
+/* Code blocks: a quiet inset surface, wider than the text column but
+   not the whole viewport. */
 section > pre,
 .post-content > pre,
 .tufte pre,
 pre {
-    width: calc(90vw - 2rem) !important;
-    max-width: 1400px !important;
+    width: 90% !important;
+    max-width: 1100px !important;
     margin-left: 0 !important;
     margin-right: auto !important;
     position: relative;
     box-sizing: border-box;
+    background: var(--code-bg);
+    border: 1px solid var(--code-border);
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    overflow-x: auto;
 }
 
 /* Override Tufte CSS constraint on code within pre */
 pre > code {
     width: 100% !important;
     max-width: none !important;
+    margin-left: 0 !important;
+}
+
+/* Inline code reads as a soft chip; code inside pre stays bare. */
+p code, li code, h1 code, h2 code, h3 code, td code {
+    background: var(--code-bg);
+    border: 1px solid var(--code-border);
+    border-radius: 4px;
+    padding: 0.05em 0.35em;
 }
 
 /* Copy button for code blocks */
@@ -197,8 +212,9 @@ pre > code {
     position: absolute;
     top: 8px;
     right: 8px;
-    background: rgba(255, 255, 255, 0.9);
-    border: 1px solid #ddd;
+    background: var(--surface);
+    color: var(--ink-muted);
+    border: 1px solid var(--line);
     border-radius: 4px;
     padding: 4px 8px;
     font-size: 12px;
@@ -215,35 +231,13 @@ pre > code {
 }
 
 .copy-button:hover {
-    background: rgba(255, 255, 255, 1);
-    border-color: #999;
-}
-
-.copy-button:active {
-    background: rgba(240, 240, 240, 1);
+    color: var(--ink);
+    border-color: var(--accent);
 }
 
 .copy-button.copied {
-    background: rgba(76, 175, 80, 0.9);
-    color: white;
-    border-color: #4CAF50;
-}
-
-@media (prefers-color-scheme: dark) {
-    .copy-button {
-        background: rgba(50, 50, 50, 0.9);
-        color: white;
-        border-color: #555;
-    }
-
-    .copy-button:hover {
-        background: rgba(70, 70, 70, 1);
-        border-color: #777;
-    }
-
-    .copy-button:active {
-        background: rgba(30, 30, 30, 1);
-    }
+    color: var(--accent);
+    border-color: var(--accent);
 }
 
 /* Responsive adjustments for code blocks */
@@ -252,8 +246,9 @@ pre > code {
     .post-content > pre,
     .tufte pre,
     pre {
-        width: calc(100vw - 2rem) !important;
-        margin-left: -1rem !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding: 0.75rem 1rem;
     }
 }
 
@@ -264,29 +259,25 @@ pre > code {
 /* Breadcrumb styling */
 .breadcrumbs {
     font-size: 0.875rem;
-    color: #666;
+    color: var(--ink-muted);
     margin: 1rem 0 2rem 0;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
 .breadcrumbs a {
-    color: #666;
+    color: var(--ink-muted);
     text-decoration: none;
     background: none;
     text-shadow: none;
 }
 
 .breadcrumbs a:hover {
-    color: #111;
-}
-
-body.dark-mode .breadcrumbs a:hover {
-    color: #fff;
+    color: var(--ink);
 }
 
 .breadcrumb-separator {
     margin: 0 0.5rem;
-    color: #999;
+    color: var(--ink-faint);
 }
 
 /* Mobile breadcrumb adjustments */
@@ -337,12 +328,12 @@ header nav a:last-child {
     content: attr(data-icon);
     position: absolute;
     left: 0;
-    color: #666;
+    color: var(--ink-muted);
     font-size: 0.9rem;
 }
 
 .directory-listing a {
-    color: #444;
+    color: var(--ink-muted);
     text-decoration: none;
     font-weight: 400;
     background: none;
@@ -351,12 +342,12 @@ header nav a:last-child {
 }
 
 .directory-listing a:hover {
-    color: #111;
+    color: var(--ink);
 }
 
 .item-date {
     font-size: 0.8rem;
-    color: #888;
+    color: var(--ink-faint);
     font-style: italic;
     margin-left: 0.75rem;
     font-variant: small-caps;
@@ -365,7 +356,7 @@ header nav a:last-child {
 
 .directory-listing h3 {
     font-size: 1.3rem;
-    color: #333;
+    color: var(--ink);
     font-weight: 400;
     font-style: italic;
     margin-bottom: 1.5rem;
@@ -472,7 +463,7 @@ hr::before {
     content: "⁂";
     display: inline-block;
     font-size: 1.4em;
-    color: #999;
+    color: var(--ink-faint);
     line-height: 1;
     position: relative;
 }
@@ -562,6 +553,8 @@ p.subtitle {
     width: 65%;
     text-align: justify !important;
     text-justify: inter-word !important;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 /* Make lists wider for better readability */
@@ -683,40 +676,11 @@ a {
     text-decoration-skip-ink: auto;
 }
 
-/* Beautiful text selection */
-::selection {
-    background: rgba(255, 235, 59, 0.85);
-    color: #333;
-    text-shadow: none;
-}
-
+/* Text selection: a soft wash that keeps the text's own color,
+   defined once via tokens (see site.css). */
 ::-moz-selection {
-    background: rgba(255, 235, 59, 0.85);
-    color: #333;
+    background: var(--selection);
     text-shadow: none;
-}
-
-/* Dark mode text selection */
-body.dark-mode ::selection {
-    background: rgba(255, 235, 59, 0.85);
-    color: #111;
-}
-
-body.dark-mode ::-moz-selection {
-    background: rgba(255, 235, 59, 0.85);
-    color: #111;
-}
-
-@media (prefers-color-scheme: dark) {
-    ::selection {
-        background: rgba(255, 235, 59, 0.85);
-        color: #111;
-    }
-
-    ::-moz-selection {
-        background: rgba(255, 235, 59, 0.85);
-        color: #111;
-    }
 }
 
 /* ========================================= */
@@ -962,12 +926,12 @@ pre .comment {
 /* Homepage Specific Styles */
 /* ========================================= */
 
-.color-software { color: #e74c3c; }
-.color-essay { color: #3498db; }
-.color-ai { color: #9b59b6; }
-.color-music { color: #f39c12; }
-.color-poetry { color: #27ae60; }
-.color-philosophy { color: #95a5a6; }
+.color-software { color: var(--cat-software); }
+.color-essay { color: var(--cat-essay); }
+.color-ai { color: var(--cat-ai); }
+.color-music { color: var(--cat-music); }
+.color-poetry { color: var(--cat-poetry); }
+.color-philosophy { color: var(--cat-philosophy); }
 
 .project-link {
     text-decoration: none;
@@ -990,12 +954,12 @@ pre .comment {
 }
 
 /* Desktop specific colors for legend dots */
-.legend-dot-software { background: #e74c3c; }
-.legend-dot-essay { background: #3498db; }
-.legend-dot-ai { background: #9b59b6; }
-.legend-dot-music { background: #f39c12; }
-.legend-dot-poetry { background: #27ae60; }
-.legend-dot-philosophy { background: #95a5a6; }
+.legend-dot-software { background: var(--cat-software); }
+.legend-dot-essay { background: var(--cat-essay); }
+.legend-dot-ai { background: var(--cat-ai); }
+.legend-dot-music { background: var(--cat-music); }
+.legend-dot-poetry { background: var(--cat-poetry); }
+.legend-dot-philosophy { background: var(--cat-philosophy); }
 
 .pathway-box {
     border-left: 3px solid;

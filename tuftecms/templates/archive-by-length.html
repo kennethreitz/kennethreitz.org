@@ -39,7 +39,7 @@
 {% if grouped_posts %}
     {% for group_name, posts in grouped_posts.items() %}
         <section>
-            <h2>{{ group_name }} <span style="color: #999; font-weight: normal; font-size: 0.85em;">({{ posts|length }} essays)</span></h2>
+            <h2>{{ group_name }} <span class="h2-note" style="color: var(--ink-faint); font-size: 0.85em;">({{ posts|length }} essays)</span></h2>
             
             {% for post in posts %}
                 <div class="archive-post">
@@ -66,8 +66,8 @@
 
 <style>
 .year-picker {
-    background: #f8f8f8;
-    border: 1px solid #e0e0e0;
+    background: var(--surface);
+    border: 1px solid var(--line);
     border-radius: 6px;
     padding: 1rem 1.5rem;
     margin: 2rem 0;
@@ -92,9 +92,9 @@
 }
 
 .type-links a {
-    color: #666;
+    color: var(--ink-muted);
     text-decoration: none;
-    background: #f0f0f0;
+    background: var(--line-soft);
     padding: 0.3rem 0.6rem;
     border-radius: 3px;
     font-size: 0.85rem;
@@ -102,20 +102,20 @@
 }
 
 .type-links a:hover {
-    color: #333;
-    background: #e0e0e0;
+    color: var(--ink);
+    background: var(--line);
 }
 
 .reading-time,
 .word-count,
 .post-date {
-    color: #666;
+    color: var(--ink-muted);
     font-size: 0.85rem;
     margin-left: 0.5rem;
 }
 
 .reading-time {
-    background: #e8f4f8;
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
     padding: 0.15rem 0.4rem;
     border-radius: 3px;
     font-weight: 500;
@@ -126,7 +126,7 @@
 }
 
 .post-date {
-    color: #999;
+    color: var(--ink-faint);
 }
 
 section {
@@ -134,7 +134,7 @@ section {
 }
 
 section h2 {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--line-soft);
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
 }
@@ -198,8 +198,9 @@ section h2 {
 
 .sort-toggle {
     padding: 0.5rem 1rem;
-    background: #f0f0f0;
-    border: 1px solid #ddd;
+    background: var(--line-soft);
+    color: var(--ink);
+    border: 1px solid var(--line);
     border-radius: 4px;
     cursor: pointer;
     font-size: 0.9rem;
@@ -207,210 +208,48 @@ section h2 {
 }
 
 .sort-toggle:hover {
-    background: #e0e0e0;
+    background: var(--line);
 }
 
-.random-link {
-    background: #f3e8ff !important;
-    color: #9333ea !important;
-}
-
-.random-link:hover {
-    background: #e9d5ff !important;
-    color: #7c3aed !important;
-}
-
-.directory-link {
-    background: #fee2e2 !important;
-    color: #ef4444 !important;
-}
-
-.directory-link:hover {
-    background: #fecaca !important;
-    color: #dc2626 !important;
-}
-
-.search-link {
-    background: #fefce8 !important;
-    color: #ca8a04 !important;
-}
-
-.search-link:hover {
-    background: #fef9c3 !important;
-    color: #a16207 !important;
-}
-
+/* Each special pill keeps its own category hue (tokens adapt to dark mode). */
 .themes-link {
-    background: #dcfce7 !important;
-    color: #16a34a !important;
+    background: color-mix(in srgb, var(--cat-poetry) 12%, transparent) !important;
+    color: var(--cat-poetry) !important;
+}
+.search-link {
+    background: color-mix(in srgb, var(--cat-music) 12%, transparent) !important;
+    color: var(--cat-music) !important;
+}
+.directory-link {
+    background: color-mix(in srgb, var(--cat-software) 12%, transparent) !important;
+    color: var(--cat-software) !important;
+}
+.random-link {
+    background: color-mix(in srgb, var(--cat-ai) 12%, transparent) !important;
+    color: var(--cat-ai) !important;
 }
 
 .themes-link:hover {
-    background: #bbf7d0 !important;
-    color: #15803d !important;
+    background: color-mix(in srgb, var(--cat-poetry) 22%, transparent) !important;
+    color: var(--cat-poetry) !important;
+}
+.search-link:hover {
+    background: color-mix(in srgb, var(--cat-music) 22%, transparent) !important;
+    color: var(--cat-music) !important;
+}
+.directory-link:hover {
+    background: color-mix(in srgb, var(--cat-software) 22%, transparent) !important;
+    color: var(--cat-software) !important;
+}
+.random-link:hover {
+    background: color-mix(in srgb, var(--cat-ai) 22%, transparent) !important;
+    color: var(--cat-ai) !important;
 }
 
 @media (max-width: 768px) {
     .sort-toggle {
         font-size: 0.85rem;
         padding: 0.4rem 0.8rem;
-    }
-}
-
-body.light-mode .year-picker {
-    background: #f8f8f8 !important;
-    border-color: #e0e0e0 !important;
-}
-
-body.light-mode .type-links a {
-    background: #f0f0f0 !important;
-    color: #666 !important;
-}
-
-body.light-mode .type-links a:hover {
-    background: #e0e0e0 !important;
-    color: #333 !important;
-}
-
-body.dark-mode .year-picker {
-    background: #1a1a1a;
-    border-color: #333;
-}
-
-body.dark-mode .type-links a {
-    background: #2a2a2a;
-    color: #ccc;
-}
-
-body.dark-mode .type-links a:hover {
-    background: #333;
-    color: #fff;
-}
-
-body.dark-mode .random-link {
-    background: #2d1b3d !important;
-    color: #c084fc !important;
-}
-
-body.dark-mode .random-link:hover {
-    background: #3d2352 !important;
-    color: #e9d5ff !important;
-}
-
-body.dark-mode .directory-link {
-    background: #3d1a1a !important;
-    color: #f87171 !important;
-}
-
-body.dark-mode .directory-link:hover {
-    background: #4d2020 !important;
-    color: #fca5a5 !important;
-}
-
-body.dark-mode .search-link {
-    background: #3d3d1a !important;
-    color: #fbbf24 !important;
-}
-
-body.dark-mode .search-link:hover {
-    background: #4d4d20 !important;
-    color: #fde68a !important;
-}
-
-body.dark-mode .themes-link {
-    background: #1a3d1a !important;
-    color: #4ade80 !important;
-}
-
-body.dark-mode .themes-link:hover {
-    background: #204d20 !important;
-    color: #86efac !important;
-}
-
-body.dark-mode .sort-toggle {
-    background: #2a2a2a;
-    border-color: #333;
-    color: #ccc;
-}
-
-body.dark-mode .sort-toggle:hover {
-    background: #333;
-    color: #fff;
-}
-
-body.dark-mode .reading-time {
-    background: #1a2d33;
-}
-
-@media (prefers-color-scheme: dark) {
-    .year-picker {
-        background: #1a1a1a;
-        border-color: #333;
-    }
-    
-    .type-links a {
-        background: #2a2a2a;
-        color: #ccc;
-    }
-    
-    .type-links a:hover {
-        background: #333;
-        color: #fff;
-    }
-    
-    .random-link {
-        background: #2d1b3d !important;
-        color: #c084fc !important;
-    }
-    
-    .random-link:hover {
-        background: #3d2352 !important;
-        color: #e9d5ff !important;
-    }
-    
-    .directory-link {
-        background: #3d1a1a !important;
-        color: #f87171 !important;
-    }
-    
-    .directory-link:hover {
-        background: #4d2020 !important;
-        color: #fca5a5 !important;
-    }
-    
-    .search-link {
-        background: #3d3d1a !important;
-        color: #fbbf24 !important;
-    }
-    
-    .search-link:hover {
-        background: #4d4d20 !important;
-        color: #fde68a !important;
-    }
-    
-    .themes-link {
-        background: #1a3d1a !important;
-        color: #4ade80 !important;
-    }
-    
-    .themes-link:hover {
-        background: #204d20 !important;
-        color: #86efac !important;
-    }
-    
-    .sort-toggle {
-        background: #2a2a2a;
-        border-color: #333;
-        color: #ccc;
-    }
-    
-    .sort-toggle:hover {
-        background: #333;
-        color: #fff;
-    }
-    
-    .reading-time {
-        background: #1a2d33;
     }
 }
 </style>

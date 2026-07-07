@@ -25,7 +25,7 @@
 <style>
     .subtitle {
         font-style: italic;
-        color: #666;
+        color: var(--ink-muted);
         margin-top: -1rem;
         margin-bottom: 2rem;
     }
@@ -33,7 +33,7 @@
     .graph-controls {
         margin-bottom: 1rem;
         padding: 1rem;
-        background: #f8f8f8;
+        background: var(--line-soft);
         border-radius: 6px;
         display: flex;
         gap: 1rem;
@@ -42,28 +42,29 @@
 
     .graph-controls button {
         padding: 0.5rem 1rem;
-        border: 1px solid #ddd;
-        background: white;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        color: var(--ink);
         border-radius: 3px;
         cursor: pointer;
         font-size: 0.9rem;
     }
 
     .graph-controls button:hover {
-        background: #f0f0f0;
+        background: var(--line);
     }
 
     #graphStats {
         margin-left: auto;
         font-size: 0.85rem;
-        color: #666;
+        color: var(--ink-muted);
     }
 
     #graph-container {
-        border: 1px solid #e0e0e0;
+        border: 1px solid var(--line);
         border-radius: 6px;
         overflow: hidden;
-        background: white;
+        background: var(--surface);
     }
 
     #network-graph {
@@ -73,24 +74,24 @@
     }
 
     .node {
-        stroke: #fff;
+        stroke: var(--surface);
         stroke-width: 1.5px;
         cursor: pointer;
     }
 
     .node:hover {
-        stroke: #333;
+        stroke: var(--ink);
         stroke-width: 2px;
     }
 
     .link {
-        stroke: #999;
+        stroke: var(--ink-faint);
         stroke-opacity: 0.6;
         stroke-width: 1px;
     }
 
     .link:hover {
-        stroke: #333;
+        stroke: var(--ink);
         stroke-opacity: 1;
         stroke-width: 2px;
     }
@@ -98,7 +99,7 @@
     .node-label {
         font-size: 10px;
         font-family: Arial, sans-serif;
-        fill: #333;
+        fill: var(--ink);
         text-anchor: middle;
         pointer-events: none;
     }
@@ -106,8 +107,8 @@
     .tooltip {
         position: absolute;
         padding: 8px;
-        background: rgba(0, 0, 0, 0.8);
-        color: white;
+        background: var(--ink);
+        color: var(--paper);
         border-radius: 4px;
         pointer-events: none;
         font-size: 12px;
@@ -132,113 +133,6 @@
         #graphStats {
             margin-left: 0;
             text-align: center;
-        }
-    }
-
-    /* Dark mode support */
-    body.dark-mode .subtitle {
-        color: #999;
-    }
-
-    body.dark-mode .graph-controls {
-        background: #252525;
-    }
-
-    body.dark-mode .graph-controls button {
-        border-color: #333;
-        background: #1a1a1a;
-        color: #ccc;
-    }
-
-    body.dark-mode .graph-controls button:hover {
-        background: #333;
-    }
-
-    body.dark-mode #graphStats {
-        color: #999;
-    }
-
-    body.dark-mode #graph-container {
-        border-color: #333;
-        background: #1a1a1a;
-    }
-
-    body.dark-mode .node {
-        stroke: #1a1a1a;
-    }
-
-    body.dark-mode .node:hover {
-        stroke: #ccc;
-    }
-
-    body.dark-mode .link {
-        stroke: #666;
-    }
-
-    body.dark-mode .link:hover {
-        stroke: #ccc;
-    }
-
-    body.dark-mode .node-label {
-        fill: #ccc;
-    }
-
-    body.dark-mode .tooltip {
-        background: rgba(30, 30, 30, 0.95);
-        color: #ccc;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        .subtitle {
-            color: #999;
-        }
-
-        .graph-controls {
-            background: #252525;
-        }
-
-        .graph-controls button {
-            border-color: #333;
-            background: #1a1a1a;
-            color: #ccc;
-        }
-
-        .graph-controls button:hover {
-            background: #333;
-        }
-
-        #graphStats {
-            color: #999;
-        }
-
-        #graph-container {
-            border-color: #333;
-            background: #1a1a1a;
-        }
-
-        .node {
-            stroke: #1a1a1a;
-        }
-
-        .node:hover {
-            stroke: #ccc;
-        }
-
-        .link {
-            stroke: #666;
-        }
-
-        .link:hover {
-            stroke: #ccc;
-        }
-
-        .node-label {
-            fill: #ccc;
-        }
-
-        .tooltip {
-            background: rgba(30, 30, 30, 0.95);
-            color: #ccc;
         }
     }
 </style>

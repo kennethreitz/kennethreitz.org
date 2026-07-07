@@ -46,12 +46,7 @@
 
 {% block extra_head %}
 <style>
-    /* Tufte-style typography - minimal and elegant */
-    .post-header {
-        margin-bottom: 3rem;
-        width: 100%;
-    }
-
+    /* Post header — Tufte-style, colored entirely by the design tokens. */
     .post-title-container {
         display: flex;
         align-items: flex-start;
@@ -59,14 +54,14 @@
         margin-bottom: 0.5rem;
         width: 70%;
     }
-    
+
     .post-title-icon {
         width: 48px;
         height: 48px;
         flex-shrink: 0;
         margin-left: -4rem;
     }
-    
+
     .post-title-text {
         flex: 1;
         display: flex;
@@ -79,114 +74,85 @@
         font-weight: 400;
         line-height: 1;
         margin: 0;
-        color: #111;
+        color: var(--ink);
         text-rendering: optimizeLegibility;
     }
 
     .post-subtitle {
         font-variant: small-caps;
         font-size: 1.1rem;
-        color: #666;
+        color: var(--ink-muted);
         letter-spacing: 0.1em;
         margin-bottom: 3rem;
         display: flex;
         align-items: center;
         gap: 1.5rem;
     }
-    
-    .reading-time-badge {
+
+    /* Quiet badges: date companions, not confetti. */
+    .reading-time-badge,
+    .themes-badge,
+    .pdf-badge,
+    .markdown-badge {
         font-variant: normal;
         font-size: 0.85rem;
-        background: #e8f4f8;
-        padding: 0.25rem 0.6rem;
-        border-radius: 3px;
         letter-spacing: normal;
         font-weight: 400;
         font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    }
-    
-    .themes-dropdown {
-        position: relative;
+        color: var(--ink-muted);
+        background: transparent;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 0.15rem 0.7rem;
+        text-decoration: none;
         display: inline-block;
+        transition: color 0.2s ease, border-color 0.2s ease;
     }
-    
-    .themes-badge {
-        font-variant: normal;
-        font-size: 0.85rem;
-        background: #dcfce7;
-        color: #16a34a;
-        padding: 0.25rem 0.6rem;
-        border-radius: 3px;
-        letter-spacing: normal;
-        font-weight: 400;
-        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-        border: none;
-        cursor: pointer;
-        transition: background 0.2s ease;
+
+    .themes-badge { cursor: pointer; }
+
+    .themes-badge:hover,
+    .pdf-badge:hover,
+    .markdown-badge:hover {
+        color: var(--accent);
+        border-color: var(--accent);
     }
-    
-    .themes-badge:hover {
-        background: #bbf7d0;
+
+    .pdf-badge,
+    .markdown-badge {
+        margin-left: 0.5rem;
     }
 
     .formats-label {
         font-variant: small-caps;
         font-size: 0.85rem;
-        color: #666;
+        color: var(--ink-muted);
         margin-left: 0.5rem;
         letter-spacing: 0.05em;
         font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     }
 
-    .pdf-badge,
-    .markdown-badge {
-        font-variant: normal;
-        font-size: 0.85rem;
-        padding: 0.25rem 0.6rem;
-        border-radius: 3px;
-        letter-spacing: normal;
-        font-weight: 400;
-        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-        text-decoration: none;
-        transition: background 0.2s ease;
+    .themes-dropdown {
+        position: relative;
         display: inline-block;
-        margin-left: 0.5rem;
-    }
-
-    .pdf-badge {
-        background: #fef3c7;
-        color: #d97706;
-    }
-
-    .pdf-badge:hover {
-        background: #fde68a;
-    }
-
-    .markdown-badge {
-        background: #e0e7ff;
-        color: #4338ca;
-    }
-
-    .markdown-badge:hover {
-        background: #c7d2fe;
     }
 
     .themes-dropdown-content {
         display: none;
         position: absolute;
-        background-color: white !important;
+        background-color: var(--surface);
         min-width: 200px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        border: 1px solid #ddd;
-        border-radius: 4px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        border: 1px solid var(--line);
+        border-radius: 6px;
         z-index: 9999;
         margin-top: 0.25rem;
         top: 100%;
         left: 0;
     }
-    
+
     .themes-dropdown-content a {
-        color: #333;
+        color: var(--ink-muted);
         padding: 0.5rem 1rem;
         text-decoration: none;
         display: block;
@@ -195,15 +161,16 @@
         letter-spacing: normal;
         font-size: 0.9rem;
     }
-    
+
     .themes-dropdown-content a:hover {
-        background-color: #dcfce7;
+        background-color: var(--line-soft);
+        color: var(--ink);
     }
-    
+
     .themes-dropdown-content.show {
         display: block;
     }
-    
+
     @media (max-width: 768px) {
         .post-subtitle {
             flex-wrap: wrap;
@@ -215,7 +182,7 @@
         .pdf-badge,
         .markdown-badge {
             font-size: 0.8rem;
-            padding: 0.2rem 0.5rem;
+            padding: 0.1rem 0.55rem;
         }
 
         .pdf-badge,
@@ -228,231 +195,6 @@
             font-size: 0.85rem;
         }
     }
-    
-    body.light-mode article h1 {
-        color: #111 !important;
-    }
-    
-    body.light-mode .post-subtitle {
-        color: #666 !important;
-    }
-    
-    body.light-mode .reading-time-badge {
-        background: #e8f4f8 !important;
-        color: inherit !important;
-    }
-    
-    body.light-mode .themes-badge {
-        background: #dcfce7 !important;
-        color: #16a34a !important;
-    }
-    
-    body.light-mode .themes-badge:hover {
-        background: #bbf7d0 !important;
-    }
-
-    body.light-mode .pdf-badge {
-        background: #fef3c7 !important;
-        color: #d97706 !important;
-    }
-
-    body.light-mode .pdf-badge:hover {
-        background: #fde68a !important;
-    }
-
-    body.light-mode .markdown-badge {
-        background: #e0e7ff !important;
-        color: #4338ca !important;
-    }
-
-    body.light-mode .markdown-badge:hover {
-        background: #c7d2fe !important;
-    }
-
-    body.light-mode .themes-dropdown-content {
-        background-color: white !important;
-        border-color: #ddd !important;
-    }
-    
-    body.light-mode .themes-dropdown-content a {
-        color: #333 !important;
-    }
-    
-    body.light-mode .themes-dropdown-content a:hover {
-        background-color: #dcfce7 !important;
-    }
-    
-    body.light-mode .directory-listing {
-        border-bottom-color: #eee !important;
-    }
-
-    body.light-mode .directory-listing h2,
-    body.light-mode .directory-about h2 {
-        color: #666 !important;
-    }
-
-    body.light-mode .items-list a {
-        color: #333 !important;
-    }
-
-    body.light-mode .items-list a:hover {
-        color: #000 !important;
-    }
-    
-    body.light-mode .parent-navigation {
-        border-top-color: #eee !important;
-    }
-    
-    body.light-mode .parent-link {
-        color: #666 !important;
-    }
-    
-    body.light-mode .parent-link:hover {
-        color: #333 !important;
-    }
-    
-    body.dark-mode article h1 {
-        color: #e5e5e5;
-    }
-    
-    body.dark-mode .post-subtitle {
-        color: #999;
-    }
-    
-    body.dark-mode .reading-time-badge {
-        background: #1a2d33;
-        color: #67e8f9;
-    }
-    
-    body.dark-mode .themes-badge {
-        background: #1a3d1a;
-        color: #4ade80;
-    }
-    
-    body.dark-mode .themes-badge:hover {
-        background: #204d20;
-    }
-
-    body.dark-mode .pdf-badge {
-        background: #3d2e1a;
-        color: #fbbf24;
-    }
-
-    body.dark-mode .pdf-badge:hover {
-        background: #4d3920;
-    }
-
-    body.dark-mode .markdown-badge {
-        background: #1e293b;
-        color: #818cf8;
-    }
-
-    body.dark-mode .markdown-badge:hover {
-        background: #2d3748;
-    }
-
-    body.dark-mode .formats-label {
-        color: #999;
-    }
-
-    body.dark-mode .themes-dropdown-content {
-        background-color: #1a1a1a !important;
-        border-color: #333;
-    }
-    
-    body.dark-mode .themes-dropdown-content a {
-        color: #ccc;
-    }
-    
-    body.dark-mode .themes-dropdown-content a:hover {
-        background-color: #1a3d1a;
-    }
-    
-    body.dark-mode .directory-listing {
-        border-bottom-color: #2a2a2a;
-    }
-
-    body.dark-mode .directory-listing h2,
-    body.dark-mode .directory-about h2 {
-        color: #999;
-    }
-
-    body.dark-mode .items-list a {
-        color: #ccc;
-    }
-
-    body.dark-mode .items-list a:hover {
-        color: #fff;
-    }
-    
-    body.dark-mode .parent-navigation {
-        border-top-color: #2a2a2a;
-    }
-    
-    body.dark-mode .parent-link {
-        color: #999;
-    }
-    
-    body.dark-mode .parent-link:hover {
-        color: #ccc;
-    }
-    
-    @media (prefers-color-scheme: dark) {
-        article h1 {
-            color: #e5e5e5;
-        }
-        
-        .post-subtitle {
-            color: #999;
-        }
-        
-        .reading-time-badge {
-            background: #1a2d33;
-            color: #67e8f9;
-        }
-        
-        .themes-badge {
-            background: #1a3d1a;
-            color: #4ade80;
-        }
-        
-        .themes-badge:hover {
-            background: #204d20;
-        }
-
-        .pdf-badge {
-            background: #3d2e1a;
-            color: #fbbf24;
-        }
-
-        .pdf-badge:hover {
-            background: #4d3920;
-        }
-
-        .markdown-badge {
-            background: #1e293b;
-            color: #818cf8;
-        }
-
-        .markdown-badge:hover {
-            background: #2d3748;
-        }
-
-        .themes-dropdown-content {
-            background-color: #1a1a1a !important;
-            border-color: #333;
-        }
-        
-        .themes-dropdown-content a {
-            color: #ccc;
-        }
-        
-        .themes-dropdown-content a:hover {
-            background-color: #1a3d1a;
-        }
-    }
-
-
 
     /* Text alignment */
     section p,
@@ -479,17 +221,18 @@
     .directory-listing {
         margin-bottom: 3rem;
         padding-bottom: 2rem;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid var(--line-soft);
         width: 65%;
     }
 
-    .directory-listing h2 {
+    .directory-listing h2,
+    .directory-about h2 {
         font-size: 1.1rem;
         margin-bottom: 1.25rem;
         font-weight: 400;
         font-variant: small-caps;
         letter-spacing: 0.05em;
-        color: #666;
+        color: var(--ink-muted);
     }
 
     .items-list {
@@ -509,13 +252,13 @@
         align-items: center;
         gap: 0.6rem;
         text-decoration: none;
-        color: #333;
+        color: var(--ink-muted);
         transition: color 0.2s ease;
         padding: 0.4rem 0;
     }
 
     .items-list a:hover {
-        color: #000;
+        color: var(--ink);
     }
 
     .item-icon {
@@ -534,20 +277,11 @@
         margin-top: 0;
     }
 
-    .directory-about h2 {
-        font-size: 1.1rem;
-        margin-bottom: 1.25rem;
-        font-weight: 400;
-        font-variant: small-caps;
-        letter-spacing: 0.05em;
-        color: #666;
-    }
-
     /* Parent navigation */
     .parent-navigation {
         margin-top: 4rem;
         padding-top: 2rem;
-        border-top: 1px solid #eee;
+        border-top: 1px solid var(--line-soft);
         width: 65%;
     }
 
@@ -556,14 +290,14 @@
         align-items: center;
         gap: 0.75rem;
         text-decoration: none;
-        color: #666;
+        color: var(--ink-muted);
         font-size: 0.95rem;
         font-style: italic;
         transition: color 0.2s ease;
     }
 
     .parent-link:hover {
-        color: #333;
+        color: var(--ink);
     }
 
     .parent-icon {
@@ -582,34 +316,34 @@
             font-size: 2.5rem;
             width: 100%;
         }
-        
+
         .post-subtitle {
             font-size: 1rem;
             margin-bottom: 2rem;
         }
-        
+
         .post-title-container {
             width: 100%;
             gap: 0.75rem;
         }
-        
+
         .post-title-icon {
             margin-left: 0;
             width: 32px;
             height: 32px;
         }
-        
+
         article hr {
             width: 100%;
             max-width: 100%;
         }
-        
+
         section p,
         article p:not(.sidenote):not(.marginnote) {
             width: 100% !important;
             max-width: 100% !important;
         }
-        
+
         .directory-listing {
             width: 100%;
             margin-bottom: 2rem;
@@ -624,17 +358,17 @@
         .items-list {
             grid-template-columns: 1fr;
         }
-        
+
         .parent-navigation {
             width: 100%;
             margin-top: 3rem;
             padding-top: 1.5rem;
         }
-        
+
         .parent-link {
             font-size: 0.9rem;
         }
-        
+
         .parent-icon {
             width: 18px;
             height: 18px;

@@ -4,24 +4,12 @@
 
 {% block extra_head %}
 <style>
-    body.dark-mode .error-page h1 { color: #ccc; }
-    body.dark-mode .error-page p { color: #aaa; }
-    body.dark-mode .error-page ul li { color: #aaa; }
-    body.dark-mode .error-page .error-note { color: #777; border-top-color: #333; }
-
-    @media (prefers-color-scheme: dark) {
-        .error-page h1 { color: #ccc; }
-        .error-page p { color: #aaa; }
-        .error-page ul li { color: #aaa; }
-        .error-page .error-note { color: #777; border-top-color: #333; }
-    }
-
     .error-note {
         margin-top: 2em;
         padding-top: 1em;
-        border-top: 1px solid #ddd;
+        border-top: 1px solid var(--line);
         font-style: italic;
-        color: #666;
+        color: var(--ink-muted);
         font-size: 0.9em;
     }
 

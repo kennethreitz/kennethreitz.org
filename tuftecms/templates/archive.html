@@ -84,8 +84,8 @@
 
 <style>
 .year-picker {
-    background: #f8f8f8;
-    border: 1px solid #e0e0e0;
+    background: var(--surface);
+    border: 1px solid var(--line);
     border-radius: 6px;
     padding: 1rem 1.5rem;
     margin: 2rem 0;
@@ -124,9 +124,9 @@
 
 .year-links a,
 .type-links a {
-    color: #666;
+    color: var(--ink-muted);
     text-decoration: none;
-    background: #f0f0f0;
+    background: var(--line-soft);
     padding: 0.3rem 0.6rem;
     border-radius: 3px;
     font-size: 0.85rem;
@@ -135,53 +135,48 @@
 
 .year-links a:hover,
 .type-links a:hover {
-    color: #333;
-    background: #e0e0e0;
+    color: var(--ink);
+    background: var(--line);
 }
 
-.random-link {
-    background: #f3e8ff !important;
-    color: #9333ea !important;
-}
-
-.random-link:hover {
-    background: #e9d5ff !important;
-    color: #7c3aed !important;
-}
-
-.directory-link {
-    background: #fee2e2 !important;
-    color: #ef4444 !important;
-}
-
-.directory-link:hover {
-    background: #fecaca !important;
-    color: #dc2626 !important;
-}
-
-.search-link {
-    background: #fefce8 !important;
-    color: #ca8a04 !important;
-}
-
-.search-link:hover {
-    background: #fef9c3 !important;
-    color: #a16207 !important;
-}
-
+/* Each special pill keeps its own category hue (tokens adapt to dark mode). */
 .themes-link {
-    background: #dcfce7 !important;
-    color: #16a34a !important;
+    background: color-mix(in srgb, var(--cat-poetry) 12%, transparent) !important;
+    color: var(--cat-poetry) !important;
+}
+.search-link {
+    background: color-mix(in srgb, var(--cat-music) 12%, transparent) !important;
+    color: var(--cat-music) !important;
+}
+.directory-link {
+    background: color-mix(in srgb, var(--cat-software) 12%, transparent) !important;
+    color: var(--cat-software) !important;
+}
+.random-link {
+    background: color-mix(in srgb, var(--cat-ai) 12%, transparent) !important;
+    color: var(--cat-ai) !important;
 }
 
 .themes-link:hover {
-    background: #bbf7d0 !important;
-    color: #15803d !important;
+    background: color-mix(in srgb, var(--cat-poetry) 22%, transparent) !important;
+    color: var(--cat-poetry) !important;
+}
+.search-link:hover {
+    background: color-mix(in srgb, var(--cat-music) 22%, transparent) !important;
+    color: var(--cat-music) !important;
+}
+.directory-link:hover {
+    background: color-mix(in srgb, var(--cat-software) 22%, transparent) !important;
+    color: var(--cat-software) !important;
+}
+.random-link:hover {
+    background: color-mix(in srgb, var(--cat-ai) 22%, transparent) !important;
+    color: var(--cat-ai) !important;
 }
 
 
 .post-date {
-    color: #666;
+    color: var(--ink-muted);
     font-size: 0.9rem;
     font-style: italic;
     margin-left: 0.5rem;
@@ -193,7 +188,7 @@ section {
 }
 
 section h2 {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--line-soft);
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
     max-width: 65%;
@@ -265,8 +260,9 @@ section p:last-child {
 
 .sort-toggle {
     padding: 0.5rem 1rem;
-    background: #f0f0f0;
-    border: 1px solid #ddd;
+    background: var(--line-soft);
+    color: var(--ink);
+    border: 1px solid var(--line);
     border-radius: 4px;
     cursor: pointer;
     font-size: 0.9rem;
@@ -274,7 +270,7 @@ section p:last-child {
 }
 
 .sort-toggle:hover {
-    background: #e0e0e0;
+    background: var(--line);
 }
 
 .year-jump-dropdown {
@@ -285,10 +281,10 @@ section p:last-child {
 .year-dropdown-content {
     display: none;
     position: absolute;
-    background-color: white !important;
+    background-color: var(--surface) !important;
     min-width: 120px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border: 1px solid #ddd;
+    border: 1px solid var(--line);
     border-radius: 4px;
     z-index: 9999;
     max-height: 300px;
@@ -299,7 +295,7 @@ section p:last-child {
 }
 
 .year-dropdown-content a {
-    color: #333;
+    color: var(--ink);
     padding: 0.5rem 1rem;
     text-decoration: none;
     display: block;
@@ -307,7 +303,7 @@ section p:last-child {
 }
 
 .year-dropdown-content a:hover {
-    background-color: #f0f0f0;
+    background-color: var(--line-soft);
 }
 
 .year-dropdown-content.show {
@@ -328,238 +324,6 @@ section p:last-child {
     
     .year-dropdown-content a {
         padding: 0.4rem 0.8rem;
-    }
-}
-
-body.light-mode .year-picker {
-    background: #f8f8f8 !important;
-    border-color: #e0e0e0 !important;
-}
-
-body.light-mode .type-links a {
-    background: #f0f0f0 !important;
-    color: #666 !important;
-}
-
-body.light-mode .type-links a:hover {
-    background: #e0e0e0 !important;
-    color: #333 !important;
-}
-
-body.light-mode .type-links a.random-link {
-    background: #f3e8ff !important;
-    color: #9333ea !important;
-}
-
-body.light-mode .type-links a.random-link:hover {
-    background: #e9d5ff !important;
-    color: #7c3aed !important;
-}
-
-body.light-mode .type-links a.directory-link {
-    background: #fee2e2 !important;
-    color: #ef4444 !important;
-}
-
-body.light-mode .type-links a.directory-link:hover {
-    background: #fecaca !important;
-    color: #dc2626 !important;
-}
-
-body.light-mode .type-links a.search-link {
-    background: #fefce8 !important;
-    color: #ca8a04 !important;
-}
-
-body.light-mode .type-links a.search-link:hover {
-    background: #fef9c3 !important;
-    color: #a16207 !important;
-}
-
-body.light-mode .type-links a.themes-link {
-    background: #dcfce7 !important;
-    color: #16a34a !important;
-}
-
-body.light-mode .type-links a.themes-link:hover {
-    background: #bbf7d0 !important;
-    color: #15803d !important;
-}
-
-body.light-mode .year-dropdown-content {
-    background-color: white !important;
-    border-color: #ddd !important;
-}
-
-body.light-mode .year-dropdown-content a {
-    color: #333 !important;
-}
-
-body.light-mode .year-dropdown-content a:hover {
-    background-color: #f0f0f0 !important;
-}
-
-body.dark-mode .year-picker {
-    background: #1a1a1a;
-    border-color: #333;
-}
-
-body.dark-mode .type-links a {
-    background: #2a2a2a;
-    color: #ccc;
-}
-
-body.dark-mode .type-links a:hover {
-    background: #333;
-    color: #fff;
-}
-
-body.dark-mode .random-link {
-    background: #2d1b3d !important;
-    color: #c084fc !important;
-}
-
-body.dark-mode .random-link:hover {
-    background: #3d2352 !important;
-    color: #e9d5ff !important;
-}
-
-body.dark-mode .directory-link {
-    background: #3d1a1a !important;
-    color: #f87171 !important;
-}
-
-body.dark-mode .directory-link:hover {
-    background: #4d2020 !important;
-    color: #fca5a5 !important;
-}
-
-body.dark-mode .search-link {
-    background: #3d3d1a !important;
-    color: #fbbf24 !important;
-}
-
-body.dark-mode .search-link:hover {
-    background: #4d4d20 !important;
-    color: #fde68a !important;
-}
-
-body.dark-mode .themes-link {
-    background: #1a3d1a !important;
-    color: #4ade80 !important;
-}
-
-body.dark-mode .themes-link:hover {
-    background: #204d20 !important;
-    color: #86efac !important;
-}
-
-body.dark-mode .sort-toggle,
-body.dark-mode #yearJumpButton {
-    background: #2a2a2a;
-    border-color: #333;
-    color: #ccc;
-}
-
-body.dark-mode .sort-toggle:hover,
-body.dark-mode #yearJumpButton:hover {
-    background: #333;
-    color: #fff;
-}
-
-body.dark-mode .year-dropdown-content {
-    background-color: #1a1a1a !important;
-    border-color: #333;
-}
-
-body.dark-mode .year-dropdown-content a {
-    color: #ccc;
-}
-
-body.dark-mode .year-dropdown-content a:hover {
-    background-color: #2a2a2a;
-}
-
-@media (prefers-color-scheme: dark) {
-    .year-picker {
-        background: #1a1a1a;
-        border-color: #333;
-    }
-    
-    .type-links a {
-        background: #2a2a2a;
-        color: #ccc;
-    }
-    
-    .type-links a:hover {
-        background: #333;
-        color: #fff;
-    }
-    
-    .random-link {
-        background: #2d1b3d !important;
-        color: #c084fc !important;
-    }
-    
-    .random-link:hover {
-        background: #3d2352 !important;
-        color: #e9d5ff !important;
-    }
-    
-    .directory-link {
-        background: #3d1a1a !important;
-        color: #f87171 !important;
-    }
-    
-    .directory-link:hover {
-        background: #4d2020 !important;
-        color: #fca5a5 !important;
-    }
-    
-    .search-link {
-        background: #3d3d1a !important;
-        color: #fbbf24 !important;
-    }
-    
-    .search-link:hover {
-        background: #4d4d20 !important;
-        color: #fde68a !important;
-    }
-    
-    .themes-link {
-        background: #1a3d1a !important;
-        color: #4ade80 !important;
-    }
-    
-    .themes-link:hover {
-        background: #204d20 !important;
-        color: #86efac !important;
-    }
-    
-    .sort-toggle,
-    #yearJumpButton {
-        background: #2a2a2a;
-        border-color: #333;
-        color: #ccc;
-    }
-    
-    .sort-toggle:hover,
-    #yearJumpButton:hover {
-        background: #333;
-        color: #fff;
-    }
-    
-    .year-dropdown-content {
-        background-color: #1a1a1a !important;
-        border-color: #333;
-    }
-    
-    .year-dropdown-content a {
-        color: #ccc;
-    }
-    
-    .year-dropdown-content a:hover {
-        background-color: #2a2a2a;
     }
 }
 </style>

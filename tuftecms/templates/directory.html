@@ -12,7 +12,7 @@
 .directory-item {
     position: relative;
     padding: 0.25rem 0;
-    border-bottom: 1px solid #f9f9f9;
+    border-bottom: 1px solid var(--line-soft);
     line-height: 1.3;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .directory-link {
-    color: #333;
+    color: var(--ink);
     text-decoration: none;
     font-size: 1rem;
     text-align: left;
@@ -44,12 +44,12 @@
 }
 
 .directory-link:hover {
-    color: #666;
+    color: var(--ink-muted);
     text-decoration: underline;
 }
 
 .directory-date {
-    color: #999;
+    color: var(--ink-faint);
     font-size: 0.75rem;
     margin-left: auto;
     white-space: nowrap;
@@ -80,21 +80,21 @@
 .directory-navigation {
     margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 1px solid #f0f0f0;
+    border-top: 1px solid var(--line-soft);
 }
 
 .parent-link {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    color: #666;
+    color: var(--ink-muted);
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 0.2s ease;
 }
 
 .parent-link:hover {
-    color: #333;
+    color: var(--ink);
     text-decoration: underline;
 }
 
@@ -296,94 +296,6 @@
     
     .lightbox-next {
         right: 10px;
-    }
-}
-
-/* Light mode overrides */
-body.light-mode .directory-link {
-    color: #333 !important;
-}
-
-body.light-mode .directory-link:hover {
-    color: #666 !important;
-}
-
-body.light-mode .directory-date {
-    color: #999 !important;
-}
-
-body.light-mode .directory-item {
-    border-bottom-color: #f9f9f9 !important;
-}
-
-body.light-mode .directory-navigation {
-    border-top-color: #f0f0f0 !important;
-}
-
-body.light-mode .parent-link {
-    color: #666 !important;
-}
-
-body.light-mode .parent-link:hover {
-    color: #333 !important;
-}
-
-/* Dark mode styles */
-body.dark-mode .directory-link {
-    color: #ccc;
-}
-
-body.dark-mode .directory-link:hover {
-    color: #fff;
-}
-
-body.dark-mode .directory-date {
-    color: #666;
-}
-
-body.dark-mode .directory-item {
-    border-bottom-color: #2a2a2a;
-}
-
-body.dark-mode .directory-navigation {
-    border-top-color: #2a2a2a;
-}
-
-body.dark-mode .parent-link {
-    color: #999;
-}
-
-body.dark-mode .parent-link:hover {
-    color: #ccc;
-}
-
-@media (prefers-color-scheme: dark) {
-    .directory-link {
-        color: #ccc;
-    }
-    
-    .directory-link:hover {
-        color: #fff;
-    }
-    
-    .directory-date {
-        color: #666;
-    }
-    
-    .directory-item {
-        border-bottom-color: #2a2a2a;
-    }
-    
-    .directory-navigation {
-        border-top-color: #2a2a2a;
-    }
-    
-    .parent-link {
-        color: #999;
-    }
-    
-    .parent-link:hover {
-        color: #ccc;
     }
 }
 

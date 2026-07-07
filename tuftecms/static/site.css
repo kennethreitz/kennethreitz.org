@@ -1,3 +1,134 @@
+/* Site CSS — layout, navigation, dark mode, and the design tokens
+   that keep both modes (and the rotating accent schemes) coherent. */
+
+/* =========================================
+   Design tokens
+   ========================================= */
+
+/* Warm paper by day. */
+:root {
+    --paper: #fffff8;
+    --ink: #111;
+    --ink-muted: #6e6759;
+    --ink-faint: #99917f;
+    --line: #e0ddd0;
+    --line-soft: #eceade;
+    --surface: #fbfaf0;
+    --code-bg: #f6f5ea;
+    --code-border: #e6e3d3;
+    --selection: rgba(255, 224, 110, 0.45);
+    --accent: #9c4b2f;
+    --cat-software: #a8443c;
+    --cat-essay: #3a6b8a;
+    --cat-ai: #7a5a9e;
+    --cat-music: #a8762a;
+    --cat-poetry: #47795a;
+    --cat-philosophy: #75726a;
+}
+
+/* Warm lamplight by night (no-JS fallback; the body classes below win
+   once the theme script runs). */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --paper: #0d1117;
+        --ink: #c9d1d9;
+        --ink-muted: #9aa4af;
+        --ink-faint: #6e7681;
+        --line: #30363d;
+        --line-soft: #21262d;
+        --surface: #161b22;
+        --code-bg: #161b22;
+        --code-border: #30363d;
+        --selection: rgba(255, 196, 87, 0.25);
+        --accent: #cf8a5b;
+        --cat-software: #d08078;
+        --cat-essay: #7fa8c4;
+        --cat-ai: #ab90d0;
+        --cat-music: #cfa25e;
+        --cat-poetry: #85b096;
+        --cat-philosophy: #9a968c;
+    }
+}
+
+body.light-mode {
+    --paper: #fffff8;
+    --ink: #111;
+    --ink-muted: #6e6759;
+    --ink-faint: #99917f;
+    --line: #e0ddd0;
+    --line-soft: #eceade;
+    --surface: #fbfaf0;
+    --code-bg: #f6f5ea;
+    --code-border: #e6e3d3;
+    --selection: rgba(255, 224, 110, 0.45);
+    --accent: #9c4b2f;
+    --cat-software: #a8443c;
+    --cat-essay: #3a6b8a;
+    --cat-ai: #7a5a9e;
+    --cat-music: #a8762a;
+    --cat-poetry: #47795a;
+    --cat-philosophy: #75726a;
+}
+
+body.dark-mode {
+    --paper: #0d1117;
+    --ink: #c9d1d9;
+    --ink-muted: #9aa4af;
+    --ink-faint: #6e7681;
+    --line: #30363d;
+    --line-soft: #21262d;
+    --surface: #161b22;
+    --code-bg: #161b22;
+    --code-border: #30363d;
+    --selection: rgba(255, 196, 87, 0.25);
+    --accent: #cf8a5b;
+    --cat-software: #d08078;
+    --cat-essay: #7fa8c4;
+    --cat-ai: #ab90d0;
+    --cat-music: #cfa25e;
+    --cat-poetry: #85b096;
+    --cat-philosophy: #9a968c;
+}
+
+/* Accent schemes — the theme script picks one at random on ~20% of
+   visits. Everything downstream (progress bar, hover underlines,
+   focus rings) follows the accent. */
+body.scheme-ocean    { --accent: #33707e; }
+body.scheme-forest   { --accent: #43714a; }
+body.scheme-sunset   { --accent: #b05a35; }
+body.scheme-lavender { --accent: #6d5b9e; }
+body.scheme-rose     { --accent: #a34d62; }
+body.scheme-sage     { --accent: #6a7a52; }
+body.scheme-amber    { --accent: #a17420; }
+
+body.dark-mode.scheme-ocean    { --accent: #7fb5c0; }
+body.dark-mode.scheme-forest   { --accent: #8cbb95; }
+body.dark-mode.scheme-sunset   { --accent: #d89b74; }
+body.dark-mode.scheme-lavender { --accent: #a89bd4; }
+body.dark-mode.scheme-rose     { --accent: #cf8fa0; }
+body.dark-mode.scheme-sage     { --accent: #a8b98d; }
+body.dark-mode.scheme-amber    { --accent: #cfa552; }
+
+@media (prefers-color-scheme: dark) {
+    body.scheme-ocean:not(.light-mode)    { --accent: #7fb5c0; }
+    body.scheme-forest:not(.light-mode)   { --accent: #8cbb95; }
+    body.scheme-sunset:not(.light-mode)   { --accent: #d89b74; }
+    body.scheme-lavender:not(.light-mode) { --accent: #a89bd4; }
+    body.scheme-rose:not(.light-mode)     { --accent: #cf8fa0; }
+    body.scheme-sage:not(.light-mode)     { --accent: #a8b98d; }
+    body.scheme-amber:not(.light-mode)    { --accent: #cfa552; }
+}
+
+/* =========================================
+   Base
+   ========================================= */
+
+body {
+    background-color: var(--paper);
+    color: var(--ink);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 /* Prevent FOUC by hiding content until stylesheets load */
 html {
     visibility: hidden;
@@ -8,6 +139,25 @@ html.loaded {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.1s ease-in;
+}
+
+::selection {
+    background: var(--selection);
+}
+
+/* Keyboard focus follows the accent. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[tabindex]:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* Hovered links reveal the accent through the underline. */
+a:hover {
+    text-decoration-color: var(--accent);
 }
 
 /* Legend dots for content guide */
@@ -27,12 +177,15 @@ html.loaded {
     left: 0;
     width: 0%;
     height: 2px;
-    background: #333;
+    background: var(--accent);
     z-index: 1000;
     transition: width 0.1s ease-out;
 }
 
-/* Header and nav z-index for dropdown stacking */
+/* =========================================
+   Header and navigation
+   ========================================= */
+
 header {
     position: relative;
     z-index: 9999;
@@ -60,19 +213,23 @@ nav > a, nav > .nav-dropdown {
     display: inline-block;
 }
 
+.nav-dropdown-trigger:hover {
+    text-decoration-color: var(--accent);
+}
+
 .nav-dropdown-content {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 6px;
     min-width: 250px;
     max-width: 400px;
     max-height: 500px;
     overflow-y: auto;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     z-index: 10000;
     padding: 0.75rem;
 }
@@ -89,21 +246,15 @@ nav > a, nav > .nav-dropdown {
     left: -9999px;
     top: 0;
     z-index: 10001;
-    background: #fffff8;
-    color: #111;
+    background: var(--paper);
+    color: var(--ink);
     padding: 0.5rem 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid var(--line);
     border-radius: 0 0 4px 0;
 }
 
 .skip-link:focus {
     left: 0;
-}
-
-body.dark-mode .skip-link {
-    background: #0d1117;
-    color: #e5e5e5;
-    border-color: #333;
 }
 
 .tree-item {
@@ -120,12 +271,13 @@ body.dark-mode .skip-link {
 }
 
 .tree-item a {
-    color: #333;
+    color: var(--ink-muted);
     text-decoration: none;
     flex: 1;
 }
 
 .tree-item a:hover {
+    color: var(--ink);
     text-decoration: underline;
 }
 
@@ -133,25 +285,9 @@ body.dark-mode .skip-link {
     font-weight: 500;
 }
 
-body.dark-mode .nav-dropdown-content {
-    background: #1a1a1a;
-    border-color: #333;
-}
-
-body.dark-mode .tree-item a {
-    color: #ccc;
-}
-
-@media (prefers-color-scheme: dark) {
-    .nav-dropdown-content {
-        background: #1a1a1a;
-        border-color: #333;
-    }
-
-    .tree-item a {
-        color: #ccc;
-    }
-}
+/* =========================================
+   GitHub corner and theme toggle
+   ========================================= */
 
 .github-corner {
     position: absolute;
@@ -163,7 +299,7 @@ body.dark-mode .tree-item a {
 }
 
 .github-corner:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .github-corner-img {
@@ -173,6 +309,10 @@ body.dark-mode .tree-item a {
 
 body.dark-mode .github-corner {
     opacity: 0.25;
+}
+
+body.dark-mode .github-corner:hover {
+    opacity: 0.5;
 }
 
 body.dark-mode .github-corner-img {
@@ -196,14 +336,14 @@ body.dark-mode .github-corner-img {
     font-size: 1.5rem;
     padding: 0.5rem;
     margin: 0;
-    opacity: 0.15;
+    opacity: 0.3;
     transition: opacity 0.3s ease;
     line-height: 1;
     z-index: 9999;
 }
 
 .theme-toggle:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .sun-icon,
@@ -217,18 +357,6 @@ body.light-mode .sun-icon {
 
 body.dark-mode .moon-icon {
     display: inline;
-}
-
-/* Dark mode styles using body class */
-body.dark-mode {
-    background-color: #0d1117;
-    color: #c9d1d9;
-}
-
-/* Light mode styles to override media query */
-body.light-mode {
-    background-color: #fffff8;
-    color: #111;
 }
 
 @media (max-width: 760px) {
@@ -264,10 +392,10 @@ article {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 999999;
     min-width: 280px;
     padding: 0.5rem 0;
@@ -281,7 +409,7 @@ article {
 .nav-dropdown .dropdown-content a {
     display: block;
     padding: 0.5rem 1rem;
-    color: #333;
+    color: var(--ink-muted);
     text-decoration: none;
     border-bottom: none;
     font-size: 0.9rem;
@@ -289,43 +417,46 @@ article {
 }
 
 .nav-dropdown .dropdown-content a:hover {
-    background-color: #f5f5f5;
+    background-color: var(--line-soft);
+    color: var(--ink);
 }
 
 .nav-dropdown .dropdown-content a .index-description {
     display: block;
     font-size: 0.75rem;
-    color: #666;
+    color: var(--ink-faint);
     margin-top: 0.1rem;
 }
 
 .nav-dropdown > a::after {
     content: "\00a0\25BC";
     font-size: 0.7rem;
-    color: #999;
+    color: var(--ink-faint);
 }
 
-/* --- Footer site map --- */
+/* =========================================
+   Footer
+   ========================================= */
+
 .footer-map {
     margin-top: 2.5rem;
     padding-top: 1rem;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--line);
     font-size: 0.95rem;
     line-height: 2;
 }
-.footer-map a { color: #888; text-decoration: none; }
-.footer-map a:hover { color: #111; text-decoration: underline; }
-.footer-map .sep { margin: 0 0.45rem; color: #ccc; }
-body.dark-mode .footer-map { border-top-color: #333; }
-body.dark-mode .footer-map a { color: #777; }
-body.dark-mode .footer-map a:hover { color: #ddd; }
-body.dark-mode .footer-map .sep { color: #444; }
+.footer-map a { color: var(--ink-faint); text-decoration: none; }
+.footer-map a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); }
+.footer-map .sep { margin: 0 0.45rem; color: var(--line); }
 
-/* --- Keep Reading (related essays) --- */
+/* =========================================
+   Keep Reading (related essays)
+   ========================================= */
+
 .related-essays {
     margin-top: 3.5rem;
     padding-top: 1.25rem;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--line);
 }
 .related-essays h2 {
     font-size: 1.3rem;
@@ -347,9 +478,11 @@ body.dark-mode .footer-map .sep { color: #444; }
     flex-shrink: 0;
     display: inline-block;
 }
-body.dark-mode .related-essays { border-top-color: #333; }
 
-/* --- Archive filter + year counts --- */
+/* =========================================
+   Archive filter + year counts
+   ========================================= */
+
 .archive-filter {
     flex: 1;
     min-width: 220px;
@@ -357,33 +490,31 @@ body.dark-mode .related-essays { border-top-color: #333; }
     font-family: inherit;
     font-size: 0.95rem;
     padding: 0.45rem 0.8rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--line);
     border-radius: 6px;
     background: transparent;
     color: inherit;
     outline: none;
 }
-.archive-filter:focus { border-color: #888; }
-.filter-count { color: #999; font-size: 0.9rem; white-space: nowrap; }
+.archive-filter:focus { border-color: var(--accent); }
+.filter-count { color: var(--ink-faint); font-size: 0.9rem; white-space: nowrap; }
 .year-count {
     font-size: 0.5em;
     font-weight: normal;
-    color: #999;
+    color: var(--ink-faint);
     vertical-align: middle;
-    border: 1px solid #ddd;
+    border: 1px solid var(--line);
     border-radius: 999px;
     padding: 0.1em 0.7em;
     margin-left: 0.4rem;
 }
-body.dark-mode .archive-filter { border-color: #444; }
-body.dark-mode .archive-filter:focus { border-color: #777; }
-body.dark-mode .year-count { border-color: #3a3a3a; color: #777; }
 
-/* --- Homepage --- */
-.muted { color: #888; font-size: 0.95rem; }
-.muted a { color: #888; }
-body.dark-mode .muted { color: #777; }
-body.dark-mode .muted a { color: #777; }
+/* =========================================
+   Homepage
+   ========================================= */
+
+.muted { color: var(--ink-faint); font-size: 0.95rem; }
+.muted a { color: var(--ink-faint); }
 
 .recent-post {
     display: flex;
@@ -399,11 +530,36 @@ body.dark-mode .muted a { color: #777; }
 }
 .recent-post-title { font-size: 1.15rem; }
 .recent-post-date {
-    color: #888;
+    color: var(--ink-faint);
     font-size: 0.85rem;
     margin-left: 0.5rem;
     white-space: nowrap;
 }
-body.dark-mode .recent-post-date { color: #777; }
 
 .h2-note { font-size: 0.6em; font-weight: normal; }
+
+/* =========================================
+   Quiet badges (essay metadata, shared)
+   ========================================= */
+
+.badge {
+    font-variant: normal;
+    font-size: 0.85rem;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    color: var(--ink-muted);
+    background: transparent;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.15rem 0.7rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease;
+    display: inline-block;
+}
+
+.badge:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}

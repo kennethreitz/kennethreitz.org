@@ -72,7 +72,7 @@
 <style>
     .subtitle {
         font-style: italic;
-        color: #666;
+        color: var(--ink-muted);
         margin-top: -1rem;
         margin-bottom: 2rem;
     }
@@ -90,10 +90,10 @@
     .letter-header {
         font-size: 2rem;
         font-weight: bold;
-        color: #333;
+        color: var(--ink);
         margin-bottom: 1rem;
         padding-bottom: 0.5rem;
-        border-bottom: 2px solid #e0e0e0;
+        border-bottom: 2px solid var(--line);
     }
 
     .terms-list {
@@ -103,7 +103,7 @@
     .term-entry {
         margin-bottom: 1.5rem;
         padding-bottom: 1rem;
-        border-bottom: 1px solid #f0f0f0;
+        border-bottom: 1px solid var(--line-soft);
     }
 
     .term-entry:last-child {
@@ -118,12 +118,12 @@
 
     .term-name strong {
         font-size: 1.1rem;
-        color: #333;
+        color: var(--ink);
     }
 
     .term-stats {
         font-size: 0.8rem;
-        color: #888;
+        color: var(--ink-faint);
         margin-left: 0.5rem;
     }
 
@@ -133,21 +133,21 @@
     }
 
     .article-link {
-        color: #2563eb;
+        color: var(--accent);
         text-decoration: none;
         font-size: 0.95rem;
     }
 
     .article-link:hover {
-        color: #1d4ed8;
+        color: var(--accent);
         text-decoration: underline;
     }
 
     .alphabet-nav {
         position: sticky;
         bottom: 2rem;
-        background: rgba(255, 255, 255, 0.95);
-        border: 1px solid #e0e0e0;
+        background: var(--surface);
+        border: 1px solid var(--line);
         border-radius: 6px;
         padding: 1rem;
         text-align: center;
@@ -161,7 +161,7 @@
         display: inline-block;
         padding: 0.3rem 0.5rem;
         margin: 0 0.1rem;
-        color: #666;
+        color: var(--ink-muted);
         text-decoration: none;
         border-radius: 3px;
         transition: all 0.2s ease;
@@ -169,15 +169,15 @@
     }
 
     .alphabet-nav a:hover {
-        background: #f0f0f0;
-        color: #333;
+        background: var(--line-soft);
+        color: var(--ink);
     }
 
     .alphabet-nav .inactive {
         display: inline-block;
         padding: 0.3rem 0.5rem;
         margin: 0 0.1rem;
-        color: #ccc;
+        color: var(--ink-faint);
         font-weight: bold;
     }
 
@@ -209,44 +209,6 @@
             margin: 0;
             font-size: 0.8rem;
         }
-    }
-
-    body.light-mode .subtitle { color: #666 !important; }
-    body.light-mode .letter-header { color: #333 !important; border-bottom-color: #e0e0e0 !important; }
-    body.light-mode .term-entry { border-bottom-color: #f0f0f0 !important; }
-    body.light-mode .term-name strong { color: #333 !important; }
-    body.light-mode .term-stats { color: #888 !important; }
-    body.light-mode .article-link { color: #2563eb !important; }
-    body.light-mode .article-link:hover { color: #1d4ed8 !important; }
-    body.light-mode .alphabet-nav { background: rgba(255, 255, 255, 0.95) !important; border-color: #e0e0e0 !important; }
-    body.light-mode .alphabet-nav a { color: #666 !important; }
-    body.light-mode .alphabet-nav a:hover { background: #f0f0f0 !important; color: #333 !important; }
-    body.light-mode .alphabet-nav .inactive { color: #ccc !important; }
-
-    body.dark-mode .subtitle { color: #999; }
-    body.dark-mode .letter-header { color: #e5e5e5; border-bottom-color: #2a2a2a; }
-    body.dark-mode .term-entry { border-bottom-color: #2a2a2a; }
-    body.dark-mode .term-name strong { color: #e5e5e5; }
-    body.dark-mode .term-stats { color: #666; }
-    body.dark-mode .article-link { color: #60a5fa; }
-    body.dark-mode .article-link:hover { color: #93c5fd; }
-    body.dark-mode .alphabet-nav { background: rgba(26, 26, 26, 0.95); border-color: #333; }
-    body.dark-mode .alphabet-nav a { color: #999; }
-    body.dark-mode .alphabet-nav a:hover { background: #2a2a2a; color: #ccc; }
-    body.dark-mode .alphabet-nav .inactive { color: #444; }
-
-    @media (prefers-color-scheme: dark) {
-        .subtitle { color: #999; }
-        .letter-header { color: #e5e5e5; border-bottom-color: #2a2a2a; }
-        .term-entry { border-bottom-color: #2a2a2a; }
-        .term-name strong { color: #e5e5e5; }
-        .term-stats { color: #666; }
-        .article-link { color: #60a5fa; }
-        .article-link:hover { color: #93c5fd; }
-        .alphabet-nav { background: rgba(26, 26, 26, 0.95); border-color: #333; }
-        .alphabet-nav a { color: #999; }
-        .alphabet-nav a:hover { background: #2a2a2a; color: #ccc; }
-        .alphabet-nav .inactive { color: #444; }
     }
 </style>
 {% endblock %}

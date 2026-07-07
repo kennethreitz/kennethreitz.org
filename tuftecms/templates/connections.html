@@ -78,14 +78,14 @@
 <style>
     .subtitle {
         font-style: italic;
-        color: #666;
+        color: var(--ink-muted);
         margin-top: -1rem;
         margin-bottom: 2rem;
     }
 
     .article-group {
         margin-bottom: 3rem;
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid var(--line);
         padding-bottom: 2rem;
     }
 
@@ -112,18 +112,18 @@
     }
 
     .article-title a {
-        color: #333;
+        color: var(--ink);
         text-decoration: none;
     }
 
     .article-title a:hover {
-        color: #000;
+        color: var(--accent);
         text-decoration: underline;
     }
 
     .article-meta {
         font-size: 0.9rem;
-        color: #888;
+        color: var(--ink-faint);
         margin-bottom: 1.5rem;
     }
 
@@ -133,7 +133,7 @@
     
     .connections-heading {
         font-size: 1.1rem;
-        color: #444;
+        color: var(--ink-muted);
         margin-bottom: 1rem;
         font-weight: 600;
     }
@@ -146,9 +146,9 @@
     .connection-entry {
         margin-bottom: 1rem;
         padding: 1rem 1.5rem;
-        border: 1px solid #e0e0e0;
+        border: 1px solid var(--line);
         border-radius: 6px;
-        background: #fafafa;
+        background: var(--surface);
         display: flex;
         align-items: flex-start;
         gap: 1rem;
@@ -160,7 +160,7 @@
 
     .connection-arrow {
         font-size: 1.2rem;
-        color: #666;
+        color: var(--ink-muted);
         margin-top: 0.1rem;
         font-weight: bold;
     }
@@ -170,37 +170,37 @@
     }
 
     .connection-target strong a {
-        color: #2563eb;
+        color: var(--accent);
         text-decoration: none;
         font-size: 1.05rem;
     }
 
     .connection-target strong a:hover {
-        color: #1d4ed8;
+        color: var(--accent);
         text-decoration: underline;
     }
 
     .connection-url {
         font-size: 0.8rem;
-        color: #888;
+        color: var(--ink-faint);
         font-family: monospace;
         margin-top: 0.3rem;
     }
-    
+
     .connection-context {
         font-size: 0.85rem;
-        color: #666;
+        color: var(--ink-muted);
         font-style: italic;
         margin-top: 0.3rem;
     }
-    
+
     .connection-entry.incoming {
-        border-left: 3px solid #e0e0e0;
-        background: #f9f9f9;
+        border-left: 3px solid var(--line);
+        background: var(--surface);
     }
-    
+
     .connection-entry.outgoing {
-        border-left: 3px solid #2563eb;
+        border-left: 3px solid var(--accent);
     }
 
     @media (max-width: 768px) {
@@ -222,53 +222,6 @@
         .connection-target {
             flex: none;
         }
-    }
-
-    body.light-mode .subtitle { color: #666 !important; }
-    body.light-mode .article-group { border-bottom-color: #e0e0e0 !important; }
-    body.light-mode .article-title a { color: #333 !important; }
-    body.light-mode .article-title a:hover { color: #000 !important; }
-    body.light-mode .article-meta { color: #888 !important; }
-    body.light-mode .connections-heading { color: #444 !important; }
-    body.light-mode .connection-entry { border-color: #e0e0e0 !important; background: #fafafa !important; }
-    body.light-mode .connection-arrow { color: #666 !important; }
-    body.light-mode .connection-target strong a { color: #2563eb !important; }
-    body.light-mode .connection-target strong a:hover { color: #1d4ed8 !important; }
-    body.light-mode .connection-url { color: #888 !important; }
-    body.light-mode .connection-context { color: #666 !important; }
-    body.light-mode .connection-entry.incoming { border-left-color: #e0e0e0 !important; background: #f9f9f9 !important; }
-    body.light-mode .connection-entry.outgoing { border-left-color: #2563eb !important; }
-
-    body.dark-mode .subtitle { color: #999; }
-    body.dark-mode .article-group { border-bottom-color: #2a2a2a; }
-    body.dark-mode .article-title a { color: #ccc; }
-    body.dark-mode .article-title a:hover { color: #fff; }
-    body.dark-mode .article-meta { color: #666; }
-    body.dark-mode .connections-heading { color: #ccc; }
-    body.dark-mode .connection-entry { border-color: #333; background: #1a1a1a; }
-    body.dark-mode .connection-arrow { color: #999; }
-    body.dark-mode .connection-target strong a { color: #60a5fa; }
-    body.dark-mode .connection-target strong a:hover { color: #93c5fd; }
-    body.dark-mode .connection-url { color: #666; }
-    body.dark-mode .connection-context { color: #888; }
-    body.dark-mode .connection-entry.incoming { border-left-color: #333; background: #151515; }
-    body.dark-mode .connection-entry.outgoing { border-left-color: #60a5fa; }
-
-    @media (prefers-color-scheme: dark) {
-        .subtitle { color: #999; }
-        .article-group { border-bottom-color: #2a2a2a; }
-        .article-title a { color: #ccc; }
-        .article-title a:hover { color: #fff; }
-        .article-meta { color: #666; }
-        .connections-heading { color: #ccc; }
-        .connection-entry { border-color: #333; background: #1a1a1a; }
-        .connection-arrow { color: #999; }
-        .connection-target strong a { color: #60a5fa; }
-        .connection-target strong a:hover { color: #93c5fd; }
-        .connection-url { color: #666; }
-        .connection-context { color: #888; }
-        .connection-entry.incoming { border-left-color: #333; background: #151515; }
-        .connection-entry.outgoing { border-left-color: #60a5fa; }
     }
 </style>
 {% endblock %}
