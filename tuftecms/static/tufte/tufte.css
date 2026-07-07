@@ -77,14 +77,14 @@ h2 {
     font-weight: 400;
     margin-top: 2.1rem;
     margin-bottom: 1.4rem;
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     line-height: 1;
 }
 
 h3 {
     font-style: italic;
     font-weight: 400;
-    font-size: 2.1rem;
+    font-size: 1.7rem;
     margin-top: 2rem;
     margin-bottom: 1.4rem;
     line-height: 1;
@@ -139,6 +139,10 @@ p {
     margin-bottom: 1.4rem;
     padding-right: 0;
     vertical-align: baseline;
+}
+
+sup {
+    line-height: 0;
 }
 
 /* Chapter Epigraphs */
@@ -237,6 +241,11 @@ a:visited {
 /* Sidenotes, margin notes, figures, captions */
 img {
     max-width: 100%;
+    height: auto;
+}
+
+figure.fullwidth img {
+    width: 100%;
 }
 
 .sidenote,

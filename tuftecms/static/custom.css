@@ -261,6 +261,8 @@ p code, li code, h1 code, h2 code, h3 code, td code {
     color: var(--ink-muted);
     margin: 1rem 0 2rem 0;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
 }
 
 .breadcrumbs a {

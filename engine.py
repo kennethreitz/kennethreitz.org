@@ -2326,6 +2326,17 @@ async def catch_all(req, resp, *, path):
             )
             related_posts = [c["post"] for c in ranked[:3]]
 
+        # Chronological neighbors for essays (blog cache is newest-first)
+        newer_post = older_post = None
+        if path.startswith("essays/"):
+            essay_url = f"/essays/{file_path.stem}"
+            posts = get_blog_cache().get("posts", [])
+            for i, p in enumerate(posts):
+                if p["url"] == essay_url:
+                    newer_post = posts[i - 1] if i > 0 else None
+                    older_post = posts[i + 1] if i + 1 < len(posts) else None
+                    break
+
         respond_html(resp, "post.html", req, f"/{path}",
             content=content_data["content"],
             title=content_data["title"],
@@ -2339,6 +2350,8 @@ async def catch_all(req, resp, *, path):
             unique_icon=content_data.get("unique_icon"),
             article_themes=article_themes,
             related_posts=related_posts,
+            newer_post=newer_post,
+            older_post=older_post,
             published_iso=published_iso,
             modified_iso=modified_iso,
         )

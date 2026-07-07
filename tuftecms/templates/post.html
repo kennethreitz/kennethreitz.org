@@ -72,10 +72,57 @@
         font-size: 3.2rem;
         font-style: italic;
         font-weight: 400;
-        line-height: 1;
+        line-height: 1.05;
         margin: 0;
         color: var(--ink);
         text-rendering: optimizeLegibility;
+        text-wrap: balance;
+    }
+
+    /* A fleuron closes each dated essay. */
+    .dated-post::after {
+        content: "❦";
+        display: block;
+        width: 65%;
+        text-align: center;
+        margin-top: 3rem;
+        color: var(--ink-faint);
+        font-size: 1.3rem;
+        line-height: 1;
+    }
+
+    /* Chronological neighbors */
+    .post-nav {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        width: 65%;
+        margin-top: 2.5rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--line-soft);
+    }
+
+    .post-nav-item {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        max-width: 46%;
+    }
+
+    .post-nav-newer {
+        text-align: right;
+        margin-left: auto;
+    }
+
+    .post-nav-label {
+        font-variant: small-caps;
+        letter-spacing: 0.06em;
+        font-size: 0.85rem;
+        color: var(--ink-faint);
+    }
+
+    .post-nav a {
+        font-size: 1.05rem;
     }
 
     .post-subtitle {
@@ -87,6 +134,7 @@
         display: flex;
         align-items: center;
         gap: 1.5rem;
+        font-family: et-book-roman-old-style, et-book, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
     }
 
     /* Quiet badges: date companions, not confetti. */
@@ -365,6 +413,25 @@
             padding-top: 1.5rem;
         }
 
+        .dated-post::after,
+        .post-nav {
+            width: 100%;
+        }
+
+        .post-nav {
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .post-nav-newer {
+            text-align: left;
+            margin-left: 0;
+        }
+
+        .post-nav-item {
+            max-width: 100%;
+        }
+
         .parent-link {
             font-size: 0.9rem;
         }
@@ -497,7 +564,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     {% endif %}
 
-    <section>
+    <section{% if metadata and metadata.date %} class="dated-post"{% endif %}>
         {{ content | safe }}
     </section>
 
@@ -508,11 +575,28 @@ document.addEventListener('DOMContentLoaded', function() {
             {% for p in related_posts %}
             <li>
                 {% if p.unique_icon %}<img src="{{ p.unique_icon }}" alt="" class="related-icon">{% endif %}
-                <a href="{{ p.url }}">{{ p.title }}</a>
+                <a href="{{ p.url }}">{{ p.title }}</a>{% if p.date %}<span class="recent-post-date">{{ p.date[:4] }}</span>{% endif %}
             </li>
             {% endfor %}
         </ul>
     </section>
+    {% endif %}
+
+    {% if newer_post or older_post %}
+    <nav class="post-nav" aria-label="Chronological navigation">
+        <div class="post-nav-item post-nav-older">
+            {% if older_post %}
+            <span class="post-nav-label">← Older</span>
+            <a href="{{ older_post.url }}">{{ older_post.title }}</a>
+            {% endif %}
+        </div>
+        <div class="post-nav-item post-nav-newer">
+            {% if newer_post %}
+            <span class="post-nav-label">Newer →</span>
+            <a href="{{ newer_post.url }}">{{ newer_post.title }}</a>
+            {% endif %}
+        </div>
+    </nav>
     {% endif %}
 
     <!-- Comments disabled for now -->

@@ -48,3 +48,12 @@ def test_essay_page_has_metadata(client, recent_posts):
     r = client.get(recent_posts[0]["url"])
     assert 'property="og:title"' in r.text
     assert 'rel="canonical"' in r.text
+
+
+def test_essay_has_chronological_nav(client, recent_posts):
+    # An essay in the middle of the timeline links both neighbors.
+    r = client.get(recent_posts[1]["url"])
+    assert r.status_code == 200
+    assert 'class="post-nav"' in r.text
+    assert "Older" in r.text
+    assert "Newer" in r.text

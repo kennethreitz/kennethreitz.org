@@ -333,17 +333,18 @@ body.dark-mode .github-corner-img {
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 1.5rem;
+    color: var(--ink-faint);
     padding: 0.5rem;
     margin: 0;
-    opacity: 0.3;
-    transition: opacity 0.3s ease;
+    opacity: 0.5;
+    transition: opacity 0.3s ease, color 0.3s ease;
     line-height: 1;
     z-index: 9999;
 }
 
 .theme-toggle:hover {
-    opacity: 0.9;
+    opacity: 1;
+    color: var(--accent);
 }
 
 .sun-icon,
@@ -650,4 +651,26 @@ main th {
 main td {
     border-bottom: 1px solid var(--line-soft);
     padding: 0.4rem 1rem 0.4rem 0;
+}
+
+/* Figure captions read as marginalia. */
+figcaption {
+    color: var(--ink-muted);
+    font-style: italic;
+}
+
+/* Footer note recedes politely. */
+.footer-note {
+    color: var(--ink-faint);
+    font-size: 0.9rem;
+}
+.footer-note a {
+    color: var(--ink-faint);
+}
+
+/* Anchored headings land clear of the viewport edge. */
+h2[id],
+h3[id],
+h4[id] {
+    scroll-margin-top: 2rem;
 }
