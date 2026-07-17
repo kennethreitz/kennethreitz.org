@@ -2,7 +2,8 @@ FROM astral/uv:python3.14-bookworm
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
-    UV_SYSTEM_PYTHON=1
+    UV_SYSTEM_PYTHON=1 \
+    MALLOC_ARENA_MAX=2
 
 WORKDIR /app
 
@@ -30,4 +31,9 @@ RUN uv pip install . --system
 # Copy the rest of the application
 COPY . .
 
-CMD ["granian", "--interface", "asgi", "--host", "0.0.0.0", "--port", "8000", "--workers", "2", "--static-path-route", "/static", "--static-path-mount", "tuftecms/static", "--static-path-expires", "604800", "engine:api"]
+# Decode large source photographs once, sequentially, while building the image.
+# Runtime requests should hit these immutable files instead of filling web-worker
+# malloc arenas with concurrent Pillow buffers.
+RUN python -B scripts/prebuild_media_cache.py
+
+CMD ["granian", "--interface", "asgi", "--host", "0.0.0.0", "--port", "8000", "--workers", "2", "--respawn-failed-workers", "--workers-max-rss", "768", "--workers-lifetime", "21600", "--static-path-route", "/static", "--static-path-mount", "tuftecms/static", "--static-path-expires", "604800", "engine:api"]

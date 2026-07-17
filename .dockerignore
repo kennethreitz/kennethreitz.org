@@ -3,4 +3,5 @@ fly.toml
 __pycache__/
 .envrc
 .venv/
+.cache/
 data/photos/

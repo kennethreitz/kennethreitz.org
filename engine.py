@@ -29,6 +29,7 @@ from tuftecms.blueprints.content import extract_exif_data
 
 from pathlib import Path
 from contextlib import asynccontextmanager
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from collections import defaultdict
 import asyncio
@@ -872,23 +873,66 @@ async def og_image(req, resp, *, path):
 _THUMB_DIR = Path(".cache/thumbs")
 _THUMB_WIDTHS = (320, 640, 1280)
 _THUMB_TYPES = {".jpg", ".jpeg", ".png", ".webp"}
+_THUMB_EXECUTOR = ThreadPoolExecutor(max_workers=1, thread_name_prefix="thumbnail")
+_THUMB_LOCK = asyncio.Lock()
+
+
+def _thumbnail_cache_path(path, source, width):
+    """Return the deterministic cache key and destination for a thumbnail."""
+    key = hashlib.md5(
+        f"{path}:{source.stat().st_mtime_ns}:{width}".encode()
+    ).hexdigest()
+    return key, _THUMB_DIR / f"{key}.jpg"
 
 
 def _make_thumbnail(source, dest, width):
-    """Resize an image to fit `width`, honoring EXIF orientation."""
+    """Resize an image atomically while keeping decoded buffers bounded."""
     from PIL import Image, ImageOps
 
-    with Image.open(source) as img:
-        img = ImageOps.exif_transpose(img)
-        img.thumbnail((width, width * 3))
-        if "A" in img.getbands() or img.mode == "P":
-            background = Image.new("RGB", img.size, (255, 255, 248))
-            background.paste(img.convert("RGBA"), mask=img.convert("RGBA"))
-            img = background
-        elif img.mode != "RGB":
-            img = img.convert("RGB")
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        img.save(dest, format="JPEG", quality=82, optimize=True, progressive=True)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    temporary = dest.with_name(
+        f".{dest.name}.{os.getpid()}.{threading.get_ident()}.tmp"
+    )
+
+    try:
+        with Image.open(source) as img:
+            # Mutating in place avoids holding both the full-resolution source
+            # and an orientation-corrected copy at the same time.
+            ImageOps.exif_transpose(img, in_place=True)
+            img.thumbnail((width, width * 3))
+
+            if "A" in img.getbands() or img.mode == "P":
+                with img.convert("RGBA") as rgba:
+                    with Image.new("RGB", img.size, (255, 255, 248)) as output:
+                        output.paste(rgba, mask=rgba)
+                        output.save(
+                            temporary,
+                            format="JPEG",
+                            quality=82,
+                            optimize=True,
+                            progressive=True,
+                        )
+            elif img.mode != "RGB":
+                with img.convert("RGB") as output:
+                    output.save(
+                        temporary,
+                        format="JPEG",
+                        quality=82,
+                        optimize=True,
+                        progressive=True,
+                    )
+            else:
+                img.save(
+                    temporary,
+                    format="JPEG",
+                    quality=82,
+                    optimize=True,
+                    progressive=True,
+                )
+
+        os.replace(temporary, dest)
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 @api.route("/thumb/{path:path}")
@@ -908,19 +952,26 @@ async def thumbnail(req, resp, *, path):
         requested = 640
     width = min(_THUMB_WIDTHS, key=lambda w: abs(w - requested))
 
-    key = hashlib.md5(
-        f"{path}:{source.stat().st_mtime_ns}:{width}".encode()
-    ).hexdigest()
-    cached = _THUMB_DIR / f"{key}.jpg"
+    key, cached = _thumbnail_cache_path(path, source, width)
+    cache_hit = cached.exists()
     if not cached.exists():
         try:
-            await asyncio.to_thread(_make_thumbnail, source, cached, width)
+            # A gallery can ask for dozens of large photographs at once. One
+            # dedicated thread per web worker prevents those decodes from
+            # multiplying into gigabytes of retained malloc arenas.
+            async with _THUMB_LOCK:
+                if not cached.exists():
+                    loop = asyncio.get_running_loop()
+                    await loop.run_in_executor(
+                        _THUMB_EXECUTOR, _make_thumbnail, source, cached, width
+                    )
         except OSError:
             resp.file(str(source))
             return
 
     resp.etag = key[:16]
     resp.cache_control(public=True, max_age=31536000, immutable=True)
+    resp.headers["X-Media-Cache"] = "hit" if cache_hit else "miss"
     resp.file(str(cached), content_type="image/jpeg")
 
 
@@ -2115,8 +2166,13 @@ async def serve_data_file(req, resp, *, path):
 # --- PDF export ---
 
 
-def _generate_pdf(md_path):
-    """Generate PDF bytes from a markdown file. Returns bytes or raises."""
+_PDF_DIR = Path(".cache/pdfs")
+_PDF_EXECUTOR = ThreadPoolExecutor(max_workers=1, thread_name_prefix="pdf")
+_PDF_LOCK = asyncio.Lock()
+
+
+def _pdf_document(md_path):
+    """Build the WeasyPrint document and font configuration for a post."""
     from weasyprint import HTML
     from weasyprint.text.fonts import FontConfiguration
 
@@ -2131,13 +2187,70 @@ def _generate_pdf(md_path):
         word_count=content_data.get("word_count"),
         unique_icon=content_data.get("unique_icon"),
     )
-    font_config = FontConfiguration()
-    pdf_buffer = io.BytesIO()
-    HTML(string=pdf_html, base_url="https://kennethreitz.org/").write_pdf(
-        pdf_buffer, font_config=font_config
+    return HTML(string=pdf_html, base_url="https://kennethreitz.org/"), FontConfiguration()
+
+
+def _generate_pdf(md_path):
+    """Generate PDF bytes from a markdown file. Returns bytes or raises."""
+    document, font_config = _pdf_document(md_path)
+    return document.write_pdf(font_config=font_config)
+
+
+def _pdf_cache_path(md_path):
+    """Return a cache destination that changes with content and PDF styling."""
+    source = md_path.stat()
+    template_path = Path("tuftecms/templates/pdf.html")
+    template = template_path.stat()
+    try:
+        relative = md_path.resolve().relative_to(DATA_DIR.resolve())
+    except ValueError:
+        relative = md_path.resolve()
+    key = hashlib.md5(
+        (
+            f"{relative}:{source.st_mtime_ns}:{source.st_size}:"
+            f"{template.st_mtime_ns}:{template.st_size}:{_static_v}"
+        ).encode()
+    ).hexdigest()
+    return key, _PDF_DIR / f"{key}.pdf"
+
+
+def _make_pdf_cache(md_path, dest):
+    """Render a PDF directly to an atomic cache file."""
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    temporary = dest.with_name(
+        f".{dest.name}.{os.getpid()}.{threading.get_ident()}.tmp"
     )
-    pdf_buffer.seek(0)
-    return pdf_buffer.read()
+    try:
+        document, font_config = _pdf_document(md_path)
+        document.write_pdf(str(temporary), font_config=font_config)
+        os.replace(temporary, dest)
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
+async def _cached_pdf(md_path, request_path):
+    """Return a cached PDF path, rendering at most one miss per worker."""
+    key, cached = _pdf_cache_path(md_path)
+    cache_hit = cached.exists()
+    if not cache_hit:
+        async with _PDF_LOCK:
+            if not cached.exists():
+                api.log.info("Generating PDF for /%s", request_path)
+                loop = asyncio.get_running_loop()
+                await loop.run_in_executor(
+                    _PDF_EXECUTOR, _make_pdf_cache, md_path, cached
+                )
+    return key, cached, cache_hit
+
+
+async def _serve_cached_pdf(resp, md_path, request_path, filename):
+    """Populate a response from the disk-backed PDF cache."""
+    key, cached, cache_hit = await _cached_pdf(md_path, request_path)
+    resp.etag = key[:16]
+    resp.cache_control(public=True, max_age=86400)
+    resp.headers["Content-Disposition"] = f'inline; filename="{filename}"'
+    resp.headers["X-Media-Cache"] = "hit" if cache_hit else "miss"
+    resp.file(str(cached), content_type="application/pdf")
 
 
 @api.route("/{path:path}.pdf")
@@ -2149,10 +2262,9 @@ async def serve_pdf(req, resp, *, path):
         return
 
     try:
-        api.log.info("Generating PDF for /%s", path)
-        resp.content = _generate_pdf(file_path)
-        resp.headers["Content-Type"] = "application/pdf"
-        resp.headers["Content-Disposition"] = f'inline; filename="{path.split("/")[-1]}.pdf"'
+        await _serve_cached_pdf(
+            resp, file_path, path, f"{path.split('/')[-1]}.pdf"
+        )
     except (ImportError, OSError):
         resp.status_code = 503
         resp.text = "PDF generation requires WeasyPrint"
@@ -2274,11 +2386,10 @@ async def catch_all(req, resp, *, path):
     if path.endswith(".pdf"):
         md_path = DATA_DIR / f"{path[:-4]}.md"
         if md_path.exists():
-            api.log.info("Generating PDF for /%s", path[:-4])
             try:
-                resp.content = _generate_pdf(md_path)
-                resp.headers["Content-Type"] = "application/pdf"
-                resp.headers["Content-Disposition"] = f'inline; filename="{path.split("/")[-1]}"'
+                await _serve_cached_pdf(
+                    resp, md_path, path[:-4], path.split("/")[-1]
+                )
             except (ImportError, OSError):
                 resp.status_code = 503
                 resp.text = "PDF generation requires WeasyPrint"
