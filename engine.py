@@ -879,9 +879,10 @@ _THUMB_LOCK = asyncio.Lock()
 
 def _thumbnail_cache_path(path, source, width):
     """Return the deterministic cache key and destination for a thumbnail."""
-    key = hashlib.md5(
-        f"{path}:{source.stat().st_mtime_ns}:{width}".encode()
-    ).hexdigest()
+    # The cache is built into the image after COPY invalidates on source
+    # changes. Avoid source mtimes here: Docker can normalize them differently
+    # while unpacking the final image, which would orphan every prebuilt file.
+    key = hashlib.md5(f"{path}:{width}".encode()).hexdigest()
     return key, _THUMB_DIR / f"{key}.jpg"
 
 

@@ -40,6 +40,17 @@ def test_thumbnail_is_generated_once_and_then_served_from_cache(
         assert thumbnail.width == 640
 
 
+def test_thumbnail_cache_key_does_not_depend_on_source_mtime(tmp_path):
+    source = tmp_path / "large.jpg"
+    source.write_bytes(b"image")
+
+    first = engine._thumbnail_cache_path("gallery/large.jpg", source, 640)
+    source.touch()
+    second = engine._thumbnail_cache_path("gallery/large.jpg", source, 640)
+
+    assert first == second
+
+
 def test_pdf_is_generated_once_and_then_served_from_cache(
     client, monkeypatch, tmp_path
 ):
