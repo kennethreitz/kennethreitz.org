@@ -34,6 +34,6 @@ COPY . .
 # Decode large source photographs once, sequentially, while building the image.
 # Runtime requests should hit these immutable files instead of filling web-worker
 # malloc arenas with concurrent Pillow buffers.
-RUN python -B scripts/prebuild_media_cache.py
+RUN python -B -m scripts.prebuild_media_cache
 
 CMD ["granian", "--interface", "asgi", "--host", "0.0.0.0", "--port", "8000", "--workers", "2", "--respawn-failed-workers", "--workers-max-rss", "768", "--workers-lifetime", "21600", "--static-path-route", "/static", "--static-path-mount", "tuftecms/static", "--static-path-expires", "604800", "engine:api"]
