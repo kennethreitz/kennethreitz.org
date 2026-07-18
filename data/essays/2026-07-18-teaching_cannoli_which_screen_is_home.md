@@ -115,12 +115,12 @@ The final setup is quiet.
 
 Cannoli lives on the lower screen. The upper screen is black until a game appears. During play the menu below becomes a faint presence and gives up control. Close the game and the launcher returns. Press Home and you come back to Cannoli. Browse RomM and the library arrives from Mercury. The ordinary Android machinery is still there, but it has stopped being the experience.
 
-No individual part of this is especially grand. Android could already launch activities on another display. Cannoli could already launch games. RomM could already serve a library. Mercury could already run another container. GPT-5.6 Sol could already read code, operate tools, and reason through logs. I could already tell when a handheld felt wrong.
+This whole project is a small demonstration of why open source is still astonishing. Cannoli's maintainers did not have to own a Thor, predict that someone would want the launcher below and the game above, or decide that this one unusual device justified a place on the roadmap. The source was there. The user with the strange hardware could become the contributor.
 
-The product was making those capabilities agree.
+The [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) is not normally my license of choice. I tend to prefer permissive licenses. I want code to travel with as little ceremony as possible, including into places I never expected and products I will never see.
 
-I think that is what I have always wanted from software. Not the largest number of things a system can do, but a clear opinion about which things belong together. The black screen matters because it refuses to perform. The dim launcher matters because it knows when not to ask for attention. The server matters because ownership changes the emotional texture of a library. The AI collaborator matters because it shortened the distance between noticing and fixing until the hardware itself could participate in the design conversation.
+But a launcher feels different. It is not merely one component inside a product. It can become the face of the machine, the place where a person spends their time, and the interface through which everything else becomes available. It is exactly the kind of software a hardware vendor could absorb, rename, improve behind closed doors, and ship back to people who would never know where it came from. The GPL makes a different bargain: if you distribute a modified Cannoli, the people receiving it inherit the same freedom to inspect, change, and share it that made this Thor experiment possible.
 
-We started by asking Cannoli to launch on the second screen. We ended by teaching it which screen should be the launcher, which should be the game, which window should own input, what Home should mean, what should remain visible between activities, and how to leave evidence when an emulator failed silently.
+I think that bargain makes sense for a launcher. If software becomes the face of a device, the people who own the device should be allowed to see and change the face. My Thor can feel like one thing because someone else made an opinionated launcher open to inspection, and because its license protects the next strange user as carefully as it protected me.
 
 The Thor always had two screens. Now it feels like one thing.
