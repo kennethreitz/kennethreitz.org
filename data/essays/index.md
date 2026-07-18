@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Two hundred and ninety-one essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Two hundred and ninety-eight essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -133,6 +133,7 @@ The technical foundation. Library announcements, coding philosophy, and the craf
 - [ShowMe v1.0.0 Released](/essays/2010-01-showme_v100_released)
 - [Static Sites on Heroku Cedar](/essays/2011-01-static_sites_on_heroku_cedar)
 - [Tablib Dataset Library v0.6.1 Released!](/essays/2010-01-tablib_dataset_library_v061_released)
+- [Teaching Cannoli Which Screen Is Home](/essays/2026-07-18-teaching_cannoli_which_screen_is_home)
 - [The Art of Naming Things in Code](/essays/2025-09-07-the_art_of_naming_things_in_code)
 - [The Case for Bash](/essays/2025-08-31-the-case-for-bash)
 - [The Future of Python HTTP](/essays/2012-01-the_future_of_python_http)
