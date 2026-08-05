@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Two hundred and ninety-eight essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Two hundred and ninety-nine essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -94,6 +94,7 @@ The technical foundation. Library announcements, coding philosophy, and the craf
 - [Announcing Httpbin.org](/essays/2011-01-announcing_httpbinorg)
 - [Announcing Pipenv!](/essays/2017-01-announcing_pipenv)
 - [Announcing Requests v1.0.0!](/essays/2013-01-announcing_requests_v100)
+- [Announcing RetroVault](/essays/2026-08-05-announcing_retrovault)
 - [Apache GZip Deflate Compression](/essays/2010-01-apache_gzip_deflate_compression)
 - [Asynchronous Google Analytics!](/essays/2009-01-asynchronous_google_analytics)
 - [Convert a List of Strings to UTF-8 in Python](/essays/2009-01-convert_a_list_of_strings_to_utf_8_in_python)
