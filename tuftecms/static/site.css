@@ -1074,3 +1074,137 @@ h3[id],
 h4[id] {
     scroll-margin-top: 2rem;
 }
+
+/* Paragraphs avoid lonely last words where the browser can help. */
+main p,
+main li,
+main blockquote {
+    text-wrap: pretty;
+}
+
+/* =========================================
+   Page-to-page view transitions
+   ========================================= */
+
+/* A brief cross-fade between pages, like turning a leaf. */
+@media (prefers-reduced-motion: no-preference) {
+    @view-transition {
+        navigation: auto;
+    }
+
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+        animation-duration: 0.18s;
+    }
+}
+
+/* =========================================
+   Heading anchor links
+   ========================================= */
+
+/* A quiet section mark surfaces on hover, for sharing deep links. */
+.heading-anchor {
+    margin-left: 0.45rem;
+    font-size: 0.7em;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--ink-faint);
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.15s ease, color 0.15s ease;
+}
+
+h2:hover .heading-anchor,
+h3:hover .heading-anchor,
+h4:hover .heading-anchor,
+.heading-anchor:focus-visible {
+    opacity: 1;
+}
+
+.heading-anchor:hover {
+    color: var(--accent);
+}
+
+@media (hover: none) {
+    .heading-anchor {
+        opacity: 0.35;
+    }
+}
+
+/* =========================================
+   Internal link hover previews
+   ========================================= */
+
+/* A small card of what waits on the other side of a link. */
+.link-preview {
+    position: absolute;
+    z-index: 10001;
+    width: min(21.5rem, calc(100vw - 2rem));
+    box-sizing: border-box;
+    padding: 0.9rem 1rem 0.8rem;
+    background: var(--surface-raised);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: var(--shadow-soft);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(3px);
+    transition: opacity 0.16s ease, transform 0.16s ease, visibility 0.16s;
+    pointer-events: none;
+}
+
+.link-preview.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.link-preview-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.link-preview-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.link-preview-title {
+    font-size: 1.02rem;
+    font-style: italic;
+    line-height: 1.3;
+    color: var(--ink);
+}
+
+.link-preview-excerpt {
+    width: 100% !important;
+    margin: 0.5rem 0 0 !important;
+    color: var(--ink-muted);
+    font-size: 0.9rem !important;
+    line-height: 1.45;
+    text-align: left !important;
+    hyphens: none;
+    -webkit-hyphens: none;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.link-preview-meta {
+    margin-top: 0.55rem;
+    color: var(--ink-faint);
+    font-size: 0.78rem;
+    font-variant: small-caps;
+    letter-spacing: 0.06em;
+    font-family: et-book-roman-old-style, et-book, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .link-preview {
+        transform: none;
+    }
+}

@@ -252,6 +252,9 @@
 
         {% block extra_scripts %}{% endblock %}
 
+        <!-- Progressive enhancements: link previews, heading anchors, theme-color sync -->
+        <script defer src="/static/js/enhance.js?v={{ static_v }}"></script>
+
         <!-- Theme Toggle (theme itself is applied at the top of the body) -->
         <script>
             (function() {

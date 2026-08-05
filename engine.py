@@ -354,14 +354,14 @@ def _nav_data():
 
 
 def _static_version():
-    """Cache-busting version for stylesheets: content hash of the CSS files.
+    """Cache-busting version for versioned assets: a content hash.
 
     A content hash (unlike mtime) is deterministic across machines and
     deploys -- the URL only changes when the bytes actually change.
     """
     static_dir = Path("tuftecms/static")
     digest = hashlib.md5()
-    for name in ("site.css", "custom.css", "tufte/tufte.css"):
+    for name in ("site.css", "custom.css", "tufte/tufte.css", "js/enhance.js"):
         css_path = static_dir / name
         if css_path.exists():
             digest.update(css_path.read_bytes())
@@ -1886,6 +1886,87 @@ async def api_icon(
         icon_data = generate_unique_svg_icon(title, size=24)
 
     resp.media = {"success": True, "path": article_path, "icon": icon_data}
+
+
+# --- Link preview cards ---
+_preview_cache = {}
+
+
+def _build_preview(article_path):
+    """Metadata for a hover card: title, excerpt, date, and reading time."""
+    is_folder = False
+    md_path = (DATA_DIR / f"{article_path}.md").resolve()
+    if not str(md_path).startswith(str(DATA_DIR.resolve())):
+        return None
+    if not md_path.is_file():
+        index_path = DATA_DIR / article_path / "index.md"
+        if index_path.is_file():
+            md_path = index_path
+            is_folder = True
+        else:
+            return None
+
+    try:
+        raw = md_path.read_text()
+    except (OSError, UnicodeDecodeError):
+        return None
+
+    title = article_path.split("/")[-1].replace("-", " ").replace("_", " ").title()
+    for line in raw.split("\n"):
+        stripped = line.strip()
+        if stripped.startswith("# "):
+            title = stripped[2:].strip()
+            break
+
+    # Dated posts carry their date in the filename slug.
+    date_label = None
+    slug_date = re.match(r"(\d{4})-(\d{2})(?:-(\d{2}))?", md_path.stem)
+    if slug_date:
+        try:
+            date_label = datetime(
+                int(slug_date.group(1)), int(slug_date.group(2)), 1
+            ).strftime("%B %Y")
+        except ValueError:
+            pass
+
+    reading_time = max(1, round(len(raw.split()) / 200)) if not is_folder else None
+
+    section = article_path.split("/")[0] if "/" in article_path else None
+    section_label = (
+        section.replace("-", " ").replace("_", " ").title() if section else None
+    )
+
+    if is_folder:
+        icon = generate_folder_icon(title, size=20)
+    else:
+        icon = generate_unique_svg_icon(title, size=20)
+
+    return {
+        "success": True,
+        "title": title,
+        "excerpt": _extract_og_excerpt(raw),
+        "date": date_label,
+        "reading_time": reading_time,
+        "section": section_label,
+        "is_folder": is_folder,
+        "icon": icon,
+    }
+
+
+@api.route("/api/preview/{article_path:path}")
+async def api_preview(req, resp, *, article_path):
+    """Return hover-card metadata for an internal link."""
+    if article_path not in _preview_cache:
+        _preview_cache[article_path] = _build_preview(article_path)
+    preview = _preview_cache[article_path]
+
+    if preview is None:
+        resp.status_code = 404
+        resp.media = {"success": False}
+        return
+
+    resp.cache_control(public=True, max_age=3600)
+    resp.media = preview
 
 
 @api.route(

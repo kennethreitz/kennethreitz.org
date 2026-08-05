@@ -45,6 +45,30 @@ def test_api_icon(client):
     assert data["icon"].startswith("data:image/svg+xml;base64,")
 
 
+def test_api_preview(client):
+    post = client.get("/api/blog").json()["items"][0]
+    r = client.get(f"/api/preview{post['url']}")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["success"] is True
+    assert data["title"]
+    assert data["reading_time"] >= 1
+    assert data["icon"].startswith("data:image/svg+xml;base64,")
+
+
+def test_api_preview_folder(client):
+    r = client.get("/api/preview/software")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["success"] is True
+    assert data["is_folder"] is True
+
+
+def test_api_preview_missing_returns_404(client):
+    r = client.get("/api/preview/essays/definitely-not-a-real-post")
+    assert r.status_code == 404
+
+
 def test_api_fortune(client):
     r = client.get("/api/fortune")
     assert r.status_code == 200
