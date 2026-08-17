@@ -43,6 +43,7 @@ Where code meets prayer. A decade of writing at the intersection of technology, 
 
 ## Consciousness and Code
 
+- [**Except Family**](/poetry/except-family) — Internal voices, uncertain faces, and the family that remains.
 - [**Unconscious Fleetings**](/poetry/unconcious-fleetings) — Carbon and silicon, co-creating a transcendent whole.
 - [**Spirits or Weights**](/poetry/spirits-or-weights) — Do you see the spirits or the weights?
 - [**Machina**](/poetry/machina) — "The yes/no ends with maybe so."
