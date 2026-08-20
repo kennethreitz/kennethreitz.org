@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Three hundred essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Three hundred and one essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -64,6 +64,7 @@ The largest body of work. Where programming meets philosophy meets the hard prob
 - [The Language Model Is the Message](/essays/2026-03-06-the_language_model_is_the_message)
 - [The Meandering Sea of Primordial Soupy Thought](/essays/2025-09-16-the-meandering-sea-of-primordial-soupy-thought)
 - [The Metrics You Expose Are the Values You Endorse](/essays/2026-03-06-the_metrics_you_expose_are_the_values_you_endorse)
+- [The Mind Builds an API](/essays/2026-08-20-the_mind_builds_an_api)
 - [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it)
 - [The Mirror That Creates Itself](/essays/2025-09-13-the-mirror-that-creates-itself)
 - [The Night Selah Was Born](/essays/2025-11-25-the-night-selah-was-born)
