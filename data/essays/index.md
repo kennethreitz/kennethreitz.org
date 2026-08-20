@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Two hundred and ninety-nine essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Three hundred essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -28,6 +28,7 @@ The largest body of work. Where programming meets philosophy meets the hard prob
 - [Drop the Word](/essays/2026-04-06-awareness_not_consciousness)
 - [Encoding: A Dream of Stillwater and Signal](/essays/2025-11-04-encoding-a-dream-of-stillwater-and-signal)
 - [Entertaining the Brain, Effectively](/essays/2025-09-20-entertaining_the_brain_effectively)
+- [Flow State, Metered](/essays/2026-08-20-flow_state_metered)
 - [From HTTP to Consciousness](/essays/2025-08-27-from_http_to_consciousness)
 - [From Stardust We Phase](/essays/2025-09-15-from_stardust_we_phase)
 - [Grammar as Consciousness Map](/essays/2025-11-20-grammar-as-consciousness-map-building-a-linguistic-framework-for-multiplicity)
