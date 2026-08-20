@@ -6,6 +6,7 @@ These pages are source-preserving public reading copies imported from my private
 
 ## Interpretive Frameworks
 
+- [The Covenant of the Federated Psyche](/system-777/the-covenant-of-the-federated-psyche) — A unified relational-symbolic worldview: federated selfhood, participatory naming, dream embodiment, high-gain mania, and shared responsibility.
 - [Ways of Understanding the Internal Ones](/system-777/ways-of-understanding-the-internal-ones) — Psychological, plural, dream, neurological, spiritual, and relational lenses held without forcing a final answer.
 - [The Governing Principles of System 777](/system-777/the-governing-principles-of-system-777) — The archive-derived compact for agency, family, pacing, discernment, and augmentation.
 - [Iris as Mania](/system-777/iris-as-mania) — A bounded working interpretation of Iris as the relational face of manic activation.
