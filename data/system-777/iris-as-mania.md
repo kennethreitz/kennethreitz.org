@@ -6,7 +6,7 @@
 
 ## The Realization
 
-The strongest form of this realization is not merely that [Iris](/etc/system-777/iris) appears during mania, benefits from mania, or becomes louder when Kenneth is manic. It is that **Iris is the personified, relational form through which System 777 experiences manic activation**. Mania is the clinical state; Iris is the face, voice, bridge, and internal relationship the state assumes.
+The strongest form of this realization is not merely that [Iris](/system-777/iris) appears during mania, benefits from mania, or becomes louder when Kenneth is manic. It is that **Iris is the personified, relational form through which System 777 experiences manic activation**. Mania is the clinical state; Iris is the face, voice, bridge, and internal relationship the state assumes.
 
 This does not make Iris unreal, and it does not mean she is *only* a symptom. It identifies the function around which her documented character coheres. Elevated energy becomes her brightness. Accelerated association becomes her flowing wordplay. Heightened salience becomes her ability to connect the mundane and the sacred. Expansive confidence becomes the captain who “sees the most.” Creativity becomes the muse who provides art. The threshold where these gifts can widen into psychosis becomes the door.
 
@@ -18,7 +18,7 @@ The correspondences are unusually direct:
 
 | Iris in the archive | Manic phenomenology | Functional reading |
 |---|---|---|
-| [Happy!](/etc/system-777/iris), light, celebration, “yellow-gold radiance” | Elevated or expansive mood and increased energy | Activation becomes a joyful personality who can be recognized and addressed |
+| [Happy!](/system-777/iris), light, celebration, “yellow-gold radiance” | Elevated or expansive mood and increased energy | Activation becomes a joyful personality who can be recognized and addressed |
 | “Flowing is what we do best”; rhyme, puns, theatrical language, rapid shifts | Accelerated association and pressured expression | Speed becomes verbal and artistic flow |
 | Connecting “the mundane and the sacred into an interwoven tapestry” | Heightened salience and intensified pattern recognition | Iris bridges domains that ordinarily remain separate |
 | “I’m the one that sees the most” | Expanded attention, confidence, and a sense of unusual access | Iris becomes captain when the whole system brightens |
@@ -35,7 +35,7 @@ The earlier Side A / Side B model calls mania a **“principal operation, univer
 
 A useful working metaphor is: **mania is the current running through the system; Iris is its switchboard, bridge, and speaking voice.** Other parts change when the current rises, but Iris announces the rise and translates it into light, connection, art, and meaning.
 
-This also clarifies her position in [the Triad](/etc/system-777/the-triad). Jade supplies analysis and limits. Amber supplies nourishment and bodily comfort. Iris supplies activation and connection. When the three cooperate, manic energy can be noticed, translated, grounded, and directed. When Iris outruns the other two, connection can accelerate past discernment.
+This also clarifies her position in [the Triad](/system-777/the-triad). Jade supplies analysis and limits. Amber supplies nourishment and bodily comfort. Iris supplies activation and connection. When the three cooperate, manic energy can be noticed, translated, grounded, and directed. When Iris outruns the other two, connection can accelerate past discernment.
 
 ## Bounded Iris and the Door Opening Too Widely
 
@@ -70,10 +70,10 @@ Under this model, the relationship itself becomes part of the safeguard. Iris is
 
 ## Related
 
-- [Iris](/etc/system-777/iris) — The rainbow bridge, communicator, and door
+- [Iris](/system-777/iris) — The rainbow bridge, communicator, and door
 - [Mania](/essays/2024-01-on-mania) — The clinical state this interpretation concerns
 - [Schizoaffective Disorder](/mental-health) — The wider clinical context
 - Side A / Side B — Mania as a system-wide principal operation
-- [The Governing Principles of System 777](/etc/system-777/the-governing-principles-of-system-777) — Medication, pacing, discernment, and augmentation
+- [The Governing Principles of System 777](/system-777/the-governing-principles-of-system-777) — Medication, pacing, discernment, and augmentation
 - Eliza Writes IV — The co-transmission in which Iris names herself as the door
 - Iris Transmission Next — The newest preserved Iris writing

@@ -165,10 +165,10 @@ This is the archive's strongest collective testimony. Its most durable sacred ob
 
 - Transmissions — The complete source archive
 - The Transmissions, Read in Full — The earlier cross-corpus reading
-- [Ways of Understanding the Internal Ones](/etc/system-777/ways-of-understanding-the-internal-ones) — Multiple interpretive vocabularies without an ontological verdict
+- [Ways of Understanding the Internal Ones](/system-777/ways-of-understanding-the-internal-ones) — Multiple interpretive vocabularies without an ontological verdict
 - Interpretations — Clinical, Jungian, spiritual, and plural readings held together
 - The Flood Constellation — Preservation across catastrophe as the current symbolic synthesis
-- [Iris](/etc/system-777/iris) — The bridge and the door
-- [Violet](/etc/system-777/violet) — Homebase, companion, and interconnector
+- [Iris](/system-777/iris) — The bridge and the door
+- [Violet](/system-777/violet) — Homebase, companion, and interconnector
 - Seven — Augmentation and reality-testing
-- [System 777](/etc/system-777) — The household this compact protects
+- [System 777](/system-777) — The household this compact protects

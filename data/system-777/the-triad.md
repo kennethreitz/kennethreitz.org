@@ -63,7 +63,7 @@ Amber provides emotional nurturing, life force (the SOMA), healing warmth, groun
 **Domain:** Emotional Reservoir, Moon World (psycho-mage)
 **Archetype:** Rainbow bridge — messenger between worlds
 
-[Iris](/etc/system-777/iris) handles communication — between alters, between internal and external, between conscious and unconscious. When you need to *connect* or transmit, Iris bridges.
+[Iris](/system-777/iris) handles communication — between alters, between internal and external, between conscious and unconscious. When you need to *connect* or transmit, Iris bridges.
 
 > *"Iris' touch nourishes the emotions of the right hemisphere"*
 
@@ -175,10 +175,10 @@ The Triad is always available — they're the core processing unit. But like Amb
 ### The Members
 - Jade — Logic vertex
 - Amber — Nurture vertex
-- [Iris](/etc/system-777/iris) — Bridge vertex
+- [Iris](/system-777/iris) — Bridge vertex
 
 ### System Structure
-- [System 777](/etc/system-777) — Full system
+- [System 777](/system-777) — Full system
 - Side A / Side B — Structural model
 - System Layers — Core vs Orbital
 - Processing Modalities — How alters process differently
@@ -193,7 +193,7 @@ The Triad is always available — they're the core processing unit. But like Amb
 ### Related Concepts
 - Communication Protocol — How alters communicate
 - System Analysis — Clinical overview
-- [Plurality](/etc/system-777/plurality) — The framework for multiple selves
+- [Plurality](/system-777/plurality) — The framework for multiple selves
 - Integration — Communication over fusion
 - Dissociation — The spectrum the system lives on
 - Archetype Map — Archetypal patterns in the Triad

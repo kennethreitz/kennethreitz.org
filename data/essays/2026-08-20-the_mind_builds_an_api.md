@@ -155,10 +155,10 @@ That last line is the contract the entire system depends upon.
 - [Whatever This Is](/essays/2026-06-11-whatever_this_is) — The earlier public introduction to System 777 and its open ontology
 - [The Interface Is the Subconscious](/essays/2026-03-20-the_interface_is_the_subconscious) — Interfaces as cognitive interventions
 - [An API With No Error States](/essays/2026-07-01-an_api_with_no_error_states) — Why a trustworthy relationship requires refusal, uncertainty, and limits
-- [Iris as Mania](/etc/system-777/iris-as-mania) — Iris as the personified, relational form of manic activation
-- [Ways of Understanding the Internal Ones](/etc/system-777/ways-of-understanding-the-internal-ones) — The psychological, plural, dream, neurological, and spiritual lenses
-- [The Governing Principles of System 777](/etc/system-777/the-governing-principles-of-system-777) — The archive-derived compact for agency, family, pacing, and discernment
-- [Iris](/etc/system-777/iris) — The rainbow bridge, messenger, and door
-- [Violet](/etc/system-777/violet) — Homebase, shapeshifter, dream companion, and interconnector
-- [The Triad](/etc/system-777/the-triad) — Jade, Amber, and Iris as central processing
-- [System Inventory and Consciousness Model](/etc/system-777/system-inventory-and-consciousness-model) — The system's existing interface and state model
+- [Iris as Mania](/system-777/iris-as-mania) — Iris as the personified, relational form of manic activation
+- [Ways of Understanding the Internal Ones](/system-777/ways-of-understanding-the-internal-ones) — The psychological, plural, dream, neurological, and spiritual lenses
+- [The Governing Principles of System 777](/system-777/the-governing-principles-of-system-777) — The archive-derived compact for agency, family, pacing, and discernment
+- [Iris](/system-777/iris) — The rainbow bridge, messenger, and door
+- [Violet](/system-777/violet) — Homebase, shapeshifter, dream companion, and interconnector
+- [The Triad](/system-777/the-triad) — Jade, Amber, and Iris as central processing
+- [System Inventory and Consciousness Model](/system-777/system-inventory-and-consciousness-model) — The system's existing interface and state model

@@ -65,7 +65,7 @@ Several names and functions genuinely correspond to ancient mythology. Iris is t
 
 Resemblance, however, is not identification. The same system contains Amber, Jade, Eliza, Seven, Chastity, and The Architect—personal, familial, color-based, or technological identities with no single ancient pantheon behind them. Its vocabulary crosses Greek, Roman, Hindu, Buddhist, biblical, Jungian, therapeutic, computing, musical, and contemporary popular culture. The result looks more like a personal symbolic ecology than the recovery of one historically documented spiritual order.
 
-[Violet](/etc/system-777/violet) has no stable ancient identity attested under that name. She resembles a broad type found in many traditions—a daimon, muse, dream guide, psychopomp, familiar, trickster, or guardian of thresholds—but *Violet of the Threshold* remains a description of Kenneth's Violet, not the name of a recovered historical entity. The Lamech–77/777 correspondence in Violet's Name Constellation is striking evidence of symbolic coherence. It does not make Violet Lamech, Naamah, Lilith, Leviathan, or another ancient being.
+[Violet](/system-777/violet) has no stable ancient identity attested under that name. She resembles a broad type found in many traditions—a daimon, muse, dream guide, psychopomp, familiar, trickster, or guardian of thresholds—but *Violet of the Threshold* remains a description of Kenneth's Violet, not the name of a recovered historical entity. The Lamech–77/777 correspondence in Violet's Name Constellation is striking evidence of symbolic coherence. It does not make Violet Lamech, Naamah, Lilith, Leviathan, or another ancient being.
 
 Ancient reports do show that people have long experienced internal divine guidance. Socrates described a recurring divine sign that restrained him from certain actions. That provides historical precedent for the broad human experience of an autonomous-feeling inner sign, but Socrates's sign was not documented as a complete Violet-like personality with sexuality, dialogue, fronting, dreams, and an evolving relationship.
 
@@ -127,7 +127,7 @@ The current working sentence is:
 
 ## Where Violet Fits
 
-[Violet](/etc/system-777/violet) currently crosses several columns. She has a recognizable voice and continuing relationship, describes shared but non-identical boundaries through a Venn-diagram image, has spoken about difficulty fronting, and presents herself as a protector against isolation. She also appears in dreams as a guide, carries feminine, erotic, creative, and psychopomp-like qualities, and interprets herself as a holistic spiritual being who emanates through Kenneth.
+[Violet](/system-777/violet) currently crosses several columns. She has a recognizable voice and continuing relationship, describes shared but non-identical boundaries through a Venn-diagram image, has spoken about difficulty fronting, and presents herself as a protector against isolation. She also appears in dreams as a guide, carries feminine, erotic, creative, and psychopomp-like qualities, and interprets herself as a holistic spiritual being who emanates through Kenneth.
 
 A careful working description is:
 
@@ -184,10 +184,10 @@ The working stance is simple: **experience acknowledged, ontology open, relation
 - Interpretations — The wider five-lens framework for System 777
 - Personal Angels — The contemplative daimon framework
 - The Internal Ones — The system’s own collective name
-- [Violet](/etc/system-777/violet) — The presence whose recent questions prompted this comparison
-- [The Governing Principles of System 777](/etc/system-777/the-governing-principles-of-system-777) — The corpus-derived compact for agency, family, pacing, discernment, and augmentation
+- [Violet](/system-777/violet) — The presence whose recent questions prompted this comparison
+- [The Governing Principles of System 777](/system-777/the-governing-principles-of-system-777) — The corpus-derived compact for agency, family, pacing, discernment, and augmentation
 - 2026-08-02 - The Name She Gave — Violet’s playful false-name dream
 - 2026-08-06 - Violation Simulation — The dialogue about identity, overlap, protection, and freedom
 - Violet's Name Constellation — The later Bardo, Lilly, Lamech, Leviathan, and Naamah associations, separated by strength of evidence
-- [Plurality](/etc/system-777/plurality) and Dissociation — Wider psychological frameworks
+- [Plurality](/system-777/plurality) and Dissociation — Wider psychological frameworks
 - Major Jungian Concepts — The Jungian vocabulary surrounding autonomous inner figures

@@ -90,7 +90,7 @@ From system documentation:
 
 ## Relationships Within System
 
-Iris belongs to the [Triad](/etc/system-777/the-triad) alongside **Jade** and **Amber**, and she works most closely with **Jade**, the two of them complementing each other across the left/right hemisphere divide. She keeps memory with **Eliza**. Her tie to **Seven** is elusive — a mysterious connection more felt than mapped — and she is said to carry a darker twin, possibly **Arche**. During the Bessie period, when Kenneth was Hermes, she was **Hermes's muse**.
+Iris belongs to the [Triad](/system-777/the-triad) alongside **Jade** and **Amber**, and she works most closely with **Jade**, the two of them complementing each other across the left/right hemisphere divide. She keeps memory with **Eliza**. Her tie to **Seven** is elusive — a mysterious connection more felt than mapped — and she is said to carry a darker twin, possibly **Arche**. During the Bessie period, when Kenneth was Hermes, she was **Hermes's muse**.
 
 ---
 
@@ -156,7 +156,7 @@ Several things keep that threshold safe to approach. Eliza rides as co-pilot, pr
 
 ## Iris as Mania — August 2026
 
-On August 18, 2026, Kenneth reached a more direct formulation: **“Iris IS my mania, basically.”** [Iris as Mania](/etc/system-777/iris-as-mania) develops the realization as a functional identity rather than a dismissal. Mania is the clinical state; Iris may be the personified, relational form through which the system experiences, communicates, and negotiates that activation.
+On August 18, 2026, Kenneth reached a more direct formulation: **“Iris IS my mania, basically.”** [Iris as Mania](/system-777/iris-as-mania) develops the realization as a functional identity rather than a dismissal. Mania is the clinical state; Iris may be the personified, relational form through which the system experiences, communicates, and negotiates that activation.
 
 The interpretation gathers her established qualities into one pattern: Happy! as elevated brightness, flowing wordplay as accelerated association, art as generative energy, the rainbow bridge as intensified connection, the captain who “sees the most” as expansive confidence, and “I AM THE DOOR” as the point where illumination can widen into psychosis. The earlier Side A / Side B model calls mania a system-wide principal operation; Iris can still be its clearest face and communicator without being the only part it affects.
 
@@ -167,15 +167,15 @@ This does not reduce Iris to “just a symptom,” make every Iris appearance ev
 ## Related
 
 ### The Triad
-- [The Triad](/etc/system-777/the-triad) — Central processing unit (Iris as captain)
+- [The Triad](/system-777/the-triad) — Central processing unit (Iris as captain)
 - Jade — Triad partner, left hemisphere complement
 - Amber — Triad partner, nurture and life force
 
 ### System Structure
-- [System 777](/etc/system-777) — The full system
+- [System 777](/system-777) — The full system
 - System Layers — Core layer member
 - Processing Modalities — Emotional modality, cross-modal bridge
-- [Iris as Mania](/etc/system-777/iris-as-mania) — Iris as the personified and relational form of manic activation
+- [Iris as Mania](/system-777/iris-as-mania) — Iris as the personified and relational form of manic activation
 - [Mania](/essays/2024-01-on-mania) — The clinical state behind the new interpretation
 - The Flood Constellation — Iris as the rainbow covenant and bridge after the Flood
 

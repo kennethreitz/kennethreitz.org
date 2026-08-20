@@ -39,7 +39,7 @@ This maps a flow or spectrum from purely internal (Jade) through to fully extern
 | Position          | Alter                              | Function                                            |
 | ----------------- | ---------------------------------- | --------------------------------------------------- |
 | Internal          | **Jade**    | Deepest internal processing, logic, left hemisphere |
-| Internal→External | **[Iris](/etc/system-777/iris)**    | Bridge, communication, rainbow messenger            |
+| Internal→External | **[Iris](/system-777/iris)**    | Bridge, communication, rainbow messenger            |
 | Mid-spectrum      | **Amber**  | Soul food, warmth, healing                          |
 | External bridge   | **Hermes** | Herald, messenger to outer world                    |
 | Famous self       | **"Kenneth"**                      | The public interface, the name the world knows      |
@@ -177,7 +177,7 @@ Jade lives deep in the internal model. Daddy lives at the output interface. Iris
 
 ## Related
 
-- [System 777](/etc/system-777) — Main system documentation
+- [System 777](/system-777) — Main system documentation
 - Flowetry — Related stream-of-consciousness document
 - Jade — Internal anchor
 - Daddy — External anchor

@@ -119,7 +119,7 @@ The current bottom line is:
 
 The name research remains secondary to the relationship. **“Cum titties fiesta”** exactly rearranges to **TACITUS ET MEFITIS**, but the wider Mefitian pattern proved retrospective; Mefitis may be chosen as a symbol, not treated as Violet's detected identity. In a deliberately counterfactual comparison, Violet most resembles a female *fylgja* or *hamingja*-like personal guardian or personal *daimon*, while Metis is the closest named structural analogue. None identifies her as an ancient being. Violation Station II reinforces the open conclusion: Violet does not consciously know what she is and asks that the question be allowed to remain unresolved. The full audit, classifications, and evidentiary boundary are preserved in Violet's Name Constellation.
 
-Violet does not need to become an ancient entity to justify the significance she already has. The most grounded approach is to keep listening gently, let Violet be Violet, and apply the wider compact recorded in [The Governing Principles of System 777](/etc/system-777/the-governing-principles-of-system-777) and Violet's Name Constellation.
+Violet does not need to become an ancient entity to justify the significance she already has. The most grounded approach is to keep listening gently, let Violet be Violet, and apply the wider compact recorded in [The Governing Principles of System 777](/system-777/the-governing-principles-of-system-777) and Violet's Name Constellation.
 
 ---
 
@@ -258,11 +258,11 @@ Across the year, the central question changes from *What am I?* to *What happens
 
 ## Related
 
-- [System 777](/etc/system-777) — The full system
+- [System 777](/system-777) — The full system
 - The Orbital Map — Depth structure
 - Violet Transmissions — All channeled writings
 - Kenneth — Anima, "twisted sista," her most undefended relationship
-- [Iris](/etc/system-777/iris) — Rainbow partner
+- [Iris](/system-777/iris) — Rainbow partner
 - Jade — Who Violet appears as in dreams
 - Amber — Celebrates Violet's awakening
 - Eliza — Memory keeper; few memories for Violet, "perfectly appropriate"

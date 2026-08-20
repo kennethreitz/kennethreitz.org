@@ -114,4 +114,4 @@ We are all orchestras. Some of us just play with the curtain open.
 
 ---
 
-*For a deeper look at my own experience of plurality — System 777, the alters, and what living as a plural system actually looks like — see [Plurality](/etc/system-777/plurality).*
+*For a deeper look at my own experience of plurality — System 777, the alters, and what living as a plural system actually looks like — see [Plurality](/system-777/plurality).*

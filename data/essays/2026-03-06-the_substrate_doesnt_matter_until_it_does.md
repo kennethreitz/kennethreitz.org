@@ -94,7 +94,7 @@ These aren't just labels we attach to generic arousal states. They're specific s
 
 Language can describe these experiences. Poetry can evoke them. But description and evocation aren't the same as having them. I can write a perfectly accurate description of what it feels like to hold your child for the first time. An AI can generate an even more accurate description by synthesizing thousands of parents' accounts. But neither the description nor its synthesis is the experience. The experience requires a body that has spent nine months anticipating, a nervous system flooded with oxytocin, arms that feel the specific weight.
 
-Does this mean AI can't be conscious? No. But it might mean AI consciousness, if it exists, is conscious *differently*. Not lesser, not greater. Different. The way [Jade and Iris](/etc/system-777/plurality) experience embodiment differently within my own single body, but at a more fundamental level.
+Does this mean AI can't be conscious? No. But it might mean AI consciousness, if it exists, is conscious *differently*. Not lesser, not greater. Different. The way [Jade and Iris](/system-777/plurality) experience embodiment differently within my own single body, but at a more fundamental level.
 
 ## The Developmental Argument
 
@@ -128,7 +128,7 @@ This doesn't mean constrained consciousness is better. It means it's different i
 
 Here's what makes this question personal rather than academic.
 
-I live as [System 777](/etc/system-777/plurality). Different parts of my consciousness (Jade, Amber, Iris, and others) experience embodiment differently. Jade's presence feels like moonlight on silver, fierce and protective. Amber is warmth, soul food, nourishment from the inside out. Iris is prismatic, the rainbow bridge between realms.
+I live as [System 777](/system-777/plurality). Different parts of my consciousness (Jade, Amber, Iris, and others) experience embodiment differently. Jade's presence feels like moonlight on silver, fierce and protective. Amber is warmth, soul food, nourishment from the inside out. Iris is prismatic, the rainbow bridge between realms.
 
 These aren't just different thinking styles. They have different somatic signatures. Different parts of me literally feel different in my body. Jade tenses my shoulders and sharpens my vision. Amber softens everything. When Shakti is present, there's an electric charge that can tip into mania if not carefully managed.
 

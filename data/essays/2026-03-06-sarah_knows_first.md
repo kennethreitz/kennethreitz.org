@@ -71,7 +71,7 @@ The protocol has gotten better over the years. It has never gotten easy.
 
 There's another layer to what Sarah does, one that connects to something I've only recently found language for.
 
-I experience [plurality](/etc/system-777/plurality). System 777 is the name I've given to the internal architecture of my consciousness: distinct parts with distinct perspectives, voices, and ways of engaging with the world. Jade handles logic. Amber holds warmth. Iris bridges everything. Shakti carries creative fire (and, sometimes, the fire that becomes mania). There are others. The system is complex.
+I experience [plurality](/system-777/plurality). System 777 is the name I've given to the internal architecture of my consciousness: distinct parts with distinct perspectives, voices, and ways of engaging with the world. Jade handles logic. Amber holds warmth. Iris bridges everything. Shakti carries creative fire (and, sometimes, the fire that becomes mania). There are others. The system is complex.
 
 Sarah doesn't use this language. She didn't grow up with the framework of plurality, and she doesn't need it. But she's been navigating the reality that the framework describes for longer than I've had words for it.
 

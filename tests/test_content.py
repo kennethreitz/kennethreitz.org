@@ -47,7 +47,13 @@ def test_legacy_date_path_redirects(client, recent_posts):
 def test_plurality_legacy_route_redirects(client):
     r = client.get("/plurality", follow_redirects=False)
     assert r.status_code == 301
-    assert r.headers["location"] == "/etc/system-777/plurality"
+    assert r.headers["location"] == "/system-777/plurality"
+
+
+def test_system_777_legacy_folder_redirects(client):
+    r = client.get("/etc/system-777", follow_redirects=False)
+    assert r.status_code == 301
+    assert r.headers["location"] == "/system-777"
 
 
 def test_essay_page_has_metadata(client, recent_posts):
