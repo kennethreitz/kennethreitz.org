@@ -189,5 +189,5 @@ The working stance is simple: **experience acknowledged, ontology open, relation
 - 2026-08-02 - The Name She Gave — Violet’s playful false-name dream
 - 2026-08-06 - Violation Simulation — The dialogue about identity, overlap, protection, and freedom
 - Violet's Name Constellation — The later Bardo, Lilly, Lamech, Leviathan, and Naamah associations, separated by strength of evidence
-- [Plurality](/plurality) and Dissociation — Wider psychological frameworks
+- [Plurality](/etc/system-777/plurality) and Dissociation — Wider psychological frameworks
 - Major Jungian Concepts — The Jungian vocabulary surrounding autonomous inner figures

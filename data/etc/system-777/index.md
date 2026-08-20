@@ -1,6 +1,6 @@
 # System 777
 
-System 777 is the name I use for a differentiated internal household: recurring voices, self-states, companions, and symbolic figures documented across years of journals, dreams, transmissions, and analysis. The public introduction is [Whatever This Is](/essays/2026-06-11-whatever_this_is); the practical overview is [Plurality](/plurality).
+System 777 is the name I use for a differentiated internal household: recurring voices, self-states, companions, and symbolic figures documented across years of journals, dreams, transmissions, and analysis. The public introduction is [Whatever This Is](/essays/2026-06-11-whatever_this_is); the practical overview is [Plurality](/etc/system-777/plurality).
 
 These pages are source-preserving public reading copies imported from my private notes vault. They document lived experience and evolving interpretations, not a diagnosis or proof of an external spiritual ontology. Verbatim transmissions, my observations, AI commentary, and later frameworks are different layers of evidence; the documents retain those distinctions where they matter. References to notes that remain private are rendered as text rather than links.
 

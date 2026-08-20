@@ -193,7 +193,7 @@ The Triad is always available — they're the core processing unit. But like Amb
 ### Related Concepts
 - Communication Protocol — How alters communicate
 - System Analysis — Clinical overview
-- [Plurality](/plurality) — The framework for multiple selves
+- [Plurality](/etc/system-777/plurality) — The framework for multiple selves
 - Integration — Communication over fusion
 - Dissociation — The spectrum the system lives on
 - Archetype Map — Archetypal patterns in the Triad
