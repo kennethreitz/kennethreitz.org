@@ -24,6 +24,7 @@ Every technical choice embeds values about how humans should relate to technolog
 
 ### Applied to Technology
 
+- [**The Interface Is the Curriculum**](/essays/2026-09-05-the_interface_is_the_curriculum): Interfaces help shape how people notice, remember, reason, and imagine possibilities. Designing for humans includes caring about what they learn.
 - [**Programming as Spiritual Practice**](/essays/2025-08-26-programming_as_spiritual_practice) — When programming becomes conscious practice, every design choice becomes an ethical choice.
 - [**The Recursive Loop: How Code Shapes Minds**](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds) — The values we embody personally, we embed technologically.
 - [**The Case for Bash**](/essays/2025-08-31-the-case-for-bash) — Sometimes the most human-centered choice is the boring, reliable tool that works everywhere.

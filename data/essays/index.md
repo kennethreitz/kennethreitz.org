@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Three hundred and one essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Three hundred and two essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -58,6 +58,7 @@ The largest body of work. Where programming meets philosophy meets the hard prob
 - [The Gift of Attention](/essays/2025-09-06-the_gift_of_attention)
 - [The Gift of Disordered Perception](/essays/2025-09-01-the_gift_of_disordered_perception)
 - [The Great Unmasking](/essays/2025-08-30-the-great-unmasking-when-ai-shows-us-who-we-really-are)
+- [The Interface Is the Curriculum](/essays/2026-09-05-the_interface_is_the_curriculum).
 - [The Interface Is the Subconscious](/essays/2026-03-20-the_interface_is_the_subconscious)
 - [The Joy of Fortune](/essays/2025-09-21-the-joy-of-fortune)
 - [The Language an LLM Would Invent](/essays/2025-09-13-the-language-an-llm-would-invent)

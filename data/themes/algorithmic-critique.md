@@ -25,6 +25,7 @@ Having survived individual psychological manipulation, I recognize the same tech
 - [**The Cognitive Architecture We Lost**](/essays/2025-10-15-the_cognitive_architecture_we_lost) — Notification culture has dismantled the cognitive substrate required for sustained thought itself.
 - [**The Mirror: How AI Reflects What We Put Into It**](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it) — AI averaging human thought creates cognitive convergence.
 - [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Every interface is a cognitive intervention. Visual interfaces shape feelings. Linguistic interfaces shape thinking. Neural interfaces will shape consciousness itself.
+- [**The Interface Is the Curriculum**](/essays/2026-09-05-the_interface_is_the_curriculum): What GUIs, web layouts, instruments, and APIs teach through repetition, and why computational thinking belongs in that education.
 - [**The Internet Is a Net Negative**](/essays/2025-12-28-the_internet_is_a_net_negative) — The honest reckoning.
 
 ### Ethics in Practice
