@@ -32,7 +32,7 @@ key = Key.detect("C", "E", "G", "A", "D")  # <Key C major>
 ## Composition
 
 ```python
-from pytheory import Score, Duration, Pattern, play_score
+from pytheory import Score, Duration, Pattern, Chord, play_score
 
 score = Score("4/4", bpm=140)
 
@@ -57,7 +57,7 @@ pad = score.part(
     reverb=0.6,
     chorus=0.4,
 )
-pad.add("Am", Duration.WHOLE).add("Dm", Duration.WHOLE)
+pad.add(Chord.from_name("Am"), Duration.WHOLE).add(Chord.from_name("Dm"), Duration.WHOLE)
 
 lead = score.part(
     "lead",
