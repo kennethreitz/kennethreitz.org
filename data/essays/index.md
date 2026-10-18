@@ -339,6 +339,7 @@ Where code meets the sacred.
 - [Building a Digital Study Bible with AI](/essays/2026-03-20-building_a_digital_study_bible_with_ai)
 - [Building for Contemplation](/essays/2025-11-23-building_for_contemplation_when_spiritual_practice_becomes_code)
 - [Classical Virtues in Python](/essays/2025-09-05-classical_virtues_in_python)
+- [Love Is Patient](/essays/2026-10-18-love_is_patient)
 - [Ink, Presence, and the Subtle Forms of Aliveness](/essays/2025-11-14-ink_presence_and_the_subtle_forms_of_aliveness)
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice)
 - [Ram Dass Teachings in Python](/essays/2025-09-05-ram_dass_teachings_in_python)
