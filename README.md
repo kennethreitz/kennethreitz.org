@@ -35,6 +35,7 @@ kennethreitz.org/
 │   ├── themes/            # Thematic collections
 │   ├── artificial-intelligence/
 │   ├── poetry/
+│   ├── knowledge/         # Published from the Obsidian vault (generated)
 │   ├── photography/
 │   ├── music/
 │   └── *.md               # Standalone pages
@@ -91,3 +92,22 @@ The `data/` directory contains 15+ years of writing — essays, software documen
 ## License
 
 MIT
+
+## Knowledge
+
+`/knowledge` publishes the `Knowledge/` folder of Kenneth's Obsidian vault:
+mythology, tarot, psychology, music theory, and the rest of the reference
+shelf. It's generated, so edit the vault and re-sync rather than editing
+`data/knowledge/` by hand:
+
+```bash
+$ uv run python scripts/import_knowledge.py --vault ~/Notes
+```
+
+The importer converts wikilinks, callouts, and Dataview tables to plain
+Markdown, and withholds personal notes (see `EXCLUDED` in the script and the
+privacy guard it applies to every note). At render time,
+`tuftecms/core/knowledge.py` turns the published note titles into a concept
+index: the first mentions of a concept on ordinary pages link to its
+Knowledge note (capped per page, never inside headings, code, links, or
+sidenotes), and every Knowledge note lists the pages that mention it.

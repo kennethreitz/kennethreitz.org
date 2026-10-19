@@ -1208,3 +1208,39 @@ h4:hover .heading-anchor,
         transform: none;
     }
 }
+
+/* Knowledge: concept crosslinks, related notes, site-wide mentions. */
+a.concept-link {
+    text-decoration-style: dotted;
+    text-decoration-thickness: 0.06em;
+}
+
+.knowledge-connections {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+}
+
+.knowledge-connections h2 {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.knowledge-connections ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.knowledge-connections .knowledge-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.25rem;
+}
+
+.knowledge-connections li { margin: 0.2rem 0; }
+.knowledge-connections li::marker { content: none; }
+.knowledge-connections .recent-post-date { margin-left: 0.5rem; opacity: 0.6; }
+
+.mermaid { margin: 1.5rem 0; text-align: center; }

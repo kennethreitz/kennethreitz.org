@@ -697,6 +697,38 @@ document.addEventListener('DOMContentLoaded', function() {
         {{ content | safe }}
     </section>
 
+    {% if knowledge_related or knowledge_mentions %}
+    <section class="knowledge-connections">
+        {% if knowledge_related %}
+        <h2>Related Knowledge</h2>
+        <ul class="knowledge-list">
+            {% for k in knowledge_related %}
+            <li><a href="{{ k.url }}">{{ k.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% if knowledge_mentions %}
+        <h2>Mentioned Across the Site</h2>
+        <ul class="knowledge-mentions">
+            {% for p in knowledge_mentions %}
+            <li><a href="{{ p.url }}">{{ p.title }}</a>{% if p.date %}<span class="recent-post-date">{{ p.date[:4] }}</span>{% endif %}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </section>
+    {% endif %}
+
+    {% if related_knowledge %}
+    <section class="knowledge-connections related-knowledge">
+        <h2>Related Knowledge</h2>
+        <ul class="knowledge-list">
+            {% for k in related_knowledge %}
+            <li><a href="{{ k.url }}">{{ k.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+
     {% if related_posts %}
     <section class="related-essays">
         <h2>Keep Reading</h2>

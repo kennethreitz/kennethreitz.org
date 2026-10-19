@@ -8,6 +8,7 @@ from responder.ext.query import filter_items, sort_items  # v6.3: equality filte
 from pydantic import BaseModel
 
 from tuftecms.core.markdown import render_markdown_file
+from tuftecms.core.knowledge import KnowledgeIndex, links_allowed
 from tuftecms.core.cache import (
     get_blog_cache,
     clear_all_caches,
@@ -46,6 +47,44 @@ import threading
 import os
 
 DATA_DIR = Path("data")
+
+# --- Knowledge concept index (built once, lazily) ---
+_knowledge_index = None
+_knowledge_lock = threading.Lock()
+_crosslink_cache = {}
+
+
+def get_knowledge_index():
+    """Concept index over data/knowledge, used to crosslink the whole site."""
+    global _knowledge_index
+    if _knowledge_index is None:
+        with _knowledge_lock:
+            if _knowledge_index is None:
+                _knowledge_index = KnowledgeIndex(DATA_DIR)
+    return _knowledge_index
+
+
+def _crosslinked(file_path, url, content_html):
+    """Rendered HTML with first mentions of Knowledge concepts linked."""
+    key = str(file_path)
+    if key not in _crosslink_cache:
+        _crosslink_cache[key] = get_knowledge_index().link_html(content_html, page_url=url)
+    return _crosslink_cache[key]
+
+
+def _is_knowledge(path):
+    return path == "knowledge" or path.startswith("knowledge/")
+
+
+def _knowledge_context(path):
+    """Related notes and site-wide mentions for a Knowledge page."""
+    index = get_knowledge_index()
+    url = f"/{path}"
+    return {
+        "knowledge_related": index.related_for(url),
+        "knowledge_mentions": index.mentions_for(url),
+    }
+
 
 # --- Search index (built once at startup) ---
 _search_index = []
@@ -149,6 +188,7 @@ async def _lifespan(app):
             get_terms_cache()
             get_themes_cache()
             _build_search_index()
+            get_knowledge_index()
             app.log.info("Cache warming complete!")
         except Exception as e:
             app.log.error("Cache warming failed: %s", e)
@@ -350,6 +390,21 @@ def _nav_data():
                     "icon": generate_unique_svg_icon(display_name, size=18),
                 })
         api.state.nav_cache["browse"] = folders + files
+    if "knowledge" not in api.state.nav_cache:
+        knowledge_dir = DATA_DIR / "knowledge"
+        items = []
+        if knowledge_dir.is_dir():
+            for item in sorted(knowledge_dir.iterdir()):
+                if not item.is_dir() or not (item / "index.md").exists():
+                    continue
+                title = get_cached_markdown_title(item / "index.md") or item.name.replace("-", " ").title()
+                items.append({
+                    "name": title,
+                    "path": f"/knowledge/{item.name}",
+                    "icon": generate_folder_icon(title, size=18),
+                })
+            items.sort(key=lambda i: i["name"].lower())
+        api.state.nav_cache["knowledge"] = items
     return api.state.nav_cache
 
 
@@ -382,6 +437,7 @@ def render(template, req, path="/", **kwargs):
     nav = _nav_data()
     kwargs.setdefault("nav_themes", nav["themes"])
     kwargs.setdefault("nav_browse", nav["browse"])
+    kwargs.setdefault("nav_knowledge", nav["knowledge"])
     return api.templates.render(template, **kwargs)
 
 
@@ -561,6 +617,18 @@ async def sitemap_xml(req, resp):
             "lastmod": post["date_str"],
             "priority": "0.9",
         })
+
+    # Add Knowledge pages
+    knowledge_dir = DATA_DIR / "knowledge"
+    if knowledge_dir.is_dir():
+        for md in sorted(knowledge_dir.rglob("*.md")):
+            rel = md.relative_to(DATA_DIR)
+            page = rel.parent if md.name == "index.md" else rel.with_suffix("")
+            urls.append({
+                "url": f"https://kennethreitz.org/{page.as_posix()}",
+                "lastmod": datetime.fromtimestamp(md.stat().st_mtime).strftime("%Y-%m-%d"),
+                "priority": "0.6",
+            })
 
     # Generate XML
     xml_lines = ['<?xml version="1.0" encoding="UTF-8"?>']
@@ -2361,13 +2429,27 @@ _legacy_files = {}  # stripped_slug -> url
 
 
 def _build_legacy_index():
-    """Build lookup tables from the data directory for fast legacy URL resolution."""
+    """Build lookup tables from the data directory for fast legacy URL resolution.
+
+    Knowledge pages are indexed last and never displace an existing slug,
+    so adding the section can't change where an old URL redirects.
+    """
+    def in_knowledge(p):
+        return p.relative_to(DATA_DIR).parts[0] == "knowledge"
+
+    knowledge_dirs, knowledge_files = [], []
     for match in DATA_DIR.rglob("*/"):
         if (match / "index.md").exists():
+            if in_knowledge(match):
+                knowledge_dirs.append(match)
+                continue
             rel = match.relative_to(DATA_DIR)
             _legacy_dirs[match.name] = f"/{rel}"
     for match in DATA_DIR.rglob("*.md"):
         if match.name == "index.md":
+            continue
+        if in_knowledge(match):
+            knowledge_files.append(match)
             continue
         stem = match.stem
         stripped = re.sub(r"^\d{4}-\d{2}(?:-\d{2})?-", "", stem)
@@ -2375,6 +2457,11 @@ def _build_legacy_index():
         url = f"/{rel.with_suffix('')}"
         _legacy_files[stripped] = url
         _legacy_files[stem] = url
+    for match in knowledge_dirs:
+        _legacy_dirs.setdefault(match.name, f"/{match.relative_to(DATA_DIR)}")
+    for match in knowledge_files:
+        url = f"/{match.relative_to(DATA_DIR).with_suffix('')}"
+        _legacy_files.setdefault(match.stem, url)
 
 
 _build_legacy_index()
@@ -2489,6 +2576,16 @@ async def catch_all(req, resp, *, path):
         api.log.info("Serving content: /%s", path)
         content_data = _cached_render(file_path)
 
+        # Knowledge pages list where they're mentioned; every other page
+        # links its first mentions of Knowledge concepts.
+        knowledge_ctx = {}
+        page_html = content_data["content"]
+        if _is_knowledge(path):
+            knowledge_ctx = _knowledge_context(path)
+        elif links_allowed(f"/{path}"):
+            page_html, _ = _crosslinked(file_path, f"/{path}", page_html)
+            knowledge_ctx["related_knowledge"] = get_knowledge_index().concepts_for(f"/{path}")
+
         # article:published_time from the dated filename; modified from mtime.
         date_match = re.match(r"(\d{4}-\d{2}-\d{2})", file_path.stem)
         published_iso = date_match.group(1) if date_match else None
@@ -2532,7 +2629,7 @@ async def catch_all(req, resp, *, path):
                     break
 
         respond_html(resp, "post.html", req, f"/{path}",
-            content=content_data["content"],
+            content=page_html,
             title=content_data["title"],
             metadata=content_data.get("metadata", {}),
             github_file=f"data/{path}.md",
@@ -2548,6 +2645,7 @@ async def catch_all(req, resp, *, path):
             older_post=older_post,
             published_iso=published_iso,
             modified_iso=modified_iso,
+            **knowledge_ctx,
         )
         return
 
@@ -2556,6 +2654,11 @@ async def catch_all(req, resp, *, path):
         api.log.info("Serving directory: /%s", path)
         content_data = _cached_render(index_path)
         items = get_directory_structure(dir_path)
+        knowledge_ctx = {}
+        if _is_knowledge(path):
+            # Reference shelves read best alphabetically, folders first.
+            items.sort(key=lambda i: (not i["is_dir"], (i.get("display_name") or i["name"]).lower()))
+            knowledge_ctx = _knowledge_context(path)
 
         # Check for image gallery
         image_extensions = {".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"}
@@ -2616,6 +2719,7 @@ async def catch_all(req, resp, *, path):
                 reading_time=content_data.get("reading_time"),
                 word_count=content_data.get("word_count"),
                 unique_icon=content_data.get("unique_icon"),
+                **knowledge_ctx,
             )
         return
 
