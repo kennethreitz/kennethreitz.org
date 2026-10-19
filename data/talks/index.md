@@ -28,7 +28,7 @@ An examination of whether the wildly popular Requests library should be included
 
 ### Python Ecosystem & Libraries
 - **[Python, Requests, & The Standard Library](/talks/requests-stdlib)** *(2013)* — Standard library inclusion debate
-- **[Python 2 vs Python 3](/talks/python-2-vs-python-3)** — Migration strategies and ecosystem impact
+- **[Python 2 vs Python 3](/talks/python-2-vs-python-3)** — Migration strategies and ecosystem impact, plus the 2019 Python 2.7 sendoff video
 - **[Future Python Dependencies](/talks/future-python-deps)** — Dependency management evolution
 
 ### API Design & Development Practices

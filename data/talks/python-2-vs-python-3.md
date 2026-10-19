@@ -52,6 +52,14 @@ This wasn't merely a technical challenge but a community healing process that wo
 
 The presentation concluded with an urgent plea for **community unity**. The Python community needed to come together to prevent Python 2 from becoming merely a nostalgic memory, instead finding ways to honor both versions while moving forward together. This unity was essential to preserve Python's legacy while fostering its continued evolution in an increasingly connected, collaborative world.
 
+## Coda: Python 2.7 Sendoff (2019)
+
+Four years later, with Python 2.7 approaching its end of life on January 1, 2020, I made a short sendoff video for IndyPy.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4XIJ-CDKcbo" title="Python 2.7 Sendoff!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[Watch Python 2.7 Sendoff! on YouTube](https://www.youtube.com/watch?v=4XIJ-CDKcbo).
+
 ---
 
 *This talk explores themes that I later developed into a broader framework about consciousness, language, and programming. For a deeper exploration of how Python fits into the evolution of human consciousness through linguistic structures, see [Python, Consciousness, and the Evolution of Language](/essays/2025-08-28-python-consciousness-and-the-evolution-of-language).*
