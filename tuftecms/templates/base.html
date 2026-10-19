@@ -210,6 +210,15 @@
                         </div>
                     </div>
                     <div class="nav-dropdown">
+                        <a href="/knowledge" class="nav-dropdown-trigger" aria-haspopup="true">Knowledge</a>
+                        <div class="nav-dropdown-content" id="knowledge-dropdown">
+                            {% for k in nav_knowledge %}
+                            <div class="tree-item tree-folder">{% if k.icon %}<img src="{{ k.icon }}" class="tree-item-icon" alt="">{% endif %}<a href="{{ k.path }}">{{ k.name }}</a></div>
+                            {% endfor %}
+                            <div class="tree-item tree-folder" style="border-top: 1px solid rgba(128,128,128,0.2); margin-top: 0.25rem; padding-top: 0.25rem;"><a href="/knowledge">All Knowledge →</a></div>
+                        </div>
+                    </div>
+                    <div class="nav-dropdown">
                         <span class="nav-dropdown-trigger" style="font-style: italic;" tabindex="0" role="button" aria-haspopup="true">etc.</span>
                         <div class="nav-dropdown-content" id="browse-dropdown">
                             {% for item in nav_browse %}
@@ -241,7 +250,7 @@
             <footer>
                 <div class="footer-content">
                     <nav class="footer-map">
-                        <a href="/essays">Essays</a><span class="sep">·</span><a href="/themes">Themes</a><span class="sep">·</span><a href="/software">Software</a><span class="sep">·</span><a href="/photography">Photography</a><span class="sep">·</span><a href="/music">Music</a><span class="sep">·</span><a href="/contact">Contact</a><span class="sep">·</span><a href="/feed.xml">RSS</a>
+                        <a href="/essays">Essays</a><span class="sep">·</span><a href="/themes">Themes</a><span class="sep">·</span><a href="/knowledge">Knowledge</a><span class="sep">·</span><a href="/software">Software</a><span class="sep">·</span><a href="/photography">Photography</a><span class="sep">·</span><a href="/music">Music</a><span class="sep">·</span><a href="/contact">Contact</a><span class="sep">·</span><a href="/feed.xml">RSS</a>
                     </nav>
                     <div class="footer-note">
                         <p>&copy; {{ "now"|strftime("%Y") }} Kenneth Reitz. <a href="https://kjvstudy.org/topics/Love">Made with love</a>.</p>
@@ -254,6 +263,24 @@
 
         <!-- Progressive enhancements: link previews, heading anchors, theme-color sync -->
         <script defer src="/static/js/enhance.js?v={{ static_v }}"></script>
+        <script>
+            // Mermaid diagrams (used by Knowledge notes): load the renderer only when a page has one.
+            document.addEventListener('DOMContentLoaded', function () {
+                var blocks = document.querySelectorAll('pre > code.language-mermaid');
+                if (!blocks.length) return;
+                blocks.forEach(function (code) {
+                    var div = document.createElement('div');
+                    div.className = 'mermaid';
+                    div.textContent = code.textContent;
+                    code.parentNode.replaceWith(div);
+                });
+                import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs').then(function (m) {
+                    var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    m.default.initialize({ startOnLoad: false, theme: dark ? 'dark' : 'neutral', securityLevel: 'strict' });
+                    m.default.run({ querySelector: '.mermaid' });
+                }).catch(function () {});
+            });
+        </script>
 
         <!-- Theme Toggle (theme itself is applied at the top of the body) -->
         <script>
