@@ -24,6 +24,14 @@ Though eventually, I started noticing [red](/photography/reds).
 
 I wrote about why the archive needed to exist in [Sixty Thousand Images and Nowhere to Put Them](/essays/2026-04-06-sixty_thousand_images_and_nowhere_to_put_them), and about how it was built in [Building a Home for Twenty Thousand Photographs](/essays/2026-04-09-building_a_home_for_twenty_thousand_photographs).
 
+## Awaken, Dreamer
+
+*Awaken, Dreamer* is a video I made from my photographs, flashing by one after another, faster than you can hold onto any one of them. It's the archive as a single breath.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x4IOAy93_8Q" title="Awaken, Dreamer OPHOTO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[Watch Awaken, Dreamer on YouTube](https://www.youtube.com/watch?v=x4IOAy93_8Q). There's also an earlier cut, [OPHOTO](https://www.youtube.com/watch?v=8zbqGLqgDgI).
+
 ---
 
 Here are some random photos from the collection:
