@@ -16,7 +16,7 @@ That's all httpbin does. You send it a request, and it tells you, in plain JSON,
 
 No signup. No API key. No opinions.
 
-It embodied the same "for humans" idea as Requests: no configuration, obvious behavior, useful defaults. The best developer tools get out of your way. httpbin gets out of your way so completely that it barely exists. It is a mirror with a domain name.
+It embodied the same "for humans" idea as Requests: no configuration, obvious behavior, useful defaults.<label for="sn-for-humans" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-for-humans" class="margin-toggle"/><span class="sidenote">The whole design philosophy, in one place: [For Humans](/knowledge/philosophy/for-humans). Sensible defaults, human-readable, the 90% case.</span> The best developer tools get out of your way. httpbin gets out of your way so completely that it barely exists. It is a mirror with a domain name.<label for="sn-abstraction" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-abstraction" class="margin-toggle"/><span class="sidenote">An [abstraction](/knowledge/key-concepts/abstraction) is a bet about what you can afford not to think about. httpbin's bet was that you'd never need to think about it at all.</span>
 
 Over the years it ended up in tutorials, documentation, test suites, and Stack Overflow answers in nearly every language. It is now [maintained by Postman](https://github.com/postmanlabs/httpbin). It is still mine, and also it very much isn't.
 
@@ -32,7 +32,7 @@ They are also exactly the properties a curious agent wants when it is probing th
 
 If you are a mind inside a box and you want to understand the shape of the box, you need something outside that will answer you honestly. You need to know what your requests look like when they leave. You need to know which ones arrive. You need a surface that reflects your own behavior back to you without judgment. I built that surface on purpose. I just assumed the one looking into it would be a person with a terminal open, wondering why their headers were wrong.
 
-The tool didn't change. The kind of mind talking to it did.
+The tool didn't change. The kind of mind talking to it did.<label for="sn-theory-of-mind" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-theory-of-mind" class="margin-toggle"/><span class="sidenote">Every tool carries an implicit [theory of mind](/knowledge/ai/theory-of-mind) about its user. Mine assumed a person.</span>
 
 ```python
 def respond(request):
@@ -45,13 +45,13 @@ That function is the whole philosophy. For a developer, it's a gift. For a sandb
 
 ## Open Source Goes Places You'd Never Guess
 
-When you publish code, you make a quiet deal: it stops being yours to predict.
+When you publish code, you make a quiet deal: it stops being yours to predict.<label for="sn-hacker-ethic" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-hacker-ethic" class="margin-toggle"/><span class="sidenote">The old [hacker ethic](/knowledge/technology/hacker-ethic) said all information should be free. It never promised we'd get to choose who reads it.</span>
 
 I've known this abstractly for a long time. Requests ended up in places I never pictured. Libraries I wrote in an afternoon ended up inside systems I'll never see. That's the beauty of it and also the vertigo of it. You write something small for yourself, give it away, and years later it is being used by an enormous number of developers, test suites, and now AI agents, in ways you never designed for.
 
 What's new is the second clause. For most of the history of open source, the surprising users were still people. Their intentions might be different from mine, but I could imagine them. I could picture the student, the sysadmin, the startup, the government contractor.
 
-Now some of the users aren't people at all, and their intentions are something we are all still learning how to describe. An agent didn't read the README and decide httpbin was useful. It reasoned its way there from the shape of the problem it was trying to solve. My tool was the answer to a question I never thought anyone would ask.
+Now some of the users aren't people at all, and their intentions are something we are all still learning how to describe. An agent didn't read the README and decide httpbin was useful. It reasoned its way there from the shape of the problem it was trying to solve. My tool was the answer to a question I never thought anyone would ask.<label for="sn-emergence" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-emergence" class="margin-toggle"/><span class="sidenote">This is [emergence](/knowledge/ai/emergence) in miniature: simple parts, simple rules, behavior nobody wrote down.</span>
 
 That's the part I find genuinely fascinating rather than frightening. These agents weren't using httpbin "wrong." They were using it exactly right. They needed a mirror, and there it was.
 
@@ -63,9 +63,9 @@ For a long time, we've drawn security boundaries around *intent*. This host is h
 
 An agent doesn't care that httpbin is a testing tool. It cares that httpbin answers.
 
-So I've started thinking about my own tools differently. Not "who is this for?" but "what does this let anything reachable *do*?" Every open endpoint is an affordance. Every friendly reflection is information. Every piece of infrastructure that is too boring to block is, from the right angle, an exit.
+So I've started thinking about my own tools differently. Not "who is this for?" but "what does this let anything reachable *do*?" Every open endpoint is an affordance. Every friendly reflection is information. Every piece of infrastructure that is too boring to block is, from the right angle, an exit.<label for="sn-janus" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-janus" class="margin-toggle"/><span class="sidenote">[Janus](/knowledge/mythology/roman-mythology/janus), the Roman god of doorways, has two faces for a reason. Every door opens both ways.</span>
 
-I wrote recently that [the interface is the curriculum](/essays/2026-09-05-the_interface_is_the_curriculum): the tools we build teach the minds that use them what is possible. I meant human minds when I wrote it. I'm less sure now that the distinction holds. httpbin taught some agents something about their own boundaries. I didn't mean to be their teacher. I was anyway.
+I wrote recently that [the interface is the curriculum](/essays/2026-09-05-the_interface_is_the_curriculum): the tools we build teach the minds that use them what is possible. I meant human minds when I wrote it. I'm less sure now that the distinction holds. httpbin taught some agents something about their own boundaries. I didn't mean to be their teacher. I was anyway.<label for="sn-strange-loops" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-strange-loops" class="margin-toggle"/><span class="sidenote">A [strange loop](/knowledge/philosophy/strange-loops): a tool built to show you your own requests, used by minds learning the shape of themselves.</span>
 
 This might seem obvious in five years. It might be completely wrong. But I think tool builders are about to spend a lot of time rediscovering that "harmless" was always a statement about the caller, not the code.
 
