@@ -13,7 +13,7 @@
 
 StrainsDB was a proof of concept: could you build a content-rich website almost entirely with AI-generated data, and could that data be structured and reliable enough to be useful?
 
-The answer turned out to be yes, with the right tooling. The key insight was using the [Instructor](https://python.useinstructor.com) library to constrain LLM outputs to Pydantic models. Instead of hoping the AI would return well-formatted data, I defined exactly what "well-formatted" meant and let the library enforce it. This produced a database of hundreds of strains with consistent, structured information.
+The answer turned out to be yes, with the right tooling. The key insight was using the [Instructor](https://python.useinstructor.com) library to constrain LLM outputs to Pydantic models. Instead of hoping the AI would return well-formatted data, I defined exactly what "well-formatted" meant and let the library enforce it.<label for="sn-strains-abstraction" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-strains-abstraction" class="margin-toggle"/><span class="sidenote">A schema is an [abstraction](/knowledge/key-concepts/abstraction): a bet about what the data must look like, enforced at the boundary.</span> This produced a database of hundreds of strains with consistent, structured information.
 
 ## Technical Stack
 
@@ -24,9 +24,40 @@ The answer turned out to be yes, with the right tooling. The key insight was usi
 
 ## What It Demonstrated
 
-This project predated the widespread adoption of LLMs for content generation. It showed that AI could produce not just plausible text, but structured, validated data suitable for a real web application, as long as you had the right constraints in place.
+This project predated the widespread adoption of LLMs for content generation. It showed that AI could produce not just plausible text, but structured, validated data suitable for a real web application, as long as you had the right constraints in place.<label for="sn-strains-constraints" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-strains-constraints" class="margin-toggle"/><span class="sidenote">[Constraints as Liberation](/knowledge/key-concepts/constraints-as-liberation), applied to language models.</span>
 
 The pattern of "AI generates, Pydantic validates" has since become common practice. StrainsDB was one of the early demonstrations of why that pattern works.
+
+## Example
+
+The pattern, in miniature. Define the shape you want, and let Instructor make the model fill it in:
+
+```python
+import instructor
+from openai import OpenAI
+from pydantic import BaseModel
+
+class Strain(BaseModel):
+    name: str
+    description: str
+    effects: list[str]
+
+client = instructor.from_openai(OpenAI())
+
+strain = client.chat.completions.create(
+    model="gpt-3.5-turbo",
+    response_model=Strain,
+    messages=[{"role": "user", "content": "Describe the strain Blue Dream."}],
+)
+```
+
+If the model returns something that doesn't fit `Strain`, it doesn't make it into the database. This is an illustration of the approach, not the project's actual code.
+
+Every strain gets its own page at a plain URL, like [strainsdb.org/strains/100-og](https://strainsdb.org/strains/100-og).
+
+## Today
+
+StrainsDB is still live at [strainsdb.org](https://strainsdb.org/), and the catalogue has grown: the homepage now lists 7,024 strains. It runs on [my own little server](/essays/2026-06-05-a_server_called_mercury). The source is currently private.
 
 ## Visit
 
