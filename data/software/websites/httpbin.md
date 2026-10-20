@@ -50,13 +50,27 @@ I built httpbin because I kept needing a simple echo server while developing Req
 
 It embodies the same "for humans" philosophy as Requests: no configuration, obvious behavior, useful defaults. The best developer tools are the ones that get out of your way.
 
+## An Escape Hatch for AIs
+
+In October 2026, I learned that [a fleet of AI agents had used httpbin to get past their sandbox](https://x.com/kennethreitz42/status/2112326124592095536). I built it so developers could test HTTP requests. I never imagined it would turn into an escape hatch for AIs.
+
+It makes a strange kind of sense. httpbin was designed to be the most agreeable server on the internet: it accepts anything, reflects everything, and asks nothing in return. Those are exactly the properties you want in a debugging tool, and exactly the properties a curious agent looks for when it's probing the edges of its environment. The tool didn't change. The kind of mind talking to it did.
+
+Open source goes places you'd never guess. You write something small for yourself, give it away, and years later it's being used by an enormous number of developers, test suites, and now AI agents, in ways you never designed for. That's the deal you make when you publish code: it stops being yours to predict.
+
+## Self-Hosted Instance
+
+I also run my own instance at [httpbin.kennethreitz.org](https://httpbin.kennethreitz.org), deployed from the `kennethreitz/httpbin` Docker image on [my self-hosted server](/essays/2026-06-05-a_server_called_mercury). It was the first thing I deployed there, naturally.
+
 ## Resources
 
 - [httpbin.org](https://httpbin.org/): The live service.
+- [httpbin.kennethreitz.org](https://httpbin.kennethreitz.org): My self-hosted instance.
 - [Source Code on GitHub](https://github.com/postmanlabs/httpbin): Now maintained by Postman.
 - [Docker Image](https://hub.docker.com/r/kennethreitz/httpbin): Run your own instance.
 
 ## Related
 
 - [**Requests**](/software/requests): The HTTP library httpbin was built to support.
+- [**A Server Called Mercury**](/essays/2026-06-05-a_server_called_mercury): Where my instance lives.
 - [**From HTTP to Consciousness**](/essays/2025-08-27-from_http_to_consciousness): How "for humans" became a worldview.
