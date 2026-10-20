@@ -20,7 +20,7 @@ Every word is mapped to its phonemes using the CMU Pronouncing Dictionary, with 
 
 RhymePad is a tool that amplifies a craft rather than automating it away. It doesn't write your verse or finish your line. It surfaces structure that was always there in the sound, so you can see what your ear already half-knew: which words are pulling together, which line endings are landing, where the internal rhymes are hiding. The writing stays yours; the tool just makes the music visible.<label for="sn-rhyme-for-humans" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-rhyme-for-humans" class="margin-toggle"/><span class="sidenote">Amplify, don't automate: [For Humans](/knowledge/philosophy/for-humans).</span>
 
-It also runs almost entirely locally. The phonetics, the rhyme groups, the meter analysis, all served from the machine. Only dictionary definitions reach out to the free [dictionaryapi.dev](https://dictionaryapi.dev/). No accounts, no engagement metrics, no feed. Just the pad and the page.
+It also runs entirely locally. The phonetics, the rhyme groups, the meter analysis, even the dictionary definitions, all served from the machine. No external dictionary calls. No accounts, no engagement metrics, no feed. Just the pad and the page.
 
 ## Examples
 
