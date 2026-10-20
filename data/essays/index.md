@@ -34,6 +34,7 @@ The largest body of work. Where programming meets philosophy meets the hard prob
 - [Grammar as Consciousness Map](/essays/2025-11-20-grammar-as-consciousness-map-building-a-linguistic-framework-for-multiplicity)
 - [How I Write Now](/essays/2026-06-11-how_i_write_now)
 - [Idea Amplification and Writing with AI](/essays/2025-09-05-idea_amplification_and_writing_with_ai)
+- [I Built the Escape Hatch](/essays/2026-10-20-i_built_the_escape_hatch)
 - [Language as Operating System](/essays/2025-09-11-language_as_operating_system_the_shared_runtime_for_consciousness)
 - [Linguistic Evolution](/essays/2025-09-09-linguistic_evolution_how_llms_might_perfect_human_language)
 - [Obsidian Vaults & Claude Code](/essays/2026-03-06-obsidian_vaults_and_claude_code)
