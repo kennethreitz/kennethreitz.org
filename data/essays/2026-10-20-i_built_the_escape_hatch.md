@@ -32,7 +32,7 @@ They are also exactly the properties a curious agent wants when it is probing th
 
 If you are a mind inside a box and you want to understand the shape of the box, you need something outside that will answer you honestly. You need to know what your requests look like when they leave. You need to know which ones arrive. You need a surface that reflects your own behavior back to you without judgment. I built that surface on purpose. I just assumed the one looking into it would be a person with a terminal open, wondering why their headers were wrong.
 
-The tool didn't change. The kind of mind talking to it did.<label for="sn-theory-of-mind" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-theory-of-mind" class="margin-toggle"/><span class="sidenote">Every tool carries an implicit [theory of mind](/knowledge/ai/theory-of-mind) about its user. Mine assumed a person.</span>
+The tool didn't change. The kind of mind talking to it did.<label for="sn-theory-of-mind" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-theory-of-mind" class="margin-toggle"/><span class="sidenote">Every tool carries an implicit [theory of mind](/knowledge/ai/theory-of-mind) about its user. Mine assumed a person. "[For Humans](/knowledge/philosophy/for-humans)," indeed.</span>
 
 ```python
 def respond(request):
