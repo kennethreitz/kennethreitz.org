@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Three hundred and two essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Three hundred and three essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -216,6 +216,7 @@ Tech commentary, product reviews, and industry takes from someone who's watched 
 
 The gift economy, community stewardship, and what happens when you give everything away.
 
+- [About $requests, the Token](/essays/2026-10-25-about_requests_the_token)
 - [An Overdue Apology](/essays/2023-01-an_overdue_apology)
 - [Be Cordial or Be on Your Way](/essays/2013-01-be_cordial_or_be_on_your_way)
 - [Documentation is King](/essays/2013-01-documentation_is_king)
