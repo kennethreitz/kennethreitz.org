@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Three hundred and four essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Three hundred and five essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -105,6 +105,7 @@ The technical foundation. Library announcements, coding philosophy, and the craf
 - [CSS With a Hint of DRY](/essays/2009-01-css_with_a_hint_of_dry)
 - [Django ORM for Online Payment Systems](/essays/2009-01-django_orm_for_online_payment_systems)
 - [Django Remote Development Server](/essays/2009-01-django_remote_development_server)
+- [Draft to Document: Why I Made My Notes Look Like LaTeX Papers](/essays/2026-11-04-draft_to_document)
 - [DRY and Pythonic jQuery](/essays/2009-01-dry_and_pythonic_jquery)
 - [Fish as Default Shell on Windows 10](/essays/2017-01-fish_as_default_shell_on_windows_10)
 - [Fizz Buzz in Python](/essays/2009-01-fizz_buzz_in_python)
