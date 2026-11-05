@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Three hundred and five essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Three hundred and six essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -274,6 +274,7 @@ The clinical reality, documented with the same precision Kenneth brings to code.
 - [Handwriting on the Floor](/essays/2026-06-11-handwriting_on_the_floor)
 - [Mental Health (for Humans)](/essays/2026-06-06-mental_health_for_humans)
 - [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is)
+- [Mental Health Triage Department: BHS, Winchester, Virginia](/essays/2026-11-05-mental_health_triage_bhs)
 - [MentalHealthError](/essays/2016-01-mentalhealtherror_an_exception_occurred)
 - [MentalHealthError three years later](/essays/2019-01-mentalhealtherror_three_years_later)
 - [MentalHealthError: Ten Years Later](/essays/2026-06-11-mentalhealtherror_ten_years_later)
