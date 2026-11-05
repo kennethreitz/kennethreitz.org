@@ -32,6 +32,8 @@ However, I am not complacent with this triage-disguised-as-treatment with almost
 
 If staff read this tomorrow, the ask is simple: give your patients information, not orders. Explain the label. Explain what it means on a Tuesday. Don't wait for the discharge sheet to do your job.
 
+Sometimes yes — usually the techs, who aren't specifically trained to do so. The people with the least formal license sometimes do the most human explaining.
+
 I've never seen a doctor in any of these places explain what your diagnosis is, what it means, how it effects your day to day. You normally find out what your diagnosis is on your discharge paperwork, and it's up to you to Google it.<label for="sn-discharge-dx" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-discharge-dx" class="margin-toggle"/><span class="sidenote">Discharge paperwork is often the first plain-language encounter a guest has with their own label. That is not education. That is a receipt.</span>
 
 ## Outpatient by design
