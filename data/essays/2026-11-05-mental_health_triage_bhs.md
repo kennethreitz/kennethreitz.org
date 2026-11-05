@@ -35,6 +35,8 @@ If staff read this tomorrow, the ask is simple: give your patients information, 
 
 In the first twenty-four hours, guests should hear (in plain language) when they'll get their own clothes back, what a normal stay is actually like, and what success looks like. Not vague reassurance. Those three things. When they get their clothes. What ordinary days inside look like. What "better enough to leave" means here. That almost never gets said.
 
+There are a lot of confusing legalities about being able to leave of your own accord, and the rest of the civil-commitment maze. That's to be expected. I don't expect any reform there. It's nuanced and complex, and this essay isn't asking staff to fix the law.
+
 Sometimes yes: usually the techs, who aren't specifically trained to do so. The people with the least formal license sometimes do the most human explaining.
 
 I've never seen a doctor in any of these places explain what your diagnosis is, what it means, how it effects your day to day. You normally find out what your diagnosis is on your discharge paperwork, and it's up to you to Google it.<label for="sn-discharge-dx" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-discharge-dx" class="margin-toggle"/><span class="sidenote">Discharge paperwork is often the first plain-language encounter a guest has with their own label. That is not education. That is a receipt.</span>
