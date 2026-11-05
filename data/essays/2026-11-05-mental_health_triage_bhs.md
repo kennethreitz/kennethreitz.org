@@ -59,7 +59,7 @@ There was a woman they treated like a barn animal. A guy threw a chair. The buil
 
 ## Best of a bad category
 
-So: Winchester had Empath, a real building, some staff who tried, and a process that mostly kept the floor from falling out. It also had the checks, the committee, the points, the window full of restraints, the quiet starvation of the things that actually keep a person upright, and a design that treats therapy as an intake handshake instead of a presence while you're trapped in the building. The system at its best is visible here. A lot of it is bullshit. It works, for the most part. Those three sentences can all be true at once. That's the narrative.
+So: Winchester had Empath, a real building, some staff who tried, and a process that mostly kept the floor from falling out. It also had the checks, the committee, the points, the window full of restraints, the quiet starvation of the things that actually keep a person upright, and a design that treats therapy as an intake handshake instead of a presence while you're trapped in the building. Group therapy is not a replacement for actual therapy. The system at its best is visible here. A lot of it is bullshit. It works, for the most part. Those three sentences can all be true at once. That's the narrative.
 
 ## What kept me out
 
