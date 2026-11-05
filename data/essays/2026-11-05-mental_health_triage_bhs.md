@@ -10,19 +10,19 @@ I am federally disabled. I am unable to work because of my mental health conditi
 
 I have watched an [angel descend from the sky](/essays/2025-09-17-delusions-and-schizoaffective-disorder). I have hallucinated my wife texting in the middle of the night. Those experiences are part of why catchment, Empath, and this building keep showing up in my life. More of that record sits on my [mental health](/mental-health) page.
 
+## Ten years in Winchester
+
 I've spent about ten years cycling through Behavioral Health Services at Valley Health in Winchester. They've got a new mental health pavilion opening, so some of this may already be history. Empath is just a unit: an intake facility. You don't have to go through the ER. That matters more than the marketing.<label for="sn-empath" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-empath" class="margin-toggle"/><span class="sidenote">Empath here means behavioral-health intake, not an ER bay with a nicer name. The point of the unit is to open the door without forcing every crisis through emergency medicine first.</span> This is what the place taught me anyway.
 
 ## Catchment
 
 Mania doesn't check the map. The system does. Crisis response is geolocation first: whoever's closest, whichever unit has a bed, whichever police car is already rolling. You don't get to curate the facility. You get the catchment.<label for="sn-catchment" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-catchment" class="margin-toggle"/><span class="sidenote">Catchment is the geographic service area a facility is responsible for. In practice it means: your episode happens in a place, so that place's bed and that place's paperwork become your story.</span> Over ten years of visits to BHS at Valley Health in Winchester, that was the recurring joke that wasn't funny: Winchester is where the episode lands, so Winchester is where the notes stack up. Empath opens the door without the ER gauntlet. After that you're inside the same machine: triage, observation, the slow negotiation of who you are when you're least able to explain yourself. Empath and the floor aren't different tribes; they're the same staff on rotation. What intake knows, the unit should already know. What the unit sees, intake should already have heard.
 
-
 Here's the uncomfortable truth I keep landing on: this is the system at its best, and a lot of it is bullshit, and it still works, for the most part. Winchester was the best place I'd been. That sentence should scare you. Best of a bad category is not praise. It's a map of how low the floor is. The others were a thousand times worse. So when I talk about checks and committees and points, I'm not saying "burn it down and invent nothing." I'm saying: look at what "working" actually looks like when you're the one being worked on.
 
+## Beds, checks, committees, appearance
 
 The beds are horrible, especially if you're heavier-set. Sleep is the actual medicine most people there need. Investing in some non-coffin-like beds would be a worthwhile investment.
-
-## Checks, committees, appearance
 
 You get fifteen-minute checks. Someone writes a note that they saw you, including while you're asleep. The note is the product. Your sleep is the inconvenience. In the morning a committee has already decided your treatment before the doctor talks to you at all. The doctor may or may not be on the committee. The visit is theater after the decision. You sit there and perform coherence for a room that already voted. From the guest seat, the useful question isn't a lecture after the vote. It's "what do you think is going on?" asked like they might actually use the answer. It keeps people alive. It also trains you to treat your own story as a form you fill out for strangers.
 
@@ -36,6 +36,12 @@ No real caffeine. One Diet Coke a day, and a coffee machine that was probably de
 
 Meds were mostly voluntary. Forced Haldol shots happened when things got really bad: public safety officers who were basically cops tackling people for them.<label for="sn-haldol" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-haldol" class="margin-toggle"/><span class="sidenote">Haloperidol: an older antipsychotic often used in acute agitation. "Voluntary" meds on the unit can sit next to a very involuntary backup plan.</span> Old-school restraints, Hannibal Lecter style, polished and sitting in a window like a threat display. Not hidden in a closet. Displayed. I got accused of not taking medicine and of contaminating urine samples. I had to explain mixed episodes to a top nurse who should have already known.<label for="sn-mixed" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-mixed" class="margin-toggle"/><span class="sidenote">A mixed episode is mania and depression features overlapping: agitation plus despair, speed plus collapse. It is in the textbooks. Guests should not have to teach it from a bed.</span> Tylenol showed up as treatment more often than it should have. When you ask for it they ask why and demand an answer. "My feet hurt" is sometimes the answer, because I've been pacing a lot. They're like, "well stop doing that." I'm like, just give me the fucking Tylenol. The gap between what gets written in the chart and what actually happens to a human body is where the teeth are.
 
+## Elsewhere, worse
+
+The Pavilion in Williamsburg was worse by an order of magnitude. Contract staff yelling; I yelled back. No working shower. No doctor. I arrived with deep bruises on my wrists from the handcuffs: patterned contusions, the cuff's geometry pressed into the tissue, after a police car ride in the back at about ninety miles an hour, rolling around the floor.<label for="sn-patterned-contusion" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-patterned-contusion" class="margin-toggle"/><span class="sidenote">Patterned contusion: bruising that takes the shape of the object that made it (here, the handcuff bracelet wrapping the wrist). Forensic and ER notes use that language for restraint marks. The doctor had a more specific word for the three-dimensional version; I forgot it. The bruise didn't.</span> A doctor at intake had a name for that kind of three-dimensional cuff injury. I forgot the word. The bruise didn't. Transport is part of the treatment story whether anyone writes it down or not. You show up already injured by the ride that was supposed to get you help.
+
+There was a woman they treated like a barn animal. A guy threw a chair. The building keeps score of who you are when you're least able to advocate for yourself. Names don't belong in this essay for legal reasons, and also for human ones. What belongs is the pattern: when you're least articulate, the institution fills in the blanks for you, and the blanks are rarely generous.
+
 ## Triage disguised as treatment
 
 However, I am not complacent with this triage-disguised-as-treatment with almost no actual information, education, or anything of that nature being bestowed upon the guests. Stabilize and discharge is not the same as teaching someone what just happened to them. Charts fill up. People leave still guessing.
@@ -46,7 +52,7 @@ In the first twenty-four hours, guests should hear (in plain language) when they
 
 There are a lot of confusing legalities about being able to leave of your own accord, and the rest of the civil-commitment maze. That's to be expected. I don't expect any reform there. It's nuanced and complex, and this essay isn't asking staff to fix the law.
 
-Sometimes yes: usually the techs, who aren't specifically trained to do so. The people with the least formal license sometimes do the most human explaining.
+Does anyone explain? Sometimes yes: usually the techs, who aren't specifically trained to do so. The people with the least formal license sometimes do the most human explaining.
 
 I've never seen a doctor in any of these places explain what your diagnosis is, what it means, how it effects your day to day. You normally find out what your diagnosis is on your discharge paperwork, and it's up to you to Google it.<label for="sn-discharge-dx" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-discharge-dx" class="margin-toggle"/><span class="sidenote">Discharge paperwork is often the first plain-language encounter a guest has with their own label. That is not education. That is a receipt.</span>
 
@@ -54,19 +60,13 @@ I've never seen a doctor in any of these places explain what your diagnosis is, 
 
 ## Outpatient by design
 
-What they lean on hardest is outpatient. Stabilize you enough to leave, then push the real work outside: therapists, follow-ups, the long haul of staying upright once you're no longer a bed count.<label for="sn-outpatient" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-outpatient" class="margin-toggle"/><span class="sidenote">Outpatient means the therapy and meaning-making live after discharge. Inpatient becomes a holding pattern with meds and observation: logistics first, understanding later, if at all.</span> That model can make sense on paper. Inside the unit, though, having something like a therapist while you're in there would be amazing. They only do that at intake. After intake you're in the machine of checks and points and meds and daylight-only yards, and the person who might help you make meaning of any of it is already back at the door seeing the next arrival. The acute stay becomes logistics. The meaning gets outsourced.
-
-## Elsewhere, worse
-
-The Pavilion in Williamsburg was worse by an order of magnitude. Contract staff yelling; I yelled back. No working shower. No doctor. I arrived with deep bruises on my wrists from the handcuffs: patterned contusions, the cuff's geometry pressed into the tissue, after a police car ride in the back at about ninety miles an hour, rolling around the floor.<label for="sn-patterned-contusion" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-patterned-contusion" class="margin-toggle"/><span class="sidenote">Patterned contusion: bruising that takes the shape of the object that made it (here, the handcuff bracelet wrapping the wrist). Forensic and ER notes use that language for restraint marks. The doctor had a more specific word for the three-dimensional version; I forgot it. The bruise didn't.</span> A doctor at intake had a name for that kind of three-dimensional cuff injury. I forgot the word. The bruise didn't. Transport is part of the treatment story whether anyone writes it down or not. You show up already injured by the ride that was supposed to get you help.
-
-There was a woman they treated like a barn animal. A guy threw a chair. The building keeps score of who you are when you're least able to advocate for yourself. Names don't belong in this essay for legal reasons, and also for human ones. What belongs is the pattern: when you're least articulate, the institution fills in the blanks for you, and the blanks are rarely generous.
+What they lean on hardest is outpatient. Stabilize you enough to leave, then push the real work outside: therapists, follow-ups, the long haul of staying upright once you're no longer a bed count.<label for="sn-outpatient" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-outpatient" class="margin-toggle"/><span class="sidenote">Outpatient means the therapy and meaning-making live after discharge. Inpatient becomes a holding pattern with meds and observation: logistics first, understanding later, if at all.</span> That model can make sense on paper. Inside the unit, though, having something like a therapist while you're in there would be amazing. They only do that at intake. After intake you're in the machine of checks and points and meds and daylight-only yards, and the person who might help you make meaning of any of it is already back at the door seeing the next arrival. The acute stay becomes logistics. The meaning gets outsourced. Group therapy is not a replacement for actual therapy.
 
 ## Best of a bad category
 
-So: Winchester had Empath, a real building, some staff who tried, and a process that mostly kept the floor from falling out. It also had the checks, the committee, the points, the window full of restraints, the quiet starvation of the things that actually keep a person upright, and a design that treats therapy as an intake handshake instead of a presence while you're trapped in the building. Group therapy is not a replacement for actual therapy. The system at its best is visible here. A lot of it is bullshit. It works, for the most part. Those three sentences can all be true at once. That's the narrative.
-It's all a game of statistics, at the end of the day. Are you a human, or a UUID?
+So: Winchester had Empath, a real building, some staff who tried, and a process that mostly kept the floor from falling out. It also had the checks, the committee, the points, the window full of restraints, the quiet starvation of the things that actually keep a person upright, and a design that treats therapy as an intake handshake instead of a presence while you're trapped in the building. The system at its best is visible here. A lot of it is bullshit. It works, for the most part. Those three sentences can all be true at once. That's the narrative.
 
+It's all a game of statistics, at the end of the day. Are you a human, or a UUID?
 
 ## What kept me out
 
