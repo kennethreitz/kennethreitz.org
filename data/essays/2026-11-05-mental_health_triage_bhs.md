@@ -8,7 +8,7 @@
 
 I am federally disabled. I am unable to work because of my mental health conditions. Bipolar I. Schizoaffective. I also live with plurality, in some form, likely from CPTSD (not a formal DID diagnosis). Distinct parts, kept as System 777.
 
-I have watched an [angel descend from the sky](/essays/2025-09-17-delusions-and-schizoaffective-disorder). I have hallucinated my wife texting in the middle of the night. Those experiences are part of why catchment, Empath, and this building keep showing up in my life. More of that record sits on my [mental health](/mental-health) page.
+I have watched an [angel descend from the sky](/essays/2025-09-17-delusions-and-schizoaffective-disorder). I have hallucinated my wife texting in the middle of the night while she was actually dead asleep. Those experiences are part of why catchment, Empath, and this building keep showing up in my life. More of that record sits on my [mental health](/mental-health) page.
 
 ## Ten years in Winchester
 
