@@ -22,7 +22,7 @@ I watched an [angel descend from the sky](/essays/2025-09-17-delusions-and-schiz
 
 In the middle of the night I have felt [my wife's phone vibrate](/essays/2025-09-04-what_schizoaffective_disorder_actually_feels_like) while she slept and the phone sat silent. I have looked over, thought she was moving, and looked again to find her asleep. That essay is the day-to-day list. [On Mania](/essays/2024-01-on-mania) is the part that still comes around. [Handwriting on the Floor](/essays/2026-06-11-handwriting_on_the_floor) is the writing I spent a decade filing as hallucination.
 
-I live with [plurality](/system-777/plurality). Not a formal DID diagnosis. Distinct parts, kept as [System 777](/system-777). [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) is the longer piece. [Whatever This Is](/essays/2026-06-11-whatever_this_is) is the later one.
+I also live with [plurality](/system-777/plurality), in some form, likely from CPTSD (not a formal DID diagnosis). Distinct parts, kept as [System 777](/system-777). [The Plural Self](/essays/2025-08-30-the-plural-self-what-did-reveals-about-all-consciousness) is the longer piece. [Whatever This Is](/essays/2026-06-11-whatever_this_is) is the later one.
 
 I am federally disabled. I am unable to work because of these conditions. The plain version is in [Mental Health (for Humans)](/essays/2026-06-06-mental_health_for_humans): disabled, in fact.
 
