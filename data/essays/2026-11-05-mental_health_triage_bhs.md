@@ -19,6 +19,9 @@ Mania doesn't check the map. The system does. Crisis response is geolocation fir
 
 Here's the uncomfortable truth I keep landing on: this is the system at its best, and a lot of it is bullshit, and it still works, for the most part. Winchester was the best place I'd been. That sentence should scare you. Best of a bad category is not praise. It's a map of how low the floor is. The others were a thousand times worse. So when I talk about checks and committees and points, I'm not saying "burn it down and invent nothing." I'm saying: look at what "working" actually looks like when you're the one being worked on.
 
+
+The beds are horrible, especially if you're heavier-set. Sleep is the actual medicine most people there need. Investing in some non-coffin-like beds would be a worthwhile investment.
+
 ## Checks, committees, appearance
 
 You get fifteen-minute checks. Someone writes a note that they saw you, including while you're asleep. The note is the product. Your sleep is the inconvenience. In the morning a committee has already decided your treatment before the doctor talks to you at all. The doctor may or may not be on the committee. The visit is theater after the decision. You sit there and perform coherence for a room that already voted. From the guest seat, the useful question isn't a lecture after the vote. It's "what do you think is going on?" asked like they might actually use the answer. It keeps people alive. It also trains you to treat your own story as a form you fill out for strangers.
