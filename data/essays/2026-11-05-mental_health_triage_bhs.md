@@ -30,6 +30,8 @@ Meds were mostly voluntary. Forced Haldol shots happened when things got really 
 
 However, I am not complacent with this triage-disguised-as-treatment with almost no actual information, education, or anything of that nature being bestowed upon the guests. Stabilize and discharge is not the same as teaching someone what just happened to them. Charts fill up. People leave still guessing.
 
+If staff read this tomorrow, the ask is simple: give your patients information, not orders. Explain the label. Explain what it means on a Tuesday. Don't wait for the discharge sheet to do your job.
+
 I've never seen a doctor in any of these places explain what your diagnosis is, what it means, how it effects your day to day. You normally find out what your diagnosis is on your discharge paperwork, and it's up to you to Google it.<label for="sn-discharge-dx" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-discharge-dx" class="margin-toggle"/><span class="sidenote">Discharge paperwork is often the first plain-language encounter a guest has with their own label. That is not education. That is a receipt.</span>
 
 ## Outpatient by design
