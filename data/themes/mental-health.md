@@ -27,6 +27,7 @@ This thread collects the lived experience, the design implications, and the hone
 - [**Breaking Changes**](/essays/2026-06-11-breaking_changes) — The DSM has a version number, and its maintainers treat it like software. Deprecated diagnoses, identities with no migration path, and why the communities who forked their labels had the right idea.
 - [**Mental Health (for Humans)**](/essays/2026-06-06-mental_health_for_humans) — Ten years inside the system. Diagnosis is a lookup key, not a life sentence; the DSM is a census, not a prophecy; treatment is the point.
 - [**The Unit**](/essays/2026-06-06-the_unit) — The psychiatric ward, documented instead of mythologized. A halt, not a verdict; the discharge audition; and why the bar is a working shower.
+- [**BHS, Valley Health, Winchester, Virginia**](/essays/2026-11-05-mental_health_triage_bhs) — Ten years of visits to Behavioral Health Services in Winchester. Triage from the guest seat, and the ask to give patients information, not orders.
 - [**Designing for the Worst Day**](/essays/2026-03-18-designing_for_the_worst_day) — What human-centered design means when the human is in crisis.
 - [**The Interface Is the Subconscious**](/essays/2026-03-20-the_interface_is_the_subconscious) — Why careless interface design is a clinical risk for vulnerable minds. The canary in the coal mine.
 - [**Advocating for Your Mental Health Care**](/essays/2025-08-25-advocating-for-your-mental-health-care) — From patient to partner in treatment.
