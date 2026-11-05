@@ -50,6 +50,8 @@ Sometimes yes: usually the techs, who aren't specifically trained to do so. The 
 
 I've never seen a doctor in any of these places explain what your diagnosis is, what it means, how it effects your day to day. You normally find out what your diagnosis is on your discharge paperwork, and it's up to you to Google it.<label for="sn-discharge-dx" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-discharge-dx" class="margin-toggle"/><span class="sidenote">Discharge paperwork is often the first plain-language encounter a guest has with their own label. That is not education. That is a receipt.</span>
 
+Diagnosis drives treatment. Patients are not taught that.
+
 ## Outpatient by design
 
 What they lean on hardest is outpatient. Stabilize you enough to leave, then push the real work outside: therapists, follow-ups, the long haul of staying upright once you're no longer a bed count.<label for="sn-outpatient" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-outpatient" class="margin-toggle"/><span class="sidenote">Outpatient means the therapy and meaning-making live after discharge. Inpatient becomes a holding pattern with meds and observation: logistics first, understanding later, if at all.</span> That model can make sense on paper. Inside the unit, though, having something like a therapist while you're in there would be amazing. They only do that at intake. After intake you're in the machine of checks and points and meds and daylight-only yards, and the person who might help you make meaning of any of it is already back at the door seeing the next arrival. The acute stay becomes logistics. The meaning gets outsourced.
