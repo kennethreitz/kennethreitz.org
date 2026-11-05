@@ -269,12 +269,12 @@ Personal essays, places visited, and the human experience between the code.
 The clinical reality, documented with the same precision Kenneth brings to code.
 
 - [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care)
+- [BHS of Valley Health](/essays/2026-11-05-mental_health_triage_bhs)
 - [Breaking Changes](/essays/2026-06-11-breaking_changes)
 - [Delusions and Schizoaffective Disorder](/essays/2025-09-17-delusions-and-schizoaffective-disorder)
 - [Handwriting on the Floor](/essays/2026-06-11-handwriting_on_the_floor)
 - [Mental Health (for Humans)](/essays/2026-06-06-mental_health_for_humans)
 - [Mental Health Isn't What You Think It Is](/essays/2025-09-01-mental_health_isnt_what_you_think_it_is)
-- [Mental Health Triage Department: BHS, Winchester, Virginia](/essays/2026-11-05-mental_health_triage_bhs)
 - [MentalHealthError](/essays/2016-01-mentalhealtherror_an_exception_occurred)
 - [MentalHealthError three years later](/essays/2019-01-mentalhealtherror_three_years_later)
 - [MentalHealthError: Ten Years Later](/essays/2026-06-11-mentalhealtherror_ten_years_later)
