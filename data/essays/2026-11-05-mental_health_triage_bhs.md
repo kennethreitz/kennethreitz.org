@@ -14,7 +14,8 @@ Here's the uncomfortable truth I keep landing on: this is the system at its best
 
 ## Checks, committees, appearance
 
-You get fifteen-minute checks. Someone writes a note that they saw you, including while you're asleep. The note is the product. Your sleep is the inconvenience. In the morning a committee has already decided your treatment before the doctor walks in. The visit is theater after the decision. You sit there and perform coherence for a room that already voted. It keeps people alive. It also trains you to treat your own story as a form you fill out for strangers.
+You get fifteen-minute checks. Someone writes a note that they saw you, including while you're asleep. The note is the product. Your sleep is the inconvenience. In the morning a committee has already decided your treatment before the doctor walks in. The visit is theater after the decision. You sit there and perform coherence for a room that already voted. From the guest seat, the useful question isn't a lecture after the vote — it's "what do you think is going on?" asked like they might actually use the answer.
+ It keeps people alive. It also trains you to treat your own story as a form you fill out for strangers.
 
 Appearance is policy: hair, nails, a shave. No strings on any clothing.<label for="sn-no-strings" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-no-strings" class="margin-toggle"/><span class="sidenote">No drawstrings, no hoodies with cords, no anything that can be turned into a ligature. Safety policy that also turns getting dressed into a compliance ritual.</span> Looking "appropriate" is treated like medicine. You have to chase busy staff to get those things done, and for the shave a nurse stands over you for thirty minutes. Want a printed list of your diagnoses — synesthesia, whatever else they wrote down — or your meds? Ask. Find someone who likes you. It might take a day or two to get a few printed pages to you, if you get it at all — the most likely outcome. Same goes with personal care that requires staff help. Information about your own body is a favor. Hygiene that needs help is a favor. Favors have a waitlist.
 
@@ -31,6 +32,8 @@ Meds were mostly voluntary. Forced Haldol shots happened when things got really 
 However, I am not complacent with this triage-disguised-as-treatment with almost no actual information, education, or anything of that nature being bestowed upon the guests. Stabilize and discharge is not the same as teaching someone what just happened to them. Charts fill up. People leave still guessing.
 
 If staff read this tomorrow, the ask is simple: give your patients information, not orders. Explain the label. Explain what it means on a Tuesday. Don't wait for the discharge sheet to do your job.
+
+In the first twenty-four hours, guests should hear — in plain language — when they'll get their own clothes back, what a normal stay is actually like, and what success looks like. Not vague reassurance. Those three things. When they get their clothes. What ordinary days inside look like. What "better enough to leave" means here. That almost never gets said.
 
 Sometimes yes — usually the techs, who aren't specifically trained to do so. The people with the least formal license sometimes do the most human explaining.
 
