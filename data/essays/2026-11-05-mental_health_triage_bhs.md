@@ -4,6 +4,12 @@
 
 *About what I've learned, my experience over ten years of visits to BHS at Valley Health in Winchester, Virginia, and my notes on the subject.*
 
+## For context
+
+I am federally disabled. I am unable to work because of my mental health conditions. Bipolar I. Schizoaffective. I live with plurality: distinct parts, kept as System 777, not a formal DID diagnosis.
+
+I have watched an [angel descend from the sky](/essays/2025-09-17-delusions-and-schizoaffective-disorder). I have hallucinated my wife texting in the middle of the night. Those experiences are part of why catchment, Empath, and this building keep showing up in my life. More of that record sits on my [mental health](/mental-health) page.
+
 I've spent about ten years cycling through Behavioral Health Services at Valley Health in Winchester. They've got a new mental health pavilion opening, so some of this may already be history. Empath is just a unit: an intake facility. You don't have to go through the ER. That matters more than the marketing.<label for="sn-empath" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-empath" class="margin-toggle"/><span class="sidenote">Empath here means behavioral-health intake, not an ER bay with a nicer name. The point of the unit is to open the door without forcing every crisis through emergency medicine first.</span> This is what the place taught me anyway.
 
 ## Catchment
