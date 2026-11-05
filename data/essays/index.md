@@ -269,7 +269,7 @@ Personal essays, places visited, and the human experience between the code.
 The clinical reality, documented with the same precision Kenneth brings to code.
 
 - [Advocating for Your Mental Health Care](/essays/2025-08-25-advocating-for-your-mental-health-care)
-- [BHS of Valley Health](/essays/2026-11-05-mental_health_triage_bhs)
+- [BHS, Valley Health, Winchester, Virginia](/essays/2026-11-05-mental_health_triage_bhs)
 - [Breaking Changes](/essays/2026-06-11-breaking_changes)
 - [Delusions and Schizoaffective Disorder](/essays/2025-09-17-delusions-and-schizoaffective-disorder)
 - [Handwriting on the Floor](/essays/2026-06-11-handwriting_on_the_floor)
