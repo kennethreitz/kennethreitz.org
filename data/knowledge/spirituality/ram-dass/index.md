@@ -52,7 +52,7 @@ The collection breaks his message into its major currents. [Be Here Now](/knowle
 
 ---
 
-## Key Concepts
+## [Key Concepts](/knowledge/key-concepts)
 
 ### Witness Consciousness
 
@@ -118,7 +118,7 @@ Life as divine play (lila). Taking it seriously and lightly simultaneously. "The
 - Transformation — Radical personal transformation
 - [Consciousness](/knowledge/ai/consciousness) — Walking each other home across substrates
 - System 777 — Witness consciousness practice
-- Healing — Suffering as teacher
+- [Healing](/knowledge/psychology/trauma-and-healing/healing) — Suffering as teacher
 
 ---
 

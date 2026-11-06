@@ -17,7 +17,7 @@ Psychoanalysis — the tradition Jung split from, kept here for what it still ge
 
 ## The Model
 
-Everything starts with [The Unconscious](/knowledge/psychology/freudian/the-unconscious) — Freud's insight that most of mental life happens beneath awareness. Its structure is the eternal negotiation of The Id, Ego, and Superego, driven by [The Pleasure Principle](/knowledge/psychology/freudian/the-pleasure-principle) (the id's one rule: more, now) and shaped in childhood through [Psychosexual Development](/knowledge/psychology/freudian/psychosexual-development) and [The Oedipus Complex](/knowledge/psychology/freudian/the-oedipus-complex), the family drama that forges the superego.
+Everything starts with [The Unconscious](/knowledge/psychology/freudian/the-unconscious) — Freud's insight that most of mental life happens beneath awareness. Its structure is the eternal negotiation of [The Id, Ego, and Superego](/knowledge/psychology/freudian/the-id-ego-and-superego), driven by [The Pleasure Principle](/knowledge/psychology/freudian/the-pleasure-principle) (the id's one rule: more, now) and shaped in childhood through [Psychosexual Development](/knowledge/psychology/freudian/psychosexual-development) and [The Oedipus Complex](/knowledge/psychology/freudian/the-oedipus-complex), the family drama that forges the superego.
 
 ## The Defenses
 
@@ -25,7 +25,7 @@ Everything starts with [The Unconscious](/knowledge/psychology/freudian/the-unco
 
 ## The Method
 
-The clinical toolkit: [Free Association](/knowledge/psychology/freudian/free-association) (say whatever comes to mind), [Dream Work](/knowledge/psychology/freudian/dream-work) (the royal road to the unconscious), Transference (you're not talking to your therapist — you're talking to your mother), and [Resistance](/knowledge/psychology/freudian/resistance) (the patient seeks help but fights the process).
+The clinical toolkit: [Free Association](/knowledge/psychology/freudian/free-association) (say whatever comes to mind), [Dream Work](/knowledge/psychology/freudian/dream-work) (the royal road to the unconscious), [Transference](/knowledge/psychology/freudian/transference) (you're not talking to your therapist — you're talking to your mother), and [Resistance](/knowledge/psychology/freudian/resistance) (the patient seeks help but fights the process).
 
 ---
 

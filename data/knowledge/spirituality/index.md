@@ -31,7 +31,7 @@ Swami Vivekananda brought Vedanta West (1893), establishing the translation trad
 
 ---
 
-## Practice Integration
+## Practice [Integration](/knowledge/psychology/trauma-and-healing/integration)
 
 ### Code as Spiritual Practice
 
@@ -114,7 +114,7 @@ flowchart TD
 - [AI Research](/knowledge/ai/ai-research) — Where spirituality meets silicon
 - System 777 — Plurality as Maya
 - Health — Practice supporting health
-- Religious Archetypes & Psychic Integration — How devotion activates archetype in psyche
+- [Religious [Archetypes](/knowledge/psychology/jungian/archetypes) & Psychic Integration](/knowledge/psychology/jungian/religious-archetypes-and-psychic-integration) — How devotion activates archetype in psyche
 - [Gnosticism](/knowledge/spirituality/gnosticism) — Salvation through knowledge; the Sophia drama, the demiurge, the divine spark
 - [Meditation](/knowledge/spirituality/meditation) — Presence practice
 - [Alchemy](/knowledge/alchemy) — Western transformation tradition

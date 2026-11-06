@@ -15,3 +15,10 @@ docker-run:
 
 build:
 	docker compose build
+
+# Regenerate data/knowledge, data/library/books, and software History
+# blocks from the Obsidian vault. Refuses to wipe knowledge if the vault
+# looks partial. See scripts/vaultsync.py.
+VAULT ?= $(HOME)/Notes
+sync-vault:
+	uv run python scripts/sync_vault.py --vault $(VAULT)

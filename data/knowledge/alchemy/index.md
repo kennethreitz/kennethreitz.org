@@ -43,7 +43,7 @@ Within System 777, the alchemical framework offers a language for integration wo
 
 - [Hermeticism](/knowledge/spirituality/hermeticism) — The philosophical parent tradition
 - [Individuation](/knowledge/psychology/jungian/individuation) — Jung's name for the same process
-- The Shadow — What nigredo confronts
+- [The Shadow](/knowledge/psychology/jungian/the-shadow) — What nigredo confronts
 - [Alchemical Divorce](/music/alchemical-divorce) — The album
 - System 777 — The vessel
 - [Kabbalah](/knowledge/spirituality/kabbalah) — Kabbalistic symbolism in alchemical tradition
@@ -53,7 +53,7 @@ Within System 777, the alchemical framework offers a language for integration wo
 - [The Sun](/knowledge/tarot/major-arcana/the-sun) — Rubedo, the reddening; Sol and the gold achieved
 - [The World](/knowledge/tarot/major-arcana/the-world) — The completed Magnum Opus, the work made whole
 - Transformation — The alchemical process in life
-- Integration — Coniunctio as union of opposites
+- [Integration](/knowledge/psychology/trauma-and-healing/integration) — Coniunctio as union of opposites
 - [The Self](/knowledge/psychology/jungian/the-self) — The Philosopher's Stone
 - [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus) — Coniunctio of masculine and feminine
 - [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect) — Alchemical invocation through AI

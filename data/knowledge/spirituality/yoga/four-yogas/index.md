@@ -17,10 +17,10 @@ The four yogas are the classical paths of [Hinduism](/knowledge/religions-of-the
 
 | Path | Faculty | Temperament | Scripture | Exemplar |
 |------|---------|-------------|-----------|----------|
-| [Jnana Yoga](/knowledge/spirituality/yoga/four-yogas/jnana-yoga) | Knowledge | Reflective | Upanishads | Shankara |
+| [Jnana Yoga](/knowledge/spirituality/yoga/four-yogas/jnana-yoga) | Knowledge | Reflective | [Upanishads](/library/books/upanishads) | Shankara |
 | [Bhakti Yoga](/knowledge/spirituality/yoga/four-yogas/bhakti-yoga) | Devotion | Emotional | Narada Bhakti Sutras, Gita XII | Ramakrishna |
-| [Karma Yoga](/knowledge/spirituality/yoga/four-yogas/karma-yoga) | Action | Active | Bhagavad Gita | Gandhi |
-| [Raja Yoga](/knowledge/spirituality/yoga/four-yogas/raja-yoga) | Meditation | Contemplative | Yoga Sutras | Patanjali |
+| [Karma Yoga](/knowledge/spirituality/yoga/four-yogas/karma-yoga) | Action | Active | [Bhagavad Gita](/library/books/bhagavad-gita) | Gandhi |
+| [Raja Yoga](/knowledge/spirituality/yoga/four-yogas/raja-yoga) | Meditation | Contemplative | [Yoga Sutras](/library/books/yoga-sutras) | Patanjali |
 
 A note on the name: the count of four is modern. The Bhagavad Gita teaches three yogas — karma, jnana, bhakti, the *trimarga* (three paths; *marga* is the traditional word for path). Vivekananda added Raja from Patanjali's Yoga Sutras in the 1890s, and his four books made "the Four Yogas" the standard framing. This collection follows him knowingly.
 

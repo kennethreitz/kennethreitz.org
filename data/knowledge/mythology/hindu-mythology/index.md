@@ -40,7 +40,7 @@ flowchart TD
 
 ### Vishnu & Avatars
 
-[Vishnu](/knowledge/mythology/hindu-mythology/vishnu) the Preserver descends to earth in ten avatars when dharma is threatened. The most significant: [Krishna](/knowledge/mythology/hindu-mythology/krishna) (8th avatar, hero of the Mahabharata, teacher of the Bhagavad Gita), Rama (7th avatar, hero of the Ramayana), Buddha (9th, in some traditions), and Kalki (10th, yet to come).
+[Vishnu](/knowledge/mythology/hindu-mythology/vishnu) the Preserver descends to earth in ten avatars when dharma is threatened. The most significant: [Krishna](/knowledge/mythology/hindu-mythology/krishna) (8th avatar, hero of the Mahabharata, teacher of the [Bhagavad Gita](/library/books/bhagavad-gita)), Rama (7th avatar, hero of the Ramayana), Buddha (9th, in some traditions), and Kalki (10th, yet to come).
 
 ### Shiva & Family
 
@@ -73,4 +73,4 @@ The four Vedas (Rigveda, Samaveda, Yajurveda, Atharvaveda) form the oldest layer
 ## Related
 
 - [Mythology Hub](/knowledge/mythology)
-- Jungian Archetypes
+- Jungian [Archetypes](/knowledge/psychology/jungian/archetypes)

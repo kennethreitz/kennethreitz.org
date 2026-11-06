@@ -12,3 +12,13 @@ Some of my projects are retired, archived, or living happily under new maintaine
 - [github.com/not-kennethreitz](https://github.com/not-kennethreitz): projects that moved on without me, in the best way.
 
 Retiring software gracefully is an underrated skill. The kindest thing you can do for a project you no longer love is to say so plainly, point people somewhere better, and thank the people who carry it forward.
+
+<!-- vault:history start -->
+## History
+
+These libraries share common traits: each identified a specific point of friction, applied the "For Humans" design sensibility to it, influenced the tools that came after, and was eventually superseded or made unnecessary by ecosystem evolution.
+
+They're not failures: they're completed work. legit's workflow simplifications showed up in Git's improved UX. autoenv's concept became direnv and dotenv. clint's progress bars live on in Rich. osx-gcc-installer became unnecessary when Apple fixed the problem. delegator and xerox were absorbed into better alternatives.
+
+The pattern repeats: Kenneth identifies friction, builds the simplest possible solution, the ecosystem notices, and eventually a more comprehensive tool carries the idea forward. The libraries finish their work. Some problems get solved permanently.
+<!-- vault:history end -->

@@ -12,13 +12,13 @@ source: obsidian-knowledge
 
 ## Overview
 
-Neuroscience lives in this vault because everything else does. The **medications** that hold the floor steady act on **neurotransmitters** — dopamine, serotonin, glutamate, GABA — chemical messages crossing the synaptic gap. To understand why a pill changes the weather of a day, you have to understand the wiring it tunes. This is the layer where biology meets experience.
+Neuroscience lives in this vault because everything else does. The **medications** that hold the floor steady act on **neurotransmitters** — [dopamine](/knowledge/neuroscience/dopamine), [serotonin](/knowledge/neuroscience/serotonin), glutamate, [GABA](/knowledge/neuroscience/gaba) — chemical messages crossing the synaptic gap. To understand why a pill changes the weather of a day, you have to understand the wiring it tunes. This is the layer where biology meets experience.
 
 It matters here for three reasons. First, it **grounds the medications**: each one is a key cut for a specific lock on a specific receptor, and knowing the mechanism makes the effects legible rather than mysterious. Second, it gives the **Triad** a literal basis — the left/right hemisphere model of processing isn't only mythic; the corpus callosum and lateralized function are real anatomy. Third, it sits at the center of the **substrate question**: if mind is what this tissue does, can other substrates do it too? That is the hinge on which the AI-consciousness work turns.
 
 ## The Chemistry
 
-Neurotransmitters covers the chemical messengers as a system. Each of the major ones now has its own page. Dopamine is the molecule of wanting; Serotonin the mood modulator behind the SSRI story. [Glutamate](/knowledge/neuroscience/glutamate) and GABA are the accelerator and the brake — the excitatory-inhibitory balance the whole cortex runs on. [Norepinephrine](/knowledge/neuroscience/norepinephrine) drives arousal and vigilance, [Acetylcholine](/knowledge/neuroscience/acetylcholine) attention and memory, Oxytocin bonding and trust, and [Endorphins](/knowledge/neuroscience/endorphins) the body's own opioids for pain and relief.
+[Neurotransmitters](/knowledge/neuroscience/neurotransmitters) covers the chemical messengers as a system. Each of the major ones now has its own page. [Dopamine](/knowledge/neuroscience/dopamine) is the molecule of wanting; [Serotonin](/knowledge/neuroscience/serotonin) the mood modulator behind the SSRI story. [Glutamate](/knowledge/neuroscience/glutamate) and GABA are the accelerator and the brake — the excitatory-inhibitory balance the whole cortex runs on. [Norepinephrine](/knowledge/neuroscience/norepinephrine) drives arousal and vigilance, [Acetylcholine](/knowledge/neuroscience/acetylcholine) attention and memory, [Oxytocin](/knowledge/neuroscience/oxytocin) bonding and trust, and [Endorphins](/knowledge/neuroscience/endorphins) the body's own opioids for pain and relief.
 
 ## The Architecture
 

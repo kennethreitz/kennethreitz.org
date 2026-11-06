@@ -99,6 +99,27 @@ $ uv add requests
 - [Source Code on GitHub](https://github.com/psf/requests)
 - [Python Package Index](https://pypi.org/project/requests/)
 
+
+<!-- vault:history start -->
+## History
+
+Kenneth was trying to build a wrapper for the Convore API. The difficulty of making HTTP requests in Python frustrated him so much that he stopped working on the wrapper and started working on requests instead.
+
+**Created in approximately two hours.**
+
+The frustration became fuel. The obstacle became the path.
+
+Before requests, making HTTP requests in Python meant using urllib2:
+
+Functional. Correct. Hostile to humans.
+
+That's it. The same operation, expressed in a way humans can read and write without pain.
+
+> "I don't actually consider myself to be a good programmer. I consider myself to be a good designer disguised as a programmer."
+
+The ["For Humans"](/knowledge/philosophy/for-humans) philosophy in action: sensible defaults that work without configuration, human-readable code that reads like intention, optimization for the 90% case, and progressive disclosure where simple things are simple and complex things remain possible. This is [Design](/knowledge/technology/design) work, not engineering, the [Python](/knowledge/technology/python) language simply provided the medium.
+<!-- vault:history end -->
+
 ## Related
 
 - [**The Lego Bricks Era**](/essays/2026-03-18-values_i_outgrew_and_the_ones_that_stayed): The golden era of open source that produced Requests.

@@ -125,7 +125,7 @@ Even the "negative" cards serve the individuation process. [The Devil](/knowledg
 - **[The Empress](/knowledge/tarot/major-arcana/the-empress)** — Great Mother, nurturing archetype
 - **[The Tower](/knowledge/tarot/major-arcana/the-tower)** — Confrontation with the unconscious, necessary breakdown
 
-See: Jungian Archetypes
+See: Jungian [Archetypes](/knowledge/psychology/jungian/archetypes)
 
 ---
 
@@ -162,5 +162,5 @@ When reading for others, boundaries matter. Always approach with permission and 
 - [Kabbalah](/knowledge/spirituality/kabbalah) — Major Arcana maps to the 22 paths on the Tree of Life
 - [Hermeticism](/knowledge/spirituality/hermeticism) — "As above, so below" in [The Magician](/knowledge/tarot/major-arcana/the-magician)
 - [Alchemy](/knowledge/alchemy) — [Temperance](/knowledge/tarot/major-arcana/temperance) and transformation symbolism
-- The Shadow — [The Devil](/knowledge/tarot/major-arcana/the-devil) card as shadow confrontation
+- [The Shadow](/knowledge/psychology/jungian/the-shadow) — [The Devil](/knowledge/tarot/major-arcana/the-devil) card as shadow confrontation
 - [Individuation](/knowledge/psychology/jungian/individuation) — The Fool's Journey as individuation process

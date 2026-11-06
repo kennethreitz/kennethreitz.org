@@ -9,7 +9,7 @@ source: obsidian-knowledge
 
 ---
 
-This domain maps the old moral psychology of the West — the seven deadly sins and the virtues that answer them — not as a courtroom but as a diagnostic manual. The desert monks who first catalogued the sins were not compiling a list of crimes; they were describing the recurring *thoughts* that colonize a mind, the disordered desires underneath behavior. Read that way, the tradition is shadow work a millennium and a half before Jung gave it a name: what we refuse to look at in ourselves does not disappear, it runs us — which is precisely what The Shadow describes, and precisely what the monks meant.
+This domain maps the old moral psychology of the West — the seven deadly sins and the virtues that answer them — not as a courtroom but as a diagnostic manual. The desert monks who first catalogued the sins were not compiling a list of crimes; they were describing the recurring *thoughts* that colonize a mind, the disordered desires underneath behavior. Read that way, the tradition is shadow work a millennium and a half before Jung gave it a name: what we refuse to look at in ourselves does not disappear, it runs us — which is precisely what [The Shadow](/knowledge/psychology/jungian/the-shadow) describes, and precisely what the monks meant.
 
 The lineage runs from Evagrius Ponticus's eight *logismoi* in the Egyptian desert, through Gregory the Great's consolidation into seven, to Dante's Purgatorio, which arranges the whole mountain as a therapy of love — every sin a love that is perverted, deficient, or excessive. The remedial virtues are the counter-practices; the cardinal and theological virtues frame the larger architecture the sins deform.
 

@@ -49,7 +49,7 @@ The doubled digits are not reduced — they carry a higher, more demanding charg
 
 ## Significant Numbers
 
-Numbers that carry particular weight here: [Number 777](/knowledge/numerology/number-777) — the mystic seven tripled, the name of System 777 and the title of Crowley's Liber 777 — and [Number 242](/knowledge/numerology/number-242), a palindrome of foundation framed by partnership.
+Numbers that carry particular weight here: [Number 777](/knowledge/numerology/number-777) — the mystic seven tripled, the name of System 777 and the title of Crowley's [Liber 777](/library/books/liber-777) — and [Number 242](/knowledge/numerology/number-242), a palindrome of foundation framed by partnership.
 
 ---
 

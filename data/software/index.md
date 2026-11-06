@@ -53,3 +53,13 @@ Some projects have been retired or handed to maintainers who care for them bette
 ---
 
 More on [GitHub](https://github.com/kennethreitz). Building since 2008.
+
+<!-- vault:history start -->
+## History
+
+All libraries share core principles:
+
+The key principles: sensible defaults (works without configuration), progressive disclosure (simple things simple, complex things possible), human-readable code that reads like intention, and the 90% case (optimize for common use, don't over-engineer).
+
+The combined impact is staggering: billions of HTTP requests daily through requests, Python packaging standards raised by pipenv, a design philosophy adopted across the ecosystem, developer expectations permanently changed, and critical infrastructure (certifi) securing connections worldwide.
+<!-- vault:history end -->

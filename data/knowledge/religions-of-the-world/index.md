@@ -66,7 +66,7 @@ The [Christianity](/knowledge/religions-of-the-world/christianity) page above is
 
 ## How This Folder Connects
 
-The vault reads religion through several lenses at once, and the cross-links reflect it. Jungian psychology treats every tradition's symbols as archetypes — the Collective Unconscious made liturgical. The perennial thread in [Spirituality](/knowledge/spirituality) ([Ram Dass](/knowledge/spirituality/ram-dass), [Vedanta](/knowledge/spirituality/vedanta), [Henotheism](/knowledge/spirituality/henotheism)) leans toward "many paths, one summit," while [Calvinism](/knowledge/spirituality/calvinism) stays on hand as the counterexample that refuses the synthesis — and several pages here (Islam's tawhid, Jainism's karma-as-matter, Buddhism's anatta) push back on easy oneness in their own ways. The traditions disagree, and the pages let them.
+The vault reads religion through several lenses at once, and the cross-links reflect it. Jungian psychology treats every tradition's symbols as archetypes — the [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious) made liturgical. The perennial thread in [Spirituality](/knowledge/spirituality) ([Ram Dass](/knowledge/spirituality/ram-dass), [Vedanta](/knowledge/spirituality/vedanta), [Henotheism](/knowledge/spirituality/henotheism)) leans toward "many paths, one summit," while [Calvinism](/knowledge/spirituality/calvinism) stays on hand as the counterexample that refuses the synthesis — and several pages here (Islam's tawhid, Jainism's karma-as-matter, Buddhism's anatta) push back on easy oneness in their own ways. The traditions disagree, and the pages let them.
 
 ---
 

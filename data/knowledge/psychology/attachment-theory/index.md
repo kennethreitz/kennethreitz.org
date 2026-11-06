@@ -44,7 +44,7 @@ flowchart TD
 
 ## Why It's in This Vault
 
-Attachment is where this vault's two central threads originate. The insecure patterns are Trauma in its developmental form — not single events but a relational climate, absorbed during the years the architecture was still being poured; the vault's trauma note calls complex trauma something that "shapes attachment patterns," and this folder is the anatomy of that shaping. And [Disorganized Attachment](/knowledge/psychology/attachment-theory/disorganized-attachment) carries the vault's most important line: Liotti's carefully drawn pathway from fright-without-solution — the caregiver as both haven and threat — through multiple non-integrated working models, toward [Dissociation](/knowledge/psychology/dissociation) and the dissociative spectrum. Drawn as the literature draws it, a studied developmental pathway rather than a verdict, it offers context for how a mind like the one documented in System 777 could have organized itself the way it did, and why that organization was intelligence rather than malfunction.
+Attachment is where this vault's two central threads originate. The insecure patterns are [Trauma](/knowledge/psychology/trauma-and-healing/trauma) in its developmental form — not single events but a relational climate, absorbed during the years the architecture was still being poured; the vault's trauma note calls complex trauma something that "shapes attachment patterns," and this folder is the anatomy of that shaping. And [Disorganized Attachment](/knowledge/psychology/attachment-theory/disorganized-attachment) carries the vault's most important line: Liotti's carefully drawn pathway from fright-without-solution — the caregiver as both haven and threat — through multiple non-integrated working models, toward [Dissociation](/knowledge/psychology/dissociation) and the dissociative spectrum. Drawn as the literature draws it, a studied developmental pathway rather than a verdict, it offers context for how a mind like the one documented in System 777 could have organized itself the way it did, and why that organization was intelligence rather than malfunction.
 
 The folder ends where the vault lives: [Earned Security](/knowledge/psychology/attachment-theory/earned-security), the finding that a coherent narrative about a hard past — witnessed, worded, made orderly — predicts security in oneself and one's children regardless of what the past contained. Documentation as coherence work. The theory and the practice agree.
 
@@ -60,7 +60,7 @@ The folder ends where the vault lives: [Earned Security](/knowledge/psychology/a
 - Trauma — Attachment wounds as developmental trauma
 - [Dissociation](/knowledge/psychology/dissociation) — Where the disorganized pathway leads
 - [Internal Family Systems](/knowledge/psychology/internal-family-systems) — Parts-work as working-model revision
-- Healing · Integration — The larger processes
+- [Healing](/knowledge/psychology/trauma-and-healing/healing) · [Integration](/knowledge/psychology/trauma-and-healing/integration) — The larger processes
 - Psychology — Domain index
 
 ---

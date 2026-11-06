@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Hermeticism is the philosophical and spiritual tradition attributed to Hermes Trismegistus ("Thrice-Great Hermes"), a legendary figure who merges the Greek god [Hermes](/knowledge/mythology/greek-mythology/hermes) with the Egyptian god Thoth. Whether Hermes Trismegistus was a real person, a lineage of teachers, or a mythic container for a body of wisdom doesn't much matter. What matters is the texts — the Corpus Hermeticum, the [Emerald Tablet](/knowledge/alchemy/the-emerald-tablet), and later The Kybalion — and the tradition of thought they carry.
+Hermeticism is the philosophical and spiritual tradition attributed to Hermes Trismegistus ("Thrice-Great Hermes"), a legendary figure who merges the Greek god [Hermes](/knowledge/mythology/greek-mythology/hermes) with the Egyptian god Thoth. Whether Hermes Trismegistus was a real person, a lineage of teachers, or a mythic container for a body of wisdom doesn't much matter. What matters is the texts — the Corpus Hermeticum, the [Emerald Tablet](/knowledge/alchemy/the-emerald-tablet), and later [The Kybalion](/library/books/the-kybalion) — and the tradition of thought they carry.
 
 Hermeticism teaches that the universe is mental in nature, that everything corresponds to everything else, and that understanding the principles governing reality lets the practitioner work with those principles consciously rather than being subject to them unconsciously. It is the root tradition from which [Alchemy](/knowledge/alchemy), astrology, and much of Western esotericism grew.
 

@@ -35,7 +35,7 @@ source: obsidian-knowledge
 - [Saturn](/knowledge/mythology/roman-mythology/saturn) - Agriculture, time, the lost Golden Age
 - [Fortuna](/knowledge/mythology/roman-mythology/fortuna) - Fortune, chance, the turning wheel
 - [Pluto](/knowledge/mythology/roman-mythology/pluto) - The underworld and its buried wealth (Greek [Hades](/knowledge/mythology/greek-mythology/hades))
-- [Proserpina](/knowledge/mythology/roman-mythology/proserpina) - Queen of the underworld, the seed of spring (Greek Persephone)
+- [Proserpina](/knowledge/mythology/roman-mythology/proserpina) - Queen of the underworld, the seed of spring (Greek [Persephone](/knowledge/mythology/greek-mythology/persephone))
 - [Cupid](/knowledge/mythology/roman-mythology/cupid) - Desire and love (Greek [Eros](/knowledge/mythology/greek-mythology/eros))
 - [Veritas](/knowledge/mythology/roman-mythology/veritas) - Truth personified, daughter of Saturn (Greek Aletheia)
 - [Quirinus](/knowledge/mythology/roman-mythology/quirinus) - The deified Romulus, the citizen-body at peace; of the Archaic Triad
@@ -73,4 +73,4 @@ The founding myths of Rome -- Romulus and Remus, Aeneas and the Aeneid -- anchor
 ## Related
 
 - [Greek Mythology](/knowledge/mythology/greek-mythology) - Greek origins
-- Jungian Archetypes
+- Jungian [Archetypes](/knowledge/psychology/jungian/archetypes)

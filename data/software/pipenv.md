@@ -81,6 +81,27 @@ $ uv add pipenv
 - [Source Code on GitHub](https://github.com/pypa/pipenv)
 - [Python Package Index](https://pypi.org/project/pipenv/)
 
+
+<!-- vault:history start -->
+## History
+
+Before pipenv, Python packaging was a scavenger hunt. You needed pip for installing packages, virtualenv for isolating environments, a requirements.txt for tracking dependencies (with no distinction between direct and transitive), and manual activation of virtual environments. Four tools, four mental models, no integration. Deployment was a prayer that `pip freeze > requirements.txt` captured the right state.
+
+One tool. One workflow. Automatic virtualenv management, deterministic builds through Pipfile.lock, and a clean separation between what you asked for (Pipfile) and what you got (Pipfile.lock).
+
+pipenv introduced Pipfile as a replacement for requirements.txt. Where requirements.txt was a flat list mixing direct dependencies with transitive ones, Pipfile distinguished between `[packages]` (what your app needs) and `[dev-packages]` (what your development process needs). Pipfile.lock provided deterministic, hash-verified builds, the same guarantee that npm's package-lock.json brought to JavaScript.
+
+The pipenv development period was intense: 20+ hours a day for over 4 weeks, multiple releases per day, manic energy channeled into code. Kenneth was briefly recommended by the PyPA as the official packaging tool for Python.
+
+> "I'd rather go manic over a codebase than over magic/crystals/the cosmos. This was a very healthy expression for me."
+
+The hypomanic productivity wasn't a warning sign to anyone around him. It was a feature. The open source community celebrates output without asking what it costs to produce.
+
+pipenv raised the floor for what Python packaging should feel like. Before pipenv, fragmented workflows were accepted as normal. After pipenv, developers expected integrated tooling. Even after its decline, the expectations it set, automatic virtualenvs, lock files, unified CLI, became the baseline that every successor had to meet.
+
+Transferred to the Python Packaging Authority (PyPA) for community stewardship.
+<!-- vault:history end -->
+
 ## Related
 
 - [**Requests**](/software/requests): The library whose philosophy Pipenv extends to packaging.

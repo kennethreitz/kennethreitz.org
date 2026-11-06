@@ -58,6 +58,6 @@ flowchart TD
 ## Related
 
 - Psychology Hub
-- The Shadow — what each type disowns
+- [The Shadow](/knowledge/psychology/jungian/the-shadow) — what each type disowns
 - [Individuation](/knowledge/psychology/jungian/individuation) — the arrows of integration as a path toward wholeness
 - [Knowledge Hub](/knowledge)

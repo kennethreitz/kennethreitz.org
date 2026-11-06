@@ -72,6 +72,25 @@ $ uv add maya
 - [Source Code on GitHub](https://github.com/kennethreitz/maya)
 - [Python Package Index](https://pypi.org/project/maya/)
 
+
+<!-- vault:history start -->
+## History
+
+Maya makes datetime handling intuitive. Parse human-readable strings, get human-readable output, handle timezones without pain.
+
+Named after the Sanskrit concept of māyā (illusion): because time is an illusion, and datetime handling in Python certainly feels like one.
+
+Python's datetime module is powerful but hostile. Parsing requires exact format strings, timezone handling is confusing, output is ugly by default, and simple things feel hard.
+
+Parse anything: don't make humans match format strings. Human output ("2 hours ago" not "2024-01-15T14:30:00+00:00"). Timezone sanity that handles the complexity and exposes simplicity. Pendulum-powered, built on solid foundations.
+
+Python's datetime ecosystem is crowded: `datetime` (stdlib, precise but hostile), `dateutil` (powerful parser, complex API), `arrow` (good but opinionated), `pendulum` (excellent but heavy). Maya carved its niche by being the simplest, parse anything, get readable output, handle timezones without tears. It uses pendulum under the hood for the heavy lifting, then wraps it in an interface that matches how humans actually think about time.
+
+Maya (माया) in Hindu philosophy is the illusion that makes the one appear as many, that makes the timeless appear as temporal. Fitting for a library that tames the illusion of datetime handling.
+
+Also connects to Kenneth's [spiritual interests](/knowledge/spirituality): even the library names carry meaning. [Vedanta](/knowledge/spirituality/vedanta) teaches that time is maya; this library makes that practical.
+<!-- vault:history end -->
+
 ## Related
 
 - [**Requests**](/software/requests): The "for humans" philosophy that started it all.

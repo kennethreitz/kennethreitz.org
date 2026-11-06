@@ -36,7 +36,7 @@ Each sin has a remedial virtue — the counter-practice the tradition prescribed
 
 - [Virtues & Vices](/knowledge/virtues-and-vices) — the domain index
 - [Virtues](/knowledge/virtues-and-vices/virtues) — the remedies
-- The Shadow — the sins as disowned material
+- [The Shadow](/knowledge/psychology/jungian/the-shadow) — the sins as disowned material
 - [Enneagram](/knowledge/enneagram) — the passions, seven of nine
 - [Christianity](/knowledge/religions-of-the-world/christianity) — the carrying tradition
 

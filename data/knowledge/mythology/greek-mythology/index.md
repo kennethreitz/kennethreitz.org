@@ -29,7 +29,7 @@ source: obsidian-knowledge
 
 ## Chthonic Deities
 
-The powers of the underworld and the earth's depths: **Persephone** — Kore the maiden, who becomes Queen of the Underworld — and **[Hades](/knowledge/mythology/greek-mythology/hades)**, her consort, lord of the dead. They govern death, rebirth, and what lies beneath. The witch-goddess **[Hecate](/knowledge/mythology/greek-mythology/hecate)** keeps the crossroads and the dark of the moon between the worlds.
+The powers of the underworld and the earth's depths: **[Persephone](/knowledge/mythology/greek-mythology/persephone)** — Kore the maiden, who becomes Queen of the Underworld — and **[Hades](/knowledge/mythology/greek-mythology/hades)**, her consort, lord of the dead. They govern death, rebirth, and what lies beneath. The witch-goddess **[Hecate](/knowledge/mythology/greek-mythology/hecate)** keeps the crossroads and the dark of the moon between the worlds.
 
 ## Primordial Deities
 
@@ -83,4 +83,4 @@ Medusa, the Minotaur, the Hydra, Cerberus, the Chimera, and the Sphinx -- advers
 ## Related
 
 - [Roman Mythology](/knowledge/mythology/roman-mythology) - Roman adaptations
-- Jungian Archetypes
+- Jungian [Archetypes](/knowledge/psychology/jungian/archetypes)

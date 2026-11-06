@@ -84,6 +84,27 @@ $ uv add dj-database-url
 - [Source Code on GitHub](https://github.com/jazzband/dj-database-url)
 - [Python Package Index](https://pypi.org/project/dj-database-url/)
 
+
+<!-- vault:history start -->
+## History
+
+dj-database-url parses database connection URLs (like `postgres://user:pass@host:port/db`) into Django's database configuration dictionary. Essential for 12-Factor app deployment.
+
+Django wants database configuration as a dictionary:
+
+But deployment platforms (Heroku, etc.) provide a single URL:
+
+One line. Works everywhere. Follows 12-Factor principles.
+
+This library emerged from Kenneth's work at Heroku. Heroku provides DATABASE_URL automatically, Django apps need to consume it, and the translation was tedious and error-prone. dj-database-url made it trivial. Infrastructure glue, not glamorous but essential for Django deployment.
+
+The [12-Factor App](https://12factor.net/) methodology (which Heroku championed) recommends storing config in environment variables. dj-database-url makes Django follow this pattern naturally.
+
+Created during Kenneth's "Python Overlord" period at [Heroku](/essays/2011-01-joining_heroku). He was literally building the tools needed to deploy Python apps on the platform. dj-database-url solved a real problem he encountered daily, and then solved it for every Django developer deploying to any platform that provides DATABASE_URL.
+
+The library outlasted his tenure at Heroku. Still downloaded hundreds of thousands of times monthly. Infrastructure glue that quietly holds the Django deployment ecosystem together.
+<!-- vault:history end -->
+
 ## Related
 
 - [**Records**](/software/records): SQL for Humans, using the same database URL pattern.

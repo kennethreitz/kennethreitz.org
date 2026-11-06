@@ -97,17 +97,35 @@ MIT
 
 `/knowledge` publishes the `Knowledge/` folder of Kenneth's Obsidian vault:
 mythology, tarot, psychology, music theory, and the rest of the reference
-shelf. It's generated, so edit the vault and re-sync rather than editing
-`data/knowledge/` by hand:
+shelf. The same sync publishes `Library/Books/` to `/library/books` and
+refreshes a History block on the matching `/software` pages. Those software
+pages stay hand-written. Only the block between `<!-- vault:history start -->`
+and `<!-- vault:history end -->` is replaced.
+
+It's generated, so edit the vault and re-sync rather than editing
+`data/knowledge/` or `data/library/books/` by hand:
 
 ```bash
-$ uv run python scripts/import_knowledge.py --vault ~/Notes
+$ uv run python scripts/sync_vault.py --vault ~/Notes
+$ make sync-vault VAULT=~/Notes
 ```
 
-The importer converts wikilinks, callouts, and Dataview tables to plain
-Markdown, and withholds personal notes (see `EXCLUDED` in the script and the
-privacy guard it applies to every note). At render time,
-`tuftecms/core/knowledge.py` turns the published note titles into a concept
-index: the first mentions of a concept on ordinary pages link to its
-Knowledge note (capped per page, never inside headings, code, links, or
-sidenotes), and every Knowledge note lists the pages that mention it.
+`scripts/import_knowledge.py` is the same command. `--dry-run` reports what
+would change and writes nothing. `--check` exits 1 when the tree does not
+already match. A vault with only a handful of Knowledge notes is refused,
+so a partial folder cannot wipe the shelf. Pass `--allow-partial` only when
+that is what you mean.
+
+Personal notes in `HARD_EXCLUDE` are never published. Other withheld notes
+are listed in `EXCLUDED`. A scrubbed note lives in
+`scripts/knowledge_overrides/` or `scripts/library_overrides/` at the same
+relative path as the vault file. `manifest.json` beside those files records
+the sha256 of the vault source the override was written from. If the vault
+note changes, sync prints a warning and still publishes the override. The
+privacy guard (built-in patterns, plus `KNOWLEDGE_PRIVATE_TERMS` outside
+this repo) runs on the override, not on the raw note.
+
+At render time, `tuftecms/core/knowledge.py` turns published note titles
+into a concept index: the first mention of a concept on an ordinary page
+links to its Knowledge note (capped per page, never inside headings, code,
+links, or sidenotes), and every Knowledge note lists the pages that mention it.
