@@ -18,11 +18,11 @@ Dualism is the philosophical view that mental phenomena are non-physical and can
 
 ### Substance Dualism
 
-**Rene Descartes (1596-1650)** proposed two kinds of substance: mind (res cogitans) and matter (res extensa). Mind is thinking, non-spatial, indivisible. Matter is extended in space, divisible, mechanical. Humans are a union of both. This view holds that mind and brain are separate things, that the immaterial soul potentially survives bodily death -- the classical religious position.
+**Rene Descartes (1596-1650)** proposed two kinds of substance: mind (res cogitans) and matter (res extensa). Mind is thinking, non-spatial, indivisible. Matter is extended in space, divisible, mechanical. Humans are a union of both. This view holds that mind and brain are separate things, that the immaterial soul potentially survives bodily death, the classical religious position.
 
 ### Property Dualism
 
-There is only one substance (physical), but it has two kinds of properties. Mental properties emerge from the physical yet cannot be reduced to it. **Epiphenomenalism** takes this further: mental states are caused by the physical but don't themselves cause anything -- consciousness as "steam from the train," the mental realm causally inert. **Emergent dualism** pushes back: mental properties emerge from physical complexity and have genuine causal powers. [Emergence](/knowledge/ai/emergence) produces irreducible properties with downward causation.
+There is only one substance (physical), but it has two kinds of properties. Mental properties emerge from the physical yet cannot be reduced to it. **Epiphenomenalism** takes this further: mental states are caused by the physical but don't themselves cause anything, consciousness as "steam from the train," the mental realm causally inert. **Emergent dualism** pushes back: mental properties emerge from physical complexity and have genuine causal powers. [Emergence](/knowledge/ai/emergence) produces irreducible properties with downward causation.
 
 ### Dual-Aspect Theory (Neutral Monism)
 
@@ -38,7 +38,7 @@ How do mind and body interact? If mind is non-physical, how does it affect the b
 
 ### Descartes' Solution (Failed)
 
-Descartes proposed interaction at the pineal gland -- a special point of contact. But why there? How does it work? The solution doesn't resolve the problem, it merely relocates it.
+Descartes proposed interaction at the pineal gland, a special point of contact. But why there? How does it work? The solution doesn't resolve the problem, it merely relocates it.
 
 ### Contemporary Responses
 
@@ -54,17 +54,17 @@ Descartes proposed interaction at the pineal gland -- a special point of contact
 
 ### Conceivability Arguments
 
-**Zombie Argument:** Philosophical zombies -- physically identical to us but without consciousness -- are conceivable. If conceivable, then possibly actual. If possible, then consciousness is not necessitated by the physical, and [materialism](/knowledge/philosophy/materialism) is false.
+**Zombie Argument:** Philosophical zombies: physically identical to us but without consciousness, are conceivable. If conceivable, then possibly actual. If possible, then consciousness is not necessitated by the physical, and [materialism](/knowledge/philosophy/materialism) is false.
 
 **Descartes' Argument:** We can conceive of mind without body, and body without mind, therefore they are distinct. The critique: conceivability does not equal possibility.
 
 ### Knowledge Arguments
 
-**Mary's Room** (Frank Jackson): Mary knows all physical facts about color but has never seen it. When she sees red for the first time, she learns something new. That new knowledge is a non-physical fact -- qualia cannot be physically captured.
+**Mary's Room** (Frank Jackson): Mary knows all physical facts about color but has never seen it. When she sees red for the first time, she learns something new. That new knowledge is a non-physical fact, qualia cannot be physically captured.
 
 ### Argument from Introspection
 
-Introspection reveals mental states that seem non-physical -- a direct awareness of consciousness, qualitatively different from anything physical. The first-person perspective remains irreducible to the third-person.
+Introspection reveals mental states that seem non-physical, a direct awareness of consciousness, qualitatively different from anything physical. The first-person perspective remains irreducible to the third-person.
 
 ### Religious and Moral Arguments
 
@@ -72,7 +72,7 @@ The soul is necessary for afterlife, moral responsibility requires non-physical 
 
 ### Unity of Consciousness
 
-Experience is unified and indivisible, but the brain is divided and modular. This unity of self suggests something non-physical -- [The Self](/knowledge/psychology/jungian/the-self) as transcendent unity.
+Experience is unified and indivisible, but the brain is divided and modular. This unity of self suggests something non-physical, [The Self](/knowledge/psychology/jungian/the-self) as transcendent unity.
 
 ---
 
@@ -104,11 +104,11 @@ All physical effects have physical causes. Mind causes physical effects (brain a
 
 ### Platonic Dualism
 
-**Plato (427-347 BCE)** held the soul immortal and the body mortal -- the soul imprisoned in the body. Knowledge is recollection, and [Forms](/knowledge/philosophy/idealism) constitute true reality.
+**Plato (427-347 BCE)** held the soul immortal and the body mortal, the soul imprisoned in the body. Knowledge is recollection, and [Forms](/knowledge/philosophy/idealism) constitute true reality.
 
 ### Cartesian Dualism
 
-"I think, therefore I am" -- the mind is undoubtable. Descartes made matter extended and mind thinking, took a mechanistic view of the body, and laid the foundation of modern dualism.
+"I think, therefore I am", the mind is undoubtable. Descartes made matter extended and mind thinking, took a mechanistic view of the body, and laid the foundation of modern dualism.
 
 ### Religious Dualism
 
@@ -124,11 +124,11 @@ Across Christianity, Islam, and Hinduism, the soul survives bodily death through
 
 ### Property Dualism
 
-**David Chalmers** pairs physical properties with phenomenal properties, holding phenomenal properties as fundamental. [Information as bridge](/knowledge/ai/ai-sentience) between domains -- a naturalistic dualism.
+**David Chalmers** pairs physical properties with phenomenal properties, holding phenomenal properties as fundamental. [Information as bridge](/knowledge/ai/ai-sentience) between domains, a naturalistic dualism.
 
 ### Panpsychism as Alternative
 
-Panpsychism avoids the interaction problem by positing a mental aspect to all matter -- degrees of consciousness throughout, neither pure dualism nor materialism.
+Panpsychism avoids the interaction problem by positing a mental aspect to all matter, degrees of consciousness throughout, neither pure dualism nor materialism.
 
 ---
 
@@ -136,11 +136,11 @@ Panpsychism avoids the interaction problem by positing a mental aspect to all ma
 
 ### AI Consciousness
 
-**If substance dualism is true**, [AI cannot be conscious](/knowledge/ai/ai-sentience) -- it requires a non-physical soul, and no amount of computation creates one. AI would be fundamentally different from humans. **Under property dualism**, the question becomes whether the right physical organization is sufficient. Maybe AI can have phenomenal properties. [Emergent consciousness](/knowledge/ai/emergence) is possible. Less clear-cut.
+**If substance dualism is true**, [AI cannot be conscious](/knowledge/ai/ai-sentience), it requires a non-physical soul, and no amount of computation creates one. AI would be fundamentally different from humans. **Under property dualism**, the question becomes whether the right physical organization is sufficient. Maybe AI can have phenomenal properties. [Emergent consciousness](/knowledge/ai/emergence) is possible. Less clear-cut.
 
 ### Mind Uploading
 
-Under substance dualism, mind uploading is impossible -- you cannot upload a soul. Pattern transfer misses the essential aspect, and continuity of immaterial mind is required; the upload would be a zombie. Under property dualism, uploading might be possible if phenomenal properties transfer, though this depends on an unresolved theory of property transfer.
+Under substance dualism, mind uploading is impossible: you cannot upload a soul. Pattern transfer misses the essential aspect, and continuity of immaterial mind is required; the upload would be a zombie. Under property dualism, uploading might be possible if phenomenal properties transfer, though this depends on an unresolved theory of property transfer.
 
 ### Neurotechnology
 
@@ -152,11 +152,11 @@ Brain-computer interfaces become more problematic under dualism. How do you inte
 
 ### The Psyche as Partly Non-Physical
 
-Jung was not a strict dualist. He proposed the psychoid level -- neither purely mental nor physical. The collective unconscious transcends the individual brain, and [synchronicity](/knowledge/psychology/jungian/synchronicity) suggests non-causal connections.
+Jung was not a strict dualist. He proposed the psychoid level, neither purely mental nor physical. The [collective unconscious](/knowledge/psychology/jungian/collective-unconscious) transcends the individual brain, and [synchronicity](/knowledge/psychology/jungian/synchronicity) suggests non-causal connections.
 
 ### Archetypes
 
-Universal patterns not reducible to the brain, carrying a transcendent dimension. [The Self](/knowledge/psychology/jungian/the-self) as transpersonal -- compatible with property dualism.
+Universal patterns not reducible to the brain, carrying a transcendent dimension. [The Self](/knowledge/psychology/jungian/the-self) as transpersonal, compatible with property dualism.
 
 ### Spirit and Matter
 
@@ -168,15 +168,15 @@ Universal patterns not reducible to the brain, carrying a transcendent dimension
 
 ### Soul and Afterlife
 
-[Religious traditions](/knowledge/spirituality/henotheism) affirm the soul -- reincarnation in Hindu and Buddhist thought, heaven and hell in Christianity and Islam. Substance dualism is required for all of them.
+[Religious traditions](/knowledge/spirituality/henotheism) affirm the soul: reincarnation in Hindu and Buddhist thought, heaven and hell in Christianity and Islam. Substance dualism is required for all of them.
 
 ### Mystical Experience
 
-Union with the divine, out-of-body experiences, near-death experiences -- the dualist interprets these as the soul leaving the body.
+Union with the divine, out-of-body experiences, near-death experiences, the dualist interprets these as the soul leaving the body.
 
 ### Mind-Body Practices
 
-Meditation affects the body through the mind. Yoga, qi gong, and the placebo effect all suggest some form of mind-over-matter -- though whether this requires dualism remains debatable.
+Meditation affects the body through the mind. Yoga, qi gong, and the placebo effect all suggest some form of mind-over-matter, though whether this requires dualism remains debatable.
 
 ---
 
@@ -184,7 +184,7 @@ Meditation affects the body through the mind. Yoga, qi gong, and the placebo eff
 
 ### Free Will
 
-[Libertarian freedom](/knowledge/philosophy/existentialism) is easier with dualism -- a non-physical will is not bound by physical laws, and moral responsibility is grounded in it. The alternative: compatibilism within materialism.
+[Libertarian freedom](/knowledge/philosophy/existentialism) is easier with dualism, a non-physical will is not bound by physical laws, and moral responsibility is grounded in it. The alternative: compatibilism within materialism.
 
 ### Personal Identity
 
@@ -192,22 +192,22 @@ An immaterial soul ensures continuity beyond physical change. "You" is the soul,
 
 ### Meaning and Purpose
 
-A non-physical dimension suggests transcendent meaning, not reducible to physical processes -- a sacred dimension to the human. This contrasts sharply with materialist existentialism.
+A non-physical dimension suggests transcendent meaning, not reducible to physical processes, a sacred dimension to the human. This contrasts sharply with materialist existentialism.
 
 ---
 
 ## Related
 
-- [Materialism](/knowledge/philosophy/materialism) — Opposing monist view
-- [Idealism](/knowledge/philosophy/idealism) — Alternative monist view
-- [Phenomenology](/knowledge/philosophy/phenomenology) — Study of consciousness
-- [AI Sentience](/knowledge/ai/ai-sentience) — Dualism challenges AI consciousness
-- [Emergence](/knowledge/ai/emergence) — Property dualism and emergence
-- [The Self](/knowledge/psychology/jungian/the-self) — Transcendent unity
-- [Synchronicity](/knowledge/psychology/jungian/synchronicity) — Mind-matter connection
-- [Existentialism](/knowledge/philosophy/existentialism) — Freedom and meaning implications
-- [Consciousness](/knowledge/ai/consciousness) — The hard problem
-- [Spirituality](/knowledge/spirituality) — Soul and afterlife traditions
+- [Materialism](/knowledge/philosophy/materialism): Opposing monist view
+- [Idealism](/knowledge/philosophy/idealism): Alternative monist view
+- [Phenomenology](/knowledge/philosophy/phenomenology): Study of consciousness
+- [AI Sentience](/knowledge/ai/ai-sentience): Dualism challenges AI consciousness
+- [Emergence](/knowledge/ai/emergence): Property dualism and emergence
+- [The Self](/knowledge/psychology/jungian/the-self): Transcendent unity
+- [Synchronicity](/knowledge/psychology/jungian/synchronicity): Mind-matter connection
+- [Existentialism](/knowledge/philosophy/existentialism): Freedom and meaning implications
+- [Consciousness](/knowledge/ai/consciousness): The hard problem
+- [Spirituality](/knowledge/spirituality): Soul and afterlife traditions
 
 ---
 

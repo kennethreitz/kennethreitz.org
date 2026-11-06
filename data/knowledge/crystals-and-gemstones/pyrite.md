@@ -1,19 +1,19 @@
 ---
-description: Not the gold you were looking for — the gold you needed.
+description: Not the gold you were looking for, the gold you needed.
 source: obsidian-knowledge
 ---
 
 # Pyrite
 
-> *Not the gold you were looking for — the gold you needed.*
+> *Not the gold you were looking for, the gold you needed.*
 
 ---
 
 ## The Stone
 
-Pyrite is iron and sulphur crystallised into a metallic brass-gold so convincing it has fooled prospectors for centuries, earning the nickname “fool’s gold.” But nature outdoes the goldsmith here: pyrite grows in astonishing forms — flawless cubes with faces so flat and edges so sharp they look machined, or radiant clusters of glinting facets. Its lustre is a hard, mirror-bright metallic shine, cooler and greyer than true gold, and struck against steel it throws sparks, which is how it got its name from the Greek for fire.
+Pyrite is iron and sulphur crystallised into a metallic brass-gold so convincing it has fooled prospectors for centuries, earning the nickname “fool’s gold.” But nature outdoes the goldsmith here: pyrite grows in astonishing forms, flawless cubes with faces so flat and edges so sharp they look machined, or radiant clusters of glinting facets. Its lustre is a hard, mirror-bright metallic shine, cooler and greyer than true gold, and struck against steel it throws sparks, which is how it got its name from the Greek for fire.
 
-There is a satisfying solidity to it. The cubes especially feel like objects from another order of reality — as though the earth had decided to do geometry, and show off while it was at it.
+There is a satisfying solidity to it. The cubes especially feel like objects from another order of reality, as though the earth had decided to do geometry, and show off while it was at it.
 
 ## Correspondences
 
@@ -27,7 +27,7 @@ There is a satisfying solidity to it. The cubes especially feel like objects fro
 
 ## Properties
 
-Pyrite is the stone of abundance and willpower — a magnet for prosperity and the drive to earn it. Its golden fire feeds the solar plexus, kindling confidence, ambition, and the momentum to see a thing through. It is turned to for wealth in the practical sense: not luck falling from the sky but the energy, focus and self-belief to build. It is also strongly protective, a reflective shield that turns negativity and ill intent back on itself, guarding the wearer’s energy while they work.
+Pyrite is the stone of abundance and willpower, a magnet for prosperity and the drive to earn it. Its golden fire feeds the solar plexus, kindling confidence, ambition, and the momentum to see a thing through. It is turned to for wealth in the practical sense: not luck falling from the sky but the energy, focus and self-belief to build. It is also strongly protective, a reflective shield that turns negativity and ill intent back on itself, guarding the wearer’s energy while they work.
 
 ## In Practice
 

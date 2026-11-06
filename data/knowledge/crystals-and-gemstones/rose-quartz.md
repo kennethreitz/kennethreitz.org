@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Stone
 
-Rose Quartz wears the softest colour in the mineral world — a translucent pink that ranges from the barest blush to a deep rosy flush, coloured by fine traces of titanium and iron threaded through the quartz. It rarely forms clean points; instead it comes in massive, cloudy chunks, gently milky, as though the light inside it were diffused through gauze. Tumbled smooth it feels tender in the palm, and even rough it seems to soften the space around it.
+Rose Quartz wears the softest colour in the mineral world, a translucent pink that ranges from the barest blush to a deep rosy flush, coloured by fine traces of titanium and iron threaded through the quartz. It rarely forms clean points; instead it comes in massive, cloudy chunks, gently milky, as though the light inside it were diffused through gauze. Tumbled smooth it feels tender in the palm, and even rough it seems to soften the space around it.
 
 The stone has been associated with love for as long as there are records to consult. Egyptians and Romans alike carried it, and myth after myth ties its colour to the blood or tears of gods spilled for love. It is not a dramatic stone. It is a warm one.
 
@@ -27,7 +27,7 @@ The stone has been associated with love for as long as there are records to cons
 
 ## Properties
 
-Rose Quartz is the great stone of the [heart](/knowledge/chakras/anahata) — the classic bearer of unconditional love. But its most important teaching is often overlooked: the love it opens begins at home. Before it softens us toward others, it asks us to extend compassion inward, to meet our own wounds with tenderness rather than judgement. It gentles grief, dissolves resentment, and lowers the defences we mistake for strength, restoring trust in the possibility of connection.
+Rose Quartz is the great stone of the [heart](/knowledge/chakras/anahata), the classic bearer of unconditional love. But its most important teaching is often overlooked: the love it opens begins at home. Before it softens us toward others, it asks us to extend compassion inward, to meet our own wounds with tenderness rather than judgement. It gentles grief, dissolves resentment, and lowers the defences we mistake for strength, restoring trust in the possibility of connection.
 
 ## In Practice
 

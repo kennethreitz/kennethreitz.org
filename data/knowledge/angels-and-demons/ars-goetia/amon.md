@@ -17,7 +17,7 @@ The compilers gave him a striking and unsettling appearance. He shows himself as
 
 ## Office
 
-According to the *Goetia*, Amon discerns things past and things to come, and he procures both love and reconciliation. He is said to reconcile controversies between friends, and to turn enmity into friendship. His office therefore joins prophecy to the mending of quarrels — a spirit consulted to know the future and to restore broken bonds between those at odds.
+According to the *Goetia*, Amon discerns things past and things to come, and he procures both love and reconciliation. He is said to reconcile controversies between friends, and to turn enmity into friendship. His office therefore joins prophecy to the mending of quarrels, a spirit consulted to know the future and to restore broken bonds between those at odds.
 
 ## Attributes
 

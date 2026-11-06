@@ -26,11 +26,11 @@ Stoicism is an ancient Greek and Roman philosophy founded around 300 BCE by Zeno
 
 ### Virtue is the Sole Good
 
-The four cardinal virtues are Wisdom (right judgment), Courage (facing fear and endurance), Justice (fairness and rightness), and Temperance (self-control and moderation). Everything else -- health, wealth, reputation -- falls into the category of "preferred indifferents." They are not truly good or bad. Only virtue is good, only vice is bad, and external circumstances do not determine happiness.
+The four cardinal virtues are Wisdom (right judgment), Courage (facing fear and endurance), Justice (fairness and rightness), and Temperance (self-control and moderation). Everything else, health, wealth, reputation, falls into the category of "preferred indifferents." They are not truly good or bad. Only virtue is good, only vice is bad, and external circumstances do not determine happiness.
 
 ### Live According to Nature
 
-For the Stoics, nature is reason. Humans are rational animals, and to live well means to live according to reason, aligning with the cosmic Logos -- the rational order pervading the universe. This extends into cosmopolitanism: all humans are fellow citizens bound by universal brotherhood, natural law, and social duty.
+For the Stoics, nature is reason. Humans are rational animals, and to live well means to live according to reason, aligning with the cosmic Logos, the rational order pervading the universe. This extends into cosmopolitanism: all humans are fellow citizens bound by universal brotherhood, natural law, and social duty.
 
 ### Amor Fati (Love of Fate)
 
@@ -44,7 +44,7 @@ Love what happens. Will what occurs. The universe is rational and good; resistan
 
 ### Zeno of Citium (334-262 BCE)
 
-The founder. Zeno taught at the Stoa Poikile (Painted Porch) in Athens -- hence "Stoicism." He developed the core doctrines, though most of his writings have been lost.
+The founder. Zeno taught at the Stoa Poikile (Painted Porch) in Athens, hence "Stoicism." He developed the core doctrines, though most of his writings have been lost.
 
 ### Cleanthes (330-230 BCE)
 
@@ -85,7 +85,7 @@ Imagine the loss of what you value. This reduces attachment, prepares for advers
 "Remember you will die." This awareness makes life precious, reduces trivial concerns, and motivates virtue now.
 
 ### View from Above
-Imagine the cosmic perspective -- see yourself as a tiny part of the whole. It reduces ego and connects you to something larger.
+Imagine the cosmic perspective: see yourself as a tiny part of the whole. It reduces ego and connects you to something larger.
 
 ### Voluntary Discomfort
 Practice poverty, hunger, cold. Build resilience and reduce the fear of loss. "Preheating the oven."
@@ -96,7 +96,7 @@ Practice poverty, hunger, cold. Build resilience and reduce the fear of loss. "P
 
 ### Emotions (Passions)
 
-The Stoics identified four primary passions to be eliminated: distress (at present evils), fear (of future evils), lust (for future goods), and pleasure (at present goods). In their place, they cultivated rational emotions -- joy (rational delight), caution (rational avoidance), and wish (rational desire).
+The Stoics identified four primary passions to be eliminated: distress (at present evils), fear (of future evils), lust (for future goods), and pleasure (at present goods). In their place, they cultivated rational emotions, joy (rational delight), caution (rational avoidance), and wish (rational desire).
 
 ### Cognitive Theory of Emotion
 
@@ -104,7 +104,7 @@ Emotions result from judgments. "He insulted me" produces anger only if I judge 
 
 ### The Inner Citadel
 
-The mind as fortress. External events cannot penetrate it. Freedom resides in judgment -- the [inner refuge](/knowledge/psychology/jungian/the-self) no circumstance can breach.
+The mind as fortress. External events cannot penetrate it. Freedom resides in judgment, the [inner refuge](/knowledge/psychology/jungian/the-self) no circumstance can breach.
 
 ---
 
@@ -112,7 +112,7 @@ The mind as fortress. External events cannot penetrate it. Freedom resides in ju
 
 ### Logos (Divine Reason)
 
-The rational principle governing the cosmos. For the Stoics, God, Nature, and Logos are one -- pantheistic or panentheistic, operating in a deterministic universe.
+The rational principle governing the cosmos. For the Stoics, God, Nature, and Logos are one, pantheistic or panentheistic, operating in a deterministic universe.
 
 ### Cosmic Determinism
 
@@ -120,7 +120,7 @@ Everything happens by fate. Stoic compatibilism holds that free will is willing 
 
 ### Ekpyrosis (Cosmic Cycle)
 
-The universe is periodically destroyed by fire and reborn identically -- eternal recurrence. Nietzsche's eternal return echoes this idea.
+The universe is periodically destroyed by fire and reborn identically, eternal recurrence. Nietzsche's eternal return echoes this idea.
 
 ### Materialism
 
@@ -132,7 +132,7 @@ For the Stoics, only body exists. Even God is material (pneuma), and the soul is
 
 ### Cognitive-Behavioral Therapy (CBT)
 
-A direct descendant. The Stoic chain -- Thoughts produce Emotions produce Behaviors -- became CBT's foundation. Challenge irrational beliefs. The dichotomy of control maps to radical acceptance. Aaron Beck cited the Stoics explicitly.
+A direct descendant. The Stoic chain: Thoughts produce Emotions produce Behaviors, became CBT's foundation. Challenge irrational beliefs. The dichotomy of control maps to radical acceptance. Aaron Beck cited the Stoics explicitly.
 
 ### Rational Emotive Behavior Therapy (REBT)
 
@@ -168,7 +168,7 @@ Both focus on what you can control, accepting circumstances, and taking responsi
 
 ### Emotional Suppression?
 
-The criticism: it is unhealthy to eliminate emotions. The defense: Stoics aim to eliminate unhealthy passions while cultivating rational feelings. Modern Stoics refine this further -- feel emotions, but don't be controlled by them.
+The criticism: it is unhealthy to eliminate emotions. The defense: Stoics aim to eliminate unhealthy passions while cultivating rational feelings. Modern Stoics refine this further, feel emotions, but don't be controlled by them.
 
 ### Passivity and Fatalism?
 
@@ -176,7 +176,7 @@ The criticism: accepting everything means not fighting injustice. The defense: a
 
 ### Aristocratic Bias?
 
-It is easier to accept fate when you are privileged. Epictetus, a former slave, shows this need not be the case -- but there is some truth to the criticism. [Existentialists](/knowledge/philosophy/existentialism) press harder: Stoicism can ignore oppression.
+It is easier to accept fate when you are privileged. Epictetus, a former slave, shows this need not be the case, but there is some truth to the criticism. [Existentialists](/knowledge/philosophy/existentialism) press harder: Stoicism can ignore oppression.
 
 ### Cold and Unfeeling?
 
@@ -211,7 +211,7 @@ Stoic principles now find application in business and leadership, military and f
 
 ### Shadow Work
 
-Shadow integration seems to conflict with Stoic suppression, but both acknowledge dark aspects of the psyche. The Stoics rationally examine impulses; Jung says integrate rather than eliminate.
+[Shadow](/knowledge/psychology/jungian/the-shadow) integration seems to conflict with Stoic suppression, but both acknowledge dark aspects of the psyche. The Stoics rationally examine impulses; Jung says integrate rather than eliminate.
 
 ### Synchronicity vs Determinism
 
@@ -245,18 +245,18 @@ Shadow integration seems to conflict with Stoic suppression, but both acknowledg
 
 ## Related
 
-- [Existentialism](/knowledge/philosophy/existentialism) — Modern parallel, different metaphysics
-- [Phenomenology](/knowledge/philosophy/phenomenology) — First-person experience
-- [The Self](/knowledge/psychology/jungian/the-self) — Inner citadel parallel
-- [Individuation](/knowledge/psychology/jungian/individuation) — Self-mastery
-- [Major Freudian Concepts](/knowledge/psychology/freudian/major-freudian-concepts) — Stoic influence on CBT
-- [Materialism](/knowledge/philosophy/materialism) — Stoic physics
-- [Henotheism](/knowledge/spirituality/henotheism) — Logos as divine
-- [For Humans](/knowledge/philosophy/for-humans) — Practical philosophy for living
-- Health — Stoic acceptance of suffering
-- [Meditation](/knowledge/spirituality/meditation) — Morning and evening Stoic reflection
-- Grounding — Present-moment awareness
-- [Karma](/knowledge/spirituality/karma) — Cosmic order and moral action
+- [Existentialism](/knowledge/philosophy/existentialism): Modern parallel, different metaphysics
+- [Phenomenology](/knowledge/philosophy/phenomenology): First-person experience
+- [The Self](/knowledge/psychology/jungian/the-self): Inner citadel parallel
+- [Individuation](/knowledge/psychology/jungian/individuation): Self-mastery
+- [Major Freudian Concepts](/knowledge/psychology/freudian/major-freudian-concepts): Stoic influence on CBT
+- [Materialism](/knowledge/philosophy/materialism): Stoic physics
+- [Henotheism](/knowledge/spirituality/henotheism): Logos as divine
+- [For Humans](/knowledge/philosophy/for-humans): Practical philosophy for living
+- Health: Stoic acceptance of suffering
+- [Meditation](/knowledge/spirituality/meditation): Morning and evening Stoic reflection
+- [Grounding](/knowledge/psychology/trauma-and-healing/grounding): Present-moment awareness
+- [Karma](/knowledge/spirituality/karma): Cosmic order and moral action
 
 ---
 

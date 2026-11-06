@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Stone
 
-Black Tourmaline, known to mineralogists as schorl, grows in long striated columns of the deepest opaque black, their surfaces grooved with fine parallel lines like the ridges of a Doric pillar. It has no shine to seduce and no colour to admire — it is simply, emphatically dark, and that plainness is the point. Rubbed or warmed, it becomes electrically charged, drawing dust and small particles toward itself, a physical curiosity the old naturalists noted long before anyone spoke of energy.
+Black Tourmaline, known to mineralogists as schorl, grows in long striated columns of the deepest opaque black, their surfaces grooved with fine parallel lines like the ridges of a Doric pillar. It has no shine to seduce and no colour to admire, it is simply, emphatically dark, and that plainness is the point. Rubbed or warmed, it becomes electrically charged, drawing dust and small particles toward itself, a physical curiosity the old naturalists noted long before anyone spoke of energy.
 
 Of all the protective stones, this is the one practitioners reach for first. It does not perform. It stands at the threshold and holds the line, and it has been doing so in the traditions of many cultures for a very long time.
 

@@ -1,22 +1,22 @@
 ---
-description: The seventy-two names of God, and the seventy-two angels who bear them
-  — the light that answers the dark of the Goetia.
+description: The seventy-two names of God, and the seventy-two angels who bear them,
+  the light that answers the dark of the Goetia.
 source: obsidian-knowledge
 ---
 
 # Shem ha-Mephorash
 
-> *The seventy-two names of God, and the seventy-two angels who bear them — the light that answers the dark of the Goetia.*
+> *The seventy-two names of God, and the seventy-two angels who bear them, the light that answers the dark of the Goetia.*
 
 ---
 
-The **Shem ha-Mephorash** — "the explicit Name" — is the seventy-two-fold Name of God derived by tradition from three verses of Exodus (14:19–21), each seventy-two Hebrew letters long. Read in *boustrophedon* (alternating direction), the three verses yield seventy-two three-letter roots; a divine suffix — *-el* ("of God") or *-yah* ("of the Lord") — is added to each to name one of the seventy-two angels. Each angel governs five degrees of the zodiac and bestows a particular virtue, and each stands as the benevolent counterpart to one of the seventy-two spirits of the [Ars Goetia](/knowledge/angels-and-demons/ars-goetia) — the two catalogues mapping the same wheel of the heavens, one in light and one in shadow.
+The **Shem ha-Mephorash**: "the explicit Name": is the seventy-two-fold Name of God derived by tradition from three verses of Exodus (14:19–21), each seventy-two Hebrew letters long. Read in *boustrophedon* (alternating direction), the three verses yield seventy-two three-letter roots; a divine suffix, *-el* ("of God") or *-yah* ("of the Lord"), is added to each to name one of the seventy-two angels. Each angel governs five degrees of the zodiac and bestows a particular virtue, and each stands as the benevolent counterpart to one of the seventy-two spirits of the [Ars Goetia](/knowledge/angels-and-demons/ars-goetia), the two catalogues mapping the same wheel of the heavens, one in light and one in shadow.
 
 The seventy-two angels are drawn from scripture by a fixed procedure, each then set over a slice of the zodiac and paired to its Goetic shadow:
 
 ```mermaid
 flowchart LR
-    E["Three verses of Exodus 14 — each 72 letters"]
+    E["Three verses of Exodus 14: each 72 letters"]
     E -->|"read in boustrophedon"| R["72 three-letter roots"]
     R -->|"add the suffix -el or -yah"| A["72 angels of the Name"]
     A --> Z["each governs five degrees of the zodiac"]
@@ -106,7 +106,7 @@ flowchart LR
 
 ## Related
 
-- [Ars Goetia](/knowledge/angels-and-demons/ars-goetia) — the seventy-two spirits these angels answer
-- [Angels & Demons](/knowledge/angels-and-demons) — the collection this belongs to
-- [Astrology](/knowledge/astrology) — the zodiac wheel the angels divide
-- [Kabbalah](/knowledge/spirituality/kabbalah) — the Name from which they are drawn
+- [Ars Goetia](/knowledge/angels-and-demons/ars-goetia), the seventy-two spirits these angels answer
+- [Angels & Demons](/knowledge/angels-and-demons), the collection this belongs to
+- [Astrology](/knowledge/astrology), the zodiac wheel the angels divide
+- [Kabbalah](/knowledge/spirituality/kabbalah), the Name from which they are drawn

@@ -12,17 +12,17 @@ source: obsidian-knowledge
 
 ## The Archetype
 
-The Great Mother is the psyche’s primordial image of origin — the ground from which everything arises and to which everything returns. She is not any particular mother but the pattern beneath all mothering: the encompassing presence that nourishes, contains, and gives shape to life before the ego has learned to stand apart. Jung placed her among the deepest layers of the Collective Unconscious, a form so ancient that the infant meets her before it can distinguish itself from her at all. She is earth, ocean, night, and womb — the fertile dark that precedes the light of consciousness.
+The Great Mother is the psyche’s primordial image of origin, the ground from which everything arises and to which everything returns. She is not any particular mother but the pattern beneath all mothering: the encompassing presence that nourishes, contains, and gives shape to life before the ego has learned to stand apart. Jung placed her among the deepest layers of the [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious), a form so ancient that the infant meets her before it can distinguish itself from her at all. She is earth, ocean, night, and womb, the fertile dark that precedes the light of consciousness.
 
 Because she governs both birth and dissolution, the Great Mother is inherently double. She is the cornucopia and the grave, the breast and the abyss, the goddess who feeds and the one who devours. To encounter her is to feel the vastness of what one did not create and cannot control.
 
 ## In the Psyche
 
-At her nurturing pole she manifests as unconditional love, fertility, generosity, and the sense of being held by something larger than oneself — the felt certainty that life is fundamentally supportive. Her shadow pole is the devouring mother: engulfment, smothering possessiveness, the pull backward into unconsciousness that refuses the child’s separation. Every person negotiates with her when they grow toward independence, for [Individuation](/knowledge/psychology/jungian/individuation) requires leaving the maternal garden without denying the debt owed to it.
+At her nurturing pole she manifests as unconditional love, fertility, generosity, and the sense of being held by something larger than oneself, the felt certainty that life is fundamentally supportive. Her shadow pole is the devouring mother: engulfment, smothering possessiveness, the pull backward into unconsciousness that refuses the child’s separation. Every person negotiates with her when they grow toward independence, for [Individuation](/knowledge/psychology/jungian/individuation) requires leaving the maternal garden without denying the debt owed to it.
 
 ## In Tarot
 
-She is [The Empress](/knowledge/tarot/major-arcana/the-empress), enthroned amid grain and flowing water, crowned with stars and heavy with the abundance of the natural world. The card is fertility made visible — desire, creation, and the sensual generosity of matter itself — the Great Mother in her benevolent, life-giving aspect.
+She is [The Empress](/knowledge/tarot/major-arcana/the-empress), enthroned amid grain and flowing water, crowned with stars and heavy with the abundance of the natural world. The card is fertility made visible, desire, creation, and the sensual generosity of matter itself, the Great Mother in her benevolent, life-giving aspect.
 
 ## In Myth
 
@@ -34,10 +34,10 @@ She wears countless faces. [Demeter](/knowledge/mythology/greek-mythology/demete
 - [Demeter](/knowledge/mythology/greek-mythology/demeter)
 - [Gaia](/knowledge/mythology/greek-mythology/gaia)
 - [The Maiden](/knowledge/psychology/jungian/archetypes/the-maiden)
-- The Divine Child
+- [The Divine Child](/knowledge/psychology/jungian/archetypes/the-divine-child)
 - [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus)
-- Collective Unconscious
+- [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious)
 - [Individuation](/knowledge/psychology/jungian/individuation)
-- Major Jungian Concepts
+- [Major Jungian Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 - [Mythology](/knowledge/mythology)
 - [Tarot](/knowledge/tarot)

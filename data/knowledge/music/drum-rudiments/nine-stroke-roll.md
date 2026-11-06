@@ -15,7 +15,7 @@ The nine stroke roll is one of the most-used measured rolls, long enough to sit 
 
 ## Sticking
 
-The standard sticking is four doubles plus a terminating accent — nine strokes: **RRLL RRLL R**, accent on the final note, then reversed as **LLRR LLRR L**. The eight rolled notes are played as even doubles, closed or open, leading up to the accented ninth stroke that lands on the beat. It ends on the same hand it began, so the lead hand alternates naturally when the roll repeats.
+The standard sticking is four doubles plus a terminating accent, nine strokes: **RRLL RRLL R**, accent on the final note, then reversed as **LLRR LLRR L**. The eight rolled notes are played as even doubles, closed or open, leading up to the accented ninth stroke that lands on the beat. It ends on the same hand it began, so the lead hand alternates naturally when the roll repeats.
 
 ## How to Play
 

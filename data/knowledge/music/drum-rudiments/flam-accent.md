@@ -11,13 +11,13 @@ source: obsidian-knowledge
 
 ## The Rudiment
 
-The flam accent takes the plain flam and pours it into a triplet. Each group of three notes opens with a flammed, accented stroke and follows it with two lighter single strokes, and because the hands alternate from group to group, the pattern flows continuously from one side to the other. The result is a rolling, lilting figure — accent, tap, tap, accent, tap, tap — with a little thickening bump on every downbeat.
+The flam accent takes the plain flam and pours it into a triplet. Each group of three notes opens with a flammed, accented stroke and follows it with two lighter single strokes, and because the hands alternate from group to group, the pattern flows continuously from one side to the other. The result is a rolling, lilting figure, accent, tap, tap, accent, tap, tap, with a little thickening bump on every downbeat.
 
 It is one of the oldest hybrid rudiments precisely because it is so musical: a flam gives the accent weight, and the triplet gives the phrase momentum.
 
 ## Sticking
 
-The standard PAS sticking is **lR L R** for the first triplet and **rL R L** for the second, repeating. The flam falls on the first note of each triplet — the accented one — and the two following strokes are unaccented singles that hand you off to the opposite lead. Counted in triplets, the accent lands squarely on each beat.
+The standard PAS sticking is **lR L R** for the first triplet and **rL R L** for the second, repeating. The flam falls on the first note of each triplet, the accented one, and the two following strokes are unaccented singles that hand you off to the opposite lead. Counted in triplets, the accent lands squarely on each beat.
 
 ## How to Play
 

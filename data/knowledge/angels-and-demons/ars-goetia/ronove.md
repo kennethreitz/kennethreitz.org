@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Ronove — also rendered Ronwe or Roneve — is the twenty-seventh spirit of the Ars Goetia, named in the tradition as both a Marquis and a Great Earl of the infernal orders. The grimoire describes him only as a monster, without the elaborate composite forms given to many of his fellows, leaving his precise appearance to the imagination of the operator. Some later illustrators depicted him as a figure holding a staff, but the manuscript itself is spare on this point, an unusual reticence within a text otherwise given to vivid description.
+Ronove: also rendered Ronwe or Roneve: is the twenty-seventh spirit of the Ars Goetia, named in the tradition as both a Marquis and a Great Earl of the infernal orders. The grimoire describes him only as a monster, without the elaborate composite forms given to many of his fellows, leaving his precise appearance to the imagination of the operator. Some later illustrators depicted him as a figure holding a staff, but the manuscript itself is spare on this point, an unusual reticence within a text otherwise given to vivid description.
 
 What the tradition emphasises instead is his role as a teacher, particularly of language and eloquence, which situates Ronove among the scholarly spirits of the Lesser Key alongside figures such as Naberius.
 

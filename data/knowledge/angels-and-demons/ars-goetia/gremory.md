@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Gremory — also written Gomory or Gemory — is the fifty-sixth spirit of the Ars Goetia, a strong and powerful Duke. He is notable for appearing in the form of a beautiful woman, wearing a duchess’s crown or coronet about the waist, and riding upon a great camel. This feminine presentation is uncommon in the largely masculine catalogue, and it aligns Gremory with the spirits concerned with love and affection rather than with force or terror.
+Gremory: also written Gomory or Gemory: is the fifty-sixth spirit of the Ars Goetia, a strong and powerful Duke. He is notable for appearing in the form of a beautiful woman, wearing a duchess’s crown or coronet about the waist, and riding upon a great camel. This feminine presentation is uncommon in the largely masculine catalogue, and it aligns Gremory with the spirits concerned with love and affection rather than with force or terror.
 
 The grimoire treats him as a spirit of both revelation and desire, at once a finder of concealed things and a procurer of favour, and his gentle aspect made him one of the more frequently invoked figures of the tradition.
 

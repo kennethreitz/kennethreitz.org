@@ -12,11 +12,11 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A skeleton in black armour rides a pale white horse across a field, carrying a black banner emblazoned with a white five-petalled rose. Beneath the hooves lie the fallen — a king already dead, a bishop pleading, a woman turned away, a child offering flowers in innocent welcome. None of rank or age is spared. In the distance, between two towers, the sun rises over the horizon, and a river winds toward it. For all its grimness the card points forward: the banner’s rose is life, the rising sun is renewal. This is Death as passage, not annihilation.
+A skeleton in black armour rides a pale white horse across a field, carrying a black banner emblazoned with a white five-petalled rose. Beneath the hooves lie the fallen, a king already dead, a bishop pleading, a woman turned away, a child offering flowers in innocent welcome. None of rank or age is spared. In the distance, between two towers, the sun rises over the horizon, and a river winds toward it. For all its grimness the card points forward: the banner’s rose is life, the rising sun is renewal. This is Death as passage, not annihilation.
 
 ## Upright
 
-Death is transformation through ending — the necessary clearing that makes new life possible. Almost never literal, it names the endings the psyche resists: the closing of a chapter, the death of an identity, the falling-away of what has finished its work. Where the [The Hanged Man](/knowledge/tarot/major-arcana/the-hanged-man) surrendered voluntarily, Death arrives as something no longer negotiable. Upright, it counsels acceptance of what must end, and trust in the rising sun beyond it. To draw it is to be told that a real ending has come, and that clinging will only prolong the pain of it.
+Death is transformation through ending, the necessary clearing that makes new life possible. Almost never literal, it names the endings the psyche resists: the closing of a chapter, the death of an identity, the falling-away of what has finished its work. Where the [The Hanged Man](/knowledge/tarot/major-arcana/the-hanged-man) surrendered voluntarily, Death arrives as something no longer negotiable. Upright, it counsels acceptance of what must end, and trust in the rising sun beyond it. To draw it is to be told that a real ending has come, and that clinging will only prolong the pain of it.
 
 ## Reversed
 
@@ -32,11 +32,11 @@ Reversed, Death is resisted. The card can mean a transition stalled, a chapter o
 
 ## Archetype
 
-Death is the great transformer, the archetype of psychic death and rebirth that stands at the centre of every initiation. In [Individuation](/knowledge/psychology/jungian/individuation) it marks the dissolution of an outgrown self — the ego structure that must die for a truer one to emerge. Jung understood that the second half of life especially demands these deaths, and that the refusal to die to old identities is itself a kind of dying. The rose on the black banner is the promise that dissolution serves renewal.
+Death is the great transformer, the archetype of psychic death and rebirth that stands at the centre of every initiation. In [Individuation](/knowledge/psychology/jungian/individuation) it marks the dissolution of an outgrown self, the ego structure that must die for a truer one to emerge. Jung understood that the second half of life especially demands these deaths, and that the refusal to die to old identities is itself a kind of dying. The rose on the black banner is the promise that dissolution serves renewal.
 
 ## Mythological Echoes
 
-The card echoes the dying-and-rising gods across the world — Osiris dismembered and made whole, Persephone descending and returning, the grain that must fall into the earth to bear. It is the pale rider of apocalypse, but also the psychopomp who ferries souls across the river to the far shore. See [Hades](/knowledge/mythology/greek-mythology/hades), lord of the unseen, who is not death itself but the keeper of the realm to which death is the door.
+The card echoes the dying-and-rising gods across the world. Osiris dismembered and made whole, Persephone descending and returning, the grain that must fall into the earth to bear. It is the pale rider of apocalypse, but also the psychopomp who ferries souls across the river to the far shore. See [Hades](/knowledge/mythology/greek-mythology/hades), lord of the unseen, who is not death itself but the keeper of the realm to which death is the door.
 
 ## In Practice
 

@@ -1,25 +1,25 @@
 ---
-description: The alphabet of the snare — forty patterns from which every fill is spelled.
+description: 'The alphabet of the snare: forty patterns from which every fill is spelled.'
 source: obsidian-knowledge
 ---
 
 # Drum Rudiments
 
-> *The alphabet of the snare — forty patterns from which every fill is spelled.*
+> *The alphabet of the snare: forty patterns from which every fill is spelled.*
 
 ---
 
-The rudiments are the fundamental sticking patterns of the snare drum — the vocabulary a drummer drills until the hands know them without thought, then recombines into everything else. The modern standard is the **forty International Drum Rudiments** codified by the Percussive Arts Society, built out from the older twenty-six of the American tradition. They divide into four families: **rolls** (sustained sound through singles, buzzes, or doubles), **diddles** (the paradiddle group, alternating singles and doubles), **flams** (a grace note struck just before the beat), and **drags** (two grace notes before the beat).
+The rudiments are the fundamental sticking patterns of the snare drum, the vocabulary a drummer drills until the hands know them without thought, then recombines into everything else. The modern standard is the **forty International Drum Rudiments** codified by the Percussive Arts Society, built out from the older twenty-six of the American tradition. They divide into four families: **rolls** (sustained sound through singles, buzzes, or doubles), **diddles** (the paradiddle group, alternating singles and doubles), **flams** (a grace note struck just before the beat), and **drags** (two grace notes before the beat).
 
 The forty, sorted into their four families, with the roll family's own three branches:
 
 ```mermaid
 flowchart TD
     R["The 40 rudiments"]
-    R --> Ro["Rolls — sustained sound"]
-    R --> Di["Diddles — the paradiddle group"]
-    R --> Fl["Flams — one grace note"]
-    R --> Dr["Drags — two grace notes"]
+    R --> Ro["Rolls: sustained sound"]
+    R --> Di["Diddles, the paradiddle group"]
+    R --> Fl["Flams: one grace note"]
+    R --> Dr["Drags: two grace notes"]
     Ro --> S["Single stroke"]
     Ro --> Mb["Multiple bounce"]
     Ro --> Ds["Double stroke open"]
@@ -50,4 +50,4 @@ flowchart TD
 ## Related
 
 - [Music Hub](/knowledge/music)
-- Music Background — twenty-plus years at the kit
+- Music Background: twenty-plus years at the kit

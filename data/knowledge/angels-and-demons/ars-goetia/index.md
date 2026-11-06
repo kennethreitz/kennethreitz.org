@@ -1,15 +1,15 @@
 ---
-description: The seventy-two spirits of the Lesser Key — bound, catalogued, and named.
+description: 'The seventy-two spirits of the Lesser Key: bound, catalogued, and named.'
 source: obsidian-knowledge
 ---
 
 # Ars Goetia
 
-> *The seventy-two spirits of the Lesser Key — bound, catalogued, and named.*
+> *The seventy-two spirits of the Lesser Key: bound, catalogued, and named.*
 
 ---
 
-The **Ars Goetia** is the first and best-known book of *The Lesser Key of Solomon* (the *Lemegeton*), a 17th-century grimoire compiling seventy-two spirits said to have been bound by King Solomon. Each entry gives the spirit's rank in the infernal hierarchy — King, Duke, Prince, Marquis, Earl, Knight, or President — the number of legions it commands, the shape it takes when it appears, and its *office*: the knowledge or power it confers. Studied here as a historical and psychological artifact of the Western magical tradition, alongside the [Angels & Demons](/knowledge/angels-and-demons) it mirrors.
+The **Ars Goetia** is the first and best-known book of *The Lesser Key of Solomon* (the *Lemegeton*), a 17th-century grimoire compiling seventy-two spirits said to have been bound by King Solomon. Each entry gives the spirit's rank in the infernal hierarchy. King, Duke, Prince, Marquis, Earl, Knight, or President, the number of legions it commands, the shape it takes when it appears, and its *office*: the knowledge or power it confers. Studied here as a historical and psychological artifact of the Western magical tradition, alongside the [Angels & Demons](/knowledge/angels-and-demons) it mirrors.
 
 The seventy-two spirits are sorted into seven noble ranks, an infernal parody of a feudal court:
 
@@ -108,5 +108,5 @@ flowchart TD
 
 ## Related
 
-- [Angels & Demons](/knowledge/angels-and-demons) — the collection this belongs to
-- [Kabbalah](/knowledge/spirituality/kabbalah) — the tradition the grimoires draw their names and hierarchies from
+- [Angels & Demons](/knowledge/angels-and-demons), the collection this belongs to
+- [Kabbalah](/knowledge/spirituality/kabbalah), the tradition the grimoires draw their names and hierarchies from

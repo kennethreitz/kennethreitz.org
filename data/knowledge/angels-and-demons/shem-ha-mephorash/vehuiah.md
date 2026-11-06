@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Angel
 
-Vehuiah opens the sequence of the seventy-two, and its name reads as *God the Exalter* — the raising up of what was low. The Hebrew root gathered from Exodus 14:19 combines with the suffix *-iah*, the abbreviated Name of the Lord, to place divine action at the very threshold of creation. As the angel governing the first five degrees of Aries, Vehuiah stands at the hinge of the zodiacal year, the instant when latent force becomes visible motion. It is fitting that the tradition assigns it to the impulse of pure will, the spark that precedes deliberation.
+Vehuiah opens the sequence of the seventy-two, and its name reads as *God the Exalter*, the raising up of what was low. The Hebrew root gathered from Exodus 14:19 combines with the suffix *-iah*, the abbreviated Name of the Lord, to place divine action at the very threshold of creation. As the angel governing the first five degrees of Aries, Vehuiah stands at the hinge of the zodiacal year, the instant when latent force becomes visible motion. It is fitting that the tradition assigns it to the impulse of pure will, the spark that precedes deliberation.
 
-Those who invoke Vehuiah are said to receive the courage to begin — the specific and rare virtue of starting a thing before it is guaranteed to succeed. The angel bestows an enterprising temperament, a quickness of mind, and the subtle intelligence that perceives an opening others miss. In the mirrored architecture of the Shem, Vehuiah answers the Goetic king [Bael](/knowledge/angels-and-demons/ars-goetia/bael), whose rulership over the same degrees is turned, in the angelic register, from concealment toward illumination: what the demon hides, the angel exalts into the light.
+Those who invoke Vehuiah are said to receive the courage to begin, the specific and rare virtue of starting a thing before it is guaranteed to succeed. The angel bestows an enterprising temperament, a quickness of mind, and the subtle intelligence that perceives an opening others miss. In the mirrored architecture of the Shem, Vehuiah answers the Goetic king [Bael](/knowledge/angels-and-demons/ars-goetia/bael), whose rulership over the same degrees is turned, in the angelic register, from concealment toward illumination: what the demon hides, the angel exalts into the light.
 
 ## Attributes
 
@@ -31,3 +31,5 @@ Those who invoke Vehuiah are said to receive the courage to begin — the specif
 - [Bael](/knowledge/angels-and-demons/ars-goetia/bael)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the first decan of Aries with its pair, and so the Two of Wands. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

@@ -1,12 +1,12 @@
 ---
-description: Seven circles, seven days — the pattern that remembers how the week was
+description: Seven circles, seven days, the pattern that remembers how the week was
   made.
 source: obsidian-knowledge
 ---
 
 # Seed of Life
 
-> *Seven circles, seven days — the pattern that remembers how the week was made.*
+> *Seven circles, seven days, the pattern that remembers how the week was made.*
 
 ---
 

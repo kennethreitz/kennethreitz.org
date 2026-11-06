@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Hanuman is the devoted monkey god — boundless in strength, tireless in service, the very embodiment of devotion. Son of the wind, he can grow to the size of a mountain or shrink to the smallest form, leap across oceans, and carry mountains in his hand. Yet for all his immense power, his greatness lies not in strength but in what he does with it: he lays it entirely at the feet of the one he loves, the prince Rama, and asks for nothing in return.
+Hanuman is the devoted monkey god: boundless in strength, tireless in service, the very embodiment of devotion. Son of the wind, he can grow to the size of a mountain or shrink to the smallest form, leap across oceans, and carry mountains in his hand. Yet for all his immense power, his greatness lies not in strength but in what he does with it: he lays it entirely at the feet of the one he loves, the prince Rama, and asks for nothing in return.
 
 He is the perfect servant, the ideal devotee, the friend who will attempt the impossible without hesitation. In the epic of the Ramayana he is the hero who crosses the sea, finds the captive Sita, sets the demon-city aflame, and turns the tide of the war. He is worshipped across India for courage, protection, and above all for the pure, selfless love that makes his strength meaningful.
 
@@ -22,7 +22,7 @@ He is the perfect servant, the ideal devotee, the friend who will attempt the im
 
 As a child Hanuman was so mighty and so mischievous that the sages, weary of his pranks, laid a gentle curse upon him: he would forget the full extent of his own powers until he was reminded of them at the moment they were needed. This is one of the profound teachings of his story. His limitless strength lies dormant within him, waiting; he does not swagger with it or seek to display it. Only when a worthy purpose calls does he remember what he can do.
 
-The lesson is quietly radical. True power need not be brandished. It can rest, humble and unassuming, until service requires it — and then rise to whatever the moment demands.
+The lesson is quietly radical. True power need not be brandished. It can rest, humble and unassuming, until service requires it, and then rise to whatever the moment demands.
 
 ---
 
@@ -30,7 +30,7 @@ The lesson is quietly radical. True power need not be brandished. It can rest, h
 
 Hanuman’s devotion to Rama is the heart of his character and the model of bhakti, loving devotion, in Hindu tradition. When Rama’s wife Sita is carried off by the demon king Ravana, it is Hanuman who leaps across the ocean to the island fortress of Lanka to find her, bearing Rama’s ring as a token. Captured and set alight by the demons, he escapes and burns their city with his own flaming tail.
 
-When Rama’s brother lies dying in battle and only a rare herb from a distant mountain can save him, Hanuman flies to the mountain, and unable to identify the single herb, simply lifts the entire mountain and carries it back through the sky. His most beloved image shows him tearing open his own chest to reveal that Rama and Sita are enshrined within his very heart — devotion made literal, love written into the body.
+When Rama’s brother lies dying in battle and only a rare herb from a distant mountain can save him, Hanuman flies to the mountain, and unable to identify the single herb, simply lifts the entire mountain and carries it back through the sky. His most beloved image shows him tearing open his own chest to reveal that Rama and Sita are enshrined within his very heart, devotion made literal, love written into the body.
 
 ---
 
@@ -44,7 +44,7 @@ Tuesdays and Saturdays are held sacred to him, and the recitation of the Hanuman
 
 ## Archetypal Significance
 
-Hanuman is the archetype of strength made humble through love — power in perfect service, courage rooted in devotion. He corresponds to [Strength](/knowledge/tarot/major-arcana/strength) in the tarot: not the domination of force but its gentle mastery, the might that bows willingly to a higher purpose. Psychologically he represents the integration of great capability with selflessness, the surrender of ego that transforms raw power into grace, and the loyal heart that finds its greatest strength precisely in giving itself away.
+Hanuman is the archetype of strength made humble through love, power in perfect service, courage rooted in devotion. He corresponds to [Strength](/knowledge/tarot/major-arcana/strength) in the tarot: not the domination of force but its gentle mastery, the might that bows willingly to a higher purpose. Psychologically he represents the integration of great capability with selflessness, the surrender of ego that transforms raw power into grace, and the loyal heart that finds its greatest strength precisely in giving itself away.
 
 ---
 

@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Malphas is the thirty-ninth spirit of the Ars Goetia, a Great President who appears first in the form of a crow before the operator, and who takes the shape of a man when commanded, speaking then with a hoarse voice. He belongs to the architectural and martial spirits of the catalogue, a builder and a breaker of fortifications whose office mirrors and inverts that of his neighbour Halphas. Where one stocks the tower, the other raises and razes it.
 
-The grimoires carry a pointed warning about Malphas: if the operator makes a sacrifice or offering to him, he will receive it kindly and willingly — but he will then deceive the one who made it. His nature is thus reliable in his stated office yet treacherous in the matter of gifts, a spirit to be commanded rather than courted.
+The grimoires carry a pointed warning about Malphas: if the operator makes a sacrifice or offering to him, he will receive it kindly and willingly, but he will then deceive the one who made it. His nature is thus reliable in his stated office yet treacherous in the matter of gifts, a spirit to be commanded rather than courted.
 
 ## Office
 

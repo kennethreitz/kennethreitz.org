@@ -1,17 +1,17 @@
 ---
-description: Six singles and a diddle — the longest of the paradiddle line.
+description: Six singles and a diddle, the longest of the paradiddle line.
 source: obsidian-knowledge
 ---
 
 # Triple Paradiddle
 
-> *Six singles and a diddle — the longest of the paradiddle line.*
+> *Six singles and a diddle, the longest of the paradiddle line.*
 
 ---
 
 ## The Rudiment
 
-The triple paradiddle continues the pattern set by its siblings, adding yet another pair of alternating singles before the closing double. Where the single paradiddle is four notes and the double is six, this is eight — "para-para-para-diddle" — which fits neatly into a full beat of sixteenth notes or a two-beat span. It preserves the family's defining trait of flipping the lead hand every repetition, giving a long accented run that still resolves into a diddle and sets up the opposite side.
+The triple paradiddle continues the pattern set by its siblings, adding yet another pair of alternating singles before the closing double. Where the single paradiddle is four notes and the double is six, this is eight. "para-para-para-diddle", which fits neatly into a full beat of sixteenth notes or a two-beat span. It preserves the family's defining trait of flipping the lead hand every repetition, giving a long accented run that still resolves into a diddle and sets up the opposite side.
 
 ## Sticking
 
@@ -19,7 +19,7 @@ The standard sticking is **RLRLRLRR LRLRLRLL**, with an accent on the first note
 
 ## How to Play
 
-Play the accented first note full, keep the six singles that follow low, even, and relaxed, then release the closing double as a clean rebound. With six taps before the diddle, this rudiment is a real test of single-stroke evenness between the hands — any imbalance is exposed over the long run. Keep the accent distinct from the quiet stream of singles so the eight-note cell retains its shape at speed.
+Play the accented first note full, keep the six singles that follow low, even, and relaxed, then release the closing double as a clean rebound. With six taps before the diddle, this rudiment is a real test of single-stroke evenness between the hands, any imbalance is exposed over the long run. Keep the accent distinct from the quiet stream of singles so the eight-note cell retains its shape at speed.
 
 ## In Practice
 

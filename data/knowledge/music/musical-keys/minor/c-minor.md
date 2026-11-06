@@ -26,5 +26,5 @@ Christian Schubart’s characterization, from *Ideen zu einer Ästhetik der Tonk
 
 ## Related
 
-- [E♭ Major](/knowledge/music/musical-keys/major/e-flat-major) — its relative major
+- [E♭ Major](/knowledge/music/musical-keys/major/e-flat-major), its relative major
 - [Musical Keys](/knowledge/music/musical-keys)

@@ -1,16 +1,16 @@
 ---
-description: The gods of the Nile — where the sun is a boat, the sky a goddess, and
+description: The gods of the Nile, where the sun is a boat, the sky a goddess, and
   death a doorway weighed against a feather.
 source: obsidian-knowledge
 ---
 
 # Egyptian Mythology
 
-> *The gods of the Nile — where the sun is a boat, the sky a goddess, and death a doorway weighed against a feather.*
+> *The gods of the Nile, where the sun is a boat, the sky a goddess, and death a doorway weighed against a feather.*
 
 ---
 
-Egyptian myth is among the oldest continuously recorded on earth, a theology of the sun's daily death and rebirth, of the flooding Nile, and of the *ka* that survives the body. Its gods wear the heads of falcons, jackals, cats, and ibises; its central drama — the murder of [Osiris](/knowledge/mythology/egyptian-mythology/osiris), the mourning of [Isis](/knowledge/mythology/egyptian-mythology/isis), and the vengeance of [Horus](/knowledge/mythology/egyptian-mythology/horus) — is the archetypal dying-and-rising myth that echoes through the rest of [Mythology](/knowledge/mythology) and into the [Tarot](/knowledge/tarot).
+Egyptian myth is among the oldest continuously recorded on earth, a theology of the sun's daily death and rebirth, of the flooding Nile, and of the *ka* that survives the body. Its gods wear the heads of falcons, jackals, cats, and ibises; its central drama, the murder of [Osiris](/knowledge/mythology/egyptian-mythology/osiris), the mourning of [Isis](/knowledge/mythology/egyptian-mythology/isis), and the vengeance of [Horus](/knowledge/mythology/egyptian-mythology/horus), is the archetypal dying-and-rising myth that echoes through the rest of [Mythology](/knowledge/mythology) and into the [Tarot](/knowledge/tarot).
 
 ---
 
@@ -39,9 +39,9 @@ The Heliopolitan Ennead traces every player in the Osiris drama back to the crea
 
 ```mermaid
 flowchart TD
-    R["Atum-Ra — the creator"]
+    R["Atum-Ra, the creator"]
     R --> ST["Shu and Tefnut"]
-    ST --> GN["Geb — earth and Nut — sky"]
+    ST --> GN["Geb: earth and Nut: sky"]
     GN --> Os["Osiris"]
     GN --> Is["Isis"]
     GN --> Se["Set"]
@@ -59,5 +59,5 @@ The heart of the tradition: [Osiris](/knowledge/mythology/egyptian-mythology/osi
 ## Related
 
 - [Mythology Hub](/knowledge/mythology)
-- [Tarot](/knowledge/tarot) — the dying-god and the weighing of the heart
-- [Hermeticism](/knowledge/spirituality/hermeticism) — [Thoth](/knowledge/mythology/egyptian-mythology/thoth) as Hermes Trismegistus, the fount of the Hermetic tradition
+- [Tarot](/knowledge/tarot), the dying-god and the weighing of the heart
+- [Hermeticism](/knowledge/spirituality/hermeticism): [Thoth](/knowledge/mythology/egyptian-mythology/thoth) as Hermes Trismegistus, the fount of the Hermetic tradition

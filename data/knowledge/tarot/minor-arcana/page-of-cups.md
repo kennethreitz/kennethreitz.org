@@ -15,21 +15,21 @@ A young page in a flowered blue tunic stands at the edge of the sea, holding a g
 
 ## Upright
 
-The Page of Cups is the messenger of feeling — the fresh emotional stirring, the intuitive hunch, the creative impulse that arrives unannounced. He embodies openness, curiosity, and the willingness to receive the surprising fish that rises from the unconscious sea. This is the beginner’s heart: sensitive, imaginative, unguarded, ready to be moved. He often signals a new relationship, an artistic inspiration, or a message from the deep that asks only to be welcomed rather than analyzed. Innocence, here, is a form of wisdom.
+The Page of Cups is the messenger of feeling, the fresh emotional stirring, the intuitive hunch, the creative impulse that arrives unannounced. He embodies openness, curiosity, and the willingness to receive the surprising fish that rises from the unconscious sea. This is the beginner’s heart: sensitive, imaginative, unguarded, ready to be moved. He often signals a new relationship, an artistic inspiration, or a message from the deep that asks only to be welcomed rather than analyzed. Innocence, here, is a form of wisdom.
 
 ## Reversed
 
-Inverted, the openness turns brittle or unripe. This can be emotional immaturity, moodiness, the sulk of a heart too easily wounded. It may mark creative blocks, an intuition ignored or drowned in self-doubt, or a sensitivity that has curdled into escapism and fantasy. The reversal can also point to emotional messages that go unspoken or misunderstood — the fish that surfaced and was pushed back under before it could deliver what it came to say.
+Inverted, the openness turns brittle or unripe. This can be emotional immaturity, moodiness, the sulk of a heart too easily wounded. It may mark creative blocks, an intuition ignored or drowned in self-doubt, or a sensitivity that has curdled into escapism and fantasy. The reversal can also point to emotional messages that go unspoken or misunderstood, the fish that surfaced and was pushed back under before it could deliver what it came to say.
 
 ## Correspondence
 
 | Attribute | Value |
 | --- | --- |
-| **Element** | Water. As a court card, the Page of Cups is the Earth of Water — the grounded, receptive vessel that gives feeling its first form. The most tangible and beginning aspect of the emotional element. |
+| **Element** | Water. As a court card, the Page of Cups is the Earth of Water, the grounded, receptive vessel that gives feeling its first form. The most tangible and beginning aspect of the emotional element. |
 
 ## Archetype
 
-The Page is the Divine Child of the emotions, close cousin to the [Six of Cups](/knowledge/tarot/minor-arcana/six-of-cups)’ inner child but turned outward toward discovery. Jung prized this openness to the unconscious — the naive receptivity that lets contents surface into awareness without immediately judging or repressing them. The fish rising in the cup is a small revelation from the depths; the Page’s gift is that he neither flinches nor grasps, but simply attends. This is the psyche in its most permeable and teachable state.
+The Page is the Divine Child of the emotions, close cousin to the [Six of Cups](/knowledge/tarot/minor-arcana/six-of-cups)’ inner child but turned outward toward discovery. Jung prized this openness to the unconscious, the naive receptivity that lets contents surface into awareness without immediately judging or repressing them. The fish rising in the cup is a small revelation from the depths; the Page’s gift is that he neither flinches nor grasps, but simply attends. This is the psyche in its most permeable and teachable state.
 
 ## Mythological Echoes
 
@@ -37,7 +37,7 @@ The fish is an ancient symbol of the soul and the fertile deep, of Christ and of
 
 ## In Practice
 
-When this card appears, notice the small intuitive nudge you have been dismissing. Journal on a message rising from your own depths — and practice receiving it before you interpret it.
+When this card appears, notice the small intuitive nudge you have been dismissing. Journal on a message rising from your own depths, and practice receiving it before you interpret it.
 
 ## Related
 
@@ -46,4 +46,4 @@ When this card appears, notice the small intuitive nudge you have been dismissin
 - [Six of Cups](/knowledge/tarot/minor-arcana/six-of-cups)
 - [Page of Pentacles](/knowledge/tarot/minor-arcana/page-of-pentacles)
 - [Tarot](/knowledge/tarot)
-- Collective Unconscious
+- [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious)

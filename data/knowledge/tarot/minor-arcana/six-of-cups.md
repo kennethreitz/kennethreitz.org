@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Imagery
 
-In a sunlit courtyard, a larger child offers a cup filled with white flowers to a smaller one, a gesture of simple tenderness. Five more blossoming cups stand about them, and an old manor rises in the background with a guard walking away up the path, leaving the children to their innocent exchange. Everything is warm, safe, and slightly nostalgic — a scene bathed in the golden light of memory, the kind of moment the adult heart returns to when it wants to remember what gentleness felt like.
+In a sunlit courtyard, a larger child offers a cup filled with white flowers to a smaller one, a gesture of simple tenderness. Five more blossoming cups stand about them, and an old manor rises in the background with a guard walking away up the path, leaving the children to their innocent exchange. Everything is warm, safe, and slightly nostalgic, a scene bathed in the golden light of memory, the kind of moment the adult heart returns to when it wants to remember what gentleness felt like.
 
 ## Upright
 
@@ -27,20 +27,20 @@ Inverted, nostalgia curdles into a refuge. This is living in the past, an ideali
 | Attribute | Value |
 | --- | --- |
 | **Element** | Water. |
-| **Decan** | Sun in Scorpio — the second decan of Scorpio. |
+| **Decan** | Sun in Scorpio, the second decan of Scorpio. |
 | **Golden Dawn title** | the Lord of Pleasure. The Sun’s warmth softening Scorpio’s depths into something tender and remembering. |
 
 ## Archetype
 
-Here is the Divine Child, Jung’s image of wholeness and beginning that lives beneath the adult self. The Six of Cups is the return to the inner child — not as regression but as recovery of a spontaneity and trust the psyche needs to remain whole. Memory, in this card, is medicinal: by returning consciously to our origins we reclaim resources that were split off along the way. It is the gentle labor of gathering back the scattered flowers of the self.
+Here is the Divine Child, Jung’s image of wholeness and beginning that lives beneath the adult self. The Six of Cups is the return to the inner child, not as regression but as recovery of a spontaneity and trust the psyche needs to remain whole. Memory, in this card, is medicinal: by returning consciously to our origins we reclaim resources that were split off along the way. It is the gentle labor of gathering back the scattered flowers of the self.
 
 ## Mythological Echoes
 
-The golden courtyard recalls every myth of a lost paradise — Eden before the fall, the Golden Age of Saturn when the earth gave freely and no one grew old with grief. It echoes the puer aeternus, the eternal child of countless tales, and the flowers of remembrance strewn in rites of return. The child offering a cup is the ancient image of hospitality, kindness as the first and simplest sacrament.
+The golden courtyard recalls every myth of a lost paradise. Eden before the fall, the Golden Age of Saturn when the earth gave freely and no one grew old with grief. It echoes the puer aeternus, the eternal child of countless tales, and the flowers of remembrance strewn in rites of return. The child offering a cup is the ancient image of hospitality, kindness as the first and simplest sacrament.
 
 ## In Practice
 
-When this card appears, revisit a memory that still gives warmth — and ask what the child you were knew that you have since forgotten. Journal a gift you might offer your younger self.
+When this card appears, revisit a memory that still gives warmth, and ask what the child you were knew that you have since forgotten. Journal a gift you might offer your younger self.
 
 ## Related
 

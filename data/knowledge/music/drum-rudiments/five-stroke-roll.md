@@ -1,11 +1,11 @@
 ---
-description: Two diddles and a pop — the shortest complete roll.
+description: Two diddles and a pop, the shortest complete roll.
 source: obsidian-knowledge
 ---
 
 # Five Stroke Roll
 
-> *Two diddles and a pop — the shortest complete roll.*
+> *Two diddles and a pop, the shortest complete roll.*
 
 ---
 
@@ -15,11 +15,11 @@ The five stroke roll is the most compact of the measured rolls and one of the mo
 
 ## Sticking
 
-The standard sticking is two doubles plus a terminating accent — five strokes in all: **RRLL R**, accent on that final note, then reversed as **LLRR L**. Counted, the two diddles typically fall as the buzz and the accent lands on the beat, so the roll leads into the pulse rather than starting on it. Alternating the lead hand lets you play it continuously off either side.
+The standard sticking is two doubles plus a terminating accent, five strokes in all: **RRLL R**, accent on that final note, then reversed as **LLRR L**. Counted, the two diddles typically fall as the buzz and the accent lands on the beat, so the roll leads into the pulse rather than starting on it. Alternating the lead hand lets you play it continuously off either side.
 
 ## How to Play
 
-Play the four rolled notes as clean, tight doubles — closed for a sustained sound, open for a rudimental bite — then drive the fifth stroke up for the accent. The two diddles stay low and even; only the final tap gets height and weight. Keeping the roll compact and the accent snapping cleanly on the beat is the whole exercise. Practice it leading with each hand.
+Play the four rolled notes as clean, tight doubles, closed for a sustained sound, open for a rudimental bite, then drive the fifth stroke up for the accent. The two diddles stay low and even; only the final tap gets height and weight. Keeping the roll compact and the accent snapping cleanly on the beat is the whole exercise. Practice it leading with each hand.
 
 ## In Practice
 

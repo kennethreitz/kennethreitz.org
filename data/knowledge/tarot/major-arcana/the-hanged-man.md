@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A man hangs upside down, suspended by one ankle from a living T-shaped tree that is still in leaf. His free leg crosses behind the bound one to form a figure four; his arms fold behind his back. Far from suffering, his face is serene, and a golden halo of light radiates from his head. His clothes are the red and blue of the human and the divine. There is no struggle in him, no attempt to right himself. The whole card is a paradox of willing surrender — a suspension entered on purpose, a stillness that is somehow luminous.
+A man hangs upside down, suspended by one ankle from a living T-shaped tree that is still in leaf. His free leg crosses behind the bound one to form a figure four; his arms fold behind his back. Far from suffering, his face is serene, and a golden halo of light radiates from his head. His clothes are the red and blue of the human and the divine. There is no struggle in him, no attempt to right himself. The whole card is a paradox of willing surrender, a suspension entered on purpose, a stillness that is somehow luminous.
 
 ## Upright
 
@@ -20,7 +20,7 @@ The Hanged Man is surrender, reversal, and the wisdom that arrives only when str
 
 ## Reversed
 
-Reversed, surrender becomes stalling. The card can mean a sacrifice made for show, a martyrdom clung to, or a life put needlessly on hold. Inverted, it may reveal the refusal to let go — gripping control long past the point where control still helps — or a suspension that has curdled into mere stagnation, waiting without the inner shift that makes waiting fruitful. It asks whether your stillness is transformation or avoidance.
+Reversed, surrender becomes stalling. The card can mean a sacrifice made for show, a martyrdom clung to, or a life put needlessly on hold. Inverted, it may reveal the refusal to let go, gripping control long past the point where control still helps, or a suspension that has curdled into mere stagnation, waiting without the inner shift that makes waiting fruitful. It asks whether your stillness is transformation or avoidance.
 
 ## Correspondence
 
@@ -32,7 +32,7 @@ Reversed, surrender becomes stalling. The card can mean a sacrifice made for sho
 
 ## Archetype
 
-The Hanged Man is the sacrificial suspension at the heart of transformation — the ego’s willing submission to the deeper process of [Individuation](/knowledge/psychology/jungian/individuation). Jung saw that real change cannot be forced; there is a moment when the conscious will must hang, defeated and consenting, so that something in the unconscious can reorder itself. The inversion is the point: only by hanging upside down does the man see the pattern that his upright striving concealed. It is the descent that precedes renewal.
+The Hanged Man is the sacrificial suspension at the heart of transformation, the ego’s willing submission to the deeper process of [Individuation](/knowledge/psychology/jungian/individuation). Jung saw that real change cannot be forced; there is a moment when the conscious will must hang, defeated and consenting, so that something in the unconscious can reorder itself. The inversion is the point: only by hanging upside down does the man see the pattern that his upright striving concealed. It is the descent that precedes renewal.
 
 ## Mythological Echoes
 

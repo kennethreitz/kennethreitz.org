@@ -1,17 +1,17 @@
 ---
-description: Two more singles up front — the paradiddle stretched to fit a triplet.
+description: Two more singles up front, the paradiddle stretched to fit a triplet.
 source: obsidian-knowledge
 ---
 
 # Double Paradiddle
 
-> *Two more singles up front — the paradiddle stretched to fit a triplet.*
+> *Two more singles up front, the paradiddle stretched to fit a triplet.*
 
 ---
 
 ## The Rudiment
 
-The double paradiddle expands the single paradiddle by adding one more pair of alternating singles before the diddle. Where the single paradiddle is four notes, this is six — "para-para-diddle" — which makes it fit naturally into triplet and 6/8 feels. Like its parent, it flips the lead hand each time it repeats, so it distributes accents around the kit while riding a compound-time pulse. It is the go-to paradiddle for anything with a triplet subdivision.
+The double paradiddle expands the single paradiddle by adding one more pair of alternating singles before the diddle. Where the single paradiddle is four notes, this is six. "para-para-diddle", which makes it fit naturally into triplet and 6/8 feels. Like its parent, it flips the lead hand each time it repeats, so it distributes accents around the kit while riding a compound-time pulse. It is the go-to paradiddle for anything with a triplet subdivision.
 
 ## Sticking
 
@@ -19,7 +19,7 @@ The standard sticking is **RLRLRR LRLRLL**, with an accent on the first note of 
 
 ## How to Play
 
-Drive the accented first note, keep the four following singles low and even, then let the closing double rebound cleanly. Because there are four taps before the diddle, evenness across the singles matters more than in the single paradiddle — any limp between hands shows up quickly. Keep the accent bright against quiet taps so the six-note cell has shape rather than sounding like flat triplets.
+Drive the accented first note, keep the four following singles low and even, then let the closing double rebound cleanly. Because there are four taps before the diddle, evenness across the singles matters more than in the single paradiddle, any limp between hands shows up quickly. Keep the accent bright against quiet taps so the six-note cell has shape rather than sounding like flat triplets.
 
 ## In Practice
 

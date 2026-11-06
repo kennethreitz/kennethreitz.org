@@ -1,12 +1,12 @@
 ---
-description: Twenty faces rounding toward the sphere — form that flows and will not
-  hold an edge.
+description: 'Twenty faces rounding toward the sphere: form that flows and will not
+  hold an edge.'
 source: obsidian-knowledge
 ---
 
 # Icosahedron
 
-> *Twenty faces rounding toward the sphere — form that flows and will not hold an edge.*
+> *Twenty faces rounding toward the sphere: form that flows and will not hold an edge.*
 
 ---
 

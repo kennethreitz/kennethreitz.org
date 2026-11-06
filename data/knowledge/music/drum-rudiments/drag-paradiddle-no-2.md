@@ -15,11 +15,11 @@ Drag Paradiddle #2 is the denser sequel to Drag Paradiddle #1. It keeps the acce
 
 ## Sticking
 
-Drag Paradiddle #2 is conventionally written with an accented lead-in and two drags folded into the paradiddle: **R llRR llRLRR** in one common form, mirrored as **L rrLL rrLRLL** on the reverse. The uppercase opening stroke is the accented pickup; each pair of lowercase strokes is a drag, and the accented primaries and diddle carry the paradiddle shape. Notated versions differ more here than in most rudiments, so hold onto the essential idea — an accented pickup and two drags woven into a paradiddle — rather than any single fixed count.
+Drag Paradiddle #2 is conventionally written with an accented lead-in and two drags folded into the paradiddle: **R llRR llRLRR** in one common form, mirrored as **L rrLL rrLRLL** on the reverse. The uppercase opening stroke is the accented pickup; each pair of lowercase strokes is a drag, and the accented primaries and diddle carry the paradiddle shape. Notated versions differ more here than in most rudiments, so hold onto the essential idea, an accented pickup and two drags woven into a paradiddle, rather than any single fixed count.
 
 ## How to Play
 
-The whole difficulty is the two drags: both must stay low, crisp, and even, and the transition between them can’t rush or collapse. Pop the accented lead-in, keep each ruff quiet as a controlled double, and let the closing diddle rebound into the next repetition. This one rewards patient, slow practice more than almost any other drag rudiment — get both drags matched and clean before reaching for tempo.
+The whole difficulty is the two drags: both must stay low, crisp, and even, and the transition between them can’t rush or collapse. Pop the accented lead-in, keep each ruff quiet as a controlled double, and let the closing diddle rebound into the next repetition. This one rewards patient, slow practice more than almost any other drag rudiment, get both drags matched and clean before reaching for tempo.
 
 ## In Practice
 

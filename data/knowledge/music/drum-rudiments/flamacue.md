@@ -17,11 +17,11 @@ That displaced accent is the whole personality of the rudiment. It is a flam exe
 
 ## Sticking
 
-The standard PAS sticking is **lR L R rL** for the first pass and **rL R L lR** for the second, alternating. The flam sits on the first note and again on the last (which becomes the launch of the next repetition), while the accent falls on the second note — the first plain single after the opening flam. Counted in sixteenths, the opening flam is on the beat and the accent lands on the “e.”
+The standard PAS sticking is **lR L R rL** for the first pass and **rL R L lR** for the second, alternating. The flam sits on the first note and again on the last (which becomes the launch of the next repetition), while the accent falls on the second note, the first plain single after the opening flam. Counted in sixteenths, the opening flam is on the beat and the accent lands on the “e.”
 
 ## How to Play
 
-Keep the opening flam soft and controlled; if it’s too loud it steals the accent’s thunder. Then drive the second stroke hard — that’s the “cue.” The two middle strokes settle back to a low, even level, and the closing flam prepares the opposite hand. The difficulty is dynamic discipline: a quiet flam, an explosive accent, and even taps between, all inside one quick figure.
+Keep the opening flam soft and controlled; if it’s too loud it steals the accent’s thunder. Then drive the second stroke hard, that’s the “cue.” The two middle strokes settle back to a low, even level, and the closing flam prepares the opposite hand. The difficulty is dynamic discipline: a quiet flam, an explosive accent, and even taps between, all inside one quick figure.
 
 ## In Practice
 

@@ -14,8 +14,8 @@ source: obsidian-knowledge
 
 This working blends two magical traditions:
 
-1. **Qabalistic/Ceremonial** — Using the correspondences of Chesed (the 4th Sephira) and Jupiter to open channels of abundance through precise alignment
-2. **Folk Magic/Hoodoo** — Using sympathetic magic, natural lodestones, and physical curios to draw and anchor wealth in the material world
+1. **Qabalistic/Ceremonial**: Using the correspondences of Chesed (the 4th Sephira) and Jupiter to open channels of abundance through precise alignment
+2. **Folk Magic/Hoodoo**: Using sympathetic magic, natural lodestones, and physical curios to draw and anchor wealth in the material world
 
 The ceremonial structure opens the channel. The folk magic gives the energy somewhere to *land*.
 
@@ -23,9 +23,9 @@ The ceremonial structure opens the channel. The folk magic gives the energy some
 
 ## The Qabalistic Foundation
 
-**Chesed** (חסד) — Hebrew for "Mercy" — is the Fourth Sephira on the Tree of Life. It corresponds to:
+**Chesed** (חסד): Hebrew for "Mercy": is the Fourth Sephira on the Tree of Life. It corresponds to:
 
-- **Planet**: Jupiter (Tzedeq — "righteousness")
+- **Planet**: Jupiter (Tzedeq: "righteousness")
 - **Number**: 4 (solidification, manifestation below the Abyss)
 - **God Name**: **EL** (אל)
 - **Archangel**: Tzadkiel (Righteousness of God)
@@ -37,7 +37,7 @@ The ceremonial structure opens the channel. The folk magic gives the energy some
 - **Magical Power**: The Vision of Love
 - **Palace (Briah)**: Hekel Ahbah (Palace of Love)
 
-Chesed represents abundance not as mere accumulation but as the natural overflow of cosmic benevolence — mercy made manifest.
+Chesed represents abundance not as mere accumulation but as the natural overflow of cosmic benevolence, mercy made manifest.
 
 ---
 
@@ -79,7 +79,7 @@ Chesed represents abundance not as mere accumulation but as the natural overflow
 
 - **Day**: Thursday (Jupiter's day)
 - **Moon**: Waxing phase
-- **Hour**: Jupiter's planetary hour (1st or 8th after sunrise) — *optional but amplifying*
+- **Hour**: Jupiter's planetary hour (1st or 8th after sunrise), *optional but amplifying*
 - **Bonus**: Moon in Virgo
 
 > Thursday evening with intention beats perfect timing with doubt.
@@ -122,7 +122,7 @@ Sprinkle magnetic sand over it. Set it at center.
 
 ### 4. Write Your Petition
 
-Write specifically what you need — not "money" but the actual number or situation. Be plain and direct.
+Write specifically what you need, not "money" but the actual number or situation. Be plain and direct.
 
 Fold the paper **toward you** three times.
 
@@ -155,7 +155,7 @@ As you build, speak:
 
 > *"Lodestone draws, pyrite gleams,*
 > *Cinnamon sweetens, bay leaf dreams.*
-> *Jupiter expands what I have sown—*
+> *Jupiter expands what I have sown: *
 > *Money flows, wealth is grown."*
 
 ---
@@ -172,7 +172,7 @@ Vibrate once more:
 
 > ***"EL."***
 
-Seal — tie pouch closed or drip green wax over jar lid.
+Seal: tie pouch closed or drip green wax over jar lid.
 
 ---
 
@@ -228,11 +228,11 @@ You're calling down the lightning **and** giving it a lightning rod.
 
 ## Sources
 
-- **Crowley, Aleister** — *777 and Other Qabalistic Writings* (1909/1955)
-- **Open 777** — https://open777.blvckstudios.com
-- **Thelemapedia** — Chesed correspondences
-- **Lucky Mojo** — Traditional hoodoo money drawing formulas
-- **Various folk magic traditions** — Lodestone work, money jars, bay leaf magic
+- **Crowley, Aleister**: *777 and Other Qabalistic Writings* (1909/1955)
+- **Open 777**: https://open777.blvckstudios.com
+- **Thelemapedia**: Chesed correspondences
+- **Lucky Mojo**: Traditional hoodoo money drawing formulas
+- **Various folk magic traditions**: Lodestone work, money jars, bay leaf magic
 
 ---
 

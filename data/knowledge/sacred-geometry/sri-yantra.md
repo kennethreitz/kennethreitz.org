@@ -1,12 +1,12 @@
 ---
-description: Nine triangles woven around a single point — the cosmos folded into a
+description: Nine triangles woven around a single point, the cosmos folded into a
   diagram you can enter.
 source: obsidian-knowledge
 ---
 
 # Sri Yantra
 
-> *Nine triangles woven around a single point — the cosmos folded into a diagram you can enter.*
+> *Nine triangles woven around a single point, the cosmos folded into a diagram you can enter.*
 
 ---
 

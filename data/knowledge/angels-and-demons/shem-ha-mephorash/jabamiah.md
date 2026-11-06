@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Angel
 
-Jabamiah is rendered *the Word that produces all things* — or *God producing all things by his word* — and it is among the most cosmogonic of the seventy-two, its root reaching back toward generation and bringing-forth, sealed by the divine suffix *-iah*. The tradition associates it directly with the opening of Genesis, with the divine utterance that speaks the world into being, and it is invoked in matters of regeneration: the transformation of one state into a higher one, the alchemical passage from lead to gold, the soul reborn out of its own crisis.
+Jabamiah is rendered *the Word that produces all things*, or *God producing all things by his word*, and it is among the most cosmogonic of the seventy-two, its root reaching back toward generation and bringing-forth, sealed by the divine suffix *-iah*. The tradition associates it directly with the opening of Genesis, with the divine utterance that speaks the world into being, and it is invoked in matters of regeneration: the transformation of one state into a higher one, the alchemical passage from lead to gold, the soul reborn out of its own crisis.
 
-The virtue Jabamiah bestows is the power to be made new. It governs natural philosophy and the sciences of transformation, favouring those who study how one thing becomes another and who seek their own conversion in the process; it is said to restore what has fallen, to regenerate what has decayed, and to grant the penitent a genuine second nature rather than a mere resolution. Under its Piscean governance — the sign of dissolution and return — Jabamiah is the creative word that reassembles what the waters have unmade, calling a new form up out of the formless. To invoke it is to ask not for repair but for rebirth, trusting that the same voice which produced all things at the first can produce them again in oneself.
+The virtue Jabamiah bestows is the power to be made new. It governs natural philosophy and the sciences of transformation, favouring those who study how one thing becomes another and who seek their own conversion in the process; it is said to restore what has fallen, to regenerate what has decayed, and to grant the penitent a genuine second nature rather than a mere resolution. Under its Piscean governance, the sign of dissolution and return. Jabamiah is the creative word that reassembles what the waters have unmade, calling a new form up out of the formless. To invoke it is to ask not for repair but for rebirth, trusting that the same voice which produced all things at the first can produce them again in oneself.
 
 ## Attributes
 
@@ -32,3 +32,5 @@ The virtue Jabamiah bestows is the power to be made new. It governs natural phil
 - [Seere](/knowledge/angels-and-demons/ars-goetia/seere)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the second decan of Pisces with its pair, and so the Nine of Cups. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

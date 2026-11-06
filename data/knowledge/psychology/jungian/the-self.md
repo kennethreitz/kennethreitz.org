@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ## Definition
 
-The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche. It is both the center and the circumference of the personality — the organizing principle that unifies all aspects of the psyche. In the tarot this archetype is imaged twice over: as [The World](/knowledge/tarot/major-arcana/the-world), wholeness achieved and the dance completed, and as [The Sun](/knowledge/tarot/major-arcana/the-sun), the integrated self radiant and unclouded.
+The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche. It is both the center and the circumference of the personality, the organizing principle that unifies all aspects of the psyche. In the tarot this archetype is imaged twice over: as [The World](/knowledge/tarot/major-arcana/the-world), wholeness achieved and the dance completed, and as [The Sun](/knowledge/tarot/major-arcana/the-sun), the integrated self radiant and unclouded.
 
 ---
 
@@ -18,7 +18,7 @@ The Self is the central archetype in Jungian psychology, representing the totali
 
 ### The Totality
 
-The Self encompasses all of consciousness and unconsciousness, includes all archetypes, complexes, and psychological functions — the whole personality, not just what we're aware of.
+The Self encompasses all of consciousness and unconsciousness, includes all archetypes, complexes, and psychological functions, the whole personality, not just what we're aware of.
 
 ### The Regulating Center
 
@@ -26,7 +26,7 @@ It organizes and integrates the personality, brings order to psychological chaos
 
 ### The Goal
 
-The Self is both the starting point and the goal of development. Already present from birth, it must be realized — made conscious through individuation.
+The Self is both the starting point and the goal of development. Already present from birth, it must be realized, made conscious through individuation.
 
 ---
 
@@ -78,7 +78,7 @@ Return to the Self. Integrating what was left behind. Realizing wholeness. Indiv
 
 Self-realization is **not** ego accomplishment or success, not perfection or eliminating flaws, not becoming special or superior.
 
-It **is** becoming who you truly are — integration of conscious and unconscious, living from your center, accepting your wholeness including both light and shadow.
+It **is** becoming who you truly are: integration of conscious and unconscious, living from your center, accepting your wholeness including both light and shadow.
 
 ---
 
@@ -103,23 +103,23 @@ Creative work emerges from the Self. Art is dialogue between ego and Self. The S
 ## Related Concepts
 
 ### Core Jungian Ideas
-- [Individuation](/knowledge/psychology/jungian/individuation) — The process of Self-realization
-- The Shadow — Must be integrated for Self-realization
-- [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus) — Bridge to the Self
-- Collective Unconscious — The Self connects to universal psyche
-- Overview of All Concepts
+- [Individuation](/knowledge/psychology/jungian/individuation): The process of Self-realization
+- [The Shadow](/knowledge/psychology/jungian/the-shadow): Must be integrated for Self-realization
+- [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus): Bridge to the Self
+- [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious): The Self connects to universal psyche
+- [Overview of All Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 
 ### Spiritual Connections
-- [Spirituality](/knowledge/spirituality) — Direct experience of the Self
-- [Vedanta](/knowledge/spirituality/vedanta) — Atman as Self
-- [Meditation](/knowledge/spirituality/meditation) — Accessing the Self
+- [Spirituality](/knowledge/spirituality): Direct experience of the Self
+- [Vedanta](/knowledge/spirituality/vedanta): Atman as Self
+- [Meditation](/knowledge/spirituality/meditation): Accessing the Self
 
 ### Connections
-- Integration — Making the Self manifest
-- [Consciousness](/knowledge/ai/consciousness) — The Self as consciousness center
-- [Emergence](/knowledge/ai/emergence) — The Self as emergent wholeness
-- [Stoicism](/knowledge/philosophy/stoicism) — Inner citadel parallel
-- System 777 — Nene as Self-figure
+- [Integration](/knowledge/psychology/trauma-and-healing/integration): Making the Self manifest
+- [Consciousness](/knowledge/ai/consciousness): The Self as consciousness center
+- [Emergence](/knowledge/ai/emergence): The Self as emergent wholeness
+- [Stoicism](/knowledge/philosophy/stoicism): Inner citadel parallel
+- [System 777](/system-777): Nene as Self-figure
 
 ---
 

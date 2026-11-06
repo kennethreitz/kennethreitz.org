@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Agares — also spelled Agreas — is the second spirit of the *Ars Goetia* and the first of its dukes. Like Bael before him he is assigned to the eastern quarter, said to rule beneath the power that governs the east. The demonological compilers imagined him as a figure of venerable rather than monstrous aspect, an old man riding upon a crocodile, and this dignified image sets the tone for the many spirits of the grimoire who appear less as horrors than as courtly personages of the invisible world.
+Agares: also spelled Agreas: is the second spirit of the *Ars Goetia* and the first of its dukes. Like Bael before him he is assigned to the eastern quarter, said to rule beneath the power that governs the east. The demonological compilers imagined him as a figure of venerable rather than monstrous aspect, an old man riding upon a crocodile, and this dignified image sets the tone for the many spirits of the grimoire who appear less as horrors than as courtly personages of the invisible world.
 
 His character in the tradition is bound up with motion and its arrest. Where other spirits govern love, treasure, or war, Agares presides over the crossing of distances and the return of what has departed, a lord of pursuit and homecoming.
 

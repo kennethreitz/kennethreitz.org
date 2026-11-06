@@ -1,11 +1,11 @@
 ---
-description: The gift is placed in your palm before you have earned it — begin.
+description: The gift is placed in your palm before you have earned it, begin.
 source: obsidian-knowledge
 ---
 
 # Ace of Pentacles
 
-> *The gift is placed in your palm before you have earned it — begin.*
+> *The gift is placed in your palm before you have earned it, begin.*
 
 ---
 
@@ -15,25 +15,25 @@ A single hand emerges from a grey cloud, offering a golden pentacle that rests w
 
 ## Upright
 
-The Ace of Pentacles is the seed of the material world, the first stirring of prosperity, health, and tangible possibility. It marks the moment a new venture, a body of work, or a fresh footing in the physical arrives with quiet solidity. Unlike the flashier aces, its promise is slow and dependable — an offer of foundation rather than fireworks. To draw it is to be handed a coin of raw potential and asked whether you will walk through the arch and do the work of growing it. It counsels grounding, patience, and trust that the material can be sacred.
+The Ace of Pentacles is the seed of the material world, the first stirring of prosperity, health, and tangible possibility. It marks the moment a new venture, a body of work, or a fresh footing in the physical arrives with quiet solidity. Unlike the flashier aces, its promise is slow and dependable, an offer of foundation rather than fireworks. To draw it is to be handed a coin of raw potential and asked whether you will walk through the arch and do the work of growing it. It counsels grounding, patience, and trust that the material can be sacred.
 
 ## Reversed
 
-Inverted, the coin slips from the palm. The Ace reversed speaks of opportunities missed through hesitation or grasped too greedily, of plans that never take root, of security pursued so anxiously that it curdles into scarcity. It can signal misplaced priorities — mistaking the coin for the garden, hoarding the gift instead of planting it. Here the fertile ground lies fallow, and the invitation through the arch goes unanswered while one clutches at what feels safe.
+Inverted, the coin slips from the palm. The Ace reversed speaks of opportunities missed through hesitation or grasped too greedily, of plans that never take root, of security pursued so anxiously that it curdles into scarcity. It can signal misplaced priorities, mistaking the coin for the garden, hoarding the gift instead of planting it. Here the fertile ground lies fallow, and the invitation through the arch goes unanswered while one clutches at what feels safe.
 
 ## Correspondence
 
 | Attribute | Value |
 | --- | --- |
-| **Element** | Earth. As the root of the suit, this Ace is the Root of the Powers of Earth — the undifferentiated source of all the Pentacles, prosperity before it takes any particular shape. |
+| **Element** | Earth. As the root of the suit, this Ace is the Root of the Powers of Earth, the undifferentiated source of all the Pentacles, prosperity before it takes any particular shape. |
 
 ## Archetype
 
-Jung would recognise in this hovering coin the treasure hard to attain, but at its very first glimpse — the Self offered as a mandala of gold, round and whole, before the ego has done anything to deserve it. Grace precedes effort. The garden is the tended psyche, the arch the threshold of a work of [Individuation](/knowledge/psychology/jungian/individuation) rooted not in abstraction but in the body and the world. The Ace insists that spirit descends into matter, that wholeness is grown, not merely realised.
+Jung would recognise in this hovering coin the treasure hard to attain, but at its very first glimpse, the Self offered as a mandala of gold, round and whole, before the ego has done anything to deserve it. Grace precedes effort. The garden is the tended psyche, the arch the threshold of a work of [Individuation](/knowledge/psychology/jungian/individuation) rooted not in abstraction but in the body and the world. The Ace insists that spirit descends into matter, that wholeness is grown, not merely realised.
 
 ## Mythological Echoes
 
-The offered coin recalls every myth of the given seed: Demeter's grain entrusted to the earth, the golden apples of the Hesperides guarded in a walled garden, the philosopher's gold that alchemists sought as spirit fixed in matter. Across traditions the sacred descends as a single fertile point — the mustard seed, the buried talent — and asks to be cultivated rather than admired.
+The offered coin recalls every myth of the given seed: Demeter's grain entrusted to the earth, the golden apples of the Hesperides guarded in a walled garden, the philosopher's gold that alchemists sought as spirit fixed in matter. Across traditions the sacred descends as a single fertile point, the mustard seed, the buried talent, and asks to be cultivated rather than admired.
 
 ## In Practice
 

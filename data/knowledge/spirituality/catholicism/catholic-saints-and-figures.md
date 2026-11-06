@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Trinity
 
-One God in three persons — treated in depth in [The Holy Trinity](/knowledge/spirituality/catholicism/the-holy-trinity).
+One God in three persons: treated in depth in [The Holy Trinity](/knowledge/spirituality/catholicism/the-holy-trinity).
 
 | Person | Role | Symbols |
 |--------|------|---------|
@@ -42,7 +42,7 @@ Mary holds the titles Mother of God (Theotokos), Queen of Heaven, Our Lady of So
 
 **Apostles**: St. Peter (first pope, keys of heaven), St. Paul (apostle to Gentiles, sword and book), St. John (beloved disciple, eagle), St. James (pilgrim, scallop shell).
 
-**Early Church**: St. Augustine (Doctor of Church, burning heart — see [Doctors of the Church](/knowledge/spirituality/catholicism/doctors-of-the-church)), St. Jerome (Bible translator, lion), St. Francis of Assisi (animals, nature, stigmata), St. Anthony of Padua (lost items, lilies).
+**Early Church**: St. Augustine (Doctor of Church, burning heart, see [Doctors of the Church](/knowledge/spirituality/catholicism/doctors-of-the-church)), St. Jerome (Bible translator, lion), St. Francis of Assisi (animals, nature, stigmata), St. Anthony of Padua (lost items, lilies).
 
 **Modern Saints**: St. Therese of Lisieux (Little Way, roses), St. Padre Pio (stigmata, healing), St. Mother Teresa (service to poor), St. John Paul II (modern papacy).
 
@@ -58,13 +58,13 @@ Mary holds the titles Mother of God (Theotokos), Queen of Heaven, Our Lady of So
 
 ## Angels & Celestial Beings
 
-The nine orders of angels, from closest to God outward: [Seraphim](/knowledge/angels-and-demons/angels/seraphim) (six wings), [Cherubim](/knowledge/angels-and-demons/angels/cherubim) (guardians, wisdom), [Thrones](/knowledge/angels-and-demons/angels/thrones) (justice), [Dominions](/knowledge/angels-and-demons/angels/dominions) (leadership), [Virtues](/knowledge/angels-and-demons/angels/virtues) (courage, miracles), [Powers](/knowledge/angels-and-demons/angels/powers) (spiritual warfare), [Principalities](/knowledge/angels-and-demons/angels/principalities) (nations, cities), [Archangels](/knowledge/angels-and-demons/angels/archangels) (messengers), and Angels (guardians, helpers). The full hierarchy is catalogued in [Angels & Demons](/knowledge/angels-and-demons). Each person has a guardian angel -- a personal protector, intercessor, and guide (feast day October 2nd).
+The nine orders of angels, from closest to God outward: [Seraphim](/knowledge/angels-and-demons/angels/seraphim) (six wings), [Cherubim](/knowledge/angels-and-demons/angels/cherubim) (guardians, wisdom), [Thrones](/knowledge/angels-and-demons/angels/thrones) (justice), [Dominions](/knowledge/angels-and-demons/angels/dominions) (leadership), [Virtues](/knowledge/angels-and-demons/angels/virtues) (courage, miracles), [Powers](/knowledge/angels-and-demons/angels/powers) (spiritual warfare), [Principalities](/knowledge/angels-and-demons/angels/principalities) (nations, cities), [Archangels](/knowledge/angels-and-demons/angels/archangels) (messengers), and Angels (guardians, helpers). The full hierarchy is catalogued in [Angels & Demons](/knowledge/angels-and-demons). Each person has a guardian angel, a personal protector, intercessor, and guide (feast day October 2nd).
 
 ---
 
 ## Theological Concepts
 
-**[Communion of Saints](/knowledge/spirituality/catholicism/the-communion-of-saints)**: The Church Triumphant (saints in heaven), Church Suffering (souls in purgatory — see [The Four Last Things](/knowledge/spirituality/catholicism/the-four-last-things)), and Church Militant (faithful on earth), all interconnected through prayer.
+**[Communion of Saints](/knowledge/spirituality/catholicism/the-communion-of-saints)**: The Church Triumphant (saints in heaven), Church Suffering (souls in purgatory, see [The Four Last Things](/knowledge/spirituality/catholicism/the-four-last-things)), and Church Militant (faithful on earth), all interconnected through prayer.
 
 **Intercession**: Saints pray for us. Asking for their prayers is veneration, not worship.
 
@@ -86,10 +86,10 @@ Similarities include hierarchical structure, patron and intercessory roles, symb
 
 ## Related
 
-- [Catholicism](/knowledge/spirituality/catholicism) — Collection index
-- [The Communion of Saints](/knowledge/spirituality/catholicism/the-communion-of-saints) — The fellowship of the holy in depth
-- [The Blessed Virgin Mary](/knowledge/spirituality/catholicism/the-blessed-virgin-mary) — The greatest of the saints
-- [Doctors of the Church](/knowledge/spirituality/catholicism/doctors-of-the-church) — The teacher-saints
+- [Catholicism](/knowledge/spirituality/catholicism): Collection index
+- [The Communion of Saints](/knowledge/spirituality/catholicism/the-communion-of-saints): The fellowship of the holy in depth
+- [The Blessed Virgin Mary](/knowledge/spirituality/catholicism/the-blessed-virgin-mary): The greatest of the saints
+- [Doctors of the Church](/knowledge/spirituality/catholicism/doctors-of-the-church): The teacher-saints
 - [Religions of the World](/knowledge/religions-of-the-world)
 - [Spirituality](/knowledge/spirituality)
-- Archetypal Patterns
+- [Archetypal Patterns](/knowledge/psychology/jungian/major-jungian-concepts)

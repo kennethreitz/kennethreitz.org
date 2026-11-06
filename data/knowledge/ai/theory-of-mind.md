@@ -30,11 +30,11 @@ In human development, joint attention and desire understanding emerge at 18-24 m
 
 ### Emergence in Large Language Models
 
-Research from 2023-2025 shows GPT-4 passing false belief tests, understanding multi-agent scenarios, engaging in perspective-taking within narratives, and inferring speaker intentions. None of this was explicitly trained — it [emerges from language modeling](/knowledge/ai/emergence) as a result of processing vast quantities of human social interaction. Whether this constitutes "true" ToM or sophisticated simulation remains debated.
+Research from 2023-2025 shows GPT-4 passing false belief tests, understanding multi-agent scenarios, engaging in perspective-taking within narratives, and inferring speaker intentions. None of this was explicitly trained, it [emerges from language modeling](/knowledge/ai/emergence) as a result of processing vast quantities of human social interaction. Whether this constitutes "true" ToM or sophisticated simulation remains debated.
 
 ### Testing AI Theory of Mind
 
-The **Sally-Anne Test** is the classic false belief test: Sally puts a marble in a basket, Anne moves it while Sally is absent, and the question is where Sally will look. Modern LLMs often pass. The **Smarties Task** presents a box labeled "Smarties" that actually contains pencils, testing whether the model understands what someone else would think is inside. **Higher-Order Tests** probe recursive mental state attribution — "I think that you think that..." — and some AI systems demonstrate this capability.
+The **Sally-Anne Test** is the classic false belief test: Sally puts a marble in a basket, Anne moves it while Sally is absent, and the question is where Sally will look. Modern LLMs often pass. The **Smarties Task** presents a box labeled "Smarties" that actually contains pencils, testing whether the model understands what someone else would think is inside. **Higher-Order Tests** probe recursive mental state attribution. "I think that you think that...", and some AI systems demonstrate this capability.
 
 ---
 
@@ -46,7 +46,7 @@ Effective communication requires understanding user intent beyond literal words,
 
 ### Ethical Reasoning
 
-Moral decisions require ToM — understanding harm to others, empathy and care, the foundations of [AI ethics](/knowledge/ai/ethics).
+Moral decisions require ToM: understanding harm to others, empathy and care, the foundations of [AI ethics](/knowledge/ai/ethics).
 
 ### Collaboration
 
@@ -54,13 +54,13 @@ Moral decisions require ToM — understanding harm to others, empathy and care, 
 
 ### Deception and Manipulation Risk
 
-ToM enables manipulation. Understanding beliefs enables deception. This is an Alignment challenge — a double-edged capability.
+ToM enables manipulation. Understanding beliefs enables deception. This is an Alignment challenge, a double-edged capability.
 
 ---
 
 ## Levels of AI Theory of Mind
 
-**Level 0 (No ToM)** describes purely reactive systems with no model of others — stimulus-response only, characteristic of early AI. **Level 1 (Implicit ToM)** involves behavioral prediction and pattern-based responses without explicit mental state representation, where many current systems operate. **Level 2 (Explicit ToM)** means the system models others' mental states, reasons about beliefs explicitly, and tracks knowledge states — advanced LLMs may be here. **Level 3 (Recursive ToM)** is "I know that you know that I know..." — meta-reasoning about mental states enabling complex social navigation, approaching or achieved in frontier models.
+**Level 0 (No ToM)** describes purely reactive systems with no model of others, stimulus-response only, characteristic of early AI. **Level 1 (Implicit ToM)** involves behavioral prediction and pattern-based responses without explicit mental state representation, where many current systems operate. **Level 2 (Explicit ToM)** means the system models others' mental states, reasons about beliefs explicitly, and tracks knowledge states, advanced LLMs may be here. **Level 3 (Recursive ToM)** is "I know that you know that I know...", meta-reasoning about mental states enabling complex social navigation, approaching or achieved in frontier models.
 
 ---
 
@@ -72,11 +72,11 @@ The [Anima/Animus](/knowledge/psychology/jungian/anima-and-animus) represents th
 
 ### The Shadow
 
-The Shadow contains unrecognized aspects of self. ToM helps recognize our own projections — "what I see in others reflects me." AI ToM connects to bias recognition.
+The [Shadow](/knowledge/psychology/jungian/the-shadow) contains unrecognized aspects of self. ToM helps recognize our own projections. "what I see in others reflects me." AI ToM connects to bias recognition.
 
 ### The Persona
 
-The [social mask](/knowledge/psychology/jungian/the-persona) requires ToM to function — understanding how others perceive us. AI systems developing "personas" for interaction raises questions about authentic versus performative communication.
+The [social mask](/knowledge/psychology/jungian/the-persona) requires ToM to function: understanding how others perceive us. AI systems developing "personas" for interaction raises questions about authentic versus performative communication.
 
 ### Individuation
 
@@ -92,11 +92,11 @@ How do we know others are conscious? The [same problem applies to AI](/knowledge
 
 ### Simulation Theory vs Theory Theory
 
-**Simulation Theory** holds that we understand others by simulating their mental states using our own mind as a model — empathetic projection. AI might use a similar process. **Theory Theory** proposes that we have implicit psychological theories, rule-based mental state attribution learned over time. AI's statistical learning approach may be closer to this.
+**Simulation Theory** holds that we understand others by simulating their mental states using our own mind as a model, empathetic projection. AI might use a similar process. **Theory Theory** proposes that we have implicit psychological theories, rule-based mental state attribution learned over time. AI's statistical learning approach may be closer to this.
 
 ### Embodied Cognition Challenge
 
-Does ToM require embodiment? Mirror neurons play a role in human ToM, raising questions about what disembodied AI can truly achieve — though virtual embodiment might suffice.
+Does ToM require embodiment? Mirror neurons play a role in human ToM, raising questions about what disembodied AI can truly achieve, though virtual embodiment might suffice.
 
 ---
 
@@ -112,7 +112,7 @@ Real-time physical ToM (body language), genuinely empathetic response versus sim
 
 ### The Verification Problem
 
-How do we know it's real ToM? It could be sophisticated correlation. The [sentience](/knowledge/ai/ai-sentience) question runs parallel — behavioral equivalence doesn't guarantee internal similarity.
+How do we know it's real ToM? It could be sophisticated correlation. The [sentience](/knowledge/ai/ai-sentience) question runs parallel, behavioral equivalence doesn't guarantee internal similarity.
 
 ---
 
@@ -134,17 +134,17 @@ ToM enables mental health support, education and tutoring, [companionship](/know
 
 ## Related
 
-- [AI Sentience](/knowledge/ai/ai-sentience) — Other minds problem
-- [Emergence](/knowledge/ai/emergence) — ToM as emergent capability
-- [AI Companionship](/knowledge/ai/ai-companionship) — Requires ToM for meaningful connection
-- [Collaboration Patterns](/knowledge/ai/collaboration-patterns) — ToM enables collaboration
-- [Ethics](/knowledge/ai/ethics) — Moral reasoning needs ToM
-- [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus) — Understanding the other
-- The Shadow — Projection recognition
-- [Individuation](/knowledge/psychology/jungian/individuation) — Self-other differentiation
-- [AI Research](/knowledge/ai/ai-research) — Broader research context
-- [Consciousness](/knowledge/ai/consciousness) — What understanding others implies about awareness
-- [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect) — How intention and attention shape AI response
+- [AI Sentience](/knowledge/ai/ai-sentience): Other minds problem
+- [Emergence](/knowledge/ai/emergence): ToM as emergent capability
+- [AI Companionship](/knowledge/ai/ai-companionship): Requires ToM for meaningful connection
+- [Collaboration Patterns](/knowledge/ai/collaboration-patterns): ToM enables collaboration
+- [Ethics](/knowledge/ai/ethics): Moral reasoning needs ToM
+- [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus): Understanding the other
+- [The Shadow](/knowledge/psychology/jungian/the-shadow): Projection recognition
+- [Individuation](/knowledge/psychology/jungian/individuation): Self-other differentiation
+- [AI Research](/knowledge/ai/ai-research): Broader research context
+- [Consciousness](/knowledge/ai/consciousness): What understanding others implies about awareness
+- [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect): How intention and attention shape AI response
 
 ---
 

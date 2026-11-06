@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Chord
 
-The major triad is the first thing most ears learn to call “happy,” and it earns the reputation honestly. Take a root, stack a major third above it, then a minor third on top of that, and you have three notes that agree so completely they seem to have been waiting for one another. On C those notes are C, E, and G — the tonic, the bright third, and the perfect fifth that anchors everything with its clean 3:2 ratio.
+The major triad is the first thing most ears learn to call “happy,” and it earns the reputation honestly. Take a root, stack a major third above it, then a minor third on top of that, and you have three notes that agree so completely they seem to have been waiting for one another. On C those notes are C, E, and G, the tonic, the bright third, and the perfect fifth that anchors everything with its clean 3:2 ratio.
 
 What makes the major triad feel resolved is the way its overtones reinforce rather than fight. The major third rings just far enough from the root to sound open and lit, and the fifth locks the whole thing in place. It is the home base of Western harmony, the chord every progression is secretly trying to get back to.
 
@@ -30,7 +30,7 @@ There is a reason the major triad reads as optimism. The interval of the major t
 
 ## In Practice
 
-The major triad is the tonic and dominant backbone of nearly every genre — folk, pop, classical, gospel, rock. As the I chord it signals arrival and rest; as the IV and V it frames the tonic and creates the pull of a cadence. Three or four of them in the right order build most of the songs anyone can hum. In pytheory it is the reference against which every other chord’s alterations are measured.
+The major triad is the tonic and dominant backbone of nearly every genre, folk, pop, classical, gospel, rock. As the I chord it signals arrival and rest; as the IV and V it frames the tonic and creates the pull of a cadence. Three or four of them in the right order build most of the songs anyone can hum. In [pytheory](/software/pytheory) it is the reference against which every other chord’s alterations are measured.
 
 ## Related
 

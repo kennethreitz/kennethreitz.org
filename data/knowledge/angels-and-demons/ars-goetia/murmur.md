@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Murmur — sometimes given as Murmus or Murmux — is the fifty-fourth spirit of the Ars Goetia, ranked as both a Duke and an Earl. He appears in the form of a warrior riding upon a griffin or vulture, wearing a ducal crown, and he comes attended by ministers who go before him with the sound of trumpets. His martial and ceremonial procession sets him among the more stately spirits of the catalogue. The grimoire records that before his fall he belonged partly to the order of Thrones and partly to that of Angels.
+Murmur: sometimes given as Murmus or Murmux: is the fifty-fourth spirit of the Ars Goetia, ranked as both a Duke and an Earl. He appears in the form of a warrior riding upon a griffin or vulture, wearing a ducal crown, and he comes attended by ministers who go before him with the sound of trumpets. His martial and ceremonial procession sets him among the more stately spirits of the catalogue. The grimoire records that before his fall he belonged partly to the order of Thrones and partly to that of Angels.
 
 His name, suggestive of a low murmuring, belies the fanfare of his arrival, and his particular dominion lies with the dead and with the disciplines of the mind.
 

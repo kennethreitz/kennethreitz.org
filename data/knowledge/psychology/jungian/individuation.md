@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ## Definition
 
-Individuation is the central process in Jungian psychology — the lifelong journey of becoming who you truly are. It is the differentiation of the individual from the collective, the integration of conscious and unconscious, and the realization of the Self. The tarot renders this same arc as the Fool's Journey through the [Major Arcana](/knowledge/tarot/major-arcana) — from [The Fool](/knowledge/tarot/major-arcana/the-fool)'s naive first step to the completed wholeness of [The World](/knowledge/tarot/major-arcana/the-world).
+Individuation is the central process in Jungian psychology, the lifelong journey of becoming who you truly are. It is the differentiation of the individual from the collective, the integration of conscious and unconscious, and the realization of the Self. The tarot renders this same arc as the Fool's Journey through the [Major Arcana](/knowledge/tarot/major-arcana), from [The Fool](/knowledge/tarot/major-arcana/the-fool)'s naive first step to the completed wholeness of [The World](/knowledge/tarot/major-arcana/the-world).
 
 **Jung's Definition**: "Individuation means becoming a single, homogeneous being, and, in so far as 'individuality' embraces our innermost, last, and incomparable uniqueness, it also implies becoming one's own self."
 
@@ -26,7 +26,7 @@ Individuation is not about becoming perfect or fitting social roles. It's about 
 
 This means separating from collective norms and expectations, from family programming, from persona identifications, and from unconscious identification with any single aspect of psyche.
 
-### Integration
+### [Integration](/knowledge/psychology/trauma-and-healing/integration)
 
 Conscious and unconscious must come into relationship. Ego and Self find their proper balance. Light and shadow are both acknowledged. Masculine and feminine (anima/animus) are reconciled.
 
@@ -40,7 +40,7 @@ Individuation means accepting flaws and limitations, integrating rejected parts,
 
 ### First Half of Life (Ego Development)
 
-The tasks are to build a strong ego, develop persona (social identity), achieve in the external world, establish relationships, career, and family, and learn collective values. The focus is adaptation to the outer world — building up, achievement and success, social integration.
+The tasks are to build a strong ego, develop persona (social identity), achieve in the external world, establish relationships, career, and family, and learn collective values. The focus is adaptation to the outer world, building up, achievement and success, social integration.
 
 This is a necessary phase, not "wrong" or to be skipped. It provides the foundation for later work. Problems arise from staying here permanently.
 
@@ -62,13 +62,13 @@ The classic sequence runs through five stations, each an integration the one bef
 flowchart LR
     Sh["Confront the Shadow"] --> AA["Encounter Anima / Animus"]
     AA --> Se["Develop the Self"]
-    Se --> Mp["Mana Personality — the inflation to transcend"]
-    Mp --> Co["Coniunctio — union of opposites"]
+    Se --> Mp["Mana Personality, the inflation to transcend"]
+    Mp --> Co["Coniunctio: union of opposites"]
 ```
 
 ### 1. Confrontation with the Shadow
 
-The first major step: facing what we've rejected, owning projections, integrating the "dark" side. See: The Shadow
+The first major step: facing what we've rejected, owning projections, integrating the "dark" side. See: [The Shadow](/knowledge/psychology/jungian/the-shadow)
 
 ### 2. Encounter with Anima/Animus
 
@@ -80,7 +80,7 @@ Realizing the organizing center, living from your core, ego serving the Self, wh
 
 ### 4. Mana Personality
 
-The temptation to inflate — identifying with the Self, "I am enlightened." This must be recognized and transcended.
+The temptation to inflate: identifying with the Self, "I am enlightened." This must be recognized and transcended.
 
 ### 5. Union of Opposites (Coniunctio)
 
@@ -108,7 +108,7 @@ Loneliness from standing apart from the collective. Misunderstanding from others
 
 Individuation IS becoming your unique self, differentiating from the collective, integrating opposites, serving from an authentic place, and connecting to deeper humanity.
 
-Individualism IS NOT individuation. Ego inflation, narcissism, rejection of all collective values, "I'll do whatever I want," isolation from community, selfishness disguised as growth — none of this is the real work.
+Individualism IS NOT individuation. Ego inflation, narcissism, rejection of all collective values, "I'll do whatever I want," isolation from community, selfishness disguised as growth, none of this is the real work.
 
 ---
 
@@ -124,7 +124,7 @@ Fear of the unconscious, ego resistance to change, attachment to persona, shadow
 
 ### The Ultimate Obstacle
 
-Identification of ego with Self — inflation and grandiosity, the "I've arrived" attitude, spiritual bypassing, stopping the process. The journey never ends.
+Identification of ego with Self: inflation and grandiosity, the "I've arrived" attitude, spiritual bypassing, stopping the process. The journey never ends.
 
 ---
 
@@ -152,7 +152,7 @@ By individuating, you serve the collective. Conscious individuals create conscio
 
 ## Individuation Across Life Stages
 
-In **youth**, the time is for building ego — not yet for deep individuation. Ego must be strong first; this prepares the foundation. At **mid-life**, the classic time for individuation to begin, crisis serves as catalyst and the second half beckons. In **elder years**, the harvest of individuation arrives: sharing wisdom, preparing for death, legacy and meaning.
+In **youth**, the time is for building ego, not yet for deep individuation. Ego must be strong first; this prepares the foundation. At **mid-life**, the classic time for individuation to begin, crisis serves as catalyst and the second half beckons. In **elder years**, the harvest of individuation arrives: sharing wisdom, preparing for death, legacy and meaning.
 
 ---
 
@@ -165,26 +165,26 @@ Death is completion. Individuation prepares for death; integration makes death m
 ## Related Concepts
 
 ### Core Jungian Ideas
-- [The Self](/knowledge/psychology/jungian/the-self) — Goal of individuation
-- The Shadow — Must be integrated
-- [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus) — Bridge to unconscious
-- [The Persona](/knowledge/psychology/jungian/the-persona) — Must be seen through
-- Collective Unconscious — Source we differentiate from
-- Overview of All Concepts
+- [The Self](/knowledge/psychology/jungian/the-self): Goal of individuation
+- [The Shadow](/knowledge/psychology/jungian/the-shadow): Must be integrated
+- [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus): Bridge to unconscious
+- [The Persona](/knowledge/psychology/jungian/the-persona): Must be seen through
+- [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious): Source we differentiate from
+- [Overview of All Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 
 ### In Practice
-- Psychology Hub
+- [Psychology Hub](/knowledge/psychology)
 - [Spiritual Practice](/knowledge/spirituality)
-- System 777 — Plurality and identity
+- [System 777](/system-777): Plurality and identity
 
 ### Connections
-- Integration — The mechanism of individuation
-- Healing — The broader process
-- Trauma — What drives the need for integration
-- [Alchemy](/knowledge/alchemy) — Symbolic language of transformation
-- Transformation — The direction of individuation
-- Archetype Map — Archetypal patterns being integrated
-- [Existentialism](/knowledge/philosophy/existentialism) — Becoming authentically yourself
+- [Integration](/knowledge/psychology/trauma-and-healing/integration): The mechanism of individuation
+- [Healing](/knowledge/psychology/trauma-and-healing/healing): The broader process
+- [Trauma](/knowledge/psychology/trauma-and-healing/trauma): What drives the need for integration
+- [Alchemy](/knowledge/alchemy): Symbolic language of transformation
+- Transformation: The direction of individuation
+- Archetype Map: Archetypal patterns being integrated
+- [Existentialism](/knowledge/philosophy/existentialism): Becoming authentically yourself
 
 ---
 

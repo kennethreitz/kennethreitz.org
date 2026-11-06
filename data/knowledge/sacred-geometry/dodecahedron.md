@@ -1,12 +1,12 @@
 ---
-description: Twelve pentagons for the twelve signs — the shape God kept back for the
+description: Twelve pentagons for the twelve signs, the shape God kept back for the
   whole.
 source: obsidian-knowledge
 ---
 
 # Dodecahedron
 
-> *Twelve pentagons for the twelve signs — the shape God kept back for the whole.*
+> *Twelve pentagons for the twelve signs, the shape God kept back for the whole.*
 
 ---
 

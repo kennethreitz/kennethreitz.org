@@ -1,12 +1,12 @@
 ---
-description: The proportion that repeats itself when divided — beauty written as a
-  single number.
+description: 'The proportion that repeats itself when divided: beauty written as a
+  single number.'
 source: obsidian-knowledge
 ---
 
 # Golden Ratio
 
-> *The proportion that repeats itself when divided — beauty written as a single number.*
+> *The proportion that repeats itself when divided: beauty written as a single number.*
 
 ---
 

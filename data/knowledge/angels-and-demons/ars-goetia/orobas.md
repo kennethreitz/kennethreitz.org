@@ -18,7 +18,7 @@ He is chiefly a spirit of divination and of favour, sought for the truth of his 
 
 ## Office
 
-The Goetia records that Orobas gives true answers concerning things past, present, and to come, and concerning the divinity of God and the creation of the world. He procures dignities and prelacies — offices and honours — and wins the favour of both friends and enemies. Above all he defends the operator faithfully, guarding him from the temptations and lies of the spirits. His office thus joins reliable prophecy, worldly advancement, and protection into a single, notably benevolent commission.
+The Goetia records that Orobas gives true answers concerning things past, present, and to come, and concerning the divinity of God and the creation of the world. He procures dignities and prelacies, offices and honours, and wins the favour of both friends and enemies. Above all he defends the operator faithfully, guarding him from the temptations and lies of the spirits. His office thus joins reliable prophecy, worldly advancement, and protection into a single, notably benevolent commission.
 
 ## Attributes
 

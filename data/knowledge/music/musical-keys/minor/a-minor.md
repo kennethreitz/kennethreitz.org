@@ -26,5 +26,5 @@ Christian Schubart’s characterization, from *Ideen zu einer Ästhetik der Tonk
 
 ## Related
 
-- [C Major](/knowledge/music/musical-keys/major/c-major) — its relative major
+- [C Major](/knowledge/music/musical-keys/major/c-major), its relative major
 - [Musical Keys](/knowledge/music/musical-keys)

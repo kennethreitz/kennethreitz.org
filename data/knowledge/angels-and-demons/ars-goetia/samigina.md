@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Samigina — rendered also as Gamigin or Gamygyn — is the fourth spirit of the *Ars Goetia* and the first of its marquises. His name has passed through several corruptions in the manuscript tradition, and the two principal spellings sit side by side in modern editions without settling the question of an original form. He belongs among the spirits whose concern is with the dead and with the arts of learning, and the grimoire pairs these two offices in him with a certain scholarly gravity.
+Samigina: rendered also as Gamigin or Gamygyn: is the fourth spirit of the *Ars Goetia* and the first of its marquises. His name has passed through several corruptions in the manuscript tradition, and the two principal spellings sit side by side in modern editions without settling the question of an original form. He belongs among the spirits whose concern is with the dead and with the arts of learning, and the grimoire pairs these two offices in him with a certain scholarly gravity.
 
 His remembered aspect is animal and shifting: a small horse or ass that changes, once the operator persists, into human form. The voice attributed to him is hoarse, a detail shared with several of the early spirits of the catalogue.
 

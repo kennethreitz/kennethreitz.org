@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Chord
 
-The augmented triad stretches the major triad instead of squeezing it. Take a major triad and raise the fifth a half step, and the chord becomes two stacked major thirds — a perfectly even division of the octave into three equal parts. On C the notes are C, E, and G♯. Because every interval inside it is identical, the chord has no obvious root; invert it and it simply becomes another augmented triad a third away.
+The augmented triad stretches the major triad instead of squeezing it. Take a major triad and raise the fifth a half step, and the chord becomes two stacked major thirds, a perfectly even division of the octave into three equal parts. On C the notes are C, E, and G♯. Because every interval inside it is identical, the chord has no obvious root; invert it and it simply becomes another augmented triad a third away.
 
 That symmetry is the whole strange magic. With no perfect fifth to ground it and no unequal spacing to orient it, the augmented triad floats. It sounds lit from within yet somehow unstable, as if the ground beneath the brightness had quietly dissolved.
 
@@ -26,11 +26,11 @@ That symmetry is the whole strange magic. With no perfect fifth to ground it and
 
 ## Character
 
-The augmented triad is uncanny — bright but disoriented, luminous but unresolved. Composers use it for dream sequences, suspense, and moments of transformation precisely because it refuses to settle. It has the sweetness of major thirds and none of the stability, which gives it a shimmering, slightly anxious glow that can tip toward wonder or toward dread.
+The augmented triad is uncanny: bright but disoriented, luminous but unresolved. Composers use it for dream sequences, suspense, and moments of transformation precisely because it refuses to settle. It has the sweetness of major thirds and none of the stability, which gives it a shimmering, slightly anxious glow that can tip toward wonder or toward dread.
 
 ## In Practice
 
-The augmented triad most often appears as an altered dominant, its raised fifth heightening the pull toward resolution — think of the V+ that leans hungrily into a tonic. Because of its symmetry it also works as a pivot, sliding between distant keys with eerie ease. It threads through Romantic harmony, jazz, and the soundtracks of anything trying to make you feel a floor give way.
+The augmented triad most often appears as an altered dominant, its raised fifth heightening the pull toward resolution, think of the V+ that leans hungrily into a tonic. Because of its symmetry it also works as a pivot, sliding between distant keys with eerie ease. It threads through Romantic harmony, jazz, and the soundtracks of anything trying to make you feel a floor give way.
 
 ## Related
 

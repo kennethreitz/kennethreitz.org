@@ -32,3 +32,5 @@ The tradition makes Cahetel a dispeller of evil spirits from the places of labou
 - [Barbatos](/knowledge/angels-and-demons/ars-goetia/barbatos)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the first decan of Taurus with its pair, and so the Five of Pentacles. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

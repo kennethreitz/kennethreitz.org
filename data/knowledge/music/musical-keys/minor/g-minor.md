@@ -27,5 +27,5 @@ Christian Schubart’s characterization, from *Ideen zu einer Ästhetik der Tonk
 
 ## Related
 
-- [B♭ Major](/knowledge/music/musical-keys/major/b-flat-major) — its relative major
+- [B♭ Major](/knowledge/music/musical-keys/major/b-flat-major), its relative major
 - [Musical Keys](/knowledge/music/musical-keys)

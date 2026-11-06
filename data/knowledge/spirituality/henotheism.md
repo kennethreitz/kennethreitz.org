@@ -21,7 +21,7 @@ Henotheism is the worship of a single deity while not denying the existence or p
 
 ### Focused Devotion
 
-Henotheism enables a deep, personal relationship with one deity — a patron god or goddess, an intensive practice with the chosen one. "My god" rather than "the only god."
+Henotheism enables a deep, personal relationship with one deity, a patron god or goddess, an intensive practice with the chosen one. "My god" rather than "the only god."
 
 ### Theological Openness
 
@@ -37,11 +37,11 @@ The depth of a single relationship combined with the breadth of a polytheistic w
 
 ### Ancient World
 
-**Akhenaten (Egypt, 1353-1336 BCE)** practiced exclusive worship of Aten (the sun disk) while other gods were acknowledged but not worshipped — possibly the first henotheist, later reversed. **Early Israel** showed henotheistic tendencies: "No other gods before me" implies others exist, with YHWH as tribal deity later evolving to monotheism (monolatry is more accurate for the early period). The **Greco-Roman world** featured personal patron deities within a broader pantheon, philosophical henotheism with one supreme deity and many lesser ones.
+**Akhenaten (Egypt, 1353-1336 BCE)** practiced exclusive worship of Aten (the sun disk) while other gods were acknowledged but not worshipped, possibly the first henotheist, later reversed. **Early Israel** showed henotheistic tendencies: "No other gods before me" implies others exist, with YHWH as tribal deity later evolving to monotheism (monolatry is more accurate for the early period). The **Greco-Roman world** featured personal patron deities within a broader pantheon, philosophical henotheism with one supreme deity and many lesser ones.
 
 ### Modern Examples
 
-**Hinduism** practices ishta-devata (chosen deity) — deep devotion to one form of the divine while understanding all gods as aspects of Brahman. Personal practice, universal truth. **Some Neopaganism** works with a primary deity within a pantheon, maintaining a working relationship with one while honoring others.
+**Hinduism** practices ishta-devata (chosen deity): deep devotion to one form of the divine while understanding all gods as aspects of Brahman. Personal practice, universal truth. **Some Neopaganism** works with a primary deity within a pantheon, maintaining a working relationship with one while honoring others.
 
 ---
 
@@ -49,7 +49,7 @@ The depth of a single relationship combined with the breadth of a polytheistic w
 
 ### Choosing Your Deity
 
-The question is: who calls to you? What resonates deeply? Is there a cultural or ancestral connection, an archetypal attraction, synchronicity and signs? You don't need to choose immediately — the deity may choose you. It can change over time. Listen for the call.
+The question is: who calls to you? What resonates deeply? Is there a cultural or ancestral connection, an archetypal attraction, synchronicity and signs? You don't need to choose immediately, the deity may choose you. It can change over time. Listen for the call.
 
 ### Developing Relationship
 
@@ -61,7 +61,7 @@ Devotional practice includes regular offerings, prayer and invocation, altar and
 
 ### The Divine Landscape
 
-Many gods exist — different cultures, different deities, all real and valid, not metaphors or mere aspects but actual divine beings. The henotheist chooses a primary deity for a deep, intimate connection: "my god" rather than "the god," with exclusive devotion but not exclusive existence. Other deities are honored, other practices are valid, and there is no conversion agenda — religious pluralism is inherent.
+Many gods exist: different cultures, different deities, all real and valid, not metaphors or mere aspects but actual divine beings. The henotheist chooses a primary deity for a deep, intimate connection: "my god" rather than "the god," with exclusive devotion but not exclusive existence. Other deities are honored, other practices are valid, and there is no conversion agenda, religious pluralism is inherent.
 
 ---
 
@@ -69,7 +69,7 @@ Many gods exist — different cultures, different deities, all real and valid, n
 
 Both recognize that multiple gods exist, that pantheons are real, that religious diversity is accepted, and that no single truth claim covers everything. The difference: polytheism worships many, henotheism worships one. Focus versus breadth, depth versus variety.
 
-Henotheism offers the depth of monotheistic devotion with the openness of a polytheistic worldview — the best of both, practical and profound.
+Henotheism offers the depth of monotheistic devotion with the openness of a polytheistic worldview, the best of both, practical and profound.
 
 ---
 
@@ -85,9 +85,9 @@ Henotheism avoids religious arrogance, respects other paths, maintains theologic
 
 ### Jungian Perspective
 
-A deity can be understood as archetype — devotion activates the archetype, the personal god as Self projection. Or as an actual divine being. The key insight: it can be archetypal AND real, psychological AND theological, not either/or. Mystery remains.
+A deity can be understood as archetype: devotion activates the archetype, the personal god as Self projection. Or as an actual divine being. The key insight: it can be archetypal AND real, psychological AND theological, not either/or. Mystery remains.
 
-See: Jungian Psychology
+See: [Jungian Psychology](/knowledge/psychology/jungian/major-jungian-concepts)
 
 ---
 
@@ -95,10 +95,10 @@ See: Jungian Psychology
 
 - [Spirituality Hub](/knowledge/spirituality)
 - [Mythology and Pantheons](/knowledge/mythology)
-- [The Self](/knowledge/psychology/jungian/the-self) — Archetypal perspective
-- Religious Archetypes & Psychic Integration — How devotion activates archetype in psyche
-- Archetype Map — Archetypal patterns across contexts
-- [Vedanta](/knowledge/spirituality/vedanta) — Ishta-devata tradition
-- [Calvinism](/knowledge/spirituality/calvinism) — Contrasting monotheistic theology
-- Collective Unconscious — Archetypal patterns in divine figures
-- [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect) — Invocation parallel
+- [The Self](/knowledge/psychology/jungian/the-self): Archetypal perspective
+- [Religious Archetypes & Psychic Integration](/knowledge/psychology/jungian/religious-archetypes-and-psychic-integration): How devotion activates archetype in psyche
+- Archetype Map: Archetypal patterns across contexts
+- [Vedanta](/knowledge/spirituality/vedanta): Ishta-devata tradition
+- [Calvinism](/knowledge/spirituality/calvinism): Contrasting monotheistic theology
+- [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious): Archetypal patterns in divine figures
+- [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect): Invocation parallel

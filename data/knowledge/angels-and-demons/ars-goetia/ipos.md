@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Ipos — variously spelled Ipes or Aypeos — is the twenty-second spirit of the Ars Goetia, named in the tradition as both an Earl and a mighty Prince. The grimoire gives him one of the more grotesque of the Goetic forms: he appears as an angel with the body or head of a lion, the feet and tail of a hare or goose, and the head of a lion — a composite creature assembled from disparate beasts. Some manuscripts describe him in the likeness of a fierce angel, ugly to look upon, which the operator must nonetheless command with steadiness.
+Ipos: variously spelled Ipes or Aypeos: is the twenty-second spirit of the Ars Goetia, named in the tradition as both an Earl and a mighty Prince. The grimoire gives him one of the more grotesque of the Goetic forms: he appears as an angel with the body or head of a lion, the feet and tail of a hare or goose, and the head of a lion, a composite creature assembled from disparate beasts. Some manuscripts describe him in the likeness of a fierce angel, ugly to look upon, which the operator must nonetheless command with steadiness.
 
 This patchwork of animal parts places Ipos among the most visually singular spirits of the Lesser Key, and the tradition treats his ungainly aspect as no bar to the useful gifts he confers.
 

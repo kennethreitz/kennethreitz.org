@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Stolas — also written Stolos or Stolas — is the thirty-sixth spirit of the Ars Goetia, a Great Prince who first appears in the form of a night raven or crowned owl before the operator, and who takes the shape of a man when so commanded. He is one of the scholarly and astronomical spirits of the catalogue, an emblem of nocturnal wisdom fitting to his owl-form, and among the more dignified figures of the hierarchy.
+Stolas: also written Stolos or Stolas: is the thirty-sixth spirit of the Ars Goetia, a Great Prince who first appears in the form of a night raven or crowned owl before the operator, and who takes the shape of a man when so commanded. He is one of the scholarly and astronomical spirits of the catalogue, an emblem of nocturnal wisdom fitting to his owl-form, and among the more dignified figures of the hierarchy.
 
 His association with the owl places him in a long lineage of birds of knowledge and augury, and the grimoires treat him as a teacher whose gifts lie in the natural and celestial sciences rather than in war or dominion. He is a spirit of quiet learning, called upon for the secrets of the sky and the earth alike.
 

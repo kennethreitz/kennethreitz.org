@@ -56,21 +56,21 @@ Roman religion sorted its gods into three broad groups.
 ```mermaid
 flowchart TD
     R["Roman Religion"]
-    R --> A["Greek-derived Olympians — Jupiter, Juno, Neptune, Minerva"]
-    R --> B["Uniquely Roman gods — Janus, Vesta, Saturn, Quirinus"]
+    R --> A["Greek-derived Olympians: Jupiter, Juno, Neptune, Minerva"]
+    R --> B["Uniquely Roman gods: Janus, Vesta, Saturn, Quirinus"]
     R --> H["Household gods"]
-    H --> L["Lares — guardians"]
-    H --> P["Penates — pantry gods"]
-    H --> G["Genius — family spirit"]
+    H --> L["Lares: guardians"]
+    H --> P["Penates: pantry gods"]
+    H --> G["Genius: family spirit"]
 ```
 
 ## Roman Myths & Legends
 
-The founding myths of Rome -- Romulus and Remus, Aeneas and the Aeneid -- anchor Roman mythology in the city's own origin story, blending Greek mythic tradition with distinctly Roman civic values.
+The founding myths of Rome: Romulus and Remus, Aeneas and the Aeneid, anchor Roman mythology in the city's own origin story, blending Greek mythic tradition with distinctly Roman civic values.
 
 ---
 
 ## Related
 
 - [Greek Mythology](/knowledge/mythology/greek-mythology) - Greek origins
-- Jungian [Archetypes](/knowledge/psychology/jungian/archetypes)
+- [Jungian Archetypes](/knowledge/psychology/jungian/major-jungian-concepts)

@@ -27,5 +27,5 @@ Christian Schubart’s characterization, from *Ideen zu einer Ästhetik der Tonk
 
 ## Related
 
-- [C♯ Minor](/knowledge/music/musical-keys/minor/c-sharp-minor) — its relative minor
+- [C♯ Minor](/knowledge/music/musical-keys/minor/c-sharp-minor), its relative minor
 - [Musical Keys](/knowledge/music/musical-keys)

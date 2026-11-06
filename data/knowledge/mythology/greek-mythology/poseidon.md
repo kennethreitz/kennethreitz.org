@@ -20,7 +20,7 @@ His sacred animals are the horse, dolphin, and bull. Temperamental and powerful,
 
 ## Key Myths
 
-**The contest for Athens.** Poseidon and [Athena](/knowledge/mythology/greek-mythology/athena) both desired patronage of the great city. Poseidon struck the Acropolis with his trident and produced a spring (or, in some versions, the first horse); Athena planted the olive tree. The citizens judged the olive — source of food, oil, and wood — the greater gift, and the city took her name. The slighted Poseidon flooded the plain in revenge.
+**The contest for Athens.** Poseidon and [Athena](/knowledge/mythology/greek-mythology/athena) both desired patronage of the great city. Poseidon struck the Acropolis with his trident and produced a spring (or, in some versions, the first horse); Athena planted the olive tree. The citizens judged the olive, source of food, oil, and wood, the greater gift, and the city took her name. The slighted Poseidon flooded the plain in revenge.
 
 **The wrath against Odysseus.** When Odysseus blinded the Cyclops Polyphemus, Poseidon's son, the god harried the hero across the seas for ten years, wrecking his ships and drowning his crews. The whole second half of the *Odyssey* is shaped by the sea-god's vendetta.
 

@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Stone
 
-At rest, Labradorite looks like nothing much — a dull, dark grey feldspar, easy to pass over in a tray of brighter stones. Then it is tilted toward the light and something extraordinary happens: a sudden flash of peacock blue, electric green, gold, and violet swims up from within, an effect so distinctive that mineralogists named it labradorescence after the Canadian coast where the stone was first gathered. The flash is not on the surface but beneath it, thrown back by fine internal layers that split light like oil on water.
+At rest, Labradorite looks like nothing much, a dull, dark grey feldspar, easy to pass over in a tray of brighter stones. Then it is tilted toward the light and something extraordinary happens: a sudden flash of peacock blue, electric green, gold, and violet swims up from within, an effect so distinctive that mineralogists named it labradorescence after the Canadian coast where the stone was first gathered. The flash is not on the surface but beneath it, thrown back by fine internal layers that split light like oil on water.
 
-That hidden fire is the whole character of the stone. It keeps its magic concealed until the angle is right, and it seems to reward attention — a mineral that will not give itself to a careless glance.
+That hidden fire is the whole character of the stone. It keeps its magic concealed until the angle is right, and it seems to reward attention, a mineral that will not give itself to a careless glance.
 
 ## Correspondences
 
@@ -31,7 +31,7 @@ Labradorite is the stone of magic and transformation, the companion of anyone cr
 
 ## In Practice
 
-Labradorite is worn or carried through periods of change and used in meditation to deepen intuition and dreamwork. Practitioners hold it when they wish to strengthen the aura before entering crowded or demanding spaces. It cleanses well in moonlight and pairs naturally with stones of the upper centres. Keep it where the light can move across it — the flash is part of the medicine.
+Labradorite is worn or carried through periods of change and used in meditation to deepen intuition and dreamwork. Practitioners hold it when they wish to strengthen the aura before entering crowded or demanding spaces. It cleanses well in moonlight and pairs naturally with stones of the upper centres. Keep it where the light can move across it, the flash is part of the medicine.
 
 ## Related
 

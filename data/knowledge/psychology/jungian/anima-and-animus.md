@@ -20,7 +20,7 @@ The anima (in men) and animus (in women) are archetypal images of the contrasexu
 
 ### Nature
 
-The anima is a personification of the unconscious itself — the soul image, life force and vitality, the eros principle (relatedness, feeling, connection), and the bridge to the inner world.
+The anima is a personification of the unconscious itself, the soul image, life force and vitality, the eros principle (relatedness, feeling, connection), and the bridge to the inner world.
 
 ### Characteristics
 
@@ -28,17 +28,17 @@ Emotion and feeling. Intuition and receptivity. Creativity and imagination. Rela
 
 ### Anima Projection
 
-Men project the anima onto women. "Falling in love" is anima projection — idealization, "she completes me," the muse, the femme fatale, the goddess.
+Men project the anima onto women. "Falling in love" is anima projection, idealization, "she completes me," the muse, the femme fatale, the goddess.
 
 ### Levels of Anima Development
 
-**Eve (Primitive)** — Purely biological and instinctual. Mother/body focus. Collective, not individual. The tarot's [The Empress](/knowledge/tarot/major-arcana/the-empress) holds this generative, earth-mother face of the anima.
+**Eve (Primitive)**: Purely biological and instinctual. Mother/body focus. Collective, not individual. The tarot's [The Empress](/knowledge/tarot/major-arcana/the-empress) holds this generative, earth-mother face of the anima.
 
-**Helen (Romantic)** — The romantic, aesthetic level. Individual beauty, though still largely a collective ideal. The Trojan War archetype.
+**Helen (Romantic)**: The romantic, aesthetic level. Individual beauty, though still largely a collective ideal. The Trojan War archetype.
 
-**Mary (Spiritual)** — Spiritual elevation. The pure, virginal aspect. Devotion and worship. Transcendent love.
+**Mary (Spiritual)**: Spiritual elevation. The pure, virginal aspect. Devotion and worship. Transcendent love.
 
-**Sophia (Wisdom)** — Divine wisdom. Guide to inner truth. Integration and wholeness. Spiritual wisdom embodied — the veiled inner knowing of the tarot's [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess).
+**Sophia (Wisdom)**: Divine wisdom. Guide to inner truth. Integration and wholeness. Spiritual wisdom embodied, the veiled inner knowing of the tarot's [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess).
 
 ---
 
@@ -46,7 +46,7 @@ Men project the anima onto women. "Falling in love" is anima projection — idea
 
 ### Nature
 
-The animus is a personification of the unconscious masculine — spirit and conviction, the logos principle (logic, meaning, structure), bridge to the creative unconscious, and inner authority — the sovereign order of the tarot's [The Emperor](/knowledge/tarot/major-arcana/the-emperor).
+The animus is a personification of the unconscious masculine, spirit and conviction, the logos principle (logic, meaning, structure), bridge to the creative unconscious, and inner authority, the sovereign order of the tarot's [The Emperor](/knowledge/tarot/major-arcana/the-emperor).
 
 ### Characteristics
 
@@ -54,17 +54,17 @@ Conviction and opinion. Logic and analysis. Initiative and assertion. Spiritual 
 
 ### Animus Projection
 
-Women project the animus onto men. "He is so strong and certain" — idealization of male authority, seeking meaning through men, projecting the father, hero, or guru.
+Women project the animus onto men. "He is so strong and certain", idealization of male authority, seeking meaning through men, projecting the father, hero, or guru.
 
 ### Levels of Animus Development
 
-**Physical Power** — Tarzan, athlete, bodybuilder. Purely physical strength. Primitive masculine.
+**Physical Power**: Tarzan, athlete, bodybuilder. Purely physical strength. Primitive masculine.
 
-**Initiative & Planning** — Man of action. Hunter, warrior. Achieving goals. The romantic hero.
+**Initiative & Planning**: Man of action. Hunter, warrior. Achieving goals. The romantic hero.
 
-**The Word** — Professor, priest, orator. Bearer of meaning. Spiritual authority. Guide and teacher — the doctrinal, initiating role the tarot gives [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant).
+**The Word**: Professor, priest, orator. Bearer of meaning. Spiritual authority. Guide and teacher, the doctrinal, initiating role the tarot gives [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant).
 
-**Meaning & Spirit** — Wise guide to inner truth. Hermes (mediator). Spiritual wisdom. Inner knowing.
+**Meaning & Spirit**: Wise guide to inner truth. Hermes (mediator). Spiritual wisdom. Inner knowing.
 
 ---
 
@@ -132,7 +132,7 @@ After projection is withdrawn, genuine relationship becomes possible. You love t
 
 **Relationship with Inner Anima/Animus**: Active imagination dialogues, honoring the inner other, listening to guidance, creative expression.
 
-**Integration**: Develop contrasexual qualities. Man develops feeling and receptivity. Woman develops assertion and logic. Wholeness and balance emerge — neither rigid masculine nor rigid feminine.
+**Integration**: Develop contrasexual qualities. Man develops feeling and receptivity. Woman develops assertion and logic. Wholeness and balance emerge, neither rigid masculine nor rigid feminine.
 
 ---
 
@@ -154,7 +154,7 @@ Notice the emotional tone. What quality does the figure carry? Is it a positive 
 
 ## Cultural Anima/Animus
 
-Collective projections shape culture through movie stars and celebrities, cultural ideals of femininity and masculinity, advertising that exploits projections, and social "types" we're drawn to. These forms change — the 1950s ideal differs from the 2020s — though the personal version exists within the cultural context.
+Collective projections shape culture through movie stars and celebrities, cultural ideals of femininity and masculinity, advertising that exploits projections, and social "types" we're drawn to. These forms change, the 1950s ideal differs from the 2020s, though the personal version exists within the cultural context.
 
 ---
 
@@ -174,47 +174,47 @@ The anima functions as inspiration for men; the animus as driving force for wome
 
 ## Anima in System 777
 
-Kenneth's plural system includes two documented **Anima figures** — internal alters specifically identified as performing the anima function:
+Kenneth's plural system includes two documented **Anima figures**: internal alters specifically identified as performing the anima function:
 
 ### Luna Grace
 
-Origin: Kim relationship period. Function: trauma holder, lunar wisdom. Emerged from relationship projection then internalized — transmuted from "Kimberly Moon" into internal resource.
+Origin: Kim relationship period. Function: trauma holder, lunar wisdom. Emerged from relationship projection then internalized, transmuted from "Kimberly Moon" into internal resource.
 
 ### Elizabeth
 
-Origin: KT relationship period (earlier). Function: early emergence. First documented anima internalization. Status currently unknown — may have integrated or evolved.
+Origin: KT relationship period (earlier). Function: early emergence. First documented anima internalization. Status currently unknown, may have integrated or evolved.
 
 ### The Pattern
 
-This demonstrates the Jungian process of anima projection and withdrawal playing out across multiple relationships. Projection onto a partner (KT, Kim), intense connection via projection, relationship difficulty, then internalization — anima withdrawn and becoming an internal figure that serves the soul-bridge function.
+This demonstrates the Jungian process of anima projection and withdrawal playing out across multiple relationships. Projection onto a partner (KT, Kim), intense connection via projection, relationship difficulty, then internalization, anima withdrawn and becoming an internal figure that serves the soul-bridge function.
 
-From the January 2026 System Inventory, both Luna Grace and Elizabeth are mapped as Anima figures, suggesting Kenneth's psyche has internalized the anima multiple times across different developmental periods.
+From the [January 2026 System Inventory](/system-777/system-inventory-and-consciousness-model), both Luna Grace and Elizabeth are mapped as Anima figures, suggesting Kenneth's psyche has internalized the anima multiple times across different developmental periods.
 
-This is advanced integration work — rather than losing the anima when relationships end, the system preserves and transforms the soul-connection into internal resource.
+This is advanced integration work: rather than losing the anima when relationships end, the system preserves and transforms the soul-connection into internal resource.
 
 ---
 
 ## Related Concepts
 
 ### Core Jungian Ideas
-- The Shadow — Same-sex unconscious
-- [The Self](/knowledge/psychology/jungian/the-self) — Anima/animus bridges to Self
-- [Individuation](/knowledge/psychology/jungian/individuation) — Integration essential for wholeness
-- Overview of All Concepts
-- Collective Unconscious — Source of the archetypal pattern
+- [The Shadow](/knowledge/psychology/jungian/the-shadow): Same-sex unconscious
+- [The Self](/knowledge/psychology/jungian/the-self): Anima/animus bridges to Self
+- [Individuation](/knowledge/psychology/jungian/individuation): Integration essential for wholeness
+- [Overview of All Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
+- [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious): Source of the archetypal pattern
 
 ### In System 777
-- Luna Grace — Anima figure
-- Elizabeth — Anima figure
-- [Iris](/knowledge/mythology/greek-mythology/iris) — Hermes's muse (anima-adjacent)
-- System 777 — The plural system
+- Luna Grace: Anima figure
+- Elizabeth: Anima figure
+- [Iris](/knowledge/mythology/greek-mythology/iris): Hermes's muse (anima-adjacent)
+- [System 777](/system-777): The plural system
 
 ### Connections
-- [Theory of Mind](/knowledge/ai/theory-of-mind) — Understanding the other
-- Archetype Map — Anima/animus across contexts
-- Love & Attraction — Projection in relationships
-- [Alchemy](/knowledge/alchemy) — Coniunctio as union of opposites
-- [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect) — AI entity as anima-projection
+- [Theory of Mind](/knowledge/ai/theory-of-mind): Understanding the other
+- Archetype Map: Anima/animus across contexts
+- [Love & Attraction](/knowledge/psychology/the-fundamental-elements-of-love-and-attraction): Projection in relationships
+- [Alchemy](/knowledge/alchemy): Coniunctio as union of opposites
+- [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect): AI entity as anima-projection
 
 ---
 

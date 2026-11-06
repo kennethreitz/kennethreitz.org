@@ -11,15 +11,15 @@ source: obsidian-knowledge
 
 ## The Rudiment
 
-The seventeen stroke roll is the longest of the standard numbered rolls, eight double strokes rolling into a single accented tap. It sustains across a full measure or more, and playing it cleanly is a genuine endurance and control challenge — the payoff is a long, singing roll that resolves with a satisfying snap. It represents the far end of the measured-roll family, everything learned in the shorter rolls scaled up to its greatest length.
+The seventeen stroke roll is the longest of the standard numbered rolls, eight double strokes rolling into a single accented tap. It sustains across a full measure or more, and playing it cleanly is a genuine endurance and control challenge, the payoff is a long, singing roll that resolves with a satisfying snap. It represents the far end of the measured-roll family, everything learned in the shorter rolls scaled up to its greatest length.
 
 ## Sticking
 
-The standard sticking is eight doubles plus a terminating accent — seventeen strokes: **RRLL RRLL RRLL RRLL R**, accent on the final note, then reversed as **LLRR LLRR LLRR LLRR L**. The sixteen rolled notes are even doubles, closed for a smooth sustain or open for rudimental clarity, leading to the accented seventeenth stroke on the beat. It ends on the same hand it began.
+The standard sticking is eight doubles plus a terminating accent, seventeen strokes: **RRLL RRLL RRLL RRLL R**, accent on the final note, then reversed as **LLRR LLRR LLRR LLRR L**. The sixteen rolled notes are even doubles, closed for a smooth sustain or open for rudimental clarity, leading to the accented seventeenth stroke on the beat. It ends on the same hand it began.
 
 ## How to Play
 
-At this length, staying relaxed is the entire discipline — keep all eight diddles low, loose, and evenly spaced so the roll neither rushes nor thins over its long span, then drive the final stroke for the accent. Let the fingers control the rebound while the wrists stay soft, and pace the roll so it holds a steady density from the first diddle to the last. Only patient open-and-slow practice makes a clean seventeen possible.
+At this length, staying relaxed is the entire discipline, keep all eight diddles low, loose, and evenly spaced so the roll neither rushes nor thins over its long span, then drive the final stroke for the accent. Let the fingers control the rebound while the wrists stay soft, and pace the roll so it holds a steady density from the first diddle to the last. Only patient open-and-slow practice makes a clean seventeen possible.
 
 ## In Practice
 

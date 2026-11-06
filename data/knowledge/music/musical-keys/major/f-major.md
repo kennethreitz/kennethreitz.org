@@ -26,5 +26,5 @@ Christian Schubart’s characterization, from *Ideen zu einer Ästhetik der Tonk
 
 ## Related
 
-- [D Minor](/knowledge/music/musical-keys/minor/d-minor) — its relative minor
+- [D Minor](/knowledge/music/musical-keys/minor/d-minor), its relative minor
 - [Musical Keys](/knowledge/music/musical-keys)

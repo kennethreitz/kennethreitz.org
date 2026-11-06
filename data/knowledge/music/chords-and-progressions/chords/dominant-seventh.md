@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Chord
 
-The dominant seventh is a major triad with a minor seventh stacked on top — a major third, a minor third, then another minor third. On C the notes are C, E, G, B♭. That flattened seventh is the difference between a chord that sits still and a chord that moves. Inside the dominant seventh live two notes a tritone apart — the third and the seventh — and that interval is the most restless in tonal music, the coiled spring at the centre of the whole system.
+The dominant seventh is a major triad with a minor seventh stacked on top, a major third, a minor third, then another minor third. On C the notes are C, E, G, B♭. That flattened seventh is the difference between a chord that sits still and a chord that moves. Inside the dominant seventh live two notes a tritone apart, the third and the seventh, and that interval is the most restless in tonal music, the coiled spring at the centre of the whole system.
 
 The tritone between E and B♭ wants to collapse inward: the E rising, the B♭ falling, each resolving by a half step into the notes of a tonic chord a fifth below. This is the engine of Western harmony. The dominant seventh is not a place to rest; it is a chord that exists in order to go somewhere.
 
@@ -30,7 +30,7 @@ The dominant seventh is tension with a grin. It has the brightness of a major tr
 
 ## In Practice
 
-As the V7 of any key, the dominant seventh powers the strongest cadence in tonal music, pulling home to the tonic. In blues, jazz, funk, and rock it becomes a colour in its own right, used on the I and IV as much as the V. Chains of dominants — the circle-of-fifths motion — drive whole tunes. It is the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad) set into motion, and it resolves most naturally toward the tonic of a key in [Musical Keys](/knowledge/music/musical-keys).
+As the V7 of any key, the dominant seventh powers the strongest cadence in tonal music, pulling home to the tonic. In blues, jazz, funk, and rock it becomes a colour in its own right, used on the I and IV as much as the V. Chains of dominants, the circle-of-fifths motion, drive whole tunes. It is the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad) set into motion, and it resolves most naturally toward the tonic of a key in [Musical Keys](/knowledge/music/musical-keys).
 
 ## Related
 

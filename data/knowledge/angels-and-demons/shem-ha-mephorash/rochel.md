@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Angel
 
-Rochel is glossed as *God who sees all things*, its root carrying the sense of beholding and observing, joined to the divine suffix *-el*. It is the angel of the all-seeing gaze brought to bear on the small human catastrophe of loss — the misplaced object, the stolen inheritance, the reputation wrongly taken. Rochel presides over restitution and the recovery of what has gone missing, over the finding of lost things and lost persons, and over the justice that restores to each what is rightfully theirs.
+Rochel is glossed as *God who sees all things*, its root carrying the sense of beholding and observing, joined to the divine suffix *-el*. It is the angel of the all-seeing gaze brought to bear on the small human catastrophe of loss, the misplaced object, the stolen inheritance, the reputation wrongly taken. Rochel presides over restitution and the recovery of what has gone missing, over the finding of lost things and lost persons, and over the justice that restores to each what is rightfully theirs.
 
-The virtue it bestows is a clarity that resolves disputes and returns what was taken. Rochel is invoked to recover stolen goods, to locate what has vanished, and to settle questions of inheritance and legacy with fairness; it favours magistrates, lawyers, and all who must weigh competing claims and see clearly through the fog of self-interest. Its sight is not merely detective but redemptive — the eye that sees all also sees where a thing belongs, and moves to set it back there. Under its Piscean governance the dissolving, boundary-blurring waters of the sign are met by a countervailing precision: Rochel insists that even in the great sea of things, each has its place and can be found again. To be under its care is to trust that loss is rarely final.
+The virtue it bestows is a clarity that resolves disputes and returns what was taken. Rochel is invoked to recover stolen goods, to locate what has vanished, and to settle questions of inheritance and legacy with fairness; it favours magistrates, lawyers, and all who must weigh competing claims and see clearly through the fog of self-interest. Its sight is not merely detective but redemptive, the eye that sees all also sees where a thing belongs, and moves to set it back there. Under its Piscean governance the dissolving, boundary-blurring waters of the sign are met by a countervailing precision: Rochel insists that even in the great sea of things, each has its place and can be found again. To be under its care is to trust that loss is rarely final.
 
 ## Attributes
 
@@ -32,3 +32,5 @@ The virtue it bestows is a clarity that resolves disputes and returns what was t
 - [Decarabia](/knowledge/angels-and-demons/ars-goetia/decarabia)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the second decan of Pisces with its pair, and so the Nine of Cups. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

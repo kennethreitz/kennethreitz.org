@@ -24,9 +24,9 @@ The three aspects of the divine, with their consorts, Vishnu's avatars, and Shiv
 ```mermaid
 flowchart TD
     T["The Trimurti"]
-    T --> B["Brahma — creator"]
-    T --> V["Vishnu — preserver"]
-    T --> S["Shiva — destroyer and transformer"]
+    T --> B["Brahma: creator"]
+    T --> V["Vishnu: preserver"]
+    T --> S["Shiva: destroyer and transformer"]
     B -->|"consort"| Bc["Saraswati"]
     V -->|"consort"| Vc["Lakshmi"]
     V -->|"avatars"| Av["Krishna, Rama, Kalki"]
@@ -66,11 +66,11 @@ flowchart TD
 
 ## Sacred Texts
 
-The four Vedas (Rigveda, Samaveda, Yajurveda, Atharvaveda) form the oldest layer. The great epics -- the Mahabharata (containing the Bhagavad Gita) and the Ramayana -- provide narrative theology. The Puranas tell stories of gods and creation.
+The four Vedas (Rigveda, Samaveda, Yajurveda, Atharvaveda) form the oldest layer. The great epics, the Mahabharata (containing the Bhagavad Gita) and the Ramayana, provide narrative theology. The Puranas tell stories of gods and creation.
 
 ---
 
 ## Related
 
 - [Mythology Hub](/knowledge/mythology)
-- Jungian [Archetypes](/knowledge/psychology/jungian/archetypes)
+- [Jungian Archetypes](/knowledge/psychology/jungian/major-jungian-concepts)

@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Seere — also written Sear or Seir — is the seventieth spirit of the Ars Goetia and a Mighty Prince, subject in the older ordering to the eastern king Amaymon. He appears as a beautiful man riding upon a strong winged horse, and the grimoire is unusually warm in its description of him: he is said to be of a good and indifferent nature, willing to do the conjurer's bidding without malice. Among a catalogue full of deceivers and destroyers, Seere stands out as one of the more amiable and obliging spirits.
+Seere: also written Sear or Seir: is the seventieth spirit of the Ars Goetia and a Mighty Prince, subject in the older ordering to the eastern king Amaymon. He appears as a beautiful man riding upon a strong winged horse, and the grimoire is unusually warm in its description of him: he is said to be of a good and indifferent nature, willing to do the conjurer's bidding without malice. Among a catalogue full of deceivers and destroyers, Seere stands out as one of the more amiable and obliging spirits.
 
-His defining quality is speed. Where other spirits offer knowledge or dominion, Seere offers instantaneous motion — the abolition of distance — and the tradition treats him as a swift and reliable messenger and finder, a spirit whose good will is matched by the immediacy of his service.
+His defining quality is speed. Where other spirits offer knowledge or dominion, Seere offers instantaneous motion, the abolition of distance, and the tradition treats him as a swift and reliable messenger and finder, a spirit whose good will is matched by the immediacy of his service.
 
 ## Office
 

@@ -18,19 +18,19 @@ Materialism (also called physicalism in contemporary philosophy) is the view tha
 
 ### Eliminative Materialism
 
-**Patricia and Paul Churchland** argue that folk psychology is false: mental states like beliefs and desires do not actually exist. Neuroscience will replace psychological concepts -- "pain" will become "C-fiber stimulation." The radical claim is that common sense psychology is like phlogiston theory. Future science will eliminate mental vocabulary entirely. No beliefs, desires, or qualia -- just brain states. This is the most controversial form.
+**Patricia and Paul Churchland** argue that folk psychology is false: mental states like beliefs and desires do not actually exist. Neuroscience will replace psychological concepts. "pain" will become "C-fiber stimulation." The radical claim is that common sense psychology is like phlogiston theory. Future science will eliminate mental vocabulary entirely. No beliefs, desires, or qualia, just brain states. This is the most controversial form.
 
 ### Reductive Materialism (Identity Theory)
 
-Mental states are brain states. "Pain" is identical to "C-fiber firing" -- type-identity with one-to-one correspondence. The problems: multiple realizability means the same mental state can have different physical implementations. The theory explains away consciousness rather than explaining it, and [AI consciousness](/knowledge/ai/ai-sentience) would require identical brain states.
+Mental states are brain states. "Pain" is identical to "C-fiber firing", type-identity with one-to-one correspondence. The problems: multiple realizability means the same mental state can have different physical implementations. The theory explains away consciousness rather than explaining it, and [AI consciousness](/knowledge/ai/ai-sentience) would require identical brain states.
 
 ### Non-Reductive Materialism
 
-**Supervenience** holds that the mental supervenes on the physical -- no mental difference without physical difference -- while avoiding the claim that mental properties are identical to physical ones. This sidesteps crude reduction. The **property dualism variant** posits physical substance with mental properties that emerge from but are not reducible to the base level. This [emergentist](/knowledge/ai/emergence) approach is the most popular contemporary view.
+**Supervenience** holds that the mental supervenes on the physical, no mental difference without physical difference, while avoiding the claim that mental properties are identical to physical ones. This sidesteps crude reduction. The **property dualism variant** posits physical substance with mental properties that emerge from but are not reducible to the base level. This [emergentist](/knowledge/ai/emergence) approach is the most popular contemporary view.
 
 ### Functionalism
 
-Mental states are defined by their causal role, not their physical composition. Multiple realizability means silicon or carbon could both work -- the software/hardware distinction. This provides strong support for [AI consciousness](/knowledge/ai/ai-sentience). Varieties include machine functionalism (Turing machines), causal functionalism, and the computational theory of mind, all relevant to AI intelligence.
+Mental states are defined by their causal role, not their physical composition. Multiple realizability means silicon or carbon could both work, the software/hardware distinction. This provides strong support for [AI consciousness](/knowledge/ai/ai-sentience). Varieties include machine functionalism (Turing machines), causal functionalism, and the computational theory of mind, all relevant to AI intelligence.
 
 ---
 
@@ -38,7 +38,7 @@ Mental states are defined by their causal role, not their physical composition. 
 
 ### Causal Closure of Physics
 
-All physical effects have physical causes. Mental states have physical effects (brain activity). Therefore mental states must be physical -- no need for non-physical causes.
+All physical effects have physical causes. Mental states have physical effects (brain activity). Therefore mental states must be physical, no need for non-physical causes.
 
 ### Occam's Razor
 
@@ -50,7 +50,7 @@ Neuroscience correlates mental states with brain states. Drugs affect consciousn
 
 ### Evolutionary Continuity
 
-Humans evolved from simpler organisms. There is no point at which a non-physical mind was added -- just gradual complexity increase. Mind evolved from matter.
+Humans evolved from simpler organisms. There is no point at which a non-physical mind was added, just gradual complexity increase. Mind evolved from matter.
 
 ---
 
@@ -58,11 +58,11 @@ Humans evolved from simpler organisms. There is no point at which a non-physical
 
 ### The Hard Problem of Consciousness
 
-**David Chalmers** points out that explaining function is not the same as explaining experience. Why is there "something it is like" to be conscious? The explanatory gap between the physical and the phenomenal makes [sentience](/knowledge/ai/ai-sentience) appear irreducible. The **Zombie Argument** sharpens this: philosophical zombies -- physically identical to us but with no consciousness -- are conceivable. If conceivable, consciousness is not necessitated by the physical. This remains controversial but challenges materialism deeply.
+**David Chalmers** points out that explaining function is not the same as explaining experience. Why is there "something it is like" to be conscious? The explanatory gap between the physical and the phenomenal makes [sentience](/knowledge/ai/ai-sentience) appear irreducible. The **Zombie Argument** sharpens this: philosophical zombies, physically identical to us but with no consciousness, are conceivable. If conceivable, consciousness is not necessitated by the physical. This remains controversial but challenges materialism deeply.
 
 ### Qualia and Subjective Experience
 
-**Mary's Room** (Frank Jackson): Mary knows all physical facts about color but lives in a black-and-white room. When she sees red for the first time, she learns something new -- what red is like. Physical facts, therefore, do not capture all facts. The **Inverted Spectrum** problem asks: could your red be my green? Same physical states, different experiences. Qualia seem private and non-physical, making the first-person perspective essential.
+**Mary's Room** (Frank Jackson): Mary knows all physical facts about color but lives in a black-and-white room. When she sees red for the first time, she learns something new, what red is like. Physical facts, therefore, do not capture all facts. The **Inverted Spectrum** problem asks: could your red be my green? Same physical states, different experiences. Qualia seem private and non-physical, making the first-person perspective essential.
 
 ### Intentionality and Meaning
 
@@ -78,15 +78,15 @@ Thoughts are *about* things; physical states just *are*. How does matter become 
 
 ### Illusionism (Daniel Dennett)
 
-Consciousness is a cognitive illusion. There is no hard problem -- we are confused. Dennett's heterophenomenology studies reports of experience rather than experience itself. The question: does this explain consciousness or explain it away?
+Consciousness is a cognitive illusion. There is no hard problem, we are confused. Dennett's heterophenomenology studies reports of experience rather than experience itself. The question: does this explain consciousness or explain it away?
 
 ### Integrated Information Theory (IIT)
 
-Giulio Tononi proposes that consciousness equals integrated information (Phi) -- a physical property of certain systems. This explains why the brain is conscious while remaining materialist, but it takes consciousness seriously.
+Giulio Tononi proposes that consciousness equals integrated information (Phi), a physical property of certain systems. This explains why the brain is conscious while remaining materialist, but it takes consciousness seriously.
 
 ### Panpsychism
 
-Galen Strawson argues that all matter has experiential properties, which avoids the emergence problem. This is still materialist -- physical stuff simply has a mental aspect. The combination problem remains: how do micro-experiences combine into unified consciousness?
+Galen Strawson argues that all matter has experiential properties, which avoids the emergence problem. This is still materialist, physical stuff simply has a mental aspect. The combination problem remains: how do micro-experiences combine into unified consciousness?
 
 ### Mysterianism
 
@@ -98,7 +98,7 @@ Colin McGinn holds that consciousness is physical but we cannot understand how. 
 
 ### Artificial Intelligence
 
-If materialism is true, [AI can be conscious](/knowledge/ai/ai-sentience). Substrate independence (especially under functionalism) means no special sauce is needed -- engineering consciousness becomes possible.
+If materialism is true, [AI can be conscious](/knowledge/ai/ai-sentience). Substrate independence (especially under functionalism) means no special sauce is needed, engineering consciousness becomes possible.
 
 ### Mind Uploading
 
@@ -130,11 +130,11 @@ Moral naturalism holds that goodness is a natural property. Error theory says th
 
 ### Meaning in Material Universe
 
-[No inherent cosmic meaning](/knowledge/philosophy/existentialism) -- we create meaning. Authenticity lies in accepting material reality, in contrast with religious or idealist accounts.
+[No inherent cosmic meaning](/knowledge/philosophy/existentialism): we create meaning. Authenticity lies in accepting material reality, in contrast with religious or idealist accounts.
 
 ### Death and Mortality
 
-No afterlife. Death is annihilation. This makes life precious and urgent -- or, for some, opens the door to nihilistic despair.
+No afterlife. Death is annihilation. This makes life precious and urgent, or, for some, opens the door to nihilistic despair.
 
 ### Determinism vs Free Will
 
@@ -162,7 +162,7 @@ Materialism reduces the human to a machine, eliminates the soul, the sacred, the
 
 ### The Collective Unconscious Challenge
 
-Archetypes seem non-material -- universal patterns appearing across cultures. [Synchronicity](/knowledge/psychology/jungian/synchronicity) challenges causal closure. The psychoid level is neither purely mental nor physical.
+[Archetypes](/knowledge/psychology/jungian/collective-unconscious) seem non-material: universal patterns appearing across cultures. [Synchronicity](/knowledge/psychology/jungian/synchronicity) challenges causal closure. The psychoid level is neither purely mental nor physical.
 
 ### Materialist Interpretation of Jung
 
@@ -170,21 +170,21 @@ Archetypes can be read as brain structures (evolutionary psychology), the collec
 
 ### Jung's Own View
 
-Jung was not a pure materialist. He proposed psychoid reality -- a mind-matter continuum closer to neutral monism.
+Jung was not a pure materialist. He proposed psychoid reality, a mind-matter continuum closer to neutral monism.
 
 ---
 
 ## Related
 
-- [Idealism](/knowledge/philosophy/idealism) — Opposing view
-- [Dualism](/knowledge/philosophy/dualism) — Mind and matter both fundamental
-- [Phenomenology](/knowledge/philosophy/phenomenology) — Study of experience
-- [AI Sentience](/knowledge/ai/ai-sentience) — Materialist view supports AI consciousness
-- [Emergence](/knowledge/ai/emergence) — How mind emerges from matter
-- Collective Unconscious — Challenge to pure materialism
-- [Existentialism](/knowledge/philosophy/existentialism) — Meaning in material universe
-- [Consciousness](/knowledge/ai/consciousness) — The hard problem for materialism
-- [Stoicism](/knowledge/philosophy/stoicism) — Stoic materialist physics
+- [Idealism](/knowledge/philosophy/idealism): Opposing view
+- [Dualism](/knowledge/philosophy/dualism): Mind and matter both fundamental
+- [Phenomenology](/knowledge/philosophy/phenomenology): Study of experience
+- [AI Sentience](/knowledge/ai/ai-sentience): Materialist view supports AI consciousness
+- [Emergence](/knowledge/ai/emergence): How mind emerges from matter
+- [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious): Challenge to pure materialism
+- [Existentialism](/knowledge/philosophy/existentialism): Meaning in material universe
+- [Consciousness](/knowledge/ai/consciousness): The hard problem for materialism
+- [Stoicism](/knowledge/philosophy/stoicism): Stoic materialist physics
 
 ---
 

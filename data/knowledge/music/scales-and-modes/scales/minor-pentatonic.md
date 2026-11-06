@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Scale
 
-The minor pentatonic is the natural minor scale stripped to its five most essential notes — the [Aeolian](/knowledge/music/scales-and-modes/modes/aeolian) mode with its second and sixth degrees removed. What is left is a lean, gapped structure with no half steps, built from a pattern of minor thirds and whole steps that lies naturally under the hand on a guitar and sits naturally in the human voice. Like its major counterpart it appears across the world's folk traditions, but in the West it became something more specific: the raw material of the blues, and through the blues, of nearly everything that followed.
+The minor pentatonic is the natural minor scale stripped to its five most essential notes, the [Aeolian](/knowledge/music/scales-and-modes/modes/aeolian) mode with its second and sixth degrees removed. What is left is a lean, gapped structure with no half steps, built from a pattern of minor thirds and whole steps that lies naturally under the hand on a guitar and sits naturally in the human voice. Like its major counterpart it appears across the world's folk traditions, but in the West it became something more specific: the raw material of the blues, and through the blues, of nearly everything that followed.
 
 ## Structure
 
@@ -24,7 +24,7 @@ The minor pentatonic is the natural minor scale stripped to its five most essent
 
 ## Character
 
-Where the major pentatonic is sunlit, the minor pentatonic is smoky and grounded. The flat third and flat seventh give it an aching, soulful edge, but the absence of half steps keeps it from ever sounding fragile — it is minor without being delicate, expressive without being fussy. It bends and slurs beautifully, which is why guitarists reach for it instinctively; the scale seems built for the physical act of pushing a string until it cries.
+Where the major pentatonic is sunlit, the minor pentatonic is smoky and grounded. The flat third and flat seventh give it an aching, soulful edge, but the absence of half steps keeps it from ever sounding fragile, it is minor without being delicate, expressive without being fussy. It bends and slurs beautifully, which is why guitarists reach for it instinctively; the scale seems built for the physical act of pushing a string until it cries.
 
 ## In Practice
 

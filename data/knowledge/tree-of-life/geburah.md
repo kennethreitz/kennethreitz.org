@@ -1,12 +1,12 @@
 ---
-description: Even love must sometimes hold a blade — not to wound, but to cut away
+description: Even love must sometimes hold a blade, not to wound, but to cut away
   all that was never meant to grow.
 source: obsidian-knowledge
 ---
 
 # Geburah  ·  Severity
 
-> *Even love must sometimes hold a blade — not to wound, but to cut away all that was never meant to grow.*
+> *Even love must sometimes hold a blade, not to wound, but to cut away all that was never meant to grow.*
 
 ---
 
@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Geburah is Severity, the fifth emanation, the burning arm of judgment that answers the boundless generosity of Chesed. It is the warrior and the surgeon, the fire that destroys in order to preserve, the power that prunes the tree so that the tree may live. Its planet is Mars, and it wears Mars’s whole armor: force, discipline, the courage to strike and the harder courage to restrain the striking. Where Mercy expands without end, Severity contracts, tests, and removes; it is the necessary “no” without which every “yes” would drown the world in its own excess.
 
-To meet Geburah honestly is to meet the sacred function of destruction. Its virtues are Courage and Energy — the will to act, to break what must be broken, to burn away corruption without flinching. But the same fire, turned loose from justice, becomes cruelty and wanton destruction, the tyrant’s sword rather than the surgeon’s scalpel. Geburah is scarlet, the red of blood and of the forge, and it holds the terrible knowledge that mercy and severity are not enemies but the two hands of a single balancing love.
+To meet Geburah honestly is to meet the sacred function of destruction. Its virtues are Courage and Energy, the will to act, to break what must be broken, to burn away corruption without flinching. But the same fire, turned loose from justice, becomes cruelty and wanton destruction, the tyrant’s sword rather than the surgeon’s scalpel. Geburah is scarlet, the red of blood and of the forge, and it holds the terrible knowledge that mercy and severity are not enemies but the two hands of a single balancing love.
 
 ## Correspondences
 
@@ -35,7 +35,7 @@ Geburah sits on the Pillar of Severity, the left-hand column of form and restric
 
 ## In Tarot
 
-The four Fives belong to Geburah — and the number of conflict, loss, and testing shows Severity’s hard face plainly. The Five of Wands is strife, the Five of Cups sorrow over what is spilled, the Five of Swords defeat, the Five of Pentacles hardship in the cold; each is the sphere’s pruning blade felt from below. As the seat of Mars, Geburah’s planetary trump is [The Tower](/knowledge/tarot/major-arcana/the-tower), the lightning-struck ruin that levels every structure built without truth.
+The four Fives belong to Geburah, and the number of conflict, loss, and testing shows Severity’s hard face plainly. The Five of Wands is strife, the Five of Cups sorrow over what is spilled, the Five of Swords defeat, the Five of Pentacles hardship in the cold; each is the sphere’s pruning blade felt from below. As the seat of Mars, Geburah’s planetary trump is [The Tower](/knowledge/tarot/major-arcana/the-tower), the lightning-struck ruin that levels every structure built without truth.
 
 ## Related
 

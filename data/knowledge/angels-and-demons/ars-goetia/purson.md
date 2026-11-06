@@ -17,7 +17,7 @@ As a King, Purson commands one of the larger followings in the Lesser Key, and t
 
 ## Office
 
-The Goetia holds that Purson knows all things hidden and can discover treasure, revealing what lies concealed beneath the earth. He is said to tell of things past, present, and to come, and to give true answers concerning matters divine and secret, as well as the creation of the world. He can also take a body — either airy or human — at the operator’s command, and furnishes good familiars.
+The Goetia holds that Purson knows all things hidden and can discover treasure, revealing what lies concealed beneath the earth. He is said to tell of things past, present, and to come, and to give true answers concerning matters divine and secret, as well as the creation of the world. He can also take a body, either airy or human, at the operator’s command, and furnishes good familiars.
 
 ## Attributes
 

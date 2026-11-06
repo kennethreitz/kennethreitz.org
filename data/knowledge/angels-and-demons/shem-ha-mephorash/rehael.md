@@ -32,3 +32,5 @@ Governing the third pentad of Libra, from ten to fifteen degrees, Rehael preside
 - [Malphas](/knowledge/angels-and-demons/ars-goetia/malphas)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the second decan of Libra with its pair, and so the Three of Swords. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

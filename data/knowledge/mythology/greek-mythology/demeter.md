@@ -22,16 +22,16 @@ Her symbols are wheat and grain, the cornucopia, the torch she carried while sea
 
 **The abduction of Persephone.** Hades, with [Zeus](/knowledge/mythology/greek-mythology/zeus)'s tacit consent, seized Demeter's daughter Persephone and carried her into the underworld. Demeter wandered the earth in grief, torch in hand, refusing to let anything grow until her daughter was found. Her mourning is the mythic origin of the barren season.
 
-**The bargain of the pomegranate.** Zeus finally ordered Persephone's release, but because she had eaten a few pomegranate seeds in the underworld, she was bound to return to Hades for a portion of each year. So she spends part of the year below (winter, when Demeter grieves) and part above (spring and summer, when she returns and the earth flowers) — the myth that explains the seasons.
+**The bargain of the pomegranate.** Zeus finally ordered Persephone's release, but because she had eaten a few pomegranate seeds in the underworld, she was bound to return to Hades for a portion of each year. So she spends part of the year below (winter, when Demeter grieves) and part above (spring and summer, when she returns and the earth flowers), the myth that explains the seasons.
 
-**The Eleusinian Mysteries.** During her wandering, Demeter was received at Eleusis, where she nursed the prince Demophon and tried to make him immortal in the hearth-fire. Interrupted, she revealed her divinity and ordered a temple built, founding the Eleusinian Mysteries — the most sacred initiatory rites of the ancient world, promising initiates a blessed afterlife through the death-and-rebirth pattern of the grain.
+**The Eleusinian Mysteries.** During her wandering, Demeter was received at Eleusis, where she nursed the prince Demophon and tried to make him immortal in the hearth-fire. Interrupted, she revealed her divinity and ordered a temple built, founding the Eleusinian Mysteries, the most sacred initiatory rites of the ancient world, promising initiates a blessed afterlife through the death-and-rebirth pattern of the grain.
 
 ---
 
 ## Related
 
-- Persephone - Daughter; the Kore to her Great Mother
+- [Persephone](/knowledge/mythology/greek-mythology/persephone) - Daughter; the Kore to her Great Mother
 - [Zeus](/knowledge/mythology/greek-mythology/zeus) - Brother
 - [The Empress](/knowledge/tarot/major-arcana/the-empress) - The Great Mother of the Major Arcana: fertility, harvest, and cyclical renewal
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
-- The Great Mother
+- [The Great Mother](/knowledge/psychology/jungian/major-jungian-concepts)

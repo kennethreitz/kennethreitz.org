@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Angel
 
-Harahel joins the triliteral root *harah* — a verb reaching toward knowing, conceiving, and the fertile intelligence that brings forth — to the divine suffix *-el*, “God.” The name is customarily glossed as *God who knows all things*, and the angel carries that omniscience downward into the human faculties that gather and preserve. Where the divine mind holds all knowledge at once, Harahel presides over the slow mortal analogue: the archive, the library, the ledger, the printing press, the patient accumulation of what has been learned.
+Harahel joins the triliteral root *harah*, a verb reaching toward knowing, conceiving, and the fertile intelligence that brings forth, to the divine suffix *-el*, “God.” The name is customarily glossed as *God who knows all things*, and the angel carries that omniscience downward into the human faculties that gather and preserve. Where the divine mind holds all knowledge at once, Harahel presides over the slow mortal analogue: the archive, the library, the ledger, the printing press, the patient accumulation of what has been learned.
 
-The virtue Harahel bestows is intellectual fertility disciplined by order. Those under its governance are drawn to record and to classify, to build repositories of understanding and to keep them faithfully; it is the intelligence of the scholar, the archivist, and the honest merchant of ideas. Harahel is said to guard against the corruption of knowledge — the falsified record, the burned library, the lie inserted into the archive — and to bless enterprises that increase the store of learning rather than hoard it. Its treasure is the kind that multiplies when shared.
+The virtue Harahel bestows is intellectual fertility disciplined by order. Those under its governance are drawn to record and to classify, to build repositories of understanding and to keep them faithfully; it is the intelligence of the scholar, the archivist, and the honest merchant of ideas. Harahel is said to guard against the corruption of knowledge, the falsified record, the burned library, the lie inserted into the archive, and to bless enterprises that increase the store of learning rather than hoard it. Its treasure is the kind that multiplies when shared.
 
 ## Attributes
 
@@ -32,3 +32,5 @@ The virtue Harahel bestows is intellectual fertility disciplined by order. Those
 - [Orias](/knowledge/angels-and-demons/ars-goetia/orias)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the third decan of Capricorn with its pair, and so the Four of Pentacles. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

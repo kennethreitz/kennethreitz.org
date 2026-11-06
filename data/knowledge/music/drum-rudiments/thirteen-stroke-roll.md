@@ -11,15 +11,15 @@ source: obsidian-knowledge
 
 ## The Rudiment
 
-The thirteen stroke roll is a long measured roll, six double strokes rolling into a single accented tap. At this length the roll sustains across a good portion of the measure, demanding real endurance and evenness before it snaps shut on the accent. It is where the numbered rolls stop being quick ornaments and become genuine sustained rolls with a defined resolution — a test of how long a drummer can keep diddles clean and matched.
+The thirteen stroke roll is a long measured roll, six double strokes rolling into a single accented tap. At this length the roll sustains across a good portion of the measure, demanding real endurance and evenness before it snaps shut on the accent. It is where the numbered rolls stop being quick ornaments and become genuine sustained rolls with a defined resolution, a test of how long a drummer can keep diddles clean and matched.
 
 ## Sticking
 
-The standard sticking is six doubles plus a terminating accent — thirteen strokes: **RRLL RRLL RRLL R**, accent on the final note, then reversed as **LLRR LLRR LLRR L**. The twelve rolled notes are even doubles, closed for a smooth sustain or open for rudimental clarity, leading to the accented thirteenth stroke on the beat. It ends on the same hand it began.
+The standard sticking is six doubles plus a terminating accent, thirteen strokes: **RRLL RRLL RRLL R**, accent on the final note, then reversed as **LLRR LLRR LLRR L**. The twelve rolled notes are even doubles, closed for a smooth sustain or open for rudimental clarity, leading to the accented thirteenth stroke on the beat. It ends on the same hand it began.
 
 ## How to Play
 
-Endurance and consistency are everything here — keep all six diddles low, relaxed, and evenly spaced so the sustain holds its density from start to finish, then drive the final stroke for the accent. Any tension creeping in over twelve notes will make the roll uneven or cause it to speed up. Practice open and slow, then close gradually, watching that every second stroke stays as strong as the first.
+Endurance and consistency are everything here: keep all six diddles low, relaxed, and evenly spaced so the sustain holds its density from start to finish, then drive the final stroke for the accent. Any tension creeping in over twelve notes will make the roll uneven or cause it to speed up. Practice open and slow, then close gradually, watching that every second stroke stays as strong as the first.
 
 ## In Practice
 

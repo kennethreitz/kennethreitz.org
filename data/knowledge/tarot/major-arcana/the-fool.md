@@ -11,15 +11,15 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A young figure stands at the very edge of a sunlit precipice, one foot poised over open air, face tilted upward toward a pale sky rather than downward toward the drop. A white rose of innocence rests lightly in one hand; a small bundle on a stick carries everything owned and nothing needed. A little white dog leaps at the heels — instinct, delight, and warning all at once. The mountains behind are jagged and cold, but the traveller is dressed in bright, extravagant colours, radiant with a trust that borders on the reckless. The whole card breathes weightlessness, the held breath before a leap of faith.
+A young figure stands at the very edge of a sunlit precipice, one foot poised over open air, face tilted upward toward a pale sky rather than downward toward the drop. A white rose of innocence rests lightly in one hand; a small bundle on a stick carries everything owned and nothing needed. A little white dog leaps at the heels, instinct, delight, and warning all at once. The mountains behind are jagged and cold, but the traveller is dressed in bright, extravagant colours, radiant with a trust that borders on the reckless. The whole card breathes weightlessness, the held breath before a leap of faith.
 
 ## Upright
 
-The Fool is pure potential, the zero that contains every number without yet being any of them. Upright, the card calls for a beginning taken on faith — a new venture, a spiritual departure, a willingness to move before the ground is certain. It rewards spontaneity, openness, and the beginner’s mind that has not yet learned what is supposedly impossible. To draw it is to be reminded that innocence is not ignorance but a deliberate refusal to be paralysed by knowing too much.
+The Fool is pure potential, the zero that contains every number without yet being any of them. Upright, the card calls for a beginning taken on faith, a new venture, a spiritual departure, a willingness to move before the ground is certain. It rewards spontaneity, openness, and the beginner’s mind that has not yet learned what is supposedly impossible. To draw it is to be reminded that innocence is not ignorance but a deliberate refusal to be paralysed by knowing too much.
 
 ## Reversed
 
-Reversed, the leap curdles into recklessness, or freezes into refusal. The Fool inverted can mean folly dressed as freedom — decisions made without weighing the fall, commitments entered heedlessly, energy scattered in every direction and gathered nowhere. It can also mean the opposite paralysis: standing forever at the cliff’s edge, mistaking hesitation for wisdom, hoarding possibility because actualising any single path means losing all the others.
+Reversed, the leap curdles into recklessness, or freezes into refusal. The Fool inverted can mean folly dressed as freedom, decisions made without weighing the fall, commitments entered heedlessly, energy scattered in every direction and gathered nowhere. It can also mean the opposite paralysis: standing forever at the cliff’s edge, mistaking hesitation for wisdom, hoarding possibility because actualising any single path means losing all the others.
 
 ## Correspondence
 
@@ -35,11 +35,11 @@ The Fool is the Divine Child and the Puer, the psyche at the threshold of [Indiv
 
 ## Mythological Echoes
 
-Across cultures the holy fool walks unharmed where the wise fear to tread — Parsifal the innocent who alone may approach the Grail, the trickster who stumbles into creation, the wandering mendicant who owns nothing and fears nothing. The dog at his heel recalls the faithful companions who guide heroes across thresholds into underworlds. He is the eternal returning of spring, the green fuse, the first word of a story the world keeps telling itself.
+Across cultures the holy fool walks unharmed where the wise fear to tread. Parsifal the innocent who alone may approach the Grail, the trickster who stumbles into creation, the wandering mendicant who owns nothing and fears nothing. The dog at his heel recalls the faithful companions who guide heroes across thresholds into underworlds. He is the eternal returning of spring, the green fuse, the first word of a story the world keeps telling itself.
 
 ## In Practice
 
-When the Fool appears, the reading is asking whether you can trust the step before you can see the landing. Journalling prompt: where in your life are you standing at a cliff’s edge, and what would it mean to jump — not blindly, but faithfully? Notice whether the fear you feel is wisdom or merely habit.
+When the Fool appears, the reading is asking whether you can trust the step before you can see the landing. Journalling prompt: where in your life are you standing at a cliff’s edge, and what would it mean to jump, not blindly, but faithfully? Notice whether the fear you feel is wisdom or merely habit.
 
 ## Related
 

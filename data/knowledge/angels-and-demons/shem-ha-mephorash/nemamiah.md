@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Nemamiah (נְמָמִיָה) joins a root suggesting *that which is worthy of praise, lovable* to the suffix *-iah*, the abbreviated Name *Yah*, and is read as "the Praiseworthy God" or "the Lovable God." He is the fifty-seventh of the seventy-two names extracted from Exodus 14:19–21, and his domain concerns leadership, just causes, and the discernment that keeps ambition honest.
 
-Nemamiah's virtue is *prosperity through worthy causes and the protection of leaders*. He governs generals, captains, and all who direct the efforts of others toward a good end, granting them the loyalty of those they lead and the judgement to choose their battles well. The tradition also credits him with liberating captives and with the discernment that distinguishes a cause worth serving from a mere pretext for glory. His prosperity is therefore earned in the service of something larger than the self — the leader who thrives under Nemamiah does so because his aims are just. Ruling the tenth to fifteenth degrees of Capricorn, the sign of authority, responsibility, and the long climb, Nemamiah lends steadiness and foresight to those who bear the weight of command. To invoke him is to ask for a cause worth one's devotion, the discernment to recognise it, and the prosperity that rightly follows faithful leadership.
+Nemamiah's virtue is *prosperity through worthy causes and the protection of leaders*. He governs generals, captains, and all who direct the efforts of others toward a good end, granting them the loyalty of those they lead and the judgement to choose their battles well. The tradition also credits him with liberating captives and with the discernment that distinguishes a cause worth serving from a mere pretext for glory. His prosperity is therefore earned in the service of something larger than the self, the leader who thrives under Nemamiah does so because his aims are just. Ruling the tenth to fifteenth degrees of Capricorn, the sign of authority, responsibility, and the long climb, Nemamiah lends steadiness and foresight to those who bear the weight of command. To invoke him is to ask for a cause worth one's devotion, the discernment to recognise it, and the prosperity that rightly follows faithful leadership.
 
 ## Attributes
 
@@ -33,3 +33,5 @@ Nemamiah's virtue is *prosperity through worthy causes and the protection of lea
 - [Ose](/knowledge/angels-and-demons/ars-goetia/ose)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the second decan of Capricorn with its pair, and so the Three of Pentacles. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.
