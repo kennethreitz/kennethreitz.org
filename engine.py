@@ -9,7 +9,7 @@ from pydantic import BaseModel
 
 from tuftecms.core.markdown import render_markdown_file
 from tuftecms.core.knowledge import KnowledgeIndex, links_allowed
-from tuftecms.core.ontologies import build_graph, to_archive_graph
+from tuftecms.core.archive_graph import build_graph, to_archive_graph
 from tuftecms.core.cache import (
     get_blog_cache,
     clear_all_caches,
@@ -65,18 +65,18 @@ def get_knowledge_index():
     return _knowledge_index
 
 
-_ontology_graph = None
-_ontology_lock = threading.Lock()
+_archive_graph = None
+_archive_graph_lock = threading.Lock()
 
 
-def get_ontology_graph():
-    """Site graph built from data/. Cached for the life of the process."""
-    global _ontology_graph
-    if _ontology_graph is None:
-        with _ontology_lock:
-            if _ontology_graph is None:
-                _ontology_graph = build_graph(DATA_DIR)
-    return _ontology_graph
+def get_archive_graph():
+    """Cross-reference graph for /archive/graph. Cached for the life of the process."""
+    global _archive_graph
+    if _archive_graph is None:
+        with _archive_graph_lock:
+            if _archive_graph is None:
+                _archive_graph = build_graph(DATA_DIR)
+    return _archive_graph
 
 
 def _crosslinked(file_path, url, content_html):
@@ -431,7 +431,7 @@ def _static_version():
     """
     static_dir = Path("tuftecms/static")
     digest = hashlib.md5()
-    for name in ("site.css", "custom.css", "tufte/tufte.css", "js/enhance.js", "js/ontologies.js"):
+    for name in ("site.css", "custom.css", "tufte/tufte.css", "js/enhance.js"):
         css_path = static_dir / name
         if css_path.exists():
             digest.update(css_path.read_bytes())
@@ -1340,18 +1340,6 @@ async def graph(req, resp):
     )
 
 
-@api.route("/ontologies")
-async def ontologies(req, resp):
-    respond_html(resp, "ontologies.html", req, "/ontologies",
-        title="Ontologies",
-    )
-
-
-@api.route("/ontologies/data")
-async def ontologies_data(req, resp):
-    resp.media = get_ontology_graph()
-
-
 # Bare aliases for the archive views (the sitemap advertises these).
 def _make_archive_alias(target):
     async def archive_alias(req, resp):
@@ -1365,8 +1353,7 @@ for _page in ("sidenotes", "outlines", "quotes", "connections", "terms", "graph"
 
 @api.route("/archive/graph/data")
 async def graph_data(req, resp):
-    # Essays plus knowledge notes, from the same graph the ontologies page uses.
-    resp.media = to_archive_graph(get_ontology_graph())
+    resp.media = to_archive_graph(get_archive_graph())
 
 
 # --- Directory route ---

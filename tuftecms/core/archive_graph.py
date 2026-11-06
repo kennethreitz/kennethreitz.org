@@ -1,8 +1,8 @@
-"""A graph of the public site, built from the files themselves.
+"""Cross-reference data for ``/archive/graph``.
 
 Reads every markdown page under ``data/`` except the folders and root
-pages named in ``EXCLUDED``. Edges come from three places the notes
-already record:
+pages named in ``EXCLUDED``. The archive view uses the link and
+correspondence edges. Those edges come from what the notes already record:
 
 - markdown cross-links
 - frontmatter ``themes``, ``tags``, and ``series``
