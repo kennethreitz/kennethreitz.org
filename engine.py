@@ -9,6 +9,7 @@ from pydantic import BaseModel
 
 from tuftecms.core.markdown import render_markdown_file
 from tuftecms.core.knowledge import KnowledgeIndex, links_allowed
+from tuftecms.core.ontologies import build_graph, to_archive_graph
 from tuftecms.core.cache import (
     get_blog_cache,
     clear_all_caches,
@@ -62,6 +63,20 @@ def get_knowledge_index():
             if _knowledge_index is None:
                 _knowledge_index = KnowledgeIndex(DATA_DIR)
     return _knowledge_index
+
+
+_ontology_graph = None
+_ontology_lock = threading.Lock()
+
+
+def get_ontology_graph():
+    """Site graph built from data/. Cached for the life of the process."""
+    global _ontology_graph
+    if _ontology_graph is None:
+        with _ontology_lock:
+            if _ontology_graph is None:
+                _ontology_graph = build_graph(DATA_DIR)
+    return _ontology_graph
 
 
 def _crosslinked(file_path, url, content_html):
@@ -416,7 +431,7 @@ def _static_version():
     """
     static_dir = Path("tuftecms/static")
     digest = hashlib.md5()
-    for name in ("site.css", "custom.css", "tufte/tufte.css", "js/enhance.js"):
+    for name in ("site.css", "custom.css", "tufte/tufte.css", "js/enhance.js", "js/ontologies.js"):
         css_path = static_dir / name
         if css_path.exists():
             digest.update(css_path.read_bytes())
@@ -1325,6 +1340,18 @@ async def graph(req, resp):
     )
 
 
+@api.route("/ontologies")
+async def ontologies(req, resp):
+    respond_html(resp, "ontologies.html", req, "/ontologies",
+        title="Ontologies",
+    )
+
+
+@api.route("/ontologies/data")
+async def ontologies_data(req, resp):
+    resp.media = get_ontology_graph()
+
+
 # Bare aliases for the archive views (the sitemap advertises these).
 def _make_archive_alias(target):
     async def archive_alias(req, resp):
@@ -1336,75 +1363,10 @@ for _page in ("sidenotes", "outlines", "quotes", "connections", "terms", "graph"
     api.route(f"/{_page}")(_make_archive_alias(f"/archive/{_page}"))
 
 
-_GRAPH_SKIP_PREFIXES = ("static/", "data/", "api/", "archive", "feed", "search", "sitemap")
-_GRAPH_ASSET_SUFFIXES = (
-    ".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg",
-    ".pdf", ".md", ".mp3", ".xml", ".css", ".js",
-)
-
-
-def _graph_skip(path):
-    """Content pages only: no assets, indexes, or machine endpoints."""
-    lowered = path.lower()
-    return (
-        not path
-        or lowered.startswith(_GRAPH_SKIP_PREFIXES)
-        or lowered.endswith(_GRAPH_ASSET_SUFFIXES)
-    )
-
-
 @api.route("/archive/graph/data")
 async def graph_data(req, resp):
-    connections_data = get_connections_cache()
-    blog_data = get_blog_cache()
-
-    post_lookup = {
-        f"/essays/{post['path'].split('/')[-1]}": post
-        for post in blog_data.get("posts", [])
-    }
-
-    def make_node(path):
-        url = f"/{path}"
-        post = post_lookup.get(url, {})
-        title = post.get("title") or path.split("/")[-1].replace("-", " ").replace("_", " ").title()
-        category = path.split("/")[0] if "/" in path else "pages"
-        return {
-            "id": path,
-            "title": title,
-            "label": title,
-            "url": url,
-            "category": category,
-            "group": category,
-        }
-
-    nodes = {}
-    edges = []
-    seen_edges = set()
-
-    for source, targets in connections_data.get("outgoing", {}).items():
-        source_path = source.replace("data/", "", 1).removesuffix(".md").strip("/")
-        if _graph_skip(source_path):
-            continue
-
-        for target_info in targets:
-            target_path = target_info["url"].strip("/")
-            if _graph_skip(target_path) or target_path == source_path:
-                continue
-            key = (source_path, target_path)
-            if key in seen_edges:
-                continue
-            seen_edges.add(key)
-
-            nodes.setdefault(source_path, make_node(source_path))
-            nodes.setdefault(target_path, make_node(target_path))
-            edges.append({
-                "source": source_path,
-                "target": target_path,
-                "label": target_info["text"],
-                "link_text": target_info["text"],
-            })
-
-    resp.media = {"nodes": list(nodes.values()), "edges": edges}
+    # Essays plus knowledge notes, from the same graph the ontologies page uses.
+    resp.media = to_archive_graph(get_ontology_graph())
 
 
 # --- Directory route ---

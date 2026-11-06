@@ -4,11 +4,11 @@
 <article>
     <header>
         <h1>Cross-Reference Graph</h1>
-        <p class="subtitle">Every essay that cites another, drawn as one web.</p>
+        <p class="subtitle">Essays and knowledge notes that cite another page, drawn as one web.</p>
     </header>
 
     <section>
-        <p>Each node is a page; each line is a cross-reference. Hubs are drawn larger. Hover a node to see its neighborhood, click to read it, drag to rearrange.</p>
+        <p>Each node is a page; each line is a cross-reference. Knowledge notes sit in the same web as the essays. Hubs are drawn larger. Hover a node to see its neighborhood, click to read it, drag to rearrange.</p>
 
         <div class="graph-controls">
             <button id="resetZoom">Reset View</button>
@@ -17,7 +17,7 @@
         </div>
 
         <div id="graph-container">
-            <svg id="network-graph" width="100%" height="640"></svg>
+            <canvas id="network-graph" aria-label="Cross-reference graph of essays and knowledge notes"></canvas>
         </div>
 
         <div class="graph-legend" id="graphLegend"></div>
@@ -174,11 +174,16 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('graph-container');
-    const width = container.clientWidth;
-    const height = 640;
-
-    const svg = d3.select("#network-graph")
-        .attr("viewBox", [0, 0, width, height]);
+    const canvas = document.getElementById('network-graph');
+    const ctx = canvas.getContext('2d');
+    const mobile = window.matchMedia('(max-width: 768px)').matches;
+    const width = container.clientWidth || 640;
+    const height = mobile ? 420 : 640;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = width * dpr;
+    canvas.height = height * dpr;
+    canvas.style.width = width + 'px';
+    canvas.style.height = height + 'px';
 
     const tooltip = d3.select("body").append("div")
         .attr("class", "graph-tooltip")
@@ -193,6 +198,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "music": "--cat-music",
         "poetry": "--cat-poetry",
         "themes": "--cat-philosophy",
+        "knowledge": "--cat-knowledge",
         "pages": "--ink-muted",
     };
 
@@ -202,116 +208,197 @@ document.addEventListener('DOMContentLoaded', function() {
         return styles.getPropertyValue(varName).trim() || styles.getPropertyValue("--accent").trim();
     }
 
+    let transform = d3.zoomIdentity;
+    let focusId = null;
+    let labelsVisible = false;
+    let nodes = [];
+    let edges = [];
+    let degree = new Map();
+    let neighbors = new Map();
+    let simulation = null;
+    let hubDegree = 8;
+
+    function cssVar(name) {
+        return getComputedStyle(document.body).getPropertyValue(name).trim();
+    }
+
+    function radius(d) {
+        return 3.5 + Math.min(11, Math.sqrt(degree.get(d.id) || 1) * 2);
+    }
+
+    function hit(event) {
+        const rect = canvas.getBoundingClientRect();
+        const x = (event.clientX - rect.left - transform.x) / transform.k;
+        const y = (event.clientY - rect.top - transform.y) / transform.k;
+        let best = null;
+        let bestD = 16;
+        for (const n of nodes) {
+            const dist = Math.hypot(n.x - x, n.y - y);
+            if (dist <= radius(n) + 4 && dist < bestD) {
+                best = n;
+                bestD = dist;
+            }
+        }
+        return best;
+    }
+
+    function draw() {
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.clearRect(0, 0, width, height);
+        ctx.save();
+        ctx.translate(transform.x, transform.y);
+        ctx.scale(transform.k, transform.k);
+        const ink = cssVar("--ink-faint") || "#999";
+        const accent = cssVar("--accent") || "#9c4b2f";
+        const paper = cssVar("--surface") || "#fff";
+        ctx.lineWidth = 1;
+        for (const e of edges) {
+            if (!e.source || !e.source.x) continue;
+            const hot = focusId && (e.source.id === focusId || e.target.id === focusId);
+            const dim = focusId && !hot;
+            ctx.globalAlpha = dim ? 0.04 : (hot ? 0.85 : 0.28);
+            ctx.strokeStyle = hot ? accent : ink;
+            ctx.beginPath();
+            ctx.moveTo(e.source.x, e.source.y);
+            ctx.lineTo(e.target.x, e.target.y);
+            ctx.stroke();
+        }
+        ctx.globalAlpha = 1;
+        for (const n of nodes) {
+            const near = !focusId || n.id === focusId || (neighbors.get(focusId) || new Set()).has(n.id);
+            ctx.globalAlpha = near ? 1 : 0.12;
+            ctx.beginPath();
+            ctx.arc(n.x, n.y, radius(n), 0, Math.PI * 2);
+            ctx.fillStyle = colorFor(n.category);
+            ctx.fill();
+            ctx.lineWidth = 1.25;
+            ctx.strokeStyle = paper;
+            ctx.stroke();
+        }
+        ctx.globalAlpha = 1;
+        ctx.font = 'italic 11px Palatino, "Palatino Linotype", Georgia, serif';
+        ctx.textAlign = "center";
+        ctx.lineJoin = "round";
+        for (const n of nodes) {
+            const show = labelsVisible || n.id === focusId || (degree.get(n.id) || 0) >= hubDegree
+                || (focusId && (neighbors.get(focusId) || new Set()).has(n.id));
+            if (!show) continue;
+            if (focusId && n.id !== focusId && !(neighbors.get(focusId) || new Set()).has(n.id)) continue;
+            const label = n.title.length > 34 ? n.title.slice(0, 34) + "…" : n.title;
+            ctx.strokeStyle = paper;
+            ctx.lineWidth = 3;
+            ctx.strokeText(label, n.x, n.y + radius(n) + 12);
+            ctx.fillStyle = cssVar("--ink-muted") || "#666";
+            ctx.fillText(label, n.x, n.y + radius(n) + 12);
+        }
+        ctx.restore();
+    }
+
     const zoom = d3.zoom()
         .scaleExtent([0.15, 8])
-        .on("zoom", (event) => g.attr("transform", event.transform));
-
-    svg.call(zoom);
-    const g = svg.append("g");
+        .filter((event) => {
+            if (event.type === "wheel") return true;
+            if (event.type === "mousedown" && hit(event)) return false;
+            return !event.button;
+        })
+        .on("zoom", (event) => {
+            transform = event.transform;
+            draw();
+        });
+    d3.select(canvas).call(zoom);
 
     d3.json("/archive/graph/data").then(function(data) {
         document.getElementById('graphStats').textContent =
             `${data.nodes.length} pages · ${data.edges.length} references`;
 
-        // Size nodes by how connected they are.
-        const degree = new Map();
-        data.edges.forEach(e => {
+        nodes = data.nodes;
+        edges = data.edges;
+        if (nodes.length > 500) hubDegree = 28;
+        edges.forEach(e => {
             degree.set(e.source, (degree.get(e.source) || 0) + 1);
             degree.set(e.target, (degree.get(e.target) || 0) + 1);
         });
-        const radius = d => 3.5 + Math.min(11, Math.sqrt(degree.get(d.id) || 1) * 2);
-
-        const simulation = d3.forceSimulation(data.nodes)
-            .force("link", d3.forceLink(data.edges).id(d => d.id).distance(80))
-            .force("charge", d3.forceManyBody().strength(-220))
-            .force("center", d3.forceCenter(width / 2, height / 2))
-            .force("collision", d3.forceCollide().radius(d => radius(d) + 4));
-
-        const link = g.append("g")
-            .selectAll("line")
-            .data(data.edges)
-            .enter().append("line")
-            .attr("class", "link");
-
-        const node = g.append("g")
-            .selectAll("circle")
-            .data(data.nodes)
-            .enter().append("circle")
-            .attr("class", "node")
-            .attr("r", radius)
-            .attr("fill", d => colorFor(d.category))
-            .on("mouseover", function(event, d) {
-                highlightNeighborhood(d);
-                tooltip.transition().duration(150).style("opacity", 0.96);
-                tooltip.html(`<strong>${d.title}</strong><br/><span class="tooltip-meta">${d.category} · ${degree.get(d.id) || 0} connection${(degree.get(d.id) || 0) === 1 ? "" : "s"}</span>`)
-                    .style("left", (event.pageX + 12) + "px")
-                    .style("top", (event.pageY - 10) + "px");
-            })
-            .on("mouseout", function() {
-                clearHighlight();
-                tooltip.transition().duration(300).style("opacity", 0);
-            })
-            .on("click", function(event, d) {
-                window.location.href = d.url;
-            })
-            .call(d3.drag()
-                .on("start", dragstarted)
-                .on("drag", dragged)
-                .on("end", dragended));
-
-        // Labels: hubs are labeled by default; the toggle shows everything.
-        const HUB_DEGREE = 8;
-        const labels = g.append("g")
-            .selectAll("text")
-            .data(data.nodes)
-            .enter().append("text")
-            .attr("class", "node-label")
-            .text(d => d.title.length > 34 ? d.title.substring(0, 34) + "…" : d.title)
-            .style("opacity", d => (degree.get(d.id) || 0) >= HUB_DEGREE ? 1 : 0);
-
-        // Neighborhood focus on hover.
-        const neighbors = new Map();
-        data.edges.forEach(e => {
-            const s = e.source.id || e.source, t = e.target.id || e.target;
-            (neighbors.get(s) || neighbors.set(s, new Set()).get(s)).add(t);
-            (neighbors.get(t) || neighbors.set(t, new Set()).get(t)).add(s);
+        edges.forEach(e => {
+            (neighbors.get(e.source) || neighbors.set(e.source, new Set()).get(e.source)).add(e.target);
+            (neighbors.get(e.target) || neighbors.set(e.target, new Set()).get(e.target)).add(e.source);
         });
 
-        function highlightNeighborhood(d) {
-            const near = neighbors.get(d.id) || new Set();
-            node.style("opacity", n => (n.id === d.id || near.has(n.id)) ? 1 : 0.12);
-            labels.style("opacity", n =>
-                n.id === d.id ? 1 :
-                near.has(n.id) ? 0.9 :
-                0);
-            link.style("stroke-opacity", e =>
-                (e.source.id === d.id || e.target.id === d.id) ? 0.85 : 0.05)
-                .style("stroke", e =>
-                    (e.source.id === d.id || e.target.id === d.id)
-                        ? getComputedStyle(document.body).getPropertyValue("--accent").trim()
-                        : null);
-        }
+        const cats = [...new Set(nodes.map(n => n.category))];
+        const centers = new Map();
+        cats.forEach((cat, i) => {
+            const angle = (i / cats.length) * Math.PI * 2 - Math.PI / 2;
+            centers.set(cat, {
+                x: width / 2 + Math.cos(angle) * width * 0.22,
+                y: height / 2 + Math.sin(angle) * height * 0.22,
+            });
+        });
+        nodes.forEach((n, i) => {
+            const c = centers.get(n.category);
+            const angle = i * 2.399;
+            const dist = 12 + (i % 28) * 3;
+            n.x = c.x + Math.cos(angle) * dist;
+            n.y = c.y + Math.sin(angle) * dist;
+        });
 
-        let labelsVisible = false;
-        function clearHighlight() {
-            node.style("opacity", 1);
-            link.style("stroke-opacity", null).style("stroke", null);
-            labels.style("opacity", d =>
-                labelsVisible ? 1 : ((degree.get(d.id) || 0) >= HUB_DEGREE ? 1 : 0));
-        }
+        const many = nodes.length > 400;
+        simulation = d3.forceSimulation(nodes)
+            .force("link", d3.forceLink(edges).id(d => d.id).distance(many ? 28 : 70))
+            .force("charge", d3.forceManyBody().strength(many ? -18 : -160))
+            .force("center", d3.forceCenter(width / 2, height / 2))
+            .force("x", d3.forceX(d => centers.get(d.category).x).strength(0.12))
+            .force("y", d3.forceY(d => centers.get(d.category).y).strength(0.12))
+            .force("collide", d3.forceCollide().radius(d => radius(d) + 1.5))
+            .alphaDecay(many ? 0.09 : 0.04)
+            .on("tick", draw);
 
-        simulation.on("tick", () => {
-            link
-                .attr("x1", d => d.source.x)
-                .attr("y1", d => d.source.y)
-                .attr("x2", d => d.target.x)
-                .attr("y2", d => d.target.y);
-            node
-                .attr("cx", d => d.x)
-                .attr("cy", d => d.y);
-            labels
-                .attr("x", d => d.x)
-                .attr("y", d => d.y + radius(d) + 12);
+        let pointer = null;
+        canvas.addEventListener("pointerdown", (event) => {
+            const n = hit(event);
+            pointer = { x: event.clientX, y: event.clientY, node: n, moved: false };
+            if (n) {
+                n.fx = n.x;
+                n.fy = n.y;
+                simulation.alphaTarget(0.15).restart();
+            }
+        });
+        canvas.addEventListener("pointermove", (event) => {
+            const n = hit(event);
+            if (pointer && (Math.abs(event.clientX - pointer.x) > 4 || Math.abs(event.clientY - pointer.y) > 4)) {
+                pointer.moved = true;
+            }
+            if (pointer && pointer.node && pointer.moved) {
+                const rect = canvas.getBoundingClientRect();
+                pointer.node.fx = (event.clientX - rect.left - transform.x) / transform.k;
+                pointer.node.fy = (event.clientY - rect.top - transform.y) / transform.k;
+                return;
+            }
+            if (!n) {
+                focusId = null;
+                tooltip.style("opacity", 0);
+                draw();
+                return;
+            }
+            focusId = n.id;
+            const count = degree.get(n.id) || 0;
+            tooltip.style("opacity", 0.96)
+                .html(`<strong>${n.title}</strong><br/><span class="tooltip-meta">${n.category} · ${count} connection${count === 1 ? "" : "s"}</span>`)
+                .style("left", (event.pageX + 12) + "px")
+                .style("top", (event.pageY - 10) + "px");
+            draw();
+        });
+        canvas.addEventListener("pointerup", (event) => {
+            if (pointer && pointer.node) {
+                pointer.node.fx = null;
+                pointer.node.fy = null;
+                simulation.alphaTarget(0);
+                if (!pointer.moved) window.location.href = pointer.node.url;
+            }
+            pointer = null;
+        });
+        canvas.addEventListener("pointerleave", () => {
+            focusId = null;
+            tooltip.style("opacity", 0);
+            draw();
         });
 
         // Legend: the categories actually present, largest first.
@@ -329,41 +416,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Re-tint everything when the theme toggles.
         new MutationObserver(() => {
-            node.attr("fill", d => colorFor(d.category));
             legend.querySelectorAll('.legend-swatch').forEach((sw, i) => {
                 const cat = [...counts.entries()].sort((a, b) => b[1] - a[1])[i][0];
                 sw.style.background = colorFor(cat);
             });
+            draw();
         }).observe(document.body, { attributes: true, attributeFilter: ["class"] });
 
         document.getElementById('resetZoom').onclick = () => {
-            svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity);
+            d3.select(canvas).transition().duration(750).call(zoom.transform, d3.zoomIdentity);
         };
 
         const labelsButton = document.getElementById('toggleLabels');
         labelsButton.onclick = () => {
             labelsVisible = !labelsVisible;
             labelsButton.classList.toggle('active', labelsVisible);
-            labels.transition().duration(300).style("opacity", d =>
-                labelsVisible ? 1 : ((degree.get(d.id) || 0) >= HUB_DEGREE ? 1 : 0));
+            draw();
         };
-
-        function dragstarted(event, d) {
-            if (!event.active) simulation.alphaTarget(0.3).restart();
-            d.fx = d.x;
-            d.fy = d.y;
-        }
-
-        function dragged(event, d) {
-            d.fx = event.x;
-            d.fy = event.y;
-        }
-
-        function dragended(event, d) {
-            if (!event.active) simulation.alphaTarget(0);
-            d.fx = null;
-            d.fy = null;
-        }
     }).catch(function(error) {
         console.error("Error loading graph data:", error);
         document.getElementById('graphStats').textContent = "Error loading graph data";

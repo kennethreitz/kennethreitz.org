@@ -1,0 +1,326 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+    <header>
+        <h1>Ontologies</h1>
+        <p class="subtitle">One territory, many maps.</p>
+    </header>
+
+    <section>
+        <p>The pages on this site describe the same questions in different languages. Knowledge domains, themes, essays, poems, software, music. This map is drawn from the pages themselves: the links they make, the themes and tags written in their frontmatter, and the correspondences a knowledge note states in its own tables. A new page shows up because the page exists.</p>
+        <p>The first picture stays small. Knowledge domains and themes are drawn first, with one point for each other shelf. Open a point to see the pages inside it. Search when you know a name, then ask for that page's neighborhood. Family, contact, the mental health page, and System 777 stay off this map for now.</p>
+    </section>
+
+    <div class="ontology fullwidth" id="ontology-app">
+        <div class="ontology-search">
+            <label for="ontology-q">Search</label>
+            <input id="ontology-q" type="search" placeholder="A name, a theme, a domain" autocomplete="off" enterkeyhint="search">
+            <ul id="ontology-results" role="listbox" hidden></ul>
+        </div>
+
+        <div class="ontology-filters graph-controls" id="ontology-sections" aria-label="Content types"></div>
+        <div class="ontology-filters ontology-domains graph-controls" id="ontology-domains" aria-label="Knowledge domains"></div>
+
+        <div class="ontology-toolbar graph-controls">
+            <button type="button" id="ontology-reset">All systems</button>
+            <span id="ontology-stats">Reading the library…</span>
+        </div>
+
+        <div class="ontology-stage">
+            <div class="ontology-canvas-wrap" id="ontology-wrap">
+                <canvas id="ontology-canvas" aria-label="Map of domains, themes, and pages"></canvas>
+                <p id="ontology-empty" class="ontology-empty" hidden>Nothing in this view yet.</p>
+            </div>
+            <aside class="ontology-panel" id="ontology-panel" aria-live="polite">
+                <p class="ontology-hint">Select a point on the map, or search for a page.</p>
+            </aside>
+        </div>
+    </div>
+    <noscript><p>This map needs JavaScript. The pages themselves stay readable from Knowledge, the themes, and the archive.</p></noscript>
+</article>
+
+<style>
+    .ontology {
+        margin-top: 0.5rem;
+    }
+
+    .ontology-search {
+        position: relative;
+        max-width: 28rem;
+        margin-bottom: 0.9rem;
+    }
+
+    .ontology-search label {
+        display: block;
+        font-variant: small-caps;
+        letter-spacing: 0.08em;
+        color: var(--ink-faint);
+        font-size: 0.82rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .ontology-search input {
+        width: 100%;
+        box-sizing: border-box;
+        font-family: et-book, Palatino, "Palatino Linotype", Georgia, serif;
+        font-size: 1.05rem;
+        color: var(--ink);
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 0.45rem 0.7rem;
+    }
+
+    #ontology-results {
+        position: absolute;
+        z-index: 5;
+        left: 0;
+        right: 0;
+        margin: 0.2rem 0 0;
+        padding: 0.3rem 0;
+        list-style: none;
+        background: var(--surface-raised);
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        box-shadow: var(--shadow-soft);
+        max-height: 16rem;
+        overflow: auto;
+    }
+
+    #ontology-results button {
+        display: block;
+        width: 100%;
+        text-align: left;
+        background: transparent;
+        border: 0;
+        color: var(--ink);
+        font-family: et-book, Palatino, Georgia, serif;
+        font-size: 1rem;
+        padding: 0.35rem 0.75rem;
+        cursor: pointer;
+    }
+
+    #ontology-results button:hover,
+    #ontology-results button[aria-selected="true"] {
+        background: color-mix(in srgb, var(--accent) 10%, transparent);
+    }
+
+    #ontology-results .result-meta {
+        display: block;
+        color: var(--ink-faint);
+        font-size: 0.82rem;
+        font-variant: small-caps;
+        letter-spacing: 0.04em;
+    }
+
+    .ontology-filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+        margin-bottom: 0.45rem;
+    }
+
+    .ontology-toolbar {
+        margin: 0.4rem 0 0.8rem;
+    }
+
+    #ontology-stats {
+        color: var(--ink-faint);
+        font-size: 0.92rem;
+        font-style: italic;
+    }
+
+    .ontology-stage {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .ontology-canvas-wrap {
+        position: relative;
+        height: 36rem;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: var(--surface-raised);
+        overflow: hidden;
+        touch-action: none;
+    }
+
+    #ontology-canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: grab;
+    }
+
+    #ontology-canvas:active {
+        cursor: grabbing;
+    }
+
+    .ontology-empty {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        color: var(--ink-muted);
+        font-style: italic;
+        pointer-events: none;
+    }
+
+    .ontology-empty[hidden] {
+        display: none;
+    }
+
+    .ontology-panel {
+        font-size: 1.02rem;
+        line-height: 1.45;
+    }
+
+    .ontology-kicker,
+    .ontology-hint {
+        font-variant: small-caps;
+        letter-spacing: 0.06em;
+        color: var(--ink-faint);
+        font-size: 0.82rem;
+        margin: 0 0 0.35rem;
+    }
+
+    .ontology-panel h2 {
+        font-size: 1.45rem;
+        line-height: 1.2;
+        margin: 0 0 0.55rem;
+    }
+
+    .ontology-summary {
+        margin: 0 0 0.8rem;
+        color: var(--ink);
+    }
+
+    .ontology-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7rem 1rem;
+        align-items: baseline;
+        margin: 0 0 1rem;
+    }
+
+    .ontology-actions a {
+        font-variant: small-caps;
+        letter-spacing: 0.04em;
+    }
+
+    .ontology-textbtn {
+        background: none;
+        border: 0;
+        padding: 0;
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        font-variant: small-caps;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-thickness: 0.05em;
+        text-underline-offset: 0.14em;
+    }
+
+    .ontology-panel h3 {
+        font-size: 0.95rem;
+        font-variant: small-caps;
+        letter-spacing: 0.05em;
+        font-weight: 400;
+        color: var(--ink-muted);
+        margin: 0.9rem 0 0.3rem;
+    }
+
+    .ontology-panel ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .ontology-panel li {
+        margin: 0.18rem 0;
+    }
+
+    .ontology-jump {
+        background: none;
+        border: 0;
+        padding: 0;
+        color: inherit;
+        font-family: inherit;
+        font-size: 0.98rem;
+        text-align: left;
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-thickness: 0.05em;
+        text-underline-offset: 0.12em;
+    }
+
+    .ontology-jump span {
+        color: var(--ink-faint);
+        font-style: italic;
+        text-decoration: none;
+        margin-left: 0.35rem;
+    }
+
+    .ontology-tags {
+        color: var(--ink-muted);
+        font-size: 0.92rem;
+        margin: 0 0 0.6rem;
+    }
+
+    .ontology-more {
+        color: var(--ink-faint);
+        font-style: italic;
+        font-size: 0.9rem;
+        margin: 0.4rem 0 0;
+    }
+
+    @media (min-width: 900px) {
+        .ontology-stage {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .ontology-canvas-wrap {
+            flex: 1 1 auto;
+            min-width: 0;
+        }
+
+        .ontology-panel {
+            flex: 0 0 18rem;
+            max-height: 36rem;
+            overflow: auto;
+            padding-left: 0.2rem;
+        }
+    }
+
+    @media (max-width: 760px) {
+        .ontology-canvas-wrap {
+            height: 24rem;
+        }
+
+        .ontology-domains {
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            padding-bottom: 0.35rem;
+        }
+
+        .ontology-domains button {
+            flex: 0 0 auto;
+        }
+
+        #ontology-stats {
+            display: block;
+            margin-top: 0.35rem;
+        }
+    }
+</style>
+
+<script src="/static/js/d3.v7.min.js"></script>
+<script src="/static/js/ontologies.js?v={{ static_v }}"></script>
+{% endblock %}
