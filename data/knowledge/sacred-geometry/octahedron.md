@@ -1,11 +1,11 @@
 ---
-description: Two pyramids kissing at the base — the shape of balance held in the air.
+description: Two pyramids kissing at the base, the shape of balance held in the air.
 source: obsidian-knowledge
 ---
 
 # Octahedron
 
-> *Two pyramids kissing at the base — the shape of balance held in the air.*
+> *Two pyramids kissing at the base, the shape of balance held in the air.*
 
 ---
 

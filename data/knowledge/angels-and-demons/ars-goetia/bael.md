@@ -17,7 +17,7 @@ The grimoire presents Bael as a king ruling in the eastern quarter, a figure of 
 
 ## Office
 
-According to the *Goetia*, Bael grants the gift of invisibility and endows those who treat with him with cunning and wisdom. His teaching is thus one of concealment and craft rather than open dominion — a fitting first entry, since the whole grimoire tradition concerns itself with hidden knowledge sought through hidden means.
+According to the *Goetia*, Bael grants the gift of invisibility and endows those who treat with him with cunning and wisdom. His teaching is thus one of concealment and craft rather than open dominion, a fitting first entry, since the whole grimoire tradition concerns itself with hidden knowledge sought through hidden means.
 
 ## Attributes
 
@@ -26,7 +26,7 @@ According to the *Goetia*, Bael grants the gift of invisibility and endows those
 | Number | 1 |
 | Rank | King |
 | Legions | 66 |
-| Appearance | Speaks hoarsely; shows himself with three heads — of a toad, a man, and a cat — or in any single one of these forms |
+| Appearance | Speaks hoarsely; shows himself with three heads, of a toad, a man, and a cat, or in any single one of these forms |
 
 ## Related
 

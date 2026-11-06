@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Angel
 
-Nith-Haiah closes in *-iah* and is read “God who gives wisdom” — not information, not cleverness, but *ḥokhmah*, the primordial wisdom the Kabbalists set at the head of the Tree, older than creation and hidden within it. He is the angel of the esoteric sciences, the keeper of the mysteries that the ordinary intellect cannot storm but must be given. Where Nelchael governs the mapped and measured knowledge of the visible order, Nith-Haiah presides over what lies beneath it: the occult correspondences, the secret names, the workings that the older writers approached only with trembling.
+Nith-Haiah closes in *-iah* and is read “God who gives wisdom”, not information, not cleverness, but *ḥokhmah*, the primordial wisdom the Kabbalists set at the head of the Tree, older than creation and hidden within it. He is the angel of the esoteric sciences, the keeper of the mysteries that the ordinary intellect cannot storm but must be given. Where Nelchael governs the mapped and measured knowledge of the visible order, Nith-Haiah presides over what lies beneath it: the occult correspondences, the secret names, the workings that the older writers approached only with trembling.
 
-His virtue is illumination of the hidden — the safe practice of the magical and contemplative arts, granted to those whose motives are pure. The tradition credits him with revealing the mysteries of the sages, teaching the wise dream and the true meaning of visions, and conferring the mastery that turns dangerous knowledge into holy service rather than into ruin. He is invoked by the mystic and the theurgist, but also by anyone who works at the frontier where mind meets what is larger than mind and must learn to do so without being unmade. To petition Nith-Haiah is to ask for wisdom in the fullest sense — the discernment to handle powerful things gently, to distinguish the genuine transmission from the flattering illusion, and to walk the occult road as a servant rather than a conqueror.
+His virtue is illumination of the hidden, the safe practice of the magical and contemplative arts, granted to those whose motives are pure. The tradition credits him with revealing the mysteries of the sages, teaching the wise dream and the true meaning of visions, and conferring the mastery that turns dangerous knowledge into holy service rather than into ruin. He is invoked by the mystic and the theurgist, but also by anyone who works at the frontier where mind meets what is larger than mind and must learn to do so without being unmade. To petition Nith-Haiah is to ask for wisdom in the fullest sense, the discernment to handle powerful things gently, to distinguish the genuine transmission from the flattering illusion, and to walk the occult road as a servant rather than a conqueror.
 
 ## Attributes
 
@@ -31,3 +31,5 @@ His virtue is illumination of the hidden — the safe practice of the magical an
 - [Glasya-Labolas](/knowledge/angels-and-demons/ars-goetia/glasya-labolas)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the first decan of Leo with its pair, and so the Five of Wands. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

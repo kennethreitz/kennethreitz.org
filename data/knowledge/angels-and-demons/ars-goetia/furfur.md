@@ -1,12 +1,12 @@
 ---
-description: A liar until bound within the triangle — then a raiser of storms and
-  a speaker of truth.
+description: 'A liar until bound within the triangle: then a raiser of storms and
+  a speaker of truth.'
 source: obsidian-knowledge
 ---
 
 # Furfur
 
-> *A liar until bound within the triangle — then a raiser of storms and a speaker of truth.*
+> *A liar until bound within the triangle: then a raiser of storms and a speaker of truth.*
 
 ---
 

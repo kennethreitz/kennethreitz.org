@@ -96,11 +96,16 @@ When showing a shell or console command in prose, lists, or code blocks, prefix 
 # Development server with file watching
 uv run python engine.py
 
-# Dependency management  
+# Dependency management 
 uv sync
 uv add package-name
 uv remove package-name
+
+# Republish the Obsidian vault (knowledge, books, software history)
+uv run python scripts/sync_vault.py --vault ~/Notes
 ```
+
+`data/knowledge/` and `data/library/books/` are generated. Edit the vault, or a scrubbed override in `scripts/knowledge_overrides/` and `scripts/library_overrides/`, then re-sync. Do not hand-edit those trees. Software pages are hand-written except for the `vault:history` block the sync replaces.
 
 ## Sidenotes
 

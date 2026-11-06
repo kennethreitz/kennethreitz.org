@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Scale
 
-The diminished scale is the whole tone scale's darker sibling: another symmetrical structure, but built from an alternating pattern of whole and half steps rather than uniform strides. Because that pattern repeats every minor third, the octave holds eight notes instead of seven — hence its other name, the octatonic scale. And because of that same repetition, there are only three distinct diminished scales in all of music; each one maps onto four diminished seventh chords stacked a minor third apart. The scale comes in two rotations depending on whether it begins with a whole step or a half step, and jazz musicians distinguish them by function: one fits diminished chords, the other fits dominants.
+The diminished scale is the whole tone scale's darker sibling: another symmetrical structure, but built from an alternating pattern of whole and half steps rather than uniform strides. Because that pattern repeats every minor third, the octave holds eight notes instead of seven, hence its other name, the octatonic scale. And because of that same repetition, there are only three distinct diminished scales in all of music; each one maps onto four diminished seventh chords stacked a minor third apart. The scale comes in two rotations depending on whether it begins with a whole step or a half step, and jazz musicians distinguish them by function: one fits diminished chords, the other fits dominants.
 
 ## Structure
 
@@ -24,7 +24,7 @@ The diminished scale is the whole tone scale's darker sibling: another symmetric
 
 ## Character
 
-The diminished scale is all tension. Its symmetry, like the whole tone scale's, denies it a stable home, but where the whole tone scale floats, the diminished scale coils. The alternating half steps pack it with the kind of close-interval friction that wants to resolve in several directions at once, and the tritones buried inside it give every phrase a nervous, unresolved charge. It sounds ominous, unstable, mechanically precise — a scale that seems to be perpetually about to spring.
+The diminished scale is all tension. Its symmetry, like the whole tone scale's, denies it a stable home, but where the whole tone scale floats, the diminished scale coils. The alternating half steps pack it with the kind of close-interval friction that wants to resolve in several directions at once, and the tritones buried inside it give every phrase a nervous, unresolved charge. It sounds ominous, unstable, mechanically precise, a scale that seems to be perpetually about to spring.
 
 ## In Practice
 

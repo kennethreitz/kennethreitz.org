@@ -1,27 +1,27 @@
 ---
-description: The fifty-six cards of daily life — the four suits and their elements.
+description: The fifty-six cards of daily life, the four suits and their elements.
 source: obsidian-knowledge
 ---
 
 # Minor Arcana
 
-> *The fifty-six cards of daily life — the four suits and their elements.*
+> *The fifty-six cards of daily life, the four suits and their elements.*
 
 ---
 
-The Minor Arcana are the fifty-six cards that handle the texture of ordinary experience — the choices, moods, labors, and encounters that fill the space between the great turnings of the [Major Arcana](/knowledge/tarot/major-arcana). They divide into four suits, each tied to one of the classical elements and one domain of life. The numbered pips (Ace through Ten) trace a situation from seed to fruition; the court cards — Page, Knight, Queen, King — personify ways of embodying the suit's energy.
+The Minor Arcana are the fifty-six cards that handle the texture of ordinary experience, the choices, moods, labors, and encounters that fill the space between the great turnings of the [Major Arcana](/knowledge/tarot/major-arcana). They divide into four suits, each tied to one of the classical elements and one domain of life. The numbered pips (Ace through Ten) trace a situation from seed to fruition; the court cards. Page, Knight, Queen, King, personify ways of embodying the suit's energy.
 
 Each suit has its own overview page tracing the element, the arc of the pips, the courts, and the astrological and Kabbalistic correspondence: [Wands](/knowledge/tarot/minor-arcana/wands) · Fire, [Cups](/knowledge/tarot/minor-arcana/cups) · Water, [Swords](/knowledge/tarot/minor-arcana/swords) · Air, and [Pentacles](/knowledge/tarot/minor-arcana/pentacles) · Earth.
 
-The four suits share one architecture — an element apiece, the same ten pips, and the same four courts.
+The four suits share one architecture, an element apiece, the same ten pips, and the same four courts.
 
 ```mermaid
 flowchart TD
-    MI["Minor Arcana — 56 Cards"]
-    MI --> W["Wands — Fire"]
-    MI --> C["Cups — Water"]
-    MI --> S["Swords — Air"]
-    MI --> P["Pentacles — Earth"]
+    MI["Minor Arcana: 56 Cards"]
+    MI --> W["Wands: Fire"]
+    MI --> C["Cups: Water"]
+    MI --> S["Swords: Air"]
+    MI --> P["Pentacles: Earth"]
     W --> ST["Ten pips (Ace to Ten) + four courts (Page, Knight, Queen, King)"]
     C --> ST
     S --> ST

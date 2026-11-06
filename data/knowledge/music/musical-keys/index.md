@@ -1,12 +1,12 @@
 ---
-description: When Beethoven wrote in A♭ major he knew it was the key of the grave
-  — and knew his audience knew it too.
+description: When Beethoven wrote in A♭ major he knew it was the key of the grave,
+  and knew his audience knew it too.
 source: obsidian-knowledge
 ---
 
 # Musical Keys
 
-> *When Beethoven wrote in A♭ major he knew it was the key of the grave — and knew his audience knew it too.*
+> *When Beethoven wrote in A♭ major he knew it was the key of the grave, and knew his audience knew it too.*
 
 ---
 
@@ -32,7 +32,7 @@ One of the most influential descriptions shared in German-speaking cultures in t
 
 ## Related
 
-- [Major](/knowledge/music/musical-keys/major) — the major keys at a glance
-- [Minor](/knowledge/music/musical-keys/minor) — the minor keys at a glance
+- [Major](/knowledge/music/musical-keys/major), the major keys at a glance
+- [Minor](/knowledge/music/musical-keys/minor), the minor keys at a glance
 - [Music Hub](/knowledge/music)
-- Music Background — twenty-plus years at the kit and in production
+- Music Background: twenty-plus years at the kit and in production

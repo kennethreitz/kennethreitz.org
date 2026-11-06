@@ -78,6 +78,29 @@ $ uv add pymysql      # MySQL
 - [Source Code on GitHub](https://github.com/kennethreitz/records)
 - [Python Package Index](https://pypi.org/project/records/)
 
+<!-- vault:history start -->
+## History
+
+Records provides a simple way to run SQL queries and get results back as nice objects. No ORM, no complex setup, just SQL in, data out.
+
+Built on SQLAlchemy but hides the complexity. You write SQL; records handles the rest.
+
+ORMs are powerful but heavy. Sometimes you just want to:
+1. Connect to a database
+2. Run a query
+3. Get results
+
+Why should that require learning an entire abstraction layer?
+
+SQL is fine: don't hide it, embrace it. Simple connection (one string, one object), nice results (attribute access, not dictionary fumbling), and export anywhere through integration with [tablib](/software/tablib) for format handling.
+
+ORMs solve real problems, but they also create new ones. They add a translation layer between your intention and the database. They generate SQL you didn't write and can't always predict. They require learning an abstraction that sits between you and the thing you actually want to do. For simple queries, they're overhead. For complex queries, they're a prison.
+
+Records takes the opposite stance: SQL is already a good language for talking to databases. The problem was never SQL, it was Python's interface to it. So records fixes the interface and leaves the language alone.
+
+Records uses [tablib](/software/tablib) under the hood for exports, the libraries work together. Query a database, get results, export to CSV or Excel or JSON with one call. This is the "For Humans" ecosystem in action: simple tools that compose. The same data flows from database through records into tablib into whatever format you need.
+<!-- vault:history end -->
+
 ## Related
 
 - [**Tablib**](/software/tablib): The dataset library that powers Records' export functionality.

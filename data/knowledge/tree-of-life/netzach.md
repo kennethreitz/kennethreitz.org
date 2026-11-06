@@ -1,20 +1,20 @@
 ---
-description: Beneath the harmony of the sun there is a green fire that does not reason
-  — it only wants, and its wanting is the engine of the world.
+description: Beneath the harmony of the sun there is a green fire that does not reason,
+  it only wants, and its wanting is the engine of the world.
 source: obsidian-knowledge
 ---
 
 # Netzach  ·  Victory
 
-> *Beneath the harmony of the sun there is a green fire that does not reason — it only wants, and its wanting is the engine of the world.*
+> *Beneath the harmony of the sun there is a green fire that does not reason, it only wants, and its wanting is the engine of the world.*
 
 ---
 
 ## Essence
 
-Netzach is Victory, the seventh emanation and the first sphere of the personality below the heart. It is the realm of feeling, desire, and instinct — the green fire of nature that drives every living thing toward what it loves. Its planet is Venus, and it carries all of Venus’s longing: art, passion, the pull of beauty, the ache of attraction that moves us before thought has any say. Netzach is the force of endurance too, the “victory” that is not conquest but the persistence of desire that outlasts every obstacle, the way water wins by never ceasing to flow.
+Netzach is Victory, the seventh emanation and the first sphere of the personality below the heart. It is the realm of feeling, desire, and instinct, the green fire of nature that drives every living thing toward what it loves. Its planet is Venus, and it carries all of Venus’s longing: art, passion, the pull of beauty, the ache of attraction that moves us before thought has any say. Netzach is the force of endurance too, the “victory” that is not conquest but the persistence of desire that outlasts every obstacle, the way water wins by never ceasing to flow.
 
-To dwell in Netzach is to feel the primacy of emotion, the group-mind of the passions, the imagination that clothes the world in wanting. Its virtue is Unselfishness — desire purified into love that gives rather than grasps. Turned inward and possessive, that same current sours into lust and unchastity, the appetite that consumes what it loves. Netzach cannot see clearly on its own; it is all feeling and no form, and it needs its opposite across the pillar, cool intellectual Hod, to give its passions a shape they can be spoken in.
+To dwell in Netzach is to feel the primacy of emotion, the group-mind of the passions, the imagination that clothes the world in wanting. Its virtue is Unselfishness, desire purified into love that gives rather than grasps. Turned inward and possessive, that same current sours into lust and unchastity, the appetite that consumes what it loves. Netzach cannot see clearly on its own; it is all feeling and no form, and it needs its opposite across the pillar, cool intellectual Hod, to give its passions a shape they can be spoken in.
 
 ## Correspondences
 
@@ -35,7 +35,7 @@ Netzach sits at the base of the Pillar of Mercy, the right-hand column of expans
 
 ## In Tarot
 
-The four Sevens belong to Netzach — a difficult number, where desire is tested against reality. The Seven of Wands is valor holding its ground, the Seven of Cups the illusions that desire conjures, the Seven of Swords cunning and its risks, the Seven of Pentacles patient waiting on the harvest; each shows feeling straining toward its object. As the seat of Venus, Netzach’s planetary trump is [The Empress](/knowledge/tarot/major-arcana/the-empress), the fertile mother of all natural longing and love.
+The four Sevens belong to Netzach, a difficult number, where desire is tested against reality. The Seven of Wands is valor holding its ground, the Seven of Cups the illusions that desire conjures, the Seven of Swords cunning and its risks, the Seven of Pentacles patient waiting on the harvest; each shows feeling straining toward its object. As the seat of Venus, Netzach’s planetary trump is [The Empress](/knowledge/tarot/major-arcana/the-empress), the fertile mother of all natural longing and love.
 
 ## Related
 

@@ -15,7 +15,7 @@ The single stroke seven extends the idea of the single stroke four into a longer
 
 ## Sticking
 
-The standard sticking is seven alternating strokes leading to an accent: **RLRLRLR** with weight on the seventh note, or the mirror **LRLRLRL**. The seven strokes are commonly played as a septuplet across one beat, or as a group of six fast notes plus the accented arrival — either way the ear hears a smooth run gathering into a single strong landing. Describe it as seven even singles resolving onto the beat if the exact subdivision is in question.
+The standard sticking is seven alternating strokes leading to an accent: **RLRLRLR** with weight on the seventh note, or the mirror **LRLRLRL**. The seven strokes are commonly played as a septuplet across one beat, or as a group of six fast notes plus the accented arrival, either way the ear hears a smooth run gathering into a single strong landing. Describe it as seven even singles resolving onto the beat if the exact subdivision is in question.
 
 ## How to Play
 

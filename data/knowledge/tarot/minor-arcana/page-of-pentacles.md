@@ -12,11 +12,11 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A young figure stands alone in a green field, a ploughed furrow and distant trees behind him. In both hands he lifts a single golden pentacle, studying it with rapt, unhurried attention, as though reading something written on its surface. His stance is planted and still; the whole world seems paused around his concentration. He is dressed simply, a student rather than a prince, and the ground beneath him is fertile and freshly turned — potential everywhere, but nothing yet grown. The card radiates the earnest, studious wonder of a beginner who has found something worth taking seriously.
+A young figure stands alone in a green field, a ploughed furrow and distant trees behind him. In both hands he lifts a single golden pentacle, studying it with rapt, unhurried attention, as though reading something written on its surface. His stance is planted and still; the whole world seems paused around his concentration. He is dressed simply, a student rather than a prince, and the ground beneath him is fertile and freshly turned, potential everywhere, but nothing yet grown. The card radiates the earnest, studious wonder of a beginner who has found something worth taking seriously.
 
 ## Upright
 
-The Page of Pentacles is the student and the apprentice, the fresh curiosity that grounds itself in study, skill, and the tangible world. He is the impulse to learn something real — to master a craft, begin a course, pursue a practical dream with patient application. Drawn upright he brings news of new ventures, scholarships, and opportunities in the material realm, and the diligent, methodical temperament that makes the most of them. He is the least flashy of the Pages and the most reliable, promising not brilliance but the steady, teachable devotion from which real competence grows. Something is beginning, and it asks to be studied.
+The Page of Pentacles is the student and the apprentice, the fresh curiosity that grounds itself in study, skill, and the tangible world. He is the impulse to learn something real, to master a craft, begin a course, pursue a practical dream with patient application. Drawn upright he brings news of new ventures, scholarships, and opportunities in the material realm, and the diligent, methodical temperament that makes the most of them. He is the least flashy of the Pages and the most reliable, promising not brilliance but the steady, teachable devotion from which real competence grows. Something is beginning, and it asks to be studied.
 
 ## Reversed
 
@@ -26,7 +26,7 @@ Reversed, the promise stalls. The card can show a learner who will not apply him
 
 | Attribute | Value |
 | --- | --- |
-| **Element** | Earth. As the Page of the suit, this court card is the Earth of Earth — the earthy, receptive, grounding aspect of the elemental family, the most rooted and material of all the pages. |
+| **Element** | Earth. As the Page of the suit, this court card is the Earth of Earth, the earthy, receptive, grounding aspect of the elemental family, the most rooted and material of all the pages. |
 
 ## Archetype
 
@@ -34,7 +34,7 @@ The Page is the puer, the eternal child of the psyche, here turned toward the ea
 
 ## Mythological Echoes
 
-He echoes the young apprentices of every wisdom tradition — the novice sweeping the temple floor before he is taught anything, the boy Telemachus setting out to become worthy of his lineage, the students of the alchemists learning to read the book of nature. Across cultures the figure of the earnest neophyte holding a sacred token recurs, the seed of mastery in a hand not yet skilled, all the harvest still ahead.
+He echoes the young apprentices of every wisdom tradition, the novice sweeping the temple floor before he is taught anything, the boy Telemachus setting out to become worthy of his lineage, the students of the alchemists learning to read the book of nature. Across cultures the figure of the earnest neophyte holding a sacred token recurs, the seed of mastery in a hand not yet skilled, all the harvest still ahead.
 
 ## In Practice
 

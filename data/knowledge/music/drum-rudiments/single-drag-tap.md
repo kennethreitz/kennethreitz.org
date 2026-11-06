@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Rudiment
 
-The single drag tap pairs a dragged, accented note with a single tap, then hands off to the other side. Each cell is a drag leading into an accented primary followed by one unaccented stroke — “drag-TAP, tap” — and because the lead alternates, the figure walks steadily from hand to hand. It is the most direct application of the drag: take the basic ruff and give it a rhythmic home with a following tap.
+The single drag tap pairs a dragged, accented note with a single tap, then hands off to the other side. Each cell is a drag leading into an accented primary followed by one unaccented stroke. “drag-TAP, tap”, and because the lead alternates, the figure walks steadily from hand to hand. It is the most direct application of the drag: take the basic ruff and give it a rhythmic home with a following tap.
 
 ## Sticking
 

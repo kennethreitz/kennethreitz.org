@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Stone
 
-Obsidian is not a crystal at all but a glass — lava cooled so quickly that its atoms never had time to arrange themselves into a lattice. The result is a glossy, jet-black volcanic glass that fractures into wickedly sharp conchoidal edges, sharp enough that surgeons and ancient toolmakers alike have used it as a blade. Polished into a sphere or slab, its surface becomes a true black mirror, and cultures from the Aztecs to the diviners of old Europe have gazed into it for exactly that reason.
+Obsidian is not a crystal at all but a glass, lava cooled so quickly that its atoms never had time to arrange themselves into a lattice. The result is a glossy, jet-black volcanic glass that fractures into wickedly sharp conchoidal edges, sharp enough that surgeons and ancient toolmakers alike have used it as a blade. Polished into a sphere or slab, its surface becomes a true black mirror, and cultures from the Aztecs to the diviners of old Europe have gazed into it for exactly that reason.
 
 There is something honest about Obsidian, and something a little dangerous. It is born of the earth’s violence, and it does not soften what it shows. To work with it is to accept that a mirror does not flatter.
 
@@ -27,11 +27,11 @@ There is something honest about Obsidian, and something a little dangerous. It i
 
 ## Properties
 
-Obsidian is the stone of truth and shadow work — a mirror held up to the psyche that reflects, without mercy or malice, whatever has been buried. Grounded at the [root](/knowledge/chakras/muladhara), it protects fiercely while it excavates, drawing suppressed grief, denial, and self-deception into the light where they can finally be met. It cuts through illusion and pretence, both one’s own and others’, which makes it a demanding ally: it heals by first insisting that you see.
+Obsidian is the stone of truth and shadow work, a mirror held up to the psyche that reflects, without mercy or malice, whatever has been buried. Grounded at the [root](/knowledge/chakras/muladhara), it protects fiercely while it excavates, drawing suppressed grief, denial, and self-deception into the light where they can finally be met. It cuts through illusion and pretence, both one’s own and others’, which makes it a demanding ally: it heals by first insisting that you see.
 
 ## In Practice
 
-A polished obsidian mirror or sphere is used for scrying and for the slow, deliberate work of facing what one avoids — best approached gradually rather than all at once. Carried or placed at the feet, it grounds and shields. Because its work is intense, many pair it with a gentler heart stone and cleanse it often in running water or moonlight after difficult sessions.
+A polished obsidian mirror or sphere is used for scrying and for the slow, deliberate work of facing what one avoids, best approached gradually rather than all at once. Carried or placed at the feet, it grounds and shields. Because its work is intense, many pair it with a gentler heart stone and cleanse it often in running water or moonlight after difficult sessions.
 
 ## Related
 

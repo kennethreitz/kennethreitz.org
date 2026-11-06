@@ -1,12 +1,12 @@
 ---
-description: The current that flows out, around, and back into itself — the shape
-  a field makes when it lives.
+description: The current that flows out, around, and back into itself, the shape a
+  field makes when it lives.
 source: obsidian-knowledge
 ---
 
 # Torus
 
-> *The current that flows out, around, and back into itself — the shape a field makes when it lives.*
+> *The current that flows out, around, and back into itself, the shape a field makes when it lives.*
 
 ---
 

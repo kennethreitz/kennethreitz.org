@@ -1,11 +1,11 @@
 ---
-description: Reformed theology — The sovereignty of God and the doctrines of grace
+description: 'Reformed theology: The sovereignty of God and the doctrines of grace'
 source: obsidian-knowledge
 ---
 
 # Calvinism
 
-> *Reformed theology — The sovereignty of God and the doctrines of grace*
+> *Reformed theology: The sovereignty of God and the doctrines of grace*
 
 ---
 
@@ -21,11 +21,11 @@ The five points of Calvinism, crystallized at the Synod of Dort (1618-1619):
 
 ### Total Depravity
 
-Humanity is completely affected by sin. Not that humans are as evil as possible, but that sin touches every aspect of human nature — mind, will, emotions, body. Apart from grace, humans cannot choose God.
+Humanity is completely affected by sin. Not that humans are as evil as possible, but that sin touches every aspect of human nature, mind, will, emotions, body. Apart from grace, humans cannot choose God.
 
 ### Unconditional Election
 
-God chooses who will be saved based on His will alone, not on foreseen faith or merit. Election is unconditional — not based on anything in the person, only on God's sovereign choice.
+God chooses who will be saved based on His will alone, not on foreseen faith or merit. Election is unconditional, not based on anything in the person, only on God's sovereign choice.
 
 ### Limited Atonement
 
@@ -37,7 +37,7 @@ When God calls the elect to salvation, they cannot ultimately resist. The Holy S
 
 ### Perseverance of the Saints
 
-Those truly saved will persevere to the end. True believers cannot lose their salvation. Often called "eternal security" or "once saved, always saved" — though Calvinists emphasize that perseverance is evidence of genuine faith.
+Those truly saved will persevere to the end. True believers cannot lose their salvation. Often called "eternal security" or "once saved, always saved", though Calvinists emphasize that perseverance is evidence of genuine faith.
 
 ---
 
@@ -53,7 +53,7 @@ Calvin's theology emerged alongside Luther's but developed distinctive emphases.
 
 ### Post-Calvin Development
 
-The **Synod of Dort (1618-1619)** responded to Arminianism, crystallized the five points (TULIP), and defined orthodox Reformed theology. The **Puritans** — English Calvinists — brought the theology to America and profoundly influenced American culture.
+The **Synod of Dort (1618-1619)** responded to Arminianism, crystallized the five points (TULIP), and defined orthodox Reformed theology. The **Puritans**. English Calvinists, brought the theology to America and profoundly influenced American culture.
 
 ---
 
@@ -137,7 +137,7 @@ The emphasis on literacy (for reading Scripture) drove universal education and c
 
 ### Art and Aesthetics
 
-Iconoclasm removed images from worship, favoring simple, austere worship spaces and emphasizing Word over image — yet producing a rich literary tradition.
+Iconoclasm removed images from worship, favoring simple, austere worship spaces and emphasizing Word over image, yet producing a rich literary tradition.
 
 ---
 
@@ -149,7 +149,7 @@ Critics argue Calvinism makes humans puppets, eliminates free will, and makes Go
 
 ### Harshness
 
-The doctrine of reprobation seems cruel — God condemning people to hell before they're born. Calvinists respond that all deserve hell (total depravity), grace is mercy not obligation, God's justice is perfect, and we cannot judge God's ways.
+The doctrine of reprobation seems cruel: God condemning people to hell before they're born. Calvinists respond that all deserve hell (total depravity), grace is mercy not obligation, God's justice is perfect, and we cannot judge God's ways.
 
 ### Pastoral Problems
 
@@ -191,14 +191,14 @@ Westminster Theological Seminary, Reformed Theological Seminary, Covenant Theolo
 
 ## Related
 
-- [Spirituality](/knowledge/spirituality) — Broader context
-- [Protestantism](/knowledge/spirituality/protestantism) — The wider tradition the Reformed branch belongs to
-- Philosophy — Theological and philosophical connections
-- Psychology — Views of human nature
-- [Existentialism](/knowledge/philosophy/existentialism) — Predestination vs radical freedom
-- [Henotheism](/knowledge/spirituality/henotheism) — Alternative devotional framework
-- Religious Archetypes & Psychic Integration — Devotion as psychological practice
-- [Stoicism](/knowledge/philosophy/stoicism) — Parallel ethics of virtue
+- [Spirituality](/knowledge/spirituality): Broader context
+- [Protestantism](/knowledge/spirituality/protestantism): The wider tradition the Reformed branch belongs to
+- [Philosophy](/knowledge/philosophy): Theological and philosophical connections
+- [Psychology](/knowledge/psychology): Views of human nature
+- [Existentialism](/knowledge/philosophy/existentialism): Predestination vs radical freedom
+- [Henotheism](/knowledge/spirituality/henotheism): Alternative devotional framework
+- [Religious Archetypes & Psychic Integration](/knowledge/psychology/jungian/religious-archetypes-and-psychic-integration): Devotion as psychological practice
+- [Stoicism](/knowledge/philosophy/stoicism): Parallel ethics of virtue
 
 ---
 
@@ -220,4 +220,4 @@ Westminster Theological Seminary, Reformed Theological Seminary, Covenant Theolo
 
 ---
 
-*"Our wisdom ought to be nothing else than to embrace with humble teachableness whatever is taught in Sacred Scripture." — John Calvin*
+*"Our wisdom ought to be nothing else than to embrace with humble teachableness whatever is taught in Sacred Scripture.". John Calvin*

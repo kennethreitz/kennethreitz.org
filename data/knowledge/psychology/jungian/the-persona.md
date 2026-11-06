@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ## Definition
 
-The persona is the mask or role we adopt to meet the demands of social life. It's the compromise between our true individuality and what society expects of us. The word comes from Latin, meaning "mask" — the masks worn by actors in classical theater.
+The persona is the mask or role we adopt to meet the demands of social life. It's the compromise between our true individuality and what society expects of us. The word comes from Latin, meaning "mask", the masks worn by actors in classical theater.
 
 **Jung**: "The persona is a complicated system of relations between individual consciousness and society, fittingly enough a kind of mask, designed on the one hand to make a definite impression upon others, and, on the other, to conceal the true nature of the individual."
 
@@ -18,7 +18,7 @@ The persona is the mask or role we adopt to meet the demands of social life. It'
 
 ## Nature of the Persona
 
-The persona is a social necessity — required for functioning, adaptation to collective norms, professional and social roles, "how we behave in public." It's not inherently bad. It's necessary for civilization, protects inner life, enables social interaction, and serves as a functional compromise.
+The persona is a social necessity: required for functioning, adaptation to collective norms, professional and social roles, "how we behave in public." It's not inherently bad. It's necessary for civilization, protects inner life, enables social interaction, and serves as a functional compromise.
 
 We all wear multiple personae. Different masks for different contexts: work persona versus home persona, professional versus casual, cultural versus private.
 
@@ -26,7 +26,7 @@ We all wear multiple personae. Different masks for different contexts: work pers
 
 ## Formation of the Persona
 
-The persona develops early. The child learns "how to be" — family teaches acceptable behavior, school reinforces social rules, culture provides templates. Influences include family expectations ("Be a good boy/girl"), cultural norms and values, professional requirements, gender roles, and class and social position.
+The persona develops early. The child learns "how to be", family teaches acceptable behavior, school reinforces social rules, culture provides templates. Influences include family expectations ("Be a good boy/girl"), cultural norms and values, professional requirements, gender roles, and class and social position.
 
 Its adaptive function is real: the persona allows functioning in society, reduces conflict, provides initial identity, and creates belonging.
 
@@ -76,13 +76,13 @@ The morally upright persona hides vice in the shadow. The tough guy persona hide
 
 ## Persona in Different Contexts
 
-The **professional persona** carries role requirements, expertise display, authority or service, the competence mask. The **social persona** is the party self versus quiet self — extroverted mask, "putting on a face," performance of normalcy. The **family persona** is the parent role, sibling role, partner role — different from the work self. The **cultural persona** encompasses national identity, ethnic or racial masks, religious persona, class performance.
+The **professional persona** carries role requirements, expertise display, authority or service, the competence mask. The **social persona** is the party self versus quiet self, extroverted mask, "putting on a face," performance of normalcy. The **family persona** is the parent role, sibling role, partner role, different from the work self. The **cultural persona** encompasses national identity, ethnic or racial masks, religious persona, class performance.
 
 ---
 
 ## Persona and Authenticity
 
-The core tension: authenticity requires dropping the persona, but society requires the persona. The balance is a transparent persona — congruence between inside and outside, authentic within the role, flexible rather than rigid.
+The core tension: authenticity requires dropping the persona, but society requires the persona. The balance is a transparent persona, congruence between inside and outside, authentic within the role, flexible rather than rigid.
 
 In relationships, intimacy requires vulnerability. You can't love a persona. The mask must drop for connection, which means risking the real self.
 
@@ -92,7 +92,7 @@ In relationships, intimacy requires vulnerability. You can't love a persona. The
 
 ### When Persona Fails
 
-Triggers include job loss, retirement, divorce, physical illness or aging, and public failure. The crisis brings "Who am I without my role?" — identity collapse, depression, existential crisis.
+Triggers include job loss, retirement, divorce, physical illness or aging, and public failure. The crisis brings "Who am I without my role?", identity collapse, depression, existential crisis.
 
 The opportunity within the crisis: discover the real self, build authentic identity, become less dependent on external validation. Individuation begins.
 
@@ -114,13 +114,13 @@ The persona built in the first half of life is often inadequate for the second h
 
 ## Persona in Dreams
 
-Clothing (persona is what you wear), masks or costumes, acting or performance, professional settings, being "found out" or exposed. The common **naked dream** is the anxiety of persona stripped away — fear of exposure, vulnerability revealed.
+Clothing (persona is what you wear), masks or costumes, acting or performance, professional settings, being "found out" or exposed. The common **naked dream** is the anxiety of persona stripped away, fear of exposure, vulnerability revealed.
 
 ---
 
 ## Cultural Persona
 
-Collective masks include national identity, professional archetypes (doctor, artist, etc.), gender roles, and social class performance. At the extreme, the collective persona becomes stereotype — loss of individuality, living the cliche, cultural programming.
+Collective masks include national identity, professional archetypes (doctor, artist, etc.), gender roles, and social class performance. At the extreme, the collective persona becomes stereotype, loss of individuality, living the cliche, cultural programming.
 
 ---
 
@@ -137,20 +137,20 @@ How: Notice when you're "performing." Identify your various personae. Feel the d
 ## Related Concepts
 
 ### Core Jungian Ideas
-- The Shadow — Opposite/compensation of persona
-- [The Self](/knowledge/psychology/jungian/the-self) — What lies beneath persona
-- [Individuation](/knowledge/psychology/jungian/individuation) — Seeing through persona is key step
-- [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus) — Also hidden behind persona
-- Overview of All Concepts
+- [The Shadow](/knowledge/psychology/jungian/the-shadow): Opposite/compensation of persona
+- [The Self](/knowledge/psychology/jungian/the-self): What lies beneath persona
+- [Individuation](/knowledge/psychology/jungian/individuation): Seeing through persona is key step
+- [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus): Also hidden behind persona
+- [Overview of All Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 
 ### In Practice
 - [Spiritual Authenticity](/knowledge/spirituality)
-- System 777 — Kenneth as explicit persona alter
+- [System 777](/system-777): Kenneth as explicit persona alter
 
 ### Connections
-- [Existentialism](/knowledge/philosophy/existentialism) — Authenticity vs. social mask
-- [Dissociation](/knowledge/psychology/dissociation) — Identity fragmentation and the mask
-- [Theory of Mind](/knowledge/ai/theory-of-mind) — Social mask and perception of others
+- [Existentialism](/knowledge/philosophy/existentialism): Authenticity vs. social mask
+- [Dissociation](/knowledge/psychology/dissociation): Identity fragmentation and the mask
+- [Theory of Mind](/knowledge/ai/theory-of-mind): Social mask and perception of others
 
 ---
 

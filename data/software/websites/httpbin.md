@@ -69,6 +69,18 @@ I also run my own instance at [httpbin.kennethreitz.org](https://httpbin.kenneth
 - [Source Code on GitHub](https://github.com/postmanlabs/httpbin): Now maintained by Postman.
 - [Docker Image](https://hub.docker.com/r/kennethreitz/httpbin): Run your own instance.
 
+<!-- vault:history start -->
+## History
+
+HTTPBin is a simple HTTP request/response service. Send it requests, get predictable responses back. Invaluable for testing HTTP clients, debugging requests, and learning HTTP.
+
+HTTPBin became essential testing infrastructure: used in tutorials worldwide, referenced in documentation for HTTP libraries, helping developers learn HTTP mechanics. Free, reliable, always available. The kind of invisible infrastructure that makes the internet work better.
+
+Kenneth sold httpbin.org for ad revenue multiple. Like [python-guide.org](/library/books/hitchhikers-guide-to-python), the monetary value didn't reflect the community value, but it provided compensation for years of free service.
+
+HTTPBin and [requests](/software/requests) grew up together. Requests needed something to test against, HTTPBin needed a good client to demonstrate, and they showcase each other in documentation. Perfect symbiosis.
+<!-- vault:history end -->
+
 ## Related
 
 - [**Requests**](/software/requests): The HTTP library httpbin was built to support.

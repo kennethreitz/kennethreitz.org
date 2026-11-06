@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Angel
 
-Mehiel derives from a root of vivifying and enlivening — *mahah*, to give life — sealed by the divine suffix *-el*, and is rendered *God who vivifies all things*. Its animating power settles, in the tradition, upon the human works most nearly alive: language and its makers. Mehiel is the protector of authors and orators, of printers and publishers, of all who set the living word into fixed form and send it out to quicken others. The angel that vivifies the cosmos also vivifies the sentence.
+Mehiel derives from a root of vivifying and enlivening, *mahah*, to give life, sealed by the divine suffix *-el*, and is rendered *God who vivifies all things*. Its animating power settles, in the tradition, upon the human works most nearly alive: language and its makers. Mehiel is the protector of authors and orators, of printers and publishers, of all who set the living word into fixed form and send it out to quicken others. The angel that vivifies the cosmos also vivifies the sentence.
 
-The virtue Mehiel bestows is eloquence made fertile — inspiration that finds its form, the moment when a diffuse intuition crystallises into speech that moves. It guards those who teach and persuade against sterility and against the loss of nerve, and it is anciently invoked as a protection against rabid animals and other savage threats, as though the civilising power of the word stood opposed to the raw ferocity of the beast. Under its governance the writer's block dissolves, the orator finds the true pitch of an argument, and the reader is enlivened in turn. Mehiel completes a small Aquarian arc of the mind — after Anauel's honest commerce, the commerce of ideas — and hands the living word onward into the closing degrees of the sign.
+The virtue Mehiel bestows is eloquence made fertile: inspiration that finds its form, the moment when a diffuse intuition crystallises into speech that moves. It guards those who teach and persuade against sterility and against the loss of nerve, and it is anciently invoked as a protection against rabid animals and other savage threats, as though the civilising power of the word stood opposed to the raw ferocity of the beast. Under its governance the writer's block dissolves, the orator finds the true pitch of an argument, and the reader is enlivened in turn. Mehiel completes a small Aquarian arc of the mind, after Anauel's honest commerce, the commerce of ideas, and hands the living word onward into the closing degrees of the sign.
 
 ## Attributes
 
@@ -32,3 +32,5 @@ The virtue Mehiel bestows is eloquence made fertile — inspiration that finds i
 - [Haures](/knowledge/angels-and-demons/ars-goetia/haures)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the second decan of Aquarius with its pair, and so the Six of Swords. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

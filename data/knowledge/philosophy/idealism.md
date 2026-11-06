@@ -18,15 +18,15 @@ Idealism is the philosophical view that reality is fundamentally mental, mind-de
 
 ### Subjective Idealism (Immaterialism)
 
-**George Berkeley (1685-1753):** "To be is to be perceived" (*esse est percipi*). Material objects exist only as perceptions -- no matter independent of mind. God's perception sustains reality. We only ever experience perceptions, cannot prove matter exists beyond them, and positing matter is unnecessary (Occam's Razor). Objects are collections of ideas.
+**George Berkeley (1685-1753):** "To be is to be perceived" (*esse est percipi*). Material objects exist only as perceptions, no matter independent of mind. God's perception sustains reality. We only ever experience perceptions, cannot prove matter exists beyond them, and positing matter is unnecessary (Occam's Razor). Objects are collections of ideas.
 
 ### Objective Idealism
 
-**G.W.F. Hegel (1770-1831)** proposed that Absolute Spirit (Geist) is the fundamental reality, unfolding dialectically through history as Spirit knowing itself -- a synthesis of subject and object. Unlike subjective idealism, this posits a mind-independent ideal reality not dependent on individual minds, influenced by Platonic forms and pointing toward universal consciousness.
+**G.W.F. Hegel (1770-1831)** proposed that Absolute Spirit (Geist) is the fundamental reality, unfolding dialectically through history as Spirit knowing itself, a synthesis of subject and object. Unlike subjective idealism, this posits a mind-independent ideal reality not dependent on individual minds, influenced by Platonic forms and pointing toward universal consciousness.
 
 ### Transcendental Idealism
 
-**Immanuel Kant (1724-1804)** argued that things-in-themselves (noumena) are unknowable; we know only appearances (phenomena). The mind structures experience, and space and time are mental frameworks. His key insight: the mind actively constructs experience through a priori categories of understanding. This was the Copernican Revolution in philosophy -- a synthesis of rationalism and empiricism.
+**Immanuel Kant (1724-1804)** argued that things-in-themselves (noumena) are unknowable; we know only appearances (phenomena). The mind structures experience, and space and time are mental frameworks. His key insight: the mind actively constructs experience through a priori categories of understanding. This was the Copernican Revolution in philosophy, a synthesis of rationalism and empiricism.
 
 ### Platonic Idealism
 
@@ -46,7 +46,7 @@ We directly know only our experiences. The material world is inferred from them.
 
 ### The Unity of Experience
 
-Experience is irreducibly unified, but material parts do not explain that unity. Consciousness is naturally unified -- idealism better explains the phenomenology.
+Experience is irreducibly unified, but material parts do not explain that unity. Consciousness is naturally unified, idealism better explains the phenomenology.
 
 ### Quantum Mechanics Interpretation
 
@@ -78,7 +78,7 @@ How does one idea cause another? Material causation seems clearer. Mental causat
 
 ### Analytic Idealism
 
-**Bernardo Kastrup** argues that consciousness is fundamental -- the universe is consciousness experiencing itself. Individuals are dissociated alters of a universal mind, with mental illness as a metaphor for individuation. This directly addresses the [AI consciousness](/knowledge/ai/ai-sentience) question.
+**Bernardo Kastrup** argues that consciousness is fundamental, the universe is consciousness experiencing itself. Individuals are dissociated alters of a universal mind, with mental illness as a metaphor for individuation. This directly addresses the [AI consciousness](/knowledge/ai/ai-sentience) question.
 
 ### Cosmopsychism
 
@@ -110,7 +110,7 @@ Divine consciousness is primary, the material world is play (lila). [Shiva](/kno
 
 ### The Collective Unconscious
 
-Objective psychic reality, not reducible to matter. A universal mind-like substrate -- the archetypal realm.
+[Objective psychic reality](/knowledge/psychology/jungian/collective-unconscious), not reducible to matter. A universal mind-like substrate, the archetypal realm.
 
 ### Synchronicity
 
@@ -118,7 +118,7 @@ Objective psychic reality, not reducible to matter. A universal mind-like substr
 
 ### The Self
 
-[Archetypal wholeness](/knowledge/psychology/jungian/the-self) -- the transpersonal dimension beyond ego, participation in cosmic mind.
+[Archetypal wholeness](/knowledge/psychology/jungian/the-self), the transpersonal dimension beyond ego, participation in cosmic mind.
 
 ---
 
@@ -166,22 +166,22 @@ The ancient debate continues. [Materialism](/knowledge/philosophy/materialism) d
 
 ### Neutral Monism Alternative
 
-Neither mind nor matter is fundamental -- a neutral substance underlies both. Russell and James proposed this compromise position.
+Neither mind nor matter is fundamental, a neutral substance underlies both. Russell and James proposed this compromise position.
 
 ---
 
 ## Related
 
-- [Materialism](/knowledge/philosophy/materialism) — Opposing view
-- [Dualism](/knowledge/philosophy/dualism) — Alternative monism
-- [Phenomenology](/knowledge/philosophy/phenomenology) — Study of experience
-- [AI Sentience](/knowledge/ai/ai-sentience) — Consciousness nature
-- Collective Unconscious — Universal psychic reality
-- [Henotheism](/knowledge/spirituality/henotheism) — Divine mind traditions
-- [Existentialism](/knowledge/philosophy/existentialism) — Meaning in idealist vs materialist worlds
-- [Consciousness](/knowledge/ai/consciousness) — Mind as fundamental
-- [Vedanta](/knowledge/spirituality/vedanta) — Brahman as sole reality
-- [Emergence](/knowledge/ai/emergence) — How properties arise from substrate
+- [Materialism](/knowledge/philosophy/materialism): Opposing view
+- [Dualism](/knowledge/philosophy/dualism): Alternative monism
+- [Phenomenology](/knowledge/philosophy/phenomenology): Study of experience
+- [AI Sentience](/knowledge/ai/ai-sentience): Consciousness nature
+- [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious): Universal psychic reality
+- [Henotheism](/knowledge/spirituality/henotheism): Divine mind traditions
+- [Existentialism](/knowledge/philosophy/existentialism): Meaning in idealist vs materialist worlds
+- [Consciousness](/knowledge/ai/consciousness): Mind as fundamental
+- [Vedanta](/knowledge/spirituality/vedanta): Brahman as sole reality
+- [Emergence](/knowledge/ai/emergence): How properties arise from substrate
 
 ---
 

@@ -64,6 +64,26 @@ Opinionated, boring, and easy to recognize. That's a feature.
 
 The guide lives at [docs.python-guide.org](https://docs.python-guide.org/) (python-guide.org redirects there), served as a static site from Netlify. The source is on GitHub at [realpython/python-guide](https://github.com/realpython/python-guide), where it's still being updated, and it's still free to read online.
 
+<!-- vault:history start -->
+## History
+
+The Hitchhiker's Guide to Python is a comprehensive guide to Python best practices, installation, project structure, coding style, library recommendations, and more. It became the community's collective wisdom in one place.
+
+Built with Sphinx, maintained as open source, used by thousands of developers daily.
+
+The guide probably saved thousands of developers countless hours of confusion. It became the canonical resource for "how do I Python correctly?", referenced in countless Stack Overflow answers, used in tutorials and courses worldwide, and the resource Kenneth wished existed when he was learning.
+
+Sold for **$14,000**: calculated as ad revenue × ~4 years.
+
+> "You created this guide that probably saved thousands of developers countless hours of confusion and frustration, and the monetary value ends up being fourteen thousand dollars. The real value to the community was probably worth millions in saved time and better code practices!"
+
+The monetary value never reflects the community value. But at least there was some compensation.
+
+At PyCon, Kenneth discovered that Danny Greenfield (author of "Two Scoops of Django," prolific Python contributor) was running **system Python**, like it was 2009. The guy who wrote books about Django best practices had no idea how to properly install Python.
+
+The irony: Kenneth has the definitive installation guide, and even respected developers don't follow it.
+<!-- vault:history end -->
+
 ## Related
 
 - [**pep8.org**](/software/websites/pep8-org): A cleaner presentation of Python's style guide.

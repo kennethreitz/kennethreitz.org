@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Valac — variously spelled Valak, Ualac, or Volac — is the sixty-second spirit of the Ars Goetia and holds the rank of President. His appearance is among the most memorable in the whole catalogue: he manifests as a small boy with the wings of an angel, riding upon a two-headed dragon. The incongruity of the innocent child astride the monstrous serpent has made him a favourite of later illustrators and a striking emblem of the grimoire's habit of clothing power in unexpected forms.
+Valac: variously spelled Valak, Ualac, or Volac: is the sixty-second spirit of the Ars Goetia and holds the rank of President. His appearance is among the most memorable in the whole catalogue: he manifests as a small boy with the wings of an angel, riding upon a two-headed dragon. The incongruity of the innocent child astride the monstrous serpent has made him a favourite of later illustrators and a striking emblem of the grimoire's habit of clothing power in unexpected forms.
 
-The tradition assigns him a curious specialty. Where his neighbours teach arts or transmute substances, Valac deals in things concealed — the hidden treasures of the earth and the serpents that guard them. He is, in the older reading, a finder and a revealer, a spirit whose gift is disclosure rather than force.
+The tradition assigns him a curious specialty. Where his neighbours teach arts or transmute substances, Valac deals in things concealed, the hidden treasures of the earth and the serpents that guard them. He is, in the older reading, a finder and a revealer, a spirit whose gift is disclosure rather than force.
 
 ## Office
 

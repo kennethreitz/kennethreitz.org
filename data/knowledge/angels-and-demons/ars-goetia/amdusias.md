@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Amdusias — recorded also as Amduscias or Ambduscias — is the sixty-seventh spirit of the Ars Goetia and a Great Duke. He appears at first in the shape of a unicorn, and when the conjurer commands, he takes on human form, arriving amid the sound of trumpets and all manner of musical instruments, though the instruments themselves are not seen. This unseen music is his signature, and it lends him a distinctly festive and theatrical character among the seventy-two.
+Amdusias: recorded also as Amduscias or Ambduscias: is the sixty-seventh spirit of the Ars Goetia and a Great Duke. He appears at first in the shape of a unicorn, and when the conjurer commands, he takes on human form, arriving amid the sound of trumpets and all manner of musical instruments, though the instruments themselves are not seen. This unseen music is his signature, and it lends him a distinctly festive and theatrical character among the seventy-two.
 
 He is preeminently the spirit of music and of the concord of sounds, a curious pairing with his dominion over the growth of trees. The grimoire treats him as a lord of harmonies both audible and vegetal, one whose power is felt as much through the ear and the garden as through any working of the will.
 

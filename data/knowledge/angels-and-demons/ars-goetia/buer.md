@@ -17,7 +17,7 @@ He belongs to the healing and teaching class of spirits, and the grimoire treats
 
 ## Office
 
-According to the *Goetia*, Buer teaches natural and moral philosophy, logic, and the virtues of all herbs and plants. He heals distempers, particularly those of men, and bestows good and faithful familiars. His office is therefore that of the physician-philosopher — a spirit consulted for learning, for the properties of the natural world, and for the cure of ailments — which places him among the more benign presences of the catalogue.
+According to the *Goetia*, Buer teaches natural and moral philosophy, logic, and the virtues of all herbs and plants. He heals distempers, particularly those of men, and bestows good and faithful familiars. His office is therefore that of the physician-philosopher, a spirit consulted for learning, for the properties of the natural world, and for the cure of ailments, which places him among the more benign presences of the catalogue.
 
 ## Attributes
 

@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Dantalion is the seventy-first spirit of the Ars Goetia and a Great Duke, the last of the dukes and among the most singular figures in the catalogue. He appears in the form of a man with many faces — the countenances of all men and all women — and carries in his right hand a book, as though he were forever reading and comparing the innumerable expressions he bears. The image is one of the grimoire's most vivid: a shifting multiplicity of human faces gathered into a single spirit who studies them all.
+Dantalion is the seventy-first spirit of the Ars Goetia and a Great Duke, the last of the dukes and among the most singular figures in the catalogue. He appears in the form of a man with many faces, the countenances of all men and all women, and carries in his right hand a book, as though he were forever reading and comparing the innumerable expressions he bears. The image is one of the grimoire's most vivid: a shifting multiplicity of human faces gathered into a single spirit who studies them all.
 
-His province is the mind itself — its thoughts, its inclinations, and its capacity to be changed. The tradition treats him as a master of psychology in the old sense, one who both perceives the secret contents of the heart and works to reshape them, and he is often numbered among the more powerful and comprehensive spirits of the seventy-two.
+His province is the mind itself, its thoughts, its inclinations, and its capacity to be changed. The tradition treats him as a master of psychology in the old sense, one who both perceives the secret contents of the heart and works to reshape them, and he is often numbered among the more powerful and comprehensive spirits of the seventy-two.
 
 ## Office
 

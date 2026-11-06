@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Orias — sometimes rendered Oriax — is the fifty-ninth spirit of the Ars Goetia and holds the rank of Great Marquis. In the tradition of the Lesser Key of Solomon he is figured as a lion, though a lion transfigured: he rides upon a strong horse and carries in his hand two great serpents that hiss and coil about his arm. The imagery marks him as a creature poised between beast and horseman, terrestrial power steered by a rider's intelligence, and the serpents underline his association with hidden and sidereal knowledge.
+Orias: sometimes rendered Oriax: is the fifty-ninth spirit of the Ars Goetia and holds the rank of Great Marquis. In the tradition of the Lesser Key of Solomon he is figured as a lion, though a lion transfigured: he rides upon a strong horse and carries in his hand two great serpents that hiss and coil about his arm. The imagery marks him as a creature poised between beast and horseman, terrestrial power steered by a rider's intelligence, and the serpents underline his association with hidden and sidereal knowledge.
 
 The grimoire counts him among the astral spirits, those whose competence lies in the reading of the sky rather than in war or treasure. Where other spirits promise gold or armies, Orias promises literacy in the language of the stars, a quieter and more scholarly office that later commentators found congenial to the astrological cast of Renaissance magic.
 

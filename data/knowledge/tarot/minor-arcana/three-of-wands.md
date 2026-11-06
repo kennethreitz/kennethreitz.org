@@ -12,11 +12,11 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A cloaked figure stands on the edge of a cliff, seen from behind and slightly turned, looking out across a golden bay toward distant hills. Three wands are planted in the ground around him, and he holds one lightly, using it less as a support than as a mooring while he watches. Ships move on the water far below. The palette is warm — ochre robe, saffron sky — and the composition sends the gaze outward and downward toward the horizon of commerce and return. The feeling is patient expectancy: the work of setting out is done, and now comes the long, confident watch.
+A cloaked figure stands on the edge of a cliff, seen from behind and slightly turned, looking out across a golden bay toward distant hills. Three wands are planted in the ground around him, and he holds one lightly, using it less as a support than as a mooring while he watches. Ships move on the water far below. The palette is warm, ochre robe, saffron sky, and the composition sends the gaze outward and downward toward the horizon of commerce and return. The feeling is patient expectancy: the work of setting out is done, and now comes the long, confident watch.
 
 ## Upright
 
-Where the Two of Wands surveyed the horizon, the Three has committed to it. The ships are launched; enterprise is underway. This card speaks of foresight rewarded, of expansion and the first returns coming in, of collaboration and trade reaching beyond the familiar shore. It carries a settled, forward-looking confidence — the entrepreneur watching his investments sail, the traveller whose plans have become momentum. The invitation is to trust what you have set in motion and to keep your vision wide, for what you sent out is already on its way back.
+Where the Two of Wands surveyed the horizon, the Three has committed to it. The ships are launched; enterprise is underway. This card speaks of foresight rewarded, of expansion and the first returns coming in, of collaboration and trade reaching beyond the familiar shore. It carries a settled, forward-looking confidence, the entrepreneur watching his investments sail, the traveller whose plans have become momentum. The invitation is to trust what you have set in motion and to keep your vision wide, for what you sent out is already on its way back.
 
 ## Reversed
 
@@ -27,15 +27,15 @@ Reversed, the ships fail to return. Plans meet delay, obstacles, or a disappoint
 | Attribute | Value |
 | --- | --- |
 | **Element** | Fire. |
-| **Decan** | Sun in Aries, the second decan of Aries — the Sun exalted in the sign of its exaltation. The Golden Dawn titled this card Established Strength, sometimes Virtue: energy stabilised into confident, sustainable power. |
+| **Decan** | Sun in Aries, the second decan of Aries, the Sun exalted in the sign of its exaltation. The Golden Dawn titled this card Established Strength, sometimes Virtue: energy stabilised into confident, sustainable power. |
 
 ## Archetype
 
-This is the ego that has learned to wait without collapsing into passivity. Jung spoke of the transcendent function born from holding tension between opposites; here it is the tension between action taken and outcome unknown, held with composure. The figure embodies the maturing will that no longer needs to control the sea, only to have launched wisely upon it — fiery ambition tempered into the steady radiance of [The Sun](/knowledge/tarot/major-arcana/the-sun).
+This is the ego that has learned to wait without collapsing into passivity. Jung spoke of the transcendent function born from holding tension between opposites; here it is the tension between action taken and outcome unknown, held with composure. The figure embodies the maturing will that no longer needs to control the sea, only to have launched wisely upon it, fiery ambition tempered into the steady radiance of [The Sun](/knowledge/tarot/major-arcana/the-sun).
 
 ## Mythological Echoes
 
-The card carries the spirit of every merchant-explorer who watched the horizon for returning sails — the Phoenician traders, the argonauts of legend, Jason waiting on the shore of a wider world. It echoes the patience of the sower who trusts the buried seed, and the solar kingship of rulers whose reach extended across seas they would never personally cross.
+The card carries the spirit of every merchant-explorer who watched the horizon for returning sails, the Phoenician traders, the argonauts of legend, Jason waiting on the shore of a wider world. It echoes the patience of the sower who trusts the buried seed, and the solar kingship of rulers whose reach extended across seas they would never personally cross.
 
 ## In Practice
 

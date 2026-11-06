@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Chord
 
-The diminished seventh is the most rigorously symmetrical chord in tonal music. It stacks three minor thirds in a row, dividing the octave into four perfectly equal parts. On C the notes are C, E♭, G♭, and the double-flatted seventh, A (written B𝄫). Every interval inside it is identical, which means the chord has no fixed root — invert it and it becomes another diminished seventh a minor third away, again and again around the circle.
+The diminished seventh is the most rigorously symmetrical chord in tonal music. It stacks three minor thirds in a row, dividing the octave into four perfectly equal parts. On C the notes are C, E♭, G♭, and the double-flatted seventh, A (written B𝄫). Every interval inside it is identical, which means the chord has no fixed root, invert it and it becomes another diminished seventh a minor third away, again and again around the circle.
 
 That symmetry produces maximum instability. The chord contains not one but two tritones, both straining to resolve, and because any of its four notes can act as the root, it can slip toward four different keys with equal ease. It is a knot of pure tension that could untie itself in any direction.
 
@@ -22,11 +22,11 @@ That symmetry produces maximum instability. The chord contains not one but two t
 | Formula | 1 ♭3 ♭5 ♭♭7 |
 | Notes (on C) | C E♭ G♭ A |
 | Symbol | C°7 |
-| Quality | Fully symmetrical, maximally tense — the pivot chord |
+| Quality | Fully symmetrical, maximally tense, the pivot chord |
 
 ## Character
 
-The diminished seventh is dread distilled. It is the chord of silent-film peril and operatic catastrophe, a sound so unstable it seems to vibrate with alarm. Yet its very ambiguity makes it graceful in the right hands — it can twist a passage into a distant key so smoothly that the ear only notices the ground has shifted. Terror and elegance, held in the same four notes.
+The diminished seventh is dread distilled. It is the chord of silent-film peril and operatic catastrophe, a sound so unstable it seems to vibrate with alarm. Yet its very ambiguity makes it graceful in the right hands, it can twist a passage into a distant key so smoothly that the ear only notices the ground has shifted. Terror and elegance, held in the same four notes.
 
 ## In Practice
 

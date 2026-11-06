@@ -11,11 +11,11 @@ source: obsidian-knowledge
 
 ## The Rudiment
 
-Drag Paradiddle #1 opens with a single accented tap and follows it with a paradiddle that carries a drag inside it. The figure reads as an accented lead-in note and then a dragged paradiddle, giving a phrase that starts clean and bright, then thickens with the ruff before resolving on the diddle. It is the first of two closely related rudiments — the second stacks an extra drag — and it establishes the pattern of setting a drag into the body of a paradiddle rather than at its front.
+Drag Paradiddle #1 opens with a single accented tap and follows it with a paradiddle that carries a drag inside it. The figure reads as an accented lead-in note and then a dragged paradiddle, giving a phrase that starts clean and bright, then thickens with the ruff before resolving on the diddle. It is the first of two closely related rudiments, the second stacks an extra drag, and it establishes the pattern of setting a drag into the body of a paradiddle rather than at its front.
 
 ## Sticking
 
-Drag Paradiddle #1 is conventionally written as an accented single, then a drag-laden paradiddle: **R llRLRR** for the first pass and **L rrLRLL** for the second, alternating. The opening uppercase stroke is the accented lead-in; the two lowercase strokes are the drag’s grace notes, which lead into the paradiddle’s single-single-double. Counted in sixteenths across a beat and a half, the opening accent and the drag anchor the figure. As printed stickings vary, trust the shape — accented pickup, then a dragged paradiddle.
+Drag Paradiddle #1 is conventionally written as an accented single, then a drag-laden paradiddle: **R llRLRR** for the first pass and **L rrLRLL** for the second, alternating. The opening uppercase stroke is the accented lead-in; the two lowercase strokes are the drag’s grace notes, which lead into the paradiddle’s single-single-double. Counted in sixteenths across a beat and a half, the opening accent and the drag anchor the figure. As printed stickings vary, trust the shape, accented pickup, then a dragged paradiddle.
 
 ## How to Play
 
@@ -23,7 +23,7 @@ The rudiment mixes dynamics and ornament: a strong accented lead-in, a low crisp
 
 ## In Practice
 
-Drag Paradiddle #1 is a cornerstone of rudimental snare solos and a favorite for developing control of drags inside a moving sticking pattern. On the kit it orchestrates well — accent on one drum, drag and diddle spread across others — and it leads directly into its heavier companion, Drag Paradiddle #2.
+Drag Paradiddle #1 is a cornerstone of rudimental snare solos and a favorite for developing control of drags inside a moving sticking pattern. On the kit it orchestrates well, accent on one drum, drag and diddle spread across others, and it leads directly into its heavier companion, Drag Paradiddle #2.
 
 ## Related
 

@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Zepar is the sixteenth spirit of the Ars Goetia, ranked among the Dukes of the infernal hierarchy. The grimoire tradition presents him as a martial figure who appears clad in red apparel and armour, a soldier’s bearing given to a spirit whose concerns are almost entirely amorous. Within the taxonomy of the Lesser Key he belongs to that cluster of spirits devoted to the workings of love and desire rather than the transmission of knowledge, and this narrowness of office lends him a curiously singular reputation among his more encyclopedic peers.
 
-The red of his dress is not incidental in the symbolic grammar of the grimoire — it is the colour of Mars, of blood, of passion inflamed. Zepar is thus figured as a heat that acts upon the affections, a force channelled through ritual toward the binding of one person to another.
+The red of his dress is not incidental in the symbolic grammar of the grimoire, it is the colour of Mars, of blood, of passion inflamed. Zepar is thus figured as a heat that acts upon the affections, a force channelled through ritual toward the binding of one person to another.
 
 ## Office
 

@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Shax — also rendered Chax, Scox, or Shaz across the manuscript tradition — is the forty-fourth spirit of the Ars Goetia, a Great Marquis who appears in the shape of a stork or dove speaking with a harsh, hoarse voice. The grimoire warns that he is a spirit of doubtful loyalty: he will lie and deceive the operator unless he is compelled into a triangle of art and there bound by the exorcist’s authority. Once constrained, however, he becomes obedient and speaks with reasonable candour, no longer troubling those who summoned him.
+Shax: also rendered Chax, Scox, or Shaz across the manuscript tradition, is the forty-fourth spirit of the Ars Goetia, a Great Marquis who appears in the shape of a stork or dove speaking with a harsh, hoarse voice. The grimoire warns that he is a spirit of doubtful loyalty: he will lie and deceive the operator unless he is compelled into a triangle of art and there bound by the exorcist’s authority. Once constrained, however, he becomes obedient and speaks with reasonable candour, no longer troubling those who summoned him.
 
-His temperament captures a recurring anxiety in the Solomonic literature — that a spirit’s power and its treachery scale together. Shax is prized precisely for the things a deceiver can do, and the ritual apparatus exists to turn his cunning to the operator’s ends.
+His temperament captures a recurring anxiety in the Solomonic literature, that a spirit’s power and its treachery scale together. Shax is prized precisely for the things a deceiver can do, and the ritual apparatus exists to turn his cunning to the operator’s ends.
 
 ## Office
 

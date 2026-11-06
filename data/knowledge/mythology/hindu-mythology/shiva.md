@@ -16,7 +16,7 @@ Shiva is the destroyer/transformer god in the Hindu Trimurti. He destroys to tra
 
 His third eye destroys all when opened, yet also represents spiritual vision. The crescent moon on his head controls time. Matted hair contains the river Ganges. His blue throat (Nilakantha) comes from drinking cosmic poison to save the world. Ash-smeared body signifies renunciation; tiger skin represents conquered ego. The trident (Trishula) represents the three aspects of existence; the cobra around his neck signals mastery of death and fear; the damaru (drum) sounds the rhythm of creation.
 
-The lingam -- his most common worship form -- represents the formless within form, creative power as cosmic pillar.
+The lingam: his most common worship form: represents the formless within form, creative power as cosmic pillar.
 
 ---
 
@@ -26,7 +26,7 @@ The lingam -- his most common worship form -- represents the formless within for
 
 **Shiva the Ascetic**: The Great Yogi, meditating on Mount Kailash in the Himalayas. Supreme renunciate, source of yoga, who destroys through withdrawal.
 
-**Rudra**: The fierce, howling aspect -- destroyer of evil, storm god, pre-Vedic in origin.
+**Rudra**: The fierce, howling aspect: destroyer of evil, storm god, pre-Vedic in origin.
 
 **Bhairava**: The terrifying guardian form, associated with time and annihilation, Tantric practices.
 
@@ -44,7 +44,7 @@ Their children: [Ganesha](/knowledge/mythology/hindu-mythology/ganesha) (the ele
 
 ## Major Myths
 
-**Drinking the Poison**: When the churning of the cosmic ocean produces a deadly poison (halahala) threatening all existence, Shiva drinks it. Parvati grabs his throat to stop it from spreading, holding it there -- turning his throat blue.
+**Drinking the Poison**: When the churning of the cosmic ocean produces a deadly poison (halahala) threatening all existence, Shiva drinks it. Parvati grabs his throat to stop it from spreading, holding it there, turning his throat blue.
 
 **Ganges Descent**: The Ganges falls from heaven with a force that would destroy earth. Shiva catches the river in his matted hair and releases it gently, controlling the cosmic flow.
 
@@ -64,7 +64,7 @@ Core practices include lingam worship, chanting "Om Namah Shivaya," the Maha Shi
 
 ## Philosophical Aspects
 
-**Destruction as Transformation**: Not malicious but necessary -- the end of illusion (maya), the death of ego, cosmic recycling.
+**Destruction as Transformation**: Not malicious but necessary, the end of illusion (maya), the death of ego, cosmic recycling.
 
 **Union of Opposites**: Shiva contains creation (lingam, Nataraja) and destruction (third eye, Rudra), the ascetic and the householder, the gentle (with Parvati) and the fierce (as Rudra), form (Nataraja) and formless (lingam), the transcendent and the immanent.
 
@@ -74,13 +74,13 @@ Core practices include lingam worship, chanting "Om Namah Shivaya," the Maha Shi
 
 ## Sacred Sites
 
-**Mount Kailash** in the Himalayas (Tibet) is Shiva's abode -- an unclimbed sacred mountain and major pilgrimage site. **Varanasi (Kashi)**, the holiest city to Shiva on the Ganges, grants liberation at death. The **Twelve Jyotirlingas** are the most powerful lingam shrines across India.
+**Mount Kailash** in the Himalayas (Tibet) is Shiva's abode, an unclimbed sacred mountain and major pilgrimage site. **Varanasi (Kashi)**, the holiest city to Shiva on the Ganges, grants liberation at death. The **Twelve Jyotirlingas** are the most powerful lingam shrines across India.
 
 ## Archetypal Significance
 
 Destroyer of ego, death and rebirth, integration of opposites, the transcendent function. As shadow archetype: the necessary darkness, wildness and chaos, what must be destroyed for wholeness. Psychologically: transformation through dissolution, meditation and withdrawal, dancing with life and death.
 
-See: The Shadow
+See: [The Shadow](/knowledge/psychology/jungian/the-shadow)
 
 ---
 

@@ -15,7 +15,7 @@ A couple stands with arms raised toward a great arc of ten cups shining in a rai
 
 ## Upright
 
-The Ten of Cups is emotional fulfillment made whole and communal — the happy family, the harmonious home, love that has ripened into lasting peace. It marks the completion of the suit’s journey: feeling that began as the single drop of the [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups) now overflowing into a whole shared life. This is contentment that reaches beyond the self to bless the people in it, the rainbow covenant of belonging. It speaks of alignment between what one has and what one loves.
+The Ten of Cups is emotional fulfillment made whole and communal, the happy family, the harmonious home, love that has ripened into lasting peace. It marks the completion of the suit’s journey: feeling that began as the single drop of the [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups) now overflowing into a whole shared life. This is contentment that reaches beyond the self to bless the people in it, the rainbow covenant of belonging. It speaks of alignment between what one has and what one loves.
 
 ## Reversed
 
@@ -26,12 +26,12 @@ Inverted, the rainbow dims. This can be domestic disharmony, a family whose pict
 | Attribute | Value |
 | --- | --- |
 | **Element** | Water. |
-| **Decan** | Mars in Pisces — the third decan of Pisces. |
+| **Decan** | Mars in Pisces, the third decan of Pisces. |
 | **Golden Dawn title** | the Lord of Perfected Success, sometimes Satiety. Mars’s drive finding rest at last in Pisces’ dissolving, all-embracing waters. |
 
 ## Archetype
 
-This is the mandala of the suit, the image of emotional wholeness that Jung would recognize as a symbol of the [The Self](/knowledge/psychology/jungian/the-self). The rainbow’s arc is the completed circle of feeling, the reconciliation of the many into a harmonious one. The family — parents and children beneath a single blessing — is an outer figure for the integrated psyche, its parts at peace. Yet the card also carries a subtle warning in its satiety: perfected fullness can become an ending, and every completion is also a threshold.
+This is the mandala of the suit, the image of emotional wholeness that Jung would recognize as a symbol of the [The Self](/knowledge/psychology/jungian/the-self). The rainbow’s arc is the completed circle of feeling, the reconciliation of the many into a harmonious one. The family, parents and children beneath a single blessing, is an outer figure for the integrated psyche, its parts at peace. Yet the card also carries a subtle warning in its satiety: perfected fullness can become an ending, and every completion is also a threshold.
 
 ## Mythological Echoes
 
@@ -39,7 +39,7 @@ The rainbow recalls the covenant after the flood, the sign of peace stretched ac
 
 ## In Practice
 
-When this card appears, let yourself feel blessed — and check whether the picture of joy you are living is authored by you. Journal on what “home” means beneath its images.
+When this card appears, let yourself feel blessed, and check whether the picture of joy you are living is authored by you. Journal on what “home” means beneath its images.
 
 ## Related
 

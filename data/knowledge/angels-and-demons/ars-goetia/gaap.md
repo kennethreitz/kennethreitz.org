@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Gaap is the thirty-third spirit of the Ars Goetia, ranked both as a Great President and a Prince, and counted among the most powerful of the catalogue. He is a spirit associated with the meridional or southern quarter, and the grimoires note that he appears most readily when the sun rides in one of the southern signs. In the older Weyer tradition he is linked with the four great kings who command the cardinal directions, and he is said to be able to lead others of the fallen into the presence of the exorcist.
 
-He appears in human shape, often described as marching before four mighty kings as though their herald or guide. His character in the tradition is that of a conductor and mover — of people, of knowledge, and of affections.
+He appears in human shape, often described as marching before four mighty kings as though their herald or guide. His character in the tradition is that of a conductor and mover, of people, of knowledge, and of affections.
 
 ## Office
 

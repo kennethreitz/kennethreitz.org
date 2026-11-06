@@ -1,11 +1,11 @@
 ---
-description: The stone that stays where it is set — form at rest, the world made solid.
+description: 'The stone that stays where it is set: form at rest, the world made solid.'
 source: obsidian-knowledge
 ---
 
 # Cube
 
-> *The stone that stays where it is set — form at rest, the world made solid.*
+> *The stone that stays where it is set, form at rest, the world made solid.*
 
 ---
 

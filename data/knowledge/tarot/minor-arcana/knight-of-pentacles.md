@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A knight in dark armour sits upon a heavy, motionless black warhorse at the edge of a ploughed field. Unlike the other three knights, whose mounts rear and charge, his horse stands entirely still, all four hooves on the ground. He holds a single pentacle up before him and regards it steadily, patient as the fallow land behind him. The furrows stretch to the horizon, evidence of work methodically done. There is nothing dramatic here — no galloping quest, no drawn sword — only the image of dependable purpose, a rider who moves deliberately because he intends to finish what he starts.
+A knight in dark armour sits upon a heavy, motionless black warhorse at the edge of a ploughed field. Unlike the other three knights, whose mounts rear and charge, his horse stands entirely still, all four hooves on the ground. He holds a single pentacle up before him and regards it steadily, patient as the fallow land behind him. The furrows stretch to the horizon, evidence of work methodically done. There is nothing dramatic here, no galloping quest, no drawn sword, only the image of dependable purpose, a rider who moves deliberately because he intends to finish what he starts.
 
 ## Upright
 
@@ -25,15 +25,15 @@ Reversed, steadiness stiffens into stagnation. The card can show a person so cau
 
 | Attribute | Value |
 | --- | --- |
-| **Element** | Earth. As the Knight of the suit, this court card is the Air of Earth — the mental, moving quality of air brought to bear on stable earth, giving the suit its capacity for patient, purposeful action. |
+| **Element** | Earth. As the Knight of the suit, this court card is the Air of Earth, the mental, moving quality of air brought to bear on stable earth, giving the suit its capacity for patient, purposeful action. |
 
 ## Archetype
 
-The Knight is the psyche's capacity for sustained will, here in its most earthbound form — the disciplined worker who serves the long task without needing applause. Jung valued the function of sensation, the grounded attention to concrete reality, and this Knight is its knight: reliable, thorough, in faithful relationship with the actual. His still horse is instinct fully governed, energy harnessed to duty rather than spent on display. He represents the unspectacular labour that any real work of [Individuation](/knowledge/psychology/jungian/individuation) demands — the willingness to keep ploughing the same field until it yields.
+The Knight is the psyche's capacity for sustained will, here in its most earthbound form, the disciplined worker who serves the long task without needing applause. Jung valued the function of sensation, the grounded attention to concrete reality, and this Knight is its knight: reliable, thorough, in faithful relationship with the actual. His still horse is instinct fully governed, energy harnessed to duty rather than spent on display. He represents the unspectacular labour that any real work of [Individuation](/knowledge/psychology/jungian/individuation) demands, the willingness to keep ploughing the same field until it yields.
 
 ## Mythological Echoes
 
-He recalls the patient labourers of myth — the ox-god yoked to the plough, the steadfast servants who complete the impossible task through sheer persistence, the tortoise who beats the hare. One thinks of the Herculean labours accomplished not by brilliance but by dogged endurance, and of the agricultural heroes who tamed the wilderness furrow by furrow, whose monuments are the tilled fields themselves.
+He recalls the patient labourers of myth, the ox-god yoked to the plough, the steadfast servants who complete the impossible task through sheer persistence, the tortoise who beats the hare. One thinks of the Herculean labours accomplished not by brilliance but by dogged endurance, and of the agricultural heroes who tamed the wilderness furrow by furrow, whose monuments are the tilled fields themselves.
 
 ## In Practice
 

@@ -15,11 +15,11 @@ The ten stroke roll varies the pattern of its neighbors by ending in two accente
 
 ## Sticking
 
-The common sticking is four doubles followed by two alternating accented singles — ten strokes: **RRLL RRLL R L**, with accents on the final two notes, then reversed as **LLRR LLRR L R**. The eight rolled notes stay even and low; the roll opens up into two full accented strokes that alternate hands to close the figure. Accent placement can vary in some traditions, but the two-single tail is the defining feature.
+The common sticking is four doubles followed by two alternating accented singles, ten strokes: **RRLL RRLL R L**, with accents on the final two notes, then reversed as **LLRR LLRR L R**. The eight rolled notes stay even and low; the roll opens up into two full accented strokes that alternate hands to close the figure. Accent placement can vary in some traditions, but the two-single tail is the defining feature.
 
 ## How to Play
 
-Play the diddles tight and even, then release into two full, matched accented strokes — the key is that both accents ring at equal volume and land squarely in time. Because it ends on alternating hands, the ten stroke roll flows well into whatever follows, and the two accents invite orchestration around the kit. Keep the transition from the last diddle into the first accent smooth so the tail does not rush.
+Play the diddles tight and even, then release into two full, matched accented strokes, the key is that both accents ring at equal volume and land squarely in time. Because it ends on alternating hands, the ten stroke roll flows well into whatever follows, and the two accents invite orchestration around the kit. Keep the transition from the last diddle into the first accent smooth so the tail does not rush.
 
 ## In Practice
 

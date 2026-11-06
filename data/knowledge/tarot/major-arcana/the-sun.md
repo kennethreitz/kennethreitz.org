@@ -12,11 +12,11 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A great sun with a serene human face fills the sky, its straight and wavy rays alternating like light and warmth. Beneath it, a naked child rides a white horse bareback, arms open, crowned with flowers and trailing a red banner. Behind them a wall bears four tall sunflowers turned toward the light. The child needs neither saddle nor reins; there is nothing to fear here and nothing to hide. After the confusion of [The Moon](/knowledge/tarot/major-arcana/the-moon), everything is clear, warm, and unashamed. The card radiates the simplest and most complete happiness — vitality, innocence regained, the world seen in full daylight.
+A great sun with a serene human face fills the sky, its straight and wavy rays alternating like light and warmth. Beneath it, a naked child rides a white horse bareback, arms open, crowned with flowers and trailing a red banner. Behind them a wall bears four tall sunflowers turned toward the light. The child needs neither saddle nor reins; there is nothing to fear here and nothing to hide. After the confusion of [The Moon](/knowledge/tarot/major-arcana/the-moon), everything is clear, warm, and unashamed. The card radiates the simplest and most complete happiness, vitality, innocence regained, the world seen in full daylight.
 
 ## Upright
 
-The Sun is joy, clarity, and vitality — success made warm and life lived without concealment. It is the dawn after the moonlit passage, consciousness fully restored and the truth of things plainly lit. Upright, the card counsels wholehearted presence, gratitude, and the confidence of a self that has nothing left to prove or hide. It promises warmth, health, and the return of a hard-won innocence. To draw it is to be told that the way is open and the light is good, and that you are allowed, at last, to simply be glad.
+The Sun is joy, clarity, and vitality: success made warm and life lived without concealment. It is the dawn after the moonlit passage, consciousness fully restored and the truth of things plainly lit. Upright, the card counsels wholehearted presence, gratitude, and the confidence of a self that has nothing left to prove or hide. It promises warmth, health, and the return of a hard-won innocence. To draw it is to be told that the way is open and the light is good, and that you are allowed, at last, to simply be glad.
 
 ## Reversed
 
@@ -32,11 +32,11 @@ Reversed, the sun dims but does not set. The card can mean a temporary clouding 
 
 ## Archetype
 
-The Sun is the Divine Child reborn in daylight — the archetype of renewed wholeness after the night-sea journey, closely bound to [The Self](/knowledge/psychology/jungian/the-self) as the radiant centre of the psyche. Where the Fool’s innocence was untested, the child of the Sun has passed through the dark of the Moon and emerged luminous and integrated. Jung saw the sun as an image of consciousness itself, and the solar child as the promise of a self made new: spontaneous, unguarded, and whole. It is joy earned rather than merely given.
+The Sun is the Divine Child reborn in daylight, the archetype of renewed wholeness after the night-sea journey, closely bound to [The Self](/knowledge/psychology/jungian/the-self) as the radiant centre of the psyche. Where the Fool’s innocence was untested, the child of the Sun has passed through the dark of the Moon and emerged luminous and integrated. Jung saw the sun as an image of consciousness itself, and the solar child as the promise of a self made new: spontaneous, unguarded, and whole. It is joy earned rather than merely given.
 
 ## Mythological Echoes
 
-He is every solar deity — Apollo, Ra, Sol Invictus, Helios driving the golden chariot across the day. He echoes the divine children of myth, the miraculous births that renew the world, the dawn that conquers the dragon of night. The white horse is the sun’s own steed; the sunflowers are the souls that turn always toward the source. Every tradition that greets the returning sun as a resurrection is telling this card’s story.
+He is every solar deity: Apollo, Ra, Sol Invictus, Helios driving the golden chariot across the day. He echoes the divine children of myth, the miraculous births that renew the world, the dawn that conquers the dragon of night. The white horse is the sun’s own steed; the sunflowers are the souls that turn always toward the source. Every tradition that greets the returning sun as a resurrection is telling this card’s story.
 
 ## In Practice
 

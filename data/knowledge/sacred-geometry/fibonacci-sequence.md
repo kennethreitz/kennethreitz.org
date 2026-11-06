@@ -1,12 +1,12 @@
 ---
-description: Each number the sum of the two before it — the arithmetic that nature
+description: Each number the sum of the two before it, the arithmetic that nature
   counts by.
 source: obsidian-knowledge
 ---
 
 # Fibonacci Sequence
 
-> *Each number the sum of the two before it — the arithmetic that nature counts by.*
+> *Each number the sum of the two before it, the arithmetic that nature counts by.*
 
 ---
 

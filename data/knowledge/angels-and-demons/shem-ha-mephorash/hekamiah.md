@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Angel
 
-Hekamiah joins the Hebrew root *ḥ-q-m*, carrying the sense of erecting or setting a thing upright, to the theophoric suffix *-iah*, the shortened Name of God. The traditional gloss renders him “God who raises up the universe” — the builder who lifts creation from the ground and holds it standing. Where the lesser magicians read only the demolition of empires, the Kabbalists heard in these same three letters of Exodus 14:19–21 a promise of continuance: that what is raised by the divine hand is not easily thrown down.
+Hekamiah joins the Hebrew root *ḥ-q-m*, carrying the sense of erecting or setting a thing upright, to the theophoric suffix *-iah*, the shortened Name of God. The traditional gloss renders him “God who raises up the universe”, the builder who lifts creation from the ground and holds it standing. Where the lesser magicians read only the demolition of empires, the Kabbalists heard in these same three letters of Exodus 14:19–21 a promise of continuance: that what is raised by the divine hand is not easily thrown down.
 
-The virtue Hekamiah bestows is loyalty, and its guardianship over the loyal. He is the angel of the oath kept, the friend who does not sell you, the soldier who does not desert the line. Traditionally invoked by princes, magistrates, and all who command others, he is said to unmask the traitor before the betrayal ripens and to bind noble hearts in fidelity. His countenance is that of the elder statesman — grave, generous, unimpressed by flattery. To petition Hekamiah is to ask not for advantage but for the strength to be trusted, which the older esotericists counted the rarer gift.
+The virtue Hekamiah bestows is loyalty, and its guardianship over the loyal. He is the angel of the oath kept, the friend who does not sell you, the soldier who does not desert the line. Traditionally invoked by princes, magistrates, and all who command others, he is said to unmask the traitor before the betrayal ripens and to bind noble hearts in fidelity. His countenance is that of the elder statesman, grave, generous, unimpressed by flattery. To petition Hekamiah is to ask not for advantage but for the strength to be trusted, which the older esotericists counted the rarer gift.
 
 ## Attributes
 
@@ -31,3 +31,5 @@ The virtue Hekamiah bestows is loyalty, and its guardianship over the loyal. He 
 - [Zepar](/knowledge/angels-and-demons/ars-goetia/zepar)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the second decan of Gemini with its pair, and so the Nine of Swords. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

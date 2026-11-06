@@ -11,11 +11,11 @@ source: obsidian-knowledge
 
 ## The Rudiment
 
-The inverted flam tap keeps the sound of the flam tap — a flam followed by a tap — but reverses the sticking so the hands alternate instead of doubling. In the ordinary flam tap the accented hand takes both the flam and the tap; in the inverted version the tap of one flam becomes the grace note of the next, so the sticks weave continuously back and forth. The accents still land on every flam, but the motion underneath is a smooth, rolling alternation rather than a same-hand rebound.
+The inverted flam tap keeps the sound of the flam tap, a flam followed by a tap, but reverses the sticking so the hands alternate instead of doubling. In the ordinary flam tap the accented hand takes both the flam and the tap; in the inverted version the tap of one flam becomes the grace note of the next, so the sticks weave continuously back and forth. The accents still land on every flam, but the motion underneath is a smooth, rolling alternation rather than a same-hand rebound.
 
 ## Sticking
 
-The inverted flam tap is built from alternating flams whose taps feed the following grace note: **lR rL lR rL**, continuing. Each accented primary is flammed, and the low stroke between accents does double duty as both the previous tap and the next flam’s grace. Because the notation for this rudiment varies between sources, the dependable way to hold it is the motion — a flam, an inverted low stroke, and straight into the opposite-hand flam — rather than any single printed count.
+The inverted flam tap is built from alternating flams whose taps feed the following grace note: **lR rL lR rL**, continuing. Each accented primary is flammed, and the low stroke between accents does double duty as both the previous tap and the next flam’s grace. Because the notation for this rudiment varies between sources, the dependable way to hold it is the motion, a flam, an inverted low stroke, and straight into the opposite-hand flam, rather than any single printed count.
 
 ## How to Play
 

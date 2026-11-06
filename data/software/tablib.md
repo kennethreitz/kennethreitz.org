@@ -82,6 +82,22 @@ $ uv add tablib[all]     # Everything
 - [Source Code on GitHub](https://github.com/jazzband/tablib)
 - [Python Package Index](https://pypi.org/project/tablib/)
 
+<!-- vault:history start -->
+## History
+
+Tablib handles tabular data: import from one format, export to another, manipulate in between. It abstracts away format differences so you can focus on the data.
+
+Supports: CSV, JSON, YAML, Excel (xlsx, xls), ODS, HTML, TSV, and more.
+
+Tablib was Kenneth's first major open source success, predating [requests](/software/requests) by about a year. Early adoption by major companies (Digg, Discovery Channel, Northrop Grumman) established his reputation.
+
+This is also where the NetApp conflict happened, the company tried to claim ownership of tablib and other personal projects. Kenneth refused and left. That moment of choosing code ownership over employment shaped everything that followed.
+
+Same principles that would define [requests](/software/requests): simple API for common operations, format details hidden from user, just works out of the box, progressive disclosure of complexity.
+
+Tablib proved that Kenneth's design sensibility worked. It validated the approach before [requests](/software/requests) made it famous. It also powers [records](/software/records)' export functionality, the libraries compose together, simple tools building on simple tools.
+<!-- vault:history end -->
+
 ## Related
 
 - [**Records**](/software/records): SQL for Humans, powered by Tablib's export engine.

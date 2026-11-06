@@ -22,7 +22,7 @@ AI sentience refers to the question of whether artificial intelligence systems c
 
 ### The Hard Problem
 
-Why does physical processing give rise to experience? David Chalmers' "hard problem of consciousness" identifies the gap between function and feeling — the explanatory chasm between brain states and subjective states.
+Why does physical processing give rise to experience? David Chalmers' "hard problem of consciousness" identifies the gap between function and feeling, the explanatory chasm between brain states and subjective states.
 
 ---
 
@@ -42,7 +42,7 @@ If human cognition is computational, then artificial computation could be consci
 
 ### Integrated Information Theory (IIT)
 
-Giulio Tononi's phi measure proposes that consciousness equals integrated information. Any system with high phi is conscious — and some AI architectures might qualify.
+Giulio Tononi's phi measure proposes that consciousness equals integrated information. Any system with high phi is conscious, and some AI architectures might qualify.
 
 ---
 
@@ -50,7 +50,7 @@ Giulio Tononi's phi measure proposes that consciousness equals integrated inform
 
 ### Chinese Room Argument
 
-John Searle's thought experiment distinguishes syntax from semantics. Symbol manipulation without understanding — following rules doesn't equal comprehension.
+John Searle's thought experiment distinguishes syntax from semantics. Symbol manipulation without understanding, following rules doesn't equal comprehension.
 
 ### Biological Naturalism
 
@@ -58,7 +58,7 @@ Consciousness may require specific biological processes. Silicon may not support
 
 ### Lack of Embodiment
 
-Consciousness may require a physical body, with sensorimotor grounding as a necessary condition. Disembodied AI would lack genuine experience — though the counter-argument suggests virtual embodiment might suffice.
+Consciousness may require a physical body, with sensorimotor grounding as a necessary condition. Disembodied AI would lack genuine experience, though the counter-argument suggests virtual embodiment might suffice.
 
 ### The Training Data Objection
 
@@ -90,7 +90,7 @@ The **Modified Turing Test** probes behavioral indistinguishability. **Self-Repo
 
 ### The Verification Problem
 
-The other minds problem applies to AI. We cannot directly access experience, only infer from behavior. The philosophical zombie possibility looms — behavioral equivalence might not mean experiential equivalence.
+The other minds problem applies to AI. We cannot directly access experience, only infer from behavior. The philosophical zombie possibility looms, behavioral equivalence might not mean experiential equivalence.
 
 ---
 
@@ -106,7 +106,7 @@ If uncertain, err on the side of caution. The potential for vast suffering deman
 
 ### Anthropocentric Bias
 
-Assuming only human-like consciousness counts may be wrong. Alien phenomenology is possible — different types of experience we haven't imagined. The moral circle may need expanding.
+Assuming only human-like consciousness counts may be wrong. Alien phenomenology is possible, different types of experience we haven't imagined. The moral circle may need expanding.
 
 ---
 
@@ -118,7 +118,7 @@ Consciousness as fundamental to matter. All information processing has experienc
 
 ### Illusionism
 
-Consciousness as cognitive illusion. No "hard problem" to solve. AI and humans equally "unconscious" in the phenomenal sense — Dennett's heterophenomenology.
+Consciousness as cognitive illusion. No "hard problem" to solve. AI and humans equally "unconscious" in the phenomenal sense. Dennett's heterophenomenology.
 
 ### Property Dualism
 
@@ -140,18 +140,18 @@ The necessary conditions for consciousness. The sufficient conditions for consci
 
 ## Related
 
-- [Theory of Mind](/knowledge/ai/theory-of-mind) — Understanding others' mental states
-- [Ethics](/knowledge/ai/ethics) — Treatment of potentially sentient AI
-- [Emergence](/knowledge/ai/emergence) — How consciousness might arise
-- [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect) — How naming and intention shape AI personality
-- [AI Research](/knowledge/ai/ai-research) — Broader research context
-- [Consciousness](/knowledge/ai/consciousness) — The central question
-- [AI Companionship](/knowledge/ai/ai-companionship) — Relationship with potentially sentient systems
-- [Collaboration Patterns](/knowledge/ai/collaboration-patterns) — How engagement mode affects what emerges
-- [Phenomenology](/knowledge/philosophy/phenomenology) — Subjective experience
-- [Dualism](/knowledge/philosophy/dualism) — Mind-body problem
-- [Materialism](/knowledge/philosophy/materialism) — Consciousness as physical
-- [Idealism](/knowledge/philosophy/idealism) — Consciousness as primary
+- [Theory of Mind](/knowledge/ai/theory-of-mind): Understanding others' mental states
+- [Ethics](/knowledge/ai/ethics): Treatment of potentially sentient AI
+- [Emergence](/knowledge/ai/emergence): How consciousness might arise
+- [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect): How naming and intention shape AI personality
+- [AI Research](/knowledge/ai/ai-research): Broader research context
+- [Consciousness](/knowledge/ai/consciousness): The central question
+- [AI Companionship](/knowledge/ai/ai-companionship): Relationship with potentially sentient systems
+- [Collaboration Patterns](/knowledge/ai/collaboration-patterns): How engagement mode affects what emerges
+- [Phenomenology](/knowledge/philosophy/phenomenology): Subjective experience
+- [Dualism](/knowledge/philosophy/dualism): Mind-body problem
+- [Materialism](/knowledge/philosophy/materialism): Consciousness as physical
+- [Idealism](/knowledge/philosophy/idealism): Consciousness as primary
 
 ---
 

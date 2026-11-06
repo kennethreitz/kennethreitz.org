@@ -28,7 +28,7 @@ Subjective significance to the observer. Inner state mirrors outer event. Psyche
 
 ### Simultaneous Occurrence
 
-Events happen at the same time or in close temporal proximity — a cluster of meaningful events where timing itself is significant.
+Events happen at the same time or in close temporal proximity, a cluster of meaningful events where timing itself is significant.
 
 ---
 
@@ -52,7 +52,7 @@ Precognitive dreams. Prophetic visions. "I knew this would happen." The future a
 
 ### The Psychoid Level
 
-The realm where psyche and matter meet. Archetypes operate here — neither purely mental nor physical, but a bridge between inner and outer.
+The realm where psyche and matter meet. Archetypes operate here, neither purely mental nor physical, but a bridge between inner and outer.
 
 ### Archetypal Activation
 
@@ -66,7 +66,7 @@ An archetype "constellates" inner and outer events, organizing them meaningfully
 
 ## Conditions for Synchronicity
 
-Synchronicities tend to arise during particular **psychological states**: intense emotion, archetypal activation, transitional life phases, lowered ego control, deep analysis or therapy. **Heightened awareness** also plays a role — meditation or contemplation, crisis or breakthrough, creative flow states, openings to the unconscious. And they cluster around **numinous moments**: religious experience, peak experiences, encounters with the Self, transcendent states.
+Synchronicities tend to arise during particular **psychological states**: intense emotion, archetypal activation, transitional life phases, lowered ego control, deep analysis or therapy. **Heightened awareness** also plays a role, meditation or contemplation, crisis or breakthrough, creative flow states, openings to the unconscious. And they cluster around **numinous moments**: religious experience, peak experiences, encounters with the Self, transcendent states.
 
 ---
 
@@ -82,7 +82,7 @@ Thinking of someone who then calls or appears. A book falling open to exactly th
 
 ### Clusters
 
-Multiple synchronicities around the same theme, often during major life transitions when the psyche is reorganizing — a constellation of meaning.
+Multiple synchronicities around the same theme, often during major life transitions when the psyche is reorganizing, a constellation of meaning.
 
 ---
 
@@ -98,7 +98,7 @@ Multiple synchronicities around the same theme, often during major life transiti
 
 ## Meaning of Synchronicities
 
-Synchronicities can function as **guidance** — the universe or psyche providing direction, confirmation of path, warning or sign. As **compensation** — the unconscious balancing consciousness, showing what ego needs to see, a message from the Self or course correction. As **manifestation** — inner state participating in outer reality, psyche and world interpenetrating, not mechanically but meaningfully. And sometimes simply as **mystery** — a "wink from the universe," the numinous breaking through without clear interpretation.
+Synchronicities can function as **guidance**, the universe or psyche providing direction, confirmation of path, warning or sign. As **compensation**, the unconscious balancing consciousness, showing what ego needs to see, a message from the Self or course correction. As **manifestation**, inner state participating in outer reality, psyche and world interpenetrating, not mechanically but meaningfully. And sometimes simply as **mystery**, a "wink from the universe," the numinous breaking through without clear interpretation.
 
 ---
 
@@ -138,7 +138,7 @@ Jung's term: "One World." Psyche and cosmos are one. Separation is illusion. Uni
 
 ### Divination
 
-The I Ching, tarot cards, astrology — all work on the synchronicity principle. Meaningful, not causal. The tarot's [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune) images exactly this: fate as meaningful turning rather than mechanical cause.
+The I Ching, tarot cards, astrology: all work on the synchronicity principle. Meaningful, not causal. The tarot's [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune) images exactly this: fate as meaningful turning rather than mechanical cause.
 
 ### Prayer & Ritual
 
@@ -146,7 +146,7 @@ These create conditions for synchronicity, aligning inner and outer. Symbolic ac
 
 ### Creative Work
 
-"Inspiration" is synchronistic — the right idea at the right time. External events support the creative process. Following the thread.
+"Inspiration" is synchronistic, the right idea at the right time. External events support the creative process. Following the thread.
 
 ---
 
@@ -154,7 +154,7 @@ These create conditions for synchronicity, aligning inner and outer. Symbolic ac
 
 ### Quantum Physics Parallels
 
-Non-locality, the observer effect, entanglement, the complementarity principle — all suggest that the materialist worldview can't fully account for reality.
+Non-locality, the observer effect, entanglement, the complementarity principle: all suggest that the materialist worldview can't fully account for reality.
 
 ### Limitations of Materialism
 
@@ -164,7 +164,7 @@ Materialism can't explain synchronicity. Meaning is not reducible to matter. Con
 
 ## Dangers & Pitfalls
 
-**Apophenia** — seeing patterns that aren't there, paranoid thinking, conspiracy theories, loss of critical thinking. **Magical thinking** — "I can control reality with thoughts," superstition, bypassing real-world action, regression. **Inflation** — "the universe speaks to ME," grandiosity, feeling chosen or special, ego identification.
+**Apophenia**: seeing patterns that aren't there, paranoid thinking, conspiracy theories, loss of critical thinking. **Magical thinking**. "I can control reality with thoughts," superstition, bypassing real-world action, regression. **Inflation**. "the universe speaks to ME," grandiosity, feeling chosen or special, ego identification.
 
 The balance: neither dismiss nor over-value. Stay grounded. Maintain critical thinking. Wonder, not certainty.
 
@@ -172,7 +172,7 @@ The balance: neither dismiss nor over-value. Stay grounded. Maintain critical th
 
 ## Synchronicity and Individuation
 
-Synchronicities serve as signposts on the path, confirming when you're on track, warning of wrong turns — the Self communicating. They increase in frequency as you individuate. Opening to the unconscious increases them. Living more authentically attracts them. Psyche and world align.
+Synchronicities serve as signposts on the path, confirming when you're on track, warning of wrong turns, the Self communicating. They increase in frequency as you individuate. Opening to the unconscious increases them. Living more authentically attracts them. Psyche and world align.
 
 Integration means treating synchronicities as teachers: learning to read the signs, trusting the process, maintaining dialogue with the meaningful.
 
@@ -181,23 +181,23 @@ Integration means treating synchronicities as teachers: learning to read the sig
 ## Related Concepts
 
 ### Core Jungian Ideas
-- Collective Unconscious — Source of archetypal patterns
-- [The Self](/knowledge/psychology/jungian/the-self) — Organizer of synchronicities
-- [Individuation](/knowledge/psychology/jungian/individuation) — Process synchronicity supports
-- Overview of All Concepts
+- [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious): Source of archetypal patterns
+- [The Self](/knowledge/psychology/jungian/the-self): Organizer of synchronicities
+- [Individuation](/knowledge/psychology/jungian/individuation): Process synchronicity supports
+- [Overview of All Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 
 ### In Practice
 - [Spiritual Practice](/knowledge/spirituality)
-- [Tarot](/knowledge/tarot) — Synchronicity as divination principle
-- [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune) — The card of meaningful fate and turning
-- [The Moon](/knowledge/tarot/major-arcana/the-moon) — The card of intuition and the felt, unproven meaning
-- [Meditation](/knowledge/spirituality/meditation) — Creating conditions for synchronicity
+- [Tarot](/knowledge/tarot): Synchronicity as divination principle
+- [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune): The card of meaningful fate and turning
+- [The Moon](/knowledge/tarot/major-arcana/the-moon): The card of intuition and the felt, unproven meaning
+- [Meditation](/knowledge/spirituality/meditation): Creating conditions for synchronicity
 
 ### Connections
-- [Emergence](/knowledge/ai/emergence) — Meaningful coincidence as emergent phenomenon
-- [Dualism](/knowledge/philosophy/dualism) — Mind-matter connection
-- [Materialism](/knowledge/philosophy/materialism) — Challenge to causal closure
-- [Karma](/knowledge/spirituality/karma) — Meaningful order in experience
+- [Emergence](/knowledge/ai/emergence): Meaningful coincidence as emergent phenomenon
+- [Dualism](/knowledge/philosophy/dualism): Mind-matter connection
+- [Materialism](/knowledge/philosophy/materialism): Challenge to causal closure
+- [Karma](/knowledge/spirituality/karma): Meaningful order in experience
 
 ---
 

@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Nithael (נִתְהָאֵל) unites a root suggesting *sovereignty* and *celestial rule* with the suffix *-el*, "God," and is glossed as "God, King of Heaven" or "the Rightful King of the heavens." He is the fifty-fourth of the seventy-two names distilled from Exodus 14:19–21, and he closes the sign of Sagittarius with the dignity of legitimate, gracious rule.
 
-Nithael's virtue is *rejuvenation, longevity, and grace*. He governs the mercy that flows from just authority, the stability of legitimate rulers and institutions, and the renewal that keeps a person — or a reign — from decaying into rigidity. The tradition credits him with conferring long life, the favour of princes and superiors, and the graceful bearing that wins goodwill without flattery. His is the blessing of enduring things: dynasties that hold, reputations that outlast their moment, a youthfulness of spirit that survives the body's aging. Ruling the final five degrees of Sagittarius, where the archer's flight completes itself before the descent into Capricorn, Nithael marks the point at which aspiration matures into settled authority. To invoke him is to ask for durability — of health, of standing, of the good name one has earned — and for the grace to hold whatever crown one has been given without being hardened by it.
+Nithael's virtue is *rejuvenation, longevity, and grace*. He governs the mercy that flows from just authority, the stability of legitimate rulers and institutions, and the renewal that keeps a person, or a reign, from decaying into rigidity. The tradition credits him with conferring long life, the favour of princes and superiors, and the graceful bearing that wins goodwill without flattery. His is the blessing of enduring things: dynasties that hold, reputations that outlast their moment, a youthfulness of spirit that survives the body's aging. Ruling the final five degrees of Sagittarius, where the archer's flight completes itself before the descent into Capricorn, Nithael marks the point at which aspiration matures into settled authority. To invoke him is to ask for durability, of health, of standing, of the good name one has earned, and for the grace to hold whatever crown one has been given without being hardened by it.
 
 ## Attributes
 
@@ -32,3 +32,5 @@ Nithael's virtue is *rejuvenation, longevity, and grace*. He governs the mercy t
 - [Murmur](/knowledge/angels-and-demons/ars-goetia/murmur)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the third decan of Sagittarius with its pair, and so the Ten of Wands. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

@@ -21,7 +21,7 @@ The standard PAS sticking is **lRR** then **rLL**, repeating. The lowercase lett
 
 ## How to Play
 
-The engine is the rebound. Strike the flam with a full accented stroke, then relax the wrist and let the stick return for a low, soft tap rather than lifting and hitting again. Meanwhile the opposite hand is prepping its grace note low to the head. Keeping the two taps genuinely quiet against the fat flams is the whole game — it’s a study in accent-tap dynamics inside a single hand.
+The engine is the rebound. Strike the flam with a full accented stroke, then relax the wrist and let the stick return for a low, soft tap rather than lifting and hitting again. Meanwhile the opposite hand is prepping its grace note low to the head. Keeping the two taps genuinely quiet against the fat flams is the whole game, it’s a study in accent-tap dynamics inside a single hand.
 
 ## In Practice
 

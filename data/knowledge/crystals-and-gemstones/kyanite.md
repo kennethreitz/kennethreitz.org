@@ -1,20 +1,19 @@
 ---
-description: A blade of blue that keeps its own counsel — and never needs washing
-  clean.
+description: A blade of blue that keeps its own counsel, and never needs washing clean.
 source: obsidian-knowledge
 ---
 
 # Kyanite
 
-> *A blade of blue that keeps its own counsel — and never needs washing clean.*
+> *A blade of blue that keeps its own counsel, and never needs washing clean.*
 
 ---
 
 ## The Stone
 
-Kyanite grows in long, bladed crystals — flat, splintery shafts of blue that look like slivers of frozen sky or shards of striated glass. The colour runs from pale cornflower to deep sapphire, streaked along the length of the blade, and the crystals have a curious, pearly-to-vitreous sheen that shifts with the direction of the light. Its very name comes from the Greek for “blue,” and it has one of the stranger properties in the mineral world: its hardness changes with direction, softer along the blade and harder across it, so that it is both fragile and tough in the same stone.
+Kyanite grows in long, bladed crystals: flat, splintery shafts of blue that look like slivers of frozen sky or shards of striated glass. The colour runs from pale cornflower to deep sapphire, streaked along the length of the blade, and the crystals have a curious, pearly-to-vitreous sheen that shifts with the direction of the light. Its very name comes from the Greek for “blue,” and it has one of the stranger properties in the mineral world: its hardness changes with direction, softer along the blade and harder across it, so that it is both fragile and tough in the same stone.
 
-There is something austere and clean about it — the sharp geometry, the cool colour, the sense of a stone that keeps itself in order.
+There is something austere and clean about it, the sharp geometry, the cool colour, the sense of a stone that keeps itself in order.
 
 ## Correspondences
 
@@ -28,7 +27,7 @@ There is something austere and clean about it — the sharp geometry, the cool c
 
 ## Properties
 
-Kyanite is the stone of alignment and communication. It is famous among crystal workers for a rare trait: it is said never to hold or accumulate negative energy, and so — almost alone among stones — it never needs cleansing. That self-clearing nature makes it a natural aligner, believed to bring the chakras and the subtle bodies into a single clear channel and to open the throat for honest, articulate speech. Bridging throat and third eye, it clears the path between insight and expression, and is turned to for cutting through confusion, calming the mind, and speaking truth.
+Kyanite is the stone of alignment and communication. It is famous among crystal workers for a rare trait: it is said never to hold or accumulate negative energy, and so, almost alone among stones, it never needs cleansing. That self-clearing nature makes it a natural aligner, believed to bring the chakras and the subtle bodies into a single clear channel and to open the throat for honest, articulate speech. Bridging throat and third eye, it clears the path between insight and expression, and is turned to for cutting through confusion, calming the mind, and speaking truth.
 
 ## In Practice
 

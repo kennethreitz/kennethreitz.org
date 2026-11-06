@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Imamiah (עִמָמִיָה) sets a root suggesting *exaltation, height above all things* beside the suffix *-iah*, the abbreviated Name *Yah*, and is glossed as "God exalted above all things." He is the fifty-second of the seventy-two names extracted from Exodus 14:19–21, and in him the loftiness of the divine turns back toward the human task of penance and repair.
 
-Imamiah's virtue is *expiation of errors and the humility that follows it*. He governs the sincere acknowledgement of fault, the labour of making amends, and the strength that a chastened person needs to rebuild. The tradition places him over prisoners and captives — physical and moral alike — granting them liberty when their contrition is genuine, and over travellers who venture out in good faith. His temperament is vigorous and enduring: he does not indulge weakness but rather supplies the resolve that turns repentance into renewal. Ruling the fifteenth to twentieth degrees of Sagittarius, where the sign's philosophical honesty confronts the self, Imamiah demands that the seeker face what he has done and gives him the fortitude to bear the reckoning. To call on him is to ask for the courage to admit error, the endurance to repair it, and the release — inner or outer — that honest expiation earns.
+Imamiah's virtue is *expiation of errors and the humility that follows it*. He governs the sincere acknowledgement of fault, the labour of making amends, and the strength that a chastened person needs to rebuild. The tradition places him over prisoners and captives, physical and moral alike, granting them liberty when their contrition is genuine, and over travellers who venture out in good faith. His temperament is vigorous and enduring: he does not indulge weakness but rather supplies the resolve that turns repentance into renewal. Ruling the fifteenth to twentieth degrees of Sagittarius, where the sign's philosophical honesty confronts the self, Imamiah demands that the seeker face what he has done and gives him the fortitude to bear the reckoning. To call on him is to ask for the courage to admit error, the endurance to repair it, and the release, inner or outer, that honest expiation earns.
 
 ## Attributes
 
@@ -32,3 +32,5 @@ Imamiah's virtue is *expiation of errors and the humility that follows it*. He g
 - [Alloces](/knowledge/angels-and-demons/ars-goetia/alloces)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the second decan of Sagittarius with its pair, and so the Nine of Wands. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

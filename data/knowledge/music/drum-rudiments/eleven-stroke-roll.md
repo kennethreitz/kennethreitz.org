@@ -1,11 +1,11 @@
 ---
-description: Five diddles and a landing — the roll starts to sing.
+description: Five diddles and a landing, the roll starts to sing.
 source: obsidian-knowledge
 ---
 
 # Eleven Stroke Roll
 
-> *Five diddles and a landing — the roll starts to sing.*
+> *Five diddles and a landing, the roll starts to sing.*
 
 ---
 
@@ -15,11 +15,11 @@ The eleven stroke roll adds another diddle to the family, five double strokes ro
 
 ## Sticking
 
-The standard sticking is five doubles plus a terminating accent — eleven strokes: **RRLL RRLL RR L**, accent on the final note, then reversed as **LLRR LLRR LL R**. The ten rolled notes are played as even doubles, closed or open, leading to the accented eleventh stroke on the beat. Ending on the opposite hand from where it began, the lead hand alternates as the roll repeats.
+The standard sticking is five doubles plus a terminating accent, eleven strokes: **RRLL RRLL RR L**, accent on the final note, then reversed as **LLRR LLRR LL R**. The ten rolled notes are played as even doubles, closed or open, leading to the accented eleventh stroke on the beat. Ending on the opposite hand from where it began, the lead hand alternates as the roll repeats.
 
 ## How to Play
 
-The longer the roll, the more evenness matters — keep all five diddles low, matched, and consistent in spacing so the sustain does not sag in the middle, then drive the eleventh stroke for the accent. Practice it open and slow to guarantee clean second strokes before closing it into a smooth roll. As with all measured rolls, relaxation through the hands keeps the diddles from choking as the count grows.
+The longer the roll, the more evenness matters: keep all five diddles low, matched, and consistent in spacing so the sustain does not sag in the middle, then drive the eleventh stroke for the accent. Practice it open and slow to guarantee clean second strokes before closing it into a smooth roll. As with all measured rolls, relaxation through the hands keeps the diddles from choking as the count grows.
 
 ## In Practice
 

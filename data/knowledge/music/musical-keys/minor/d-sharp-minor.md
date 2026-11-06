@@ -27,5 +27,5 @@ Christian Schubart’s characterization, from *Ideen zu einer Ästhetik der Tonk
 
 ## Related
 
-- [F♯ Major](/knowledge/music/musical-keys/major/f-sharp-major) — its relative major
+- [F♯ Major](/knowledge/music/musical-keys/major/f-sharp-major), its relative major
 - [Musical Keys](/knowledge/music/musical-keys)

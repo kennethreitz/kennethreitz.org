@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Marax — also called Morax or Foraii in variant manuscripts — is the twenty-first spirit of the Ars Goetia, described in the tradition as both a Great Earl and a President, a doubling of rank not uncommon among the middle spirits of the Lesser Key. The grimoire portrays him as a great bull bearing the face of a man, a chimeric form that pairs bovine strength with human intellect. This union of beast and reasoning countenance suits a spirit whose offices are largely those of teaching and instruction in the hidden lore of the natural world.
+Marax: also called Morax or Foraii in variant manuscripts, is the twenty-first spirit of the Ars Goetia, described in the tradition as both a Great Earl and a President, a doubling of rank not uncommon among the middle spirits of the Lesser Key. The grimoire portrays him as a great bull bearing the face of a man, a chimeric form that pairs bovine strength with human intellect. This union of beast and reasoning countenance suits a spirit whose offices are largely those of teaching and instruction in the hidden lore of the natural world.
 
 The bull was a symbol of both power and learning in the older iconographies from which the grimoire drew, and Marax stands among the several Goetic spirits who bridge the animal and the scholarly.
 

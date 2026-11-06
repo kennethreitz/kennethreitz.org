@@ -1,18 +1,18 @@
 ---
-description: Five perfect bodies, and no sixth — the alphabet from which the cosmos
+description: Five perfect bodies, and no sixth, the alphabet from which the cosmos
   spells itself.
 source: obsidian-knowledge
 ---
 
 # Platonic Solids
 
-> *Five perfect bodies, and no sixth — the alphabet from which the cosmos spells itself.*
+> *Five perfect bodies, and no sixth, the alphabet from which the cosmos spells itself.*
 
 ---
 
 ## The Form
 
-The Platonic solids are the only five three-dimensional shapes in which every face is the same regular polygon, every edge the same length, and every vertex the meeting of the same number of faces. That there are precisely five — no fewer, no more — is not an aesthetic preference but a theorem, one of the oldest and most beautiful results in geometry. The tetrahedron, cube, octahedron, icosahedron, and dodecahedron exhaust the possibilities of perfect symmetry in space, and the ancients felt the finality of that number as something close to revelation.
+The Platonic solids are the only five three-dimensional shapes in which every face is the same regular polygon, every edge the same length, and every vertex the meeting of the same number of faces. That there are precisely five, no fewer, no more, is not an aesthetic preference but a theorem, one of the oldest and most beautiful results in geometry. The tetrahedron, cube, octahedron, icosahedron, and dodecahedron exhaust the possibilities of perfect symmetry in space, and the ancients felt the finality of that number as something close to revelation.
 
 Plato, in the Timaeus, took the further step that gives the solids their name and their enduring mystique. He assigned four of them to the four classical elements and reserved the fifth for the whole. The pieces are interlocking: the octahedron sits inside the cube, the icosahedron and dodecahedron are duals of one another, and the tetrahedron is its own dual. The set is a closed system, a finite grammar for building the material world out of pure form.
 

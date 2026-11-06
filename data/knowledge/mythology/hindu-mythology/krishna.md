@@ -23,13 +23,13 @@ His blue skin, like Vishnu's, represents the infinite. The peacock feather crown
 
 **Birth and Childhood**: Born to destroy the tyrant Kamsa, Krishna was switched at birth to escape death and raised by cowherds Nanda and Yashoda in Vrindavan. As a child, he was the mischievous butter thief, performing miracles and killing demons as an infant, once revealing the entire universe within his mouth to his foster mother.
 
-**Youth in Vrindavan**: The divine cowherd played his flute, enchanting all creation. He lifted Govardhan hill to protect the cowherds from Indra's rain, defeated the serpent Kaliya, and danced the Raas Lila with the gopis (cowherd maidens), each of whom believed he danced only with her -- multiplying himself to be present with all of them simultaneously.
+**Youth in Vrindavan**: The divine cowherd played his flute, enchanting all creation. He lifted Govardhan hill to protect the cowherds from Indra's rain, defeated the serpent Kaliya, and danced the Raas Lila with the gopis (cowherd maidens), each of whom believed he danced only with her, multiplying himself to be present with all of them simultaneously.
 
 ---
 
 ## Krishna and Radha
 
-Radha is not Krishna's wife but his supreme beloved -- the soul's love for the divine personified, bhakti (devotion) itself. Their love is transcendent rather than physical: Radha represents the devotee/soul, Krishna the divine, and their love the spiritual relationship. Separation is longing for the divine; union is realization. It is the most painted, sung, and celebrated love story in Hinduism.
+Radha is not Krishna's wife but his supreme beloved, the soul's love for the divine personified, bhakti (devotion) itself. Their love is transcendent rather than physical: Radha represents the devotee/soul, Krishna the divine, and their love the spiritual relationship. Separation is longing for the divine; union is realization. It is the most painted, sung, and celebrated love story in Hinduism.
 
 ---
 
@@ -47,7 +47,7 @@ Krishna serves as Arjuna's charioteer in the Kurukshetra war, friend and advisor
 
 ## Philosophy & Teachings
 
-**Lila (Divine Play)**: All creation is God's play -- not serious and grim but joyful. Playfulness is a divine quality; life is a cosmic dance.
+**Lila (Divine Play)**: All creation is God's play, not serious and grim but joyful. Playfulness is a divine quality; life is a cosmic dance.
 
 **Bhakti (Devotion)**: The easiest path in the Kali Yuga. Love and devotion to Krishna, surrender and grace, personal relationship with the divine, ecstatic devotion.
 
@@ -69,7 +69,7 @@ Krishna is the most depicted Hindu deity, inspiring countless paintings, dance d
 
 Divine child, trickster (butter thief, multiplying), lover (Radha-Krishna), wise teacher (Gita), the Self (cosmic form). Integration of playfulness and wisdom. Psychologically: joy as spiritual practice, divine romance as the soul's longing, duty without neurosis, multiplicity of self.
 
-See: Jungian Archetypes
+See: [Jungian Archetypes](/knowledge/psychology/jungian/major-jungian-concepts)
 
 ---
 

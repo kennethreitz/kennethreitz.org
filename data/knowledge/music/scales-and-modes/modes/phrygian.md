@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Mode
 
-Phrygian is the third mode of the major scale, beginning on its third degree. Built on C it draws from A♭ major, producing a minor scale whose defining feature is a lowered second — a half step sitting right above the root. That interval, arriving so early and so close, sets the entire mood before the melody has gone anywhere.
+Phrygian is the third mode of the major scale, beginning on its third degree. Built on C it draws from A♭ major, producing a minor scale whose defining feature is a lowered second, a half step sitting right above the root. That interval, arriving so early and so close, sets the entire mood before the melody has gone anywhere.
 
 It is the darkest of the commonly used minor modes, tense and exotic, with an undertow of menace or ancient ceremony. Where Dorian keeps a window open, Phrygian pulls the shutters closed. The flattened second gives it a distinctly Iberian, Middle-Eastern colour that no other diatonic mode possesses.
 
@@ -21,7 +21,7 @@ It is the darkest of the commonly used minor modes, tense and exotic, with an un
 |---|---|
 | Interval formula | H W W W H W W |
 | Notes (from C) | C D♭ E♭ F G A♭ B♭ |
-| Characteristic tone | The ♭2nd — dark, Spanish |
+| Characteristic tone | The ♭2nd: dark, Spanish |
 | Parent major scale | A♭ major |
 
 ## Character

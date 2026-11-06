@@ -33,7 +33,7 @@ source: obsidian-knowledge
 | Greek Name | Roman Name | Domain | Notes |
 |------------|------------|--------|-------|
 | [Hades](/knowledge/mythology/greek-mythology/hades) | [Pluto](/knowledge/mythology/roman-mythology/pluto) | Underworld, death | Romans less fearful of underworld deity |
-| Persephone | [Proserpina](/knowledge/mythology/roman-mythology/proserpina) | Queen of underworld, spring | Similar abduction myth |
+| [Persephone](/knowledge/mythology/greek-mythology/persephone) | [Proserpina](/knowledge/mythology/roman-mythology/proserpina) | Queen of underworld, spring | Similar abduction myth |
 | [Hestia](/knowledge/mythology/greek-mythology/hestia) | [Vesta](/knowledge/mythology/roman-mythology/vesta) | Hearth, home | Vesta had unique Roman cult (Vestals) |
 | [Kronos](/knowledge/mythology/greek-mythology/cronus) | [Saturn](/knowledge/mythology/roman-mythology/saturn) | Time, agriculture | Saturn's festival: Saturnalia |
 | [Gaia](/knowledge/mythology/greek-mythology/gaia) | Terra | Earth | Terra Mater (Mother Earth) |
@@ -89,8 +89,8 @@ flowchart TD
     R --> S
     S --> S1["Zeus / Jupiter"]
     S --> S2["Aphrodite / Venus"]
-    G --> GO["Greek-only — Pan, Hecate, Iris"]
-    R --> RO["Roman-only — Janus, Quirinus, Terminus"]
+    G --> GO["Greek-only: Pan, Hecate, Iris"]
+    R --> RO["Roman-only: Janus, Quirinus, Terminus"]
 ```
 
 ---

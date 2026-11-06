@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-The twelve major keys, one note apiece. Each carries Christian Schubart's 1806 characterization (in Rita Steblin's translation), its key signature, and its relative minor — the affective map explained in [Musical Keys](/knowledge/music/musical-keys). Schubart's majors are not uniformly bright: they run from the innocence of C to the wild passions of B, with the grave itself waiting in A♭.
+The twelve major keys, one note apiece. Each carries Christian Schubart's 1806 characterization (in Rita Steblin's translation), its key signature, and its relative minor, the affective map explained in [Musical Keys](/knowledge/music/musical-keys). Schubart's majors are not uniformly bright: they run from the innocence of C to the wild passions of B, with the grave itself waiting in A♭.
 
 | Key | Signature | Relative Minor |
 | --- | --- | --- |
@@ -32,5 +32,5 @@ The twelve major keys, one note apiece. Each carries Christian Schubart's 1806 c
 
 ## Related
 
-- [Musical Keys](/knowledge/music/musical-keys) — the parent index and the story of affective key characteristics
-- [Minor](/knowledge/music/musical-keys/minor) — the twelve minor keys
+- [Musical Keys](/knowledge/music/musical-keys), the parent index and the story of affective key characteristics
+- [Minor](/knowledge/music/musical-keys/minor), the twelve minor keys

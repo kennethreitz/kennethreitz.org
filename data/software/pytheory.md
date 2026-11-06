@@ -126,6 +126,18 @@ $ uv add pytheory
 - [Source Code on GitHub](https://github.com/kennethreitz/pytheory)
 - [Python Package Index](https://pypi.org/project/pytheory/)
 
+<!-- vault:history start -->
+## History
+
+### PyTheory
+
+PyTheory is a complete music theory library and synthesis engine. Explore keys, chords, scales, and progressions, then compose multi-part arrangements and hear them instantly, all from Python. No DAW, no samples, no audio files. The music is the code.
+
+### OP-XY presets
+
+Every sound rendered from scratch: no samples were harmed. Uses pytheory's synthesis engine to generate multisampled instruments and drum kits in the OP-XY preset format.
+<!-- vault:history end -->
+
 ## Related
 
 - [**PyTheory Is Awesome**](/essays/2026-03-25-pytheory_is_awesome): On chord detection, world music systems, and why the quietest library means the most.

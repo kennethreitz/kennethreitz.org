@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Uvall — variously spelled Vual, Voval, or Wall in the manuscripts — is the forty-seventh spirit of the Ars Goetia, a Great Duke who first appears in the form of a mighty dromedary. When the operator commands it, the beast takes on human shape and speaks in the Egyptian tongue, though not perfectly. His archaic voice and camel-form mark him as one of the older, more distant-seeming spirits in the catalogue, an entity whose knowledge is bound up with the past.
+Uvall: variously spelled Vual, Voval, or Wall in the manuscripts, is the forty-seventh spirit of the Ars Goetia, a Great Duke who first appears in the form of a mighty dromedary. When the operator commands it, the beast takes on human shape and speaks in the Egyptian tongue, though not perfectly. His archaic voice and camel-form mark him as one of the older, more distant-seeming spirits in the catalogue, an entity whose knowledge is bound up with the past.
 
 Like several Goetic dukes, Uvall is chiefly concerned with the affairs of the heart and with the reconciliation of enemies, placing him among the spirits invoked for matters of love and social repair rather than destruction.
 

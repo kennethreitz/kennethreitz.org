@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## The Angel
 
-As the forty-sixth name of the Shem ha-Mephorash, Ariel (אֲרִיאֵל) fuses *ari*, "lion," with the divine suffix *-el*, "God" — literally "Lion of God," though the practical tradition reads him as "God who reveals" or "the Revealer of hidden things." He should not be confused with the various other figures who bear this common theophoric name; here Ariel is strictly the angel governing the fifteenth to twentieth degrees of Scorpio, one of the seventy-two rays distilled from the letters of Exodus 14:19–21.
+As the forty-sixth name of the Shem ha-Mephorash, Ariel (אֲרִיאֵל) fuses *ari*, "lion," with the divine suffix *-el*, "God", literally "Lion of God," though the practical tradition reads him as "God who reveals" or "the Revealer of hidden things." He should not be confused with the various other figures who bear this common theophoric name; here Ariel is strictly the angel governing the fifteenth to twentieth degrees of Scorpio, one of the seventy-two rays distilled from the letters of Exodus 14:19–21.
 
-Ariel's virtue is *revelation and perception*. He opens the mind to hidden truths, discloses the location of concealed treasures both literal and spiritual, and grants the subtle intelligence that solves what resists ordinary reason. His is the gift of the sudden insight, the dream that instructs, the connection glimpsed between things previously thought separate. In keeping with Scorpio's affinity for what lies beneath the surface, Ariel presides over the buried and the veiled, and he inclines the heart toward gratitude — for the tradition holds that only the thankful mind is fit to receive revelation without being ruined by it. To invoke Ariel is to ask for the courage to look at what has been kept in shadow, and the discernment to make good use of what the looking uncovers.
+Ariel's virtue is *revelation and perception*. He opens the mind to hidden truths, discloses the location of concealed treasures both literal and spiritual, and grants the subtle intelligence that solves what resists ordinary reason. His is the gift of the sudden insight, the dream that instructs, the connection glimpsed between things previously thought separate. In keeping with Scorpio's affinity for what lies beneath the surface, Ariel presides over the buried and the veiled, and he inclines the heart toward gratitude, for the tradition holds that only the thankful mind is fit to receive revelation without being ruined by it. To invoke Ariel is to ask for the courage to look at what has been kept in shadow, and the discernment to make good use of what the looking uncovers.
 
 ## Attributes
 
@@ -33,3 +33,5 @@ Ariel's virtue is *revelation and perception*. He opens the mind to hidden truth
 - [Bifrons](/knowledge/angels-and-demons/ars-goetia/bifrons)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the second decan of Scorpio with its pair, and so the Six of Cups. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

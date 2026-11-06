@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Foras — appearing in some manuscripts as Forcas or Forras — is the thirty-first spirit of the Ars Goetia, a mighty President who governs a modest company of legions. He is one of the scholarly spirits of the catalogue, aligned less with dominion or destruction than with the quiet accumulation of knowledge. Where the sea-marquises and the fire-kings storm and thunder, Foras is figured as a teacher of the natural sciences and the hidden properties of things, a spirit whose gifts belong to the study and the laboratory rather than the battlefield.
+Foras: appearing in some manuscripts as Forcas or Forras, is the thirty-first spirit of the Ars Goetia, a mighty President who governs a modest company of legions. He is one of the scholarly spirits of the catalogue, aligned less with dominion or destruction than with the quiet accumulation of knowledge. Where the sea-marquises and the fire-kings storm and thunder, Foras is figured as a teacher of the natural sciences and the hidden properties of things, a spirit whose gifts belong to the study and the laboratory rather than the battlefield.
 
 The tradition presents him in the shape of a strong man, and unlike many Goetic spirits he requires no special coercion into visible form. His temperament, as the grimoires describe it, is that of an instructor patient with the seeker who genuinely wishes to learn.
 

@@ -1,17 +1,17 @@
 ---
-description: The first solid — the least a shape can be and still enclose a world.
+description: The first solid, the least a shape can be and still enclose a world.
 source: obsidian-knowledge
 ---
 
 # Tetrahedron
 
-> *The first solid — the least a shape can be and still enclose a world.*
+> *The first solid, the least a shape can be and still enclose a world.*
 
 ---
 
 ## The Form
 
-The tetrahedron is the simplest of the Platonic solids, four equilateral triangles joined into a pyramid with a triangular base. It is the minimum: no three-dimensional figure can be built from fewer faces, fewer edges, or fewer vertices. Four points suspended in space, each connected to the other three, define both the smallest volume and the sharpest, most self-contained of the perfect bodies. It is also the only Platonic solid that is its own dual — place a point at the center of each face and connect them, and another tetrahedron appears, nested and inverted within the first.
+The tetrahedron is the simplest of the Platonic solids, four equilateral triangles joined into a pyramid with a triangular base. It is the minimum: no three-dimensional figure can be built from fewer faces, fewer edges, or fewer vertices. Four points suspended in space, each connected to the other three, define both the smallest volume and the sharpest, most self-contained of the perfect bodies. It is also the only Platonic solid that is its own dual, place a point at the center of each face and connect them, and another tetrahedron appears, nested and inverted within the first.
 
 Because of its economy and its upward-pointing apex, the tetrahedron carries a quality of ignition. Its faces are all triangles, its angles keen, its form the least rounded and most piercing of the five. Where the cube feels stable and seated, the tetrahedron feels poised to move, a shape caught in the act of becoming.
 

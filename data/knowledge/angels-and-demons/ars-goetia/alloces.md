@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Alloces — also written Alocer or Allocer — is the fifty-second spirit of the Ars Goetia, a Great Duke who appears in the guise of a soldier or knight riding upon a great horse. His face is that of a lion, ruddy and glowing red, with eyes that burn like fire; he speaks with a great and heavy voice. He is armed and armoured in the manner of a warrior, and the grimoire portrays him as a commanding, martial presence whose flaming countenance marks his solar and fiery associations.
+Alloces: also written Alocer or Allocer: is the fifty-second spirit of the Ars Goetia, a Great Duke who appears in the guise of a soldier or knight riding upon a great horse. His face is that of a lion, ruddy and glowing red, with eyes that burn like fire; he speaks with a great and heavy voice. He is armed and armoured in the manner of a warrior, and the grimoire portrays him as a commanding, martial presence whose flaming countenance marks his solar and fiery associations.
 
 Beneath the fearsome soldier’s exterior, Alloces is chiefly a teacher of the heavens and of hidden learning, one of the many Goetic spirits in whom terror and tuition are combined.
 

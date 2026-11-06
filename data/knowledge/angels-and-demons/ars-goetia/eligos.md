@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Eligos — spelled also Eligor or Abigor in the wider demonological tradition — is the fifteenth spirit of the *Ars Goetia* and a great duke of its hierarchy. The grimoire gives him a knightly and soldierly aspect: he appears as a goodly knight, bearing a lance, an ensign, and in some accounts a serpent, an image that binds him closely to the arts of war and command. He belongs among the martial spirits of the catalogue, but his office reaches beyond the fighting itself to the knowledge and favour that surround it.
+Eligos: spelled also Eligor or Abigor in the wider demonological tradition, is the fifteenth spirit of the *Ars Goetia* and a great duke of its hierarchy. The grimoire gives him a knightly and soldierly aspect: he appears as a goodly knight, bearing a lance, an ensign, and in some accounts a serpent, an image that binds him closely to the arts of war and command. He belongs among the martial spirits of the catalogue, but his office reaches beyond the fighting itself to the knowledge and favour that surround it.
 
 His appearance as an armed knight, rather than as a beast or a composite monster, marks him as one of the more courtly figures of the tradition, a lord of the field and of counsel.
 

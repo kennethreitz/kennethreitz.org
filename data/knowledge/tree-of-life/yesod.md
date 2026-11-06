@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Yesod is Foundation, the ninth emanation, the great reservoir into which every higher sphere empties before its influence reaches the earth. Nothing descends into Malkuth except through Yesod; it is the last filter, the astral bedrock beneath the physical, the storehouse of image and dream through which spirit is finally clothed in form. Its planet is the Moon, and it is wholly lunar: reflective rather than radiant, a mirror that gathers the sun of Tiphareth and passes it downward, changeful, tidal, ruling the unconscious currents and the machinery of instinct that keep the world in motion beneath awareness.
 
-Yesod is the sphere of the astral light, of vision and glamour, of the imagination that shapes what will later become fact. Its virtue is Independence — the strength to stand on one’s own foundation, to trust the reflected light without demanding the source. Its vice is idleness, the inertia of a foundation that receives but never transmits. This is the realm most easily mistaken for the goal, for its images are vivid and seductive; yet Yesod is a bridge, not a destination — the moon that must be crossed on the way to the sun.
+Yesod is the sphere of the astral light, of vision and glamour, of the imagination that shapes what will later become fact. Its virtue is Independence, the strength to stand on one’s own foundation, to trust the reflected light without demanding the source. Its vice is idleness, the inertia of a foundation that receives but never transmits. This is the realm most easily mistaken for the goal, for its images are vivid and seductive; yet Yesod is a bridge, not a destination, the moon that must be crossed on the way to the sun.
 
 ## Correspondences
 
@@ -35,7 +35,7 @@ Yesod sits low on the Middle Pillar, the column of equilibrium, directly beneath
 
 ## In Tarot
 
-The four Nines belong to Yesod — the number of the Moon’s fullness, of forces gathered near to their completion. The Nine of Wands is guarded strength, the Nine of Cups the wish fulfilled, the Nine of Swords the nightmares of an overactive foundation, the Nine of Pentacles solitary abundance; each is the astral store filled almost to the brim. As the seat of the Moon, Yesod’s planetary trumps are [The Moon](/knowledge/tarot/major-arcana/the-moon), ruler of the tides of dream, and its high reflection [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess), keeper of the lunar mysteries.
+The four Nines belong to Yesod, the number of the Moon’s fullness, of forces gathered near to their completion. The Nine of Wands is guarded strength, the Nine of Cups the wish fulfilled, the Nine of Swords the nightmares of an overactive foundation, the Nine of Pentacles solitary abundance; each is the astral store filled almost to the brim. As the seat of the Moon, Yesod’s planetary trumps are [The Moon](/knowledge/tarot/major-arcana/the-moon), ruler of the tides of dream, and its high reflection [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess), keeper of the lunar mysteries.
 
 ## Related
 

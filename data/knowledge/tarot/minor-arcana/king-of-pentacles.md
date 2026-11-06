@@ -12,11 +12,11 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A king sits enthroned amid a lush abundance of grapevines, his robe embroidered with clusters of ripe fruit, one hand resting a golden pentacle on his knee and the other holding a flowering sceptre. His throne is carved with bulls' heads, the emblem of Taurus and enduring earth. Behind him rises the wall of a castle he has plainly built himself, and the vines climb everywhere, heavy with the harvest of long labour. He looks settled, prosperous, entirely at ease — a man who has mastered the material world and now presides over it with the calm authority of someone who has nothing left to prove.
+A king sits enthroned amid a lush abundance of grapevines, his robe embroidered with clusters of ripe fruit, one hand resting a golden pentacle on his knee and the other holding a flowering sceptre. His throne is carved with bulls' heads, the emblem of Taurus and enduring earth. Behind him rises the wall of a castle he has plainly built himself, and the vines climb everywhere, heavy with the harvest of long labour. He looks settled, prosperous, entirely at ease, a man who has mastered the material world and now presides over it with the calm authority of someone who has nothing left to prove.
 
 ## Upright
 
-The King of Pentacles is worldly mastery come to fruition — the disciplined, generous authority of one who has built lasting abundance and can now steward it wisely. He is the successful entrepreneur, the reliable provider, the patriarch whose wealth is matched by his steadiness and his willingness to support those around him. Drawn upright he speaks of security, leadership grounded in competence, and the enjoyment of prosperity without being enslaved by it. His gift is stability that shelters others; his authority rests not on force but on demonstrated capability. He has turned the seed of the Ace into an estate, and he governs it with a bull's unshakable calm.
+The King of Pentacles is worldly mastery come to fruition, the disciplined, generous authority of one who has built lasting abundance and can now steward it wisely. He is the successful entrepreneur, the reliable provider, the patriarch whose wealth is matched by his steadiness and his willingness to support those around him. Drawn upright he speaks of security, leadership grounded in competence, and the enjoyment of prosperity without being enslaved by it. His gift is stability that shelters others; his authority rests not on force but on demonstrated capability. He has turned the seed of the Ace into an estate, and he governs it with a bull's unshakable calm.
 
 ## Reversed
 
@@ -26,15 +26,15 @@ Reversed, mastery sours into excess. The card can show greed, corruption, and th
 
 | Attribute | Value |
 | --- | --- |
-| **Element** | Earth. As the King of the suit, this court card is the Fire of Earth — the active, generative, willful fire directing stable earth, giving the suit its drive toward building, achievement, and material command. |
+| **Element** | Earth. As the King of the suit, this court card is the Fire of Earth, the active, generative, willful fire directing stable earth, giving the suit its drive toward building, achievement, and material command. |
 
 ## Archetype
 
-The King of Pentacles is the mature masculine in its earthy, provident form — the good father and wise steward that Jung located in the positive senex, the elder whose authority nourishes rather than oppresses. He represents the ego that has mastered the reality principle and put its competence in service of others, [Self](/knowledge/psychology/jungian/the-self) realised through the disciplined building of something lasting. His bull-throne is instinct fully governed, power made productive. Where [The Emperor](/knowledge/tarot/major-arcana/the-emperor) rules through law and structure, this King rules through cultivation, the patient husbandry of resources into an enduring, generous whole.
+The King of Pentacles is the mature masculine in its earthy, provident form, the good father and wise steward that Jung located in the positive senex, the elder whose authority nourishes rather than oppresses. He represents the ego that has mastered the reality principle and put its competence in service of others, [Self](/knowledge/psychology/jungian/the-self) realised through the disciplined building of something lasting. His bull-throne is instinct fully governed, power made productive. Where [The Emperor](/knowledge/tarot/major-arcana/the-emperor) rules through law and structure, this King rules through cultivation, the patient husbandry of resources into an enduring, generous whole.
 
 ## Mythological Echoes
 
-He echoes the abundant kings of myth — the earthly reign of Saturn's golden age when the fields gave freely, the biblical Boaz whose fields fed the gleaners, the sovereign whose land prospers because he tends it justly. He carries something of Dionysus in the vines and of Pluto, the wealth-giver whose name means riches, the lord who governs the fertile darkness of the earth from which all abundance rises.
+He echoes the abundant kings of myth, the earthly reign of Saturn's golden age when the fields gave freely, the biblical Boaz whose fields fed the gleaners, the sovereign whose land prospers because he tends it justly. He carries something of Dionysus in the vines and of Pluto, the wealth-giver whose name means riches, the lord who governs the fertile darkness of the earth from which all abundance rises.
 
 ## In Practice
 

@@ -11,13 +11,13 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Gusion — also spelled Gusoyn or Gusayn — is the eleventh spirit of the *Ars Goetia* and a great duke of its hierarchy. The grimoire assigns him a form drawn from the strange menagerie of the medieval bestiary: the shape described in the tradition is that of a xenophilus, a creature whose very name the compilers seem to have taken from obscure sources, lending him an air of the exotic. He is numbered among the spirits of counsel and reconciliation, and his character in the tradition is that of a truthful and dignified officer.
+Gusion: also spelled Gusoyn or Gusayn: is the eleventh spirit of the *Ars Goetia* and a great duke of its hierarchy. The grimoire assigns him a form drawn from the strange menagerie of the medieval bestiary: the shape described in the tradition is that of a xenophilus, a creature whose very name the compilers seem to have taken from obscure sources, lending him an air of the exotic. He is numbered among the spirits of counsel and reconciliation, and his character in the tradition is that of a truthful and dignified officer.
 
 Where certain spirits are consulted for treasure or invisibility, Gusion belongs to those approached for judgement and for the mending of human affairs, a spirit of honour and answer.
 
 ## Office
 
-The *Goetia* holds that Gusion discerns all questions put to him, telling of things past, present, and to come. He gives honour and dignity, reconciles friends, and shows the meaning and significance of all things. His office therefore joins the oracular gift to the arts of honour and concord — a spirit consulted both to know and to be reconciled, and to have the sense of matters made plain.
+The *Goetia* holds that Gusion discerns all questions put to him, telling of things past, present, and to come. He gives honour and dignity, reconciles friends, and shows the meaning and significance of all things. His office therefore joins the oracular gift to the arts of honour and concord, a spirit consulted both to know and to be reconciled, and to have the sense of matters made plain.
 
 ## Attributes
 

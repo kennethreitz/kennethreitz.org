@@ -17,7 +17,7 @@ That reputation for benevolence and truthful speech made him a favoured spirit a
 
 ## Office
 
-The *Goetia* states that Vassago declares things past, present, and to come, and discovers what has been lost or hidden away. His office is essentially oracular and investigative — the recovery of concealed knowledge and misplaced objects — which places him close in function to the spirits of divination, though the grimoire ranks him among its princes rather than its diviner-presidents.
+The *Goetia* states that Vassago declares things past, present, and to come, and discovers what has been lost or hidden away. His office is essentially oracular and investigative, the recovery of concealed knowledge and misplaced objects, which places him close in function to the spirits of divination, though the grimoire ranks him among its princes rather than its diviner-presidents.
 
 ## Attributes
 

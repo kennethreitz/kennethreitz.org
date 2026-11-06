@@ -18,7 +18,7 @@ The tradition surrounds his manifestation with particular caution: the operator 
 
 ## Office
 
-The Goetia holds that Astaroth gives true answers concerning things past, present, and to come, and discovers all secrets. He will discourse willingly of the fall of the spirits — how they sinned and fell — though the text warns that he does so to deceive the operator into supposing he too fell blamelessly. He also makes men wonderfully knowing in all the liberal sciences, a scholar’s gift befitting his eminence.
+The Goetia holds that Astaroth gives true answers concerning things past, present, and to come, and discovers all secrets. He will discourse willingly of the fall of the spirits, how they sinned and fell, though the text warns that he does so to deceive the operator into supposing he too fell blamelessly. He also makes men wonderfully knowing in all the liberal sciences, a scholar’s gift befitting his eminence.
 
 ## Attributes
 

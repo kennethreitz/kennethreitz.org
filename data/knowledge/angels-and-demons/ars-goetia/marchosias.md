@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Marchosias is the thirty-fifth spirit of the Ars Goetia, a Great Marquis who appears in the shape of a wolf furnished with the wings of a griffin and the tail of a serpent, and who breathes fire from his mouth. Commanded into human form, he becomes a strong and warlike figure. His name is thought to derive from a Latin root meaning something like "she-wolf of the sea," and among the Goetic spirits he holds a reputation as a valiant and reliable fighter.
 
-The tradition preserves a poignant note about him: Marchosias is said to have belonged to the Order of Dominations before his fall, and he told his conjuror Solomon that after twelve hundred years he hoped to return to the seventh heavenly throne — a hope the grimoire leaves unresolved, adding, "but he is deceived in that hope."
+The tradition preserves a poignant note about him: Marchosias is said to have belonged to the Order of Dominations before his fall, and he told his conjuror Solomon that after twelve hundred years he hoped to return to the seventh heavenly throne, a hope the grimoire leaves unresolved, adding, "but he is deceived in that hope."
 
 ## Office
 

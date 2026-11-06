@@ -12,11 +12,11 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A dancing figure, draped only in a flowing violet sash, floats within a great oval wreath of green laurel bound at top and bottom. In each hand she holds a wand; one leg crosses behind the other in the same figure-four that marked the Hanged Man, now turned to a dance of completion. At the four corners of the card appear the same four winged creatures that watched the Wheel of Fortune — the bull, the lion, the eagle, and the angel — the fixed signs, the evangelists, the elements made whole. The wreath is a mandala, a closed circle of fulfilment. Everything is integrated, in motion, and complete.
+A dancing figure, draped only in a flowing violet sash, floats within a great oval wreath of green laurel bound at top and bottom. In each hand she holds a wand; one leg crosses behind the other in the same figure-four that marked the Hanged Man, now turned to a dance of completion. At the four corners of the card appear the same four winged creatures that watched the Wheel of Fortune, the bull, the lion, the eagle, and the angel, the fixed signs, the evangelists, the elements made whole. The wreath is a mandala, a closed circle of fulfilment. Everything is integrated, in motion, and complete.
 
 ## Upright
 
-The World is completion, integration, and the fulfilment of the whole journey. It is the return to the wholeness [The Fool](/knowledge/tarot/major-arcana/the-fool) carried unconsciously at the start, now made conscious, earned, and danced. Upright, the card counsels the joy of arrival — a cycle closed, a self made whole, a task brought to its rightful end. It marks accomplishment and the deep sense of belonging in one’s own life. To draw it is to be told that something has come full circle, and that you may stand, complete, in the middle of the dance before the next journey begins.
+The World is completion, integration, and the fulfilment of the whole journey. It is the return to the wholeness [The Fool](/knowledge/tarot/major-arcana/the-fool) carried unconsciously at the start, now made conscious, earned, and danced. Upright, the card counsels the joy of arrival, a cycle closed, a self made whole, a task brought to its rightful end. It marks accomplishment and the deep sense of belonging in one’s own life. To draw it is to be told that something has come full circle, and that you may stand, complete, in the middle of the dance before the next journey begins.
 
 ## Reversed
 
@@ -28,15 +28,15 @@ Reversed, the circle stays open. The card can mean a completion deferred, a loos
 | --- | --- |
 | **Planet** | Saturn, boundary, structure, and the completion of time. |
 | **Hebrew letter** | Tav: ת, the cross or mark, the final letter and the seal. |
-| **Tree of Life path** | Path 32, joining Yesod to Malkuth, foundation to the kingdom — the last path, into the manifest world. |
+| **Tree of Life path** | Path 32, joining Yesod to Malkuth, foundation to the kingdom, the last path, into the manifest world. |
 
 ## Archetype
 
-The World is the mandala of [The Self](/knowledge/psychology/jungian/the-self), the archetype of wholeness realised — the successful conclusion of [Individuation](/knowledge/psychology/jungian/individuation) in which the opposites are reconciled and the psyche dances at its own centre. The four creatures at the corners are the four functions of consciousness made whole; the wreath is the completed circle of the integrated self. Jung saw such mandalas arise spontaneously in the psyche at moments of deep integration, images of a centre found and a totality achieved. And yet the dance continues — completion here is not stasis but a fuller beginning, the Fool ready to step off the cliff again, wiser.
+The World is the mandala of [The Self](/knowledge/psychology/jungian/the-self), the archetype of wholeness realised, the successful conclusion of [Individuation](/knowledge/psychology/jungian/individuation) in which the opposites are reconciled and the psyche dances at its own centre. The four creatures at the corners are the four functions of consciousness made whole; the wreath is the completed circle of the integrated self. Jung saw such mandalas arise spontaneously in the psyche at moments of deep integration, images of a centre found and a totality achieved. And yet the dance continues, completion here is not stasis but a fuller beginning, the Fool ready to step off the cliff again, wiser.
 
 ## Mythological Echoes
 
-She is the cosmic dancer — Shiva Nataraja spinning the universe within a ring of fire, the world-soul at the heart of creation. She echoes the anima mundi of the alchemists, the sacred marriage completed, the ouroboros closed into its perfect circle. Every myth of the journey home — Odysseus returned, the circle of the year fulfilled, the mandala of the finished cosmos — dances inside her wreath.
+She is the cosmic dancer: Shiva Nataraja spinning the universe within a ring of fire, the world-soul at the heart of creation. She echoes the anima mundi of the alchemists, the sacred marriage completed, the ouroboros closed into its perfect circle. Every myth of the journey home. Odysseus returned, the circle of the year fulfilled, the mandala of the finished cosmos, dances inside her wreath.
 
 ## In Practice
 

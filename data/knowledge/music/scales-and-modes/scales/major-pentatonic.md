@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Scale
 
-The major pentatonic is the major scale with its two most troublesome notes removed. Take the [Ionian](/knowledge/music/scales-and-modes/modes/ionian) mode and drop the fourth and the seventh — the two degrees that create the half-step tensions and the tritone — and what remains is five notes so consonant that they refuse to clash with one another. This is not a niche scale; it is arguably the most universal melodic structure on Earth, arising independently in folk traditions across China, West Africa, the Andes, Celtic Europe, and the American plains. Its five notes map onto the black keys of the piano, which is why a child mashing them at random still sounds vaguely musical.
+The major pentatonic is the major scale with its two most troublesome notes removed. Take the [Ionian](/knowledge/music/scales-and-modes/modes/ionian) mode and drop the fourth and the seventh, the two degrees that create the half-step tensions and the tritone, and what remains is five notes so consonant that they refuse to clash with one another. This is not a niche scale; it is arguably the most universal melodic structure on Earth, arising independently in folk traditions across China, West Africa, the Andes, Celtic Europe, and the American plains. Its five notes map onto the black keys of the piano, which is why a child mashing them at random still sounds vaguely musical.
 
 ## Structure
 
@@ -24,7 +24,7 @@ The major pentatonic is the major scale with its two most troublesome notes remo
 
 ## Character
 
-Because it contains no half steps and no tritone, the major pentatonic has nothing in it that wants to resolve. Every note sits comfortably against every chord in the key, which gives the scale its open, airy, unhurried quality — spacious rather than driven. It sounds pastoral, hopeful, folk-simple. Its very safety is both its gift and its limitation: it is nearly impossible to play a wrong note, and nearly as hard to play a surprising one.
+Because it contains no half steps and no tritone, the major pentatonic has nothing in it that wants to resolve. Every note sits comfortably against every chord in the key, which gives the scale its open, airy, unhurried quality, spacious rather than driven. It sounds pastoral, hopeful, folk-simple. Its very safety is both its gift and its limitation: it is nearly impossible to play a wrong note, and nearly as hard to play a surprising one.
 
 ## In Practice
 

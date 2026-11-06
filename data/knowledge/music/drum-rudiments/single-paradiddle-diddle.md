@@ -1,25 +1,25 @@
 ---
-description: One para, two diddles — the cell that never switches hands.
+description: One para, two diddles, the cell that never switches hands.
 source: obsidian-knowledge
 ---
 
 # Single Paradiddle-Diddle
 
-> *One para, two diddles — the cell that never switches hands.*
+> *One para, two diddles, the cell that never switches hands.*
 
 ---
 
 ## The Rudiment
 
-The single paradiddle-diddle takes the paradiddle idea and stacks a second diddle onto the end, producing a six-note cell of two singles followed by two doubles — "para-diddle-diddle." Unlike the plain paradiddles, which flip the lead hand every repetition, this pattern keeps the same lead hand each time, because the two diddles balance out and return the lead to where it started. That makes it a favorite for sextuplet and triplet grooves, where a steady lead hand can drive an ostinato while the diddles fill in.
+The single paradiddle-diddle takes the paradiddle idea and stacks a second diddle onto the end, producing a six-note cell of two singles followed by two doubles. "para-diddle-diddle." Unlike the plain paradiddles, which flip the lead hand every repetition, this pattern keeps the same lead hand each time, because the two diddles balance out and return the lead to where it started. That makes it a favorite for sextuplet and triplet grooves, where a steady lead hand can drive an ostinato while the diddles fill in.
 
 ## Sticking
 
-The standard sticking is **RLRRLL**, with an accent on the first note, then optionally mirrored as **LRLLRR** when leading with the left. Because it contains an even number of doubles, the right-lead version returns you to a right lead on the next repetition — the pattern does not alternate on its own the way a single paradiddle does. Counted as sixteenth-note triplets or a sextuplet, one paradiddle-diddle fills a beat with the accent on the pulse.
+The standard sticking is **RLRRLL**, with an accent on the first note, then optionally mirrored as **LRLLRR** when leading with the left. Because it contains an even number of doubles, the right-lead version returns you to a right lead on the next repetition, the pattern does not alternate on its own the way a single paradiddle does. Counted as sixteenth-note triplets or a sextuplet, one paradiddle-diddle fills a beat with the accent on the pulse.
 
 ## How to Play
 
-Drive the accented first note, keep the second single low, and let both diddles rebound evenly and quietly beneath the accent. The two consecutive doubles make relaxed rebound control essential — any tension turns the diddles into a stumble. It sits beautifully in a triplet feel, so lock the accent to the beat and let the four rolled notes flow underneath.
+Drive the accented first note, keep the second single low, and let both diddles rebound evenly and quietly beneath the accent. The two consecutive doubles make relaxed rebound control essential, any tension turns the diddles into a stumble. It sits beautifully in a triplet feel, so lock the accent to the beat and let the four rolled notes flow underneath.
 
 ## In Practice
 

@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Phenex — also spelled Phoenix or Pheynix — is the thirty-seventh spirit of the Ars Goetia, a Great Marquis who appears in the likeness of the mythic firebird whose name he bears, singing with the sweet voice of a child. The grimoires warn the operator not to be moved by this beautiful song, for it is a snare; the exorcist must command the spirit to lay it aside and take on human form before conversing with him. His character is that of the poet and singer, gentle in seeming, and among the more melodious of the infernal ranks.
+Phenex: also spelled Phoenix or Pheynix: is the thirty-seventh spirit of the Ars Goetia, a Great Marquis who appears in the likeness of the mythic firebird whose name he bears, singing with the sweet voice of a child. The grimoires warn the operator not to be moved by this beautiful song, for it is a snare; the exorcist must command the spirit to lay it aside and take on human form before conversing with him. His character is that of the poet and singer, gentle in seeming, and among the more melodious of the infernal ranks.
 
-Like Marchosias, Phenex carries the wistful hope of return. He told Solomon that he trusted to come back to the Seventh Throne after a thousand two hundred years — a hope the grimoire, in its characteristic manner, records without granting.
+Like Marchosias, Phenex carries the wistful hope of return. He told Solomon that he trusted to come back to the Seventh Throne after a thousand two hundred years, a hope the grimoire, in its characteristic manner, records without granting.
 
 ## Office
 

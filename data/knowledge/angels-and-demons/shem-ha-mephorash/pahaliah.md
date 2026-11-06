@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Angel
 
-Pahaliah closes in *-iah* and is traditionally rendered “God the Redeemer,” the one who buys back what has been forfeited. The root carries the sense of ransom and deliverance — not the erasure of a debt but its payment by another hand. He is the angel of the turned life, the vocation discovered late, the return of one who had wandered far from the thing he was made for.
+Pahaliah closes in *-iah* and is traditionally rendered “God the Redeemer,” the one who buys back what has been forfeited. The root carries the sense of ransom and deliverance, not the erasure of a debt but its payment by another hand. He is the angel of the turned life, the vocation discovered late, the return of one who had wandered far from the thing he was made for.
 
-The virtue Pahaliah bestows is chastity in the older, larger sense: not merely continence of the body but a wholeness and singleness of devotion, a life re-ordered around what is sacred. The manuals name him the patron of conversions and of religious vocation, invoked by those who wish to overcome the appetites that scatter them and to consecrate their strength to a higher aim. He governs the sacred boundary that protects the inner life from the profane — the discipline that says *this far and no further*, not from fear but from reverence. Those who work with Pahaliah are said to be delivered from the temptations that would betray their calling, and to find in restraint not a diminishment but a concentration of power. He is the angel of the vow taken seriously, the threshold guarded, the self given back to its proper purpose.
+The virtue Pahaliah bestows is chastity in the older, larger sense: not merely continence of the body but a wholeness and singleness of devotion, a life re-ordered around what is sacred. The manuals name him the patron of conversions and of religious vocation, invoked by those who wish to overcome the appetites that scatter them and to consecrate their strength to a higher aim. He governs the sacred boundary that protects the inner life from the profane, the discipline that says *this far and no further*, not from fear but from reverence. Those who work with Pahaliah are said to be delivered from the temptations that would betray their calling, and to find in restraint not a diminishment but a concentration of power. He is the angel of the vow taken seriously, the threshold guarded, the self given back to its proper purpose.
 
 ## Attributes
 
@@ -31,3 +31,5 @@ The virtue Pahaliah bestows is chastity in the older, larger sense: not merely c
 - [Purson](/knowledge/angels-and-demons/ars-goetia/purson)
 - [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+Correspondences follow the Golden Dawn decan attributions: this angel shares the first decan of Cancer with its pair, and so the Two of Cups. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.

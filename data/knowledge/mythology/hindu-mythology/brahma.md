@@ -32,7 +32,7 @@ An important distinction: **Brahma** is the creator god, a personal deity. **Bra
 
 The creator archetype, divine mind and ordering intelligence, logos principle. Psychologically: the creative impulse, intellectual creation, wisdom and learning, four-fold consciousness.
 
-See: Jungian Archetypes
+See: [Jungian Archetypes](/knowledge/psychology/jungian/major-jungian-concepts)
 
 ---
 

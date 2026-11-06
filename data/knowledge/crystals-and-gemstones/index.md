@@ -1,15 +1,15 @@
 ---
-description: Slow light in stone — the mineral kingdom's answer to the chakras.
+description: Slow light in stone, the mineral kingdom's answer to the chakras.
 source: obsidian-knowledge
 ---
 
 # Crystals & Gemstones
 
-> *Slow light in stone — the mineral kingdom's answer to the chakras.*
+> *Slow light in stone, the mineral kingdom's answer to the chakras.*
 
 ---
 
-Crystals are the mineral kingdom's most ordered form — atoms locked into lattices so regular they grow into geometric solids over geologic time. The metaphysical tradition reads that order as a kind of frequency, each stone carrying a stable signature that can be worked with: to ground, to open the heart, to sharpen the mind, to protect. Whatever one makes of the mechanism, the practice is old and coherent, and it slots cleanly into the correspondence grid the rest of the vault already runs on — every stone answers to a [chakra](/knowledge/chakras), a classical element, and a planet or sign of [Astrology](/knowledge/astrology).
+Crystals are the mineral kingdom's most ordered form: atoms locked into lattices so regular they grow into geometric solids over geologic time. The metaphysical tradition reads that order as a kind of frequency, each stone carrying a stable signature that can be worked with: to ground, to open the heart, to sharpen the mind, to protect. Whatever one makes of the mechanism, the practice is old and coherent, and it slots cleanly into the correspondence grid the rest of the vault already runs on, every stone answers to a [chakra](/knowledge/chakras), a classical element, and a planet or sign of [Astrology](/knowledge/astrology).
 
 ---
 
@@ -47,7 +47,7 @@ Crystals are the mineral kingdom's most ordered form — atoms locked into latti
 
 ## Related
 
-- [Chakras](/knowledge/chakras) — the energy centres the stones answer to
-- [Astrology](/knowledge/astrology) — planetary and zodiacal rulers
-- [Alchemy](/knowledge/alchemy) — the mineral kingdom and the philosopher's stone
+- [Chakras](/knowledge/chakras), the energy centres the stones answer to
+- [Astrology](/knowledge/astrology): planetary and zodiacal rulers
+- [Alchemy](/knowledge/alchemy), the mineral kingdom and the philosopher's stone
 - [Knowledge Hub](/knowledge)

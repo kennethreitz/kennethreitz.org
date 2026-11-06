@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## The Form
 
-Metatron's Cube is derived from the Flower of Life. Take thirteen circles arranged in the pattern sometimes called the Fruit of Life — a central circle ringed by twelve — and connect the center of every circle to the center of every other with straight lines. From this web of connections a remarkable figure emerges, a two-dimensional diagram that nonetheless contains, in its overlapping lines, the outlines of all five Platonic solids: the tetrahedron, cube, octahedron, icosahedron, and dodecahedron can each be traced within it. It is the moment the flowing circles of sacred geometry crystallize into the straight-edged bodies of solid form.
+Metatron's Cube is derived from the Flower of Life. Take thirteen circles arranged in the pattern sometimes called the Fruit of Life, a central circle ringed by twelve, and connect the center of every circle to the center of every other with straight lines. From this web of connections a remarkable figure emerges, a two-dimensional diagram that nonetheless contains, in its overlapping lines, the outlines of all five Platonic solids: the tetrahedron, cube, octahedron, icosahedron, and dodecahedron can each be traced within it. It is the moment the flowing circles of sacred geometry crystallize into the straight-edged bodies of solid form.
 
 The figure is named for Metatron, the archangel who in Jewish mystical tradition stands nearest the throne, the scribe and the voice of the divine record. As the circles give way to lines and the elemental solids appear, the diagram reads as the passage from the fluid to the fixed, from potential to structure, presided over by the angel who bridges the eternal and the made.
 

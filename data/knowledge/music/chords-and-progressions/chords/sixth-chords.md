@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Chord
 
-Sixth chords take a triad and add the sixth degree of the scale rather than a seventh. The added note sits a whole step above the fifth, colouring the chord without demanding resolution the way a seventh does. A major sixth stacks the sixth over a major triad — on C that is C, E, G, A. A minor sixth adds a major sixth to a minor triad — C, E♭, G, A. In both cases the extra note is the same pitch; what changes is the third beneath it.
+Sixth chords take a triad and add the sixth degree of the scale rather than a seventh. The added note sits a whole step above the fifth, colouring the chord without demanding resolution the way a seventh does. A major sixth stacks the sixth over a major triad, on C that is C, E, G, A. A minor sixth adds a major sixth to a minor triad. C, E♭, G, A. In both cases the extra note is the same pitch; what changes is the third beneath it.
 
 Because the sixth is a consonant, folded-in colour rather than a tension, sixth chords feel finished. They are triads wearing a little extra warmth, stable enough to end a piece on yet richer than a bare triad. The minor sixth is the subtler of the two, its major sixth glinting unexpectedly against the minor body.
 
@@ -26,7 +26,7 @@ Because the sixth is a consonant, folded-in colour rather than a tension, sixth 
 
 ## Character
 
-Sixth chords sound nostalgic — sweet, gentle, and slightly old-fashioned in the best way. The major sixth has a sunny, cocktail-hour glow, the sound of big-band endings and doo-wop cadences. The minor sixth is more intriguing, a soft melancholy with an unexpected brightness that borders on the mysterious. Both feel settled yet dressed up, resolution with a ribbon on it.
+Sixth chords sound nostalgic: sweet, gentle, and slightly old-fashioned in the best way. The major sixth has a sunny, cocktail-hour glow, the sound of big-band endings and doo-wop cadences. The minor sixth is more intriguing, a soft melancholy with an unexpected brightness that borders on the mysterious. Both feel settled yet dressed up, resolution with a ribbon on it.
 
 ## In Practice
 

@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## The Chord
 
-The minor seventh adds a minor seventh to a minor triad — a minor third, a major third, then a minor third stacked on top. On C the notes are C, E♭, G, B♭. Both the third and the seventh are flattened, which gives the chord a soft, rounded quality with none of the sharp pull you find in a dominant seventh. The intervals are gentle, the tensions mild, and the whole thing settles into a mellow, slightly melancholy warmth.
+The minor seventh adds a minor seventh to a minor triad, a minor third, a major third, then a minor third stacked on top. On C the notes are C, E♭, G, B♭. Both the third and the seventh are flattened, which gives the chord a soft, rounded quality with none of the sharp pull you find in a dominant seventh. The intervals are gentle, the tensions mild, and the whole thing settles into a mellow, slightly melancholy warmth.
 
-Unlike its diminished and half-diminished cousins, the minor seventh keeps its perfect fifth, so it stays grounded. It is stable enough to sit on and colourful enough to stay interesting — a chord you can live inside without needing it to go anywhere in particular.
+Unlike its diminished and half-diminished cousins, the minor seventh keeps its perfect fifth, so it stays grounded. It is stable enough to sit on and colourful enough to stay interesting, a chord you can live inside without needing it to go anywhere in particular.
 
 ## Structure
 

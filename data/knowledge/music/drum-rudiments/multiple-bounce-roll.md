@@ -1,21 +1,21 @@
 ---
-description: Not strokes — a sound. The stick disappears into a hiss.
+description: Not strokes, a sound. The stick disappears into a hiss.
 source: obsidian-knowledge
 ---
 
 # Multiple Bounce Roll
 
-> *Not strokes — a sound. The stick disappears into a hiss.*
+> *Not strokes, a sound. The stick disappears into a hiss.*
 
 ---
 
 ## The Rudiment
 
-The multiple bounce roll — also called the buzz roll, press roll, or closed roll — trades countable strokes for pure texture. Instead of one clean stroke per hand, the drummer presses each stick into the head and lets it bounce many times, producing a dense cushion of tiny rebounds. Alternating hands overlap their buzzes so the individual sounds blur into a smooth, sustained wash. This is the sound of the concert snare swell and the crisp sizzle behind a marching line — a roll defined by its evenness of tone rather than by any fixed number of notes.
+The multiple bounce roll: also called the buzz roll, press roll, or closed roll, trades countable strokes for pure texture. Instead of one clean stroke per hand, the drummer presses each stick into the head and lets it bounce many times, producing a dense cushion of tiny rebounds. Alternating hands overlap their buzzes so the individual sounds blur into a smooth, sustained wash. This is the sound of the concert snare swell and the crisp sizzle behind a marching line, a roll defined by its evenness of tone rather than by any fixed number of notes.
 
 ## Sticking
 
-The sticking alternates hand to hand — **R L R L** — but each stroke is a controlled multiple bounce rather than a single hit, so the audible result is many notes per written stroke. There is no fixed count; the quality lives in how uniformly the buzzes overlap. Practice it slowly as a "buzz-buzz" alternation, then tighten until the seam between hands vanishes.
+The sticking alternates hand to hand: **R L R L**, but each stroke is a controlled multiple bounce rather than a single hit, so the audible result is many notes per written stroke. There is no fixed count; the quality lives in how uniformly the buzzes overlap. Practice it slowly as a "buzz-buzz" alternation, then tighten until the seam between hands vanishes.
 
 ## How to Play
 
