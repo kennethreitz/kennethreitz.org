@@ -22,37 +22,73 @@
     let selectedId = "";
     let hoverId = "";
     let transform = d3.zoomIdentity;
+    let userScale = 1;
     let placed = [];
     let placedLinks = [];
     let layoutKey = "";
     let simulation = null;
-    let shouldFit = false;
+    let frameTimer = 0;
     const hubCount = new Map();
     const degree = new Map();
 
-    const zoom = d3.zoom()
-        .scaleExtent([0.2, 6])
-        .filter((event) => {
-            if (event.type === "wheel") return true;
-            if ((event.type === "mousedown" || event.type === "pointerdown") && hit(event)) return false;
-            return !event.button;
-        })
-        .on("zoom", (event) => {
-            transform = event.transform;
-            draw();
-        });
-    d3.select(canvas).call(zoom);
+    // Plain wheel scrolls the page. Zoom is pinch, modifier+wheel, or the buttons.
+    canvas.addEventListener("wheel", (event) => {
+        if (!(event.ctrlKey || event.metaKey)) return;
+        event.preventDefault();
+        zoomAt(event.clientX, event.clientY, event.deltaY < 0 ? 1.08 : 1 / 1.08);
+    }, { passive: false });
+
+    let pinch = null;
+    canvas.addEventListener("touchstart", (event) => {
+        if (event.touches.length === 2) {
+            pinch = { dist: touchDist(event.touches), scale: userScale, x: touchMid(event.touches).x, y: touchMid(event.touches).y };
+        }
+    }, { passive: true });
+    canvas.addEventListener("touchmove", (event) => {
+        if (event.touches.length !== 2 || !pinch) return;
+        event.preventDefault();
+        const mid = touchMid(event.touches);
+        const factor = touchDist(event.touches) / pinch.dist;
+        userScale = clampScale(pinch.scale * factor);
+        sizeToGraph();
+        const screenX = canvas.getBoundingClientRect().left + transform.x;
+        const screenY = canvas.getBoundingClientRect().top + transform.y;
+        window.scrollBy(screenX - mid.x, screenY - mid.y);
+    }, { passive: false });
+    canvas.addEventListener("touchend", () => { pinch = null; });
+
+    document.getElementById("ontology-zoom-in").addEventListener("click", () => {
+        zoomAt(window.innerWidth / 2, window.innerHeight / 2, 1.2);
+    });
+    document.getElementById("ontology-zoom-out").addEventListener("click", () => {
+        zoomAt(window.innerWidth / 2, window.innerHeight / 2, 1 / 1.2);
+    });
 
     let pointer = null;
     canvas.addEventListener("pointerdown", (event) => {
         const node = hit(event);
         pointer = { x: event.clientX, y: event.clientY, node: node, moved: false };
+        if (node) {
+            event.preventDefault();
+            canvas.setPointerCapture(event.pointerId);
+            node.fx = node.x;
+            node.fy = node.y;
+            if (simulation) simulation.alphaTarget(0.2).restart();
+        }
     });
     canvas.addEventListener("pointermove", (event) => {
-        if (pointer && (Math.abs(event.clientX - pointer.x) > 5 || Math.abs(event.clientY - pointer.y) > 5)) {
+        if (pointer && (Math.abs(event.clientX - pointer.x) > 4 || Math.abs(event.clientY - pointer.y) > 4)) {
             pointer.moved = true;
         }
-        if (pointer && pointer.moved) return;
+        if (pointer && pointer.node && pointer.moved) {
+            const rect = canvas.getBoundingClientRect();
+            pointer.node.fx = (event.clientX - rect.left - transform.x) / transform.k;
+            pointer.node.fy = (event.clientY - rect.top - transform.y) / transform.k;
+            pointer.node.x = pointer.node.fx;
+            pointer.node.y = pointer.node.fy;
+            draw();
+            return;
+        }
         const node = hit(event);
         const next = node ? node.id : "";
         if (next !== hoverId) {
@@ -60,8 +96,14 @@
             draw();
         }
     });
-    canvas.addEventListener("pointerup", (event) => {
-        if (pointer && pointer.node && !pointer.moved) pick(pointer.node);
+    canvas.addEventListener("pointerup", () => {
+        if (pointer && pointer.node) {
+            pointer.node.fx = null;
+            pointer.node.fy = null;
+            if (simulation) simulation.alphaTarget(0);
+            if (!pointer.moved) pick(pointer.node);
+            else scheduleFrame();
+        }
         pointer = null;
     });
     canvas.addEventListener("pointerleave", () => {
@@ -94,7 +136,6 @@
 
     window.addEventListener("resize", () => {
         layoutKey = "";
-        resizeCanvas();
         render();
     });
 
@@ -124,18 +165,46 @@
                 pin = { type: "near", id: hashed };
                 selectedId = hashed;
             }
-            resizeCanvas();
             render();
         })
         .catch(() => {
             statsEl.textContent = "The map could not be read.";
         });
 
-    function resizeCanvas() {
-        const dpr = Math.min(window.devicePixelRatio || 1, 2);
-        const rect = wrap.getBoundingClientRect();
-        canvas.width = Math.max(1, rect.width) * dpr;
-        canvas.height = Math.max(1, rect.height) * dpr;
+    function touchDist(touches) {
+        return Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY);
+    }
+
+    function touchMid(touches) {
+        return {
+            x: (touches[0].clientX + touches[1].clientX) / 2,
+            y: (touches[0].clientY + touches[1].clientY) / 2,
+        };
+    }
+
+    function clampScale(value) {
+        return Math.max(0.45, Math.min(2.8, value));
+    }
+
+    function zoomAt(clientX, clientY, factor) {
+        const prev = userScale;
+        const next = clampScale(prev * factor);
+        if (next === prev || !placed.length) return;
+        const wx = (clientX - canvas.getBoundingClientRect().left - transform.x) / prev;
+        const wy = (clientY - canvas.getBoundingClientRect().top - transform.y) / prev;
+        userScale = next;
+        sizeToGraph();
+        const screenX = canvas.getBoundingClientRect().left + transform.x + wx * userScale;
+        const screenY = canvas.getBoundingClientRect().top + transform.y + wy * userScale;
+        window.scrollBy(screenX - clientX, screenY - clientY);
+    }
+
+    function scheduleFrame() {
+        if (frameTimer) return;
+        frameTimer = window.setTimeout(() => {
+            frameTimer = 0;
+            sizeToGraph();
+        }, 80);
     }
 
     function cssVar(name) {
@@ -571,39 +640,58 @@
             weight: edge.weight || 1,
             kinds: edge.kinds || [],
         })).filter((edge) => edge.source && edge.target);
-        shouldFit = true;
+        userScale = 1;
         if (view.mode === "overview") {
             ring(placed);
-            fit();
+            sizeToGraph();
             return;
         }
-        if (placed.length > 90) {
+        if (placed.length > 80) {
             cluster(placed);
-            fit();
+            sizeToGraph();
             return;
         }
-        const w = wrap.clientWidth;
-        const h = wrap.clientHeight;
+        const width = layoutSpan();
+        placed.forEach((node, i) => {
+            const turn = i * 2.399963;
+            node.seedY = 80 + i * 36;
+            node.x = width / 2 + Math.cos(turn) * (40 + (i % 9) * 22);
+            node.y = node.seedY + Math.sin(turn) * 48;
+        });
+        let ticks = 0;
         simulation = d3.forceSimulation(placed)
-            .force("link", d3.forceLink(placedLinks).distance(view.mode === "overview" ? 108 : 58).strength(0.35))
-            .force("charge", d3.forceManyBody().strength(view.mode === "overview" ? -260 : -70))
-            .force("center", d3.forceCenter(w / 2, h / 2))
-            .force("collide", d3.forceCollide().radius((node) => node.r + (view.mode === "overview" ? 16 : 4)))
-            .alpha(0.9)
-            .alphaDecay(0.055)
-            .on("tick", draw)
-            .on("end", () => {
-                if (shouldFit) fit();
-            });
+            .force("link", d3.forceLink(placedLinks).distance(84).strength(0.28))
+            .force("charge", d3.forceManyBody().strength(-220))
+            .force("x", d3.forceX(width / 2).strength(0.02))
+            .force("y", d3.forceY((node) => node.seedY).strength(0.012))
+            .force("collide", d3.forceCollide().radius((node) => node.r + 16))
+            .alpha(1)
+            .alphaDecay(0.035)
+            .on("tick", () => {
+                ticks += 1;
+                if (ticks % 6 === 0) sizeToGraph();
+                else draw();
+            })
+            .on("end", () => sizeToGraph());
+    }
+
+    function stageWidth() {
+        return Math.max(320, document.documentElement.clientWidth);
+    }
+
+    function layoutSpan() {
+        const panel = window.innerWidth >= 900 ? 340 : 16;
+        return Math.max(280, stageWidth() - panel);
     }
 
     function ring(list) {
-        const w = wrap.clientWidth;
-        const h = wrap.clientHeight;
+        const w = layoutSpan();
+        const narrow = w < 640;
+        const n = Math.max(list.length, 1);
+        const rx = narrow ? Math.max(78, w * 0.30) : Math.max(220, Math.min(w * 0.34, 480));
+        const ry = Math.max(rx * (narrow ? 2.1 : 1.25), n * (narrow ? 20 : 28));
         const cx = w / 2;
-        const cy = h / 2;
-        const rx = Math.max(70, w * 0.27);
-        const ry = Math.max(60, h * 0.30);
+        const cy = ry + (narrow ? 36 : 72);
         const order = list.slice().sort((a, b) => {
             const rank = (node) => node.kind === "domain" ? 0 : node.kind === "theme" ? 1 : 2;
             return rank(a) - rank(b) || a.title.localeCompare(b.title);
@@ -612,71 +700,119 @@
             const angle = (i / order.length) * Math.PI * 2 - Math.PI / 2;
             node.x = cx + Math.cos(angle) * rx;
             node.y = cy + Math.sin(angle) * ry;
-            node.lx = cx + Math.cos(angle) * (rx + 16);
-            node.ly = cy + Math.sin(angle) * (ry + 14);
-            node.anchor = Math.cos(angle) > 0.25 ? "left" : Math.cos(angle) < -0.25 ? "right" : "center";
+            if (narrow) {
+                node.lx = node.x;
+                node.ly = node.y + node.r + 12;
+                node.anchor = "center";
+            } else {
+                node.lx = cx + Math.cos(angle) * (rx + 18);
+                node.ly = cy + Math.sin(angle) * (ry + 16);
+                node.anchor = Math.cos(angle) > 0.25 ? "left" : Math.cos(angle) < -0.25 ? "right" : "center";
+            }
         });
     }
 
     function cluster(list) {
-        const w = wrap.clientWidth;
-        const h = wrap.clientHeight;
+        const w = layoutSpan();
         const groups = d3.group(list, (node) => node.domain || node.section || "");
-        const keys = [...groups.keys()];
-        const ring = keys.length === 1 ? 0 : Math.min(w, h) * 0.28;
-        keys.forEach((key, i) => {
-            const angle = (i / keys.length) * Math.PI * 2 - Math.PI / 2;
-            const cx = w / 2 + Math.cos(angle) * ring;
-            const cy = h / 2 + Math.sin(angle) * ring;
-            groups.get(key).forEach((node, j) => {
-                const dist = 8 + Math.sqrt(j) * 15;
+        let y = 100;
+        groups.forEach((members) => {
+            const reach = 24 + Math.sqrt(members.length) * 34;
+            const cx = w / 2;
+            members.forEach((node, j) => {
                 const turn = j * 2.399963;
+                const dist = 18 + Math.sqrt(j) * 30;
                 node.x = cx + Math.cos(turn) * dist;
-                node.y = cy + Math.sin(turn) * dist;
+                node.y = y + reach + Math.sin(turn) * dist * 1.45;
             });
+            y += reach * 2.6 + 120;
         });
     }
 
-    function fit() {
-        shouldFit = false;
-        if (!placed.length) return;
+    function nodeBox(node) {
+        let left = node.x - node.r - 8;
+        let right = node.x + node.r + 8;
+        let top = node.y - node.r - 8;
+        let bottom = node.y + node.r + 18;
+        const label = clipTitle(displayTitle(node));
+        const textWidth = Math.min(label.length, window.innerWidth < 640 ? 16 : 28) * 6.6;
+        const lx = node.lx != null ? node.lx : node.x;
+        const ly = node.ly != null ? node.ly : node.y + node.r + 14;
+        if (node.anchor === "right") {
+            left = Math.min(left, lx - textWidth);
+            right = Math.max(right, lx);
+        } else if (node.anchor === "left") {
+            left = Math.min(left, lx);
+            right = Math.max(right, lx + textWidth);
+        } else {
+            left = Math.min(left, lx - textWidth / 2);
+            right = Math.max(right, lx + textWidth / 2);
+        }
+        top = Math.min(top, ly - 14);
+        bottom = Math.max(bottom, ly + 6);
+        return { left: left, right: right, top: top, bottom: bottom };
+    }
+
+    function containHorizontally() {
+        const gutter = window.innerWidth >= 900 ? 360 : 36;
+        const limit = Math.max(140, stageWidth() - gutter);
+        let minX = Infinity, maxX = -Infinity;
+        placed.forEach((node) => {
+            minX = Math.min(minX, node.x);
+            maxX = Math.max(maxX, node.x);
+        });
+        const span = maxX - minX;
+        if (!isFinite(span) || span <= limit) return;
+        const scale = limit / span;
+        const mid = (minX + maxX) / 2;
+        const target = layoutSpan() / 2;
+        placed.forEach((node) => {
+            node.x = target + (node.x - mid) * scale;
+            if (node.lx != null) node.lx = target + (node.lx - mid) * scale;
+        });
+    }
+
+    function sizeToGraph() {
+        containHorizontally();
+        if (!placed.length) {
+            setCanvas(stageWidth(), 240);
+            transform = d3.zoomIdentity;
+            draw();
+            return;
+        }
         let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
         placed.forEach((node) => {
-            let left = node.x - 10;
-            let right = node.x + 10;
-            let top = node.y - 10;
-            let bottom = node.y + 10;
-            if (node.lx != null) {
-                const textWidth = Math.min(displayTitle(node).length, 28) * 6.4;
-                if (node.anchor === "right") {
-                    left = Math.min(left, node.lx - textWidth);
-                    right = Math.max(right, node.lx);
-                } else if (node.anchor === "left") {
-                    left = Math.min(left, node.lx);
-                    right = Math.max(right, node.lx + textWidth);
-                } else {
-                    left = Math.min(left, node.lx - textWidth / 2);
-                    right = Math.max(right, node.lx + textWidth / 2);
-                }
-                top = Math.min(top, (node.ly || node.y) - 14);
-                bottom = Math.max(bottom, (node.ly || node.y) + 6);
-            }
-            minX = Math.min(minX, left);
-            maxX = Math.max(maxX, right);
-            minY = Math.min(minY, top);
-            maxY = Math.max(maxY, bottom);
+            const box = nodeBox(node);
+            minX = Math.min(minX, box.left);
+            maxX = Math.max(maxX, box.right);
+            minY = Math.min(minY, box.top);
+            maxY = Math.max(maxY, box.bottom);
         });
-        minX -= 12;
-        maxX += 12;
-        minY -= 10;
-        maxY += 10;
-        const w = wrap.clientWidth;
-        const h = wrap.clientHeight;
-        const k = Math.max(0.35, Math.min(1.8, 0.92 / Math.max((maxX - minX) / w, (maxY - minY) / h)));
-        const next = d3.zoomIdentity
-            .translate(w / 2 - k * (minX + maxX) / 2, h / 2 - k * (minY + maxY) / 2)
-            .scale(k);
-        d3.select(canvas).call(zoom.transform, next);
+        const padX = 36;
+        const padY = 48;
+        const worldW = Math.max(1, maxX - minX);
+        const worldH = Math.max(1, maxY - minY);
+        const cssW = stageWidth();
+        const cssH = worldH * userScale + padY * 2;
+        setCanvas(cssW, cssH);
+        const ox = (cssW - worldW * userScale) / 2 - minX * userScale;
+        const oy = padY - minY * userScale;
+        transform = d3.zoomIdentity.translate(ox, oy).scale(userScale);
+        draw();
+    }
+
+    function setCanvas(cssW, cssH) {
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const width = Math.max(1, Math.round(cssW));
+        const height = Math.max(1, Math.round(cssH));
+        canvas.style.width = width + "px";
+        canvas.style.height = height + "px";
+        const bw = Math.round(width * dpr);
+        const bh = Math.round(height * dpr);
+        if (canvas.width !== bw || canvas.height !== bh) {
+            canvas.width = bw;
+            canvas.height = bh;
+        }
     }
 
     function hit(event) {
@@ -704,7 +840,8 @@
     }
 
     function clipTitle(title) {
-        return title.length > 28 ? title.slice(0, 27) + "…" : title;
+        const limit = window.innerWidth < 640 ? 16 : 28;
+        return title.length > limit ? title.slice(0, limit - 1) + "…" : title;
     }
 
     function labelsThatFit(list) {
@@ -736,14 +873,16 @@
             return;
         }
         const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const cssW = canvas.clientWidth || stageWidth();
+        const cssH = canvas.clientHeight || 240;
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        ctx.clearRect(0, 0, wrap.clientWidth, wrap.clientHeight);
+        ctx.clearRect(0, 0, cssW, cssH);
         ctx.save();
         ctx.translate(transform.x, transform.y);
         ctx.scale(transform.k, transform.k);
         const ink = cssVar("--ink-faint") || "#999";
         const accent = cssVar("--accent") || "#9c4b2f";
-        const paper = cssVar("--surface-raised") || "#fffef4";
+        const paper = cssVar("--paper") || "#fffff8";
         const labelInk = cssVar("--ink-muted") || "#666";
         const overview = layoutKey.startsWith("overview");
         const focus = hoverId || (!overview && pin && pin.type === "near" ? selectedId : "");

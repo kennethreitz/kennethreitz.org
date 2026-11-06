@@ -11,8 +11,10 @@
         <p>Each node is a page; each line is a cross-reference. Knowledge notes sit in the same web as the essays. Hubs are drawn larger. Hover a node to see its neighborhood, click to read it, drag to rearrange.</p>
 
         <div class="graph-controls">
-            <button id="resetZoom">Reset View</button>
-            <button id="toggleLabels">All Labels</button>
+            <button id="resetZoom" type="button">Reset view</button>
+            <button id="zoomOut" type="button" aria-label="Zoom out">−</button>
+            <button id="zoomIn" type="button" aria-label="Zoom in">+</button>
+            <button id="toggleLabels" type="button">All labels</button>
             <span id="graphStats">Loading…</span>
         </div>
 
@@ -33,17 +35,22 @@
     }
 
     .graph-controls,
-    #graph-container,
     .graph-legend {
-        width: 65%;
+        width: 100%;
     }
 
     .graph-controls {
-        margin-bottom: 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 6;
+        margin-bottom: 0.4rem;
+        padding: 0.45rem 0;
         display: flex;
         gap: 0.6rem;
         align-items: center;
         flex-wrap: wrap;
+        background: color-mix(in srgb, var(--paper) 90%, transparent);
+        backdrop-filter: blur(8px);
     }
 
     .graph-controls button {
@@ -65,18 +72,19 @@
     }
 
     #graph-container {
-        border: 1px solid var(--line);
-        border-radius: 6px;
-        overflow: hidden;
-        background: var(--surface-raised);
-        box-shadow: inset 0 1px 0 color-mix(in srgb, white 25%, transparent);
+        width: 100vw;
+        max-width: 100vw;
+        margin-left: calc(50% - 50vw);
+        border: 0;
+        background: transparent;
+        overflow: visible;
     }
 
     #network-graph {
         display: block;
-        width: 100%;
-        height: 640px;
+        background: transparent;
         cursor: grab;
+        touch-action: pan-y;
     }
 
     #network-graph:active {
@@ -129,7 +137,11 @@
     }
 
     .graph-legend {
+        position: sticky;
+        bottom: 0;
+        z-index: 5;
         margin-top: 0.9rem;
+        padding: 0.55rem 0;
         display: flex;
         flex-wrap: wrap;
         gap: 0.4rem 1.3rem;
@@ -137,6 +149,8 @@
         color: var(--ink-muted);
         font-variant: small-caps;
         letter-spacing: 0.04em;
+        background: color-mix(in srgb, var(--paper) 90%, transparent);
+        backdrop-filter: blur(8px);
     }
 
     .graph-legend .legend-swatch {
@@ -149,16 +163,6 @@
     }
 
     @media (max-width: 768px) {
-        .graph-controls,
-        #graph-container,
-        .graph-legend {
-            width: 100%;
-        }
-
-        #network-graph {
-            height: 420px;
-        }
-
         .graph-controls {
             flex-wrap: wrap;
         }
@@ -173,17 +177,9 @@
 <script src="/static/js/d3.v7.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const container = document.getElementById('graph-container');
     const canvas = document.getElementById('network-graph');
     const ctx = canvas.getContext('2d');
-    const mobile = window.matchMedia('(max-width: 768px)').matches;
-    const width = container.clientWidth || 640;
-    const height = mobile ? 420 : 640;
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    canvas.width = width * dpr;
-    canvas.height = height * dpr;
-    canvas.style.width = width + 'px';
-    canvas.style.height = height + 'px';
+    let userScale = 1;
 
     const tooltip = d3.select("body").append("div")
         .attr("class", "graph-tooltip")
@@ -243,14 +239,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function draw() {
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const cssW = canvas.clientWidth || document.documentElement.clientWidth;
+        const cssH = canvas.clientHeight || 400;
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        ctx.clearRect(0, 0, width, height);
+        ctx.clearRect(0, 0, cssW, cssH);
         ctx.save();
         ctx.translate(transform.x, transform.y);
         ctx.scale(transform.k, transform.k);
         const ink = cssVar("--ink-faint") || "#999";
         const accent = cssVar("--accent") || "#9c4b2f";
-        const paper = cssVar("--surface") || "#fff";
+        const paper = cssVar("--paper") || "#fffff8";
         ctx.lineWidth = 1;
         for (const e of edges) {
             if (!e.source || !e.source.x) continue;
@@ -294,18 +293,86 @@ document.addEventListener('DOMContentLoaded', function() {
         ctx.restore();
     }
 
-    const zoom = d3.zoom()
-        .scaleExtent([0.15, 8])
-        .filter((event) => {
-            if (event.type === "wheel") return true;
-            if (event.type === "mousedown" && hit(event)) return false;
-            return !event.button;
-        })
-        .on("zoom", (event) => {
-            transform = event.transform;
-            draw();
+    function stageWidth() {
+        return Math.max(320, document.documentElement.clientWidth);
+    }
+
+    function clampScale(value) {
+        return Math.max(0.35, Math.min(2.8, value));
+    }
+
+    function setCanvas(cssW, cssH) {
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const width = Math.max(1, Math.round(cssW));
+        const height = Math.max(1, Math.round(cssH));
+        canvas.style.width = width + "px";
+        canvas.style.height = height + "px";
+        const bw = Math.round(width * dpr);
+        const bh = Math.round(height * dpr);
+        if (canvas.width !== bw || canvas.height !== bh) {
+            canvas.width = bw;
+            canvas.height = bh;
+        }
+    }
+
+    function sizeToGraph() {
+        if (!nodes.length) return;
+        let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+        nodes.forEach((node) => {
+            if (node.x == null) return;
+            const r = radius(node) + 16;
+            minX = Math.min(minX, node.x - r);
+            maxX = Math.max(maxX, node.x + r);
+            minY = Math.min(minY, node.y - r);
+            maxY = Math.max(maxY, node.y + r + 14);
         });
-    d3.select(canvas).call(zoom);
+        if (!isFinite(minX)) return;
+        const padX = 40;
+        const padY = 56;
+        const worldW = Math.max(1, maxX - minX);
+        const worldH = Math.max(1, maxY - minY);
+        const cssW = stageWidth();
+        const cssH = worldH * userScale + padY * 2;
+        setCanvas(cssW, cssH);
+        const ox = (cssW - worldW * userScale) / 2 - minX * userScale;
+        const oy = padY - minY * userScale;
+        transform = d3.zoomIdentity.translate(ox, oy).scale(userScale);
+        draw();
+    }
+
+    function zoomAt(clientX, clientY, factor) {
+        const prev = userScale;
+        const next = clampScale(prev * factor);
+        if (next === prev) return;
+        const wx = (clientX - canvas.getBoundingClientRect().left - transform.x) / prev;
+        const wy = (clientY - canvas.getBoundingClientRect().top - transform.y) / prev;
+        userScale = next;
+        sizeToGraph();
+        const screenX = canvas.getBoundingClientRect().left + transform.x + wx * userScale;
+        const screenY = canvas.getBoundingClientRect().top + transform.y + wy * userScale;
+        window.scrollBy(screenX - clientX, screenY - clientY);
+    }
+
+    canvas.addEventListener("wheel", (event) => {
+        if (!(event.ctrlKey || event.metaKey)) return;
+        event.preventDefault();
+        zoomAt(event.clientX, event.clientY, event.deltaY < 0 ? 1.08 : 1 / 1.08);
+    }, { passive: false });
+
+    let pinch = null;
+    function touchDist(touches) {
+        return Math.hypot(touches[0].clientX - touches[1].clientX, touches[0].clientY - touches[1].clientY);
+    }
+    canvas.addEventListener("touchstart", (event) => {
+        if (event.touches.length === 2) pinch = { dist: touchDist(event.touches), scale: userScale };
+    }, { passive: true });
+    canvas.addEventListener("touchmove", (event) => {
+        if (event.touches.length !== 2 || !pinch) return;
+        event.preventDefault();
+        userScale = clampScale(pinch.scale * (touchDist(event.touches) / pinch.dist));
+        sizeToGraph();
+    }, { passive: false });
+    canvas.addEventListener("touchend", () => { pinch = null; });
 
     d3.json("/archive/graph/data").then(function(data) {
         document.getElementById('graphStats').textContent =
@@ -323,39 +390,73 @@ document.addEventListener('DOMContentLoaded', function() {
             (neighbors.get(e.target) || neighbors.set(e.target, new Set()).get(e.target)).add(e.source);
         });
 
-        const cats = [...new Set(nodes.map(n => n.category))];
+        const bandCounts = new Map();
+        nodes.forEach((node) => bandCounts.set(node.category, (bandCounts.get(node.category) || 0) + 1));
+        const cats = [...bandCounts.keys()].sort((a, b) => bandCounts.get(b) - bandCounts.get(a));
         const centers = new Map();
+        const span = stageWidth();
+        let bandY = 200;
         cats.forEach((cat, i) => {
-            const angle = (i / cats.length) * Math.PI * 2 - Math.PI / 2;
+            const band = 180 + Math.sqrt(bandCounts.get(cat)) * 22;
             centers.set(cat, {
-                x: width / 2 + Math.cos(angle) * width * 0.22,
-                y: height / 2 + Math.sin(angle) * height * 0.22,
+                x: span * (0.38 + (i % 2) * 0.24),
+                y: bandY,
             });
+            bandY += band;
         });
         nodes.forEach((n, i) => {
             const c = centers.get(n.category);
             const angle = i * 2.399;
-            const dist = 12 + (i % 28) * 3;
+            const dist = 20 + (i % 18) * 11;
             n.x = c.x + Math.cos(angle) * dist;
-            n.y = c.y + Math.sin(angle) * dist;
+            n.y = c.y + Math.sin(angle) * dist * 1.2;
         });
 
         const many = nodes.length > 400;
+        let ticks = 0;
         simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(edges).id(d => d.id).distance(many ? 28 : 70))
-            .force("charge", d3.forceManyBody().strength(many ? -18 : -160))
-            .force("center", d3.forceCenter(width / 2, height / 2))
-            .force("x", d3.forceX(d => centers.get(d.category).x).strength(0.12))
-            .force("y", d3.forceY(d => centers.get(d.category).y).strength(0.12))
-            .force("collide", d3.forceCollide().radius(d => radius(d) + 1.5))
-            .alphaDecay(many ? 0.09 : 0.04)
-            .on("tick", draw);
+            .force("link", d3.forceLink(edges).id(d => d.id).distance(many ? 34 : 72))
+            .force("charge", d3.forceManyBody().strength(many ? -28 : -140))
+            .force("x", d3.forceX(d => centers.get(d.category).x).strength(0.045))
+            .force("y", d3.forceY(d => centers.get(d.category).y).strength(0.03))
+            .force("collide", d3.forceCollide().radius(d => radius(d) + 2))
+            .alpha(1)
+            .alphaDecay(many ? 0.045 : 0.03)
+            .on("tick", () => {
+                ticks += 1;
+                if (ticks % 8 === 0) sizeToGraph();
+                else draw();
+            })
+            .on("end", () => {
+                containHorizontally();
+                sizeToGraph();
+            });
+
+        function containHorizontally() {
+            const limit = Math.max(160, stageWidth() - 72);
+            let minX = Infinity, maxX = -Infinity;
+            nodes.forEach((node) => {
+                if (node.x == null) return;
+                minX = Math.min(minX, node.x);
+                maxX = Math.max(maxX, node.x);
+            });
+            const span = maxX - minX;
+            if (!isFinite(span) || span <= limit) return;
+            const scale = limit / span;
+            const mid = (minX + maxX) / 2;
+            const target = stageWidth() / 2;
+            nodes.forEach((node) => {
+                node.x = target + (node.x - mid) * scale;
+            });
+        }
 
         let pointer = null;
         canvas.addEventListener("pointerdown", (event) => {
             const n = hit(event);
             pointer = { x: event.clientX, y: event.clientY, node: n, moved: false };
             if (n) {
+                event.preventDefault();
+                canvas.setPointerCapture(event.pointerId);
                 n.fx = n.x;
                 n.fy = n.y;
                 simulation.alphaTarget(0.15).restart();
@@ -392,6 +493,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 pointer.node.fy = null;
                 simulation.alphaTarget(0);
                 if (!pointer.moved) window.location.href = pointer.node.url;
+                else sizeToGraph();
             }
             pointer = null;
         });
@@ -424,7 +526,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }).observe(document.body, { attributes: true, attributeFilter: ["class"] });
 
         document.getElementById('resetZoom').onclick = () => {
-            d3.select(canvas).transition().duration(750).call(zoom.transform, d3.zoomIdentity);
+            userScale = 1;
+            sizeToGraph();
+        };
+        document.getElementById('zoomIn').onclick = () => {
+            zoomAt(window.innerWidth / 2, window.innerHeight / 2, 1.2);
+        };
+        document.getElementById('zoomOut').onclick = () => {
+            zoomAt(window.innerWidth / 2, window.innerHeight / 2, 1 / 1.2);
         };
 
         const labelsButton = document.getElementById('toggleLabels');
