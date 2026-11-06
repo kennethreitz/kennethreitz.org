@@ -222,6 +222,64 @@ def test_dry_run_writes_nothing(tmp_path):
     assert "/library/books/dsm-5" not in (data / "great-books.md").read_text(encoding="utf-8")
 
 
+def test_root_folder_note_stays_at_knowledge_index(tmp_path):
+    vault = tmp_path / "vault"
+    data = tmp_path / "data"
+    _note(
+        vault / "Knowledge" / "Knowledge.md",
+        "# Knowledge\n\nThe hub.\n\n## Domains\n\nSee [[Anxiety]].\n",
+    )
+    _note(
+        vault / "Knowledge" / "Psychology" / "Anxiety.md",
+        "# Anxiety\n\nThe alarm.\n\nSee [[Knowledge]].\n",
+    )
+    _note(data / "knowledge" / "index.md", "# Old hub\n")
+    _note(data / "knowledge" / "psychology" / "kept.md", "# Kept\n")
+    kover = tmp_path / "kover"
+    lover = tmp_path / "lover"
+    kover.mkdir()
+    lover.mkdir()
+    (kover / "manifest.json").write_text("{}\n", encoding="utf-8")
+    (lover / "manifest.json").write_text("{}\n", encoding="utf-8")
+    result = vaultsync.plan_sync(
+        vault,
+        data_dir=data,
+        allow_partial=False,
+        min_knowledge_notes=1,
+        knowledge_overrides=kover,
+        library_overrides=lover,
+        warn_missing_terms=False,
+    )
+    index = data / "knowledge" / "index.md"
+    sibling = data / "knowledge" / "knowledge.md"
+    assert index in result.writes
+    assert sibling not in result.writes
+    assert index not in result.deletes
+    hub = result.writes[index]
+    assert "The hub." in hub
+    assert "](/knowledge/psychology/anxiety)" in hub
+    assert "/knowledge/knowledge" not in hub
+    anxiety = result.writes[data / "knowledge" / "psychology" / "anxiety.md"]
+    assert "](/knowledge)" in anxiety
+    assert "/knowledge/knowledge" not in anxiety
+    blob = "\n".join(result.writes.values())
+    assert "/knowledge/knowledge" not in blob
+
+
+def test_collapses_runs_of_blank_lines(tmp_path):
+    vault, data = _vault(tmp_path)
+    kover, lover = _overrides(tmp_path, vault)
+    (kover / "Psychology" / "Anxiety.md").write_text(
+        "# Anxiety\n\n\n\nThe alarm.\n\n\nStill here.\n",
+        encoding="utf-8",
+    )
+    result = _plan(vault, data, kover, lover)
+    page = result.writes[data / "knowledge" / "psychology" / "anxiety.md"]
+    assert "\n\n\n" not in page
+    assert vaultsync.collapse_blank_lines(page) == page
+    assert "The alarm.\n\nStill here." in page
+
+
 def test_em_dash_becomes_prose(tmp_path):
     vault, data = _vault(tmp_path)
     kover, lover = _overrides(tmp_path, vault)

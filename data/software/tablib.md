@@ -82,7 +82,6 @@ $ uv add tablib[all]     # Everything
 - [Source Code on GitHub](https://github.com/jazzband/tablib)
 - [Python Package Index](https://pypi.org/project/tablib/)
 
-
 <!-- vault:history start -->
 ## History
 

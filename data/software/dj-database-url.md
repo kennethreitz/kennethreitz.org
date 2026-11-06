@@ -84,7 +84,6 @@ $ uv add dj-database-url
 - [Source Code on GitHub](https://github.com/jazzband/dj-database-url)
 - [Python Package Index](https://pypi.org/project/dj-database-url/)
 
-
 <!-- vault:history start -->
 ## History
 

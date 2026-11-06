@@ -99,7 +99,6 @@ $ uv add requests
 - [Source Code on GitHub](https://github.com/psf/requests)
 - [Python Package Index](https://pypi.org/project/requests/)
 
-
 <!-- vault:history start -->
 ## History
 

@@ -64,8 +64,8 @@ Recovery from narcissistic abuse follows a recognizable trajectory: recognition 
 
 ## Related
 
-- [The Unexpected Negative](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner): Kenneth's direct experience
-- [Understanding Empathy, Narcissism, and Mental Illness](/essays/2016-01-understanding_empathy_narcissism_and_mental_illness): Empathy and narcissism as relational poles
+- [The Unexpected Negative](/essays/2015-01-the_unexpected_negative_a_narcissistic_partner). Kenneth's direct experience
+- [Understanding Empathy, Narcissism, and Mental Illness](/essays/2016-01-understanding_empathy_narcissism_and_mental_illness). Empathy and narcissism as relational poles
 - [The Algorithm Eats Love](/essays/2025-08-27-the_algorithm_eats_love): Narcissistic patterns at civilizational scale
 - Algorithm Eats: The systemic critique
 - [Philosophy](/knowledge/philosophy): The narcissist/algorithm parallel

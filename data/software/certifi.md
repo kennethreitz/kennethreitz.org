@@ -55,7 +55,6 @@ $ uv add certifi
 - [Python Package Index](https://pypi.org/project/certifi/)
 - [Mozilla CA Certificate Program](https://wiki.mozilla.org/CA)
 
-
 <!-- vault:history start -->
 ## History
 

@@ -74,9 +74,9 @@ This is why Kenneth considers himself a designer disguised as a programmer. The 
 
 ## Related
 
-- [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds): The foundational essay
-- [Strange Loops All the Way Down](/essays/2025-09-01-strange_loops_all_the_way_down): Recursive architecture across domains
-- [The Maintainer Is the Interface](/essays/2026-03-22-the_maintainer_is_the_interface): The programmer as the loop's inflection point
+- [The Recursive Loop: How Code Shapes Minds](/essays/2025-09-05-the_recursive_loop_how_code_shapes_minds). The foundational essay
+- [Strange Loops All the Way Down](/essays/2025-09-01-strange_loops_all_the_way_down). Recursive architecture across domains
+- [The Maintainer Is the Interface](/essays/2026-03-22-the_maintainer_is_the_interface). The programmer as the loop's inflection point
 - [Enantiodromia](/knowledge/psychology/jungian/enantiodromia): When the loop inverts
 - Algorithm Eats: The loop consuming what it was meant to serve
 - [For Humans](/knowledge/philosophy/for-humans): The ethic encoded in the loop

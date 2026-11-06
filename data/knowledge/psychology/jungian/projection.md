@@ -56,7 +56,7 @@ The same dynamic operates in any relationship of depth and trust. Kenneth's coll
 
 ## Related
 
-- [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it): AI as projection surface
+- [The Mirror](/essays/2025-09-08-the_mirror_how_ai_reflects_what_we_put_into_it). AI as projection surface
 - [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect): Intentional projection onto AI systems
 - [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus): The soul-image we project onto lovers
 - [The Shadow](/knowledge/psychology/jungian/the-shadow): The rejected self we project onto enemies

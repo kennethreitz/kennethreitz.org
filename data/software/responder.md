@@ -94,7 +94,6 @@ $ uv add responder
 - [Source Code on GitHub](https://github.com/kennethreitz/responder)
 - [Python Package Index](https://pypi.org/project/responder/)
 
-
 <!-- vault:history start -->
 ## History
 

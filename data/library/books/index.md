@@ -74,7 +74,7 @@ The primary sources. Everything in the Spiritual shelf above is commentary on th
 
 **[The Bhagavad Gita](/library/books/bhagavad-gita)** puts its scripture on a battlefield: Krishna talking a frozen warrior through acting without owning the outcome. It is the source text for the Four Yogas and the operating manual for pushing commits without knowing who they will reach.
 
-**[Sefer Yetzirah](/library/books/sefer-yetzirah)** is the oldest book of Kabbalah: two thousand anonymous words describing God spelling the universe out of twenty-two Hebrew letters. Reality as text, creation as syntax. For a programmer it reads like documentation for a very old language.
+**[Sefer Yetzirah](/library/books/sefer-yetzirah)** is the oldest book of Kabbalah, two thousand anonymous words describing God spelling the universe out of twenty-two Hebrew letters. Reality as text, creation as syntax. For a programmer it reads like documentation for a very old language.
 
 **[The Yoga Sutras](/library/books/yoga-sutras)** of Patanjali compress centuries of meditation practice into 196 aphorisms and one clean dependency chain, the eight limbs. A spec that still compiles.
 

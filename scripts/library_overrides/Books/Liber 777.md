@@ -10,7 +10,7 @@ class: Book
 
 > *A reference manual for symbolic thinking*
 
-A massive table of correspondences — colors, planets, Tarot, Hebrew letters, gods from a dozen traditions, all mapped to the Kabbalistic Tree of Life. Less a book to read than a lookup table for pattern recognition across symbolic systems.
+A massive table of correspondences: colors, planets, Tarot, Hebrew letters, gods from a dozen traditions, all mapped to the Kabbalistic Tree of Life. Less a book to read than a lookup table for pattern recognition across symbolic systems.
 
 What remains useful is the instinct: that symbols correspond across traditions, that patterns repeat across scales, and that mapping those correspondences reveals structure underneath apparent chaos.
 
@@ -18,8 +18,8 @@ What remains useful is the instinct: that symbols correspond across traditions, 
 
 ## Related
 
-- [[Books]] — The shelf
-- [[Kabbalah]] — The structural framework
-- [[The Kybalion]] — Hermetic correspondences
+- [[Books]]: The shelf
+- [[Kabbalah]]: The structural framework
+- [[The Kybalion]]: Hermetic correspondences
 
 partOf:: [[Library/Books/Books|Books]]

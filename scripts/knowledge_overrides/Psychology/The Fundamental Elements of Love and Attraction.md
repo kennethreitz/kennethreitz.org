@@ -20,9 +20,9 @@ flowchart BT
     D["Sex Drive"]
     F["Fear"]
     S["Security"]
-    D -- "motivates" --> F
-    D -- "motivates" --> S
-    S -- "counteracts" --> F
+    D: "motivates" --> F
+    D: "motivates" --> S
+    S: "counteracts" --> F
 ```
 
 Three fundamental forces that interact to create love and attraction:
@@ -37,7 +37,7 @@ Three fundamental forces that interact to create love and attraction:
 | Effect | Motivates action |
 | Shadow | Can cause nervousness |
 
-Fear creates urgency. The fear of loss, of loneliness, of missing out — these push us toward connection. Fear motivates us to reach out, to hold on, to make efforts we might otherwise defer.
+Fear creates urgency. The fear of loss, of loneliness, of missing out, these push us toward connection. Fear motivates us to reach out, to hold on, to make efforts we might otherwise defer.
 
 But fear unchecked becomes anxiety, clinginess, possessiveness. The nervous energy that should motivate can become paralyzing.
 
@@ -54,7 +54,7 @@ But fear unchecked becomes anxiety, clinginess, possessiveness. The nervous ener
 
 Security is the antidote to fear's intensity. It develops through consistent presence, reliability, trust accumulated through small moments.
 
-Security requires ongoing maintenance — it's not a permanent state but a renewable resource. It must be actively cultivated.
+Security requires ongoing maintenance, it's not a permanent state but a renewable resource. It must be actively cultivated.
 
 The heart-centered quality of security means it's about emotional safety, not just physical or material stability.
 
@@ -69,7 +69,7 @@ The heart-centered quality of security means it's about emotional safety, not ju
 | Priority | DNA always comes first |
 | Warning | Should not be primary focus |
 
-The biological imperative — the drive to reproduce, to merge, to experience physical union. This primal energy underlies and motivates the other two elements.
+The biological imperative, the drive to reproduce, to merge, to experience physical union. This primal energy underlies and motivates the other two elements.
 
 **Key insight:** Sex drive should not be the primary focus despite its power. When sex drive dominates, it distorts both fear (creating obsession) and security (creating false intimacy).
 
@@ -85,12 +85,12 @@ The tension between these elements creates the experience of romantic love. Fear
 
 ## Related
 
-- [[2026-01 - Flowetry|Flowetry]] — Source document
-- [[Jungian/Major Jungian Concepts|Jungian Concepts]] — Related psychological framework
-- [[Jungian/Anima & Animus|Anima & Animus]] — Projection in relationships
-- [[Jungian/The Shadow|The Shadow]] — Fear as shadow content
-- [[Healing]] — Love as healing context
-- [[Family]] — Where love lives
+- [[2026-01 - Flowetry|Flowetry]]: Source document
+- [[Jungian/Major Jungian Concepts|Jungian Concepts]]: Related psychological framework
+- [[Jungian/Anima & Animus|Anima & Animus]]: Projection in relationships
+- [[Jungian/The Shadow|The Shadow]]: Fear as shadow content
+- [[Healing]]: Love as healing context
+- [[Family]]: Where love lives
 
 ---
 

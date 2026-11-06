@@ -19,5 +19,5 @@ The Red Book proved that the unconscious has its own voice, its own imagery, its
 
 - [Books](/library/books): The shelf
 - [Major Jungian Concepts](/knowledge/psychology/jungian/major-jungian-concepts): The psychological framework
-- [The Digital Collective Unconscious](/essays/2025-08-28-the-digital-collective-unconscious): Jung's unconscious, digitized
+- [The Digital Collective Unconscious](/essays/2025-08-28-the-digital-collective-unconscious). Jung's unconscious, digitized
 - [Constructs](/essays/2025-09-03-constructs_the_emergence_of_stable_ai_personalities): Autonomous personalities in AI

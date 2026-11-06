@@ -69,7 +69,6 @@ I also run my own instance at [httpbin.kennethreitz.org](https://httpbin.kenneth
 - [Source Code on GitHub](https://github.com/postmanlabs/httpbin): Now maintained by Postman.
 - [Docker Image](https://hub.docker.com/r/kennethreitz/httpbin): Run your own instance.
 
-
 <!-- vault:history start -->
 ## History
 

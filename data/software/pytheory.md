@@ -126,7 +126,6 @@ $ uv add pytheory
 - [Source Code on GitHub](https://github.com/kennethreitz/pytheory)
 - [Python Package Index](https://pypi.org/project/pytheory/)
 
-
 <!-- vault:history start -->
 ## History
 

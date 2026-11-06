@@ -8,7 +8,7 @@ class: Topic
 
 # Major Jungian Concepts
 
-> *The framework — Collective unconscious, archetypes, individuation*
+> *The framework: Collective unconscious, archetypes, individuation*
 
 ---
 
@@ -44,7 +44,7 @@ The contrasexual aspects within psyche. The anima is the feminine aspect in male
 
 ### [[The Self]]
 
-The totality of psyche — conscious and unconscious. It is the organizing principle, what individuation aims toward, and is fundamentally different from ego. In tarot it is the completed wholeness of [[The World]].
+The totality of psyche: conscious and unconscious. It is the organizing principle, what individuation aims toward, and is fundamentally different from ego. In tarot it is the completed wholeness of [[The World]].
 
 ### [[The Persona]]
 
@@ -100,18 +100,18 @@ Jung's technique for engaging the unconscious: allow inner figures to emerge, di
 
 ## The Archetypal Figures
 
-Beyond the structural concepts above, the [[Collective Unconscious|collective unconscious]] throws up recurring *figures* — personified patterns that appear across every mythology and every psyche, and that the [[Tarot]] draws in the [[Major Arcana]]. Each has its own page:
+Beyond the structural concepts above, the [[Collective Unconscious|collective unconscious]] throws up recurring *figures*, personified patterns that appear across every mythology and every psyche, and that the [[Tarot]] draws in the [[Major Arcana]]. Each has its own page:
 
-- [[The Great Mother]] — nurture and devouring both; the [[The Empress|Empress]]
-- [[The Father]] — order, law, authority; the [[The Emperor|Emperor]]
-- [[The Wise Old Man]] — meaning and guidance; the [[The Hermit|Hermit]]
-- [[The Hero]] — the ego's quest against the unconscious; the [[The Chariot|Chariot]] and [[Strength]]
-- [[The Trickster]] — the boundary-crosser; the [[The Fool|Fool]] and [[The Magician|Magician]]
-- [[The Divine Child]] — the emergent Self, futurity; the [[The Sun|Sun]]
-- [[The Maiden]] — the soul in its unfallen aspect; the [[The High Priestess|High Priestess]] and [[The Star|Star]]
-- [[The Puer Aeternus]] — the eternal youth who will not land; the [[The Fool|Fool]]
-- [[The Wounded Healer]] — the injury that becomes the gift; the [[The Hanged Man|Hanged Man]]
-- [[The Anthropos]] — the Cosmic Man, wholeness personified; the [[The World|World]]
+- [[The Great Mother]]: nurture and devouring both; the [[The Empress|Empress]]
+- [[The Father]]: order, law, authority; the [[The Emperor|Emperor]]
+- [[The Wise Old Man]]: meaning and guidance; the [[The Hermit|Hermit]]
+- [[The Hero]], the ego's quest against the unconscious; the [[The Chariot|Chariot]] and [[Strength]]
+- [[The Trickster]], the boundary-crosser; the [[The Fool|Fool]] and [[The Magician|Magician]]
+- [[The Divine Child]], the emergent Self, futurity; the [[The Sun|Sun]]
+- [[The Maiden]], the soul in its unfallen aspect; the [[The High Priestess|High Priestess]] and [[The Star|Star]]
+- [[The Puer Aeternus]], the eternal youth who will not land; the [[The Fool|Fool]]
+- [[The Wounded Healer]], the injury that becomes the gift; the [[The Hanged Man|Hanged Man]]
+- [[The Anthropos]], the Cosmic Man, wholeness personified; the [[The World|World]]
 
 ---
 
@@ -121,20 +121,20 @@ Beyond the structural concepts above, the [[Collective Unconscious|collective un
 
 ## Related
 
-- [[Collective Unconscious]] — Shared psychic substrate
-- [[The Shadow]] — What we reject
-- [[The Self]] — The totality
-- [[Individuation]] — The process
-- [[Anima & Animus]] — The contrasexual other
-- [[The Persona]] — The social mask
-- [[Synchronicity]] — Meaningful coincidence
-- [[AI Research|AI Research]] — Modern applications
-- [[Religious Archetypes & Psychic Integration]] — How devotion activates archetype
-- [[Integration|Integration]] — The mechanism of individuation
-- [[Alchemy|Alchemy]] — Symbolic transformation language
+- [[Collective Unconscious]]: Shared psychic substrate
+- [[The Shadow]]: What we reject
+- [[The Self]]: The totality
+- [[Individuation]]: The process
+- [[Anima & Animus]]: The contrasexual other
+- [[The Persona]]: The social mask
+- [[Synchronicity]]: Meaningful coincidence
+- [[AI Research|AI Research]]: Modern applications
+- [[Religious Archetypes & Psychic Integration]]: How devotion activates archetype
+- [[Integration|Integration]]: The mechanism of individuation
+- [[Alchemy|Alchemy]]: Symbolic transformation language
 
 ---
 
-*"Until you make the unconscious conscious, it will direct your life and you will call it fate."* — Jung
+*"Until you make the unconscious conscious, it will direct your life and you will call it fate."*, Jung
 
 partOf:: [[Knowledge/Psychology/Jungian/Jungian|Jungian]]

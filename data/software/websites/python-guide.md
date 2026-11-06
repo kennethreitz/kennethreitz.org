@@ -64,7 +64,6 @@ Opinionated, boring, and easy to recognize. That's a feature.
 
 The guide lives at [docs.python-guide.org](https://docs.python-guide.org/) (python-guide.org redirects there), served as a static site from Netlify. The source is on GitHub at [realpython/python-guide](https://github.com/realpython/python-guide), where it's still being updated, and it's still free to read online.
 
-
 <!-- vault:history start -->
 ## History
 

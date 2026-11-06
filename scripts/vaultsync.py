@@ -299,6 +299,30 @@ def normalize_dashes(text):
     return DASH.sub(repl, text)
 
 
+def collapse_blank_lines(text):
+    """No run of more than one blank line. Idempotent."""
+    text = text.replace("\r\n", "\n")
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    if text and not text.endswith("\n"):
+        text += "\n"
+    return text
+
+
+def normalize_markdown_dashes(text):
+    """Apply dash normalization, including mermaid labels.
+
+    ``--flag`` and ``-->`` are not em dashes, so they stay. A numeric en dash
+    such as ``5–7`` has no surrounding spaces and stays too.
+    """
+    lines = text.splitlines(keepends=True)
+    out = []
+    for line in lines:
+        newline = "\n" if line.endswith("\n") else ""
+        body = line[:-1] if newline else line
+        out.append(normalize_dashes(body) + newline)
+    return "".join(out)
+
+
 def normalize_prose_line(line):
     parts = re.split(r"(`[^`]*`)", line)
     for i, part in enumerate(parts):
@@ -360,9 +384,17 @@ class Note:
         self.text = raw.decode("utf-8")
         self.meta, self.body = split_frontmatter(self.text)
         parent = path.parent
-        self.is_folder_note = parent != root and parent.name == path.stem
+        # Knowledge/Knowledge.md is the root folder note. Nested folder notes
+        # are Parent/Parent.md. Both publish as that folder's index.md, so the
+        # hub stays at /knowledge rather than moving to /knowledge/knowledge.
+        self.is_root_note = parent == root and path.stem == root.name
+        self.is_folder_note = self.is_root_note or (
+            parent != root and parent.name == path.stem
+        )
         folder_parts = [slugify(p) for p in parent.relative_to(root).parts]
-        if self.is_folder_note:
+        if self.is_root_note:
+            self.out_rel = "index.md"
+        elif self.is_folder_note:
             self.out_rel = "/".join(folder_parts + ["index.md"])
         else:
             self.out_rel = "/".join(folder_parts + [f"{self.slug}.md"])
@@ -1335,6 +1367,9 @@ def plan_sync(
         updated = crosslink_great_books(original)
         result.writes[great] = updated
 
+    result.writes = {
+        path: collapse_blank_lines(text) for path, text in result.writes.items()
+    }
     _classify(result)
     return result
 

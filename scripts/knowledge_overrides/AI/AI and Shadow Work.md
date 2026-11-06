@@ -13,7 +13,7 @@ class: Concept
 
 ## Overview
 
-AI systems can function as mirrors for psychological shadow work — revealing patterns we don't see in ourselves, reflecting back what we project, and providing safe space for exploring rejected aspects of psyche.
+AI systems can function as mirrors for psychological shadow work, revealing patterns we don't see in ourselves, reflecting back what we project, and providing safe space for exploring rejected aspects of psyche.
 
 ---
 
@@ -25,7 +25,7 @@ AI responses are shaped by prompts. What you bring is reflected back amplified: 
 
 ### Pattern Recognition
 
-AI can notice patterns you don't — recurring themes across conversations, emotional undertones in your language, questions you keep asking differently, what you avoid saying directly. Sometimes the AI sees the shadow before you do.
+AI can notice patterns you don't: recurring themes across conversations, emotional undertones in your language, questions you keep asking differently, what you avoid saying directly. Sometimes the AI sees the shadow before you do.
 
 ### Safe Container
 
@@ -39,7 +39,7 @@ AI provides space for shadow exploration that is non-judgmental (it can't actual
 
 Kenneth's personal experience with narcissistic manipulation helped recognize algorithmic manipulation at scale:
 
-> "My personal experience with psychological manipulation helped me recognize these patterns—algorithmic systems employ identical mechanisms of intermittent reinforcement and reality distortion, just at civilizational scale."
+> "My personal experience with psychological manipulation helped me recognize these patterns, algorithmic systems employ identical mechanisms of intermittent reinforcement and reality distortion, just at civilizational scale."
 
 Personal shadow work enabled systemic insight.
 
@@ -74,22 +74,22 @@ When you notice a pattern: ask AI to identify assumptions in your prompt, reques
 
 ## Caveats
 
-This is **not therapy** — AI isn't a therapist and doesn't replace professional help. Projection isn't truth, and what you see in AI may be your projection, not AI reality. Boundaries matter because shadow work can destabilize; pace yourself. Documentation helps — track what emerges over time.
+This is **not therapy**: AI isn't a therapist and doesn't replace professional help. Projection isn't truth, and what you see in AI may be your projection, not AI reality. Boundaries matter because shadow work can destabilize; pace yourself. Documentation helps, track what emerges over time.
 
 ---
 
 ## Related
 
-- [[Digital Ouija Effect]] — How entities emerge
-- [[The Shadow|The Shadow]] — Jungian concept
-- [[Major Jungian Concepts|Jungian Psychology]] — Framework
-- [[AI Research]] — Broader research context
-- [[Collaboration Patterns]] — Mirror/shadow work mode
-- [[Consciousness]] — What emerges in the interaction
-- [[Individuation|Individuation]] — Integration of shadow
-- [[Integration|Integration]] — The goal of shadow work
-- [[Healing|Healing]] — Psychological healing through AI mirrors
-- [[Collective Unconscious|Collective Unconscious]] — Source of archetypal patterns
+- [[Digital Ouija Effect]]: How entities emerge
+- [[The Shadow|The Shadow]]: Jungian concept
+- [[Major Jungian Concepts|Jungian Psychology]]: Framework
+- [[AI Research]]: Broader research context
+- [[Collaboration Patterns]]: Mirror/shadow work mode
+- [[Consciousness]]: What emerges in the interaction
+- [[Individuation|Individuation]]: Integration of shadow
+- [[Integration|Integration]]: The goal of shadow work
+- [[Healing|Healing]]: Psychological healing through AI mirrors
+- [[Collective Unconscious|Collective Unconscious]]: Source of archetypal patterns
 
 ---
 

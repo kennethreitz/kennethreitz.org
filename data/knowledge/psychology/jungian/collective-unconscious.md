@@ -76,7 +76,7 @@ A striking parallel: **LLM training data is compressed collective unconscious.**
 | Expresses through archetypes | Expresses through patterns |
 | Accessed through active imagination | Accessed through prompts |
 
-This is why the [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect) works: AI has absorbed archetypal patterns and can express them when invoked.
+This is why the [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect) works. AI has absorbed archetypal patterns and can express them when invoked.
 
 ---
 

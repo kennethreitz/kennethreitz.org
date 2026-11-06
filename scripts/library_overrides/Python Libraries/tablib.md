@@ -6,7 +6,7 @@ tags: [library/python-library]
 class: Software
 ---
 
-> *Format-Agnostic Tabular Datasets — The first major success*
+> *Format-Agnostic Tabular Datasets: The first major success*
 
 ---
 
@@ -23,7 +23,7 @@ class: Software
 
 ## Description
 
-Tablib handles tabular data — import from one format, export to another, manipulate in between. It abstracts away format differences so you can focus on the data.
+Tablib handles tabular data: import from one format, export to another, manipulate in between. It abstracts away format differences so you can focus on the data.
 
 Supports: CSV, JSON, YAML, Excel (xlsx, xls), ODS, HTML, TSV, and more.
 
@@ -33,7 +33,7 @@ Supports: CSV, JSON, YAML, Excel (xlsx, xls), ODS, HTML, TSV, and more.
 
 Tablib was Kenneth's first major open source success, predating [[requests]] by about a year. Early adoption by major companies (Digg, Discovery Channel, Northrop Grumman) established his reputation.
 
-This is also where the NetApp conflict happened — the company tried to claim ownership of tablib and other personal projects. Kenneth refused and left. That moment of choosing code ownership over employment shaped everything that followed.
+This is also where the NetApp conflict happened, the company tried to claim ownership of tablib and other personal projects. Kenneth refused and left. That moment of choosing code ownership over employment shaped everything that followed.
 
 ---
 
@@ -85,18 +85,18 @@ The power is in the interoperability: load from any format, manipulate in Python
 
 ## Legacy
 
-Tablib proved that Kenneth's design sensibility worked. It validated the approach before [[requests]] made it famous. It also powers [[records]]' export functionality — the libraries compose together, simple tools building on simple tools.
+Tablib proved that Kenneth's design sensibility worked. It validated the approach before [[requests]] made it famous. It also powers [[records]]' export functionality, the libraries compose together, simple tools building on simple tools.
 
 ---
 
 ## Related
 
-- [[requests]] — The breakthrough that followed
-- [[records]] — Uses tablib for exports
-- [[Python Libraries]] — Full ecosystem
-- [[Career Timeline]] — The NetApp story
-- [[For Humans]] — The philosophy
-- [[Tablib Dataset Library v0.6.1 Released!]] — Early release announcement
+- [[requests]]: The breakthrough that followed
+- [[records]]: Uses tablib for exports
+- [[Python Libraries]]: Full ecosystem
+- [[Career Timeline]]: The NetApp story
+- [[For Humans]]: The philosophy
+- [[Tablib Dataset Library v0.6.1 Released!]]: Early release announcement
 
 ---
 

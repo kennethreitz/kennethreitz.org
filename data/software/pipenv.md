@@ -81,7 +81,6 @@ $ uv add pipenv
 - [Source Code on GitHub](https://github.com/pypa/pipenv)
 - [Python Package Index](https://pypi.org/project/pipenv/)
 
-
 <!-- vault:history start -->
 ## History
 

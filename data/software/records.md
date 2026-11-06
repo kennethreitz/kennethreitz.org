@@ -78,7 +78,6 @@ $ uv add pymysql      # MySQL
 - [Source Code on GitHub](https://github.com/kennethreitz/records)
 - [Python Package Index](https://pypi.org/project/records/)
 
-
 <!-- vault:history start -->
 ## History
 

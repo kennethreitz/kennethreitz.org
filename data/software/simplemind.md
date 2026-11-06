@@ -119,7 +119,6 @@ export GOOGLE_API_KEY=...
 - [Source Code on GitHub](https://github.com/kennethreitz/simplemind)
 - [Python Package Index](https://pypi.org/project/simplemind/)
 
-
 <!-- vault:history start -->
 ## History
 

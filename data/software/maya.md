@@ -72,7 +72,6 @@ $ uv add maya
 - [Source Code on GitHub](https://github.com/kennethreitz/maya)
 - [Python Package Index](https://pypi.org/project/maya/)
 
-
 <!-- vault:history start -->
 ## History
 
