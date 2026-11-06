@@ -1,8 +1,6 @@
-"""The ontologies map, and the knowledge pages it adds to the archive graph."""
+"""Knowledge notes on the cross-reference graph."""
 
-from pathlib import Path
-
-from tuftecms.core.ontologies import EXCLUDED, build_graph, to_archive_graph
+from tuftecms.core.archive_graph import EXCLUDED, build_graph, to_archive_graph
 
 
 def _write(root, rel, text):
@@ -159,42 +157,11 @@ def test_archive_graph_includes_knowledge_pages(tmp_path):
         assert edge["target"] in by_id
 
 
-def test_ontologies_page_renders(client):
-    page = client.get("/ontologies")
-    assert page.status_code == 200
-    assert "One territory, many maps." in page.text
-    assert "ontology-q" in page.text
-    assert "/ontologies/data" not in page.text or "ontologies.js" in page.text
-    home = client.get("/")
-    assert 'href="/ontologies"' not in home.text
-
-
-def test_ontologies_data_covers_the_public_site(client):
-    payload = client.get("/ontologies/data").json()
-    sections = {section["id"] for section in payload["sections"]}
-    for name in ("knowledge", "essays", "poetry", "themes", "software", "music",
-                 "artificial-intelligence", "talks", "photography", "pages"):
-        assert name in sections
-    urls = {node["url"] for node in payload["nodes"]}
-    assert "/worldview" in urls
-    assert "/values" in urls
-    assert "/knowledge/tarot/major-arcana/the-magician" in urls
-    assert "/family" not in urls
-    assert "/contact" not in urls
-    assert "/mental-health" not in urls
-    assert not any(url.startswith("/system-777") for url in urls)
-    assert payload["excluded"] == ["system-777", "family", "mental-health", "contact"]
-
-    magician = "/knowledge/tarot/major-arcana/the-magician"
-    bet = "/knowledge/hebrew-letters/bet"
-    assert any(
-        edge["source"] == magician and edge["target"] == bet and "correspondence" in edge["kinds"]
-        for edge in payload["edges"]
-    )
-    ids = {node["id"] for node in payload["nodes"]}
-    for edge in payload["edges"]:
-        assert edge["source"] in ids
-        assert edge["target"] in ids
+def test_ontologies_route_is_gone(client):
+    assert client.get("/ontologies").status_code == 404
+    assert client.get("/ontologies/data").status_code == 404
+    assert 'href="/ontologies"' not in client.get("/").text
+    assert 'href="/ontologies"' not in client.get("/archive/graph").text
 
 
 def test_archive_graph_now_contains_knowledge(client):
