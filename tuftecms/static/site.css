@@ -26,6 +26,7 @@
     --cat-music: #a8762a;
     --cat-poetry: #47795a;
     --cat-philosophy: #75726a;
+    --cat-knowledge: #2f6f6a;
 }
 
 /* Warm lamplight by night (no-JS fallback; the body classes below win
@@ -51,6 +52,7 @@
         --cat-music: #cfa25e;
         --cat-poetry: #85b096;
         --cat-philosophy: #9a968c;
+        --cat-knowledge: #8fcdc4;
     }
 }
 
@@ -74,6 +76,7 @@ body.light-mode {
     --cat-music: #a8762a;
     --cat-poetry: #47795a;
     --cat-philosophy: #75726a;
+    --cat-knowledge: #2f6f6a;
 }
 
 body.dark-mode {
@@ -96,6 +99,7 @@ body.dark-mode {
     --cat-music: #cfa25e;
     --cat-poetry: #85b096;
     --cat-philosophy: #9a968c;
+    --cat-knowledge: #8fcdc4;
 }
 
 /* Accent schemes — the theme script picks one at random on ~20% of
