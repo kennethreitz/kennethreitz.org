@@ -1,6 +1,6 @@
 # Federated Psyche
 
-*A rap written by AI for rhymepad, November 9, 2026.*{{< sidenote >}}This one is AI writing, not mine. I asked for something extremely intricate and dense to paste into [rhymepad](https://rhymepad.org), and this is what came back. The `#` lines are rhymepad section headers and the bracketed lines are performance notes. It draws on the [Covenant of the Federated Psyche](/system-777/the-covenant-of-the-federated-psyche).{{< /sidenote >}}
+*A rap written by AI for rhymepad, November 9, 2026.*<label for="sn-federated-psyche" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-federated-psyche" class="margin-toggle"/><span class="sidenote">This one is AI writing, not mine. I asked for something extremely intricate and dense to paste into [rhymepad](https://rhymepad.org), and this is what came back. The `#` lines are rhymepad section headers and the bracketed lines are performance notes. It draws on the [Covenant of the Federated Psyche](/system-777/the-covenant-of-the-federated-psyche).</span>
 
 ```
 # Federated Psyche (Verse One)
