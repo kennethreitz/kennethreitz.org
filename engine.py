@@ -2459,6 +2459,12 @@ def _resolve_legacy_url(path):
 # --- Catch-all route (MUST be last) ---
 
 
+@api.route("/favicon.ico")
+async def favicon(req, resp):
+    """Tab icon. The mark is the same K as the apple touch icon."""
+    resp.file("tuftecms/static/images/favicon-32.png")
+
+
 @api.route("/static/{path:path}")
 async def serve_static(req, resp, *, path):
     """Serve static files explicitly."""

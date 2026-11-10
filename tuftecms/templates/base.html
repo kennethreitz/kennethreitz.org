@@ -15,13 +15,14 @@
         <meta name="theme-color" content="#fffff8" media="(prefers-color-scheme: light)" />
         <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)" />
         <link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png" />
-        <link rel="icon" href="data:," />
+        <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16.png" />
 
         <!-- OpenGraph -->
         <meta property="og:title" content="{% block og_title %}{{ title }} - Kenneth Reitz{% endblock %}" />
         <meta property="og:description" content="{% block og_description %}Creator of Requests and Certifi - libraries trusted by millions of developers worldwide{% endblock %}" />
         <meta property="og:type" content="{% block og_type %}website{% endblock %}" />
-        <meta property="og:url" content="{% block og_url %}https://kennethreitz.org{% endblock %}" />
+        <meta property="og:url" content="{% block og_url %}https://kennethreitz.org{{ request.path if request.path != '/' else '' }}{% endblock %}" />
         <meta property="og:image" content="{% block og_image %}https://kennethreitz.org/static/images/social-card.jpg{% endblock %}" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -317,7 +318,7 @@
                     let html = code.innerHTML;
 
                     // Python/Shell comments (# comment) - both line start and inline
-                    html = html.replace(/(^|\s+)(#.*)$/gm, '$1<span style="color: #888; font-style: italic;">$2</span>');
+                    html = html.replace(/(^|\s+)(#.*)$/gm, '$1<span class="code-comment">$2</span>');
 
                     // Python docstrings (""" or ''') — italic but readable, not grayed out
                     html = html.replace(/("""[\s\S]*?""")/g, '<span style="font-style: italic;">$1</span>');
@@ -333,13 +334,13 @@
                     html = html.replace(/^(\$ )/gm, '<span style="font-weight: bold;">$1</span>');
 
                     // JavaScript/C++/Java comments (// comment) - only at line start, not in URLs
-                    html = html.replace(/^(\s*\/\/.*)$/gm, '<span style="color: #888; font-style: italic;">$1</span>');
+                    html = html.replace(/^(\s*\/\/.*)$/gm, '<span class="code-comment">$1</span>');
 
                     // CSS/C/Java block comments (/* comment */)
-                    html = html.replace(/(\/\*[\s\S]*?\*\/)/g, '<span style="color: #888; font-style: italic;">$1</span>');
+                    html = html.replace(/(\/\*[\s\S]*?\*\/)/g, '<span class="code-comment">$1</span>');
 
                     // HTML comments (<!-- comment -->)
-                    html = html.replace(/(&lt;!--[\s\S]*?--&gt;)/g, '<span style="color: #888; font-style: italic;">$1</span>');
+                    html = html.replace(/(&lt;!--[\s\S]*?--&gt;)/g, '<span class="code-comment">$1</span>');
 
                     code.innerHTML = html;
                 }

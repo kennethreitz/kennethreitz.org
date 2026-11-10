@@ -10,7 +10,8 @@
     --paper: #fffff8;
     --ink: #111;
     --ink-muted: #6e6759;
-    --ink-faint: #99917f;
+    --ink-faint: #7a7262;
+    --code-comment: #6a6358;
     --line: #e0ddd0;
     --line-soft: #eceade;
     --surface: #fbfaf0;
@@ -36,7 +37,8 @@
         --paper: #0d1117;
         --ink: #c9d1d9;
         --ink-muted: #9aa4af;
-        --ink-faint: #6e7681;
+        --ink-faint: #848d98;
+        --code-comment: #a8b3bf;
         --line: #30363d;
         --line-soft: #21262d;
         --surface: #161b22;
@@ -60,7 +62,8 @@ body.light-mode {
     --paper: #fffff8;
     --ink: #111;
     --ink-muted: #6e6759;
-    --ink-faint: #99917f;
+    --ink-faint: #7a7262;
+    --code-comment: #6a6358;
     --line: #e0ddd0;
     --line-soft: #eceade;
     --surface: #fbfaf0;
@@ -83,7 +86,8 @@ body.dark-mode {
     --paper: #0d1117;
     --ink: #c9d1d9;
     --ink-muted: #9aa4af;
-    --ink-faint: #6e7681;
+    --ink-faint: #848d98;
+    --code-comment: #a8b3bf;
     --line: #30363d;
     --line-soft: #21262d;
     --surface: #161b22;
@@ -161,6 +165,7 @@ html.loaded {
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
+summary:focus-visible,
 [tabindex]:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
@@ -336,11 +341,11 @@ nav > a, nav > .nav-dropdown {
 }
 
 body.dark-mode .github-corner {
-    opacity: 0.25;
+    opacity: 0.4;
 }
 
 body.dark-mode .github-corner:hover {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 body.dark-mode .github-corner-img {
@@ -370,7 +375,7 @@ body.dark-mode .github-corner-img {
     color: var(--ink-faint);
     padding: 0;
     margin: 0;
-    opacity: 0.62;
+    opacity: 0.78;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
     transition: opacity 0.3s ease, color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
     line-height: 1;
@@ -402,6 +407,23 @@ body.dark-mode .moon-icon {
         right: 1rem;
         width: 2.2rem;
         height: 2.2rem;
+    }
+
+    /* Running heads need a real tap target, and a margin so the
+       GitHub ribbon and the theme button don't cover them. */
+    header nav {
+        padding-right: 2.4rem;
+        row-gap: 0.15rem;
+    }
+
+    header nav a,
+    header nav .nav-dropdown-trigger {
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+    }
+
+    footer {
+        padding-bottom: 3.4rem;
     }
 }
 
@@ -463,12 +485,6 @@ article {
     font-size: 0.75rem;
     color: var(--ink-faint);
     margin-top: 0.1rem;
-}
-
-.nav-dropdown > a::after {
-    content: "\00a0\25BC";
-    font-size: 0.7rem;
-    color: var(--ink-faint);
 }
 
 /* =========================================
@@ -1100,6 +1116,55 @@ main blockquote {
     ::view-transition-new(root) {
         animation-duration: 0.18s;
     }
+}
+
+/* =========================================
+   Essay contents
+   ========================================= */
+
+/* A closed contents line on long essays. The lede still comes first;
+   the list is there when a reader wants the map. */
+.essay-toc {
+    width: 65%;
+    margin: 0 0 1.75rem;
+}
+
+.essay-toc summary {
+    font-variant: small-caps;
+    letter-spacing: 0.08em;
+    color: var(--ink-muted);
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.essay-toc ol {
+    width: 100% !important;
+    max-width: 100%;
+    margin: 0.65rem 0 0;
+    padding-left: 1.15rem;
+}
+
+.essay-toc li {
+    margin: 0.28rem 0;
+    font-size: 1.05rem;
+    line-height: 1.35;
+}
+
+.essay-toc a {
+    color: var(--ink-muted);
+    text-decoration-thickness: 0.05em;
+}
+
+.essay-toc a:hover {
+    color: var(--ink);
+}
+
+@media (max-width: 1000px) {
+    .essay-toc { width: 90%; }
+}
+
+@media (max-width: 760px) {
+    .essay-toc { width: 100% !important; }
 }
 
 /* =========================================
