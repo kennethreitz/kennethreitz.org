@@ -12,6 +12,7 @@ Some of this was written by me, some by AI, some in genuine collaboration where 
 - [**Liminal Space**](/artificial-intelligence/art/liminal-space) — The threshold between human and artificial.
 - [**Welcome Traveller**](/artificial-intelligence/art/welcome-traveller) — An invitation.
 - [**Poetry**](/artificial-intelligence/art/poetry) — Collected verse from the collaboration.
+- [**Federated Psyche**](/artificial-intelligence/art/federated-psyche) — A dense rap written by AI for rhymepad.
 - [**Generated Images**](/artificial-intelligence/art/generated-images/) — Visual art created with AI.
 
 ## Snippets & Clips
