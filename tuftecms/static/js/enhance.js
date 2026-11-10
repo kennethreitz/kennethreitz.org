@@ -206,6 +206,35 @@
             anchor.setAttribute("aria-label", "Link to this section");
             heading.appendChild(anchor);
         });
+
+        // A quiet contents list for essays with a real structure.
+        // Closed by default, so the opening sentence still comes first.
+        var essay = document.querySelector(".post-body");
+        if (!essay || document.querySelector(".essay-toc")) return;
+        var sections = essay.querySelectorAll("h2[id]");
+        if (sections.length < 3) return;
+        var nav = document.createElement("nav");
+        nav.className = "essay-toc";
+        nav.setAttribute("aria-label", "Contents");
+        var details = document.createElement("details");
+        var summary = document.createElement("summary");
+        summary.textContent = "Contents";
+        details.appendChild(summary);
+        var list = document.createElement("ol");
+        sections.forEach(function (heading) {
+            var item = document.createElement("li");
+            var link = document.createElement("a");
+            link.href = "#" + heading.id;
+            var label = heading.cloneNode(true);
+            var mark = label.querySelector(".heading-anchor");
+            if (mark) mark.remove();
+            link.textContent = label.textContent.replace(/\s+/g, " ").trim();
+            item.appendChild(link);
+            list.appendChild(item);
+        });
+        details.appendChild(list);
+        nav.appendChild(details);
+        essay.parentNode.insertBefore(nav, essay);
     });
 
     /* =========================================

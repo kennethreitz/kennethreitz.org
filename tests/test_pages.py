@@ -71,3 +71,27 @@ def test_trailing_slash_redirects(client):
 def test_unknown_page_is_404(client):
     r = client.get("/definitely-not-a-real-page-xyz")
     assert r.status_code == 404
+    assert "Page not found" in r.text
+
+
+def test_social_url_matches_the_page(client):
+    home = client.get("/")
+    assert 'property="og:url" content="https://kennethreitz.org"' in home.text
+    contact = client.get("/contact")
+    assert 'property="og:url" content="https://kennethreitz.org/contact"' in contact.text
+    assert 'rel="canonical" href="https://kennethreitz.org/contact"' in contact.text
+
+
+def test_favicon_is_the_k_mark(client):
+    home = client.get("/")
+    assert 'href="/static/images/favicon-32.png"' in home.text
+    assert 'href="data:,"' not in home.text
+    icon = client.get("/favicon.ico")
+    assert icon.status_code == 200
+    assert icon.content[:8] == b"\x89PNG\r\n\x1a\n"
+
+
+def test_analytics_snippet_stays(client):
+    r = client.get("/")
+    assert "analytics.kennethreitz.org/script.js" in r.text
+    assert "41b1fd15-82b1-4211-aeff-b3caa2d50ea3" in r.text

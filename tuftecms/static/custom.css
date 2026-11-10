@@ -153,15 +153,29 @@ article .marginnote {
         display: inline;
     }
 
+    label.sidenote-number {
+        cursor: pointer;
+        padding: 0.4rem 0.15rem;
+        margin: -0.4rem 0;
+    }
+
     .margin-toggle:checked + .sidenote,
     .margin-toggle:checked + .marginnote {
         display: block;
-        float: left;
-        left: 1rem;
+        float: none;
+        left: auto;
         clear: both;
-        width: 95%;
-        margin: 1rem 2.5%;
         position: relative;
+        box-sizing: border-box;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0.8rem 0 1rem !important;
+        padding: 0.7rem 0.9rem;
+        border-radius: 4px;
+        background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+        border-left: 2px solid color-mix(in srgb, var(--accent) 42%, var(--line));
+        font-size: 1.05rem;
+        line-height: 1.45;
     }
 }
 
@@ -212,12 +226,16 @@ p code, li code, h1 code, h2 code, h3 code, td code {
 .code-block-wrapper > pre {
     width: 100% !important;
     margin: 0 !important;
-    overflow: visible !important;
+    overflow-x: auto !important;
+    overflow-y: hidden;
 }
 
 .code-block-wrapper > pre > code {
     display: block;
     overflow-x: auto;
+    /* Room for the copy control so a long first line isn't covered. */
+    padding-right: 3.4rem;
+    box-sizing: border-box;
 }
 
 .copy-button {
@@ -250,6 +268,23 @@ p code, li code, h1 code, h2 code, h3 code, td code {
 .copy-button.copied {
     color: var(--accent);
     border-color: var(--accent);
+}
+
+@media (hover: none) {
+    .copy-button {
+        opacity: 0.85;
+    }
+}
+
+/* Keep code with the text column once the column widens. */
+@media (max-width: 1000px) {
+    section > pre,
+    .post-content > pre,
+    .tufte pre,
+    pre,
+    .code-block-wrapper {
+        width: 90% !important;
+    }
 }
 
 /* Responsive adjustments for code blocks */
@@ -407,7 +442,7 @@ header nav a:last-child {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    color: #333;
+    color: var(--ink);
     text-decoration: none;
     font-weight: 500;
     background: none;
@@ -433,12 +468,12 @@ header nav a:last-child {
 }
 
 .directory-item-link:hover {
-    color: #111;
+    color: var(--ink);
 }
 
 .directory-item .item-date {
     font-size: 0.9rem;
-    color: #666;
+    color: var(--ink-muted);
     font-style: italic;
     margin-top: 0;
     font-weight: 400;
@@ -466,8 +501,9 @@ header nav a:last-child {
 
 /* Blockquotes: a hairline rule, room to breathe. */
 blockquote {
-    border-left: 2px solid var(--line);
+    border-left: 2px solid color-mix(in srgb, var(--accent) 42%, var(--line));
     padding-left: 1.25rem;
+    box-sizing: border-box;
 }
 
 /* Epigraphs stand alone, unruled. */
@@ -476,11 +512,25 @@ div.epigraph > blockquote {
     padding-left: 0;
 }
 
-/* Content images sit like plates in a book. */
+/* Content images stay inside the column. Plates (a figure, or a
+   paragraph that is only a picture) get a quiet edge. */
+.post-body img,
 article section p > img,
 article section figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+article section p > img,
+article section figure img,
+.post-body p > img:only-child {
     border-radius: 4px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.post-body p > img:only-child,
+article section figure img {
+    display: block;
 }
 
 /* ========================================= */
@@ -656,10 +706,10 @@ h3 {
 }
 
 h4 {
-    font-size: 1.6rem !important;
-    font-weight: 600 !important;
-    margin-top: 3rem !important;
-    margin-bottom: 1.2rem !important;
+    font-size: 1.4rem !important;
+    font-weight: 500 !important;
+    margin-top: 2.6rem !important;
+    margin-bottom: 1rem !important;
 }
 
 h5 {
@@ -791,12 +841,13 @@ body.dark-mode .marginnote:target {
 /* Code Syntax Highlighting */
 /* ========================================= */
 
-/* Make comments lighter in code blocks */
+/* Comments stay readable in both modes. The highlighter adds .code-comment. */
 pre code .hljs-comment,
 pre .hljs-comment,
 code .comment,
-pre .comment {
-    color: #888 !important;
+pre .comment,
+.code-comment {
+    color: var(--code-comment) !important;
     font-style: italic;
 }
 
@@ -818,18 +869,10 @@ pre .comment {
         width: 84% !important;
     }
 
-    /* Hide sidenotes and their labels on narrow screens */
-    .sidenote,
-    .marginnote {
-        display: none;
-    }
-    
-    .margin-toggle,
-    label.margin-toggle {
-        display: none !important;
-    }
+    /* Sidenotes stay reachable: the number is a toggle, same as Tufte's
+       own small-screen pattern. Hiding the label dropped the note. */
 
-    /* Make content full width when sidenotes are hidden */
+    /* Make content full width. The opened note fills that column. */
     section > p,
     section > footer,
     section > table,
@@ -844,7 +887,8 @@ pre .comment {
         max-width: 100% !important;
     }
 
-    /* Fix blockquote paragraph width on mobile */
+    /* Quotes were inheriting a left indent and slipping past the viewport. */
+    blockquote,
     blockquote p,
     blockquote footer,
     .post-content blockquote p,
@@ -852,7 +896,9 @@ pre .comment {
     section .post-content blockquote p {
         width: 100% !important;
         max-width: 100% !important;
+        margin-left: 0 !important;
         margin-right: 0 !important;
+        box-sizing: border-box;
     }
 
     section > dl,
@@ -1021,24 +1067,40 @@ pre .comment {
         text-shadow: none !important;
     }
 
+    pre, code {
+        background: #f4f1e8 !important;
+        color: black !important;
+    }
+
+    html,
     body {
         font-size: 12pt;
         line-height: 1.3;
         margin: 0;
         padding: 0;
-        background: white;
-        color: black;
+        background: white !important;
+        color: black !important;
         width: 100% !important;
         max-width: none !important;
     }
 
-    /* Hide navigation and non-essential elements */
+    /* Hide navigation and screen chrome. */
     header nav,
     .breadcrumbs,
     .post-navigation,
     .related-posts,
     .footer-content,
-    .search-container {
+    .search-container,
+    .theme-toggle,
+    .github-corner,
+    .reading-progress,
+    .skip-link,
+    .copy-button,
+    .heading-anchor,
+    .essay-toc,
+    .link-preview,
+    .home-actions,
+    .post-actions {
         display: none !important;
     }
 
@@ -1064,16 +1126,22 @@ pre .comment {
         width: 100% !important;
     }
 
-    /* Convert sidenotes to footnotes for print */
+    /* Keep the marginal note with the sentence, as an indented note. */
     .sidenote,
     .marginnote {
-        display: none !important;
+        display: block !important;
+        float: none !important;
+        position: static !important;
+        width: auto !important;
+        max-width: none !important;
+        margin: 0.35em 0 0.7em 1.1em !important;
+        font-size: 10pt !important;
+        font-style: italic;
+        line-height: 1.35 !important;
     }
 
-    /* Show sidenote content as footnotes at bottom */
-    .sidenote::before {
-        content: "["counter(sidenote-counter) "] ";
-        counter-increment: sidenote-counter;
+    label.sidenote-number {
+        display: inline !important;
     }
 
     /* Print-specific typography */
@@ -1141,8 +1209,9 @@ pre .comment {
     /* Override width constraints for code blocks */
     section > pre,
     .post-content > pre,
-    pre {
-        width: 85% !important;
+    pre,
+    .code-block-wrapper {
+        width: 100% !important;
         max-width: none !important;
         margin-left: 0 !important;
     }
