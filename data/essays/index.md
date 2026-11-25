@@ -2,7 +2,7 @@
 
 > *"We are what we pretend to be, so we must be careful about what we pretend to be."* — [Kurt Vonnegut](https://en.wikipedia.org/wiki/Kurt_Vonnegut)
 
-Three hundred and six essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
+Three hundred and seven essays spanning nearly two decades of thinking out loud. From early tech commentary to consciousness research, from Python library announcements to the nature of mind itself — this is the full arc of Kenneth's written thought.
 
 ---
 
@@ -350,6 +350,7 @@ Where code meets the sacred.
 - [Ram Dass Teachings in Python](/essays/2025-09-05-ram_dass_teachings_in_python)
 - [Sacred Infrastructure](/essays/2025-12-23-sacred_infrastructure)
 - [Vedic Principles in Python](/essays/2025-09-05-vedic_principles_in_python)
+- [What I Believe (or How I Operate)](/essays/2026-11-25-what_i_believe_or_how_i_operate)
 - [Why I Stopped Doing Ayahuasca and Started Paying Attention](/essays/2026-04-08-why_i_stopped_doing_ayahuasca)
 
 ---
