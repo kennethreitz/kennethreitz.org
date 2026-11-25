@@ -12,6 +12,10 @@ If the developer feels stupid, the API is wrong.
 - [**Pipenv**](/software/pipenv): Python Dev Workflow for Humans. Pip and virtualenv, unified. Spiritual predecessor to [uv](https://github.com/astral-sh/uv).
 - [**Tablib**](/software/tablib): Tabular Datasets for Humans. Format-agnostic data. Your dataset knows how to become CSV, JSON, Excel, YAML.
 
+## Apps
+
+- [**Onyx**](/software/onyx): A native Mac app for your Obsidian vault, typeset like a book. [The announcement](/essays/2026-11-25-announcing_onyx).
+
 ## Libraries
 
 - [**SimpleMind**](/software/simplemind): AI for Humans. One interface to every major AI provider.
