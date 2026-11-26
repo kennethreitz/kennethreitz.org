@@ -30,7 +30,7 @@ This is the great Vedic myth of liberation, the storm god breaking the demon of 
 
 Unlike a serene supreme deity, Indra is portrayed with striking candor as a ruler who errs. He is jealous of his throne and quick to feel threatened; when a mortal sage or ascetic accumulates too much spiritual power through austerity, Indra grows anxious and often sends celestial nymphs to break their concentration. He is prone to pride, to indulgence, and to lapses that bring him low and require his humbling.
 
-In one famous episode [Krishna](/knowledge/mythology/hindu-mythology/krishna) lifts a mountain to shelter villagers from a punishing storm that Indra himself sent in wounded pride, and the king of the gods must bow to a greater power. Over the long development of the tradition Indra’s supremacy fades before the rising majesty of [Vishnu](/knowledge/mythology/hindu-mythology/vishnu), [Shiva](/knowledge/mythology/hindu-mythology/shiva), and [Brahma](/knowledge/mythology/hindu-mythology/brahma), yet he remains king of the lesser gods, a figure of sovereignty tempered by all-too-human fallibility.
+In one famous episode [Krishna](/knowledge/mythology/hindu-mythology/krishna)[^sn-krishna] lifts a mountain to shelter villagers from a punishing storm that Indra himself sent in wounded pride, and the king of the gods must bow to a greater power. Over the long development of the tradition Indra’s supremacy fades before the rising majesty of [Vishnu](/knowledge/mythology/hindu-mythology/vishnu), [Shiva](/knowledge/mythology/hindu-mythology/shiva), and [Brahma](/knowledge/mythology/hindu-mythology/brahma), yet he remains king of the lesser gods, a figure of sovereignty tempered by all-too-human fallibility.
 
 ---
 
@@ -42,7 +42,7 @@ Indra holds together two domains that the tradition treats as one: rulership and
 
 ## Archetypal Significance
 
-Indra is the archetype of sovereign power, the king who commands, orders, and defends the realm. He corresponds to [The Emperor](/knowledge/tarot/major-arcana/the-emperor) in the tarot: worldly authority, rulership, the structuring force that governs from the throne. But because his instrument is the thunderbolt, he also carries the charge of [The Tower](/knowledge/tarot/major-arcana/the-tower), the storm and the lightning-strike that shatter and release, the destructive violence of the sky. Psychologically he is the ambivalent ruler: the necessary structuring authority shadowed by pride, and the storm-force that can either liberate the waters or lay waste in wounded vanity.
+Indra is the archetype of sovereign power, the king who commands, orders, and defends the realm. He corresponds to [The Emperor](/knowledge/tarot/major-arcana/the-emperor)[^sn-the-emperor] in the tarot: worldly authority, rulership, the structuring force that governs from the throne. But because his instrument is the thunderbolt, he also carries the charge of [The Tower](/knowledge/tarot/major-arcana/the-tower), the storm and the lightning-strike that shatter and release, the destructive violence of the sky. Psychologically he is the ambivalent ruler: the necessary structuring authority shadowed by pride, and the storm-force that can either liberate the waters or lay waste in wounded vanity.
 
 ---
 
@@ -55,3 +55,6 @@ Indra is the archetype of sovereign power, the king who commands, orders, and de
 - [Tarot](/knowledge/tarot) - The symbolic system his archetype maps to
 - [Mythology](/knowledge/mythology) - The wider field of myth
 - [Hindu Mythology Index](/knowledge/mythology/hindu-mythology)
+
+[^sn-krishna]: Krishna is the eighth avatar of Vishnu and one of the most beloved deities in Hinduism.
+[^sn-the-emperor]: The Emperor is structure, authority, and the protective power of law.

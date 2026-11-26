@@ -34,7 +34,7 @@ She is the Great Mother in her nourishing aspect and a mature figure of the anim
 
 ## Mythological Echoes
 
-She recalls the sea goddesses and lunar mothers of every tradition. Yemọja of the waters, Kwan Yin hearing the cries of the world, the compassionate mother who bears sorrow without hardening. She echoes the moon’s pull on the tides, the [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess) grown into full feeling, and Demeter in her tenderness toward all that is nurtured and mourned. See [Demeter](/knowledge/mythology/greek-mythology/demeter). Hers is the ancient image of mercy that flows and does not run dry.
+She recalls the sea goddesses and lunar mothers of every tradition. Yemọja of the waters, Kwan Yin hearing the cries of the world, the compassionate mother who bears sorrow without hardening. She echoes the moon’s pull on the tides, the [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess) grown into full feeling, and Demeter[^sn-demeter] in her tenderness toward all that is nurtured and mourned. See [Demeter](/knowledge/mythology/greek-mythology/demeter). Hers is the ancient image of mercy that flows and does not run dry.
 
 ## In Practice
 
@@ -48,3 +48,5 @@ When this card appears, ask where you can feel deeply without losing your center
 - [Queen of Pentacles](/knowledge/tarot/minor-arcana/queen-of-pentacles)
 - [Tarot](/knowledge/tarot)
 - [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious)
+
+[^sn-demeter]: Demeter is the goddess of the harvest, agriculture, nature, and the seasons. See [Demeter](/knowledge/mythology/greek-mythology/demeter).

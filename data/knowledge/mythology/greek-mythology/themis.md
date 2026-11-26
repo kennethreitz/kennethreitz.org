@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Overview
 
-Themis is the Titaness of divine law and right order, not the written statutes of men but the deep, customary rightness that holds the cosmos and society together: the way things are supposed to be done, the settled order of what is fitting. Daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus), her name means "that which is laid down," the established custom, and she personifies the moral structure beneath the world. She sits close to the throne of [Zeus](/knowledge/mythology/greek-mythology/zeus) as his counselor and consort, the voice that tells the king of the gods what is right, convening the assemblies of Olympus and keeping the order of the divine gatherings.
+Themis is the Titaness of divine law and right order, not the written statutes of men but the deep, customary rightness that holds the cosmos and society together: the way things are supposed to be done, the settled order of what is fitting. Daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus),[^sn-uranus] her name means "that which is laid down," the established custom, and she personifies the moral structure beneath the world. She sits close to the throne of [Zeus](/knowledge/mythology/greek-mythology/zeus) as his counselor and consort, the voice that tells the king of the gods what is right, convening the assemblies of Olympus and keeping the order of the divine gatherings.
 
-She is also an oracular power. Like her sister [Phoebe](/knowledge/mythology/greek-mythology/phoebe), Themis held the oracle at Delphi in the age before [Apollo](/knowledge/mythology/greek-mythology/apollo), receiving it from her mother [Gaia](/knowledge/mythology/greek-mythology/gaia) and speaking the future from the earth's navel. Law and prophecy are one in her, for the divine order is both what ought to be and what will be, the shape of things laid down in advance. Among all the Titans she is the one most fully honored under the new gods: not overthrown but taken up, seated beside [Zeus](/knowledge/mythology/greek-mythology/zeus) as the very principle of the justice his reign is meant to embody. It is she whom the tarot's [Justice](/knowledge/tarot/major-arcana/justice) most nearly answers, the scales that do not punish but only refuse to lie.
+She is also an oracular power. Like her sister [Phoebe](/knowledge/mythology/greek-mythology/phoebe), Themis held the oracle at Delphi in the age before [Apollo](/knowledge/mythology/greek-mythology/apollo), receiving it from her mother [Gaia](/knowledge/mythology/greek-mythology/gaia) and speaking the future from the earth's navel. Law and prophecy are one in her, for the divine order is both what ought to be and what will be, the shape of things laid down in advance. Among all the Titans she is the one most fully honored under the new gods: not overthrown but taken up, seated beside [Zeus](/knowledge/mythology/greek-mythology/zeus) as the very principle of the justice his reign is meant to embody. It is she whom the tarot's [Justice](/knowledge/tarot/major-arcana/justice)[^sn-justice] most nearly answers, the scales that do not punish but only refuse to lie.
 
 ---
 
@@ -38,3 +38,7 @@ She is also an oracular power. Like her sister [Phoebe](/knowledge/mythology/gre
 - [Apollo](/knowledge/mythology/greek-mythology/apollo): Who took the oracle her line once kept
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-justice]: Justice is truth, accountability, and the law of cause and effect made visible.
+
+[^sn-uranus]: Uranus is the sky, the primordial heaven, born of Gaia (the Earth) and then her consort, the two of them the first parents of the cosmos.

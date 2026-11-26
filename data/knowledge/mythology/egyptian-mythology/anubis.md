@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Anubis is the jackal-headed god of embalming and the guide of the dead, the one who receives the soul at the threshold and leads it into the world beyond. Black-furred like the fertile silt and the color of the resurrected body, he presides over mummification, the craft by which the dead are preserved for their journey. The jackals that haunted the desert cemeteries at the edge of the living world became, in him, not scavengers of the dead but their protector and escort.
 
-Before [Osiris](/knowledge/mythology/egyptian-mythology/osiris) rose to rule the afterlife, Anubis was its older lord; afterward he became the faithful attendant of the judgment, the psychopomp who conducts each soul to the Hall of Two Truths. There he sets the heart of the deceased upon the scale and weighs it against the feather of truth, an impartial hand at the fulcrum between eternity and oblivion. He is the tarot's [Death](/knowledge/tarot/major-arcana/death) in its truest office: not the killer but the guide, the steward of the passage, the figure who stands at the one-way door and shows the way through.
+Before [Osiris](/knowledge/mythology/egyptian-mythology/osiris)[^sn-osiris] rose to rule the afterlife, Anubis was its older lord; afterward he became the faithful attendant of the judgment, the psychopomp who conducts each soul to the Hall of Two Truths. There he sets the heart of the deceased upon the scale and weighs it against the feather of truth, an impartial hand at the fulcrum between eternity and oblivion. He is the tarot's [Death](/knowledge/tarot/major-arcana/death) in its truest office: not the killer but the guide, the steward of the passage, the figure who stands at the one-way door and shows the way through.
 
 ---
 
@@ -34,3 +34,5 @@ Before [Osiris](/knowledge/mythology/egyptian-mythology/osiris) rose to rule the
 - [Isis](/knowledge/mythology/egyptian-mythology/isis): Whom he aided in preserving the body of Osiris
 - [Tarot](/knowledge/tarot)
 - [Mythology](/knowledge/mythology)
+
+[^sn-osiris]: Osiris is the god of the dead and the lord of the afterlife, but he began as a king of the living, the first pharaoh, who taught humankind agriculture and law before his brother murdered him.

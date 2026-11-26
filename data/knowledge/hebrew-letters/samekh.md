@@ -25,9 +25,9 @@ source: obsidian-knowledge
 
 Samekh is the prop, the support that holds a structure upright, and its glyph is a closed circle, the only letter with no opening at all. The liturgy leans on it directly: *somekh noflim*, "who upholds all who fall," is the letter's name turned into a divine attribute. Where nun is the one who falls, samekh is what catches, the alphabet places them side by side on purpose. The circle also carries the tradition's image of the endless: a ring has no point of failure, no place where the support runs out, which is why the mystics saw in samekh the surrounding light that encloses creation the way a wall of water enclosed Israel in the sea.
 
-Its number is sixty, the circle of degrees and minutes, the full round of measure. A simple letter under Sagittarius, the archer whose arrow flies true only from a steady bow-arm, its Sefer Yetzirah faculty is anger: the volatile force that samekh's steadiness exists to contain and transmute.
+Its number is sixty, the circle of degrees and minutes, the full round of measure. A simple letter under Sagittarius[^sn-sagittarius], the archer whose arrow flies true only from a steady bow-arm, its Sefer Yetzirah faculty is anger: the volatile force that samekh's steadiness exists to contain and transmute.
 
-On the Tree it is the twenty-fifth path, joining [Tiphareth](/knowledge/tree-of-life/tiphareth) to [Yesod](/knowledge/tree-of-life/yesod) straight down the Middle Pillar, the arrow's path from foundation to the heart, the road the Golden Dawn called the Way of the Arrow, the aspirant's direct ascent. Its trump is [Temperance](/knowledge/tarot/major-arcana/temperance), the angel blending the two cups without spilling: equilibrium as an active art. Samekh is the steadiness under every successful crossing.
+On the Tree it is the twenty-fifth path, joining [Tiphareth](/knowledge/tree-of-life/tiphareth)[^sn-tiphareth] to [Yesod](/knowledge/tree-of-life/yesod) straight down the Middle Pillar, the arrow's path from foundation to the heart, the road the Golden Dawn called the Way of the Arrow, the aspirant's direct ascent. Its trump is [Temperance](/knowledge/tarot/major-arcana/temperance), the angel blending the two cups without spilling: equilibrium as an active art. Samekh is the steadiness under every successful crossing.
 
 ## Related
 
@@ -36,3 +36,7 @@ On the Tree it is the twenty-fifth path, joining [Tiphareth](/knowledge/tree-of-
 - [Temperance](/knowledge/tarot/major-arcana/temperance)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-sagittarius]: Sagittarius carries the fire of late autumn toward the winter solstice, a season of gathering darkness that the Archer meets with an inextinguishable optimism. See [Sagittarius](/knowledge/astrology/signs/sagittarius).
+
+[^sn-tiphareth]: Tiphareth stands at the heart of the Middle Pillar, the column of equilibrium, more richly connected than any other sphere, the crossroads through which the whole Tree passes.

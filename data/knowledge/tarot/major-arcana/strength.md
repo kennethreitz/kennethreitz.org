@@ -15,7 +15,7 @@ A woman in a white gown, crowned with flowers and girdled with roses, bends gent
 
 ## Upright
 
-Strength is fortitude of the quiet kind: courage, patience, and the gentle command of one’s own animal nature. Where [The Chariot](/knowledge/tarot/major-arcana/the-chariot) mastered opposing forces by force of will, Strength masters them by acceptance and warmth. Upright, the card counsels the soft power that outlasts the hard: composure under pressure, compassion toward one’s own wildness, the confidence that does not need to prove itself. To draw it is to be reminded that the lion is tamed by the hand that does not fear it.
+Strength is fortitude of the quiet kind: courage, patience, and the gentle command of one’s own animal nature. Where [The Chariot](/knowledge/tarot/major-arcana/the-chariot)[^sn-the-chariot] mastered opposing forces by force of will, Strength masters them by acceptance and warmth. Upright, the card counsels the soft power that outlasts the hard: composure under pressure, compassion toward one’s own wildness, the confidence that does not need to prove itself. To draw it is to be reminded that the lion is tamed by the hand that does not fear it.
 
 ## Reversed
 
@@ -48,3 +48,5 @@ When Strength appears, the reading turns toward patience, courage, and the gentl
 - [The Devil](/knowledge/tarot/major-arcana/the-devil)
 - [The Shadow](/knowledge/psychology/jungian/the-shadow)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-chariot]: The Chariot is willpower, victory, and the disciplined harnessing of opposing drives toward a single goal.

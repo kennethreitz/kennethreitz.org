@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Where It Belongs
 
-Charity is the only virtue that sits on two lists at once, and the tradition took the doubling as the point. Among the seven heavenly virtues it is the remedy for [Greed](/knowledge/virtues-and-vices/seven-deadly-sins/greed), the open hand against the clenched one. Among the three theological virtues of 1 Corinthians 13 it stands last and greatest, beside [Faith](/knowledge/virtues-and-vices/virtues/faith) and [Hope](/knowledge/virtues-and-vices/virtues/hope): "And now abideth faith, hope, charity, these three; but the greatest of these is charity." Aquinas called it the form of all the virtues, the animating principle without which the others are technique. Medicine on one list, crown on the other: love is both how you heal and what you heal into.
+Charity is the only virtue that sits on two lists at once, and the tradition took the doubling as the point. Among the seven heavenly virtues it is the remedy for [Greed](/knowledge/virtues-and-vices/seven-deadly-sins/greed), the open hand against the clenched one. Among the three theological virtues of 1 Corinthians 13 it stands last and greatest, beside [Faith](/knowledge/virtues-and-vices/virtues/faith)[^sn-faith] and [Hope](/knowledge/virtues-and-vices/virtues/hope): "And now abideth faith, hope, charity, these three; but the greatest of these is charity." Aquinas called it the form of all the virtues, the animating principle without which the others are technique. Medicine on one list, crown on the other: love is both how you heal and what you heal into.
 
 ## What It Is
 
@@ -19,7 +19,7 @@ The Greek is *agape*, the Latin *caritas*: love as willed benevolence rather tha
 
 ## The Sin It Answers
 
-As remedy, charity answers [Greed](/knowledge/virtues-and-vices/seven-deadly-sins/greed), the hoard built against a threatening future. Giving is the one act avarice cannot metabolize; every open-handed gesture treats the future as trustworthy and the neighbor as kin, and the vault loses a brick. Dante's avaricious lie face-down, bound to the dust they clutched; charity is the posture reversed, face up, hands open.
+As remedy, charity answers [Greed](/knowledge/virtues-and-vices/seven-deadly-sins/greed)[^sn-greed], the hoard built against a threatening future. Giving is the one act avarice cannot metabolize; every open-handed gesture treats the future as trustworthy and the neighbor as kin, and the vault loses a brick. Dante's avaricious lie face-down, bound to the dust they clutched; charity is the posture reversed, face up, hands open.
 
 ## In the Theological Three
 
@@ -38,3 +38,7 @@ Aquinas taught that faith and hope are provisional: sight will retire faith, pos
 ---
 
 *Faith will retire into sight, hope into possession. Charity has nowhere further to go.*
+
+[^sn-faith]: Faith is the first of the three theological virtues, standing with Hope and Charity on the list Paul closes 1 Corinthians 13 with: "And now abideth faith, hope, charity, these three." The tradition drew a hard line between this list and the other two.
+
+[^sn-greed]: Beneath greed is the entirely reasonable desire for security, bent into the conviction that enough does not exist.

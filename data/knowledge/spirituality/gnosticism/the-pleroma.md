@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-The **Pleroma** (Greek *plērōma*, "fullness" or "completeness") is the divine realm in Gnostic cosmology, the totality of the true God's self-expression, populated by the emanations called [The Aeons](/knowledge/spirituality/gnosticism/the-aeons). It is not a place in the ordinary sense but a condition: the state in which the divine is whole, undivided, and lacking nothing. Everything below it, the material cosmos, the world we wake up in each morning, is a deficiency by comparison, a falling-away from this fullness. To speak of the Pleroma is to speak of home, in the exact sense that the Gnostic soul is far from it.
+The **Pleroma** (Greek *plērōma*, "fullness" or "completeness") is the divine realm in Gnostic cosmology, the totality of the true God's self-expression, populated by the emanations called [The Aeons](/knowledge/spirituality/gnosticism/the-aeons).[^sn-the-aeons] It is not a place in the ordinary sense but a condition: the state in which the divine is whole, undivided, and lacking nothing. Everything below it, the material cosmos, the world we wake up in each morning, is a deficiency by comparison, a falling-away from this fullness. To speak of the Pleroma is to speak of home, in the exact sense that the Gnostic soul is far from it.
 
 ---
 
@@ -26,7 +26,7 @@ From the Depth, paired with **Sige** (Silence) or **Ennoia** (Thought), the eman
 
 ## The Kenoma Below
 
-The Pleroma has a shadow, and its name is the **kenoma**, the "emptiness," the region of deficiency outside the fullness. Where the Pleroma is completeness, the kenoma is lack; where the Pleroma is light, the kenoma is the space into which light is not. The material world belongs to the kenoma. It is what happens when a fragment of the fullness falls out of it, when [Sophia](/knowledge/spirituality/gnosticism/sophia-aeon), the youngest aeon, ruptures the harmony and her passion spills beyond the boundary into the void below.
+The Pleroma has a shadow, and its name is the **kenoma**, the "emptiness," the region of deficiency outside the fullness. Where the Pleroma is completeness, the kenoma is lack; where the Pleroma is light, the kenoma is the space into which light is not. The material world belongs to the kenoma. It is what happens when a fragment of the fullness falls out of it, when [Sophia](/knowledge/spirituality/gnosticism/sophia-aeon),[^sn-sophia-aeon] the youngest aeon, ruptures the harmony and her passion spills beyond the boundary into the void below.
 
 This is the essential Gnostic geography: fullness above, emptiness below, and a scattered light that must find its way back up. Salvation, in this map, is not a moral achievement but a homecoming, the return of what fell to the place where nothing is missing.
 
@@ -42,3 +42,6 @@ This is the essential Gnostic geography: fullness above, emptiness below, and a 
 - [Kabbalah](/knowledge/spirituality/kabbalah): Ein Sof and the emanationist descent into matter
 - [Tree of Life](/knowledge/tree-of-life), a parallel ladder from the infinite to the manifest
 - [Spirituality](/knowledge/spirituality), the wider domain
+
+[^sn-the-aeons]: The Aeons (Greek *aiōnes*) are the emanations that populate The Pleroma, divine attributes given personhood, each a facet of the unknowable Father made distinct and knowable.
+[^sn-sophia-aeon]: Sophia's undoing is a longing, not a sin in the ordinary sense.

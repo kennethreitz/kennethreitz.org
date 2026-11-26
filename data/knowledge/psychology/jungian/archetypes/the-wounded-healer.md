@@ -22,7 +22,7 @@ At its redemptive pole the archetype manifests as compassion, empathy, and the a
 
 ## In Tarot
 
-He hangs in [The Hanged Man](/knowledge/tarot/major-arcana/the-hanged-man), suspended upside-down by one foot yet serene, his surrender to the wound becoming a source of illumination, sacrifice, reversal, and the wisdom that only comes from letting go. He appears too in [The Star](/knowledge/tarot/major-arcana/the-star), the figure pouring healing waters beneath the night sky after catastrophe: hope restored, the balm that follows the wound.
+He hangs in [The Hanged Man](/knowledge/tarot/major-arcana/the-hanged-man),[^sn-the-hanged-man] suspended upside-down by one foot yet serene, his surrender to the wound becoming a source of illumination, sacrifice, reversal, and the wisdom that only comes from letting go. He appears too in [The Star](/knowledge/tarot/major-arcana/the-star), the figure pouring healing waters beneath the night sky after catastrophe: hope restored, the balm that follows the wound.
 
 ## In Myth
 
@@ -39,3 +39,5 @@ Chiron, the immortal centaur, is pierced by a poisoned arrow he cannot heal, and
 - [Major Jungian Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 - [Mythology](/knowledge/mythology)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-hanged-man]: The Hanged Man is surrender, reversal, and the wisdom that arrives only when striving stops.

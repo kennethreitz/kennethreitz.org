@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Morpheus is the god of dreams: more exactly, the one who fashions the human forms that walk through them. His name means "the shaper," from *morphe*, form, and that is his whole art: when you dream of a person, it is Morpheus who has taken their shape, their gait, their voice, and stood before your sleeping mind wearing them like a mask. He is a son of [Hypnos](/knowledge/mythology/greek-mythology/hypnos), sleep, and one of the countless dream-spirits who dwell with their father in the lightless cave; but among them he is the master of the human likeness, the one sent when a dream must carry the face of someone real. He is a late and largely literary god, given his character and his family by the Roman poet Ovid rather than the old Greek epics, but the figure he draws is unforgettable.
+Morpheus is the god of dreams: more exactly, the one who fashions the human forms that walk through them. His name means "the shaper," from *morphe*, form, and that is his whole art: when you dream of a person, it is Morpheus who has taken their shape, their gait, their voice, and stood before your sleeping mind wearing them like a mask. He is a son of [Hypnos](/knowledge/mythology/greek-mythology/hypnos),[^sn-hypnos] sleep, and one of the countless dream-spirits who dwell with their father in the lightless cave; but among them he is the master of the human likeness, the one sent when a dream must carry the face of someone real. He is a late and largely literary god, given his character and his family by the Roman poet Ovid rather than the old Greek epics, but the figure he draws is unforgettable.
 
 In Ovid's account the brothers divide the labour of dreams between them: Morpheus imitates men, while his brothers take the shapes of beasts and of inanimate things, earth, water, wood. Morpheus is the specialist of persons, and so the most affecting, because the dream that wears a beloved face is the one that most deceives and most consoles. He moves on silent wings, soundless, and slips into the sleeper's sight so perfectly that the dreamer cannot tell the phantom from the living. He is the reason the dead can seem to speak to us in sleep, and the reason we wake reaching for someone who was never there.
 
@@ -33,3 +33,5 @@ In Ovid's account the brothers divide the labour of dreams between them: Morpheu
 - [Hades](/knowledge/mythology/greek-mythology/hades): The underworld region where the cave of Sleep and its dreams are set
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-hypnos]: Hypnos is the god of sleep, the gentle power that comes each night to still the living and, for a few hours, empties the mind of the world.

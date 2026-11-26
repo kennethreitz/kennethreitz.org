@@ -30,7 +30,7 @@ Reversed, the fire turns tyrannical or hollow. Authority becomes domineering, th
 
 ## Archetype
 
-This is the mature masculine in its solar, generative aspect, the wise king whose authority serves the realm rather than the ego. Jung distinguished the true King, an image of the integrated [The Self](/knowledge/psychology/jungian/the-self), from the tyrant who is possessed by his own power. The ouroboros salamander at his feet signals wholeness, the fire that circles back and completes itself. He is the fulfilment of the fiery suit's whole journey, the will disciplined into vision, kin to the sovereign authority of [The Emperor](/knowledge/tarot/major-arcana/the-emperor) and the radiant completion of [The Sun](/knowledge/tarot/major-arcana/the-sun).
+This is the mature masculine in its solar, generative aspect, the wise king whose authority serves the realm rather than the ego. Jung distinguished the true King, an image of the integrated [The Self](/knowledge/psychology/jungian/the-self), from the tyrant who is possessed by his own power. The ouroboros salamander at his feet signals wholeness, the fire that circles back and completes itself. He is the fulfilment of the fiery suit's whole journey, the will disciplined into vision, kin to the sovereign authority of [The Emperor](/knowledge/tarot/major-arcana/the-emperor)[^sn-the-emperor] and the radiant completion of [The Sun](/knowledge/tarot/major-arcana/the-sun).
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ When this card appears, it asks you to lead from your fire without being consume
 - [King of Swords](/knowledge/tarot/minor-arcana/king-of-swords)
 - [Tarot](/knowledge/tarot)
 - [The Self](/knowledge/psychology/jungian/the-self)
+
+[^sn-the-emperor]: The Emperor is structure, authority, and the protective power of law.

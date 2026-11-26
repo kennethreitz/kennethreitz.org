@@ -30,7 +30,7 @@ Reversed, the concealment collapses or the conscience surfaces. Secrets come to 
 
 ## Archetype
 
-The Moon in Aquarius casts feeling through a screen of detachment, and the result is the trickster, the figure Jung understood as an ambivalent shadow-force, both liberator and thief. The trickster breaks rules that need breaking and steals what is not his to take, and the psyche cannot mature without meeting him. The two abandoned swords are the self-deception in every clever scheme: the part of the truth we conveniently leave behind. To integrate this figure is to reclaim cunning as intelligence in service of the whole, rather than as a way of cheating ourselves while thinking we cheat others.
+The Moon in Aquarius[^sn-aquarius] casts feeling through a screen of detachment, and the result is the trickster, the figure Jung understood as an ambivalent shadow-force, both liberator and thief. The trickster breaks rules that need breaking and steals what is not his to take, and the psyche cannot mature without meeting him. The two abandoned swords are the self-deception in every clever scheme: the part of the truth we conveniently leave behind. To integrate this figure is to reclaim cunning as intelligence in service of the whole, rather than as a way of cheating ourselves while thinking we cheat others.
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ When the Seven of Swords appears, ask where you are relying on cunning to avoid 
 - [Seven of Pentacles](/knowledge/tarot/minor-arcana/seven-of-pentacles)
 - [Tarot](/knowledge/tarot)
 - [The Shadow](/knowledge/psychology/jungian/the-shadow)
+
+[^sn-aquarius]: Aquarius governs the deep of winter, the still weeks after the solstice when the individual mind turns from mere survival to the question of what the world could be. See [Aquarius](/knowledge/astrology/signs/aquarius).

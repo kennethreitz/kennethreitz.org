@@ -31,7 +31,7 @@ Zen also made ordinary activity into practice: the tea ceremony, calligraphy, ar
 
 ## Relationship to Buddhism
 
-Zen never left Buddhism, its monks keep the precepts, chant the sutras it claims to stand outside of, and trace their lineages to the Buddha. The "transmission outside the scriptures" is a posture within the tradition, not an exit from it: a standing correction against the human tendency to substitute study for practice and belief for seeing. In that sense Zen is the purest specimen of the pattern this folder documents, a tradition whose entire identity is the priority of direct encounter over received doctrine, held (mostly peaceably) inside the institution it keeps needling.
+Zen never left Buddhism[^sn-buddhism], its monks keep the precepts, chant the sutras it claims to stand outside of, and trace their lineages to the Buddha. The "transmission outside the scriptures" is a posture within the tradition, not an exit from it: a standing correction against the human tendency to substitute study for practice and belief for seeing. In that sense Zen is the purest specimen of the pattern this folder documents, a tradition whose entire identity is the priority of direct encounter over received doctrine, held (mostly peaceably) inside the institution it keeps needling.
 
 In the twentieth century, D. T. Suzuki, Alan Watts, and Shunryu Suzuki (*Zen Mind, Beginner's Mind*) carried it west, where it shaped everything from the Beats to interface design. The craftsman's version of its ethic, presence, simplicity, the work as the practice, is the current running through [The Bodhisattva Programmer](/knowledge/spirituality/the-bodhisattva-programmer).
 
@@ -43,3 +43,5 @@ In the twentieth century, D. T. Suzuki, Alan Watts, and Shunryu Suzuki (*Zen Min
 - [Meditation](/knowledge/spirituality/meditation): zazen, the practice at the center
 - [The Bodhisattva Programmer](/knowledge/spirituality/the-bodhisattva-programmer), the Zen craftsman ethic applied to code
 - [Mysticism](/knowledge/spirituality/mysticism), the collection this note belongs to
+
+[^sn-buddhism]: Buddhism begins with a specific person and a specific problem. See [Buddhism](/knowledge/religions-of-the-world/buddhism).

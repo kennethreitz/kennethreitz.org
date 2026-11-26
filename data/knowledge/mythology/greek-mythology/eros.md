@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Eros is the god of desire, and one of the oldest and strangest figures in Greek myth, because he is told two ways at once. In the primordial account he is one of the first beings to emerge from Chaos, the raw force of attraction that draws all things together and without which nothing could couple or be born; even the gods come after him and because of him. In the later, more familiar story he is the winged boy, son of [Aphrodite](/knowledge/mythology/greek-mythology/aphrodite), who fires arrows that make gods and mortals fall helplessly in love. Both are true to what he is: the power that pulls one thing toward another, whether that power built the cosmos or just wrecked a heart.
+Eros is the god of desire, and one of the oldest and strangest figures in Greek myth, because he is told two ways at once. In the primordial account he is one of the first beings to emerge from Chaos, the raw force of attraction that draws all things together and without which nothing could couple or be born; even the gods come after him and because of him. In the later, more familiar story he is the winged boy, son of [Aphrodite](/knowledge/mythology/greek-mythology/aphrodite),[^sn-aphrodite] who fires arrows that make gods and mortals fall helplessly in love. Both are true to what he is: the power that pulls one thing toward another, whether that power built the cosmos or just wrecked a heart.
 
 He is beautiful, capricious, and impossible to refuse. Even [Zeus](/knowledge/mythology/greek-mythology/zeus) is not safe from his arrows. Desire, in the Greek reckoning, is not something you decide, it is something that happens to you, and Eros is its face.
 
@@ -36,3 +36,5 @@ He is beautiful, capricious, and impossible to refuse. Even [Zeus](/knowledge/my
 - [Tarot](/knowledge/tarot)
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-aphrodite]: Aphrodite is the goddess of love, beauty, pleasure, and procreation, one of the oldest and most powerful forces in the Greek cosmos, governing a domain no god or mortal can resist.

@@ -28,7 +28,7 @@ That is the deeper motion beneath the sparkle: a flight from pain. The Seven kee
 
 ## Healthy & Unhealthy
 
-At their best, Sevens are joyful, deeply grateful, and genuinely present, able to stay with one experience long enough to taste it fully, and to find in a single moment the abundance they once chased across many. Their joy becomes rooted rather than restless. Under stress the motion turns manic. The unhealthy Seven grows scattered, impulsive, and escapist, fleeing every discomfort and leaving a trail of half-finished enthusiasms and unmet pain. Growth asks the Seven to stop and stay, to turn toward the sorrow held in [The Shadow](/knowledge/psychology/jungian/the-shadow) rather than outrun it, and to discover through [Individuation](/knowledge/psychology/jungian/individuation) that the freedom they seek lives inside depth, not away from it.
+At their best, Sevens are joyful, deeply grateful, and genuinely present, able to stay with one experience long enough to taste it fully, and to find in a single moment the abundance they once chased across many. Their joy becomes rooted rather than restless. Under stress the motion turns manic. The unhealthy Seven grows scattered, impulsive, and escapist, fleeing every discomfort and leaving a trail of half-finished enthusiasms and unmet pain. Growth asks the Seven to stop and stay, to turn toward the sorrow held in [The Shadow](/knowledge/psychology/jungian/the-shadow)[^sn-the-shadow] rather than outrun it, and to discover through [Individuation](/knowledge/psychology/jungian/individuation) that the freedom they seek lives inside depth, not away from it.
 
 ## Related
 
@@ -37,3 +37,5 @@ At their best, Sevens are joyful, deeply grateful, and genuinely present, able t
 - [Type 5 - The Investigator](/knowledge/enneagram/type-5-the-investigator)
 - [Type 1 - The Reformer](/knowledge/enneagram/type-1-the-reformer)
 - [Enneagram](/knowledge/enneagram)
+
+[^sn-the-shadow]: In Jungian psychology, the Shadow is the disowned part of the psyche, everything we can't accept about ourselves gets pushed into this unconscious container.

@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## The Archetype
 
-The Anthropos is the archetype of the original and total human, the Cosmic Man whose body is the universe and whose form encloses all of humanity as a single being. Jung found this image recurring across the world’s mythologies and mystical traditions as a symbol of [The Self](/knowledge/psychology/jungian/the-self) at its most encompassing: not the individual ego but the whole of the human, undivided and complete, in whom the personal and the cosmic are one. The Anthropos is the wholeness toward which [Individuation](/knowledge/psychology/jungian/individuation) points, projected onto the scale of creation itself.
+The Anthropos is the archetype of the original and total human, the Cosmic Man whose body is the universe and whose form encloses all of humanity as a single being. Jung found this image recurring across the world’s mythologies and mystical traditions as a symbol of [The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self] at its most encompassing: not the individual ego but the whole of the human, undivided and complete, in whom the personal and the cosmic are one. The Anthropos is the wholeness toward which [Individuation](/knowledge/psychology/jungian/individuation) points, projected onto the scale of creation itself.
 
 Where other archetypes name a facet of the psyche, the Anthropos names the totality. He is the primordial unity from which multiplicity emerged and to which it seeks return, the pattern of the complete human that each partial self dimly echoes. To contemplate him is to sense that the work of becoming whole is also the work of remembering an original completeness that was never entirely lost.
 
@@ -22,11 +22,11 @@ At its integrating pole the Anthropos manifests as the felt intuition of wholene
 
 ## In Tarot
 
-He is [The World](/knowledge/tarot/major-arcana/the-world), the final card of the major arcana, the dancing figure encircled by the wreath, flanked by the four living creatures, complete and at rest within the whole. The card is fulfillment, integration, and the accomplished journey: the Self made cosmos, the Anthropos made image.
+He is [The World](/knowledge/tarot/major-arcana/the-world),[^sn-the-world] the final card of the major arcana, the dancing figure encircled by the wreath, flanked by the four living creatures, complete and at rest within the whole. The card is fulfillment, integration, and the accomplished journey: the Self made cosmos, the Anthropos made image.
 
 ## In Myth
 
-The Cosmic Man appears as Adam Kadmon in the Kabbalah, the primordial divine human from whose form the created worlds unfold. In the Vedas, Purusha is the vast being sacrificed and dismembered to make the cosmos, his body becoming sun and moon, earth and sky and the orders of humankind. The dreaming god [Vishnu](/knowledge/mythology/hindu-mythology/vishnu), from whose slumber whole universes arise and dissolve, carries the same intuition, the single encompassing being in whom all things are held.
+The Cosmic Man appears as Adam Kadmon in the Kabbalah, the primordial divine human from whose form the created worlds unfold. In the Vedas, Purusha is the vast being sacrificed and dismembered to make the cosmos, his body becoming sun and moon, earth and sky and the orders of humankind. The dreaming god [Vishnu](/knowledge/mythology/hindu-mythology/vishnu),[^sn-vishnu] from whose slumber whole universes arise and dissolve, carries the same intuition, the single encompassing being in whom all things are held.
 
 ## Related
 
@@ -39,3 +39,8 @@ The Cosmic Man appears as Adam Kadmon in the Kabbalah, the primordial divine hum
 - [Major Jungian Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 - [Mythology](/knowledge/mythology)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-self]: The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche.
+[^sn-the-world]: The World is completion, integration, and the fulfilment of the whole journey.
+
+[^sn-vishnu]: Vishnu is the preserver god in the Hindu Trimurti.

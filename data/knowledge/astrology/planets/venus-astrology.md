@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## Essence
 
-Venus is the principle of attraction, the force by which the psyche moves toward what it loves. It governs beauty, harmony, pleasure, and the whole apparatus of value: not only whom a person desires but what they find precious, worth having, worth becoming. Venus is the taste of the soul, the quiet arbiter that decides what is beautiful and what is merely there. Where Mars reaches out to take, Venus draws near to unite.
+Venus is the principle of attraction, the force by which the psyche moves toward what it loves. It governs beauty, harmony, pleasure, and the whole apparatus of value: not only whom a person desires but what they find precious, worth having, worth becoming. Venus is the taste of the soul, the quiet arbiter that decides what is beautiful and what is merely there. Where Mars reaches out to take, Venus[^sn-venus] draws near to unite.
 
-Like [Aphrodite](/knowledge/mythology/greek-mythology/aphrodite), Venus knows that beauty is a serious power and not a decoration. She rules the erotic and the aesthetic as one continuous impulse, the longing for union that shows up equally in a love affair, a chord that resolves, and a room arranged just so. Ruling both earthy Taurus and airy Libra, Venus loves through the senses and through relationship, through possession and through balance. Her deepest teaching is that to know what you love is to know who you are.
+Like [Aphrodite](/knowledge/mythology/greek-mythology/aphrodite), Venus knows that beauty is a serious power and not a decoration. She rules the erotic and the aesthetic as one continuous impulse, the longing for union that shows up equally in a love affair, a chord that resolves, and a room arranged just so. Ruling both earthy Taurus[^sn-taurus] and airy Libra, Venus loves through the senses and through relationship, through possession and through balance. Her deepest teaching is that to know what you love is to know who you are.
 
 ## Correspondences
 
@@ -36,3 +36,7 @@ A well-placed Venus gives grace in love and in life, an ease with affection, a n
 - [Aphrodite](/knowledge/mythology/greek-mythology/aphrodite)
 - [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-venus]: Venus is the Roman goddess of love, beauty, desire, and fertility, but she was far more to Rome than a goddess of the heart. See [Venus](/knowledge/astrology/planets/venus-astrology).
+
+[^sn-taurus]: To know a Taurus is to know steadiness, a presence that stays when others scatter. More in [Taurus](/knowledge/astrology/signs/taurus).

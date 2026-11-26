@@ -30,7 +30,7 @@ The minor-major seventh is suspense in chord form: sophisticated, uneasy, faintl
 
 ## In Practice
 
-The minor-major seventh often appears as the first chord of a descending minor line, where the tonic’s note steps down chromatically from the octave through the major seventh toward the flattened seventh below. That “line cliché” is its natural habitat, in jazz ballads, torch songs, and film scores alike. It is the [Minor Triad](/knowledge/music/chords-and-progressions/chords/minor-triad) and the [Major Seventh](/knowledge/music/chords-and-progressions/chords/major-seventh) fused into a single ambivalent object, and it resolves with a noir slink toward the [Minor Seventh](/knowledge/music/chords-and-progressions/chords/minor-seventh).
+The minor-major seventh often appears as the first chord of a descending minor line, where the tonic’s note steps down chromatically from the octave through the major seventh toward the flattened seventh below. That “line cliché” is its natural habitat, in jazz ballads, torch songs, and film scores alike. It is the [Minor Triad](/knowledge/music/chords-and-progressions/chords/minor-triad) and the [Major Seventh](/knowledge/music/chords-and-progressions/chords/major-seventh) fused into a single ambivalent object, and it resolves with a noir slink toward the [Minor Seventh](/knowledge/music/chords-and-progressions/chords/minor-seventh).[^sn-minor-seventh]
 
 ## Related
 
@@ -39,3 +39,5 @@ The minor-major seventh often appears as the first chord of a descending minor l
 - [Minor Seventh](/knowledge/music/chords-and-progressions/chords/minor-seventh)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
+
+[^sn-minor-seventh]: The minor seventh adds a minor seventh to a minor triad, a minor third, a major third, then a minor third stacked on top.

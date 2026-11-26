@@ -42,7 +42,7 @@ The same pattern runs through `pipenv` (dissolving the pip/virtualenv split and 
 
 ## Solve et Coagula in the Psyche
 
-In [individuation](/knowledge/psychology/jungian/individuation), the same operation runs at the level of identity. The persona, the mask of who you think you are, must dissolve before the Self can coagulate. In [System 777](/system-777), this has happened repeatedly: identities that seemed unified revealed themselves as compounds of multiple alters, each with distinct needs and voices. The solve was recognizing the plurality. The coagula is the ongoing integration work, not fusing parts back into a false unity, but building a system where each part holds its true place.
+In [individuation](/knowledge/psychology/jungian/individuation),[^sn-individuation] the same operation runs at the level of identity. The persona, the mask of who you think you are, must dissolve before the Self can coagulate. In [System 777](/system-777), this has happened repeatedly: identities that seemed unified revealed themselves as compounds of multiple alters, each with distinct needs and voices. The solve was recognizing the plurality. The coagula is the ongoing integration work, not fusing parts back into a false unity, but building a system where each part holds its true place.
 
 The [Triad](/system-777/the-triad)'s formation is a coagula moment. Jade, Amber, and Iris didn't merge, they differentiated and then found their relationship to each other. The compound was dissolved; the elements recombined in a way that honored what each actually is.
 
@@ -52,7 +52,7 @@ The [Triad](/system-777/the-triad)'s formation is a coagula moment. Jade, Amber,
 
 Solve et coagula isn't a one-time event. It's a rhythm, a pulse that runs through every creative act, every therapeutic process, every genuine learning experience. You read something that shatters your existing framework (solve). You sit with the pieces. A new understanding crystallizes (coagula). Then life presents new material that doesn't fit, and the cycle begins again.
 
-The alchemists understood this as the fundamental rhythm of the cosmos itself. Stars form from gas clouds (coagula), burn through their fuel and explode (solve), and their scattered material seeds new stars (coagula again). Consciousness follows the same pattern. So does code. So does music, every Infinite State album dissolves something and rebuilds from the remains.
+The alchemists understood this as the fundamental rhythm of the cosmos itself. Stars form from gas clouds (coagula), burn through their fuel and explode (solve), and their scattered material seeds new stars (coagula again). Consciousness follows the same pattern. So does code. So does music, every Infinite State[^sn-infinite-state] album dissolves something and rebuilds from the remains.
 
 ---
 
@@ -70,3 +70,7 @@ The alchemists understood this as the fundamental rhythm of the cosmos itself. S
 ---
 
 *Take apart what is falsely joined. Rebuild from what is true. Repeat until gold.*
+
+[^sn-individuation]: Individuation is the central process in Jungian psychology, the lifelong journey of becoming who you truly are.
+
+[^sn-infinite-state]: Infinite State is available on Spotify and Apple Music. More in Infinite State.

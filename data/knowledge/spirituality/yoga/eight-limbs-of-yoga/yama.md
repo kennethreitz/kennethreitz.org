@@ -33,7 +33,7 @@ The five restraints govern the practitioner's relationship with the world, they 
 
 ## Place in the Sequence
 
-The eight limbs are not strictly sequential: nobody perfects ahimsa before attempting to sit, but the ordering is an argument. Ethics comes first because concentration built on a disordered life collapses. The restraints quiet the practitioner's relations with others; [Niyama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/niyama), next, quiets the practitioner's relations with themselves. Together they are the foundation on which [Asana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/asana) and everything after it stands.
+The eight limbs are not strictly sequential: nobody perfects ahimsa before attempting to sit, but the ordering is an argument. Ethics comes first because concentration built on a disordered life collapses. The restraints quiet the practitioner's relations with others; [Niyama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/niyama), next, quiets the practitioner's relations with themselves. Together they are the foundation on which [Asana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/asana)[^sn-asana] and everything after it stands.
 
 ---
 
@@ -44,3 +44,5 @@ The eight limbs are not strictly sequential: nobody perfects ahimsa before attem
 - [Yoga](/knowledge/spirituality/yoga), the parent overview
 - [Karma](/knowledge/spirituality/karma): action and its residue, the problem yama addresses
 - [Hinduism](/knowledge/religions-of-the-world/hinduism), the tradition that carries the vow
+
+[^sn-asana]: Everything the modern West means by "yoga", the studios, the mats, the sequences, the athleisure economy, descends from a limb Patanjali dispatches in three sutras. *Sthira sukham asanam* (II.46): the posture should be steady and comfortable.

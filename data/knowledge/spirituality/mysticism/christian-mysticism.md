@@ -28,7 +28,7 @@ The gallery of witnesses is astonishing. The **Desert Fathers and Mothers** with
 
 The relationship with the institution has always been dialectical. The mystics were mostly loyal, monastics, priests, anchorites, and mostly careful to submit their experiences to the church's judgment. The church, for its part, canonized some (Teresa and John are Doctors of the Church) and condemned others (Eckhart, Marguerite Porete, burned in 1310 for *The Mirror of Simple Souls*). The line between sanctity and heresy often came down to politics, gender, and vocabulary. Where [Gnosticism](/knowledge/spirituality/gnosticism) took direct knowing *outside* the church and was expelled, the mystics ran the same experiment *inside* it, tethered to sacrament and creed, which is arguably why their stream survived.
 
-The Reformation sharpened the argument. [Calvinism](/knowledge/spirituality/calvinism) stands as the great counterpoint within Christianity itself: deeply suspicious of mystical ascent, of any ladder the soul might climb to God, insisting that fallen reason and fallen experience cannot be trusted and that God is known through Scripture and grace alone, revelation descending, never experience ascending. It is the received-doctrine pole stated with maximum clarity, and the mystics' claim of union is precisely what it distrusts. The debate between them is the tension this whole folder documents, played out within a single religion.
+The Reformation sharpened the argument. [Calvinism](/knowledge/spirituality/calvinism) stands as the great counterpoint within Christianity[^sn-christianity] itself: deeply suspicious of mystical ascent, of any ladder the soul might climb to God, insisting that fallen reason and fallen experience cannot be trusted and that God is known through Scripture and grace alone, revelation descending, never experience ascending. It is the received-doctrine pole stated with maximum clarity, and the mystics' claim of union is precisely what it distrusts. The debate between them is the tension this whole folder documents, played out within a single religion.
 
 There is a quieter kinship, too, with the Jewish mystical intuition of [The Shekhinah](/knowledge/spirituality/the-shekhinah), the indwelling presence of God, divinity that does not merely rule from beyond but *dwells with*. The mystics' whole wager is that the dwelling can be felt.
 
@@ -42,3 +42,5 @@ There is a quieter kinship, too, with the Jewish mystical intuition of [The Shek
 - [Hesychasm](/knowledge/spirituality/mysticism/hesychasm), the Eastern Orthodox branch of the same stream
 - [The Shekhinah](/knowledge/spirituality/the-shekhinah), the indwelling presence, the Jewish cousin of the mystics' intuition
 - [Mysticism](/knowledge/spirituality/mysticism), the collection this note belongs to
+
+[^sn-christianity]: Christianity began as a movement within Second-Temple Judaism. See [Christianity](/knowledge/religions-of-the-world/christianity).

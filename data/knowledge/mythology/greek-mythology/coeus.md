@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Coeus is the Titan of the inquiring intellect: his name was linked to the Greek for questioning and inquiry, and he stands for the mind that asks, the reaching curiosity that wants to know. Son of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus), he is also called Polos, "the pole," and identified with the axis of heaven around which the stars appear to turn: the fixed northern pillar of the sky, the still point about which the whole revolving cosmos wheels. Intellect and axis meet in him, the mind as the pole around which knowledge turns, the questioning that gives the wheeling world a center.
+Coeus is the Titan of the inquiring intellect: his name was linked to the Greek for questioning and inquiry, and he stands for the mind that asks, the reaching curiosity that wants to know. Son of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus),[^sn-uranus] he is also called Polos, "the pole," and identified with the axis of heaven around which the stars appear to turn: the fixed northern pillar of the sky, the still point about which the whole revolving cosmos wheels. Intellect and axis meet in him, the mind as the pole around which knowledge turns, the questioning that gives the wheeling world a center.
 
 He took his sister [Phoebe](/knowledge/mythology/greek-mythology/phoebe), the Titaness of prophecy and bright lunar radiance, as his wife, and from the union of inquiry and oracular light came a line that runs straight to the heart of the Olympian order. Coeus himself acts little in the myths; he is more a principle than a person, one of the four Titan brothers who hold the pillars of the sky at their quarters. But through his daughters and their children his intellectual, oracular inheritance passes down into the age of the gods that overthrew him.
 
@@ -37,3 +37,5 @@ He took his sister [Phoebe](/knowledge/mythology/greek-mythology/phoebe), the Ti
 - [Apollo](/knowledge/mythology/greek-mythology/apollo): His grandson, who took the oracle his line once held
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-uranus]: Uranus is the sky, the primordial heaven, born of Gaia (the Earth) and then her consort, the two of them the first parents of the cosmos.

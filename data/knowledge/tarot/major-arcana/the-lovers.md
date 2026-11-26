@@ -15,7 +15,7 @@ A naked man and woman stand in a green landscape beneath a great winged angel wh
 
 ## Upright
 
-The Lovers is union and the choice that makes union real. On its surface it is romance and partnership; beneath, it is the deeper alchemy of joining opposites into a whole, and the free, values-driven decision that seals such a joining. Upright, the card counsels alignment, acting from what you truly love rather than what you merely want. Where [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant) offered the inherited answer, the Lovers demands a personal one. To draw it is to stand at a choice that will define you.
+The Lovers is union and the choice that makes union real. On its surface it is romance and partnership; beneath, it is the deeper alchemy of joining opposites into a whole, and the free, values-driven decision that seals such a joining. Upright, the card counsels alignment, acting from what you truly love rather than what you merely want. Where [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant)[^sn-the-hierophant] offered the inherited answer, the Lovers demands a personal one. To draw it is to stand at a choice that will define you.
 
 ## Reversed
 
@@ -48,3 +48,5 @@ When the Lovers appears, the reading turns toward relationship and, beneath it, 
 - [The Devil](/knowledge/tarot/major-arcana/the-devil)
 - [Individuation](/knowledge/psychology/jungian/individuation)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-hierophant]: The Hierophant is the transmission of received wisdom, religion, tradition, mentorship, the tested structures through which meaning is passed down.

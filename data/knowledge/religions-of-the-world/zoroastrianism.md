@@ -25,7 +25,7 @@ Ahura Mazda is wholly good, and evil is real but not His creation: it proceeds f
 
 Around Ahura Mazda stand the Amesha Spentas, the "Bounteous Immortals", personified divine attributes such as Good Mind and Best Truth, and the yazatas, venerable beings often compared to archangels and angels. The individual soul faces judgment at the Chinvat Bridge, which widens for the righteous and narrows to a blade for the wicked, sending each to reward or punishment until the final restoration.
 
-The resemblance to later Western religion is not coincidence. During and after the Persian period, Second-Temple [Judaism](/knowledge/religions-of-the-world/judaism) developed, in ways many scholars credit substantially to Iranian influence, its elaborated angelology, its cosmic adversary, and its hope of resurrection and last judgment. Those themes passed directly into the eschatology of [Christianity](/knowledge/religions-of-the-world/christianity) and, later, [Islam](/knowledge/religions-of-the-world/islam). The magi of Matthew's nativity are, by name, Zoroastrian priests. Few religions this small have echoed this loudly.
+The resemblance to later Western religion is not coincidence. During and after the Persian period, Second-Temple [Judaism](/knowledge/religions-of-the-world/judaism) developed, in ways many scholars credit substantially to Iranian influence, its elaborated angelology, its cosmic adversary, and its hope of resurrection and last judgment. Those themes passed directly into the eschatology of [Christianity](/knowledge/religions-of-the-world/christianity)[^sn-christianity] and, later, [Islam](/knowledge/religions-of-the-world/islam). The magi of Matthew's nativity are, by name, Zoroastrian priests. Few religions this small have echoed this loudly.
 
 ---
 
@@ -60,3 +60,5 @@ The living tradition has two historic centers. The Parsis of India, descendants 
 ---
 
 *"Good thoughts, good words, good deeds."*
+
+[^sn-christianity]: Christianity began as a movement within Second-Temple Judaism.

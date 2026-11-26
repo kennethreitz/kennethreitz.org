@@ -23,7 +23,7 @@ Then came Timothy Leary, and psilocybin. Together they launched the Harvard Psil
 
 ## The Honest Limit
 
-And here is the turn that makes this a prologue and not a legend. Alpert was honest enough to notice what the drug could not do. The psychedelic opened a door onto a room of extraordinary beauty and depth, but he could not *stay* in the room. The state always faded. He would touch the vast, luminous, egoless place and then, hours later, come down, still restless, still Richard Alpert, still ashore on the same small self with a memory of the ocean. He tried to live there and couldn't. The doorway was real; the residence was not for sale at that price. That limit, clearly seen, not denied, is precisely what sent him to India in 1967, looking for someone who lived *permanently* in the place he could only visit. He found [Neem Karoli Baba](/knowledge/spirituality/ram-dass/neem-karoli-baba), a man the medicine couldn't touch because he was already past it, and the psychedelic chapter closed. It had opened the question. It could not answer it. What came after, [Be Here Now](/knowledge/spirituality/ram-dass/be-here-now), and the long teaching life, was the answer.
+And here is the turn that makes this a prologue and not a legend. Alpert was honest enough to notice what the drug could not do. The psychedelic opened a door onto a room of extraordinary beauty and depth, but he could not *stay* in the room. The state always faded. He would touch the vast, luminous, egoless place and then, hours later, come down, still restless, still Richard Alpert, still ashore on the same small self with a memory of the ocean. He tried to live there and couldn't. The doorway was real; the residence was not for sale at that price. That limit, clearly seen, not denied, is precisely what sent him to India in 1967, looking for someone who lived *permanently* in the place he could only visit. He found [Neem Karoli Baba](/knowledge/spirituality/ram-dass/neem-karoli-baba),[^sn-neem-karoli-baba] a man the medicine couldn't touch because he was already past it, and the psychedelic chapter closed. It had opened the question. It could not answer it. What came after, [Be Here Now](/knowledge/spirituality/ram-dass/be-here-now), and the long teaching life, was the answer.
 
 ---
 
@@ -39,3 +39,5 @@ And here is the turn that makes this a prologue and not a legend. Alpert was hon
 ---
 
 *"You can't stay high, but you can become the light."*
+
+[^sn-neem-karoli-baba]: Neem Karoli Baba left few facts and no autobiography, even the name is one of several, taken from a village where he was said to have sat.

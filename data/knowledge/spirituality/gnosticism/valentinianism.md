@@ -18,13 +18,13 @@ source: obsidian-knowledge
 
 ## Valentinus and His School
 
-Valentinus was a gifted teacher and, by several accounts, a poet, an Alexandrian who came to Rome around 140 CE and was, tradition holds, nearly elected bishop of Rome. He lost, and Gnosticism's history might read very differently had he won. His followers, **Ptolemy**, **Heracleon**, **Theodotus**, and others, developed his teaching into the fullest of all Gnostic systems, mapping [The Aeons](/knowledge/spirituality/gnosticism/the-aeons) of [The Pleroma](/knowledge/spirituality/gnosticism/the-pleroma) with mathematical care into the **Ogdoad, Decad, and Dodecad**, and writing the luminous **Gospel of Truth** preserved in [The Nag Hammadi Library](/knowledge/spirituality/gnosticism/the-nag-hammadi-library). Theirs was Gnosticism at its most refined: less a rejection of the church than a mystical interior to it.
+Valentinus was a gifted teacher and, by several accounts, a poet, an Alexandrian who came to Rome around 140 CE and was, tradition holds, nearly elected bishop of Rome. He lost, and Gnosticism's history might read very differently had he won. His followers, **Ptolemy**, **Heracleon**, **Theodotus**, and others, developed his teaching into the fullest of all Gnostic systems, mapping [The Aeons](/knowledge/spirituality/gnosticism/the-aeons) of [The Pleroma](/knowledge/spirituality/gnosticism/the-pleroma) with mathematical care into the **Ogdoad, Decad, and Dodecad**, and writing the luminous **Gospel of Truth** preserved in [The Nag Hammadi Library](/knowledge/spirituality/gnosticism/the-nag-hammadi-library).[^sn-the-nag-hammadi-library] Theirs was Gnosticism at its most refined: less a rejection of the church than a mystical interior to it.
 
 ---
 
 ## The Three Natures of Humanity
 
-Valentinianism's most distinctive teaching is its **anthropology**, a threefold division of human beings by their innermost nature. The **pneumatics** ("spiritual") carry the divine spark fully awake; they are Gnostics by nature, destined for [The Pleroma](/knowledge/spirituality/gnosticism/the-pleroma), saved by [Gnosis](/knowledge/spirituality/gnosticism/gnosis) as surely as gold is gold. The **psychics** ("soul-people") possess soul but not full spirit; they are the ordinary faithful of the church, capable of salvation through faith and works but bound to a middle realm rather than the fullness, theirs is belief where the pneumatic has knowing. The **hylics** ("material," from *hylē*, matter) are sunk wholly in matter, without spark, bound to perish with the world they belong to.
+Valentinianism's most distinctive teaching is its **anthropology**, a threefold division of human beings by their innermost nature. The **pneumatics** ("spiritual") carry the divine spark fully awake; they are Gnostics by nature, destined for [The Pleroma](/knowledge/spirituality/gnosticism/the-pleroma),[^sn-the-pleroma] saved by [Gnosis](/knowledge/spirituality/gnosticism/gnosis) as surely as gold is gold. The **psychics** ("soul-people") possess soul but not full spirit; they are the ordinary faithful of the church, capable of salvation through faith and works but bound to a middle realm rather than the fullness, theirs is belief where the pneumatic has knowing. The **hylics** ("material," from *hylē*, matter) are sunk wholly in matter, without spark, bound to perish with the world they belong to.
 
 The Valentinians read this scheme as the map behind Christianity's two audiences: the psychic church of faith for the many, the pneumatic gnosis for the few. It let them belong to the church and transcend it at once, and it was exactly this claim to a superior inner circle that the proto-orthodox found intolerable.
 
@@ -53,3 +53,6 @@ More than any other Gnostic school, Valentinianism came close to becoming the ma
 - [Gnosticism](/knowledge/spirituality/gnosticism), the collection this note belongs to
 - [Christianity](/knowledge/religions-of-the-world/christianity), the church Valentinianism nearly became the interior of
 - [Spirituality](/knowledge/spirituality), the wider domain
+
+[^sn-the-nag-hammadi-library]: The Nag Hammadi Library is a collection of thirteen leather-bound papyrus codices discovered in 1945 near the town of Nag Hammadi in Upper Egypt, the single most important cache of Gnostic writings ever found.
+[^sn-the-pleroma]: The Pleroma (Greek *plērōma*, "fullness" or "completeness") is the divine realm in Gnostic cosmology, the totality of the true God's self-expression, populated by the emanations called The Aeons.

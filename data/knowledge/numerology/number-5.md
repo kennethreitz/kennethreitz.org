@@ -27,7 +27,7 @@ Its energy is quick, versatile, and mercurial, ruled fittingly by Mercury, the w
 
 ## Light & Shadow
 
-At its finest, five is vitality itself, the adaptable, sensual, ever-curious spirit that keeps experience fresh and refuses the deadening of routine. Paired here with [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant), it holds a subtle paradox: the freedom-seeker who nonetheless seeks meaning in what it tastes, translating raw sensation into understanding. Its shadow is appetite without anchor: the restlessness that flees every commitment, the indulgence that mistakes stimulation for satisfaction, the wanderer so addicted to the next thing that no experience is ever fully lived. Freedom, ungoverned, dissolves into dissipation.
+At its finest, five is vitality itself, the adaptable, sensual, ever-curious spirit that keeps experience fresh and refuses the deadening of routine. Paired here with [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant),[^sn-the-hierophant] it holds a subtle paradox: the freedom-seeker who nonetheless seeks meaning in what it tastes, translating raw sensation into understanding. Its shadow is appetite without anchor: the restlessness that flees every commitment, the indulgence that mistakes stimulation for satisfaction, the wanderer so addicted to the next thing that no experience is ever fully lived. Freedom, ungoverned, dissolves into dissipation.
 
 ## Related
 
@@ -35,3 +35,5 @@ At its finest, five is vitality itself, the adaptable, sensual, ever-curious spi
 - [Number 6](/knowledge/numerology/number-6)
 - [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-hierophant]: The Hierophant is the transmission of received wisdom, religion, tradition, mentorship, the tested structures through which meaning is passed down.

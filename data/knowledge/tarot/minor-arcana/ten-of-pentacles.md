@@ -33,7 +33,7 @@ This is the archetype of the ancestral field, the psyche understood not as an is
 
 ## Mythological Echoes
 
-The card evokes every myth of the founded house and the sacred lineage, the patriarchs of Genesis blessing their heirs, the ancestral shrines of Roman and Chinese households where the dead remained members of the family, the Norse conviction that a person lived on through their kin and reputation. The Tree of Life belongs to [Kabbalah](/knowledge/spirituality/kabbalah), where the ten pentacles trace the sephiroth, the divine emanations by which spirit descends into the fullness of manifest, generational world.
+The card evokes every myth of the founded house and the sacred lineage, the patriarchs of Genesis blessing their heirs, the ancestral shrines of Roman and Chinese households where the dead remained members of the family, the Norse conviction that a person lived on through their kin and reputation. The Tree of Life belongs to [Kabbalah](/knowledge/spirituality/kabbalah),[^sn-kabbalah] where the ten pentacles trace the sephiroth, the divine emanations by which spirit descends into the fullness of manifest, generational world.
 
 ## In Practice
 
@@ -47,3 +47,5 @@ When this card appears, look beyond your own lifespan to what you are building a
 - [The World](/knowledge/tarot/major-arcana/the-world)
 - [Tarot](/knowledge/tarot)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
+
+[^sn-kabbalah]: Kabbalah is the mystical heart of Judaism, a centuries-old tradition of esoteric interpretation that maps the structure of reality, consciousness, and the divine.

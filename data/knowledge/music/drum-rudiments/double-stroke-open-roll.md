@@ -23,7 +23,7 @@ There are two schools: the primary-stroke approach, where each note of the doubl
 
 ## In Practice
 
-The double stroke open roll underlies the entire family of measured rolls, the [Five Stroke Roll](/knowledge/music/drum-rudiments/five-stroke-roll), [Seven Stroke Roll](/knowledge/music/drum-rudiments/seven-stroke-roll), [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll) and beyond, and appears constantly in marching, orchestral, jazz, and kit playing wherever a sustained snare sound is called for. Mastering it unlocks the rest of the list.
+The double stroke open roll underlies the entire family of measured rolls, the [Five Stroke Roll](/knowledge/music/drum-rudiments/five-stroke-roll), [Seven Stroke Roll](/knowledge/music/drum-rudiments/seven-stroke-roll),[^sn-seven-stroke-roll] [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll) and beyond, and appears constantly in marching, orchestral, jazz, and kit playing wherever a sustained snare sound is called for. Mastering it unlocks the rest of the list.
 
 ## Related
 
@@ -31,3 +31,5 @@ The double stroke open roll underlies the entire family of measured rolls, the [
 - [Seven Stroke Roll](/knowledge/music/drum-rudiments/seven-stroke-roll)
 - [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-seven-stroke-roll]: The seven stroke roll adds one diddle to the five stroke roll, stretching the sustained part slightly longer before it resolves onto its accent.

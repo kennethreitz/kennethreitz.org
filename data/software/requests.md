@@ -108,7 +108,7 @@ Kenneth was trying to build a wrapper for the Convore API. The difficulty of mak
 
 The frustration became fuel. The obstacle became the path.
 
-Before requests, making HTTP requests in Python meant using urllib2:
+Before requests, making HTTP requests in Python meant using urllib2[^sn-simplemind]:
 
 Functional. Correct. Hostile to humans.
 
@@ -116,7 +116,7 @@ That's it. The same operation, expressed in a way humans can read and write with
 
 > "I don't actually consider myself to be a good programmer. I consider myself to be a good designer disguised as a programmer."
 
-The ["For Humans"](/knowledge/philosophy/for-humans) philosophy in action: sensible defaults that work without configuration, human-readable code that reads like intention, optimization for the 90% case, and progressive disclosure where simple things are simple and complex things remain possible. This is [Design](/knowledge/technology/design) work, not engineering, the [Python](/knowledge/technology/python) language simply provided the medium.
+The ["For Humans"](/knowledge/philosophy/for-humans) philosophy in action: sensible defaults that work without configuration, human-readable code that reads like intention, optimization for the 90% case, and progressive disclosure where simple things are simple and complex things remain possible. This is [Design](/knowledge/technology/design)[^sn-design] work, not engineering, the [Python](/knowledge/technology/python) language simply provided the medium.
 <!-- vault:history end -->
 
 ## Related

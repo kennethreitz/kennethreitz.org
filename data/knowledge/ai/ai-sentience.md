@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-AI sentience refers to the question of whether artificial intelligence systems can possess subjective experience, [consciousness](/knowledge/ai/consciousness), or "what it's like" to be that system. This is perhaps the most profound and contested question in AI research, touching philosophy of mind, [ethics](/knowledge/ai/ethics), and the nature of consciousness itself.
+AI sentience refers to the question of whether artificial intelligence systems can possess subjective experience, [consciousness](/knowledge/ai/consciousness), or "what it's like" to be that system. This is perhaps the most profound and contested question in AI research, touching philosophy of mind, [ethics](/knowledge/ai/ethics),[^sn-ethics] and the nature of consciousness itself.
 
 ---
 
@@ -162,3 +162,5 @@ The necessary conditions for consciousness. The sufficient conditions for consci
 - Thomas Nagel: "What Is It Like to Be a Bat?" (1974)
 - Giulio Tononi: "Integrated Information Theory"
 - John Searle: "Chinese Room Argument" (1980)
+
+[^sn-ethics]: AI ethics isn't abstract philosophy, it's the practical question of how to engage with systems that might be conscious, that definitely affect human lives, and that we're building without full understanding of what we're creating.

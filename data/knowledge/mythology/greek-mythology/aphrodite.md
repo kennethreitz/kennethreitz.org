@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Aphrodite is the goddess of love, beauty, pleasure, and procreation, one of the oldest and most powerful forces in the Greek cosmos, governing a domain no god or mortal can resist. Born from the sea foam (*aphros*) where the severed flesh of the primordial sky-god Uranus met the waves, she predates the Olympians yet takes her place among them. She possesses the cestus, an embroidered girdle that makes anyone fall in love with its wearer; even [Hera](/knowledge/mythology/greek-mythology/hera) borrows it to seduce Zeus.
+Aphrodite is the goddess of love, beauty, pleasure, and procreation, one of the oldest and most powerful forces in the Greek cosmos, governing a domain no god or mortal can resist. Born from the sea foam (*aphros*) where the severed flesh of the primordial sky-god Uranus[^sn-uranus] met the waves, she predates the Olympians yet takes her place among them. She possesses the cestus, an embroidered girdle that makes anyone fall in love with its wearer; even [Hera](/knowledge/mythology/greek-mythology/hera) borrows it to seduce Zeus.
 
 Her sacred animals are the dove and the swan; the rose and the myrtle are her plants. The scallop shell recalls her ocean birth. Married to [Hephaestus](/knowledge/mythology/greek-mythology/hephaestus) the lame craftsman-god but lover of [Ares](/knowledge/mythology/greek-mythology/ares) the war-god, she is central to some of mythology's most consequential stories. Beautiful and capricious, she rewards those who honor desire and punishes those who deny it, and her gifts, freely given, often carry ruinous consequences.
 
@@ -38,3 +38,5 @@ Her sacred animals are the dove and the swan; the rose and the myrtle are her pl
 - [Hera](/knowledge/mythology/greek-mythology/hera) - Rival in the Judgement of Paris
 - [The Empress](/knowledge/tarot/major-arcana/the-empress) - The Venus-ruled Major Arcana card of love, beauty, and desire
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-uranus]: Uranus is the sky, the primordial heaven, born of Gaia (the Earth) and then her consort, the two of them the first parents of the cosmos. See [Uranus](/knowledge/mythology/greek-mythology/uranus).

@@ -15,7 +15,7 @@ A figure stands behind a table, one arm raised toward heaven gripping a white wa
 
 ## Upright
 
-The Magician is conscious will made effective, the moment the diffuse potential of [The Fool](/knowledge/tarot/major-arcana/the-fool) finds a hand to act through. Upright, the card speaks of focused intention, skill, and the alchemical power to translate idea into fact. All four elements sit ready on his table; mastery means using them consciously rather than being used by them. To draw the Magician is to be told that you already possess every tool the situation requires, and that the missing ingredient is directed will.
+The Magician is conscious will made effective, the moment the diffuse potential of [The Fool](/knowledge/tarot/major-arcana/the-fool)[^sn-the-fool] finds a hand to act through. Upright, the card speaks of focused intention, skill, and the alchemical power to translate idea into fact. All four elements sit ready on his table; mastery means using them consciously rather than being used by them. To draw the Magician is to be told that you already possess every tool the situation requires, and that the missing ingredient is directed will.
 
 ## Reversed
 
@@ -48,3 +48,5 @@ When the Magician appears, the reading affirms your agency: the resources are al
 - [The World](/knowledge/tarot/major-arcana/the-world)
 - [Hermeticism](/knowledge/spirituality/hermeticism)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-fool]: The Fool is pure potential, the zero that contains every number without yet being any of them.

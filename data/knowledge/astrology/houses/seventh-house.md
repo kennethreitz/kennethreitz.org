@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 The Seventh House is the house of the other, the first house of the chart to look outward and find someone standing there. It governs partnership in its committed forms: marriage, the business alliance, the contract that binds two into a shared enterprise. Wherever a life joins deliberately with another, the Seventh presides. Yet its meaning is subtler than romance, for it also rules open enemies, the declared adversaries who oppose us face to face, and these too are a kind of partner, the person across the table, whether beloved or rival, who defines you by contrast.
 
-At its deepest, this is the house of projection and reflection. The qualities we cannot see in ourselves we tend to find in others, drawn magnetically toward what we lack and repelled by what we deny, and the Seventh is the mirror in which all of this plays out. It asks what you seek in a partner and what that seeking reveals about you. To meet the other honestly here is to meet a disowned part of the self, returned in human form. Ruled by Venus, it seeks balance, harmony, and the difficult art of remaining oneself while truly joined to another.
+At its deepest, this is the house of projection and reflection. The qualities we cannot see in ourselves we tend to find in others, drawn magnetically toward what we lack and repelled by what we deny, and the Seventh is the mirror in which all of this plays out. It asks what you seek in a partner and what that seeking reveals about you. To meet the other honestly here is to meet a disowned part of the self, returned in human form. Ruled by Venus,[^sn-venus-astrology] it seeks balance, harmony, and the difficult art of remaining oneself while truly joined to another.
 
 ## Correspondences
 
@@ -33,3 +33,5 @@ The Seventh House is angular, one of the four cardinal points, and its cusp is t
 
 - [Libra](/knowledge/astrology/signs/libra) and its ruling planet [Venus](/knowledge/astrology/planets/venus-astrology)
 - [Astrology](/knowledge/astrology)
+
+[^sn-venus-astrology]: Venus is the taste of the soul, the quiet arbiter that decides what is beautiful and what is merely there. [Venus (astrology)](/knowledge/astrology/planets/venus-astrology) has the rest.

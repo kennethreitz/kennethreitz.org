@@ -42,7 +42,7 @@ Evangelicalism and fundamentalism are cousins, often confused. Fundamentalism ar
 
 ## Where It Sits
 
-Evangelicalism is not a denomination but a current that runs through many, and it draws on the deep Protestant instincts named in [The Five Solas](/knowledge/spirituality/protestantism/the-five-solas), sola scriptura above all, in its exalted view of the Bible. It shares with [Calvinism](/knowledge/spirituality/calvinism) a stress on grace and conversion, and indeed a large "New Calvinist" wing is evangelical to the core, even as much of the movement is Arminian or Wesleyan in its theology of the will. Its deep reverence for the biblical text is the same instinct that animates the vault's KJV Study corpus.
+Evangelicalism is not a denomination but a current that runs through many, and it draws on the deep Protestant instincts named in [The Five Solas](/knowledge/spirituality/protestantism/the-five-solas), sola scriptura above all, in its exalted view of the Bible. It shares with [Calvinism](/knowledge/spirituality/calvinism)[^sn-calvinism] a stress on grace and conversion, and indeed a large "New Calvinist" wing is evangelical to the core, even as much of the movement is Arminian or Wesleyan in its theology of the will. Its deep reverence for the biblical text is the same instinct that animates the vault's KJV Study corpus.
 
 ---
 
@@ -55,3 +55,5 @@ Evangelicalism is not a denomination but a current that runs through many, and i
 - [Calvinism](/knowledge/spirituality/calvinism): The Reformed and New Calvinist strand
 - [Christianity](/knowledge/religions-of-the-world/christianity): The wider faith
 - KJV Study: The evangelical reverence for scripture
+
+[^sn-calvinism]: Calvinism is the theological system developed by John Calvin (1509-1564) and later systematized by his followers.

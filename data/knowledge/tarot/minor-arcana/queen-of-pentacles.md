@@ -30,11 +30,11 @@ Reversed, the nurture loses its balance. The card can show self-neglect, a perso
 
 ## Archetype
 
-The Queen of Pentacles is the Great Mother in her benevolent, fertile aspect, the nurturing ground of being that Jung saw at the root of the maternal archetype. She is the psyche's capacity to hold and nourish, to make the inner and outer world safe enough for growth. Her garden is a mandala of the tended soul, her care the earthed expression of the anima's love. She embodies the sacredness of matter, the same root as mater, mother, and reminds us that spiritual maturity includes the humble, bodily work of feeding and holding, a nurturing sovereignty kin to [The Empress](/knowledge/tarot/major-arcana/the-empress).
+The Queen of Pentacles is the Great Mother in her benevolent, fertile aspect, the nurturing ground of being that Jung saw at the root of the maternal archetype. She is the psyche's capacity to hold and nourish, to make the inner and outer world safe enough for growth. Her garden is a mandala of the tended soul, her care the earthed expression of the anima's love. She embodies the sacredness of matter, the same root as mater, mother, and reminds us that spiritual maturity includes the humble, bodily work of feeding and holding, a nurturing sovereignty kin to [The Empress](/knowledge/tarot/major-arcana/the-empress).[^sn-the-empress]
 
 ## Mythological Echoes
 
-She is [Demeter](/knowledge/mythology/greek-mythology/demeter) in her fullness, the grain-mother whose love makes the fields bear, and Gaia, the living earth herself. She echoes Pomona of the orchards, the many-breasted Artemis of Ephesus, and the countless mother-goddesses across cultures whose abundance sustains the world. In her nurturing sovereignty she carries the ancient conviction that the earth is not dead matter but a generous, sentient mother, feeding all who are willing to be fed.
+She is [Demeter](/knowledge/mythology/greek-mythology/demeter)[^sn-demeter] in her fullness, the grain-mother whose love makes the fields bear, and Gaia, the living earth herself. She echoes Pomona of the orchards, the many-breasted Artemis of Ephesus, and the countless mother-goddesses across cultures whose abundance sustains the world. In her nurturing sovereignty she carries the ancient conviction that the earth is not dead matter but a generous, sentient mother, feeding all who are willing to be fed.
 
 ## In Practice
 
@@ -49,3 +49,7 @@ When this card appears, ground your love in practical care, and make sure some o
 - [The Empress](/knowledge/tarot/major-arcana/the-empress)
 - [Tarot](/knowledge/tarot)
 - [Demeter](/knowledge/mythology/greek-mythology/demeter)
+
+[^sn-demeter]: Demeter is the goddess of the harvest, agriculture, nature, and the seasons.
+
+[^sn-the-empress]: The Empress is the Great Mother in her nurturing aspect, the archetype of generativity that Jung saw as one of the deepest structures of the psyche.

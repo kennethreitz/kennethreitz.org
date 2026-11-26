@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Mars is the principle of drive, the raw will to act, to want, to assert oneself against the resistance of the world. It governs desire in its most direct form: appetite, aggression, courage, the heat that turns intention into motion. Where Venus draws things together, Mars cuts them apart, and both are necessary. Mars is the muscle of the self, the capacity to say *no*, to fight for what matters, to survive.
 
-Like the war-god [Ares](/knowledge/mythology/greek-mythology/ares), Mars can be brutal when it forgets its purpose, but at its truest it is not cruelty, it is the honest force of a being that intends to live fully. It rules Aries, where its fire is pure initiative, and in the older tradition Scorpio, where the same drive runs deep and strategic. Mars asks whether a person can want without apology and act without waiting for permission. It is the courage to begin, and the endurance to see a conflict through.
+Like the war-god [Ares](/knowledge/mythology/greek-mythology/ares), Mars can be brutal when it forgets its purpose, but at its truest it is not cruelty, it is the honest force of a being that intends to live fully. It rules Aries, where its fire is pure initiative, and in the older tradition Scorpio,[^sn-scorpio] where the same drive runs deep and strategic. Mars asks whether a person can want without apology and act without waiting for permission. It is the courage to begin, and the endurance to see a conflict through.
 
 ## Correspondences
 
@@ -37,3 +37,5 @@ A strong Mars gives courage, initiative, and healthy self-assertion, the person 
 - [Ares](/knowledge/mythology/greek-mythology/ares)
 - [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-scorpio]: Scorpio governs the deep autumn, the weeks when the leaves fall and the year begins its descent toward the dark, and it carries that season’s honesty about death and transformation. See [Scorpio](/knowledge/astrology/signs/scorpio).

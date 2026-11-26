@@ -30,7 +30,7 @@ The minor seventh is understated and cool. It carries the introspection of a min
 
 ## In Practice
 
-The minor seventh is the workhorse of jazz harmony, the ii and vi chords that make the classic ii–V–I progression turn. It anchors soul, R&B, funk, and neo-soul, where its smooth voicing sits perfectly under a vocal. As the ii it sets up the dominant; as the vi it offers a gentle detour from the tonic. It is the [Minor Triad](/knowledge/music/chords-and-progressions/chords/minor-triad) extended, and the natural partner to the [Dominant Seventh](/knowledge/music/chords-and-progressions/chords/dominant-seventh) in a turnaround.
+The minor seventh is the workhorse of jazz harmony, the ii and vi chords that make the classic ii–V–I progression turn. It anchors soul, R&B, funk, and neo-soul, where its smooth voicing sits perfectly under a vocal. As the ii it sets up the dominant; as the vi it offers a gentle detour from the tonic. It is the [Minor Triad](/knowledge/music/chords-and-progressions/chords/minor-triad) extended, and the natural partner to the [Dominant Seventh](/knowledge/music/chords-and-progressions/chords/dominant-seventh)[^sn-dominant-seventh] in a turnaround.
 
 ## Related
 
@@ -39,3 +39,5 @@ The minor seventh is the workhorse of jazz harmony, the ii and vi chords that ma
 - [Half-Diminished Seventh](/knowledge/music/chords-and-progressions/chords/half-diminished-seventh)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
+
+[^sn-dominant-seventh]: The dominant seventh is a major triad with a minor seventh stacked on top, a major third, a minor third, then another minor third.

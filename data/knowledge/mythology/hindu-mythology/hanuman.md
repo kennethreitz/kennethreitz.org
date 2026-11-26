@@ -44,7 +44,7 @@ Tuesdays and Saturdays are held sacred to him, and the recitation of the Hanuman
 
 ## Archetypal Significance
 
-Hanuman is the archetype of strength made humble through love, power in perfect service, courage rooted in devotion. He corresponds to [Strength](/knowledge/tarot/major-arcana/strength) in the tarot: not the domination of force but its gentle mastery, the might that bows willingly to a higher purpose. Psychologically he represents the integration of great capability with selflessness, the surrender of ego that transforms raw power into grace, and the loyal heart that finds its greatest strength precisely in giving itself away.
+Hanuman is the archetype of strength made humble through love, power in perfect service, courage rooted in devotion. He corresponds to [Strength](/knowledge/tarot/major-arcana/strength)[^sn-strength] in the tarot: not the domination of force but its gentle mastery, the might that bows willingly to a higher purpose. Psychologically he represents the integration of great capability with selflessness, the surrender of ego that transforms raw power into grace, and the loyal heart that finds its greatest strength precisely in giving itself away.
 
 ---
 
@@ -56,3 +56,5 @@ Hanuman is the archetype of strength made humble through love, power in perfect 
 - [Tarot](/knowledge/tarot) - The symbolic system his archetype maps to
 - [Mythology](/knowledge/mythology) - The wider field of myth
 - [Hindu Mythology Index](/knowledge/mythology/hindu-mythology)
+
+[^sn-strength]: Strength is fortitude of the quiet kind, courage, patience, and the gentle command of one’s own animal nature.

@@ -35,7 +35,7 @@ Saturn brings the sorrow that instructs. In the Jungian frame this is the descen
 
 ## Mythological Echoes
 
-The image is the Mater Dolorosa, the sorrowful mother whose heart is pierced by swords of prophecy, an icon of grief that Christian devotion made explicit with seven blades. It is Isis grieving the scattered body of Osiris, Ishtar descending to the underworld for a lost love, [Demeter](/knowledge/mythology/greek-mythology/demeter) wandering the earth in mourning for her stolen daughter while the crops die. Every culture keeps such a figure, the necessary griever whose sorrow, honestly borne, becomes the seed of renewal.
+The image is the Mater Dolorosa, the sorrowful mother whose heart is pierced by swords of prophecy, an icon of grief that Christian devotion made explicit with seven blades. It is Isis grieving the scattered body of Osiris, Ishtar descending to the underworld for a lost love, [Demeter](/knowledge/mythology/greek-mythology/demeter)[^sn-demeter] wandering the earth in mourning for her stolen daughter while the crops die. Every culture keeps such a figure, the necessary griever whose sorrow, honestly borne, becomes the seed of renewal.
 
 ## In Practice
 
@@ -50,3 +50,5 @@ When the Three of Swords appears, resist the urge to explain the pain away. Let 
 - [Five of Cups](/knowledge/tarot/minor-arcana/five-of-cups)
 - [Tarot](/knowledge/tarot)
 - [The Shadow](/knowledge/psychology/jungian/the-shadow)
+
+[^sn-demeter]: Demeter is the goddess of the harvest, agriculture, nature, and the seasons.

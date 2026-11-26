@@ -53,7 +53,7 @@ flowchart LR
 
 ## Related
 
-- [Tarot](/knowledge/tarot)
-- [Minor Arcana](/knowledge/tarot/minor-arcana)
+- [Tarot](/knowledge/tarot): the whole deck
+- [Minor Arcana](/knowledge/tarot/minor-arcana): the fifty-six suit cards
 - [Individuation](/knowledge/psychology/jungian/individuation), the Fool's Journey as the path to wholeness
 - [Kabbalah](/knowledge/spirituality/kabbalah), the trumps map to the 22 paths on the Tree of Life

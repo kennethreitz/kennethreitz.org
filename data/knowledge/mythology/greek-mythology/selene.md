@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Selene is the Titan goddess of the moon itself, not a symbol of it but the thing in the sky. Daughter of the Titans Hyperion and Theia, she is sister to [Helios](/knowledge/mythology/greek-mythology/helios) the sun and to Eos the dawn, the three of them the great lights of the day and night. Each evening she rises as her brother sets, driving a silver chariot drawn by pale horses across the dark, a crescent crown on her brow and a trailing veil behind her. Where later Greeks folded lunar associations into [Artemis](/knowledge/mythology/greek-mythology/artemis), Selene remained the older, purer thing: the moon as a face, a body, a light that waxes and wanes.
+Selene is the Titan goddess of the moon itself, not a symbol of it but the thing in the sky. Daughter of the Titans Hyperion and Theia,[^sn-theia] she is sister to [Helios](/knowledge/mythology/greek-mythology/helios) the sun and to Eos the dawn, the three of them the great lights of the day and night. Each evening she rises as her brother sets, driving a silver chariot drawn by pale horses across the dark, a crescent crown on her brow and a trailing veil behind her. Where later Greeks folded lunar associations into [Artemis](/knowledge/mythology/greek-mythology/artemis), Selene remained the older, purer thing: the moon as a face, a body, a light that waxes and wanes.
 
 She is gentle and luminous, the softest of the sky-powers, but constant, pulling the tides of night after her without fail.
 
@@ -37,3 +37,5 @@ She is gentle and luminous, the softest of the sky-powers, but constant, pulling
 - [Tarot](/knowledge/tarot)
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-theia]: Theia is the Titaness of sight and of the shining light of the sky, the brightness of the clear upper air by which the eye sees and the gleam by which precious things shine. More in [Theia](/knowledge/mythology/greek-mythology/theia).

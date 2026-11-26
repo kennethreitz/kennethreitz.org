@@ -27,7 +27,7 @@ Ruled by Venus, six carries beauty, devotion, and the impulse to care. It is the
 
 ## Light & Shadow
 
-At its most beautiful, six is [The Lovers](/knowledge/tarot/major-arcana/the-lovers) beneath the angel's blessing, the union of hearts, the harmony of a home well kept, the devotion that heals what it touches. It gives us tenderness, loyalty, and the grace of service freely offered. Yet its shadow is love turned heavy: the martyr who gives until nothing remains and then resents the giving, the meddler who mistakes control for care, the perfectionist whose standards of harmony slowly crush the very people it means to cherish. Responsibility, over-claimed, becomes its own quiet tyranny.
+At its most beautiful, six is [The Lovers](/knowledge/tarot/major-arcana/the-lovers)[^sn-the-lovers] beneath the angel's blessing, the union of hearts, the harmony of a home well kept, the devotion that heals what it touches. It gives us tenderness, loyalty, and the grace of service freely offered. Yet its shadow is love turned heavy: the martyr who gives until nothing remains and then resents the giving, the meddler who mistakes control for care, the perfectionist whose standards of harmony slowly crush the very people it means to cherish. Responsibility, over-claimed, becomes its own quiet tyranny.
 
 ## Related
 
@@ -36,3 +36,5 @@ At its most beautiful, six is [The Lovers](/knowledge/tarot/major-arcana/the-lov
 - [Master Number 33](/knowledge/numerology/master-number-33)
 - [The Lovers](/knowledge/tarot/major-arcana/the-lovers)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-lovers]: The Lovers is union and the choice that makes union real. On its surface it is romance and partnership; beneath, it is the deeper alchemy of joining opposites into a whole, and the free, values-driven decision that seals such a joining.

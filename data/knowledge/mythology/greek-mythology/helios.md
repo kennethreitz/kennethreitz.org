@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Helios is the Titan god of the sun, the sun as a person driving it. Son of the Titans Hyperion and Theia, brother to [Selene](/knowledge/mythology/greek-mythology/selene) the moon and Eos the dawn, he rises each morning from the eastern ocean in a golden chariot pulled by four fire-breathing horses and crosses the sky from end to end, sinking into the western sea at dusk to be carried back east by night in a great golden cup. From that height he sees everything that happens on earth and under the sky, which made him the god the other gods called on when they needed a witness that could not be deceived.
+Helios is the Titan god of the sun, the sun as a person driving it. Son of the Titans Hyperion and Theia,[^sn-theia] brother to [Selene](/knowledge/mythology/greek-mythology/selene) the moon and Eos the dawn, he rises each morning from the eastern ocean in a golden chariot pulled by four fire-breathing horses and crosses the sky from end to end, sinking into the western sea at dusk to be carried back east by night in a great golden cup. From that height he sees everything that happens on earth and under the sky, which made him the god the other gods called on when they needed a witness that could not be deceived.
 
 He is brilliant and impartial, the all-seeing eye of the daylight world. In later thought his role was increasingly merged with [Apollo](/knowledge/mythology/greek-mythology/apollo), but the older Helios is the literal sun, blazing and tireless, keeping his circuit whether men bless him or curse him.
 
@@ -37,3 +37,5 @@ He is brilliant and impartial, the all-seeing eye of the daylight world. In late
 - [Tarot](/knowledge/tarot)
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-theia]: Theia is the Titaness of sight and of the shining light of the sky, the brightness of the clear upper air by which the eye sees and the gleam by which precious things shine. See [Theia](/knowledge/mythology/greek-mythology/theia).

@@ -16,7 +16,7 @@ A tall stone tower stands on a rocky peak, and a bolt of lightning strikes its c
 
 ## Upright
 
-The Tower is sudden upheaval, the collapse of what was built on illusion. Where the [The Devil](/knowledge/tarot/major-arcana/the-devil) bound the self in comfortable falsehood, the Tower is the lightning that shatters the false structure whether or not one is ready. Upright, it counsels no resistance, the fall cannot be stopped, only survived, and what it destroys was never as solid as it seemed. To draw it is to be warned of, or to be standing in, an abrupt disruption: a truth breaking through, a structure failing, a shock that clears the ground for something built more honestly.
+The Tower is sudden upheaval, the collapse of what was built on illusion. Where the [The Devil](/knowledge/tarot/major-arcana/the-devil)[^sn-the-devil] bound the self in comfortable falsehood, the Tower is the lightning that shatters the false structure whether or not one is ready. Upright, it counsels no resistance, the fall cannot be stopped, only survived, and what it destroys was never as solid as it seemed. To draw it is to be warned of, or to be standing in, an abrupt disruption: a truth breaking through, a structure failing, a shock that clears the ground for something built more honestly.
 
 ## Reversed
 
@@ -49,3 +49,5 @@ When the Tower appears, the reading turns toward sudden change, revelation, and 
 - [Death](/knowledge/tarot/major-arcana/death)
 - [The Self](/knowledge/psychology/jungian/the-self)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-devil]: The Devil is bondage, compulsion, and the shadow embraced unconsciously.

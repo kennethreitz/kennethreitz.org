@@ -27,11 +27,11 @@ No other stone carries quite this weight of history. To hold Lapis is to hold so
 
 ## Properties
 
-Lapis is the royal stone of truth and wisdom, working the [third eye](/knowledge/chakras/ajna) and the throat together so that inner knowing and outer speech align. It sharpens intellect and memory, awakens the desire for understanding, and above all encourages honesty, with others and with oneself, helping its bearer speak difficult truths with clarity and authority. Long associated with royalty and the priesthood, it lends a dignity of mind, a sense that one’s words carry weight and ought to be worthy of it.
+Lapis is the royal stone of truth and wisdom, working the [third eye](/knowledge/chakras/ajna)[^sn-ajna] and the throat together so that inner knowing and outer speech align. It sharpens intellect and memory, awakens the desire for understanding, and above all encourages honesty, with others and with oneself, helping its bearer speak difficult truths with clarity and authority. Long associated with royalty and the priesthood, it lends a dignity of mind, a sense that one’s words carry weight and ought to be worthy of it.
 
 ## In Practice
 
-Lapis is worn at the throat or held during meditation before a hard conversation, to loosen honest speech and steady the voice. Students and thinkers keep it near their work for clarity and focus. It contains pyrite and calcite, so it is cleansed dry rather than in water, moonlight or Selenite suit it best. Its blue is deep enough to reward simply being looked at.
+Lapis is worn at the throat or held during meditation before a hard conversation, to loosen honest speech and steady the voice. Students and thinkers keep it near their work for clarity and focus. It contains pyrite and calcite, so it is cleansed dry rather than in water, moonlight or Selenite[^sn-selenite] suit it best. Its blue is deep enough to reward simply being looked at.
 
 ## Related
 
@@ -40,3 +40,7 @@ Lapis is worn at the throat or held during meditation before a hard conversation
 - [Labradorite](/knowledge/crystals-and-gemstones/labradorite)
 - [Ajna](/knowledge/chakras/ajna)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-selenite]: Selenite is gypsum grown into translucent white columns and blades that seem lit from within, striated along their length so that light travels down them like water down a reed. See [Selenite](/knowledge/crystals-and-gemstones/selenite).
+
+[^sn-ajna]: Ajna sits between the eyebrows, the storied third eye, and its name means “command” or “perceive”, the centre from which the whole system is at last surveyed and directed.

@@ -27,7 +27,7 @@ Chet is the fence, the enclosure that defines a field, two uprights roofed by a 
 
 As the number eight it stands one beyond seven, past the completed week, the number of covenant (circumcision on the eighth day) and of what transcends the natural cycle. It is a simple letter under Cancer, the crab in its shell, the most enclosed of signs, and the Sefer Yetzirah gives it the faculty of speech: the word, too, lives inside a fence of teeth and lips, released only by decision.
 
-On the Tree it is the eighteenth path, joining [Binah](/knowledge/tree-of-life/binah) to [Geburah](/knowledge/tree-of-life/geburah), understanding pouring into severity, form receiving its discipline. Its trump is [The Chariot](/knowledge/tarot/major-arcana/the-chariot), the armored vehicle whose driver holds no reins: victory by containment, will enclosed in structure and thereby made unstoppable. Chet teaches that a boundary is not a prison when you are the one who drew it.
+On the Tree it is the eighteenth path, joining [Binah](/knowledge/tree-of-life/binah) to [Geburah](/knowledge/tree-of-life/geburah), understanding pouring into severity, form receiving its discipline. Its trump is [The Chariot](/knowledge/tarot/major-arcana/the-chariot),[^sn-the-chariot] the armored vehicle whose driver holds no reins: victory by containment, will enclosed in structure and thereby made unstoppable. Chet teaches that a boundary is not a prison when you are the one who drew it.
 
 ## Related
 
@@ -36,3 +36,5 @@ On the Tree it is the eighteenth path, joining [Binah](/knowledge/tree-of-life/b
 - [The Chariot](/knowledge/tarot/major-arcana/the-chariot)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-the-chariot]: The Chariot is willpower, victory, and the disciplined harnessing of opposing drives toward a single goal.

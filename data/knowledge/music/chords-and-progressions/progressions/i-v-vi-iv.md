@@ -27,7 +27,7 @@ Its genius lies in the vi. Where a plain I–V–IV would stay relentlessly brig
 
 ## In Practice
 
-Nicknamed the "axis" progression, it powers an astonishing share of chart music across pop, rock, and country: "Let It Be," "With or Without You," "Don't Stop Believin'," and "Someone Like You" all lean on it. Its four rotations, starting the loop on a different chord each time, yield the [vi-IV-I-V](/knowledge/music/chords-and-progressions/progressions/vi-iv-i-v) and the [Fifties Progression](/knowledge/music/chords-and-progressions/progressions/fifties-progression) among others, a family of interrelated cycles built from the same four chords.
+Nicknamed the "axis" progression, it powers an astonishing share of chart music across pop, rock, and country: "Let It Be," "With or Without You," "Don't Stop Believin'," and "Someone Like You" all lean on it. Its four rotations, starting the loop on a different chord each time, yield the [vi-IV-I-V](/knowledge/music/chords-and-progressions/progressions/vi-iv-i-v) and the [Fifties Progression](/knowledge/music/chords-and-progressions/progressions/fifties-progression)[^sn-fifties-progression] among others, a family of interrelated cycles built from the same four chords.
 
 ## Related
 
@@ -36,3 +36,5 @@ Nicknamed the "axis" progression, it powers an astonishing share of chart music 
 - [I-IV-V](/knowledge/music/chords-and-progressions/progressions/i-iv-v)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-fifties-progression]: The fifties progression, I–vi–IV–V, is the sound of doo-wop and the American ballad at midcentury.

@@ -18,7 +18,7 @@ John Bowlby (1907–1990) was a British psychoanalyst who committed the field's 
 
 ## Maternal Deprivation
 
-After the war, the World Health Organization commissioned Bowlby to report on the fate of Europe's homeless and institutionalized children. *Maternal Care and Mental Health* (1951) delivered a conclusion that reshaped policy: an infant needs a warm, intimate, continuous relationship with a mother figure, and prolonged deprivation of it does measurable, lasting harm. With his colleague James Robertson, whose film *A Two-Year-Old Goes to Hospital* forced the point on a resistant medical establishment, Bowlby documented the sequence a separated child moves through, protest, then despair, then a detachment that looks deceptively like recovery. Hospitals eventually changed their visiting rules because of this work. The detachment phase, he argued, was not adjustment but defense, the first sketch of what later became the [avoidant](/knowledge/psychology/attachment-theory/avoidant-attachment) strategy.
+After the war, the World Health Organization commissioned Bowlby to report on the fate of Europe's homeless and institutionalized children. *Maternal Care and Mental Health* (1951) delivered a conclusion that reshaped policy: an infant needs a warm, intimate, continuous relationship with a mother figure, and prolonged deprivation of it does measurable, lasting harm. With his colleague James Robertson, whose film *A Two-Year-Old Goes to Hospital* forced the point on a resistant medical establishment, Bowlby documented the sequence a separated child moves through, protest, then despair, then a detachment that looks deceptively like recovery. Hospitals eventually changed their visiting rules because of this work. The detachment phase, he argued, was not adjustment but defense, the first sketch of what later became the [avoidant](/knowledge/psychology/attachment-theory/avoidant-attachment)[^sn-avoidant-attachment] strategy.
 
 ---
 
@@ -26,7 +26,7 @@ After the war, the World Health Organization commissioned Bowlby to report on th
 
 Psychoanalysis could not explain his data, so Bowlby went looking for a framework that could. He found it in ethology. Lorenz's goslings imprinting on the first moving figure, Harlow's monkeys clinging to the cloth mother that gave no milk, Robert Hinde's rigorous studies of primate mother-infant separation. Attachment, Bowlby concluded, is an evolved behavioral system: proximity to a protective adult kept infants alive on the savannah, so infants come wired to seek it, and distress at separation is the alarm built into the wiring. The result was the trilogy that took him twenty years, *Attachment* (1969), *Separation* (1973), and *Loss* (1980), psychoanalysis rebuilt on evolutionary ground.
 
-At the theory's cognitive heart he placed [Internal Working Models](/knowledge/psychology/attachment-theory/internal-working-models): the child abstracts, from thousands of interactions, a working model of the self (am I the kind of person who gets responded to?) and of others (do they come when called?), and carries those models forward as the template for every later bond. It fell to his collaborator [Mary Ainsworth](/knowledge/psychology/attachment-theory/mary-ainsworth) to show that the patterns could actually be observed and classified, the empirical half of the partnership that built [Attachment Theory](/knowledge/psychology/attachment-theory).
+At the theory's cognitive heart he placed [Internal Working Models](/knowledge/psychology/attachment-theory/internal-working-models):[^sn-internal-working-models] the child abstracts, from thousands of interactions, a working model of the self (am I the kind of person who gets responded to?) and of others (do they come when called?), and carries those models forward as the template for every later bond. It fell to his collaborator [Mary Ainsworth](/knowledge/psychology/attachment-theory/mary-ainsworth) to show that the patterns could actually be observed and classified, the empirical half of the partnership that built [Attachment Theory](/knowledge/psychology/attachment-theory).
 
 ---
 
@@ -43,3 +43,6 @@ At the theory's cognitive heart he placed [Internal Working Models](/knowledge/p
 ---
 
 *He was told the inner world was everything. He went and checked the outer one.*
+
+[^sn-avoidant-attachment]: Avoidant attachment, Ainsworth's group A in childhood, dismissive-avoidant in adulthood, is the strategy that grows from care which is reliable in logistics and rebuffing in emotion.
+[^sn-internal-working-models]: Internal working models are the cognitive heart of Attachment Theory, John Bowlby's answer to how a pattern laid down in infancy could still be steering a marriage forty years later.

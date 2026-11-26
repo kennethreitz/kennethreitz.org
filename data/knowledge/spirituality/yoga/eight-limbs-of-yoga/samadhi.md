@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Eighth Limb
 
-Samadhi is where the ladder ends, and where language begins to fail on schedule. Patanjali's definition (III.3): meditation becomes samadhi when the object alone shines forth, as if awareness were empty of its own form, *artha matra nirbhasam svarupa shunyam iva*. In [Dhyana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dhyana) a subtle watcher still attends the unbroken flow; in samadhi the watcher is gone. Not unconscious, the opposite. Awareness has become so completely the object that nothing is left over to stand apart and observe. The seer, the seeing, and the seen collapse into one event.
+Samadhi is where the ladder ends, and where language begins to fail on schedule. Patanjali's definition (III.3): meditation becomes samadhi when the object alone shines forth, as if awareness were empty of its own form, *artha matra nirbhasam svarupa shunyam iva*. In [Dhyana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dhyana)[^sn-dhyana] a subtle watcher still attends the unbroken flow; in samadhi the watcher is gone. Not unconscious, the opposite. Awareness has become so completely the object that nothing is left over to stand apart and observe. The seer, the seeing, and the seen collapse into one event.
 
 The word compounds *sam* (together), *a* (toward), and *dha* (to place): a placing-together, a complete collection. What has been collected is everything that was scattered, the whole system of attention gathered into a single point until the point opens.
 
@@ -25,7 +25,7 @@ Samadhi is not one state but a graded series, and the Sutras' first chapter maps
 
 ## Place in the Sequence
 
-Samadhi completes *samyama*, the inner triad begun in [Dharana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dharana) and deepened in [Dhyana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dhyana), three depths of one gathering. Every tradition that runs this experiment reports the summit in its own dialect: the jhanas and cessation of [Buddhism](/knowledge/religions-of-the-world/buddhism), the *nirvikalpa* realization of [Vedanta](/knowledge/spirituality/vedanta) where atman is known as Brahman, the unitive states catalogued by mystics East and West. Whether these are one summit or several is a live question in the study of [Meditation](/knowledge/spirituality/meditation) and consciousness. What the eight limbs assert is more modest and more radical: that the state is not a gift or an accident but the lawful result of a method, begin with [Yama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/yama), and the path leads here.
+Samadhi completes *samyama*, the inner triad begun in [Dharana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dharana) and deepened in [Dhyana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dhyana), three depths of one gathering. Every tradition that runs this experiment reports the summit in its own dialect: the jhanas and cessation of [Buddhism](/knowledge/religions-of-the-world/buddhism),[^sn-buddhism] the *nirvikalpa* realization of [Vedanta](/knowledge/spirituality/vedanta) where atman is known as Brahman, the unitive states catalogued by mystics East and West. Whether these are one summit or several is a live question in the study of [Meditation](/knowledge/spirituality/meditation) and consciousness. What the eight limbs assert is more modest and more radical: that the state is not a gift or an accident but the lawful result of a method, begin with [Yama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/yama), and the path leads here.
 
 ---
 
@@ -38,3 +38,7 @@ Samadhi completes *samyama*, the inner triad begun in [Dharana](/knowledge/spiri
 - [Vedanta](/knowledge/spirituality/vedanta), the realization in philosophical dress
 - [Buddhism](/knowledge/religions-of-the-world/buddhism), the parallel map of absorption
 - [Yoga](/knowledge/spirituality/yoga), the parent overview
+
+[^sn-buddhism]: Buddhism begins with a specific person and a specific problem.
+
+[^sn-dhyana]: Dhyana is what Dharana becomes when the effort falls away.

@@ -23,7 +23,7 @@ The longer the roll, the more evenness matters: keep all five diddles low, match
 
 ## In Practice
 
-The eleven stroke roll shows up in rudimental solos, marching literature, and orchestral passages calling for a longer measured roll. It follows the [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll) and [Ten Stroke Roll](/knowledge/music/drum-rudiments/ten-stroke-roll) and leads toward the [Thirteen Stroke Roll](/knowledge/music/drum-rudiments/thirteen-stroke-roll) as diddles accumulate.
+The eleven stroke roll shows up in rudimental solos, marching literature, and orchestral passages calling for a longer measured roll. It follows the [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll) and [Ten Stroke Roll](/knowledge/music/drum-rudiments/ten-stroke-roll) and leads toward the [Thirteen Stroke Roll](/knowledge/music/drum-rudiments/thirteen-stroke-roll)[^sn-thirteen-stroke-roll] as diddles accumulate.
 
 ## Related
 
@@ -31,3 +31,5 @@ The eleven stroke roll shows up in rudimental solos, marching literature, and or
 - [Ten Stroke Roll](/knowledge/music/drum-rudiments/ten-stroke-roll)
 - [Thirteen Stroke Roll](/knowledge/music/drum-rudiments/thirteen-stroke-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-thirteen-stroke-roll]: The thirteen stroke roll is a long measured roll, six double strokes rolling into a single accented tap.

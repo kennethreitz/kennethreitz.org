@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Buddhism begins with a specific person and a specific problem. Siddhartha Gautama was born a prince of the Shakya clan in the fifth or sixth century BCE, in what is now the Nepal-India borderlands. The tradition remembers his sheltered youth shattered by four sights, an old man, a sick man, a corpse, and a wandering ascetic, that confronted him with suffering and the possibility of a way through it. He abandoned palace and family, tried the era's severe asceticism nearly to death, rejected it for a middle way, and at around thirty-five sat beneath a tree at Bodh Gaya vowing not to rise until he understood. What he understood made him the Buddha, "the awakened one," and he spent the next forty-five years teaching it across the Ganges plain.
 
-He was one of many shramana teachers: wanderers who, like the founders of [Jainism](/knowledge/religions-of-the-world/jainism), stood outside the Vedic ritual order and contested [Hinduism](/knowledge/religions-of-the-world/hinduism)'s emerging orthodoxies. But his movement traveled as none of the others did. Emperor Ashoka's patronage in the third century BCE sent missionaries across Asia. Buddhism moved south to Sri Lanka and Southeast Asia, north along the Silk Road into China and then Korea and Japan, and over the Himalayas into Tibet, adapting profoundly to each culture while nearly vanishing from India itself by the medieval period. The twentieth century brought it West, where its meditative technology has been absorbed into psychology, medicine, and secular life to a degree no other tradition can claim.
+He was one of many shramana teachers: wanderers who, like the founders of [Jainism](/knowledge/religions-of-the-world/jainism),[^sn-jainism] stood outside the Vedic ritual order and contested [Hinduism](/knowledge/religions-of-the-world/hinduism)'s emerging orthodoxies. But his movement traveled as none of the others did. Emperor Ashoka's patronage in the third century BCE sent missionaries across Asia. Buddhism moved south to Sri Lanka and Southeast Asia, north along the Silk Road into China and then Korea and Japan, and over the Himalayas into Tibet, adapting profoundly to each culture while nearly vanishing from India itself by the medieval period. The twentieth century brought it West, where its meditative technology has been absorbed into psychology, medicine, and secular life to a degree no other tradition can claim.
 
 ---
 
@@ -24,13 +24,13 @@ The teaching's skeleton is the Four Noble Truths, framed like a medical consulta
 
 Beneath this sits Buddhism's most distinctive metaphysical move. Where [Vedanta](/knowledge/spirituality/vedanta) teaches that the deepest self, Atman, is identical with ultimate reality, the Buddha taught anatta, no-self. Look for the self and you find only five aggregates in flux: form, sensation, perception, mental formations, consciousness. Nothing in the stack is a permanent owner of experience. The self is real the way a river is real, a process, not a thing. This is the sharpest doctrinal line between Buddhism and its Hindu parent, though both traditions agree that misidentifying what you are is the root of bondage. Everything conditioned, the Buddha added, is impermanent (anicca), and things arise only in dependence on other things (dependent origination), nothing stands alone.
 
-[Karma](/knowledge/spirituality/karma) carries over from the shared Indian inheritance, but with a characteristic re-centering: the Buddha defined karma as intention. It is the volition behind an act, not ritual mechanics, that shapes future experience, an ethical psychology rather than a cosmic bookkeeping system.
+[Karma](/knowledge/spirituality/karma)[^sn-karma] carries over from the shared Indian inheritance, but with a characteristic re-centering: the Buddha defined karma as intention. It is the volition behind an act, not ritual mechanics, that shapes future experience, an ethical psychology rather than a cosmic bookkeeping system.
 
 ---
 
 ## Practices
 
-The tradition's practical heart is [Meditation](/knowledge/spirituality/meditation), developed with a precision no other religion matches. The two classical wings are samatha, calming the mind through sustained attention (often on the breath), and vipassana, insight, investigating experience closely enough to see impermanence and no-self directly rather than taking them on faith. Zen's seated zazen, Tibetan visualization and mantra, Pure Land recitation of Amitabha's name, and the modern mindfulness movement are all elaborations of this contemplative core.
+The tradition's practical heart is [Meditation](/knowledge/spirituality/meditation),[^sn-meditation] developed with a precision no other religion matches. The two classical wings are samatha, calming the mind through sustained attention (often on the breath), and vipassana, insight, investigating experience closely enough to see impermanence and no-self directly rather than taking them on faith. Zen's seated zazen, Tibetan visualization and mantra, Pure Land recitation of Amitabha's name, and the modern mindfulness movement are all elaborations of this contemplative core.
 
 Around meditation stands the wider architecture of Buddhist life: the five ethical precepts (refraining from killing, stealing, sexual misconduct, false speech, and intoxicants), generosity toward the monastic sangha, taking refuge in the Three Jewels. Buddha, Dharma, Sangha. The monastic community the Buddha founded is among the oldest continuously operating institutions on earth, and in most Buddhist cultures the exchange between monastics and laity structures the whole religion.
 
@@ -68,3 +68,8 @@ The pivotal Mahayana innovation is the bodhisattva: one who vows to attain awake
 ---
 
 *"All conditioned things are impermanent, when one sees this with wisdom, one turns away from suffering.". Dhammapada 277*
+
+[^sn-jainism]: Jainism is often dated from Mahavira, the "great hero" who lived in the fifth or sixth century BCE as an elder contemporary of the Buddha, but the tradition itself insists he was no founder.
+
+[^sn-karma]: Karma, in its original Sanskrit meaning, is simply action, and the recognition that every action has consequences that ripple outward, shaping the conditions of future experience.
+[^sn-meditation]: Meditation is the live version; the vault is the record.

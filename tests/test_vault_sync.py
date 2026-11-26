@@ -320,3 +320,24 @@ def test_check_fails_until_applied(tmp_path):
     vaultsync.apply_result(vaultsync.plan_sync(vault, **kwargs))
     _result, code = vaultsync.sync_all(vault, check=True, **kwargs)
     assert code == 0
+
+
+def test_untitled_notes_are_skipped(tmp_path):
+    vault, data = _vault(tmp_path)
+    kover, lover = _overrides(tmp_path, vault)
+    _note(vault / "Knowledge" / "untitled.md", "# fuckfuck2\n")
+    _note(
+        vault / "Knowledge" / "Crystals and Gemstones" / "untitled.md",
+        "# fuckfuck\n",
+    )
+    _note(vault / "Knowledge" / "Typography" / "Untitled 1.md", "# Scratch\n")
+    # An override must still not publish a scratch note.
+    _note(kover / "untitled.md", "# Should not publish\n")
+    result = _plan(vault, data, kover, lover)
+    assert not any(path.name.lower().startswith("untitled") for path in result.writes)
+    assert "fuckfuck" not in "\n".join(result.writes.values())
+    withheld = {rel for rel, _reason in result.withheld}
+    assert "untitled.md" in withheld
+    assert "Crystals and Gemstones/untitled.md" in withheld
+    assert "Typography/Untitled 1.md" in withheld
+    assert all(reason == "excluded" for rel, reason in result.withheld if "ntitled" in rel)

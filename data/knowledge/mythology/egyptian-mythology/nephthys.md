@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Nephthys is the goddess of the edges, of night, of grief, of the threshold between life and what comes after. Daughter of [Geb](/knowledge/mythology/egyptian-mythology/geb) and [Nut](/knowledge/mythology/egyptian-mythology/nut), sister and shadow to [Isis](/knowledge/mythology/egyptian-mythology/isis), she is the quieter of the two mourning sisters, the one who keeps vigil in the dark while her brighter sibling works her magic. Her name means something like “Lady of the House,” though the house she truly tends is the tomb. She was married to [Set](/knowledge/mythology/egyptian-mythology/set), the god of chaos, yet her loyalties ran to the murdered [Osiris](/knowledge/mythology/egyptian-mythology/osiris), and in that divided position, bound to disorder, devoted to order, she found her particular grace.
+Nephthys is the goddess of the edges, of night, of grief, of the threshold between life and what comes after. Daughter of [Geb](/knowledge/mythology/egyptian-mythology/geb) and [Nut](/knowledge/mythology/egyptian-mythology/nut), sister and shadow to [Isis](/knowledge/mythology/egyptian-mythology/isis), she is the quieter of the two mourning sisters, the one who keeps vigil in the dark while her brighter sibling works her magic. Her name means something like “Lady of the House,” though the house she truly tends is the tomb. She was married to [Set](/knowledge/mythology/egyptian-mythology/set), the god of chaos, yet her loyalties ran to the murdered [Osiris](/knowledge/mythology/egyptian-mythology/osiris),[^sn-osiris] and in that divided position, bound to disorder, devoted to order, she found her particular grace.
 
 She is rarely worshipped for her own power. Instead she is invoked for her presence: the one who stands at the head of the bier, wings outstretched, weeping the tears that make the grief bearable. Where Isis restores, Nephthys accompanies. She is the goddess you want beside you when nothing can be fixed and someone must simply stay.
 
@@ -35,3 +35,5 @@ She is rarely worshipped for her own power. Instead she is invoked for her prese
 - [Death](/knowledge/tarot/major-arcana/death): The card of the threshold she keeps watch over
 - [Egyptian Mythology Index](/knowledge/mythology/egyptian-mythology)
 - [Mythology](/knowledge/mythology)
+
+[^sn-osiris]: Osiris is the god of the dead and the lord of the afterlife, but he began as a king of the living, the first pharaoh, who taught humankind agriculture and law before his brother murdered him.

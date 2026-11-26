@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Mnemosyne is the Titaness of memory: her name is simply the Greek word for it, and she is memory understood not as a private faculty but as a cosmic power, the keeping of what has been against the forgetting that would erase it. Daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus), she is the ground of poetry and of all the arts that depend on remembrance; in an age before writing, when the whole inheritance of a people lived only in what could be recalled and recited, Memory was the mother of every song. To remember was to make the past present again, and Mnemosyne is the goddess of that resurrection.
+Mnemosyne is the Titaness of memory: her name is simply the Greek word for it, and she is memory understood not as a private faculty but as a cosmic power, the keeping of what has been against the forgetting that would erase it. Daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus),[^sn-uranus] she is the ground of poetry and of all the arts that depend on remembrance; in an age before writing, when the whole inheritance of a people lived only in what could be recalled and recited, Memory was the mother of every song. To remember was to make the past present again, and Mnemosyne is the goddess of that resurrection.
 
 She is best known as the mother of the nine Muses, whom she bore to [Zeus](/knowledge/mythology/greek-mythology/zeus) over nine nights, and through them she is the source of epic, history, music, dance, astronomy, and every inspired art. The poet who calls on the Muse is calling, behind her, on Mnemosyne herself, for the Muses give what their mother keeps. In the mystery cults she was a power of the afterlife too: a pool of Memory stood beside the water of Forgetting in the underworld, and the initiate who drank from hers rather than from Lethe kept the self intact beyond death. To remember, in her keeping, is to remain.
 
@@ -35,3 +35,5 @@ She is best known as the mother of the nine Muses, whom she bore to [Zeus](/know
 - [Uranus](/knowledge/mythology/greek-mythology/uranus): Her father, the sky
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-uranus]: Uranus is the sky, the primordial heaven, born of Gaia (the Earth) and then her consort, the two of them the first parents of the cosmos.

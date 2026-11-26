@@ -27,7 +27,7 @@ Its energy is paradoxical: ruled by Mars, it carries the warrior's fire, yet tur
 
 ## Light & Shadow
 
-At its most luminous, nine is [The Hermit](/knowledge/tarot/major-arcana/the-hermit) upon the mountaintop, lantern raised, the wisdom that, having climbed, turns to light the way for those still ascending. It gives us compassion without condition, the grace to forgive, and the strength to complete and release. Yet its shadow clings: the idealist embittered when the world falls short of the dream, the giver who becomes a martyr to a cause, the soul that cannot let the ending end. Completion refused curdles into grief; the closed circle must open to become the next.
+At its most luminous, nine is [The Hermit](/knowledge/tarot/major-arcana/the-hermit)[^sn-the-hermit] upon the mountaintop, lantern raised, the wisdom that, having climbed, turns to light the way for those still ascending. It gives us compassion without condition, the grace to forgive, and the strength to complete and release. Yet its shadow clings: the idealist embittered when the world falls short of the dream, the giver who becomes a martyr to a cause, the soul that cannot let the ending end. Completion refused curdles into grief; the closed circle must open to become the next.
 
 ## Related
 
@@ -35,3 +35,5 @@ At its most luminous, nine is [The Hermit](/knowledge/tarot/major-arcana/the-her
 - [Number 0](/knowledge/numerology/number-0)
 - [The Hermit](/knowledge/tarot/major-arcana/the-hermit)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-hermit]: The Hermit is solitude in service of wisdom, the deliberate retreat from noise to hear the inner voice.

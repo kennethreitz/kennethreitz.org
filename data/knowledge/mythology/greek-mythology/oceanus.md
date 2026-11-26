@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Overview
 
-Oceanus is the eldest of the Titans, children of [Gaia](/knowledge/mythology/greek-mythology/gaia) the earth and [Uranus](/knowledge/mythology/greek-mythology/uranus) the sky, and he is the great river Ocean itself, not a sea within the world but the vast freshwater stream that the Greeks believed ran round the whole disc of the earth, the boundary of the known and the source from which every other water flows. Rivers, springs, wells, rain, and the salt sea alike were held to rise from him. Homer calls him the origin of all the gods, and in the oldest cosmology he and his wife [Tethys](/knowledge/mythology/greek-mythology/tethys) are something close to the wellspring of the divine race. He was pictured as a mighty figure with the horns of a bull and a serpentine, fish-tailed lower body, forever pouring.
+Oceanus is the eldest of the Titans, children of [Gaia](/knowledge/mythology/greek-mythology/gaia)[^sn-gaia] the earth and [Uranus](/knowledge/mythology/greek-mythology/uranus) the sky, and he is the great river Ocean itself, not a sea within the world but the vast freshwater stream that the Greeks believed ran round the whole disc of the earth, the boundary of the known and the source from which every other water flows. Rivers, springs, wells, rain, and the salt sea alike were held to rise from him. Homer calls him the origin of all the gods, and in the oldest cosmology he and his wife [Tethys](/knowledge/mythology/greek-mythology/tethys) are something close to the wellspring of the divine race. He was pictured as a mighty figure with the horns of a bull and a serpentine, fish-tailed lower body, forever pouring.
 
-Of all the Titans he is the least warlike. When [Cronus](/knowledge/mythology/greek-mythology/cronus) rose against their father and later when [Zeus](/knowledge/mythology/greek-mythology/zeus) rose against Cronus, Oceanus is remembered as the one who held apart from the strife, the elder power who abides at the edge of things and simply keeps flowing while the succession of rulers plays out at the center. He is the constancy beneath the turnings of the world, the river that was there before the quarrels and will be there after.
+Of all the Titans he is the least warlike. When [Cronus](/knowledge/mythology/greek-mythology/cronus) rose against their father and later when [Zeus](/knowledge/mythology/greek-mythology/zeus) rose against Cronus,[^sn-cronus] Oceanus is remembered as the one who held apart from the strife, the elder power who abides at the edge of things and simply keeps flowing while the succession of rulers plays out at the center. He is the constancy beneath the turnings of the world, the river that was there before the quarrels and will be there after.
 
 ---
 
@@ -37,3 +37,7 @@ Of all the Titans he is the least warlike. When [Cronus](/knowledge/mythology/gr
 - [Prometheus](/knowledge/mythology/greek-mythology/prometheus): Whom he counselled after the Titanomachy
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-cronus]: Cronus is the youngest and boldest of the Titans, the son of Gaia and Uranus who overthrew his father and ruled the cosmos in the age before the Olympians, a span the Greeks remembered, paradoxically, as a Golden Age. See [Cronus](/knowledge/mythology/greek-mythology/cronus).
+
+[^sn-gaia]: Gaia is the Earth, not a goddess who rules the earth but the earth as a living, generative power, one of the first beings to emerge out of Chaos at the beginning of things.

@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Ra is the sun god and, for much of Egyptian history, the king of the gods, the source from which the world was spoken into being. In the great cosmogony of Heliopolis he rises out of the primordial waters of Nun as the first light, and from himself brings forth the first divine pair, from whom the sky, the earth, and every other god descend. He is not merely a god who governs the sun; he is the sun, a living presence whose daily journey is the pulse of creation itself.
 
-Each day Ra sails the sky in his solar barque, crossing from horizon to horizon, and each night he descends into the underworld to travel the twelve hours of darkness. There he must pass the serpent [Set](/knowledge/mythology/egyptian-mythology/set), or in the older telling, the chaos-serpent Apep, who waits to swallow the sun and end the world. That the dawn returns at all is a nightly victory, order wrested again from the dark. In this ceaseless voyage he is the archetype the tarot names [The Sun](/knowledge/tarot/major-arcana/the-sun): radiance, vitality, the light that makes life possible and asks nothing in return but that you turn toward it.
+Each day Ra sails the sky in his solar barque, crossing from horizon to horizon, and each night he descends into the underworld to travel the twelve hours of darkness. There he must pass the serpent [Set](/knowledge/mythology/egyptian-mythology/set), or in the older telling, the chaos-serpent Apep, who waits to swallow the sun and end the world. That the dawn returns at all is a nightly victory, order wrested again from the dark. In this ceaseless voyage he is the archetype the tarot names [The Sun](/knowledge/tarot/major-arcana/the-sun):[^sn-the-sun] radiance, vitality, the light that makes life possible and asks nothing in return but that you turn toward it.
 
 ---
 
@@ -34,3 +34,5 @@ Each day Ra sails the sky in his solar barque, crossing from horizon to horizon,
 - [Isis](/knowledge/mythology/egyptian-mythology/isis): Who won his secret name and a share of his power
 - [Tarot](/knowledge/tarot)
 - [Mythology](/knowledge/mythology)
+
+[^sn-the-sun]: The Sun is joy, clarity, and vitality, success made warm and life lived without concealment.

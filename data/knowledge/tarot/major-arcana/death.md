@@ -16,7 +16,7 @@ A skeleton in black armour rides a pale white horse across a field, carrying a b
 
 ## Upright
 
-Death is transformation through ending, the necessary clearing that makes new life possible. Almost never literal, it names the endings the psyche resists: the closing of a chapter, the death of an identity, the falling-away of what has finished its work. Where the [The Hanged Man](/knowledge/tarot/major-arcana/the-hanged-man) surrendered voluntarily, Death arrives as something no longer negotiable. Upright, it counsels acceptance of what must end, and trust in the rising sun beyond it. To draw it is to be told that a real ending has come, and that clinging will only prolong the pain of it.
+Death is transformation through ending, the necessary clearing that makes new life possible. Almost never literal, it names the endings the psyche resists: the closing of a chapter, the death of an identity, the falling-away of what has finished its work. Where the [The Hanged Man](/knowledge/tarot/major-arcana/the-hanged-man)[^sn-the-hanged-man] surrendered voluntarily, Death arrives as something no longer negotiable. Upright, it counsels acceptance of what must end, and trust in the rising sun beyond it. To draw it is to be told that a real ending has come, and that clinging will only prolong the pain of it.
 
 ## Reversed
 
@@ -36,7 +36,7 @@ Death is the great transformer, the archetype of psychic death and rebirth that 
 
 ## Mythological Echoes
 
-The card echoes the dying-and-rising gods across the world. Osiris dismembered and made whole, Persephone descending and returning, the grain that must fall into the earth to bear. It is the pale rider of apocalypse, but also the psychopomp who ferries souls across the river to the far shore. See [Hades](/knowledge/mythology/greek-mythology/hades), lord of the unseen, who is not death itself but the keeper of the realm to which death is the door.
+The card echoes the dying-and-rising gods across the world. Osiris dismembered and made whole, Persephone descending and returning, the grain that must fall into the earth to bear. It is the pale rider of apocalypse, but also the psychopomp who ferries souls across the river to the far shore. See [Hades](/knowledge/mythology/greek-mythology/hades),[^sn-hades] lord of the unseen, who is not death itself but the keeper of the realm to which death is the door.
 
 ## In Practice
 
@@ -49,3 +49,6 @@ When Death appears, the reading turns toward ending, release, and the transforma
 - [The Tower](/knowledge/tarot/major-arcana/the-tower)
 - [Hades](/knowledge/mythology/greek-mythology/hades)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-hanged-man]: The Hanged Man is surrender, reversal, and the wisdom that arrives only when striving stops.
+[^sn-hades]: Hades is the god of the underworld and the dead, eldest son of Cronus, brother to Zeus and Poseidon.

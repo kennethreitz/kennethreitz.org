@@ -30,7 +30,7 @@ The half-diminished seventh is one of the most emotionally specific chords in mu
 
 ## In Practice
 
-The half-diminished seventh is the ii chord of every minor key, the pivotal first step of the minor ii–V–i that defines so much of jazz. It sets up the dominant and pulls the ear toward a minor tonic with unmistakable gravity. Beyond jazz it colours film scores and Romantic harmony wherever a scene needs unresolved sorrow. It is the [Diminished Triad](/knowledge/music/chords-and-progressions/chords/diminished-triad) with a seventh, a shade brighter than the [Diminished Seventh](/knowledge/music/chords-and-progressions/chords/diminished-seventh).
+The half-diminished seventh is the ii chord of every minor key, the pivotal first step of the minor ii–V–i that defines so much of jazz. It sets up the dominant and pulls the ear toward a minor tonic with unmistakable gravity. Beyond jazz it colours film scores and Romantic harmony wherever a scene needs unresolved sorrow. It is the [Diminished Triad](/knowledge/music/chords-and-progressions/chords/diminished-triad) with a seventh, a shade brighter than the [Diminished Seventh](/knowledge/music/chords-and-progressions/chords/diminished-seventh).[^sn-diminished-seventh]
 
 ## Related
 
@@ -39,3 +39,5 @@ The half-diminished seventh is the ii chord of every minor key, the pivotal firs
 - [Minor Seventh](/knowledge/music/chords-and-progressions/chords/minor-seventh)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
+
+[^sn-diminished-seventh]: The diminished seventh is the most rigorously symmetrical chord in tonal music.

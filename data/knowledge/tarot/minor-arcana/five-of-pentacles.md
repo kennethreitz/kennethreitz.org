@@ -29,7 +29,7 @@ Reversed, the figures finally turn toward the light. The card inverted often mar
 
 ## Archetype
 
-This is the archetype of exile, the psyche cast into the wilderness and convinced it is alone there. Jung held that what we cannot integrate consciously we suffer as fate; the frozen sufferers embody a soul that has fallen out of relationship with its own ground and cannot yet perceive the grace behind it. The illuminated window is the [Self](/knowledge/psychology/jungian/the-self), present even in the dark night, waiting. Suffering here is not meaningless, it is the descent that precedes return, provided the sufferer can lift their eyes.
+This is the archetype of exile, the psyche cast into the wilderness and convinced it is alone there. Jung held that what we cannot integrate consciously we suffer as fate; the frozen sufferers embody a soul that has fallen out of relationship with its own ground and cannot yet perceive the grace behind it. The illuminated window is the [Self](/knowledge/psychology/jungian/the-self),[^sn-the-self] present even in the dark night, waiting. Suffering here is not meaningless, it is the descent that precedes return, provided the sufferer can lift their eyes.
 
 ## Mythological Echoes
 
@@ -47,3 +47,5 @@ When this card appears, ask whether you are so absorbed in the storm that you ca
 - [The Devil](/knowledge/tarot/major-arcana/the-devil)
 - [Tarot](/knowledge/tarot)
 - [The Shadow](/knowledge/psychology/jungian/the-shadow)
+
+[^sn-the-self]: The Self is both the starting point and the goal of development.

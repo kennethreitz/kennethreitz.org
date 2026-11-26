@@ -13,7 +13,7 @@ The unconscious isn't just a storage bin for forgotten memories. It's active, pu
 
 Freud's topographic model (conscious / preconscious / unconscious) was his first map of the psyche, laid out in *The Interpretation of Dreams* (1900). It ran into trouble: the ego's own defenses turned out to be unconscious too, so "unconscious" could no longer simply mean "repressed and forbidden." He therefore supplemented the topographic map with the structural model ([id, ego, superego](/knowledge/psychology/freudian/the-id-ego-and-superego)) in 1923, in which each agency has unconscious portions. He never abandoned the founding insight that consciousness is a thin film over a deep ocean; he only kept redrawing the coastline. Later critics complained the unconscious is by definition unfalsifiable, any evidence against it can be read as further repression, while neuroscience and cognitive psychology have vindicated at least the broad claim that most mental processing runs below awareness, even if not in Freud's precise terms.
 
-Jung expanded the concept with the [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious), a transpersonal layer beneath the personal unconscious. Where Freud's unconscious contains what *you* repressed, Jung's collective unconscious contains what the *species* inherited. Kenneth's AI work suggests a third layer: the [digital collective unconscious](/essays/2025-08-28-the-digital-collective-unconscious), where human patterns are compressed into model weights.
+Jung expanded the concept with the [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious)[^sn-collective-unconscious], a transpersonal layer beneath the personal unconscious. Where Freud's unconscious contains what *you* repressed, Jung's collective unconscious contains what the *species* inherited. Kenneth's AI work suggests a third layer: the [digital collective unconscious](/essays/2025-08-28-the-digital-collective-unconscious), where human patterns are compressed into model weights.
 
 ---
 
@@ -24,3 +24,5 @@ Jung expanded the concept with the [Collective Unconscious](/knowledge/psycholog
 - [Dream Work](/knowledge/psychology/freudian/dream-work): The royal road to the unconscious
 - [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious): Jung's expansion
 - [Major Freudian Concepts](/knowledge/psychology/freudian/major-freudian-concepts): Overview
+
+[^sn-collective-unconscious]: Jung's collective unconscious is the deepest layer of psyche, not personal but universal.

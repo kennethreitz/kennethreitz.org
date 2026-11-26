@@ -55,7 +55,7 @@ Hindu scripture divides into shruti ("heard": revealed) and smriti ("remembered"
 | Shaktism | The Goddess (Devi/Shakti, including [Kali](/knowledge/mythology/hindu-mythology/kali)) as ultimate power |
 | Smartism | Worship of five deities as equivalent forms; aligned with Advaita [Vedanta](/knowledge/spirituality/vedanta) |
 
-Philosophically, six classical schools (darshanas) developed, of which [Vedanta](/knowledge/spirituality/vedanta) became the most influential, itself split among Shankara's non-dualism, Ramanuja's qualified non-dualism, and Madhva's dualism. [Buddhism](/knowledge/religions-of-the-world/buddhism), [Jainism](/knowledge/religions-of-the-world/jainism), and [Sikhism](/knowledge/religions-of-the-world/sikhism) all arose on Indian soil in conversation with, and often in argument with, these Hindu frameworks, sharing the vocabulary of karma and liberation while contesting its grammar.
+Philosophically, six classical schools (darshanas) developed, of which [Vedanta](/knowledge/spirituality/vedanta) became the most influential, itself split among Shankara's non-dualism, Ramanuja's qualified non-dualism, and Madhva's dualism. [Buddhism](/knowledge/religions-of-the-world/buddhism),[^sn-buddhism] [Jainism](/knowledge/religions-of-the-world/jainism), and [Sikhism](/knowledge/religions-of-the-world/sikhism) all arose on Indian soil in conversation with, and often in argument with, these Hindu frameworks, sharing the vocabulary of karma and liberation while contesting its grammar.
 
 ---
 
@@ -76,3 +76,5 @@ Philosophically, six classical schools (darshanas) developed, of which [Vedanta]
 ---
 
 *"Truth is one; the wise call it by many names.". Rigveda 1.164.46*
+
+[^sn-buddhism]: Buddhism begins with a specific person and a specific problem.

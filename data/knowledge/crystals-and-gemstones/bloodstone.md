@@ -27,7 +27,7 @@ It is a grounding, serious stone with none of the sparkle of quartz, matte, dens
 
 ## Properties
 
-Bloodstone is the stone of courage and vitality. Long carried by soldiers and athletes, it was believed to staunch bleeding and steel the nerve, and it is still turned to for physical strength, endurance, and the bravery to face what must be faced. Ruled by Mars, it stirs the blood in the good sense, reviving energy and grounding it through the root, while its green heart-note keeps the courage warm rather than warlike. It is also a purifier, called on to cleanse the body and spirit of what is stagnant or toxic.
+Bloodstone is the stone of courage and vitality. Long carried by soldiers and athletes, it was believed to staunch bleeding and steel the nerve, and it is still turned to for physical strength, endurance, and the bravery to face what must be faced. Ruled by Mars,[^sn-mars-astrology] it stirs the blood in the good sense, reviving energy and grounding it through the root, while its green heart-note keeps the courage warm rather than warlike. It is also a purifier, called on to cleanse the body and spirit of what is stagnant or toxic.
 
 ## In Practice
 
@@ -41,3 +41,5 @@ Carried through trials of stamina or fear, a race, an operation, an ordeal that 
 - [Muladhara](/knowledge/chakras/muladhara)
 - [Anahata](/knowledge/chakras/anahata)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-mars-astrology]: Mars is the muscle of the self, the capacity to say *no*, to fight for what matters, to survive. The full note is [Mars (astrology)](/knowledge/astrology/planets/mars-astrology).

@@ -27,7 +27,7 @@ When he built [requests](/software/requests), he wasn't just wrapping urllib3 in
 
 ## The Work
 
-The Python Libraries tell the story. [requests](/software/requests) made HTTP human-readable, sixteen million machines use it daily, and most of them don't think about it, which is exactly the point. [pipenv](/software/pipenv) brought the same sensibility to package management. [simplemind](/software/simplemind) does it for AI interaction. [tablib](/software/tablib) for tabular data. [certifi](/software/certifi) for SSL certificates. [records](/software/records) for SQL. Each one follows the same pattern: find a place where developers are fighting the tool, remove the fight, make it feel natural.
+The Python Libraries tell the story. [requests](/software/requests) made HTTP human-readable, sixteen million machines use it daily, and most of them don't think about it, which is exactly the point. [pipenv](/software/pipenv)[^sn-pipenv] brought the same sensibility to package management. [simplemind](/software/simplemind) does it for AI interaction. [tablib](/software/tablib) for tabular data. [certifi](/software/certifi) for SSL certificates. [records](/software/records) for SQL. Each one follows the same pattern: find a place where developers are fighting the tool, remove the fight, make it feel natural.
 
 [pytheory](/software/pytheory) went somewhere unexpected: music theory as Python objects. Scales, chords, progressions expressed in code. And pytheory-opxy extended it to the Teenage Engineering OP-XY synthesizer. Kenneth was writing music in Python. The language had become expressive enough to hold not just his technical work but his creative work too.
 
@@ -74,3 +74,5 @@ Kenneth's relationship with Python has matured from creation to selective practi
 ---
 
 *"Python is how I think. Everything else is translation."*
+
+[^sn-pipenv]: pipenv raised the floor for what Python packaging should feel like.

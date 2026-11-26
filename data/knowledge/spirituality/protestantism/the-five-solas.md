@@ -42,7 +42,7 @@ Christ alone is the mediator between God and humanity, the sole priest, the sole
 
 ## Soli Deo Gloria: Glory to God Alone
 
-All glory belongs to God alone. This is the doxological seal on the other four: if salvation is by grace alone through faith alone in Christ alone on the authority of scripture alone, then no glory can be claimed by any human being, any saint, or any institution, the whole of it returns to God. Bach signed his manuscripts *SDG*; Calvinism made it the final purpose of all things, that God be glorified in mercy and in justice alike. Here Protestantism is not so much denying a Catholic doctrine as pressing an emphasis to its limit: the creature disappears so the Creator may be all.
+All glory belongs to God alone. This is the doxological seal on the other four: if salvation is by grace alone through faith alone in Christ alone on the authority of scripture alone, then no glory can be claimed by any human being, any saint, or any institution, the whole of it returns to God. Bach signed his manuscripts *SDG*; Calvinism[^sn-calvinism] made it the final purpose of all things, that God be glorified in mercy and in justice alike. Here Protestantism is not so much denying a Catholic doctrine as pressing an emphasis to its limit: the creature disappears so the Creator may be all.
 
 ---
 
@@ -55,3 +55,5 @@ All glory belongs to God alone. This is the doxological seal on the other four: 
 - [The Mass and the Eucharist](/knowledge/spirituality/catholicism/the-mass-and-the-eucharist): Where solus Christus divides sharpest
 - [Catholicism](/knowledge/spirituality/catholicism): The tradition the solas define against
 - KJV Study: Sola scriptura in practice
+
+[^sn-calvinism]: Calvinism is the theological system developed by John Calvin (1509-1564) and later systematized by his followers. Details in [Calvinism](/knowledge/spirituality/calvinism).

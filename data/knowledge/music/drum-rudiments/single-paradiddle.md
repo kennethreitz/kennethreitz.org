@@ -23,7 +23,7 @@ Play the accented first note as a full stroke, keep the two following notes low,
 
 ## In Practice
 
-The single paradiddle is everywhere: funk and rock grooves, linear fills, jazz comping, and any moment you want a smooth accent to travel across drums and cymbals. It is the root of the [Double Paradiddle](/knowledge/music/drum-rudiments/double-paradiddle), [Triple Paradiddle](/knowledge/music/drum-rudiments/triple-paradiddle), and [Single Paradiddle-Diddle](/knowledge/music/drum-rudiments/single-paradiddle-diddle).
+The single paradiddle is everywhere: funk and rock grooves, linear fills, jazz comping, and any moment you want a smooth accent to travel across drums and cymbals. It is the root of the [Double Paradiddle](/knowledge/music/drum-rudiments/double-paradiddle),[^sn-double-paradiddle] [Triple Paradiddle](/knowledge/music/drum-rudiments/triple-paradiddle), and [Single Paradiddle-Diddle](/knowledge/music/drum-rudiments/single-paradiddle-diddle).
 
 ## Related
 
@@ -31,3 +31,5 @@ The single paradiddle is everywhere: funk and rock grooves, linear fills, jazz c
 - [Triple Paradiddle](/knowledge/music/drum-rudiments/triple-paradiddle)
 - [Single Paradiddle-Diddle](/knowledge/music/drum-rudiments/single-paradiddle-diddle)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-double-paradiddle]: The double paradiddle expands the single paradiddle by adding one more pair of alternating singles before the diddle.

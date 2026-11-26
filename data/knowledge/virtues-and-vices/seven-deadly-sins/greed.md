@@ -24,7 +24,7 @@ Dante's fifth terrace holds the avaricious, and, in the same penance, the prodig
 
 ## The Remedy
 
-The counter-practice is [Charity](/knowledge/virtues-and-vices/virtues/charity), the open hand as discipline. Giving is the one act avarice cannot metabolize, because it treats the future as trustworthy and the neighbor as kin rather than competitor. The tradition prescribed almsgiving less for the receiver's sake than for the giver's release.
+The counter-practice is [Charity](/knowledge/virtues-and-vices/virtues/charity)[^sn-charity], the open hand as discipline. Giving is the one act avarice cannot metabolize, because it treats the future as trustworthy and the neighbor as kin rather than competitor. The tradition prescribed almsgiving less for the receiver's sake than for the giver's release.
 
 ## The Enneagram Passion
 
@@ -43,3 +43,5 @@ In the [Enneagram](/knowledge/enneagram), avarice is the passion of [Type 5](/kn
 ---
 
 *Face-down in the dust, the hoarders finally hold everything they loved.*
+
+[^sn-charity]: Charity is the only virtue that sits on two lists at once, and the tradition took the doubling as the point.

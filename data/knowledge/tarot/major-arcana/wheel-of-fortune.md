@@ -16,7 +16,7 @@ A great wheel hangs in a blue sky, inscribed with the letters T-A-R-O and the He
 
 ## Upright
 
-The Wheel of Fortune is change, cycle, and the turning of fate, the reminder that circumstances rise and fall by a logic larger than the will. Where the [The Hermit](/knowledge/tarot/major-arcana/the-hermit) withdrew into stillness, the Wheel throws the self back into motion, into the flux of luck and timing. Upright, it counsels acceptance of the cycle, readiness to seize the upturn, and faith that no low point is permanent. To draw it is to be told that a turning point has arrived: something is moving that you did not set in motion.
+The Wheel of Fortune is change, cycle, and the turning of fate, the reminder that circumstances rise and fall by a logic larger than the will. Where the [The Hermit](/knowledge/tarot/major-arcana/the-hermit)[^sn-the-hermit] withdrew into stillness, the Wheel throws the self back into motion, into the flux of luck and timing. Upright, it counsels acceptance of the cycle, readiness to seize the upturn, and faith that no low point is permanent. To draw it is to be told that a turning point has arrived: something is moving that you did not set in motion.
 
 ## Reversed
 
@@ -32,7 +32,7 @@ Reversed, the wheel seems to catch. The card can mean a run of bad luck, resista
 
 ## Archetype
 
-The Wheel is the mandala, the archetype of wholeness and cyclic order that Jung saw as an image of [The Self](/knowledge/psychology/jungian/the-self), the still centre around which the psyche’s changes revolve. It also stages the encounter with [Synchronicity](/knowledge/psychology/jungian/synchronicity), the meaningful coincidence that reveals fate not as blind mechanism but as pattern. The maturing self learns to locate itself not on the spinning rim but at the motionless hub, where the turning can be witnessed rather than merely suffered.
+The Wheel is the mandala, the archetype of wholeness and cyclic order that Jung saw as an image of [The Self](/knowledge/psychology/jungian/the-self), the still centre around which the psyche’s changes revolve. It also stages the encounter with [Synchronicity](/knowledge/psychology/jungian/synchronicity),[^sn-synchronicity] the meaningful coincidence that reveals fate not as blind mechanism but as pattern. The maturing self learns to locate itself not on the spinning rim but at the motionless hub, where the turning can be witnessed rather than merely suffered.
 
 ## Mythological Echoes
 
@@ -49,3 +49,6 @@ When the Wheel appears, the reading turns toward fate, timing, and the acceptanc
 - [The World](/knowledge/tarot/major-arcana/the-world)
 - [Synchronicity](/knowledge/psychology/jungian/synchronicity)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-hermit]: The Hermit is solitude in service of wisdom, the deliberate retreat from noise to hear the inner voice.
+[^sn-synchronicity]: Synchronicity is the simultaneous occurrence of events which appear significantly related but have no discernible causal connection.

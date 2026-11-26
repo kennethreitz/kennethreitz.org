@@ -27,7 +27,7 @@ Gimel is the camel, the beast that carries provision across the waterless places
 
 It is a double letter, and the Sefer Yetzirah assigns it wealth and poverty, the two conditions its kindness moves between, under the Moon, the luminary of reflection, tides, and the hidden. The lunar quality suits it: gimel travels by night across territory where nothing grows, sustained by what it stored at the last oasis.
 
-On the Tree this is the thirteenth path, the long vertical from [Kether](/knowledge/tree-of-life/kether) to [Tiphareth](/knowledge/tree-of-life/tiphareth), the only road that runs straight across the Abyss, joining the Crown to the heart with no intermediate station. Its trump is [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess), the veiled moon-bearer seated exactly on that crossing, keeping the memory of the source for those descending and the promise of it for those climbing home. The camel and the priestess do the same work: they hold water in the desert.
+On the Tree this is the thirteenth path, the long vertical from [Kether](/knowledge/tree-of-life/kether) to [Tiphareth](/knowledge/tree-of-life/tiphareth), the only road that runs straight across the Abyss, joining the Crown to the heart with no intermediate station. Its trump is [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess),[^sn-the-high-priestess] the veiled moon-bearer seated exactly on that crossing, keeping the memory of the source for those descending and the promise of it for those climbing home. The camel and the priestess do the same work: they hold water in the desert.
 
 ## Related
 
@@ -36,3 +36,5 @@ On the Tree this is the thirteenth path, the long vertical from [Kether](/knowle
 - [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-the-high-priestess]: The High Priestess is the guardian of the unconscious, the knowing that arrives without argument.

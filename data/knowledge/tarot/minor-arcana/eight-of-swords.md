@@ -30,7 +30,7 @@ Reversed, the blindfold begins to slip. This is the loosening of the mental trap
 
 ## Archetype
 
-Jupiter, the expansive, is cramped in restless Gemini, and expansion turns to a mind that talks itself into a corner. This is the negative complex in Jung’s sense, an autonomous cluster of fear-thoughts that seizes the ego and convinces it of its own helplessness. The blindfold is repression; the swords are the projected dangers we mistake for external fact. Freedom comes not by fighting the swords but by withdrawing the projection, removing the blindfold, and recognizing that the jailer and the prisoner are the same self. The whole drama unfolds within, which is precisely why the feet are unbound.
+Jupiter, the expansive, is cramped in restless Gemini,[^sn-gemini] and expansion turns to a mind that talks itself into a corner. This is the negative complex in Jung’s sense, an autonomous cluster of fear-thoughts that seizes the ego and convinces it of its own helplessness. The blindfold is repression; the swords are the projected dangers we mistake for external fact. Freedom comes not by fighting the swords but by withdrawing the projection, removing the blindfold, and recognizing that the jailer and the prisoner are the same self. The whole drama unfolds within, which is precisely why the feet are unbound.
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ When the Eight of Swords appears, gently challenge the belief that you have no o
 - [The Devil](/knowledge/tarot/major-arcana/the-devil)
 - [Tarot](/knowledge/tarot)
 - [The Shadow](/knowledge/psychology/jungian/the-shadow)
+
+[^sn-gemini]: Gemini is the moment the world becomes interesting, when the settled earth of spring gives way to the quicksilver air of curiosity, and everything begins to speak. See [Gemini](/knowledge/astrology/signs/gemini).

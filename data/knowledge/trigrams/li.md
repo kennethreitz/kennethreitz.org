@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ---
 
-Li is the trigram of **Fire**, ☲: a single broken yin line held between two solid yang lines, the exact inverse of its sibling [Kan](/knowledge/trigrams/kan), where a yang line hides between two yin. The hollow at the center is the secret of fire: a flame is not a thing but a process, with nothing solid at its heart, and it endures only by clinging to fuel outside itself. So Li is the Clinging, and also the Light, brightness, clarity, awareness, the illumination by which anything is seen at all. What Kan hides in the depths, Li displays on the surface.
+Li is the trigram of **Fire**, ☲: a single broken yin line held between two solid yang lines, the exact inverse of its sibling [Kan](/knowledge/trigrams/kan),[^sn-kan] where a yang line hides between two yin. The hollow at the center is the secret of fire: a flame is not a thing but a process, with nothing solid at its heart, and it endures only by clinging to fuel outside itself. So Li is the Clinging, and also the Light, brightness, clarity, awareness, the illumination by which anything is seen at all. What Kan hides in the depths, Li displays on the surface.
 
 As the second of [Qian](/knowledge/trigrams/qian)'s daughters, receiving her yin line in the middle place, Li is the **Middle Daughter**. Its [element](/knowledge/elements) is plainly Fire, and the **Later Heaven** arrangement crowns it at the **South**, the direction of high summer and full noon, the place of maximum light. Across the great water-fire axis it faces [Kan](/knowledge/trigrams/kan) in the North, flame and abyss, the clinging light and the hidden light, the two complementary poles of the middle generation.
 
@@ -34,3 +34,5 @@ In divination Li speaks of clarity, intelligence, and vision, the capacity to se
 - [Qian](/knowledge/trigrams/qian), [Kun](/knowledge/trigrams/kun), the father and mother of the eight
 - [Elements](/knowledge/elements), the Western elements, the trigrams' cousin
 - [Taoism](/knowledge/religions-of-the-world/taoism), [Trigrams](/knowledge/trigrams)
+
+[^sn-kan]: Kan is the Abysmal, the trigram of the ravine, the flood, the plunge into the deep.

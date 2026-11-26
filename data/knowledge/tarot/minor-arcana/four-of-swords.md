@@ -30,7 +30,7 @@ Reversed, the rest is disturbed or refused. Either you cannot stop, driving your
 
 ## Archetype
 
-Jupiter’s benevolence in Libra grants the grace of restoration. Psychologically this is the withdrawal of energy inward, introversion in Jung’s precise sense, libido turning from the outer world toward the depths to be replenished. The effigy on the tomb is the ego consenting to a small death so that renewal can happen underneath awareness, in the quiet where the psyche does its healing. Rest is not the absence of the work of [Individuation](/knowledge/psychology/jungian/individuation) but one of its necessary rhythms; the sword that is never sheathed dulls, and the mind that never rests grows brittle.
+Jupiter’s benevolence in Libra[^sn-libra] grants the grace of restoration. Psychologically this is the withdrawal of energy inward, introversion in Jung’s precise sense, libido turning from the outer world toward the depths to be replenished. The effigy on the tomb is the ego consenting to a small death so that renewal can happen underneath awareness, in the quiet where the psyche does its healing. Rest is not the absence of the work of [Individuation](/knowledge/psychology/jungian/individuation) but one of its necessary rhythms; the sword that is never sheathed dulls, and the mind that never rests grows brittle.
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ When this card appears, it may be permission you have been refusing to grant you
 - [Four of Cups](/knowledge/tarot/minor-arcana/four-of-cups)
 - [Tarot](/knowledge/tarot)
 - [Psychology](/knowledge/psychology)
+
+[^sn-libra]: Libra begins at the autumn equinox, the second great balancing point of the year, when day and night stand equal and the world holds its breath between light and dark. See [Libra](/knowledge/astrology/signs/libra).

@@ -18,7 +18,7 @@ The Hermetic teaching is not to escape the swing, you can't, but to rise above i
 
 For a mind that lives with mood cycles, rhythm is not abstract. The principle reframes the swing from a personal failing into a universal law, everything rises and falls, and the discipline is to build a vantage point above the pendulum rather than to demand it stop. The [grounding practices](/knowledge/psychology/trauma-and-healing) and the reality-checking work are, in Hermetic language, exactly this: cultivating the observer who watches the swing without being swept.
 
-It also names something a drummer knows in the hands. Rhythm is the felt structure of time, the [cadence](/knowledge/key-concepts/cadence) beneath music, speech, and mood alike. The pendulum and the metronome are the same teacher: time has a shape, the shape recurs, and mastery is learning to sit inside the recurrence rather than being tossed by it.
+It also names something a drummer knows in the hands. Rhythm is the felt structure of time, the [cadence](/knowledge/key-concepts/cadence)[^sn-cadence] beneath music, speech, and mood alike. The pendulum and the metronome are the same teacher: time has a shape, the shape recurs, and mastery is learning to sit inside the recurrence rather than being tossed by it.
 
 ## Related
 
@@ -28,3 +28,5 @@ It also names something a drummer knows in the hands. Rhythm is the felt structu
 - [Cadence](/knowledge/key-concepts/cadence), the felt shape of time and motion
 - [Trauma & Healing](/knowledge/psychology/trauma-and-healing): grounding as the still point above the swing
 - [Meditation](/knowledge/spirituality/meditation): cultivating the observer of the pendulum
+
+[^sn-cadence]: Cadence is the rhythm of a thing in motion. In music, the harmonic or rhythmic punctuation that resolves or suspends a phrase.

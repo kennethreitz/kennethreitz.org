@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Libra begins at the autumn equinox, the second great balancing point of the year, when day and night stand equal and the world holds its breath between light and dark. It is the only sign symbolized by an object rather than a creature, the scales, and that is fitting, for Libra is the sign of relationship, of the space between selves, of the eternal work of weighing one thing against another until justice or beauty is found. This is cardinal air, the initiating force of connection, and it governs the gracious decline of the year into partnership and harmony.
 
-Ruled by Venus, Libra loves through the aesthetic and the relational rather than the sensual, it seeks fairness, elegance, and the pleasure of two things brought into proportion. Where Aries, its opposite, says “I am,” Libra says “we are,” and finds itself most fully in the mirror of another. To be met by a Libra is to be seen with genuine consideration, to have your perspective actually weighed.
+Ruled by Venus,[^sn-venus-astrology] Libra loves through the aesthetic and the relational rather than the sensual, it seeks fairness, elegance, and the pleasure of two things brought into proportion. Where Aries, its opposite, says “I am,” Libra says “we are,” and finds itself most fully in the mirror of another. To be met by a Libra is to be seen with genuine consideration, to have your perspective actually weighed.
 
 ## Correspondences
 
@@ -36,3 +36,5 @@ At its best, Libra is grace itself: diplomatic, fair-minded, charming, gifted at
 
 - [Virgo](/knowledge/astrology/signs/virgo) · [Scorpio](/knowledge/astrology/signs/scorpio) · [Venus](/knowledge/astrology/planets/venus-astrology) · [Justice](/knowledge/tarot/major-arcana/justice) · [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-venus-astrology]: Venus is the principle of attraction, the force by which the psyche moves toward what it loves. More in [Venus (astrology)](/knowledge/astrology/planets/venus-astrology).

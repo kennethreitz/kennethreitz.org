@@ -57,5 +57,5 @@ Material world, body, and resources. Practicality and manifestation. Work, healt
 ## Related
 
 - [Wands](/knowledge/tarot/minor-arcana/wands), [Cups](/knowledge/tarot/minor-arcana/cups), [Swords](/knowledge/tarot/minor-arcana/swords), [Pentacles](/knowledge/tarot/minor-arcana/pentacles)
-- [Tarot](/knowledge/tarot)
-- [Major Arcana](/knowledge/tarot/major-arcana)
+- [Tarot](/knowledge/tarot): the whole deck
+- [Major Arcana](/knowledge/tarot/major-arcana): the twenty-two trumps

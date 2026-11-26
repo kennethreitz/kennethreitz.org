@@ -29,7 +29,7 @@ The goal is *fana*, the annihilation of the separate self in God, followed, and 
 
 ## Lovers and Martyrs
 
-The great Sufi voices speak the language of love poetry. **Rabia of Basra** (8th century) prayed to worship God neither from fear of hell nor hope of paradise but for God's own sake alone. **Al-Hallaj** was executed in Baghdad in 922 for crying *ana'l-Haqq*. "I am the Truth", the ecstatic utterance of a man who had lost himself so completely in God that only God was left to speak. **Al-Ghazali**, the greatest theologian of his age, abandoned his prestigious post, wandered for a decade, and returned to write the *Ihya*, the work that reconciled Sufism with orthodoxy and secured its place inside mainstream Islam. **Ibn Arabi** built the metaphysics: *wahdat al-wujud*, the unity of being, in which the cosmos is the endless self-disclosure of the One. And **Rumi**, whose *Masnavi* is called "the Quran in Persian," turned the whole tradition into poetry that still outsells most poets alive.
+The great Sufi voices speak the language of love poetry. **Rabia of Basra** (8th century) prayed to worship God neither from fear of hell nor hope of paradise but for God's own sake alone. **Al-Hallaj** was executed in Baghdad in 922 for crying *ana'l-Haqq*. "I am the Truth", the ecstatic utterance of a man who had lost himself so completely in God that only God was left to speak. **Al-Ghazali**, the greatest theologian of his age, abandoned his prestigious post, wandered for a decade, and returned to write the *Ihya*, the work that reconciled Sufism with orthodoxy and secured its place inside mainstream Islam.[^sn-islam] **Ibn Arabi** built the metaphysics: *wahdat al-wujud*, the unity of being, in which the cosmos is the endless self-disclosure of the One. And **Rumi**, whose *Masnavi* is called "the Quran in Persian," turned the whole tradition into poetry that still outsells most poets alive.
 
 ---
 
@@ -48,3 +48,5 @@ It was largely through Sufi poetry: Rumi above all, that the West met Islamic my
 - [Hesychasm](/knowledge/spirituality/mysticism/hesychasm), the Christian parallel: a short prayer repeated until it prays itself
 - [Ram Dass](/knowledge/spirituality/ram-dass): carried Rumi and the path of the Beloved into the Western perennial stream
 - [Mysticism](/knowledge/spirituality/mysticism), the collection this note belongs to
+
+[^sn-islam]: Islam began in the merchant city of Mecca in the early seventh century, when Muhammad ibn Abdullah, a respected trader given to solitary retreats, reported that the angel Gabriel had commanded him to recite. See [Islam](/knowledge/religions-of-the-world/islam).

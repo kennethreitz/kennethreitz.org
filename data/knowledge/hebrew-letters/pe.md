@@ -28,7 +28,7 @@ Pe is the mouth, the organ of speech, the gate where inner becomes outer and can
 
 It is a double letter under Mars, bearing the pair of power and servitude, the two conditions speech produces, depending on who commands whom, the tongue or its owner. Its bent form פ stands within the word; the final ף drops straight down below the line, the word fully discharged.
 
-On the Tree it is the twenty-seventh path, joining [Netzach](/knowledge/tree-of-life/netzach) to [Hod](/knowledge/tree-of-life/hod), victory to splendour, the lowest horizontal beam, the wall on which every tower of the personality is built. Its trump is [The Tower](/knowledge/tarot/major-arcana/the-tower), struck open by lightning: the shattering word, the utterance that breaks a false structure in one syllable. Pe teaches that the mouth builds and demolishes with the same breath, and asks only that you know which you are doing.
+On the Tree it is the twenty-seventh path, joining [Netzach](/knowledge/tree-of-life/netzach) to [Hod](/knowledge/tree-of-life/hod), victory to splendour, the lowest horizontal beam, the wall on which every tower of the personality is built. Its trump is [The Tower](/knowledge/tarot/major-arcana/the-tower),[^sn-the-tower] struck open by lightning: the shattering word, the utterance that breaks a false structure in one syllable. Pe teaches that the mouth builds and demolishes with the same breath, and asks only that you know which you are doing.
 
 ## Related
 
@@ -37,3 +37,5 @@ On the Tree it is the twenty-seventh path, joining [Netzach](/knowledge/tree-of-
 - [The Tower](/knowledge/tarot/major-arcana/the-tower)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-the-tower]: The Tower is sudden upheaval, the collapse of what was built on illusion.

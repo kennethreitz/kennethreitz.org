@@ -35,7 +35,7 @@ Mercury the guide rules this passage, and Mercury is the psychopomp, the one who
 
 ## Mythological Echoes
 
-The ferryman is unmistakably Charon, poling the dead across the Styx toward the realm of [Hades](/knowledge/mythology/greek-mythology/hades), though here the crossing leads toward calm rather than death, a passage through the underworld rather than into it. It is the barque of Ra sailing the night waters toward dawn, the boat of the soul in Egyptian funerary texts. Every mythology keeps such a vessel: the craft that carries us from one condition of being to another across the dividing water, guided by one who has made the trip before.
+The ferryman is unmistakably Charon, poling the dead across the Styx toward the realm of [Hades](/knowledge/mythology/greek-mythology/hades)[^sn-hades], though here the crossing leads toward calm rather than death, a passage through the underworld rather than into it. It is the barque of Ra sailing the night waters toward dawn, the boat of the soul in Egyptian funerary texts. Every mythology keeps such a vessel: the craft that carries us from one condition of being to another across the dividing water, guided by one who has made the trip before.
 
 ## In Practice
 
@@ -50,3 +50,5 @@ When the Six of Swords appears, honour that leaving is not betrayal and that cal
 - [Eight of Cups](/knowledge/tarot/minor-arcana/eight-of-cups)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-hades]: Hades is the god of the underworld and the dead, eldest son of Cronus, brother to Zeus and Poseidon.

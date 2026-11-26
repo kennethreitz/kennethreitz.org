@@ -67,9 +67,9 @@ The guide lives at [docs.python-guide.org](https://docs.python-guide.org/) (pyth
 <!-- vault:history start -->
 ## History
 
-The Hitchhiker's Guide to Python is a comprehensive guide to Python best practices, installation, project structure, coding style, library recommendations, and more. It became the community's collective wisdom in one place.
+The Hitchhiker's Guide to Python is a comprehensive guide to Python best practices, installation, project structure, coding style, library recommendations, and more. It became the community's collective wisdom in one place.[^sn-created]
 
-Built with Sphinx, maintained as open source, used by thousands of developers daily.
+Built with Sphinx, maintained as open source,[^sn-hitchhiker-s-guide-to-python] used by thousands of developers daily.
 
 The guide probably saved thousands of developers countless hours of confusion. It became the canonical resource for "how do I Python correctly?", referenced in countless Stack Overflow answers, used in tutorials and courses worldwide, and the resource Kenneth wished existed when he was learning.
 

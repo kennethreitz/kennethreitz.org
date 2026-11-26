@@ -23,7 +23,7 @@ Keep the two grace notes low and crisp as a controlled double, then pop the acce
 
 ## In Practice
 
-The single drag tap is a foundational drag-family exercise and a common warm-up, since it drills clean drags and the accent-tap dynamic in one compact pattern. It appears in rudimental snare writing and translates to the kit as a dragged, accented groove or fill. From here the family expands into the double drag tap and Lesson 25.
+The single drag tap is a foundational drag-family exercise and a common warm-up, since it drills clean drags and the accent-tap dynamic in one compact pattern. It appears in rudimental snare writing and translates to the kit as a dragged, accented groove or fill. From here the family expands into the double drag tap and Lesson 25.[^sn-lesson-25]
 
 ## Related
 
@@ -31,3 +31,5 @@ The single drag tap is a foundational drag-family exercise and a common warm-up,
 - [Double Drag Tap](/knowledge/music/drum-rudiments/double-drag-tap)
 - [Lesson 25](/knowledge/music/drum-rudiments/lesson-25)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-lesson-25]: Lesson 25 carries the plainest name in the whole list, it is simply the twenty-fifth lesson from an old rudimental method, and the title stuck. See [Lesson 25](/knowledge/music/drum-rudiments/lesson-25).

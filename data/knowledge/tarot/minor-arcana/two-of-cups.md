@@ -15,7 +15,7 @@ A man and a woman stand facing each other, each raising a cup, exchanging a pled
 
 ## Upright
 
-This is the card of union: love, partnership, mutual recognition, the alchemy of two natures meeting as peers. Where the [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups) is love as pure source, the Two is love made relational, feeling that has found its answering other. It speaks of attraction and reconciliation, of contracts sealed with the heart rather than the pen, of the moment when connection becomes covenant. It carries the promise of the [The Lovers](/knowledge/tarot/major-arcana/the-lovers) at an intimate, human scale.
+This is the card of union: love, partnership, mutual recognition, the alchemy of two natures meeting as peers. Where the [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups)[^sn-ace-of-cups] is love as pure source, the Two is love made relational, feeling that has found its answering other. It speaks of attraction and reconciliation, of contracts sealed with the heart rather than the pen, of the moment when connection becomes covenant. It carries the promise of the [The Lovers](/knowledge/tarot/major-arcana/the-lovers) at an intimate, human scale.
 
 ## Reversed
 
@@ -49,3 +49,5 @@ When this card appears, attend to a specific bond. Is the exchange mutual? Journ
 - [Two of Pentacles](/knowledge/tarot/minor-arcana/two-of-pentacles)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-ace-of-cups]: The Ace of Cups is the wellspring, the pure, undifferentiated source of feeling before it takes any particular shape.

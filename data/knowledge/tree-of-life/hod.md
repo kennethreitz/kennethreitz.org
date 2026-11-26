@@ -31,11 +31,11 @@ Its virtue is Truthfulness, the fidelity of the mind to what is actually so, the
 
 ## On the Tree
 
-Hod sits at the base of the Pillar of Severity, the left-hand column of form, beneath Geburah whose disciplining power it inherits as the ordering mind. Across the Tree stands Netzach, its feeling counterpart; below and toward the center lies Yesod, the foundation its thought helps to build. Its paths reach in every direction: [The Hanged Man](/knowledge/tarot/major-arcana/the-hanged-man) descends from Geburah above, [The Devil](/knowledge/tarot/major-arcana/the-devil) rises to Tiphareth, [The Tower](/knowledge/tarot/major-arcana/the-tower) crosses to Netzach to bind mind to desire, [The Sun](/knowledge/tarot/major-arcana/the-sun) falls to Yesod, and [Judgement](/knowledge/tarot/major-arcana/judgement) drops to Malkuth, carrying Mercury’s clear word into the world of matter.
+Hod sits at the base of the Pillar of Severity, the left-hand column of form, beneath Geburah whose disciplining power it inherits as the ordering mind. Across the Tree stands Netzach, its feeling counterpart; below and toward the center lies Yesod, the foundation its thought helps to build. Its paths reach in every direction: [The Hanged Man](/knowledge/tarot/major-arcana/the-hanged-man) descends from Geburah above, [The Devil](/knowledge/tarot/major-arcana/the-devil) rises to Tiphareth,[^sn-tiphareth] [The Tower](/knowledge/tarot/major-arcana/the-tower) crosses to Netzach to bind mind to desire, [The Sun](/knowledge/tarot/major-arcana/the-sun) falls to Yesod, and [Judgement](/knowledge/tarot/major-arcana/judgement) drops to Malkuth, carrying Mercury’s clear word into the world of matter.
 
 ## In Tarot
 
-The four Eights belong to Hod, the number of order, mechanism, and the mind at work. The Eight of Wands is swiftness in motion, the Eight of Cups the reasoned turning-away from what no longer serves, the Eight of Swords the mind caught in its own restrictions, the Eight of Pentacles the patient craft of the apprentice; each shows intellect shaping its field. As the seat of Mercury, Hod’s planetary trump is [The Magician](/knowledge/tarot/major-arcana/the-magician), the master of word and will who turns idea into act.
+The four Eights belong to Hod, the number of order, mechanism, and the mind at work. The Eight of Wands is swiftness in motion, the Eight of Cups the reasoned turning-away from what no longer serves, the Eight of Swords the mind caught in its own restrictions, the Eight of Pentacles[^sn-eight-of-pentacles] the patient craft of the apprentice; each shows intellect shaping its field. As the seat of Mercury, Hod’s planetary trump is [The Magician](/knowledge/tarot/major-arcana/the-magician), the master of word and will who turns idea into act.
 
 ## Related
 
@@ -48,3 +48,6 @@ The four Eights belong to Hod, the number of order, mechanism, and the mind at w
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
 - [Tarot](/knowledge/tarot)
+
+[^sn-tiphareth]: Tiphareth is Beauty, the sixth emanation and the heart of the whole Tree, the point of perfect balance where every other sphere may be seen at once. See [Tiphareth](/knowledge/tree-of-life/tiphareth).
+[^sn-eight-of-pentacles]: The Eight of Pentacles is the card of apprenticeship, diligence, and craft, the disciplined repetition through which competence becomes mastery. See [Eight of Pentacles](/knowledge/tarot/minor-arcana/eight-of-pentacles).

@@ -20,7 +20,7 @@ Shinto: "the way of the **kami**": is the indigenous religious tradition of Japa
 
 Shinto's roots reach into Japan's prehistory: animist and agricultural practices of the Yayoi period and earlier, rites for rice, rain, ancestors, and the spirits of notable places. Its mythology was first written down in the 8th century, when the imperial court commissioned the *Kojiki* (712) and *Nihon Shoki* (720) to record the age of the gods and, not incidentally, to trace the imperial line to the sun goddess **Amaterasu**.
 
-For most of its history Shinto did not stand apart from Buddhism. From the Nara period onward the two braided together into **shinbutsu-shūgō**: kami were understood as local manifestations of buddhas and bodhisattvas, shrines and temples shared grounds and clergy, and ordinary people saw no contradiction in honoring both. This syncretism lasted a thousand years, until the Meiji government forcibly separated the traditions in 1868 and constructed **State Shinto**, an emperor-centered civic cult that was harnessed to nationalism and dismantled by the Allied occupation in 1945. Postwar Shinto returned to what it had mostly always been: shrines, festivals, and the quiet rituals of everyday life. Today the majority of Japanese people participate in Shinto practice while few would name it as their "religion", a distinction that says more about the Western category than about Shinto.
+For most of its history Shinto did not stand apart from Buddhism.[^sn-buddhism] From the Nara period onward the two braided together into **shinbutsu-shūgō**: kami were understood as local manifestations of buddhas and bodhisattvas, shrines and temples shared grounds and clergy, and ordinary people saw no contradiction in honoring both. This syncretism lasted a thousand years, until the Meiji government forcibly separated the traditions in 1868 and constructed **State Shinto**, an emperor-centered civic cult that was harnessed to nationalism and dismantled by the Allied occupation in 1945. Postwar Shinto returned to what it had mostly always been: shrines, festivals, and the quiet rituals of everyday life. Today the majority of Japanese people participate in Shinto practice while few would name it as their "religion", a distinction that says more about the Western category than about Shinto.
 
 ---
 
@@ -70,3 +70,5 @@ The grand shrine of Amaterasu at **Ise** is ritually rebuilt from scratch every 
 ---
 
 *"Born Shinto, die Buddhist, and see no contradiction anywhere."*
+
+[^sn-buddhism]: Buddhism begins with a specific person and a specific problem. See [Buddhism](/knowledge/religions-of-the-world/buddhism).

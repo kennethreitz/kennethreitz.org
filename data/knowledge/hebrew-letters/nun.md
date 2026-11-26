@@ -25,9 +25,9 @@ source: obsidian-knowledge
 
 Nun is the fish, in Aramaic the word means exactly that, the life that moves hidden beneath the surface of mem's waters. It is the letter of perpetuity through descent: the fish is invisible, prolific, and utterly at home in the element that would drown everything else. The tradition reads its two forms as a moral diagram, the bent nun within the word is the faithful one bowed in this world, the straight final ן is the same soul standing upright in the world to come. Falling and rising are one letter.
 
-Its number is fifty, the number of the Fifty Gates of Understanding and of the Jubilee, the fiftieth year when everything bound is released and returns to its source. A simple letter under Scorpio, the sign of death, depth, and regeneration, its Sefer Yetzirah faculty is motion: nun never holds still, because what stops moving in deep water sinks.
+Its number is fifty, the number of the Fifty Gates of Understanding and of the Jubilee, the fiftieth year when everything bound is released and returns to its source. A simple letter under Scorpio[^sn-scorpio], the sign of death, depth, and regeneration, its Sefer Yetzirah faculty is motion: nun never holds still, because what stops moving in deep water sinks.
 
-On the Tree it is the twenty-fourth path, joining [Tiphareth](/knowledge/tree-of-life/tiphareth) to [Netzach](/knowledge/tree-of-life/netzach), beauty descending into victory. Its trump is [Death](/knowledge/tarot/major-arcana/death), the great card of transformation that almost never means dying: it means the fish's own wisdom, that life continues by passing through what appears to end it. Nun is the seed rotting in the ground, the name of the one who fell (the sages say the bent nun bows for the fallen) and the promise that the fall is not the final posture.
+On the Tree it is the twenty-fourth path, joining [Tiphareth](/knowledge/tree-of-life/tiphareth)[^sn-tiphareth] to [Netzach](/knowledge/tree-of-life/netzach), beauty descending into victory. Its trump is [Death](/knowledge/tarot/major-arcana/death), the great card of transformation that almost never means dying: it means the fish's own wisdom, that life continues by passing through what appears to end it. Nun is the seed rotting in the ground, the name of the one who fell (the sages say the bent nun bows for the fallen) and the promise that the fall is not the final posture.
 
 ## Related
 
@@ -36,3 +36,7 @@ On the Tree it is the twenty-fourth path, joining [Tiphareth](/knowledge/tree-of
 - [Death](/knowledge/tarot/major-arcana/death)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-scorpio]: Scorpio governs the deep autumn, the weeks when the leaves fall and the year begins its descent toward the dark, and it carries that season’s honesty about death and transformation. See [Scorpio](/knowledge/astrology/signs/scorpio).
+
+[^sn-tiphareth]: Tiphareth stands at the heart of the Middle Pillar, the column of equilibrium, more richly connected than any other sphere, the crossroads through which the whole Tree passes.

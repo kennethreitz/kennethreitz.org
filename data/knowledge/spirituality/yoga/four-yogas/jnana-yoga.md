@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Jnana yoga is the path of knowledge, not accumulation but discrimination, the sustained inquiry into what is actually real. Its instrument is *viveka*, the capacity to distinguish the eternal from the temporal, the seer from the seen, the Self from everything the Self mistakes itself for. Where the other paths transform the practitioner gradually, Jnana aims at a single decisive recognition: that the individual self (atman) and the universal ground (Brahman) were never two things. It is the steepest of the four paths described in [Yoga](/knowledge/spirituality/yoga), and the tradition is frank about this, it demands a mind already sharpened, a temperament that cannot rest until it has seen for itself.
 
-Its scriptural home is the Upanishads, the concluding portions of the Vedas, where the great declarations live: *tat tvam asi* (that thou art), *aham brahmasmi* (I am Brahman), *neti neti* (not this, not this). The Bhagavad Gita treats Jnana in its early chapters, where Krishna tells Arjuna that nothing purifies like knowledge, and the whole apparatus of [Vedanta](/knowledge/spirituality/vedanta), especially the Advaita school, is Jnana yoga worked out as rigorous philosophy within [Hinduism](/knowledge/religions-of-the-world/hinduism).
+Its scriptural home is the Upanishads, the concluding portions of the Vedas, where the great declarations live: *tat tvam asi* (that thou art), *aham brahmasmi* (I am Brahman), *neti neti* (not this, not this). The Bhagavad Gita treats Jnana in its early chapters, where Krishna tells Arjuna that nothing purifies like knowledge, and the whole apparatus of [Vedanta](/knowledge/spirituality/vedanta), especially the Advaita school, is Jnana yoga worked out as rigorous philosophy within [Hinduism](/knowledge/religions-of-the-world/hinduism).[^sn-hinduism]
 
 ---
 
@@ -47,3 +47,5 @@ This is Kenneth's primary path, as [Yoga](/knowledge/spirituality/yoga) notes, t
 ---
 
 *The Self is not found. It is what was never lost.*
+
+[^sn-hinduism]: Hinduism has no founder, no founding moment, and no single institution that speaks for it.

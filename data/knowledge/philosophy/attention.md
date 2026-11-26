@@ -40,7 +40,7 @@ For Kenneth, this is not abstract spirituality. It is daily practice complicated
 
 The Algorithm Eats series documents the industrial theft of attention. Every engagement-optimized platform is an attention extraction machine, harvesting human presence, converting it into engagement metrics, selling it to advertisers. The infinite scroll, the autoplay, the notification badge, the variable reward schedule, these are technologies designed to capture attention against the user's own interests.
 
-[Virtue Inversion](/knowledge/philosophy/virtue-inversion) operates through captured attention. You cannot invert someone's values unless you first control what they pay attention to. The algorithm doesn't argue against wisdom, it simply directs your attention toward impulsive content until wisdom has no airtime. It doesn't argue against temperance, it just fills your attention so completely with stimulation that moderation never gets a word in. The theft of attention is upstream of everything else the algorithm eats.
+[Virtue Inversion](/knowledge/philosophy/virtue-inversion)[^sn-virtue-inversion] operates through captured attention. You cannot invert someone's values unless you first control what they pay attention to. The algorithm doesn't argue against wisdom, it simply directs your attention toward impulsive content until wisdom has no airtime. It doesn't argue against temperance, it just fills your attention so completely with stimulation that moderation never gets a word in. The theft of attention is upstream of everything else the algorithm eats.
 
 This creates a strange loop: the same capacity that makes humans conscious, our ability to attend, is the capacity being exploited. Attention is both the highest gift we can offer and the most valuable commodity that can be extracted from us. The difference between gift and extraction is consent, intention, and who benefits.
 
@@ -78,3 +78,5 @@ Attention is all you have. Spend it wisely. Guard it fiercely. Give it generousl
 ---
 
 *The most radical act left is to pay attention on purpose.*
+
+[^sn-virtue-inversion]: Virtue inversion is the systematic process by which engagement optimization transforms each cardinal virtue into its opposing vice.

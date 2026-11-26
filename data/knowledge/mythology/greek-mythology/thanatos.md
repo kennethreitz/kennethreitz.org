@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Thanatos is the god of death, not the violence that cuts a life short but the quiet, natural close that comes to all in time. He is a son of Nyx, primordial Night, and the twin of [Hypnos](/knowledge/mythology/greek-mythology/hypnos), sleep; the two were born together and belong together, the pair of dark powers that end the day and end the life. Where his brother releases you to wake again, Thanatos leads you down to [Hades](/knowledge/mythology/greek-mythology/hades) and does not bring you back. The Greeks distinguished him carefully from the Keres, the fierce spirits of bloody and violent death on the battlefield: Thanatos is the gentler agent, the one who comes for the dying in their beds and carries the shade across the border with a kind of grave courtesy.
+Thanatos is the god of death, not the violence that cuts a life short but the quiet, natural close that comes to all in time. He is a son of Nyx, primordial Night, and the twin of [Hypnos](/knowledge/mythology/greek-mythology/hypnos),[^sn-hypnos] sleep; the two were born together and belong together, the pair of dark powers that end the day and end the life. Where his brother releases you to wake again, Thanatos leads you down to [Hades](/knowledge/mythology/greek-mythology/hades) and does not bring you back. The Greeks distinguished him carefully from the Keres, the fierce spirits of bloody and violent death on the battlefield: Thanatos is the gentler agent, the one who comes for the dying in their beds and carries the shade across the border with a kind of grave courtesy.
 
 He was pictured as a winged figure, sometimes bearded and grim, sometimes a beautiful youth with a downturned torch and folded wings, mirror-image of his sleeping brother. He is not cruel and takes no pleasure in his work; he is inexorable, which is a different thing. Even the gods regard him warily, for his is the one office that cannot be finally cheated, and the myths in which mortals try to cheat it are precisely the ones that show how the natural order strains and buckles when death itself is bound.
 
@@ -33,3 +33,5 @@ He was pictured as a winged figure, sometimes bearded and grim, sometimes a beau
 - [Morpheus](/knowledge/mythology/greek-mythology/morpheus): His nephew, the dream-shaper, another of Night's line of quiet powers
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-hypnos]: Hypnos is the god of sleep, the gentle power that comes each night to still the living and, for a few hours, empties the mind of the world.

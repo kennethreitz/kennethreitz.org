@@ -31,7 +31,7 @@ Aquamarine is the stone of calm courage and clear speech. Where the throat stone
 
 ## In Practice
 
-Worn at the throat before hard conversations, the apology, the boundary, the ask, it is a companion for speaking clearly under pressure. Held during breath-focused [Meditation](/knowledge/spirituality/meditation), its watery calm pairs naturally with slow exhales. Some keep it near during travel, honoring the original use, and it is a traditional gift for 19th wedding anniversaries and March birthdays. Cleanse it in water; it is one of the few stones whose element and care instructions agree.
+Worn at the throat before hard conversations, the apology, the boundary, the ask, it is a companion for speaking clearly under pressure. Held during breath-focused [Meditation](/knowledge/spirituality/meditation),[^sn-meditation] its watery calm pairs naturally with slow exhales. Some keep it near during travel, honoring the original use, and it is a traditional gift for 19th wedding anniversaries and March birthdays. Cleanse it in water; it is one of the few stones whose element and care instructions agree.
 
 ## Related
 
@@ -40,3 +40,5 @@ Worn at the throat before hard conversations, the apology, the boundary, the ask
 - [Kyanite](/knowledge/crystals-and-gemstones/kyanite)
 - [Vishuddha](/knowledge/chakras/vishuddha)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-meditation]: Meditation is the live version; the vault is the record.

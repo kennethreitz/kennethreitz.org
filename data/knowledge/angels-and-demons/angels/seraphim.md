@@ -15,7 +15,7 @@ The Seraphim are the highest choir of the celestial hierarchy, the angels who st
 
 Their sole scriptural appearance by name is the sixth chapter of Isaiah, where the prophet beholds them above the throne, each with six wings: two to cover the face, two to cover the feet, and two with which to fly. They call ceaselessly to one another, “Holy, holy, holy is the Lord of hosts,” and the posts of the door shake at the voice while the house fills with smoke. From this vision the Church drew the *Sanctus* of the liturgy, so that every celebration of the Eucharist joins the burning song of the highest angels. When Isaiah confesses his unclean lips, it is a seraph who takes a live coal from the altar and touches his mouth, the choir of fire performing, once and unforgettably, an act of purification upon a man.
 
-To the Seraphim falls no task of governance, no message to carry, no nation to guard. Their entire office is contemplation and praise, and in this they set the pattern for all lower ranks. The heat of their love, the tradition holds, flows downward through the hierarchy, kindling wisdom in the Cherubim and illumination in the choirs below. They are closest to the source and therefore least intelligible to human understanding, creatures not of intellect first but of ardor, whose knowledge of God is inseparable from their burning for God. Where the Cherubim know, the Seraphim love, and in the economy of heaven that love is the higher and the hotter thing.
+To the Seraphim falls no task of governance, no message to carry, no nation to guard. Their entire office is contemplation and praise, and in this they set the pattern for all lower ranks. The heat of their love, the tradition holds, flows downward through the hierarchy, kindling wisdom in the Cherubim[^sn-cherubim] and illumination in the choirs below. They are closest to the source and therefore least intelligible to human understanding, creatures not of intellect first but of ardor, whose knowledge of God is inseparable from their burning for God. Where the Cherubim know, the Seraphim love, and in the economy of heaven that love is the higher and the hotter thing.
 
 ## Attributes
 
@@ -37,3 +37,5 @@ Pseudo-Dionysius, writing in the late fifth or early sixth century, placed the S
 
 - [Biblical Angels](/knowledge/angels-and-demons/angels/biblical-angels)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+[^sn-cherubim]: Second only to the Seraphim, the Cherubim are the guardians of divine wisdom and the keepers of God’s glory. See [Cherubim](/knowledge/angels-and-demons/angels/cherubim).

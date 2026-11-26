@@ -27,7 +27,7 @@ Its energy is patient, methodical, and reliable, colored by the gravity of Satur
 
 ## Light & Shadow
 
-At its best, four is [The Emperor](/knowledge/tarot/major-arcana/the-emperor) upon his stone throne, the wise authority who establishes order so that life within it may flourish, the builder whose foundations outlast him. It gives us security, competence, and the quiet dignity of work done properly. Yet its shadow hardens: structure becomes cage, discipline becomes tyranny, and the guardian of the walls forgets that walls exist to shelter, not merely to confine. Four that cannot bend eventually breaks, and the same solidity that protects can also imprison.
+At its best, four is [The Emperor](/knowledge/tarot/major-arcana/the-emperor)[^sn-the-emperor] upon his stone throne, the wise authority who establishes order so that life within it may flourish, the builder whose foundations outlast him. It gives us security, competence, and the quiet dignity of work done properly. Yet its shadow hardens: structure becomes cage, discipline becomes tyranny, and the guardian of the walls forgets that walls exist to shelter, not merely to confine. Four that cannot bend eventually breaks, and the same solidity that protects can also imprison.
 
 ## Related
 
@@ -36,3 +36,5 @@ At its best, four is [The Emperor](/knowledge/tarot/major-arcana/the-emperor) up
 - [Master Number 22](/knowledge/numerology/master-number-22)
 - [The Emperor](/knowledge/tarot/major-arcana/the-emperor)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-emperor]: The Emperor is structure, authority, and the protective power of law.

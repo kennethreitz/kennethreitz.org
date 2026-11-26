@@ -28,7 +28,7 @@ The trouble is a persistent sense that something essential is missing, that othe
 
 ## Healthy & Unhealthy
 
-At their best, Fours are creative, emotionally honest, and profoundly compassionate, alchemists who turn suffering into art and who find, at last, that they were never missing anything the rest of us possess. They become grounded, present, and quietly self-renewing. Under stress the longing turns corrosive. The unhealthy Four sinks into self-absorption, shame, and dramatic withdrawal, romanticizing pain and resenting those who seem to belong so easily. Growth for the Four is the disciplined turn toward the present and the ordinary, and the courage to integrate [The Shadow](/knowledge/psychology/jungian/the-shadow) rather than curate suffering, finding through [Individuation](/knowledge/psychology/jungian/individuation) that identity is discovered in living, not withheld at birth.
+At their best, Fours are creative, emotionally honest, and profoundly compassionate, alchemists who turn suffering into art and who find, at last, that they were never missing anything the rest of us possess. They become grounded, present, and quietly self-renewing. Under stress the longing turns corrosive. The unhealthy Four sinks into self-absorption, shame, and dramatic withdrawal, romanticizing pain and resenting those who seem to belong so easily. Growth for the Four is the disciplined turn toward the present and the ordinary, and the courage to integrate [The Shadow](/knowledge/psychology/jungian/the-shadow) rather than curate suffering, finding through [Individuation](/knowledge/psychology/jungian/individuation)[^sn-individuation] that identity is discovered in living, not withheld at birth.
 
 ## Related
 
@@ -37,3 +37,5 @@ At their best, Fours are creative, emotionally honest, and profoundly compassion
 - [Type 1 - The Reformer](/knowledge/enneagram/type-1-the-reformer)
 - [Type 2 - The Helper](/knowledge/enneagram/type-2-the-helper)
 - [Enneagram](/knowledge/enneagram)
+
+[^sn-individuation]: Individuation is the central process in Jungian psychology, the lifelong journey of becoming who you truly are.

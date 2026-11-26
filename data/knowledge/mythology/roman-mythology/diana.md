@@ -18,7 +18,7 @@ That triple nature is the heart of her Roman character: Diana upon the earth as 
 
 Her chief cult center was the sanctuary at Lake Nemi in the Alban Hills, the sacred grove of Diana Nemorensis. There a strange and famous rite held sway: the priest of the grove, the *rex Nemorensis*, was a runaway slave who had won his office by slaying his predecessor, and who held it only until another challenger killed him in turn. The grove served as a refuge, and the goddess was especially honored on August 13th, her festival of torches, when torchlit processions of women wound around the lake by night.
 
-Against the aristocratic Artemis, Diana was a goddess of the people. She absorbed Hecate's dominion over magic and the crossroads, deepened her association with the moon, and drew a devoted following among the lower classes and slaves, for whom her grove offered sanctuary, making her one of the more broadly accessible deities of the Roman world.
+Against the aristocratic Artemis,[^sn-artemis] Diana was a goddess of the people. She absorbed Hecate's dominion over magic and the crossroads, deepened her association with the moon, and drew a devoted following among the lower classes and slaves, for whom her grove offered sanctuary, making her one of the more broadly accessible deities of the Roman world.
 
 ---
 
@@ -27,3 +27,5 @@ Against the aristocratic Artemis, Diana was a goddess of the people. She absorbe
 - [Artemis](/knowledge/mythology/greek-mythology/artemis) - Greek equivalent
 - [The Moon](/knowledge/tarot/major-arcana/the-moon) - The Major Arcana card of the moon, crossroads, and the hidden magical night
 - [Roman Mythology Index](/knowledge/mythology/roman-mythology)
+
+[^sn-artemis]: Artemis is the goddess of the hunt, wilderness, wild animals, the moon, and childbirth. See [Artemis](/knowledge/mythology/greek-mythology/artemis).

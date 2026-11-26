@@ -31,7 +31,7 @@ Reversed, the horizon closes in. Vision collapses into overplanning that never b
 
 ## Archetype
 
-Here the fiery ego meets its first real choice. The figure is the ruler-self confronting the tension between the mastered and the unknown, and Jung would name this the pull toward a larger life, the ego secure enough to risk expansion into unlived territory. Dominion is not tyranny but the courage to own one's authority and then spend it, echoing the disciplined force of [Strength](/knowledge/tarot/major-arcana/strength) turned outward toward the world.
+Here the fiery ego meets its first real choice. The figure is the ruler-self confronting the tension between the mastered and the unknown, and Jung would name this the pull toward a larger life, the ego secure enough to risk expansion into unlived territory. Dominion is not tyranny but the courage to own one's authority and then spend it, echoing the disciplined force of [Strength](/knowledge/tarot/major-arcana/strength)[^sn-strength] turned outward toward the world.
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ This card asks what you would attempt if the harbour did not hold you. Name the 
 - [The World](/knowledge/tarot/major-arcana/the-world)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-strength]: Strength is fortitude of the quiet kind, courage, patience, and the gentle command of one’s own animal nature.

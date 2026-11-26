@@ -24,9 +24,9 @@ The find was an accident. In December 1945 a peasant named **Muhammad Ali al-Sam
 
 ## The Texts
 
-The library preserves some fifty-two tractates, and among them are works that reshaped the study of early Christianity:
+The library preserves some fifty-two tractates, and among them are works that reshaped the study of early Christianity:[^sn-christianity]
 
-The **Gospel of Thomas**, a collection of 114 sayings of Jesus with no narrative and no crucifixion, some paralleling the canonical gospels and some found nowhere else, opening onto a Jesus who points the reader inward toward [Gnosis](/knowledge/spirituality/gnosticism/gnosis). The **Apocryphon of John** (the Secret Book of John), the central mythological text of the [Sethian](/knowledge/spirituality/gnosticism/sethian-gnosticism) school, laying out the unknowable Father, the fall of [Sophia](/knowledge/spirituality/gnosticism/sophia-aeon), the birth of [The Demiurge](/knowledge/spirituality/gnosticism/the-demiurge) Yaldabaoth, and the making of the world. The **Gospel of Truth**, a luminous meditation attributed to Valentinus or his circle, less a myth than a homily on error and awakening (see [Valentinianism](/knowledge/spirituality/gnosticism/valentinianism)). The **Gospel of Philip**, a Valentinian compilation dwelling on the sacraments and the mystery of the **bridal chamber**. Alongside these, the wider record preserves the **Gospel of Judas** (recovered separately, in the Codex Tchacos) and the **Pistis Sophia** (known before Nag Hammadi, from the Askew Codex), both extending the same imaginative world.
+The **Gospel of Thomas**, a collection of 114 sayings of Jesus with no narrative and no crucifixion, some paralleling the canonical gospels and some found nowhere else, opening onto a Jesus who points the reader inward toward [Gnosis](/knowledge/spirituality/gnosticism/gnosis). The **Apocryphon of John** (the Secret Book of John), the central mythological text of the [Sethian](/knowledge/spirituality/gnosticism/sethian-gnosticism) school, laying out the unknowable Father, the fall of [Sophia](/knowledge/spirituality/gnosticism/sophia-aeon),[^sn-sophia-aeon] the birth of [The Demiurge](/knowledge/spirituality/gnosticism/the-demiurge) Yaldabaoth, and the making of the world. The **Gospel of Truth**, a luminous meditation attributed to Valentinus or his circle, less a myth than a homily on error and awakening (see [Valentinianism](/knowledge/spirituality/gnosticism/valentinianism)). The **Gospel of Philip**, a Valentinian compilation dwelling on the sacraments and the mystery of the **bridal chamber**. Alongside these, the wider record preserves the **Gospel of Judas** (recovered separately, in the Codex Tchacos) and the **Pistis Sophia** (known before Nag Hammadi, from the Askew Codex), both extending the same imaginative world.
 
 ---
 
@@ -46,3 +46,6 @@ The recovery did more than add texts to a shelf. It demonstrated that early Chri
 - [Gnosticism](/knowledge/spirituality/gnosticism), the collection this note belongs to
 - [Christianity](/knowledge/religions-of-the-world/christianity), the tradition whose early diversity the find revealed
 - [Spirituality](/knowledge/spirituality), the wider domain
+
+[^sn-christianity]: Christianity began as a movement within Second-Temple Judaism. See [Christianity](/knowledge/religions-of-the-world/christianity).
+[^sn-sophia-aeon]: Sophia's undoing is a longing, not a sin in the ordinary sense.

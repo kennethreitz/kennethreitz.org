@@ -27,7 +27,7 @@ Because it is built from the simplest of the Platonic solids doubled and counter
 
 ## Meaning
 
-The Merkaba is understood as the light-body, the vehicle by which consciousness moves between planes. Its interlocked tetrahedra enact the reconciliation of opposites that runs through all sacred geometry, masculine and feminine, ascending and descending, fire and its mirror, brought into a spinning equilibrium that is said to lift the practitioner beyond the ordinary body. The word Merkaba reaches back to the visionary chariot of Jewish mystical tradition, linking the form to the ascent literature associated with [Kabbalah](/knowledge/spirituality/kabbalah) and the throne visions of the prophets. As geometry it is austere, only two of the simplest solids crossed; as symbol it is among the most ambitious, a claim that the right arrangement of form can become a means of transcendence.
+The Merkaba is understood as the light-body, the vehicle by which consciousness moves between planes. Its interlocked tetrahedra enact the reconciliation of opposites that runs through all sacred geometry, masculine and feminine, ascending and descending, fire and its mirror, brought into a spinning equilibrium that is said to lift the practitioner beyond the ordinary body. The word Merkaba reaches back to the visionary chariot of Jewish mystical tradition, linking the form to the ascent literature associated with [Kabbalah](/knowledge/spirituality/kabbalah)[^sn-kabbalah] and the throne visions of the prophets. As geometry it is austere, only two of the simplest solids crossed; as symbol it is among the most ambitious, a claim that the right arrangement of form can become a means of transcendence.
 
 ## Related
 
@@ -35,3 +35,5 @@ The Merkaba is understood as the light-body, the vehicle by which consciousness 
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Sri Yantra](/knowledge/sacred-geometry/sri-yantra)
 - [Sacred Geometry](/knowledge/sacred-geometry)
+
+[^sn-kabbalah]: Kabbalah is the mystical heart of Judaism, a centuries-old tradition of esoteric interpretation that maps the structure of reality, consciousness, and the divine.

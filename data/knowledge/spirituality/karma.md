@@ -28,7 +28,7 @@ This is harder than it sounds. The ego wants credit, wants outcomes, wants to kn
 
 ## Open Source as Karma Yoga
 
-If karma yoga has a modern expression, Open Source software is one of its purest forms. Kenneth built `requests`, a library that sixteen million machines use daily, and gave it away. Not as a business strategy with deferred monetization. Not as resume padding. As a gift. The code is there because people need it, and someone who could write it did.
+If karma yoga has a modern expression, Open Source[^sn-open-source] software is one of its purest forms. Kenneth built `requests`, a library that sixteen million machines use daily, and gave it away. Not as a business strategy with deferred monetization. Not as resume padding. As a gift. The code is there because people need it, and someone who could write it did.
 
 This is karma yoga in its most literal form: selfless action in service of the collective. The work is offered freely. What people do with it is their business. The fruits, the downloads, the GitHub stars, the conference invitations, came, but they were never the point. The point was that HTTP should be simple for humans, and someone had the skill to make it so.
 
@@ -59,3 +59,5 @@ What karma does offer is a framework for what comes after. The actions taken in 
 ---
 
 *Karma is not what happens to you. It is what you do with what happens to you.*
+
+[^sn-open-source]: Open source has a sustainability problem that the industry prefers not to think about too carefully.

@@ -27,7 +27,7 @@ There is nothing shadowed about Citrine. It is the mineral kingdom’s expressio
 
 ## Properties
 
-Citrine belongs to the [solar plexus](/knowledge/chakras/manipura), the seat of will, confidence, and personal power, and it warms that centre like sunlight warms the belly. It is famous as the merchant’s stone, carried for abundance, prosperity, and the manifestation of one’s aims, but its deeper gift is joy and the courage to act. It dispels self-doubt, feeds motivation, and, unusually among crystals, is said never to hold negative energy, so it never needs clearing of what it has absorbed.
+Citrine belongs to the [solar plexus](/knowledge/chakras/manipura),[^sn-manipura] the seat of will, confidence, and personal power, and it warms that centre like sunlight warms the belly. It is famous as the merchant’s stone, carried for abundance, prosperity, and the manifestation of one’s aims, but its deeper gift is joy and the courage to act. It dispels self-doubt, feeds motivation, and, unusually among crystals, is said never to hold negative energy, so it never needs clearing of what it has absorbed.
 
 ## In Practice
 
@@ -40,3 +40,5 @@ Citrine is tucked into wallets, cash drawers, and workspaces to draw prosperity 
 - [Clear Quartz](/knowledge/crystals-and-gemstones/clear-quartz)
 - [Manipura](/knowledge/chakras/manipura)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-manipura]: Manipura burns at the navel, and its name means “city of jewels”, the radiant power-station of the body.

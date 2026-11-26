@@ -16,7 +16,7 @@ In a sunlit courtyard, a larger child offers a cup filled with white flowers to 
 
 ## Upright
 
-The Six of Cups is nostalgia, innocence, memory, and the sweetness of the past made present. It speaks of childhood, of reunions with people or places that shaped us, of kindness given freely and without calculation. Where the [Five of Cups](/knowledge/tarot/minor-arcana/five-of-cups) mourns what is gone, the Six recovers what remains good in it. This is the healing return, the gift of the inner child, the recognition that some of what we most need was given to us long ago and can be given again.
+The Six of Cups is nostalgia, innocence, memory, and the sweetness of the past made present. It speaks of childhood, of reunions with people or places that shaped us, of kindness given freely and without calculation. Where the [Five of Cups](/knowledge/tarot/minor-arcana/five-of-cups)[^sn-five-of-cups] mourns what is gone, the Six recovers what remains good in it. This is the healing return, the gift of the inner child, the recognition that some of what we most need was given to us long ago and can be given again.
 
 ## Reversed
 
@@ -50,3 +50,5 @@ When this card appears, revisit a memory that still gives warmth, and ask what t
 - [Six of Wands](/knowledge/tarot/minor-arcana/six-of-wands)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-five-of-cups]: The Five of Cups is grief, regret, disappointment, the raw arithmetic of loss.

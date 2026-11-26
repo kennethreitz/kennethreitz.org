@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Parvati is the mother goddess of Hindu tradition, the gentle, benevolent face of the divine feminine. Where the great goddess Devi manifests in forms both terrible and tender, Parvati is her tenderness: nurturing, devoted, patient, the wife and mother who holds the household of the cosmos together.
 
-Her name means “daughter of the mountain,” for she was born as the child of Himavan, the personification of the Himalayas. She is Shakti, the active, energetic principle of the universe, worn softly. As consort to [Shiva](/knowledge/mythology/hindu-mythology/shiva) the ascetic, she is the force that draws consciousness out of withdrawal and into relationship, the warmth that answers his cold renunciation. Fierce goddesses like Kali and Durga emerge from her when the world requires ferocity, but her own nature is grace.
+Her name means “daughter of the mountain,” for she was born as the child of Himavan, the personification of the Himalayas. She is Shakti, the active, energetic principle of the universe, worn softly. As consort to [Shiva](/knowledge/mythology/hindu-mythology/shiva) the ascetic, she is the force that draws consciousness out of withdrawal and into relationship, the warmth that answers his cold renunciation. Fierce goddesses like Kali and Durga[^sn-durga] emerge from her when the world requires ferocity, but her own nature is grace.
 
 ---
 
@@ -32,13 +32,13 @@ The union of Parvati and [Shiva](/knowledge/mythology/hindu-mythology/shiva) is 
 
 This unity finds its most striking form in Ardhanarishvara, the half-male, half-female figure in which [Shiva](/knowledge/mythology/hindu-mythology/shiva) and Parvati share a single body, split down the middle. It is a portrait of non-duality: the masculine and feminine principles not merely joined but inseparable, two aspects of one reality.
 
-Their children are [Ganesha](/knowledge/mythology/hindu-mythology/ganesha), the elephant-headed remover of obstacles whom Parvati formed and Shiva unknowingly beheaded before restoring, and Kartikeya, the god of war born to slay a demon.
+Their children are [Ganesha](/knowledge/mythology/hindu-mythology/ganesha), the elephant-headed remover of obstacles whom Parvati formed and Shiva[^sn-shiva] unknowingly beheaded before restoring, and Kartikeya, the god of war born to slay a demon.
 
 ---
 
 ## The Gentle and the Fierce
 
-Parvati contains multitudes. When the cosmos calls for a warrior, she becomes Durga, mounted on a lion. When it calls for annihilation, her fury darkens into Kali. These are not other goddesses so much as Parvati’s own power unleashed. Yet she always returns to her gentle form, the mother, the beloved, the keeper of the hearth.
+Parvati contains multitudes. When the cosmos calls for a warrior, she becomes Durga, mounted on a lion. When it calls for annihilation, her fury darkens into Kali.[^sn-kali] These are not other goddesses so much as Parvati’s own power unleashed. Yet she always returns to her gentle form, the mother, the beloved, the keeper of the hearth.
 
 This range makes her a complete image of the feminine divine: capable of nurturing and destroying, of patience and rage, of holding the child and slaying the demon. The tradition does not split these apart. The mother is the warrior is the destroyer.
 
@@ -46,7 +46,7 @@ This range makes her a complete image of the feminine divine: capable of nurturi
 
 ## Archetypal Significance
 
-Parvati is the Great Mother in her benevolent aspect, devotion, fertility, the sacred marriage, the feminine principle that completes and animates. She is the [The Empress](/knowledge/tarot/major-arcana/the-empress) of the tarot: nurturing abundance, sensual and creative, the generative ground from which life proceeds. Psychologically she represents the anima drawing the withdrawn masculine into relationship, and the disciplined love that transforms longing into union.
+Parvati is the Great Mother in her benevolent aspect, devotion, fertility, the sacred marriage, the feminine principle that completes and animates. She is the [The Empress](/knowledge/tarot/major-arcana/the-empress)[^sn-the-empress] of the tarot: nurturing abundance, sensual and creative, the generative ground from which life proceeds. Psychologically she represents the anima drawing the withdrawn masculine into relationship, and the disciplined love that transforms longing into union.
 
 ---
 
@@ -58,3 +58,9 @@ Parvati is the Great Mother in her benevolent aspect, devotion, fertility, the s
 - [Tarot](/knowledge/tarot) - The symbolic system her archetype maps to
 - [Mythology](/knowledge/mythology) - The wider field of myth
 - [Hindu Mythology Index](/knowledge/mythology/hindu-mythology)
+
+[^sn-durga]: Durga is the warrior mother, the goddess who takes up arms when the gods themselves cannot prevail. See [Durga](/knowledge/mythology/hindu-mythology/durga).
+[^sn-shiva]: Shiva is the destroyer/transformer god in the Hindu Trimurti. See [Shiva](/knowledge/mythology/hindu-mythology/shiva).
+
+[^sn-kali]: To meet Kali is to meet the truth that all forms dissolve. See [Kali](/knowledge/mythology/hindu-mythology/kali).
+[^sn-the-empress]: The Empress is the Great Mother in her nurturing aspect, the archetype of generativity that Jung saw as one of the deepest structures of the psyche.

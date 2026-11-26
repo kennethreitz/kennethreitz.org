@@ -25,7 +25,7 @@ Every concentration practice in every contemplative tradition is dharana under a
 
 ## Place in the Sequence
 
-Dharana, [Dhyana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dhyana), and [Samadhi](/knowledge/spirituality/yoga/eight-limbs-of-yoga/samadhi) are not three practices but three depths of one practice, and Patanjali gives the trio applied to a single object its own name: *samyama* (III.4), the master key to the third chapter's catalogue of powers. Dharana is effortful, attention held to the object with many returns. When the returns become unnecessary, when attention flows to the object in an unbroken stream, concentration has ripened into [Dhyana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dhyana), the seventh limb. The doorway in from the outer limbs is [Pratyahara](/knowledge/spirituality/yoga/eight-limbs-of-yoga/pratyahara); without the senses withdrawn, the binding never holds.
+Dharana, [Dhyana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dhyana), and [Samadhi](/knowledge/spirituality/yoga/eight-limbs-of-yoga/samadhi) are not three practices but three depths of one practice, and Patanjali gives the trio applied to a single object its own name: *samyama* (III.4), the master key to the third chapter's catalogue of powers. Dharana is effortful, attention held to the object with many returns. When the returns become unnecessary, when attention flows to the object in an unbroken stream, concentration has ripened into [Dhyana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dhyana), the seventh limb. The doorway in from the outer limbs is [Pratyahara](/knowledge/spirituality/yoga/eight-limbs-of-yoga/pratyahara);[^sn-pratyahara] without the senses withdrawn, the binding never holds.
 
 ---
 
@@ -36,3 +36,5 @@ Dharana, [Dhyana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dhyana), and 
 - [Dhyana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/dhyana), the next limb, effortless flow
 - [Meditation](/knowledge/spirituality/meditation): dharana as focused-attention practice
 - [Yoga](/knowledge/spirituality/yoga), the parent overview
+
+[^sn-pratyahara]: Pratyahara is the hinge of the eight limbs, the point where the practice stops working on the world and starts working on the mind.

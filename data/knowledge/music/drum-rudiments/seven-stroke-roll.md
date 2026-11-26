@@ -23,7 +23,7 @@ Keep the three diddles tight, low, and even: closed for a smooth sustained sound
 
 ## In Practice
 
-The seven stroke roll is a staple of orchestral and marching literature, jazz phrasing, and drum set fills that need a slightly longer accented roll than the five. It grows from the [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll) and sits between the [Five Stroke Roll](/knowledge/music/drum-rudiments/five-stroke-roll) and [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll) in the family of terminating rolls.
+The seven stroke roll is a staple of orchestral and marching literature, jazz phrasing, and drum set fills that need a slightly longer accented roll than the five. It grows from the [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)[^sn-double-stroke-open-roll] and sits between the [Five Stroke Roll](/knowledge/music/drum-rudiments/five-stroke-roll) and [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll) in the family of terminating rolls.
 
 ## Related
 
@@ -31,3 +31,5 @@ The seven stroke roll is a staple of orchestral and marching literature, jazz ph
 - [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll)
 - [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-double-stroke-open-roll]: The double stroke open roll, often just "the long roll", is the backbone of rudimental drumming.

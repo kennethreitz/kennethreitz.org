@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Tethys is the Titaness of the fresh water that feeds the world, the mother-source of the rivers, the springs, the fountains, and the rain-clouds. Daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus), she is sister and wife to [Oceanus](/knowledge/mythology/greek-mythology/oceanus), the world-encircling stream, and together they are the great fertile spring from which all waters descend. Where Oceanus is the single encircling river, Tethys is the maternal principle within it, the deep nurse who disperses that one water into the countless streams that nourish the earth. Her very name was linked by the Greeks to the words for nurse and grandmother, the old, feeding, generative water.
+Tethys is the Titaness of the fresh water that feeds the world, the mother-source of the rivers, the springs, the fountains, and the rain-clouds. Daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus),[^sn-uranus] she is sister and wife to [Oceanus](/knowledge/mythology/greek-mythology/oceanus), the world-encircling stream, and together they are the great fertile spring from which all waters descend. Where Oceanus is the single encircling river, Tethys is the maternal principle within it, the deep nurse who disperses that one water into the countless streams that nourish the earth. Her very name was linked by the Greeks to the words for nurse and grandmother, the old, feeding, generative water.
 
 She keeps to the far west, at the world's edge, and is glimpsed only rarely in myth, more a presence than an actor, the quiet, encompassing mother of the waters rather than a striver in the affairs of gods. Yet nearly every river-god and water-nymph of Greece is her child, so that her reach runs through the whole watered world even where her name is never spoken.
 
@@ -36,3 +36,5 @@ She keeps to the far west, at the world's edge, and is glimpsed only rarely in m
 - [Rhea](/knowledge/mythology/greek-mythology/rhea): Her sister, who entrusted the infant [Hera](/knowledge/mythology/greek-mythology/hera) to her keeping
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-uranus]: Uranus is the sky, the primordial heaven, born of Gaia (the Earth) and then her consort, the two of them the first parents of the cosmos.

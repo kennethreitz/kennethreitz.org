@@ -23,7 +23,7 @@ Play the accented first note full, keep the six singles that follow low, even, a
 
 ## In Practice
 
-The triple paradiddle is more of a control and coordination study than a common groove tool, though it makes for long, smooth accented fills and appears in rudimental solos. It completes the plain-paradiddle line that runs [Single Paradiddle](/knowledge/music/drum-rudiments/single-paradiddle) to [Double Paradiddle](/knowledge/music/drum-rudiments/double-paradiddle) to here, alongside the [Single Paradiddle-Diddle](/knowledge/music/drum-rudiments/single-paradiddle-diddle).
+The triple paradiddle is more of a control and coordination study than a common groove tool, though it makes for long, smooth accented fills and appears in rudimental solos. It completes the plain-paradiddle line that runs [Single Paradiddle](/knowledge/music/drum-rudiments/single-paradiddle)[^sn-single-paradiddle] to [Double Paradiddle](/knowledge/music/drum-rudiments/double-paradiddle) to here, alongside the [Single Paradiddle-Diddle](/knowledge/music/drum-rudiments/single-paradiddle-diddle).
 
 ## Related
 
@@ -31,3 +31,5 @@ The triple paradiddle is more of a control and coordination study than a common 
 - [Single Paradiddle](/knowledge/music/drum-rudiments/single-paradiddle)
 - [Single Paradiddle-Diddle](/knowledge/music/drum-rudiments/single-paradiddle-diddle)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-single-paradiddle]: The single paradiddle is the most important hybrid rudiment and arguably the most useful pattern a drummer can own.

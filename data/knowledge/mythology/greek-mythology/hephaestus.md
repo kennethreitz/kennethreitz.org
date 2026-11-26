@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Hephaestus is the god of fire, metalworking, stone masonry, forges, and sculpture, the only Olympian who works, and the one who makes everything the others take for granted. The divine craftsman, he forges magnificent weapons and artifacts: Achilles's armor, [Hermes](/knowledge/mythology/greek-mythology/hermes)'s winged sandals, the thrones and palaces of the gods, the necklace of Harmonia, and even the first woman, Pandora, fashioned from clay at Zeus's command. He is attended in the forge by automatons of his own making, golden handmaidens who can think and speak, and self-moving tripods, the ancient world's image of intelligent machines.
 
-Son of [Zeus](/knowledge/mythology/greek-mythology/zeus) and [Hera](/knowledge/mythology/greek-mythology/hera) (or of Hera alone in some versions), Hephaestus is alone among the Olympians in being physically imperfect: lame, and cast out of heaven. His rejection sets him apart from the idealized gods, yet his hands make him indispensable. His workshop lies beneath a volcano (his Roman name, Vulcan, gives us the word). Married to [Aphrodite](/knowledge/mythology/greek-mythology/aphrodite), the most beautiful of the goddesses, their mismatched union is mythology's great study in the tension between beauty and craft, surface and substance.
+Son of [Zeus](/knowledge/mythology/greek-mythology/zeus) and [Hera](/knowledge/mythology/greek-mythology/hera) (or of Hera alone in some versions), Hephaestus is alone among the Olympians in being physically imperfect: lame, and cast out of heaven. His rejection sets him apart from the idealized gods, yet his hands make him indispensable. His workshop lies beneath a volcano (his Roman name, Vulcan,[^sn-vulcan] gives us the word). Married to [Aphrodite](/knowledge/mythology/greek-mythology/aphrodite), the most beautiful of the goddesses, their mismatched union is mythology's great study in the tension between beauty and craft, surface and substance.
 
 ---
 
@@ -36,3 +36,5 @@ Son of [Zeus](/knowledge/mythology/greek-mythology/zeus) and [Hera](/knowledge/m
 - [Zeus](/knowledge/mythology/greek-mythology/zeus) - Father
 - [Hera](/knowledge/mythology/greek-mythology/hera) - Mother
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-vulcan]: Vulcan is the Roman god of fire in both its faces, the ruinous fire of the volcano and the productive fire of the forge, and the divine blacksmith of the pantheon. See [Vulcan](/knowledge/mythology/roman-mythology/vulcan).

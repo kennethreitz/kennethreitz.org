@@ -31,7 +31,7 @@ To contemplate Kether is to contemplate pure existence stripped of all attribute
 
 ## On the Tree
 
-Kether crowns the summit of the Middle Pillar, the pillar of equilibrium and consciousness, holding perfect balance between the poles it is about to generate. Nothing stands above it but the veils of nothingness; below it, along the central column, lies the abyss and then Tiphareth, the heart that mirrors the Crown. Three paths radiate from this point: [The Fool](/knowledge/tarot/major-arcana/the-fool) descends to Chokmah on the right, the pure breath of spirit; [The Magician](/knowledge/tarot/major-arcana/the-magician) descends to Binah on the left; and [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess) falls straight down the middle to Tiphareth, the beam of light that will one day be remembered as the way home.
+Kether crowns the summit of the Middle Pillar, the pillar of equilibrium and consciousness, holding perfect balance between the poles it is about to generate. Nothing stands above it but the veils of nothingness; below it, along the central column, lies the abyss and then Tiphareth,[^sn-tiphareth] the heart that mirrors the Crown. Three paths radiate from this point: [The Fool](/knowledge/tarot/major-arcana/the-fool) descends to Chokmah on the right, the pure breath of spirit; [The Magician](/knowledge/tarot/major-arcana/the-magician) descends to Binah on the left; and [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess) falls straight down the middle to Tiphareth, the beam of light that will one day be remembered as the way home.
 
 ## In Tarot
 
@@ -45,3 +45,5 @@ The four Aces belong to Kether, the root of Wands, Cups, Swords, and Pentacles, 
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
 - [Tarot](/knowledge/tarot)
+
+[^sn-tiphareth]: Tiphareth is Beauty, the sixth emanation and the heart of the whole Tree, the point of perfect balance where every other sphere may be seen at once. See [Tiphareth](/knowledge/tree-of-life/tiphareth).

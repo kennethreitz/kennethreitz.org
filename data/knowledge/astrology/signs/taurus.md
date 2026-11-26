@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 If Aries is the spark, Taurus is the field it lands in, the fixed earth that receives the impulse and slowly, patiently, grows it into something with roots. This is the sign of late spring, of orchards in blossom and the first warmth that can be trusted, and it carries the deep contentment of a world settling into abundance. Taurus is the body’s wisdom made into a sign: the pleasure of good food, of sunlight on skin, of work done with the hands until the thing is solid and finished and yours.
 
-Ruled by Venus, the Bull loves the tangible more than the ideal. It does not chase; it accumulates, cultivates, endures. There is a gravity to Taurus, a refusal to be hurried, that can look like stubbornness and is really just a profound faith that good things take the time they take. To know a Taurus is to know steadiness, a presence that stays when others scatter.
+Ruled by Venus,[^sn-venus-astrology] the Bull loves the tangible more than the ideal. It does not chase; it accumulates, cultivates, endures. There is a gravity to Taurus, a refusal to be hurried, that can look like stubbornness and is really just a profound faith that good things take the time they take. To know a Taurus is to know steadiness, a presence that stays when others scatter.
 
 ## Correspondences
 
@@ -35,3 +35,5 @@ At its finest, Taurus is loyalty you can lean your whole weight against, dependa
 
 - [Aries](/knowledge/astrology/signs/aries) · [Gemini](/knowledge/astrology/signs/gemini) · [Venus](/knowledge/astrology/planets/venus-astrology) · [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant) · [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-venus-astrology]: Venus is the taste of the soul, the quiet arbiter that decides what is beautiful and what is merely there. See [Venus (astrology)](/knowledge/astrology/planets/venus-astrology).

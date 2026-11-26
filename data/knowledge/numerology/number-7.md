@@ -28,7 +28,7 @@ Its waters run deep and strange, colored here by Neptune, the planet of dream, d
 
 ## Light & Shadow
 
-At its highest, seven is the disciplined pursuit of truth, [The Chariot](/knowledge/tarot/major-arcana/the-chariot) mastering opposing forces through inner command rather than outer force, the seeker whose depth becomes genuine wisdom. It gives us insight, spiritual refinement, and the courage to dwell in questions others flee. But its shadow withdraws too far: the recluse who mistakes isolation for enlightenment, the mind that overanalyzes until it drowns, the dreamer who dissolves into abstraction and loses touch with the warm and ordinary world. Depth, untethered, becomes a beautiful place to disappear.
+At its highest, seven is the disciplined pursuit of truth, [The Chariot](/knowledge/tarot/major-arcana/the-chariot)[^sn-the-chariot] mastering opposing forces through inner command rather than outer force, the seeker whose depth becomes genuine wisdom. It gives us insight, spiritual refinement, and the courage to dwell in questions others flee. But its shadow withdraws too far: the recluse who mistakes isolation for enlightenment, the mind that overanalyzes until it drowns, the dreamer who dissolves into abstraction and loses touch with the warm and ordinary world. Depth, untethered, becomes a beautiful place to disappear.
 
 ## Related
 
@@ -36,3 +36,5 @@ At its highest, seven is the disciplined pursuit of truth, [The Chariot](/knowle
 - [Number 8](/knowledge/numerology/number-8)
 - [The Chariot](/knowledge/tarot/major-arcana/the-chariot)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-chariot]: The Chariot is willpower, victory, and the disciplined harnessing of opposing drives toward a single goal.

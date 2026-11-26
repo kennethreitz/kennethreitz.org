@@ -28,7 +28,7 @@ Ruled by disciplined Saturn, eight demands integrity as the price of its rewards
 
 ## Light & Shadow
 
-At its noblest, eight is [Strength](/knowledge/tarot/major-arcana/strength), the quiet mastery that tames the lion not by force but by inner command, power exercised with grace and answerable to conscience. It gives us achievement, resilience, and the capacity to build things that last and to share their bounty. Yet its shadow is appetite without limit: the tyrant who confuses domination with strength, the accumulator who mistakes possession for worth, the ambition that grinds every softer thing beneath its heel. Power divorced from integrity always, in the end, collects its debt.
+At its noblest, eight is [Strength](/knowledge/tarot/major-arcana/strength)[^sn-strength], the quiet mastery that tames the lion not by force but by inner command, power exercised with grace and answerable to conscience. It gives us achievement, resilience, and the capacity to build things that last and to share their bounty. Yet its shadow is appetite without limit: the tyrant who confuses domination with strength, the accumulator who mistakes possession for worth, the ambition that grinds every softer thing beneath its heel. Power divorced from integrity always, in the end, collects its debt.
 
 ## Related
 
@@ -36,3 +36,5 @@ At its noblest, eight is [Strength](/knowledge/tarot/major-arcana/strength), the
 - [Number 9](/knowledge/numerology/number-9)
 - [Strength](/knowledge/tarot/major-arcana/strength)
 - [Numerology](/knowledge/numerology)
+
+[^sn-strength]: Strength is fortitude of the quiet kind, courage, patience, and the gentle command of one’s own animal nature.

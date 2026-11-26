@@ -23,7 +23,7 @@ On the second terrace, Dante's envious sit in haircloth against the cliff, leani
 
 ## The Remedy
 
-The counter-practice is [Kindness](/knowledge/virtues-and-vices/virtues/kindness): willing and working the neighbor's good until the neighbor's good stops feeling like theft. The tradition's insight is behavioral: envy is not argued away but practiced away, one act of unforced goodwill at a time.
+The counter-practice is [Kindness](/knowledge/virtues-and-vices/virtues/kindness)[^sn-kindness]: willing and working the neighbor's good until the neighbor's good stops feeling like theft. The tradition's insight is behavioral: envy is not argued away but practiced away, one act of unforced goodwill at a time.
 
 ## The Enneagram Passion
 
@@ -42,3 +42,5 @@ In the [Enneagram](/knowledge/enneagram), envy is the passion of [Type 4](/knowl
 ---
 
 *The sewn eyes are not punishment for seeing. They are rest from seeing wrong.*
+
+[^sn-kindness]: Kindness holds a place among the seven heavenly virtues as the remedy for Envy.

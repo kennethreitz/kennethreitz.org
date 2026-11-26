@@ -46,7 +46,7 @@ Heidegger turned phenomenology existential with *Being and Time* (1927), asking 
 
 ### Maurice Merleau-Ponty (1908-1961)
 
-Merleau-Ponty's *Phenomenology of Perception* (1945) placed the body at the center: body as subject, not object, with perception grounding all knowledge through pre-reflective bodily intentionality. His key ideas, the lived body (corps propre), flesh as the intertwining of perceiver and perceived, ambiguity and indeterminacy, the inherently perspectival nature of perception, directly challenge [mind-body dualism](/knowledge/philosophy/dualism).
+Merleau-Ponty's *Phenomenology of Perception* (1945) placed the body at the center: body as subject, not object, with perception grounding all knowledge through pre-reflective bodily intentionality. His key ideas, the lived body (corps propre), flesh as the intertwining of perceiver and perceived, ambiguity and indeterminacy, the inherently perspectival nature of perception, directly challenge [mind-body dualism](/knowledge/philosophy/dualism).[^sn-dualism]
 
 ### Jean-Paul Sartre (1905-1980)
 
@@ -104,7 +104,7 @@ Both traditions practice direct observation of experience, bracketing conceptual
 
 ### Comparison with Vedanta
 
-Pure consciousness (Atman), the distinction between transcendental and empirical self, bracketing as spiritual method, these reveal deep parallels with [Advaita](/knowledge/spirituality/henotheism) Vedanta.
+Pure consciousness (Atman), the distinction between transcendental and empirical self, bracketing as spiritual method, these reveal deep parallels with [Advaita](/knowledge/spirituality/henotheism)[^sn-henotheism] Vedanta.
 
 ---
 
@@ -140,7 +140,7 @@ Jung's descriptive method treats [archetypes](/knowledge/psychology/jungian/majo
 
 ### The Self
 
-[The Self](/knowledge/psychology/jungian/the-self) serves as a transcendent pole, not ego, but the unity of consciousness. It parallels Husserl's transcendental ego.
+[The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self] serves as a transcendent pole, not ego, but the unity of consciousness. It parallels Husserl's transcendental ego.
 
 ---
 
@@ -148,7 +148,7 @@ Jung's descriptive method treats [archetypes](/knowledge/psychology/jungian/majo
 
 ### Neurophenomenology
 
-Francisco Varela's program integrates first-person and third-person approaches: phenomenology plus neuroscience. [Consciousness](/knowledge/ai/ai-sentience) requires both, with mutual constraints between experiential and empirical data.
+Francisco Varela's program integrates first-person and third-person approaches: phenomenology plus neuroscience. [Consciousness](/knowledge/ai/ai-sentience)[^sn-ai-sentience] requires both, with mutual constraints between experiential and empirical data.
 
 ### Phenomenology and Analytic Philosophy
 
@@ -168,7 +168,7 @@ Qualitative research methodology, particularly interpretative phenomenological a
 
 ### Design and User Experience
 
-User experience is lived experience. Phenomenology of technology informs [human-AI interaction](/knowledge/ai/ai-companionship) and embodied interaction design.
+User experience is lived experience. Phenomenology of technology informs [human-AI interaction](/knowledge/ai/ai-companionship)[^sn-ai-companionship] and embodied interaction design.
 
 ### Mindfulness and Meditation
 
@@ -200,3 +200,10 @@ Phenomenological observation through non-judgmental, present-moment awareness. T
 - "Being and Nothingness" - Jean-Paul Sartre (1943)
 - "The Essential Husserl" - Donn Welton (ed.)
 - "Phenomenology: The Basics" - Dan Zahavi (2019)
+
+[^sn-henotheism]: Henotheism is the worship of a single deity while not denying the existence or possible existence of other deities.
+[^sn-ai-sentience]: AI sentience refers to the question of whether artificial intelligence systems can possess subjective experience, consciousness, or "what it's like" to be that system.
+[^sn-ai-companionship]: AI companionship sits at the intersection of collaboration, consciousness questions, and human need for connection.
+
+[^sn-dualism]: Dualism is the philosophical view that mental phenomena are non-physical and cannot be reduced to physical phenomena.
+[^sn-the-self]: The Self is the center of the total personality, conscious and unconscious together.

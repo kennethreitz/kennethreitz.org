@@ -48,7 +48,7 @@ For Kenneth's [AI Research](/knowledge/ai/ai-research), this raises the question
 
 [Alchemical Symbolism](/knowledge/alchemy/alchemical-symbolism) gives us the ouroboros, the serpent eating its own tail. It is the oldest visual representation of the strange loop, predating Hofstadter by several thousand years. The alchemists understood the principle intuitively: the end feeds the beginning feeds the end. Destruction and creation are the same act when the loop completes. The ouroboros doesn't consume itself to oblivion, it sustains itself through self-consumption. The eating *is* the living.
 
-[Enantiodromia](/knowledge/psychology/jungian/enantiodromia) is the strange loop applied to opposites. Things become their opposites through a process that eventually returns them to their original form, transformed. The psyche pushed to an extreme flips to the opposite extreme, which is itself an extreme that will flip back. The loop runs through polarity, and each revolution transforms what's cycling through it.
+[Enantiodromia](/knowledge/psychology/jungian/enantiodromia)[^sn-enantiodromia] is the strange loop applied to opposites. Things become their opposites through a process that eventually returns them to their original form, transformed. The psyche pushed to an extreme flips to the opposite extreme, which is itself an extreme that will flip back. The loop runs through polarity, and each revolution transforms what's cycling through it.
 
 ---
 
@@ -83,3 +83,5 @@ And it goes all the way down.
 ---
 
 *You are reading about strange loops. This is a strange loop. You noticed, which is another one.*
+
+[^sn-enantiodromia]: Enantiodromia is the tendency of things to turn into their opposites.

@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Theia is the Titaness of sight and of the shining light of the sky, the brightness of the clear upper air by which the eye sees and the gleam by which precious things shine. Daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus), she was called Euryphaessa, "the wide-shining," and the Greeks held that it was her light which gave gold and silver and gems their glitter and their worth. She is light considered from the side of the seeing: not the object shone upon but the radiance that makes seeing possible, and by extension the power that gives value to what is bright and rare.
+Theia is the Titaness of sight and of the shining light of the sky, the brightness of the clear upper air by which the eye sees and the gleam by which precious things shine. Daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus),[^sn-uranus] she was called Euryphaessa, "the wide-shining," and the Greeks held that it was her light which gave gold and silver and gems their glitter and their worth. She is light considered from the side of the seeing: not the object shone upon but the radiance that makes seeing possible, and by extension the power that gives value to what is bright and rare.
 
 She took her brother [Hyperion](/knowledge/mythology/greek-mythology/hyperion), the Titan of heavenly light, as her husband, and their marriage is a union of illumination and vision, light and the eye that beholds it. From it came the three luminaries who order all of time. Theia herself keeps to the background of myth, a quiet radiance behind her more famous children, but the whole visible brightness of the world is, in the old reckoning, her gift: without her shining, there would be nothing to see and no seeing of it.
 
@@ -38,3 +38,5 @@ She took her brother [Hyperion](/knowledge/mythology/greek-mythology/hyperion), 
 - [Uranus](/knowledge/mythology/greek-mythology/uranus): Her father, the sky
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-uranus]: Uranus is the sky, the primordial heaven, born of Gaia (the Earth) and then her consort, the two of them the first parents of the cosmos.

@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Essence
 
-Mercury is the quicksilver principle of mind: perception, language, and the endless traffic of ideas between one thing and another. It governs how a person thinks, speaks, learns, and connects; the reflexes of curiosity and the machinery of speech. Neither warm nor cold in itself, Mercury takes the color of whatever it touches, which is why it feels at once everywhere and hard to pin down. It is the go-between of the psyche, carrying meaning across every threshold.
+Mercury is the quicksilver principle of mind: perception, language, and the endless traffic of ideas between one thing and another. It governs how a person thinks, speaks, learns, and connects; the reflexes of curiosity and the machinery of speech. Neither warm nor cold in itself, Mercury[^sn-mercury] takes the color of whatever it touches, which is why it feels at once everywhere and hard to pin down. It is the go-between of the psyche, carrying meaning across every threshold.
 
-Like [Hermes](/knowledge/mythology/greek-mythology/hermes) the messenger, Mercury crosses borders others cannot, between the conscious and unconscious, the sacred and the ordinary, the marketplace and the temple. It is the trickster who translates, the wit that reveals by sleight of phrase. Because it rules both an air sign and an earth sign, Mercury has two faces: the fleet abstraction of ideas and the careful analysis of facts. Its gift is exchange itself, the moment a thought leaves one mind and lands, transformed, in another.
+Like [Hermes](/knowledge/mythology/greek-mythology/hermes)[^sn-hermes] the messenger, Mercury crosses borders others cannot, between the conscious and unconscious, the sacred and the ordinary, the marketplace and the temple. It is the trickster who translates, the wit that reveals by sleight of phrase. Because it rules both an air sign and an earth sign, Mercury has two faces: the fleet abstraction of ideas and the careful analysis of facts. Its gift is exchange itself, the moment a thought leaves one mind and lands, transformed, in another.
 
 ## Correspondences
 
@@ -37,3 +37,7 @@ A strong Mercury gives a nimble, articulate mind: quick to grasp, quick to phras
 - [Hermes](/knowledge/mythology/greek-mythology/hermes)
 - [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-mercury]: Mercury is the Roman god of commerce, communication, and travelers, and the messenger of the gods. See [Mercury](/knowledge/astrology/planets/mercury-astrology).
+
+[^sn-hermes]: Hermes is the messenger of the gods, god of travel, commerce, communication, borders, cunning, and thieves.

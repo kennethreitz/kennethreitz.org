@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ## Definition
 
-The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche. It is both the center and the circumference of the personality, the organizing principle that unifies all aspects of the psyche. In the tarot this archetype is imaged twice over: as [The World](/knowledge/tarot/major-arcana/the-world), wholeness achieved and the dance completed, and as [The Sun](/knowledge/tarot/major-arcana/the-sun), the integrated self radiant and unclouded.
+The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche. It is both the center and the circumference of the personality, the organizing principle that unifies all aspects of the psyche. In the tarot this archetype is imaged twice over: as [The World](/knowledge/tarot/major-arcana/the-world),[^sn-the-world] wholeness achieved and the dance completed, and as [The Sun](/knowledge/tarot/major-arcana/the-sun), the integrated self radiant and unclouded.
 
 ---
 
@@ -129,3 +129,5 @@ Creative work emerges from the Self. Art is dialogue between ego and Self. The S
 - "Aion: Researches into the Phenomenology of the Self"
 - "The Archetypes and the Collective Unconscious"
 - "Memories, Dreams, Reflections"
+
+[^sn-the-world]: The World is completion, integration, and the fulfilment of the whole journey.

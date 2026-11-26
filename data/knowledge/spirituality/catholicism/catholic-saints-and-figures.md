@@ -58,7 +58,7 @@ Mary holds the titles Mother of God (Theotokos), Queen of Heaven, Our Lady of So
 
 ## Angels & Celestial Beings
 
-The nine orders of angels, from closest to God outward: [Seraphim](/knowledge/angels-and-demons/angels/seraphim) (six wings), [Cherubim](/knowledge/angels-and-demons/angels/cherubim) (guardians, wisdom), [Thrones](/knowledge/angels-and-demons/angels/thrones) (justice), [Dominions](/knowledge/angels-and-demons/angels/dominions) (leadership), [Virtues](/knowledge/angels-and-demons/angels/virtues) (courage, miracles), [Powers](/knowledge/angels-and-demons/angels/powers) (spiritual warfare), [Principalities](/knowledge/angels-and-demons/angels/principalities) (nations, cities), [Archangels](/knowledge/angels-and-demons/angels/archangels) (messengers), and Angels (guardians, helpers). The full hierarchy is catalogued in [Angels & Demons](/knowledge/angels-and-demons). Each person has a guardian angel, a personal protector, intercessor, and guide (feast day October 2nd).
+The nine orders of angels, from closest to God outward: [Seraphim](/knowledge/angels-and-demons/angels/seraphim) (six wings), [Cherubim](/knowledge/angels-and-demons/angels/cherubim) (guardians, wisdom), [Thrones](/knowledge/angels-and-demons/angels/thrones) (justice), [Dominions](/knowledge/angels-and-demons/angels/dominions) (leadership), [Virtues](/knowledge/angels-and-demons/angels/virtues) (courage, miracles), [Powers](/knowledge/angels-and-demons/angels/powers) (spiritual warfare), [Principalities](/knowledge/angels-and-demons/angels/principalities)[^sn-principalities] (nations, cities), [Archangels](/knowledge/angels-and-demons/angels/archangels) (messengers), and Angels (guardians, helpers). The full hierarchy is catalogued in [Angels & Demons](/knowledge/angels-and-demons). Each person has a guardian angel, a personal protector, intercessor, and guide (feast day October 2nd).
 
 ---
 
@@ -93,3 +93,5 @@ Similarities include hierarchical structure, patron and intercessory roles, symb
 - [Religions of the World](/knowledge/religions-of-the-world)
 - [Spirituality](/knowledge/spirituality)
 - [Archetypal Patterns](/knowledge/psychology/jungian/major-jungian-concepts)
+
+[^sn-principalities]: With the Principalities the celestial hierarchy turns at last toward the affairs of humankind.

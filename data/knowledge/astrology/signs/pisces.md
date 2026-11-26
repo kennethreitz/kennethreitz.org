@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Essence
 
-Pisces closes the zodiac, governing the last weeks of winter as the ice melts and the boundaries of things begin to dissolve toward spring. This is mutable water, the most fluid and boundless of all the signs, feeling not held under pressure like Scorpio nor gathered into care like Cancer, but let go entirely, allowed to merge with everything it touches. The two fish, bound together and swimming in opposite directions, are the perfect image of a sign caught between worlds: the material and the spiritual, the self and the ocean of all selves, the waking and the dream.
+Pisces closes the zodiac, governing the last weeks of winter as the ice melts and the boundaries of things begin to dissolve toward spring. This is mutable water, the most fluid and boundless of all the signs, feeling not held under pressure like Scorpio[^sn-scorpio] nor gathered into care like Cancer, but let go entirely, allowed to merge with everything it touches. The two fish, bound together and swimming in opposite directions, are the perfect image of a sign caught between worlds: the material and the spiritual, the self and the ocean of all selves, the waking and the dream.
 
-Traditionally ruled by Jupiter and, in the modern reckoning, by Neptune, Pisces joins the seeker’s faith to the mystic’s dissolution. It is the archetype of the dreamer, the artist, and the saint, the one whose empathy has no edges, who feels the suffering and beauty of the world as if it were its own, because in some real sense it is. There is a gentleness and a strange wisdom to Pisces, an old-soul sense that it has completed all twelve journeys and now carries a compassion that asks for nothing back.
+Traditionally ruled by Jupiter[^sn-jupiter-astrology] and, in the modern reckoning, by Neptune, Pisces joins the seeker’s faith to the mystic’s dissolution. It is the archetype of the dreamer, the artist, and the saint, the one whose empathy has no edges, who feels the suffering and beauty of the world as if it were its own, because in some real sense it is. There is a gentleness and a strange wisdom to Pisces, an old-soul sense that it has completed all twelve journeys and now carries a compassion that asks for nothing back.
 
 ## Correspondences
 
@@ -36,3 +36,7 @@ At its best, Pisces is boundless compassion: imaginative, spiritually attuned, e
 
 - [Aquarius](/knowledge/astrology/signs/aquarius) · [Aries](/knowledge/astrology/signs/aries) · [Jupiter](/knowledge/astrology/planets/jupiter-astrology) · [Neptune](/knowledge/astrology/planets/neptune-astrology) · [The Moon](/knowledge/tarot/major-arcana/the-moon) · [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-scorpio]: Scorpio governs the deep autumn, the weeks when the leaves fall and the year begins its descent toward the dark, and it carries that season’s honesty about death and transformation. See [Scorpio](/knowledge/astrology/signs/scorpio).
+
+[^sn-jupiter-astrology]: Jupiter is the principle of expansion, the impulse to grow, to reach beyond the known, to trust that the world is larger and more generous than the anxious mind believes. The full note is [Jupiter (astrology)](/knowledge/astrology/planets/jupiter-astrology).

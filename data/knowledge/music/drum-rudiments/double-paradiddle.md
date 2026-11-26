@@ -23,7 +23,7 @@ Drive the accented first note, keep the four following singles low and even, the
 
 ## In Practice
 
-The double paradiddle shines in shuffles, jazz, waltzes, and any triplet-based groove or fill where a repeating accent needs to travel across the kit. It sits between the [Single Paradiddle](/knowledge/music/drum-rudiments/single-paradiddle) and [Triple Paradiddle](/knowledge/music/drum-rudiments/triple-paradiddle) and shares its diddle DNA with the [Single Paradiddle-Diddle](/knowledge/music/drum-rudiments/single-paradiddle-diddle).
+The double paradiddle shines in shuffles, jazz, waltzes, and any triplet-based groove or fill where a repeating accent needs to travel across the kit. It sits between the [Single Paradiddle](/knowledge/music/drum-rudiments/single-paradiddle)[^sn-single-paradiddle] and [Triple Paradiddle](/knowledge/music/drum-rudiments/triple-paradiddle) and shares its diddle DNA with the [Single Paradiddle-Diddle](/knowledge/music/drum-rudiments/single-paradiddle-diddle).
 
 ## Related
 
@@ -31,3 +31,5 @@ The double paradiddle shines in shuffles, jazz, waltzes, and any triplet-based g
 - [Triple Paradiddle](/knowledge/music/drum-rudiments/triple-paradiddle)
 - [Single Paradiddle-Diddle](/knowledge/music/drum-rudiments/single-paradiddle-diddle)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-single-paradiddle]: The single paradiddle is the most important hybrid rudiment and arguably the most useful pattern a drummer can own.

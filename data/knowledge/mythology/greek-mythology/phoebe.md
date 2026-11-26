@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Overview
 
-Phoebe is the Titaness of prophecy and of bright, clear radiance, her name means "the shining" or "the bright," and she is associated with the pure light of the moon and with the gift of oracular sight. Daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus), she held, in the oldest tradition, the great oracle at Delphi before it ever belonged to [Apollo](/knowledge/mythology/greek-mythology/apollo): the prophetic seat passed from [Gaia](/knowledge/mythology/greek-mythology/gaia) to her daughter Themis and then to Phoebe, and only afterward to the Olympian god. She is thus the elder oracular power, the bright Titaness who spoke the future from the navel of the earth in the ages before the sun-god came.
+Phoebe is the Titaness of prophecy and of bright, clear radiance, her name means "the shining" or "the bright," and she is associated with the pure light of the moon and with the gift of oracular sight. Daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus), she held, in the oldest tradition, the great oracle at Delphi before it ever belonged to [Apollo](/knowledge/mythology/greek-mythology/apollo): the prophetic seat passed from [Gaia](/knowledge/mythology/greek-mythology/gaia) to her daughter Themis[^sn-themis] and then to Phoebe, and only afterward to the Olympian god. She is thus the elder oracular power, the bright Titaness who spoke the future from the navel of the earth in the ages before the sun-god came.
 
-She married her brother [Coeus](/knowledge/mythology/greek-mythology/coeus), the Titan of the inquiring intellect and the axis of heaven, and the pairing is a fitting one, the questioning mind wedded to the answering oracle. Through her daughter [Leto](/knowledge/mythology/greek-mythology/leto) she became grandmother to [Apollo](/knowledge/mythology/greek-mythology/apollo) and [Artemis](/knowledge/mythology/greek-mythology/artemis), and it is said that Apollo received Delphi as a birthday gift from her, the oracle descending through the women of the Titan line into the hand of the god who bears her bright name in his epithet Phoebus. Phoebe herself is gentle and luminous, a giver of prophecy who passed her seat on freely rather than defending it by force.
+She married her brother [Coeus](/knowledge/mythology/greek-mythology/coeus), the Titan of the inquiring intellect and the axis of heaven, and the pairing is a fitting one, the questioning mind wedded to the answering oracle. Through her daughter [Leto](/knowledge/mythology/greek-mythology/leto) she became grandmother to [Apollo](/knowledge/mythology/greek-mythology/apollo) and [Artemis](/knowledge/mythology/greek-mythology/artemis), and it is said that Apollo[^sn-apollo] received Delphi as a birthday gift from her, the oracle descending through the women of the Titan line into the hand of the god who bears her bright name in his epithet Phoebus. Phoebe herself is gentle and luminous, a giver of prophecy who passed her seat on freely rather than defending it by force.
 
 ---
 
@@ -38,3 +38,7 @@ She married her brother [Coeus](/knowledge/mythology/greek-mythology/coeus), the
 - [Uranus](/knowledge/mythology/greek-mythology/uranus): Her father, the sky
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-themis]: Themis is the Titaness of divine law and right order, not the written statutes of men but the deep, customary rightness that holds the cosmos and society together: the way things are supposed to be done, the settled order of what is fitting. See [Themis](/knowledge/mythology/greek-mythology/themis).
+
+[^sn-apollo]: Apollo is the god of the sun, light, music, prophecy, healing, and archery. Details in [Apollo](/knowledge/mythology/greek-mythology/apollo).

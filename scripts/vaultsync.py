@@ -23,6 +23,7 @@ be published (the override, when there is one).
 
 Personal notes in ``HARD_EXCLUDE`` are never published, even if an override
 exists. ``EXCLUDED`` notes are skipped unless an override is present.
+Scratch notes named ``untitled.md`` or ``Untitled*.md`` are never published.
 ``data/knowledge/mythology/egyptian-mythology/maat.md`` is kept across a
 full wipe because the vault copy is a duplicate of the page already on
 the site.
@@ -111,6 +112,8 @@ BUILTIN_GUARD = [
     r"\b\d{1,5} [A-Z][a-z]+ (Street|St|Avenue|Ave|Road|Rd|Lane|Ln|Drive|Dr)\b",
     r"\b(password|api[_ -]?key)\s*[:=]",
 ]
+
+_UNTITLED_NOTE = re.compile(r"^untitled.*\.md$", re.IGNORECASE)
 
 PRIVATE_TERMS_FILE = Path(
     os.environ.get(
@@ -1051,6 +1054,11 @@ def iter_markdown(root):
         yield path
 
 
+def is_untitled_note(rel):
+    """Return True for Obsidian scratch notes named untitled.md or Untitled*.md."""
+    return bool(_UNTITLED_NOTE.match(Path(rel).name))
+
+
 def choose_text(note, overrides_dir, manifest, guard, hard_exclude, excluded, warnings):
     """Return publishable source text, or None if the note is withheld.
 
@@ -1058,7 +1066,7 @@ def choose_text(note, overrides_dir, manifest, guard, hard_exclude, excluded, wa
     publish anyway.
     """
     rel = note.rel
-    if rel in hard_exclude:
+    if rel in hard_exclude or is_untitled_note(rel):
         return None, "excluded"
     override = overrides_dir / rel
     recorded = manifest.get(rel)

@@ -9,7 +9,7 @@ source: obsidian-knowledge
 
 ---
 
-A day or two after the [New Moon](/knowledge/astrology/phases-of-the-moon/new-moon), the first thin crescent appears at dusk, the young moon, low in the west, gone within the hour. It's the phase of earliest visible growth, when the intention set in the dark first shows an edge but can't yet stand on its own. Nothing about a crescent proves the Full Moon is coming; you have to take the cycle on faith.
+A day or two after the [New Moon](/knowledge/astrology/phases-of-the-moon/new-moon), the first thin crescent appears at dusk, the young moon, low in the west, gone within the hour. It's the phase of earliest visible growth, when the intention set in the dark first shows an edge but can't yet stand on its own. Nothing about a crescent proves the Full Moon[^sn-full-moon] is coming; you have to take the cycle on faith.
 
 That's the phase's whole teaching. Whatever was seeded at the New Moon now needs tending without evidence, the practice kept before it shows results, the draft continued before it shows promise. The temptation is to dig the seed up to check on it. The crescent's counsel is the gardener's: water it and leave it alone. This is the young moon of [Artemis](/knowledge/mythology/greek-mythology/artemis), the huntress's crescent, all forward motion and untested confidence, the waxing half of the month just finding its stride.
 
@@ -22,3 +22,5 @@ Energy here is real but fragile. The phase rewards small consistent effort and p
 - [First Quarter](/knowledge/astrology/phases-of-the-moon/first-quarter): The next station: the crisis of action
 - [New Moon](/knowledge/astrology/phases-of-the-moon/new-moon): The seed this sliver grew from
 - [Moon](/knowledge/astrology/planets/moon-astrology)
+
+[^sn-full-moon]: At the Full Moon the Moon stands opposite the Sun and reflects it entire, the one night of the month when the dark half of the sky gets a light of its own. See [Full Moon](/knowledge/astrology/phases-of-the-moon/full-moon).

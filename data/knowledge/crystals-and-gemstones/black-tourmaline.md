@@ -27,7 +27,7 @@ Of all the protective stones, this is the one practitioners reach for first. It 
 
 ## Properties
 
-Black Tourmaline is the premier stone of protection and shielding, forming a boundary around its bearer that deflects hostility, ill intent, and psychic intrusion. Anchored at the [root](/knowledge/chakras/muladhara), it grounds as it guards, transmuting dense or fearful energy into something cleaner and returning the nervous system to steadiness. It is especially valued for shielding against the invisible static of the modern world and for protecting sensitive people who absorb too much of what surrounds them.
+Black Tourmaline is the premier stone of protection and shielding, forming a boundary around its bearer that deflects hostility, ill intent, and psychic intrusion. Anchored at the [root](/knowledge/chakras/muladhara),[^sn-muladhara] it grounds as it guards, transmuting dense or fearful energy into something cleaner and returning the nervous system to steadiness. It is especially valued for shielding against the invisible static of the modern world and for protecting sensitive people who absorb too much of what surrounds them.
 
 ## In Practice
 
@@ -40,3 +40,5 @@ Black Tourmaline is placed at the corners of a room or by the front door to seal
 - [Hematite](/knowledge/crystals-and-gemstones/hematite)
 - [Muladhara](/knowledge/chakras/muladhara)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-muladhara]: Muladhara sits at the base of the spine, at the perineal floor where the body meets the ground it stands upon.

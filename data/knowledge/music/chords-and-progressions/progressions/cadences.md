@@ -27,7 +27,7 @@ The other two play with expectation. The deceptive cadence, V–vi, sets up the 
 
 ## In Practice
 
-Cadences underlie every genre because every phrase must end somehow, the authentic cadence closes hymns, symphonies, and pop choruses alike; the plagal seals off gospel and folk; the deceptive delays the ending of ballads to heighten a final resolution; and the half cadence keeps blues and verse forms turning. They are the microscopic version of the same resolving logic that drives the [ii-V-I](/knowledge/music/chords-and-progressions/progressions/ii-v-i) and the [Twelve-Bar Blues](/knowledge/music/chords-and-progressions/progressions/twelve-bar-blues).
+Cadences underlie every genre because every phrase must end somehow, the authentic cadence closes hymns, symphonies, and pop choruses alike; the plagal seals off gospel and folk; the deceptive delays the ending of ballads to heighten a final resolution; and the half cadence keeps blues and verse forms turning. They are the microscopic version of the same resolving logic that drives the [ii-V-I](/knowledge/music/chords-and-progressions/progressions/ii-v-i) and the [Twelve-Bar Blues](/knowledge/music/chords-and-progressions/progressions/twelve-bar-blues).[^sn-twelve-bar-blues]
 
 ## Related
 
@@ -36,3 +36,5 @@ Cadences underlie every genre because every phrase must end somehow, the authent
 - [Backdoor Progression](/knowledge/music/chords-and-progressions/progressions/backdoor-progression)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-twelve-bar-blues]: The twelve-bar blues is less a chord progression than a form, a repeating twelve-measure frame built from the three primary chords of a key.

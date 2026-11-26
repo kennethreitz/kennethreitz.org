@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Pan is the goat-god of the wild: half man, half goat, with horns, a shaggy hide, and cloven hooves. He belongs to the mountains and forests of Arcadia, the god of shepherds and their flocks, of everything that lives outside the walls of the city and the rules that come with them. Usually named a son of [Hermes](/knowledge/mythology/greek-mythology/hermes), he is old, rustic, and unashamedly bodily: he embodies raw appetite, lust, and the animal part of things that the more polished Olympians keep at arm's length. He plays his reed pipes in the wilderness, chases nymphs, sleeps in the noon heat, and answers to no council of gods.
+Pan is the goat-god of the wild: half man, half goat, with horns, a shaggy hide, and cloven hooves. He belongs to the mountains and forests of Arcadia, the god of shepherds and their flocks, of everything that lives outside the walls of the city and the rules that come with them. Usually named a son of [Hermes](/knowledge/mythology/greek-mythology/hermes),[^sn-hermes] he is old, rustic, and unashamedly bodily: he embodies raw appetite, lust, and the animal part of things that the more polished Olympians keep at arm's length. He plays his reed pipes in the wilderness, chases nymphs, sleeps in the noon heat, and answers to no council of gods.
 
 He is the closest the Greek imagination comes to a god of pure instinct, not evil, but wild, the presence you feel when you are alone in a dark wood and something moves and your whole body seizes without asking permission.
 
@@ -36,3 +36,5 @@ He is the closest the Greek imagination comes to a god of pure instinct, not evi
 - [Tarot](/knowledge/tarot)
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-hermes]: Hermes is the messenger of the gods, god of travel, commerce, communication, borders, cunning, and thieves.

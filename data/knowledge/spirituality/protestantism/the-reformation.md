@@ -24,7 +24,7 @@ The Reformation succeeded where earlier reform movements had been crushed becaus
 
 ## The Magisterial Reformation
 
-The mainstream of the movement is called the *magisterial* Reformation because it worked with the magistrates, it kept the alliance of church and civil authority and sought to reform the existing territorial churches rather than abandon the idea of a state church altogether. Its three great fountainheads were Luther in Germany, whose emphasis fell on justification by faith and the real presence of Christ in the Supper; [John Calvin](/knowledge/spirituality/calvinism) in Geneva, whose systematic *Institutes* and stress on the sovereignty of God became the seedbed of the entire Reformed tradition; and Huldrych Zwingli in Zürich, who pushed furthest in stripping worship of images and reading the Lord's Supper as memorial rather than presence. Luther and Zwingli famously failed to agree on the Eucharist at the Marburg Colloquy of 1529, an early sign that the movement would divide as readily as it had united.
+The mainstream of the movement is called the *magisterial* Reformation because it worked with the magistrates, it kept the alliance of church and civil authority and sought to reform the existing territorial churches rather than abandon the idea of a state church altogether. Its three great fountainheads were Luther in Germany, whose emphasis fell on justification by faith and the real presence of Christ in the Supper; [John Calvin](/knowledge/spirituality/calvinism)[^sn-calvinism] in Geneva, whose systematic *Institutes* and stress on the sovereignty of God became the seedbed of the entire Reformed tradition; and Huldrych Zwingli in Zürich, who pushed furthest in stripping worship of images and reading the Lord's Supper as memorial rather than presence. Luther and Zwingli famously failed to agree on the Eucharist at the Marburg Colloquy of 1529, an early sign that the movement would divide as readily as it had united.
 
 ---
 
@@ -55,3 +55,5 @@ Catholicism did not stand still. The Council of Trent (1545–1563) mounted the 
 - [Catholicism](/knowledge/spirituality/catholicism): The tradition it broke from
 - [Christianity](/knowledge/religions-of-the-world/christianity): The wider story
 - [Protestant Denominations](/knowledge/spirituality/protestantism/protestant-denominations): The families it produced
+
+[^sn-calvinism]: Calvinism is the theological system developed by John Calvin (1509-1564) and later systematized by his followers.

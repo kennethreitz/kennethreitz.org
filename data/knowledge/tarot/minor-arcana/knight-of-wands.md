@@ -30,7 +30,7 @@ Reversed, the charge becomes chaos. Impulsiveness tips into recklessness, passio
 
 ## Archetype
 
-This is the hero on the quest in his most kinetic form, the warrior-spirit whose gift is momentum and whose peril is inflation. Jung would recognise here the fiery libido unrestrained by reflection, vital, necessary, but liable to possess the ego and gallop it off a cliff. The Knight must eventually integrate the containment his opposite carries; his raw drive finds its truer form when disciplined toward a worthy aim, as the will is mastered in [The Chariot](/knowledge/tarot/major-arcana/the-chariot) and tempered by the inner steadiness of [Strength](/knowledge/tarot/major-arcana/strength).
+This is the hero on the quest in his most kinetic form, the warrior-spirit whose gift is momentum and whose peril is inflation. Jung would recognise here the fiery libido unrestrained by reflection, vital, necessary, but liable to possess the ego and gallop it off a cliff. The Knight must eventually integrate the containment his opposite carries; his raw drive finds its truer form when disciplined toward a worthy aim, as the will is mastered in [The Chariot](/knowledge/tarot/major-arcana/the-chariot)[^sn-the-chariot] and tempered by the inner steadiness of [Strength](/knowledge/tarot/major-arcana/strength).
 
 ## Mythological Echoes
 
@@ -48,3 +48,5 @@ When this card appears, passion wants to move, the question is whether it has so
 - [The Chariot](/knowledge/tarot/major-arcana/the-chariot)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-the-chariot]: The Chariot is willpower, victory, and the disciplined harnessing of opposing drives toward a single goal.

@@ -138,7 +138,7 @@ Jung's term: "One World." Psyche and cosmos are one. Separation is illusion. Uni
 
 ### Divination
 
-The I Ching, tarot cards, astrology: all work on the synchronicity principle. Meaningful, not causal. The tarot's [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune) images exactly this: fate as meaningful turning rather than mechanical cause.
+The I Ching, tarot cards, astrology: all work on the synchronicity principle. Meaningful, not causal. The tarot's [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune)[^sn-wheel-of-fortune] images exactly this: fate as meaningful turning rather than mechanical cause.
 
 ### Prayer & Ritual
 
@@ -211,3 +211,5 @@ Integration means treating synchronicities as teachers: learning to read the sig
 ### Contemporary Work
 - Robert Aziz - "C.G. Jung's Psychology of Religion and Synchronicity"
 - F. David Peat - "Synchronicity: The Bridge Between Matter and Mind"
+
+[^sn-wheel-of-fortune]: The Wheel of Fortune is change, cycle, and the turning of fate, the reminder that circumstances rise and fall by a logic larger than the will.

@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## The Archetype
 
-The Father is the archetype of order, law, and structure, the principle that gives form to the formless and sets the boundaries within which life can be lived. Where the [The Great Mother](/knowledge/psychology/jungian/archetypes/the-great-mother) encompasses and nourishes, the Father differentiates and directs. He is the sky to her earth, the word to her substance, the lawgiver who names things and thereby brings them into definition. Jung associated him with the paternal spirit that transmits culture, tradition, and the moral order across generations, the authority that both protects and demands.
+The Father is the archetype of order, law, and structure, the principle that gives form to the formless and sets the boundaries within which life can be lived. Where the [The Great Mother](/knowledge/psychology/jungian/archetypes/the-great-mother)[^sn-the-great-mother] encompasses and nourishes, the Father differentiates and directs. He is the sky to her earth, the word to her substance, the lawgiver who names things and thereby brings them into definition. Jung associated him with the paternal spirit that transmits culture, tradition, and the moral order across generations, the authority that both protects and demands.
 
 The Father stands for the collective structures a person must reckon with in order to mature: convention, discipline, hierarchy, the rules of the outer world. To become an adult is in part to internalize this ordering principle, and eventually to answer to it, wrestle with it, and claim one’s own authority in relation to it.
 
@@ -22,7 +22,7 @@ At his constructive pole the Father manifests as steadiness, protection, justice
 
 ## In Tarot
 
-He is [The Emperor](/knowledge/tarot/major-arcana/the-emperor), seated on a throne of stone crowned with rams, scepter in hand and mountains at his back. The card is structure, sovereignty, and worldly authority, the stabilizing masculine principle that establishes order and defends it. He is the Father made throne.
+He is [The Emperor](/knowledge/tarot/major-arcana/the-emperor),[^sn-the-emperor] seated on a throne of stone crowned with rams, scepter in hand and mountains at his back. The card is structure, sovereignty, and worldly authority, the stabilizing masculine principle that establishes order and defends it. He is the Father made throne.
 
 ## In Myth
 
@@ -39,3 +39,6 @@ He is [The Emperor](/knowledge/tarot/major-arcana/the-emperor), seated on a thro
 - [Major Jungian Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 - [Mythology](/knowledge/mythology)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-great-mother]: The Great Mother is the psyche’s primordial image of origin, the ground from which everything arises and to which everything returns.
+[^sn-the-emperor]: The Emperor is structure, authority, and the protective power of law.

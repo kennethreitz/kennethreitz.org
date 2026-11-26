@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Barbatos is the eighth spirit of the *Ars Goetia* and a great duke of the infernal hierarchy. The grimoire associates his appearance with the sign of the sun in Sagittarius, and describes him as coming attended by four noble kings and their companies of troops, a martial and ceremonious arrival befitting his rank. He is one of the spirits whose lore reaches back into the earlier demonological writings, appearing in the sixteenth-century catalogues that fed into the *Lesser Key*.
+Barbatos is the eighth spirit of the *Ars Goetia* and a great duke of the infernal hierarchy. The grimoire associates his appearance with the sign of the sun in Sagittarius,[^sn-sagittarius] and describes him as coming attended by four noble kings and their companies of troops, a martial and ceremonious arrival befitting his rank. He is one of the spirits whose lore reaches back into the earlier demonological writings, appearing in the sixteenth-century catalogues that fed into the *Lesser Key*.
 
 His most celebrated attribute is the understanding of the voices of animals, a gift with deep roots in folklore and legend, where knowledge of the speech of birds and beasts marks the sage or the favoured hero.
 
@@ -33,3 +33,5 @@ The *Goetia* holds that Barbatos gives understanding of the songs of birds and t
 - [Amon](/knowledge/angels-and-demons/ars-goetia/amon)
 - [Paimon](/knowledge/angels-and-demons/ars-goetia/paimon)
 - [Ars Goetia](/knowledge/angels-and-demons/ars-goetia)
+
+[^sn-sagittarius]: Sagittarius carries the fire of late autumn toward the winter solstice, a season of gathering darkness that the Archer meets with an inextinguishable optimism. See [Sagittarius](/knowledge/astrology/signs/sagittarius).

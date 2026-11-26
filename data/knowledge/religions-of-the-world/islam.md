@@ -20,9 +20,9 @@ What happened next has few parallels. Within a century, Muslim rule stretched fr
 
 ## Core Beliefs
 
-The heart of Islam is *tawhid*, the absolute oneness and uniqueness of God (Allah, simply Arabic for "the God"). Islam positions itself not as a new religion but as the restoration of the primordial monotheism preached by every prophet: Adam, Noah, Abraham, Moses, and Jesus among them, with Muhammad as the final "seal of the prophets." Jesus is honored as Messiah and prophet, born of a virgin, but not as divine, associating partners with God (*shirk*) is the one unforgivable sin. In the vocabulary of comparative religion, Islam is monotheism at its most austere; where [Henotheism](/knowledge/spirituality/henotheism) describes devotion to one god among many, tawhid denies that there is any "many" for God to be among.
+The heart of Islam is *tawhid*, the absolute oneness and uniqueness of God (Allah, simply Arabic for "the God"). Islam positions itself not as a new religion but as the restoration of the primordial monotheism preached by every prophet: Adam, Noah, Abraham, Moses, and Jesus among them, with Muhammad as the final "seal of the prophets." Jesus is honored as Messiah and prophet, born of a virgin, but not as divine, associating partners with God (*shirk*) is the one unforgivable sin. In the vocabulary of comparative religion, Islam is monotheism at its most austere; where [Henotheism](/knowledge/spirituality/henotheism)[^sn-henotheism] describes devotion to one god among many, tawhid denies that there is any "many" for God to be among.
 
-Muslims affirm six articles of faith: God, His angels, His revealed books, His messengers, the Day of Judgment, and divine decree. Eschatology is vivid and central, resurrection, judgment, paradise, and fire, continuing the apocalyptic inheritance that runs from [Zoroastrianism](/knowledge/religions-of-the-world/zoroastrianism) through [Judaism](/knowledge/religions-of-the-world/judaism) and [Christianity](/knowledge/religions-of-the-world/christianity) into the Quran. Humanity is not fallen but forgetful; the human problem is *ghafla*, heedlessness, and the remedy is remembrance (*dhikr*).
+Muslims affirm six articles of faith: God, His angels, His revealed books, His messengers, the Day of Judgment, and divine decree. Eschatology is vivid and central, resurrection, judgment, paradise, and fire, continuing the apocalyptic inheritance that runs from [Zoroastrianism](/knowledge/religions-of-the-world/zoroastrianism)[^sn-zoroastrianism] through [Judaism](/knowledge/religions-of-the-world/judaism) and [Christianity](/knowledge/religions-of-the-world/christianity) into the Quran. Humanity is not fallen but forgetful; the human problem is *ghafla*, heedlessness, and the remedy is remembrance (*dhikr*).
 
 ---
 
@@ -65,3 +65,6 @@ The Sunni–Shia divide began as a succession dispute and deepened at Karbala in
 ---
 
 *"God is the Light of the heavens and the earth.". Quran 24:35*
+
+[^sn-henotheism]: Henotheism is the worship of a single deity while not denying the existence or possible existence of other deities.
+[^sn-zoroastrianism]: Zoroastrianism is among the oldest continuously practiced religions on earth.

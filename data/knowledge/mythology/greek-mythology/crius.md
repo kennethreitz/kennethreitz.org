@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Overview
 
-Crius is the Titan of the constellations and the ordered measure of the heavens, the fixing of the stars into their patterns and the marking of the year by their risings and settings. Son of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus), he is the least storied of the four Titan brothers who set the pillars of the sky, and his name was linked by the Greeks to the ram, so that he was associated with the southern quarter of heaven and with the constellation of the Ram that opens the celestial year. Where [Coeus](/knowledge/mythology/greek-mythology/coeus) is the northern axis and [Hyperion](/knowledge/mythology/greek-mythology/hyperion) the eastern light, Crius holds the south, the Titan of the stars considered as a measure, the reckoning of time by the wheeling sky.
+Crius is the Titan of the constellations and the ordered measure of the heavens, the fixing of the stars into their patterns and the marking of the year by their risings and settings. Son of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus),[^sn-uranus] he is the least storied of the four Titan brothers who set the pillars of the sky, and his name was linked by the Greeks to the ram, so that he was associated with the southern quarter of heaven and with the constellation of the Ram that opens the celestial year. Where [Coeus](/knowledge/mythology/greek-mythology/coeus) is the northern axis and [Hyperion](/knowledge/mythology/greek-mythology/hyperion) the eastern light, Crius holds the south, the Titan of the stars considered as a measure, the reckoning of time by the wheeling sky.
 
-He acts almost not at all in the surviving myths; he is a genealogical pillar, present chiefly through his sons, who carry the powers of the heavens forward into the age of gods and giants. Yet through those sons his line touches the stars, the winds, the dawn's own consort, and the war against [Zeus](/knowledge/mythology/greek-mythology/zeus), so that the quiet Titan of the constellations stands behind a surprising sweep of the cosmos's moving powers.
+He acts almost not at all in the surviving myths; he is a genealogical pillar, present chiefly through his sons, who carry the powers of the heavens forward into the age of gods and giants. Yet through those sons his line touches the stars, the winds, the dawn's own consort, and the war against [Zeus](/knowledge/mythology/greek-mythology/zeus),[^sn-zeus] so that the quiet Titan of the constellations stands behind a surprising sweep of the cosmos's moving powers.
 
 ---
 
@@ -39,3 +39,7 @@ He acts almost not at all in the surviving myths; he is a genealogical pillar, p
 - [Uranus](/knowledge/mythology/greek-mythology/uranus): His father, the sky
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-uranus]: Uranus is the sky, the primordial heaven, born of Gaia (the Earth) and then her consort, the two of them the first parents of the cosmos.
+
+[^sn-zeus]: Zeus is the king of the Olympian gods and ruler of Mount Olympus.

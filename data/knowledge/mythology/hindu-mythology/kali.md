@@ -14,13 +14,13 @@ source: obsidian-knowledge
 
 Kali is the fierce goddess of time and death, the most terrifying and the most liberating face of the divine feminine. Her name comes from *kala*, time, and she is time itself in its devouring aspect: the force that consumes everything that is born, sparing nothing. To meet Kali is to meet the truth that all forms dissolve.
 
-She is depicted with dark or black skin, for she is beyond color as she is beyond form. Around her neck hangs a garland of severed heads; a skirt of severed arms circles her waist. She holds a bloodied sword and a freshly cut head. Her tongue lolls out, red and wild. She dances on the body of [Shiva](/knowledge/mythology/hindu-mythology/shiva). To the uninitiated she is horror. To the devotee she is mother. Ma Kali, the fiercest love there is, the one who cuts away every illusion until nothing remains but the real.
+She is depicted with dark or black skin, for she is beyond color as she is beyond form. Around her neck hangs a garland of severed heads; a skirt of severed arms circles her waist. She holds a bloodied sword and a freshly cut head. Her tongue lolls out, red and wild. She dances on the body of [Shiva](/knowledge/mythology/hindu-mythology/shiva).[^sn-shiva] To the uninitiated she is horror. To the devotee she is mother. Ma Kali, the fiercest love there is, the one who cuts away every illusion until nothing remains but the real.
 
 ---
 
 ## Birth in Battle
 
-Kali is born from fury. In the great myth, the warrior goddess Durga battles a demon whose every drop of spilled blood springs into a new demon, so that he can never be defeated by ordinary means. From Durga’s rage Kali erupts, black, gaunt, terrible, and she solves the problem by drinking the blood before it can touch the ground and by devouring the demons whole.
+Kali is born from fury. In the great myth, the warrior goddess Durga[^sn-durga] battles a demon whose every drop of spilled blood springs into a new demon, so that he can never be defeated by ordinary means. From Durga’s rage Kali erupts, black, gaunt, terrible, and she solves the problem by drinking the blood before it can touch the ground and by devouring the demons whole.
 
 But her bloodlust does not stop with the enemy. Drunk on destruction, she rampages across the battlefield until the world itself is threatened. Nothing can restrain her. This is the danger of pure destructive energy: once unleashed, it does not know where to end.
 
@@ -44,7 +44,7 @@ To worship Kali is to accept death as the doorway rather than the enemy, and to 
 
 ## Archetypal Significance
 
-Kali is the devouring aspect of the Great Mother, the union of death and liberation. She corresponds to two Major Arcana cards. She is [Death](/knowledge/tarot/major-arcana/death), the transformer who ends what must end so that renewal can come, not malice but the necessary dissolution of forms. And she is [The Tower](/knowledge/tarot/major-arcana/the-tower), the sudden catastrophic collapse that shatters false structures in a single stroke, the lightning that clears the ground. Psychologically she is the confrontation with mortality and shadow, the annihilation of ego that liberation requires.
+Kali is the devouring aspect of the Great Mother, the union of death and liberation. She corresponds to two Major Arcana cards. She is [Death](/knowledge/tarot/major-arcana/death), the transformer who ends what must end so that renewal can come, not malice but the necessary dissolution of forms. And she is [The Tower](/knowledge/tarot/major-arcana/the-tower),[^sn-the-tower] the sudden catastrophic collapse that shatters false structures in a single stroke, the lightning that clears the ground. Psychologically she is the confrontation with mortality and shadow, the annihilation of ego that liberation requires.
 
 ---
 
@@ -58,3 +58,8 @@ Kali is the devouring aspect of the Great Mother, the union of death and liberat
 - [Tarot](/knowledge/tarot) - The symbolic system her archetype maps to
 - [Mythology](/knowledge/mythology) - The wider field of myth
 - [Hindu Mythology Index](/knowledge/mythology/hindu-mythology)
+
+[^sn-durga]: Durga is the warrior mother, the goddess who takes up arms when the gods themselves cannot prevail. See [Durga](/knowledge/mythology/hindu-mythology/durga).
+[^sn-the-tower]: The Tower is sudden upheaval, the collapse of what was built on illusion.
+
+[^sn-shiva]: Shiva is the destroyer/transformer god in the Hindu Trimurti.

@@ -18,7 +18,7 @@ Taoism (or Daoism) is China's native tradition of living in accord with the **Ta
 
 ## Origins and History
 
-Tradition credits the *Tao Te Ching* to **Laozi** (the "Old Master"), a possibly legendary archivist of the Zhou court said to have written its eighty-one brief chapters before vanishing westward through a mountain pass. The text itself likely crystallized in the 4th century BCE, alongside the *Zhuangzi*, a wilder, funnier book of parables in which its author dreams he is a butterfly and wakes unsure which is dreaming which. These two works anchor **philosophical Taoism** (*daojia*), which arose during the Warring States period as one answer among many to the question of how to live in a collapsing world. Where [Confucianism](/knowledge/religions-of-the-world/confucianism) answered with ritual and social duty, Taoism answered with retreat, spontaneity, and a deep suspicion of striving.
+Tradition credits the *Tao Te Ching* to **Laozi** (the "Old Master"), a possibly legendary archivist of the Zhou court said to have written its eighty-one brief chapters before vanishing westward through a mountain pass. The text itself likely crystallized in the 4th century BCE, alongside the *Zhuangzi*, a wilder, funnier book of parables in which its author dreams he is a butterfly and wakes unsure which is dreaming which. These two works anchor **philosophical Taoism** (*daojia*), which arose during the Warring States period as one answer among many to the question of how to live in a collapsing world. Where [Confucianism](/knowledge/religions-of-the-world/confucianism)[^sn-confucianism] answered with ritual and social duty, Taoism answered with retreat, spontaneity, and a deep suspicion of striving.
 
 **Religious Taoism** (*daojiao*) emerged later, in the 2nd century CE, when Zhang Daoling founded the Way of the Celestial Masters and Taoism acquired priests, liturgies, a vast pantheon, and institutional form. Over the following centuries it absorbed and traded ideas with [Buddhism](/knowledge/religions-of-the-world/buddhism) as that tradition arrived from India. Chan (Zen) Buddhism is in many ways their child. Taoism flourished under some dynasties, suffered under others, was suppressed during the Cultural Revolution, and today lives on in mainland China, Taiwan, and the Chinese diaspora, both as organized religion and as the quiet philosophical current running underneath much of East Asian culture.
 
@@ -32,7 +32,7 @@ The central practical idea is **wu wei**, usually translated "non-action" but be
 
 Chinese cosmology organizes change through the **wu xing**, the five phases of wood, fire, earth, metal, and water. These are not building blocks like the Western four elements (the vault's [Elements](/knowledge/elements) note covers that Greek lineage) but dynamic phases in a cycle, each generating and overcoming the others, a grammar of transformation that underlies Chinese medicine, feng shui, and internal alchemy alike.
 
-There is a genuine resonance with [Stoicism](/knowledge/philosophy/stoicism) here: both traditions counsel alignment with the nature of things rather than rebellion against it, though the Stoic sage grips reason like a rudder while the Taoist sage lets go of the tiller entirely.
+There is a genuine resonance with [Stoicism](/knowledge/philosophy/stoicism)[^sn-stoicism] here: both traditions counsel alignment with the nature of things rather than rebellion against it, though the Stoic sage grips reason like a rudder while the Taoist sage lets go of the tiller entirely.
 
 ---
 
@@ -77,3 +77,6 @@ Philosophical Taoism, meanwhile, was never a membership organization at all, mor
 ---
 
 *"Nature does not hurry, yet everything is accomplished."*
+
+[^sn-confucianism]: Confucianism is the tradition of ethical, social, and spiritual cultivation that grew from the teaching of Confucius (Kong Fuzi, "Master Kong," 551–479 BCE) and shaped East Asian civilization more deeply than any other single body of thought.
+[^sn-stoicism]: Stoicism is an ancient Greek and Roman philosophy founded around 300 BCE by Zeno of Citium.

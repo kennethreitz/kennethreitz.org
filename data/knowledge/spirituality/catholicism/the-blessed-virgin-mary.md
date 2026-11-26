@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Catholic teaching about Mary is anchored in four solemnly defined dogmas, each of which is finally a statement about her Son. The first and oldest is **Theotokos**, "God-bearer" or Mother of God, defined at the Council of Ephesus in 431. The title is Christological before it is Marian: because the one she bore is a single divine person, she is truly the mother of God-made-man, not merely of a human body later joined to divinity. The second is her **Perpetual Virginity**, that Mary remained a virgin before, during, and after the birth of Christ, a belief held from the early church and shared with Eastern Orthodoxy.
 
-The third and fourth were defined only in modern times. The **Immaculate Conception**, proclaimed by Pope Pius IX in 1854, holds that Mary was preserved free from original sin from the first moment of her own conception, by a singular grace anticipating the merits of Christ. (It is often confused with the virgin birth; it refers instead to Mary's own conception in her mother's womb.) The **Assumption**, defined by Pope Pius XII in 1950, teaches that at the end of her earthly life Mary was taken up body and soul into heavenly glory, a foretaste of the resurrection promised to all the faithful in [The Four Last Things](/knowledge/spirituality/catholicism/the-four-last-things).
+The third and fourth were defined only in modern times. The **Immaculate Conception**, proclaimed by Pope Pius IX in 1854, holds that Mary was preserved free from original sin from the first moment of her own conception, by a singular grace anticipating the merits of Christ. (It is often confused with the virgin birth; it refers instead to Mary's own conception in her mother's womb.) The **Assumption**, defined by Pope Pius XII in 1950, teaches that at the end of her earthly life Mary was taken up body and soul into heavenly glory, a foretaste of the resurrection promised to all the faithful in [The Four Last Things](/knowledge/spirituality/catholicism/the-four-last-things).[^sn-the-four-last-things]
 
 ---
 
@@ -32,7 +32,7 @@ Marian devotion is intensely tied to particular places where the faithful believ
 
 ## Veneration, Not Worship
 
-The distinction that governs everything Catholicism says about Mary is the difference between worship and honor. Worship in the strict sense, *latria*, adoration, belongs to God alone. The honor given to the saints is *dulia*, veneration. Mary receives *hyperdulia*, the highest veneration due to any creature, but still infinitely short of the worship reserved for God. She is honored not as a rival to Christ but as the first and greatest of the redeemed, whose entire glory is derived from him. Protestant traditions, and [the Reformed](/knowledge/spirituality/calvinism) in particular, regard even this elevated honor as perilously close to idolatry, and strip Marian devotion back to the gospel narratives; the divide is one of the sharpest between the communions. For Catholics, to honor the mother is always to be pointed toward the Son, her last recorded words in scripture are "Do whatever he tells you."
+The distinction that governs everything Catholicism says about Mary is the difference between worship and honor. Worship in the strict sense, *latria*, adoration, belongs to God alone. The honor given to the saints is *dulia*, veneration. Mary receives *hyperdulia*, the highest veneration due to any creature, but still infinitely short of the worship reserved for God. She is honored not as a rival to Christ but as the first and greatest of the redeemed, whose entire glory is derived from him. Protestant traditions, and [the Reformed](/knowledge/spirituality/calvinism)[^sn-calvinism] in particular, regard even this elevated honor as perilously close to idolatry, and strip Marian devotion back to the gospel narratives; the divide is one of the sharpest between the communions. For Catholics, to honor the mother is always to be pointed toward the Son, her last recorded words in scripture are "Do whatever he tells you."
 
 ---
 
@@ -45,3 +45,6 @@ The distinction that governs everything Catholicism says about Mary is the diffe
 - [The Four Last Things](/knowledge/spirituality/catholicism/the-four-last-things): Her Assumption as foretaste of resurrection
 - [Gabriel](/knowledge/angels-and-demons/angels/gabriel): The archangel of the Annunciation
 - [Calvinism](/knowledge/spirituality/calvinism): The Reformed critique of Marian devotion
+
+[^sn-the-four-last-things]: The phrase "the Four Last Things" (*novissima* in Latin) names the traditional objects of Christian contemplation about the end of human existence: Death, Judgment, Heaven, and Hell.
+[^sn-calvinism]: Calvinism is the theological system developed by John Calvin (1509-1564) and later systematized by his followers.

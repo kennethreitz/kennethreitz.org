@@ -38,7 +38,7 @@ Shiva's first wife Sati self-immolated at her father's insult to Shiva, nearly u
 
 Their relationship embodies perfect balance: Shiva is consciousness, Parvati/Shakti is energy. Neither is complete without the other. This finds its most striking expression in Ardhanarishvara, the half-male, half-female form representing ultimate non-duality.
 
-Their children: [Ganesha](/knowledge/mythology/hindu-mythology/ganesha) (the elephant-headed remover of obstacles, created by Parvati, unknowingly beheaded by Shiva, restored with an elephant head) and Kartikeya/Murugan (god of war, born to defeat a demon, popular in South India).
+Their children: [Ganesha](/knowledge/mythology/hindu-mythology/ganesha) (the elephant-headed remover of obstacles, created by Parvati,[^sn-parvati] unknowingly beheaded by Shiva, restored with an elephant head) and Kartikeya/Murugan (god of war, born to defeat a demon, popular in South India).
 
 ---
 
@@ -93,3 +93,5 @@ See: [The Shadow](/knowledge/psychology/jungian/the-shadow)
 - Kali - Fierce form of Parvati/Shakti
 - [Death](/knowledge/tarot/major-arcana/death) - The Major Arcana card of the destroyer-transformer: ending cycles so new ones begin
 - [Hindu Mythology Index](/knowledge/mythology/hindu-mythology)
+
+[^sn-parvati]: Parvati is the mother goddess of Hindu tradition, the gentle, benevolent face of the divine feminine. See [Parvati](/knowledge/mythology/hindu-mythology/parvati).

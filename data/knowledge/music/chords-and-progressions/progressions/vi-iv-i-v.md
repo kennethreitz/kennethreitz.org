@@ -27,7 +27,7 @@ Because it starts in shadow, every subsequent chord feels like an attempt to cli
 
 ## In Practice
 
-It saturates emotional pop, rock ballads, and film music. "Zombie," "Numb," "Save Tonight," and "Africa" all lean on this darker rotation. Songwriters reach for it when a lyric needs weight or vulnerability, exploiting the fact that listeners recognize the axis chords while feeling an entirely different mood. It is a direct rotation of the [I-V-vi-IV](/knowledge/music/chords-and-progressions/progressions/i-v-vi-iv) and shares its family with the [Fifties Progression](/knowledge/music/chords-and-progressions/progressions/fifties-progression).
+It saturates emotional pop, rock ballads, and film music. "Zombie," "Numb," "Save Tonight," and "Africa" all lean on this darker rotation. Songwriters reach for it when a lyric needs weight or vulnerability, exploiting the fact that listeners recognize the axis chords while feeling an entirely different mood. It is a direct rotation of the [I-V-vi-IV](/knowledge/music/chords-and-progressions/progressions/i-v-vi-iv) and shares its family with the [Fifties Progression](/knowledge/music/chords-and-progressions/progressions/fifties-progression).[^sn-fifties-progression]
 
 ## Related
 
@@ -36,3 +36,5 @@ It saturates emotional pop, rock ballads, and film music. "Zombie," "Numb," "Sav
 - [Andalusian Cadence](/knowledge/music/chords-and-progressions/progressions/andalusian-cadence)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-fifties-progression]: The fifties progression, I–vi–IV–V, is the sound of doo-wop and the American ballad at midcentury.

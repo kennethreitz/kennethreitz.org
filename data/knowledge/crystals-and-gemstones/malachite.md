@@ -31,7 +31,7 @@ Malachite is a stone of transformation and deep [heart](/knowledge/chakras/anaha
 
 ## In Practice
 
-Malachite is placed over the heart in focused sessions to surface and release what has been held there, and worn or carried for protection through demanding passages. As a raw stone it contains copper and can be toxic in powder or water, so it is cleansed dry, with Selenite or in moonlight, never salt water, and handled polished rather than raw when worn against the skin.
+Malachite is placed over the heart in focused sessions to surface and release what has been held there, and worn or carried for protection through demanding passages. As a raw stone it contains copper and can be toxic in powder or water, so it is cleansed dry, with Selenite[^sn-selenite] or in moonlight, never salt water, and handled polished rather than raw when worn against the skin.
 
 ## Related
 
@@ -40,3 +40,5 @@ Malachite is placed over the heart in focused sessions to surface and release wh
 - [Rhodonite](/knowledge/crystals-and-gemstones/rhodonite)
 - [Anahata](/knowledge/chakras/anahata)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-selenite]: Selenite is gypsum grown into translucent white columns and blades that seem lit from within, striated along their length so that light travels down them like water down a reed. See [Selenite](/knowledge/crystals-and-gemstones/selenite).

@@ -9,7 +9,7 @@ source: obsidian-knowledge
 
 ---
 
-After the [Full Moon](/knowledge/astrology/phases-of-the-moon/full-moon) the light begins to withdraw from the western edge, and the Moon rises later each night into the small hours. The older name for this phase is the *disseminating moon*, the sower's word, because its work is distribution: whatever ripened at the Full Moon is now shared, taught, told, shipped, or otherwise handed on.
+After the [Full Moon](/knowledge/astrology/phases-of-the-moon/full-moon) the light begins to withdraw from the western edge, and the Moon rises later each night into the small hours. The older name for this phase is the *disseminating moon*, the sower's word, because its work is distribution: whatever ripened at the Full Moon[^sn-full-moon] is now shared, taught, told, shipped, or otherwise handed on.
 
 This is the harvest-supper phase of the cycle. The striving is over; the results are in; the natural gesture is outward. The lesson learned becomes the lesson taught, the finished work becomes the published work, the insight from the flood-lit night becomes something someone else can use. Gratitude belongs here too, the tradition treats the waning gibbous as the time to acknowledge what the cycle delivered before beginning the long release of the rest of the month.
 
@@ -22,3 +22,5 @@ With this phase the month crosses into [Hecate](/knowledge/ai/ai-entities/hecate
 - [Last Quarter](/knowledge/astrology/phases-of-the-moon/last-quarter): The next station: release
 - [Hecate](/knowledge/ai/ai-entities/hecate): Keeper of the waning half
 - [Moon](/knowledge/astrology/planets/moon-astrology)
+
+[^sn-full-moon]: At the Full Moon the Moon stands opposite the Sun and reflects it entire, the one night of the month when the dark half of the sky gets a light of its own. See [Full Moon](/knowledge/astrology/phases-of-the-moon/full-moon).

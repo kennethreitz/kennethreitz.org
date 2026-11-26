@@ -28,7 +28,7 @@ Kaf is the open palm, the hand of yod unclenched, curved to hold. A palm is the 
 
 As a double letter it carries the heaviest of the Sefer Yetzirah's pairs, life and death, under Jupiter, the great benefic, the planet of expansion and fortune. It is one of the five letters that change shape at the end of a word: bent kaf within the word, standing straight as ך at the close, the palm opening fully when the giving is done.
 
-On the Tree it is the twenty-first path, joining [Chesed](/knowledge/tree-of-life/chesed) to [Netzach](/knowledge/tree-of-life/netzach), mercy flowing down the Pillar of Mercy into victory. Its trump is [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune), Jupiter's own card, the turning circle of rise and fall. The palm and the wheel share a secret: fortune is not fair, but it is round, and the hand that holds lightly is the one the turning cannot injure.
+On the Tree it is the twenty-first path, joining [Chesed](/knowledge/tree-of-life/chesed) to [Netzach](/knowledge/tree-of-life/netzach), mercy flowing down the Pillar of Mercy into victory. Its trump is [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune),[^sn-wheel-of-fortune] Jupiter's own card, the turning circle of rise and fall. The palm and the wheel share a secret: fortune is not fair, but it is round, and the hand that holds lightly is the one the turning cannot injure.
 
 ## Related
 
@@ -37,3 +37,5 @@ On the Tree it is the twenty-first path, joining [Chesed](/knowledge/tree-of-lif
 - [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-wheel-of-fortune]: The Wheel of Fortune is change, cycle, and the turning of fate, the reminder that circumstances rise and fall by a logic larger than the will.

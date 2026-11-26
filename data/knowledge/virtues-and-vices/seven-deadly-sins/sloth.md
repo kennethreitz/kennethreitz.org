@@ -24,7 +24,7 @@ Dante places sloth on the fourth terrace, the mountain's exact middle, the sin o
 
 ## The Remedy
 
-The counter-practice is [Diligence](/knowledge/virtues-and-vices/virtues/diligence), not busyness but *zeal*, the sustained fidelity of attention and effort to what one actually loves. The runner's cure works because sloth is momentum-shaped: caring, like running, is rebuilt one committed stride at a time.
+The counter-practice is [Diligence](/knowledge/virtues-and-vices/virtues/diligence)[^sn-diligence], not busyness but *zeal*, the sustained fidelity of attention and effort to what one actually loves. The runner's cure works because sloth is momentum-shaped: caring, like running, is rebuilt one committed stride at a time.
 
 ## The Enneagram Passion
 
@@ -44,3 +44,5 @@ In the [Enneagram](/knowledge/enneagram), sloth is the passion of [Type 9](/know
 ---
 
 *Acedia never says no to the good. It says later, until later runs out.*
+
+[^sn-diligence]: Diligence stands among the seven heavenly virtues as the remedy for Sloth.

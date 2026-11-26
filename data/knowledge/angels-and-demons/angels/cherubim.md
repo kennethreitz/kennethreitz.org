@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Choir
 
-Second only to the Seraphim, the Cherubim are the guardians of divine wisdom and the keepers of God’s glory. The Hebrew *kerub* is of uncertain origin, often linked to an Akkadian root for one who intercedes or blesses, though a long tradition following the grammarians read the name as “fullness of knowledge.” In the schema of Pseudo-Dionysius they receive the fire of the Seraphim above them and transmute it into light, the radiance of understanding poured out upon all creation. They are not the plump winged infants of later sentimental art, the *putti* that Renaissance painters borrowed from pagan cupids, but vast and terrible beings.
+Second only to the Seraphim,[^sn-seraphim] the Cherubim are the guardians of divine wisdom and the keepers of God’s glory. The Hebrew *kerub* is of uncertain origin, often linked to an Akkadian root for one who intercedes or blesses, though a long tradition following the grammarians read the name as “fullness of knowledge.” In the schema of Pseudo-Dionysius they receive the fire of the Seraphim above them and transmute it into light, the radiance of understanding poured out upon all creation. They are not the plump winged infants of later sentimental art, the *putti* that Renaissance painters borrowed from pagan cupids, but vast and terrible beings.
 
 The Cherubim are woven through the whole of scripture. It was a cherub with a flaming sword that God set at the gate of Eden to guard the way to the tree of life. Cherubim of beaten gold overshadowed the mercy seat above the Ark of the Covenant, and God is repeatedly named as the One “enthroned upon the cherubim,” riding upon a cherub as upon the wind. Ezekiel saw them by the river Chebar as fourfold living creatures, each with the faces of man, lion, ox, and eagle turned to the four quarters of the world, their bodies and their wheels studded with eyes, moving wherever the spirit went without turning. The Apocalypse gathers these images into the four living creatures around the throne, full of eyes before and behind, who never rest from crying the thrice-holy, later read as the emblems of the four Evangelists.
 
@@ -37,3 +37,5 @@ The medieval theologians assigned to the Cherubim the perfection of wisdom, the 
 
 - [Biblical Angels](/knowledge/angels-and-demons/angels/biblical-angels)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+[^sn-seraphim]: The Seraphim are the highest choir of the celestial hierarchy, the angels who stand nearest to the divine presence and are, in the vision of Pseudo-Dionysius the Areopagite, the very embodiment of love in its most incandescent form. See [Seraphim](/knowledge/angels-and-demons/angels/seraphim).

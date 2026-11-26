@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Where It Belongs
 
-Chastity (*castitas*) stands among the seven heavenly virtues as the remedy for [Lust](/knowledge/virtues-and-vices/seven-deadly-sins/lust). In Prudentius's *Psychomachia* she is Pudicitia, the second combatant to take the field, cutting down Libido with a sword, an image the Middle Ages loved and modernity finds easy to mock, which says something about both eras. The virtue has suffered more shrinkage than any other on the list: reduced in the popular mind to mere abstinence, a fence around an absence. The tradition meant something more interesting.
+Chastity (*castitas*) stands among the seven heavenly virtues as the remedy for [Lust](/knowledge/virtues-and-vices/seven-deadly-sins/lust).[^sn-lust] In Prudentius's *Psychomachia* she is Pudicitia, the second combatant to take the field, cutting down Libido with a sword, an image the Middle Ages loved and modernity finds easy to mock, which says something about both eras. The virtue has suffered more shrinkage than any other on the list: reduced in the popular mind to mere abstinence, a fence around an absence. The tradition meant something more interesting.
 
 ## What It Is
 
@@ -34,3 +34,5 @@ Chastity answers [Lust](/knowledge/virtues-and-vices/seven-deadly-sins/lust), th
 ---
 
 *The fire on the last terrace does not burn desire away. It burns away everything desire mistook for itself.*
+
+[^sn-lust]: Beneath lust is the longing for union, the desire to be met, merged, consumed and consuming, bent into the use of another person as an instrument of sensation.

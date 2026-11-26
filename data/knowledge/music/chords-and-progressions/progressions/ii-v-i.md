@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 The ii–V–I is the fundamental cadence of jazz, the harmonic sentence that thousands of standards are built from, phrase by phrase. Using seventh chords rather than plain triads, it strings together three roots falling by fifths: the supertonic minor seventh, the dominant seventh, and the tonic major seventh. Each chord hands off to the next through smooth voice-leading, the guide tones sliding by half-steps so the whole motion feels inevitable.
 
-The engine is the tritone inside the [Dominant Seventh](/knowledge/music/chords-and-progressions/chords/dominant-seventh). In C, the G7 contains B and F, a tritone that resolves outward to C and E, the defining tones of Cmaj7. The ii chord simply prepares the dominant, giving the ear a running start into that resolution. Master this three-chord unit in every key and you can navigate most of the jazz repertoire, because the repertoire is largely ii–V–I chains, transposed and linked.
+The engine is the tritone inside the [Dominant Seventh](/knowledge/music/chords-and-progressions/chords/dominant-seventh).[^sn-dominant-seventh] In C, the G7 contains B and F, a tritone that resolves outward to C and E, the defining tones of Cmaj7. The ii chord simply prepares the dominant, giving the ear a running start into that resolution. Master this three-chord unit in every key and you can navigate most of the jazz repertoire, because the repertoire is largely ii–V–I chains, transposed and linked.
 
 ## Structure
 
@@ -27,7 +27,7 @@ The engine is the tritone inside the [Dominant Seventh](/knowledge/music/chords-
 
 ## In Practice
 
-It is the connective tissue of the Great American Songbook. "Autumn Leaves," "Fly Me to the Moon," and virtually every jazz standard cycle through it. Bebop players treat it as a unit of thought, memorizing licks that fit any ii–V–I and deploying them at speed. Its relatives, the [Circle of Fifths Progression](/knowledge/music/chords-and-progressions/progressions/circle-of-fifths-progression) and the [Backdoor Progression](/knowledge/music/chords-and-progressions/progressions/backdoor-progression), extend or substitute the same resolving logic.
+It is the connective tissue of the Great American Songbook. "Autumn Leaves," "Fly Me to the Moon," and virtually every jazz standard cycle through it. Bebop players treat it as a unit of thought, memorizing licks that fit any ii–V–I and deploying them at speed. Its relatives, the [Circle of Fifths Progression](/knowledge/music/chords-and-progressions/progressions/circle-of-fifths-progression)[^sn-circle-of-fifths-progression] and the [Backdoor Progression](/knowledge/music/chords-and-progressions/progressions/backdoor-progression), extend or substitute the same resolving logic.
 
 ## Related
 
@@ -36,3 +36,7 @@ It is the connective tissue of the Great American Songbook. "Autumn Leaves," "Fl
 - [Cadences](/knowledge/music/chords-and-progressions/progressions/cadences)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-circle-of-fifths-progression]: The circle of fifths progression chains chords whose roots descend by perfect fifths, each one leaning into the next the way a dominant leans into its tonic.
+
+[^sn-dominant-seventh]: The dominant seventh is not a place to rest; it is a chord that exists in order to go somewhere.

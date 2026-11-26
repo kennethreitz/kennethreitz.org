@@ -97,7 +97,7 @@ $ uv add responder
 <!-- vault:history start -->
 ## History
 
-Responder is an async web framework built on ASGI (Asynchronous Server Gateway Interface). It aimed to bring the "For Humans" philosophy to async Python web development.
+Responder is an async web framework built on ASGI (Asynchronous Server Gateway Interface). It aimed to bring the "For Humans" philosophy to async Python web development.[^sn-created]
 
 ASGI-native, built for async from the ground up. Background task scheduling without Celery. Built-in GraphQL support via Graphene. OpenAPI schema generation automatic. WebSocket support included. Clean decorator-based routing. Good defaults that work out of the box. The goal was Flask's simplicity with async capabilities, a web framework you could start using in five minutes but that scaled to production.
 

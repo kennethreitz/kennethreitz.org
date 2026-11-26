@@ -27,7 +27,7 @@ That density is its whole character. Hematite feels serious. It does not shimmer
 
 ## Properties
 
-Hematite is the great grounder. When thought races and the body feels light and unmoored, it pulls the energy down through the root and back into the earth, a magnetic anchor for a scattered mind. It is used for focus, for absorbing anxiety, for the sense of being present in one’s own weight. Ruled by Mars and Saturn, it lends discipline and boundary, the ability to hold a line and stay in the body while doing it. Many use it as a protective shield that turns disorder aside and keeps the wearer collected.
+Hematite is the great grounder. When thought races and the body feels light and unmoored, it pulls the energy down through the root and back into the earth, a magnetic anchor for a scattered mind. It is used for focus, for absorbing anxiety, for the sense of being present in one’s own weight. Ruled by Mars and Saturn,[^sn-saturn-astrology] it lends discipline and boundary, the ability to hold a line and stay in the body while doing it. Many use it as a protective shield that turns disorder aside and keeps the wearer collected.
 
 ## In Practice
 
@@ -40,3 +40,5 @@ Held in each hand or placed at the feet during meditation, it draws overactive e
 - [Obsidian](/knowledge/crystals-and-gemstones/obsidian)
 - [Muladhara](/knowledge/chakras/muladhara)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-saturn-astrology]: Saturn’s gift is maturity: authority earned through endurance, freedom won through mastery, a self forged by meeting limits rather than fleeing them. [Saturn (astrology)](/knowledge/astrology/planets/saturn-astrology) has the rest.

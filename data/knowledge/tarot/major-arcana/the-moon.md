@@ -16,7 +16,7 @@ A full moon hangs in a troubled sky, its face both radiant and sorrowful, drippi
 
 ## Upright
 
-The Moon is illusion, the unconscious, and the necessary passage through fear and confusion. Where [The Star](/knowledge/tarot/major-arcana/the-star) gave clear serene light, the Moon gives reflected, shifting light in which nothing is quite what it seems. Upright, the card counsels courage in uncertainty, the willingness to walk the path even when dreams, anxieties, and half-truths crowd its edges. It speaks of intuition and the deep material rising, and of not mistaking every shadow for a monster. To draw it is to be told the way forward runs through the dark, not around it.
+The Moon is illusion, the unconscious, and the necessary passage through fear and confusion. Where [The Star](/knowledge/tarot/major-arcana/the-star)[^sn-the-star] gave clear serene light, the Moon gives reflected, shifting light in which nothing is quite what it seems. Upright, the card counsels courage in uncertainty, the willingness to walk the path even when dreams, anxieties, and half-truths crowd its edges. It speaks of intuition and the deep material rising, and of not mistaking every shadow for a monster. To draw it is to be told the way forward runs through the dark, not around it.
 
 ## Reversed
 
@@ -49,3 +49,5 @@ When the Moon appears, the reading turns toward the unconscious, uncertainty, an
 - [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess)
 - [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-star]: The Star is hope, renewal, and serene faith after devastation.

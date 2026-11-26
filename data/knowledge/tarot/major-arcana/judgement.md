@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Imagery
 
-An angel: Gabriel: leans from the clouds and blows a great trumpet from which hangs a red cross on a white banner. Below, grey figures rise naked from open coffins that float on a wide sea: a man, a woman, and a child, arms lifted, faces turned upward in wonder. The dead are waking. Their gesture is not fear but recognition, as though they have heard something they always knew was coming. Snow-capped mountains stand in the distance. After the daylight of [The Sun](/knowledge/tarot/major-arcana/the-sun), the card is a summons, the moment of awakening, reckoning, and rebirth into a larger life.
+An angel: Gabriel: leans from the clouds and blows a great trumpet from which hangs a red cross on a white banner. Below, grey figures rise naked from open coffins that float on a wide sea: a man, a woman, and a child, arms lifted, faces turned upward in wonder. The dead are waking. Their gesture is not fear but recognition, as though they have heard something they always knew was coming. Snow-capped mountains stand in the distance. After the daylight of [The Sun](/knowledge/tarot/major-arcana/the-sun),[^sn-the-sun] the card is a summons, the moment of awakening, reckoning, and rebirth into a larger life.
 
 ## Upright
 
@@ -32,7 +32,7 @@ Reversed, the call goes unheard. The card can mean self-doubt, a refusal of the 
 
 ## Archetype
 
-Judgement is the archetype of rebirth and vocation, the psyche’s call to answer for its whole life and be made new by the answering. In [Individuation](/knowledge/psychology/jungian/individuation) it is the penultimate integration, the moment the self hears the summons of [The Self](/knowledge/psychology/jungian/the-self) and rises to meet it consciously and completely. Jung understood true awakening not as a verdict imposed from outside but as an inner recognition, the deep self calling the ego to account and, in the same breath, to resurrection. The dead rise because they finally recognise their own name.
+Judgement is the archetype of rebirth and vocation, the psyche’s call to answer for its whole life and be made new by the answering. In [Individuation](/knowledge/psychology/jungian/individuation) it is the penultimate integration, the moment the self hears the summons of [The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self] and rises to meet it consciously and completely. Jung understood true awakening not as a verdict imposed from outside but as an inner recognition, the deep self calling the ego to account and, in the same breath, to resurrection. The dead rise because they finally recognise their own name.
 
 ## Mythological Echoes
 
@@ -49,3 +49,7 @@ When Judgement appears, the reading turns toward awakening, reckoning, and the c
 - [Death](/knowledge/tarot/major-arcana/death)
 - [The Self](/knowledge/psychology/jungian/the-self)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-sun]: The Sun is joy, clarity, and vitality, success made warm and life lived without concealment.
+
+[^sn-the-self]: The Self is both the starting point and the goal of development.

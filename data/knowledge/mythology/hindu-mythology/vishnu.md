@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Vishnu is the preserver god in the Hindu Trimurti. He maintains cosmic order (dharma) and protects the universe. When dharma is threatened, he descends to earth in various avatars to restore balance. One of the most widely worshipped deities in Hinduism.
 
-His blue or dark skin represents the infinite, like sky and ocean. Four arms hold the conch (Shankha, sound of creation), discus (Sudarshana Chakra, weapon against evil), lotus (Padma, spiritual liberation), and mace (Gada, power and authority). His vehicle is Garuda, the divine eagle. In his resting form, he reclines on Shesha the cosmic serpent, floating on the cosmic ocean with Lakshmi at his feet, dreaming the universe into being between cycles.
+His blue or dark skin represents the infinite, like sky and ocean. Four arms hold the conch (Shankha, sound of creation), discus (Sudarshana Chakra, weapon against evil), lotus (Padma, spiritual liberation), and mace (Gada, power and authority). His vehicle is Garuda, the divine eagle. In his resting form, he reclines on Shesha the cosmic serpent, floating on the cosmic ocean with Lakshmi[^sn-lakshmi] at his feet, dreaming the universe into being between cycles.
 
 ---
 
@@ -69,3 +69,5 @@ See: [Jungian Archetypes](/knowledge/psychology/jungian/major-jungian-concepts)
 - [Krishna](/knowledge/mythology/hindu-mythology/krishna) - Most popular avatar
 - Rama - Avatar, ideal king
 - [Hindu Mythology Index](/knowledge/mythology/hindu-mythology)
+
+[^sn-lakshmi]: Lakshmi is the goddess of wealth and good fortune, abundance in every sense, material and spiritual. See [Lakshmi](/knowledge/mythology/hindu-mythology/lakshmi).

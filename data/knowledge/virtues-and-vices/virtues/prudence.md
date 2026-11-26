@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Where It Belongs
 
-Prudence is the first of the four cardinal virtues, the list Plato sketched in the *Republic*, the Stoics systematized, and Cicero, Ambrose, and Aquinas carried into the Christian centuries. See [Stoicism](/knowledge/philosophy/stoicism) for the philosophical home. The tradition did not merely list it first; it called prudence *auriga virtutum*, the charioteer of the virtues, because the other three depend on it. [Fortitude](/knowledge/virtues-and-vices/virtues/fortitude) without prudence is recklessness; [Justice](/knowledge/virtues-and-vices/virtues/justice-virtue) without prudence misjudges what is owed; [Temperance](/knowledge/virtues-and-vices/virtues/temperance-virtue) without prudence cannot find the measure it is supposed to keep.
+Prudence is the first of the four cardinal virtues, the list Plato sketched in the *Republic*, the Stoics systematized, and Cicero, Ambrose, and Aquinas carried into the Christian centuries. See [Stoicism](/knowledge/philosophy/stoicism) for the philosophical home. The tradition did not merely list it first; it called prudence *auriga virtutum*, the charioteer of the virtues, because the other three depend on it. [Fortitude](/knowledge/virtues-and-vices/virtues/fortitude) without prudence is recklessness; [Justice](/knowledge/virtues-and-vices/virtues/justice-virtue) without prudence misjudges what is owed; [Temperance](/knowledge/virtues-and-vices/virtues/temperance-virtue)[^sn-temperance-virtue] without prudence cannot find the measure it is supposed to keep.
 
 ## What It Is
 
@@ -20,7 +20,7 @@ The Greek is *phronesis*: practical wisdom, the virtue Aristotle spent a book of
 
 ## The Missing Card
 
-Prudence has no direct opposite among the seven deadly sins, its failure is not a passion but a blindness, and every sin employs it. It is also, famously, the missing cardinal virtue of the tarot: [Justice](/knowledge/tarot/major-arcana/justice), [Strength](/knowledge/tarot/major-arcana/strength), and [Temperance](/knowledge/tarot/major-arcana/temperance) all appear among the trumps, but no card bears Prudence's name. Tradition has hunted for her for centuries, some find her in the Hermit's lantern, some in the World. The better reading may be that she was never missing: prudence is the *reader* of the cards, the discernment the whole deck presupposes.
+Prudence has no direct opposite among the seven deadly sins, its failure is not a passion but a blindness, and every sin employs it. It is also, famously, the missing cardinal virtue of the tarot: [Justice](/knowledge/tarot/major-arcana/justice),[^sn-justice] [Strength](/knowledge/tarot/major-arcana/strength), and [Temperance](/knowledge/tarot/major-arcana/temperance) all appear among the trumps, but no card bears Prudence's name. Tradition has hunted for her for centuries, some find her in the Hermit's lantern, some in the World. The better reading may be that she was never missing: prudence is the *reader* of the cards, the discernment the whole deck presupposes.
 
 ---
 
@@ -34,3 +34,7 @@ Prudence has no direct opposite among the seven deadly sins, its failure is not 
 ---
 
 *The charioteer holds no weapon. The horses are the weapon; she is the aim.*
+
+[^sn-temperance-virtue]: Temperance is the only virtue that sits on both of the great practical lists.
+
+[^sn-justice]: Justice is truth, accountability, and the law of cause and effect made visible.

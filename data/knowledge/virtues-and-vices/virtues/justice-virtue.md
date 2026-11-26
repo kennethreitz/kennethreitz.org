@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Where It Belongs
 
-Justice is the second of the four cardinal virtues, alongside [Prudence](/knowledge/virtues-and-vices/virtues/prudence), [Fortitude](/knowledge/virtues-and-vices/virtues/fortitude), and [Temperance](/knowledge/virtues-and-vices/virtues/temperance-virtue), the list that begins in Plato's *Republic* and runs through the Stoics into Aquinas. See [Stoicism](/knowledge/philosophy/stoicism), where justice governs everything owed to others. For Plato it was the crowning virtue, and his definition is worth keeping: justice is each part doing its own work, in the city, each class; in the soul, reason, spirit, and appetite each in right relation. Injustice, on this reading, is not first a crime but a disorder: something in the whole usurping a place that is not its own.
+Justice is the second of the four cardinal virtues, alongside [Prudence](/knowledge/virtues-and-vices/virtues/prudence), [Fortitude](/knowledge/virtues-and-vices/virtues/fortitude), and [Temperance](/knowledge/virtues-and-vices/virtues/temperance-virtue)[^sn-temperance-virtue], the list that begins in Plato's *Republic* and runs through the Stoics into Aquinas. See [Stoicism](/knowledge/philosophy/stoicism), where justice governs everything owed to others. For Plato it was the crowning virtue, and his definition is worth keeping: justice is each part doing its own work, in the city, each class; in the soul, reason, spirit, and appetite each in right relation. Injustice, on this reading, is not first a crime but a disorder: something in the whole usurping a place that is not its own.
 
 ## What It Is
 
@@ -23,7 +23,7 @@ Justice has no single deadly sin as its opposite, injustice is rather the *socia
 
 ## The Tarot Echo
 
-The vault's [Justice](/knowledge/tarot/major-arcana/justice) card carries the virtue into the Major Arcana, the crowned figure with sword and scales, weighing exactly, cutting cleanly. Card and virtue agree on the essentials: measure before the blade, and no thumb on the scale.
+The vault's [Justice](/knowledge/tarot/major-arcana/justice)[^sn-justice] card carries the virtue into the Major Arcana, the crowned figure with sword and scales, weighing exactly, cutting cleanly. Card and virtue agree on the essentials: measure before the blade, and no thumb on the scale.
 
 ---
 
@@ -37,3 +37,6 @@ The vault's [Justice](/knowledge/tarot/major-arcana/justice) card carries the vi
 ---
 
 *To each what is due: constantly, perpetually, especially when it costs.*
+
+[^sn-temperance-virtue]: Temperance is the only virtue that sits on both of the great practical lists.
+[^sn-justice]: Justice is truth, accountability, and the law of cause and effect made visible.

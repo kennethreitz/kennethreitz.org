@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Prometheus is the Titan who took the side of humanity against the gods. His name means "forethought," and he is the cleverest of his kind, a maker, a trickster, and a benefactor. In many tellings he shaped the first humans from clay; in all of them he is the one who gave them fire, and with it the beginnings of every craft and every hope of rising above the animals. He did this against the express will of [Zeus](/knowledge/mythology/greek-mythology/zeus), who had meant to keep humankind weak and dependent, and he paid for it with a punishment as famous as the gift. He is the archetype of the enlightener who suffers for what he brings, the one who steals the divine spark and is broken on the wheel of his own generosity.
 
-He is defiant to the core. Even bound and tortured he refuses to bow, keeping the one secret Zeus most wants from him. If there is a patron of stubborn, self-sacrificing conscience in Greek myth, it is Prometheus.
+He is defiant to the core. Even bound and tortured he refuses to bow, keeping the one secret Zeus[^sn-zeus] most wants from him. If there is a patron of stubborn, self-sacrificing conscience in Greek myth, it is Prometheus.
 
 ---
 
@@ -37,3 +37,5 @@ He is defiant to the core. Even bound and tortured he refuses to bow, keeping th
 - [Tarot](/knowledge/tarot)
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-zeus]: Zeus is the king of the Olympian gods and ruler of Mount Olympus. See [Zeus](/knowledge/mythology/greek-mythology/zeus).

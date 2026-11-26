@@ -30,7 +30,7 @@ The major seventh is the sound of relaxed sophistication, warm, open, faintly dr
 
 ## In Practice
 
-The major seventh serves as a lush tonic in jazz and as a colour chord anywhere a songwriter wants warmth without weight. As the I chord of a jazz standard it establishes home with elegance; on the IV it deepens the pre-cadential glow. It is the natural extension of the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad) and a cousin to the sweeter [Sixth Chords](/knowledge/music/chords-and-progressions/chords/sixth-chords). In [pytheory](/software/pytheory) it is a major triad with its seventh scale degree added.
+The major seventh serves as a lush tonic in jazz and as a colour chord anywhere a songwriter wants warmth without weight. As the I chord of a jazz standard it establishes home with elegance; on the IV it deepens the pre-cadential glow. It is the natural extension of the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad) and a cousin to the sweeter [Sixth Chords](/knowledge/music/chords-and-progressions/chords/sixth-chords).[^sn-sixth-chords] In [pytheory](/software/pytheory) it is a major triad with its seventh scale degree added.
 
 ## Related
 
@@ -39,3 +39,5 @@ The major seventh serves as a lush tonic in jazz and as a colour chord anywhere 
 - [Sixth Chords](/knowledge/music/chords-and-progressions/chords/sixth-chords)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
+
+[^sn-sixth-chords]: Sixth chords take a triad and add the sixth degree of the scale rather than a seventh.

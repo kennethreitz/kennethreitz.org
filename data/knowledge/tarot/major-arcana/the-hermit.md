@@ -15,7 +15,7 @@ An old man in a grey cloak stands alone on a snowy peak, his head bowed. In one 
 
 ## Upright
 
-The Hermit is solitude in service of wisdom, the deliberate retreat from noise to hear the inner voice. Where [Strength](/knowledge/tarot/major-arcana/strength) met the lion, the Hermit now steps away from the arena entirely to reflect on what the journey has taught. Upright, the card counsels introspection, spiritual searching, and the guidance that comes only in stillness. He carries his own light, needing no external validation. To draw him is to be invited to withdraw, to seek counsel within, or to become for another the quiet lamp on the dark path.
+The Hermit is solitude in service of wisdom, the deliberate retreat from noise to hear the inner voice. Where [Strength](/knowledge/tarot/major-arcana/strength)[^sn-strength] met the lion, the Hermit now steps away from the arena entirely to reflect on what the journey has taught. Upright, the card counsels introspection, spiritual searching, and the guidance that comes only in stillness. He carries his own light, needing no external validation. To draw him is to be invited to withdraw, to seek counsel within, or to become for another the quiet lamp on the dark path.
 
 ## Reversed
 
@@ -31,7 +31,7 @@ Reversed, solitude curdles into isolation. The card can mean loneliness mistaken
 
 ## Archetype
 
-The Hermit is the Wise Old Man, the archetype of meaning that appears at the threshold of the psyche’s deepening, the inner guide who carries the light of consciousness into the dark. In [Individuation](/knowledge/psychology/jungian/individuation) he marks the turn inward at midlife, the moment the outward campaign of the Chariot gives way to the search for who one has become. Unlike the [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant), his wisdom is unmediated and personal, earned in solitude rather than handed down by an institution.
+The Hermit is the Wise Old Man, the archetype of meaning that appears at the threshold of the psyche’s deepening, the inner guide who carries the light of consciousness into the dark. In [Individuation](/knowledge/psychology/jungian/individuation) he marks the turn inward at midlife, the moment the outward campaign of the Chariot gives way to the search for who one has become. Unlike the [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant),[^sn-the-hierophant] his wisdom is unmediated and personal, earned in solitude rather than handed down by an institution.
 
 ## Mythological Echoes
 
@@ -48,3 +48,6 @@ When the Hermit appears, the reading turns toward retreat, reflection, and inner
 - [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess)
 - [Individuation](/knowledge/psychology/jungian/individuation)
 - [Tarot](/knowledge/tarot)
+
+[^sn-strength]: Strength is fortitude of the quiet kind, courage, patience, and the gentle command of one’s own animal nature.
+[^sn-the-hierophant]: The Hierophant is the transmission of received wisdom, religion, tradition, mentorship, the tested structures through which meaning is passed down.

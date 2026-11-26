@@ -30,7 +30,7 @@ Reversed, mastery sours into excess. The card can show greed, corruption, and th
 
 ## Archetype
 
-The King of Pentacles is the mature masculine in its earthy, provident form, the good father and wise steward that Jung located in the positive senex, the elder whose authority nourishes rather than oppresses. He represents the ego that has mastered the reality principle and put its competence in service of others, [Self](/knowledge/psychology/jungian/the-self) realised through the disciplined building of something lasting. His bull-throne is instinct fully governed, power made productive. Where [The Emperor](/knowledge/tarot/major-arcana/the-emperor) rules through law and structure, this King rules through cultivation, the patient husbandry of resources into an enduring, generous whole.
+The King of Pentacles is the mature masculine in its earthy, provident form, the good father and wise steward that Jung located in the positive senex, the elder whose authority nourishes rather than oppresses. He represents the ego that has mastered the reality principle and put its competence in service of others, [Self](/knowledge/psychology/jungian/the-self) realised through the disciplined building of something lasting. His bull-throne is instinct fully governed, power made productive. Where [The Emperor](/knowledge/tarot/major-arcana/the-emperor)[^sn-the-emperor] rules through law and structure, this King rules through cultivation, the patient husbandry of resources into an enduring, generous whole.
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ When this card appears, step into grounded, generous authority; you have built m
 - [The Emperor](/knowledge/tarot/major-arcana/the-emperor)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-the-emperor]: The Emperor is structure, authority, and the protective power of law.

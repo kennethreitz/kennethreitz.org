@@ -7,11 +7,11 @@ source: obsidian-knowledge
 
 > *The thing that cannot be manufactured but can only be discovered.*
 
-The *lapis philosophorum*. The end product of [The Magnum Opus](/knowledge/alchemy/the-magnum-opus). In the literal alchemical tradition, a substance capable of transmuting base metals into gold and conferring immortality through the *elixir vitae*. In the psychological tradition that Jung uncovered beneath the chemistry, something far more interesting: the integrated Self.
+The *lapis philosophorum*. The end product of [The Magnum Opus](/knowledge/alchemy/the-magnum-opus).[^sn-the-magnum-opus] In the literal alchemical tradition, a substance capable of transmuting base metals into gold and conferring immortality through the *elixir vitae*. In the psychological tradition that Jung uncovered beneath the chemistry, something far more interesting: the integrated Self.
 
 The Philosopher's Stone is not a thing you make. It's a thing you become. The alchemists spent centuries in their laboratories searching for an external substance that would transform everything it touched, and the serious ones gradually realized that the substance was the alchemist. The transformation of lead into gold was the transformation of the unconscious into the conscious, of the fragmented into the whole.
 
-Jung identified the Stone with [The Self](/knowledge/psychology/jungian/the-self), not the ego, but the totality of the psyche. The Self is the organizing center that holds all opposites in relationship: shadow and light, masculine and feminine, personal and collective. The Stone is what emerges when the Opus is complete. It doesn't dissolve the opposites. It *is* the opposites, held in dynamic union.
+Jung identified the Stone with [The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self], not the ego, but the totality of the psyche. The Self is the organizing center that holds all opposites in relationship: shadow and light, masculine and feminine, personal and collective. The Stone is what emerges when the Opus is complete. It doesn't dissolve the opposites. It *is* the opposites, held in dynamic union.
 
 The Stone has several properties the alchemists insisted on. It is *incorruptible*, once achieved, it cannot be degraded. It is *universal*, it works on any base material. It is *hidden in plain sight*, present from the beginning but unrecognizable until the work reveals it. And it is *paradoxical*, simultaneously the cheapest and most precious substance, found everywhere and nowhere, ignored by the many and sought by the few.
 
@@ -29,3 +29,6 @@ The alchemists warned: the Stone is not the end of the journey. It's the *produc
 - Nene: The core that was always there
 - [For Humans](/knowledge/philosophy/for-humans): The transmuting principle
 - [Individuation](/knowledge/psychology/jungian/individuation): The journey to the Stone
+
+[^sn-the-magnum-opus]: The Magnum Opus is the alchemist's name for the complete transformation of base matter into gold, or, read correctly, the complete transformation of the unrefined self into the integrated one.
+[^sn-the-self]: The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche.

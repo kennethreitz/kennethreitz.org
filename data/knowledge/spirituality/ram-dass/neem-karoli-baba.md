@@ -26,7 +26,7 @@ Almost nothing is reliably known of his early life. Neem Karoli Baba left few fa
 
 ## The Simplest Teaching
 
-He gave no elaborate philosophy. Pressed for instruction, he would say some version of the same handful of words: *feed everyone, serve everyone, love everyone, remember God.* That was the whole path, bhakti, the [yoga of devotion](/knowledge/spirituality/yoga/four-yogas/bhakti-yoga), love as the road home. Not a doctrine to master but a heart to open. Serve the person in front of you as if they were God, because they are; remember God in everything, because there is nothing else. In the [Ram Dass](/knowledge/spirituality/ram-dass) framing, the guru is finally a mirror for unconditional love, and "the guru is within you." Maharaj-ji pointed people not toward himself but through himself, toward the love he was so plainly made of.
+He gave no elaborate philosophy. Pressed for instruction, he would say some version of the same handful of words: *feed everyone, serve everyone, love everyone, remember God.* That was the whole path, bhakti, the [yoga of devotion](/knowledge/spirituality/yoga/four-yogas/bhakti-yoga),[^sn-bhakti-yoga] love as the road home. Not a doctrine to master but a heart to open. Serve the person in front of you as if they were God, because they are; remember God in everything, because there is nothing else. In the [Ram Dass](/knowledge/spirituality/ram-dass) framing, the guru is finally a mirror for unconditional love, and "the guru is within you." Maharaj-ji pointed people not toward himself but through himself, toward the love he was so plainly made of.
 
 ---
 
@@ -50,3 +50,5 @@ He drew an unlikely constellation of Westerners who would carry the transmission
 ---
 
 *"Love everyone, serve everyone, remember God."*
+
+[^sn-bhakti-yoga]: Bhakti yoga is the path of devotion, love directed toward the divine until the lover, the loving, and the beloved collapse into one thing.

@@ -14,7 +14,7 @@ Qian is the pure yang trigram: three solid, unbroken lines, ☰, without a singl
 
 Its action is origination, the impulse that begins, the will that decides a thing shall be. In the family of the eight, Qian is the **Father**, the generative principle from which the other trigrams take their descent. It is the nearest the East comes to the Western [element](/knowledge/elements) of Fire in its highest register, the pure active fire that is closer to Aether than to any burning thing, spirit rather than flame.
 
-In the ideal **Earlier Heaven** arrangement of Fu Xi, Qian sits at the very top, at the south, facing its exact opposite [Kun](/knowledge/trigrams/kun) at the bottom, heaven above, earth below, the cosmos in perfect poise. In the **Later Heaven** arrangement of King Wen it moves to the **Northwest**, its power now working within the turning world rather than presiding over it from above. In divination Qian speaks of tremendous creative energy available to one who can wield it, leadership, initiative, the pure light of a beginning, with the standing warning that force undirected exhausts itself and dominates where it meant to father.
+In the ideal **Earlier Heaven** arrangement of Fu Xi, Qian sits at the very top, at the south, facing its exact opposite [Kun](/knowledge/trigrams/kun)[^sn-kun] at the bottom, heaven above, earth below, the cosmos in perfect poise. In the **Later Heaven** arrangement of King Wen it moves to the **Northwest**, its power now working within the turning world rather than presiding over it from above. In divination Qian speaks of tremendous creative energy available to one who can wield it, leadership, initiative, the pure light of a beginning, with the standing warning that force undirected exhausts itself and dominates where it meant to father.
 
 ## The Figure
 
@@ -34,3 +34,5 @@ In the ideal **Earlier Heaven** arrangement of Fu Xi, Qian sits at the very top,
 - [Xun](/knowledge/trigrams/xun), [Li](/knowledge/trigrams/li), [Dui](/knowledge/trigrams/dui), the three daughters
 - [Elements](/knowledge/elements), the Western elements, the trigrams' cousin
 - [Taoism](/knowledge/religions-of-the-world/taoism), [Trigrams](/knowledge/trigrams)
+
+[^sn-kun]: Kun is the pure yin trigram: three broken lines, ☷, each with its gap at the center, offering no resistance anywhere.

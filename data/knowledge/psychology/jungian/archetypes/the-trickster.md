@@ -22,7 +22,7 @@ At his creative pole he manifests as humor, improvisation, inventiveness, and th
 
 ## In Tarot
 
-He wears two masks. As [The Fool](/knowledge/tarot/major-arcana/the-fool) he steps blithely off the cliff, holy in his heedlessness, carrying the whole of possibility in a small sack. As [The Magician](/knowledge/tarot/major-arcana/the-magician) he stands at the table of the four elements, channeling the powers of the cosmos with a wink, the sly maker who conjures reality from thin air and knows the trick is real.
+He wears two masks. As [The Fool](/knowledge/tarot/major-arcana/the-fool) he steps blithely off the cliff, holy in his heedlessness, carrying the whole of possibility in a small sack. As [The Magician](/knowledge/tarot/major-arcana/the-magician)[^sn-the-magician] he stands at the table of the four elements, channeling the powers of the cosmos with a wink, the sly maker who conjures reality from thin air and knows the trick is real.
 
 ## In Myth
 
@@ -39,3 +39,5 @@ He wears two masks. As [The Fool](/knowledge/tarot/major-arcana/the-fool) he ste
 - [Major Jungian Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 - [Mythology](/knowledge/mythology)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-magician]: The Magician is conscious will made effective, the moment the diffuse potential of The Fool finds a hand to act through.

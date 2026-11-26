@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 The Flower of Life is a pattern of evenly spaced, overlapping circles arranged in sixfold symmetry, each circle passing through the centers of those around it. Beginning from a single circle, a ring of six is drawn around it, then further rings outward, until the plane fills with a lattice of interlocking arcs whose points of intersection blossom into a field of petal shapes. Traditionally the figure is bounded by a large circle, containing nineteen complete circles and a fringe of partial ones, held in a hexagonal balance.
 
-The pattern is ancient and widespread, found carved on temple walls and traced in manuscripts across many cultures. Its appeal lies in how much it contains within so simple a rule: from the mere repetition of one circle at one spacing, an astonishing wealth of further figures emerges. Within its overlaps one can trace the Vesica Piscis, the Seed of Life, and the framework from which Metatron's Cube and the Platonic solids are drawn. It is often called the template of creation, the single sheet on which all the sacred forms are already latent.
+The pattern is ancient and widespread, found carved on temple walls and traced in manuscripts across many cultures. Its appeal lies in how much it contains within so simple a rule: from the mere repetition of one circle at one spacing, an astonishing wealth of further figures emerges. Within its overlaps one can trace the Vesica Piscis, the Seed of Life, and the framework from which Metatron's Cube[^sn-metatron-s-cube] and the Platonic solids are drawn. It is often called the template of creation, the single sheet on which all the sacred forms are already latent.
 
 ## Correspondences
 
@@ -35,3 +35,5 @@ The Flower of Life is a meditation on how multiplicity arises from unity without
 - [Vesica Piscis](/knowledge/sacred-geometry/vesica-piscis)
 - [Metatron's Cube](/knowledge/sacred-geometry/metatrons-cube)
 - [Sacred Geometry](/knowledge/sacred-geometry)
+
+[^sn-metatron-s-cube]: Metatron's Cube is derived from the Flower of Life. Take thirteen circles arranged in the pattern sometimes called the Fruit of Life, a central circle ringed by twelve, and connect the center of every circle to the center of every other with straight lines. See [Metatron's Cube](/knowledge/sacred-geometry/metatrons-cube).

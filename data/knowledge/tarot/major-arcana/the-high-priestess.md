@@ -16,7 +16,7 @@ A veiled woman sits enthroned between two pillars, one black and lettered B, one
 
 ## Upright
 
-The High Priestess is the guardian of the unconscious, the knowing that arrives without argument. Where [The Magician](/knowledge/tarot/major-arcana/the-magician) speaks and acts, she is silent and receptive, holding the mysteries that cannot be forced into daylight. Upright, she counsels patience, intuition, and trust in what you sense but cannot yet prove. She is the inner voice heard only when the outer noise subsides, the invitation to stop striving and let understanding surface on its own.
+The High Priestess is the guardian of the unconscious, the knowing that arrives without argument. Where [The Magician](/knowledge/tarot/major-arcana/the-magician)[^sn-the-magician] speaks and acts, she is silent and receptive, holding the mysteries that cannot be forced into daylight. Upright, she counsels patience, intuition, and trust in what you sense but cannot yet prove. She is the inner voice heard only when the outer noise subsides, the invitation to stop striving and let understanding surface on its own.
 
 ## Reversed
 
@@ -49,3 +49,5 @@ When the High Priestess appears, the reading asks you to listen rather than to a
 - [The Moon](/knowledge/tarot/major-arcana/the-moon)
 - [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-magician]: The Magician is conscious will made effective, the moment the diffuse potential of The Fool finds a hand to act through.

@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Where It Belongs
 
-Temperance is the only virtue that sits on both of the great practical lists. Among the four cardinal virtues it is *sophrosyne*, named in Plato's *Republic* as the ordering of the appetites and prized by the Stoics as one of the four hinges of the good life, see [Stoicism](/knowledge/philosophy/stoicism). Among the seven heavenly virtues it serves as the remedy for [Gluttony](/knowledge/virtues-and-vices/seven-deadly-sins/gluttony). Plato gave it the humblest of the four cardinal roles, where wisdom rules and courage defends, temperance is the harmony by which every part of the soul consents to the arrangement, and the humility of the role is exactly its importance.
+Temperance is the only virtue that sits on both of the great practical lists. Among the four cardinal virtues it is *sophrosyne*, named in Plato's *Republic* as the ordering of the appetites and prized by the Stoics as one of the four hinges of the good life, see [Stoicism](/knowledge/philosophy/stoicism).[^sn-stoicism] Among the seven heavenly virtues it serves as the remedy for [Gluttony](/knowledge/virtues-and-vices/seven-deadly-sins/gluttony). Plato gave it the humblest of the four cardinal roles, where wisdom rules and courage defends, temperance is the harmony by which every part of the soul consents to the arrangement, and the humility of the role is exactly its importance.
 
 ## What It Is
 
@@ -23,7 +23,7 @@ Temperance answers [Gluttony](/knowledge/virtues-and-vices/seven-deadly-sins/glu
 
 ## The Tarot Echo
 
-The vault's [Temperance](/knowledge/tarot/major-arcana/temperance) card carries this virtue into the Major Arcana: the angel pouring between two cups, blending extremes into a third thing that is neither, mixture, measure, the middle way as an act of grace. Card and virtue share more than a name; both insist that balance is not stinginess but alchemy.
+The vault's [Temperance](/knowledge/tarot/major-arcana/temperance)[^sn-temperance] card carries this virtue into the Major Arcana: the angel pouring between two cups, blending extremes into a third thing that is neither, mixture, measure, the middle way as an act of grace. Card and virtue share more than a name; both insist that balance is not stinginess but alchemy.
 
 ---
 
@@ -38,3 +38,6 @@ The vault's [Temperance](/knowledge/tarot/major-arcana/temperance) card carries 
 ---
 
 *The steel is not weaker for being tempered. It is finally usable.*
+
+[^sn-stoicism]: Stoicism is an ancient Greek and Roman philosophy founded around 300 BCE by Zeno of Citium.
+[^sn-temperance]: Temperance is balance, integration, and the slow art of the middle way.

@@ -16,9 +16,9 @@ The teaching that follows is transmutation. Because the poles are one thing in d
 
 ## Why It Matters to Kenneth
 
-Polarity gives Kenneth a frame for the swings his own mind has taught him. Mania and depression are, on this reading, not two afflictions but two ends of one axis, the same energy at different degrees, which is part of why the way through is regulation rather than eradication. The clinical picture and the Hermetic one point at the same structural fact from different sides: the poles are joined, and the work is to find the middle rather than to amputate an end.
+Polarity gives Kenneth a frame for the swings his own mind has taught him. Mania and depression are, on this reading, not two afflictions but two ends of one axis, the same energy at different degrees, which is part of why the way through is regulation rather than eradication. The clinical picture[^sn-schizoaffective-disorder] and the Hermetic one point at the same structural fact from different sides: the poles are joined, and the work is to find the middle rather than to amputate an end.
 
-The principle also names something at the heart of creative and spiritual practice: the reconciliation of opposites without collapsing either one. That is [Temperance](/knowledge/tarot/major-arcana/temperance) as a Tarot virtue, the [transcendent function](/knowledge/psychology/jungian/the-transcendent-function) in Jungian terms, the third thing that emerges when two poles are held together long enough to reveal they were always one.
+The principle also names something at the heart of creative and spiritual practice: the reconciliation of opposites without collapsing either one. That is [Temperance](/knowledge/tarot/major-arcana/temperance) as a Tarot virtue, the [transcendent function](/knowledge/psychology/jungian/the-transcendent-function)[^sn-the-transcendent-function] in Jungian terms, the third thing that emerges when two poles are held together long enough to reveal they were always one.
 
 ## Related
 
@@ -28,3 +28,7 @@ The principle also names something at the heart of creative and spiritual practi
 - [Temperance](/knowledge/tarot/major-arcana/temperance): polarity transmuted into balance
 - Schizoaffective Disorder: mania and depression as one axis
 - [Enantiodromia](/knowledge/psychology/jungian/enantiodromia), the tendency of a thing to become its opposite
+
+[^sn-the-transcendent-function]: The transcendent function is the psyche's self-healing mechanism, perhaps its most elegant one.
+
+[^sn-schizoaffective-disorder]: Schizoaffective disorder sits at the intersection of two of psychiatry's most significant diagnostic categories, schizophrenia and mood disorders, and inherits the worst features of both.

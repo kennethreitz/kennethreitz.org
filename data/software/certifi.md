@@ -58,9 +58,9 @@ $ uv add certifi
 <!-- vault:history start -->
 ## History
 
-Certifi provides Mozilla's carefully curated collection of Root Certificates for validating SSL/TLS connections. It's what allows [requests](/software/requests) and other Python HTTP libraries to verify that HTTPS connections are legitimate.
+Certifi provides Mozilla's carefully curated collection of Root Certificates for validating SSL/TLS connections. It's what allows [requests](/software/requests) and other Python HTTP libraries to verify that HTTPS connections are legitimate.[^sn-created]
 
-When you make an HTTPS request, your client needs to verify the server's certificate. That verification requires a trusted list of Certificate Authorities (CAs). Certifi provides that list.
+When you make an HTTPS request, your client needs to verify the server's certificate. That verification requires a trusted list of Certificate Authorities (CAs). Certifi provides that list.[^sn-httpbin]
 
 Without certifi, HTTPS verification would fail or be insecure, every Python installation would need system-specific CA handling, and SSL/TLS would be painful to configure. With certifi, `pip install certifi` gives you trusted CAs with cross-platform consistent behavior, automatically used by requests.
 

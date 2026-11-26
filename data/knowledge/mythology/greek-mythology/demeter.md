@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Demeter is the goddess of the harvest, agriculture, nature, and the seasons. Mother of Persephone, her grief over her daughter's abduction by Hades causes the earth to go barren each winter, and her joy at Persephone's return brings spring. This is the myth behind the Eleusinian Mysteries, ancient Greece's most sacred rites.
+Demeter is the goddess of the harvest, agriculture, nature, and the seasons. Mother of Persephone, her grief over her daughter's abduction by Hades[^sn-hades] causes the earth to go barren each winter, and her joy at Persephone's return brings spring. This is the myth behind the Eleusinian Mysteries, ancient Greece's most sacred rites.
 
 Her symbols are wheat and grain, the cornucopia, the torch she carried while searching for Persephone, and the poppy. In Jungian terms, Demeter is the Great Mother archetype: cycles of life and death, grief and renewal, the bond between mother and child as cosmic force.
 
@@ -35,3 +35,5 @@ Her symbols are wheat and grain, the cornucopia, the torch she carried while sea
 - [The Empress](/knowledge/tarot/major-arcana/the-empress) - The Great Mother of the Major Arcana: fertility, harvest, and cyclical renewal
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
 - [The Great Mother](/knowledge/psychology/jungian/major-jungian-concepts)
+
+[^sn-hades]: Hades is the god of the underworld and the dead, eldest son of Cronus, brother to Zeus and Poseidon. See [Hades](/knowledge/mythology/greek-mythology/hades).

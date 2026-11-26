@@ -31,7 +31,7 @@ Reversed, the laurel wilts. Recognition fails to arrive, or arrives and proves h
 
 ## Archetype
 
-Here is the hero at the moment of triumphal return, the point in the monomyth where the boon is won and the community gathers to receive it. Jung would caution that this is precisely where inflation threatens, the ego mistaking the crowd's projection for its own worth. Handled well, the honour of [The Sun](/knowledge/tarot/major-arcana/the-sun) and the turning good fortune of [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune) are integrated humbly; handled poorly, the victor is possessed by his persona and forgets the self beneath the wreath.
+Here is the hero at the moment of triumphal return, the point in the monomyth where the boon is won and the community gathers to receive it. Jung would caution that this is precisely where inflation threatens, the ego mistaking the crowd's projection for its own worth. Handled well, the honour of [The Sun](/knowledge/tarot/major-arcana/the-sun) and the turning good fortune of [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune)[^sn-wheel-of-fortune] are integrated humbly; handled poorly, the victor is possessed by his persona and forgets the self beneath the wreath.
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ When this card appears, savour the win, but watch the appetite it feeds. Ask who
 - [The Sun](/knowledge/tarot/major-arcana/the-sun)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-wheel-of-fortune]: The Wheel of Fortune is change, cycle, and the turning of fate, the reminder that circumstances rise and fall by a logic larger than the will.

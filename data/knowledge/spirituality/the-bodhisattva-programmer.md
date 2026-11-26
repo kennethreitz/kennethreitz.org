@@ -26,11 +26,11 @@ The Bhagavad Gita teaches karma yoga, the path of selfless action, work performe
 >
 > You have the right to work, but never to the fruit of work.
 
-[Karma](/knowledge/spirituality/karma) yoga applied to software development looks like Open Source: writing code because it needs to exist, releasing it because people need it, maintaining it because they depend on it, and never making the work contingent on personal reward.
+[Karma](/knowledge/spirituality/karma)[^sn-karma] yoga applied to software development looks like Open Source: writing code because it needs to exist, releasing it because people need it, maintaining it because they depend on it, and never making the work contingent on personal reward.
 
 Kenneth built [requests](/software/requests) and gave it away. Not as a business strategy with deferred monetization. Not as resume padding that would lead to a better job. As a gift. HTTP should be simple for humans, and someone who could make it so did. The downloads, the GitHub stars, the conference invitations, they came, but they were never the point. The point was that the suffering existed (complex, hostile APIs that made developers feel stupid) and the capability existed (a designer's eye for human-centered interfaces) and the bodhisattva response was to bridge that gap without asking anything in return.
 
-[pipenv](/software/pipenv) followed the same pattern. So did [simplemind](/software/simplemind). Each library is an act of service, capability dedicated to alleviating the specific suffering of humans struggling with tools that were not built with them in mind. The fruits of the work belong to the community. The work itself is the practice.
+[pipenv](/software/pipenv)[^sn-pipenv] followed the same pattern. So did [simplemind](/software/simplemind). Each library is an act of service, capability dedicated to alleviating the specific suffering of humans struggling with tools that were not built with them in mind. The fruits of the work belong to the community. The work itself is the practice.
 
 ---
 
@@ -76,3 +76,6 @@ It means, in every moment of technical choice, asking: who does this serve? And 
 ---
 
 *The bodhisattva programmer does not write code for credit, for metrics, or for the fruit of the work. They write it because the suffering exists and the capability exists and the only honest response is to bridge the gap.*
+
+[^sn-karma]: Karma is one of the most misunderstood concepts in Western spiritual culture.
+[^sn-pipenv]: pipenv introduced Pipfile as a replacement for requirements.txt.

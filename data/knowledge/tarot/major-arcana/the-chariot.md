@@ -16,7 +16,7 @@ An armoured figure stands erect in a stone chariot beneath a starry canopy, hold
 
 ## Upright
 
-The Chariot is willpower, victory, and the disciplined harnessing of opposing drives toward a single goal. Fresh from the union of [The Lovers](/knowledge/tarot/major-arcana/the-lovers), the self must now carry that hard-won integration out into the world and prove it under strain. Upright, the card counsels focus, self-mastery, and forward momentum, the capacity to hold black and white sphinx together and drive them straight. To draw it is to be told that triumph is available if you can govern your own divided energies rather than being pulled apart by them.
+The Chariot is willpower, victory, and the disciplined harnessing of opposing drives toward a single goal. Fresh from the union of [The Lovers](/knowledge/tarot/major-arcana/the-lovers),[^sn-the-lovers] the self must now carry that hard-won integration out into the world and prove it under strain. Upright, the card counsels focus, self-mastery, and forward momentum, the capacity to hold black and white sphinx together and drive them straight. To draw it is to be told that triumph is available if you can govern your own divided energies rather than being pulled apart by them.
 
 ## Reversed
 
@@ -49,3 +49,5 @@ When the Chariot appears, the reading turns toward willed movement and the disci
 - [The Emperor](/knowledge/tarot/major-arcana/the-emperor)
 - [Individuation](/knowledge/psychology/jungian/individuation)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-lovers]: The Lovers is union and the choice that makes union real. On its surface it is romance and partnership; beneath, it is the deeper alchemy of joining opposites into a whole, and the free, values-driven decision that seals such a joining.

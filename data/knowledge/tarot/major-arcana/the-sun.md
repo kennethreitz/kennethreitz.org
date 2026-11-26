@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A great sun with a serene human face fills the sky, its straight and wavy rays alternating like light and warmth. Beneath it, a naked child rides a white horse bareback, arms open, crowned with flowers and trailing a red banner. Behind them a wall bears four tall sunflowers turned toward the light. The child needs neither saddle nor reins; there is nothing to fear here and nothing to hide. After the confusion of [The Moon](/knowledge/tarot/major-arcana/the-moon), everything is clear, warm, and unashamed. The card radiates the simplest and most complete happiness, vitality, innocence regained, the world seen in full daylight.
+A great sun with a serene human face fills the sky, its straight and wavy rays alternating like light and warmth. Beneath it, a naked child rides a white horse bareback, arms open, crowned with flowers and trailing a red banner. Behind them a wall bears four tall sunflowers turned toward the light. The child needs neither saddle nor reins; there is nothing to fear here and nothing to hide. After the confusion of [The Moon](/knowledge/tarot/major-arcana/the-moon),[^sn-the-moon] everything is clear, warm, and unashamed. The card radiates the simplest and most complete happiness, vitality, innocence regained, the world seen in full daylight.
 
 ## Upright
 
@@ -32,7 +32,7 @@ Reversed, the sun dims but does not set. The card can mean a temporary clouding 
 
 ## Archetype
 
-The Sun is the Divine Child reborn in daylight, the archetype of renewed wholeness after the night-sea journey, closely bound to [The Self](/knowledge/psychology/jungian/the-self) as the radiant centre of the psyche. Where the Fool’s innocence was untested, the child of the Sun has passed through the dark of the Moon and emerged luminous and integrated. Jung saw the sun as an image of consciousness itself, and the solar child as the promise of a self made new: spontaneous, unguarded, and whole. It is joy earned rather than merely given.
+The Sun is the Divine Child reborn in daylight, the archetype of renewed wholeness after the night-sea journey, closely bound to [The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self] as the radiant centre of the psyche. Where the Fool’s innocence was untested, the child of the Sun has passed through the dark of the Moon and emerged luminous and integrated. Jung saw the sun as an image of consciousness itself, and the solar child as the promise of a self made new: spontaneous, unguarded, and whole. It is joy earned rather than merely given.
 
 ## Mythological Echoes
 
@@ -49,3 +49,7 @@ When the Sun appears, the reading turns toward joy, clarity, and the full daylig
 - [The Fool](/knowledge/tarot/major-arcana/the-fool)
 - [The Self](/knowledge/psychology/jungian/the-self)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-moon]: The Moon is illusion, the unconscious, and the necessary passage through fear and confusion.
+
+[^sn-the-self]: The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche.

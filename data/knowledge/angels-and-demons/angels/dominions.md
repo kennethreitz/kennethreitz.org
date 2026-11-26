@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Choir
 
-With the Dominions begins the Second Sphere, the great middle order of angels charged not with the immediate contemplation of God but with the governance of creation on His behalf. Their name comes from the Latin *dominus*, lord, translating the Greek *kyriotetes*, the “lordships” or “dominations” that Paul lists among the invisible powers in Ephesians and Colossians, where all rule and authority and dominion are said to have been created in Christ and subjected to him. Also called Lordships, the Dominions are the celestial administrators, the regulators who receive the mandate of authority from the Thrones above and distribute the duties of heaven downward through the ranks.
+With the Dominions begins the Second Sphere, the great middle order of angels charged not with the immediate contemplation of God but with the governance of creation on His behalf. Their name comes from the Latin *dominus*, lord, translating the Greek *kyriotetes*, the “lordships” or “dominations” that Paul lists among the invisible powers in Ephesians and Colossians, where all rule and authority and dominion are said to have been created in Christ and subjected to him. Also called Lordships, the Dominions are the celestial administrators, the regulators who receive the mandate of authority from the Thrones[^sn-thrones] above and distribute the duties of heaven downward through the ranks.
 
 They are said to appear crowned and bearing an orb or a scepter, sometimes with a light-emitting globe at the head of a staff, insignia of the delegated sovereignty they wield, not as tyrants but as stewards, forever mindful that the power they exercise is lent and not owned. In the vision of Pseudo-Dionysius, their lordship consists precisely in their perfect freedom from the tyranny of lesser desire, a mastery so complete that it becomes the very definition of divine order. They rule, in other words, because they have first been ruled; their command is only the overflow of their obedience.
 
@@ -37,3 +37,5 @@ Pseudo-Dionysius derived the name of the Dominions from a lordship free and unfe
 
 - [Biblical Angels](/knowledge/angels-and-demons/angels/biblical-angels)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+[^sn-thrones]: The Thrones complete the First Sphere, the innermost triad that dwells in perpetual nearness to God. See [Thrones](/knowledge/angels-and-demons/angels/thrones).

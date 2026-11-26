@@ -15,7 +15,7 @@ A single chalice floats above an open, receptive palm that emerges from a cloud,
 
 ## Upright
 
-The Ace of Cups is the wellspring, the pure, undifferentiated source of feeling before it takes any particular shape. It announces new love, spiritual opening, creative inspiration, and the sudden softening of a heart that had grown guarded. Where the [Ace of Wands](/knowledge/tarot/minor-arcana/ace-of-wands) ignites and the [Ace of Swords](/knowledge/tarot/minor-arcana/ace-of-swords) cuts, this Ace simply fills. It asks nothing of you but that you receive it, and the difficulty is often precisely that: to let yourself be given to, to trust the overflow rather than the drought.
+The Ace of Cups is the wellspring, the pure, undifferentiated source of feeling before it takes any particular shape. It announces new love, spiritual opening, creative inspiration, and the sudden softening of a heart that had grown guarded. Where the [Ace of Wands](/knowledge/tarot/minor-arcana/ace-of-wands) ignites and the [Ace of Swords](/knowledge/tarot/minor-arcana/ace-of-swords)[^sn-ace-of-swords] cuts, this Ace simply fills. It asks nothing of you but that you receive it, and the difficulty is often precisely that: to let yourself be given to, to trust the overflow rather than the drought.
 
 ## Reversed
 
@@ -48,3 +48,5 @@ When this card surfaces, something wants to be felt. Ask what you have been refu
 - [Ace of Swords](/knowledge/tarot/minor-arcana/ace-of-swords)
 - [Tarot](/knowledge/tarot)
 - [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious)
+
+[^sn-ace-of-swords]: The Ace of Swords is the breakthrough: the moment clarity arrives with the force of revelation and the fog simply lifts.

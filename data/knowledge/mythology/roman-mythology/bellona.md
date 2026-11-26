@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Overview
 
-Bellona is the Roman goddess of war, the intoxication and frenzy of battle personified, distinct from the disciplined military valor of [Mars](/knowledge/mythology/roman-mythology/mars). Her name derives from *bellum*, war itself. She was counted as the companion, and in many tellings the sister or wife, of Mars, riding at his side into the field and driving on the slaughter. Where Mars can stand for Rome's ordered martial power, Bellona is the raw bloodlust of the fight, brandishing a spear or torch, her hair loose, exulting in carnage.
+Bellona is the Roman goddess of war, the intoxication and frenzy of battle personified, distinct from the disciplined military valor of [Mars](/knowledge/mythology/roman-mythology/mars).[^sn-mars] Her name derives from *bellum*, war itself. She was counted as the companion, and in many tellings the sister or wife, of Mars, riding at his side into the field and driving on the slaughter. Where Mars can stand for Rome's ordered martial power, Bellona is the raw bloodlust of the fight, brandishing a spear or torch, her hair loose, exulting in carnage.
 
-Her Greek shadow is Enyo, the war-goddess who accompanied Ares, but Bellona grew into a figure of real Roman civic importance. Her frenzied priests, the *Bellonarii*, were said to gash their own arms and shoulders in her rites and offer the blood to her, a practice that marks her cult as one of ecstatic violence.
+Her Greek shadow is Enyo, the war-goddess who accompanied Ares,[^sn-ares] but Bellona grew into a figure of real Roman civic importance. Her frenzied priests, the *Bellonarii*, were said to gash their own arms and shoulders in her rites and offer the blood to her, a practice that marks her cult as one of ecstatic violence.
 
 ## Temple Outside the Pomerium
 
@@ -31,3 +31,6 @@ If Mars is war made an institution, Bellona is war made a fever. The sources giv
 - [Mars](/knowledge/mythology/roman-mythology/mars): god of war, her companion and kin
 - [Mythology](/knowledge/mythology)
 - [Roman Mythology Index](/knowledge/mythology/roman-mythology)
+
+[^sn-mars]: Mars is the Roman god of war and a guardian of agriculture, far more important in Roman religion than his Greek counterpart Ares.
+[^sn-ares]: Ares is the god of war, representing its violent, physical, and chaotic dimensions. See [Ares](/knowledge/mythology/greek-mythology/ares).

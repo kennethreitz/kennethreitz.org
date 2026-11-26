@@ -28,7 +28,7 @@ Beneath the composure sits a critical inner voice that rarely rests. The One lea
 
 ## Healthy & Unhealthy
 
-At their best, Ones are wise, discerning, and quietly noble, reformers who accept imperfection as the medium in which real good gets done. They become tolerant, even playful, holding principle without cruelty and forgiving themselves the way they would forgive a friend. Under stress the ruler turns to a whip. The inner critic grows tyrannical, resentment simmers beneath a controlled surface, and the One becomes rigid, self-righteous, and unable to let anything rest. Much of their growth is the slow work of meeting the [The Shadow](/knowledge/psychology/jungian/the-shadow), the disowned anger and mess they have been holding at bay, and letting perfection soften into wholeness through [Individuation](/knowledge/psychology/jungian/individuation).
+At their best, Ones are wise, discerning, and quietly noble, reformers who accept imperfection as the medium in which real good gets done. They become tolerant, even playful, holding principle without cruelty and forgiving themselves the way they would forgive a friend. Under stress the ruler turns to a whip. The inner critic grows tyrannical, resentment simmers beneath a controlled surface, and the One becomes rigid, self-righteous, and unable to let anything rest. Much of their growth is the slow work of meeting the [The Shadow](/knowledge/psychology/jungian/the-shadow), the disowned anger and mess they have been holding at bay, and letting perfection soften into wholeness through [Individuation](/knowledge/psychology/jungian/individuation).[^sn-individuation]
 
 ## Related
 
@@ -37,3 +37,5 @@ At their best, Ones are wise, discerning, and quietly noble, reformers who accep
 - [Type 7 - The Enthusiast](/knowledge/enneagram/type-7-the-enthusiast)
 - [Type 4 - The Individualist](/knowledge/enneagram/type-4-the-individualist)
 - [Enneagram](/knowledge/enneagram)
+
+[^sn-individuation]: Individuation is the central process in Jungian psychology, the lifelong journey of becoming who you truly are.

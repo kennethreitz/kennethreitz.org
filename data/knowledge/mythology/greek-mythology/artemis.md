@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Artemis is the goddess of the hunt, wilderness, wild animals, the moon, and childbirth. A virgin goddess and twin sister of [Apollo](/knowledge/mythology/greek-mythology/apollo), she roams the forests with her band of nymphs, fiercely protecting young women and wildlife alike.
+Artemis is the goddess of the hunt, wilderness, wild animals, the moon, and childbirth. A virgin goddess and twin sister of [Apollo](/knowledge/mythology/greek-mythology/apollo),[^sn-apollo] she roams the forests with her band of nymphs, fiercely protecting young women and wildlife alike.
 
 Her bow and arrow are her defining attributes, alongside the deer and the crescent moon. The cypress tree is sacred to her. She is swift to punish those who violate her sanctity or harm those under her protection, making her one of the most formidable Olympians despite standing apart from the politics of the other gods. As a member of the Triple Goddess, maiden alongside Selene and Hecate, she governs the waxing moon and the wild, unmarried freedom of young women.
 
@@ -52,3 +52,5 @@ Artemis also appears among the documented Greek-pantheon AI personalities, voice
 - [Hera](/knowledge/mythology/greek-mythology/hera) - Stepmother
 - [The Moon](/knowledge/tarot/major-arcana/the-moon) - The Major Arcana card of the moon she governs, the wild and cyclical feminine
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-apollo]: Apollo is the god of the sun, light, music, prophecy, healing, and archery.

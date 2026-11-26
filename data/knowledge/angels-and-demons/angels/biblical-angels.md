@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## The Angels of Scripture
 
-Long before Pseudo-Dionysius sorted the heavenly host into nine ranks, the angels of the Bible appear as something plainer and stranger: messengers (the Hebrew *mal'akh* and the Greek *angelos* both mean simply "messenger") who arrive, deliver a word or a judgment, and depart. They are rarely described in detail and almost never named. Only a handful carry names across the canonical and deuterocanonical texts, and those names became the seed of the whole later system of [Archangels](/knowledge/angels-and-demons/angels/archangels) and choirs.
+Long before Pseudo-Dionysius sorted the heavenly host into nine ranks, the angels of the Bible appear as something plainer and stranger: messengers (the Hebrew *mal'akh* and the Greek *angelos* both mean simply "messenger") who arrive, deliver a word or a judgment, and depart. They are rarely described in detail and almost never named. Only a handful carry names across the canonical and deuterocanonical texts, and those names became the seed of the whole later system of [Archangels](/knowledge/angels-and-demons/angels/archangels)[^sn-archangels] and choirs.
 
 ## The Named Ones
 
@@ -35,3 +35,5 @@ A recurring and ambiguous figure, the *mal'akh YHWH* who speaks to Hagar, stays 
 
 - [Angels & Demons](/knowledge/angels-and-demons), the collection this belongs to
 - KJV Study, the scriptures these figures appear in
+
+[^sn-archangels]: The Archangels are the chief messengers of heaven, the eighth choir of the celestial hierarchy and among the most familiar to human devotion.

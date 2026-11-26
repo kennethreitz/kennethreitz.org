@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Nike is the winged goddess of victory, the swift spirit who descends on the winning side of any struggle, a battle, a footrace, a chariot heat, a lawsuit. Daughter of the Titan Pallas and the river-goddess Styx, she is sister to Kratos (Strength), Bia (Force), and Zelus (Rivalry), and it is telling company: victory is the child of the harsh powers, the reward that stands at the end of strife. When the Titans fell and [Zeus](/knowledge/mythology/greek-mythology/zeus) called the gods to choose sides, Styx brought her children to him first of all, and for that loyalty Zeus kept them ever after at his throne. Nike became the constant attendant of the king of the gods, and no less the companion of [Athena](/knowledge/mythology/greek-mythology/athena), goddess of the disciplined warfare that wins.
+Nike is the winged goddess of victory, the swift spirit who descends on the winning side of any struggle, a battle, a footrace, a chariot heat, a lawsuit. Daughter of the Titan Pallas and the river-goddess Styx, she is sister to Kratos (Strength), Bia (Force), and Zelus (Rivalry), and it is telling company: victory is the child of the harsh powers, the reward that stands at the end of strife. When the Titans fell and [Zeus](/knowledge/mythology/greek-mythology/zeus) called the gods to choose sides, Styx brought her children to him first of all, and for that loyalty Zeus[^sn-zeus] kept them ever after at his throne. Nike became the constant attendant of the king of the gods, and no less the companion of [Athena](/knowledge/mythology/greek-mythology/athena), goddess of the disciplined warfare that wins.
 
 She is almost never still. The Greeks imagined her flying, alighting, crowning, a figure hovering above the victor with the laurel already in her hands, or riding the chariot as the invisible charioteer of triumph, guiding the winner home. She is less a person with a story than a presence that arrives at the decisive moment, and so her image crowned temples, coins, and battlefield trophies across the Greek world: the swift confirmation that the contest is over and won.
 
@@ -34,3 +34,5 @@ She is almost never still. The Greeks imagined her flying, alighting, crowning, 
 - [Tyche](/knowledge/mythology/greek-mythology/tyche): The other side of outcome: where Nike is earned in the contest, Tyche is chance
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-zeus]: Zeus is the king of the Olympian gods and ruler of Mount Olympus. See [Zeus](/knowledge/mythology/greek-mythology/zeus).

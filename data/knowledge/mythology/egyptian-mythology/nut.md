@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Nut is the sky itself, a goddess whose body arches over the whole of the world, her fingertips touching one horizon and her toes the other, her belly the star-strewn vault of night. She is the great canopy under which everything happens. Daughter of Shu the air and Tefnut the moisture, sister and wife to [Geb](/knowledge/mythology/egyptian-mythology/geb) the earth, she is separated eternally from her beloved by their father Shu, who holds her aloft so that the space between sky and ground, the space where life is lived, can exist at all.
 
-Each evening she swallows the sun; each dawn she gives birth to it again, and the daily death and rebirth of [Ra](/knowledge/mythology/egyptian-mythology/ra) plays out across her body. She does the same for the stars, and for the dead: to be painted on the underside of a coffin lid was to lie beneath Nut’s protection, to be taken up into her and reborn among the imperishable stars. She is the mother of the sky-gods, the vault of heaven, and the promise that every ending is only the far side of a beginning.
+Each evening she swallows the sun; each dawn she gives birth to it again, and the daily death and rebirth of [Ra](/knowledge/mythology/egyptian-mythology/ra)[^sn-ra] plays out across her body. She does the same for the stars, and for the dead: to be painted on the underside of a coffin lid was to lie beneath Nut’s protection, to be taken up into her and reborn among the imperishable stars. She is the mother of the sky-gods, the vault of heaven, and the promise that every ending is only the far side of a beginning.
 
 ---
 
@@ -35,3 +35,5 @@ Each evening she swallows the sun; each dawn she gives birth to it again, and th
 - [The Star](/knowledge/tarot/major-arcana/the-star): The Major Arcana card of the star-clad heavens, hope, and cosmic renewal she embodies
 - [Egyptian Mythology Index](/knowledge/mythology/egyptian-mythology)
 - [Mythology](/knowledge/mythology)
+
+[^sn-ra]: Ra is the sun god and, for much of Egyptian history, the king of the gods, the source from which the world was spoken into being.

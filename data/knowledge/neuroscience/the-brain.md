@@ -20,7 +20,7 @@ The wrinkled outer sheet, the **cerebral cortex**, is where most of what we call
 
 ## The Limbic System
 
-Beneath the cortex sits the **[Limbic System](/knowledge/neuroscience/limbic-system)**, the emotional engine, a coalition of structures rather than a single organ. Its most famous component, the **[Amygdala](/knowledge/neuroscience/amygdala)**, is a threat detector, fast, blunt, and biased toward false alarms because a false alarm costs less than a missed predator. The amygdala learns fear quickly and unlearns it slowly. Beside it sits the **[Hippocampus](/knowledge/neuroscience/hippocampus)**, the seahorse-shaped indexer that binds experience into memory and tags it with time and place, and above them the hypothalamus, which translates emotion into bodily state and launches the [HPA Axis](/knowledge/neuroscience/hpa-axis) stress cascade. This is the machinery that runs hot in [PTSD](/knowledge/psychology/conditions/ptsd): a threat-response circuit that keeps firing long after the danger has passed, hijacking the prefrontal regulator before it can intervene. That the whole assembly can be reshaped through [Neuroplasticity](/knowledge/neuroscience/neuroplasticity) is the biological reason such patterns are not permanent.
+Beneath the cortex sits the **[Limbic System](/knowledge/neuroscience/limbic-system)**, the emotional engine, a coalition of structures rather than a single organ. Its most famous component, the **[Amygdala](/knowledge/neuroscience/amygdala)**, is a threat detector, fast, blunt, and biased toward false alarms because a false alarm costs less than a missed predator. The amygdala learns fear quickly and unlearns it slowly. Beside it sits the **[Hippocampus](/knowledge/neuroscience/hippocampus)**, the seahorse-shaped indexer that binds experience into memory and tags it with time and place, and above them the hypothalamus, which translates emotion into bodily state and launches the [HPA Axis](/knowledge/neuroscience/hpa-axis)[^sn-hpa-axis] stress cascade. This is the machinery that runs hot in [PTSD](/knowledge/psychology/conditions/ptsd): a threat-response circuit that keeps firing long after the danger has passed, hijacking the prefrontal regulator before it can intervene. That the whole assembly can be reshaped through [Neuroplasticity](/knowledge/neuroscience/neuroplasticity) is the biological reason such patterns are not permanent.
 
 ## Two Hemispheres
 
@@ -41,3 +41,5 @@ Below the hemispheres sit the older layers the cortex was built on: the **cerebe
 - [The Triad](/system-777/the-triad): Jade, Iris, and Amber mapped onto hemisphere and body
 - [PTSD](/knowledge/psychology/conditions/ptsd), the amygdala's threat circuit stuck on
 - [Consciousness](/knowledge/ai/consciousness), the hard question this map doesn't answer
+
+[^sn-hpa-axis]: The HPA axis, hypothalamic-pituitary-adrenal axis, is the body's central stress-response system, a hormonal cascade rather than a single structure.

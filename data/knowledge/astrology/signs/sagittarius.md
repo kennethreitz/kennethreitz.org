@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Sagittarius carries the fire of late autumn toward the winter solstice, a season of gathering darkness that the Archer meets with an inextinguishable optimism. This is mutable fire, the flame that spreads and seeks, and it governs the great questions, why we are here, what it all means, what lies beyond the next horizon. The Centaur, half beast and half sage, aims his arrow at the distant target of truth and lets it fly, trusting the journey more than any single landing.
 
-Ruled by Jupiter, the great benefic, Sagittarius is the archetype of the seeker, the philosopher, and the wanderer. It hungers for experience the way Gemini hungers for information, but where the Twins collect facts, the Archer collects meaning, synthesizing all it encounters into a wider vision, a bigger sky. There is a native generosity and faith in Sagittarius, a conviction that the universe is fundamentally good and the road is worth walking. To travel beside one is to be reminded that the world is larger and stranger and more promising than you had let yourself believe.
+Ruled by Jupiter, the great benefic, Sagittarius is the archetype of the seeker, the philosopher, and the wanderer. It hungers for experience the way Gemini[^sn-gemini] hungers for information, but where the Twins collect facts, the Archer collects meaning, synthesizing all it encounters into a wider vision, a bigger sky. There is a native generosity and faith in Sagittarius, a conviction that the universe is fundamentally good and the road is worth walking. To travel beside one is to be reminded that the world is larger and stranger and more promising than you had let yourself believe.
 
 ## Correspondences
 
@@ -36,3 +36,5 @@ At its best, Sagittarius is the joyful truth-teller: expansive, honest, adventur
 
 - [Scorpio](/knowledge/astrology/signs/scorpio) · [Capricorn](/knowledge/astrology/signs/capricorn) · [Jupiter](/knowledge/astrology/planets/jupiter-astrology) · [Temperance](/knowledge/tarot/major-arcana/temperance) · [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-gemini]: Gemini is the moment the world becomes interesting, when the settled earth of spring gives way to the quicksilver air of curiosity, and everything begins to speak. See [Gemini](/knowledge/astrology/signs/gemini).

@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Bastet is the warmth of the domestic sun, a cat-headed goddess of the hearth, of childbirth, of music and pleasure and the small daily joys that hold a household together. In her earliest form she was a lioness, fierce and solar, the protective daughter of [Ra](/knowledge/mythology/egyptian-mythology/ra); over time she softened into the cat, guardian of the home against snakes and vermin and evil, and became one of the best-loved deities in all of Egypt. Her cult city Bubastis drew enormous festival crowds who came, by the ancient accounts, to drink and sing and celebrate her without restraint.
 
-She is the tender half of a fierce coin, the same feline nature as [Sekhmet](/knowledge/mythology/egyptian-mythology/sekhmet), but turned toward protection rather than destruction. Where Sekhmet is the lioness on the hunt, Bastet is the cat curled at the door, and the Egyptians honored both because they knew a home needs guarding as much as it needs comfort. To love Bastet was to love the ordinary sweetness of a safe house, a full belly, and children who live to grow up.
+She is the tender half of a fierce coin, the same feline nature as [Sekhmet](/knowledge/mythology/egyptian-mythology/sekhmet),[^sn-sekhmet] but turned toward protection rather than destruction. Where Sekhmet is the lioness on the hunt, Bastet is the cat curled at the door, and the Egyptians honored both because they knew a home needs guarding as much as it needs comfort. To love Bastet was to love the ordinary sweetness of a safe house, a full belly, and children who live to grow up.
 
 ---
 
@@ -34,3 +34,5 @@ She is the tender half of a fierce coin, the same feline nature as [Sekhmet](/kn
 - [Strength](/knowledge/tarot/major-arcana/strength): The Major Arcana card of gentle power, the beast befriended rather than broken
 - [Egyptian Mythology Index](/knowledge/mythology/egyptian-mythology)
 - [Mythology](/knowledge/mythology)
+
+[^sn-sekhmet]: Sekhmet is the burning face of the sun, a lioness-headed goddess whose name means “the Powerful One,” and who earns it.

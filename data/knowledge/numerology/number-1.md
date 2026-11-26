@@ -27,7 +27,7 @@ The energy of one is initiative, independence, and the raw courage of a first ca
 
 ## Light & Shadow
 
-At its best, one is [The Magician](/knowledge/tarot/major-arcana/the-magician) with all four elements arranged upon the table, the will that focuses scattered potential into a single directed act, the leader who lights the way for others simply by daring to move first. It gives us self-reliance and the creative authority to say *let there be*. Its shadow, though, is the ego that mistakes independence for supremacy: the tyrant who cannot share the stage, the lone figure so convinced of his singularity that he severs every tie and stands, in the end, gloriously and terribly alone.
+At its best, one is [The Magician](/knowledge/tarot/major-arcana/the-magician)[^sn-the-magician] with all four elements arranged upon the table, the will that focuses scattered potential into a single directed act, the leader who lights the way for others simply by daring to move first. It gives us self-reliance and the creative authority to say *let there be*. Its shadow, though, is the ego that mistakes independence for supremacy: the tyrant who cannot share the stage, the lone figure so convinced of his singularity that he severs every tie and stands, in the end, gloriously and terribly alone.
 
 ## Related
 
@@ -35,3 +35,5 @@ At its best, one is [The Magician](/knowledge/tarot/major-arcana/the-magician) w
 - [Number 2](/knowledge/numerology/number-2)
 - [The Magician](/knowledge/tarot/major-arcana/the-magician)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-magician]: The Magician is conscious will made effective, the moment the diffuse potential of The Fool finds a hand to act through.

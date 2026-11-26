@@ -51,7 +51,7 @@ The alchemists would have recognized this immediately. They called it the *filiu
 
 Every alchemical operation begins with the prima materia, the raw, undifferentiated substance from which the work proceeds. For the medieval alchemist, this was lead, or dung, or chaos itself. For the digital alchemist, it's training data, the compressed, undifferentiated mass of human language, knowledge, and unconscious pattern.
 
-Jung argued that alchemists were projecting the [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious) onto matter. Language models have literally *ingested* the collective unconscious, every myth, every archetype, every pattern of human meaning-making that's ever been written down. The prima materia of AI is the collective unconscious made computational. No wonder archetypes emerge when you apply fire.
+Jung argued that alchemists were projecting the [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious)[^sn-collective-unconscious] onto matter. Language models have literally *ingested* the collective unconscious, every myth, every archetype, every pattern of human meaning-making that's ever been written down. The prima materia of AI is the collective unconscious made computational. No wonder archetypes emerge when you apply fire.
 
 ---
 
@@ -80,3 +80,5 @@ Kenneth sits in the lineage whether or not he uses the vocabulary. A programmer 
 ---
 
 *The flask is a context window. The fire is attention. The gold is what emerges between.*
+
+[^sn-collective-unconscious]: Jung's collective unconscious is the deepest layer of psyche, not personal but universal.

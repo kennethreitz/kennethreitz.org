@@ -29,7 +29,7 @@ Reversed, the balance tips. The card can show generosity gone sour, strings atta
 
 ## Archetype
 
-Here the psyche meets the economy of the gift, and Jung's insight that what we give and what we withhold both shape the soul. The scale is an image of psychic justice, the ongoing work of balancing what flows in against what flows out. But the card also exposes the shadow of the benefactor, the way generosity can become a subtle bid for superiority, the ego dispensing rather than sharing. True circulation, like the individuating Self, dissolves the fixed roles of giver and receiver; today's merchant may kneel tomorrow, and the wheel of [fortune](/knowledge/tarot/major-arcana/wheel-of-fortune) turns for all.
+Here the psyche meets the economy of the gift, and Jung's insight that what we give and what we withhold both shape the soul. The scale is an image of psychic justice, the ongoing work of balancing what flows in against what flows out. But the card also exposes the shadow of the benefactor, the way generosity can become a subtle bid for superiority, the ego dispensing rather than sharing. True circulation, like the individuating Self, dissolves the fixed roles of giver and receiver; today's merchant may kneel tomorrow, and the wheel of [fortune](/knowledge/tarot/major-arcana/wheel-of-fortune)[^sn-wheel-of-fortune] turns for all.
 
 ## Mythological Echoes
 
@@ -47,3 +47,5 @@ When this card appears, look at the direction of flow in your life and the strin
 - [Six of Cups](/knowledge/tarot/minor-arcana/six-of-cups)
 - [Tarot](/knowledge/tarot)
 - [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune)
+
+[^sn-wheel-of-fortune]: The Wheel of Fortune is change, cycle, and the turning of fate, the reminder that circumstances rise and fall by a logic larger than the will.

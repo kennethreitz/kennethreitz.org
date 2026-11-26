@@ -24,7 +24,7 @@ Play it with a relaxed, controlled wrist stroke at slow to moderate speeds, keep
 
 ## In Practice
 
-The single stroke roll is everywhere: rolling fills around the toms, fast jazz and fusion phrasing, orchestral swells, drum corps runs, and the basic vocabulary of every solo. It underlies the [Single Stroke Four](/knowledge/music/drum-rudiments/single-stroke-four) and [Single Stroke Seven](/knowledge/music/drum-rudiments/single-stroke-seven) as their parent pattern, and building genuine speed here pays dividends across the entire kit.
+The single stroke roll is everywhere: rolling fills around the toms, fast jazz and fusion phrasing, orchestral swells, drum corps runs, and the basic vocabulary of every solo. It underlies the [Single Stroke Four](/knowledge/music/drum-rudiments/single-stroke-four) and [Single Stroke Seven](/knowledge/music/drum-rudiments/single-stroke-seven)[^sn-single-stroke-seven] as their parent pattern, and building genuine speed here pays dividends across the entire kit.
 
 ## Related
 
@@ -32,3 +32,5 @@ The single stroke roll is everywhere: rolling fills around the toms, fast jazz a
 - [Single Stroke Seven](/knowledge/music/drum-rudiments/single-stroke-seven)
 - [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-single-stroke-seven]: The single stroke seven extends the idea of the single stroke four into a longer run: seven alternating single strokes that build across a beat or two and land on a final accent.

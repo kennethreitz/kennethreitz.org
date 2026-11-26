@@ -31,7 +31,7 @@ Reversed, the defence falters. Overwhelm sets in; the constant need to justify o
 
 ## Archetype
 
-This is the psyche defending the ground of its own becoming against the pressures of collective opinion. Jung's [Individuation](/knowledge/psychology/jungian/individuation) demands exactly this valour, the willingness to hold an inner truth when the many push back. The card is the moral courage that keeps faith with the self under siege, aligned with the quiet, inward mastery of [Strength](/knowledge/tarot/major-arcana/strength), which subdues opposition not by brute force but by unbroken conviction.
+This is the psyche defending the ground of its own becoming against the pressures of collective opinion. Jung's [Individuation](/knowledge/psychology/jungian/individuation) demands exactly this valour, the willingness to hold an inner truth when the many push back. The card is the moral courage that keeps faith with the self under siege, aligned with the quiet, inward mastery of [Strength](/knowledge/tarot/major-arcana/strength),[^sn-strength] which subdues opposition not by brute force but by unbroken conviction.
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ When this card appears, ask what you are defending and whether it is truly yours
 - [Strength](/knowledge/tarot/major-arcana/strength)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-strength]: Strength is fortitude of the quiet kind, courage, patience, and the gentle command of one’s own animal nature.

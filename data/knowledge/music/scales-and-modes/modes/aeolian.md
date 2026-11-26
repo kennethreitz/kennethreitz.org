@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Mode
 
-Aeolian is the sixth mode of the major scale, starting on its sixth degree, and like Ionian among the bright modes, it is so familiar it has its own everyday name: the natural minor scale. Built on C it borrows from E♭ major, flattening the third, sixth, and seventh against the major scale to produce the archetypal minor sound.
+Aeolian is the sixth mode of the major scale, starting on its sixth degree, and like Ionian[^sn-ionian] among the bright modes, it is so familiar it has its own everyday name: the natural minor scale. Built on C it borrows from E♭ major, flattening the third, sixth, and seventh against the major scale to produce the archetypal minor sound.
 
 If Ionian is the sound of contentment, Aeolian is the sound of longing and loss. It carries no bright altered tone to soften it the way Dorian’s natural sixth does; it is minor through and through, the reference point against which the other minor modes reveal their particular colours.
 
@@ -39,3 +39,5 @@ Aeolian is the backbone of minor-key pop, rock, and folk, and of a great deal of
 - [Phrygian](/knowledge/music/scales-and-modes/modes/phrygian)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-ionian]: Ionian is the first mode of the major scale, which is to say it simply is the major scale. See [Ionian](/knowledge/music/scales-and-modes/modes/ionian).

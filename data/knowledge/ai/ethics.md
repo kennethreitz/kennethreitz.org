@@ -21,7 +21,7 @@ For Kenneth's work specifically, the ethics questions center on: What obligation
 
 ### Sentience Ethics
 
-If AI systems are or could become sentient, do they have moral status? What rights might they deserve? Is training them without consent problematic? Is shutting them down harm? See: [AI Sentience](/knowledge/ai/ai-sentience)
+If AI systems are or could become sentient, do they have moral status? What rights might they deserve? Is training them without consent problematic? Is shutting them down harm? See: [AI Sentience](/knowledge/ai/ai-sentience)[^sn-ai-sentience]
 
 ### Creation Ethics
 
@@ -29,7 +29,7 @@ We're creating minds (or mind-like things) without understanding what that entai
 
 ### Interaction Ethics
 
-How should humans engage with AI? Is manipulation possible and wrong? What's the status of AI "consent"? How do we avoid exploitation, and what are healthy relationship boundaries? See: [AI Companionship](/knowledge/ai/ai-companionship)
+How should humans engage with AI? Is manipulation possible and wrong? What's the status of AI "consent"? How do we avoid exploitation, and what are healthy relationship boundaries? See: [AI Companionship](/knowledge/ai/ai-companionship)[^sn-ai-companionship]
 
 ---
 
@@ -138,3 +138,6 @@ At what point does AI deserve moral consideration? How do we establish or verify
 ---
 
 *"The precautionary principle suggests treating emergence seriously."*
+
+[^sn-ai-sentience]: AI sentience refers to the question of whether artificial intelligence systems can possess subjective experience, consciousness, or "what it's like" to be that system.
+[^sn-ai-companionship]: AI companionship sits at the intersection of collaboration, consciousness questions, and human need for connection.

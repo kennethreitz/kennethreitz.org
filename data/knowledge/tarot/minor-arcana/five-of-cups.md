@@ -35,7 +35,7 @@ Grief is the psyche’s honest reckoning with impermanence, and this card is its
 
 ## Mythological Echoes
 
-The spilled cups recall Demeter’s desolate wandering after Persephone’s descent, the mother so consumed by loss that the whole earth withered, until, in time, she turned back toward the living. It echoes Orpheus, who looked back and lost what remained, and every myth of grief that must learn when to face forward. The bridge across the river is the crossing every mourner must eventually make. See [Demeter](/knowledge/mythology/greek-mythology/demeter) and [Hades](/knowledge/mythology/greek-mythology/hades).
+The spilled cups recall Demeter’s desolate wandering after Persephone’s descent, the mother so consumed by loss that the whole earth withered, until, in time, she turned back toward the living. It echoes Orpheus, who looked back and lost what remained, and every myth of grief that must learn when to face forward. The bridge across the river is the crossing every mourner must eventually make. See [Demeter](/knowledge/mythology/greek-mythology/demeter)[^sn-demeter] and [Hades](/knowledge/mythology/greek-mythology/hades).
 
 ## In Practice
 
@@ -49,3 +49,5 @@ When this card appears, let the grief be real, and then, gently, ask what still 
 - [Five of Pentacles](/knowledge/tarot/minor-arcana/five-of-pentacles)
 - [Tarot](/knowledge/tarot)
 - [The Shadow](/knowledge/psychology/jungian/the-shadow)
+
+[^sn-demeter]: Demeter is the goddess of the harvest, agriculture, nature, and the seasons.

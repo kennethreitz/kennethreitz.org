@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Cronus is the youngest and boldest of the Titans, the son of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus) who overthrew his father and ruled the cosmos in the age before the Olympians, a span the Greeks remembered, paradoxically, as a Golden Age. He carries the sickle with which he unseated Uranus, and in later tradition he blurs into *Chronos*, Time itself: the power that harvests everything it brings to ripeness.
+Cronus is the youngest and boldest of the Titans, the son of [Gaia](/knowledge/mythology/greek-mythology/gaia)[^sn-gaia] and [Uranus](/knowledge/mythology/greek-mythology/uranus) who overthrew his father and ruled the cosmos in the age before the Olympians, a span the Greeks remembered, paradoxically, as a Golden Age. He carries the sickle with which he unseated Uranus, and in later tradition he blurs into *Chronos*, Time itself: the power that harvests everything it brings to ripeness.
 
 He is the hinge of the cosmogony, the son who ends his father's reign and then, in trying to keep his own, becomes the father who must be ended.
 
@@ -34,3 +34,5 @@ He is the hinge of the cosmogony, the son who ends his father's reign and then, 
 - [Zeus](/knowledge/mythology/greek-mythology/zeus): Son who overthrew him in turn
 - [The World](/knowledge/tarot/major-arcana/the-world): The Saturn-ruled Major Arcana card of completed cycles and time
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-gaia]: Gaia is the Earth, not a goddess who rules the earth but the earth as a living, generative power, one of the first beings to emerge out of Chaos at the beginning of things.

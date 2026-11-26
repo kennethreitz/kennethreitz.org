@@ -15,7 +15,7 @@ A knight rides forward on a white horse that steps, rather than charges, moving 
 
 ## Upright
 
-The Knight of Cups is the romantic, the artist, the emissary of love and beauty. He brings offers, invitations, proposals, the arrival of feeling in active, pursuing form. Where the [Page of Cups](/knowledge/tarot/minor-arcana/page-of-cups) receives the fish, the Knight carries the cup outward as a gift. He embodies charm, idealism, and the pursuit of a dream, following beauty wherever it leads. He is the one who woos, who imagines, who lets emotion set the course. At his best he unites feeling with movement, heart with purpose.
+The Knight of Cups is the romantic, the artist, the emissary of love and beauty. He brings offers, invitations, proposals, the arrival of feeling in active, pursuing form. Where the [Page of Cups](/knowledge/tarot/minor-arcana/page-of-cups)[^sn-page-of-cups] receives the fish, the Knight carries the cup outward as a gift. He embodies charm, idealism, and the pursuit of a dream, following beauty wherever it leads. He is the one who woos, who imagines, who lets emotion set the course. At his best he unites feeling with movement, heart with purpose.
 
 ## Reversed
 
@@ -47,3 +47,5 @@ When this card appears, ask whether your beautiful intention will become a kept 
 - [Knight of Wands](/knowledge/tarot/minor-arcana/knight-of-wands)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-page-of-cups]: The Page of Cups is the messenger of feeling, the fresh emotional stirring, the intuitive hunch, the creative impulse that arrives unannounced.

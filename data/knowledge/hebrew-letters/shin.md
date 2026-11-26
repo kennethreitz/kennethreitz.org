@@ -27,7 +27,7 @@ Shin is the third of the three mother letters and the element of Fire. Its picto
 
 Its number is three hundred, the three mothers at the scale of hundreds, fire at full magnitude. Where aleph's air mediates and mem's water descends, shin's fire ascends: it is the elemental yearning upward, the flame that cannot be persuaded to burn toward the ground.
 
-On the Tree it is the thirty-first path, joining [Hod](/knowledge/tree-of-life/hod) to [Malkuth](/knowledge/tree-of-life/malkuth), splendour touching the kingdom, one of the last paths into the manifest world, the fire that reaches all the way down. Its trump is [Judgement](/knowledge/tarot/major-arcana/judgement), the angel's trumpet waking the dead from their boxes: resurrection as the fire's final work, everything false burned off, everything true called up out of the earth. Shin is the letter of that call, the spirit's flame set against matter's sleep, and winning.
+On the Tree it is the thirty-first path, joining [Hod](/knowledge/tree-of-life/hod) to [Malkuth](/knowledge/tree-of-life/malkuth), splendour touching the kingdom, one of the last paths into the manifest world, the fire that reaches all the way down. Its trump is [Judgement](/knowledge/tarot/major-arcana/judgement),[^sn-judgement] the angel's trumpet waking the dead from their boxes: resurrection as the fire's final work, everything false burned off, everything true called up out of the earth. Shin is the letter of that call, the spirit's flame set against matter's sleep, and winning.
 
 ## Related
 
@@ -36,3 +36,5 @@ On the Tree it is the thirty-first path, joining [Hod](/knowledge/tree-of-life/h
 - [Judgement](/knowledge/tarot/major-arcana/judgement)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-judgement]: Judgement is awakening, reckoning, and the call to rise into a truer self.

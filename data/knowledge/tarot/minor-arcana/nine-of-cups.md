@@ -16,7 +16,7 @@ A well-fed man sits on a low wooden bench with his arms folded across his chest,
 
 ## Upright
 
-The Nine of Cups is satisfaction, emotional fulfillment, the pleasure of a wish come true. It marks material and sensual well-being, the earned enjoyment of one’s labors, a season of getting what you asked for. There is genuine sweetness here and no shame in it. Yet the folded arms hint at a limit: this is contentment of the self, comfortable and slightly self-satisfied, a fullness that has not yet opened outward into the shared joy of the [Ten of Cups](/knowledge/tarot/minor-arcana/ten-of-cups). It is the wish granted, and the quiet question of whether it was the right wish.
+The Nine of Cups is satisfaction, emotional fulfillment, the pleasure of a wish come true. It marks material and sensual well-being, the earned enjoyment of one’s labors, a season of getting what you asked for. There is genuine sweetness here and no shame in it. Yet the folded arms hint at a limit: this is contentment of the self, comfortable and slightly self-satisfied, a fullness that has not yet opened outward into the shared joy of the [Ten of Cups](/knowledge/tarot/minor-arcana/ten-of-cups).[^sn-ten-of-cups] It is the wish granted, and the quiet question of whether it was the right wish.
 
 ## Reversed
 
@@ -50,3 +50,5 @@ When this card appears, savor what has been granted, and then ask whether it is 
 - [Nine of Pentacles](/knowledge/tarot/minor-arcana/nine-of-pentacles)
 - [Tarot](/knowledge/tarot)
 - [The Self](/knowledge/psychology/jungian/the-self)
+
+[^sn-ten-of-cups]: The Ten of Cups is emotional fulfillment made whole and communal, the happy family, the harmonious home, love that has ripened into lasting peace.

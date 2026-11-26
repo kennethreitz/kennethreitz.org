@@ -19,7 +19,7 @@ Gabriel’s element is water and his light is lunar, the reflected, borrowed sil
 
 Gabriel is one of only two angels named in the Hebrew Bible, appearing in the Book of Daniel as the interpreter who is commanded, “make this man understand the vision.” It is Gabriel who explains the seventy weeks and the meaning of the ram and the goat, establishing him from the first as the angel of revelation and understanding, the one who does not merely deliver the word but unlocks it. In the Gospel of Luke he stands before Zechariah in the temple to foretell the birth of John, and then before Mary at Nazareth: “Hail, thou that art highly favoured.” From these annunciations Christian tradition made him the angel of the Incarnation itself, the herald of the mystery, and depicted him kneeling with a lily, the flower of purity. Islamic tradition knows him as Jibrīl, the angel who brought down the Qur’an to the Prophet across twenty-three years, and popular Christian legend gives him the last trumpet whose blast will wake the dead at the end of days.
 
-In the Kabbalistic scheme Gabriel presides over [Yesod](/knowledge/tree-of-life/yesod), the ninth sphere, the astral foundation beneath the Moon where all images are stored and all forms take shape before their descent into the world. His day is Monday, the moon’s day, and his direction is the West, the place of sunset and of the reflective, receptive waters. His element is water, his colours blue and silver, and his emblems the lily, the trumpet, the scroll, and the crescent. To invoke Gabriel is to call upon the receptive faculty, the imagination that receives and shapes, the dream that carries meaning up from the deep, the strength that consists precisely in the willingness to be filled.
+In the Kabbalistic scheme Gabriel presides over [Yesod](/knowledge/tree-of-life/yesod),[^sn-yesod] the ninth sphere, the astral foundation beneath the Moon where all images are stored and all forms take shape before their descent into the world. His day is Monday, the moon’s day, and his direction is the West, the place of sunset and of the reflective, receptive waters. His element is water, his colours blue and silver, and his emblems the lily, the trumpet, the scroll, and the crescent. To invoke Gabriel is to call upon the receptive faculty, the imagination that receives and shapes, the dream that carries meaning up from the deep, the strength that consists precisely in the willingness to be filled.
 
 ## Correspondences
 
@@ -43,3 +43,5 @@ In the Kabbalistic scheme Gabriel presides over [Yesod](/knowledge/tree-of-life/
 - [Angels & Demons](/knowledge/angels-and-demons)
 
 Correspondences follow the Golden Dawn attributions: the four nines of [Yesod](/knowledge/tree-of-life/yesod), and The High Priestess as the trump of his planet.
+
+[^sn-yesod]: Yesod is Foundation, the ninth emanation, the great reservoir into which every higher sphere empties before its influence reaches the earth.

@@ -75,9 +75,9 @@ $ uv add maya
 <!-- vault:history start -->
 ## History
 
-Maya makes datetime handling intuitive. Parse human-readable strings, get human-readable output, handle timezones without pain.
+Maya makes datetime handling intuitive. Parse human-readable strings, get human-readable output, handle timezones without pain.[^sn-created]
 
-Named after the Sanskrit concept of māyā (illusion): because time is an illusion, and datetime handling in Python certainly feels like one.
+Named after the Sanskrit concept of māyā (illusion)[^sn-vedanta]: because time is an illusion, and datetime handling in Python certainly feels like one.
 
 Python's datetime module is powerful but hostile. Parsing requires exact format strings, timezone handling is confusing, output is ugly by default, and simple things feel hard.
 

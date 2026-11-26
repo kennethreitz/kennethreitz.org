@@ -31,7 +31,7 @@ Reversed, the swiftness snarls. Momentum stalls, messages are delayed or misdeli
 
 ## Archetype
 
-This is the psyche's flow-state, the moment when resistance dissolves and energy moves cleanly toward its aim. Jung wrote of libido as directed psychic energy; here it runs unobstructed, like the arrow that becomes one with its trajectory. There is a Zen quality to the card, the archer who has released and now merely watches, will and world briefly synchronised in what feels almost like [Synchronicity](/knowledge/psychology/jungian/synchronicity), events aligning as if the whole field had tilted toward arrival.
+This is the psyche's flow-state, the moment when resistance dissolves and energy moves cleanly toward its aim. Jung wrote of libido as directed psychic energy; here it runs unobstructed, like the arrow that becomes one with its trajectory. There is a Zen quality to the card, the archer who has released and now merely watches, will and world briefly synchronised in what feels almost like [Synchronicity](/knowledge/psychology/jungian/synchronicity),[^sn-synchronicity] events aligning as if the whole field had tilted toward arrival.
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ When this card appears, things are about to move quickly, ready yourself rather 
 - [Eight of Swords](/knowledge/tarot/minor-arcana/eight-of-swords)
 - [Tarot](/knowledge/tarot)
 - [Synchronicity](/knowledge/psychology/jungian/synchronicity)
+
+[^sn-synchronicity]: Synchronicity is the simultaneous occurrence of events which appear significantly related but have no discernible causal connection.

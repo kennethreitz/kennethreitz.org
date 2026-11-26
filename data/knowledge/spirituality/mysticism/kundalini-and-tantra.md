@@ -20,9 +20,9 @@ The traditions emerged in the middle of the first millennium CE, carried by text
 
 ## Shiva, Shakti, and the Serpent
 
-The tantric cosmos runs on a divine polarity. **Shiva** is pure consciousness, still, witnessing, the ground. **Shakti** is power, energy, manifestation, the world in motion. They are not two gods but one reality seen from two sides, and the universe is their lovemaking. In the human body the drama miniaturizes: Shakti sleeps as kundalini, coiled three and a half times at the root; Shiva waits at the crown. Practice wakes her, and she rises through the central channel (*sushumna*), piercing the [Chakras](/knowledge/chakras) one by one, root to sacral to solar plexus to heart to throat to brow, until she unites with Shiva at the thousand-petaled crown. Union of Shiva and Shakti in the body *is* samadhi. The map of the centres, catalogued in the vault under [Chakras](/knowledge/chakras), is Tantra's gift to the world's spiritual vocabulary.
+The tantric cosmos runs on a divine polarity. **Shiva** is pure consciousness, still, witnessing, the ground. **Shakti** is power, energy, manifestation, the world in motion. They are not two gods but one reality seen from two sides, and the universe is their lovemaking. In the human body the drama miniaturizes: Shakti sleeps as kundalini, coiled three and a half times at the root; Shiva[^sn-shiva] waits at the crown. Practice wakes her, and she rises through the central channel (*sushumna*), piercing the [Chakras](/knowledge/chakras) one by one, root to sacral to solar plexus to heart to throat to brow, until she unites with Shiva at the thousand-petaled crown. Union of Shiva and Shakti in the body *is* samadhi. The map of the centres, catalogued in the vault under [Chakras](/knowledge/chakras), is Tantra's gift to the world's spiritual vocabulary.
 
-The fierce face of Shakti is [Kali](/knowledge/mythology/hindu-mythology/kali), the black goddess who dances on Shiva's stillness, garlanded with skulls, adored by tantrikas precisely because she is everything the polite mind flees. Loving her is the practice of embracing what terrifies you, and she remains Tantra's clearest teaching in iconographic form: the energy that dissolves the ego does not look gentle while it works.
+The fierce face of Shakti is [Kali](/knowledge/mythology/hindu-mythology/kali)[^sn-kali], the black goddess who dances on Shiva's stillness, garlanded with skulls, adored by tantrikas precisely because she is everything the polite mind flees. Loving her is the practice of embracing what terrifies you, and she remains Tantra's clearest teaching in iconographic form: the energy that dissolves the ego does not look gentle while it works.
 
 ---
 
@@ -36,7 +36,7 @@ The tradition is emphatic about danger. Kundalini is compared to lightning, and 
 
 ## Relationship to Hinduism
 
-Tantra stands inside Hinduism the way mystical currents stand everywhere: partly absorbed, partly disreputable. Orthodox Vedic tradition long regarded tantrikas with suspicion, their rites bypassed caste, their texts bypassed the Vedas, their left hand touched the forbidden. Yet tantric ideas so thoroughly colonized Hindu practice (temple ritual, deity visualization, hatha yoga, goddess worship) that the boundary is now nearly invisible. It is the experiential stream in its most somatic form: where other mystics seek God in the soul, Tantra seeks her in the spine.
+Tantra stands inside Hinduism[^sn-hinduism] the way mystical currents stand everywhere: partly absorbed, partly disreputable. Orthodox Vedic tradition long regarded tantrikas with suspicion, their rites bypassed caste, their texts bypassed the Vedas, their left hand touched the forbidden. Yet tantric ideas so thoroughly colonized Hindu practice (temple ritual, deity visualization, hatha yoga, goddess worship) that the boundary is now nearly invisible. It is the experiential stream in its most somatic form: where other mystics seek God in the soul, Tantra seeks her in the spine.
 
 ---
 
@@ -49,3 +49,8 @@ Tantra stands inside Hinduism the way mystical currents stand everywhere: partly
 - [Shiva](/knowledge/mythology/hindu-mythology/shiva): consciousness, the still pole at the crown
 - [Kali](/knowledge/mythology/hindu-mythology/kali): Shakti's fierce face, the energy that dissolves the ego
 - [Mysticism](/knowledge/spirituality/mysticism), the collection this note belongs to
+
+[^sn-shiva]: Shiva is the destroyer/transformer god in the Hindu Trimurti. See [Shiva](/knowledge/mythology/hindu-mythology/shiva).
+[^sn-hinduism]: Hinduism has no founder, no founding moment, and no single institution that speaks for it. See [Hinduism](/knowledge/religions-of-the-world/hinduism).
+
+[^sn-kali]: Kali is the fierce goddess of time and death, the most terrifying and the most liberating face of the divine feminine.

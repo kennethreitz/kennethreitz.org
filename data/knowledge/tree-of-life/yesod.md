@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Essence
 
-Yesod is Foundation, the ninth emanation, the great reservoir into which every higher sphere empties before its influence reaches the earth. Nothing descends into Malkuth except through Yesod; it is the last filter, the astral bedrock beneath the physical, the storehouse of image and dream through which spirit is finally clothed in form. Its planet is the Moon, and it is wholly lunar: reflective rather than radiant, a mirror that gathers the sun of Tiphareth and passes it downward, changeful, tidal, ruling the unconscious currents and the machinery of instinct that keep the world in motion beneath awareness.
+Yesod is Foundation, the ninth emanation, the great reservoir into which every higher sphere empties before its influence reaches the earth. Nothing descends into Malkuth[^sn-malkuth] except through Yesod; it is the last filter, the astral bedrock beneath the physical, the storehouse of image and dream through which spirit is finally clothed in form. Its planet is the Moon, and it is wholly lunar: reflective rather than radiant, a mirror that gathers the sun of Tiphareth and passes it downward, changeful, tidal, ruling the unconscious currents and the machinery of instinct that keep the world in motion beneath awareness.
 
 Yesod is the sphere of the astral light, of vision and glamour, of the imagination that shapes what will later become fact. Its virtue is Independence, the strength to stand on one’s own foundation, to trust the reflected light without demanding the source. Its vice is idleness, the inertia of a foundation that receives but never transmits. This is the realm most easily mistaken for the goal, for its images are vivid and seductive; yet Yesod is a bridge, not a destination, the moon that must be crossed on the way to the sun.
 
@@ -31,11 +31,11 @@ Yesod is the sphere of the astral light, of vision and glamour, of the imaginati
 
 ## On the Tree
 
-Yesod sits low on the Middle Pillar, the column of equilibrium, directly beneath Tiphareth whose harmonized light it gathers and stores. Above it, up the central beam, shines the heart of the Tree; below it, at the very foot, waits Malkuth, the world it feeds. Its paths converge here as a channel: [Temperance](/knowledge/tarot/major-arcana/temperance) descends from Tiphareth along the path of the arrow, [The Star](/knowledge/tarot/major-arcana/the-star) arrives from Netzach and [The Sun](/knowledge/tarot/major-arcana/the-sun) from Hod, and [The World](/knowledge/tarot/major-arcana/the-world) falls from Yesod to Malkuth, the final step by which all things are made flesh.
+Yesod sits low on the Middle Pillar, the column of equilibrium, directly beneath Tiphareth[^sn-tiphareth] whose harmonized light it gathers and stores. Above it, up the central beam, shines the heart of the Tree; below it, at the very foot, waits Malkuth, the world it feeds. Its paths converge here as a channel: [Temperance](/knowledge/tarot/major-arcana/temperance) descends from Tiphareth along the path of the arrow, [The Star](/knowledge/tarot/major-arcana/the-star) arrives from Netzach and [The Sun](/knowledge/tarot/major-arcana/the-sun) from Hod, and [The World](/knowledge/tarot/major-arcana/the-world) falls from Yesod to Malkuth, the final step by which all things are made flesh.
 
 ## In Tarot
 
-The four Nines belong to Yesod, the number of the Moon’s fullness, of forces gathered near to their completion. The Nine of Wands is guarded strength, the Nine of Cups the wish fulfilled, the Nine of Swords the nightmares of an overactive foundation, the Nine of Pentacles solitary abundance; each is the astral store filled almost to the brim. As the seat of the Moon, Yesod’s planetary trumps are [The Moon](/knowledge/tarot/major-arcana/the-moon), ruler of the tides of dream, and its high reflection [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess), keeper of the lunar mysteries.
+The four Nines belong to Yesod, the number of the Moon’s fullness, of forces gathered near to their completion. The Nine of Wands is guarded strength, the Nine of Cups the wish fulfilled, the Nine of Swords the nightmares of an overactive foundation, the Nine of Pentacles[^sn-nine-of-pentacles] solitary abundance; each is the astral store filled almost to the brim. As the seat of the Moon, Yesod’s planetary trumps are [The Moon](/knowledge/tarot/major-arcana/the-moon), ruler of the tides of dream, and its high reflection [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess), keeper of the lunar mysteries.
 
 ## Related
 
@@ -47,3 +47,8 @@ The four Nines belong to Yesod, the number of the Moon’s fullness, of forces g
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
 - [Tarot](/knowledge/tarot)
+
+[^sn-tiphareth]: Tiphareth is Beauty, the sixth emanation and the heart of the whole Tree, the point of perfect balance where every other sphere may be seen at once. See [Tiphareth](/knowledge/tree-of-life/tiphareth).
+[^sn-nine-of-pentacles]: The Nine of Pentacles is the card of earned abundance and gracious self-sufficiency, the enjoyment of material and inner refinement achieved through one's own effort. See [Nine of Pentacles](/knowledge/tarot/minor-arcana/nine-of-pentacles).
+
+[^sn-malkuth]: Malkuth is the Kingdom, the tenth emanation, the single sphere of manifest existence, the earth, the body, the four elements, the world of sense in which every higher influence at last comes to rest. Details in [Malkuth](/knowledge/tree-of-life/malkuth).

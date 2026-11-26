@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Jupiter is the principle of expansion, the impulse to grow, to reach beyond the known, to trust that the world is larger and more generous than the anxious mind believes. It governs abundance, wisdom, meaning, and the search for a truth big enough to live by. Where Saturn contracts, Jupiter opens; it is the part of the psyche that says *yes, and more*, that seeks the pattern behind the details and the significance behind the facts.
 
-Like sky-ruling [Zeus](/knowledge/mythology/greek-mythology/zeus), Jupiter is the king’s planet: magnanimous, lawgiving, prone to excess in equal measure with its blessings. It rules Sagittarius, the sign of the seeker, and traditionally Pisces, the sign of faith without borders. Jupiter’s gift is confidence in life itself: the sense that experience is worth trusting, that generosity returns, that the road goes somewhere. Its shadow is the same optimism unbound, the appetite that mistakes more for better.
+Like sky-ruling [Zeus](/knowledge/mythology/greek-mythology/zeus), Jupiter is the king’s planet: magnanimous, lawgiving, prone to excess in equal measure with its blessings. It rules Sagittarius,[^sn-sagittarius] the sign of the seeker, and traditionally Pisces, the sign of faith without borders. Jupiter’s gift is confidence in life itself: the sense that experience is worth trusting, that generosity returns, that the road goes somewhere. Its shadow is the same optimism unbound, the appetite that mistakes more for better.
 
 ## Correspondences
 
@@ -37,3 +37,5 @@ A strong Jupiter gives faith, generosity, and a natural sense of possibility, th
 - [Zeus](/knowledge/mythology/greek-mythology/zeus)
 - [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-sagittarius]: Sagittarius carries the fire of late autumn toward the winter solstice, a season of gathering darkness that the Archer meets with an inextinguishable optimism. See [Sagittarius](/knowledge/astrology/signs/sagittarius).

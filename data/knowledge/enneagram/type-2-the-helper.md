@@ -28,7 +28,7 @@ The shadow of this gift is that the Two often loves in order to be loved. Attend
 
 ## Healthy & Unhealthy
 
-At their best, Twos are unconditionally loving, humble, and nourishing, able to give freely because they have learned to receive, and to let their own needs count without keeping score. Their care becomes clean, without the hook. Under stress the disguise slips. The unhealthy Two grows possessive, martyred, and manipulative, reminding others of all they have sacrificed, and becoming aggressive when the love they were owed does not return. Growth for the Two means turning attention inward, welcoming the disowned self of [The Shadow](/knowledge/psychology/jungian/the-shadow), and discovering through [Individuation](/knowledge/psychology/jungian/individuation) that they are lovable before they are useful.
+At their best, Twos are unconditionally loving, humble, and nourishing, able to give freely because they have learned to receive, and to let their own needs count without keeping score. Their care becomes clean, without the hook. Under stress the disguise slips. The unhealthy Two grows possessive, martyred, and manipulative, reminding others of all they have sacrificed, and becoming aggressive when the love they were owed does not return. Growth for the Two means turning attention inward, welcoming the disowned self of [The Shadow](/knowledge/psychology/jungian/the-shadow), and discovering through [Individuation](/knowledge/psychology/jungian/individuation)[^sn-individuation] that they are lovable before they are useful.
 
 ## Related
 
@@ -37,3 +37,5 @@ At their best, Twos are unconditionally loving, humble, and nourishing, able to 
 - [Type 4 - The Individualist](/knowledge/enneagram/type-4-the-individualist)
 - [Type 8 - The Challenger](/knowledge/enneagram/type-8-the-challenger)
 - [Enneagram](/knowledge/enneagram)
+
+[^sn-individuation]: Individuation is the central process in Jungian psychology, the lifelong journey of becoming who you truly are.

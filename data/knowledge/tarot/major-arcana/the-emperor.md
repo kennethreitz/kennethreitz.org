@@ -15,7 +15,7 @@ A bearded ruler sits upright on a great stone throne carved with the heads of ra
 
 ## Upright
 
-The Emperor is structure, authority, and the protective power of law. Where [The Empress](/knowledge/tarot/major-arcana/the-empress) gives life, he gives it order, the boundaries within which growth can be sustained rather than squandered. Upright, he counsels discipline, responsibility, and the establishment of firm foundations. He is the good father, the one whose consistency makes freedom possible for those in his care. To draw him is to be asked where you must take command, set limits, or build something that will last.
+The Emperor is structure, authority, and the protective power of law. Where [The Empress](/knowledge/tarot/major-arcana/the-empress)[^sn-the-empress] gives life, he gives it order, the boundaries within which growth can be sustained rather than squandered. Upright, he counsels discipline, responsibility, and the establishment of firm foundations. He is the good father, the one whose consistency makes freedom possible for those in his care. To draw him is to be asked where you must take command, set limits, or build something that will last.
 
 ## Reversed
 
@@ -48,3 +48,5 @@ When the Emperor appears, the reading turns toward structure, responsibility, an
 - [Justice](/knowledge/tarot/major-arcana/justice)
 - [Psychology](/knowledge/psychology)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-empress]: The Empress is generative abundance, creativity, nurture, and the body’s wisdom made manifest.

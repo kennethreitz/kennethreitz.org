@@ -97,7 +97,7 @@ The 1950s and 60s saw a humanistic rebellion against psychoanalytic determinism.
 
 The cognitive-behavioral revolution of the 1960s-80s, led by Aaron Beck and Albert Ellis, went further in rejecting the psychoanalytic focus on the unconscious. Thoughts create feelings, they argued. Focus on symptoms, use evidence-based techniques, keep it short and practical. Insurance companies loved it. Academia embraced it. Psychoanalysis was marginalized. CBT became, and remains, the mainstream.
 
-Since the 1980s, an integration era has emerged. Eclectic approaches take what works from different schools. Attachment theory, developed by John Bowlby, bridges psychoanalysis and empirical research. Neuroscience offers new language for old insights. Trauma treatment, pioneered by Bessel van der Kolk and others, draws on multiple traditions. Mindfulness imports Buddhist practices. Somatic approaches bring attention back to the body.
+Since the 1980s, an integration era has emerged. Eclectic approaches take what works from different schools. Attachment theory, developed by John Bowlby,[^sn-john-bowlby] bridges psychoanalysis and empirical research. Neuroscience offers new language for old insights. Trauma treatment, pioneered by Bessel van der Kolk and others, draws on multiple traditions. Mindfulness imports Buddhist practices. Somatic approaches bring attention back to the body.
 
 ---
 
@@ -135,3 +135,5 @@ The Vienna-Zurich split no longer means choosing sides. It means having options.
 - [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious): What Jung took from the split
 - [Individuation](/knowledge/psychology/jungian/individuation): Jung's alternative path
 - [Spirituality](/knowledge/spirituality): Why Kenneth chose Jung over Freud
+
+[^sn-john-bowlby]: John Bowlby (1907–1990) was a British psychoanalyst who committed the field's great heresy: he insisted that what actually happens to children matters more than what they fantasize about. See [John Bowlby](/knowledge/psychology/attachment-theory/john-bowlby).

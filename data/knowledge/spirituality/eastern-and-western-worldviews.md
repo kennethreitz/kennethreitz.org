@@ -20,9 +20,9 @@ This note lays the two side by side, and to keep it concrete it runs a single ex
 
 ## The Body: Machine or Microcosm
 
-To the Western clinician, the chest tightness is a system to be localized. Is it cardiac, pulmonary, muscular, or, ruling those out, is it anxiety, the [amygdala and HPA axis](/knowledge/neuroscience) firing a threat response with no threat present? The body is a machine, the symptom a malfunction in a part, and the work is to find the part. This is enormously powerful: it is why we have antibiotics, surgery, and the diagnostic precision that saves lives. Its philosophical root is [Materialism](/knowledge/philosophy/materialism), mind and world are matter in motion, and [Dualism](/knowledge/philosophy/dualism), Descartes' split of the thinking self from the mechanical body it rides in.
+To the Western clinician, the chest tightness is a system to be localized. Is it cardiac, pulmonary, muscular, or, ruling those out, is it anxiety, the [amygdala and HPA axis](/knowledge/neuroscience) firing a threat response with no threat present? The body is a machine, the symptom a malfunction in a part, and the work is to find the part. This is enormously powerful: it is why we have antibiotics, surgery, and the diagnostic precision that saves lives. Its philosophical root is [Materialism](/knowledge/philosophy/materialism)[^sn-materialism], mind and world are matter in motion, and [Dualism](/knowledge/philosophy/dualism), Descartes' split of the thinking self from the mechanical body it rides in.
 
-To the Ayurvedic or Yogic eye, the same chest tightness sits at [Anahata](/knowledge/chakras/anahata), the heart center, the fourth [chakra](/knowledge/chakras), the meeting point of the lower, earthbound centers and the higher, spiritual ones. Grief, unspoken love, a closed heart: these are read as a blockage in the flow of *prana* through that center. The body here is not a machine but a *microcosm*, a small mirror of the whole ([as above, so below](/knowledge/table-of-correspondences)), and the tightness is not a malfunction but a message. Its root is a broadly [idealist](/knowledge/philosophy/idealism) or non-dual metaphysics: consciousness is primary, matter its expression, and the person is not a thing but a node in one continuous field.
+To the Ayurvedic or Yogic eye, the same chest tightness sits at [Anahata](/knowledge/chakras/anahata), the heart center, the fourth [chakra](/knowledge/chakras), the meeting point of the lower, earthbound centers and the higher, spiritual ones. Grief, unspoken love, a closed heart: these are read as a blockage in the flow of *prana* through that center. The body here is not a machine but a *microcosm*, a small mirror of the whole ([as above, so below](/knowledge/table-of-correspondences)), and the tightness is not a malfunction but a message. Its root is a broadly [idealist](/knowledge/philosophy/idealism)[^sn-idealism] or non-dual metaphysics: consciousness is primary, matter its expression, and the person is not a thing but a node in one continuous field.
 
 ---
 
@@ -30,7 +30,7 @@ To the Ayurvedic or Yogic eye, the same chest tightness sits at [Anahata](/knowl
 
 The two maps disagree most sharply about what a cause *is*. The Western map wants a mechanism, a pathogen, a lesion, a misfiring circuit, a chain of physical events that produces the symptom and can, in principle, be interrupted. Meaning is beside the point; the virus does not care what your life means.
 
-The Eastern map wants a meaning, or at least a pattern. Illness is imbalance, of the three *doshas* in Ayurveda, of yin and yang and the five phases in Chinese medicine, of the flow through the chakras in Yoga, and imbalance is never merely local. The chest tightness is connected to how you live, what you have refused to feel, the [karma](/knowledge/spirituality/karma) you carry. The symptom is the body speaking on behalf of the whole system, and to silence it without hearing it is to miss the point.
+The Eastern map wants a meaning, or at least a pattern. Illness is imbalance, of the three *doshas* in Ayurveda, of yin and yang and the five phases in Chinese medicine, of the flow through the chakras in Yoga, and imbalance is never merely local. The chest tightness is connected to how you live, what you have refused to feel, the [karma](/knowledge/spirituality/karma)[^sn-karma] you carry. The symptom is the body speaking on behalf of the whole system, and to silence it without hearing it is to miss the point.
 
 ---
 
@@ -54,7 +54,7 @@ Western time is a *line*: birth to death, progress, one life to get it right. Ea
 
 ## Where the Vault Stands
 
-The temptation is to pick a side, and the honest position refuses to. This vault holds both maps at once, the [Neuroscience](/knowledge/neuroscience) of dopamine and the HPA axis *and* the [Chakras](/knowledge/chakras); the [clinical diagnoses](/knowledge/psychology/conditions) *and* the [Table of Correspondences](/knowledge/table-of-correspondences); the reductive account of mind *and* the non-dual one, filed a folder apart. That is not confusion; it is the deliberate stance the whole [hard problem of consciousness](/knowledge/philosophy/philosophy-of-mind) leaves open, that we do not yet know which map is more fundamental, and pretending otherwise is its own kind of blindness.
+The temptation is to pick a side, and the honest position refuses to. This vault holds both maps at once, the [Neuroscience](/knowledge/neuroscience) of dopamine and the HPA axis *and* the [Chakras](/knowledge/chakras); the [clinical diagnoses](/knowledge/psychology/conditions) *and* the [Table of Correspondences](/knowledge/table-of-correspondences); the reductive account of mind *and* the non-dual one, filed a folder apart. That is not confusion; it is the deliberate stance the whole [hard problem of consciousness](/knowledge/philosophy/philosophy-of-mind)[^sn-philosophy-of-mind] leaves open, that we do not yet know which map is more fundamental, and pretending otherwise is its own kind of blindness.
 
 But holding both is not the same as treating them as interchangeable, and here the discernment has to be exact. For serious illness, infection, injury, the mood and psychotic episodes of a diagnosed condition, the biomedical map is the one that saves lives, and no amount of chakra work substitutes for it. Kenneth's own practice makes the division cleanly: medication and reality-testing carry the load the Western map is built to carry, while the Eastern map supplies *meaning*, a way to hold an experience, to ask what a symptom might be pointing at, to keep a difficult life legible from the inside. The chest tightness gets the cardiologist *and* the question of what the heart is grieving. Take the medicine; also read the message. The maps are complementary, not competing, and the skill is knowing which one to consult for which question.
 
@@ -80,3 +80,9 @@ To collapse them, to treat a blocked chakra as a diagnosis or a diagnosis as a s
 ---
 
 *Take the medicine; also read the message.*
+
+[^sn-materialism]: Materialism (also called physicalism in contemporary philosophy) is the view that everything that exists is either matter or depends on matter for its existence.
+[^sn-idealism]: Idealism is the philosophical view that reality is fundamentally mental, mind-dependent, or immaterial.
+[^sn-philosophy-of-mind]: Philosophy of mind asks what the mind is and how it connects to the physical world.
+
+[^sn-karma]: Karma, in its original Sanskrit meaning, is simply action, and the recognition that every action has consequences that ripple outward, shaping the conditions of future experience.

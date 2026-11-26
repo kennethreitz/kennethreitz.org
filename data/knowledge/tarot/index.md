@@ -157,8 +157,8 @@ When reading for others, boundaries matter. Always approach with permission and 
 ## Related
 
 - [Spirituality Hub](/knowledge/spirituality)
-- [Synchronicity](/knowledge/psychology/jungian/synchronicity)
-- [Archetypal Patterns](/knowledge/mythology)
+- [Synchronicity](/knowledge/psychology/jungian/synchronicity): meaningful coincidence, the reason a draw can land
+- [Archetypal Patterns](/knowledge/mythology): the myths the trumps are drawn from
 - [Kabbalah](/knowledge/spirituality/kabbalah): Major Arcana maps to the 22 paths on the Tree of Life
 - [Hermeticism](/knowledge/spirituality/hermeticism): "As above, so below" in [The Magician](/knowledge/tarot/major-arcana/the-magician)
 - [Alchemy](/knowledge/alchemy): [Temperance](/knowledge/tarot/major-arcana/temperance) and transformation symbolism

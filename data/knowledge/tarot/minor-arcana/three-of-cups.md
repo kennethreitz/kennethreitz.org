@@ -11,11 +11,11 @@ source: obsidian-knowledge
 
 ## Imagery
 
-Three women stand in a ring, lifting their cups toward the center in a toast, their arms interlaced in a dance. The ground around them is fertile and fruiting, a pumpkin, grapes, the produce of harvest scattered at their feet. They wear garlands and flowing robes, and their circle is closed and complete, a small commonwealth of gladness. The gesture is one of shared celebration, the overflow of the [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups) finally multiplied and passed around a company of friends.
+Three women stand in a ring, lifting their cups toward the center in a toast, their arms interlaced in a dance. The ground around them is fertile and fruiting, a pumpkin, grapes, the produce of harvest scattered at their feet. They wear garlands and flowing robes, and their circle is closed and complete, a small commonwealth of gladness. The gesture is one of shared celebration, the overflow of the [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups)[^sn-ace-of-cups] finally multiplied and passed around a company of friends.
 
 ## Upright
 
-The Three of Cups is community, friendship, celebration, and the abundance that only feeling can create when it is shared. It marks reunions, festivals, the healing that happens in good company, the moment when private joy becomes collective. Where the [Two of Cups](/knowledge/tarot/minor-arcana/two-of-cups) is intimate union, the Three widens the circle, this is love as belonging, gratitude expressed in the presence of others. It blesses collaboration and the sweetness of being witnessed in one’s happiness.
+The Three of Cups is community, friendship, celebration, and the abundance that only feeling can create when it is shared. It marks reunions, festivals, the healing that happens in good company, the moment when private joy becomes collective. Where the [Two of Cups](/knowledge/tarot/minor-arcana/two-of-cups)[^sn-two-of-cups] is intimate union, the Three widens the circle, this is love as belonging, gratitude expressed in the presence of others. It blesses collaboration and the sweetness of being witnessed in one’s happiness.
 
 ## Reversed
 
@@ -49,3 +49,7 @@ When this card arrives, it asks you to gather, to celebrate, to let others in on
 - [Three of Pentacles](/knowledge/tarot/minor-arcana/three-of-pentacles)
 - [Tarot](/knowledge/tarot)
 - [The Self](/knowledge/psychology/jungian/the-self)
+
+[^sn-ace-of-cups]: The Ace of Cups is the wellspring, the pure, undifferentiated source of feeling before it takes any particular shape.
+
+[^sn-two-of-cups]: The Two of Cups is its human prelude: the meeting of masculine and feminine, conscious and unconscious, self and other, as a mutual and voluntary exchange.

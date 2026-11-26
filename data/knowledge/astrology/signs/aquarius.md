@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Aquarius governs the deep of winter, the still weeks after the solstice when the individual mind turns from mere survival to the question of what the world could be. This is fixed air, the most abstract and idealistic of the elements held in its most stable form, thought crystallized into principle. The sign’s symbol is the water-bearer, pouring out the waters of knowledge and renewal for everyone, and that image captures its nature: the visionary who serves not the self but the collective, the future, the whole of humankind.
 
-Traditionally ruled by Saturn and, in the modern reckoning, by Uranus, Aquarius fuses the structure of the old lawgiver with the lightning of the great awakener. It is the archetype of the revolutionary and the humanitarian, the one who stands apart in order to see clearly, who is loyal to ideas and ideals more than to any tribe. There is a cool brilliance to the Aquarian, an originality that refuses convention on principle, and beneath it a genuine, if sometimes distant, love for the human project.
+Traditionally ruled by Saturn[^sn-saturn-astrology] and, in the modern reckoning, by Uranus, Aquarius fuses the structure of the old lawgiver with the lightning of the great awakener. It is the archetype of the revolutionary and the humanitarian, the one who stands apart in order to see clearly, who is loyal to ideas and ideals more than to any tribe. There is a cool brilliance to the Aquarian, an originality that refuses convention on principle, and beneath it a genuine, if sometimes distant, love for the human project.
 
 ## Correspondences
 
@@ -36,3 +36,5 @@ At its best, Aquarius is the friend of the future, inventive, principled, tolera
 
 - [Capricorn](/knowledge/astrology/signs/capricorn) · [Pisces](/knowledge/astrology/signs/pisces) · [Saturn](/knowledge/astrology/planets/saturn-astrology) · [Uranus](/knowledge/astrology/planets/uranus-astrology) · [The Star](/knowledge/tarot/major-arcana/the-star) · [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-saturn-astrology]: Saturn’s gift is maturity: authority earned through endurance, freedom won through mastery, a self forged by meeting limits rather than fleeing them. See [Saturn (astrology)](/knowledge/astrology/planets/saturn-astrology).

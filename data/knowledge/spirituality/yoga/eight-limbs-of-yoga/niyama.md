@@ -33,7 +33,7 @@ The last three niyamas are important enough that Patanjali gives them a collecti
 
 ## Place in the Sequence
 
-With the world quieted by [Yama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/yama) and the self ordered by niyama, the practitioner has built a life that will not sabotage the sitting. Only now does Patanjali turn to the body itself, [Asana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/asana), the third limb, the seat from which the inward journey is made. The ordering repeats a pattern found across contemplative traditions, from monastic rules to the [Vedanta](/knowledge/spirituality/vedanta) prerequisites for inquiry: ethics before technique, character before power.
+With the world quieted by [Yama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/yama) and the self ordered by niyama, the practitioner has built a life that will not sabotage the sitting. Only now does Patanjali turn to the body itself, [Asana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/asana),[^sn-asana] the third limb, the seat from which the inward journey is made. The ordering repeats a pattern found across contemplative traditions, from monastic rules to the [Vedanta](/knowledge/spirituality/vedanta) prerequisites for inquiry: ethics before technique, character before power.
 
 ---
 
@@ -44,3 +44,5 @@ With the world quieted by [Yama](/knowledge/spirituality/yoga/eight-limbs-of-yog
 - [Asana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/asana), the next limb, the seat
 - [Yoga](/knowledge/spirituality/yoga), the parent overview
 - [Vedanta](/knowledge/spirituality/vedanta): parallel insistence on ethical preparation
+
+[^sn-asana]: Everything the modern West means by "yoga", the studios, the mats, the sequences, the athleisure economy, descends from a limb Patanjali dispatches in three sutras. *Sthira sukham asanam* (II.46): the posture should be steady and comfortable.

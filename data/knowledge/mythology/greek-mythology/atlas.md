@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Overview
 
-Atlas is the Titan condemned to hold up the sky, the great enduring figure who stands at the western edge of the world with the whole vault of heaven pressing on his shoulders. Son of the Titan [Iapetus](/knowledge/mythology/greek-mythology/iapetus) and brother to [Prometheus](/knowledge/mythology/greek-mythology/prometheus), he belongs to the second generation of Titans, and when [Zeus](/knowledge/mythology/greek-mythology/zeus) and the Olympians overthrew the elder gods in the Titanomachy, Atlas was singled out from among the defeated for the harshest and strangest sentence: not imprisonment in Tartarus with the rest, but the eternal labor of keeping the sky and the earth apart, bearing on himself the burden that had once been the whole order of things.
+Atlas is the Titan condemned to hold up the sky, the great enduring figure who stands at the western edge of the world with the whole vault of heaven pressing on his shoulders. Son of the Titan [Iapetus](/knowledge/mythology/greek-mythology/iapetus) and brother to [Prometheus](/knowledge/mythology/greek-mythology/prometheus),[^sn-prometheus] he belongs to the second generation of Titans, and when [Zeus](/knowledge/mythology/greek-mythology/zeus) and the Olympians overthrew the elder gods in the Titanomachy, Atlas was singled out from among the defeated for the harshest and strangest sentence: not imprisonment in Tartarus with the rest, but the eternal labor of keeping the sky and the earth apart, bearing on himself the burden that had once been the whole order of things.
 
-He is the very image of unending endurance: strength turned to punishment, a god made into a pillar. Where his brother [Prometheus](/knowledge/mythology/greek-mythology/prometheus) rebelled with cunning, Atlas is caught in the sheer weight of consequence, holding without rest what he cannot set down. He dwells in the far west, at the world's rim, where his daughters the Hesperides keep their garden and where his name was given to the mountains and, in time, to the ocean beyond them. To the Greeks he was the limit of the known world made flesh, straining at the horizon under the sky.
+He is the very image of unending endurance: strength turned to punishment, a god made into a pillar. Where his brother [Prometheus](/knowledge/mythology/greek-mythology/prometheus)[^sn-prometheus-2] rebelled with cunning, Atlas is caught in the sheer weight of consequence, holding without rest what he cannot set down. He dwells in the far west, at the world's rim, where his daughters the Hesperides keep their garden and where his name was given to the mountains and, in time, to the ocean beyond them. To the Greeks he was the limit of the known world made flesh, straining at the horizon under the sky.
 
 ---
 
@@ -35,3 +35,7 @@ He is the very image of unending endurance: strength turned to punishment, a god
 - [Zeus](/knowledge/mythology/greek-mythology/zeus): Who condemned him to bear the sky after the Titanomachy
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-prometheus]: Prometheus is the Titan who took the side of humanity against the gods.
+
+[^sn-prometheus-2]: Prometheus is the Titan who took the side of humanity against the gods.

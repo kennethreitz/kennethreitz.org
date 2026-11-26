@@ -32,7 +32,7 @@ The malformed offspring of Sophia's fall is **[The Demiurge](/knowledge/spiritua
 
 ## The Long Redemption
 
-Yet the myth does not end in despair, because the light Sophia lost is not lost forever, only scattered. Fragments of it are trapped in the material world, buried in human beings as the **divine spark**. Sophia's redemption is therefore not a single event but a long gathering: the slow recovery of the scattered light, spark by spark, as each awakened soul remembers its origin above and rises home. In this sense Sophia's fall is our fall, and her return is our return. She is both the wound and the promise, the wisdom that got lost, and the wisdom that comes to lead the lost back. Her recovery is often the work of a revealer sent from the Pleroma, and in Christian Gnosticism that revealer is Christ, come to wake the sleeping spark with [Gnosis](/knowledge/spirituality/gnosticism/gnosis).
+Yet the myth does not end in despair, because the light Sophia lost is not lost forever, only scattered. Fragments of it are trapped in the material world, buried in human beings as the **divine spark**. Sophia's redemption is therefore not a single event but a long gathering: the slow recovery of the scattered light, spark by spark, as each awakened soul remembers its origin above and rises home. In this sense Sophia's fall is our fall, and her return is our return. She is both the wound and the promise, the wisdom that got lost, and the wisdom that comes to lead the lost back. Her recovery is often the work of a revealer sent from the Pleroma, and in Christian Gnosticism that revealer is Christ, come to wake the sleeping spark with [Gnosis](/knowledge/spirituality/gnosticism/gnosis).[^sn-gnosis]
 
 ---
 
@@ -54,3 +54,5 @@ In Kenneth's [System 777](/system-777), the wisdom-aeon rhymes with an alter: **
 - [The Shekhinah](/knowledge/spirituality/the-shekhinah), the indwelling divine feminine, wisdom present in exile
 - Sophie, the alter whose name and role rhyme with the aeon
 - [Spirituality](/knowledge/spirituality), the wider domain
+
+[^sn-gnosis]: The decisive thing about gnosis is that it is experiential, not propositional.

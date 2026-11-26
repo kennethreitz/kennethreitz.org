@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Scale
 
-The blues scale is the [Minor Pentatonic](/knowledge/music/scales-and-modes/scales/minor-pentatonic) with one note added, a flattened fifth wedged between the fourth and the fifth. That single chromatic passing tone, the notorious "blue note," transforms a folk-simple five-note structure into something that carries the whole emotional weight of the blues tradition. Its origins lie in the collision of West African tonal practice with European harmony in the American South, where singers bent pitches into the cracks between the piano keys. The written blues scale is a Western approximation of that bending: an attempt to notate a note that really lives in the gliding space between the third and the fourth, and between the fourth and the fifth.
+The blues scale is the [Minor Pentatonic](/knowledge/music/scales-and-modes/scales/minor-pentatonic)[^sn-minor-pentatonic] with one note added, a flattened fifth wedged between the fourth and the fifth. That single chromatic passing tone, the notorious "blue note," transforms a folk-simple five-note structure into something that carries the whole emotional weight of the blues tradition. Its origins lie in the collision of West African tonal practice with European harmony in the American South, where singers bent pitches into the cracks between the piano keys. The written blues scale is a Western approximation of that bending: an attempt to notate a note that really lives in the gliding space between the third and the fourth, and between the fourth and the fifth.
 
 ## Structure
 
@@ -37,3 +37,5 @@ It is the defining melodic resource of the blues and everything the blues father
 - [Mixolydian](/knowledge/music/scales-and-modes/modes/mixolydian)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-minor-pentatonic]: The minor pentatonic is the natural minor scale stripped to its five most essential notes, the Aeolian mode with its second and sixth degrees removed.

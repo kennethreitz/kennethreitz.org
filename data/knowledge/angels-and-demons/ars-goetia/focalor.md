@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Focalor: also spelled Forcalor or Furcalor: is the forty-first spirit of the Ars Goetia, a Great Duke who appears in the form of a man with the wings of a griffin. He is one of the great maritime spirits of the catalogue, holding dominion over the winds and the sea, and his reputation is that of a drowner of men and a wrecker of ships. In this he shares his elemental territory with the duke Vepar, his neighbour in the ordering of the spirits.
+Focalor: also spelled Forcalor or Furcalor: is the forty-first spirit of the Ars Goetia, a Great Duke who appears in the form of a man with the wings of a griffin. He is one of the great maritime spirits of the catalogue, holding dominion over the winds and the sea, and his reputation is that of a drowner of men and a wrecker of ships. In this he shares his elemental territory with the duke Vepar,[^sn-vepar] his neighbour in the ordering of the spirits.
 
 The grimoires preserve a striking detail of restraint about him: Focalor, like others of his kind, is said to have belonged to the Order of Thrones before his fall, and he hopes to return to Heaven after a thousand years, though the tradition records that he is deceived in this hope. Because of that hope he will do no hurt to any man unless he is expressly commanded to it by the operator.
 
@@ -34,3 +34,5 @@ The Goetia says Focalor has power over the winds and the sea, and can overthrow 
 - [Raum](/knowledge/angels-and-demons/ars-goetia/raum)
 - [Vepar](/knowledge/angels-and-demons/ars-goetia/vepar)
 - [Ars Goetia](/knowledge/angels-and-demons/ars-goetia)
+
+[^sn-vepar]: Vepar, also written Vephar or Separ, is the forty-second spirit of the Ars Goetia, a Great Duke who appears in the form of a mermaid. See [Vepar](/knowledge/angels-and-demons/ars-goetia/vepar).

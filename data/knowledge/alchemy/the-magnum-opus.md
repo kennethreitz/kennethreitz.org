@@ -7,7 +7,7 @@ source: obsidian-knowledge
 
 > *The Great Work: four stages of transformation, each marked by a color.*
 
-The Magnum Opus is the alchemist's name for the complete transformation of base matter into gold, or, read correctly, the complete transformation of the unrefined self into the integrated one. The process unfolds through four stages, each associated with a color, each corresponding to a phase of psychological and spiritual development that Jung would later recognize as [Individuation](/knowledge/psychology/jungian/individuation).
+The Magnum Opus is the alchemist's name for the complete transformation of base matter into gold, or, read correctly, the complete transformation of the unrefined self into the integrated one. The process unfolds through four stages, each associated with a color, each corresponding to a phase of psychological and spiritual development that Jung would later recognize as [Individuation](/knowledge/psychology/jungian/individuation).[^sn-individuation]
 
 ---
 
@@ -56,3 +56,5 @@ The Infinite State discography traces the Magnum Opus:
 - [The Shadow](/knowledge/psychology/jungian/the-shadow): What nigredo confronts
 - [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus): What coniunctio unites
 - Infinite State: The discography as Opus
+
+[^sn-individuation]: Individuation is the central process in Jungian psychology, the lifelong journey of becoming who you truly are.

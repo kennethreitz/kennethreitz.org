@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Origins and History
 
-Christianity began as a movement within Second-Temple [Judaism](/knowledge/religions-of-the-world/judaism). Jesus of Nazareth, a Galilean Jew executed by Roman authority around 30 CE, preached the imminent arrival of the Kingdom of God, taught in parables, and gathered disciples who came to believe, against every expectation their tradition had prepared them for, that he had risen from the dead. That conviction, not the teachings alone, is the ignition point. Paul of Tarsus carried the message beyond the Jewish world, arguing that Gentiles could enter the covenant without taking on the Mosaic law, and within a generation the movement was more Greek than Aramaic.
+Christianity began as a movement within Second-Temple [Judaism](/knowledge/religions-of-the-world/judaism).[^sn-judaism] Jesus of Nazareth, a Galilean Jew executed by Roman authority around 30 CE, preached the imminent arrival of the Kingdom of God, taught in parables, and gathered disciples who came to believe, against every expectation their tradition had prepared them for, that he had risen from the dead. That conviction, not the teachings alone, is the ignition point. Paul of Tarsus carried the message beyond the Jewish world, arguing that Gentiles could enter the covenant without taking on the Mosaic law, and within a generation the movement was more Greek than Aramaic.
 
 Three centuries of intermittent persecution ended abruptly when Constantine legalized the faith in 313 CE; by 380 it was the official religion of the empire that had crucified its founder. The ecumenical councils. Nicaea (325), Constantinople (381), Chalcedon (451), hammered out the doctrines of Christ's divinity and the Trinity against rival interpretations, including the [Gnostic](/knowledge/spirituality/gnosticism) currents that read Jesus as a revealer of secret knowledge rather than an incarnate redeemer. The Great Schism of 1054 divided East from West; the Protestant Reformation of the sixteenth century divided the West against itself. Today Christianity is the world's largest religion, with roughly 2.4 billion adherents, its demographic center of gravity shifting steadily toward the Global South.
 
@@ -22,7 +22,7 @@ Three centuries of intermittent persecution ended abruptly when Constantine lega
 
 At the center is the claim that God became human. The doctrine of the Incarnation holds that Jesus is fully God and fully man, and the doctrine of the Trinity, one God in three persons, Father, Son, and Holy Spirit, is the grammar Christians developed to speak of a God who is simultaneously the transcendent creator, the crucified Galilean, and the present Spirit. The vault's study guide on The Trinity works through the biblical texts behind the doctrine.
 
-Human beings are created in God's image but estranged from God through sin, and cannot repair the estrangement themselves. The crucifixion and resurrection of Jesus are understood as God's own act of reconciliation, atonement, though the traditions differ considerably on the mechanics. Salvation is received through faith; whether faith is a free human response or itself a gift of sovereign grace is the fault line that [Calvinism](/knowledge/spirituality/calvinism) answers in the strongest possible terms for grace. Christian hope is finally eschatological: resurrection of the dead, final judgment, and a renewed creation, a vision whose deep roots run back through Jewish apocalyptic into, many scholars argue, Persian soil ([Zoroastrianism](/knowledge/religions-of-the-world/zoroastrianism)).
+Human beings are created in God's image but estranged from God through sin, and cannot repair the estrangement themselves. The crucifixion and resurrection of Jesus are understood as God's own act of reconciliation, atonement, though the traditions differ considerably on the mechanics. Salvation is received through faith; whether faith is a free human response or itself a gift of sovereign grace is the fault line that [Calvinism](/knowledge/spirituality/calvinism)[^sn-calvinism] answers in the strongest possible terms for grace. Christian hope is finally eschatological: resurrection of the dead, final judgment, and a renewed creation, a vision whose deep roots run back through Jewish apocalyptic into, many scholars argue, Persian soil ([Zoroastrianism](/knowledge/religions-of-the-world/zoroastrianism)).
 
 ---
 
@@ -68,3 +68,6 @@ Protestantism subdivides endlessly: Lutheran, Reformed and Presbyterian (the hei
 ---
 
 *"For God so loved the world, that he gave his only begotten Son.". John 3:16, KJV*
+
+[^sn-judaism]: Judaism is the oldest of the surviving monotheisms, and its history is inseparable from the history of the Jewish people.
+[^sn-calvinism]: Calvinism is the theological system developed by John Calvin (1509-1564) and later systematized by his followers.

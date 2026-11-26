@@ -23,7 +23,7 @@ Dante's third terrace purges wrath in acrid black smoke, so dense the penitents 
 
 ## The Remedy
 
-The counter-practice is [Patience](/knowledge/virtues-and-vices/virtues/patience), not the suppression of anger but the willingness to suffer a wrong without demanding immediate repayment, keeping the eye of judgment clear long enough to tell justice from revenge.
+The counter-practice is [Patience](/knowledge/virtues-and-vices/virtues/patience)[^sn-patience], not the suppression of anger but the willingness to suffer a wrong without demanding immediate repayment, keeping the eye of judgment clear long enough to tell justice from revenge.
 
 ## The Enneagram Passion
 
@@ -42,3 +42,5 @@ In the [Enneagram](/knowledge/enneagram), anger is the passion of [Type 1](/know
 ---
 
 *The smoke is not the punishment. The smoke is what anger already was.*
+
+[^sn-patience]: Patience stands among the seven heavenly virtues as the remedy for Wrath.

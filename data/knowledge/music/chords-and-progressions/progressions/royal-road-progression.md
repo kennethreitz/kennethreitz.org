@@ -27,7 +27,7 @@ The magic is in the V–iii move. The dominant primes the ear for a return home,
 
 ## In Practice
 
-It is the bittersweet staple of J-pop and anime, threaded through countless theme songs and city-pop tunes; Western ears know it from songs that swap between hope and heartbreak within a single bar. Its deceptive V–iii motion makes it a cousin to the [Cadences](/knowledge/music/chords-and-progressions/progressions/cadences) family of interrupted resolutions, and its four chords rearrange the same diatonic set as the [Fifties Progression](/knowledge/music/chords-and-progressions/progressions/fifties-progression).
+It is the bittersweet staple of J-pop and anime, threaded through countless theme songs and city-pop tunes; Western ears know it from songs that swap between hope and heartbreak within a single bar. Its deceptive V–iii motion makes it a cousin to the [Cadences](/knowledge/music/chords-and-progressions/progressions/cadences) family of interrupted resolutions, and its four chords rearrange the same diatonic set as the [Fifties Progression](/knowledge/music/chords-and-progressions/progressions/fifties-progression).[^sn-fifties-progression]
 
 ## Related
 
@@ -36,3 +36,5 @@ It is the bittersweet staple of J-pop and anime, threaded through countless them
 - [Pachelbel's Canon](/knowledge/music/chords-and-progressions/progressions/pachelbels-canon)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-fifties-progression]: The fifties progression, I–vi–IV–V, is the sound of doo-wop and the American ballad at midcentury.

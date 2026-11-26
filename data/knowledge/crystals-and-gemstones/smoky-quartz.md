@@ -27,7 +27,7 @@ Where Clear Quartz reaches upward toward light, Smoky Quartz turns downward towa
 
 ## Properties
 
-Smoky Quartz is a premier grounding stone, anchoring scattered energy back into the body and the [root](/knowledge/chakras/muladhara). Its signature gift is release, it draws off fear, stress, resentment, and the low-grade static of a mind that will not settle, then channels that heaviness down and out, the way a lightning rod hands a charge to the earth. It offers a calm, absorbing protection, transmuting negativity rather than merely repelling it, and it steadies those prone to anxiety or overwhelm.
+Smoky Quartz is a premier grounding stone, anchoring scattered energy back into the body and the [root](/knowledge/chakras/muladhara).[^sn-muladhara] Its signature gift is release, it draws off fear, stress, resentment, and the low-grade static of a mind that will not settle, then channels that heaviness down and out, the way a lightning rod hands a charge to the earth. It offers a calm, absorbing protection, transmuting negativity rather than merely repelling it, and it steadies those prone to anxiety or overwhelm.
 
 ## In Practice
 
@@ -40,3 +40,5 @@ Held in each hand or placed at the feet during meditation, Smoky Quartz pulls th
 - [Clear Quartz](/knowledge/crystals-and-gemstones/clear-quartz)
 - [Muladhara](/knowledge/chakras/muladhara)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-muladhara]: Muladhara sits at the base of the spine, at the perineal floor where the body meets the ground it stands upon.

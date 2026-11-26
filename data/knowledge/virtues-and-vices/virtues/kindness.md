@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Where It Belongs
 
-Kindness holds a place among the seven heavenly virtues as the remedy for [Envy](/knowledge/virtues-and-vices/seven-deadly-sins/envy). The medieval lists name it variously, *humanitas*, *benevolentia*, sometimes brotherly love, and it can look like the modest one on the list, the virtue nobody writes epics about. That modesty is deceptive. Paul puts it in the center of his portrait of charity ("charity suffereth long, and is kind"), and the Galatians harvest includes it under *gentleness*, see Fruits of the Spirit. The tradition understood that the smallest virtue on the list is the one practiced most often.
+Kindness holds a place among the seven heavenly virtues as the remedy for [Envy](/knowledge/virtues-and-vices/seven-deadly-sins/envy).[^sn-envy] The medieval lists name it variously, *humanitas*, *benevolentia*, sometimes brotherly love, and it can look like the modest one on the list, the virtue nobody writes epics about. That modesty is deceptive. Paul puts it in the center of his portrait of charity ("charity suffereth long, and is kind"), and the Galatians harvest includes it under *gentleness*, see Fruits of the Spirit. The tradition understood that the smallest virtue on the list is the one practiced most often.
 
 ## What It Is
 
@@ -35,3 +35,5 @@ Kindness answers [Envy](/knowledge/virtues-and-vices/seven-deadly-sins/envy): so
 ---
 
 *Envy sees a rival. Kindness sees kin. Same neighbor, different eyes.*
+
+[^sn-envy]: Envy is the one sin on the list that Evagrius did not name.

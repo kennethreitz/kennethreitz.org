@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 The Eighth House is the chart's dark and fertile depth, the place where the self is undone and remade. It governs death, not as morbid fixation but as the great transformer, the ending that clears the ground for what comes next, and every smaller death the psyche undergoes: crisis, surrender, the shedding of a former life. It rules sex, the merging that dissolves the boundary between one person and another, and it holds the occult, the hidden knowledge glimpsed only by those willing to descend. This is the house of the taboo, the intense, the things not spoken of at dinner.
 
-It governs, too, the practical matters of what is shared: joint finances, inheritances, debts, the entangled resources of two lives bound together. Where the Second House holds what is yours alone, the Eighth holds what you hold in common, and the vulnerability that comes with such entanglement. At bottom this is the house of transformation itself, the alchemical process by which loss becomes wisdom and shadow becomes power. Ruled in the modern reckoning by Pluto, it does not flinch from the depths; it insists that regeneration is only possible for those who first consent to be undone.
+It governs, too, the practical matters of what is shared: joint finances, inheritances, debts, the entangled resources of two lives bound together. Where the Second House[^sn-second-house] holds what is yours alone, the Eighth holds what you hold in common, and the vulnerability that comes with such entanglement. At bottom this is the house of transformation itself, the alchemical process by which loss becomes wisdom and shadow becomes power. Ruled in the modern reckoning by Pluto, it does not flinch from the depths; it insists that regeneration is only possible for those who first consent to be undone.
 
 ## Correspondences
 
@@ -35,3 +35,5 @@ The Eighth House is succedent, a house of holding and consolidation, following t
 - [Scorpio](/knowledge/astrology/signs/scorpio) and its ruling planet [Pluto](/knowledge/astrology/planets/pluto-astrology)
 - [Astrology](/knowledge/astrology)
 - [Tarot](/knowledge/tarot)
+
+[^sn-second-house]: The Second House is the house of substance, of everything you can call yours. See [Second House](/knowledge/astrology/houses/second-house).

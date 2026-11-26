@@ -30,7 +30,7 @@ There is a reason the major triad reads as optimism. The interval of the major t
 
 ## In Practice
 
-The major triad is the tonic and dominant backbone of nearly every genre, folk, pop, classical, gospel, rock. As the I chord it signals arrival and rest; as the IV and V it frames the tonic and creates the pull of a cadence. Three or four of them in the right order build most of the songs anyone can hum. In [pytheory](/software/pytheory) it is the reference against which every other chord’s alterations are measured.
+The major triad is the tonic and dominant backbone of nearly every genre, folk, pop, classical, gospel, rock. As the I chord it signals arrival and rest; as the IV and V it frames the tonic and creates the pull of a cadence. Three or four of them in the right order build most of the songs anyone can hum. In [pytheory](/software/pytheory)[^sn-pytheory] it is the reference against which every other chord’s alterations are measured.
 
 ## Related
 
@@ -39,3 +39,5 @@ The major triad is the tonic and dominant backbone of nearly every genre, folk, 
 - [Sixth Chords](/knowledge/music/chords-and-progressions/chords/sixth-chords)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
+
+[^sn-pytheory]: PyTheory is a complete music theory library and synthesis engine.

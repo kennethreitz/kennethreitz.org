@@ -30,7 +30,7 @@ The diminished triad is pure unrest. It sounds like a question, a threat, a mome
 
 ## In Practice
 
-The diminished triad appears diatonically as the vii° of a major key, the leading-tone chord that strains upward toward the tonic. It functions as a dominant substitute, carrying the same tritone tension that pulls a phrase home. Passing diminished chords link two stable harmonies with a moment of chromatic motion, a trick as common in ragtime as in film scoring. Extend it and it becomes the still darker [Diminished Seventh](/knowledge/music/chords-and-progressions/chords/diminished-seventh).
+The diminished triad appears diatonically as the vii° of a major key, the leading-tone chord that strains upward toward the tonic. It functions as a dominant substitute, carrying the same tritone tension that pulls a phrase home. Passing diminished chords link two stable harmonies with a moment of chromatic motion, a trick as common in ragtime as in film scoring. Extend it and it becomes the still darker [Diminished Seventh](/knowledge/music/chords-and-progressions/chords/diminished-seventh).[^sn-diminished-seventh]
 
 ## Related
 
@@ -39,3 +39,5 @@ The diminished triad appears diatonically as the vii° of a major key, the leadi
 - [Half-Diminished Seventh](/knowledge/music/chords-and-progressions/chords/half-diminished-seventh)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
+
+[^sn-diminished-seventh]: The diminished seventh is the most rigorously symmetrical chord in tonal music.

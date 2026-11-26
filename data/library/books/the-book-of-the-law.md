@@ -15,7 +15,7 @@ The book is divided into three chapters, each voiced by an Egyptian deity who go
 
 Provocative and dangerous in the way that unstable compounds are dangerous. "Do what thou wilt shall be the whole of the Law" is often misread as license. It's actually about discovering your true will, which turns out to be much harder and less fun than doing whatever you want.
 
-Kenneth has mostly outgrown Crowley's framework, but this was an important waypoint. You don't get to where you're going without passing through where you've been.
+Kenneth has mostly outgrown Crowley's framework,[^sn-liber-777] but this was an important waypoint. You don't get to where you're going without passing through where you've been.
 
 ---
 
@@ -26,3 +26,5 @@ Kenneth has mostly outgrown Crowley's framework, but this was an important waypo
 - [The Kybalion](/library/books/the-kybalion): Hermetic neighbor on the shelf
 - [Spirituality](/knowledge/spirituality): The broader journey
 - [System 777](/system-777): Where the symbolic toolkit eventually went
+
+[^sn-liber-777]: Crowley's other book on the shelf is [Liber 777](/library/books/liber-777), a massive table of correspondences mapped to the Kabbalistic Tree of Life.

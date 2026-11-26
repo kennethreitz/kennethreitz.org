@@ -122,11 +122,11 @@ export GOOGLE_API_KEY=...
 <!-- vault:history start -->
 ## History
 
-simplemind applies the "For Humans" philosophy to AI tooling. Where LangChain gives you a framework that requires understanding chains, agents, tools, memory systems, and dozens of abstractions before you can do anything useful, simplemind gives you a function call. The same instinct that turned urllib2 into `requests.get(url)` turns the LLM toolchain into `sm.generate_text("hello")`.
+simplemind applies the "For Humans" philosophy to AI tooling. Where LangChain gives you a framework that requires understanding chains, agents, tools, memory systems, and dozens of abstractions before you can do anything useful, simplemind gives you a function call. The same instinct that turned urllib2 into `requests.get(url)` turns the LLM toolchain into `sm.generate_text("hello")`.[^sn-created]
 
 AI libraries in 2024 looked like urllib2 in 2011, technically powerful, architecturally sound, and hostile to the person sitting at the keyboard. LangChain required learning an entire abstraction vocabulary. LangGraph demanded graph theory. The common case. "talk to an LLM and get text back", was buried under layers of enterprise scaffolding.
 
-No chains. No agents. No graph theory. Just ask and receive.
+No chains. No agents. No graph theory.[^sn-requests] Just ask and receive.
 
 Same philosophy, new frontier. Each library takes a domain where developers were fighting the tool and removes the fight. The pattern hasn't changed in thirteen years, only the domain.
 

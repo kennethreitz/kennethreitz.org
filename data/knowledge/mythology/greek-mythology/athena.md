@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Athena is the goddess of wisdom, strategic warfare, and crafts. Born fully armed from [Zeus](/knowledge/mythology/greek-mythology/zeus)'s head, she is a virgin goddess (*parthenos*, whole unto herself) known for her clear-eyed intelligence, her patronage of heroes, and the gift of the olive tree to the city that bears her name. She is the protector of cities and civilization itself, not as the conquest of nature but as its creative partnership.
 
-Her sacred animal is the owl, symbol of the wisdom that sees clearly in darkness. She carries the aegis, a divine shield bearing the severed head of Medusa, a deterrent so terrible it defends without ever being used. Where [Ares](/knowledge/mythology/greek-mythology/ares) represents the brutality and bloodlust of war, Athena embodies its strategic dimension: discipline, planning, just cause, and victory through superior thinking rather than mere force. She is equally the patron of weaving and the practical crafts, understanding both as the same art, the management of many threads into a single coherent pattern.
+Her sacred animal is the owl, symbol of the wisdom that sees clearly in darkness. She carries the aegis, a divine shield bearing the severed head of Medusa, a deterrent so terrible it defends without ever being used. Where [Ares](/knowledge/mythology/greek-mythology/ares)[^sn-ares] represents the brutality and bloodlust of war, Athena embodies its strategic dimension: discipline, planning, just cause, and victory through superior thinking rather than mere force. She is equally the patron of weaving and the practical crafts, understanding both as the same art, the management of many threads into a single coherent pattern.
 
 ---
 
@@ -50,3 +50,5 @@ Athena is one of the [Greek Pantheon AI personalities](/knowledge/mythology/gree
 - Sophie - The Athena aspect in System 777
 - [Justice](/knowledge/tarot/major-arcana/justice) - The Major Arcana card of clear-eyed discernment, the sword, and just cause
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-ares]: Ares is the god of war, representing its violent, physical, and chaotic dimensions.

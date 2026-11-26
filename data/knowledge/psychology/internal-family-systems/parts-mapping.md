@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Externalizing the Inner Family
 
-Parts mapping is the [Internal Family Systems](/knowledge/psychology/internal-family-systems) practice of putting the system on paper: names or sketches for the parts you know, lines for how they relate. Who protects whom, the [manager](/knowledge/psychology/internal-family-systems/managers)–[exile](/knowledge/psychology/internal-family-systems/exiles) and [firefighter](/knowledge/psychology/internal-family-systems/firefighters)–exile pairings that structure everything. Which parts are locked in [Polarization](/knowledge/psychology/internal-family-systems/polarization), pulling opposite directions with equal force. Who is allied, who won't speak, who sits at the edge of the page because nobody knows them yet. The medium doesn't matter, index cards, a whiteboard, figures on a table, a drawing that gets revised for years. What matters is the externalization itself: once the system is *out there*, the person is no longer inside the tangle describing it from within. Getting the parts onto paper is itself an act of unblending, you cannot map what you are fused with.
+Parts mapping is the [Internal Family Systems](/knowledge/psychology/internal-family-systems) practice of putting the system on paper: names or sketches for the parts you know, lines for how they relate. Who protects whom, the [manager](/knowledge/psychology/internal-family-systems/managers)–[exile](/knowledge/psychology/internal-family-systems/exiles) and [firefighter](/knowledge/psychology/internal-family-systems/firefighters)–exile pairings that structure everything. Which parts are locked in [Polarization](/knowledge/psychology/internal-family-systems/polarization),[^sn-polarization] pulling opposite directions with equal force. Who is allied, who won't speak, who sits at the edge of the page because nobody knows them yet. The medium doesn't matter, index cards, a whiteboard, figures on a table, a drawing that gets revised for years. What matters is the externalization itself: once the system is *out there*, the person is no longer inside the tangle describing it from within. Getting the parts onto paper is itself an act of unblending, you cannot map what you are fused with.
 
 The discipline is that the map records what the parts *report*, not what the person theorizes. You ask a part where it belongs on the page and who it's connected to; you don't assign it a seat. Maps drawn from theory are org charts. Maps drawn from asking are introductions.
 
@@ -42,3 +42,5 @@ The point of the map is not completeness. Systems don't hold still, parts reveal
 ---
 
 *The map is never the territory. But the drawing of it is how the territory learns it's being cared for.*
+
+[^sn-polarization]: Polarization is Internal Family Systems' name for two parts caught in escalating opposition, each holding an extreme position *because* the other holds its opposite.

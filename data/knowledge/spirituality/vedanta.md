@@ -44,7 +44,7 @@ class BrahmanBase:
 
 माया: The creative power that makes the One appear as Many. Not illusion in the sense of "fake" but in the sense of "appearance." The world is real as appearance; the mistake is taking appearance for ultimate reality.
 
-The [maya datetime library](/software/maya) is named for this concept.
+The [maya datetime library](/software/maya)[^sn-maya] is named for this concept.
 
 ### Moksha
 
@@ -64,7 +64,7 @@ Brought Vedanta to the West at the 1893 Parliament of World Religions. Made it a
 
 ### [Ram Dass](/knowledge/spirituality/ram-dass) (1931-2019)
 
-Continued the translation work: Harvard professor who became vehicle for transmission. His guru Neem Karoli Baba embodied the teaching.
+Continued the translation work: Harvard professor who became vehicle for transmission. His guru Neem Karoli Baba[^sn-neem-karoli-baba] embodied the teaching.
 
 ### Kenneth (present)
 
@@ -124,3 +124,6 @@ The poetry collection translating these concepts through code: The Lambda Vedas,
 ---
 
 *"Tat tvam asi": Thou art That.*
+
+[^sn-maya]: Maya carved its niche by being the simplest, parse anything, get readable output, handle timezones without tears.
+[^sn-neem-karoli-baba]: Neem Karoli Baba left few facts and no autobiography, even the name is one of several, taken from a village where he was said to have sat. [Neem Karoli Baba](/knowledge/spirituality/ram-dass/neem-karoli-baba) has the rest.

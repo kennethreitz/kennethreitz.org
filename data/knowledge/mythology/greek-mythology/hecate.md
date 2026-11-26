@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Hecate is the goddess of witchcraft and the threshold, the power that lives wherever one road becomes three. Daughter of the Titans Perses and Asteria, she predates the Olympians and was allowed by [Zeus](/knowledge/mythology/greek-mythology/zeus) to keep her ancient honors across earth, sea, and sky. She is often shown triple-formed, three bodies facing three directions at once, holding torches to light what is otherwise hidden. She belongs to the places between places: doorways, boundaries, the dark of the moon, the moment before a choice. To pray to her was to ask for safe passage across a line.
+Hecate is the goddess of witchcraft and the threshold, the power that lives wherever one road becomes three. Daughter of the Titans Perses and Asteria, she predates the Olympians and was allowed by [Zeus](/knowledge/mythology/greek-mythology/zeus)[^sn-zeus] to keep her ancient honors across earth, sea, and sky. She is often shown triple-formed, three bodies facing three directions at once, holding torches to light what is otherwise hidden. She belongs to the places between places: doorways, boundaries, the dark of the moon, the moment before a choice. To pray to her was to ask for safe passage across a line.
 
 She is not sinister so much as unbound. She keeps company with ghosts and hounds, walks the night, and answers to no one, the tutelary spirit of anyone standing at a crossroads unsure which way to turn.
 
@@ -39,3 +39,5 @@ She is not sinister so much as unbound. She keeps company with ghosts and hounds
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
 - [Hecate (System 777)](/knowledge/mythology/greek-mythology/hecate): Her presence as a member of System 777
+
+[^sn-zeus]: Zeus is the king of the Olympian gods and ruler of Mount Olympus.

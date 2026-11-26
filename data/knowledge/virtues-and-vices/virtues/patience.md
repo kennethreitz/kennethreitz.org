@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Where It Belongs
 
-Patience stands among the seven heavenly virtues as the remedy for [Wrath](/knowledge/virtues-and-vices/seven-deadly-sins/wrath). Its credentials are old: Tertullian and Cyprian each wrote a treatise *On Patience* before the sin lists were even settled, and Prudentius's *Psychomachia*, the fifth-century battle-poem behind the whole remedial scheme, gives Patientia one of the poem's best scenes: she defeats Wrath without striking a blow, standing calmly in her armor until Anger, exhausted by its own fury, destroys itself. The image is the doctrine.
+Patience stands among the seven heavenly virtues as the remedy for [Wrath](/knowledge/virtues-and-vices/seven-deadly-sins/wrath).[^sn-wrath] Its credentials are old: Tertullian and Cyprian each wrote a treatise *On Patience* before the sin lists were even settled, and Prudentius's *Psychomachia*, the fifth-century battle-poem behind the whole remedial scheme, gives Patientia one of the poem's best scenes: she defeats Wrath without striking a blow, standing calmly in her armor until Anger, exhausted by its own fury, destroys itself. The image is the doctrine.
 
 ## What It Is
 
@@ -34,3 +34,5 @@ Patience answers [Wrath](/knowledge/virtues-and-vices/seven-deadly-sins/wrath), 
 ---
 
 *Anger burns until it runs out of fuel. Patience simply refuses to be fuel.*
+
+[^sn-wrath]: Wrath is what anger becomes when it stops serving justice and starts serving the self.

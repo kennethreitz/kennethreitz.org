@@ -31,7 +31,7 @@ Reversed, the celebration is muted or delayed. The homecoming feels hollow, the 
 
 ## Archetype
 
-Psychologically this is the temenos, the sacred bounded space, four wands marking a protected ground where the psyche can rest and be affirmed by community. Jung understood the fourfold as a symbol of wholeness, the quaternity that stabilises the wandering spirit. Here the fire of individual ambition is contained within relationship and belonging, echoing the generative warmth of [The Empress](/knowledge/tarot/major-arcana/the-empress) and the union celebrated by [The Lovers](/knowledge/tarot/major-arcana/the-lovers).
+Psychologically this is the temenos, the sacred bounded space, four wands marking a protected ground where the psyche can rest and be affirmed by community. Jung understood the fourfold as a symbol of wholeness, the quaternity that stabilises the wandering spirit. Here the fire of individual ambition is contained within relationship and belonging, echoing the generative warmth of [The Empress](/knowledge/tarot/major-arcana/the-empress)[^sn-the-empress] and the union celebrated by [The Lovers](/knowledge/tarot/major-arcana/the-lovers).
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ This card asks whether you have let yourself arrive. We are quick to launch the 
 - [Ten of Cups](/knowledge/tarot/minor-arcana/ten-of-cups)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-the-empress]: The Empress is generative abundance, creativity, nurture, and the body’s wisdom made manifest.

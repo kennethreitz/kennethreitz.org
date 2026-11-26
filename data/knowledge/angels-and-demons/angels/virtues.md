@@ -13,9 +13,9 @@ source: obsidian-knowledge
 
 At the heart of the Second Sphere stand the Virtues, the “shining ones,” the angels of miracles and grace. Their name comes from the Latin *virtus* and the Greek *dynamis*, words meaning strength, power, or mighty deed, the same *dynameis* that Paul ranks among the celestial authorities and that the Gospels use for the “mighty works” of Christ. It is through the Virtues that the extraordinary interventions of heaven, the healings, the signs, the sudden breaks in the ordinary course of nature, are channeled into the world. They govern the movements of the heavens and the elements, the tradition holds, bestowing the courage and the grace by which saints endure and the faithful are strengthened.
 
-If the Dominions above them decide what shall be done, it is the Virtues who supply the luminous energy to accomplish it, radiating a divine light that lends power to those below and works wonders in the created order. The medieval hierarchs saw the Virtues as the source of the miraculous precisely because they hold the middle place in the middle sphere, near enough to the throne to draw upon its power, near enough to the world to release it there. They are associated with the great turning-points of sacred history, and some traditions place two of them at the Ascension, the “two men in white apparel” of Acts who stand beside the disciples to interpret the mystery of the vanished Lord.
+If the Dominions[^sn-dominions] above them decide what shall be done, it is the Virtues who supply the luminous energy to accomplish it, radiating a divine light that lends power to those below and works wonders in the created order. The medieval hierarchs saw the Virtues as the source of the miraculous precisely because they hold the middle place in the middle sphere, near enough to the throne to draw upon its power, near enough to the world to release it there. They are associated with the great turning-points of sacred history, and some traditions place two of them at the Ascension, the “two men in white apparel” of Acts who stand beside the disciples to interpret the mystery of the vanished Lord.
 
-Their gift is grace in motion: not the static order of the Dominions nor the martial vigilance of the Powers, but the shining, active infusion of strength by which grace overcomes the resistance of a fallen world. Where they pass, the ordinary is quietly overruled, and heaven’s power is made manifest as light.
+Their gift is grace in motion: not the static order of the Dominions nor the martial vigilance of the Powers,[^sn-powers] but the shining, active infusion of strength by which grace overcomes the resistance of a fallen world. Where they pass, the ordinary is quietly overruled, and heaven’s power is made manifest as light.
 
 ## Attributes
 
@@ -37,3 +37,6 @@ Pseudo-Dionysius describes the Virtues as a certain masculine and unshaken stren
 
 - [Biblical Angels](/knowledge/angels-and-demons/angels/biblical-angels)
 - [Angels & Demons](/knowledge/angels-and-demons)
+
+[^sn-dominions]: With the Dominions begins the Second Sphere, the great middle order of angels charged not with the immediate contemplation of God but with the governance of creation on His behalf. See [Dominions](/knowledge/angels-and-demons/angels/dominions).
+[^sn-powers]: The Powers close the Second Sphere as the warrior-angels of heaven, the celestial host arrayed against the forces of evil. See [Powers](/knowledge/angels-and-demons/angels/powers).

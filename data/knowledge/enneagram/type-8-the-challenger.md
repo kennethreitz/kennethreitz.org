@@ -28,7 +28,7 @@ Beneath the armor lies a tender, guarded heart. The Eight learned somewhere that
 
 ## Healthy & Unhealthy
 
-At their best, Eights are magnanimous, courageous, and protective, using their strength in service of others and daring to let their guard down, to be tender without feeling weakened by it. Their power becomes a gift rather than a wall. Under stress the armor hardens into aggression. The unhealthy Eight grows domineering, vengeful, and combative, mistaking control for safety and steamrolling anyone who threatens their sense of command. Growth for the Eight is the bravest kind, the willingness to feel the vulnerability locked away in [The Shadow](/knowledge/psychology/jungian/the-shadow), and to learn through [Individuation](/knowledge/psychology/jungian/individuation) that true strength includes the capacity to be moved and to yield.
+At their best, Eights are magnanimous, courageous, and protective, using their strength in service of others and daring to let their guard down, to be tender without feeling weakened by it. Their power becomes a gift rather than a wall. Under stress the armor hardens into aggression. The unhealthy Eight grows domineering, vengeful, and combative, mistaking control for safety and steamrolling anyone who threatens their sense of command. Growth for the Eight is the bravest kind, the willingness to feel the vulnerability locked away in [The Shadow](/knowledge/psychology/jungian/the-shadow),[^sn-the-shadow] and to learn through [Individuation](/knowledge/psychology/jungian/individuation) that true strength includes the capacity to be moved and to yield.
 
 ## Related
 
@@ -37,3 +37,5 @@ At their best, Eights are magnanimous, courageous, and protective, using their s
 - [Type 2 - The Helper](/knowledge/enneagram/type-2-the-helper)
 - [Type 5 - The Investigator](/knowledge/enneagram/type-5-the-investigator)
 - [Enneagram](/knowledge/enneagram)
+
+[^sn-the-shadow]: In Jungian psychology, the Shadow is the disowned part of the psyche, everything we can't accept about ourselves gets pushed into this unconscious container.

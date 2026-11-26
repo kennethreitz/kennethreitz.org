@@ -12,13 +12,13 @@ source: obsidian-knowledge
 
 ## Overview
 
-Quirinus is one of the oldest and most enigmatic gods of Rome, a deity of the Roman people gathered as a civic body. His name is tied to the *Quirites*, the Roman citizens in their peaceful, communal capacity, the same people who under [Mars](/knowledge/mythology/roman-mythology/mars) become soldiers. Where Mars embodies war waged beyond the walls, Quirinus embodies the martial community turned inward into ordered citizenship, war transmuted into the life of the state.
+Quirinus is one of the oldest and most enigmatic gods of Rome, a deity of the Roman people gathered as a civic body. His name is tied to the *Quirites*, the Roman citizens in their peaceful, communal capacity, the same people who under [Mars](/knowledge/mythology/roman-mythology/mars)[^sn-mars] become soldiers. Where Mars embodies war waged beyond the walls, Quirinus embodies the martial community turned inward into ordered citizenship, war transmuted into the life of the state.
 
 By long tradition Quirinus was identified with the deified Romulus, Rome's founder and first king. After Romulus vanished from among mortals, carried off in a storm or a mist on the Campus Martius, in the story Rome told itself, he was said to have been raised among the gods and worshipped thereafter under the name Quirinus. In this the god became the city's founder made divine, the origin of Rome enshrined in its pantheon.
 
 ## The Archaic Triad
 
-Quirinus held a place of the first rank in Rome's earliest religion. Together with [Jupiter](/knowledge/mythology/roman-mythology/jupiter) and Mars he formed the Archaic Triad, the three great gods of the oldest state cult, each with his own flamen among the senior priesthoods. The *flamen Quirinalis* stood beside the *flamen Dialis* of Jupiter and the *flamen Martialis* of Mars, a sign of how central Quirinus once was. In time this ancient triad was eclipsed by the Capitoline Triad of Jupiter, Juno, and Minerva, and Quirinus faded to a dimmer figure, but his rank in the old order records an age when he ruled with the greatest gods.
+Quirinus held a place of the first rank in Rome's earliest religion. Together with [Jupiter](/knowledge/mythology/roman-mythology/jupiter) and Mars he formed the Archaic Triad, the three great gods of the oldest state cult, each with his own flamen among the senior priesthoods. The *flamen Quirinalis* stood beside the *flamen Dialis* of Jupiter and the *flamen Martialis* of Mars, a sign of how central Quirinus once was. In time this ancient triad was eclipsed by the Capitoline Triad of Jupiter, Juno, and Minerva,[^sn-minerva] and Quirinus faded to a dimmer figure, but his rank in the old order records an age when he ruled with the greatest gods.
 
 ## Sabine Origin and the Quirinal Hill
 
@@ -32,3 +32,6 @@ Quirinus is widely held to be of Sabine origin, absorbed into Roman religion as 
 - [Jupiter](/knowledge/mythology/roman-mythology/jupiter): supreme god, fellow member of the Archaic Triad
 - [Mythology](/knowledge/mythology)
 - [Roman Mythology Index](/knowledge/mythology/roman-mythology)
+
+[^sn-mars]: Mars is the Roman god of war and a guardian of agriculture, far more important in Roman religion than his Greek counterpart Ares.
+[^sn-minerva]: Minerva is the Roman goddess of wisdom, strategic warfare, and the arts, a virgin goddess who joins clear counsel to skilled making. See [Minerva](/knowledge/mythology/roman-mythology/minerva).

@@ -22,11 +22,11 @@ At her luminous pole the Maiden manifests as openness, intuition, and the recept
 
 ## In Tarot
 
-She is [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess), seated between the pillars with the scroll of hidden knowledge half-veiled in her lap, intuition, mystery, and the inward-facing wisdom that knows more than it says. She appears again as [The Star](/knowledge/tarot/major-arcana/the-star), kneeling naked and unashamed by the water, pouring renewal beneath the night sky: hope, serenity, and the soul made clear after the storm.
+She is [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess),[^sn-the-high-priestess] seated between the pillars with the scroll of hidden knowledge half-veiled in her lap, intuition, mystery, and the inward-facing wisdom that knows more than it says. She appears again as [The Star](/knowledge/tarot/major-arcana/the-star), kneeling naked and unashamed by the water, pouring renewal beneath the night sky: hope, serenity, and the soul made clear after the storm.
 
 ## In Myth
 
-[Persephone](/knowledge/mythology/greek-mythology/persephone) as Kore gathers flowers in the field until the earth opens and [Hades](/knowledge/mythology/greek-mythology/hades) carries her below, and the girl who descends returns as queen of the dead and herald of spring. [Artemis](/knowledge/mythology/greek-mythology/artemis) roams the wild forests untouchable and free, guardian of maidens and the moon, fierce in her refusal to be claimed. Each holds the tension between innocence preserved and innocence transformed.
+[Persephone](/knowledge/mythology/greek-mythology/persephone)[^sn-persephone] as Kore gathers flowers in the field until the earth opens and [Hades](/knowledge/mythology/greek-mythology/hades) carries her below, and the girl who descends returns as queen of the dead and herald of spring. [Artemis](/knowledge/mythology/greek-mythology/artemis) roams the wild forests untouchable and free, guardian of maidens and the moon, fierce in her refusal to be claimed. Each holds the tension between innocence preserved and innocence transformed.
 
 ## Related
 
@@ -40,3 +40,6 @@ She is [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess), s
 - [Major Jungian Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 - [Mythology](/knowledge/mythology)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-high-priestess]: The High Priestess is the guardian of the unconscious, the knowing that arrives without argument.
+[^sn-persephone]: Persephone is the daughter of Demeter and Zeus, known in her maiden aspect as Kore ("the Maiden") and, after her abduction, as Queen of the Underworld.

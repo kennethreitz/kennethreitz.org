@@ -35,7 +35,7 @@ The trajectory tracks the career. From about 2011 to 2014 was the **rising** pha
 
 ## Speaking Style
 
-The talks were known for a particular texture: clear, accessible explanations that didn't condescend, live coding that actually worked, design philosophy woven through the technical content rather than bolted on, plain honesty about tradeoffs instead of salesmanship, and personal stories deployed when they earned their place. The style was of a piece with the [design](/knowledge/technology/design) sensibility, reduce the audience's cognitive load, respect their attention, make the hard thing look obvious.
+The talks were known for a particular texture: clear, accessible explanations that didn't condescend, live coding that actually worked, design philosophy woven through the technical content rather than bolted on, plain honesty about tradeoffs instead of salesmanship, and personal stories deployed when they earned their place. The style was of a piece with the [design](/knowledge/technology/design)[^sn-design] sensibility, reduce the audience's cognitive load, respect their attention, make the hard thing look obvious.
 
 ---
 
@@ -64,3 +64,5 @@ Eventually he stopped. Mental health outweighed the toll of constant travel, and
 ---
 
 *The talks planted seeds. The seeds grew.*
+
+[^sn-design]: Design, for me, is the craft of making things usable. Not decoration, not polish, not taste, the actual work of putting a thing into a shape that matches how a person is going to encounter it, and optimizing that shape for the encounter.

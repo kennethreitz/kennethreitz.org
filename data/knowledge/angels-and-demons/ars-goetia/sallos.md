@@ -17,7 +17,7 @@ The crocodile mount is one of the more memorable of the Goetic beasts, and the d
 
 ## Office
 
-The office of Sallos belongs to the domain of love. The Goetia holds that he causes the love of men toward women and of women toward men, drawing the affections of the two sexes into mutual regard. In this he joins the small company of Goetic spirits, alongside figures such as Zepar, whose sole concern is the kindling and binding of desire, though Sallos is remembered for working his office gently and without the harsher corollaries attributed to some of his kin.
+The office of Sallos belongs to the domain of love. The Goetia holds that he causes the love of men toward women and of women toward men, drawing the affections of the two sexes into mutual regard. In this he joins the small company of Goetic spirits, alongside figures such as Zepar[^sn-zepar], whose sole concern is the kindling and binding of desire, though Sallos is remembered for working his office gently and without the harsher corollaries attributed to some of his kin.
 
 ## Attributes
 
@@ -33,3 +33,5 @@ The office of Sallos belongs to the domain of love. The Goetia holds that he cau
 - [Bathin](/knowledge/angels-and-demons/ars-goetia/bathin)
 - [Purson](/knowledge/angels-and-demons/ars-goetia/purson)
 - [Ars Goetia](/knowledge/angels-and-demons/ars-goetia)
+
+[^sn-zepar]: Zepar is the sixteenth spirit of the Ars Goetia, ranked among the Dukes of the infernal hierarchy. See [Zepar](/knowledge/angels-and-demons/ars-goetia/zepar).

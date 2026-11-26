@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## The Archetype
 
-The Divine Child is the archetype of new beginnings and the emergent wholeness that arises from within, the miraculous infant who carries the promise of the future. Jung saw the child as an image of [The Self](/knowledge/psychology/jungian/the-self) in its dawning form, appearing in dreams and myths at moments when something new is being born in the psyche. The child is often threatened at birth, abandoned, or hunted, and yet survives against all odds, protected by an intelligence deeper than circumstance. This vulnerability paired with invincibility is the signature of the archetype: what is most fragile turns out to be most enduring.
+The Divine Child is the archetype of new beginnings and the emergent wholeness that arises from within, the miraculous infant who carries the promise of the future. Jung saw the child as an image of [The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self] in its dawning form, appearing in dreams and myths at moments when something new is being born in the psyche. The child is often threatened at birth, abandoned, or hunted, and yet survives against all odds, protected by an intelligence deeper than circumstance. This vulnerability paired with invincibility is the signature of the archetype: what is most fragile turns out to be most enduring.
 
 The Divine Child reconciles opposites that the adult ego holds apart. It is human and divine, helpless and all-powerful, beginning and fulfillment. Its appearance signals that a transformation is underway and that the psyche is producing a symbol capable of uniting what was divided.
 
@@ -22,11 +22,11 @@ At its luminous pole the Divine Child manifests as renewal, wonder, spontaneous 
 
 ## In Tarot
 
-It shines as [The Sun](/knowledge/tarot/major-arcana/the-sun), where a radiant, unafraid child rides beneath a blazing face of light amid sunflowers. The card is joy, clarity, and rebirth, consciousness restored to its original brightness, the divine spark made unmistakable and free.
+It shines as [The Sun](/knowledge/tarot/major-arcana/the-sun),[^sn-the-sun] where a radiant, unafraid child rides beneath a blazing face of light amid sunflowers. The card is joy, clarity, and rebirth, consciousness restored to its original brightness, the divine spark made unmistakable and free.
 
 ## In Myth
 
-The Christ child is born in a stable and hunted by a king, the vulnerable god who will remake the world. Horus is conceived from a slain father and raised in secret marshes to reclaim his kingdom. [Krishna](/knowledge/mythology/hindu-mythology/krishna) as an infant is smuggled from a murderous uncle and, cradled among cowherds, already brimming with divinity, subdues demons while at play. Each is the small, endangered savior in whom an entire future is quietly gathered.
+The Christ child is born in a stable and hunted by a king, the vulnerable god who will remake the world. Horus is conceived from a slain father and raised in secret marshes to reclaim his kingdom. [Krishna](/knowledge/mythology/hindu-mythology/krishna)[^sn-krishna] as an infant is smuggled from a murderous uncle and, cradled among cowherds, already brimming with divinity, subdues demons while at play. Each is the small, endangered savior in whom an entire future is quietly gathered.
 
 ## Related
 
@@ -41,3 +41,8 @@ The Christ child is born in a stable and hunted by a king, the vulnerable god wh
 - [Major Jungian Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 - [Mythology](/knowledge/mythology)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-self]: The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche.
+[^sn-the-sun]: The Sun is joy, clarity, and vitality, success made warm and life lived without concealment.
+
+[^sn-krishna]: Krishna is the eighth avatar of Vishnu and one of the most beloved deities in Hinduism.

@@ -23,7 +23,7 @@ Drive the accented first note, keep the second single low, and let both diddles 
 
 ## In Practice
 
-The single paradiddle-diddle is a staple of shuffle grooves, jazz, and drum set ostinatos where a fixed lead hand plays accents while diddles fill the subdivision. It rounds out the diddle family alongside the [Single Paradiddle](/knowledge/music/drum-rudiments/single-paradiddle), [Double Paradiddle](/knowledge/music/drum-rudiments/double-paradiddle), and [Triple Paradiddle](/knowledge/music/drum-rudiments/triple-paradiddle).
+The single paradiddle-diddle is a staple of shuffle grooves, jazz, and drum set ostinatos where a fixed lead hand plays accents while diddles fill the subdivision. It rounds out the diddle family alongside the [Single Paradiddle](/knowledge/music/drum-rudiments/single-paradiddle),[^sn-single-paradiddle] [Double Paradiddle](/knowledge/music/drum-rudiments/double-paradiddle), and [Triple Paradiddle](/knowledge/music/drum-rudiments/triple-paradiddle).
 
 ## Related
 
@@ -31,3 +31,5 @@ The single paradiddle-diddle is a staple of shuffle grooves, jazz, and drum set 
 - [Double Paradiddle](/knowledge/music/drum-rudiments/double-paradiddle)
 - [Triple Paradiddle](/knowledge/music/drum-rudiments/triple-paradiddle)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-single-paradiddle]: The single paradiddle is the most important hybrid rudiment and arguably the most useful pattern a drummer can own.

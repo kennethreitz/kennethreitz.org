@@ -18,11 +18,11 @@ She is most often depicted as a young woman dressed in white, or else entirely n
 
 ## The Well of Truth
 
-A persistent tradition holds that Veritas hides at the bottom of a holy well, so difficult is she to reach, a figure the philosopher Democritus first gave voice to when he said that "of truth we know nothing, for truth is in a well." The image casts truth as something that must be sought with effort and descended toward, never lying conveniently on the surface. It is a fitting counterpart to her descent from Saturn: truth is buried by time and must also be recovered by it.
+A persistent tradition holds that Veritas hides at the bottom of a holy well, so difficult is she to reach, a figure the philosopher Democritus first gave voice to when he said that "of truth we know nothing, for truth is in a well." The image casts truth as something that must be sought with effort and descended toward, never lying conveniently on the surface. It is a fitting counterpart to her descent from Saturn:[^sn-saturn] truth is buried by time and must also be recovered by it.
 
 ## Truth Across the Traditions
 
-Veritas is the Roman face of a truth-goddess who recurs everywhere. Her Greek counterpart is Aletheia, whose very name means "unconcealment." In Egypt the same principle is [Ma'at](/knowledge/mythology/egyptian-mythology/maat), whose feather weighs the heart of the dead against the truth of a life. In the [Tarot](/knowledge/tarot) the same current runs through [Justice](/knowledge/tarot/major-arcana/justice), truth weighed on the scales, and through [The Star](/knowledge/tarot/major-arcana/the-star), the nude figure who pours out her waters beneath the open sky, hope and honesty stripped bare.
+Veritas is the Roman face of a truth-goddess who recurs everywhere. Her Greek counterpart is Aletheia, whose very name means "unconcealment." In Egypt the same principle is [Ma'at](/knowledge/mythology/egyptian-mythology/maat), whose feather weighs the heart of the dead against the truth of a life. In the [Tarot](/knowledge/tarot) the same current runs through [Justice](/knowledge/tarot/major-arcana/justice), truth weighed on the scales, and through [The Star](/knowledge/tarot/major-arcana/the-star),[^sn-the-star] the nude figure who pours out her waters beneath the open sky, hope and honesty stripped bare.
 
 ---
 
@@ -33,3 +33,6 @@ Veritas is the Roman face of a truth-goddess who recurs everywhere. Her Greek co
 - [The Star](/knowledge/tarot/major-arcana/the-star), the naked figure beneath the open sky
 - [Ma'at](/knowledge/mythology/egyptian-mythology/maat), the Egyptian goddess of truth and cosmic order
 - [Mythology Hub](/knowledge/mythology)
+
+[^sn-saturn]: Saturn is the Roman god of time, harvest, and agriculture, the deity of the sown field and the turning year. See [Saturn](/knowledge/mythology/roman-mythology/saturn).
+[^sn-the-star]: The Star is hope, renewal, and serene faith after devastation.

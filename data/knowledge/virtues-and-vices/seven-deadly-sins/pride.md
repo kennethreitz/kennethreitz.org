@@ -23,7 +23,7 @@ Dante puts pride on the first terrace, lowest on the mountain because it is the 
 
 ## The Remedy
 
-The counter-practice is [Humility](/knowledge/virtues-and-vices/virtues/humility), not self-erasure but accurate self-assessment, the willingness to be contingent, corrected, and indebted. The stone on the back teaches what the neck would not learn: how to bow.
+The counter-practice is [Humility](/knowledge/virtues-and-vices/virtues/humility)[^sn-humility], not self-erasure but accurate self-assessment, the willingness to be contingent, corrected, and indebted. The stone on the back teaches what the neck would not learn: how to bow.
 
 ## The Enneagram Passion
 
@@ -42,3 +42,5 @@ In the [Enneagram](/knowledge/enneagram), pride is the passion of [Type 2](/know
 ---
 
 *The stone does not humiliate. It teaches the spine the shape of the truth.*
+
+[^sn-humility]: Humility leads the seven heavenly virtues, the remedial list, one medicine per deadly sin, and it leads for the same reason its opposite leads the sins: as pride is the root of every vice, humility is the soil of every virtue.

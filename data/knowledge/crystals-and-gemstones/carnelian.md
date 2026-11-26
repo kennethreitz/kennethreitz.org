@@ -27,7 +27,7 @@ There is heat in it, plainly. Carnelian looks like courage looks, bright, direct
 
 ## Properties
 
-Carnelian fires the [sacral](/knowledge/chakras/svadhisthana) centre, the wellspring of creativity, passion, and vital force. It is the stone of courage and motivation, a restorer of drive to the depleted and a kindler of confidence in the timid. It stirs creative and sexual energy, banishes the apathy that keeps good work unstarted, and lends the boldness to act rather than merely intend. Where fear or self-doubt stalls momentum, Carnelian is reached for to get the blood and the will moving again.
+Carnelian fires the [sacral](/knowledge/chakras/svadhisthana)[^sn-svadhisthana] centre, the wellspring of creativity, passion, and vital force. It is the stone of courage and motivation, a restorer of drive to the depleted and a kindler of confidence in the timid. It stirs creative and sexual energy, banishes the apathy that keeps good work unstarted, and lends the boldness to act rather than merely intend. Where fear or self-doubt stalls momentum, Carnelian is reached for to get the blood and the will moving again.
 
 ## In Practice
 
@@ -40,3 +40,5 @@ Carnelian is carried or worn low on the body to feed vitality and creative drive
 - [Tiger's Eye](/knowledge/crystals-and-gemstones/tigers-eye)
 - [Svadhisthana](/knowledge/chakras/svadhisthana)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-svadhisthana]: To live from a healthy Svadhisthana is to permit oneself pleasure without shame and feeling without apology, to let emotion flow and pass as water does rather than freezing it into rigid form.

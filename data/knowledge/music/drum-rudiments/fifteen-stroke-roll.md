@@ -23,7 +23,7 @@ Long rolls live or die on relaxation: keep the seven diddles low and loose so th
 
 ## In Practice
 
-The fifteen stroke roll appears in advanced rudimental solos, marching literature, and orchestral passages needing a long sustained roll with a decisive resolution. It follows the [Thirteen Stroke Roll](/knowledge/music/drum-rudiments/thirteen-stroke-roll) and sits just before the [Seventeen Stroke Roll](/knowledge/music/drum-rudiments/seventeen-stroke-roll), the longest in the standard family.
+The fifteen stroke roll appears in advanced rudimental solos, marching literature, and orchestral passages needing a long sustained roll with a decisive resolution. It follows the [Thirteen Stroke Roll](/knowledge/music/drum-rudiments/thirteen-stroke-roll) and sits just before the [Seventeen Stroke Roll](/knowledge/music/drum-rudiments/seventeen-stroke-roll),[^sn-seventeen-stroke-roll] the longest in the standard family.
 
 ## Related
 
@@ -31,3 +31,5 @@ The fifteen stroke roll appears in advanced rudimental solos, marching literatur
 - [Seventeen Stroke Roll](/knowledge/music/drum-rudiments/seventeen-stroke-roll)
 - [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-seventeen-stroke-roll]: The seventeen stroke roll is the longest of the standard numbered rolls, eight double strokes rolling into a single accented tap.

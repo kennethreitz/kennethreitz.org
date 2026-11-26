@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-The **Aeons** (Greek *aiōnes*) are the emanations that populate [The Pleroma](/knowledge/spirituality/gnosticism/the-pleroma), divine attributes given personhood, each a facet of the unknowable Father made distinct and knowable. Where the Father is one and silent, the aeons are many and articulate: Mind, Truth, Word, Life, Church, Wisdom, and the rest. They are not creatures separate from God but God's self-expression, the way a single light refracts into colors without ceasing to be light. To map the aeons is to map the interior architecture of the divine.
+The **Aeons** (Greek *aiōnes*) are the emanations that populate [The Pleroma](/knowledge/spirituality/gnosticism/the-pleroma)[^sn-the-pleroma], divine attributes given personhood, each a facet of the unknowable Father made distinct and knowable. Where the Father is one and silent, the aeons are many and articulate: Mind, Truth, Word, Life, Church, Wisdom, and the rest. They are not creatures separate from God but God's self-expression, the way a single light refracts into colors without ceasing to be light. To map the aeons is to map the interior architecture of the divine.
 
 ---
 
@@ -47,3 +47,5 @@ The last and youngest of the thirty aeons is **[Sophia](/knowledge/spirituality/
 - [Tree of Life](/knowledge/tree-of-life): ten emanations paired and bridged
 - [Hermeticism](/knowledge/spirituality/hermeticism): Gender as the paired generative-receptive principle
 - [Spirituality](/knowledge/spirituality), the wider domain
+
+[^sn-the-pleroma]: The Pleroma (Greek *plērōma*, "fullness" or "completeness") is the divine realm in Gnostic cosmology, the totality of the true God's self-expression, populated by the emanations called The Aeons.

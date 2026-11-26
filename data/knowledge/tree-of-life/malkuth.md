@@ -31,11 +31,11 @@ Because it stands at the bottom, Malkuth is often mistaken for the least of the 
 
 ## On the Tree
 
-Malkuth sits alone at the foot of the Middle Pillar, the column of equilibrium, the single point where all three pillars find their common ground. Nothing lies below it; above it, along the central beam, waits Yesod, the foundation from which its every influence descends. Three paths rise from the Kingdom toward the world of forms: [The World](/knowledge/tarot/major-arcana/the-world) climbs the middle way to Yesod, [The Moon](/knowledge/tarot/major-arcana/the-moon) ascends on the right to Netzach, and [Judgement](/knowledge/tarot/major-arcana/judgement) rises on the left to Hod, the three doors through which the returning soul first begins its long ascent back to the Crown.
+Malkuth sits alone at the foot of the Middle Pillar, the column of equilibrium, the single point where all three pillars find their common ground. Nothing lies below it; above it, along the central beam, waits Yesod,[^sn-yesod] the foundation from which its every influence descends. Three paths rise from the Kingdom toward the world of forms: [The World](/knowledge/tarot/major-arcana/the-world) climbs the middle way to Yesod, [The Moon](/knowledge/tarot/major-arcana/the-moon) ascends on the right to Netzach, and [Judgement](/knowledge/tarot/major-arcana/judgement) rises on the left to Hod, the three doors through which the returning soul first begins its long ascent back to the Crown.
 
 ## In Tarot
 
-The four Tens belong to Malkuth, the number of completion, of a force fully worked out into matter. The Ten of Wands is burden carried to its end, the Ten of Cups fulfilled happiness, the Ten of Swords ruin that has run its full course, the Ten of Pentacles wealth settled into lineage and home; each is an element brought to earth and finished. Malkuth owns no planet of its own, being the sphere of the elements themselves, and its rising trump is [The World](/knowledge/tarot/major-arcana/the-world), the completed dance in which the Kingdom is sealed and the great circle closed.
+The four Tens belong to Malkuth, the number of completion, of a force fully worked out into matter. The Ten of Wands is burden carried to its end, the Ten of Cups fulfilled happiness, the Ten of Swords ruin that has run its full course, the Ten of Pentacles[^sn-ten-of-pentacles] wealth settled into lineage and home; each is an element brought to earth and finished. Malkuth owns no planet of its own, being the sphere of the elements themselves, and its rising trump is [The World](/knowledge/tarot/major-arcana/the-world), the completed dance in which the Kingdom is sealed and the great circle closed.
 
 ## Related
 
@@ -45,3 +45,6 @@ The four Tens belong to Malkuth, the number of completion, of a force fully work
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
 - [Tarot](/knowledge/tarot)
+
+[^sn-yesod]: Yesod is Foundation, the ninth emanation, the great reservoir into which every higher sphere empties before its influence reaches the earth. See [Yesod](/knowledge/tree-of-life/yesod).
+[^sn-ten-of-pentacles]: The Ten of Pentacles is the card of legacy, lineage, and lasting security, the fullest flowering of the earthly suit. See [Ten of Pentacles](/knowledge/tarot/minor-arcana/ten-of-pentacles).

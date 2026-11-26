@@ -28,7 +28,7 @@ Yet trust is exactly what the Six struggles to grant, including trust in their o
 
 ## Healthy & Unhealthy
 
-At their best, Sixes are courageous, faithful, and steady, trusting their own inner authority and becoming the calm, reliable center others rely on. Their vigilance matures into genuine discernment, and their loyalty into a durable, grounded kind of love. Under stress the doubt turns feverish. The unhealthy Six grows anxious, suspicious, and reactive, projecting threat onto the safe and clinging to or lashing out at authority in equal measure. Growth for the Six is the slow reclamation of self-trust, a willingness to withdraw projections from [The Shadow](/knowledge/psychology/jungian/the-shadow), and the discovery through [Individuation](/knowledge/psychology/jungian/individuation) that the security they seek outside was always meant to be built within.
+At their best, Sixes are courageous, faithful, and steady, trusting their own inner authority and becoming the calm, reliable center others rely on. Their vigilance matures into genuine discernment, and their loyalty into a durable, grounded kind of love. Under stress the doubt turns feverish. The unhealthy Six grows anxious, suspicious, and reactive, projecting threat onto the safe and clinging to or lashing out at authority in equal measure. Growth for the Six is the slow reclamation of self-trust, a willingness to withdraw projections from [The Shadow](/knowledge/psychology/jungian/the-shadow),[^sn-the-shadow] and the discovery through [Individuation](/knowledge/psychology/jungian/individuation) that the security they seek outside was always meant to be built within.
 
 ## Related
 
@@ -37,3 +37,5 @@ At their best, Sixes are courageous, faithful, and steady, trusting their own in
 - [Type 9 - The Peacemaker](/knowledge/enneagram/type-9-the-peacemaker)
 - [Type 3 - The Achiever](/knowledge/enneagram/type-3-the-achiever)
 - [Enneagram](/knowledge/enneagram)
+
+[^sn-the-shadow]: In Jungian psychology, the Shadow is the disowned part of the psyche, everything we can't accept about ourselves gets pushed into this unconscious container.

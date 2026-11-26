@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Iapetus is the Titan of mortal life and of craft, reckoned the father of the human condition itself through his famous sons, and named by some as the Titan of mortality, the finite life-span, or of violent, impetuous force. Son of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus), he is the fourth of the great Titan brothers who set the pillars of the sky, holding the western quarter where the light goes down. He married Clymene, a daughter of [Oceanus](/knowledge/mythology/greek-mythology/oceanus), and from that union came four sons whose fates map the whole range of the human lot, foresight and afterthought, endurance and ruin.
 
-Through those sons Iapetus stands closer to humankind than any other Titan. It was his line, not the Olympians', that shaped and championed mortal men: his son [Prometheus](/knowledge/mythology/greek-mythology/prometheus) made humanity and stole fire for it, and his other sons bore the sky, ruined themselves by rashness, and were struck down for their pride. The Greeks sometimes called Iapetus the very ancestor of the human race. He is the Titan at the twilight edge of the divine world, the father of the mortal story.
+Through those sons Iapetus stands closer to humankind than any other Titan. It was his line, not the Olympians', that shaped and championed mortal men: his son [Prometheus](/knowledge/mythology/greek-mythology/prometheus)[^sn-prometheus] made humanity and stole fire for it, and his other sons bore the sky, ruined themselves by rashness, and were struck down for their pride. The Greeks sometimes called Iapetus the very ancestor of the human race. He is the Titan at the twilight edge of the divine world, the father of the mortal story.
 
 ---
 
@@ -40,3 +40,5 @@ Through those sons Iapetus stands closer to humankind than any other Titan. It w
 - [Uranus](/knowledge/mythology/greek-mythology/uranus): His father, the sky
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-prometheus]: Prometheus is the Titan who took the side of humanity against the gods.

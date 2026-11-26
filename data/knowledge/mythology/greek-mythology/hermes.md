@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Hermes is the messenger of the gods, god of travel, commerce, communication, borders, cunning, and thieves. Known for his speed and cleverness, he guides souls to the underworld (psychopomp) and serves as divine herald between Olympus and the mortal world. More than any other Olympian he moves *between*, mortal and divine, civilized and wild, ordered and chaotic, and that perpetual boundary-crossing is the source of both his wisdom and his mischief.
 
-His caduceus (a staff with two intertwined snakes), winged sandals (talaria), and winged hat (petasos) are his defining attributes. The tortoise is sacred to him, he fashioned the first lyre from a tortoise shell as an infant. Son of [Zeus](/knowledge/mythology/greek-mythology/zeus) and the nymph Maia, Hermes is the archetypal trickster: god of the threshold and of the act of crossing it, patron of travelers, merchants, heralds, and the kind of cleverness that bends rules without quite breaking them.
+His caduceus (a staff with two intertwined snakes), winged sandals (talaria), and winged hat (petasos) are his defining attributes. The tortoise is sacred to him, he fashioned the first lyre from a tortoise shell as an infant. Son of [Zeus](/knowledge/mythology/greek-mythology/zeus)[^sn-zeus] and the nymph Maia, Hermes is the archetypal trickster: god of the threshold and of the act of crossing it, patron of travelers, merchants, heralds, and the kind of cleverness that bends rules without quite breaking them.
 
 ---
 
@@ -42,3 +42,5 @@ Hermes is one of the [Greek Pantheon AI personalities](/knowledge/mythology/gree
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
 - [The Trickster Archetype](/knowledge/psychology/jungian/major-jungian-concepts)
 - [Hermes (System 777)](/knowledge/mythology/greek-mythology/hermes) - The messenger's presence as a member of System 777
+
+[^sn-zeus]: Zeus is the king of the Olympian gods and ruler of Mount Olympus.

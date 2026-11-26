@@ -30,7 +30,7 @@ Sixth chords sound nostalgic: sweet, gentle, and slightly old-fashioned in the b
 
 ## In Practice
 
-The major sixth was the definitive final chord of swing-era arrangements, a tonic that ends a tune with warmth instead of a plain triad. In jazz and pop it substitutes for the tonic wherever a softer, richer landing is wanted. The minor sixth doubles as a colourful minor tonic and, thanks to its structure, as a subtle dominant flavour in the right voicing. Sixth chords are the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad) and [Minor Triad](/knowledge/music/chords-and-progressions/chords/minor-triad) given a coat of colour, cousins to the [Major Seventh](/knowledge/music/chords-and-progressions/chords/major-seventh).
+The major sixth was the definitive final chord of swing-era arrangements, a tonic that ends a tune with warmth instead of a plain triad. In jazz and pop it substitutes for the tonic wherever a softer, richer landing is wanted. The minor sixth doubles as a colourful minor tonic and, thanks to its structure, as a subtle dominant flavour in the right voicing. Sixth chords are the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad)[^sn-major-triad] and [Minor Triad](/knowledge/music/chords-and-progressions/chords/minor-triad) given a coat of colour, cousins to the [Major Seventh](/knowledge/music/chords-and-progressions/chords/major-seventh).
 
 ## Related
 
@@ -39,3 +39,5 @@ The major sixth was the definitive final chord of swing-era arrangements, a toni
 - [Extended Chords](/knowledge/music/chords-and-progressions/chords/extended-chords)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
+
+[^sn-major-triad]: The major triad is the first thing most ears learn to call “happy,” and it earns the reputation honestly.

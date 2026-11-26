@@ -11,11 +11,11 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A couple stands with arms raised toward a great arc of ten cups shining in a rainbow across the sky, while two children dance and play beside them. Their small house sits on a rise beyond a winding river and green trees, the whole landscape ordered and at peace. The gesture of the adults is one of gratitude and wonder, a family blessing the abundance overhead. Where the [Nine of Cups](/knowledge/tarot/minor-arcana/nine-of-cups) displayed its satisfaction as trophies, here the fullness has lifted into the heavens and become shared, radiant, and complete.
+A couple stands with arms raised toward a great arc of ten cups shining in a rainbow across the sky, while two children dance and play beside them. Their small house sits on a rise beyond a winding river and green trees, the whole landscape ordered and at peace. The gesture of the adults is one of gratitude and wonder, a family blessing the abundance overhead. Where the [Nine of Cups](/knowledge/tarot/minor-arcana/nine-of-cups)[^sn-nine-of-cups] displayed its satisfaction as trophies, here the fullness has lifted into the heavens and become shared, radiant, and complete.
 
 ## Upright
 
-The Ten of Cups is emotional fulfillment made whole and communal, the happy family, the harmonious home, love that has ripened into lasting peace. It marks the completion of the suit’s journey: feeling that began as the single drop of the [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups) now overflowing into a whole shared life. This is contentment that reaches beyond the self to bless the people in it, the rainbow covenant of belonging. It speaks of alignment between what one has and what one loves.
+The Ten of Cups is emotional fulfillment made whole and communal, the happy family, the harmonious home, love that has ripened into lasting peace. It marks the completion of the suit’s journey: feeling that began as the single drop of the [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups)[^sn-ace-of-cups] now overflowing into a whole shared life. This is contentment that reaches beyond the self to bless the people in it, the rainbow covenant of belonging. It speaks of alignment between what one has and what one loves.
 
 ## Reversed
 
@@ -31,7 +31,7 @@ Inverted, the rainbow dims. This can be domestic disharmony, a family whose pict
 
 ## Archetype
 
-This is the mandala of the suit, the image of emotional wholeness that Jung would recognize as a symbol of the [The Self](/knowledge/psychology/jungian/the-self). The rainbow’s arc is the completed circle of feeling, the reconciliation of the many into a harmonious one. The family, parents and children beneath a single blessing, is an outer figure for the integrated psyche, its parts at peace. Yet the card also carries a subtle warning in its satiety: perfected fullness can become an ending, and every completion is also a threshold.
+This is the mandala of the suit, the image of emotional wholeness that Jung would recognize as a symbol of the [The Self](/knowledge/psychology/jungian/the-self).[^sn-the-self] The rainbow’s arc is the completed circle of feeling, the reconciliation of the many into a harmonious one. The family, parents and children beneath a single blessing, is an outer figure for the integrated psyche, its parts at peace. Yet the card also carries a subtle warning in its satiety: perfected fullness can become an ending, and every completion is also a threshold.
 
 ## Mythological Echoes
 
@@ -49,3 +49,8 @@ When this card appears, let yourself feel blessed, and check whether the picture
 - [Ten of Pentacles](/knowledge/tarot/minor-arcana/ten-of-pentacles)
 - [Tarot](/knowledge/tarot)
 - [The Self](/knowledge/psychology/jungian/the-self)
+
+[^sn-nine-of-cups]: The Nine of Cups is satisfaction, emotional fulfillment, the pleasure of a wish come true.
+[^sn-ace-of-cups]: The Ace of Cups is the wellspring, the pure, undifferentiated source of feeling before it takes any particular shape.
+
+[^sn-the-self]: The Self is the center of the total personality, conscious and unconscious together.

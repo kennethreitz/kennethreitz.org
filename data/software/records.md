@@ -81,7 +81,7 @@ $ uv add pymysql      # MySQL
 <!-- vault:history start -->
 ## History
 
-Records provides a simple way to run SQL queries and get results back as nice objects. No ORM, no complex setup, just SQL in, data out.
+Records provides a simple way to run SQL queries and get results back as nice objects. No ORM, no complex setup, just SQL in, data out.[^sn-created]
 
 Built on SQLAlchemy but hides the complexity. You write SQL; records handles the rest.
 
@@ -98,7 +98,7 @@ ORMs solve real problems, but they also create new ones. They add a translation 
 
 Records takes the opposite stance: SQL is already a good language for talking to databases. The problem was never SQL, it was Python's interface to it. So records fixes the interface and leaves the language alone.
 
-Records uses [tablib](/software/tablib) under the hood for exports, the libraries work together. Query a database, get results, export to CSV or Excel or JSON with one call. This is the "For Humans" ecosystem in action: simple tools that compose. The same data flows from database through records into tablib into whatever format you need.
+Records uses [tablib](/software/tablib) under the hood for exports, the libraries work together. Query a database, get results, export to CSV or Excel or JSON with one call. This is the "For Humans" ecosystem in action: simple tools that compose. The same data flows from database through records into tablib[^sn-tablib] into whatever format you need.
 <!-- vault:history end -->
 
 ## Related

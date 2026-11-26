@@ -20,7 +20,7 @@ Confucianism is the tradition of ethical, social, and spiritual cultivation that
 
 Confucius lived in the same era of political disintegration that produced [Taoism](/knowledge/religions-of-the-world/taoism), the late Zhou dynasty, when the old feudal order was collapsing into the Warring States. He was a minor official from the state of Lu who spent years wandering between courts, trying and failing to find a ruler who would govern by virtue rather than force. He considered himself a transmitter, not an inventor, restoring the ritual culture of the early Zhou. His students recorded his conversations in the *Analects* after his death, and his teaching survived where his career had not.
 
-Two great successors developed the tradition in opposite directions: **Mencius** (4th century BCE) argued that human nature is fundamentally good, a sprout needing only cultivation, while **Xunzi** held it crooked timber requiring the discipline of ritual to straighten. Under the Han dynasty (2nd century BCE), Confucianism became state orthodoxy, and its texts the basis of the imperial examination system, for roughly two thousand years, the road to government office in China ran through the Confucian classics. In the Song dynasty, **Neo-Confucianism** (Zhu Xi, and later Wang Yangming) rebuilt the tradition into a full metaphysics, absorbing challenges from [Buddhism](/knowledge/religions-of-the-world/buddhism) and Taoism while insisting on the reality and goodness of the everyday world. The 20th century battered it, the New Culture Movement and later the Communist state blamed Confucianism for China's stagnation, but it never left the culture's bones, and both academic "New Confucianism" and official rehabilitation have brought it back into the open.
+Two great successors developed the tradition in opposite directions: **Mencius** (4th century BCE) argued that human nature is fundamentally good, a sprout needing only cultivation, while **Xunzi** held it crooked timber requiring the discipline of ritual to straighten. Under the Han dynasty (2nd century BCE), Confucianism became state orthodoxy, and its texts the basis of the imperial examination system, for roughly two thousand years, the road to government office in China ran through the Confucian classics. In the Song dynasty, **Neo-Confucianism** (Zhu Xi, and later Wang Yangming) rebuilt the tradition into a full metaphysics, absorbing challenges from [Buddhism](/knowledge/religions-of-the-world/buddhism) and Taoism[^sn-taoism] while insisting on the reality and goodness of the everyday world. The 20th century battered it, the New Culture Movement and later the Communist state blamed Confucianism for China's stagnation, but it never left the culture's bones, and both academic "New Confucianism" and official rehabilitation have brought it back into the open.
 
 ---
 
@@ -54,7 +54,7 @@ The canon settled into the **Four Books**, the *Analects*, the *Mencius*, the *G
 | **School of Mind (Lu-Wang)** | Wang Yangming's idealism; principle found within, knowledge and action as one |
 | **New Confucianism** | Modern revival engaging democracy, science, and global philosophy |
 
-The tradition also traveled: Korea built the most thoroughly Confucian society in history under the Joseon dynasty, Japan wove Confucian ethics into samurai and civic culture alongside [Shinto](/knowledge/religions-of-the-world/shinto) and Buddhism, and Vietnam ran its own examination system for centuries.
+The tradition also traveled: Korea built the most thoroughly Confucian society in history under the Joseon dynasty, Japan wove Confucian ethics into samurai and civic culture alongside [Shinto](/knowledge/religions-of-the-world/shinto) and Buddhism,[^sn-buddhism] and Vietnam ran its own examination system for centuries.
 
 ---
 
@@ -69,3 +69,6 @@ The tradition also traveled: Korea built the most thoroughly Confucian society i
 ---
 
 *"The exemplary person seeks it in themselves; the small person seeks it in others."*
+
+[^sn-taoism]: Taoism (or Daoism) is China's native tradition of living in accord with the Tao, the Way, the unnameable source and pattern of everything that is. See [Taoism](/knowledge/religions-of-the-world/taoism).
+[^sn-buddhism]: Buddhism begins with a specific person and a specific problem. See [Buddhism](/knowledge/religions-of-the-world/buddhism).

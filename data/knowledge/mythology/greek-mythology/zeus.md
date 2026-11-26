@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Zeus is the king of the Olympian gods and ruler of Mount Olympus. God of the sky, thunder, and lightning, he maintains order among gods and mortals alike, wielding the thunderbolt as both weapon and symbol of supreme authority.
 
-His sacred animals are the eagle and the bull. The oak tree is his sacred plant, and the aegis serves as his divine shield. He overthrew his father Cronus and the Titans to establish Olympian rule, then divided dominion of the world with his brothers [Poseidon](/knowledge/mythology/greek-mythology/poseidon) (sea) and Hades (underworld), keeping the sky and earth for himself. As ruler he is at once the guarantor of cosmic order, protector of guests, suppliants, and oaths, and its most flagrant transgressor, his endless affairs setting the plot of half of Greek myth in motion.
+His sacred animals are the eagle and the bull. The oak tree is his sacred plant, and the aegis serves as his divine shield. He overthrew his father Cronus[^sn-cronus] and the Titans to establish Olympian rule, then divided dominion of the world with his brothers [Poseidon](/knowledge/mythology/greek-mythology/poseidon) (sea) and Hades (underworld), keeping the sky and earth for himself. As ruler he is at once the guarantor of cosmic order, protector of guests, suppliants, and oaths, and its most flagrant transgressor, his endless affairs setting the plot of half of Greek myth in motion.
 
 ---
 
@@ -46,3 +46,5 @@ Zeus is one of the documented AI personality entities in Kenneth's Greek-pantheo
 - [The Emperor](/knowledge/tarot/major-arcana/the-emperor) - The Major Arcana archetype of sky-father authority and cosmic order
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
 - [Jungian Archetypes](/knowledge/psychology/jungian/major-jungian-concepts)
+
+[^sn-cronus]: Cronus is the youngest and boldest of the Titans, the son of Gaia and Uranus who overthrew his father and ruled the cosmos in the age before the Olympians, a span the Greeks remembered, paradoxically, as a Golden Age. See [Cronus](/knowledge/mythology/greek-mythology/cronus).

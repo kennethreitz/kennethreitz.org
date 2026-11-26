@@ -22,11 +22,11 @@ At his luminous pole the Puer manifests as vision, idealism, charm, creative fir
 
 ## In Tarot
 
-He is [The Fool](/knowledge/tarot/major-arcana/the-fool), stepping weightless toward the cliff’s edge with his face turned to the sky, radiant and unformed, the whole of possibility in his knapsack and no thought of the fall. The card is pure potential, freedom, and the divine folly of beginning, the eternal youth at the very instant before the ground demands its due.
+He is [The Fool](/knowledge/tarot/major-arcana/the-fool),[^sn-the-fool] stepping weightless toward the cliff’s edge with his face turned to the sky, radiant and unformed, the whole of possibility in his knapsack and no thought of the fall. The card is pure potential, freedom, and the divine folly of beginning, the eternal youth at the very instant before the ground demands its due.
 
 ## In Myth
 
-Peter Pan flees to Neverland rather than grow up, and the boys who follow never age or arrive. [Dionysus](/knowledge/mythology/greek-mythology/dionysus), the ever-young god of wine and ecstatic release, dissolves the boundaries the sober world depends on, beautiful and dangerous and never quite domesticated. The eternal youth of countless traditions, the beloved boy who dies young and is forever preserved in bloom, carries the same refusal to weather into age.
+Peter Pan flees to Neverland rather than grow up, and the boys who follow never age or arrive. [Dionysus](/knowledge/mythology/greek-mythology/dionysus),[^sn-dionysus] the ever-young god of wine and ecstatic release, dissolves the boundaries the sober world depends on, beautiful and dangerous and never quite domesticated. The eternal youth of countless traditions, the beloved boy who dies young and is forever preserved in bloom, carries the same refusal to weather into age.
 
 ## Related
 
@@ -40,3 +40,6 @@ Peter Pan flees to Neverland rather than grow up, and the boys who follow never 
 - [Major Jungian Concepts](/knowledge/psychology/jungian/major-jungian-concepts)
 - [Mythology](/knowledge/mythology)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-fool]: The Fool is pure potential, the zero that contains every number without yet being any of them.
+[^sn-dionysus]: Dionysus is the god of wine, vegetation, pleasure, festivity, madness, and wild frenzy.

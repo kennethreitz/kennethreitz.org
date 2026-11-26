@@ -16,7 +16,7 @@ A cloaked figure stands on the edge of a cliff, seen from behind and slightly tu
 
 ## Upright
 
-Where the Two of Wands surveyed the horizon, the Three has committed to it. The ships are launched; enterprise is underway. This card speaks of foresight rewarded, of expansion and the first returns coming in, of collaboration and trade reaching beyond the familiar shore. It carries a settled, forward-looking confidence, the entrepreneur watching his investments sail, the traveller whose plans have become momentum. The invitation is to trust what you have set in motion and to keep your vision wide, for what you sent out is already on its way back.
+Where the Two of Wands[^sn-two-of-wands] surveyed the horizon, the Three has committed to it. The ships are launched; enterprise is underway. This card speaks of foresight rewarded, of expansion and the first returns coming in, of collaboration and trade reaching beyond the familiar shore. It carries a settled, forward-looking confidence, the entrepreneur watching his investments sail, the traveller whose plans have become momentum. The invitation is to trust what you have set in motion and to keep your vision wide, for what you sent out is already on its way back.
 
 ## Reversed
 
@@ -31,7 +31,7 @@ Reversed, the ships fail to return. Plans meet delay, obstacles, or a disappoint
 
 ## Archetype
 
-This is the ego that has learned to wait without collapsing into passivity. Jung spoke of the transcendent function born from holding tension between opposites; here it is the tension between action taken and outcome unknown, held with composure. The figure embodies the maturing will that no longer needs to control the sea, only to have launched wisely upon it, fiery ambition tempered into the steady radiance of [The Sun](/knowledge/tarot/major-arcana/the-sun).
+This is the ego that has learned to wait without collapsing into passivity. Jung spoke of the transcendent function born from holding tension between opposites; here it is the tension between action taken and outcome unknown, held with composure. The figure embodies the maturing will that no longer needs to control the sea, only to have launched wisely upon it, fiery ambition tempered into the steady radiance of [The Sun](/knowledge/tarot/major-arcana/the-sun).[^sn-the-sun]
 
 ## Mythological Echoes
 
@@ -49,3 +49,6 @@ Something you set in motion is still in transit. This card counsels the discipli
 - [Three of Pentacles](/knowledge/tarot/minor-arcana/three-of-pentacles)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-two-of-wands]: The Two of Wands is the moment of surveying what you have built and asking what lies beyond it. See [Two of Wands](/knowledge/tarot/minor-arcana/two-of-wands).
+[^sn-the-sun]: The Sun is joy, clarity, and vitality, success made warm and life lived without concealment.

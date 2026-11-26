@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Saturn is the principle of limitation: time, structure, gravity, the hard edge where the will meets the wall of the real. It governs discipline, boundaries, consequence, and the slow work of building something that lasts. Where Jupiter promises, Saturn requires; it is the psyche’s stern teacher, the one who asks what a person is willing to earn rather than wish for. Its lessons are rarely gentle and almost never wasted.
 
-Like [Cronus](/knowledge/mythology/greek-mythology/cronus) devouring what he sires, Saturn is bound up with time and mortality, the knowledge that everything is finite and that finitude is precisely what gives things weight. It rules Capricorn, the sign of the disciplined climb, and traditionally Aquarius, where structure serves a larger order. Saturn’s gift is maturity: authority earned through endurance, freedom won through mastery, a self forged by meeting limits rather than fleeing them. What it takes away in ease, it returns as strength.
+Like [Cronus](/knowledge/mythology/greek-mythology/cronus) devouring what he sires, Saturn is bound up with time and mortality, the knowledge that everything is finite and that finitude is precisely what gives things weight. It rules Capricorn,[^sn-capricorn] the sign of the disciplined climb, and traditionally Aquarius, where structure serves a larger order. Saturn’s gift is maturity: authority earned through endurance, freedom won through mastery, a self forged by meeting limits rather than fleeing them. What it takes away in ease, it returns as strength.
 
 ## Correspondences
 
@@ -37,3 +37,5 @@ A well-integrated Saturn gives patience, integrity, and the capacity to build, t
 - [Cronus](/knowledge/mythology/greek-mythology/cronus)
 - [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-capricorn]: Capricorn begins at the winter solstice, the year’s longest night, when the world is stripped to its bones and only what is essential survives. See [Capricorn](/knowledge/astrology/signs/capricorn).

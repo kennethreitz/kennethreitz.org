@@ -27,7 +27,7 @@ Resh is the head, not qof's hidden hindbrain but the face, the front of the head
 
 It is a double letter under the Sun, bearing the pair of peace and war, the two conditions the face announces before a word is spoken. Its number is two hundred, resh's poverty raised to abundance.
 
-On the Tree it is the thirtieth path, joining [Hod](/knowledge/tree-of-life/hod) to [Yesod](/knowledge/tree-of-life/yesod), splendour descending into foundation, intellect warmed into life. Its trump is [The Sun](/knowledge/tarot/major-arcana/the-sun), the card of the child on the white horse under the full unclouded disc: consciousness restored to innocence, clarity after the Moon's long night-road. Resh is the morning after qof, the head lifted, the face lit, the simple immense difference made by which way one is looking.
+On the Tree it is the thirtieth path, joining [Hod](/knowledge/tree-of-life/hod) to [Yesod](/knowledge/tree-of-life/yesod), splendour descending into foundation, intellect warmed into life. Its trump is [The Sun](/knowledge/tarot/major-arcana/the-sun),[^sn-the-sun] the card of the child on the white horse under the full unclouded disc: consciousness restored to innocence, clarity after the Moon's long night-road. Resh is the morning after qof, the head lifted, the face lit, the simple immense difference made by which way one is looking.
 
 ## Related
 
@@ -36,3 +36,5 @@ On the Tree it is the thirtieth path, joining [Hod](/knowledge/tree-of-life/hod)
 - [The Sun](/knowledge/tarot/major-arcana/the-sun)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-the-sun]: The Sun is joy, clarity, and vitality, success made warm and life lived without concealment.

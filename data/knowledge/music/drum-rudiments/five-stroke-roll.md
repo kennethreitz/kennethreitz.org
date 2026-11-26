@@ -23,7 +23,7 @@ Play the four rolled notes as clean, tight doubles, closed for a sustained sound
 
 ## In Practice
 
-The five stroke roll is everywhere: orchestral punctuation, marching cadences, jazz comping, and quick snare accents on the kit. It grows directly out of the [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll) and extends into the [Seven Stroke Roll](/knowledge/music/drum-rudiments/seven-stroke-roll) and [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll) as you add diddles.
+The five stroke roll is everywhere: orchestral punctuation, marching cadences, jazz comping, and quick snare accents on the kit. It grows directly out of the [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)[^sn-double-stroke-open-roll] and extends into the [Seven Stroke Roll](/knowledge/music/drum-rudiments/seven-stroke-roll) and [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll) as you add diddles.
 
 ## Related
 
@@ -31,3 +31,5 @@ The five stroke roll is everywhere: orchestral punctuation, marching cadences, j
 - [Seven Stroke Roll](/knowledge/music/drum-rudiments/seven-stroke-roll)
 - [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-double-stroke-open-roll]: The double stroke open roll, often just "the long roll", is the backbone of rudimental drumming.

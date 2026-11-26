@@ -24,7 +24,7 @@ At the heart of the Mass stands the doctrine of **transubstantiation**: the teac
 
 ## The Reformed Contrast
 
-Here the communions divide as sharply as anywhere. The memorialist view, associated with Zwingli and widespread across evangelical Protestantism, treats the bread and wine as symbols only, the Supper as an act of remembrance and nothing more. [Calvin](/knowledge/spirituality/calvinism) himself held a middle position, a *spiritual* or *pneumatic* real presence: Christ is not locally present in the elements, but by the power of the Holy Spirit the faithful are truly lifted up to feed on the ascended Christ in heaven. Lutheranism affirms a real presence "in, with, and under" the bread (often labeled consubstantiation, though Lutherans dislike the term). Catholicism goes furthest, insisting on a substantial change in the elements themselves. It is worth stating each view on its own terms: the Reformed objection is not irreverence but a conviction that Christ's risen body is in heaven and cannot be locally multiplied, and that the Catholic view risks confusing sign and thing signified. The Catholic reply is that Christ meant exactly what he said. "This is my body", and that the Church has believed it from the beginning.
+Here the communions divide as sharply as anywhere. The memorialist view, associated with Zwingli and widespread across evangelical Protestantism, treats the bread and wine as symbols only, the Supper as an act of remembrance and nothing more. [Calvin](/knowledge/spirituality/calvinism)[^sn-calvinism] himself held a middle position, a *spiritual* or *pneumatic* real presence: Christ is not locally present in the elements, but by the power of the Holy Spirit the faithful are truly lifted up to feed on the ascended Christ in heaven. Lutheranism affirms a real presence "in, with, and under" the bread (often labeled consubstantiation, though Lutherans dislike the term). Catholicism goes furthest, insisting on a substantial change in the elements themselves. It is worth stating each view on its own terms: the Reformed objection is not irreverence but a conviction that Christ's risen body is in heaven and cannot be locally multiplied, and that the Catholic view risks confusing sign and thing signified. The Catholic reply is that Christ meant exactly what he said. "This is my body", and that the Church has believed it from the beginning.
 
 ---
 
@@ -42,3 +42,5 @@ Two claims give the Mass its weight for Catholics. The first is the **Real Prese
 - [Calvinism](/knowledge/spirituality/calvinism): The Reformed and memorialist views
 - [Doctors of the Church](/knowledge/spirituality/catholicism/doctors-of-the-church): Aquinas and the theology of the sacrament
 - [Christianity](/knowledge/religions-of-the-world/christianity): The wider tradition's disputes over Communion
+
+[^sn-calvinism]: Calvinism is the theological system developed by John Calvin (1509-1564) and later systematized by his followers.

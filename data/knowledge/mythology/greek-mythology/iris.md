@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Iris is the Greek goddess of the rainbow and, before [Hermes](/knowledge/mythology/greek-mythology/hermes) took the role for Olympus at large, the gods' own messenger, the one who carries word between heaven, earth, and the sea. Daughter of the sea-god Thaumas and the cloud-nymph Electra, she is sister to the Harpies, storm-spirits of the snatching wind; she herself is the gentler weather, the arc of colour that appears when the storm breaks and light returns to the rain. Where Hermes serves the gods generally, Iris is especially the handmaid of [Hera](/knowledge/mythology/greek-mythology/hera), queen of Olympus, running her errands across the world.
 
-The rainbow is her road. The Greeks saw in that bridge of colour between cloud and ground a literal path a goddess might travel, and so Iris is always in motion, golden-winged, swift, descending a shaft of light with a message and ascending it again. She is a threshold power, belonging fully to neither sky nor earth nor sea but moving between all three, and so she was also called on to carry water from the [underworld](/knowledge/mythology/greek-mythology/hades) river Styx up to Olympus whenever a god needed to swear an unbreakable oath.
+The rainbow is her road. The Greeks saw in that bridge of colour between cloud and ground a literal path a goddess might travel, and so Iris is always in motion, golden-winged, swift, descending a shaft of light with a message and ascending it again. She is a threshold power, belonging fully to neither sky nor earth nor sea but moving between all three, and so she was also called on to carry water from the [underworld](/knowledge/mythology/greek-mythology/hades)[^sn-hades] river Styx up to Olympus whenever a god needed to swear an unbreakable oath.
 
 ---
 
@@ -37,3 +37,5 @@ The rainbow is her road. The Greeks saw in that bridge of colour between cloud a
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
 - [Iris (System 777)](/knowledge/mythology/greek-mythology/iris): Her presence as a member of System 777
+
+[^sn-hades]: Hades is the god of the underworld and the dead, eldest son of Cronus, brother to Zeus and Poseidon.

@@ -18,7 +18,7 @@ The setting of a boundary stone was itself a religious act. Romans marked the li
 
 ## The Stone That Would Not Yield
 
-Terminus is remembered above all for a single myth of Rome's origin. When Tarquin set out to build the great temple of Jupiter Optimus Maximus on the Capitoline Hill, the augurs took auspices to deconsecrate the shrines already standing there, so that the ground might be cleared for the new temple. Every god consented to move, every god but Terminus. His stone alone refused to yield its place and could not be shifted, and so the temple of [Jupiter](/knowledge/mythology/roman-mythology/jupiter) was built around it, with the boundary-god kept inside the greater sanctuary.
+Terminus is remembered above all for a single myth of Rome's origin. When Tarquin set out to build the great temple of Jupiter Optimus Maximus on the Capitoline Hill, the augurs took auspices to deconsecrate the shrines already standing there, so that the ground might be cleared for the new temple. Every god consented to move, every god but Terminus. His stone alone refused to yield its place and could not be shifted, and so the temple of [Jupiter](/knowledge/mythology/roman-mythology/jupiter)[^sn-jupiter] was built around it, with the boundary-god kept inside the greater sanctuary.
 
 The Romans read this as an omen of the highest kind: that Terminus would not be moved meant Rome's borders would never recede, that the foundations of the state and the fixity of its limits would stand unshaken and eternal. The refusal of the smallest god became a promise of the city's permanence.
 
@@ -34,3 +34,5 @@ Terminus was honored each year on the twenty-third of February at the Terminalia
 - [Janus](/knowledge/mythology/roman-mythology/janus): fellow god of thresholds and the marking of limits
 - [Mythology](/knowledge/mythology)
 - [Roman Mythology Index](/knowledge/mythology/roman-mythology)
+
+[^sn-jupiter]: Jupiter is the king of the Roman gods and the god of the sky and thunder, the supreme deity of Roman state religion and the patron and protector of Rome itself.

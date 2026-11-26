@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Set is the god of chaos, storms, and the barren desert, the disruptive force at the edge of every ordered thing. Where [Osiris](/knowledge/mythology/egyptian-mythology/osiris) is the black fertile silt of the Nile valley, Set is the red land beyond it: the wasteland, the sandstorm, the violence that comes from outside. He is not evil in the simple sense; older Egypt honored him as the mighty defender who rode in the prow of [Ra](/knowledge/mythology/egyptian-mythology/ra)'s barque and speared the chaos-serpent Apep each night. Strength and disorder are the same power in him, turned to different ends.
 
-But his defining act is fratricide, the murder of his brother Osiris out of envy for the throne, and this makes him the tarot's darker teachers. He is [The Devil](/knowledge/tarot/major-arcana/the-devil): bondage, envy, the shadow appetite that consumes what it cannot possess. And he is [The Tower](/knowledge/tarot/major-arcana/the-tower): sudden violent upheaval, the storm that shatters the settled order, the catastrophe that tears down what was built. His long war with his nephew [Horus](/knowledge/mythology/egyptian-mythology/horus) is the necessary friction against which legitimate order defines itself. A cosmos without Set would have no serpent to spear and no throne worth fighting for.
+But his defining act is fratricide, the murder of his brother Osiris[^sn-osiris] out of envy for the throne, and this makes him the tarot's darker teachers. He is [The Devil](/knowledge/tarot/major-arcana/the-devil): bondage, envy, the shadow appetite that consumes what it cannot possess. And he is [The Tower](/knowledge/tarot/major-arcana/the-tower): sudden violent upheaval, the storm that shatters the settled order, the catastrophe that tears down what was built. His long war with his nephew [Horus](/knowledge/mythology/egyptian-mythology/horus) is the necessary friction against which legitimate order defines itself. A cosmos without Set would have no serpent to spear and no throne worth fighting for.
 
 ---
 
@@ -35,3 +35,5 @@ But his defining act is fratricide, the murder of his brother Osiris out of envy
 - [Horus](/knowledge/mythology/egyptian-mythology/horus): His nephew and adversary in the long contest for the throne
 - [Tarot](/knowledge/tarot)
 - [Mythology](/knowledge/mythology)
+
+[^sn-osiris]: Osiris is the god of the dead and the lord of the afterlife, but he began as a king of the living, the first pharaoh, who taught humankind agriculture and law before his brother murdered him. See [Osiris](/knowledge/mythology/egyptian-mythology/osiris).

@@ -23,13 +23,13 @@ The practitioners: *yordei merkabah*, paradoxically "descenders to the chariot",
 
 The warnings were serious. The Talmud fences the whole subject, *ma'aseh merkabah*, the Work of the Chariot, may not be taught except one-on-one to a student already wise, and tells the tradition's cautionary tale: four sages entered *pardes*, the orchard. Ben Azzai looked and died; Ben Zoma looked and went mad; Elisha ben Abuyah "cut the shoots" and became the arch-heretic; only **Rabbi Akiva** entered in peace and departed in peace. Every mystical tradition has a version of this warning; few state it so bluntly.
 
-At the summit of the tradition stands **3 Enoch**, in which the patriarch Enoch, taken up to heaven, is transformed into **Metatron**, the highest of the angels, the "lesser YHWH," seated (scandalously, for Jewish angelology) in the presence of God. The vault's fuller portrait lives at [Metatron (Archangel)](/knowledge/angels-and-demons/angels/metatron-archangel); merkabah literature is where he was born. A human being walked up the ladder and became the angel at the top of it, the tradition's boldest statement of what ascent might mean.
+At the summit of the tradition stands **3 Enoch**, in which the patriarch Enoch, taken up to heaven, is transformed into **Metatron**, the highest of the angels, the "lesser YHWH," seated (scandalously, for Jewish angelology) in the presence of God. The vault's fuller portrait lives at [Metatron (Archangel)](/knowledge/angels-and-demons/angels/metatron-archangel);[^sn-metatron-archangel] merkabah literature is where he was born. A human being walked up the ladder and became the angel at the top of it, the tradition's boldest statement of what ascent might mean.
 
 ---
 
 ## Legacy
 
-Merkabah mysticism faded as a living practice around the tenth century, but everything after stands on it. The Kabbalah of medieval Spain and Provence, the Zohar, the Sefirot, the emanationist map traced in the vault's [Kabbalah](/knowledge/spirituality/kabbalah) note, is in many ways the interiorization of the chariot journey: the ascent through seven palaces becomes the ascent through the ten spheres of the [Tree of Life](/knowledge/tree-of-life), the visionary geography folded into the structure of God and the soul. The *Kedushah* of the synagogue liturgy still carries hekhalot hymn language; Ezekiel's chariot fed Christian throne-visions and, much later, more speculative modern borrowings of the word "merkaba" in New Age contexts, a distant echo of a tradition that was, in its own time, rigorous, dangerous, and reserved for the qualified few.
+Merkabah mysticism faded as a living practice around the tenth century, but everything after stands on it. The Kabbalah of medieval Spain and Provence, the Zohar, the Sefirot, the emanationist map traced in the vault's [Kabbalah](/knowledge/spirituality/kabbalah)[^sn-kabbalah] note, is in many ways the interiorization of the chariot journey: the ascent through seven palaces becomes the ascent through the ten spheres of the [Tree of Life](/knowledge/tree-of-life), the visionary geography folded into the structure of God and the soul. The *Kedushah* of the synagogue liturgy still carries hekhalot hymn language; Ezekiel's chariot fed Christian throne-visions and, much later, more speculative modern borrowings of the word "merkaba" in New Age contexts, a distant echo of a tradition that was, in its own time, rigorous, dangerous, and reserved for the qualified few.
 
 Within Judaism the pattern is the familiar one: the rabbis did not expel the chariot-riders, but they fenced them. The Throne could be sought, the tradition conceded, but quietly, by the prepared, one student at a time, with the community's doctrine standing guard at the gates like one more angelic gatekeeper.
 
@@ -42,3 +42,6 @@ Within Judaism the pattern is the familiar one: the rabbis did not expel the cha
 - [Tree of Life](/knowledge/tree-of-life): seven palaces become ten spheres
 - [Metatron (Archangel)](/knowledge/angels-and-demons/angels/metatron-archangel): Enoch transformed; born in the merkabah literature
 - [Mysticism](/knowledge/spirituality/mysticism), the collection this note belongs to
+
+[^sn-metatron-archangel]: Metatron is the highest of the archangels, the Prince of the Countenance who stands nearest to the throne and beholds the face that no lesser being may look upon.
+[^sn-kabbalah]: Kabbalah is the mystical heart of Judaism, a centuries-old tradition of esoteric interpretation that maps the structure of reality, consciousness, and the divine.

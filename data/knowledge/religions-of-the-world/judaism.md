@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Origins and History
 
-Judaism is the oldest of the surviving monotheisms, and its history is inseparable from the history of the Jewish people. The tradition traces itself to Abraham, with whom God cut a covenant, and to Moses, through whom God gave the Torah at Sinai after delivering Israel from Egypt. Historically, Israelite religion emerged in the Late Bronze and Iron Age Levant, and the decisive transformation came with catastrophe: the Babylonian destruction of Solomon's Temple in 586 BCE and the exile that followed. In Babylon, and then under Persian rule, where contact with [Zoroastrianism](/knowledge/religions-of-the-world/zoroastrianism) likely sharpened Jewish ideas about angels, resurrection, and cosmic adversaries. Israelite religion became something portable, textual, and unambiguously monotheist.
+Judaism is the oldest of the surviving monotheisms, and its history is inseparable from the history of the Jewish people. The tradition traces itself to Abraham, with whom God cut a covenant, and to Moses, through whom God gave the Torah at Sinai after delivering Israel from Egypt. Historically, Israelite religion emerged in the Late Bronze and Iron Age Levant, and the decisive transformation came with catastrophe: the Babylonian destruction of Solomon's Temple in 586 BCE and the exile that followed. In Babylon, and then under Persian rule, where contact with [Zoroastrianism](/knowledge/religions-of-the-world/zoroastrianism)[^sn-zoroastrianism] likely sharpened Jewish ideas about angels, resurrection, and cosmic adversaries. Israelite religion became something portable, textual, and unambiguously monotheist.
 
-The Second Temple period ended in 70 CE when Rome burned the rebuilt Temple. With sacrifice impossible, the rabbis remade Judaism around study, prayer, and law, producing the Mishnah (c. 200 CE) and the Talmud (c. 500 CE). Medieval Judaism flowered in Spain and the Rhineland, producing philosophers like Maimonides and the mystical tradition of [Kabbalah](/knowledge/spirituality/kabbalah); it also endured expulsion after expulsion. Modernity brought emancipation, the Reform and Orthodox responses to it, the Shoah, the murder of six million Jews, and the founding of the State of Israel in 1948. Roughly 15 million Jews live today, chiefly in Israel and North America.
+The Second Temple period ended in 70 CE when Rome burned the rebuilt Temple. With sacrifice impossible, the rabbis remade Judaism around study, prayer, and law, producing the Mishnah (c. 200 CE) and the Talmud (c. 500 CE). Medieval Judaism flowered in Spain and the Rhineland, producing philosophers like Maimonides and the mystical tradition of [Kabbalah](/knowledge/spirituality/kabbalah);[^sn-kabbalah] it also endured expulsion after expulsion. Modernity brought emancipation, the Reform and Orthodox responses to it, the Shoah, the murder of six million Jews, and the founding of the State of Israel in 1948. Roughly 15 million Jews live today, chiefly in Israel and North America.
 
 ---
 
@@ -22,7 +22,7 @@ The Second Temple period ended in 70 CE when Rome burned the rebuilt Temple. Wit
 
 Judaism's confession fits in a single sentence, recited morning and evening: *Shema Yisrael, Adonai Eloheinu, Adonai Echad*. Hear, O Israel, the Lord our God, the Lord is One. God is one, incorporeal, the creator of all things, and bound to Israel by covenant. The covenant carries obligation: Israel is to keep the commandments, traditionally 613 mitzvot, and to be a holy people, and God in turn is faithful across every generation and every disaster. Judaism has generally cared more about practice than creed; Maimonides' Thirteen Principles are the closest thing to a catechism, but a Jew who wrestles with God, the literal meaning of *Israel*, remains within the family.
 
-The mystical stream imagines the inner life of the One God with startling richness. [Kabbalah](/knowledge/spirituality/kabbalah) maps divinity through the ten sefirot of the [Tree of Life](/knowledge/tree-of-life), describes the indwelling feminine presence of God as [The Shekhinah](/knowledge/spirituality/the-shekhinah), exiled with Israel and awaiting reunion, and treats the divine names themselves, elaborated in traditions like the [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash), as objects of contemplation and power. Jewish eschatology looks toward the Messianic age, the repair of the world (*tikkun olam*), and, in rabbinic tradition, the resurrection of the dead.
+The mystical stream imagines the inner life of the One God with startling richness. [Kabbalah](/knowledge/spirituality/kabbalah)[^sn-kabbalah-2] maps divinity through the ten sefirot of the [Tree of Life](/knowledge/tree-of-life), describes the indwelling feminine presence of God as [The Shekhinah](/knowledge/spirituality/the-shekhinah), exiled with Israel and awaiting reunion, and treats the divine names themselves, elaborated in traditions like the [Shem ha-Mephorash](/knowledge/angels-and-demons/shem-ha-mephorash), as objects of contemplation and power. Jewish eschatology looks toward the Messianic age, the repair of the world (*tikkun olam*), and, in rabbinic tradition, the resurrection of the dead.
 
 ---
 
@@ -66,3 +66,8 @@ Sephardi and Mizrahi Jews, whose traditions developed in the Iberian and Middle 
 ---
 
 *"Hear, O Israel: The LORD our God is one LORD.". Deuteronomy 6:4*
+
+[^sn-zoroastrianism]: Zoroastrianism is among the oldest continuously practiced religions on earth.
+[^sn-kabbalah]: Kabbalah is the mystical heart of Judaism, a centuries-old tradition of esoteric interpretation that maps the structure of reality, consciousness, and the divine.
+
+[^sn-kabbalah-2]: The central diagram of Kabbalah is the Tree of Life, ten Sefirot (divine emanations) connected by twenty-two paths, forming a map of how the infinite becomes the finite.

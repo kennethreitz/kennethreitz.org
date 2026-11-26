@@ -27,7 +27,7 @@ Tet is the serpent coiled, a letter drawn inward on itself, a vessel curled arou
 
 As the number nine it is the number of gestation, the nine months in which the hidden good is carried before it can be seen. It is a simple letter under Leo, the lion, with the faculty of taste, the sense that must take a thing inside itself to know it, as tet holds its goodness internally rather than on display.
 
-On the Tree it is the nineteenth path, joining [Chesed](/knowledge/tree-of-life/chesed) to [Geburah](/knowledge/tree-of-life/geburah), the horizontal road between mercy and severity, the crossbeam on which the Tree's two great forces are reconciled. Its trump is [Strength](/knowledge/tarot/major-arcana/strength), the woman calmly closing (or opening) the lion's mouth: not force against force, but the gentleness that can handle raw power because it does not fear it. Tet and Strength teach the same art, befriending the serpent, taming without breaking, finding the *tov* coiled inside the beast.
+On the Tree it is the nineteenth path, joining [Chesed](/knowledge/tree-of-life/chesed) to [Geburah](/knowledge/tree-of-life/geburah), the horizontal road between mercy and severity, the crossbeam on which the Tree's two great forces are reconciled. Its trump is [Strength](/knowledge/tarot/major-arcana/strength), the woman calmly closing (or opening) the lion's mouth: not force against force, but the gentleness that can handle raw power because it does not fear it. Tet and Strength[^sn-strength] teach the same art, befriending the serpent, taming without breaking, finding the *tov* coiled inside the beast.
 
 ## Related
 
@@ -36,3 +36,5 @@ On the Tree it is the nineteenth path, joining [Chesed](/knowledge/tree-of-life/
 - [Strength](/knowledge/tarot/major-arcana/strength)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-strength]: Strength is fortitude of the quiet kind, courage, patience, and the gentle command of one’s own animal nature. See [Strength](/knowledge/tarot/major-arcana/strength).

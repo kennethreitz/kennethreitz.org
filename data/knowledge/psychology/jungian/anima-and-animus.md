@@ -46,7 +46,7 @@ Men project the anima onto women. "Falling in love" is anima projection, idealiz
 
 ### Nature
 
-The animus is a personification of the unconscious masculine, spirit and conviction, the logos principle (logic, meaning, structure), bridge to the creative unconscious, and inner authority, the sovereign order of the tarot's [The Emperor](/knowledge/tarot/major-arcana/the-emperor).
+The animus is a personification of the unconscious masculine, spirit and conviction, the logos principle (logic, meaning, structure), bridge to the creative unconscious, and inner authority, the sovereign order of the tarot's [The Emperor](/knowledge/tarot/major-arcana/the-emperor).[^sn-the-emperor]
 
 ### Characteristics
 
@@ -228,3 +228,5 @@ This is advanced integration work: rather than losing the anima when relationshi
 ### Contemporary Work
 - Robert Johnson - "We: Understanding the Psychology of Romantic Love"
 - Marion Woodman - "The Ravaged Bridegroom"
+
+[^sn-the-emperor]: The Emperor is structure, authority, and the protective power of law.

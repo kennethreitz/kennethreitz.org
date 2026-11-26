@@ -25,9 +25,9 @@ source: obsidian-knowledge
 
 Ayin is the eye, and, in a doubling the tradition loves, also the spring, the fountain: the same word for what takes the world in and what wells up out of the ground. Like aleph it is silent, a guttural with no sound of its own, which suits a letter about perception rather than speech. Its number is seventy, the number of multiplicity, seventy nations, seventy languages, seventy faces of the Torah, because the eye is the organ of the many: it sees surfaces, differences, appearances, and it can be deceived by every one of them.
 
-That is the letter's shadow and its teaching. The good eye (*ayin tovah*) sees generously; the evil eye sees with envy and binds what it looks at. The eye is the aperture through which the world enslaves us or through which we see it truly, and nothing but the seer decides which. A simple letter under Capricorn, the goat, its Sefer Yetzirah faculty is mirth, laughter being the eye's own medicine, the sudden seeing-through that breaks a spell.
+That is the letter's shadow and its teaching. The good eye (*ayin tovah*) sees generously; the evil eye sees with envy and binds what it looks at. The eye is the aperture through which the world enslaves us or through which we see it truly, and nothing but the seer decides which. A simple letter under Capricorn,[^sn-capricorn] the goat, its Sefer Yetzirah faculty is mirth, laughter being the eye's own medicine, the sudden seeing-through that breaks a spell.
 
-On the Tree it is the twenty-sixth path, joining [Tiphareth](/knowledge/tree-of-life/tiphareth) to [Hod](/knowledge/tree-of-life/hod), beauty descending into splendour. Its trump is [The Devil](/knowledge/tarot/major-arcana/the-devil), Capricorn's card, the great deceiver whose chains famously hang loose enough to lift off: bondage that persists only as long as it is looked at wrongly. Ayin is where illusion and liberation share a single organ.
+On the Tree it is the twenty-sixth path, joining [Tiphareth](/knowledge/tree-of-life/tiphareth)[^sn-tiphareth] to [Hod](/knowledge/tree-of-life/hod), beauty descending into splendour. Its trump is [The Devil](/knowledge/tarot/major-arcana/the-devil), Capricorn's card, the great deceiver whose chains famously hang loose enough to lift off: bondage that persists only as long as it is looked at wrongly. Ayin is where illusion and liberation share a single organ.
 
 ## Related
 
@@ -36,3 +36,7 @@ On the Tree it is the twenty-sixth path, joining [Tiphareth](/knowledge/tree-of-
 - [The Devil](/knowledge/tarot/major-arcana/the-devil)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-capricorn]: Capricorn begins at the winter solstice, the year’s longest night, when the world is stripped to its bones and only what is essential survives. See [Capricorn](/knowledge/astrology/signs/capricorn).
+
+[^sn-tiphareth]: Tiphareth is Beauty, the sixth emanation and the heart of the whole Tree, the point of perfect balance where every other sphere may be seen at once.

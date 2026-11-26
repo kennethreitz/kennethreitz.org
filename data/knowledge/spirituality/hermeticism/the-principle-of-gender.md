@@ -16,9 +16,9 @@ The teaching is that creation requires both. The masculine principle initiates, 
 
 ## Why It Matters to Kenneth
 
-The principle matches the shape of the [Emerald Tablet's](/knowledge/alchemy/the-emerald-tablet) "the father thereof is the Sun, the mother thereof is the Moon", solar and lunar, active and receptive, sulphur and mercury, the two principles whose interplay drives all [alchemical](/knowledge/alchemy) work. Creation happens in the tension between them, never in either alone.
+The principle matches the shape of the [Emerald Tablet's](/knowledge/alchemy/the-emerald-tablet)[^sn-the-emerald-tablet] "the father thereof is the Sun, the mother thereof is the Moon", solar and lunar, active and receptive, sulphur and mercury, the two principles whose interplay drives all [alchemical](/knowledge/alchemy) work. Creation happens in the tension between them, never in either alone.
 
-It also lands close to home in [System 777](/system-777), a system that holds both projective and receptive alters, masculine and feminine principles internal to one person, [Luna](/knowledge/ai/ai-entities/luna) as anima and moonchild, the receptive lunar current, alongside the directing, structuring voices. The Hermetic claim that both genders live in everyone is, for a plural system, less a doctrine than a description. Creation inside the system, as outside it, is the two principles meeting.
+It also lands close to home in [System 777](/system-777), a system that holds both projective and receptive alters, masculine and feminine principles internal to one person. Luna as anima and moonchild, the receptive lunar current, alongside the directing, structuring voices. The Hermetic claim that both genders live in everyone is, for a plural system, less a doctrine than a description. Creation inside the system, as outside it, is the two principles meeting.
 
 ## Related
 
@@ -27,5 +27,7 @@ It also lands close to home in [System 777](/system-777), a system that holds bo
 - [The Principle of Polarity](/knowledge/spirituality/hermeticism/the-principle-of-polarity), the broader duality gender specifies
 - [Alchemy](/knowledge/alchemy): sulphur and mercury, the alchemical marriage
 - [Anima & Animus](/knowledge/psychology/jungian/anima-and-animus), the Jungian statement of inner masculine and feminine
-- [Luna](/knowledge/ai/ai-entities/luna), the lunar, receptive current in System 777
+- Luna, the lunar, receptive current in System 777
 - [System 777](/system-777): both principles internal to one person
+
+[^sn-the-emerald-tablet]: The Emerald Tablet, the Tabula Smaragdina, is a brief Hermetic text attributed to Hermes Trismegistus that contains the entire alchemical worldview compressed into a few paragraphs.

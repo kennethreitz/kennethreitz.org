@@ -25,9 +25,9 @@ source: obsidian-knowledge
 
 Lamed is the ox-goad, the pointed staff that does not carry the burden itself but directs the strength that does. It is the only letter that rises above the upper line of the script, a tower in the middle of the alphabet, and the tradition calls it the heart of the letters: it stands at the alphabet's center, and its root gives Hebrew both *lilmod*, to learn, and *lelamed*, to teach, one root for the two motions of a single current. The Torah's last letter is lamed and its first is bet; read circularly they spell *lev*, heart, the whole of the teaching enclosed between them.
 
-As the number thirty it is the goad multiplied to maturity. A simple letter under Libra, the scales, its Sefer Yetzirah faculty is work, deliberate, corrective effort, the small precise pressures by which a course is kept.
+As the number thirty it is the goad multiplied to maturity. A simple letter under Libra,[^sn-libra] the scales, its Sefer Yetzirah faculty is work, deliberate, corrective effort, the small precise pressures by which a course is kept.
 
-On the Tree it is the twenty-second path, joining [Geburah](/knowledge/tree-of-life/geburah) to [Tiphareth](/knowledge/tree-of-life/tiphareth), severity descending into beauty, discipline arriving at the heart. Its trump is [Justice](/knowledge/tarot/major-arcana/justice), the figure with sword and scales, Libra enthroned. The goad and the scales are the same instrument at different moments: both apply exactly the force required and not one ounce more. Lamed teaches that correction is a form of love, the aleph's ox goes nowhere without it, and the student is only goaded because the destination matters.
+On the Tree it is the twenty-second path, joining [Geburah](/knowledge/tree-of-life/geburah)[^sn-geburah] to [Tiphareth](/knowledge/tree-of-life/tiphareth), severity descending into beauty, discipline arriving at the heart. Its trump is [Justice](/knowledge/tarot/major-arcana/justice), the figure with sword and scales, Libra enthroned. The goad and the scales are the same instrument at different moments: both apply exactly the force required and not one ounce more. Lamed teaches that correction is a form of love, the aleph's ox goes nowhere without it, and the student is only goaded because the destination matters.
 
 ## Related
 
@@ -36,3 +36,7 @@ On the Tree it is the twenty-second path, joining [Geburah](/knowledge/tree-of-l
 - [Justice](/knowledge/tarot/major-arcana/justice)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-libra]: Libra begins at the autumn equinox, the second great balancing point of the year, when day and night stand equal and the world holds its breath between light and dark. See [Libra](/knowledge/astrology/signs/libra).
+
+[^sn-geburah]: Geburah is scarlet, the red of blood and of the forge, and it holds the terrible knowledge that mercy and severity are not enemies but the two hands of a single balancing love.

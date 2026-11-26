@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Horus is the falcon sky-god and the divine model of the living king, the god whose two eyes are the sun and the moon and whose speckled feathers are the stars. Every reigning pharaoh was understood to be Horus on earth, the god embodied in the throne; every dead pharaoh became [Osiris](/knowledge/mythology/egyptian-mythology/osiris). He is the heir and the avenger, the son who grows up in hiding to reclaim what his uncle stole, and the guarantor that kingship, once wounded, can be made whole.
 
-He carries two of the tarot's masculine cards. As the falcon whose right eye is the sun, blazing across the heavens, he is [The Sun](/knowledge/tarot/major-arcana/the-sun), vitality, clarity, the triumphant light. As the living king enthroned, the ordering authority who inherits and holds the realm, he is [The Emperor](/knowledge/tarot/major-arcana/the-emperor), sovereignty, structure, the rightful rule established through struggle. His long war with [Set](/knowledge/mythology/egyptian-mythology/set) is the great Egyptian contest for legitimate power, and his eventual victory is the affirmation that order, though it must fight for its place, prevails.
+He carries two of the tarot's masculine cards. As the falcon whose right eye is the sun, blazing across the heavens, he is [The Sun](/knowledge/tarot/major-arcana/the-sun), vitality, clarity, the triumphant light. As the living king enthroned, the ordering authority who inherits and holds the realm, he is [The Emperor](/knowledge/tarot/major-arcana/the-emperor)[^sn-the-emperor], sovereignty, structure, the rightful rule established through struggle. His long war with [Set](/knowledge/mythology/egyptian-mythology/set) is the great Egyptian contest for legitimate power, and his eventual victory is the affirmation that order, though it must fight for its place, prevails.
 
 ---
 
@@ -36,3 +36,5 @@ He carries two of the tarot's masculine cards. As the falcon whose right eye is 
 - [Set](/knowledge/mythology/egyptian-mythology/set): His uncle and adversary in the long contest for the throne
 - [Tarot](/knowledge/tarot)
 - [Mythology](/knowledge/mythology)
+
+[^sn-the-emperor]: The Emperor is structure, authority, and the protective power of law.

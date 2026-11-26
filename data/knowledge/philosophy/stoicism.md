@@ -104,7 +104,7 @@ Emotions result from judgments. "He insulted me" produces anger only if I judge 
 
 ### The Inner Citadel
 
-The mind as fortress. External events cannot penetrate it. Freedom resides in judgment, the [inner refuge](/knowledge/psychology/jungian/the-self) no circumstance can breach.
+The mind as fortress. External events cannot penetrate it. Freedom resides in judgment, the [inner refuge](/knowledge/psychology/jungian/the-self)[^sn-the-self] no circumstance can breach.
 
 ---
 
@@ -124,7 +124,7 @@ The universe is periodically destroyed by fire and reborn identically, eternal r
 
 ### Materialism
 
-For the Stoics, only body exists. Even God is material (pneuma), and the soul is material. This contrasts with [Platonic dualism](/knowledge/philosophy/dualism).
+For the Stoics, only body exists. Even God is material (pneuma), and the soul is material. This contrasts with [Platonic dualism](/knowledge/philosophy/dualism).[^sn-dualism]
 
 ---
 
@@ -207,15 +207,15 @@ Stoic principles now find application in business and leadership, military and f
 
 ### The Self and Inner Citadel
 
-[The Self](/knowledge/psychology/jungian/the-self) as inner refuge parallels the Stoic inner citadel. The transcendent function and equanimity echo each other, as do [Individuation](/knowledge/psychology/jungian/individuation) and self-mastery. One wonders: is the Stoic sage the individuated person?
+[The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self-2] as inner refuge parallels the Stoic inner citadel. The transcendent function and equanimity echo each other, as do [Individuation](/knowledge/psychology/jungian/individuation) and self-mastery. One wonders: is the Stoic sage the individuated person?
 
 ### Shadow Work
 
-[Shadow](/knowledge/psychology/jungian/the-shadow) integration seems to conflict with Stoic suppression, but both acknowledge dark aspects of the psyche. The Stoics rationally examine impulses; Jung says integrate rather than eliminate.
+[Shadow](/knowledge/psychology/jungian/the-shadow)[^sn-the-shadow] integration seems to conflict with Stoic suppression, but both acknowledge dark aspects of the psyche. The Stoics rationally examine impulses; Jung says integrate rather than eliminate.
 
 ### Synchronicity vs Determinism
 
-[Synchronicity](/knowledge/psychology/jungian/synchronicity) suggests acausal meaningful connections, while Stoic determinism insists everything has a cause. The tension may resolve if we see them as different levels of analysis.
+[Synchronicity](/knowledge/psychology/jungian/synchronicity)[^sn-synchronicity] suggests acausal meaningful connections, while Stoic determinism insists everything has a cause. The tension may resolve if we see them as different levels of analysis.
 
 ---
 
@@ -275,3 +275,10 @@ Stoic principles now find application in business and leadership, military and f
 - "How to Be a Stoic" - Massimo Pigliucci
 - "The Obstacle Is the Way" - Ryan Holiday
 - "How to Think Like a Roman Emperor" - Donald Robertson
+
+[^sn-the-self]: The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche.
+[^sn-the-shadow]: In Jungian psychology, the Shadow is the disowned part of the psyche, everything we can't accept about ourselves gets pushed into this unconscious container.
+[^sn-synchronicity]: Synchronicity is the simultaneous occurrence of events which appear significantly related but have no discernible causal connection.
+
+[^sn-dualism]: Dualism is the philosophical view that mental phenomena are non-physical and cannot be reduced to physical phenomena.
+[^sn-the-self-2]: The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche.

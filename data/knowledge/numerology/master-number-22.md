@@ -28,7 +28,7 @@ This is the number of the architect of grand visions made real. It carries the i
 
 ## Light & Shadow
 
-At its height, twenty-two is [The Emperor](/knowledge/tarot/major-arcana/the-emperor) crowned with vision, the sovereign builder who raises enduring structures in service of a dream larger than himself, translating the ideal into the real without losing either. It offers mastery, legacy, and the rare power to change the world in concrete ways. But the weight of such potential can crush: the builder paralyzed by the scale of what he might achieve, the visionary hardened into a tyrant, the grand plan that swells into grandiosity. Twenty-two's burden is its promise, and its promise is its burden.
+At its height, twenty-two is [The Emperor](/knowledge/tarot/major-arcana/the-emperor)[^sn-the-emperor] crowned with vision, the sovereign builder who raises enduring structures in service of a dream larger than himself, translating the ideal into the real without losing either. It offers mastery, legacy, and the rare power to change the world in concrete ways. But the weight of such potential can crush: the builder paralyzed by the scale of what he might achieve, the visionary hardened into a tyrant, the grand plan that swells into grandiosity. Twenty-two's burden is its promise, and its promise is its burden.
 
 ## Related
 
@@ -37,3 +37,5 @@ At its height, twenty-two is [The Emperor](/knowledge/tarot/major-arcana/the-emp
 - [Master Number 33](/knowledge/numerology/master-number-33)
 - [The Emperor](/knowledge/tarot/major-arcana/the-emperor)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-emperor]: The Emperor is structure, authority, and the protective power of law.

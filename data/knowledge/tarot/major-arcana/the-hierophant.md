@@ -16,7 +16,7 @@ A robed priest sits between two grey pillars, crowned with the triple tiara and 
 
 ## Upright
 
-The Hierophant is the transmission of received wisdom: religion, tradition, mentorship, the tested structures through which meaning is passed down. Upright, he counsels study within an established form, initiation into a lineage, or the counsel of a teacher who has walked the road before. Where the [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess) holds the mystery in silence, the Hierophant translates it into doctrine that a community can share. To draw him is to be asked what tradition you belong to, and whether it still nourishes you.
+The Hierophant is the transmission of received wisdom: religion, tradition, mentorship, the tested structures through which meaning is passed down. Upright, he counsels study within an established form, initiation into a lineage, or the counsel of a teacher who has walked the road before. Where the [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess)[^sn-the-high-priestess] holds the mystery in silence, the Hierophant translates it into doctrine that a community can share. To draw him is to be asked what tradition you belong to, and whether it still nourishes you.
 
 ## Reversed
 
@@ -32,7 +32,7 @@ Reversed, tradition hardens into dogma or is thrown off entirely. The shadow Hie
 
 ## Archetype
 
-The Hierophant is the Wise Old Man in his institutional robe, the archetype of the teacher, but bound to a lineage rather than wandering alone as [The Hermit](/knowledge/tarot/major-arcana/the-hermit) does. He represents the psyche’s inherited structures of meaning, the collective forms through which the sacred has been handed down. In individuation he is both scaffold and cage: necessary for the beginner, who needs a form to grow within, and something the maturing self must eventually internalise rather than merely obey.
+The Hierophant is the Wise Old Man in his institutional robe, the archetype of the teacher, but bound to a lineage rather than wandering alone as [The Hermit](/knowledge/tarot/major-arcana/the-hermit)[^sn-the-hermit] does. He represents the psyche’s inherited structures of meaning, the collective forms through which the sacred has been handed down. In individuation he is both scaffold and cage: necessary for the beginner, who needs a form to grow within, and something the maturing self must eventually internalise rather than merely obey.
 
 ## Mythological Echoes
 
@@ -49,3 +49,7 @@ When the Hierophant appears, the reading turns toward tradition, teaching, and b
 - [The Hermit](/knowledge/tarot/major-arcana/the-hermit)
 - [Spirituality](/knowledge/spirituality)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-hermit]: The Hermit is solitude in service of wisdom, the deliberate retreat from noise to hear the inner voice.
+
+[^sn-the-high-priestess]: To meet the High Priestess is to learn that some truths cannot be seized, only received.

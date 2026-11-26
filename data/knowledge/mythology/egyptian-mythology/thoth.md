@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## Overview
 
-Thoth is the ibis-headed god of writing, wisdom, and magic, the scribe of the gods and the inventor of the written word. He is the keeper of the sacred texts and the spells within them, the measurer of time who reckoned the calendar into being, the arbiter who settles disputes among the gods by the authority of knowledge rather than force. As the god of the moon he governs the night's lesser light and its cycles, and as the master of language he holds the words of power on which even the other gods depend. Where [Ra](/knowledge/mythology/egyptian-mythology/ra) is the blazing certainty of the sun, Thoth is the reflective, calculating intelligence of the moon.
+Thoth is the ibis-headed god of writing, wisdom, and magic, the scribe of the gods and the inventor of the written word. He is the keeper of the sacred texts and the spells within them, the measurer of time who reckoned the calendar into being, the arbiter who settles disputes among the gods by the authority of knowledge rather than force. As the god of the moon he governs the night's lesser light and its cycles, and as the master of language he holds the words of power on which even the other gods depend. Where [Ra](/knowledge/mythology/egyptian-mythology/ra)[^sn-ra] is the blazing certainty of the sun, Thoth is the reflective, calculating intelligence of the moon.
 
-He is the tarot's [The Magician](/knowledge/tarot/major-arcana/the-magician): the one who wields the word, the will that shapes reality through knowledge and craft, the channel between the divine and the manifest. In later ages the Greeks identified him with their own [Hermes](/knowledge/mythology/greek-mythology/hermes), and the fusion produced Hermes Trismegistus. "thrice-great Hermes", the legendary sage to whom the [Hermetic](/knowledge/spirituality/hermeticism) writings were attributed, the founder-figure of magic, alchemy, and astrology in the Western esoteric tradition. Through that identification Thoth became one of the deepest roots of the occult imagination.
+He is the tarot's [The Magician](/knowledge/tarot/major-arcana/the-magician): the one who wields the word, the will that shapes reality through knowledge and craft, the channel between the divine and the manifest. In later ages the Greeks identified him with their own [Hermes](/knowledge/mythology/greek-mythology/hermes), and the fusion produced Hermes Trismegistus[^sn-hermes-trismegistus]. "thrice-great Hermes", the legendary sage to whom the [Hermetic](/knowledge/spirituality/hermeticism) writings were attributed, the founder-figure of magic, alchemy, and astrology in the Western esoteric tradition. Through that identification Thoth became one of the deepest roots of the occult imagination.
 
 ---
 
@@ -37,3 +37,7 @@ He is the tarot's [The Magician](/knowledge/tarot/major-arcana/the-magician): th
 - [Tarot](/knowledge/tarot)
 - [Mythology](/knowledge/mythology)
 - [Thoth (System 777)](/knowledge/mythology/egyptian-mythology/thoth): His presence as a member of System 777
+
+[^sn-hermes-trismegistus]: Hermes Trismegistus is not a historical person. He's a syncretic fusion of the Greek Hermes (messenger of the gods, psychopomp, guide between worlds) and the Egyptian Thoth (god of writing, wisdom, magic, and the moon). See [Hermes Trismegistus](/knowledge/alchemy/hermes-trismegistus).
+
+[^sn-ra]: Ra is the sun god and, for much of Egyptian history, the king of the gods, the source from which the world was spoken into being.

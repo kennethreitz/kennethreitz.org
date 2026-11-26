@@ -18,7 +18,7 @@ source: obsidian-knowledge
 
 ## The Great Latin Doctors
 
-Four figures were honored as Doctors from the tradition's earliest reckoning, the pillars of Western theology. **Augustine of Hippo** (354–430) is the towering mind of the Latin church, author of the *Confessions* and *The City of God*, whose doctrines of grace, original sin, and the inner life shaped everything after, including, by a long inheritance, [Calvinism](/knowledge/spirituality/calvinism) and the whole Reformed reading of grace. **Jerome** (c. 347–420) translated the scriptures into the Latin Vulgate, the Bible of the West for a millennium; his symbol is the lion. **Ambrose of Milan** (c. 339–397), the bishop who baptized Augustine, defended the church against imperial power and gave Latin hymnody its foundations. **Gregory the Great** (c. 540–604), pope and reformer, gave his name to Gregorian chant and wrote the pastoral manual that guided bishops for centuries.
+Four figures were honored as Doctors from the tradition's earliest reckoning, the pillars of Western theology. **Augustine of Hippo** (354–430) is the towering mind of the Latin church, author of the *Confessions* and *The City of God*, whose doctrines of grace, original sin, and the inner life shaped everything after, including, by a long inheritance, [Calvinism](/knowledge/spirituality/calvinism)[^sn-calvinism] and the whole Reformed reading of grace. **Jerome** (c. 347–420) translated the scriptures into the Latin Vulgate, the Bible of the West for a millennium; his symbol is the lion. **Ambrose of Milan** (c. 339–397), the bishop who baptized Augustine, defended the church against imperial power and gave Latin hymnody its foundations. **Gregory the Great** (c. 540–604), pope and reformer, gave his name to Gregorian chant and wrote the pastoral manual that guided bishops for centuries.
 
 ---
 
@@ -48,3 +48,5 @@ Taken together, the Doctors are the church's memory of its own best thinking. Th
 - [The Mass and the Eucharist](/knowledge/spirituality/catholicism/the-mass-and-the-eucharist): Aquinas on the sacrament
 - [The Holy Trinity](/knowledge/spirituality/catholicism/the-holy-trinity): The doctrine the Doctors defended
 - [Calvinism](/knowledge/spirituality/calvinism): Augustine's long influence on the Reformed
+
+[^sn-calvinism]: Calvinism is the theological system developed by John Calvin (1509-1564) and later systematized by his followers.

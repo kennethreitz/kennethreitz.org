@@ -28,7 +28,7 @@ Underneath sits a conviction of scarcity, that they have too little inside to me
 
 ## Healthy & Unhealthy
 
-At their best, Fives are visionary, perceptive, and pioneering, thinkers who see what others miss and who move from the safety of observation into confident, embodied engagement with the world. They discover that they have more than enough to give. Under stress the retreat becomes a bunker. The unhealthy Five grows isolated, secretive, and cerebral to the point of nihilism, cutting themselves off from the body, from people, and from need itself. Growth asks the Five to descend from the tower into the flesh and the moment, to reclaim the vitality relegated to [The Shadow](/knowledge/psychology/jungian/the-shadow), and to trust through [Individuation](/knowledge/psychology/jungian/individuation) that presence, not more preparation, is what completes them.
+At their best, Fives are visionary, perceptive, and pioneering, thinkers who see what others miss and who move from the safety of observation into confident, embodied engagement with the world. They discover that they have more than enough to give. Under stress the retreat becomes a bunker. The unhealthy Five grows isolated, secretive, and cerebral to the point of nihilism, cutting themselves off from the body, from people, and from need itself. Growth asks the Five to descend from the tower into the flesh and the moment, to reclaim the vitality relegated to [The Shadow](/knowledge/psychology/jungian/the-shadow), and to trust through [Individuation](/knowledge/psychology/jungian/individuation)[^sn-individuation] that presence, not more preparation, is what completes them.
 
 ## Related
 
@@ -37,3 +37,5 @@ At their best, Fives are visionary, perceptive, and pioneering, thinkers who see
 - [Type 8 - The Challenger](/knowledge/enneagram/type-8-the-challenger)
 - [Type 7 - The Enthusiast](/knowledge/enneagram/type-7-the-enthusiast)
 - [Enneagram](/knowledge/enneagram)
+
+[^sn-individuation]: Individuation is the central process in Jungian psychology, the lifelong journey of becoming who you truly are.

@@ -26,7 +26,7 @@ Baltimore made it systematic. In her longitudinal study there, Ainsworth's team 
 
 ## The Classification System
 
-To see in the lab what she had seen in homes, Ainsworth designed the [Strange Situation](/knowledge/psychology/attachment-theory/strange-situation), the twenty-minute separation-and-reunion procedure that became developmental psychology's most famous instrument. From it came the three original classifications: secure (B), avoidant (A), and anxious-ambivalent (C), each pattern mapping back onto the caregiving history her home visits had documented. *Patterns of Attachment* (1978), written with Blehar, Waters, and Wall, is the landmark text. Her student Mary Main would later find the fourth pattern hiding in the unclassifiable tapes, [Disorganized Attachment](/knowledge/psychology/attachment-theory/disorganized-attachment), and carry the framework into adulthood with the Adult Attachment Interview. The lineage is direct: Bowlby's theory, Ainsworth's method, and everything since built on the two of them.
+To see in the lab what she had seen in homes, Ainsworth designed the [Strange Situation](/knowledge/psychology/attachment-theory/strange-situation)[^sn-strange-situation], the twenty-minute separation-and-reunion procedure that became developmental psychology's most famous instrument. From it came the three original classifications: secure (B), avoidant (A), and anxious-ambivalent (C), each pattern mapping back onto the caregiving history her home visits had documented. *Patterns of Attachment* (1978), written with Blehar, Waters, and Wall, is the landmark text. Her student Mary Main would later find the fourth pattern hiding in the unclassifiable tapes, [Disorganized Attachment](/knowledge/psychology/attachment-theory/disorganized-attachment), and carry the framework into adulthood with the Adult Attachment Interview. The lineage is direct: Bowlby's theory, Ainsworth's method, and everything since built on the two of them.
 
 ---
 
@@ -43,3 +43,5 @@ To see in the lab what she had seen in homes, Ainsworth designed the [Strange Si
 ---
 
 *Seventy-two hours per living room. That is what it costs to know something about love.*
+
+[^sn-strange-situation]: The Strange Situation is Mary Ainsworth's laboratory procedure for observing the attachment system under load.

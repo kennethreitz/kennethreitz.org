@@ -23,10 +23,12 @@ Keep the four leading strokes low, light, and even, this is a quiet gathering, n
 
 ## In Practice
 
-The single stroke four shows up as a quick fill into a downbeat, an ornament ahead of a cymbal crash, and a common figure in orchestral and rudimental repertoire. It sits between the [Single Stroke Roll](/knowledge/music/drum-rudiments/single-stroke-roll) and its longer sibling the [Single Stroke Seven](/knowledge/music/drum-rudiments/single-stroke-seven) as a study in controlled bursts of single strokes.
+The single stroke four shows up as a quick fill into a downbeat, an ornament ahead of a cymbal crash, and a common figure in orchestral and rudimental repertoire. It sits between the [Single Stroke Roll](/knowledge/music/drum-rudiments/single-stroke-roll) and its longer sibling the [Single Stroke Seven](/knowledge/music/drum-rudiments/single-stroke-seven)[^sn-single-stroke-seven] as a study in controlled bursts of single strokes.
 
 ## Related
 
 - [Single Stroke Roll](/knowledge/music/drum-rudiments/single-stroke-roll)
 - [Single Stroke Seven](/knowledge/music/drum-rudiments/single-stroke-seven)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-single-stroke-seven]: The single stroke seven extends the idea of the single stroke four into a longer run: seven alternating single strokes that build across a beat or two and land on a final accent.

@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Where It Belongs
 
-Diligence stands among the seven heavenly virtues as the remedy for [Sloth](/knowledge/virtues-and-vices/seven-deadly-sins/sloth). The medieval lists call it *industria* or, more often and more tellingly, *zelus*, zeal. Its etymology is the quiet argument of this whole domain: *diligentia* comes from *diligere*, to love, to esteem, to choose. The Romans heard "diligence" and "love" in the same root. The virtue is not industriousness for its own sake; it is the persistence that love produces when it commits.
+Diligence stands among the seven heavenly virtues as the remedy for [Sloth](/knowledge/virtues-and-vices/seven-deadly-sins/sloth).[^sn-sloth] The medieval lists call it *industria* or, more often and more tellingly, *zelus*, zeal. Its etymology is the quiet argument of this whole domain: *diligentia* comes from *diligere*, to love, to esteem, to choose. The Romans heard "diligence" and "love" in the same root. The virtue is not industriousness for its own sake; it is the persistence that love produces when it commits.
 
 ## What It Is
 
@@ -19,7 +19,7 @@ Diligence is sustained fidelity of attention and effort to what one actually lov
 
 ## The Sin It Answers
 
-Diligence answers [Sloth](/knowledge/virtues-and-vices/seven-deadly-sins/sloth), not laziness but acedia, the sorrow in the face of the good, the quiet refusal to care because caring costs the whole self. Dante's remedy is kinetic: the slothful run without ceasing, shouting exempla of zeal, rebuilding momentum stride by stride. The insight is that caring is not a feeling to be waited for but a motion to be resumed, the cure for *later* is the next committed step, taken now.
+Diligence answers [Sloth](/knowledge/virtues-and-vices/seven-deadly-sins/sloth)[^sn-sloth-2], not laziness but acedia, the sorrow in the face of the good, the quiet refusal to care because caring costs the whole self. Dante's remedy is kinetic: the slothful run without ceasing, shouting exempla of zeal, rebuilding momentum stride by stride. The insight is that caring is not a feeling to be waited for but a motion to be resumed, the cure for *later* is the next committed step, taken now.
 
 ---
 
@@ -33,3 +33,7 @@ Diligence answers [Sloth](/knowledge/virtues-and-vices/seven-deadly-sins/sloth),
 ---
 
 *The root of diligence is diligere: to love. The proof of love is that it returns.*
+
+[^sn-sloth]: Sloth has the strangest pedigree of the seven. Evagrius knew it as *acedia*, the "noonday demon", the restless listlessness that strikes the monk mid-day, making the cell unbearable, the hours endless, the whole vocation seem pointless.
+
+[^sn-sloth-2]: Sloth is not the absence of desire but its evasion, a sorrow in the face of the good, the shrinking from what would demand the whole self.

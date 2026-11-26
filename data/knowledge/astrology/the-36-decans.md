@@ -15,9 +15,9 @@ source: obsidian-knowledge
 
 A **decan** (or *face*) is ten degrees of the zodiac, a third of a sign, so twelve signs give thirty-six decans. The system is ancient Egyptian: thirty-six star-groups that rose about ten days apart, marking off the 360-day year (36 × 10). What makes the decans the master key of the whole [Table of Correspondences](/knowledge/table-of-correspondences) is that almost every other system in this vault keys to them at once.
 
-Each decan simultaneously is a third of a [zodiac](/knowledge/astrology) sign, one of the thirty-six minor-arcana pip cards (the [small cards](/knowledge/tarot/minor-arcana), Two through Ten of each suit, 9 pips × 4 suits = 36), the seat of a **Chaldean planetary ruler**, and the domain of a pair of angels and a pair of spirits: the seventy-two [Shem angels](/knowledge/angels-and-demons/shem-ha-mephorash) are thirty-six decans × two (a day angel and a night angel, five degrees each), and the seventy-two spirits of the [Ars Goetia](/knowledge/angels-and-demons/ars-goetia) map the same thirty-six, day and night. So the first ten degrees of Leo is at once the Five of Wands, ruled by Saturn, held by the angels Haziel and Aladiah and the spirits they pair with. Read one row and five collections light up together.
+Each decan simultaneously is a third of a [zodiac](/knowledge/astrology) sign, one of the thirty-six minor-arcana pip cards (the [small cards](/knowledge/tarot/minor-arcana), Two through Ten of each suit, 9 pips × 4 suits = 36), the seat of a **Chaldean planetary ruler**, and the domain of a pair of angels and a pair of spirits: the seventy-two [Shem angels](/knowledge/angels-and-demons/shem-ha-mephorash) are thirty-six decans × two (a day angel and a night angel, five degrees each), and the seventy-two spirits of the [Ars Goetia](/knowledge/angels-and-demons/ars-goetia) map the same thirty-six, day and night. So the first ten degrees of Leo is at once the Five of Wands,[^sn-five-of-wands] ruled by Saturn, held by the angels Haziel and Aladiah and the spirits they pair with. Read one row and five collections light up together.
 
-The planetary rulers run in **Chaldean order**: Mars, Sun, Venus, Mercury, Moon, Saturn, Jupiter, cycling continuously from the first face of Aries. The tarot attributions follow the Golden Dawn's assignment of the small cards to the decans.
+The planetary rulers run in **Chaldean order**: Mars,[^sn-mars-astrology] Sun, Venus, Mercury, Moon, Saturn, Jupiter, cycling continuously from the first face of Aries. The tarot attributions follow the Golden Dawn's assignment of the small cards to the decans.
 
 One decan, read five ways at once, the knot the whole web is tied around:
 
@@ -78,7 +78,7 @@ flowchart TD
 
 ## How to Read It
 
-Take any row as a single knot in the web. Row 13 is the first face of Leo: zero to ten degrees, the [Five of Wands](/knowledge/tarot/minor-arcana/five-of-wands) (strife), ruled by [Saturn](/knowledge/astrology/planets/saturn-astrology) (discipline pressing on fire), and held by the Shem angels of that decan with their paired Goetic spirits. The card's meaning, the sign's fire, the ruler's weight, and the angels' offices are four readings of one ten-degree door. This is what [Liber 777](/library/books/liber-777) means by a table of correspondences carried all the way down: not a list of separate systems, but a single structure seen from many sides.
+Take any row as a single knot in the web. Row 13 is the first face of Leo: zero to ten degrees, the [Five of Wands](/knowledge/tarot/minor-arcana/five-of-wands) (strife), ruled by [Saturn](/knowledge/astrology/planets/saturn-astrology)[^sn-saturn-astrology] (discipline pressing on fire), and held by the Shem angels of that decan with their paired Goetic spirits. The card's meaning, the sign's fire, the ruler's weight, and the angels' offices are four readings of one ten-degree door. This is what [Liber 777](/library/books/liber-777) means by a table of correspondences carried all the way down: not a list of separate systems, but a single structure seen from many sides.
 
 The day/night split is the *quinance*: each decan divides into two five-degree halves, and the seventy-two angels and seventy-two spirits fill those seventy-two half-decans exactly. The pairing of each [Shem angel](/knowledge/angels-and-demons/shem-ha-mephorash) with its [Goetic spirit](/knowledge/angels-and-demons/ars-goetia) follows the attribution already recorded on each angel's page.
 
@@ -97,3 +97,8 @@ The day/night split is the *quinance*: each decan divides into two five-degree h
 ---
 
 *Thirty-six doors, each opening on the same room from a different wall.*
+
+[^sn-five-of-wands]: The Five of Wands is conflict, competition, the abrasive collision of wills. See [Five of Wands](/knowledge/tarot/minor-arcana/five-of-wands).
+[^sn-saturn-astrology]: Saturn is the principle of limitation, time, structure, gravity, the hard edge where the will meets the wall of the real.
+
+[^sn-mars-astrology]: Mars asks whether a person can want without apology and act without waiting for permission. More in [Mars (astrology)](/knowledge/astrology/planets/mars-astrology).

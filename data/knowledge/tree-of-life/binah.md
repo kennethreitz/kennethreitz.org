@@ -31,11 +31,11 @@ Her planet is Saturn, lord of time and constriction, the ring that binds the bou
 
 ## On the Tree
 
-Binah crowns the Pillar of Severity, the left-hand column of form and restriction, facing Chokmah across the supernal triangle whose apex is Kether. Above it, along its own pillar, is nothing but the Crown; below it, across the abyss, waits Geburah and the world of judgment it will discipline. The paths from Binah reach in every direction: [The Empress](/knowledge/tarot/major-arcana/the-empress) joins it to Chokmah, [The Magician](/knowledge/tarot/major-arcana/the-magician) rises toward the Crown, [The Lovers](/knowledge/tarot/major-arcana/the-lovers) descends to Tiphareth, and [The Chariot](/knowledge/tarot/major-arcana/the-chariot) carries its constricting power down to Geburah below.
+Binah crowns the Pillar of Severity, the left-hand column of form and restriction, facing Chokmah across the supernal triangle whose apex is Kether. Above it, along its own pillar, is nothing but the Crown; below it, across the abyss, waits Geburah and the world of judgment it will discipline. The paths from Binah reach in every direction: [The Empress](/knowledge/tarot/major-arcana/the-empress) joins it to Chokmah, [The Magician](/knowledge/tarot/major-arcana/the-magician) rises toward the Crown, [The Lovers](/knowledge/tarot/major-arcana/the-lovers) descends to Tiphareth,[^sn-tiphareth] and [The Chariot](/knowledge/tarot/major-arcana/the-chariot) carries its constricting power down to Geburah below.
 
 ## In Tarot
 
-The four Threes belong to Binah: Understanding’s number, where two poles meet and a third thing is conceived. The Three of Wands is established strength, the Three of Cups abundance, the Three of Swords sorrow, the Three of Pentacles work made real; each is a first fruit of the union above. Because Binah is the sphere of Saturn, its planetary trump is [The World](/knowledge/tarot/major-arcana/the-world), the sealed and finished cosmos, time’s completed round, the boundary drawn around all that is.
+The four Threes belong to Binah: Understanding’s number, where two poles meet and a third thing is conceived. The Three of Wands is established strength, the Three of Cups abundance, the Three of Swords sorrow, the Three of Pentacles[^sn-three-of-pentacles] work made real; each is a first fruit of the union above. Because Binah is the sphere of Saturn, its planetary trump is [The World](/knowledge/tarot/major-arcana/the-world), the sealed and finished cosmos, time’s completed round, the boundary drawn around all that is.
 
 ## Related
 
@@ -45,3 +45,6 @@ The four Threes belong to Binah: Understanding’s number, where two poles meet 
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
 - [Tarot](/knowledge/tarot)
+
+[^sn-tiphareth]: Tiphareth is Beauty, the sixth emanation and the heart of the whole Tree, the point of perfect balance where every other sphere may be seen at once. See [Tiphareth](/knowledge/tree-of-life/tiphareth).
+[^sn-three-of-pentacles]: The Three of Pentacles is the card of the working guild, of mastery recognised and put to collective use. See [Three of Pentacles](/knowledge/tarot/minor-arcana/three-of-pentacles).

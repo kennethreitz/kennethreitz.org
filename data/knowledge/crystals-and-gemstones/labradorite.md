@@ -27,7 +27,7 @@ That hidden fire is the whole character of the stone. It keeps its magic conceal
 
 ## Properties
 
-Labradorite is the stone of magic and transformation, the companion of anyone crossing a threshold between one self and the next. It opens the [third eye](/knowledge/chakras/ajna) to intuition, synchronicity, and the perception of what lies just beneath the ordinary surface of things. Its most prized quality is protection: it is said to form a shield around the aura, sealing the wearer against energy leakage and the draining pull of other people, which makes it a favourite of empaths and those doing intuitive work.
+Labradorite is the stone of magic and transformation, the companion of anyone crossing a threshold between one self and the next. It opens the [third eye](/knowledge/chakras/ajna)[^sn-ajna] to intuition, synchronicity, and the perception of what lies just beneath the ordinary surface of things. Its most prized quality is protection: it is said to form a shield around the aura, sealing the wearer against energy leakage and the draining pull of other people, which makes it a favourite of empaths and those doing intuitive work.
 
 ## In Practice
 
@@ -40,3 +40,5 @@ Labradorite is worn or carried through periods of change and used in meditation 
 - [Lapis Lazuli](/knowledge/crystals-and-gemstones/lapis-lazuli)
 - [Ajna](/knowledge/chakras/ajna)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-ajna]: Ajna sits between the eyebrows, the storied third eye, and its name means “command” or “perceive”, the centre from which the whole system is at last surveyed and directed.

@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Essence
 
-Tiphareth is Beauty, the sixth emanation and the heart of the whole Tree, the point of perfect balance where every other sphere may be seen at once. It is the sun of the inner cosmos, the place where the blinding light of the supernals is stepped down into a radiance a soul can bear and return. Here Mercy and Severity are reconciled, the giving and the withholding harmonized into a single golden equilibrium; here the many titles gather, the Child born of the supernal marriage, the sacrificed and redeeming King, the Christ-point, the reconciler. Tiphareth is the self behind the personality, the true center that Yesod below only reflects.
+Tiphareth is Beauty, the sixth emanation and the heart of the whole Tree, the point of perfect balance where every other sphere may be seen at once. It is the sun of the inner cosmos, the place where the blinding light of the supernals is stepped down into a radiance a soul can bear and return. Here Mercy and Severity are reconciled, the giving and the withholding harmonized into a single golden equilibrium; here the many titles gather, the Child born of the supernal marriage, the sacrificed and redeeming King, the Christ-point, the reconciler. Tiphareth is the self behind the personality, the true center that Yesod[^sn-yesod] below only reflects.
 
 Its virtue is Devotion to the Great Work, the giving of oneself wholly to transformation, the willingness of the king to be sacrificed so that the whole may be renewed. Every myth of the dying and rising god has its root in this sphere: Osiris, Dionysus, the crucified and resurrected. Its vice is pride, the ego’s theft of the center it was only meant to serve. Tiphareth’s color is yellow, the gold of the risen sun, the beauty that is not decoration but the visible sign of things brought into harmony.
 
@@ -31,11 +31,11 @@ Its virtue is Devotion to the Great Work, the giving of oneself wholly to transf
 
 ## On the Tree
 
-Tiphareth stands at the heart of the Middle Pillar, the column of equilibrium, more richly connected than any other sphere, the crossroads through which the whole Tree passes. Above it, up the central beam, waits Kether across the abyss; below it lies Yesod, the reflecting foundation. Eight paths meet here: [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess) descends from the Crown, [The Emperor](/knowledge/tarot/major-arcana/the-emperor) and [The Lovers](/knowledge/tarot/major-arcana/the-lovers) arrive from the supernals, [The Hermit](/knowledge/tarot/major-arcana/the-hermit) and [Justice](/knowledge/tarot/major-arcana/justice) come from Chesed and Geburah, [Death](/knowledge/tarot/major-arcana/death) leads to Netzach, [The Devil](/knowledge/tarot/major-arcana/the-devil) to Hod, and [Temperance](/knowledge/tarot/major-arcana/temperance) falls straight to Yesod along the path of the arrow home.
+Tiphareth stands at the heart of the Middle Pillar, the column of equilibrium, more richly connected than any other sphere, the crossroads through which the whole Tree passes. Above it, up the central beam, waits Kether across the abyss; below it lies Yesod, the reflecting foundation. Eight paths meet here: [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess) descends from the Crown, [The Emperor](/knowledge/tarot/major-arcana/the-emperor) and [The Lovers](/knowledge/tarot/major-arcana/the-lovers) arrive from the supernals, [The Hermit](/knowledge/tarot/major-arcana/the-hermit) and [Justice](/knowledge/tarot/major-arcana/justice) come from Chesed and Geburah,[^sn-geburah] [Death](/knowledge/tarot/major-arcana/death) leads to Netzach, [The Devil](/knowledge/tarot/major-arcana/the-devil) to Hod, and [Temperance](/knowledge/tarot/major-arcana/temperance) falls straight to Yesod along the path of the arrow home.
 
 ## In Tarot
 
-The four Sixes belong to Tiphareth, the number of harmony restored after the strife of the fives. The Six of Wands is victory, the Six of Cups the sweetness of memory, the Six of Swords passage to calmer water, the Six of Pentacles balanced giving; each is the sphere’s reconciling equilibrium made visible. As the seat of the Sun, Tiphareth’s planetary trump is [The Sun](/knowledge/tarot/major-arcana/the-sun), the child-radiance of a self made whole.
+The four Sixes belong to Tiphareth, the number of harmony restored after the strife of the fives. The Six of Wands is victory, the Six of Cups the sweetness of memory, the Six of Swords passage to calmer water, the Six of Pentacles[^sn-six-of-pentacles] balanced giving; each is the sphere’s reconciling equilibrium made visible. As the seat of the Sun, Tiphareth’s planetary trump is [The Sun](/knowledge/tarot/major-arcana/the-sun), the child-radiance of a self made whole.
 
 ## Related
 
@@ -48,3 +48,8 @@ The four Sixes belong to Tiphareth, the number of harmony restored after the str
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
 - [Tarot](/knowledge/tarot)
+
+[^sn-geburah]: Geburah is Severity, the fifth emanation, the burning arm of judgment that answers the boundless generosity of Chesed. See [Geburah](/knowledge/tree-of-life/geburah).
+[^sn-six-of-pentacles]: The Six of Pentacles is the card of generosity and its circulation, giving and receiving, charity, patronage, the flow of resources from those who have to those who need. See [Six of Pentacles](/knowledge/tarot/minor-arcana/six-of-pentacles).
+
+[^sn-yesod]: Yesod sits low on the Middle Pillar, the column of equilibrium, directly beneath Tiphareth whose harmonized light it gathers and stores. Details in [Yesod](/knowledge/tree-of-life/yesod).

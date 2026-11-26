@@ -28,7 +28,7 @@ In the language of [Numerology](/knowledge/numerology), zero amplifies whatever 
 
 ## Light & Shadow
 
-At its most luminous, zero is liberation, the willingness to step off the cliff like [The Fool](/knowledge/tarot/major-arcana/the-fool), trusting that the ground will meet the foot. It offers the clean slate, the beginner's mind, the courage to hold everything lightly. But its shadow is the same freedom curdled into avoidance: a soul so in love with potential that it never consents to become anything at all. Unformed possibility, indulged too long, hardens into paralysis, and the circle that could have held a life instead holds only its own echo.
+At its most luminous, zero is liberation, the willingness to step off the cliff like [The Fool](/knowledge/tarot/major-arcana/the-fool),[^sn-the-fool] trusting that the ground will meet the foot. It offers the clean slate, the beginner's mind, the courage to hold everything lightly. But its shadow is the same freedom curdled into avoidance: a soul so in love with potential that it never consents to become anything at all. Unformed possibility, indulged too long, hardens into paralysis, and the circle that could have held a life instead holds only its own echo.
 
 ## Related
 
@@ -36,3 +36,5 @@ At its most luminous, zero is liberation, the willingness to step off the cliff 
 - [Number 9](/knowledge/numerology/number-9)
 - [The Fool](/knowledge/tarot/major-arcana/the-fool)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-fool]: The Fool is pure potential, the zero that contains every number without yet being any of them.

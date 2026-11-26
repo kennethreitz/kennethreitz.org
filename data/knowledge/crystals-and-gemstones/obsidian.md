@@ -27,7 +27,7 @@ There is something honest about Obsidian, and something a little dangerous. It i
 
 ## Properties
 
-Obsidian is the stone of truth and shadow work, a mirror held up to the psyche that reflects, without mercy or malice, whatever has been buried. Grounded at the [root](/knowledge/chakras/muladhara), it protects fiercely while it excavates, drawing suppressed grief, denial, and self-deception into the light where they can finally be met. It cuts through illusion and pretence, both one’s own and others’, which makes it a demanding ally: it heals by first insisting that you see.
+Obsidian is the stone of truth and shadow work, a mirror held up to the psyche that reflects, without mercy or malice, whatever has been buried. Grounded at the [root](/knowledge/chakras/muladhara),[^sn-muladhara] it protects fiercely while it excavates, drawing suppressed grief, denial, and self-deception into the light where they can finally be met. It cuts through illusion and pretence, both one’s own and others’, which makes it a demanding ally: it heals by first insisting that you see.
 
 ## In Practice
 
@@ -40,3 +40,5 @@ A polished obsidian mirror or sphere is used for scrying and for the slow, delib
 - [Bloodstone](/knowledge/crystals-and-gemstones/bloodstone)
 - [Muladhara](/knowledge/chakras/muladhara)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-muladhara]: Muladhara sits at the base of the spine, at the perineal floor where the body meets the ground it stands upon.

@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Spirit
 
-Buer is the tenth spirit of the *Ars Goetia* and a president among its ranks. The grimoire connects his appearance with the sun in Sagittarius, and gives him a form so distinctive that it has become one of the most reproduced images from the whole catalogue: a wheel or star of radiating limbs, a body from which legs extend like the spokes of a rolling shape, sometimes drawn with the head of a lion at its centre. This solar and radial figure sets him apart among the many hybrid beasts of the tradition.
+Buer is the tenth spirit of the *Ars Goetia* and a president among its ranks. The grimoire connects his appearance with the sun in Sagittarius,[^sn-sagittarius] and gives him a form so distinctive that it has become one of the most reproduced images from the whole catalogue: a wheel or star of radiating limbs, a body from which legs extend like the spokes of a rolling shape, sometimes drawn with the head of a lion at its centre. This solar and radial figure sets him apart among the many hybrid beasts of the tradition.
 
 He belongs to the healing and teaching class of spirits, and the grimoire treats him as a benevolent instructor rather than a spirit of force or dread.
 
@@ -33,3 +33,5 @@ According to the *Goetia*, Buer teaches natural and moral philosophy, logic, and
 - [Paimon](/knowledge/angels-and-demons/ars-goetia/paimon)
 - [Gusion](/knowledge/angels-and-demons/ars-goetia/gusion)
 - [Ars Goetia](/knowledge/angels-and-demons/ars-goetia)
+
+[^sn-sagittarius]: Sagittarius carries the fire of late autumn toward the winter solstice, a season of gathering darkness that the Archer meets with an inextinguishable optimism. See [Sagittarius](/knowledge/astrology/signs/sagittarius).

@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Gaia is the Earth, not a goddess who rules the earth but the earth as a living, generative power, one of the first beings to emerge out of Chaos at the beginning of things. From herself alone she brought forth Uranus (the sky), the mountains, and the sea, and then, lying with [Uranus](/knowledge/mythology/greek-mythology/uranus), she became the mother of the Titans, the Cyclopes, and the hundred-handed giants. Everything that follows in Greek myth, the Titans, the Olympians, mortals, descends from her.
+Gaia is the Earth, not a goddess who rules the earth but the earth as a living, generative power, one of the first beings to emerge out of Chaos at the beginning of things. From herself alone she brought forth Uranus (the sky), the mountains, and the sea, and then, lying with [Uranus](/knowledge/mythology/greek-mythology/uranus),[^sn-uranus] she became the mother of the Titans, the Cyclopes, and the hundred-handed giants. Everything that follows in Greek myth, the Titans, the Olympians, mortals, descends from her.
 
 She is the deep substrate the later, brighter gods are built on: older than Olympus, slower, and not finally governable. The Greeks swore their most binding oaths by her.
 
@@ -33,3 +33,5 @@ She is the deep substrate the later, brighter gods are built on: older than Olym
 - [Rhea](/knowledge/mythology/greek-mythology/rhea): Daughter; mother of the Olympians
 - [Zeus](/knowledge/mythology/greek-mythology/zeus): Grandson; the order she helped to power
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-uranus]: Uranus is the sky, the primordial heaven, born of Gaia (the Earth) and then her consort, the two of them the first parents of the cosmos.

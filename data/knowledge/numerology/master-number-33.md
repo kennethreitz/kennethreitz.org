@@ -28,7 +28,7 @@ This number carries the vision of eleven and the building power of twenty-two, b
 
 ## Light & Shadow
 
-At its most sublime, thirty-three is [The Lovers](/knowledge/tarot/major-arcana/the-lovers) elevated beyond the personal into the universal, love that heals simply by being present, the teacher whose compassion asks for nothing and gives without reserve. It offers grace, guidance, and a rare capacity to lift others toward their own becoming. Yet the shadow of such love is self-erasure: the martyr who gives until nothing remains, the would-be savior who mistakes rescue for love, the healer so devoted to others that they forget to tend the vessel through which the healing flows. Even boundless compassion must include the self, or it burns out entirely.
+At its most sublime, thirty-three is [The Lovers](/knowledge/tarot/major-arcana/the-lovers)[^sn-the-lovers] elevated beyond the personal into the universal, love that heals simply by being present, the teacher whose compassion asks for nothing and gives without reserve. It offers grace, guidance, and a rare capacity to lift others toward their own becoming. Yet the shadow of such love is self-erasure: the martyr who gives until nothing remains, the would-be savior who mistakes rescue for love, the healer so devoted to others that they forget to tend the vessel through which the healing flows. Even boundless compassion must include the self, or it burns out entirely.
 
 ## Related
 
@@ -36,3 +36,5 @@ At its most sublime, thirty-three is [The Lovers](/knowledge/tarot/major-arcana/
 - [Master Number 22](/knowledge/numerology/master-number-22)
 - [The Lovers](/knowledge/tarot/major-arcana/the-lovers)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-lovers]: The Lovers is union and the choice that makes union real. On its surface it is romance and partnership; beneath, it is the deeper alchemy of joining opposites into a whole, and the free, values-driven decision that seals such a joining.

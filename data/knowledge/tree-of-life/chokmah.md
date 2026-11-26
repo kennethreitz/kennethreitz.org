@@ -31,11 +31,11 @@ To stand in Chokmah is to feel life before it has decided what to become, vitali
 
 ## On the Tree
 
-Chokmah sits at the head of the Pillar of Mercy, the right-hand column of expansion and force, directly across the top of the Tree from Binah, its dark counterpart. Above it stands Kether alone; below and across the abyss lie Chesed and the whole mercied world it will father. From Chokmah the paths spread out to gather form: [The Magician](/knowledge/tarot/major-arcana/the-magician) rises from it back toward the Crown as the channel of will, while [The Empress](/knowledge/tarot/major-arcana/the-empress) runs across the supernal triangle to Binah, the marriage of Father and Mother from which the third sphere is born. The Emperor and the Hierophant also descend from it into the sphere of the mind and toward Chesed below.
+Chokmah sits at the head of the Pillar of Mercy, the right-hand column of expansion and force, directly across the top of the Tree from Binah, its dark counterpart. Above it stands Kether[^sn-kether] alone; below and across the abyss lie Chesed and the whole mercied world it will father. From Chokmah the paths spread out to gather form: [The Magician](/knowledge/tarot/major-arcana/the-magician) rises from it back toward the Crown as the channel of will, while [The Empress](/knowledge/tarot/major-arcana/the-empress) runs across the supernal triangle to Binah, the marriage of Father and Mother from which the third sphere is born. The Emperor and the Hierophant also descend from it into the sphere of the mind and toward Chesed below.
 
 ## In Tarot
 
-The four Twos belong to Chokmah, the number of first division, of a force met by a second and so set into relationship. The Two of Wands is dominion, the Two of Cups love, the Two of Swords peace restored, the Two of Pentacles change; each shows the primal will finding its first partner. Chokmah’s trumps are the great outgoing gestures, [The Magician](/knowledge/tarot/major-arcana/the-magician) and [The Empress](/knowledge/tarot/major-arcana/the-empress), the willed word and the fertile answer to it.
+The four Twos belong to Chokmah, the number of first division, of a force met by a second and so set into relationship. The Two of Wands is dominion, the Two of Cups love, the Two of Swords peace restored, the Two of Pentacles[^sn-two-of-pentacles] change; each shows the primal will finding its first partner. Chokmah’s trumps are the great outgoing gestures, [The Magician](/knowledge/tarot/major-arcana/the-magician) and [The Empress](/knowledge/tarot/major-arcana/the-empress), the willed word and the fertile answer to it.
 
 ## Related
 
@@ -45,3 +45,6 @@ The four Twos belong to Chokmah, the number of first division, of a force met by
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
 - [Tarot](/knowledge/tarot)
+
+[^sn-kether]: Kether is the Crown, the first stirring of the Unmanifest into being. See [Kether](/knowledge/tree-of-life/kether).
+[^sn-two-of-pentacles]: The Two of Pentacles is the art of juggling, commitments, resources, roles, the competing demands of a life that will not simplify. See [Two of Pentacles](/knowledge/tarot/minor-arcana/two-of-pentacles).

@@ -30,7 +30,7 @@ The power chord sounds like force. Because it withholds the third, it carries no
 
 ## In Practice
 
-The power chord is the structural unit of rock, punk, and metal, the moveable two-finger shape that lets a guitarist slam any root with the same reliable grip. Its emptiness leaves room for distortion, speed, and volume, which is why it defines those genres more than any full chord could. It is the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad) and [Minor Triad](/knowledge/music/chords-and-progressions/chords/minor-triad) with the argument surgically removed.
+The power chord is the structural unit of rock, punk, and metal, the moveable two-finger shape that lets a guitarist slam any root with the same reliable grip. Its emptiness leaves room for distortion, speed, and volume, which is why it defines those genres more than any full chord could. It is the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad)[^sn-major-triad] and [Minor Triad](/knowledge/music/chords-and-progressions/chords/minor-triad) with the argument surgically removed.
 
 ## Related
 
@@ -39,3 +39,5 @@ The power chord is the structural unit of rock, punk, and metal, the moveable tw
 - [Suspended Chords](/knowledge/music/chords-and-progressions/chords/suspended-chords)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
+
+[^sn-major-triad]: The major triad is the first thing most ears learn to call “happy,” and it earns the reputation honestly.

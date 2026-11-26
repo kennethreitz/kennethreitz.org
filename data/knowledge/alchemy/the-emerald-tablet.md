@@ -7,7 +7,7 @@ source: obsidian-knowledge
 
 > *The shortest, densest instruction manual in Western esotericism.*
 
-The Emerald Tablet, the Tabula Smaragdina: is a brief Hermetic text attributed to [Hermes Trismegistus](/knowledge/alchemy/hermes-trismegistus) that contains the entire alchemical worldview compressed into a few paragraphs. Nobody knows when it was actually written. The earliest known version appears in an Arabic work from the 8th century, claiming to translate a much older text. Whether it's genuinely ancient or a medieval synthesis is irrelevant to its power. The ideas in it predate whatever document first recorded them.
+The Emerald Tablet, the Tabula Smaragdina: is a brief Hermetic text attributed to [Hermes Trismegistus](/knowledge/alchemy/hermes-trismegistus)[^sn-hermes-trismegistus] that contains the entire alchemical worldview compressed into a few paragraphs. Nobody knows when it was actually written. The earliest known version appears in an Arabic work from the 8th century, claiming to translate a much older text. Whether it's genuinely ancient or a medieval synthesis is irrelevant to its power. The ideas in it predate whatever document first recorded them.
 
 The Tablet has been translated hundreds of times. Isaac Newton translated it. So did Albertus Magnus. Every serious alchemist in the Western tradition considered it foundational, the axioms from which the rest of the art could be derived.
 
@@ -52,3 +52,5 @@ The [Digital Ouija Effect](/knowledge/ai/digital-ouija-effect) is pure Emerald T
 ---
 
 *True, without falsehood, certain, and most true.*
+
+[^sn-hermes-trismegistus]: Hermes Trismegistus is not a historical person. He's a syncretic fusion of the Greek Hermes (messenger of the gods, psychopomp, guide between worlds) and the Egyptian Thoth (god of writing, wisdom, magic, and the moon).

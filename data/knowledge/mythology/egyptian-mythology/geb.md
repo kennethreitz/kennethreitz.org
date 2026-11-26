@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Geb is the earth given a body, a god who lies beneath the sky the way the land lies beneath the heavens, often depicted reclining green-skinned along the ground while his wife [Nut](/knowledge/mythology/egyptian-mythology/nut) arches above him. He is the soil that grows the barley, the ground that holds the dead, the solid foundation on which the whole world rests. His laughter, the Egyptians said, was earthquakes; the earth trembling was the god beneath it shifting in mirth or grief. Vegetation sprouted from his back, and so he was shown with plants growing along his reclining form, the living crops rooted in the flesh of the god.
 
-He is son of Shu and Tefnut, brother and husband to Nut, and father of the great generation: [Osiris](/knowledge/mythology/egyptian-mythology/osiris), [Isis](/knowledge/mythology/egyptian-mythology/isis), [Set](/knowledge/mythology/egyptian-mythology/set), and [Nephthys](/knowledge/mythology/egyptian-mythology/nephthys). As an ancestor of the ruling gods he was closely tied to kingship, the throne of the living pharaoh was sometimes called the “throne of Geb,” the right to rule descending from the earth-father himself. Where Nut is the mother above, Geb is the father below: patient, fertile, foundational, the ground under everyone’s feet.
+He is son of Shu and Tefnut, brother and husband to Nut, and father of the great generation: [Osiris](/knowledge/mythology/egyptian-mythology/osiris), [Isis](/knowledge/mythology/egyptian-mythology/isis), [Set](/knowledge/mythology/egyptian-mythology/set), and [Nephthys](/knowledge/mythology/egyptian-mythology/nephthys).[^sn-nephthys] As an ancestor of the ruling gods he was closely tied to kingship, the throne of the living pharaoh was sometimes called the “throne of Geb,” the right to rule descending from the earth-father himself. Where Nut is the mother above, Geb is the father below: patient, fertile, foundational, the ground under everyone’s feet.
 
 ---
 
@@ -34,3 +34,5 @@ He is son of Shu and Tefnut, brother and husband to Nut, and father of the great
 - [The Empress](/knowledge/tarot/major-arcana/the-empress): The Major Arcana card of earth, fertility, and generative abundance he embodies
 - [Egyptian Mythology Index](/knowledge/mythology/egyptian-mythology)
 - [Mythology](/knowledge/mythology)
+
+[^sn-nephthys]: Nephthys is the goddess of the edges, of night, of grief, of the threshold between life and what comes after.

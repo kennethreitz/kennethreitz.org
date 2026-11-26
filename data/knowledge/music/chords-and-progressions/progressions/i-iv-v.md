@@ -27,7 +27,7 @@ What makes it work is the strength of the fifth-relationships. The IV pulls gent
 
 ## In Practice
 
-This is the three-chord backbone of blues, folk, rock, and country, the progression a beginner learns first and a master never abandons. It underpins countless standards: "La Bamba," "Twist and Shout," "Wild Thing," "Johnny B. Goode," and an entire lineage of rock and roll that grew directly out of the [Twelve-Bar Blues](/knowledge/music/chords-and-progressions/progressions/twelve-bar-blues), which is itself just I, IV, and V arranged over twelve measures. Its universality is precisely the point, a shared vocabulary that lets a whole room play along.
+This is the three-chord backbone of blues, folk, rock, and country, the progression a beginner learns first and a master never abandons. It underpins countless standards: "La Bamba," "Twist and Shout," "Wild Thing," "Johnny B. Goode," and an entire lineage of rock and roll that grew directly out of the [Twelve-Bar Blues](/knowledge/music/chords-and-progressions/progressions/twelve-bar-blues),[^sn-twelve-bar-blues] which is itself just I, IV, and V arranged over twelve measures. Its universality is precisely the point, a shared vocabulary that lets a whole room play along.
 
 ## Related
 
@@ -36,3 +36,5 @@ This is the three-chord backbone of blues, folk, rock, and country, the progress
 - [Fifties Progression](/knowledge/music/chords-and-progressions/progressions/fifties-progression)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-twelve-bar-blues]: The twelve-bar blues is less a chord progression than a form, a repeating twelve-measure frame built from the three primary chords of a key.

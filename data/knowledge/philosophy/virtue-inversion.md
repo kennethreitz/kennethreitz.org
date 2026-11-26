@@ -40,7 +40,7 @@ The cardinal virtues map cleanly onto their inversions, and the mapping reveals 
 
 ## The Jungian Parallel
 
-[Enantiodromia](/knowledge/psychology/jungian/enantiodromia) describes the same pattern at the psychological level, the tendency of any extreme to turn into its opposite. Jung observed that the psyche's self-correcting function, when pushed past its limits, doesn't produce gradual correction but violent inversion. What enantiodromia does to individual psyches, virtue inversion does to entire cultures operating under algorithmic pressure. The mechanism scales.
+[Enantiodromia](/knowledge/psychology/jungian/enantiodromia)[^sn-enantiodromia] describes the same pattern at the psychological level, the tendency of any extreme to turn into its opposite. Jung observed that the psyche's self-correcting function, when pushed past its limits, doesn't produce gradual correction but violent inversion. What enantiodromia does to individual psyches, virtue inversion does to entire cultures operating under algorithmic pressure. The mechanism scales.
 
 This is not coincidence. Both enantiodromia and virtue inversion describe what happens when a system optimizes for one pole of a polarity without honoring the other. The psyche pushed too far toward order erupts into chaos. A culture pushed too far toward engagement erupts into its opposite values. The river runs both ways, and optimization is just another word for pushing.
 
@@ -48,7 +48,7 @@ This is not coincidence. Both enantiodromia and virtue inversion describe what h
 
 ## The Counter-Movement
 
-The [Classical Virtues in Python](/essays/2025-09-05-classical_virtues_in_python) essay offers an unexpected response, encoding virtue into code as a form of philosophical practice. If [For Humans](/knowledge/philosophy/for-humans) is the design philosophy that resists optimization-first thinking, and if [Stoicism](/knowledge/philosophy/stoicism) provides the personal framework for holding virtue consciously, then virtue inversion is the diagnosis. The treatment is attention, deliberate, sustained, human attention to what the algorithm would prefer you didn't notice.
+The [Classical Virtues in Python](/essays/2025-09-05-classical_virtues_in_python) essay offers an unexpected response, encoding virtue into code as a form of philosophical practice. If [For Humans](/knowledge/philosophy/for-humans) is the design philosophy that resists optimization-first thinking, and if [Stoicism](/knowledge/philosophy/stoicism)[^sn-stoicism] provides the personal framework for holding virtue consciously, then virtue inversion is the diagnosis. The treatment is attention, deliberate, sustained, human attention to what the algorithm would prefer you didn't notice.
 
 ---
 
@@ -67,3 +67,6 @@ The [Classical Virtues in Python](/essays/2025-09-05-classical_virtues_in_python
 ---
 
 *The virtues didn't die. They got a firmware update that reversed their polarity. Same hardware, opposite function.*
+
+[^sn-enantiodromia]: Enantiodromia is the tendency of things to turn into their opposites.
+[^sn-stoicism]: Stoicism is an ancient Greek and Roman philosophy founded around 300 BCE by Zeno of Citium.

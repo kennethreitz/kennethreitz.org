@@ -31,7 +31,7 @@ Reversed, the vigilance curdles. Exhaustion tips into defensiveness that pushes 
 
 ## Archetype
 
-This is the wounded warrior, the psyche that has integrated its scars into its strength. Jung understood that we are shaped by what has hurt us, and that the wound itself can become a source of power, the very place where the healer's gift enters. The card embodies endurance drawn from the depths, the reserve of the self that outlasts the ego's exhaustion. It stands close to [Strength](/knowledge/tarot/major-arcana/strength) and to the fortitude of [The Hermit](/knowledge/tarot/major-arcana/the-hermit), whose inner light survives the long night.
+This is the wounded warrior, the psyche that has integrated its scars into its strength. Jung understood that we are shaped by what has hurt us, and that the wound itself can become a source of power, the very place where the healer's gift enters. The card embodies endurance drawn from the depths, the reserve of the self that outlasts the ego's exhaustion. It stands close to [Strength](/knowledge/tarot/major-arcana/strength) and to the fortitude of [The Hermit](/knowledge/tarot/major-arcana/the-hermit),[^sn-the-hermit] whose inner light survives the long night.
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ When this card appears, you are tired but closer to the end than you think. Ask 
 - [The Hermit](/knowledge/tarot/major-arcana/the-hermit)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-the-hermit]: The Hermit is solitude in service of wisdom, the deliberate retreat from noise to hear the inner voice.

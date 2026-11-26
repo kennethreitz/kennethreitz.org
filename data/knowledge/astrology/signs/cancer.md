@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Essence
 
-Cancer arrives with the summer solstice, at the sun’s highest turning, and yet its element is water and its ruler the Moon, a sign of tides beneath the brightest day. This is cardinal water, the initiating force of feeling, and it governs the tender heart of early summer when the world is full and warm and the instinct is to gather everyone close. The Crab is the archetype of the home, the mother, the keeper of the hearth and of memory, the one who remembers what everyone else has let slip.
+Cancer arrives with the summer solstice, at the sun’s highest turning, and yet its element is water and its ruler the Moon[^sn-moon-astrology], a sign of tides beneath the brightest day. This is cardinal water, the initiating force of feeling, and it governs the tender heart of early summer when the world is full and warm and the instinct is to gather everyone close. The Crab is the archetype of the home, the mother, the keeper of the hearth and of memory, the one who remembers what everyone else has let slip.
 
 Ruled by the Moon, Cancer moves in cycles and depends on mood the way the sea depends on the sky. Its hard outer shell guards a soft interior of enormous sensitivity; the Crab feels everything, absorbs the emotional weather of any room, and protects itself by retreating sideways rather than confronting. To be loved by a Cancer is to be remembered, fed, and defended, held inside the shell where the tender things are kept.
 
@@ -36,3 +36,5 @@ At its best, Cancer is the deepest nurturer of the zodiac, intuitive, protective
 
 - [Gemini](/knowledge/astrology/signs/gemini) · [Leo](/knowledge/astrology/signs/leo) · [Moon](/knowledge/astrology/planets/moon-astrology) · [The Chariot](/knowledge/tarot/major-arcana/the-chariot) · [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-moon-astrology]: The Moon governs the mother and the mothered, the need to be held and the impulse to hold. More in [Moon (astrology)](/knowledge/astrology/planets/moon-astrology).

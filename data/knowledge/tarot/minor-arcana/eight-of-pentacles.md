@@ -15,7 +15,7 @@ A craftsman sits at his bench, hammer and chisel in hand, absorbed in carving a 
 
 ## Upright
 
-The Eight of Pentacles is the card of apprenticeship, diligence, and craft, the disciplined repetition through which competence becomes mastery. Where the Three of Pentacles showed skill recognised in collaboration, here the worker is alone with the work itself, refining, correcting, doing the thing again and again until it is true. Drawn upright it blesses dedication, attention to detail, and the quiet dignity of labour done well for its own sake. It counsels commitment to a path of improvement and reminds us that mastery is not a gift but an accumulation of unglamorous hours.
+The Eight of Pentacles is the card of apprenticeship, diligence, and craft, the disciplined repetition through which competence becomes mastery. Where the Three of Pentacles[^sn-three-of-pentacles] showed skill recognised in collaboration, here the worker is alone with the work itself, refining, correcting, doing the thing again and again until it is true. Drawn upright it blesses dedication, attention to detail, and the quiet dignity of labour done well for its own sake. It counsels commitment to a path of improvement and reminds us that mastery is not a gift but an accumulation of unglamorous hours.
 
 ## Reversed
 
@@ -47,3 +47,5 @@ When this card appears, the work itself is the answer; put in the hours without 
 - [The Hermit](/knowledge/tarot/major-arcana/the-hermit)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-three-of-pentacles]: The Three of Pentacles is the card of the working guild, of mastery recognised and put to collective use. See [Three of Pentacles](/knowledge/tarot/minor-arcana/three-of-pentacles).

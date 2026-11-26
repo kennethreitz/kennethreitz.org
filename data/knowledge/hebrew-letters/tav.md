@@ -27,7 +27,7 @@ Tav is the last letter, the mark, the sign, the seal set on a finished thing. In
 
 It is a double letter under Saturn, the slowest planet, the lord of endings, limits, and time, bearing the pair of grace and indignation, the two faces of every final judgement. Its number is four hundred, the greatest single-letter value, the alphabet's full measure.
 
-On the Tree it is the thirty-second and last path, joining [Yesod](/knowledge/tree-of-life/yesod) to [Malkuth](/knowledge/tree-of-life/malkuth), foundation descending into the kingdom, the final step by which the whole current of emanation arrives in the manifest world. Its trump is [The World](/knowledge/tarot/major-arcana/the-world), the dancer in the wreath, the completed Great Work. And because the alphabet is a circle, tav's ending is not a wall but a hinge: the seal turns, and the next breath is [Aleph](/knowledge/hebrew-letters/aleph) again.
+On the Tree it is the thirty-second and last path, joining [Yesod](/knowledge/tree-of-life/yesod) to [Malkuth](/knowledge/tree-of-life/malkuth), foundation descending into the kingdom, the final step by which the whole current of emanation arrives in the manifest world. Its trump is [The World](/knowledge/tarot/major-arcana/the-world),[^sn-the-world] the dancer in the wreath, the completed Great Work. And because the alphabet is a circle, tav's ending is not a wall but a hinge: the seal turns, and the next breath is [Aleph](/knowledge/hebrew-letters/aleph) again.
 
 ## Related
 
@@ -36,3 +36,5 @@ On the Tree it is the thirty-second and last path, joining [Yesod](/knowledge/tr
 - [The World](/knowledge/tarot/major-arcana/the-world)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-the-world]: The World is completion, integration, and the fulfilment of the whole journey.

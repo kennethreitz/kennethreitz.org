@@ -31,7 +31,7 @@ Reversed, the long night begins to end. This can be the lifting of despair, the 
 
 ## Archetype
 
-Mars, force and aggression, is turned by restless Gemini back upon the mind itself, and the result is cruelty with no target but the self. Jung would name this the punishing inner figure, the negative animus or the tyrannical super-ego, the voice in the dark that accuses without mercy. It thrives in isolation and dies in the light of relationship and honest speech. To meet it is to recognize that the cruelty is a part of one’s own psyche demanding integration, not a true verdict on one’s worth. Confronting [The Shadow](/knowledge/psychology/jungian/the-shadow) often means first surviving these nights when the shadow wears the mask of the accuser.
+Mars, force and aggression, is turned by restless Gemini[^sn-gemini] back upon the mind itself, and the result is cruelty with no target but the self. Jung would name this the punishing inner figure, the negative animus or the tyrannical super-ego, the voice in the dark that accuses without mercy. It thrives in isolation and dies in the light of relationship and honest speech. To meet it is to recognize that the cruelty is a part of one’s own psyche demanding integration, not a true verdict on one’s worth. Confronting [The Shadow](/knowledge/psychology/jungian/the-shadow) often means first surviving these nights when the shadow wears the mask of the accuser.
 
 ## Mythological Echoes
 
@@ -50,3 +50,5 @@ When the Nine of Swords appears, remember that the swords are on the wall, not i
 - [The Star](/knowledge/tarot/major-arcana/the-star)
 - [Tarot](/knowledge/tarot)
 - [The Shadow](/knowledge/psychology/jungian/the-shadow)
+
+[^sn-gemini]: Gemini is the moment the world becomes interesting, when the settled earth of spring gives way to the quicksilver air of curiosity, and everything begins to speak. See [Gemini](/knowledge/astrology/signs/gemini).

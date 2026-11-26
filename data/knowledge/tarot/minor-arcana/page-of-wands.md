@@ -30,7 +30,7 @@ Reversed, the spark scatters or stalls. Enthusiasm flares and dies without follo
 
 ## Archetype
 
-This is the puer, the eternal youth in his generative aspect, the divine child who carries the promise of renewal and the danger of never landing. Jung saw the puer as the spirit of new possibility, essential to keeping the psyche young and open, yet needing the counterweight of groundedness to bear fruit. The Page's Earth-of-Fire nature is precisely that counterweight beginning to form, echoing the open-hearted leap of [The Fool](/knowledge/tarot/major-arcana/the-fool) as it takes its first curious, embodied step.
+This is the puer, the eternal youth in his generative aspect, the divine child who carries the promise of renewal and the danger of never landing. Jung saw the puer as the spirit of new possibility, essential to keeping the psyche young and open, yet needing the counterweight of groundedness to bear fruit. The Page's Earth-of-Fire nature is precisely that counterweight beginning to form, echoing the open-hearted leap of [The Fool](/knowledge/tarot/major-arcana/the-fool)[^sn-the-fool] as it takes its first curious, embodied step.
 
 ## Mythological Echoes
 
@@ -48,3 +48,5 @@ When this card appears, something new wants your curiosity. Say yes to the spark
 - [The Fool](/knowledge/tarot/major-arcana/the-fool)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-the-fool]: The Fool is pure potential, the zero that contains every number without yet being any of them.

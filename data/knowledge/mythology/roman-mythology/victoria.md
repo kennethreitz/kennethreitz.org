@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Victoria is the Roman goddess of victory, the winged personification of triumph in battle and, more broadly, of success in any contest. She is the direct counterpart of the Greek [Nike](/knowledge/mythology/greek-mythology/nike), and like her she is shown in flight, bearing the laurel wreath and the palm branch with which she crowns the victor. But where Nike often served as an attribute of greater gods, Victoria rose to become a power of the Roman state in her own right, the divine confirmation that Rome's arms were favored and its dominion sanctioned by heaven.
+Victoria is the Roman goddess of victory, the winged personification of triumph in battle and, more broadly, of success in any contest. She is the direct counterpart of the Greek [Nike](/knowledge/mythology/greek-mythology/nike), and like her she is shown in flight, bearing the laurel wreath and the palm branch with which she crowns the victor. But where Nike[^sn-nike] often served as an attribute of greater gods, Victoria rose to become a power of the Roman state in her own right, the divine confirmation that Rome's arms were favored and its dominion sanctioned by heaven.
 
 Her worship was bound up with the ideology of empire. Every triumph, every conquest, every claim that Rome ruled by divine right passed under her wings. To honor Victoria was to affirm that Roman power was not mere force but destiny, that the gods themselves granted the victory and set the wreath upon the city's brow.
 
@@ -30,3 +30,5 @@ This altar became the flashpoint of the last great struggle between paganism and
 - [Fortuna](/knowledge/mythology/roman-mythology/fortuna): goddess of the fortune that turns triumph and defeat
 - [Mythology](/knowledge/mythology)
 - [Roman Mythology Index](/knowledge/mythology/roman-mythology)
+
+[^sn-nike]: Nike is the winged goddess of victory, the swift spirit who descends on the winning side of any struggle, a battle, a footrace, a chariot heat, a lawsuit. See [Nike](/knowledge/mythology/greek-mythology/nike).

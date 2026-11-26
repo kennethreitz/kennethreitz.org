@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ---
 
-This is the vault's own *[Liber 777](/library/books/liber-777)*: the master table that shows how the separate collections, [Tarot](/knowledge/tarot), [Astrology](/knowledge/astrology), the [Kabbalah](/knowledge/spirituality/kabbalah) and its [Tree of Life](/knowledge/tree-of-life), the [Elements](/knowledge/elements), the [Chakras](/knowledge/chakras), [Alchemy](/knowledge/alchemy), and [Sacred Geometry](/knowledge/sacred-geometry), are all readings of one structure. A planet is also a metal, a colour, an incense, a god, an archangel, a sphere of the Tree, and a card of the deck; a sign rules a part of the body; even the Chinese [trigrams](/knowledge/religions-of-the-world/taoism) echo the four elements. Read across any row and the whole web lights up.
+This is the vault's own *[Liber 777](/library/books/liber-777)*: the master table that shows how the separate collections, [Tarot](/knowledge/tarot), [Astrology](/knowledge/astrology), the [Kabbalah](/knowledge/spirituality/kabbalah)[^sn-kabbalah] and its [Tree of Life](/knowledge/tree-of-life), the [Elements](/knowledge/elements), the [Chakras](/knowledge/chakras), [Alchemy](/knowledge/alchemy), and [Sacred Geometry](/knowledge/sacred-geometry), are all readings of one structure. A planet is also a metal, a colour, an incense, a god, an archangel, a sphere of the Tree, and a card of the deck; a sign rules a part of the body; even the Chinese [trigrams](/knowledge/religions-of-the-world/taoism) echo the four elements. Read across any row and the whole web lights up.
 
 Beneath the many named collections lie three connective spines, the Tree, the planets, and the elements, and every other system reads off one of them:
 
@@ -32,7 +32,7 @@ flowchart TD
 
 ## The Tree of Life: The Master Glyph
 
-Everything below is a table; this is the picture the tables describe. The ten [Sephiroth](/knowledge/tree-of-life) are the numbered circles, each a planet, a metal, a god, an archangel. The twenty-two lines joining them are the paths, and each path is a [Hebrew letter](/knowledge/hebrew-letters) (shown on the line) which is also a [tarot trump](/knowledge/tarot/major-arcana). To read a correspondence is to trace a route on this glyph: the Sun (6, Tiphareth) reaches the Moon (9, Yesod) along path ס. Samekh, which is [Temperance](/knowledge/tarot/major-arcana/temperance). The whole table is this diagram, unfolded into rows.
+Everything below is a table; this is the picture the tables describe. The ten [Sephiroth](/knowledge/tree-of-life) are the numbered circles, each a planet, a metal, a god, an archangel. The twenty-two lines joining them are the paths, and each path is a [Hebrew letter](/knowledge/hebrew-letters) (shown on the line) which is also a [tarot trump](/knowledge/tarot/major-arcana). To read a correspondence is to trace a route on this glyph: the Sun (6, Tiphareth) reaches the Moon (9, Yesod) along path ס. Samekh, which is [Temperance](/knowledge/tarot/major-arcana/temperance).[^sn-temperance] The whole table is this diagram, unfolded into rows.
 
 <div align="center">
 
@@ -184,6 +184,7 @@ Where the four elements are the abstract principles, the stones are those princi
 | [Malachite](/knowledge/crystals-and-gemstones/malachite) | Heart ([Anahata](/knowledge/chakras/anahata)) | [Earth](/knowledge/elements/earth) | [Venus](/knowledge/astrology/planets/venus-astrology) / [Capricorn](/knowledge/astrology/signs/capricorn), [Scorpio](/knowledge/astrology/signs/scorpio) |
 | [Moonstone](/knowledge/crystals-and-gemstones/moonstone) | Crown ([Sahasrara](/knowledge/chakras/sahasrara)), Sacral ([Svadhisthana](/knowledge/chakras/svadhisthana)) | [Water](/knowledge/elements/water) | [Moon](/knowledge/astrology/planets/moon-astrology) / [Cancer](/knowledge/astrology/signs/cancer) |
 | [Obsidian](/knowledge/crystals-and-gemstones/obsidian) | Root ([Muladhara](/knowledge/chakras/muladhara)) | [Fire](/knowledge/elements/fire) / [Earth](/knowledge/elements/earth) | [Saturn](/knowledge/astrology/planets/saturn-astrology), [Pluto](/knowledge/astrology/planets/pluto-astrology) / [Scorpio](/knowledge/astrology/signs/scorpio) |
+| [Onyx](/knowledge/crystals-and-gemstones/onyx) | Root ([Muladhara](/knowledge/chakras/muladhara)) | [Earth](/knowledge/elements/earth) | [Saturn](/knowledge/astrology/planets/saturn-astrology) / [Capricorn](/knowledge/astrology/signs/capricorn) |
 | [Pyrite](/knowledge/crystals-and-gemstones/pyrite) | Solar Plexus ([Manipura](/knowledge/chakras/manipura)) | [Fire](/knowledge/elements/fire) / [Earth](/knowledge/elements/earth) | [Sun](/knowledge/astrology/planets/sun-astrology), [Mars](/knowledge/astrology/planets/mars-astrology) / [Leo](/knowledge/astrology/signs/leo) |
 | [Rhodonite](/knowledge/crystals-and-gemstones/rhodonite) | Heart ([Anahata](/knowledge/chakras/anahata)) | [Earth](/knowledge/elements/earth) | [Venus](/knowledge/astrology/planets/venus-astrology), [Mars](/knowledge/astrology/planets/mars-astrology) / [Taurus](/knowledge/astrology/signs/taurus) |
 | [Rose Quartz](/knowledge/crystals-and-gemstones/rose-quartz) | Heart ([Anahata](/knowledge/chakras/anahata)) | [Water](/knowledge/elements/water) | [Venus](/knowledge/astrology/planets/venus-astrology) / [Taurus](/knowledge/astrology/signs/taurus), [Libra](/knowledge/astrology/signs/libra) |
@@ -237,7 +238,7 @@ The deepest layer of the table is the one that ties the most systems together at
 
 ## The Eight Trigrams
 
-The one Eastern system that maps cleanly onto the Western elemental grid is the *bagua* of the [I Ching](/knowledge/religions-of-the-world/taoism) (the eight [Trigrams](/knowledge/trigrams)), eight three-line figures built from broken (yin) and solid (yang) lines, each a natural force and a member of the archetypal family. Where the West works in four elements, the Chinese scheme works in eight images and five phases, but the logic is the same: a small set of principles whose combinations describe everything.
+The one Eastern system that maps cleanly onto the Western elemental grid is the *bagua* of the [I Ching](/knowledge/religions-of-the-world/taoism)[^sn-taoism] (the eight [Trigrams](/knowledge/trigrams)), eight three-line figures built from broken (yin) and solid (yang) lines, each a natural force and a member of the archetypal family. Where the West works in four elements, the Chinese scheme works in eight images and five phases, but the logic is the same: a small set of principles whose combinations describe everything.
 
 | Symbol | Trigram | Image | Attribute | Family | Direction |
 | --- | --- | --- | --- | --- | --- |
@@ -302,7 +303,7 @@ The twenty-two trumps are the twenty-two paths that join the Sephiroth, each a H
 
 ## As Above, So Below
 
-This table runs on one axiom, the one the epigraph borrows from [the Emerald Tablet](/knowledge/alchemy/the-emerald-tablet) by way of [Hermeticism](/knowledge/spirituality/hermeticism): *as above, so below*. The [Kabbalistic](/knowledge/spirituality/kabbalah) cosmos does not stay singular, it unfolds, sphere into sphere down the [Tree of Life](/knowledge/tree-of-life), the one light differentiating into the many orders. Every row above is a slice of that descent.
+This table runs on one axiom, the one the epigraph borrows from [the Emerald Tablet](/knowledge/alchemy/the-emerald-tablet)[^sn-the-emerald-tablet] by way of [Hermeticism](/knowledge/spirituality/hermeticism): *as above, so below*. The [Kabbalistic](/knowledge/spirituality/kabbalah) cosmos does not stay singular, it unfolds, sphere into sphere down the [Tree of Life](/knowledge/tree-of-life), the one light differentiating into the many orders. Every row above is a slice of that descent.
 
 [System 777](/system-777) carries the living counterpart to this grid. Its Personal Angels framework reads the same emanationist logic *inward*: if the macrocosm is structured as a descending host of intelligences, archangels at the cardinal points, and on down, then *as above, so below* holds for the microcosm too, and a single soul carries the same architecture in miniature, its own inner celestial entourage. Where this table maps the orders of the cosmos, that framework maps the daimones of one interior, the [Shekhinah](/knowledge/spirituality/the-shekhinah) in her indwelling aspect, the presence that dwells within rather than beyond.
 
@@ -315,3 +316,9 @@ Held, as that note holds itself, as worldview and meaning, a way of understandin
 - [Liber 777](/library/books/liber-777): Crowley's master table, the model for this one
 - [Tarot](/knowledge/tarot) · [Astrology](/knowledge/astrology) · [Kabbalah](/knowledge/spirituality/kabbalah) · [Tree of Life](/knowledge/tree-of-life) · [Elements](/knowledge/elements) · [Chakras](/knowledge/chakras) · [Numerology](/knowledge/numerology) · [Alchemy](/knowledge/alchemy)
 - [Spirituality Hub](/knowledge/spirituality)
+
+[^sn-kabbalah]: Kabbalah is the mystical heart of Judaism, a centuries-old tradition of esoteric interpretation that maps the structure of reality, consciousness, and the divine.
+[^sn-temperance]: Temperance is balance, integration, and the slow art of the middle way.
+[^sn-the-emerald-tablet]: The Emerald Tablet, the Tabula Smaragdina, is a brief Hermetic text attributed to Hermes Trismegistus that contains the entire alchemical worldview compressed into a few paragraphs.
+
+[^sn-taoism]: Taoism (or Daoism) is China's native tradition of living in accord with the Tao, the Way, the unnameable source and pattern of everything that is.

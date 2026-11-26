@@ -23,7 +23,7 @@ Play the first note of each triplet with a wrist stroke, then let the fingers gu
 
 ## In Practice
 
-The triple stroke roll flows through jazz solos and comping, fusion fills, and any passage that wants a rolling triplet texture with definition. It extends the control learned in the [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll) and contrasts with the pure texture of the [Multiple Bounce Roll](/knowledge/music/drum-rudiments/multiple-bounce-roll).
+The triple stroke roll flows through jazz solos and comping, fusion fills, and any passage that wants a rolling triplet texture with definition. It extends the control learned in the [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)[^sn-double-stroke-open-roll] and contrasts with the pure texture of the [Multiple Bounce Roll](/knowledge/music/drum-rudiments/multiple-bounce-roll).
 
 ## Related
 
@@ -31,3 +31,5 @@ The triple stroke roll flows through jazz solos and comping, fusion fills, and a
 - [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)
 - [Single Stroke Roll](/knowledge/music/drum-rudiments/single-stroke-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-double-stroke-open-roll]: The double stroke open roll, often just "the long roll", is the backbone of rudimental drumming.

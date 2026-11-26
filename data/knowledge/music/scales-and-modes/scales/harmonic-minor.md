@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Scale
 
-The harmonic minor is what happens when a composer refuses to give up the pull of a leading tone. Take the natural minor, the [Aeolian](/knowledge/music/scales-and-modes/modes/aeolian) mode, and raise its seventh degree by a half step, and you get a scale that resolves home with the same gravitational urgency as the major scale, while keeping the darkness of a flat third. The name is not decorative: the raised seventh exists to make the dominant chord *major*, so that harmony in a minor key can cadence with real finality. It emerged in Western practice precisely because functional harmony demanded a leading tone that natural minor simply could not supply.
+The harmonic minor is what happens when a composer refuses to give up the pull of a leading tone. Take the natural minor, the [Aeolian](/knowledge/music/scales-and-modes/modes/aeolian)[^sn-aeolian] mode, and raise its seventh degree by a half step, and you get a scale that resolves home with the same gravitational urgency as the major scale, while keeping the darkness of a flat third. The name is not decorative: the raised seventh exists to make the dominant chord *major*, so that harmony in a minor key can cadence with real finality. It emerged in Western practice precisely because functional harmony demanded a leading tone that natural minor simply could not supply.
 
 ## Structure
 
@@ -37,3 +37,5 @@ You hear it everywhere its augmented second can do dramatic work, in flamenco an
 - [Minor Pentatonic](/knowledge/music/scales-and-modes/scales/minor-pentatonic)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-aeolian]: Aeolian is the sixth mode of the major scale, starting on its sixth degree, and like Ionian among the bright modes, it is so familiar it has its own everyday name: the natural minor scale.

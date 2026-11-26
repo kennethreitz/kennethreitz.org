@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Krishna is the eighth avatar of [Vishnu](/knowledge/mythology/hindu-mythology/vishnu) and one of the most beloved deities in Hinduism. While technically an avatar, many devotees worship him as the supreme deity himself. He is known for his playful childhood, divine love affairs, his role in the Mahabharata, and his teaching of the Bhagavad Gita.
+Krishna is the eighth avatar of [Vishnu](/knowledge/mythology/hindu-mythology/vishnu)[^sn-vishnu] and one of the most beloved deities in Hinduism. While technically an avatar, many devotees worship him as the supreme deity himself. He is known for his playful childhood, divine love affairs, his role in the Mahabharata, and his teaching of the Bhagavad Gita.
 
 His blue skin, like Vishnu's, represents the infinite. The peacock feather crowns his head, the flute calls the divine, and yellow silk robes mark his radiance.
 
@@ -78,3 +78,5 @@ See: [Jungian Archetypes](/knowledge/psychology/jungian/major-jungian-concepts)
 - [Vishnu](/knowledge/mythology/hindu-mythology/vishnu) - Source/avatar of
 - Rama - Another Vishnu avatar
 - [Hindu Mythology Index](/knowledge/mythology/hindu-mythology)
+
+[^sn-vishnu]: Vishnu is the preserver god in the Hindu Trimurti. He maintains cosmic order (dharma) and protects the universe.

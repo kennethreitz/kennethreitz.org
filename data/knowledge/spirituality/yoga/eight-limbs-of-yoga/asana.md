@@ -27,7 +27,7 @@ The classical instruction is minimal: take a seat that lets the spine be upright
 
 ## Place in the Sequence
 
-Asana stands between ethics and energy. With conduct ordered by [Yama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/yama) and [Niyama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/niyama), the practitioner turns to the instrument itself, first the gross body here, then the breath in [Pranayama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/pranayama), the fourth limb. The sequence moves steadily inward, from the world, to the body, to the breath, to the senses, to the mind. Asana is the last limb visible from the outside.
+Asana stands between ethics and energy. With conduct ordered by [Yama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/yama)[^sn-yama] and [Niyama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/niyama), the practitioner turns to the instrument itself, first the gross body here, then the breath in [Pranayama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/pranayama), the fourth limb. The sequence moves steadily inward, from the world, to the body, to the breath, to the senses, to the mind. Asana is the last limb visible from the outside.
 
 ---
 
@@ -38,3 +38,5 @@ Asana stands between ethics and energy. With conduct ordered by [Yama](/knowledg
 - [Pranayama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/pranayama), the next limb, the breath
 - [Yoga](/knowledge/spirituality/yoga), the parent overview
 - [Meditation](/knowledge/spirituality/meditation): what the seat is for
+
+[^sn-yama]: Yama is where Patanjali begins, not with posture, not with breath, but with restraint.

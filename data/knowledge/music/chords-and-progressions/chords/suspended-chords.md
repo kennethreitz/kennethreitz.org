@@ -30,7 +30,7 @@ Suspended chords feel spacious and unfixed. Without a third they escape the emot
 
 ## In Practice
 
-Guitarists live in these shapes because they emerge naturally under the fingers, the ringing sus chords of folk and rock, the suspended jangle of countless intros. In a cadence the sus4 heightens the arrival by delaying the tonic’s third. Pop, worship music, and ambient writing all lean on suspensions for their unresolved glow. They resolve most naturally into the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad) or [Minor Triad](/knowledge/music/chords-and-progressions/chords/minor-triad) whose third they withheld.
+Guitarists live in these shapes because they emerge naturally under the fingers, the ringing sus chords of folk and rock, the suspended jangle of countless intros. In a cadence the sus4 heightens the arrival by delaying the tonic’s third. Pop, worship music, and ambient writing all lean on suspensions for their unresolved glow. They resolve most naturally into the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad)[^sn-major-triad] or [Minor Triad](/knowledge/music/chords-and-progressions/chords/minor-triad) whose third they withheld.
 
 ## Related
 
@@ -39,3 +39,5 @@ Guitarists live in these shapes because they emerge naturally under the fingers,
 - [Sixth Chords](/knowledge/music/chords-and-progressions/chords/sixth-chords)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
+
+[^sn-major-triad]: The major triad is the first thing most ears learn to call “happy,” and it earns the reputation honestly.

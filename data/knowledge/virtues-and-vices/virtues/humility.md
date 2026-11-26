@@ -20,7 +20,7 @@ The word descends from *humus*, earth: humility is being the size you actually a
 
 ## The Sin It Answers
 
-Humility is the remedy for [Pride](/knowledge/virtues-and-vices/seven-deadly-sins/pride), the refusal to depend, the claim to be one's own source. On Dante's first terrace the proud carry stones that bend them toward the earth, *humus*, until the posture of accuracy becomes native. The cure is not humiliation; it is gravity, honestly obeyed.
+Humility is the remedy for [Pride](/knowledge/virtues-and-vices/seven-deadly-sins/pride)[^sn-pride], the refusal to depend, the claim to be one's own source. On Dante's first terrace the proud carry stones that bend them toward the earth, *humus*, until the posture of accuracy becomes native. The cure is not humiliation; it is gravity, honestly obeyed.
 
 ---
 
@@ -35,3 +35,5 @@ Humility is the remedy for [Pride](/knowledge/virtues-and-vices/seven-deadly-sin
 ---
 
 *The ground was always there. Humility is agreeing to stand on it.*
+
+[^sn-pride]: Evagrius listed pride (*hyperephania*) and vainglory (*kenodoxia*) as two separate thoughts, the craving for others' admiration and the deeper conviction of one's own self-sufficiency.

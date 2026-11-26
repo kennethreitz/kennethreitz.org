@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 As the fiftieth name of the Shem ha-Mephorash, Daniel (דָּנִיאֵל) joins the root *din*, "judgement," to the suffix *-el*, "God," giving "the Sign of Mercies" or, in its plainer sense, "God is my judge." This is the Shem-angel of the fifth to tenth degrees of Sagittarius, not the prophet or any other bearer of the name; here Daniel is one of the seventy-two rays lifted from the letters of Exodus 14:19–21, the point where the severity of judgement is softened into clemency.
 
-Daniel's virtue is *eloquence, mercy, and consolation*. He grants persuasive and comforting speech, the gift of the advocate, the counsellor, the writer whose words console rather than wound, and he inclines those in authority toward leniency. Where strict justice would condemn, Daniel supplies the mitigating word, the extenuating circumstance, the reason for mercy. The tradition sets him over those who must decide the fates of others and over any who make their living by the honest use of language. Positioned in the archer's early degrees, where Sagittarius turns its love of truth toward teaching and law, Daniel keeps eloquence tethered to compassion. To invoke him is to ask for words that heal, judgements that spare, and the consolation that lets a person bear what cannot be changed.
+Daniel's virtue is *eloquence, mercy, and consolation*. He grants persuasive and comforting speech, the gift of the advocate, the counsellor, the writer whose words console rather than wound, and he inclines those in authority toward leniency. Where strict justice would condemn, Daniel supplies the mitigating word, the extenuating circumstance, the reason for mercy. The tradition sets him over those who must decide the fates of others and over any who make their living by the honest use of language. Positioned in the archer's early degrees, where Sagittarius[^sn-sagittarius] turns its love of truth toward teaching and law, Daniel keeps eloquence tethered to compassion. To invoke him is to ask for words that heal, judgements that spare, and the consolation that lets a person bear what cannot be changed.
 
 ## Attributes
 
@@ -34,3 +34,5 @@ Daniel's virtue is *eloquence, mercy, and consolation*. He grants persuasive and
 - [Angels & Demons](/knowledge/angels-and-demons)
 
 Correspondences follow the Golden Dawn decan attributions: this angel shares the first decan of Sagittarius with its pair, and so the Eight of Wands. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.
+
+[^sn-sagittarius]: Sagittarius carries the fire of late autumn toward the winter solstice, a season of gathering darkness that the Archer meets with an inextinguishable optimism. See [Sagittarius](/knowledge/astrology/signs/sagittarius).

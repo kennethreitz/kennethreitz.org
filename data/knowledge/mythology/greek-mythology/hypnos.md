@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Overview
 
-Hypnos is the god of sleep, the gentle power that comes each night to still the living and, for a few hours, empties the mind of the world. He is a son of Nyx, primordial Night, born without a father as so many of her children were, and the twin brother of [Thanatos](/knowledge/mythology/greek-mythology/thanatos), death. The pairing is the heart of him: sleep and death are two faces of the same darkness, one that lets you wake and one that does not, and the Greeks felt the kinship keenly. Hypnos is the kinder twin, the one who releases rather than takes, and Homer calls him the lord of all gods and all men, for even Zeus must sleep.
+Hypnos is the god of sleep, the gentle power that comes each night to still the living and, for a few hours, empties the mind of the world. He is a son of Nyx, primordial Night, born without a father as so many of her children were, and the twin brother of [Thanatos](/knowledge/mythology/greek-mythology/thanatos), death. The pairing is the heart of him: sleep and death are two faces of the same darkness, one that lets you wake and one that does not, and the Greeks felt the kinship keenly. Hypnos is the kinder twin, the one who releases rather than takes, and Homer calls him the lord of all gods and all men, for even Zeus[^sn-zeus] must sleep.
 
-He dwells in a cave beyond the reach of the sun, near the borders of the [underworld](/knowledge/mythology/greek-mythology/hades), where no crowing bird or barking dog disturbs the silence and the river of forgetfulness murmurs through the stones. There he lies on a soft couch ringed by his sons, the shapeless dream-spirits, chief among them [Morpheus](/knowledge/mythology/greek-mythology/morpheus). Out of that cave he moves over land and sea on quiet wings, touching brows and eyelids, sprinkling the dew of oblivion, and the noise of waking life falls away wherever he passes. He is soft-footed, calm, and irresistible, the nightly proof that consciousness is a thing that can be set down.
+He dwells in a cave beyond the reach of the sun, near the borders of the [underworld](/knowledge/mythology/greek-mythology/hades),[^sn-hades] where no crowing bird or barking dog disturbs the silence and the river of forgetfulness murmurs through the stones. There he lies on a soft couch ringed by his sons, the shapeless dream-spirits, chief among them [Morpheus](/knowledge/mythology/greek-mythology/morpheus). Out of that cave he moves over land and sea on quiet wings, touching brows and eyelids, sprinkling the dew of oblivion, and the noise of waking life falls away wherever he passes. He is soft-footed, calm, and irresistible, the nightly proof that consciousness is a thing that can be set down.
 
 ---
 
@@ -34,3 +34,7 @@ He dwells in a cave beyond the reach of the sun, near the borders of the [underw
 - [Hera](/knowledge/mythology/greek-mythology/hera) · [Zeus](/knowledge/mythology/greek-mythology/zeus): The queen who enlisted him and the king he twice put to sleep
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-zeus]: Zeus is the king of the Olympian gods and ruler of Mount Olympus. See [Zeus](/knowledge/mythology/greek-mythology/zeus).
+
+[^sn-hades]: Hades is the god of the underworld and the dead, eldest son of Cronus, brother to Zeus and Poseidon.

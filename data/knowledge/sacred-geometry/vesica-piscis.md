@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 The Vesica Piscis is the shape formed where two circles of equal radius overlap so that each passes through the center of the other. The lens-shaped region of their intersection, pointed at both ends, swollen in the middle, the almond or fish that gives the figure its name, is the simplest of all generated forms, requiring only two circles and a single relationship between them. Yet from that meager beginning an enormous amount follows. The two centers and the two points of intersection form the vertices of two equilateral triangles; the width and height of the lens stand in ratios that encode the square roots of three and other root proportions fundamental to geometry.
 
-Because it arises the moment one circle is repeated beside another, the Vesica Piscis appears at the first overlap of the Seed of Life and reappears throughout the Flower of Life. It is the seam where duplication becomes generation, the crossing that turns two circles into the seed of every straight-edged figure to come.
+Because it arises the moment one circle is repeated beside another, the Vesica Piscis appears at the first overlap of the Seed of Life and reappears throughout the Flower of Life.[^sn-flower-of-life] It is the seam where duplication becomes generation, the crossing that turns two circles into the seed of every straight-edged figure to come.
 
 ## Correspondences
 
@@ -35,3 +35,5 @@ The Vesica Piscis is read almost universally as a womb and a threshold, the spac
 - [Seed of Life](/knowledge/sacred-geometry/seed-of-life)
 - [Flower of Life](/knowledge/sacred-geometry/flower-of-life)
 - [Sacred Geometry](/knowledge/sacred-geometry)
+
+[^sn-flower-of-life]: The Flower of Life is a pattern of evenly spaced, overlapping circles arranged in sixfold symmetry, each circle passing through the centers of those around it. See [Flower of Life](/knowledge/sacred-geometry/flower-of-life).

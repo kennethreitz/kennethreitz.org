@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Pluto is the principle of transformation through descent: death and rebirth, the buried and the unearthed, the power that lives in what a person most fears to look at. It governs the underworld of the psyche: the compulsions, the wounds, the will beneath the will. Where the personal planets describe the self one shows, Pluto describes the self one is remade by, usually in the dark, usually without consent. Its work is total; it does not reform, it regenerates.
 
-Like [Hades](/knowledge/mythology/greek-mythology/hades) enthroned over the dead, Pluto rules what is hidden and what is precious, for the underworld held not only the departed but the buried treasure of the earth. It is the slowest of the outer planets, and its long passages mark the deaths and rebirths of whole civilizations. It rules Scorpio, the sign of depth and metamorphosis. Pluto’s gift is authentic power: the strength that comes from having faced annihilation and returned. Its shadow is power’s abuse, control, obsession, the refusal to let the dead thing die.
+Like [Hades](/knowledge/mythology/greek-mythology/hades) enthroned over the dead, Pluto rules what is hidden and what is precious, for the underworld held not only the departed but the buried treasure of the earth. It is the slowest of the outer planets, and its long passages mark the deaths and rebirths of whole civilizations. It rules Scorpio,[^sn-scorpio] the sign of depth and metamorphosis. Pluto’s gift is authentic power: the strength that comes from having faced annihilation and returned. Its shadow is power’s abuse, control, obsession, the refusal to let the dead thing die.
 
 ## Correspondences
 
@@ -36,3 +36,5 @@ A well-integrated Pluto gives depth, resilience, and the power to transform, the
 - [Hades](/knowledge/mythology/greek-mythology/hades)
 - [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-scorpio]: Scorpio governs the deep autumn, the weeks when the leaves fall and the year begins its descent toward the dark, and it carries that season’s honesty about death and transformation. See [Scorpio](/knowledge/astrology/signs/scorpio).

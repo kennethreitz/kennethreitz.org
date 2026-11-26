@@ -20,13 +20,13 @@ Its signature is the **8 Cs**: calm, curiosity, clarity, compassion, confidence,
 
 ## Self-Leadership
 
-Self-leadership is not the ego seizing command, and it is not parts being silenced. It is the internal family operating the way a good family does, every member heard, the [Managers](/knowledge/psychology/internal-family-systems/managers) consulted, the [Firefighters](/knowledge/psychology/internal-family-systems/firefighters) respected, the [Exiles](/knowledge/psychology/internal-family-systems/exiles) retrieved and unburdened, with Self holding the role of a trusted parent none of them may have had. Parts do not disappear under Self-leadership. They keep their gifts and lose their emergencies.
+Self-leadership is not the ego seizing command, and it is not parts being silenced. It is the internal family operating the way a good family does, every member heard, the [Managers](/knowledge/psychology/internal-family-systems/managers)[^sn-managers] consulted, the [Firefighters](/knowledge/psychology/internal-family-systems/firefighters) respected, the [Exiles](/knowledge/psychology/internal-family-systems/exiles) retrieved and unburdened, with Self holding the role of a trusted parent none of them may have had. Parts do not disappear under Self-leadership. They keep their gifts and lose their emergencies.
 
 ---
 
 ## Not the Jungian Self
 
-The name collides with Jung's, and the two must not be confused, the vault keeps them in separate notes for that reason. Jung's [The Self](/knowledge/psychology/jungian/the-self) is an *archetype*: the totality of conscious and unconscious psyche, both center and circumference, the goal of a lifelong [individuation](/knowledge/psychology/jungian/individuation) that is realized late if at all, and imaged in mandalas, the divine child, God. Schwartz's Self is not a totality and not a goal, it is an active *presence*, a seat of consciousness fully formed from the start and available in the next five minutes of a therapy session, distinguished precisely by *not* being one of the parts it leads.
+The name collides with Jung's, and the two must not be confused, the vault keeps them in separate notes for that reason. Jung's [The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self] is an *archetype*: the totality of conscious and unconscious psyche, both center and circumference, the goal of a lifelong [individuation](/knowledge/psychology/jungian/individuation) that is realized late if at all, and imaged in mandalas, the divine child, God. Schwartz's Self is not a totality and not a goal, it is an active *presence*, a seat of consciousness fully formed from the start and available in the next five minutes of a therapy session, distinguished precisely by *not* being one of the parts it leads.
 
 But the contrast is a family argument, not a coincidence of names. Both point at a center that is not the ego. Both hold that wholeness is discovered rather than manufactured. Jung's complexes behave strikingly like parts, and where individuation *realizes* the Self over a lifetime, IFS says you *access* it by asking the parts for a little room. One tradition reads it as the organizing archetype of the psyche; the other treats it as who you already are when nobody else is driving. Schwartz himself allows that Self may be something more than psychological, which lands the concept near where [System 777](/system-777) locates Nene: not the biggest part, but the one the whole system exists to protect, and the one with ultimate authority. Near, but not on top of it, and the difference is worth keeping sharp: IFS expects its young parts to be wounded exiles, and Nene is a child who is nothing of the kind. "the original spark that all other alters protect and serve," holding final say. A core child with ultimate authority is precisely the figure the model never drew, which makes him the best evidence that these maps end where the territory keeps going.
 
@@ -45,3 +45,6 @@ But the contrast is a family argument, not a coincidence of names. Both point at
 ---
 
 *The parts are the weather. Self is the sky.*
+
+[^sn-managers]: In Richard Schwartz's Internal Family Systems model, managers are the parts that run daily life, and they run it *preemptively*.
+[^sn-the-self]: The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche.

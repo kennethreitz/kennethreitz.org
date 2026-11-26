@@ -27,7 +27,7 @@ To live under eleven is to be a lightning rod for the numinous. It belongs to se
 
 ## Light & Shadow
 
-At its most radiant, eleven is the intuition of [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess) blazing into open vision, the messenger who translates the unseen into light others can follow, the idealist whose sensitivity becomes a kind of grace. It offers revelation, inspiration, and a rare attunement to the sacred. Yet the same high voltage, ungrounded, frays the nerves: the visionary undone by anxiety, the channel that cannot close, the fine line where genuine insight blurs into delusion. Eleven's gift is real, but it must be tended, or the light that illuminates will also burn.
+At its most radiant, eleven is the intuition of [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess)[^sn-the-high-priestess] blazing into open vision, the messenger who translates the unseen into light others can follow, the idealist whose sensitivity becomes a kind of grace. It offers revelation, inspiration, and a rare attunement to the sacred. Yet the same high voltage, ungrounded, frays the nerves: the visionary undone by anxiety, the channel that cannot close, the fine line where genuine insight blurs into delusion. Eleven's gift is real, but it must be tended, or the light that illuminates will also burn.
 
 ## Related
 
@@ -35,3 +35,5 @@ At its most radiant, eleven is the intuition of [The High Priestess](/knowledge/
 - [Master Number 22](/knowledge/numerology/master-number-22)
 - [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-high-priestess]: The High Priestess is the guardian of the unconscious, the knowing that arrives without argument.

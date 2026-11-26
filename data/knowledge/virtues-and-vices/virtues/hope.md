@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Where It Belongs
 
-Hope is the second of the three theological virtues, between [Faith](/knowledge/virtues-and-vices/virtues/faith) and [Charity](/knowledge/virtues-and-vices/virtues/charity) in Paul's triad from 1 Corinthians 13. Like its two companions it is, in Aquinas's scheme, infused rather than acquired, a gift aimed at an end beyond human reach, and like faith it is provisional: hope's business is the not-yet, and possession will one day retire it. In the meantime it does the load-bearing work of the three, because it is the virtue of the interval, everything between promise and arrival is hope's territory.
+Hope is the second of the three theological virtues, between [Faith](/knowledge/virtues-and-vices/virtues/faith)[^sn-faith] and [Charity](/knowledge/virtues-and-vices/virtues/charity) in Paul's triad from 1 Corinthians 13. Like its two companions it is, in Aquinas's scheme, infused rather than acquired, a gift aimed at an end beyond human reach, and like faith it is provisional: hope's business is the not-yet, and possession will one day retire it. In the meantime it does the load-bearing work of the three, because it is the virtue of the interval, everything between promise and arrival is hope's territory.
 
 ## What It Is
 
@@ -20,7 +20,7 @@ The scholastics were precise: hope is the confident movement of the will toward 
 
 ## Its Opposing Sin
 
-Hope's shadow among the seven is [Sloth](/knowledge/virtues-and-vices/seven-deadly-sins/sloth): acedia, the sorrow in the face of the good. Despair is acedia's final form: the noonday demon's whisper that nothing matters, matured into a settled verdict. This is why Dante's slothful run shouting exempla of zeal, motion is hope re-enacted by the body until the soul remembers how. The remedial pair of [Diligence](/knowledge/virtues-and-vices/virtues/diligence) and hope work one muscle: diligence takes the next step, hope believes there is somewhere the steps are going.
+Hope's shadow among the seven is [Sloth](/knowledge/virtues-and-vices/seven-deadly-sins/sloth): acedia, the sorrow in the face of the good. Despair is acedia's final form: the noonday demon's whisper that nothing matters, matured into a settled verdict. This is why Dante's slothful run shouting exempla of zeal, motion is hope re-enacted by the body until the soul remembers how. The remedial pair of [Diligence](/knowledge/virtues-and-vices/virtues/diligence)[^sn-diligence] and hope work one muscle: diligence takes the next step, hope believes there is somewhere the steps are going.
 
 ---
 
@@ -35,3 +35,7 @@ Hope's shadow among the seven is [Sloth](/knowledge/virtues-and-vices/seven-dead
 ---
 
 *Difficult, but possible. Hope is the discipline of keeping both words true.*
+
+[^sn-diligence]: Diligence stands among the seven heavenly virtues as the remedy for Sloth.
+
+[^sn-faith]: Faith in the tradition is not primarily propositional; it is *fiducial*, the trust one extends to someone, not the odds one assigns to something.

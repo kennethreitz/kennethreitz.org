@@ -15,7 +15,7 @@ A crowned figure sits enthroned between two grey pillars, an upright double-edge
 
 ## Upright
 
-Justice is truth, accountability, and the law of cause and effect made visible. Where the [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune) turned by fate, Justice weighs by consequence, every action tallied, every choice bearing its fruit. Upright, the card counsels honesty, fairness, and the willingness to face facts squarely and accept responsibility. The sword is discernment; the scales are balance. To draw it is to be asked to see clearly and to act justly, and to trust that what has been set in motion will be weighed exactly.
+Justice is truth, accountability, and the law of cause and effect made visible. Where the [Wheel of Fortune](/knowledge/tarot/major-arcana/wheel-of-fortune)[^sn-wheel-of-fortune] turned by fate, Justice weighs by consequence, every action tallied, every choice bearing its fruit. Upright, the card counsels honesty, fairness, and the willingness to face facts squarely and accept responsibility. The sword is discernment; the scales are balance. To draw it is to be asked to see clearly and to act justly, and to trust that what has been set in motion will be weighed exactly.
 
 ## Reversed
 
@@ -48,3 +48,5 @@ When Justice appears, the reading turns toward truth, fairness, and consequence.
 - [The Emperor](/knowledge/tarot/major-arcana/the-emperor)
 - [Individuation](/knowledge/psychology/jungian/individuation)
 - [Tarot](/knowledge/tarot)
+
+[^sn-wheel-of-fortune]: The Wheel of Fortune is change, cycle, and the turning of fate, the reminder that circumstances rise and fall by a logic larger than the will.

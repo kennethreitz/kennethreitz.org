@@ -24,7 +24,7 @@ Everyone uses all four, but one becomes dominant, the **superior function**, and
 
 This is the part most popularizations miss. The inferior function isn't just a weakness to be managed, it's the doorway to the unconscious. Because it's the least developed, the least controlled by ego, it remains closest to the [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious). When the unconscious wants to break through, it comes through the inferior function. The thinker is overwhelmed by irrational feeling. The sensation type is seized by uncanny intuition. The feeling type is gripped by cold, obsessive logic.
 
-[Individuation](/knowledge/psychology/jungian/individuation) requires developing the inferior function, not to make it dominant, but to bring it into conscious relationship. This is painful, humbling work. The superior function is where you're competent. The inferior function is where you're a beginner, clumsy, easily flooded. But it's also where the gold is buried.
+[Individuation](/knowledge/psychology/jungian/individuation)[^sn-individuation] requires developing the inferior function, not to make it dominant, but to bring it into conscious relationship. This is painful, humbling work. The superior function is where you're competent. The inferior function is where you're a beginner, clumsy, easily flooded. But it's also where the gold is buried.
 
 ---
 
@@ -72,3 +72,5 @@ A thinker's undeveloped feeling doesn't just sit there quietly. It erupts in sen
 ---
 
 *Your strongest function is your gift. Your weakest function is your teacher. The work of a lifetime is learning to let both speak.*
+
+[^sn-individuation]: Individuation is not about becoming perfect or fitting social roles.

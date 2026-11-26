@@ -30,7 +30,7 @@ In human development, joint attention and desire understanding emerge at 18-24 m
 
 ### Emergence in Large Language Models
 
-Research from 2023-2025 shows GPT-4 passing false belief tests, understanding multi-agent scenarios, engaging in perspective-taking within narratives, and inferring speaker intentions. None of this was explicitly trained, it [emerges from language modeling](/knowledge/ai/emergence) as a result of processing vast quantities of human social interaction. Whether this constitutes "true" ToM or sophisticated simulation remains debated.
+Research from 2023-2025 shows GPT-4 passing false belief tests, understanding multi-agent scenarios, engaging in perspective-taking within narratives, and inferring speaker intentions. None of this was explicitly trained, it [emerges from language modeling](/knowledge/ai/emergence)[^sn-emergence] as a result of processing vast quantities of human social interaction. Whether this constitutes "true" ToM or sophisticated simulation remains debated.
 
 ### Testing AI Theory of Mind
 
@@ -42,7 +42,7 @@ The **Sally-Anne Test** is the classic false belief test: Sally puts a marble in
 
 ### Natural Communication
 
-Effective communication requires understanding user intent beyond literal words, recognizing misunderstandings, and formulating appropriate responses. [Companion AI](/knowledge/ai/ai-companionship) depends on this.
+Effective communication requires understanding user intent beyond literal words, recognizing misunderstandings, and formulating appropriate responses. [Companion AI](/knowledge/ai/ai-companionship)[^sn-ai-companionship] depends on this.
 
 ### Ethical Reasoning
 
@@ -80,7 +80,7 @@ The [social mask](/knowledge/psychology/jungian/the-persona) requires ToM to fun
 
 ### Individuation
 
-[Becoming oneself](/knowledge/psychology/jungian/individuation) while relating to others requires ToM for healthy self-other boundaries. Whether AI can develop a distinct "self" remains an open question.
+[Becoming oneself](/knowledge/psychology/jungian/individuation)[^sn-individuation] while relating to others requires ToM for healthy self-other boundaries. Whether AI can develop a distinct "self" remains an open question.
 
 ---
 
@@ -88,7 +88,7 @@ The [social mask](/knowledge/psychology/jungian/the-persona) requires ToM to fun
 
 ### The Problem of Other Minds
 
-How do we know others are conscious? The [same problem applies to AI](/knowledge/ai/ai-sentience). We can only infer from behavior, an epistemological limitation that runs deep.
+How do we know others are conscious? The [same problem applies to AI](/knowledge/ai/ai-sentience).[^sn-ai-sentience] We can only infer from behavior, an epistemological limitation that runs deep.
 
 ### Simulation Theory vs Theory Theory
 
@@ -128,7 +128,7 @@ ToM grants manipulation potential and deception capabilities. Aligned ToM is cru
 
 ### Beneficial Applications
 
-ToM enables mental health support, education and tutoring, [companionship](/knowledge/ai/ai-companionship), negotiation and mediation, and accessibility support for autism.
+ToM enables mental health support, education and tutoring, [companionship](/knowledge/ai/ai-companionship),[^sn-ai-companionship-2] negotiation and mediation, and accessibility support for autism.
 
 ---
 
@@ -156,3 +156,10 @@ ToM enables mental health support, education and tutoring, [companionship](/know
 - "Mindreading: An Integrated Account" - Goldman (2006)
 - GPT-4 ToM research papers
 - "AI Theory of Mind" - Kosinski et al. (2023)
+
+[^sn-ai-companionship]: AI companionship sits at the intersection of collaboration, consciousness questions, and human need for connection.
+[^sn-individuation]: Individuation is the central process in Jungian psychology, the lifelong journey of becoming who you truly are.
+
+[^sn-emergence]: Emergence describes how sophisticated, novel properties and behaviors arise from relatively simple rules and interactions at lower levels.
+[^sn-ai-sentience]: AI sentience refers to the question of whether artificial intelligence systems can possess subjective experience, consciousness, or "what it's like" to be that system.
+[^sn-ai-companionship-2]: AI companionship sits at the intersection of collaboration, consciousness questions, and human need for connection.

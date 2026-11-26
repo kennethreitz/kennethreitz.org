@@ -27,7 +27,7 @@ Wands, towers, and rough plates of Selenite have become fixtures of the modern a
 
 ## Properties
 
-Selenite carries one of the highest, finest vibrations in the mineral kingdom, and its great office is cleansing. It clears stagnant or heavy energy from a person, a space, or another stone, and it is one of the few crystals said to charge and purify others without ever needing to be cleansed itself. Reaching to the [crown](/knowledge/chakras/sahasrara), it opens a channel upward, to clarity, to stillness, to whatever one understands as the higher self, and lends mental peace to a crowded mind.
+Selenite carries one of the highest, finest vibrations in the mineral kingdom, and its great office is cleansing. It clears stagnant or heavy energy from a person, a space, or another stone, and it is one of the few crystals said to charge and purify others without ever needing to be cleansed itself. Reaching to the [crown](/knowledge/chakras/sahasrara),[^sn-sahasrara] it opens a channel upward, to clarity, to stillness, to whatever one understands as the higher self, and lends mental peace to a crowded mind.
 
 ## In Practice
 
@@ -40,3 +40,5 @@ A Selenite wand is swept slowly through the aura to comb out heaviness, and a pl
 - [Moonstone](/knowledge/crystals-and-gemstones/moonstone)
 - [Sahasrara](/knowledge/chakras/sahasrara)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-sahasrara]: Sahasrara rests at the crown of the head, and its name means “thousand-petalled”, the lotus of a thousand petals that opens, in the yogic image, not inward but upward and outward, past the boundary of the individual self entirely.

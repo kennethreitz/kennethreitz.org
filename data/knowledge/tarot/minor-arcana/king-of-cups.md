@@ -15,7 +15,7 @@ A king sits on a stone throne that floats, remarkably, upon a turbulent sea. The
 
 ## Upright
 
-The King of Cups is emotional mastery in its most mature and outward form, feeling that has become wisdom, compassion tempered by self-command. He is the diplomat, the counselor, the calm authority who can hold others’ turbulence without being pulled under. He rules his own tides. Where the [Queen of Cups](/knowledge/tarot/minor-arcana/queen-of-cups) contemplates the deep, the King governs from atop it, balancing heart and duty, empathy and firmness. He offers the steadiness of one who has felt everything and learned to stay level, a harbor in another’s storm.
+The King of Cups is emotional mastery in its most mature and outward form, feeling that has become wisdom, compassion tempered by self-command. He is the diplomat, the counselor, the calm authority who can hold others’ turbulence without being pulled under. He rules his own tides. Where the [Queen of Cups](/knowledge/tarot/minor-arcana/queen-of-cups)[^sn-queen-of-cups] contemplates the deep, the King governs from atop it, balancing heart and duty, empathy and firmness. He offers the steadiness of one who has felt everything and learned to stay level, a harbor in another’s storm.
 
 ## Reversed
 
@@ -47,3 +47,5 @@ When this card appears, ask where you are being called to stay calm amid another
 - [King of Pentacles](/knowledge/tarot/minor-arcana/king-of-pentacles)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-queen-of-cups]: The Queen of Cups is emotional depth made mastery, compassion, intuition, empathy grown wise.

@@ -38,7 +38,7 @@ Three of the seven confer an indelible spiritual mark, or *character*, on the so
 
 ## Grace as the Thread
 
-What binds all seven together is grace, the free, unearned self-gift of God that heals, elevates, and divinizes the human person. Catholicism distinguishes sanctifying grace, the abiding life of God in the soul, from the particular actual graces that assist specific acts, and it holds that the sacraments are the ordinary channels by which sanctifying grace is given and increased. This is precisely the point where the tradition diverges from [the Reformed](/knowledge/spirituality/calvinism), which retains only two sacraments (Baptism and the Lord's Supper) and resists the idea that grace is conveyed through the rite itself rather than through faith alone. For Catholicism the sacraments are not mere symbols of a grace received elsewhere; they are the very instruments through which grace flows into a life.
+What binds all seven together is grace, the free, unearned self-gift of God that heals, elevates, and divinizes the human person. Catholicism distinguishes sanctifying grace, the abiding life of God in the soul, from the particular actual graces that assist specific acts, and it holds that the sacraments are the ordinary channels by which sanctifying grace is given and increased. This is precisely the point where the tradition diverges from [the Reformed](/knowledge/spirituality/calvinism),[^sn-calvinism] which retains only two sacraments (Baptism and the Lord's Supper) and resists the idea that grace is conveyed through the rite itself rather than through faith alone. For Catholicism the sacraments are not mere symbols of a grace received elsewhere; they are the very instruments through which grace flows into a life.
 
 ---
 
@@ -50,3 +50,5 @@ What binds all seven together is grace, the free, unearned self-gift of God that
 - [The Four Last Things](/knowledge/spirituality/catholicism/the-four-last-things): Anointing and the soul's passage
 - [The Communion of Saints](/knowledge/spirituality/catholicism/the-communion-of-saints): The church into which Baptism initiates
 - [Calvinism](/knowledge/spirituality/calvinism): The Reformed two-sacrament view
+
+[^sn-calvinism]: Calvinism is the theological system developed by John Calvin (1509-1564) and later systematized by his followers.

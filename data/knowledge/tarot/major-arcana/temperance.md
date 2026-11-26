@@ -16,7 +16,7 @@ A winged angel stands with one foot on dry land and one in a pool, pouring liqui
 
 ## Upright
 
-Temperance is balance, integration, and the slow art of the middle way. Arriving after the great ending of [Death](/knowledge/tarot/major-arcana/death), it is the healing and recombination that follows dissolution, the tempering of raw elements into a workable whole. Upright, the card counsels moderation, patience, and the blending of extremes into harmony. The impossible sideways stream is the sign of a synthesis achieved by grace rather than force. To draw it is to be asked to mix carefully, to hold the middle, and to let the two waters find their proportion in their own time.
+Temperance is balance, integration, and the slow art of the middle way. Arriving after the great ending of [Death](/knowledge/tarot/major-arcana/death),[^sn-death] it is the healing and recombination that follows dissolution, the tempering of raw elements into a workable whole. Upright, the card counsels moderation, patience, and the blending of extremes into harmony. The impossible sideways stream is the sign of a synthesis achieved by grace rather than force. To draw it is to be asked to mix carefully, to hold the middle, and to let the two waters find their proportion in their own time.
 
 ## Reversed
 
@@ -49,3 +49,5 @@ When Temperance appears, the reading turns toward balance, healing, and patient 
 - [The Star](/knowledge/tarot/major-arcana/the-star)
 - [Alchemy](/knowledge/alchemy)
 - [Tarot](/knowledge/tarot)
+
+[^sn-death]: Death is transformation through ending, the necessary clearing that makes new life possible.

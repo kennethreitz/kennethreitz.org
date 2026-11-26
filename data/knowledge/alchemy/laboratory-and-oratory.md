@@ -17,7 +17,7 @@ This dual practice: *ora et labora*, pray and work, explains why alchemy survive
 
 Kenneth's work follows the same pattern, whether he uses the alchemical vocabulary or not. The code is the laboratory, real technical work that produces real results (libraries that serve millions of machines). The consciousness research is the oratory, the inner work that the code encodes and the essays document. `requests.get(url)` is a laboratory operation. The [For Humans](/knowledge/philosophy/for-humans) philosophy behind it is an oratory insight. Both rooms are necessary. Neither is complete without the other.
 
-The [pytheory](/software/pytheory) library is perhaps the most alchemical of Kenneth's projects, literal music theory translated into code, composition happening in Python, sound emerging from mathematics. The laboratory (code) and the oratory (music as spiritual practice) in a single `.py` file.
+The [pytheory](/software/pytheory)[^sn-pytheory] library is perhaps the most alchemical of Kenneth's projects, literal music theory translated into code, composition happening in Python, sound emerging from mathematics. The laboratory (code) and the oratory (music as spiritual practice) in a single `.py` file.
 
 ---
 
@@ -43,3 +43,5 @@ The [pytheory](/software/pytheory) library is perhaps the most alchemical of Ken
 - [The Magnum Opus](/knowledge/alchemy/the-magnum-opus): The full process
 - [Programming as Spiritual Practice](/essays/2025-08-26-programming_as_spiritual_practice): Modern laboratory and oratory
 - [Spirituality](/knowledge/spirituality): The oratory tradition
+
+[^sn-pytheory]: PyTheory is a complete music theory library and synthesis engine.

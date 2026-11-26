@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A young man sits beneath a tree with his arms folded, legs crossed, contemplating three cups arranged on the grass before him. From a cloud at his side a hand extends a fourth cup, an offer identical to the annunciation of the [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups), but he does not see it, or refuses to. His posture is one of brooding withdrawal, half sulk and half meditation. The scene is green and quiet, the discontent entirely interior; nothing in the world has failed him except his own attention.
+A young man sits beneath a tree with his arms folded, legs crossed, contemplating three cups arranged on the grass before him. From a cloud at his side a hand extends a fourth cup, an offer identical to the annunciation of the [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups)[^sn-ace-of-cups], but he does not see it, or refuses to. His posture is one of brooding withdrawal, half sulk and half meditation. The scene is green and quiet, the discontent entirely interior; nothing in the world has failed him except his own attention.
 
 ## Upright
 
@@ -49,3 +49,5 @@ When this card appears, ask what is being offered that you are too listless to n
 - [Four of Swords](/knowledge/tarot/minor-arcana/four-of-swords)
 - [Tarot](/knowledge/tarot)
 - [The Shadow](/knowledge/psychology/jungian/the-shadow)
+
+[^sn-ace-of-cups]: The Ace of Cups is the wellspring, the pure, undifferentiated source of feeling before it takes any particular shape.

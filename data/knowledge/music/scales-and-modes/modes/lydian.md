@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Mode
 
-Lydian is the fourth mode of the major scale, starting on its fourth degree. Built on C it borrows from G major, which raises a single note, the fourth, by a half step. Everything else matches the ordinary major scale, so Lydian is essentially Ionian with one bright, floating alteration, and that alteration changes everything.
+Lydian is the fourth mode of the major scale, starting on its fourth degree. Built on C it borrows from G major, which raises a single note, the fourth, by a half step. Everything else matches the ordinary major scale, so Lydian is essentially Ionian[^sn-ionian] with one bright, floating alteration, and that alteration changes everything.
 
 The raised fourth lends the mode a weightless, dreamlike, almost celestial quality. It sounds like major but somehow more so, lifted, luminous, faintly otherworldly. Many composers describe Lydian as the sound of wonder or awe, major-key brightness pushed toward the ethereal.
 
@@ -38,3 +38,5 @@ Lydian is a favourite of film composers reaching for magic, space, or open sky, 
 - [Mixolydian](/knowledge/music/scales-and-modes/modes/mixolydian)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-ionian]: Ionian is the first mode of the major scale, which is to say it simply is the major scale. See [Ionian](/knowledge/music/scales-and-modes/modes/ionian).

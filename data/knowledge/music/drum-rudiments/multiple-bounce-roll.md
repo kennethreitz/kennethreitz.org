@@ -23,7 +23,7 @@ The secret is pressure and relaxation together: let the stick fall, then apply j
 
 ## In Practice
 
-The multiple bounce roll is the concert and orchestral snare drummer's sustained roll, the marching drummer's crisp buzz, and the drum kit player's press roll for brushed ballads and quiet dynamics. It stands apart from the measured [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll) and its relative the [Triple Stroke Roll](/knowledge/music/drum-rudiments/triple-stroke-roll), where every stroke is deliberately counted.
+The multiple bounce roll is the concert and orchestral snare drummer's sustained roll, the marching drummer's crisp buzz, and the drum kit player's press roll for brushed ballads and quiet dynamics. It stands apart from the measured [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)[^sn-double-stroke-open-roll] and its relative the [Triple Stroke Roll](/knowledge/music/drum-rudiments/triple-stroke-roll), where every stroke is deliberately counted.
 
 ## Related
 
@@ -31,3 +31,5 @@ The multiple bounce roll is the concert and orchestral snare drummer's sustained
 - [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)
 - [Single Stroke Roll](/knowledge/music/drum-rudiments/single-stroke-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-double-stroke-open-roll]: The double stroke open roll, often just "the long roll", is the backbone of rudimental drumming.

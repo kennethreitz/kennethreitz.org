@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Healing Sequence
 
-Unburdening is the destination of every [Internal Family Systems](/knowledge/psychology/internal-family-systems) session, the moment the model's whole architecture exists to reach. It only happens with permission: the [Managers](/knowledge/psychology/internal-family-systems/managers) and [Firefighters](/knowledge/psychology/internal-family-systems/firefighters) guarding an [exile](/knowledge/psychology/internal-family-systems/exiles) must first trust [Self](/knowledge/psychology/internal-family-systems/self-ifs) enough to step back, which is why most of the work in IFS is spent befriending protectors rather than pursuing pain. When the way is clear, the sequence unfolds in recognizable stages.
+Unburdening is the destination of every [Internal Family Systems](/knowledge/psychology/internal-family-systems) session, the moment the model's whole architecture exists to reach. It only happens with permission: the [Managers](/knowledge/psychology/internal-family-systems/managers)[^sn-managers] and [Firefighters](/knowledge/psychology/internal-family-systems/firefighters) guarding an [exile](/knowledge/psychology/internal-family-systems/exiles) must first trust [Self](/knowledge/psychology/internal-family-systems/self-ifs) enough to step back, which is why most of the work in IFS is spent befriending protectors rather than pursuing pain. When the way is clear, the sequence unfolds in recognizable stages.
 
 First, **witnessing**. Self goes to the exile and receives its story, not a summary, but the full felt account of what happened and what it was like, until the part signals that it finally feels seen. Schwartz is emphatic that this is not exposure therapy or reliving; the person stays in Self, present *with* the part rather than drowning *as* it, and the exile shows exactly as much as it needs to. Decades of carrying were, at root, decades of not being believed. Witnessing ends that.
 
@@ -21,7 +21,7 @@ Then, **the do-over and retrieval**. The exile is invited to experience what sho
 
 ## The Release
 
-Then the burden itself, the absorbed beliefs and feelings described in [Burdens](/knowledge/psychology/internal-family-systems/burdens), is given up, and here IFS becomes openly ritual. The part is asked what it carries, where it carries it in or on its body, and what it would like to release it *to*: classically fire, water, wind, or light, though parts invent their own. The burden is burned, washed away, scattered, dissolved. Clinicians raised on drier models sometimes flinch at this, but Schwartz kept it because parts respond to it, the psyche apparently takes ceremony seriously, a fact every religious tradition discovered first. The concreteness is the point: cargo that arrived at a specific moment leaves by a specific act.
+Then the burden itself, the absorbed beliefs and feelings described in [Burdens](/knowledge/psychology/internal-family-systems/burdens)[^sn-burdens], is given up, and here IFS becomes openly ritual. The part is asked what it carries, where it carries it in or on its body, and what it would like to release it *to*: classically fire, water, wind, or light, though parts invent their own. The burden is burned, washed away, scattered, dissolved. Clinicians raised on drier models sometimes flinch at this, but Schwartz kept it because parts respond to it, the psyche apparently takes ceremony seriously, a fact every religious tradition discovered first. The concreteness is the point: cargo that arrived at a specific moment leaves by a specific act.
 
 Finally, **invitation**. The space the burden occupied does not stay empty. The part is asked what qualities it would like to take in, and what floods in is usually what the wounding displaced: playfulness, trust, courage, lightness. Protectors are then brought to see the healed exile, because their jobs existed only for its sake, and offered the chance to choose new roles.
 
@@ -29,7 +29,7 @@ Finally, **invitation**. The space the burden occupied does not stay empty. The 
 
 ## Not an Eviction
 
-The essential thing unburdening is *not*: getting rid of the part. Nothing in IFS is ever gotten rid of, the model holds that parts cannot be killed, only driven into deeper extremity by the attempt, which is the failure mode of every willpower campaign. Unburdening removes what the part carries and leaves the part itself, restored to its nature. This is [Integration](/knowledge/psychology/trauma-and-healing/integration) as this vault understands it, cooperation and restoration, never elimination, and it is the concrete mechanism behind what [Healing](/knowledge/psychology/trauma-and-healing/healing) names in general. [System 777](/system-777) has its own name for this shape of work: transmutation. When Shakti says of an old and painful relationship, "Just gotta transmute," the documentation glosses it exactly as this note would, acknowledging the pain, acknowledging the love, and moving toward transformation rather than suppression. The exile does not vanish when the shame burns. The child stands there, lighter, asking what there is to play with.
+The essential thing unburdening is *not*: getting rid of the part. Nothing in IFS is ever gotten rid of, the model holds that parts cannot be killed, only driven into deeper extremity by the attempt, which is the failure mode of every willpower campaign. Unburdening removes what the part carries and leaves the part itself, restored to its nature. This is [Integration](/knowledge/psychology/trauma-and-healing/integration)[^sn-integration] as this vault understands it, cooperation and restoration, never elimination, and it is the concrete mechanism behind what [Healing](/knowledge/psychology/trauma-and-healing/healing) names in general. [System 777](/system-777) has its own name for this shape of work: transmutation. When Shakti says of an old and painful relationship, "Just gotta transmute," the documentation glosses it exactly as this note would, acknowledging the pain, acknowledging the love, and moving toward transformation rather than suppression. The exile does not vanish when the shame burns. The child stands there, lighter, asking what there is to play with.
 
 ---
 
@@ -48,3 +48,8 @@ The essential thing unburdening is *not*: getting rid of the part. Nothing in IF
 ---
 
 *Witness, retrieve, release, invite. The oldest rescue story, run inward.*
+
+[^sn-managers]: In Richard Schwartz's Internal Family Systems model, managers are the parts that run daily life, and they run it *preemptively*.
+[^sn-integration]: Integration is one of those words that means different things depending on who is using it, and the differences matter enormously.
+
+[^sn-burdens]: Burdens are what force parts into extreme roles.

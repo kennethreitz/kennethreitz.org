@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Sekhmet is the burning face of the sun, a lioness-headed goddess whose name means “the Powerful One,” and who earns it. She is the daughter and the wrath of [Ra](/knowledge/mythology/egyptian-mythology/ra), the fire he sends out when order must be defended by force. Where [Bastet](/knowledge/mythology/egyptian-mythology/bastet) is the cat purring on the hearth, Sekhmet is the same feline nature unleashed on the battlefield: plague-bringer, war-goddess, the scorching wind of the desert given teeth. The Egyptians called her “Lady of Terror” and meant it as praise.
+Sekhmet is the burning face of the sun, a lioness-headed goddess whose name means “the Powerful One,” and who earns it. She is the daughter and the wrath of [Ra](/knowledge/mythology/egyptian-mythology/ra), the fire he sends out when order must be defended by force. Where [Bastet](/knowledge/mythology/egyptian-mythology/bastet)[^sn-bastet] is the cat purring on the hearth, Sekhmet is the same feline nature unleashed on the battlefield: plague-bringer, war-goddess, the scorching wind of the desert given teeth. The Egyptians called her “Lady of Terror” and meant it as praise.
 
 Yet the same heat that destroys is the heat that cauterizes. Sekhmet was also the great patron of physicians; her priests were healers, and the fevers she sent she could also lift. This is the paradox the Egyptians understood better than most, that the power to burn a thing away and the power to make it whole are one power, pointed in two directions. To pray to Sekhmet was to ask the destroyer to become the mender.
 
@@ -36,3 +36,5 @@ Yet the same heat that destroys is the heat that cauterizes. Sekhmet was also th
 - [The Tower](/knowledge/tarot/major-arcana/the-tower): The card of sudden devastation she unleashes
 - [Egyptian Mythology Index](/knowledge/mythology/egyptian-mythology)
 - [Mythology](/knowledge/mythology)
+
+[^sn-bastet]: Bastet is the warmth of the domestic sun, a cat-headed goddess of the hearth, of childbirth, of music and pleasure and the small daily joys that hold a household together.

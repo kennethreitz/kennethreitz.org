@@ -14,13 +14,13 @@ source: obsidian-knowledge
 
 Lakshmi is the goddess of wealth and good fortune, abundance in every sense, material and spiritual. She is beauty, prosperity, generosity, and grace, the fullness of life that makes existence sweet. Seated or standing on a fully opened lotus, robed in gold and red, she pours coins from her hand in an endless stream, and yet her deeper gift is not gold but the flourishing of all good things: health, family, harmony, and the light of well-being.
 
-She is the consort and complementary power of [Vishnu](/knowledge/mythology/hindu-mythology/vishnu), the preserver. As he sustains the cosmos, she is the very substance of what is worth sustaining, the wealth of a world worth keeping. Where he descends in his avatars, she descends beside him: as Sita to his Rama, as Rukmini to his [Krishna](/knowledge/mythology/hindu-mythology/krishna). She is fortune made personal, present, and gracious.
+She is the consort and complementary power of [Vishnu](/knowledge/mythology/hindu-mythology/vishnu), the preserver. As he sustains the cosmos, she is the very substance of what is worth sustaining, the wealth of a world worth keeping. Where he descends in his avatars, she descends beside him: as Sita to his Rama, as Rukmini to his [Krishna](/knowledge/mythology/hindu-mythology/krishna).[^sn-krishna] She is fortune made personal, present, and gracious.
 
 ---
 
 ## Birth from the Ocean
 
-Lakshmi’s most celebrated origin is the churning of the cosmic ocean. When the gods and demons together churned the sea of milk in search of the nectar of immortality, a succession of treasures rose from the depths, and among them, seated upon a lotus, radiant, arose Lakshmi herself. Of all who witnessed her, she chose [Vishnu](/knowledge/mythology/hindu-mythology/vishnu), garlanding him as her lord.
+Lakshmi’s most celebrated origin is the churning of the cosmic ocean. When the gods and demons together churned the sea of milk in search of the nectar of immortality, a succession of treasures rose from the depths, and among them, seated upon a lotus, radiant, arose Lakshmi herself. Of all who witnessed her, she chose [Vishnu](/knowledge/mythology/hindu-mythology/vishnu),[^sn-vishnu] garlanding him as her lord.
 
 Her emergence from the churned ocean carries a lesson: fortune is drawn up through effort and struggle, produced by the churning of opposing forces. She is not idle luck but the reward that surfaces when the work is done, and she is famously restless, favoring those who honor her and departing from those who grow complacent or ungrateful.
 
@@ -44,7 +44,7 @@ Her worship carries an ethic as much as a hope. Because she abides where there i
 
 ## Archetypal Significance
 
-Lakshmi is the archetype of abundance and generative fortune, the goddess who makes the world fruitful and beautiful. She corresponds to [The Empress](/knowledge/tarot/major-arcana/the-empress) in the tarot: material prosperity, sensual richness, the overflowing bounty of the fertile mother whose nature is to give. Psychologically she represents the flow of value and grace, the capacity to receive and to circulate wealth, and the recognition that abundance is a state of openness as much as a possession.
+Lakshmi is the archetype of abundance and generative fortune, the goddess who makes the world fruitful and beautiful. She corresponds to [The Empress](/knowledge/tarot/major-arcana/the-empress)[^sn-the-empress] in the tarot: material prosperity, sensual richness, the overflowing bounty of the fertile mother whose nature is to give. Psychologically she represents the flow of value and grace, the capacity to receive and to circulate wealth, and the recognition that abundance is a state of openness as much as a possession.
 
 ---
 
@@ -57,3 +57,8 @@ Lakshmi is the archetype of abundance and generative fortune, the goddess who ma
 - [Tarot](/knowledge/tarot) - The symbolic system her archetype maps to
 - [Mythology](/knowledge/mythology) - The wider field of myth
 - [Hindu Mythology Index](/knowledge/mythology/hindu-mythology)
+
+[^sn-krishna]: Krishna is the eighth avatar of Vishnu and one of the most beloved deities in Hinduism.
+[^sn-the-empress]: The Empress is generative abundance, creativity, nurture, and the body’s wisdom made manifest.
+
+[^sn-vishnu]: Vishnu is the preserver god in the Hindu Trimurti.

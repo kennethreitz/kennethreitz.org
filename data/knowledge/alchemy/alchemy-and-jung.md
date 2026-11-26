@@ -12,7 +12,7 @@ Carl Jung spent the last thirty years of his life immersed in alchemical texts. 
 
 Jung came to alchemy through a dream in which he found himself in the 17th century. He began studying alchemical texts and was stunned: the imagery matched what his patients produced in analysis. The nigredo was the depression his patients described. The coniunctio was the union of opposites he observed in successful individuation. The Philosopher's Stone was the Self, the integrated totality that analysis aimed toward.
 
-His key works on the subject: *Psychology and Alchemy* (1944), *Alchemical Studies* (1945), and *Mysterium Coniunctionis* (1956), mapped the alchemical process onto psychological transformation with painstaking precision. The retort becomes the analytical relationship. The *prima materia* (base matter) becomes the neurosis, the raw, unworked material the patient brings. The fire is the heat of the therapeutic process. The gold is not a substance but a state, [The Self](/knowledge/psychology/jungian/the-self) realized.
+His key works on the subject: *Psychology and Alchemy* (1944), *Alchemical Studies* (1945), and *Mysterium Coniunctionis* (1956), mapped the alchemical process onto psychological transformation with painstaking precision. The retort becomes the analytical relationship. The *prima materia* (base matter) becomes the neurosis, the raw, unworked material the patient brings. The fire is the heat of the therapeutic process. The gold is not a substance but a state, [The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self] realized.
 
 The critical insight: the alchemists weren't wrong. They were premature. They sensed that matter could be transformed, and they were right, though it took nuclear physics rather than furnaces. They sensed that there was a universal agent of transformation, and they were right, though the agent was consciousness rather than a chemical compound. They sensed that the work transformed the worker, and they were exactly right. That's the part they got most precisely correct.
 
@@ -45,3 +45,5 @@ The Infinite State discography traces the stages (see [The Magnum Opus](/knowled
 - [The Self](/knowledge/psychology/jungian/the-self): The psychological Stone
 - [The Red Book](/library/books/the-red-book): Jung's own active imagination
 - [Active Imagination](/knowledge/psychology/jungian/active-imagination): The method that bridges alchemy and analysis
+
+[^sn-the-self]: The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche.

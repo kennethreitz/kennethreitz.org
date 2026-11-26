@@ -23,10 +23,12 @@ Keep all six leading strokes low and matched between the hands so the run sounds
 
 ## In Practice
 
-The single stroke seven is a staple fill and solo figure, common in jazz, fusion, and rudimental drumming where a longer single-stroke burst is needed to reach a downbeat. It completes the single-stroke family alongside the [Single Stroke Roll](/knowledge/music/drum-rudiments/single-stroke-roll) and the [Single Stroke Four](/knowledge/music/drum-rudiments/single-stroke-four).
+The single stroke seven is a staple fill and solo figure, common in jazz, fusion, and rudimental drumming where a longer single-stroke burst is needed to reach a downbeat. It completes the single-stroke family alongside the [Single Stroke Roll](/knowledge/music/drum-rudiments/single-stroke-roll)[^sn-single-stroke-roll] and the [Single Stroke Four](/knowledge/music/drum-rudiments/single-stroke-four).
 
 ## Related
 
 - [Single Stroke Roll](/knowledge/music/drum-rudiments/single-stroke-roll)
 - [Single Stroke Four](/knowledge/music/drum-rudiments/single-stroke-four)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-single-stroke-roll]: The single stroke roll is the foundation beneath everything else: a continuous stream of alternating strokes, one per hand, evenly spaced and evenly weighted.

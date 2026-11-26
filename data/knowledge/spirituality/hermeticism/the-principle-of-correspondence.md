@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 The second Hermetic principle, and the most famous line in all of Western esotericism. Correspondence holds that the microcosm mirrors the macrocosm, that the same patterns repeat across every scale of reality. The movements of the planets correspond to movements in the psyche; the behaviour of the atom corresponds to the behaviour of the galaxy. The pattern doesn't merely resemble across scales, the Hermeticist insists, it *is* the same pattern, expressed through different media.
 
-Its great source is [The Emerald Tablet](/knowledge/alchemy/the-emerald-tablet), where the line first crystallizes. The value of the principle is epistemic: because the scales correspond, knowledge of one becomes knowledge of the others. Study the visible to understand the invisible; read the outer world as a map of the inner. This isn't mystical hand-waving so much as a structural intuition about how reality organizes itself, the same intuition that fractals, power-law distributions, and self-similar systems make rigorous. The alchemists lacked the mathematics but had the insight: the universe has habits, and those habits repeat.
+Its great source is [The Emerald Tablet](/knowledge/alchemy/the-emerald-tablet),[^sn-the-emerald-tablet] where the line first crystallizes. The value of the principle is epistemic: because the scales correspond, knowledge of one becomes knowledge of the others. Study the visible to understand the invisible; read the outer world as a map of the inner. This isn't mystical hand-waving so much as a structural intuition about how reality organizes itself, the same intuition that fractals, power-law distributions, and self-similar systems make rigorous. The alchemists lacked the mathematics but had the insight: the universe has habits, and those habits repeat.
 
 ## Why It Matters to Kenneth
 
@@ -29,3 +29,5 @@ His album *[As Above So Below](/music/as-above-so-below)* is named for this prin
 - [For Humans](/knowledge/philosophy/for-humans): interface corresponding to concept
 - [Collective Unconscious](/knowledge/psychology/jungian/collective-unconscious), as above, so below in the psyche
 - [The Magician](/knowledge/tarot/major-arcana/the-magician), the card whose motto this is
+
+[^sn-the-emerald-tablet]: The Emerald Tablet, the Tabula Smaragdina, is a brief Hermetic text attributed to Hermes Trismegistus that contains the entire alchemical worldview compressed into a few paragraphs.

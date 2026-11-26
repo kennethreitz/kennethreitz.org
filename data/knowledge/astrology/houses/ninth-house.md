@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Domain
 
-The Ninth House is the house of the far horizon, the mind's reach beyond the known, toward meaning larger than the self. Where the Third House handles the near and the everyday, the Ninth seeks the distant and the abstract: philosophy, religion, the great questions of why we are here and what it all amounts to. It governs higher learning, the university and the pursuit of wisdom beyond mere information, and it rules long journeys, the travel across borders and oceans that widens a life by exposing it to worlds not its own.
+The Ninth House is the house of the far horizon, the mind's reach beyond the known, toward meaning larger than the self. Where the Third House[^sn-third-house] handles the near and the everyday, the Ninth seeks the distant and the abstract: philosophy, religion, the great questions of why we are here and what it all amounts to. It governs higher learning, the university and the pursuit of wisdom beyond mere information, and it rules long journeys, the travel across borders and oceans that widens a life by exposing it to worlds not its own.
 
-This is the house of belief and of the search for truth, the impulse to build a framework of meaning broad enough to live inside. It holds religion and spirituality, the law in its philosophical sense, and the teaching that shares hard-won understanding with others. Physical and mental travel are one gesture here, for both are ways of leaving the familiar in order to grow. Ruled by Jupiter, the Ninth is expansive and optimistic, forever pointing beyond the present circumstance toward something wider. It asks what you are willing to journey toward, and whether your search for meaning is genuine or merely inherited.
+This is the house of belief and of the search for truth, the impulse to build a framework of meaning broad enough to live inside. It holds religion and spirituality, the law in its philosophical sense, and the teaching that shares hard-won understanding with others. Physical and mental travel are one gesture here, for both are ways of leaving the familiar in order to grow. Ruled by Jupiter,[^sn-jupiter-astrology] the Ninth is expansive and optimistic, forever pointing beyond the present circumstance toward something wider. It asks what you are willing to journey toward, and whether your search for meaning is genuine or merely inherited.
 
 ## Correspondences
 
@@ -34,3 +34,7 @@ The Ninth House is cadent, a house of adaptation and reach, and it is the last h
 
 - [Sagittarius](/knowledge/astrology/signs/sagittarius) and its ruling planet [Jupiter](/knowledge/astrology/planets/jupiter-astrology)
 - [Astrology](/knowledge/astrology)
+
+[^sn-third-house]: The Third House is the house of the near and the everyday, the mind not as it contemplates eternity but as it handles the ordinary business of living. See [Third House](/knowledge/astrology/houses/third-house).
+
+[^sn-jupiter-astrology]: Jupiter’s gift is confidence in life itself: the sense that experience is worth trusting, that generosity returns, that the road goes somewhere. The full note is [Jupiter (astrology)](/knowledge/astrology/planets/jupiter-astrology).

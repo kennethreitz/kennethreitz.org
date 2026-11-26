@@ -33,7 +33,7 @@ flowchart TD
 
 ## The Twenty-Two Letters
 
-| Letter | Glyph | Value | Meaning | Class | Trump |
+| Letter | [Glyph](/knowledge/typography/anatomy/glyph) | Value | Meaning | Class | Trump |
 |---|---|---|---|---|---|
 | [Aleph](/knowledge/hebrew-letters/aleph) | א | 1 | Ox | Mother. Air | [The Fool](/knowledge/tarot/major-arcana/the-fool) |
 | [Bet](/knowledge/hebrew-letters/bet) | ב | 2 | House | Double. Mercury | [The Magician](/knowledge/tarot/major-arcana/the-magician) |

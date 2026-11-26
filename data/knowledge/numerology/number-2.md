@@ -27,7 +27,7 @@ This is the number of partnership, diplomacy, and quiet balance. Ruled by the Mo
 
 ## Light & Shadow
 
-At its finest, two is [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess) seated between the pillars, the intuitive knowing that reconciles opposites without collapsing them, the gentle strength of one who supports without needing to command. It gives us empathy, grace, and the genius of collaboration. Yet its shadow is the self that dissolves into the other: the people-pleaser who cannot choose, the partner who bends until nothing of the original shape remains, the resentment that pools in the silence of the endlessly accommodating. Balance held too passively becomes surrender.
+At its finest, two is [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess)[^sn-the-high-priestess] seated between the pillars, the intuitive knowing that reconciles opposites without collapsing them, the gentle strength of one who supports without needing to command. It gives us empathy, grace, and the genius of collaboration. Yet its shadow is the self that dissolves into the other: the people-pleaser who cannot choose, the partner who bends until nothing of the original shape remains, the resentment that pools in the silence of the endlessly accommodating. Balance held too passively becomes surrender.
 
 ## Related
 
@@ -36,3 +36,5 @@ At its finest, two is [The High Priestess](/knowledge/tarot/major-arcana/the-hig
 - [Master Number 11](/knowledge/numerology/master-number-11)
 - [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-high-priestess]: The High Priestess is the guardian of the unconscious, the knowing that arrives without argument.

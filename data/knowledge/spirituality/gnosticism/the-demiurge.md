@@ -18,7 +18,7 @@ The **Demiurge** (Greek *dēmiourgos*, "craftsman" or "public worker") is the fa
 
 ## The Blind God
 
-The Demiurge's defining trait is **arrogant ignorance**. Cast out of [The Pleroma](/knowledge/spirituality/gnosticism/the-pleroma), with no memory of the fullness above him, he surveys the void he has organized and concludes that he is alone in it, the first, the only, the highest. His signature boast, repeated across the Gnostic texts, is a chilling one: *"I am God, and there is no other beside me."* It is chilling because it is not a lie he tells; it is a truth he believes, spoken by a being too blind to see the light he came from. He is Samael, the blind god, sovereign over a prison, certain it is a kingdom.
+The Demiurge's defining trait is **arrogant ignorance**. Cast out of [The Pleroma](/knowledge/spirituality/gnosticism/the-pleroma),[^sn-the-pleroma] with no memory of the fullness above him, he surveys the void he has organized and concludes that he is alone in it, the first, the only, the highest. His signature boast, repeated across the Gnostic texts, is a chilling one: *"I am God, and there is no other beside me."* It is chilling because it is not a lie he tells; it is a truth he believes, spoken by a being too blind to see the light he came from. He is Samael, the blind god, sovereign over a prison, certain it is a kingdom.
 
 From this ignorance flows everything wrong with the world. The Demiurge is not a devil scheming against the good; he is worse in a way, a competent craftsman working from a corrupted blueprint, convinced his botched creation is perfect. He fashions the material realm, populates it with his officers (see [The Archons](/knowledge/spirituality/gnosticism/the-archons)), and sets over it the machinery of fate.
 
@@ -32,7 +32,7 @@ The Gnostic move that most scandalized the proto-orthodox church was polemical a
 
 ## The Counterfeit World
 
-What the Demiurge builds is a **counterfeit**, a world that mimics the true fullness above but is hollow, a prison dressed as a home. This is the tie the tarot's [The Devil](/knowledge/tarot/major-arcana/the-devil) carries in the vault: the card of willing bondage, of chains loose enough to lift, of a comfort that promises pleasure and delivers captivity. The demiurge's cosmos is precisely that Devil's world, a bondage so normalized its inhabitants no longer feel the chains, a material comfort that keeps the divine spark asleep. To awaken through [Gnosis](/knowledge/spirituality/gnosticism/gnosis) is to see the counterfeit for what it is, and to remember that the door was never actually locked.
+What the Demiurge builds is a **counterfeit**, a world that mimics the true fullness above but is hollow, a prison dressed as a home. This is the tie the tarot's [The Devil](/knowledge/tarot/major-arcana/the-devil)[^sn-the-devil] carries in the vault: the card of willing bondage, of chains loose enough to lift, of a comfort that promises pleasure and delivers captivity. The demiurge's cosmos is precisely that Devil's world, a bondage so normalized its inhabitants no longer feel the chains, a material comfort that keeps the divine spark asleep. To awaken through [Gnosis](/knowledge/spirituality/gnosticism/gnosis) is to see the counterfeit for what it is, and to remember that the door was never actually locked.
 
 ---
 
@@ -46,3 +46,6 @@ What the Demiurge builds is a **counterfeit**, a world that mimics the true full
 - [The Devil](/knowledge/tarot/major-arcana/the-devil), the counterfeit world of chains, the bondage the demiurge builds
 - [Christianity](/knowledge/religions-of-the-world/christianity), the tradition whose creator God the Gnostics polemically identified with him
 - [Spirituality](/knowledge/spirituality), the wider domain
+
+[^sn-the-pleroma]: The Pleroma (Greek *plērōma*, "fullness" or "completeness") is the divine realm in Gnostic cosmology, the totality of the true God's self-expression, populated by the emanations called The Aeons.
+[^sn-the-devil]: The Devil is bondage, compulsion, and the shadow embraced unconsciously.

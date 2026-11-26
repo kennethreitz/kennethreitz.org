@@ -25,9 +25,9 @@ source: obsidian-knowledge
 
 Vav is the nail and the hook, the letter whose entire genius is connection. As a prefix it means "and," the conjunction that strings the whole Torah together verse by verse; grammatically it can even reverse the tense of a verb, hooking past to future. Its glyph is a single vertical line, the axis driven between above and below, and the hooks of vav held the curtains of the Tabernacle: the letter is literally what joins heaven's pattern to earth's fabric.
 
-As the number six it is the six days of creation and the six directions of space, north, south, east, west, above, below, radiating from any center. In the four-lettered Name it stands third, the channel that carries the flow from the upper he down to the lower, the child that binds the generations. A simple letter, the Sefer Yetzirah gives it Taurus and the faculty of hearing: the fixed, patient ear through which received things arrive.
+As the number six it is the six days of creation and the six directions of space, north, south, east, west, above, below, radiating from any center. In the four-lettered Name it stands third, the channel that carries the flow from the upper he down to the lower, the child that binds the generations. A simple letter, the Sefer Yetzirah gives it Taurus[^sn-taurus] and the faculty of hearing: the fixed, patient ear through which received things arrive.
 
-On the Tree it is the sixteenth path, joining [Chokmah](/knowledge/tree-of-life/chokmah) to [Chesed](/knowledge/tree-of-life/chesed), wisdom flowing into mercy, the supernal father handing the pattern down the Pillar of Mercy to the first sphere below the Abyss. Its trump is [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant), the bridge-builder and transmitter of tradition, whose office exists solely to nail the revelation of one generation into the hands of the next. Vav is why anything is still attached to its source.
+On the Tree it is the sixteenth path, joining [Chokmah](/knowledge/tree-of-life/chokmah) to [Chesed](/knowledge/tree-of-life/chesed), wisdom flowing into mercy, the supernal father handing the pattern down the Pillar of Mercy to the first sphere below the Abyss. Its trump is [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant),[^sn-the-hierophant] the bridge-builder and transmitter of tradition, whose office exists solely to nail the revelation of one generation into the hands of the next. Vav is why anything is still attached to its source.
 
 ## Related
 
@@ -36,3 +36,7 @@ On the Tree it is the sixteenth path, joining [Chokmah](/knowledge/tree-of-life/
 - [The Hierophant](/knowledge/tarot/major-arcana/the-hierophant)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-the-hierophant]: The Hierophant is the transmission of received wisdom, religion, tradition, mentorship, the tested structures through which meaning is passed down.
+
+[^sn-taurus]: Taurus is the body’s wisdom made into a sign: the pleasure of good food, of sunlight on skin, of work done with the hands until the thing is solid and finished and yours. [Taurus](/knowledge/astrology/signs/taurus) has the rest.

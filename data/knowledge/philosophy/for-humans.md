@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-"For Humans" is Kenneth's core design philosophy, the belief that tools should serve human cognition rather than demanding humans adapt to machine logic. It originated with [requests](/software/requests) ("HTTP for Humans") and has since become the thread running through everything he touches: [simplemind](/software/simplemind) ("AI for Humans"), [pipenv](/software/pipenv), this vault, the way he writes prose, the way he thinks about living.
+"For Humans" is Kenneth's core design philosophy, the belief that tools should serve human cognition rather than demanding humans adapt to machine logic. It originated with [requests](/software/requests) ("HTTP for Humans") and has since become the thread running through everything he touches: [simplemind](/software/simplemind)[^sn-simplemind] ("AI for Humans"), [pipenv](/software/pipenv), this vault, the way he writes prose, the way he thinks about living.
 
 It is not minimalism for its own sake. It is clarity as an act of respect for the human on the other end.
 
@@ -159,3 +159,5 @@ It applies to life. Sensible defaults for daily routines. Progressive disclosure
 ---
 
 *"HTTP libraries should be for humans, not machines."*
+
+[^sn-simplemind]: simplemind applies the "For Humans" philosophy to AI tooling.

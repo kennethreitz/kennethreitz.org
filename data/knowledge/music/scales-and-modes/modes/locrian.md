@@ -26,7 +26,7 @@ The result is a sound with no solid ground beneath it. Where every other diatoni
 
 ## Character
 
-Two features conspire to unmoor Locrian. The flattened second presses against the root with the same brooding tension as Phrygian, and the flattened fifth dissolves the very interval that gives a tonic its stability. Together they produce a diminished, dissonant, vertiginous quality, the ear keeps searching for a resting point that never comes. This is dissonance as a home base rather than a passing colour, which is exactly why the mode is so rarely used as a tonal centre.
+Two features conspire to unmoor Locrian. The flattened second presses against the root with the same brooding tension as Phrygian,[^sn-phrygian] and the flattened fifth dissolves the very interval that gives a tonic its stability. Together they produce a diminished, dissonant, vertiginous quality, the ear keeps searching for a resting point that never comes. This is dissonance as a home base rather than a passing colour, which is exactly why the mode is so rarely used as a tonal centre.
 
 ## In Practice
 
@@ -38,3 +38,5 @@ Locrian appears mostly in fragments: over half-diminished chords in jazz, in fle
 - [Aeolian](/knowledge/music/scales-and-modes/modes/aeolian)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-phrygian]: Phrygian is the third mode of the major scale, beginning on its third degree. See [Phrygian](/knowledge/music/scales-and-modes/modes/phrygian).

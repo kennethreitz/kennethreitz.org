@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Saraswati is the goddess of knowledge, music, speech, and the arts, the flowing current of wisdom and creative expression. She is depicted seated on a white lotus, robed in white, serene and luminous, holding in her four hands a veena, a book, a rosary, and a lotus. She plays the music of the cosmos; she embodies the pure light of learning. Where other goddesses grant wealth or power, Saraswati grants the subtler treasures: understanding, eloquence, and art.
 
-Her name means “the flowing one,” and she was first a river goddess before she became the goddess of all that flows, speech, thought, melody, the movement of the mind toward truth. She is the consort and complementary power of [Brahma](/knowledge/mythology/hindu-mythology/brahma) the creator, for creation requires knowledge; the world is spoken and sung into being, and she is the wisdom by which it is shaped.
+Her name means “the flowing one,” and she was first a river goddess before she became the goddess of all that flows, speech, thought, melody, the movement of the mind toward truth. She is the consort and complementary power of [Brahma](/knowledge/mythology/hindu-mythology/brahma)[^sn-brahma] the creator, for creation requires knowledge; the world is spoken and sung into being, and she is the wisdom by which it is shaped.
 
 ---
 
@@ -44,7 +44,7 @@ Her devotion carries a quiet ethic. Because she is the goddess of clear knowing,
 
 ## Archetypal Significance
 
-Saraswati is the archetype of inner wisdom and the sacred word, knowledge as revelation rather than mere accumulation. She corresponds to [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess) in the tarot: the keeper of hidden knowledge, intuition, the still deep waters of the unconscious mind, wisdom veiled and waiting to be received. Psychologically she is the anima as inspiration, the muse, the voice of clear discernment, and the current of creativity that flows when the mind grows quiet enough to hear it.
+Saraswati is the archetype of inner wisdom and the sacred word, knowledge as revelation rather than mere accumulation. She corresponds to [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess)[^sn-the-high-priestess] in the tarot: the keeper of hidden knowledge, intuition, the still deep waters of the unconscious mind, wisdom veiled and waiting to be received. Psychologically she is the anima as inspiration, the muse, the voice of clear discernment, and the current of creativity that flows when the mind grows quiet enough to hear it.
 
 ---
 
@@ -57,3 +57,6 @@ Saraswati is the archetype of inner wisdom and the sacred word, knowledge as rev
 - [Tarot](/knowledge/tarot) - The symbolic system her archetype maps to
 - [Mythology](/knowledge/mythology) - The wider field of myth
 - [Hindu Mythology Index](/knowledge/mythology/hindu-mythology)
+
+[^sn-brahma]: Brahma is the creator god in the Hindu Trimurti, alongside Vishnu the Preserver and Shiva the Destroyer.
+[^sn-the-high-priestess]: The High Priestess is the guardian of the unconscious, the knowing that arrives without argument.

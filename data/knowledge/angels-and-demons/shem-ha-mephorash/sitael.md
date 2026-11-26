@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Sitael carries the meaning *God of Hope*, the *-el* suffix here anchoring the forward-leaning virtue of hope in the immovable ground of the divine. It is the third angel of Aries, governing the degrees from ten to fifteen, and its office is construction in the fullest sense: the building of things meant to endure, whether stone, institution, or character. The tradition associates it with nobility of soul and with magnanimity, the largeness of heart that keeps promises and honours obligations.
 
-To invoke Sitael is to petition for protection against adversity and against the weapons of the wicked, for the angel is said to shield those engaged in honest labour and to raise them by degrees toward high estate. It confers frankness, generosity, and a love of truth that recoils from deceit. Under its guidance ambition ceases to be mere hunger and becomes instead the patient laying of foundations. Sitael answers the Goetic prince [Vassago](/knowledge/angels-and-demons/ars-goetia/vassago), whose gift for discovering the hidden and declaring things past and to come is, in the angelic key, turned toward the surer knowledge of what ought to be built and how it will stand.
+To invoke Sitael is to petition for protection against adversity and against the weapons of the wicked, for the angel is said to shield those engaged in honest labour and to raise them by degrees toward high estate. It confers frankness, generosity, and a love of truth that recoils from deceit. Under its guidance ambition ceases to be mere hunger and becomes instead the patient laying of foundations. Sitael answers the Goetic prince [Vassago](/knowledge/angels-and-demons/ars-goetia/vassago),[^sn-vassago] whose gift for discovering the hidden and declaring things past and to come is, in the angelic key, turned toward the surer knowledge of what ought to be built and how it will stand.
 
 ## Attributes
 
@@ -34,3 +34,5 @@ To invoke Sitael is to petition for protection against adversity and against the
 - [Angels & Demons](/knowledge/angels-and-demons)
 
 Correspondences follow the Golden Dawn decan attributions: this angel shares the second decan of Aries with its pair, and so the Three of Wands. Some Golden Dawn sources begin the count at 0° Leo rather than 0° Aries.
+
+[^sn-vassago]: Vassago is the third spirit of the *Ars Goetia* and holds the rank of prince.

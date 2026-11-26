@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Poseidon is one of the twelve Olympian deities, brother of [Zeus](/knowledge/mythology/greek-mythology/zeus) and Hades. He rules the oceans with his trident, which can shake the earth and shatter any object. God of the sea, earthquakes, and horses, he is credited with creating the first horse by striking a rock.
+Poseidon is one of the twelve Olympian deities, brother of [Zeus](/knowledge/mythology/greek-mythology/zeus) and Hades.[^sn-hades] He rules the oceans with his trident, which can shake the earth and shatter any object. God of the sea, earthquakes, and horses, he is credited with creating the first horse by striking a rock.
 
 His sacred animals are the horse, dolphin, and bull. Temperamental and powerful, Poseidon embodies the ocean's dual nature: sustaining and destructive, calm and raging. Prone to grudges and quick to send storms, earthquakes, and sea-monsters against those who offend him, he is the most volatile of the three brothers who divided the world.
 
@@ -33,3 +33,5 @@ His sacred animals are the horse, dolphin, and bull. Temperamental and powerful,
 - [Zeus](/knowledge/mythology/greek-mythology/zeus) - Brother
 - [Athena](/knowledge/mythology/greek-mythology/athena) - Rival for Athens
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-hades]: Hades is the god of the underworld and the dead, eldest son of Cronus, brother to Zeus and Poseidon. More in [Hades](/knowledge/mythology/greek-mythology/hades).

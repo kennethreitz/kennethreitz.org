@@ -23,7 +23,7 @@ Dante's sixth terrace starves its penitents into wisdom. The gluttonous circle t
 
 ## The Remedy
 
-The counter-practice is [Temperance](/knowledge/virtues-and-vices/virtues/temperance-virtue), not deprivation but proportion, the trained ability to enjoy a good thing in its right measure and then stop. The temperate person tastes more than the glutton, not less; enough, it turns out, is a skill.
+The counter-practice is [Temperance](/knowledge/virtues-and-vices/virtues/temperance-virtue)[^sn-temperance-virtue], not deprivation but proportion, the trained ability to enjoy a good thing in its right measure and then stop. The temperate person tastes more than the glutton, not less; enough, it turns out, is a skill.
 
 ## The Enneagram Passion
 
@@ -42,3 +42,5 @@ In the [Enneagram](/knowledge/enneagram), gluttony is the passion of [Type 7](/k
 ---
 
 *The fruit hangs close enough to smell. Learning to stand there is the cure.*
+
+[^sn-temperance-virtue]: Temperance is the only virtue that sits on both of the great practical lists.

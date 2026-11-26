@@ -24,7 +24,7 @@ Catholic teaching distinguishes two moments of judgment. The **particular judgme
 
 ## Purgatory: The Catholic Addition
 
-The distinctively Catholic contribution to this landscape is **purgatory**, a state of purification for those who die in God's grace and friendship but are still imperfectly purified. Such souls are assured of salvation, purgatory is not a second hell, and no one there is lost, but they undergo a cleansing that fits them for the sinless intimacy of heaven. The doctrine rests on the conviction that nothing unclean can enter the divine presence, and it grounds the ancient practice of praying for the dead: the living can assist the souls being purified. This is the point at which the tradition diverges most cleanly from the Reformation. [The Reformed](/knowledge/spirituality/calvinism) and Protestants generally reject purgatory outright, holding that Christ's finished work leaves no debt to be worked off and that scripture alone gives no warrant for it; for Catholics it is the mercy that lets an imperfect but faithful soul be made ready rather than turned away.
+The distinctively Catholic contribution to this landscape is **purgatory**, a state of purification for those who die in God's grace and friendship but are still imperfectly purified. Such souls are assured of salvation, purgatory is not a second hell, and no one there is lost, but they undergo a cleansing that fits them for the sinless intimacy of heaven. The doctrine rests on the conviction that nothing unclean can enter the divine presence, and it grounds the ancient practice of praying for the dead: the living can assist the souls being purified. This is the point at which the tradition diverges most cleanly from the Reformation. [The Reformed](/knowledge/spirituality/calvinism)[^sn-calvinism] and Protestants generally reject purgatory outright, holding that Christ's finished work leaves no debt to be worked off and that scripture alone gives no warrant for it; for Catholics it is the mercy that lets an imperfect but faithful soul be made ready rather than turned away.
 
 ---
 
@@ -43,3 +43,5 @@ The Four Last Things give the tradition's moral teaching its urgency. Human choi
 - [Virtues & Vices](/knowledge/virtues-and-vices): The habits that orient the soul
 - [Seven Deadly Sins](/knowledge/virtues-and-vices/seven-deadly-sins): The capital vices
 - [Calvinism](/knowledge/spirituality/calvinism): The Reformed rejection of purgatory
+
+[^sn-calvinism]: Calvinism is the theological system developed by John Calvin (1509-1564) and later systematized by his followers.

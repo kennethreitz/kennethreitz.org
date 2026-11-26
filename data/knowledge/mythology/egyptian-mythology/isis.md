@@ -13,7 +13,7 @@ source: obsidian-knowledge
 
 Isis is the goddess of magic and motherhood, the great enchantress whose name means "the throne", she is the seat of kingship itself, the power that makes a pharaoh a pharaoh. But her deepest domain is hidden knowledge: she is the mistress of secret names and words of power, the one who learned the true name of [Ra](/knowledge/mythology/egyptian-mythology/ra) and with it a share of his sovereignty. Veiled, wise, and inexhaustibly resourceful, she holds the mysteries that the other gods do not.
 
-She is the archetype the tarot calls [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess): the keeper of the veil, the intuitive and hidden wisdom that stands behind the visible throne, the knowledge you must be initiated to receive. Her devotion is legendary, she gathered the scattered body of her murdered husband [Osiris](/knowledge/mythology/egyptian-mythology/osiris), revived him by magic, and hid their son [Horus](/knowledge/mythology/egyptian-mythology/horus) in the marshes until he was grown enough to reclaim his father's kingdom. Wife, sister, mother, sorceress, and mourner, she is the binding force of the whole Osirian myth, the one who refuses to let death be final.
+She is the archetype the tarot calls [The High Priestess](/knowledge/tarot/major-arcana/the-high-priestess):[^sn-the-high-priestess] the keeper of the veil, the intuitive and hidden wisdom that stands behind the visible throne, the knowledge you must be initiated to receive. Her devotion is legendary, she gathered the scattered body of her murdered husband [Osiris](/knowledge/mythology/egyptian-mythology/osiris), revived him by magic, and hid their son [Horus](/knowledge/mythology/egyptian-mythology/horus) in the marshes until he was grown enough to reclaim his father's kingdom. Wife, sister, mother, sorceress, and mourner, she is the binding force of the whole Osirian myth, the one who refuses to let death be final.
 
 ---
 
@@ -35,3 +35,5 @@ She is the archetype the tarot calls [The High Priestess](/knowledge/tarot/major
 - [Ra](/knowledge/mythology/egyptian-mythology/ra): Whose secret name she won
 - [Tarot](/knowledge/tarot)
 - [Mythology](/knowledge/mythology)
+
+[^sn-the-high-priestess]: The High Priestess is the guardian of the unconscious, the knowing that arrives without argument.

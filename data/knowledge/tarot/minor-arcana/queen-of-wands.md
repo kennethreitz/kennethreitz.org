@@ -30,7 +30,7 @@ Reversed, the warmth turns brittle or cold. Confidence curdles into insecurity t
 
 ## Archetype
 
-This is the mature feminine in her fiery aspect, the anima who has integrated her instinct and her shadow, symbolised perfectly by the black cat she keeps close rather than banishes. Jung would see in her a figure well along the path of [Individuation](/knowledge/psychology/jungian/individuation), power and depth reconciled, the [The Shadow](/knowledge/psychology/jungian/the-shadow) befriended rather than feared. She embodies a warmth that can only come from wholeness, kin to the generative radiance of [The Empress](/knowledge/tarot/major-arcana/the-empress) and the confident vitality of [The Sun](/knowledge/tarot/major-arcana/the-sun).
+This is the mature feminine in her fiery aspect, the anima who has integrated her instinct and her shadow, symbolised perfectly by the black cat she keeps close rather than banishes. Jung would see in her a figure well along the path of [Individuation](/knowledge/psychology/jungian/individuation), power and depth reconciled, the [The Shadow](/knowledge/psychology/jungian/the-shadow) befriended rather than feared. She embodies a warmth that can only come from wholeness, kin to the generative radiance of [The Empress](/knowledge/tarot/major-arcana/the-empress) and the confident vitality of [The Sun](/knowledge/tarot/major-arcana/the-sun).[^sn-the-sun]
 
 ## Mythological Echoes
 
@@ -49,3 +49,5 @@ When this card appears, it invites you to stand in your own warmth without shrin
 - [The Empress](/knowledge/tarot/major-arcana/the-empress)
 - [Tarot](/knowledge/tarot)
 - [The Shadow](/knowledge/psychology/jungian/the-shadow)
+
+[^sn-the-sun]: The Sun is joy, clarity, and vitality, success made warm and life lived without concealment.

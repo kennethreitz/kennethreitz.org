@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Hestia is the goddess of the hearth, the firstborn of Cronus and Rhea, and so the eldest of the Olympians (swallowed first and disgorged last, she is sometimes called both the oldest and the youngest). She presides over the hearth fire at the center of every home and every city, and over the domestic and civic order that radiates outward from it. A virgin goddess who turned down both [Poseidon](/knowledge/mythology/greek-mythology/poseidon) and Apollo, she keeps to the still center while the other gods quarrel and wander.
+Hestia is the goddess of the hearth, the firstborn of Cronus and Rhea,[^sn-rhea] and so the eldest of the Olympians (swallowed first and disgorged last, she is sometimes called both the oldest and the youngest). She presides over the hearth fire at the center of every home and every city, and over the domestic and civic order that radiates outward from it. A virgin goddess who turned down both [Poseidon](/knowledge/mythology/greek-mythology/poseidon) and Apollo, she keeps to the still center while the other gods quarrel and wander.
 
 She is the least storied of the great Olympians precisely because her domain is constancy. A goddess of myth is a goddess of disruption, and Hestia is the one who does not disrupt: her fire is the one that must never go out.
 
@@ -33,3 +33,5 @@ She is the least storied of the great Olympians precisely because her domain is 
 - [Hera](/knowledge/mythology/greek-mythology/hera): Sister; the household seen from a different angle
 - [Poseidon](/knowledge/mythology/greek-mythology/poseidon): A suitor she refused
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-rhea]: Rhea is the Titaness of motherhood, daughter of Gaia and Uranus, sister and consort of Cronus, and mother of the first generation of Olympians: Hestia, Demeter, Hera, Hades, Poseidon, and Zeus. Details in [Rhea](/knowledge/mythology/greek-mythology/rhea).

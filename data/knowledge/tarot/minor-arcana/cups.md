@@ -15,11 +15,11 @@ Cups is the suit of [Water](/knowledge/elements/water), the element of feeling, 
 
 ## The Aces Through Tens
 
-The pips of Cups trace the arc of feeling from first wellspring to full flood. The [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups) is the pure source, the Root of the Powers of Water, an overflowing chalice offered from the clouds, grace arriving unearned. From there emotion takes shape and finds its objects: the mirrored union of the Two, the joyful communion of the Three, the withdrawn discontent of the Four, the mourning over spilt cups in the Five, the tender nostalgia of the Six. Then feeling turns inward and is tested, the fantasy and choice of the Seven, the walking-away of the Eight, the satisfied wish of the Nine, until it arrives at the [Ten of Cups](/knowledge/tarot/minor-arcana/ten-of-cups), the rainbow over a family, emotional fulfillment made whole and shared. The arc is the education of the heart: it opens, it bonds, it grieves and imagines, and it learns at last what lasting contentment actually feels like.
+The pips of Cups trace the arc of feeling from first wellspring to full flood. The [Ace of Cups](/knowledge/tarot/minor-arcana/ace-of-cups)[^sn-ace-of-cups] is the pure source, the Root of the Powers of Water, an overflowing chalice offered from the clouds, grace arriving unearned. From there emotion takes shape and finds its objects: the mirrored union of the Two, the joyful communion of the Three, the withdrawn discontent of the Four, the mourning over spilt cups in the Five, the tender nostalgia of the Six. Then feeling turns inward and is tested, the fantasy and choice of the Seven, the walking-away of the Eight, the satisfied wish of the Nine, until it arrives at the [Ten of Cups](/knowledge/tarot/minor-arcana/ten-of-cups), the rainbow over a family, emotional fulfillment made whole and shared. The arc is the education of the heart: it opens, it bonds, it grieves and imagines, and it learns at last what lasting contentment actually feels like.
 
 ## The Court Cards
 
-The four courts personify ways of embodying Water. The [Page of Cups](/knowledge/tarot/minor-arcana/page-of-cups) is the first stirring of feeling, the dreamy messenger, imaginative and tender, a fish surfacing unexpectedly in the cup. The [Knight of Cups](/knowledge/tarot/minor-arcana/knight-of-cups) is Water in motion, the romantic and the idealist, offering his heart like a grail, beautiful and prone to drifting on his own moods. The [Queen of Cups](/knowledge/tarot/minor-arcana/queen-of-cups) is Water made sovereign, the empath enthroned at the shore, feeling everything without drowning, compassion grown into wisdom. The [King of Cups](/knowledge/tarot/minor-arcana/king-of-cups) is Water mastered, emotion held in mature balance, the calm counselor who rules the tides of feeling rather than being ruled by them. Together they run from the dreaming child to the steady, feeling adult.
+The four courts personify ways of embodying Water.[^sn-water] The [Page of Cups](/knowledge/tarot/minor-arcana/page-of-cups) is the first stirring of feeling, the dreamy messenger, imaginative and tender, a fish surfacing unexpectedly in the cup. The [Knight of Cups](/knowledge/tarot/minor-arcana/knight-of-cups) is Water in motion, the romantic and the idealist, offering his heart like a grail, beautiful and prone to drifting on his own moods. The [Queen of Cups](/knowledge/tarot/minor-arcana/queen-of-cups) is Water made sovereign, the empath enthroned at the shore, feeling everything without drowning, compassion grown into wisdom. The [King of Cups](/knowledge/tarot/minor-arcana/king-of-cups) is Water mastered, emotion held in mature balance, the calm counselor who rules the tides of feeling rather than being ruled by them. Together they run from the dreaming child to the steady, feeling adult.
 
 The suit's shape, from its element down through the pips and the rising court, looks like this.
 
@@ -36,7 +36,7 @@ flowchart TD
 
 ## Correspondence
 
-In the Golden Dawn system, Cups answers to the first **Heh** of the Tetragrammaton, the receptive, maternal letter of the divine name, the waters that the primal spark impregnates. Its direction is **West**, the quarter of sunset and the returning tide, where the day sinks back into the deep. In [Astrology](/knowledge/astrology) the suit governs the watery triplicity, the cardinal tide of [Cancer](/knowledge/astrology/signs/cancer), the fixed depth of [Scorpio](/knowledge/astrology/signs/scorpio), and the mutable ocean of [Pisces](/knowledge/astrology/signs/pisces). See the [Table of Correspondences](/knowledge/table-of-correspondences) for the full grid of associations.
+In the Golden Dawn system, Cups answers to the first **Heh** of the Tetragrammaton, the receptive, maternal letter of the divine name, the waters that the primal spark impregnates. Its direction is **West**, the quarter of sunset and the returning tide, where the day sinks back into the deep. In [Astrology](/knowledge/astrology) the suit governs the watery triplicity, the cardinal tide of [Cancer](/knowledge/astrology/signs/cancer),[^sn-cancer] the fixed depth of [Scorpio](/knowledge/astrology/signs/scorpio), and the mutable ocean of [Pisces](/knowledge/astrology/signs/pisces). See the [Table of Correspondences](/knowledge/table-of-correspondences) for the full grid of associations.
 
 ## In Reading
 
@@ -56,3 +56,8 @@ When Cups dominate a spread, the reading is about the emotional life, love, rela
 - [Tarot](/knowledge/tarot)
 - [Table of Correspondences](/knowledge/table-of-correspondences)
 - [Wands](/knowledge/tarot/minor-arcana/wands), [Swords](/knowledge/tarot/minor-arcana/swords), [Pentacles](/knowledge/tarot/minor-arcana/pentacles)
+
+[^sn-ace-of-cups]: The Ace of Cups is the wellspring, the pure, undifferentiated source of feeling before it takes any particular shape.
+[^sn-water]: Water is the element of feeling, the inward tide that receives, dissolves, and remembers. See [Water](/knowledge/elements/water).
+
+[^sn-cancer]: Cancer arrives with the summer solstice, at the sun’s highest turning, and yet its element is water and its ruler the Moon, a sign of tides beneath the brightest day.

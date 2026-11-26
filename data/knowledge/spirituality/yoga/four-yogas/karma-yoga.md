@@ -19,15 +19,15 @@ The scriptural basis is the Bhagavad Gita, more centrally than for any other pat
 
 ## Method and Stages
 
-The method is a progression of motive. First, work with the fruits dedicated, one still wants outcomes but offers them up. Then work as pure duty, done because it is right, outcomes released entirely. Finally, work with no doer at all, the felt sense that action moves through the practitioner rather than from them, which is where Karma yoga empties into the realization [Vedanta](/knowledge/spirituality/vedanta) describes. Vivekananda, whose lectures collected as *Karma-Yoga* brought the path to the West, was blunt about the discipline involved: the world does not need your help, he insisted, you need the work, because unselfish work is what purifies you. Serve, and be grateful you were allowed to serve.
+The method is a progression of motive. First, work with the fruits dedicated, one still wants outcomes but offers them up. Then work as pure duty, done because it is right, outcomes released entirely. Finally, work with no doer at all, the felt sense that action moves through the practitioner rather than from them, which is where Karma[^sn-karma] yoga empties into the realization [Vedanta](/knowledge/spirituality/vedanta) describes. Vivekananda, whose lectures collected as *Karma-Yoga* brought the path to the West, was blunt about the discipline involved: the world does not need your help, he insisted, you need the work, because unselfish work is what purifies you. Serve, and be grateful you were allowed to serve.
 
-The modern exemplar is Gandhi, who called the Gita his "spiritual dictionary" and read it as a manual for desireless action at civilizational scale, satyagraha as Karma yoga applied to politics, the outcome surrendered even while the effort was total. Within [Hinduism](/knowledge/religions-of-the-world/hinduism) the path has always been the householder's yoga: no cave required, no retreat from family or livelihood, only a transformation of the spirit in which ordinary work is done.
+The modern exemplar is Gandhi, who called the Gita his "spiritual dictionary" and read it as a manual for desireless action at civilizational scale, satyagraha as Karma yoga applied to politics, the outcome surrendered even while the effort was total. Within [Hinduism](/knowledge/religions-of-the-world/hinduism)[^sn-hinduism] the path has always been the householder's yoga: no cave required, no retreat from family or livelihood, only a transformation of the spirit in which ordinary work is done.
 
 ---
 
 ## In This Vault
 
-This is the path Kenneth practices most literally, as [Yoga](/knowledge/spirituality/yoga) notes: Open Source is nishkama karma with a version number. Tools built and given away, used by millions of machines daily, with no invoice attached, the work offered, the fruits released. The Gita would recognize the license.
+This is the path Kenneth practices most literally, as [Yoga](/knowledge/spirituality/yoga) notes: Open Source[^sn-open-source] is nishkama karma with a version number. Tools built and given away, used by millions of machines daily, with no invoice attached, the work offered, the fruits released. The Gita would recognize the license.
 
 ---
 
@@ -45,3 +45,8 @@ This is the path Kenneth practices most literally, as [Yoga](/knowledge/spiritua
 ---
 
 *The work is the offering. The letting go is the practice.*
+
+[^sn-hinduism]: Hinduism has no founder, no founding moment, and no single institution that speaks for it.
+
+[^sn-karma]: Karma is one of the most misunderstood concepts in Western spiritual culture. Details in [Karma](/knowledge/spirituality/karma).
+[^sn-open-source]: Open source has a sustainability problem that the industry prefers not to think about too carefully.

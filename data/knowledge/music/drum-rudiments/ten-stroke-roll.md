@@ -23,7 +23,7 @@ Play the diddles tight and even, then release into two full, matched accented st
 
 ## In Practice
 
-The ten stroke roll appears in rudimental solos and cadences and works nicely on the kit where a roll needs to resolve into two placed hits. It sits between the [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll) and the [Eleven Stroke Roll](/knowledge/music/drum-rudiments/eleven-stroke-roll), sharing their double-stroke foundation but with its own two-accent signature.
+The ten stroke roll appears in rudimental solos and cadences and works nicely on the kit where a roll needs to resolve into two placed hits. It sits between the [Nine Stroke Roll](/knowledge/music/drum-rudiments/nine-stroke-roll) and the [Eleven Stroke Roll](/knowledge/music/drum-rudiments/eleven-stroke-roll),[^sn-eleven-stroke-roll] sharing their double-stroke foundation but with its own two-accent signature.
 
 ## Related
 
@@ -31,3 +31,5 @@ The ten stroke roll appears in rudimental solos and cadences and works nicely on
 - [Eleven Stroke Roll](/knowledge/music/drum-rudiments/eleven-stroke-roll)
 - [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-eleven-stroke-roll]: The eleven stroke roll adds another diddle to the family, five double strokes rolling into a single accented tap.

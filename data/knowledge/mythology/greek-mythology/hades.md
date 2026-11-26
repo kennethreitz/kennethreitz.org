@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Hades is the god of the underworld and the dead, eldest son of Cronus, brother to [Zeus](/knowledge/mythology/greek-mythology/zeus) and [Poseidon](/knowledge/mythology/greek-mythology/poseidon). When the three brothers drew lots to divide the cosmos after overthrowing the Titans, Zeus took the sky, Poseidon the sea, and Hades the realm below. He rules the dead but is not death itself (that is Thanatos); he is the grim, even-handed steward of the place all souls eventually reach. The Greeks feared his name enough to call him *Plouton*. "the wealthy one", partly as flattery, partly because the riches of the earth (seed, metal, the buried) belong to the ground he governs.
+Hades is the god of the underworld and the dead, eldest son of Cronus, brother to [Zeus](/knowledge/mythology/greek-mythology/zeus) and [Poseidon](/knowledge/mythology/greek-mythology/poseidon). When the three brothers drew lots to divide the cosmos after overthrowing the Titans, Zeus took the sky, Poseidon[^sn-poseidon] the sea, and Hades the realm below. He rules the dead but is not death itself (that is Thanatos); he is the grim, even-handed steward of the place all souls eventually reach. The Greeks feared his name enough to call him *Plouton*. "the wealthy one", partly as flattery, partly because the riches of the earth (seed, metal, the buried) belong to the ground he governs.
 
 He is not evil, only inexorable. His kingdom takes everyone and releases almost no one.
 
@@ -36,3 +36,5 @@ He is not evil, only inexorable. His kingdom takes everyone and releases almost 
 - [Poseidon](/knowledge/mythology/greek-mythology/poseidon): Brother; sea to his depths
 - [Death](/knowledge/tarot/major-arcana/death): The Major Arcana card whose archetype he embodies: the underworld, the one-way passage, transition
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-poseidon]: Poseidon is one of the twelve Olympian deities, brother of Zeus and Hades. See [Poseidon](/knowledge/mythology/greek-mythology/poseidon).

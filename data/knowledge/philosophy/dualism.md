@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Dualism is the philosophical view that mental phenomena are non-physical and cannot be reduced to physical phenomena. Mind and body/matter are two fundamentally different kinds of substances or properties. This view has deep roots in religious traditions and intuitive experience but faces significant philosophical challenges, particularly the interaction problem. Contrasts with [materialism](/knowledge/philosophy/materialism) and [idealism](/knowledge/philosophy/idealism).
+Dualism is the philosophical view that mental phenomena are non-physical and cannot be reduced to physical phenomena. Mind and body/matter are two fundamentally different kinds of substances or properties. This view has deep roots in religious traditions and intuitive experience but faces significant philosophical challenges, particularly the interaction problem. Contrasts with [materialism](/knowledge/philosophy/materialism)[^sn-materialism] and [idealism](/knowledge/philosophy/idealism).
 
 ---
 
@@ -22,7 +22,7 @@ Dualism is the philosophical view that mental phenomena are non-physical and can
 
 ### Property Dualism
 
-There is only one substance (physical), but it has two kinds of properties. Mental properties emerge from the physical yet cannot be reduced to it. **Epiphenomenalism** takes this further: mental states are caused by the physical but don't themselves cause anything, consciousness as "steam from the train," the mental realm causally inert. **Emergent dualism** pushes back: mental properties emerge from physical complexity and have genuine causal powers. [Emergence](/knowledge/ai/emergence) produces irreducible properties with downward causation.
+There is only one substance (physical), but it has two kinds of properties. Mental properties emerge from the physical yet cannot be reduced to it. **Epiphenomenalism** takes this further: mental states are caused by the physical but don't themselves cause anything, consciousness as "steam from the train," the mental realm causally inert. **Emergent dualism** pushes back: mental properties emerge from physical complexity and have genuine causal powers. [Emergence](/knowledge/ai/emergence)[^sn-emergence] produces irreducible properties with downward causation.
 
 ### Dual-Aspect Theory (Neutral Monism)
 
@@ -72,7 +72,7 @@ The soul is necessary for afterlife, moral responsibility requires non-physical 
 
 ### Unity of Consciousness
 
-Experience is unified and indivisible, but the brain is divided and modular. This unity of self suggests something non-physical, [The Self](/knowledge/psychology/jungian/the-self) as transcendent unity.
+Experience is unified and indivisible, but the brain is divided and modular. This unity of self suggests something non-physical, [The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self] as transcendent unity.
 
 ---
 
@@ -84,7 +84,7 @@ The main objection, never satisfactorily solved. A non-physical cause violates p
 
 ### Occam's Razor
 
-[Materialism](/knowledge/philosophy/materialism) is simpler: one substance. Why multiply entities? Scientific parsimony places the burden of proof on the dualist.
+[Materialism](/knowledge/philosophy/materialism)[^sn-materialism-2] is simpler: one substance. Why multiply entities? Scientific parsimony places the burden of proof on the dualist.
 
 ### Neural Dependence of Mental
 
@@ -152,7 +152,7 @@ Brain-computer interfaces become more problematic under dualism. How do you inte
 
 ### The Psyche as Partly Non-Physical
 
-Jung was not a strict dualist. He proposed the psychoid level, neither purely mental nor physical. The [collective unconscious](/knowledge/psychology/jungian/collective-unconscious) transcends the individual brain, and [synchronicity](/knowledge/psychology/jungian/synchronicity) suggests non-causal connections.
+Jung was not a strict dualist. He proposed the psychoid level, neither purely mental nor physical. The [collective unconscious](/knowledge/psychology/jungian/collective-unconscious)[^sn-collective-unconscious] transcends the individual brain, and [synchronicity](/knowledge/psychology/jungian/synchronicity) suggests non-causal connections.
 
 ### Archetypes
 
@@ -168,7 +168,7 @@ Universal patterns not reducible to the brain, carrying a transcendent dimension
 
 ### Soul and Afterlife
 
-[Religious traditions](/knowledge/spirituality/henotheism) affirm the soul: reincarnation in Hindu and Buddhist thought, heaven and hell in Christianity and Islam. Substance dualism is required for all of them.
+[Religious traditions](/knowledge/spirituality/henotheism)[^sn-henotheism] affirm the soul: reincarnation in Hindu and Buddhist thought, heaven and hell in Christianity and Islam. Substance dualism is required for all of them.
 
 ### Mystical Experience
 
@@ -231,3 +231,11 @@ A non-physical dimension suggests transcendent meaning, not reducible to physica
 - "The Conscious Mind" - David Chalmers (1996)
 - "The Evolution of the Soul" - Richard Swinburne (1986)
 - "Mind and Cosmos" - Thomas Nagel (2012)
+
+[^sn-materialism]: Materialism (also called physicalism in contemporary philosophy) is the view that everything that exists is either matter or depends on matter for its existence.
+[^sn-collective-unconscious]: Jung's collective unconscious is the deepest layer of psyche, not personal but universal.
+[^sn-henotheism]: Henotheism is the worship of a single deity while not denying the existence or possible existence of other deities.
+
+[^sn-emergence]: Emergence is central to understanding modern AI systems and connects deeply to collective unconscious concepts and existential questions about meaning-making.
+[^sn-the-self]: The Self is both the starting point and the goal of development.
+[^sn-materialism-2]: Materialism (also called physicalism in contemporary philosophy) is the view that everything that exists is either matter or depends on matter for its existence.

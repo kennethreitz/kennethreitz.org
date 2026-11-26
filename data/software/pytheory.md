@@ -131,7 +131,7 @@ $ uv add pytheory
 
 ### PyTheory
 
-PyTheory is a complete music theory library and synthesis engine. Explore keys, chords, scales, and progressions, then compose multi-part arrangements and hear them instantly, all from Python. No DAW, no samples, no audio files. The music is the code.
+PyTheory is a complete music theory library and synthesis engine. Explore keys, chords, scales, and progressions, then compose multi-part arrangements and hear them instantly, all from Python.[^sn-interpretations] No DAW, no samples, no audio files. The music is the code.[^sn-created]
 
 ### OP-XY presets
 

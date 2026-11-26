@@ -27,7 +27,7 @@ What the ear registers is momentum. Because each chord acts momentarily as a dom
 
 ## In Practice
 
-It underpins both jazz and classical harmonic motion, the bridge of "rhythm changes," countless Baroque sequences, and standards like "Autumn Leaves" and "I Will Survive" ride waves of descending fifths. Its final three chords are exactly the [ii-V-I](/knowledge/music/chords-and-progressions/progressions/ii-v-i), and the [Backdoor Progression](/knowledge/music/chords-and-progressions/progressions/backdoor-progression) offers an alternate route to the same tonic destination.
+It underpins both jazz and classical harmonic motion, the bridge of "rhythm changes," countless Baroque sequences, and standards like "Autumn Leaves" and "I Will Survive" ride waves of descending fifths. Its final three chords are exactly the [ii-V-I](/knowledge/music/chords-and-progressions/progressions/ii-v-i), and the [Backdoor Progression](/knowledge/music/chords-and-progressions/progressions/backdoor-progression)[^sn-backdoor-progression] offers an alternate route to the same tonic destination.
 
 ## Related
 
@@ -36,3 +36,5 @@ It underpins both jazz and classical harmonic motion, the bridge of "rhythm chan
 - [pytheory](/software/pytheory)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-backdoor-progression]: The backdoor progression is a jazz substitute cadence: ii–♭VII7–I, where a dominant seventh built on the flatted seventh degree stands in for the usual V.

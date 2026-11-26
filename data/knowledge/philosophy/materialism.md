@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Materialism (also called physicalism in contemporary philosophy) is the view that everything that exists is either matter or depends on matter for its existence. Consciousness, thoughts, emotions, and all mental phenomena are ultimately physical processes in the brain. This is the dominant metaphysical view in contemporary science and contrasts with [idealism](/knowledge/philosophy/idealism) and [dualism](/knowledge/philosophy/dualism).
+Materialism (also called physicalism in contemporary philosophy) is the view that everything that exists is either matter or depends on matter for its existence. Consciousness, thoughts, emotions, and all mental phenomena are ultimately physical processes in the brain. This is the dominant metaphysical view in contemporary science and contrasts with [idealism](/knowledge/philosophy/idealism)[^sn-idealism] and [dualism](/knowledge/philosophy/dualism).
 
 ---
 
@@ -22,7 +22,7 @@ Materialism (also called physicalism in contemporary philosophy) is the view tha
 
 ### Reductive Materialism (Identity Theory)
 
-Mental states are brain states. "Pain" is identical to "C-fiber firing", type-identity with one-to-one correspondence. The problems: multiple realizability means the same mental state can have different physical implementations. The theory explains away consciousness rather than explaining it, and [AI consciousness](/knowledge/ai/ai-sentience) would require identical brain states.
+Mental states are brain states. "Pain" is identical to "C-fiber firing", type-identity with one-to-one correspondence. The problems: multiple realizability means the same mental state can have different physical implementations. The theory explains away consciousness rather than explaining it, and [AI consciousness](/knowledge/ai/ai-sentience)[^sn-ai-sentience] would require identical brain states.
 
 ### Non-Reductive Materialism
 
@@ -42,7 +42,7 @@ All physical effects have physical causes. Mental states have physical effects (
 
 ### Occam's Razor
 
-Simpler ontology: only one kind of stuff. [Dualism](/knowledge/philosophy/dualism) requires two substances, [idealism](/knowledge/philosophy/idealism) requires explaining apparent matter. Materialism wins on parsimony.
+Simpler ontology: only one kind of stuff. [Dualism](/knowledge/philosophy/dualism)[^sn-dualism] requires two substances, [idealism](/knowledge/philosophy/idealism) requires explaining apparent matter. Materialism wins on parsimony.
 
 ### Scientific Success
 
@@ -154,7 +154,7 @@ Physical determinism challenges free will. Compatibilism argues freedom is compa
 
 ### Religious/Spiritual Critique
 
-Materialism reduces the human to a machine, eliminates the soul, the sacred, the transcendent. [Spiritual experiences](/knowledge/spirituality/henotheism) are explained away. The implications are dehumanizing.
+Materialism reduces the human to a machine, eliminates the soul, the sacred, the transcendent. [Spiritual experiences](/knowledge/spirituality/henotheism)[^sn-henotheism] are explained away. The implications are dehumanizing.
 
 ---
 
@@ -162,7 +162,7 @@ Materialism reduces the human to a machine, eliminates the soul, the sacred, the
 
 ### The Collective Unconscious Challenge
 
-[Archetypes](/knowledge/psychology/jungian/collective-unconscious) seem non-material: universal patterns appearing across cultures. [Synchronicity](/knowledge/psychology/jungian/synchronicity) challenges causal closure. The psychoid level is neither purely mental nor physical.
+[Archetypes](/knowledge/psychology/jungian/collective-unconscious)[^sn-collective-unconscious] seem non-material: universal patterns appearing across cultures. [Synchronicity](/knowledge/psychology/jungian/synchronicity) challenges causal closure. The psychoid level is neither purely mental nor physical.
 
 ### Materialist Interpretation of Jung
 
@@ -208,3 +208,10 @@ Jung was not a pure materialist. He proposed psychoid reality, a mind-matter con
 - "A Materialist Theory of the Mind" - D.M. Armstrong (1968)
 - "The Astonishing Hypothesis" - Francis Crick (1994)
 - "Philosophy and the Brain" - J.J.C. Smart
+
+[^sn-ai-sentience]: AI sentience refers to the question of whether artificial intelligence systems can possess subjective experience, consciousness, or "what it's like" to be that system.
+[^sn-henotheism]: Henotheism is the worship of a single deity while not denying the existence or possible existence of other deities.
+[^sn-collective-unconscious]: Jung's collective unconscious is the deepest layer of psyche, not personal but universal.
+
+[^sn-idealism]: Idealism is the philosophical view that reality is fundamentally mental, mind-dependent, or immaterial.
+[^sn-dualism]: Dualism is the philosophical view that mental phenomena are non-physical and cannot be reduced to physical phenomena.

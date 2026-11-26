@@ -27,7 +27,7 @@ The Greeks gave it its name and its legend: *amethystos*, not intoxicated, a sto
 
 ## Properties
 
-Amethyst governs the upper reaches of the [chakra](/knowledge/chakras) system, opening the [third eye](/knowledge/chakras/ajna) to intuition and quieting the noise that keeps it closed. It is the great calming stone, an antidote to anxiety, overthinking, and the compulsions that pull the mind away from itself. Long associated with sobriety in every sense, it steadies those working to release a craving, and offers a gentle but real spiritual protection, dissolving lower energies before they take root.
+Amethyst governs the upper reaches of the [chakra](/knowledge/chakras) system, opening the [third eye](/knowledge/chakras/ajna)[^sn-ajna] to intuition and quieting the noise that keeps it closed. It is the great calming stone, an antidote to anxiety, overthinking, and the compulsions that pull the mind away from itself. Long associated with sobriety in every sense, it steadies those working to release a craving, and offers a gentle but real spiritual protection, dissolving lower energies before they take root.
 
 ## In Practice
 
@@ -40,3 +40,5 @@ Placed beneath the pillow or on the nightstand, Amethyst is the classic aid for 
 - [Lapis Lazuli](/knowledge/crystals-and-gemstones/lapis-lazuli)
 - [Ajna](/knowledge/chakras/ajna)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-ajna]: Ajna sits between the eyebrows, the storied third eye, and its name means “command” or “perceive”, the centre from which the whole system is at last surveyed and directed.

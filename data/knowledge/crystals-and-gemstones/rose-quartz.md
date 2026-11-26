@@ -27,11 +27,11 @@ The stone has been associated with love for as long as there are records to cons
 
 ## Properties
 
-Rose Quartz is the great stone of the [heart](/knowledge/chakras/anahata), the classic bearer of unconditional love. But its most important teaching is often overlooked: the love it opens begins at home. Before it softens us toward others, it asks us to extend compassion inward, to meet our own wounds with tenderness rather than judgement. It gentles grief, dissolves resentment, and lowers the defences we mistake for strength, restoring trust in the possibility of connection.
+Rose Quartz is the great stone of the [heart](/knowledge/chakras/anahata)[^sn-anahata], the classic bearer of unconditional love. But its most important teaching is often overlooked: the love it opens begins at home. Before it softens us toward others, it asks us to extend compassion inward, to meet our own wounds with tenderness rather than judgement. It gentles grief, dissolves resentment, and lowers the defences we mistake for strength, restoring trust in the possibility of connection.
 
 ## In Practice
 
-Kept by the bedside, Rose Quartz is said to invite gentler rest and warmer dreams; held over the heart in meditation, it draws attention to what has been guarded there. Many carry a tumbled piece simply to remember softness during a hard day. It cleanses easily in moonlight or running water, and pairs beautifully with [Rhodonite](/knowledge/crystals-and-gemstones/rhodonite) for emotional healing.
+Kept by the bedside, Rose Quartz is said to invite gentler rest and warmer dreams; held over the heart in meditation, it draws attention to what has been guarded there. Many carry a tumbled piece simply to remember softness during a hard day. It cleanses easily in moonlight or running water, and pairs beautifully with [Rhodonite](/knowledge/crystals-and-gemstones/rhodonite)[^sn-rhodonite] for emotional healing.
 
 ## Related
 
@@ -40,3 +40,7 @@ Kept by the bedside, Rose Quartz is said to invite gentler rest and warmer dream
 - [Clear Quartz](/knowledge/crystals-and-gemstones/clear-quartz)
 - [Anahata](/knowledge/chakras/anahata)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-rhodonite]: Rhodonite is a warm rose-pink laced with veins and patches of black, manganese oxide threading through the pink like ink through blossom.
+
+[^sn-anahata]: Anahata sits at the centre of the chest, the hinge on which the whole system turns.

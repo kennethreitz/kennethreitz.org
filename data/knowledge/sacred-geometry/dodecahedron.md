@@ -29,7 +29,7 @@ It is the dual of the icosahedron, its twelve face-centers marking that solid's 
 
 ## Meaning
 
-Where the other four solids are given to the elements of the sublunary world, the dodecahedron is reserved for Aether, the fifth essence, the quintessence that pervades and transcends the material. In [Alchemy](/knowledge/alchemy) the quintessence is the refined spirit distilled out of the four elements, the subtle unity behind their multiplicity, the aim of the great work. The dodecahedron thus becomes the geometry of the whole and the heavenly, the vessel of the zodiac and the emblem of that which contains all else. Its pentagonal faces, laced with the golden proportion, tie it to the [Golden Ratio](/knowledge/sacred-geometry/golden-ratio) and to the sense that the cosmos is ordered by a beauty just beyond the reach of counting.
+Where the other four solids are given to the elements of the sublunary world, the dodecahedron is reserved for Aether, the fifth essence, the quintessence that pervades and transcends the material. In [Alchemy](/knowledge/alchemy) the quintessence is the refined spirit distilled out of the four elements, the subtle unity behind their multiplicity, the aim of the great work. The dodecahedron thus becomes the geometry of the whole and the heavenly, the vessel of the zodiac and the emblem of that which contains all else. Its pentagonal faces, laced with the golden proportion, tie it to the [Golden Ratio](/knowledge/sacred-geometry/golden-ratio)[^sn-golden-ratio] and to the sense that the cosmos is ordered by a beauty just beyond the reach of counting.
 
 ## Related
 
@@ -37,3 +37,5 @@ Where the other four solids are given to the elements of the sublunary world, th
 - [Icosahedron](/knowledge/sacred-geometry/icosahedron)
 - [Golden Ratio](/knowledge/sacred-geometry/golden-ratio)
 - [Sacred Geometry](/knowledge/sacred-geometry)
+
+[^sn-golden-ratio]: The golden ratio, denoted by the Greek letter phi, is the proportion in which a line is divided so that the whole is to the larger part as the larger part is to the smaller.

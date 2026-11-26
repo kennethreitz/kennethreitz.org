@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Ronove: also rendered Ronwe or Roneve: is the twenty-seventh spirit of the Ars Goetia, named in the tradition as both a Marquis and a Great Earl of the infernal orders. The grimoire describes him only as a monster, without the elaborate composite forms given to many of his fellows, leaving his precise appearance to the imagination of the operator. Some later illustrators depicted him as a figure holding a staff, but the manuscript itself is spare on this point, an unusual reticence within a text otherwise given to vivid description.
 
-What the tradition emphasises instead is his role as a teacher, particularly of language and eloquence, which situates Ronove among the scholarly spirits of the Lesser Key alongside figures such as Naberius.
+What the tradition emphasises instead is his role as a teacher, particularly of language and eloquence, which situates Ronove among the scholarly spirits of the Lesser Key alongside figures such as Naberius.[^sn-naberius]
 
 ## Office
 
@@ -34,3 +34,5 @@ The Goetia holds that Ronove teaches the art of rhetoric and gives good and fait
 - [Bune](/knowledge/angels-and-demons/ars-goetia/bune)
 - [Berith](/knowledge/angels-and-demons/ars-goetia/berith)
 - [Ars Goetia](/knowledge/angels-and-demons/ars-goetia)
+
+[^sn-naberius]: Naberius, also rendered Cerberus or Naberus, is the twenty-fourth spirit of the Ars Goetia, a valiant Marquis of the infernal hierarchy. See [Naberius](/knowledge/angels-and-demons/ars-goetia/naberius).

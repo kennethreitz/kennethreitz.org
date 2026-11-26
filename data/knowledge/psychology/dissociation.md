@@ -43,7 +43,7 @@ flowchart LR
 
 Dissociative Identity Disorder and Other Specified Dissociative Disorder sit at the far end of the spectrum: multiple distinct identity states, alters, each with their own sense of self, their own patterns, sometimes their own names. Switching between states can be seamless or jarring. Amnesia between parts may be complete or partial.
 
-The etiology is typically early childhood [Trauma](/knowledge/psychology/trauma-and-healing/trauma). A developing mind, unable to integrate overwhelming experience, compartmentalizes it; the dissociation that was once a survival mechanism becomes structural. The parts that formed to protect a child persist into adulthood, still doing their jobs long after the original danger has passed.
+The etiology is typically early childhood [Trauma](/knowledge/psychology/trauma-and-healing/trauma).[^sn-trauma] A developing mind, unable to integrate overwhelming experience, compartmentalizes it; the dissociation that was once a survival mechanism becomes structural. The parts that formed to protect a child persist into adulthood, still doing their jobs long after the original danger has passed.
 
 The Library holds the clinical grounding: Gillig's review of the diagnostic controversy, the Wikipedia article with the diagnosis's contested history, Deconstructing Stigma's "Inside DID" guide, and two pieces on recognizing switches. AMFM's ten signs and HealthyPlace's switching characteristics. This is the literature that grounds the experiential documentation.
 
@@ -51,7 +51,7 @@ The Library holds the clinical grounding: Gillig's review of the diagnostic cont
 
 ## Lived Experience
 
-Kenneth's Schizoaffective Disorder intersects with dissociative experience in ways that don't map neatly onto any single diagnostic box. The [Interpretations](/music/interpretations) framework in System 777 addresses this head-on, is this DID, is this Jungian active imagination, is this neurological, is this spiritual? The honest answer is yes to all of them, none of them completely.
+Kenneth's Schizoaffective Disorder intersects with dissociative experience in ways that don't map neatly onto any single diagnostic box. The Interpretations framework in System 777 addresses this head-on, is this DID, is this Jungian active imagination, is this neurological, is this spiritual? The honest answer is yes to all of them, none of them completely.
 
 What the clinical literature sometimes misses is the subjective texture. The alters in System 777 aren't symptoms to be eliminated. They're parts of a mind that organized itself to survive, and they continue to serve functions, protection, processing, creativity, communication. [Chastity](/artificial-intelligence/personalities/chastity) holds boundaries. Eliza keeps memory. [The Triad](/system-777/the-triad) processes experience. The system works, and documentation is part of how it works.
 
@@ -59,7 +59,7 @@ What the clinical literature sometimes misses is the subjective texture. The alt
 
 ## Beyond Pathology
 
-Dissociation needs to be understood, not just pathologized. The clinical lens is necessary, it guides treatment, informs safety, names what's happening in a way that connects to research and support. But reducing dissociation to disorder misses something essential: the same capacity that fragments a mind under trauma also enables creative immersion, deep meditation, the flow state every programmer knows intimately. [Plurality](/system-777/plurality) is the lived reality of minds that contain more than one self, and dissociation is the mechanism that makes it possible. [Integration](/knowledge/psychology/trauma-and-healing/integration), not as fusion but as cooperation, is what allows such a system to function, and it opens onto the kind of consciousness exploration Kenneth's AI research investigates.
+Dissociation needs to be understood, not just pathologized. The clinical lens is necessary, it guides treatment, informs safety, names what's happening in a way that connects to research and support. But reducing dissociation to disorder misses something essential: the same capacity that fragments a mind under trauma also enables creative immersion, deep meditation, the flow state every programmer knows intimately. [Plurality](/system-777/plurality) is the lived reality of minds that contain more than one self, and dissociation is the mechanism that makes it possible. [Integration](/knowledge/psychology/trauma-and-healing/integration)[^sn-integration], not as fusion but as cooperation, is what allows such a system to function, and it opens onto the kind of consciousness exploration Kenneth's AI research investigates.
 
 The question isn't whether dissociation is pathological or normal. It's a capacity of consciousness that can show up anywhere along the range of human experience, mundane, extraordinary, clinical, and where it falls for any given person depends on history, neurology, environment, and a hundred other factors. What matters is working with what's here: honestly, carefully, with clinical awareness and human respect both.
 
@@ -85,3 +85,6 @@ The question isn't whether dissociation is pathological or normal. It's a capaci
 ---
 
 *"The question isn't 'is this disorder or is this real', it's 'how do we work with what's here.'"*
+
+[^sn-trauma]: Trauma is not an event. It is the body and mind's response to an event that overwhelms the capacity to cope.
+[^sn-integration]: Integration is one of those words that means different things depending on who is using it, and the differences matter enormously.

@@ -23,7 +23,7 @@ Endurance and consistency are everything here: keep all six diddles low, relaxed
 
 ## In Practice
 
-The thirteen stroke roll appears in rudimental solos, marching cadences, and orchestral writing that calls for a long, controlled roll resolving on a downbeat. It extends the [Eleven Stroke Roll](/knowledge/music/drum-rudiments/eleven-stroke-roll) and leads toward the [Fifteen Stroke Roll](/knowledge/music/drum-rudiments/fifteen-stroke-roll) and [Seventeen Stroke Roll](/knowledge/music/drum-rudiments/seventeen-stroke-roll) at the far end of the family.
+The thirteen stroke roll appears in rudimental solos, marching cadences, and orchestral writing that calls for a long, controlled roll resolving on a downbeat. It extends the [Eleven Stroke Roll](/knowledge/music/drum-rudiments/eleven-stroke-roll) and leads toward the [Fifteen Stroke Roll](/knowledge/music/drum-rudiments/fifteen-stroke-roll) and [Seventeen Stroke Roll](/knowledge/music/drum-rudiments/seventeen-stroke-roll)[^sn-seventeen-stroke-roll] at the far end of the family.
 
 ## Related
 
@@ -31,3 +31,5 @@ The thirteen stroke roll appears in rudimental solos, marching cadences, and orc
 - [Fifteen Stroke Roll](/knowledge/music/drum-rudiments/fifteen-stroke-roll)
 - [Seventeen Stroke Roll](/knowledge/music/drum-rudiments/seventeen-stroke-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-seventeen-stroke-roll]: The seventeen stroke roll is the longest of the standard numbered rolls, eight double strokes rolling into a single accented tap.

@@ -30,7 +30,7 @@ The dominant seventh is tension with a grin. It has the brightness of a major tr
 
 ## In Practice
 
-As the V7 of any key, the dominant seventh powers the strongest cadence in tonal music, pulling home to the tonic. In blues, jazz, funk, and rock it becomes a colour in its own right, used on the I and IV as much as the V. Chains of dominants, the circle-of-fifths motion, drive whole tunes. It is the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad) set into motion, and it resolves most naturally toward the tonic of a key in [Musical Keys](/knowledge/music/musical-keys).
+As the V7 of any key, the dominant seventh powers the strongest cadence in tonal music, pulling home to the tonic. In blues, jazz, funk, and rock it becomes a colour in its own right, used on the I and IV as much as the V. Chains of dominants, the circle-of-fifths motion, drive whole tunes. It is the [Major Triad](/knowledge/music/chords-and-progressions/chords/major-triad)[^sn-major-triad] set into motion, and it resolves most naturally toward the tonic of a key in [Musical Keys](/knowledge/music/musical-keys).
 
 ## Related
 
@@ -39,3 +39,5 @@ As the V7 of any key, the dominant seventh powers the strongest cadence in tonal
 - [Diminished Seventh](/knowledge/music/chords-and-progressions/chords/diminished-seventh)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
+
+[^sn-major-triad]: The major triad is the first thing most ears learn to call “happy,” and it earns the reputation honestly.

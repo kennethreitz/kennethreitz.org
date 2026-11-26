@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Hyperion is the Titan of heavenly light: his name means "the one who goes above," or "the watcher from on high," and he is the light of the sky considered as a power in its own right, the father of the very luminaries that traverse it. Son of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus), he took his sister [Theia](/knowledge/mythology/greek-mythology/theia), goddess of the shining upper air, as his wife, and from that union of light and vision came the three great lights of the world: [Helios](/knowledge/mythology/greek-mythology/helios) the sun, [Selene](/knowledge/mythology/greek-mythology/selene) the moon, and [Eos](/knowledge/mythology/greek-mythology/eos) the dawn. Hyperion is thus not himself the sun but the elder principle of illumination from which the sun descends, the sky's brightness before it was ever divided into day, night, and dawn.
+Hyperion is the Titan of heavenly light: his name means "the one who goes above," or "the watcher from on high," and he is the light of the sky considered as a power in its own right, the father of the very luminaries that traverse it. Son of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus),[^sn-uranus] he took his sister [Theia](/knowledge/mythology/greek-mythology/theia), goddess of the shining upper air, as his wife, and from that union of light and vision came the three great lights of the world: [Helios](/knowledge/mythology/greek-mythology/helios) the sun, [Selene](/knowledge/mythology/greek-mythology/selene) the moon, and [Eos](/knowledge/mythology/greek-mythology/eos) the dawn. Hyperion is thus not himself the sun but the elder principle of illumination from which the sun descends, the sky's brightness before it was ever divided into day, night, and dawn.
 
 In the earliest ordering of the cosmos he is one of the four Titan brothers who set the pillars of the world in place, holding the sky apart from the earth at his quarter of the horizon, the eastern pillar, the place of rising light. He is a figure more of cosmic architecture than of story: the deep source of the light his children carry, standing behind them the way a dawn stands behind the day it opens.
 
@@ -38,3 +38,5 @@ In the earliest ordering of the cosmos he is one of the four Titan brothers who 
 - [Uranus](/knowledge/mythology/greek-mythology/uranus): His father, the sky
 - [Mythology](/knowledge/mythology)
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-uranus]: Uranus is the sky, the primordial heaven, born of Gaia (the Earth) and then her consort, the two of them the first parents of the cosmos.

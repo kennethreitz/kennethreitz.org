@@ -26,7 +26,7 @@ The later Hatha tradition built an extensive pharmacopoeia of techniques, altern
 
 ## Place in the Sequence
 
-Pranayama completes the outer limbs. Behind it lie conduct ([Yama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/yama), [Niyama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/niyama)) and body ([Asana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/asana)); ahead lies the decisive turn. Having quieted the world, the body, and the breath, the practitioner next withdraws attention from the senses altogether, [Pratyahara](/knowledge/spirituality/yoga/eight-limbs-of-yoga/pratyahara), the fifth limb, the doorway between the outer work and the inner.
+Pranayama completes the outer limbs. Behind it lie conduct ([Yama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/yama), [Niyama](/knowledge/spirituality/yoga/eight-limbs-of-yoga/niyama)) and body ([Asana](/knowledge/spirituality/yoga/eight-limbs-of-yoga/asana)); ahead lies the decisive turn. Having quieted the world, the body, and the breath, the practitioner next withdraws attention from the senses altogether, [Pratyahara](/knowledge/spirituality/yoga/eight-limbs-of-yoga/pratyahara),[^sn-pratyahara] the fifth limb, the doorway between the outer work and the inner.
 
 ---
 
@@ -38,3 +38,5 @@ Pranayama completes the outer limbs. Behind it lie conduct ([Yama](/knowledge/sp
 - [Chakras](/knowledge/chakras), the subtle anatomy the breath moves through
 - [Kundalini & Tantra](/knowledge/spirituality/mysticism/kundalini-and-tantra), where the energetic reading of breath-work leads
 - [Yoga](/knowledge/spirituality/yoga), the parent overview
+
+[^sn-pratyahara]: Pratyahara is the hinge of the eight limbs, the point where the practice stops working on the world and starts working on the mind.

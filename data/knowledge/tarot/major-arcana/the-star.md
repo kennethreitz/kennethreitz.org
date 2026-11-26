@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A naked woman kneels at the edge of a still pool, one foot resting on the water’s surface, one knee on the land. She holds two vessels, pouring water from one back into the pool and from the other onto the earth, where it branches into five streams. Above her a great eight-pointed star blazes, surrounded by seven smaller stars. A bird, the ibis of thought, perches in a tree behind her. The night is calm and clear. After the shattering of [The Tower](/knowledge/tarot/major-arcana/the-tower), everything here is quiet, open, and unashamed: hope in its most undefended form, the soul washing itself clean beneath a serene sky.
+A naked woman kneels at the edge of a still pool, one foot resting on the water’s surface, one knee on the land. She holds two vessels, pouring water from one back into the pool and from the other onto the earth, where it branches into five streams. Above her a great eight-pointed star blazes, surrounded by seven smaller stars. A bird, the ibis of thought, perches in a tree behind her. The night is calm and clear. After the shattering of [The Tower](/knowledge/tarot/major-arcana/the-tower),[^sn-the-tower] everything here is quiet, open, and unashamed: hope in its most undefended form, the soul washing itself clean beneath a serene sky.
 
 ## Upright
 
@@ -31,7 +31,7 @@ Reversed, the light seems distant. The card can mean discouragement, faithlessne
 
 ## Archetype
 
-The Star is the archetype of hope as a structuring force of the psyche, the guiding light that reorients the self after the collapse of the false. Following the Tower’s destruction of the inflated ego, the Star is the first clear glimpse of [The Self](/knowledge/psychology/jungian/the-self) as an authentic centre, felt as calm, trust, and renewed connection to something larger. Jung saw such images of serene, star-lit water as symbols of the unconscious made benevolent, the deep restored to its healing aspect. It is the promise that survives the night.
+The Star is the archetype of hope as a structuring force of the psyche, the guiding light that reorients the self after the collapse of the false. Following the Tower’s destruction of the inflated ego, the Star is the first clear glimpse of [The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self] as an authentic centre, felt as calm, trust, and renewed connection to something larger. Jung saw such images of serene, star-lit water as symbols of the unconscious made benevolent, the deep restored to its healing aspect. It is the promise that survives the night.
 
 ## Mythological Echoes
 
@@ -48,3 +48,7 @@ When the Star appears, the reading turns toward hope, healing, and quiet renewal
 - [Temperance](/knowledge/tarot/major-arcana/temperance)
 - [The Self](/knowledge/psychology/jungian/the-self)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-tower]: The Tower is sudden upheaval, the collapse of what was built on illusion.
+
+[^sn-the-self]: The Self is the center of the total personality, conscious and unconscious together.

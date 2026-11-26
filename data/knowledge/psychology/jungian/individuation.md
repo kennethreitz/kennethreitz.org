@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ## Definition
 
-Individuation is the central process in Jungian psychology, the lifelong journey of becoming who you truly are. It is the differentiation of the individual from the collective, the integration of conscious and unconscious, and the realization of the Self. The tarot renders this same arc as the Fool's Journey through the [Major Arcana](/knowledge/tarot/major-arcana), from [The Fool](/knowledge/tarot/major-arcana/the-fool)'s naive first step to the completed wholeness of [The World](/knowledge/tarot/major-arcana/the-world).
+Individuation is the central process in Jungian psychology, the lifelong journey of becoming who you truly are. It is the differentiation of the individual from the collective, the integration of conscious and unconscious, and the realization of the Self. The tarot renders this same arc as the Fool's Journey through the [Major Arcana](/knowledge/tarot/major-arcana), from [The Fool](/knowledge/tarot/major-arcana/the-fool)'s naive first step to the completed wholeness of [The World](/knowledge/tarot/major-arcana/the-world).[^sn-the-world]
 
 **Jung's Definition**: "Individuation means becoming a single, homogeneous being, and, in so far as 'individuality' embraces our innermost, last, and incomparable uniqueness, it also implies becoming one's own self."
 
@@ -68,7 +68,7 @@ flowchart LR
 
 ### 1. Confrontation with the Shadow
 
-The first major step: facing what we've rejected, owning projections, integrating the "dark" side. See: [The Shadow](/knowledge/psychology/jungian/the-shadow)
+The first major step: facing what we've rejected, owning projections, integrating the "dark" side. See: [The Shadow](/knowledge/psychology/jungian/the-shadow)[^sn-the-shadow]
 
 ### 2. Encounter with Anima/Animus
 
@@ -76,7 +76,7 @@ Meeting the contrasexual other within, withdrawing romantic projections, develop
 
 ### 3. Development of the Self
 
-Realizing the organizing center, living from your core, ego serving the Self, wholeness and integration. See: [The Self](/knowledge/psychology/jungian/the-self)
+Realizing the organizing center, living from your core, ego serving the Self, wholeness and integration. See: [The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self]
 
 ### 4. Mana Personality
 
@@ -200,3 +200,7 @@ Death is completion. Individuation prepares for death; integration makes death m
 - James Hollis - "The Middle Passage"
 - Marion Woodman - "The Pregnant Virgin"
 - Robert Johnson - "Inner Work"
+
+[^sn-the-world]: The World is completion, integration, and the fulfilment of the whole journey.
+[^sn-the-shadow]: In Jungian psychology, the Shadow is the disowned part of the psyche, everything we can't accept about ourselves gets pushed into this unconscious container.
+[^sn-the-self]: The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche.

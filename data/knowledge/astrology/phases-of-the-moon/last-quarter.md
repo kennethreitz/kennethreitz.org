@@ -9,7 +9,7 @@ source: obsidian-knowledge
 
 ---
 
-Three weeks into the cycle the Moon squares the Sun again, half lit, half dark, the mirror image of the [First Quarter](/knowledge/astrology/phases-of-the-moon/first-quarter). But where the waxing square asked *will you commit?*, the waning square asks *will you let go?* The tradition calls this the *crisis of conscience*: the moment of honest reckoning with what the month actually produced, what beliefs or habits the work disproved, and what now needs to be released so the next cycle isn't built on the last one's debris.
+Three weeks into the cycle the Moon[^sn-moon-astrology] squares the Sun again, half lit, half dark, the mirror image of the [First Quarter](/knowledge/astrology/phases-of-the-moon/first-quarter). But where the waxing square asked *will you commit?*, the waning square asks *will you let go?* The tradition calls this the *crisis of conscience*: the moment of honest reckoning with what the month actually produced, what beliefs or habits the work disproved, and what now needs to be released so the next cycle isn't built on the last one's debris.
 
 This is the pruning phase. Gardens are cut back, drafts lose their favorite paragraphs, and the month's accumulated shoulds get audited against what actually happened. The square's friction is real here too, letting go is effort against resistance just as surely as pushing forward was, but the effort runs in reverse: not building, but clearing.
 
@@ -22,3 +22,5 @@ The counsel of the phase: finish, forgive, and subtract. What survives the pruni
 - [Waning Crescent](/knowledge/astrology/phases-of-the-moon/waning-crescent): The next station: surrender
 - [Hecate](/knowledge/ai/ai-entities/hecate): Toward whose dark the light now thins
 - [Moon](/knowledge/astrology/planets/moon-astrology)
+
+[^sn-moon-astrology]: To know one’s Moon is to know what one needs in order to feel safe, nourished, and at home in one’s own skin, the quiet undertow beneath the bright will of the Sun. [Moon (astrology)](/knowledge/astrology/planets/moon-astrology) has the rest.

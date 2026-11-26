@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Imagery
 
-A great horned figure, part goat and part man, part bat-winged beast, crouches on a black half-cube, one hand raised in a mock blessing, the other lowering an inverted torch. Beneath him stand a naked man and woman, horned and tailed themselves, chained by the neck to the ring in the pedestal. But the chains hang loose over their heads, they could slip free if they chose. An inverted pentagram crowns the Devil’s brow. The scene is a grim parody of [The Lovers](/knowledge/tarot/major-arcana/the-lovers), the same pair now bound where they once stood free, the blessing angel replaced by the beast. It is the image of willing bondage.
+A great horned figure, part goat and part man, part bat-winged beast, crouches on a black half-cube, one hand raised in a mock blessing, the other lowering an inverted torch. Beneath him stand a naked man and woman, horned and tailed themselves, chained by the neck to the ring in the pedestal. But the chains hang loose over their heads, they could slip free if they chose. An inverted pentagram crowns the Devil’s brow. The scene is a grim parody of [The Lovers](/knowledge/tarot/major-arcana/the-lovers),[^sn-the-lovers] the same pair now bound where they once stood free, the blessing angel replaced by the beast. It is the image of willing bondage.
 
 ## Upright
 
@@ -48,3 +48,5 @@ When the Devil appears, the reading turns toward compulsion, attachment, and the
 - [Temperance](/knowledge/tarot/major-arcana/temperance)
 - [The Shadow](/knowledge/psychology/jungian/the-shadow)
 - [Tarot](/knowledge/tarot)
+
+[^sn-the-lovers]: The Lovers is union and the choice that makes union real. On its surface it is romance and partnership; beneath, it is the deeper alchemy of joining opposites into a whole, and the free, values-driven decision that seals such a joining.

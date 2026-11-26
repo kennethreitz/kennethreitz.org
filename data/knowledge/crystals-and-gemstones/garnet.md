@@ -27,7 +27,7 @@ For millennia it has been the warrior’s and the traveller’s stone, carried a
 
 ## Properties
 
-Garnet is the stone of passion and vitality. It stokes the fire of life, physical energy, courage, sensuality, the will to live fully, and is turned to when enthusiasm has drained away and the body feels grey and slow. Ruled by Mars and rooted in the lower chakras, it kindles devotion in love and in purpose, binding passion to commitment so that the fire warms rather than burns. It is called on for stamina, for regeneration after depletion, and for the steady flame of loyalty.
+Garnet is the stone of passion and vitality. It stokes the fire of life, physical energy, courage, sensuality, the will to live fully, and is turned to when enthusiasm has drained away and the body feels grey and slow. Ruled by Mars[^sn-mars-astrology] and rooted in the lower chakras, it kindles devotion in love and in purpose, binding passion to commitment so that the fire warms rather than burns. It is called on for stamina, for regeneration after depletion, and for the steady flame of loyalty.
 
 ## In Practice
 
@@ -41,3 +41,5 @@ Worn close to the body, a ring, a pendant over the heart or the belly, it is a d
 - [Muladhara](/knowledge/chakras/muladhara)
 - [Svadhisthana](/knowledge/chakras/svadhisthana)
 - [Crystals & Gemstones](/knowledge/crystals-and-gemstones)
+
+[^sn-mars-astrology]: Mars is the principle of drive, the raw will to act, to want, to assert oneself against the resistance of the world. See [Mars (astrology)](/knowledge/astrology/planets/mars-astrology).

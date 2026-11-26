@@ -41,5 +41,5 @@ This collection sits in Spirituality, beside [Calvinism](/knowledge/spirituality
 - KJV Study: The biblical study library
 - [Angels & Demons](/knowledge/angels-and-demons): The celestial hierarchy
 - [Virtues & Vices](/knowledge/virtues-and-vices): The moral framework
-- [Religions of the World](/knowledge/religions-of-the-world)
-- [Spirituality](/knowledge/spirituality)
+- [Religions of the World](/knowledge/religions-of-the-world): the wider survey
+- [Spirituality](/knowledge/spirituality): the hub

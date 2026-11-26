@@ -23,7 +23,7 @@ Roll the four diddles low and even, keeping every second stroke of each double a
 
 ## In Practice
 
-The nine stroke roll is a workhorse: orchestral swells, marching cadences, big-band figures, and drum set fills all lean on it. It extends the [Seven Stroke Roll](/knowledge/music/drum-rudiments/seven-stroke-roll) by one diddle and leads toward the [Ten Stroke Roll](/knowledge/music/drum-rudiments/ten-stroke-roll) and [Eleven Stroke Roll](/knowledge/music/drum-rudiments/eleven-stroke-roll) as the counts climb.
+The nine stroke roll is a workhorse: orchestral swells, marching cadences, big-band figures, and drum set fills all lean on it. It extends the [Seven Stroke Roll](/knowledge/music/drum-rudiments/seven-stroke-roll) by one diddle and leads toward the [Ten Stroke Roll](/knowledge/music/drum-rudiments/ten-stroke-roll) and [Eleven Stroke Roll](/knowledge/music/drum-rudiments/eleven-stroke-roll)[^sn-eleven-stroke-roll] as the counts climb.
 
 ## Related
 
@@ -31,3 +31,5 @@ The nine stroke roll is a workhorse: orchestral swells, marching cadences, big-b
 - [Ten Stroke Roll](/knowledge/music/drum-rudiments/ten-stroke-roll)
 - [Eleven Stroke Roll](/knowledge/music/drum-rudiments/eleven-stroke-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-eleven-stroke-roll]: The eleven stroke roll adds another diddle to the family, five double strokes rolling into a single accented tap.

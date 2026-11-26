@@ -45,5 +45,5 @@ This collection sits in Spirituality, beside [Calvinism](/knowledge/spirituality
 - [Key Reformers & Figures](/knowledge/spirituality/protestantism/key-reformers-and-figures): The people who made it
 - KJV Study: The biblical study library
 - [The Holy Trinity](/knowledge/spirituality/catholicism/the-holy-trinity): The shared Nicene core
-- [Religions of the World](/knowledge/religions-of-the-world)
-- [Spirituality](/knowledge/spirituality)
+- [Religions of the World](/knowledge/religions-of-the-world): the wider survey
+- [Spirituality](/knowledge/spirituality): the hub

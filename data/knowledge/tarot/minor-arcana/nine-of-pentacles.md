@@ -30,7 +30,7 @@ Reversed, the garden loses its ease. The card can show self-sufficiency hardened
 
 ## Archetype
 
-Here is the psyche that has done its work and can now inhabit itself. The hooded falcon is a precise image of integrated instinct, the wild energies of the unconscious not repressed but trained, returning willingly to the disciplined hand. Jung saw the goal of individuation as this self-possession, the capacity to stand alone without being cut off, whole rather than merely independent. The walled garden is a mandala of the cultivated soul, and the woman's serene solitude is the fruit of a long relationship with her own depths, a sovereignty echoing the crowned self-command of [The Empress](/knowledge/tarot/major-arcana/the-empress).
+Here is the psyche that has done its work and can now inhabit itself. The hooded falcon is a precise image of integrated instinct, the wild energies of the unconscious not repressed but trained, returning willingly to the disciplined hand. Jung saw the goal of individuation as this self-possession, the capacity to stand alone without being cut off, whole rather than merely independent. The walled garden is a mandala of the cultivated soul, and the woman's serene solitude is the fruit of a long relationship with her own depths, a sovereignty echoing the crowned self-command of [The Empress](/knowledge/tarot/major-arcana/the-empress).[^sn-the-empress]
 
 ## Mythological Echoes
 
@@ -48,3 +48,5 @@ When this card appears, take real pleasure in what you have built, and notice wh
 - [The Empress](/knowledge/tarot/major-arcana/the-empress)
 - [Tarot](/knowledge/tarot)
 - [Individuation](/knowledge/psychology/jungian/individuation)
+
+[^sn-the-empress]: The Empress is generative abundance, creativity, nurture, and the body’s wisdom made manifest.

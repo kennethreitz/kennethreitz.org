@@ -26,9 +26,9 @@ source: obsidian-knowledge
 
 Tzadi is the fish-hook, the small bright thing let down into deep water to draw a living soul upward. The letter's name is a breath away from *tzaddik*, the righteous one, and the tradition treats the resemblance as the whole point: the righteous person is precisely a hook, sunk quietly into the world, drawing what is hidden in the depths up toward the light. "The tzaddik is the foundation of the world," says Proverbs, and the letter carries that vocation in its two forms, bent within the word, the righteous one bowed in humility in this world, and standing erect as the final ץ, upright in the world to come.
 
-Its number is ninety. A simple letter under Aquarius, the water-bearer, its Sefer Yetzirah faculty is thought, the imaginative, star-gazing faculty that casts lines into what is not yet visible and reels back images of what could be.
+Its number is ninety. A simple letter under Aquarius,[^sn-aquarius] the water-bearer, its Sefer Yetzirah faculty is thought, the imaginative, star-gazing faculty that casts lines into what is not yet visible and reels back images of what could be.
 
-On the Tree it is the twenty-eighth path, joining [Netzach](/knowledge/tree-of-life/netzach) to [Yesod](/knowledge/tree-of-life/yesod), victory descending into foundation. Its trump is [The Star](/knowledge/tarot/major-arcana/the-star), Aquarius's card: the naked figure kneeling at the pool, pouring water onto land and water alike, with one great star burning overhead. The hook and the star work the same miracle from opposite ends, one draws the soul up out of the deep, the other gives it something worth rising toward. Tzadi is hope with a barb in it: once it catches, it holds.
+On the Tree it is the twenty-eighth path, joining [Netzach](/knowledge/tree-of-life/netzach)[^sn-netzach] to [Yesod](/knowledge/tree-of-life/yesod), victory descending into foundation. Its trump is [The Star](/knowledge/tarot/major-arcana/the-star), Aquarius's card: the naked figure kneeling at the pool, pouring water onto land and water alike, with one great star burning overhead. The hook and the star work the same miracle from opposite ends, one draws the soul up out of the deep, the other gives it something worth rising toward. Tzadi is hope with a barb in it: once it catches, it holds.
 
 ## Related
 
@@ -37,3 +37,7 @@ On the Tree it is the twenty-eighth path, joining [Netzach](/knowledge/tree-of-l
 - [The Star](/knowledge/tarot/major-arcana/the-star)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-aquarius]: Aquarius governs the deep of winter, the still weeks after the solstice when the individual mind turns from mere survival to the question of what the world could be. See [Aquarius](/knowledge/astrology/signs/aquarius).
+
+[^sn-netzach]: To dwell in Netzach is to feel the primacy of emotion, the group-mind of the passions, the imagination that clothes the world in wanting.

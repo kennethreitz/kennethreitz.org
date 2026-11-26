@@ -28,7 +28,7 @@ The cost is a growing distance from their own heart. In the rush to embody the s
 
 ## Healthy & Unhealthy
 
-At their best, Threes are authentic, self-accepting, and genuinely inspiring, leaders who channel their formidable energy toward worthy ends and who let others see the real person behind the accomplishment. Their value stops depending on the applause. Under stress the machinery races and the self hollows out. The unhealthy Three becomes deceptive, image-obsessed, and coldly opportunistic, willing to cut corners and abandon truth to protect the appearance of winning. Growth asks the Three to slow down, feel what the performance covers, and meet the abandoned self of [The Shadow](/knowledge/psychology/jungian/the-shadow), reclaiming a worth that no achievement grants and no failure can take, the quiet aim of [Individuation](/knowledge/psychology/jungian/individuation).
+At their best, Threes are authentic, self-accepting, and genuinely inspiring, leaders who channel their formidable energy toward worthy ends and who let others see the real person behind the accomplishment. Their value stops depending on the applause. Under stress the machinery races and the self hollows out. The unhealthy Three becomes deceptive, image-obsessed, and coldly opportunistic, willing to cut corners and abandon truth to protect the appearance of winning. Growth asks the Three to slow down, feel what the performance covers, and meet the abandoned self of [The Shadow](/knowledge/psychology/jungian/the-shadow), reclaiming a worth that no achievement grants and no failure can take, the quiet aim of [Individuation](/knowledge/psychology/jungian/individuation).[^sn-individuation]
 
 ## Related
 
@@ -37,3 +37,5 @@ At their best, Threes are authentic, self-accepting, and genuinely inspiring, le
 - [Type 6 - The Loyalist](/knowledge/enneagram/type-6-the-loyalist)
 - [Type 9 - The Peacemaker](/knowledge/enneagram/type-9-the-peacemaker)
 - [Enneagram](/knowledge/enneagram)
+
+[^sn-individuation]: Individuation is the central process in Jungian psychology, the lifelong journey of becoming who you truly are.

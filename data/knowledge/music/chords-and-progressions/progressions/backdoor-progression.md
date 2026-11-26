@@ -27,7 +27,7 @@ The trick lies in voice-leading. B♭7 contains the notes A♭ and D; as it reso
 
 ## In Practice
 
-It colors jazz, soul, and gospel harmony: Steely Dan, Stevie Wonder, and countless standards slip through this backdoor to soften a turnaround or dodge a predictable cadence. Arrangers reach for it when a plain [ii-V-I](/knowledge/music/chords-and-progressions/progressions/ii-v-i) feels too direct and a bit of shadow is wanted. It sits within the broader logic of the [Circle of Fifths Progression](/knowledge/music/chords-and-progressions/progressions/circle-of-fifths-progression) and the substitute [Cadences](/knowledge/music/chords-and-progressions/progressions/cadences).
+It colors jazz, soul, and gospel harmony: Steely Dan, Stevie Wonder, and countless standards slip through this backdoor to soften a turnaround or dodge a predictable cadence. Arrangers reach for it when a plain [ii-V-I](/knowledge/music/chords-and-progressions/progressions/ii-v-i) feels too direct and a bit of shadow is wanted. It sits within the broader logic of the [Circle of Fifths Progression](/knowledge/music/chords-and-progressions/progressions/circle-of-fifths-progression)[^sn-circle-of-fifths-progression] and the substitute [Cadences](/knowledge/music/chords-and-progressions/progressions/cadences).
 
 ## Related
 
@@ -36,3 +36,5 @@ It colors jazz, soul, and gospel harmony: Steely Dan, Stevie Wonder, and countle
 - [Cadences](/knowledge/music/chords-and-progressions/progressions/cadences)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-circle-of-fifths-progression]: The circle of fifths progression chains chords whose roots descend by perfect fifths, each one leaning into the next the way a dominant leans into its tonic.

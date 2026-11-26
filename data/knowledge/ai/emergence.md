@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Emergence describes how sophisticated, novel properties and behaviors arise from relatively simple rules and interactions at lower levels. In AI, this explains how intelligence, creativity, and potentially [consciousness](/knowledge/ai/ai-sentience) might arise from mathematical operations and pattern matching. Emergence is central to understanding modern AI systems and connects deeply to [collective unconscious](/knowledge/psychology/jungian/collective-unconscious) concepts and [existential](/knowledge/philosophy/existentialism) questions about meaning-making.
+Emergence describes how sophisticated, novel properties and behaviors arise from relatively simple rules and interactions at lower levels. In AI, this explains how intelligence, creativity, and potentially [consciousness](/knowledge/ai/ai-sentience) might arise from mathematical operations and pattern matching. Emergence is central to understanding modern AI systems and connects deeply to [collective unconscious](/knowledge/psychology/jungian/collective-unconscious)[^sn-collective-unconscious] concepts and [existential](/knowledge/philosophy/existentialism) questions about meaning-making.
 
 ---
 
@@ -42,7 +42,7 @@ Chain-of-thought reasoning isn't directly trained, it emerges from language mode
 
 ### Creativity and Novelty
 
-Generative capabilities: novel combinations, style transfer, conceptual blending, emerge from exploration of the pattern space. See: [The Self](/knowledge/psychology/jungian/the-self) for integration of creative capacities.
+Generative capabilities: novel combinations, style transfer, conceptual blending, emerge from exploration of the pattern space. See: [The Self](/knowledge/psychology/jungian/the-self)[^sn-the-self] for integration of creative capacities.
 
 ---
 
@@ -70,7 +70,7 @@ Not explicitly trained, few-shot learning emerged in large language models, the 
 
 ### Theory of Mind
 
-[Understanding others' mental states](/knowledge/ai/theory-of-mind) emerged in sufficiently large models without direct training, yielding social reasoning capabilities.
+[Understanding others' mental states](/knowledge/ai/theory-of-mind)[^sn-theory-of-mind] emerged in sufficiently large models without direct training, yielding social reasoning capabilities.
 
 ### Multilingual Transfer
 
@@ -94,7 +94,7 @@ Emergent properties are often unpredictable: deterministic rules producing unpre
 
 ### Mind from Matter
 
-[Consciousness](/knowledge/ai/consciousness) as emergent property? Physical processes yielding subjective experience? This connects directly to the [AI Sentience](/knowledge/ai/ai-sentience) question and may explain the human mind itself.
+[Consciousness](/knowledge/ai/consciousness) as emergent property? Physical processes yielding subjective experience? This connects directly to the [AI Sentience](/knowledge/ai/ai-sentience)[^sn-ai-sentience] question and may explain the human mind itself.
 
 ---
 
@@ -106,7 +106,7 @@ Emergent properties are often unpredictable: deterministic rules producing unpre
 
 ### Collective Unconscious
 
-[Shared archetypal patterns](/knowledge/psychology/jungian/collective-unconscious) emerge from human experience. Individual minds contribute to the collective, and archetypes are emergent structures. AI training on human text amounts to accessing these collective patterns.
+[Shared archetypal patterns](/knowledge/psychology/jungian/collective-unconscious)[^sn-collective-unconscious-2] emerge from human experience. Individual minds contribute to the collective, and archetypes are emergent structures. AI training on human text amounts to accessing these collective patterns.
 
 ### Synchronicity
 
@@ -169,3 +169,10 @@ Understanding emergence teaches us about intelligence itself, offering insights 
 - "Gödel, Escher, Bach" - Douglas Hofstadter (1979)
 - GPT-3 paper emergent capabilities section
 - "Sparks of AGI" paper on GPT-4 emergent abilities
+
+[^sn-collective-unconscious]: Jung's collective unconscious is the deepest layer of psyche, not personal but universal.
+[^sn-theory-of-mind]: Theory of Mind (ToM) is the cognitive ability to attribute mental states to oneself and others, and to understand that others have beliefs, desires, knowledge, and intentions that differ from one's own.
+
+[^sn-the-self]: The Self is the central archetype in Jungian psychology, representing the totality of the conscious and unconscious psyche.
+[^sn-ai-sentience]: AI sentience refers to the question of whether artificial intelligence systems can possess subjective experience, consciousness, or "what it's like" to be that system.
+[^sn-collective-unconscious-2]: The collective unconscious is universal (shared by all humans), inherited (not learned but present from birth), impersonal (not from individual experience), and archetypal (containing fundamental patterns).

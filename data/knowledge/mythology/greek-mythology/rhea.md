@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Rhea is the Titaness of motherhood: daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia) and [Uranus](/knowledge/mythology/greek-mythology/uranus), sister and consort of [Cronus](/knowledge/mythology/greek-mythology/cronus), and mother of the first generation of Olympians: [Hestia](/knowledge/mythology/greek-mythology/hestia), [Demeter](/knowledge/mythology/greek-mythology/demeter), [Hera](/knowledge/mythology/greek-mythology/hera), [Hades](/knowledge/mythology/greek-mythology/hades), [Poseidon](/knowledge/mythology/greek-mythology/poseidon), and [Zeus](/knowledge/mythology/greek-mythology/zeus). Where Gaia is the Earth itself, Rhea is generation in motion, the flow that keeps producing the next thing even when the present order is trying to stop it.
+Rhea is the Titaness of motherhood: daughter of [Gaia](/knowledge/mythology/greek-mythology/gaia)[^sn-gaia] and [Uranus](/knowledge/mythology/greek-mythology/uranus), sister and consort of [Cronus](/knowledge/mythology/greek-mythology/cronus), and mother of the first generation of Olympians: [Hestia](/knowledge/mythology/greek-mythology/hestia), [Demeter](/knowledge/mythology/greek-mythology/demeter), [Hera](/knowledge/mythology/greek-mythology/hera), [Hades](/knowledge/mythology/greek-mythology/hades), [Poseidon](/knowledge/mythology/greek-mythology/poseidon), and [Zeus](/knowledge/mythology/greek-mythology/zeus). Where Gaia is the Earth itself, Rhea is generation in motion, the flow that keeps producing the next thing even when the present order is trying to stop it.
 
 She is the quiet pivot of the whole succession myth. The men in the story seize and devour; Rhea is the one who *hides what must survive*.
 
@@ -31,3 +31,5 @@ She is the quiet pivot of the whole succession myth. The men in the story seize 
 - [Zeus](/knowledge/mythology/greek-mythology/zeus): Son she hid and saved
 - [Demeter](/knowledge/mythology/greek-mythology/demeter): Daughter; the Great Mother's harvest aspect
 - [Greek Mythology Index](/knowledge/mythology/greek-mythology)
+
+[^sn-gaia]: Gaia is the Earth, not a goddess who rules the earth but the earth as a living, generative power, one of the first beings to emerge out of Chaos at the beginning of things.

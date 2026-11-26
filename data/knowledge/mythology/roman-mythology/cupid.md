@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Overview
 
-Cupid is the Roman god of desire and love, the winged child who looses arrows that kindle sudden passion in gods and mortals alike. His name comes from cupido, “desire”, the ache itself made a person. He is the son and companion of [Venus](/knowledge/mythology/roman-mythology/venus), and where she is love as beauty and abundance, he is love as the arrow that strikes without warning and cannot be reasoned with. No one he wounds is left unchanged, and even [Jupiter](/knowledge/mythology/roman-mythology/jupiter) was not beyond his aim.
+Cupid is the Roman god of desire and love, the winged child who looses arrows that kindle sudden passion in gods and mortals alike. His name comes from cupido, “desire”, the ache itself made a person. He is the son and companion of [Venus](/knowledge/mythology/roman-mythology/venus),[^sn-venus] and where she is love as beauty and abundance, he is love as the arrow that strikes without warning and cannot be reasoned with. No one he wounds is left unchanged, and even [Jupiter](/knowledge/mythology/roman-mythology/jupiter) was not beyond his aim.
 
-His Greek counterpart is Eros, who in the oldest stories is a primordial force present at the birth of the world. Rome shrank that cosmic power into the mischievous boy familiar from art, plump, winged, sometimes blindfolded, to show that desire falls blindly and rarely where wisdom would send it. Yet the older gravity never fully left him; he remains the god who moves what nothing else can move.
+His Greek counterpart is Eros,[^sn-eros] who in the oldest stories is a primordial force present at the birth of the world. Rome shrank that cosmic power into the mischievous boy familiar from art, plump, winged, sometimes blindfolded, to show that desire falls blindly and rarely where wisdom would send it. Yet the older gravity never fully left him; he remains the god who moves what nothing else can move.
 
 ## Cupid and Psyche
 
@@ -28,3 +28,7 @@ His central myth is the tale of Cupid and Psyche, told by Apuleius: the god fall
 - [The Lovers](/knowledge/tarot/major-arcana/the-lovers): The Major Arcana card of union, attraction, and the choice of the heart
 - [Mythology](/knowledge/mythology)
 - [Roman Mythology Index](/knowledge/mythology/roman-mythology)
+
+[^sn-eros]: Eros is the god of desire, and one of the oldest and strangest figures in Greek myth, because he is told two ways at once. See [Eros](/knowledge/mythology/greek-mythology/eros).
+
+[^sn-venus]: Venus is the Roman goddess of love, beauty, desire, and fertility, but she was far more to Rome than a goddess of the heart.

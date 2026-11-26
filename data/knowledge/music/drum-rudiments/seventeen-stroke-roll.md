@@ -23,7 +23,7 @@ At this length, staying relaxed is the entire discipline, keep all eight diddles
 
 ## In Practice
 
-The seventeen stroke roll appears in advanced rudimental solos and any setting calling for the longest measured roll before resolving on a downbeat. It caps the sequence that begins with the [Five Stroke Roll](/knowledge/music/drum-rudiments/five-stroke-roll) and climbs through the [Fifteen Stroke Roll](/knowledge/music/drum-rudiments/fifteen-stroke-roll), all built on the [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll).
+The seventeen stroke roll appears in advanced rudimental solos and any setting calling for the longest measured roll before resolving on a downbeat. It caps the sequence that begins with the [Five Stroke Roll](/knowledge/music/drum-rudiments/five-stroke-roll) and climbs through the [Fifteen Stroke Roll](/knowledge/music/drum-rudiments/fifteen-stroke-roll), all built on the [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll).[^sn-double-stroke-open-roll]
 
 ## Related
 
@@ -31,3 +31,5 @@ The seventeen stroke roll appears in advanced rudimental solos and any setting c
 - [Thirteen Stroke Roll](/knowledge/music/drum-rudiments/thirteen-stroke-roll)
 - [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-double-stroke-open-roll]: The double stroke open roll, often just "the long roll", is the backbone of rudimental drumming.

@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Progression
 
-The Andalusian cadence is a descending four-chord figure: i–♭VII–♭VI–V, whose bass walks stepwise down from the minor tonic to the dominant. Despite the name it is not truly a cadence in the textbook sense but a repeating progression, one whose falling motion evokes the Phrygian flavor of flamenco and the sun-baked tragedy of Spanish music. The final V, a major chord borrowed for its leading-tone bite, snaps the loop back to the minor tonic with a hint of scorched drama.
+The Andalusian cadence is a descending four-chord figure: i–♭VII–♭VI–V, whose bass walks stepwise down from the minor tonic to the dominant. Despite the name it is not truly a cadence in the textbook sense but a repeating progression, one whose falling motion evokes the Phrygian[^sn-phrygian] flavor of flamenco and the sun-baked tragedy of Spanish music. The final V, a major chord borrowed for its leading-tone bite, snaps the loop back to the minor tonic with a hint of scorched drama.
 
 The descent is everything. Each chord lowers the bass by a whole or half step, and the major V at the bottom, with its raised third against the minor mode above, produces the distinctive Phrygian-dominant color that reads instantly as Andalusian, Middle Eastern, or simply fateful. It sounds ancient and inevitable, a slow fall that keeps beginning again.
 
@@ -36,3 +36,5 @@ It is the harmonic signature of flamenco and passes freely into rock, classical,
 - [Cadences](/knowledge/music/chords-and-progressions/progressions/cadences)
 - [Chords & Progressions](/knowledge/music/chords-and-progressions)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-phrygian]: Phrygian is the third mode of the major scale, beginning on its third degree. See [Phrygian](/knowledge/music/scales-and-modes/modes/phrygian).

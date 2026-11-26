@@ -18,15 +18,15 @@ Avoidant attachment: Ainsworth's group A in childhood, dismissive-avoidant in ad
 
 ## Deactivation
 
-In the [Strange Situation](/knowledge/psychology/attachment-theory/strange-situation), the avoidant infant looks eerily composed. Little protest at separation; at reunion, the diagnostic moment, the child pointedly ignores the returning parent, turns to the toys, looks anywhere but at the door. Early observers took this for independence. The physiology said otherwise: heart rate and cortisol measures showed these infants as aroused as their crying peers, sometimes more so. The calm is not the absence of distress but its suppression, a *strategy*, as Mary Main argued, and a coherent one. By muting the very signals that drive the caregiver away, the avoidant infant maintains the closest proximity the relationship will tolerate. The stillness is proximity-seeking in disguise.
+In the [Strange Situation](/knowledge/psychology/attachment-theory/strange-situation),[^sn-strange-situation] the avoidant infant looks eerily composed. Little protest at separation; at reunion, the diagnostic moment, the child pointedly ignores the returning parent, turns to the toys, looks anywhere but at the door. Early observers took this for independence. The physiology said otherwise: heart rate and cortisol measures showed these infants as aroused as their crying peers, sometimes more so. The calm is not the absence of distress but its suppression, a *strategy*, as Mary Main argued, and a coherent one. By muting the very signals that drive the caregiver away, the avoidant infant maintains the closest proximity the relationship will tolerate. The stillness is proximity-seeking in disguise.
 
-The [working model](/knowledge/psychology/attachment-theory/internal-working-models) this installs inverts the anxious one: others will not come, that much is settled, but the self can cope. [Bowlby](/knowledge/psychology/attachment-theory/john-bowlby) named the mature form *compulsive self-reliance*: independence not as a capacity but as a fortress, self-sufficiency built on the foreclosed conclusion that reaching out is both useless and humiliating.
+The [working model](/knowledge/psychology/attachment-theory/internal-working-models)[^sn-internal-working-models] this installs inverts the anxious one: others will not come, that much is settled, but the self can cope. [Bowlby](/knowledge/psychology/attachment-theory/john-bowlby) named the mature form *compulsive self-reliance*: independence not as a capacity but as a fortress, self-sufficiency built on the foreclosed conclusion that reaching out is both useless and humiliating.
 
 ---
 
 ## The Adult Form
 
-The dismissive-avoidant adult is often outwardly successful at exactly the things the strategy optimizes for, work, competence, composure. Intimacy is where the bill comes due. Closeness registers as encroachment; a partner's emotional need triggers the old alarm and the old response: distance, deflection, sudden absorbing interest in anything else. On the Adult Attachment Interview, dismissive speakers idealize their childhoods in the abstract ("fine, normal, good") while producing no supporting memories, the deactivation running at the level of narrative itself. And as in infancy, the physiology keeps the receipts: attachment stress registers in the body of adults whose accounts insist nothing is happening. The pattern's tragedy is structural, the strategy that once preserved the relationship now prevents the experiences that would disprove the model. Its hope is the same as the other patterns': models revise under new evidence, if any is let in. [Earned Security](/knowledge/psychology/attachment-theory/earned-security) is the documented arrival.
+The dismissive-avoidant adult is often outwardly successful at exactly the things the strategy optimizes for, work, competence, composure. Intimacy is where the bill comes due. Closeness registers as encroachment; a partner's emotional need triggers the old alarm and the old response: distance, deflection, sudden absorbing interest in anything else. On the Adult Attachment Interview, dismissive speakers idealize their childhoods in the abstract ("fine, normal, good") while producing no supporting memories, the deactivation running at the level of narrative itself. And as in infancy, the physiology keeps the receipts: attachment stress registers in the body of adults whose accounts insist nothing is happening. The pattern's tragedy is structural, the strategy that once preserved the relationship now prevents the experiences that would disprove the model. Its hope is the same as the other patterns': models revise under new evidence, if any is let in. [Earned Security](/knowledge/psychology/attachment-theory/earned-security)[^sn-earned-security] is the documented arrival.
 
 ---
 
@@ -44,3 +44,8 @@ The dismissive-avoidant adult is often outwardly successful at exactly the thing
 ---
 
 *The body keeps crying long after the face learns not to.*
+
+[^sn-strange-situation]: The Strange Situation is Mary Ainsworth's laboratory procedure for observing the attachment system under load.
+[^sn-internal-working-models]: Internal working models are the cognitive heart of Attachment Theory, John Bowlby's answer to how a pattern laid down in infancy could still be steering a marriage forty years later.
+
+[^sn-earned-security]: Earned security is attachment research's most hopeful finding: some adults describe genuinely difficult childhoods, rejection, inconsistency, loss, worse, and yet present as fully secure.

@@ -25,9 +25,9 @@ source: obsidian-knowledge
 
 Qof is the back of the head, not the face that meets the world but the skull behind it, the seat of everything that happens without permission: instinct, dream, the autonomic dark. Its glyph is the only letter whose descender drops below the baseline, reaching down beneath the written line into the region under consciousness. The tradition hears in its name both *kedushah*, holiness, and *kof*, the monkey, the imitator, because the deep mind is exactly that ambiguous: the same unlit country produces prophecy and parody, true vision and its ape.
 
-Its number is one hundred, ten tens, a full order of magnitude beyond the completed decade, the threshold quantity, the far side of the ordinary count. A simple letter under Pisces, the two fish bound and swimming opposite ways, its Sefer Yetzirah faculty is sleep: the nightly descent below the line that no one escapes and everyone is remade by.
+Its number is one hundred, ten tens, a full order of magnitude beyond the completed decade, the threshold quantity, the far side of the ordinary count. A simple letter under Pisces,[^sn-pisces] the two fish bound and swimming opposite ways, its Sefer Yetzirah faculty is sleep: the nightly descent below the line that no one escapes and everyone is remade by.
 
-On the Tree it is the twenty-ninth path, joining [Netzach](/knowledge/tree-of-life/netzach) to [Malkuth](/knowledge/tree-of-life/malkuth), victory descending all the way into the kingdom, one of the three final paths that touch the manifest world. Its trump is [The Moon](/knowledge/tarot/major-arcana/the-moon), the card of the twilight road between the two towers, with the dog, the wolf, and the crayfish climbing out of the pool. Qof is that road: the passage through instinct and illusion that cannot be lit, only walked, trusting the path underfoot when the eyes are useless.
+On the Tree it is the twenty-ninth path, joining [Netzach](/knowledge/tree-of-life/netzach)[^sn-netzach] to [Malkuth](/knowledge/tree-of-life/malkuth), victory descending all the way into the kingdom, one of the three final paths that touch the manifest world. Its trump is [The Moon](/knowledge/tarot/major-arcana/the-moon), the card of the twilight road between the two towers, with the dog, the wolf, and the crayfish climbing out of the pool. Qof is that road: the passage through instinct and illusion that cannot be lit, only walked, trusting the path underfoot when the eyes are useless.
 
 ## Related
 
@@ -36,3 +36,7 @@ On the Tree it is the twenty-ninth path, joining [Netzach](/knowledge/tree-of-li
 - [The Moon](/knowledge/tarot/major-arcana/the-moon)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-pisces]: Pisces closes the zodiac, governing the last weeks of winter as the ice melts and the boundaries of things begin to dissolve toward spring. See [Pisces](/knowledge/astrology/signs/pisces).
+
+[^sn-netzach]: Netzach cannot see clearly on its own; it is all feeling and no form, and it needs its opposite across the pillar, cool intellectual Hod, to give its passions a shape they can be spoken in.

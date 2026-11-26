@@ -28,9 +28,11 @@ The sequence appears throughout the living world with uncanny frequency. The spi
 
 ## Meaning
 
-The Fibonacci sequence is the geometry of growth caught in the act, the way an organism adds to itself while keeping its form. Each new term rests upon the whole history of those before it, an image of accretion in which nothing is discarded and the pattern grows by remembering itself, and this recursive building carries a quiet metaphysical suggestion that creation proceeds not by leaps but by faithful accumulation. Because its ratios ascend toward the [Golden Ratio](/knowledge/sacred-geometry/golden-ratio), the sequence links the countable to the incommensurable, showing how the divine proportion is reached from below by ordinary whole numbers. To follow it is to watch the ideal emerge out of the practical, phi assembling itself from the humble sum of one and one.
+The Fibonacci sequence is the geometry of growth caught in the act, the way an organism adds to itself while keeping its form. Each new term rests upon the whole history of those before it, an image of accretion in which nothing is discarded and the pattern grows by remembering itself, and this recursive building carries a quiet metaphysical suggestion that creation proceeds not by leaps but by faithful accumulation. Because its ratios ascend toward the [Golden Ratio](/knowledge/sacred-geometry/golden-ratio),[^sn-golden-ratio] the sequence links the countable to the incommensurable, showing how the divine proportion is reached from below by ordinary whole numbers. To follow it is to watch the ideal emerge out of the practical, phi assembling itself from the humble sum of one and one.
 
 ## Related
 
 - [Golden Ratio](/knowledge/sacred-geometry/golden-ratio)
 - [Sacred Geometry](/knowledge/sacred-geometry)
+
+[^sn-golden-ratio]: The golden ratio, denoted by the Greek letter phi, is the proportion in which a line is divided so that the whole is to the larger part as the larger part is to the smaller.

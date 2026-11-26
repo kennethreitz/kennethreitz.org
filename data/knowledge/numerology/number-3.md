@@ -28,7 +28,7 @@ Its energy is expressive, generative, and abundant, ruled by expansive Jupiter. 
 
 ## Light & Shadow
 
-At its most radiant, three is [The Empress](/knowledge/tarot/major-arcana/the-empress) in her garden, fertile, generous, alive with the abundance of a nature that creates simply because it cannot help itself. It gives us delight, artistry, and the healing power of self-expression. But three ungrounded scatters: the dilettante who begins everything and finishes nothing, the charmer whose brightness hides a hollow, the pleasure-seeker who mistakes escape for joy. Growth without discipline sprawls, and the same energy that flowers so freely can, unchecked, dissipate into noise.
+At its most radiant, three is [The Empress](/knowledge/tarot/major-arcana/the-empress)[^sn-the-empress] in her garden, fertile, generous, alive with the abundance of a nature that creates simply because it cannot help itself. It gives us delight, artistry, and the healing power of self-expression. But three ungrounded scatters: the dilettante who begins everything and finishes nothing, the charmer whose brightness hides a hollow, the pleasure-seeker who mistakes escape for joy. Growth without discipline sprawls, and the same energy that flowers so freely can, unchecked, dissipate into noise.
 
 ## Related
 
@@ -37,3 +37,5 @@ At its most radiant, three is [The Empress](/knowledge/tarot/major-arcana/the-em
 - [Master Number 33](/knowledge/numerology/master-number-33)
 - [The Empress](/knowledge/tarot/major-arcana/the-empress)
 - [Numerology](/knowledge/numerology)
+
+[^sn-the-empress]: The Empress is generative abundance, creativity, nurture, and the body’s wisdom made manifest.

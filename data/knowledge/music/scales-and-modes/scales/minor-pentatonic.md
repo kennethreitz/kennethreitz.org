@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## The Scale
 
-The minor pentatonic is the natural minor scale stripped to its five most essential notes, the [Aeolian](/knowledge/music/scales-and-modes/modes/aeolian) mode with its second and sixth degrees removed. What is left is a lean, gapped structure with no half steps, built from a pattern of minor thirds and whole steps that lies naturally under the hand on a guitar and sits naturally in the human voice. Like its major counterpart it appears across the world's folk traditions, but in the West it became something more specific: the raw material of the blues, and through the blues, of nearly everything that followed.
+The minor pentatonic is the natural minor scale stripped to its five most essential notes, the [Aeolian](/knowledge/music/scales-and-modes/modes/aeolian)[^sn-aeolian] mode with its second and sixth degrees removed. What is left is a lean, gapped structure with no half steps, built from a pattern of minor thirds and whole steps that lies naturally under the hand on a guitar and sits naturally in the human voice. Like its major counterpart it appears across the world's folk traditions, but in the West it became something more specific: the raw material of the blues, and through the blues, of nearly everything that followed.
 
 ## Structure
 
@@ -28,7 +28,7 @@ Where the major pentatonic is sunlit, the minor pentatonic is smoky and grounded
 
 ## In Practice
 
-This is the single most-used scale in rock, blues, and their descendants. Nearly every blues solo, every classic-rock lead break, every riff-driven hook draws on it. It is the foundation over which the [Blues Scale](/knowledge/music/scales-and-modes/scales/blues-scale) adds its extra ache, and the vocabulary from which guitarists from Chuck Berry to the present have built their entire sound. If a beginner learns one scale for improvising, it is this one.
+This is the single most-used scale in rock, blues, and their descendants. Nearly every blues solo, every classic-rock lead break, every riff-driven hook draws on it. It is the foundation over which the [Blues Scale](/knowledge/music/scales-and-modes/scales/blues-scale)[^sn-blues-scale] adds its extra ache, and the vocabulary from which guitarists from Chuck Berry to the present have built their entire sound. If a beginner learns one scale for improvising, it is this one.
 
 ## Related
 
@@ -37,3 +37,7 @@ This is the single most-used scale in rock, blues, and their descendants. Nearly
 - [Aeolian](/knowledge/music/scales-and-modes/modes/aeolian)
 - [Scales & Modes](/knowledge/music/scales-and-modes)
 - [Musical Keys](/knowledge/music/musical-keys)
+
+[^sn-blues-scale]: The blues scale is the Minor Pentatonic with one note added, a flattened fifth wedged between the fourth and the fifth.
+
+[^sn-aeolian]: Aeolian is the sixth mode of the major scale, starting on its sixth degree, and like Ionian among the bright modes, it is so familiar it has its own everyday name: the natural minor scale.

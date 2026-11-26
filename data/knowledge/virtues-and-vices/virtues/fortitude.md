@@ -12,11 +12,11 @@ source: obsidian-knowledge
 
 ## Where It Belongs
 
-Fortitude is the third of the four cardinal virtues, with [Prudence](/knowledge/virtues-and-vices/virtues/prudence), [Justice](/knowledge/virtues-and-vices/virtues/justice-virtue), and [Temperance](/knowledge/virtues-and-vices/virtues/temperance-virtue). Plato's *andreia*, courage, assigned in the *Republic* to the guardian class and in the soul to the spirited part that defends what reason has judged good. The Stoics kept it among their four hinges, see [Stoicism](/knowledge/philosophy/stoicism), defining it as knowledge of what is truly to be feared and what is not, which relocates courage from the gut to the eyes.
+Fortitude is the third of the four cardinal virtues, with [Prudence](/knowledge/virtues-and-vices/virtues/prudence), [Justice](/knowledge/virtues-and-vices/virtues/justice-virtue), and [Temperance](/knowledge/virtues-and-vices/virtues/temperance-virtue)[^sn-temperance-virtue]. Plato's *andreia*, courage, assigned in the *Republic* to the guardian class and in the soul to the spirited part that defends what reason has judged good. The Stoics kept it among their four hinges, see [Stoicism](/knowledge/philosophy/stoicism), defining it as knowledge of what is truly to be feared and what is not, which relocates courage from the gut to the eyes.
 
 ## What It Is
 
-Fortitude is firmness of soul in the face of danger, pain, and difficulty, but the tradition's refinements matter more than the definition. Aristotle placed it as a mean between cowardice and recklessness: the coward feels fear and obeys it, the reckless man feels none and learns nothing, the brave man feels fear accurately and acts anyway. Aquinas added the deeper correction: the principal act of fortitude is not attack but *endurance*, standing firm under what cannot be charged at is harder and rarer than aggression. This widens the virtue beyond the battlefield to where most of it is actually practiced: chronic illness, long grief, slow work, the unglamorous holding of a line for years. Fortitude is [Patience](/knowledge/virtues-and-vices/virtues/patience) with its back against the wall, [Diligence](/knowledge/virtues-and-vices/virtues/diligence) under fire.
+Fortitude is firmness of soul in the face of danger, pain, and difficulty, but the tradition's refinements matter more than the definition. Aristotle placed it as a mean between cowardice and recklessness: the coward feels fear and obeys it, the reckless man feels none and learns nothing, the brave man feels fear accurately and acts anyway. Aquinas added the deeper correction: the principal act of fortitude is not attack but *endurance*, standing firm under what cannot be charged at is harder and rarer than aggression. This widens the virtue beyond the battlefield to where most of it is actually practiced: chronic illness, long grief, slow work, the unglamorous holding of a line for years. Fortitude is [Patience](/knowledge/virtues-and-vices/virtues/patience) with its back against the wall, [Diligence](/knowledge/virtues-and-vices/virtues/diligence)[^sn-diligence] under fire.
 
 ## Its Opposite
 
@@ -38,3 +38,6 @@ The vault's [Strength](/knowledge/tarot/major-arcana/strength) card is this virt
 ---
 
 *The lion is not defeated. The lion is held, which takes the greater strength.*
+
+[^sn-temperance-virtue]: Temperance is the only virtue that sits on both of the great practical lists.
+[^sn-diligence]: Diligence stands among the seven heavenly virtues as the remedy for Sloth.

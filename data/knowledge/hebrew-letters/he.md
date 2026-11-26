@@ -26,7 +26,7 @@ He is the window, the opening through which light and sight enter the house that
 
 He appears twice in the four-lettered Name, the two vessels that receive and transmit the divine flow. It is the letter added to Abram to make Abraham and to Sarai to make Sarah, the breath of God inserted into a name, changing a destiny by five. As the number five it is the grace note beyond the square of four, the quintessence added to the elements.
 
-It is a simple letter, assigned in the Sefer Yetzirah to Aries and to the faculty of sight, the first sign of spring and the first of the senses, fittingly paired. On the Tree it is the fifteenth path, joining [Chokmah](/knowledge/tree-of-life/chokmah) to [Tiphareth](/knowledge/tree-of-life/tiphareth), wisdom descending to beauty. Its trump is [The Emperor](/knowledge/tarot/major-arcana/the-emperor), the ram-throned lawgiver whose ordering gaze surveys the realm: sovereignty, in this system, is a kind of seeing, and the window is where the ruler stands to keep watch.
+It is a simple letter, assigned in the Sefer Yetzirah to Aries[^sn-aries] and to the faculty of sight, the first sign of spring and the first of the senses, fittingly paired. On the Tree it is the fifteenth path, joining [Chokmah](/knowledge/tree-of-life/chokmah) to [Tiphareth](/knowledge/tree-of-life/tiphareth), wisdom descending to beauty. Its trump is [The Emperor](/knowledge/tarot/major-arcana/the-emperor), the ram-throned lawgiver whose ordering gaze surveys the realm: sovereignty, in this system, is a kind of seeing, and the window is where the ruler stands to keep watch.
 
 ## Related
 
@@ -35,3 +35,5 @@ It is a simple letter, assigned in the Sefer Yetzirah to Aries and to the facult
 - [The Emperor](/knowledge/tarot/major-arcana/the-emperor)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-aries]: Aries opens the wheel. When the sun crosses the vernal equinox and the frozen ground finally cracks, the Ram is the green shoot that dares to go first, the raw impulse of life asserting that it exists at all. See [Aries](/knowledge/astrology/signs/aries).

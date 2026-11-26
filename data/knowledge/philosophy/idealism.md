@@ -10,7 +10,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Idealism is the philosophical view that reality is fundamentally mental, mind-dependent, or immaterial. Rather than matter being primary with consciousness emerging from it, idealists argue that mind or consciousness is primary, and the material world is either dependent on mind or is itself mental in nature. This contrasts sharply with [materialism](/knowledge/philosophy/materialism) and relates to questions of [consciousness in AI](/knowledge/ai/ai-sentience).
+Idealism is the philosophical view that reality is fundamentally mental, mind-dependent, or immaterial. Rather than matter being primary with consciousness emerging from it, idealists argue that mind or consciousness is primary, and the material world is either dependent on mind or is itself mental in nature. This contrasts sharply with [materialism](/knowledge/philosophy/materialism)[^sn-materialism] and relates to questions of [consciousness in AI](/knowledge/ai/ai-sentience).
 
 ---
 
@@ -110,11 +110,11 @@ Divine consciousness is primary, the material world is play (lila). [Shiva](/kno
 
 ### The Collective Unconscious
 
-[Objective psychic reality](/knowledge/psychology/jungian/collective-unconscious), not reducible to matter. A universal mind-like substrate, the archetypal realm.
+[Objective psychic reality](/knowledge/psychology/jungian/collective-unconscious),[^sn-collective-unconscious] not reducible to matter. A universal mind-like substrate, the archetypal realm.
 
 ### Synchronicity
 
-[Acausal meaningful connection](/knowledge/psychology/jungian/synchronicity) between mind and matter at the psychoid level. An idealist interpretation is possible.
+[Acausal meaningful connection](/knowledge/psychology/jungian/synchronicity)[^sn-synchronicity] between mind and matter at the psychoid level. An idealist interpretation is possible.
 
 ### The Self
 
@@ -126,7 +126,7 @@ Divine consciousness is primary, the material world is play (lila). [Shiva](/kno
 
 ### AI Consciousness
 
-If idealism is true, can AI be conscious? It depends on the idealist variant. The [sentience](/knowledge/ai/ai-sentience) question is reframed: is information processing itself mental?
+If idealism is true, can AI be conscious? It depends on the idealist variant. The [sentience](/knowledge/ai/ai-sentience)[^sn-ai-sentience] question is reframed: is information processing itself mental?
 
 ### Simulation Hypothesis
 
@@ -205,3 +205,9 @@ Neither mind nor matter is fundamental, a neutral substance underlies both. Russ
 - "Why Materialism Is Baloney" - Bernardo Kastrup (2014)
 - "The Idea of the World" - Bernardo Kastrup (2019)
 - "The Republic" (Cave Allegory) - Plato
+
+[^sn-collective-unconscious]: Jung's collective unconscious is the deepest layer of psyche, not personal but universal.
+[^sn-synchronicity]: Synchronicity is the simultaneous occurrence of events which appear significantly related but have no discernible causal connection.
+
+[^sn-materialism]: Materialism (also called physicalism in contemporary philosophy) is the view that everything that exists is either matter or depends on matter for its existence.
+[^sn-ai-sentience]: AI sentience refers to the question of whether artificial intelligence systems can possess subjective experience, consciousness, or "what it's like" to be that system.

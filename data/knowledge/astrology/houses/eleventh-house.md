@@ -12,9 +12,9 @@ source: obsidian-knowledge
 
 ## Domain
 
-The Eleventh House is the house of the collective, the self dissolved, gladly, into something larger than itself. It governs friendship and the wider circles of belonging: the groups, communities, and movements a person joins, the chosen family that stands beside the given one. Where the Tenth House concerns individual achievement, the Eleventh concerns what is built together, the shared endeavor that no single person could accomplish alone. It is the house of alliance and of common cause, of the people who walk with you toward a future none of you can reach by yourselves.
+The Eleventh House is the house of the collective, the self dissolved, gladly, into something larger than itself. It governs friendship and the wider circles of belonging: the groups, communities, and movements a person joins, the chosen family that stands beside the given one. Where the Tenth House[^sn-tenth-house] concerns individual achievement, the Eleventh concerns what is built together, the shared endeavor that no single person could accomplish alone. It is the house of alliance and of common cause, of the people who walk with you toward a future none of you can reach by yourselves.
 
-It rules, too, hopes and wishes, the dreams cast forward into what has not yet arrived. This is the most future-facing house of the wheel, concerned less with what is than with what could be, with ideals and the long work of bending a life or a society toward them. Ruled traditionally by Saturn and, in the modern reckoning, by Uranus, it blends structure with revolution: the discipline to build a community and the electric impulse to remake the world. It asks what you hope for, whom you hope alongside, and whether your dreams are wide enough to include others.
+It rules, too, hopes and wishes, the dreams cast forward into what has not yet arrived. This is the most future-facing house of the wheel, concerned less with what is than with what could be, with ideals and the long work of bending a life or a society toward them. Ruled traditionally by Saturn[^sn-saturn-astrology] and, in the modern reckoning, by Uranus, it blends structure with revolution: the discipline to build a community and the electric impulse to remake the world. It asks what you hope for, whom you hope alongside, and whether your dreams are wide enough to include others.
 
 ## Correspondences
 
@@ -34,3 +34,7 @@ The Eleventh House is succedent, a house of holding and sustaining, following th
 
 - [Aquarius](/knowledge/astrology/signs/aquarius) and its ruling planets [Saturn](/knowledge/astrology/planets/saturn-astrology) and [Uranus](/knowledge/astrology/planets/uranus-astrology)
 - [Astrology](/knowledge/astrology)
+
+[^sn-tenth-house]: The Tenth House is the summit of the chart, the highest and most visible point, the place where the private self steps fully into public life. See [Tenth House](/knowledge/astrology/houses/tenth-house).
+
+[^sn-saturn-astrology]: Saturn’s gift is maturity: authority earned through endurance, freedom won through mastery, a self forged by meeting limits rather than fleeing them. Details in [Saturn (astrology)](/knowledge/astrology/planets/saturn-astrology).

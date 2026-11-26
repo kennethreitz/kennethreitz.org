@@ -12,7 +12,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-Bacchus is the Roman god of wine, ecstasy, and the theater, the divine power of intoxication and release, and the loosening of the ordinary bonds of the self. He is also called Liber, "the Free One," and stands for liberation from social constraint, the exhilaration and danger of wine, and the ecstatic dissolving of the individual in ritual. His Roman form arose from the meeting of two figures: the imported Greek [Dionysus](/knowledge/mythology/greek-mythology/dionysus), god of the vine and of divine madness, and Liber, an old indigenous Italian deity of fertility and the vine. Liber leaned toward agriculture and the generative power of nature; Dionysus brought the wilder note of ecstasy and rapture, and the two fused into a single god of many aspects.
+Bacchus is the Roman god of wine, ecstasy, and the theater, the divine power of intoxication and release, and the loosening of the ordinary bonds of the self. He is also called Liber, "the Free One," and stands for liberation from social constraint, the exhilaration and danger of wine, and the ecstatic dissolving of the individual in ritual. His Roman form arose from the meeting of two figures: the imported Greek [Dionysus](/knowledge/mythology/greek-mythology/dionysus), god of the vine and of divine madness, and Liber, an old indigenous Italian deity of fertility and the vine. Liber leaned toward agriculture and the generative power of nature; Dionysus[^sn-dionysus] brought the wilder note of ecstasy and rapture, and the two fused into a single god of many aspects.
 
 His iconography is that of the Greek god carried over. He bears the thyrsus, the fennel wand tipped with a pine cone; wears a crown of ivy; and is attended by leopards or panthers, by satyrs, and by the frenzied maenads of his revels. The wine cup and the masks of tragedy and comedy complete his emblems, marking him as patron of the theater as well as of the vine. His titles, Liber Pater, "Father Liber," and Bacchus Liber, keep alive both the old Italian god and the ecstatic newcomer.
 
@@ -27,3 +27,5 @@ Against the Greek [Dionysus](/knowledge/mythology/greek-mythology/dionysus), who
 - [Dionysus](/knowledge/mythology/greek-mythology/dionysus) - Greek equivalent
 - [The Devil](/knowledge/tarot/major-arcana/the-devil) - The Major Arcana card of ecstasy, intoxication, and bondage to appetite
 - [Roman Mythology Index](/knowledge/mythology/roman-mythology)
+
+[^sn-dionysus]: Dionysus is the god of wine, vegetation, pleasure, festivity, madness, and wild frenzy. See [Dionysus](/knowledge/mythology/greek-mythology/dionysus).

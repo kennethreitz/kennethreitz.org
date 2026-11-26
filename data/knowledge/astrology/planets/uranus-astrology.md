@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Uranus is the principle of awakening, the sudden break with what has always been, the shock that frees. It governs revolution, invention, and the ungovernable spark of individuality that refuses to be told who to be. Where Saturn builds the structure, Uranus is the current that overloads it; it is the psyche’s insistence on truth even when truth arrives as rupture. Nothing Uranian is gradual. It comes as insight, as accident, as the flash that reorders everything at once.
 
-Named for the primordial sky, [Uranus](/knowledge/astrology/planets/uranus-astrology) belongs to a scale beyond the personal, one of the outer, generational planets whose slow transits mark the turning of whole eras rather than single lives. It rules Aquarius, the sign of the future and the collective, and it carries the electric detachment of the genius and the exile alike. Uranus’s gift is freedom: the courage to be authentically oneself, to break an obsolete pattern, to glimpse what has not yet been imagined. Its shadow is disruption for its own sake, coldness mistaken for liberation.
+Named for the primordial sky, [Uranus](/knowledge/astrology/planets/uranus-astrology) belongs to a scale beyond the personal, one of the outer, generational planets whose slow transits mark the turning of whole eras rather than single lives. It rules Aquarius,[^sn-aquarius] the sign of the future and the collective, and it carries the electric detachment of the genius and the exile alike. Uranus’s gift is freedom: the courage to be authentically oneself, to break an obsolete pattern, to glimpse what has not yet been imagined. Its shadow is disruption for its own sake, coldness mistaken for liberation.
 
 ## Correspondences
 
@@ -37,3 +37,5 @@ A well-channeled Uranus gives originality, vision, and the nerve to live by one�
 - [Uranus](/knowledge/astrology/planets/uranus-astrology)
 - [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-aquarius]: Aquarius governs the deep of winter, the still weeks after the solstice when the individual mind turns from mere survival to the question of what the world could be. See [Aquarius](/knowledge/astrology/signs/aquarius).

@@ -14,7 +14,7 @@ source: obsidian-knowledge
 
 Jainism is often dated from Mahavira, the "great hero" who lived in the fifth or sixth century BCE as an elder contemporary of the Buddha, but the tradition itself insists he was no founder. He was the twenty-fourth and last tirthankara. "ford-maker," one who builds a crossing over the river of rebirth, in a lineage the Jains hold to be beginningless. His predecessor Parshvanatha, twenty-third in the line, is accepted by historians as a real figure of perhaps the eighth or ninth century BCE, which would make Jainism's organized roots older than Buddhism's.
 
-Like [Buddhism](/knowledge/religions-of-the-world/buddhism), Jainism arose from the shramana current: renouncers of the Ganges valley who rejected Vedic ritual authority and sought liberation through their own discipline rather than through priests and sacrifice. Mahavira, born a prince like Siddhartha, renounced at thirty, practiced austerities of legendary severity for twelve years, attained omniscience (kevala jnana), and taught for three decades. Where Buddhism spread across Asia and faded in India, Jainism did the opposite, it never traveled far, but it never left home. Roughly four to five million Jains live today, mostly in western India, a small community with an outsized cultural footprint in commerce, scholarship, and philanthropy, and a documented influence on Gandhi's nonviolence.
+Like [Buddhism](/knowledge/religions-of-the-world/buddhism),[^sn-buddhism] Jainism arose from the shramana current: renouncers of the Ganges valley who rejected Vedic ritual authority and sought liberation through their own discipline rather than through priests and sacrifice. Mahavira, born a prince like Siddhartha, renounced at thirty, practiced austerities of legendary severity for twelve years, attained omniscience (kevala jnana), and taught for three decades. Where Buddhism spread across Asia and faded in India, Jainism did the opposite, it never traveled far, but it never left home. Roughly four to five million Jains live today, mostly in western India, a small community with an outsized cultural footprint in commerce, scholarship, and philanthropy, and a documented influence on Gandhi's nonviolence.
 
 ---
 
@@ -22,7 +22,7 @@ Like [Buddhism](/knowledge/religions-of-the-world/buddhism), Jainism arose from 
 
 Jain metaphysics divides reality into jiva: souls, alive and conscious, and ajiva, everything that is not soul. The radical move is where the Jains find jiva: not only in humans and animals but in plants, in microorganisms, and in the elemental bodies of earth, water, fire, and air. The universe is dense with sentience, and every soul, however humble its current embodiment, is intrinsically omniscient and blissful, obscured, not corrupted.
 
-What obscures it is [Karma](/knowledge/spirituality/karma), and here Jainism holds its most distinctive doctrine. In the Hindu and Buddhist frameworks karma is a moral principle, action and consequence, or intention and its fruit. In Jainism karma is a substance: a fine material dust drawn to the soul by passion and activity, adhering to it like grime on a lamp, literally weighing it down in samsara. Violence, greed, and deceit attract heavy karmic matter; restraint and equanimity stop the influx (samvara); austerity burns off what has already accumulated (nirjara). Liberation (moksha) is the fully cleansed soul rising, by its own lightness, to the summit of the universe, where the siddhas abide forever, omniscient, blissful, and beyond rebirth. There is no creator god to petition; the tirthankaras are venerated as exemplars, not intercessors. Each soul does its own laundry.
+What obscures it is [Karma](/knowledge/spirituality/karma),[^sn-karma] and here Jainism holds its most distinctive doctrine. In the Hindu and Buddhist frameworks karma is a moral principle, action and consequence, or intention and its fruit. In Jainism karma is a substance: a fine material dust drawn to the soul by passion and activity, adhering to it like grime on a lamp, literally weighing it down in samsara. Violence, greed, and deceit attract heavy karmic matter; restraint and equanimity stop the influx (samvara); austerity burns off what has already accumulated (nirjara). Liberation (moksha) is the fully cleansed soul rising, by its own lightness, to the summit of the universe, where the siddhas abide forever, omniscient, blissful, and beyond rebirth. There is no creator god to petition; the tirthankaras are venerated as exemplars, not intercessors. Each soul does its own laundry.
 
 Because harming any living being binds karma, ahimsa: nonviolence, becomes the tradition's supreme principle, elaborated with unmatched thoroughness. And because reality is many-sided, Jainism developed anekantavada, the doctrine of non-one-sidedness: every truth-claim holds only from some standpoint. The famous parable of the blind men and the elephant is a Jain teaching story. It is a striking pairing, the most absolute ethics resting on the most relativist epistemology, and it made the Jains history's most courteous debaters.
 
@@ -49,7 +49,7 @@ The canonical situation reflects the great schism. The Shvetambara canon compris
 | Digambara | "Sky-clad" | Monks renounce clothing; hold women must be reborn as men to attain moksha; original canon lost |
 | Shvetambara | "White-clad" | White-robed monastics; women can attain liberation; preserve the Agama canon |
 
-The split, formalized around the first centuries CE, turned on monastic practice more than doctrine, the two branches agree on nearly all fundamentals. Shvetambaras later divided again over temple image-worship, producing the aniconic Sthanakavasi and Terapanth movements. Compared with the internal diversity of [Hinduism](/knowledge/religions-of-the-world/hinduism) or [Buddhism](/knowledge/religions-of-the-world/buddhism), Jainism has remained remarkably unified in substance: a small tradition, extraordinarily consistent, still keeping the oldest vow.
+The split, formalized around the first centuries CE, turned on monastic practice more than doctrine, the two branches agree on nearly all fundamentals. Shvetambaras later divided again over temple image-worship, producing the aniconic Sthanakavasi and Terapanth movements. Compared with the internal diversity of [Hinduism](/knowledge/religions-of-the-world/hinduism)[^sn-hinduism] or [Buddhism](/knowledge/religions-of-the-world/buddhism), Jainism has remained remarkably unified in substance: a small tradition, extraordinarily consistent, still keeping the oldest vow.
 
 ---
 
@@ -63,3 +63,8 @@ The split, formalized around the first centuries CE, turned on monastic practice
 ---
 
 *"Non-violence is the highest religion.": Ahimsa paramo dharmah*
+
+[^sn-buddhism]: Buddhism begins with a specific person and a specific problem.
+[^sn-hinduism]: Hinduism has no founder, no founding moment, and no single institution that speaks for it.
+
+[^sn-karma]: Karma is one of the most misunderstood concepts in Western spiritual culture.

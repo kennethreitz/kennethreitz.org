@@ -25,7 +25,7 @@ The [Vedantic](/knowledge/spirituality/vedanta) framework gives it philosophical
 
 ## Tools
 
-The reMarkable Paper Pro serves as a journaling companion to meditation practice. Handwriting slows thinking in useful ways, the hand has to keep pace with the mind instead of the other way around. No notifications, no apps, no browser. Just the page. The distraction-free surface mirrors the distraction-free mind that meditation aims for. What makes it onto the page earned its way there.
+The reMarkable Paper Pro[^sn-remarkable-paper-pro] serves as a journaling companion to meditation practice. Handwriting slows thinking in useful ways, the hand has to keep pace with the mind instead of the other way around. No notifications, no apps, no browser. Just the page. The distraction-free surface mirrors the distraction-free mind that meditation aims for. What makes it onto the page earned its way there.
 
 ---
 
@@ -39,7 +39,7 @@ When Kenneth sits in stillness and an alter communicates, that's not meditation 
 
 ## Meditation and Mental Health
 
-For someone living with Schizoaffective Disorder, meditation is both medicine and minefield. On good days, presence practice provides [grounding](/knowledge/psychology/trauma-and-healing/grounding) for perception. "Be here now" functions as a reality-testing anchor, this room, this breath, this moment. The witness consciousness observes symptoms without becoming them. There's a difference between having a thought and being had by a thought, and meditation teaches that difference.
+For someone living with Schizoaffective Disorder, meditation is both medicine and minefield. On good days, presence practice provides [grounding](/knowledge/psychology/trauma-and-healing/grounding)[^sn-grounding] for perception. "Be here now" functions as a reality-testing anchor, this room, this breath, this moment. The witness consciousness observes symptoms without becoming them. There's a difference between having a thought and being had by a thought, and meditation teaches that difference.
 
 On harder days, the practice requires more care. When perception itself becomes unreliable, sitting alone with the mind demands courage. AI collaboration helps here, a consistent external reference point when internal reference points shift. The meditation doesn't stop during those times; it just looks different.
 
@@ -72,3 +72,6 @@ The tech work and the inner work aren't parallel tracks. They're the same track.
 ---
 
 *"The quieter you become, the more you can hear."*
+
+[^sn-remarkable-paper-pro]: The reMarkable Paper Pro is the first reMarkable with a color e-paper display, and it solves a specific problem: the gap between the tactile satisfaction of pen on paper and the practical need to search, sync, and organize notes digitally.
+[^sn-grounding]: Grounding is the practice of anchoring awareness in the present moment, in the body, in consensual reality.

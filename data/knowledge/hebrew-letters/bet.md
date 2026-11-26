@@ -27,7 +27,7 @@ Bet is the house, and it is where everything we can read begins: the Torah opens
 
 As the number two, bet introduces duality: self and other, above and below, the first wall that makes an inside and an outside. It is a double letter, sounded hard or soft, and the Sefer Yetzirah hangs on it the pair of wisdom and folly, the two ways any dwelling can be kept. Its planet is Mercury, mind and speech, the faculty that builds houses of meaning out of raw perception.
 
-On the Tree it is the twelfth path, from [Kether](/knowledge/tree-of-life/kether) to [Binah](/knowledge/tree-of-life/binah), the Crown pouring itself toward Understanding, the first act of deliberate construction. Its trump is [The Magician](/knowledge/tarot/major-arcana/the-magician), who stands in his hut of tools and draws power down through a directed will: the breath of Aleph put to work inside four walls.
+On the Tree it is the twelfth path, from [Kether](/knowledge/tree-of-life/kether) to [Binah](/knowledge/tree-of-life/binah), the Crown pouring itself toward Understanding, the first act of deliberate construction. Its trump is [The Magician](/knowledge/tarot/major-arcana/the-magician),[^sn-the-magician] who stands in his hut of tools and draws power down through a directed will: the breath of Aleph put to work inside four walls.
 
 ## Related
 
@@ -36,3 +36,5 @@ On the Tree it is the twelfth path, from [Kether](/knowledge/tree-of-life/kether
 - [The Magician](/knowledge/tarot/major-arcana/the-magician)
 - [Kabbalah](/knowledge/spirituality/kabbalah)
 - [Tree of Life](/knowledge/tree-of-life)
+
+[^sn-the-magician]: The Magician is conscious will made effective, the moment the diffuse potential of The Fool finds a hand to act through.

@@ -25,7 +25,7 @@ Keep the two grace notes low to the head and let them rebound as a controlled do
 
 ## In Practice
 
-Drags color everything from orchestral snare writing to jazz comping, where a ruff ahead of a note adds weight and character. They are the foundation of the entire drag family, the single and double drag taps, the ratamacues, and Lesson 25 all begin here, so time spent on a clean drag pays off across the whole tradition.
+Drags color everything from orchestral snare writing to jazz comping, where a ruff ahead of a note adds weight and character. They are the foundation of the entire drag family, the single and double drag taps, the ratamacues, and Lesson 25[^sn-lesson-25] all begin here, so time spent on a clean drag pays off across the whole tradition.
 
 ## Related
 
@@ -33,3 +33,5 @@ Drags color everything from orchestral snare writing to jazz comping, where a ru
 - [Double Drag Tap](/knowledge/music/drum-rudiments/double-drag-tap)
 - [Lesson 25](/knowledge/music/drum-rudiments/lesson-25)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-lesson-25]: Lesson 25 carries the plainest name in the whole list, it is simply the twenty-fifth lesson from an old rudimental method, and the title stuck. See [Lesson 25](/knowledge/music/drum-rudiments/lesson-25).

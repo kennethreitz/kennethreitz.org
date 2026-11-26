@@ -16,7 +16,7 @@ A man hangs upside down, suspended by one ankle from a living T-shaped tree that
 
 ## Upright
 
-The Hanged Man is surrender, reversal, and the wisdom that arrives only when striving stops. Where [Justice](/knowledge/tarot/major-arcana/justice) weighed and acted, the Hanged Man does the harder thing: he lets go, suspends the will, and consents to see from a wholly inverted angle. Upright, the card counsels patience, sacrifice freely given, and the deliberate release of control that opens a new perspective. To draw it is to be asked what you might understand if you stopped fighting the situation and hung, for a while, in its strange upside-down light.
+The Hanged Man is surrender, reversal, and the wisdom that arrives only when striving stops. Where [Justice](/knowledge/tarot/major-arcana/justice)[^sn-justice] weighed and acted, the Hanged Man does the harder thing: he lets go, suspends the will, and consents to see from a wholly inverted angle. Upright, the card counsels patience, sacrifice freely given, and the deliberate release of control that opens a new perspective. To draw it is to be asked what you might understand if you stopped fighting the situation and hung, for a while, in its strange upside-down light.
 
 ## Reversed
 
@@ -49,3 +49,5 @@ When the Hanged Man appears, the reading turns toward surrender and the gift of 
 - [The Star](/knowledge/tarot/major-arcana/the-star)
 - [Individuation](/knowledge/psychology/jungian/individuation)
 - [Tarot](/knowledge/tarot)
+
+[^sn-justice]: Justice is truth, accountability, and the law of cause and effect made visible.

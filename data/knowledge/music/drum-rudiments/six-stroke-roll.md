@@ -23,7 +23,7 @@ Play the two singles as full accented strokes and keep the inner doubles low and
 
 ## In Practice
 
-The six stroke roll is a favorite for modern grooves and fills, jazz and fusion phrasing, and any place a repeating accented roll cell fits. It sits among the [Five Stroke Roll](/knowledge/music/drum-rudiments/five-stroke-roll) and [Seven Stroke Roll](/knowledge/music/drum-rudiments/seven-stroke-roll) but behaves more like a looping figure than a terminating roll.
+The six stroke roll is a favorite for modern grooves and fills, jazz and fusion phrasing, and any place a repeating accented roll cell fits. It sits among the [Five Stroke Roll](/knowledge/music/drum-rudiments/five-stroke-roll) and [Seven Stroke Roll](/knowledge/music/drum-rudiments/seven-stroke-roll)[^sn-seven-stroke-roll] but behaves more like a looping figure than a terminating roll.
 
 ## Related
 
@@ -31,3 +31,5 @@ The six stroke roll is a favorite for modern grooves and fills, jazz and fusion 
 - [Seven Stroke Roll](/knowledge/music/drum-rudiments/seven-stroke-roll)
 - [Double Stroke Open Roll](/knowledge/music/drum-rudiments/double-stroke-open-roll)
 - [Drum Rudiments](/knowledge/music/drum-rudiments)
+
+[^sn-seven-stroke-roll]: The seven stroke roll adds one diddle to the five stroke roll, stretching the sustained part slightly longer before it resolves onto its accent.

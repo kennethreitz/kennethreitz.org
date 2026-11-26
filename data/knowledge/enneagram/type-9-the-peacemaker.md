@@ -28,7 +28,7 @@ The shadow of this gift is self-forgetting. To avoid the friction of asserting t
 
 ## Healthy & Unhealthy
 
-At their best, Nines are dynamic, present, and quietly indomitable, a peace that comes from full engagement rather than avoidance, and a self solid enough to hold its own ground while still embracing others. They show up for their own lives with real energy. Under stress the peace becomes anesthesia. The unhealthy Nine grows stubborn, disengaged, and passive, stonewalling conflict and disappearing into distraction while resentment gathers unspoken beneath the calm. Growth for the Nine is the work of waking up, reclaiming the will and even the anger consigned to [The Shadow](/knowledge/psychology/jungian/the-shadow), and discovering through [Individuation](/knowledge/psychology/jungian/individuation) that their presence matters most when they stop erasing themselves to keep the peace.
+At their best, Nines are dynamic, present, and quietly indomitable, a peace that comes from full engagement rather than avoidance, and a self solid enough to hold its own ground while still embracing others. They show up for their own lives with real energy. Under stress the peace becomes anesthesia. The unhealthy Nine grows stubborn, disengaged, and passive, stonewalling conflict and disappearing into distraction while resentment gathers unspoken beneath the calm. Growth for the Nine is the work of waking up, reclaiming the will and even the anger consigned to [The Shadow](/knowledge/psychology/jungian/the-shadow),[^sn-the-shadow] and discovering through [Individuation](/knowledge/psychology/jungian/individuation) that their presence matters most when they stop erasing themselves to keep the peace.
 
 ## Related
 
@@ -37,3 +37,5 @@ At their best, Nines are dynamic, present, and quietly indomitable, a peace that
 - [Type 3 - The Achiever](/knowledge/enneagram/type-3-the-achiever)
 - [Type 6 - The Loyalist](/knowledge/enneagram/type-6-the-loyalist)
 - [Enneagram](/knowledge/enneagram)
+
+[^sn-the-shadow]: In Jungian psychology, the Shadow is the disowned part of the psyche, everything we can't accept about ourselves gets pushed into this unconscious container.

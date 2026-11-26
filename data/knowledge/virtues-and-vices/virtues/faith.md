@@ -12,11 +12,11 @@ source: obsidian-knowledge
 
 ## Where It Belongs
 
-Faith is the first of the three theological virtues, standing with [Hope](/knowledge/virtues-and-vices/virtues/hope) and [Charity](/knowledge/virtues-and-vices/virtues/charity) on the list Paul closes 1 Corinthians 13 with: "And now abideth faith, hope, charity, these three." The tradition drew a hard line between this list and the other two. The cardinal virtues can be acquired, practice prudence and you become prudent. The theological virtues, Aquinas taught, are *infused*: given rather than built, because their object exceeds what human effort can reach. They aim the soul at God directly, where the cardinal virtues aim it at a well-lived earthly life.
+Faith is the first of the three theological virtues, standing with [Hope](/knowledge/virtues-and-vices/virtues/hope) and [Charity](/knowledge/virtues-and-vices/virtues/charity)[^sn-charity] on the list Paul closes 1 Corinthians 13 with: "And now abideth faith, hope, charity, these three." The tradition drew a hard line between this list and the other two. The cardinal virtues can be acquired, practice prudence and you become prudent. The theological virtues, Aquinas taught, are *infused*: given rather than built, because their object exceeds what human effort can reach. They aim the soul at God directly, where the cardinal virtues aim it at a well-lived earthly life.
 
 ## What It Is
 
-The Greek is *pistis*: trust, fidelity, the placing of confidence in a person. That origin corrects the modern shrinkage of faith into "belief without evidence," as if it were a defective form of knowing. Faith in the tradition is not primarily propositional; it is *fiducial*, the trust one extends to someone, not the odds one assigns to something. Hebrews 11 defines it as "the substance of things hoped for, the evidence of things not seen," and then illustrates with a chapter of people who *acted*, faith known by what it does, walking where sight does not reach. Its classical opposites are unbelief and, more subtly, the refusal to trust anything one cannot control, which makes faith a close cousin of [Humility](/knowledge/virtues-and-vices/virtues/humility), and its absence a quiet form of [Pride](/knowledge/virtues-and-vices/seven-deadly-sins/pride).
+The Greek is *pistis*: trust, fidelity, the placing of confidence in a person. That origin corrects the modern shrinkage of faith into "belief without evidence," as if it were a defective form of knowing. Faith in the tradition is not primarily propositional; it is *fiducial*, the trust one extends to someone, not the odds one assigns to something. Hebrews 11 defines it as "the substance of things hoped for, the evidence of things not seen," and then illustrates with a chapter of people who *acted*, faith known by what it does, walking where sight does not reach. Its classical opposites are unbelief and, more subtly, the refusal to trust anything one cannot control, which makes faith a close cousin of [Humility](/knowledge/virtues-and-vices/virtues/humility),[^sn-humility] and its absence a quiet form of [Pride](/knowledge/virtues-and-vices/seven-deadly-sins/pride).
 
 ## Among the Three
 
@@ -35,3 +35,6 @@ Aquinas gave the three an order: faith comes first because trust is the ground, 
 ---
 
 *Trust first, sight later. That is not the weakness of faith; it is its definition.*
+
+[^sn-charity]: Charity is the only virtue that sits on two lists at once, and the tradition took the doubling as the point.
+[^sn-humility]: Humility leads the seven heavenly virtues, the remedial list, one medicine per deadly sin, and it leads for the same reason its opposite leads the sins: as pride is the root of every vice, humility is the soil of every virtue.

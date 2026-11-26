@@ -11,9 +11,9 @@ source: obsidian-knowledge
 
 ## Essence
 
-Neptune is the principle of dissolution, the softening of every hard edge, the longing for a unity beyond the separate self. It governs dreams, mysticism, imagination, and compassion, but also illusion, glamour, and the sweet fog of escape. Where Saturn draws the line, Neptune erases it; it is the psyche’s yearning to merge, with the divine, with the beloved, with the ocean of feeling from which the ego briefly rose. Its water takes any shape and keeps none.
+Neptune is the principle of dissolution, the softening of every hard edge, the longing for a unity beyond the separate self. It governs dreams, mysticism, imagination, and compassion, but also illusion, glamour, and the sweet fog of escape. Where Saturn draws the line, Neptune[^sn-neptune] erases it; it is the psyche’s yearning to merge, with the divine, with the beloved, with the ocean of feeling from which the ego briefly rose. Its water takes any shape and keeps none.
 
-Like sea-ruling [Poseidon](/knowledge/mythology/greek-mythology/poseidon), Neptune governs depths that cannot be walked, only surrendered to, and it is one of the outer planets, moving so slowly that it colors entire generations with the same longing. It rules Pisces, the sign of the mystic and the martyr. Neptune’s gift is transcendence: the artist’s vision, the saint’s compassion, the capacity to feel oneself part of something boundless. Its shadow is the same boundlessness turned to evasion, deception, addiction, the refusal to meet the world as it actually is.
+Like sea-ruling [Poseidon](/knowledge/mythology/greek-mythology/poseidon), Neptune governs depths that cannot be walked, only surrendered to, and it is one of the outer planets, moving so slowly that it colors entire generations with the same longing. It rules Pisces,[^sn-pisces] the sign of the mystic and the martyr. Neptune’s gift is transcendence: the artist’s vision, the saint’s compassion, the capacity to feel oneself part of something boundless. Its shadow is the same boundlessness turned to evasion, deception, addiction, the refusal to meet the world as it actually is.
 
 ## Correspondences
 
@@ -36,3 +36,7 @@ A well-channeled Neptune gives imagination, spiritual depth, and boundless empat
 - [Poseidon](/knowledge/mythology/greek-mythology/poseidon)
 - [Tarot](/knowledge/tarot)
 - [Astrology](/knowledge/astrology)
+
+[^sn-neptune]: Neptune is the Roman god of the sea and of fresh water, brother of Jupiter and Pluto in the threefold division of the cosmos, sky to Jupiter, the underworld to Pluto, and the waters to Neptune. See [Neptune](/knowledge/astrology/planets/neptune-astrology).
+
+[^sn-pisces]: At its best, Pisces is boundless compassion, imaginative, spiritually attuned, endlessly forgiving, an artist and healer who transmutes suffering into beauty and offers unconditional love. [Pisces](/knowledge/astrology/signs/pisces) has the rest.

@@ -24,7 +24,7 @@ The seventh and final terrace, highest on the mountain: the lustful walk inside 
 
 ## The Remedy
 
-The counter-practice is [Chastity](/knowledge/virtues-and-vices/virtues/chastity-virtue), not the extinction of eros but its integration, desire brought into alignment with love and commitment so that wanting and seeing become the same act.
+The counter-practice is [Chastity](/knowledge/virtues-and-vices/virtues/chastity-virtue)[^sn-chastity-virtue], not the extinction of eros but its integration, desire brought into alignment with love and commitment so that wanting and seeing become the same act.
 
 ## The Enneagram Passion
 
@@ -43,3 +43,5 @@ In the [Enneagram](/knowledge/enneagram), lust is the passion of [Type 8](/knowl
 ---
 
 *The last fire before the garden. Everyone walks through it.*
+
+[^sn-chastity-virtue]: Chastity (*castitas*) stands among the seven heavenly virtues as the remedy for Lust.

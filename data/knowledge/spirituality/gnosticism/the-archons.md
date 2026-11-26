@@ -11,7 +11,7 @@ source: obsidian-knowledge
 
 ## Overview
 
-The **Archons** (Greek *archontes*, "rulers") are the officers of [The Demiurge](/knowledge/spirituality/gnosticism/the-demiurge), the powers he generates to administer his counterfeit cosmos and to keep its inhabitants in check. If the demiurge is the ignorant warden, the archons are his wardens' staff: the enforcing intelligences woven into the fabric of the material world, ruling the spheres, guarding the gates, and maintaining the machinery that holds the divine spark asleep and captive. They are the reason the Gnostic experiences the world not as neutral but as *administered*, watched, governed, hemmed in by unseen authorities who have every interest in the soul staying put.
+The **Archons** (Greek *archontes*, "rulers") are the officers of [The Demiurge](/knowledge/spirituality/gnosticism/the-demiurge)[^sn-the-demiurge], the powers he generates to administer his counterfeit cosmos and to keep its inhabitants in check. If the demiurge is the ignorant warden, the archons are his wardens' staff: the enforcing intelligences woven into the fabric of the material world, ruling the spheres, guarding the gates, and maintaining the machinery that holds the divine spark asleep and captive. They are the reason the Gnostic experiences the world not as neutral but as *administered*, watched, governed, hemmed in by unseen authorities who have every interest in the soul staying put.
 
 ---
 
@@ -23,7 +23,7 @@ The Gnostic universe is a prison, and the archons are its guard. They are typica
 
 ## The Seven Planetary Archons
 
-The archons are classically **seven**, mapped to the seven visible planetary spheres of ancient cosmology, the Moon, Mercury, Venus, Sun, Mars, Jupiter, and Saturn, that were thought to nest between the earth and the realm of the fixed stars. On death, the awakening soul must **ascend** through these seven spheres to reach the fullness beyond, and at each gate an archon stands guard, demanding a password, a token, a sacred name, the proof that this soul knows what it is and where it belongs. This is why [Gnosis](/knowledge/spirituality/gnosticism/gnosis) is *saving* knowledge in the most literal sense: without the knowledge of the names and formulas, the soul cannot pass the checkpoints, and is turned back into the wheel of matter.
+The archons are classically **seven**, mapped to the seven visible planetary spheres of ancient cosmology, the Moon, Mercury, Venus, Sun, Mars, Jupiter, and Saturn, that were thought to nest between the earth and the realm of the fixed stars. On death, the awakening soul must **ascend** through these seven spheres to reach the fullness beyond, and at each gate an archon stands guard, demanding a password, a token, a sacred name, the proof that this soul knows what it is and where it belongs. This is why [Gnosis](/knowledge/spirituality/gnosticism/gnosis)[^sn-gnosis] is *saving* knowledge in the most literal sense: without the knowledge of the names and formulas, the soul cannot pass the checkpoints, and is turned back into the wheel of matter.
 
 ---
 
@@ -44,3 +44,7 @@ The second instrument is the **counterfeit spirit** (*antimimon pneuma*), a fals
 - [Gnosticism](/knowledge/spirituality/gnosticism), the collection this note belongs to
 - [The Devil](/knowledge/tarot/major-arcana/the-devil), the bondage the archons enforce, chains loose enough to lift
 - [Spirituality](/knowledge/spirituality), the wider domain
+
+[^sn-gnosis]: The decisive thing about gnosis is that it is experiential, not propositional.
+
+[^sn-the-demiurge]: The demiurge's cosmos is precisely that Devil's world, a bondage so normalized its inhabitants no longer feel the chains, a material comfort that keeps the divine spark asleep.

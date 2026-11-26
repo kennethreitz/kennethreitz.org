@@ -40,7 +40,7 @@ The tension is real, though. There is a meaningful difference between using a to
 
 The [For Humans](/knowledge/philosophy/for-humans) philosophy is the hacker ethic translated into API design. When Kenneth built [requests](/software/requests), the design decision was to remove every barrier between a human and the HTTP call they wanted to make. No boilerplate. No ceremony. No gatekeeping complexity that served the system's architecture rather than the human's intention. This is Levy's ethic made concrete: access should be unlimited, and the tool should be judged by what it enables, not by the sophistication it demands.
 
-Open Source is the ethic's most visible institutional expression, the conviction that source code should be free, that tools should be shared, that the collective benefits more from openness than from hoarding. [Python](/knowledge/technology/python) itself embodies these values through its commitment to readability and its philosophy that there should be one obvious way to do things. The language trusts its users. It does not hide behind abstraction for abstraction's sake.
+Open Source[^sn-open-source] is the ethic's most visible institutional expression, the conviction that source code should be free, that tools should be shared, that the collective benefits more from openness than from hoarding. [Python](/knowledge/technology/python) itself embodies these values through its commitment to readability and its philosophy that there should be one obvious way to do things. The language trusts its users. It does not hide behind abstraction for abstraction's sake.
 
 [The Maintainer Is the Interface](/essays/2026-03-22-the_maintainer_is_the_interface) extends the ethic into the human dimension of open source, the recognition that the person who maintains the project is as much a part of the system as the code itself, and that how they interact with users reflects whether the ethic is alive or dead in a given community.
 
@@ -67,3 +67,5 @@ The answer is never settled. It just keeps getting asked in new languages, with 
 ---
 
 *Mistrust authority. Promote decentralization. Judge by hacking, not credentials. The rest is commentary.*
+
+[^sn-open-source]: Open source has a sustainability problem that the industry prefers not to think about too carefully.
