@@ -121,7 +121,7 @@ The technical foundation. Library announcements, coding philosophy, and the craf
 - [Introducing Flask-Sockets](/essays/2013-01-introducing_flask_sockets)
 - [Introducing Maya](/essays/2016-01-introducing_maya_datetimes_for_humanstm)
 - [Introducing Records](/essays/2016-01-introducing_records_sql_for_humanstm)
-- [jQuery: URL Parameter Fetching](/essays/2009-01-jquery_snippet_1_url_parameter_fetching)
+- [jQuery: URL Parameter Fetching](/essays/2009-01-01-jquery_snippet_1_url_parameter_fetching)
 - [Legit: The Sexy Git CLI](/essays/2011-01-legit_the_sexy_git_cli)
 - [Major Progress for Requests](/essays/2011-01-major_progress_for_requests)
 - [MediaTemple (dv) Backup to S3 Script](/essays/2009-01-mediatemple_dv_backup_to_s3_script)
